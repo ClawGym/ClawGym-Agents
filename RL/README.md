@@ -19,7 +19,7 @@ task is virtualized into an independent sandbox. Advantages:
   <img src="asset/rl_trend.png" alt="ClawGym-RL training reward and evaluation accuracy curves" width="720">
 </p>
 
-## Install
+## Setup
 
 Run inside the [slimerl/slime:latest](https://thudm.github.io/slime/get_started/quick_start.html#pull-and-start-docker-containere) docker image, then
 install the trainer in editable mode:
@@ -107,7 +107,7 @@ Both the training reward and the eval score in the wandb logs are computed with 
 
 ## Data
 
-The train and eval datasets are already prepared under `data/`; no extra preparation needed.
+The train and eval datasets are already prepared under `data/`. No extra preparation is needed; just run the training script.
 
 The 2,000 training tasks are selected from [RUC-AIBOX/ClawGym-Task](https://huggingface.co/datasets/RUC-AIBOX/ClawGym-Task) and the eval split is the full [RUC-AIBOX/ClawGym-Bench](https://huggingface.co/datasets/RUC-AIBOX/ClawGym-Bench).
 

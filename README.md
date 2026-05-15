@@ -18,3 +18,14 @@ We provide ClawGym-Data and ClawGym-Agents as follows:
 
 ## Training Code
 Please refer to [SFT](SFT) and [RL](RL).
+
+## Citation
+
+```bibtex
+@article{bai2026clawgym,
+  title={ClawGym: A Scalable Framework for Building Effective Claw Agents},
+  author={Bai, Fei and Song, Huatong and Sun, Shuang and Cheng, Daixuan and Yang, Yike and Hao, Chuan and Li, Renyuan and Chang, Feng and Wei, Yuan and Tao, Ran and others},
+  journal={arXiv preprint arXiv:2604.26904},
+  year={2026}
+}
+```
