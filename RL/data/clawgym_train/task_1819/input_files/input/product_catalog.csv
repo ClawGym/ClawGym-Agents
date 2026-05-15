@@ -1,0 +1,15 @@
+sku,product_name,category,price_usd,gross_margin_pct,inventory_status,bestseller_flag,subscription_eligible,catalog_included
+AGL-VC-30,VitamIN C Brightening Serum 30ml,serum,42,78,in_stock,TRUE,TRUE,TRUE
+AGL-RT-50,Retinol Night Cream 0.5% 50ml,moisturizer,48,72,in_stock,TRUE,TRUE,TRUE
+AGL-HA-30,Hyaluronic Acid Serum 30ml,serum,28,80,in_stock,FALSE,TRUE,TRUE
+AGL-SPF-50,Daily Mineral Sunscreen SPF 50 50ml,sunscreen,32,55,in_stock,TRUE,TRUE,TRUE
+AGL-CL-150,Gentle Gel Cleanser 150ml,cleanser,18,65,in_stock,FALSE,FALSE,TRUE
+AGL-TN-120,Balancing Toner 120ml,toner,16,62,in_stock,FALSE,FALSE,TRUE
+AGL-MO-50,Hydra+ Daily Moisturizer 50ml,moisturizer,34,70,in_stock,TRUE,TRUE,TRUE
+AGL-EC-15,Revive Eye Cream 15ml,eye,36,68,low_stock,FALSE,FALSE,TRUE
+AGL-AC-15,Acne Spot Treatment 15ml,treatment,22,60,in_stock,FALSE,FALSE,TRUE
+AGL-BND-SUM,Summer Glow Bundle (Vitamin C + SPF + HA),bundle,89,74,in_stock,TRUE,TRUE,TRUE
+AGL-BND-PM,Night Renewal Bundle (Retinol + Moisturizer),bundle,74,73,in_stock,TRUE,TRUE,TRUE
+AGL-MASK-50,Detox Clay Mask 50ml,mask,24,66,in_stock,FALSE,FALSE,TRUE
+AGL-KIT-TRIAL,Discovery Mini Kit (4pc),kit,25,50,in_stock,FALSE,FALSE,TRUE
+AGL-OIL-30,Calming Face Oil 30ml,oil,30,64,preorder,FALSE,FALSE,TRUE

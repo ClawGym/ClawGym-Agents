@@ -1,0 +1,10 @@
+{
+  "python": "3.10",
+  "formatting": {
+    "lineLength": "88"
+  },
+  "tests": {
+    "enabled": "true",
+    "min_coverage": "eighty"
+  }
+}

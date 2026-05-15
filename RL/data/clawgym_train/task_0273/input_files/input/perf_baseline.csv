@@ -1,0 +1,11 @@
+function,file,samples,time_ms,cpu_percent,llc_miss_rate,branch_miss_rate
+json::Parser::parseValue,src/json/parser.cpp,12000,95,72,12,4
+algo::sortAndDedup,src/algos/sort.cpp,8000,60,85,8,2
+net::Socket::read,src/net/socket.cpp,5000,40,30,25,1
+compression::LZ4::compressBlock,src/comp/lz4.cpp,9000,70,88,15,3
+storage::BTree::insert,src/storage/btree.cpp,11000,85,78,28,6
+util::StringBuilder::append,src/util/string_builder.cpp,4000,20,65,5,1
+image::resizeBilinear,src/image/resize.cpp,7000,55,82,10,2
+math::fastExp,src/math/fast_exp.cpp,3000,15,90,4,1
+hash::MurmurHash3,src/hash/murmur.cpp,6000,35,83,6,2
+cli::CommandRouter::dispatch,src/cli/router.cpp,2000,10,50,3,8

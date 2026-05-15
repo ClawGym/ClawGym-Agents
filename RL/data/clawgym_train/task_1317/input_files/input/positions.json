@@ -1,0 +1,29 @@
+{
+  "sol_price_now": 172.35,
+  "wallets": [
+    {
+      "address": "9xAlphaFund111",
+      "collateral_usd": 25000.0,
+      "debt_usd": 11000.0,
+      "liquidation_ltv": 0.83
+    },
+    {
+      "address": "7pRiskyWal222",
+      "collateral_usd": 12000.0,
+      "debt_usd": 9500.0,
+      "liquidation_ltv": 0.8
+    },
+    {
+      "address": "C3Omega333333",
+      "collateral_usd": 45000.0,
+      "debt_usd": 22000.0,
+      "liquidation_ltv": 0.78
+    },
+    {
+      "address": "B5Delta444444",
+      "collateral_usd": 8000.0,
+      "debt_usd": 2000.0,
+      "liquidation_ltv": 0.85
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+services:
+  payments:
+    objectives:
+      availability_target: 0.999        # 99.9% monthly
+      latency_p95_ms: 400               # p95 latency target
+      latency_p99_ms: 900               # p99 latency target
+      error_rate_threshold: 0.005       # 0.5%
+    window_days: 30
+    error_budget_minutes: 43.2          # 0.1% of 30 days
+  api-gateway:
+    objectives:
+      availability_target: 0.999
+      latency_p95_ms: 300
+      latency_p99_ms: 800
+      error_rate_threshold: 0.005
+    window_days: 30
+    error_budget_minutes: 43.2
+  orders:
+    objectives:
+      availability_target: 0.995
+      latency_p95_ms: 500
+      latency_p99_ms: 1200
+      error_rate_threshold: 0.01        # 1.0%
+    window_days: 30
+    error_budget_minutes: 216.0         # 0.5% of 30 days
+  auth:
+    objectives:
+      availability_target: 0.995
+      latency_p95_ms: 350
+      latency_p99_ms: 900
+      error_rate_threshold: 0.0075
+    window_days: 30
+    error_budget_minutes: 216.0
+  web-frontend:
+    objectives:
+      availability_target: 0.995
+      latency_p95_ms: 250
+      latency_p99_ms: 600
+      error_rate_threshold: 0.01
+    window_days: 30
+    error_budget_minutes: 216.0

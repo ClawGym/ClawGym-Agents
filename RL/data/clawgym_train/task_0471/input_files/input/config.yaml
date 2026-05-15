@@ -1,0 +1,5 @@
+scheme: Paillier
+epsilon: 1.0
+sensitivity: 1
+noise: Laplace
+seed: 42

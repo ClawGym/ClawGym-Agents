@@ -1,0 +1,20 @@
+ISFPath,Description
+ISFDocument/Header/MessageType,ISF message type identifier
+ISFDocument/Header/MessageId,Unique message ID
+ISFDocument/Header/CreationDateTime,Document creation timestamp
+ISFDocument/Body/CreditTransfer/EndToEndId,End-to-end payment identifier
+ISFDocument/Body/CreditTransfer/InstructionId,Instruction identifier
+ISFDocument/Body/CreditTransfer/Debtor/Name,Debtor party name
+ISFDocument/Body/CreditTransfer/Debtor/Identification/OrgId,Debtor organization ID
+ISFDocument/Body/CreditTransfer/DebtorAccount/IBAN,Debtor account IBAN
+ISFDocument/Body/CreditTransfer/Creditor/Name,Creditor party name
+ISFDocument/Body/CreditTransfer/Creditor/Identification/OrgId,Creditor organization ID
+ISFDocument/Body/CreditTransfer/CreditorAccount/IBAN,Creditor account IBAN
+ISFDocument/Body/CreditTransfer/Amount/@Currency,Amount currency attribute (e.g., EUR)
+ISFDocument/Body/CreditTransfer/Amount/#text,Amount value (decimal)
+ISFDocument/Body/CreditTransfer/RemittanceInformation/Unstructured,Unstructured remittance info
+ISFDocument/Body/CreditTransfer/RequestedExecutionDate,Requested execution date
+ISFDocument/Party/DebtorAgent/BIC,Debtor agent BIC
+ISFDocument/Party/CreditorAgent/BIC,Creditor agent BIC
+ISFDocument/Settlement/Method,Settlement method (e.g., CLRG)
+ISFDocument/Settlement/Date,Settlement date

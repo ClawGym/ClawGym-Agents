@@ -1,0 +1,51 @@
+{
+  "facility_name": "Maple Grove Family Dental",
+  "facility_type": "Medical/Dental",
+  "address": "1125 Silver Birch Rd, Brookfield, OH 44515",
+  "cleanable_sq_ft": 12000,
+  "days_per_week": 5,
+  "restrooms": 6,
+  "areas": {
+    "exam_rooms": 12,
+    "operatory_rooms": 6,
+    "xray_room": 1,
+    "sterilization_area": 1,
+    "lab": 1,
+    "reception": 1,
+    "break_room": 1,
+    "offices": 8
+  },
+  "special_requirements": [
+    "Bloodborne pathogen precautions",
+    "Sharps containers not handled by janitorial staff",
+    "HIPAA awareness for document handling"
+  ],
+  "consumables": {
+    "restroom_paper_products": "client-supplied",
+    "trash_bag_liners": "vendor-supplied"
+  },
+  "preferred_schedule": {
+    "windows": [
+      {
+        "days": "Mon-Fri",
+        "start_time": "18:00",
+        "end_time": "22:00"
+      }
+    ],
+    "access": "Key and alarm code provided"
+  },
+  "security": {
+    "background_checks_required": true,
+    "badge_access": false
+  },
+  "green_cleaning": {
+    "preferred": true,
+    "certs": [
+      "Green Seal",
+      "LEED compatible"
+    ],
+    "fragrance_free": true
+  },
+  "parking": "On-site",
+  "trash_disposal": "Dumpster behind building"
+}

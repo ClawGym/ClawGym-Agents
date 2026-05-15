@@ -1,0 +1,9 @@
+name: "BrightBot"
+channels:
+  chat: true
+  email: false
+  voice: false
+languages_supported: 1
+escalation:
+  to_human: false
+  conditions: []

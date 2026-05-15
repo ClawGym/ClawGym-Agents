@@ -1,0 +1,59 @@
+{
+  "company": "Hearthstone GC, Inc.",
+  "working_capital": "adequate for mid-size public projects",
+  "bank_line": {
+    "in_place": true,
+    "secured": true,
+    "undrawn_capacity": "moderate"
+  },
+  "backlog": {
+    "status": "moderate",
+    "mix": "municipal renovations and small civic buildings",
+    "aging": "healthy"
+  },
+  "largest_completed_project": {
+    "type": "municipal community center",
+    "contract_value_band": "five-to-ten-million",
+    "year_completed": 2025
+  },
+  "financial_statements": {
+    "prepared_by": "CPA",
+    "assurance_level": "reviewed",
+    "latest_fiscal_year": 2025
+  },
+  "equipment": {
+    "owned": "core carpentry and sitework tools",
+    "leased": "cranes and specialty MEP"
+  },
+  "controls": {
+    "erp": "Procore integrated with QuickBooks",
+    "job_costing": "monthly WIP reports",
+    "scheduling": "CPM in Primavera or MS Project"
+  },
+  "safety": {
+    "emr_band": "below-industry-average",
+    "program": "documented with quarterly training"
+  },
+  "claims_history": {
+    "surety_claims": "none",
+    "litigation": "routine change-order disputes only"
+  },
+  "references": {
+    "architects": "positive",
+    "owners": "positive",
+    "subcontractors": "on-time payments"
+  },
+  "bonding_history": {
+    "present_surety": "National Fidelity Assurance Co.",
+    "largest_bond_program_band": "up-to-ten-million",
+    "years_with_surety": 4
+  },
+  "key_personnel": {
+    "pm_experience_years_band": "ten-plus",
+    "superintendents": "seasoned with library and school projects"
+  },
+  "project_delivery": {
+    "type": "design-bid-build"
+  },
+  "notes": "City of Westfield prefers AIA A312 forms and requires the bid bond attached to the bid. Electronic bonds are accepted via Surety2000 or as digitally executed PDFs with verifiable power of attorney."
+}

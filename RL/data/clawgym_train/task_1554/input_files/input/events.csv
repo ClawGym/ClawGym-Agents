@@ -1,0 +1,19 @@
+id,date,country,region,liberty,change,description,impact_score,source_id
+E1,1791-12-15,United States,North America,freedom_of_speech,expansion,Ratification of the U.S. Bill of Rights establishing key protections.,9,S1
+E2,1919-03-03,United States,North America,freedom_of_speech,restriction,Schenck v. United States upholds wartime speech restrictions via the "clear and present danger" test.,7,S2
+E3,1881-07-29,France,Europe,freedom_of_speech,expansion,The French Press Law liberalizes press freedoms and curbs prior restraints.,8,S3
+E4,1914-08-08,United Kingdom,Europe,freedom_of_speech,restriction,Defence of the Realm Act empowers wartime censorship and restrictions.,6,S4
+E5,1918-05-16,United States,North America,freedom_of_speech,restriction,The Sedition Act criminalizes disloyal or abusive language about the government.,8,S5
+E6,1933-02-28,Germany,Europe,freedom_of_speech,restriction,Reichstag Fire Decree suspends core civil liberties including expression.,10,S6
+E7,1950-01-26,India,Asia,freedom_of_speech,expansion,The Constitution of India guarantees freedom of speech under Article 19.,8,S7
+E8,1969-06-09,United States,North America,freedom_of_speech,expansion,Brandenburg v. Ohio protects advocacy absent incitement of imminent lawless action.,9,S8
+E9,1868-07-09,United States,North America,due_process,expansion,The Fourteenth Amendment extends due process protections to the states.,10,S9
+E10,1907-12-18,United Kingdom,Europe,due_process,expansion,The Criminal Appeal Act creates a right to appeal criminal convictions.,6,S10
+E11,1948-12-10,International,Global,due_process,expansion,The Universal Declaration of Human Rights affirms fair trial rights.,9,S11
+E12,1950-11-04,Europe,Europe,due_process,expansion,The European Convention on Human Rights guarantees fair trial and liberty.,8,S12
+E13,1961-06-19,United States,North America,due_process,expansion,Mapp v. Ohio applies the exclusionary rule to the states.,8,S13
+E14,1966-06-13,United States,North America,due_process,expansion,Miranda v. Arizona requires warnings upon custodial interrogation.,9,S14
+E15,1936-08-01,Soviet Union,Europe,due_process,restriction,Show trials and purges undermine fair trial standards and due process.,9,S15
+E16,1890-12-15,United States,North America,privacy,expansion,Warren and Brandeis publish "The Right to Privacy" articulating a privacy framework.,5,S16
+E17,1906-10-01,Finland,Europe,freedom_of_assembly,expansion,Reforms broaden protections for peaceful assembly.,5,S17
+E18,1971-06-30,United States,North America,freedom_of_speech,expansion,Pentagon Papers decision protects the press against prior restraint.,8,S18

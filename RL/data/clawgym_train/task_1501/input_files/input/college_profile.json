@@ -1,0 +1,14 @@
+{
+  "name": "Sakshi Malik Government College for Girls, Mokhra (Rohtak)",
+  "location": {
+    "village": "Mokhra",
+    "district": "Rohtak",
+    "state": "Haryana"
+  },
+  "programs": ["B.A.", "B.Sc.", "B.Com."],
+  "facilities": ["Library", "Science Labs", "Sports Ground", "ICT-enabled Classrooms"],
+  "admissions": {
+    "email": "admissions@smgcg-mokhra.example.edu",
+    "phone": "+91-01262-000000"
+  }
+}

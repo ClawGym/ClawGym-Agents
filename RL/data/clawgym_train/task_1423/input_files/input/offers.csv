@@ -1,0 +1,12 @@
+supplier,pipe_diameter_mm,pressure_class_bar,unit_price_usd,lead_time_days,compliance_flag
+AlMadar Steel,600,16,235,60,Y
+Gulf Ductile,600,16,248,55,Y
+LevantPipe,600,16,260,50,Y
+AlMadar Steel,1000,16,410,90,Y
+Gulf Ductile,1000,16,395,110,Y
+LevantPipe,1000,16,420,95,Y
+AlMadar Steel,300,10,140,45,Y
+Gulf Ductile,300,10,135,40,N
+LevantPipe,300,10,150,42,Y
+AlMadar Steel,600,10,210,55,Y
+Gulf Ductile,600,10,205,50,Y

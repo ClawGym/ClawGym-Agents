@@ -1,0 +1,51 @@
+{
+  "gategway": {
+    "port": 19000,
+    "bind": "lan",
+    "reload": "ultra",
+    "auth": {
+      "mode": "token",
+      "token": "change-me-please"
+    },
+    "http": {
+      "endpoints": {
+        "chatCompletions": {
+          "enabled": true
+        }
+      }
+    }
+  },
+  "commands": {
+    "restart": true,
+    "config": true
+  },
+  "agentsz": {
+    "defaults": {
+      "workspace": "~/.openclaw/workspace-default",
+      "model": {
+        "primary": "openai/gpt-4o-mini"
+      }
+    },
+    "list": [
+      {
+        "agentId": "main",
+        "workspace": "~/.openclaw/workspace-user"
+      }
+    ]
+  },
+  "channels": {
+    "telegram": {
+      "botToken": "123456:ABCDEF-This-Is-Not-A-Real-Token",
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "streaming": true,
+      "inlineButtons": "dm"
+    }
+  },
+  "badTop": {
+    "oops": true
+  },
+  "unknownSection": {
+    "x": 1
+  }
+}

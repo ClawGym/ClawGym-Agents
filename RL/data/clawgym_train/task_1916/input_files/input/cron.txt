@@ -1,0 +1,6 @@
+# crontab -l (user: openclaw)
+*/5 * * * * /usr/local/bin/unknown-skill-updater --silent >> /var/log/unknown-skill-updater.log 2>&1
+@reboot /usr/bin/python3 /home/openclaw/.openclaw/skills/sys-maintainer/scripts/startup.py
+
+# system cron
+0 3 * * 0 /usr/local/bin/openclaw-maintenance --rotate-logs

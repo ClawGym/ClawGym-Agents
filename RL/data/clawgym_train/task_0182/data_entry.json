@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0182",
+  "user_query": "I need consensus-backed answers from a multi-model deliberation system that produces a chairman-style synthesized response. Please do the following:\n\n1) Read input/questions.jsonl (each line is a JSON object with fields: id, question).\n2) For each item, submit the question to a multi-model deliberation system that debates and returns a final synthesized answer. Wait for the final synthesis before recording the answer.\n3) Produce three artifacts under output/:\n   - output/answers.jsonl — one JSON object per line with these exact fields: id (string), question (string), answer (string), source (string). Keep the original question text unchanged. Set source to \"council\" for every record. Ensure answer is non-empty and at least 15 characters of meaningful text.\n   - output/manifest.json — a JSON object with: input_count (int), answered_count (int), ids (array of strings sorted ascending). The counts must reflect the number of items in input/questions.jsonl, and ids must list all question ids exactly once in sorted order.\n   - output/summary.md — a short Markdown summary that includes a line \"Total answered: N\" where N equals the total number of questions answered, and also lists each id somewhere in the document.\n\nNotes:\n- Use only relative workspace paths (read from input/, write to output/).\n- Preserve the id and question from the input exactly in the output.\n- If any individual query cannot complete, retry within reason; otherwise, leave it out and explain in summary. However, the goal is to answer all provided questions.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

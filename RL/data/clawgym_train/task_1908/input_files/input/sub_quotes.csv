@@ -1,0 +1,12 @@
+csi_division,trade,vendor,price,notes
+03,Concrete,HarborCore Concrete,132500,"Includes sawcutting, trenching for new plumbing, slab infill; includes ground-penetrating radar (GPR) scanning for utilities; excludes reinforcing beyond #4 dowels; night work included; 30-day validity"
+03,Concrete,Beacon Structural,145000,"Includes scanning, coring up to 12 inches, slab patch with 4000 PSI concrete; excludes hauling/disposal fees (by GC), no overtime; 45-day validity"
+03,Concrete,NorthShore Concrete,168400,"Includes scanning, coring, trench backfill, vapor barrier repairs; bond included; excludes premium night differential; 60-day validity"
+
+23,HVAC,Seaport Mechanical,940000,"Full scope per Div 23: new VAV boxes, ductwork, hydronic piping, controls integration; demo included; excludes TAB and formal commissioning; 45-day validity"
+23,HVAC,Atlantic HVAC,1020000,"Provides VRF with DOAS alternate, ductwork, hydronic, insulation, and TAB included; controls by others; demo included; 60-day price hold"
+23,HVAC,Bay State Climate,885000,"Excludes demo and duct insulation; includes controls; TAB excluded; short 15-day validity; no bond included"
+
+26,Electrical,Beacon Electric,975000,"Includes power and lighting, new panels and feeders, lighting controls, overnight shutdowns; excludes low-voltage/data; fire alarm modifications included; 45-day validity"
+26,Electrical,Harbor City Electric,1040000,"Includes power, lighting, feeders, lighting controls, fire alarm modifications; LV by others; bond included; 60-day validity"
+26,Electrical,Delta Current,910000,"Excludes feeders over 100A and fire alarm work; includes lighting only; no night work; 20-day validity; bond excluded"

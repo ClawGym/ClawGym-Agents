@@ -1,0 +1,9 @@
+{
+  "primary_buddy": "Dana",
+  "buddies": {
+    "Dana": {
+      "email": "dana@example.com",
+      "preferred_activities": ["short outdoor walk", "breathing exercise", "tea chat"]
+    }
+  }
+}

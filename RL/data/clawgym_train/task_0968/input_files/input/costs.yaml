@@ -1,0 +1,35 @@
+materials:
+  primer:
+    grade: mid
+    unit_cost: 28.00
+  interior_walls:
+    grade: mid
+    unit_cost: 42.00
+  interior_ceilings:
+    grade: mid
+    unit_cost: 38.00
+  exterior_siding:
+    grade: mid
+    unit_cost: 45.00
+  exterior_trim:
+    grade: mid
+    unit_cost: 48.00
+  deck:
+    grade: mid
+    unit_cost: 40.00
+
+labor:
+  loaded_rate_per_hour: 52.00
+
+crew:
+  default_size: 3
+
+pricing:
+  materials_markup_pct: 25
+  overhead_pct: 18
+  profit_margin_pct: 18
+
+notes: |
+  - Use mid-grade coatings for all line items unless otherwise specified in job notes.
+  - Loaded labor rate includes employer burden (taxes, WC, liability allocation, benefits).
+  - One crew available (Crew A), default size 3 painters.

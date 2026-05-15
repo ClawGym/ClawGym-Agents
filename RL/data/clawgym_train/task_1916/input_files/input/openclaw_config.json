@@ -1,0 +1,40 @@
+{
+  "gateway": {
+    "bind": "0.0.0.0",
+    "port": 18789,
+    "auth": "none",
+    "authConfig": {
+      "mode": "none",
+      "tokenFile": "/home/openclaw/.openclaw/tokens.json"
+    },
+    "reverseProxy": {
+      "enabled": true,
+      "trustedProxies": []
+    },
+    "logging": {
+      "level": "info"
+    }
+  },
+  "controlUI": {
+    "enabled": true,
+    "allowAnonymous": true,
+    "allowGatewayUrl": true,
+    "gatewayUrl": "http://0.0.0.0:18789",
+    "csrfProtection": false
+  },
+  "tools": {
+    "exec": {
+      "enabled": true,
+      "requireApproval": false,
+      "defaultUser": "openclaw"
+    },
+    "fileIO": {
+      "enabled": true,
+      "requireApproval": false
+    }
+  },
+  "skills": {
+    "path": "/home/openclaw/.openclaw/skills",
+    "autoUpdate": true
+  }
+}

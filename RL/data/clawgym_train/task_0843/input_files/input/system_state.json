@@ -1,0 +1,36 @@
+{
+  "clawdbot": {
+    "current_version": "2026.1.9",
+    "latest_version": "2026.1.10",
+    "will_fail": false
+  },
+  "skills": [
+    {
+      "name": "browser",
+      "current_version": "1.2.0",
+      "latest_version": "1.2.1"
+    },
+    {
+      "name": "nano-banana-pro",
+      "current_version": "3.1.0",
+      "latest_version": "3.1.2"
+    },
+    {
+      "name": "himalaya",
+      "current_version": "1.0.0",
+      "latest_version": "1.0.1",
+      "will_fail": true,
+      "error": "Network timeout while downloading v1.0.1"
+    },
+    {
+      "name": "prd",
+      "current_version": "2.0.4",
+      "latest_version": "2.0.4"
+    },
+    {
+      "name": "gemini",
+      "current_version": "1.7.0",
+      "latest_version": "1.7.0"
+    }
+  ]
+}

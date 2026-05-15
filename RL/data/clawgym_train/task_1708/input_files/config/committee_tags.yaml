@@ -1,0 +1,9 @@
+# Map recipient committee IDs to ideology buckets for aggregation
+# Allowed values: progressive, conservative, nonpartisan
+committees:
+  HCE01: progressive
+  IPA22: progressive
+  MWU55: progressive
+  HEC31: nonpartisan
+  ICA77: conservative
+  CFR90: conservative

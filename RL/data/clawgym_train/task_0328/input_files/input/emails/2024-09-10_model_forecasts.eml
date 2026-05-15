@@ -1,0 +1,28 @@
+From: analytics@club.example
+To: analysts@club.example
+Subject: Model Forecasts - Matchday 7 (vs Riverdale)
+Date: Tue, 10 Sep 2024 10:15:00 +0000
+Content-Type: text/html; charset="UTF-8"
+
+<html>
+  <body>
+    <p>Projected player impact metrics for Matchday 7.</p>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Player</th><th>Position</th><th>xT_90</th><th>xGChain_90</th><th>Predicted_Minutes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Maria Silva</td><td>FWD</td><td>0.45</td><td>0.60</td><td>85</td></tr>
+        <tr><td>John Doe</td><td>MID</td><td>0.32</td><td>0.50</td><td>70</td></tr>
+        <tr><td>Liam Chen</td><td>DEF</td><td>0.10</td><td>0.20</td><td>90</td></tr>
+        <tr><td>Aisha Khan</td><td>WING</td><td>0.38</td><td>0.55</td><td>75</td></tr>
+        <tr><td>Pedro Alvarez</td><td>FWD</td><td>0.41</td><td>0.58</td><td>60</td></tr>
+        <tr><td>Noah Becker</td><td>MID</td><td>0.28</td><td>0.48</td><td>65</td></tr>
+        <tr><td>Ethan Rossi</td><td>DEF</td><td>0.12</td><td>0.25</td><td>90</td></tr>
+        <tr><td>Sofia Petrova</td><td>FWD</td><td>0.36</td><td>0.52</td><td>50</td></tr>
+      </tbody>
+    </table>
+  </body>
+</html>

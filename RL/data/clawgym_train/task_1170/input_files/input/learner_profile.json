@@ -1,0 +1,34 @@
+{
+  "learner_name": "Alex Carter",
+  "native_language": "English (US)",
+  "target_language": "Japanese",
+  "dialect_preference": "Tokyo standard (polite keigo basics)",
+  "current_level": "Absolute beginner",
+  "learning_goal": "Travel",
+  "lesson_length_minutes": 20,
+  "preferred_style": "Mixed",
+  "focus_areas": [
+    "restaurant",
+    "ordering food",
+    "polite expressions",
+    "numbers",
+    "directions"
+  ],
+  "trip_timing": "Traveling to Tokyo and Kyoto in 6 weeks",
+  "constraints": {
+    "dietary": ["vegetarian"],
+    "allergies": ["shellfish"]
+  },
+  "pronunciation_concerns": [
+    "long vowels (e.g., 'o' vs 'ou')",
+    "r/l distinction",
+    "pitch accent awareness"
+  ],
+  "motivation_notes": "Wants to feel confident ordering food and being polite in simple interactions.",
+  "requested_phrases_source": "See input/priority_phrases.jsonl",
+  "other_preferences": {
+    "show_romaji": true,
+    "include_native_script": true,
+    "pace": "beginner-friendly"
+  }
+}

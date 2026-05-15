@@ -1,0 +1,8 @@
+task_name,assigned_to,priority,start_date,end_date,estimated_hours,depends_on
+Project Kickoff,emp_001,high,2026-05-04,2026-05-05,8,
+Requirements Workshop,emp_001,high,2026-05-06,2026-05-10,12,Project Kickoff
+Data Source Audit,emp_002,medium,2026-05-09,2026-05-20,20,Requirements Workshop
+Warehouse Schema Design,emp_003,high,2026-05-11,2026-05-22,24,Requirements Workshop
+ETL Pipeline Prototype,emp_002,high,2026-05-23,2026-06-10,40,"Data Source Audit; Warehouse Schema Design"
+Dashboard MVP,emp_003,medium,2026-06-11,2026-06-25,32,ETL Pipeline Prototype
+UAT & Handover,emp_001,medium,2026-06-26,2026-07-02,16,Dashboard MVP

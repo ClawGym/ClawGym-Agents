@@ -1,0 +1,10 @@
+name,target_markets,supports_austria,pricing_model,settlement_time_days,key_features
+Bluecode,AT;DE;IT,TRUE,per-transaction + monthly,2,QR mobile payments; merchant loyalty
+Stripe,Global,TRUE,per-transaction,2,Cards; wallets; SEPA; robust APIs
+Adyen,Global,TRUE,tiered per-transaction,1,Unified commerce; risk
+Revolut Business,EEA;UK;US,TRUE,per-transaction + subscription,2,Accounts; cards; FX
+Klarna,EEA;US,TRUE,per-transaction + financing fees,3,Pay Later; checkout
+SumUp,EEA,TRUE,per-transaction + hardware,2,POS; cards
+Nets,Nordics;DE,FALSE,per-transaction,2,Acquiring
+PayPal,Global,TRUE,per-transaction,1,Wallet; checkout
+eps-Überweisung,AT,TRUE,per-transaction,1,Online bank transfer Austria

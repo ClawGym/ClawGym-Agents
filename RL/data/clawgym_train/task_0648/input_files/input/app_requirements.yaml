@@ -1,0 +1,51 @@
+# OpenClaw auto-update requirements and preferences
+
+timezone: "America/New_York"
+
+jobs:
+  daily_skills:
+    enabled: true
+    # Exact cron for 04:15 local time
+    cron: "15 4 * * *"
+    time: "04:15"
+    session: "current"          # bind summaries to the current chat/session
+    announce: true
+    include_core_updates: false # skills-only by default (safer)
+    rate_limit:
+      strategy: "per-skill"     # update one by one to reduce throttling risk
+      stop_on_429: true         # stop the run if remote rate limit appears
+    notes: "Use native OpenClaw commands only; identify ClawHub-installed skills, skip ignored slugs, run per-skill updates, compact summary."
+
+  monthly_core_plus_skills:
+    enabled: true
+    # First Saturday of each month at 05:00 local time
+    cron: "0 5 1-7 * 6"
+    schedule: "first Saturday"
+    time: "05:00"
+    session: "isolated"         # run in an isolated maintenance session
+    announce: true
+    include_core_updates: true  # user explicitly consented to include OpenClaw core updates monthly
+    rate_limit:
+      strategy: "per-skill"
+      stop_on_429: true
+    notes: "Record current OpenClaw version, apply core updates only through supported openclaw update flows, then per-skill updates."
+
+session_preferences:
+  daily_summary_to_same_chat: true
+  maintenance_runs_isolated_by_default: true
+
+plan_preferences:
+  clawhub_only: true            # target only ClawHub-installed skills
+  order: "priority_then_alpha"  # priority list first, then alphabetical
+
+skills_ignore_list:
+  - "company-experimental-skill"
+  - "local-utils"
+
+skills_priority:
+  - "auto-updater-openclaw"
+  - "agent-memory-templates"
+
+consent:
+  include_core_updates_monthly: true
+  rationale: "Core updates carry higher risk; they are opt-in and enabled here with explicit consent for the monthly job."

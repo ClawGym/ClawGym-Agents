@@ -1,0 +1,219 @@
+{
+  "timeframe": {
+    "start": "2026-03-01",
+    "end": "2026-03-31"
+  },
+  "items": [
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-weu-apps/providers/Microsoft.Storage/storageAccounts/stweuappmedia",
+      "serviceType": "Storage",
+      "usageType": "Egress-Internet",
+      "region": "West Europe",
+      "quantityGB": 20000,
+      "costUSD": 1800,
+      "notes": "Static media served publicly from Blob; no CDN configured"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-weu-net/providers/Microsoft.Network/applicationGateways/weu-app-gw",
+      "serviceType": "ApplicationGateway",
+      "usageType": "Egress-Internet",
+      "region": "West Europe",
+      "quantityGB": 10000,
+      "costUSD": 900,
+      "notes": "Outbound responses to clients via public frontend"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-weu-apps/providers/Microsoft.Compute/virtualMachines/weu-api-01",
+      "serviceType": "VirtualMachine",
+      "usageType": "Egress-Internet",
+      "region": "West Europe",
+      "quantityGB": 5000,
+      "costUSD": 400,
+      "notes": "Public API responses without CDN caching"
+    },
+
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-eus-data/providers/Microsoft.Storage/storageAccounts/storageeusbatch",
+      "serviceType": "Storage",
+      "usageType": "Egress-Internet",
+      "region": "East US",
+      "quantityGB": 18000,
+      "costUSD": 1600,
+      "notes": "Batch export files downloaded by partners over public internet"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-eus-app/providers/Microsoft.Web/sites/eus-app-frontend",
+      "serviceType": "AppService",
+      "usageType": "Egress-Internet",
+      "region": "East US",
+      "quantityGB": 11000,
+      "costUSD": 900,
+      "notes": "Frontend app serving assets; no CDN"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-eus-app/providers/Microsoft.Web/sites/eus-app-frontend",
+      "serviceType": "AppService",
+      "usageType": "Egress-Internet",
+      "region": "East US",
+      "quantityGB": 1000,
+      "costUSD": 100,
+      "notes": "API responses via public endpoint"
+    },
+
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-jpe-web/providers/Microsoft.Storage/storageAccounts/stjpecontent",
+      "serviceType": "Storage",
+      "usageType": "Egress-Internet",
+      "region": "Japan East",
+      "quantityGB": 12000,
+      "costUSD": 1200,
+      "notes": "Static content for Japan users; no CDN"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-jpe-aks/providers/Microsoft.ContainerService/managedClusters/jpe-aks-web",
+      "serviceType": "AKS",
+      "usageType": "Egress-Internet",
+      "region": "Japan East",
+      "quantityGB": 3000,
+      "costUSD": 300,
+      "notes": "Service responses to public clients"
+    },
+
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-weu-apps/providers/Microsoft.Compute/virtualMachines/weu-app-01",
+      "serviceType": "VirtualMachine",
+      "usageType": "Inter-Region-Data-Transfer",
+      "region": "West Europe",
+      "quantityGB": 10000,
+      "costUSD": 800,
+      "notes": "App data syncing to East US analytics"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-weu-data/providers/Microsoft.Sql/servers/weu-sql-repl",
+      "serviceType": "SQL",
+      "usageType": "Inter-Region-Data-Transfer",
+      "region": "West Europe",
+      "quantityGB": 8000,
+      "costUSD": 700,
+      "notes": "Cross-region replication to East US"
+    },
+
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-eus-cache/providers/Microsoft.Cache/redis/eus-redis-repl",
+      "serviceType": "Redis",
+      "usageType": "Inter-Region-Data-Transfer",
+      "region": "East US",
+      "quantityGB": 12000,
+      "costUSD": 900,
+      "notes": "Cache replication to West Europe"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-eus-data/providers/Microsoft.DataFactory/factories/eus-data-sync",
+      "serviceType": "DataFactory",
+      "usageType": "Inter-Region-Data-Transfer",
+      "region": "East US",
+      "quantityGB": 5000,
+      "costUSD": 300,
+      "notes": "Pipelines replicating data to West Europe"
+    },
+
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-jpe-logs/providers/Microsoft.OperationalInsights/workspaces/jpe-logs",
+      "serviceType": "LogAnalytics",
+      "usageType": "Inter-Region-Data-Transfer",
+      "region": "Japan East",
+      "quantityGB": 5000,
+      "costUSD": 450,
+      "notes": "Logs shipped to East US"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-jpe-analytics/providers/Microsoft.Synapse/workspaces/jpe-analytics",
+      "serviceType": "Synapse",
+      "usageType": "Inter-Region-Data-Transfer",
+      "region": "Japan East",
+      "quantityGB": 3000,
+      "costUSD": 250,
+      "notes": "Aggregates replicated to East US"
+    },
+
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-eus-data/providers/Microsoft.Network/privateEndpoints/pe-sqleusprod",
+      "serviceType": "PrivateLink",
+      "usageType": "PrivateLink-Data-Processed",
+      "region": "East US",
+      "quantityGB": 20000,
+      "costUSD": 400,
+      "notes": "Private Endpoint for SQL database"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-weu-sec/providers/Microsoft.Network/privateEndpoints/pe-kv-weu-001",
+      "serviceType": "PrivateLink",
+      "usageType": "PrivateLink-Data-Processed",
+      "region": "West Europe",
+      "quantityGB": 17500,
+      "costUSD": 350,
+      "notes": "Private Endpoint for Key Vault"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-jpe-sec/providers/Microsoft.Network/privateEndpoints/pe-kv-jpe-001",
+      "serviceType": "PrivateLink",
+      "usageType": "PrivateLink-Data-Processed",
+      "region": "Japan East",
+      "quantityGB": 7500,
+      "costUSD": 150,
+      "notes": "Private Endpoint for Key Vault"
+    },
+
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-weu-hub/providers/Microsoft.Network/expressRouteGateways/er-gw-weu",
+      "serviceType": "ExpressRoute",
+      "usageType": "ExpressRoute-Egress",
+      "region": "West Europe",
+      "quantityGB": 10000,
+      "costUSD": 500,
+      "notes": "Egress to on-prem over metered ER circuit"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-eus-hub/providers/Microsoft.Network/expressRouteGateways/er-gw-eus",
+      "serviceType": "ExpressRoute",
+      "usageType": "ExpressRoute-Egress",
+      "region": "East US",
+      "quantityGB": 6000,
+      "costUSD": 300,
+      "notes": "Egress to on-prem over metered ER circuit"
+    },
+    {
+      "date": "2026-03-31",
+      "resourceId": "/subscriptions/xxxx/resourceGroups/rg-jpe-hub/providers/Microsoft.Network/expressRouteGateways/er-gw-jpe",
+      "serviceType": "ExpressRoute",
+      "usageType": "ExpressRoute-Egress",
+      "region": "Japan East",
+      "quantityGB": 2000,
+      "costUSD": 100,
+      "notes": "Egress to on-prem over metered ER circuit"
+    }
+  ],
+  "assumptions": [
+    "Consumption items aggregated to end-of-month reflect monthly totals for simplicity.",
+    "Pricing tiers blended due to Azure tiered egress pricing; exact per-GB rate varies by volume and zone."
+  ]
+}

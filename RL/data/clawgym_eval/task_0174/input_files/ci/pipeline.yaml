@@ -1,0 +1,26 @@
+name: gentrification-tracker-ci
+env:
+  DEPLOY_ENV: production
+jobs:
+  - name: build
+    runs_on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - run: npm run build
+  - name: test
+    runs_on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm ci
+      - run: npm test
+  - name: deploy
+    needs:
+      - build
+      - test
+    runs_on: ubuntu-latest
+    steps:
+      - run: echo Deploying to $DEPLOY_ENV
+notifications:
+  slack: true
+retention_days: 14

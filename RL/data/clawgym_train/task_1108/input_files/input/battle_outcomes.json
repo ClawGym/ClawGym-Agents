@@ -1,0 +1,26 @@
+[
+  {
+    "result": "win",
+    "rewards": { "pet_points": 120, "experience": 65 },
+    "health_change": -15,
+    "energy_change": -30,
+    "opponent": "Wild Earth Molt",
+    "weather": "windy"
+  },
+  {
+    "result": "loss",
+    "rewards": { "pet_points": 40, "experience": 20 },
+    "health_change": -30,
+    "energy_change": -25,
+    "opponent": "Rogue Water Molt",
+    "weather": "rainy"
+  },
+  {
+    "result": "win",
+    "rewards": { "pet_points": 130, "experience": 70 },
+    "health_change": -35,
+    "energy_change": -30,
+    "opponent": "Wild Fire Molt",
+    "weather": "sunny"
+  }
+]

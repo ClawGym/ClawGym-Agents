@@ -1,0 +1,25 @@
+run_id,job,step,duration_seconds,status
+101,ubuntu-latest,Install dependencies,120,success
+102,ubuntu-latest,Lint,45,success
+103,ubuntu-latest,Unit tests,600,success
+104,ubuntu-latest,Build wheel,200,success
+105,ubuntu-latest,Type check,80,success
+106,ubuntu-latest,Docs build,150,success
+107,ubuntu-latest,Install dependencies,130,success
+108,ubuntu-latest,Lint,47,success
+109,ubuntu-latest,Unit tests,610,success
+110,ubuntu-latest,Build wheel,195,success
+111,ubuntu-latest,Type check,78,success
+112,ubuntu-latest,Docs build,155,success
+113,ubuntu-latest,Install dependencies,125,success
+114,ubuntu-latest,Lint,46,success
+115,ubuntu-latest,Unit tests,605,success
+116,ubuntu-latest,Build wheel,205,success
+117,ubuntu-latest,Type check,82,success
+118,ubuntu-latest,Docs build,149,success
+119,ubuntu-latest,Install dependencies,118,success
+120,ubuntu-latest,Lint,44,success
+121,ubuntu-latest,Unit tests,1200,failure
+122,ubuntu-latest,Build wheel,198,success
+123,ubuntu-latest,Type check,79,success
+124,ubuntu-latest,Docs build,152,success

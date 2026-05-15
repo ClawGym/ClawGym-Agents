@@ -1,0 +1,17 @@
+term_group_id,canonical,variant,variant_role,notes
+tg_today,today,today,modern,Unhyphenated modern form
+tg_today,today,to-day,historical,Hyphenated 19th-century form
+tg_color,color,color,modern,American spelling
+tg_color,color,colour,historical,British spelling
+tg_center,center,center,modern,American spelling
+tg_center,center,centre,historical,British spelling
+tg_goodbye,goodbye,goodbye,modern,Closed modern form
+tg_goodbye,goodbye,good-bye,historical,Hyphenated historical form
+tg_inquiry,inquiry,inquiry,modern,American spelling
+tg_inquiry,inquiry,enquiry,historical,British spelling
+tg_program,program,program,modern,American spelling
+tg_program,program,programme,historical,British spelling
+tg_show,show,show,modern,Modern spelling
+tg_show,show,shew,historical,Archaic variant
+tg_anyone,anyone,anyone,modern,Closed modern form
+tg_anyone,anyone,any one,historical,Two-word historical form

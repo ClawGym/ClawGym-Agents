@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1986",
+  "user_query": "I'm on-call and need quick one-liner commands to check service connectivity by group. Please read input/services.csv and input/config.yaml, then:\n\n1) Create output/commands.txt with one line per group listed in config.yaml (in that exact order). Each line should be a single command that checks all services in that group using host:port arguments in the same order they appear in the CSV for that group. Always include the flag \"--timeout <N>\" where N is the integer \"timeout\" value in config.yaml. Include the flag \"--http\" in that group's command if and only if at least one service in that group has protocol \"http\". Do not include --http for groups that are purely TCP.\n\n2) Create output/plan.json summarizing, per group, the following fields: group, total (count of services), http_count, tcp_count, and targets (array of \"host:port\" strings in that group's input order). Only include groups present in config.yaml and ignore any services whose group is not listed there.\n\n3) Create output/README.md with brief instructions describing the generated files and how to run the commands.\n\nDo not perform any real network calls; just build the commands and summary based on the inputs.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

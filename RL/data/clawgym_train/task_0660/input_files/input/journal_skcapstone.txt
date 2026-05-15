@@ -1,0 +1,11 @@
+Apr 19 06:12:03 atlas systemd[2145]: Started skcapstone.service - Sovereign Kernel Capstone Agent.
+Apr 19 06:15:12 atlas skcapstone[7421]: watchdog timeout: no heartbeat for 60s
+Apr 19 06:15:12 atlas systemd[2145]: skcapstone.service: Main process exited, code=killed, status=9/KILL
+Apr 19 06:15:12 atlas systemd[2145]: skcapstone.service: Failed with result 'watchdog'.
+Apr 19 09:02:47 atlas systemd-coredump[18942]: Process 18321 (skcapstone) of user 1000 dumped core.
+Apr 19 10:15:33 atlas skcapstone[21377]: terminated by signal SIGABRT
+Apr 19 10:15:33 atlas systemd[2145]: skcapstone.service: Failed with result 'signal'.
+Apr 19 10:15:35 atlas systemd[2145]: skcapstone.service: Scheduled restart job, restart counter is at 3.
+Apr 19 10:15:35 atlas systemd[2145]: Started skcapstone.service - Sovereign Kernel Capstone Agent.
+Apr 19 11:08:21 atlas skcapstone[23219]: heartbeat ok; polling subsystems
+Apr 19 12:44:09 atlas skcapstone[23219]: completed scheduled memory compaction; status=ok

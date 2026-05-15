@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0729",
+  "user_query": "We’re standardizing our internal docs around Moodring. Please read input/requests.yaml and input/team_notes.md. Using only the official Moodring reference content for the requested topics (intro, quickstart, patterns, debugging, performance, security), compile a cohesive “Moodring Reference Pack” for engineers.\n\nDeliverables:\n1) Write output/moodring_guide.md with:\n   - An H1 title taken from requests.yaml.title\n   - An executive summary of 80–120 words tailored to onboarding engineers\n   - A “## Contents” section listing the included sections in the exact order from requests.yaml.include\n   - For each requested topic, create a “## {TitleCase}” heading and include the corresponding Moodring reference content verbatim below it (do not rewrite)\n   - Append a “## Team Notes” section that embeds the content of input/team_notes.md verbatim\n   - End with a “## Next Steps” section containing 3 concise bullet points\n2) Write output/index.json with a JSON object:\n   {\n     \"title\": <string>,\n     \"requested_sections\": <array of slugs from requests.yaml.include>,\n     \"sections\": <array of slugs in final order, requested + \"team_notes\" at the end>,\n     \"total_sections\": <int>,\n     \"toc_present\": true\n   }\n\nConventions:\n- Slugs are lowercase: intro, quickstart, patterns, debugging, performance, security, team_notes\n- Keep the Moodring reference sections verbatim (no paraphrasing); only the executive summary and Next Steps should be original.\n- Do not use any sources other than the Moodring reference content and the provided team notes.\n\nWrite only to the specified output/ paths.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

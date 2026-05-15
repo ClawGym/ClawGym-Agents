@@ -1,0 +1,7 @@
+event_id,date,start_time,end_time,category,title,location,notes
+101,2024-07-15,09:00,10:00,Music,Morning Ragas,Main Hall,Classical sitar performance.
+102,2024-07-15,11:00,12:00,Heritage,Local Folk Tales,Library,Storytelling session with elders.
+103,2024-07-15,14:00,15:30,Nature Walk,Guided River Walk,Entrance,Bring comfortable shoes.
+104,2024-07-15,16:00,17:00,Lecture,History of the Region,Conference Room,Educational talk.
+105,2024/07/15,18:00,19:00,Music,Evening Bhajans,Chapel,Date uses slashes (invalid).
+106,2024-07-16,10:00,11:00,Music,Next Day Music,Main Hall,For the following day.

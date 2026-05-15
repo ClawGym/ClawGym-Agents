@@ -1,0 +1,38 @@
+{
+  "name": "Alex Morgan",
+  "grade": 11,
+  "user_type": "first-timer",
+  "timezone": "America/Los_Angeles",
+  "target_score": 1450,
+  "current_estimated_score": 1380,
+  "target_colleges": [
+    "UCLA",
+    "Boston University",
+    "UC Davis",
+    "Northeastern University",
+    "Cal Poly San Luis Obispo"
+  ],
+  "test_dates": [
+    { "label": "Primary", "date": "2026-05-02" },
+    { "label": "Backup 1", "date": "2026-08-29" },
+    { "label": "Backup 2", "date": "2026-10-03" }
+  ],
+  "availability": {
+    "monday": ["17:00-19:00"],
+    "tuesday": ["19:00-21:00"],
+    "wednesday": ["16:30-18:00"],
+    "thursday": ["19:00-21:00"],
+    "friday": ["16:00-17:30"],
+    "saturday": ["09:00-11:00", "13:00-14:30"],
+    "sunday": []
+  },
+  "hours_per_week": 9,
+  "max_session_length_minutes": 90,
+  "previous_attempts": [],
+  "preferences": {
+    "full_length_tests_on": ["Saturday"],
+    "short_drills_length_minutes": 30,
+    "calculator": "comfortable with Desmos; needs more practice on graphing functions"
+  },
+  "notes": "Plays soccer Tue/Thu afternoons; prefers evening study on weekdays; no Sundays; school finals late May."
+}

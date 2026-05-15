@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "ticker": "SOL",
+      "full_name": "Solana",
+      "notes": "High-throughput L1 often associated with consumer apps and DeFi."
+    },
+    {
+      "ticker": "ETH",
+      "full_name": "Ethereum",
+      "notes": "Baseline L1 benchmark; used for comparative mindshare context."
+    },
+    {
+      "ticker": "HYPE",
+      "full_name": "HYPERLIQUID",
+      "time_range": {
+        "start_date": "2025-10-01",
+        "end_date": "2026-04-19"
+      },
+      "notes": "Perpetuals exchange project; include full name for fallback if ticker returns zeros."
+    },
+    {
+      "ticker": "AVAX",
+      "full_name": "Avalanche",
+      "time_range": {
+        "start_date": "2025-04-20",
+        "end_date": "2026-04-19"
+      },
+      "notes": "L1 with subnets narrative; provide explicit range for diversity."
+    }
+  ],
+  "narratives": [
+    {
+      "id": "AI",
+      "notes": "AI-related crypto infrastructure and tokens."
+    },
+    {
+      "id": "DeFi",
+      "notes": "Decentralized finance protocols and tokens."
+    },
+    {
+      "id": "L2",
+      "time_range": {
+        "start_date": "2025-07-01",
+        "end_date": "2026-04-19"
+      },
+      "notes": "Layer-2 scaling ecosystems; case-sensitive narrative ID."
+    },
+    {
+      "id": "Stablecoin",
+      "notes": "Stablecoin issuers, usage, and infrastructure."
+    },
+    {
+      "id": "Meme",
+      "notes": "Meme coins and socially-driven tokens."
+    }
+  ]
+}

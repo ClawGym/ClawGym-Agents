@@ -1,0 +1,78 @@
+name: Acme TaskFlow
+description: Task management web app with teams, assignments, and comments
+context: Next.js 16 | TypeScript (strict) | TailwindCSS | Prisma | PostgreSQL (Supabase-hosted) | Vercel
+stack:
+  framework: Next.js
+  next_version: 16
+  language: TypeScript
+  styling: TailwindCSS
+  orm: Prisma
+  database: PostgreSQL
+  hosting: Vercel
+  auth: NextAuth.js (JWT sessions)
+directories:
+  app: app/
+  api: app/api/
+  components: app/components/
+  lib: lib/
+  prisma: prisma/
+  server: app/(server)/
+  client: app/(client)/
+routing:
+  app_router_only: true
+  api_routes: app/api/[...path]/route.ts
+  dynamic_routes: app/[team]/tasks/[id]/page.tsx
+  server_actions: enabled
+constraints:
+  - Use app/ directory ONLY
+  - Do NOT use pages/ directory
+  - Do NOT use getServerSideProps
+  - NO direct database queries in Client Components
+  - Secrets must never be exposed in client bundles
+  - External browsing requires allow-list approval
+  - Validate all inputs at API boundaries (Zod)
+  - TypeScript strict: no any; avoid as assertions; use type guards
+data_access:
+  client:
+    rules:
+      - Never import Prisma or database clients in Client Components
+      - Use Server Actions or fetch API routes for CRUD
+      - Avoid long-lived tokens; rely on httpOnly cookies and session
+  server:
+    rules:
+      - Use Prisma in Server Components, Server Actions, or API routes only
+      - Centralize queries in lib/db/* for reuse and auditing
+      - Enforce per-user row filtering at query layer when RLS not available
+  caching:
+    rules:
+      - Mutations: cache: 'no-store'
+      - Read-only pages: use revalidate where acceptable
+security:
+  secrets:
+    - Use process.env.* only in server code paths
+    - Do not log secrets or tokens
+  auth:
+    - JWT with NextAuth; session stored via secure httpOnly cookies
+    - Use middleware.ts for protected routes when needed
+  external_fetch_allowlist:
+    - api.acme-taskflow.internal
+    - auth.acme-taskflow.internal
+    - supabase.co
+    - vercel.com
+observability:
+  metrics:
+    - error_rate
+    - p95_latency
+    - job_failures
+  thresholds:
+    error_rate:
+      sev3: ">=1%"
+      sev2: ">=5%"
+      sev1: ">=25%"
+    p95_latency:
+      rule: "alert when > 2x 7d baseline for 5 min"
+build_test_lint:
+  note: Commands are defined in input/commands.json
+notes:
+  - Prefer inline critical docs in AGENTS.md; retrieve larger refs from llms-full.txt
+  - Avoid external links in agent-facing docs unless summarized inline

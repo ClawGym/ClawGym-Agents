@@ -1,0 +1,70 @@
+title: Mamba Mentality Mini-Module Outline
+audience: Emerging and senior leaders seeking actionable performance frameworks
+objective: Translate Kobe Bryant’s Mamba Mentality into a practical leadership playbook anchored in real moments
+
+principles:
+  - name: Obsessive Preparation
+    leadership_translation: Prepare beyond the obvious—study, rehearse, and scenario-plan so pressure reveals your work, not your worries.
+  - name: Relentless Work Ethic
+    leadership_translation: Set a pace that raises the standard—consistency over intensity, reps over rhetoric.
+  - name: Fearlessness
+    leadership_translation: Embrace decisive action under uncertainty—own outcomes and learn fast.
+  - name: Adaptability
+    leadership_translation: Evolve your tools when conditions change—pivot strategy without compromising standards.
+  - name: Resilience
+    leadership_translation: Turn setbacks into signals—recover quickly, recommit fully, and model composure.
+
+iconic_moments:
+  - name: 81-Point Game vs Toronto Raptors
+    date: 2006-01-22
+    linkage: Relentless Work Ethic + Fearlessness
+    detail: Second-highest single-game total in NBA history; 55 points in the second half.
+  - name: 2009 NBA Finals vs Orlando Magic
+    date: 2009-06
+    linkage: Obsessive Preparation + Leadership Execution
+    detail: Lakers won 4–1; Kobe Bryant named Finals MVP.
+  - name: 2010 NBA Finals vs Boston Celtics
+    date: 2010-06
+    linkage: Resilience + Team Stewardship
+    detail: Lakers won 4–3; Game 7 grit; Kobe Bryant named Finals MVP.
+  - name: Achilles Free Throws
+    date: 2013-04-12
+    linkage: Resilience + Fearlessness
+    detail: After rupturing his Achilles, Kobe calmly sank two free throws before exiting.
+  - name: 60-Point Farewell vs Utah Jazz
+    date: 2016-04-13
+    linkage: Adaptability + Relentless Work Ethic
+    detail: Final career game; led late comeback and finished with “Mamba out.”
+
+narrative_constraints:
+  title_required: "Kobe Bryant: Mamba Mentality in Practice"
+  integrate_principles_with_moments: true
+  mention_finals:
+    - year: 2009
+      opponent: Orlando Magic
+      finals_mvp: Kobe Bryant
+    - year: 2010
+      opponent: Boston Celtics
+      finals_mvp: Kobe Bryant
+  must_include:
+    - "81-point game vs Toronto Raptors on January 22, 2006"
+    - "Achilles free throws moment"
+    - "60-point farewell"
+  jersey_numbers_explanation:
+    - "#8 represents early-era intensity and raw athleticism"
+    - "#24 represents mature leadership and 24/7 commitment"
+  quotes:
+    required_count: 3
+    source_file: input/quotes.json
+    wrapping: double_quotes_verbatim
+  length:
+    min_words: 900
+    max_words: 1200
+  takeaways:
+    section_header: "## Takeaways"
+    bullets_min: 5
+    bullets_max: 7
+
+style_alignment:
+  reference_file: input/style_guide.md
+  must_follow: true

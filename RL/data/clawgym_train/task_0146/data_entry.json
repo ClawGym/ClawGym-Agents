@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0146",
+  "user_query": "Read the YAML at input/instructions.yaml and use your local persistent memory to execute the plan exactly as written. Then write these files under output/:\n\n1) output/memory_export.json — an export of the active (non-forgotten) memories after all operations.\n2) output/search_results.json — a JSON object mapping each query in the YAML to an array of matching memory keys (only active memories should be considered).\n3) output/stats_snapshot.json — a snapshot of your memory stats counters after completing all steps (include at least: total_stores, total_updates, total_deletes, total_retrievals, total_tokens_saved).\n4) output/maintenance_report.json — JSON with fields: active_count, archive_count, pruned_count, deduped_count that reflect the final state after maintenance.\n\nUse only relative paths under output/. Do not include any absolute or home-directory paths in the outputs. All outputs must be valid JSON. Make sure the forgotten item is not present in memory_export.json and that search results reflect the updates and the forget operation.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

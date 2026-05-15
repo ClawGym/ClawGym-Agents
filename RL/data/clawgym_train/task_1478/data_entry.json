@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1478",
+  "user_query": "I have a focused bugfix touching the gateway's Telegram webhook validator and OAuth2 checks. Please read input/diff.json, input/pr_metadata.json, and input/CONTRIBUTING.md. Using the repo's contribution norms, produce these files:\n- output/validation_plan.json containing: base, head, changedFiles (from input), recommendedCommands (derived from the changed files and repo rules), maintainersToConsider, and warnings.\n- output/pr_body.md that uses the PR metadata and your computed plan (files touched, validation commands, maintainer routing hints), and includes an AI-assistance section with testing level and the statement \"I reviewed the code and understand what it does.\".\n- output/branch.txt suggesting a short branch name that starts with \"fix/\" and includes both \"gateway\" and \"telegram\".\n- output/maintainers.txt listing the maintainer routing hints, one per line, as in your plan.\n- output/git_safety_checklist.md outlining a two-step destructive confirmation protocol for any cleanup (must include showing current branch and HEAD, a backup plan, an explicit YES confirmation requirement, the preferred use of \"git push --force-with-lease\", and call out \"git reset --hard\", \"git clean -fd\", and \"git branch -D\" as destructive operations).\nMake sure your recommended commands include docs checks when docs are touched. Keep scope tight and follow CONTRIBUTING.md. Write all outputs under output/ and do not invent files beyond those listed in input/diff.json.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

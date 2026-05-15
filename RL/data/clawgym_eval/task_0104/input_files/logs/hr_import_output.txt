@@ -1,0 +1,14 @@
+$ hr_sync --source wearables/junior_2024 --club-id JRFC --dry-run
+2024-03-02 09:12:01 INFO Starting HR import
+2024-03-02 09:12:02 INFO Loaded 10 records
+2024-03-02 09:12:03 INFO player_id=1001 OK
+2024-03-02 09:12:03 WARNING player_id=1002 missing_intervals defaulted
+2024-03-02 09:12:04 INFO player_id=1003 OK
+2024-03-02 09:12:04 ERROR player_id=1004 corrupt_file
+2024-03-02 09:12:05 ERROR player_id=1005 sensor_disconnected
+2024-03-02 09:12:05 INFO player_id=1006 OK
+2024-03-02 09:12:06 INFO player_id=1007 OK
+2024-03-02 09:12:06 INFO player_id=1008 OK
+2024-03-02 09:12:07 ERROR player_id=1009 checksum_failed
+2024-03-02 09:12:07 INFO player_id=1010 OK
+2024-03-02 09:12:07 INFO Import finished with 3 errors, 1 warnings

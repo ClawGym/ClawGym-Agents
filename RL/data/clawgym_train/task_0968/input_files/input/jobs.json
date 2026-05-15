@@ -1,0 +1,86 @@
+{
+  "jobs": [
+    {
+      "job_name": "Miller Residence - Full Interior Repaint",
+      "type": "interior",
+      "year_built": 1988,
+      "areas_sq_ft": {
+        "walls": 2400,
+        "ceilings": 2000,
+        "siding": 0,
+        "trim": 600,
+        "deck": 0
+      },
+      "coats": {
+        "walls": 2,
+        "ceilings": 1,
+        "siding": 0,
+        "trim": 2,
+        "deck": 0
+      },
+      "dark_to_light": {
+        "walls": true,
+        "ceilings": false,
+        "siding": false,
+        "trim": false,
+        "deck": false
+      },
+      "notes": "Occupied home. Dark navy walls going to light gray. Standard prep."
+    },
+    {
+      "job_name": "Nguyen Residence - Exterior Repaint",
+      "type": "exterior",
+      "year_built": 1965,
+      "areas_sq_ft": {
+        "walls": 0,
+        "ceilings": 0,
+        "siding": 2000,
+        "trim": 400,
+        "deck": 300
+      },
+      "coats": {
+        "walls": 0,
+        "ceilings": 0,
+        "siding": 2,
+        "trim": 2,
+        "deck": 1
+      },
+      "dark_to_light": {
+        "walls": false,
+        "ceilings": false,
+        "siding": false,
+        "trim": false,
+        "deck": false
+      },
+      "notes": "Two-story colonial with wood siding and a small rear deck."
+    },
+    {
+      "job_name": "Maple Dental Clinic - Reception & Hallways",
+      "type": "commercial",
+      "year_built": 2005,
+      "areas_sq_ft": {
+        "walls": 3200,
+        "ceilings": 1200,
+        "siding": 0,
+        "trim": 200,
+        "deck": 0
+      },
+      "coats": {
+        "walls": 2,
+        "ceilings": 1,
+        "siding": 0,
+        "trim": 1,
+        "deck": 0
+      },
+      "dark_to_light": {
+        "walls": false,
+        "ceilings": false,
+        "siding": false,
+        "trim": false,
+        "deck": false
+      },
+      "off_hours": true,
+      "notes": "Operate after-hours to avoid disrupting patient flow."
+    }
+  ]
+}

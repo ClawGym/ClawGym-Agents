@@ -1,0 +1,8 @@
+allowed_domains:
+  - cdc.gov
+  - medlineplus.gov
+topics:
+  - hydration
+  - heat safety
+  - exercise in heat
+invalid_test_url: "https://example.invalid/hydration"

@@ -1,0 +1,9 @@
+# OpenSSH server configuration (snapshot)
+Port 22
+PermitRootLogin yes
+PasswordAuthentication yes
+ChallengeResponseAuthentication yes
+X11Forwarding yes
+Ciphers aes128-cbc,3des-cbc,aes192-cbc,aes256-ctr
+MACs hmac-sha1,hmac-sha2-256
+AllowUsers alice bob

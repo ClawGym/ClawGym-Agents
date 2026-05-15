@@ -1,0 +1,8 @@
+{
+  "routing": {
+    "rules": {
+      "supplies": "volunteer-logistics"
+    },
+    "fallback_team": "unassigned"
+  }
+}

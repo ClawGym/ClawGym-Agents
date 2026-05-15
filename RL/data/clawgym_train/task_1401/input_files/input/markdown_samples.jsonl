@@ -1,0 +1,10 @@
+{"id":"im-001","input_markdown":"# Weekly Report\n\n- [x] Planning complete\n- [ ] Implement feature X\n\n> Note: Coordinate with QA.","output_text":"【Weekly Report}\n\n✅ Planning complete\n☐ Implement feature X\n\n💬 Note: Coordinate with QA."}
+{"id":"im-002","input_markdown":"## System Specs\n\n| Component | Value |\n|---|---|\n| CPU | 8 cores |\n| RAM | 16 GB |\n| Disk | 512 GB SSD |","output_text":"【System Specs】\n\n- CPU: 8 cores\n- RAM: 16 GB\n- Disk: 512 GB SSD"}
+{"id":"im-003","input_markdown":"### Deployment Steps\n\n1. Clone repo\n2. Run `npm install`\n3. Deploy\n\nFor details, see [Guide](https://example.com/guide).","output_text":"【Deployment Steps】\n\n1. Clone repo\n2. Run 「npm install」\n3. Deploy\n\nGuide: <https://example.com/guide>"}
+{"id":"im-004","input_markdown":"![logo](https://example.com/logo.png)\n\nWelcome to the project.","output_text":"[Image: logo]\n\nWelcome to the project."}
+{"id":"im-005","input_markdown":"> Urgent: Downtime at 02:00 UTC","output_text":"💬 Urgent: Downtime at 02:00 UTC"}
+{"id":"im-006","input_markdown":"| Metric | Today | Yesterday |\n|---|---:|---:|\n| Signups | 120 | 100 |\n| Revenue | $1,500 | $1,400 |","output_text":"【Metrics】\n\n- Signups: Today 120; Yesterday 100\n- Revenue: Today $1,500; Yesterday $1,400"}
+{"id":"im-007","input_markdown":"### Tasks\n- [ ] Write docs\n- [x] Create tests","output_text":"【Tasks】\n☐ Write docs\n✅ Create tests"}
+{"id":"im-008","input_markdown":"Title\n\n---\n\nBody","output_text":"【Title】\n──────────\nBody"}
+{"id":"im-009","input_markdown":"## Contacts\n\n| Name | Email |\n|---|---|\n| Alice | alice@example.com |\n| Bob | bob@example.com |","output_text":"【Contacts】\n\n- Alice: alice@example.com\n- Bob: bob@example.com"}
+{"id":"im-010","input_markdown":"Plain paragraph with no markdown.","output_text":"Plain paragraph with no markdown."}

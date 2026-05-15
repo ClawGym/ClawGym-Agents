@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0869",
+  "user_query": "Please read input/topic.txt for the topic and input/keywords.txt for the comma-separated keywords. Generate 7 SEO-friendly, click-worthy blog post titles optimized for search and social engagement, then write them to output/titles.txt.\n\nFormatting and validation rules:\n- Exactly 7 lines, each numbered \"1. \" through \"7. \" in order (e.g., \"1. ...\").\n- Each line (including the \"N. \" prefix) must be between 50 and 60 characters inclusive.\n- Each title must include all keywords from input/keywords.txt exactly as written (case-insensitive substring match for each keyword).\n- After the numbering, ensure variety:\n  - At least one title must start with \"How\".\n  - At least one title must contain the word \"Guide\" anywhere.\n  - At least one title must start with a digit (listicle style) immediately after the numbering (e.g., \"3 ways...\").\n- At least two titles must include at least one of these power words: Ultimate, Complete, Essential, Proven (case-insensitive).\n- Return only the titles (no extra commentary, headers, or blank lines).\n\nWrite the final results to output/titles.txt.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,5 @@
+id,school,contact_name,contact_email,visit_date,start_time,timezone,grade_band,theme_focus,status
+1,Maple Grove Elementary,Sara Lopez,slopez@maplegrove.edu,2026-05-20,09:30,America/New_York,3-4,Simple Machines,confirmed
+2,Riverbend STEM Academy,Tom Nguyen,tnguyen@riverbend.org,2026-05-18,13:00,America/Chicago,5-6,Coding Basics,pending
+3,Sunnydale Public Library,Pat O'Neil,pat.oneil@sunnydale.gov,2026-05-22,10:00,America/Los_Angeles,2-5,Robotics,cancelled
+4,Oak Ridge Middle,Kim Patel,kpatel@oakridge.k12,2026-05-27,14:00,America/New_York,6-7,Renewable Energy,confirmed

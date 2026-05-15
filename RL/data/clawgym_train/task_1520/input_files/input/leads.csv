@@ -1,0 +1,11 @@
+lead_id,company,industry,stage,lead_score,days_since_last_contact,notes
+101,Redwood Logistics,Logistics,Qualified,82,14,Interested in KPI dashboards
+102,St. Helena Hospital,Healthcare,Prospect,76,9,Exploring leadership training
+103,Nimbus Retail Co.,Retail,Prospect,65,30,General inquiry
+104,Apex Manufacturing,Manufacturing,Qualified,58,21,Follow-up needed
+105,BrightEdu,Education,Prospect,73,18,Not a focus industry this quarter
+106,Orion Pharma,Healthcare,Qualified,91,5,Executive sponsor identified
+107,Urban Rides,Transportation,Prospect,62,40,Prospect cold
+108,GreenMart,Retail,Qualified,80,2,Strong interest but consumer-facing
+109,Sunrise Clinics,Healthcare,Closed Lost,88,60,Went with another vendor
+110,BlueRiver Freight,Logistics,Prospect,69,27,Interested in operations audit

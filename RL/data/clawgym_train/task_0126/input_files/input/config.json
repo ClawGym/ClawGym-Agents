@@ -1,0 +1,27 @@
+﻿{
+  "agents": {
+    "list": [
+      { "id": "main", "default": true, "name": "Main" },
+      { "id": "alerts", "name": "Alerts" }
+    ]
+  },
+  "channels": {
+    "telegram": {
+      "accounts": {
+        "default": {
+          "botToken": "123456:ABCDEF",
+          "dmPolicy": "pairing"
+        }
+      }
+    },
+    "discord": {
+      "accounts": {
+        "default": {
+          "token": "DISCORD_BOT_TOKEN",
+          "groupPolicy": "allowlist"
+        }
+      }
+    }
+  },
+  "webhooks": { "port": 18790 }
+}

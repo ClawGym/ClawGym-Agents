@@ -1,0 +1,12 @@
+{"channel":"public-support","text":"Please don't share this, but here's an example API key: sk-ABCD1234EFGH5678IJKL90MN"}
+{"channel":"engineering","text":"DB connection: postgres://appuser:Secr3tPassw0rd!@db.example.internal:5432/appdb"}
+{"channel":"internal-dev","text":"Local test only: password=TopSecret42 and AWS key AKIAABCD1234EFGH5678 should never leave this channel."}
+{"channel":"product","text":"Our staging server is at 10.0.0.42 for now. Do not post publicly."}
+{"channel":"marketing","text":"Auth header sample -> Authorization: Bearer abcdefghijABCDEFGHIJ1234567890"}
+{"channel":"security","text":"Token sample (JWT): eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiamRvZSJ9.sIGNATuRESgnHere"}
+{"channel":"ops","text":"Rotation notice: ACME-1234567890ABCDEF1234567890ABCD will be revoked tomorrow."}
+{"channel":"random","text":"TEST: this is a dry-run message with password=ShouldNotFilter and random numbers 12345"}
+{"channel":"hr","text":"Example .env line for docs: SECRET_TOKEN=abcdefghijklmnop"}
+{"channel":"design","text":"Exploring new color palettes for the dashboard; share feedback by EOD."}
+{"channel":"sales","text":"For reference only, an AWS key ID format looks like AKIAZZZZYYYYXXXX1111 — never share real ones."}
+{"channel":"support","text":"Config snippet: client_secret=ZXCVBNMASDFGHJKLQWERTY12345 (for demo only)"}

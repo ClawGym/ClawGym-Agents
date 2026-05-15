@@ -1,0 +1,14 @@
+{"ts":"2026-04-19T14:00:55.100Z","level":"info","msg":"Started nightly aggregation job"}
+{"ts":"2026-04-19T14:01:12.220Z","level":"warning","msg":"High latency to cache cluster (p99=850ms)"}
+{"ts":"2026-04-19T14:05:50.002Z","level":"error","msg":"Connection timeout while contacting auth service (3000ms)"}
+{"ts":"2026-04-19T14:05:59.412Z","level":"error","msg":"Connection timeout while contacting auth service (3000ms)"}
+{"ts":"2026-04-19T14:06:10.826Z","level":"error","msg":"Rate limit exceeded on /api/v1/login (HTTP 429)"}
+{"ts":"2026-04-19T14:06:12.331Z","level":"error","msg":"Rate limit exceeded on /api/v1/login (HTTP 429)"}
+{"ts":"2026-04-19T14:06:40.991Z","level":"fatal","msg":"Fatal error: disk write failed on shard-2"}
+{"ts":"2026-04-19T14:06:55.245Z","level":"info","msg":"Background cleanup complete"}
+{"ts":"2026-04-19T14:07:08.800Z","level":"warning","msg":"Deprecated API used by client 10.2.3.4"}
+{"ts":"2026-04-19T14:07:21.222Z","level":"error","msg":"File not found: /etc/secrets/config.yml"}
+{"ts":"2026-04-19T14:07:30.999Z","level":"debug","msg":"health_check ok"}
+{"ts":"2026-04-19T14:07:45.003Z","msg":"CRITICAL: Null reference in payment handler"}
+{"ts":"2026-04-19T14:08:00.440Z","level":"DEBUG","msg":"verbose trace in scheduler tick"}
+{"ts":"2026-04-19T14:08:12.711Z","level":"info","msg":"Metrics flushed to sink"}

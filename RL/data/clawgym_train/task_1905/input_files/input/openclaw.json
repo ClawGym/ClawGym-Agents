@@ -1,0 +1,56 @@
+{
+  "version": "1.2.0",
+  "agents": {
+    "list": [
+      {
+        "id": "main",
+        "name": "default",
+        "workspace": "workspace/main",
+        "agentDir": "agents/main/agent",
+        "model": "bailian-coding-plan/glm-5"
+      },
+      {
+        "id": "deprecated_bot",
+        "name": "deprecated_bot",
+        "workspace": "workspace/deprecated_bot",
+        "agentDir": "agents/deprecated_bot/agent",
+        "model": "kimi-k1.5"
+      }
+    ]
+  },
+  "channels": {
+    "feishu": {
+      "accounts": {
+        "deprecated_bot": {
+          "appId": "cli_deprecated_000",
+          "appSecret": "sec_deprecated_zzz",
+          "groupPolicy": "open",
+          "dmPolicy": "open",
+          "allowFrom": [
+            "*"
+          ],
+          "connectionMode": "websocket"
+        }
+      }
+    }
+  },
+  "bindings": [
+    {
+      "agentId": "deprecated_bot",
+      "match": {
+        "channel": "feishu",
+        "accountId": "deprecated_bot"
+      }
+    },
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "console",
+        "accountId": "local"
+      }
+    }
+  ],
+  "gateway": {
+    "listen": 3000
+  }
+}

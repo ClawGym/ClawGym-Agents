@@ -1,0 +1,112 @@
+{
+  "poolName": "Culver City Mega Millions Office Pool",
+  "poolSize": 14,
+  "organizer": {
+    "name": "Alex Rivera",
+    "email": "alex.rivera@example.com"
+  },
+  "drawDate": "2026-04-21",
+  "ticketPriceDollars": 2,
+  "budgetDollars": 170,
+  "picksToGenerate": 10,
+  "purchaseWindow": {
+    "open": "2026-04-19T17:00:00-07:00",
+    "close": "2026-04-21T15:00:00-07:00"
+  },
+  "rules": [
+    "All picks are quick-pick style using a generator; no personal number requests.",
+    "Winnings under $100 will be reinvested into tickets for the next draw.",
+    "Winnings of $100 or more will be split equally among contributors."
+  ],
+  "files": {
+    "logistics": "input/logistics.md",
+    "previousDraws": "input/previous_draws.csv"
+  },
+  "participants": [
+    {
+      "name": "Jamie Chen",
+      "contributionDollars": 10,
+      "paid": true,
+      "notes": "Prefers evening meetup"
+    },
+    {
+      "name": "Priya Patel",
+      "contributionDollars": 20,
+      "paid": true,
+      "notes": "Arriving via Metro E Line"
+    },
+    {
+      "name": "Marcus Lee",
+      "contributionDollars": 10,
+      "paid": false,
+      "notes": "Bring cash"
+    },
+    {
+      "name": "Rosa Martinez",
+      "contributionDollars": 15,
+      "paid": true,
+      "notes": ""
+    },
+    {
+      "name": "Samir Khan",
+      "contributionDollars": 10,
+      "paid": true,
+      "notes": "Wants receipt photo"
+    },
+    {
+      "name": "Ava Thompson",
+      "contributionDollars": 20,
+      "paid": true,
+      "notes": ""
+    },
+    {
+      "name": "Ethan Nguyen",
+      "contributionDollars": 10,
+      "paid": true,
+      "notes": "Leaving early"
+    },
+    {
+      "name": "Liam O'Connor",
+      "contributionDollars": 15,
+      "paid": true,
+      "notes": ""
+    },
+    {
+      "name": "Chloe Davis",
+      "contributionDollars": 10,
+      "paid": true,
+      "notes": ""
+    },
+    {
+      "name": "Diego Ramirez",
+      "contributionDollars": 10,
+      "paid": false,
+      "notes": "Venmo pending"
+    },
+    {
+      "name": "Maya Johnson",
+      "contributionDollars": 10,
+      "paid": true,
+      "notes": "Allergic to cats (office)"
+    },
+    {
+      "name": "Noah Wilson",
+      "contributionDollars": 10,
+      "paid": true,
+      "notes": ""
+    },
+    {
+      "name": "Sophia Clark",
+      "contributionDollars": 10,
+      "paid": true,
+      "notes": "Can help with pickup"
+    },
+    {
+      "name": "Jack Miller",
+      "contributionDollars": 10,
+      "paid": true,
+      "notes": ""
+    }
+  ],
+  "notes": "Culver City team meetup at Ivy Station. Bring exact change if adding last-minute tickets."
+}

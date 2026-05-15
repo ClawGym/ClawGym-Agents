@@ -1,0 +1,22 @@
+{
+  "rooms": [
+    {
+      "name": "Kitchen",
+      "plumbing_finish": "brushed brass",
+      "electrical_faceplate_color": "matte black",
+      "exposed_conduit": false
+    },
+    {
+      "name": "Master Bath",
+      "plumbing_finish": "polished chrome",
+      "electrical_faceplate_color": "white",
+      "exposed_conduit": false
+    },
+    {
+      "name": "Living Room",
+      "plumbing_finish": "oil-rubbed bronze",
+      "electrical_faceplate_color": "matte black",
+      "exposed_conduit": true
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "jobs": [
+    {
+      "jobId": "job-standup-001",
+      "name": "Stand Up Reminder",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "cron": "30 10 * * 1-5",
+        "tz": "America/Los_Angeles"
+      },
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Reminder: stand up."
+      },
+      "sessionTarget": "main",
+      "summary": "Weekdays at 10:30 local time — gentle stand up reminder",
+      "nextRun": "2026-04-20T17:30:00Z"
+    },
+    {
+      "jobId": "job-coffee-123",
+      "name": "Coffee Break",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "cron": "0 15 * * 1-5",
+        "tz": "America/Los_Angeles"
+      },
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Reminder: take a coffee break."
+      },
+      "sessionTarget": "main",
+      "summary": "Afternoon coffee break ping on weekdays",
+      "nextRun": "2026-04-20T22:00:00Z"
+    }
+  ]
+}

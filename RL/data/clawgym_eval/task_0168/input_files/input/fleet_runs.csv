@@ -1,0 +1,10 @@
+run_id,vehicle_id,date,region,route_type,distance_km,hydrogen_kg_used
+R001,V100,2025-04-01,West,Urban,45,1.8
+R002,V100,2025-04-03,West,Highway,120,4.2
+R003,V101,2025-04-02,West,Mixed,80,3.0
+R004,V101,2025-04-05,Central,Highway,150,5.1
+R005,V102,2025-04-01,Central,Urban,30,1.5
+R006,V102,2025-04-04,Central,Highway,110,3.9
+R007,V100,2025-04-06,West,Urban,50,2.0
+R008,V101,2025-04-07,West,Highway,130,4.6
+R009,V102,2025-04-07,Central,Mixed,70,2.6

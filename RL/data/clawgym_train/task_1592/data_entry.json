@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1592",
+  "user_query": "I need to deliver a Spanish version of a client handout and a short client email that reinforces a balanced, sustainable approach to nutrition.\n\nPlease do the following using only the files in this workspace:\n\n1) Translate the following sections of input/handout_en.md into Spanish: “Key Principles”, “Sample Meal Pattern”, “Sustainability Note”, and “Allergy Reminder”. Use the exact Spanish equivalents from input/glossary.csv for the mapped nutrition terms. Save the translation as output/handout_es.md. Include one line in the Spanish file that begins exactly with: \"Nota de sostenibilidad:\" followed by a one-sentence summary of the sustainability message in Spanish.\n\n2) Run the checker and fix the translation as needed until it passes: python tools/check_terms.py input/glossary.csv output/handout_es.md. Analyze the command output and revise output/handout_es.md so that the final checker report contains no lines starting with \"ERROR\". Save the final stdout from the last successful run to output/check_report.txt.\n\n3) Draft a concise bilingual email for the client described in input/client_profile.json. Spanish first, English summary second. The email should: (a) greet the client by name, (b) briefly explain what’s attached (the Spanish handout), (c) include exactly three bullet points tailored to their dietary pattern, time constraints, budget, and peanut allergy (do not recommend peanuts), and (d) emphasize the balanced plate and sustainable habits from the handout in 1–2 sentences. Save it to output/email_to_client.txt.\n\nDo not use external services or websites. Deliverables: output/handout_es.md, output/check_report.txt, and output/email_to_client.txt. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

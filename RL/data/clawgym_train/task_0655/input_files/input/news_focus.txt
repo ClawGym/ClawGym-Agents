@@ -1,0 +1,18 @@
+Title: Weekly Tech Brief — AI Infra, Cloud Cost, and Policy
+Timeframe: Week ending 2026-04-19
+Audience: Startup CTO, Head of Product, and Eng Leads
+Focus Topics:
+- AI infrastructure (agents, orchestration, long-context, safety/regulation)
+- Cloud cost optimization and spend efficiency
+- AI/tech regulation updates (US, EU), policy with product impact
+- Semiconductor supply chain and data center capacity signals
+Format Preferences:
+- 6–8 bullet items, each 1–2 sentences max
+- At least 3 credible source links (http URLs)
+- Prioritize items with concrete impact on engineering or roadmap
+- Optional short "What it means" clause when impactful
+Tone:
+- Concise, neutral, decision-oriented
+Exclusions:
+- Rumors without primary/source corroboration
+- Pure funding announcements without product relevance

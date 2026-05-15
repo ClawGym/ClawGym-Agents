@@ -1,0 +1,31 @@
+{
+  "mood_rules": {
+    "base": 0.6,
+    "increment_per_match": 0.1,
+    "max": 0.95,
+    "neutral_confidence": 0.5,
+    "categories": {
+      "happy": ["happy", "excited", "thrilled", "optimistic", "joy"],
+      "frustrated": ["stuck", "annoyed", "ugh", "not working", "frustrated"],
+      "sad": ["sad", "down", "upset", "disappointed"]
+    },
+    "mood_emotions": {
+      "happy": ["joy", "anticipation"],
+      "frustrated": ["frustration"],
+      "sad": ["sadness"],
+      "neutral": []
+    }
+  },
+  "intent_rules": {
+    "question": {
+      "any_contains": ["?", "how", "what", "why"]
+    },
+    "command": {
+      "starts_with": ["set", "create", "add", "schedule", "remind"]
+    },
+    "casual": {
+      "any_contains": ["just sharing", "btw", "for your info", "chatting"]
+    },
+    "default": "other"
+  }
+}

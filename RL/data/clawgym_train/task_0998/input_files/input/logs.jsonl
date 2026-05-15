@@ -1,0 +1,5 @@
+{"ts":"2026-04-15T09:15:00Z","agent":"alpha","level":"info","message":"memory compaction complete"}
+{"ts":"2026-04-15T09:00:00Z","agent":"beta","level":"info","message":"hourly-report emitted"}
+{"ts":"2026-04-15T08:05:00Z","agent":"beta","level":"info","message":"retry succeeded"}
+{"ts":"2026-04-12T16:00:00Z","agent":"beta","level":"error","message":"invoice sync failed (timeout)"}
+{"ts":"2026-04-12T14:32:10Z","agent":"alpha","level":"info","message":"session s-002 completed"}

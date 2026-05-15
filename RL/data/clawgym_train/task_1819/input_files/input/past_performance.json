@@ -1,0 +1,109 @@
+{
+  "date_range": {
+    "start": "2025-04-30",
+    "end": "2025-06-28"
+  },
+  "currency": "USD",
+  "summary": {
+    "total_spend_usd": 66000,
+    "total_revenue_usd": 196600,
+    "blended_roas": 2.98,
+    "avg_cpa_usd": 23.8,
+    "avg_ctr_pct": 1.72,
+    "avg_frequency": 2.4
+  },
+  "campaigns": [
+    {
+      "campaign_name": "META_Conv_AdvPlus-Shopping_All_Catalog_2025Q2",
+      "objective": "Sales",
+      "purpose": "prospecting",
+      "spend_usd": 28000,
+      "purchases": 1245,
+      "revenue_usd": 72800,
+      "roas": 2.6,
+      "cpa_usd": 22.5,
+      "ctr_pct": 1.55,
+      "cpc_usd": 1.45,
+      "impressions": 1800000,
+      "clicks": 27900,
+      "frequency": 1.8,
+      "notes": "Performed best with diverse creatives and automatic placements; strong for SPF and bundles."
+    },
+    {
+      "campaign_name": "META_Conv_Lookalike-HighLTV_1-2pct_SerumFocus_2025Q2",
+      "objective": "Sales",
+      "purpose": "prospecting",
+      "spend_usd": 16000,
+      "purchases": 803,
+      "revenue_usd": 46400,
+      "roas": 2.9,
+      "cpa_usd": 19.9,
+      "ctr_pct": 2.05,
+      "cpc_usd": 1.15,
+      "impressions": 980000,
+      "clicks": 20090,
+      "frequency": 1.7,
+      "notes": "Best CTR and CPA among non-Advantage+ sets; seed from high-LTV purchasers."
+    },
+    {
+      "campaign_name": "META_Conv_Broad-AdvantagePlusAudience_Serum-HA_2025Q2",
+      "objective": "Sales",
+      "purpose": "prospecting",
+      "spend_usd": 12000,
+      "purchases": 454,
+      "revenue_usd": 26400,
+      "roas": 2.2,
+      "cpa_usd": 26.4,
+      "ctr_pct": 1.4,
+      "cpc_usd": 1.62,
+      "impressions": 760000,
+      "clicks": 10640,
+      "frequency": 2.1,
+      "notes": "Broad Advantage+ Audience did okay; needs stronger hooks for HA."
+    },
+    {
+      "campaign_name": "META_Conv_Retargeting_30d_DPA-Catalog_2025Q2",
+      "objective": "Sales",
+      "purpose": "retargeting",
+      "spend_usd": 10000,
+      "purchases": 879,
+      "revenue_usd": 51000,
+      "roas": 5.1,
+      "cpa_usd": 11.4,
+      "ctr_pct": 2.35,
+      "cpc_usd": 0.86,
+      "impressions": 420000,
+      "clicks": 9870,
+      "frequency": 3.6,
+      "notes": "Top ROAS; frequency started to creep above 3.5; creative fatigue after week 6."
+    },
+    {
+      "campaign_name": "META_Eng_VideoViews_Creative-Testing_2025Q2",
+      "objective": "Engagement",
+      "purpose": "testing",
+      "spend_usd": 2000,
+      "purchases": 18,
+      "revenue_usd": 0,
+      "roas": 0,
+      "cpa_usd": 0,
+      "ctr_pct": 0.95,
+      "cpc_usd": 0.35,
+      "impressions": 310000,
+      "clicks": 2945,
+      "frequency": 1.3,
+      "notes": "Used to gather watch time/engagement; not optimized for purchases."
+    }
+  ],
+  "observations": [
+    "Retargeting DPA delivered the highest ROAS but began showing fatigue at frequency > 3.5.",
+    "1% high-LTV lookalike outperformed broader audiences on CPA and CTR.",
+    "Advantage+ Shopping was reliable for new customer reach; ensure catalog freshness and diverse assets.",
+    "Landscape video inventory is limited; vertical assets performed best in Reels/Stories."
+  ],
+  "recommendations_forward": [
+    "Scale Advantage+ Shopping with refreshed vertical creatives and catalog updates.",
+    "Maintain a dedicated 1% LTV lookalike ad set for control and efficient acquisition.",
+    "Keep retargeting windows tight (7d, 14d, 30d tiers) with frequency cap <=3 and exclude recent converters.",
+    "Rotate creatives every 10–14 days to prevent fatigue and sustain CTR."
+  ]
+}

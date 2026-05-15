@@ -1,0 +1,6 @@
+[
+  {"license_number": "PA-HI-112233", "complaint_count": 0, "last_complaint_date": null},
+  {"license_number": "PA-HI-223344", "complaint_count": 2, "last_complaint_date": "2023-06-14"},
+  {"license_number": "PA-HI-334455", "complaint_count": 1, "last_complaint_date": "2022-12-01"},
+  {"license_number": "PA-HI-445566", "complaint_count": 0, "last_complaint_date": null}
+]

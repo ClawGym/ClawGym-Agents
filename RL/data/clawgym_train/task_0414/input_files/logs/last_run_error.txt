@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "scripts/generate_practice_report.py", line 22, in <module>
+    main()
+  File "scripts/generate_practice_report.py", line 18, in main
+    df['date'] = pd.to_datetime(df['date'])
+  File "pandas/core/frame.py", line 4102, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "pandas/core/indexes/base.py", line 3361, in get_loc
+    raise KeyError(key) from err
+KeyError: 'date'

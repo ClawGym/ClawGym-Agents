@@ -1,0 +1,11 @@
+timezone: Asia/Almaty
+meeting_duration_minutes: 60
+mandatory_roles:
+  - Lead Organizer
+  - Cultural Liaison
+avoid_dates:
+  - date: "2026-05-07"
+    reason: "Commemoration day honoring national heroes"
+  - date: "2026-05-09"
+    reason: "Victory remembrance day"
+max_proposed_slots: 3

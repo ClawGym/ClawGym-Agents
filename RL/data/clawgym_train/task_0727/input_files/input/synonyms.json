@@ -1,0 +1,69 @@
+{
+  "brand and pr": [
+    "brand management",
+    "pr strategy",
+    "public relations"
+  ],
+  "press releases": [
+    "company announcements",
+    "press release",
+    "press comms"
+  ],
+  "viral trends": [
+    "social buzz",
+    "trending topics"
+  ],
+  "influencer insights": [
+    "creator insights",
+    "influencer marketing"
+  ],
+  "earnings": [
+    "financial results",
+    "quarterly results"
+  ],
+  "guidance and outlook": [
+    "forward guidance",
+    "outlook statement"
+  ],
+  "sec filings": [
+    "10-k",
+    "10-q",
+    "8-k"
+  ],
+  "regulatory action": [
+    "consent order",
+    "regulatory enforcement"
+  ],
+  "compliance updates": [
+    "compliance change",
+    "policy update"
+  ],
+  "fraud alerts": [
+    "fraud incident",
+    "security breach"
+  ],
+  "feature launches": [
+    "feature release",
+    "product launch"
+  ],
+  "roadmap": [
+    "planned features",
+    "product roadmap"
+  ],
+  "user feedback": [
+    "customer feedback",
+    "user reviews"
+  ],
+  "federal reserve": [
+    "central bank",
+    "fed"
+  ],
+  "interest rates": [
+    "rate cut",
+    "rate hike"
+  ],
+  "cpi inflation": [
+    "consumer price index",
+    "inflation rate"
+  ]
+}

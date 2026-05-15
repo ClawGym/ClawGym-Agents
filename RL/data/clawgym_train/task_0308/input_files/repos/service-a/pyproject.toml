@@ -1,0 +1,10 @@
+[project]
+name = "service-a"
+version = "1.4.2"
+maintainers = [
+  { name = "Core Platform Bot", email = "core-platform@example.com" },
+  { name = "Carol D'Souza", email = "carol@example.com" }
+]
+
+[tool.metadata]
+business_unit = "Platform"

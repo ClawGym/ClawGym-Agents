@@ -1,0 +1,6 @@
+{
+  "commission_percent_default": 0.12,
+  "margin_percent": 0.45,
+  "currency": "USD",
+  "notes": "Reporting window: 2026-03-01 to 2026-03-31. Attribution is code-only with last-touch logic. Use creator overrides when present."
+}

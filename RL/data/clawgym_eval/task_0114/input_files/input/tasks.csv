@@ -1,0 +1,11 @@
+id,category,task_name,tags,language,due_date,status,severity,notes
+1,Residency,Exchange UK driving licence to Spanish,"driving;residency",en,2026-07-01,Pending,Medium,"Appointment availability limited; bring TIE/NIE."
+2,Residency,Collect TIE card,"TIE;residency",en,2026-06-05,Pending,High,"Cita previa needed; reference number EX-12345."
+3,Healthcare,Register S1 with Seguridad Social,"healthcare;S1",en,2026-05-28,Pending,High,"Take S1 form and padrón."
+4,Admin,Renew gym membership,"personal",en,2026-05-30,Pending,Low,"Can be done online."
+5,Residency,Empadronamiento certificate (padrón),"padron;residency",es,2026-05-25,Done,Medium,"Recogido el 2026-05-10."
+6,Work,Submit tax return,"taxes",en,2026-06-20,Pending,Medium,"Use Renta Web."
+7,Residency,Provide employment certificate (certificado de empleo),"residency;employment",en,2026-05-27,Pending,High,"Ask HR for 'certificado de empresa' in Spanish."
+8,Other,Book trip to UK,"travel",en,2026-08-15,Pending,Low,"Check prices."
+9,Residency,NIE update address,"NIE;residency",en,2026-06-10,Pending,Medium,"Take padrón and rental contract."
+10,Healthcare,EHIC/GHIC check,"healthcare",en,2026-05-26,Pending,Low,"Check GHIC validity."

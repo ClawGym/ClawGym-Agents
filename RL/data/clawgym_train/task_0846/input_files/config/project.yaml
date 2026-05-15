@@ -1,0 +1,7 @@
+# Intentional placeholders; update these after inspecting scripts/extract_refs.py
+# The script expects specific key names. Align this file to the script before running.
+
+data_dir: "data/corpus"          # should point to input/corpus
+dictionary: "config/terms.json"   # should point to input/terms.json
+case_sensitive: true               # set to false for case-insensitive matching
+output_path: "outputs/references.json"  # desired output path is outputs/extracted_references.json

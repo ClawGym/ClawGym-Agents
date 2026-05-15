@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1673",
+  "user_query": "I need a quick structural audit of several JSON files before we unify formats across services.\n\nPlease do the following:\n1) Read all JSON files under input/ (input/app_config.json, input/user_profile.json, input/products.json, input/status.json).\n2) For each file, parse the JSON and extract:\n   - top_level_keys: the list of top-level keys (sort lexicographically)\n   - key_count: the number of top-level keys\n   - has_nested_objects: true if the JSON contains any nested object anywhere (objects nested at any depth or objects inside arrays), otherwise false\n   - schema_signature: the sorted top-level keys joined by commas\n3) Compute across all files:\n   - keys_union: all unique top-level keys seen across files (sorted)\n   - keys_intersection: keys present in every file (sorted)\n4) Write output/analysis.json with this structure:\n{\n  \"generated_at\": \"ISO-8601 timestamp\",\n  \"files\": [\n    {\"file\": \"input/<name>.json\", \"top_level_keys\": [\"...\"], \"key_count\": N, \"has_nested_objects\": true/false, \"schema_signature\": \"k1,k2,...\"},\n    ... one entry per input file ...\n  ],\n  \"keys_union\": [\"...\"],\n  \"keys_intersection\": [\"...\"]\n}\nPlease ensure all arrays are sorted lexicographically as requested.\n5) Also write a human-readable summary at output/report.md with these sections and headings:\n   - \"## Schemas\": list each distinct schema_signature and which files share it\n   - \"## No nested objects\": list any files whose has_nested_objects is false\n   - \"## Key sets\": show the Union and Intersection lists from analysis.json\n   Add 2-3 bullet points highlighting notable similarities/differences across the files.\n\nDo not modify anything under input/. Put both deliverables exactly at output/analysis.json and output/report.md.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

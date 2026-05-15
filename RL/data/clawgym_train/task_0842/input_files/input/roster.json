@@ -1,0 +1,7 @@
+{
+  "groups": [
+    {"group_id": "G1", "name": "Middle School", "leader": "Ava"},
+    {"group_id": "G2", "name": "High School", "leader": "Liam"},
+    {"group_id": "G3", "name": "College", "leader": "Noah"}
+  ]
+}

@@ -1,0 +1,5 @@
+600 Tours/Photos
+150 Tours/Itineraries
+90 Tours/Scripts
+300 Tours/AudioGuides
+60 Tours/Maps

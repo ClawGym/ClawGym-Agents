@@ -1,0 +1,4 @@
+{
+  "title": "Frugal AI: Energy-Aware Inference on Edge Devices",
+  "description": "Outline an approach to reduce energy consumption for transformer inference on low-power edge devices without sacrificing accuracy. Include strategies like dynamic token pruning, quantization-aware training, on-device caching, intermittent connectivity handling, and a measurement plan using a power meter. Target an accessible but technically sound write-up."
+}

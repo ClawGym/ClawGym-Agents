@@ -1,0 +1,11 @@
+pomodoro:
+  focus_minutes: 50
+  short_break_minutes: 10
+  long_break_minutes: 15
+  blocks_per_session: 4
+constraints:
+  max_deep_work_blocks_per_day: 6
+  min_block_minutes: 25
+  preferred_deep_work_window:
+    start: "08:00"
+    end: "12:00"

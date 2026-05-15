@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0189",
+  "user_query": "I need a reproducible micro-benchmark and summary. Read input/commands.json to get two Python commands (fast and slow). Then:\n\n1) Run `benchmark-tool run <cmd>` for each command and save the full stdout to:\n- output/raw/run_fast.txt\n- output/raw/run_slow.txt\n\n2) Run `benchmark-tool compare <fast_cmd> <slow_cmd>` in that order and save the full stdout to:\n- output/raw/compare.txt\n\n3) Parse the three raw logs and create output/report.json with this exact schema and rounding:\n{\n  \"tool\": \"Benchmark Tool\",\n  \"commands\": {\"fast\": \"<fast_cmd>\", \"slow\": \"<slow_cmd>\"},\n  \"runs_used\": {\"run\": 10, \"compare_each\": 5},\n  \"run\": {\n    \"fast\": {\"mean\": <float>, \"median\": <float>, \"min\": <float>, \"max\": <float>, \"stddev\": <float>},\n    \"slow\": {\"mean\": <float>, \"median\": <float>, \"min\": <float>, \"max\": <float>, \"stddev\": <float>}\n  },\n  \"compare\": {\"fast_avg\": <float>, \"slow_avg\": <float>}\n}\n- All numeric values must be rounded to 3 decimal places to match the tool's printed statistics.\n- Extract values only from the logs (do not re-compute from timings independently).\n\nUse only relative paths. Create any missing directories under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

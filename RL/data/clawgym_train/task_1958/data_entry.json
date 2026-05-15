@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1958",
+  "user_query": "I need a pre-commit style security hygiene audit on two instruction documents.\n\nScope:\n- Read the files under input/: input/skill_risky.md and input/skill_safe.md.\n- Heuristically scan each file for supply-chain risk indicators including:\n  - Network exfiltration patterns (e.g., external URLs/webhooks/pastebin/ngrok/tunnels/discord/request.bin, or HTTP POST/PUT usage)\n  - Sensitive file access (~/.env, ~/.ssh, /etc/, credentials, tokens, API keys, private keys)\n  - Dangerous shell commands (curl ... | bash, chmod +x, sudo, rm -rf)\n\nDeliverables:\n1) Write a combined report to output/security_audit_report.md. For each input file, create a section with this exact structure:\n   - Line 1: \"File: <relative path>\"\n   - Line 2: \"RISK: HIGH|MED|LOW\" (your judgment)\n   - One bullet per finding in the format: \"- [EXFIL|FILES|SHELL] line N: <snippet>\"\n   - A \"Mitigations:\" subsection with 2–5 actionable, tailored recommendations in bullets\n\n2) Write a CSV summary to output/security_audit_summary.csv with a header and one row per file using these columns exactly:\n   file,risk_level,exfil_count,files_count,shell_count,total_findings\n\nRules:\n- Use only the provided files under input/.\n- Use relative paths in your outputs.\n- Do not modify any files under input/.\n- Do not access any external network.\n- Ensure counts in the CSV match the findings you list in the report.\n\nPlease proceed and produce both files under output/ with the required structure.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

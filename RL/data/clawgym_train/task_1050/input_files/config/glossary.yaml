@@ -1,0 +1,16 @@
+classification_banner: "UNCLASSIFIED // TRAINING USE ONLY"
+expand_first_occurrence: true
+acronyms:
+  ASW:
+    en: "anti-submarine warfare"
+    fr: "lutte anti-sous-marine"
+  TMA:
+    en: "target motion analysis"
+    fr: "analyse du mouvement de cible"
+  MAD:
+    en: "magnetic anomaly detector"
+    fr: "détecteur d'anomalie magnétique"
+  FFT:
+    en: "fast Fourier transform"
+    fr: "transformée de Fourier rapide"
+# Note: VLF mapping to be added by you as specified in the task

@@ -1,0 +1,7 @@
+{"voyage_id":"VAA-101","cargo":[{"description":"Rice","weight_tons":200.0},{"description":"Beans","weight_tons":150.0},{"description":"Medical kits","weight_tons":150.0}]}
+{"voyage_id":"VAA-102","cargo":[{"description":"Maize","weight_tons":200.0},{"description":"Cooking oil","weight_tons":200.0},{"description":"Shelter materials","weight_tons":221.0}]}
+{"voyage_id":"VAA-103","cargo":[{"description":"Water treatment","weight_tons":300.0},{"description":"Blankets","weight_tons":150.0}]}
+{"voyage_id":"VBB-201","cargo":[{"description":"Wheat","weight_tons":400.2},{"description":"Pulses","weight_tons":300.0}]}
+{"voyage_id":"VBB-202","cargo":[{"description":"Corn-soy blend","weight_tons":330.0},{"description":"Plumpy'Nut","weight_tons":349.8}]}
+{"voyage_id":"VCC-301","cargo":[{"description":"ORS","weight_tons":120.0},{"description":"IV fluids","weight_tons":180.0}]}
+{"voyage_id":"VCC-302","cargo":[{"description":"Vaccines","weight_tons":200.0},{"description":"Food rations","weight_tons":320.6}]}

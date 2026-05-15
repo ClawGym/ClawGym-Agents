@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Gear Garden",
+    "theme": "Simple Machines",
+    "target_age": "7-9",
+    "word_count": 2100,
+    "status": "revising",
+    "next_edit_deadline": "2026-05-15",
+    "notes": "Tighten the lever chapter; add glossary terms."
+  },
+  {
+    "title": "Bug Bytes",
+    "theme": "Coding Basics",
+    "target_age": "8-10",
+    "word_count": 1800,
+    "status": "drafting",
+    "next_edit_deadline": "2026-05-19",
+    "notes": "Introduce loops with a paper maze activity."
+  },
+  {
+    "title": "Wind at Recess",
+    "theme": "Renewable Energy",
+    "target_age": "10-12",
+    "word_count": 2500,
+    "status": "editing",
+    "next_edit_deadline": "2026-05-25",
+    "notes": "Add teacher handout reference."
+  },
+  {
+    "title": "Robot Parade",
+    "theme": "Robotics",
+    "target_age": "7-11",
+    "word_count": 2300,
+    "status": "completed",
+    "next_edit_deadline": null,
+    "notes": "Published in 2025."
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "base_url": "https://spec.example.org/agent-contact-card",
+  "pages": [
+    { "path": "docs/overview.md", "title": "Overview" },
+    { "path": "docs/spec.md", "title": "Specification" },
+    { "path": "docs/examples.md", "title": "Examples" }
+  ]
+}

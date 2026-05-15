@@ -1,0 +1,41 @@
+planning_horizon: "Q3 2026"
+min_margin_pct: 0.25
+max_discount_pct: 0.25
+
+channels_focus:
+  - ecommerce
+  - retail
+  - email
+  - social
+
+target_promo_window:
+  start_date: 2026-07-15
+  end_date: 2026-09-30
+
+goals:
+  revenue_growth_yoy_pct: 0.08
+  volume_growth_pct: 0.06
+  attach_rate_cross_sell:
+    from: "AquaBottle 1L"
+    to: "AquaBottle 500ml"
+    target_pct: 0.10
+
+budgets:
+  total_promo_budget_usd: 60000
+  channel_allocations:
+    ecommerce: 0.35
+    retail: 0.35
+    email: 0.15
+    social: 0.15
+
+priority_products:
+  - AquaBottle 500ml
+  - AquaBottle 1L
+  - Sparkling Lime 330ml
+  - Energy Rush 250ml
+
+operational_constraints:
+  - Maintain minimum margin of 25% on any discounted price
+  - Do not exceed 25% discount on any SKU
+  - Ensure sufficient inventory coverage for promoted SKUs
+  - Coordinate with retail partners for in-store support during promotions

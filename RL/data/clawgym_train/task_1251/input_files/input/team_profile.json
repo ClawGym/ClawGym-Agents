@@ -1,0 +1,64 @@
+{
+  "team_name": "BuildOrbit Core Engineering",
+  "people": [
+    {
+      "username": "ava",
+      "name": "Ava Patel",
+      "role": "Frontend Engineer",
+      "preferred_categories": ["Wand", "Gloves", "Ring", "Boots"],
+      "preferred_stats_keywords": ["Accessibility", "CSS", "TypeScript", "Localization", "UX"],
+      "playstyle": "methodical",
+      "avoid_categories": ["Hammer"]
+    },
+    {
+      "username": "ben",
+      "name": "Ben Carter",
+      "role": "Platform Engineer",
+      "preferred_categories": ["Hammer", "Shield", "Chestplate", "Orb"],
+      "preferred_stats_keywords": ["Performance", "Caching", "Concurrency", "Observability"],
+      "playstyle": "optimizer",
+      "avoid_categories": ["Ring"]
+    },
+    {
+      "username": "mina",
+      "name": "Mina Zhou",
+      "role": "Backend Engineer",
+      "preferred_categories": ["Wand", "Dagger", "Scroll", "Helmet"],
+      "preferred_stats_keywords": ["Refactoring", "Testing", "Database", "Decimal Precision"],
+      "playstyle": "clean-architecture",
+      "avoid_categories": ["Boots"]
+    },
+    {
+      "username": "diego",
+      "name": "Diego Ramirez",
+      "role": "SRE",
+      "preferred_categories": ["Shield", "Helmet", "Boots", "Amulet"],
+      "preferred_stats_keywords": ["Incident Response", "Root Cause Analysis", "Calm Under Pressure", "On-call"],
+      "playstyle": "resilient",
+      "avoid_categories": ["Dagger"]
+    },
+    {
+      "username": "celeste",
+      "name": "Celeste Nguyen",
+      "role": "Security Engineer",
+      "preferred_categories": ["Amulet", "Ring", "Shield", "Scroll"],
+      "preferred_stats_keywords": ["Security", "Key Management", "Code Review", "Compliance"],
+      "playstyle": "defensive",
+      "avoid_categories": ["Bow"]
+    }
+  ],
+  "inventory_guidelines": {
+    "equip_slots": ["Weapon", "Armor", "Boots", "Helmet", "Accessory1", "Accessory2"],
+    "set_bonuses_themes": [
+      "Global Developer (currency, timezones, localization)",
+      "The Debugger (logging, observability, error handling)",
+      "Night Watch (incident, on-call, stability)"
+    ],
+    "recommendation_rules": [
+      "Prefer categories listed in preferred_categories.",
+      "Break ties using preferred_stats_keywords matches.",
+      "Avoid categories in avoid_categories unless item is Legendary or Mythic.",
+      "Aim for at least one defensive item for SRE/Security roles."
+    ]
+  }
+}

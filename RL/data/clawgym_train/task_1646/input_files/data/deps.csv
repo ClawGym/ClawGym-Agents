@@ -1,0 +1,9 @@
+name,license
+libfoo,MIT
+libbar,Apache 2.0
+libbaz,GPL v3+
+libqux,Proprietary
+libxyz,BSD 3-Clause
+libcase,mit
+libspace,  MIT  
+libdash,Apache-2.0

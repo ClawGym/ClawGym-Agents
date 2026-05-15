@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1687",
+  "user_query": "I need you to draft and package four messages for different recipients based on my context and the last 5 messages with each person. Read input/requests.json. For each item: 1) calibrate tone using the provided last_messages, 2) choose the best channel based on urgency and relationship, 3) decide whether this should be escalated for my review, and 4) avoid committing to timelines, pricing, legal terms, or refunds. Also, avoid late‑night sends — if recipient_local_hour < 6, recommend scheduling for morning.\n\nDeliverables:\n- Write output/messages.json as an array of objects with fields: id, recommended_channel, escalate (boolean), schedule_for_morning (boolean), timing_notes (string), tone_notes (string), draft (string).\n- Write output/summary.md that lists each id with the chosen channel and whether it was escalated, and include a final line in the format: \"Escalations: X\" where X is the count of escalated messages.\n\nRules to follow:\n- Calibrate tone to match the last 5 messages (length, greeting style, emoji usage).\n- High-stakes or keyword-triggered messages must be marked escalate=true (e.g., investor communications, client complaints, or texts containing words like urgent/emergency/legal/disappointed/cancel/refund/contract/pricing/press/board/deadline).\n- Channel selection by urgency: emergency=call then Slack; same-day=DM or email as appropriate (never Slack for formal clients); this week/FYI=email for professional contexts; use WhatsApp for casual friend.\n- If recipient_local_hour < 6, set schedule_for_morning=true and note to schedule for morning.\n- Do not include commitments like delivery dates, pricing, refunds, or guarantees in any draft.\n\nCreate only these two files under output/.\n",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

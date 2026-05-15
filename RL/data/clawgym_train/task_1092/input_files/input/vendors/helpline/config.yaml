@@ -1,0 +1,10 @@
+name: "HelpLine"
+channels:
+  chat: false
+  email: true
+  voice: true
+languages_supported: 2
+escalation:
+  to_human: true
+  conditions:
+    - "escalated_complaints"

@@ -1,0 +1,7 @@
+# Ignore patterns
+.env
+dist/
+build/
+*.log
+
+# Intentionally missing: __pycache__/ (to be added by optimization)

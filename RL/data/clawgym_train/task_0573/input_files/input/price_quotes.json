@@ -1,0 +1,62 @@
+{
+  "pickup": "Park Slope, Brooklyn, NY",
+  "destination": "JFK Terminal 4, Queens, NY",
+  "datetime_local": "2026-04-22T04:45:00-04:00",
+  "notes": "Early morning airport transfer. Estimates include current conditions at query time.",
+  "quotes": [
+    {
+      "app": "Uber",
+      "option": "scheduled",
+      "vehicle": "UberX",
+      "estimated_price": 65.0,
+      "surge_multiplier": 1.0,
+      "eta_minutes": null,
+      "notes": "Locked fare if scheduled; pickup window ±5–10 min"
+    },
+    {
+      "app": "Uber",
+      "option": "on_demand",
+      "vehicle": "UberX",
+      "estimated_price": 88.0,
+      "surge_multiplier": 1.6,
+      "eta_minutes": 7,
+      "notes": "Live surge due to early-morning rain"
+    },
+    {
+      "app": "Lyft",
+      "option": "scheduled",
+      "vehicle": "Lyft",
+      "estimated_price": 62.0,
+      "surge_multiplier": 1.0,
+      "eta_minutes": null,
+      "notes": "Scheduled price; pickup window ±5–10 min"
+    },
+    {
+      "app": "Lyft",
+      "option": "on_demand",
+      "vehicle": "Lyft",
+      "estimated_price": 84.0,
+      "surge_multiplier": 1.5,
+      "eta_minutes": 6,
+      "notes": "Increased demand; potential short-term spikes"
+    },
+    {
+      "app": "Curb",
+      "option": "scheduled",
+      "vehicle": "Yellow Taxi (Reserve)",
+      "estimated_price": 68.0,
+      "surge_multiplier": 1.0,
+      "eta_minutes": null,
+      "notes": "Estimate includes expected tolls/fees; metered ride"
+    },
+    {
+      "app": "Curb",
+      "option": "on_demand",
+      "vehicle": "Yellow Taxi",
+      "estimated_price": 80.0,
+      "surge_multiplier": 1.0,
+      "eta_minutes": 5,
+      "notes": "Metered fare; traffic may increase final price"
+    }
+  ]
+}

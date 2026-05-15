@@ -1,0 +1,62 @@
+{
+  "applications": [
+    {
+      "id": "app_101",
+      "company": "Lumenis Labs",
+      "role": "Backend Engineer",
+      "url": "https://lumenislabs.com/careers/backend-engineer",
+      "status": "applied",
+      "applied_date": "2026-04-03",
+      "source": "linkedin",
+      "contact": { "name": "Alice Chen", "email": "recruiting@lumenislabs.com" },
+      "notes": "Referred by Samira Q.",
+      "follow_up_date": "2026-04-10",
+      "interviews": [],
+      "outcome": null
+    },
+    {
+      "id": "app_102",
+      "company": "Northwind Analytics",
+      "role": "Data Engineer",
+      "url": "https://northwind.io/jobs/data-engineer",
+      "status": "rejected",
+      "applied_date": "2026-03-15",
+      "source": "company_site",
+      "contact": null,
+      "notes": "Auto-reject email received on 2026-03-22.",
+      "follow_up_date": "2026-03-22",
+      "interviews": [],
+      "outcome": "rejected"
+    },
+    {
+      "id": "app_103",
+      "company": "Bridgewave Health",
+      "role": "Machine Learning Engineer",
+      "url": "https://bridgewave.health/careers/ml-engineer",
+      "status": "applied",
+      "applied_date": "2026-04-01",
+      "source": "referral",
+      "contact": { "name": "Maria Gomez", "email": "maria@bridgewave.health" },
+      "notes": "Resume tailored for healthcare NLP; referred by Dr. Patel.",
+      "follow_up_date": "2026-04-08",
+      "interviews": [],
+      "outcome": null
+    },
+    {
+      "id": "app_104",
+      "company": "Example Corp",
+      "role": "Software Engineer",
+      "url": "",
+      "status": "applied",
+      "applied_date": "2026-02-01",
+      "source": "linkedin",
+      "contact": null,
+      "notes": "",
+      "follow_up_date": "2026-02-08",
+      "interviews": [],
+      "outcome": null
+    }
+  ],
+  "stats": { "total_applied": 4, "responses": 1, "interviews": 0, "offers": 0, "response_rate": 0.25 },
+  "saved_roles": []
+}

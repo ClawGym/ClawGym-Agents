@@ -1,0 +1,19 @@
+risk_model:
+  persona_profile: "default"
+  season: "unspecified"
+  hazard_weights:
+    wind: 0.25
+    precipitation: 0.25
+    wildfire: 0.25
+    trail_closure: 0.25
+  suitability:
+    max_risk_score: 60
+    exclude_if:
+      trail_closure: true
+scoring:
+  risk_scale_max: 100
+  exposure_weight: 0.15
+data_sources:
+  hnms: "official Hellenic National Meteorological Service (HNMS)"
+  fire_service: "official Hellenic Fire Service or Civil Protection"
+  park_management: "official Mount Olympus National Park management authority"

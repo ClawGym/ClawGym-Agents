@@ -1,0 +1,4 @@
+name,email,role,notify_on_collab,include_in_first_email
+Ana Kralj,ana@studionovak.si,Studio Manager,true,true
+Marko Petek,marko@supplier.si,Supplier Rep,true,false
+Petra Jenko,petra@prconsult.si,PR Consultant,false,false

@@ -1,0 +1,7 @@
+{
+  "yahoo_price": 412.90,
+  "questrade_last": 412.70,
+  "max_price_drift_pct": 1.0,
+  "data_age_seconds": 120,
+  "max_data_age_seconds": 300
+}

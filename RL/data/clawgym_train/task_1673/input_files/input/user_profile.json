@@ -1,0 +1,47 @@
+{
+  "id": "user_7f2a9c",
+  "name": "Avery Example",
+  "email": "avery@example.com",
+  "version": "1.0",
+  "updated_at": "2026-04-15T14:12:03Z",
+  "preferences": {
+    "theme": "dark",
+    "language": "en-US",
+    "notifications": {
+      "email": true,
+      "sms": false,
+      "push": {
+        "marketing": false,
+        "product": true
+      }
+    },
+    "dashboards": [
+      {
+        "id": "home",
+        "widgets": [
+          {
+            "type": "chart",
+            "config": {
+              "series": ["sales", "traffic"],
+              "interval": "7d"
+            }
+          },
+          {
+            "type": "table",
+            "config": {
+              "columns": ["name", "status", "last_seen"]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "membership": {
+    "tier": "pro",
+    "renewal_date": "2026-06-01",
+    "features": {
+      "support": "priority",
+      "seats": 3
+    }
+  }
+}

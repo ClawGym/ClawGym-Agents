@@ -1,0 +1,10 @@
+{
+  "repo_root": ".",
+  "runtime_script": "runtime/nightly_git_backup.sh",
+  "BACKUP_REMOTE": "origin",
+  "BACKUP_BRANCH": "main",
+  "BACKUP_TZ": "UTC",
+  "BACKUP_EXCLUDES": ["cron", "cron/**", ".cache", ".cache/**"],
+  "snapshot_timestamp": "2026-04-15 02:30:00",
+  "tz_offset": "+0000"
+}

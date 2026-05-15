@@ -1,0 +1,8 @@
+[
+  {"id": 1, "title": "Set up venv", "status": "done", "priority": 1},
+  {"id": 2, "title": "Design TaskModel", "status": "in_progress", "priority": 3},
+  {"id": 3, "title": "Implement loader", "status": "todo", "priority": 4},
+  {"id": 4, "title": "Write tests", "status": "done", "priority": 2},
+  {"id": 5, "title": "Wire up UI", "status": "todo", "priority": 5},
+  {"id": 6, "title": "Prepare demo", "status": "in_progress", "priority": 3}
+]

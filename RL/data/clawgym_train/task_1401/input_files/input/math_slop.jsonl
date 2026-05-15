@@ -1,0 +1,10 @@
+{"id":"math-001","formula":"e^{i\\pi} + 1 = 0","notes":"Euler identity"}
+{"id":"math-002","formula":"\\varphi^{\\ln e} = \\varphi^{i^4}","notes":"phi^1 = phi^1"}
+{"id":"math-003","formula":"\\sqrt{2}^{\\,2} = 2^{\\sin^2 x + \\cos^2 x}","notes":"2 = 2^1"}
+{"id":"math-004","formula":"\\tau - 2\\pi = e^{i\\pi} + 1","notes":"0 = 0"}
+{"id":"math-005","formula":"e^0 = 1","notes":"multiply-by-one identity"}
+{"id":"math-006","formula":"\\ln e = 1","notes":"log identity"}
+{"id":"math-007","formula":"\\varphi^2 = \\varphi + 1","notes":"golden ratio property"}
+{"id":"math-008","formula":"\\frac{e^{i\\pi} + 1}{\\varphi} = 0","notes":"0/phi = 0"}
+{"id":"math-009","formula":"e^{\\ln \\pi} = \\pi","notes":"inverse log-exp"}
+{"id":"math-010","formula":"e^{i\\pi} + 2 = 0","notes":"non-trivial (intentionally incorrect variant)"}

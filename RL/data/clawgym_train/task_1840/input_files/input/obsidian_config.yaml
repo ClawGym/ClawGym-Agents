@@ -1,0 +1,29 @@
+obsidian:
+  vault_path: input/obsidian_vault
+  sources:
+    contacts:
+      path: references/contacts
+      entity_type: Person
+      extract:
+        - email_from_content
+        - company_from_property
+        - projects_from_links
+    clients:
+      path: references/clients
+      entity_type: Organization
+    projects:
+      path: projects
+      entity_type: Project
+
+ontology:
+  storage_path: output/ontology
+  format: jsonl
+
+feedback:
+  output_path: output/feedback
+  generate_reports: true
+  suggest_templates: false
+  highlight_missing: true
+
+schedule:
+  sync_interval: "manual"

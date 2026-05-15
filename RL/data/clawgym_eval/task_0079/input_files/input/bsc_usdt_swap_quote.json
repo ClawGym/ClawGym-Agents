@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "code": "0000",
+  "message": "OK",
+  "data": {
+    "amountIn": 2.0,
+    "amountOut": 837.0,
+    "tokenInPrice": 420.0,
+    "tokenOutPrice": 1.0,
+    "fee": 3.0,
+    "fromChainId": 2002,
+    "toChainId": 2002,
+    "route": [
+      {
+        "dex": "pancakeswap_v3",
+        "poolFee": 0.0004,
+        "path": [
+          "BNB",
+          "USDT"
+        ]
+      }
+    ],
+    "slippage": 0.1,
+    "timestamp": 1775969905
+  }
+}

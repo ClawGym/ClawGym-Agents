@@ -1,0 +1,16 @@
+timezone: America/New_York
+availability:
+  - day: Friday
+    date: 2026-04-17
+    windows:
+      - start: 2026-04-17T07:00:00-04:00
+        end: 2026-04-17T08:00:00-04:00
+      - start: 2026-04-17T12:00:00-04:00
+        end: 2026-04-17T13:00:00-04:00
+      - start: 2026-04-17T18:00:00-04:00
+        end: 2026-04-17T22:00:00-04:00
+  - day: Saturday
+    date: 2026-04-18
+    windows:
+      - start: 2026-04-18T06:30:00-04:00
+        end: 2026-04-18T07:30:00-04:00

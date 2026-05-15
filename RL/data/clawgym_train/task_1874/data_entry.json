@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1874",
+  "user_query": "I need a concise, noise-reduced log analysis across two files with mixed formats. Please read both input/app_log.txt (plaintext) and input/error_log.jsonl (JSONL). Treat each line as a standalone log entry and use these rules:\n\n- Ignore any line containing either \"DEBUG\" or \"health_check\" (case-insensitive).\n- Determine severity by keywords in the raw line (case-insensitive):\n  - error/fatal/critical => severity \"error\"\n  - warn/warning => severity \"warning\"\n  - info => severity \"info\"\n  - otherwise => debug\n- For grouping error messages, use the first 60 characters of the raw line as the message key (use the raw line text; you don’t need to parse JSON fields).\n- Configure highlight interests (not for filtering) for \"ERROR\", \"FATAL\", and \"timeout\" to help your pattern write-up.\n- Assume all lines fall within the period window.\n\nDeliverables (write all files under output/):\n1) output/summary.json — keys: period (string, exactly \"15m\"), total (number), errors (number), warnings (number), errorRate (string like \"12.34%\" with two decimals), topErrors (array of up to 5 objects sorted by count desc, each { message: string (first 60 chars of raw), count: number }).\n2) output/errors.csv — header \"severity,message\"; include every error entry (after ignore filtering), one per line, with severity=error and message as the first 200 characters of the raw line. No extra columns.\n3) output/patterns.md — 150–300 words summarizing the prominent error patterns, notable clusters (e.g., recurring timeouts, rate limit bursts, file-not-found incidents), likely causes, and suggested mitigations. Reference your highlight interests where relevant.\n\nUse only the relative paths above, read from input/, and write to output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

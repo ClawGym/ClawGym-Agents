@@ -1,0 +1,20 @@
+{"rating": 5, "review": "We cut our standup from 15 minutes to 0. The Slack check-in takes ~60 seconds and the summary reads like a human wrote it.", "role": "Engineering Manager", "company_size": "20-50"}
+{"rating": 5, "review": "Finally, a standup bot that respects time zones. People reply when they start their day and I get a clean digest.", "role": "CTO", "company_size": "50-100"}
+{"rating": 5, "review": "The summaries are scary good and the 'blocker' pings helped me clear two issues before lunch.", "role": "Product Manager", "company_size": "25-40"}
+{"rating": 4, "review": "I was skeptical of another bot, but StandupSpark feels polite and low-noise.", "role": "Engineer", "company_size": "10-20"}
+{"rating": 3, "review": "Setup with Jira took me a minute to figure out the right permissions.", "role": "Engineering Manager", "company_size": "15-25"}
+{"rating": 5, "review": "Our team stopped doing the daily Zoom standup. No one misses it.", "role": "Designer", "company_size": "8-15"}
+{"rating": 5, "review": "The nudge is gentle, not naggy, and skips PTO automatically.", "role": "Engineer", "company_size": "30-60"}
+{"rating": 5, "review": "We work across SF, Berlin, and SG; the timezone scheduling just works.", "role": "CTO", "company_size": "80-120"}
+{"rating": 4, "review": "At first the channel felt busy; the one-click 'summary only' setting fixed it.", "role": "Product Manager", "company_size": "20-30"}
+{"rating": 5, "review": "I love the 'catch up' brief when I get back from meetings.", "role": "Engineering Manager", "company_size": "50-80"}
+{"rating": 5, "review": "Being private by default matters—people answer in DM and share more.", "role": "Engineer", "company_size": "12-18"}
+{"rating": 4, "review": "Helps me spot blockers fast without chasing people.", "role": "Team Lead", "company_size": "15-25"}
+{"rating": 3, "review": "Could use more templates for non-engineering teams.", "role": "Ops Manager", "company_size": "25-35"}
+{"rating": 4, "review": "The analytics on participation are simple and useful.", "role": "CTO", "company_size": "40-70"}
+{"rating": 5, "review": "We switched from Geekbot; fewer pings and better summaries.", "role": "Engineering Manager", "company_size": "30-50"}
+{"rating": 5, "review": "The bot skipped me on a holiday without me doing anything.", "role": "Engineer", "company_size": "20-30"}
+{"rating": 4, "review": "Took a couple of tries to tweak questions for our design team.", "role": "Designer", "company_size": "10-20"}
+{"rating": 3, "review": "Wish there was SSO; they told me it's on the Business plan.", "role": "IT Lead", "company_size": "60-90"}
+{"rating": 5, "review": "Feels human. The tone is friendly, not corporate.", "role": "Product Manager", "company_size": "15-25"}
+{"rating": 5, "review": "Connecting GitHub surfaced PRs in the summary, which I love.", "role": "Engineer", "company_size": "35-55"}

@@ -1,0 +1,13 @@
+control,name,risk
+A.5.1,Policies for Information Security,medium
+A.5.15,Access Control,high
+A.5.24,Information Security Incident Management,high
+A.6.1,Screening,medium
+A.6.3,Information Security Awareness,medium
+A.7.1,Physical Security Perimeters,low
+A.8.2,Privileged Access Rights,critical
+A.8.5,Secure Authentication,high
+A.8.8,Management of Technical Vulnerabilities,high
+A.8.13,Information Backup,medium
+A.8.15,Logging,high
+A.8.24,Use of Cryptography,medium

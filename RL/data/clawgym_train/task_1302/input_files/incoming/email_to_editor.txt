@@ -1,0 +1,14 @@
+Subject: Cover letter for {{MANUSCRIPT_TITLE}} submission to {{JOURNAL}}
+
+Dear Editor,
+
+I am very pleased and genuinely excited to submit our {{manuscript_type}} entitled "{{MANUSCRIPT_TITLE}}" to {{JOURNAL}}. This email is, admittedly, on the long side and could certainly be tighter and more concise, but I wanted to be comprehensive in explaining the motivation, methodology, and significance. Our study introduces methods and results that we believe will be of strong interest to your readership because they advance practical analytics for environmental data, provide rigorous evaluation, and offer clear guidance for practitioners.
+
+The work is original, has not been published elsewhere, and is not under consideration at another journal. All co-authors have approved the manuscript and agree with the submission. Data and code availability are described in the manuscript, and we adhere to ethical and reporting standards relevant to our field.
+
+We appreciate your time and consideration and would be grateful for the opportunity to have our work reviewed at {{JOURNAL}}. Please let me know if you need any additional information or documents beyond what is included with the submission.
+
+Sincerely,
+
+{{corresponding_author}}
+{{affiliation}}

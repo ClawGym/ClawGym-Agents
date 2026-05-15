@@ -1,0 +1,9 @@
+{
+  "feelings": ["self-doubt", "feeling stuck"],
+  "triggers": ["injury stories", "comeback wins"],
+  "tone_guidelines": {
+    "aim": "supportive not preachy",
+    "avoid_words": ["failure", "loser"],
+    "hashtags_base": ["#KeepGoing", "#FromSetbackToComeback", "#YouAreNotAlone"]
+  }
+}

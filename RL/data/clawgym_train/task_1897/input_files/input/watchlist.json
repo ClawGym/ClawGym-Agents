@@ -1,0 +1,10 @@
+{
+  "companies": ["Acme Robotics", "ZenFin Capital", "Nimbus Analytics"],
+  "topics": ["Series A", "Series B", "seed funding", "partnership", "product launch", "hiring"],
+  "follow_up_windows": {
+    "funding": 2,
+    "partnership": 3,
+    "product": 4,
+    "hiring": 5
+  }
+}

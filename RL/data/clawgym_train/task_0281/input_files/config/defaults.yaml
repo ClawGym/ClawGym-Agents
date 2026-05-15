@@ -1,0 +1,5 @@
+selection_method: "greedy_pruning"
+max_features: 50
+stopping_threshold: 0.005
+random_state: 42
+normalize: true

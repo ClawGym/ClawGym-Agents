@@ -1,0 +1,9 @@
+player_id,name,position,parent_email
+P01,Ana Souza,Left Wing,ana.parent@example.com
+P02,Beatriz Lima,Right Back,beatriz.parent@example.com
+P03,Carla Mendes,Center Back,carla.parent@example.com
+P04,Daniela Alves,Pivot,daniela.parent@example.com
+P05,Eduarda Silva,Goalkeeper,eduarda.parent@example.com
+P06,Fernanda Rocha,Left Back,fernanda.parent@example.com
+P07,Giulia Santos,Right Wing,giulia.parent@example.com
+P08,Helena Costa,Center Back,helena.parent@example.com

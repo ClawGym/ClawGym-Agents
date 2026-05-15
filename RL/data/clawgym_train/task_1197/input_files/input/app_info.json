@@ -1,0 +1,49 @@
+{
+  "brand": "NourishWise",
+  "category": "Health & Fitness",
+  "platforms": ["ios", "android"],
+  "audience": {
+    "primary": "Busy adults who want to plan healthy meals and hit nutrition goals",
+    "secondary": [
+      "Fitness enthusiasts tracking macros",
+      "Families planning weekly dinners",
+      "People with dietary restrictions (gluten-free, vegetarian, dairy-free)"
+    ],
+    "regions": ["United States", "Canada", "United Kingdom", "Australia"]
+  },
+  "value_proposition": "Personalized meal planning and nutrition tracking with grocery lists and smart recipe suggestions.",
+  "features": [
+    "AI-powered meal plans",
+    "Macro and calorie tracking",
+    "Recipe library with filters",
+    "Smart grocery list",
+    "Barcode scanner",
+    "Allergen and diet filters",
+    "Weekly planner",
+    "Leftovers and budget modes",
+    "Apple Health and Google Fit sync",
+    "Meal prep reminders",
+    "Serving size and leftovers scaling"
+  },
+  "baseline_metadata": {
+    "ios": {
+      "title": "NourishWise",
+      "subtitle": "Plan meals & track nutrition",
+      "keywords_field": "meal,planner,calories,recipes,shopping list,healthy,keto,weight",
+      "promotional_text": "Smarter meal plans for busy weeks."
+    },
+    "android": {
+      "title": "NourishWise - Meal Planning App",
+      "short_description": "Meal plan and track macros with recipes.",
+      "full_description": "NourishWise helps you build healthier habits with meal plans and nutrition tracking."
+    }
+  },
+  "current_metrics": {
+    "average_rating": 4.2,
+    "ratings_count": 1820,
+    "conversion_rate": 0.038,
+    "keywords_top10": 3,
+    "keywords_top50": 12
+  },
+  "notes": "We do not want to target competitor brand names. Focus on meal planning and nutrition terms."
+}

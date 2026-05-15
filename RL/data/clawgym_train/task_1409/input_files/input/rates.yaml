@@ -1,0 +1,34 @@
+# Freight pricing
+sea_lcl_usd_per_cbm: 120.0
+air_usd_per_kg: 5.7
+express_usd_per_kg: 9.5
+
+# Duties and VAT
+duty_rates:
+  kitchen_tools: 0.032
+vat_rates:
+  US: 0.00
+  DE: 0.19
+section_301_cn_extra: 0.075
+
+# Fees and constants
+customs_broker_flat_usd: 220.0
+port_handling_usd: 110.0
+inland_to_fba_usd_per_carton: 1.30
+fba_inbound_placement_usd_per_unit: 0.53
+volumetric_divisor: 6000
+
+# Timeline parameters (days)
+timeline:
+  transit_days:
+    sea: 32
+    air: 10
+    express: 5
+  clearance_days:
+    sea: 5
+    air: 2
+    express: 1
+  export_loading_days: 4
+  fba_receiving_buffer_days: 7
+  port_to_fba_days: 3
+  production_lead_time_days: 12

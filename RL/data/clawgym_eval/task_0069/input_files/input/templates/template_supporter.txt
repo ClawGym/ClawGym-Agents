@@ -1,0 +1,9 @@
+Subject: Quick note about our {TOURNAMENT_YEAR} OVC title
+
+Hi {FIRST},
+
+This is Coach {COACH_LAST}. Your support meant a lot back in {TOURNAMENT_YEAR}. I’m organizing a small get-together and a shared memory thread from the tournament at {VENUE}.
+
+Could you email me a short memory, and let me know if you’d attend a casual call later this month?
+
+— Coach {COACH_FULL}

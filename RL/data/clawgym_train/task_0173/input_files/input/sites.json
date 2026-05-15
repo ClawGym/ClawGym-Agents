@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "name": "sites",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 201,
+        "name": "Site A1",
+        "type": "A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4205, 37.7755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 202,
+        "name": "Site A2",
+        "type": "A"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4207, 37.7758]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 203,
+        "name": "Site B1",
+        "type": "B"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4180, 37.7735]
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+2026-04-13 09:00:00 [INFO] tech-news-digest - Start; jobId=tnd-20260413-0900
+2026-04-13 09:00:22 [INFO] tech-news-digest - Fetching RSS feeds; duration 2.4s
+2026-04-13 09:00:30 [WARNING] tech-news-digest - API rate limit approaching; performance risk; duration 1.6s
+2026-04-13 09:00:45 [ERROR] tech-news-digest - failed to parse feed item at index 23
+2026-04-13 09:01:10 [CRITICAL] tech-news-digest - Timed out connecting to HackerNews after 30s
+2026-04-13 09:01:12 [WARN] tech-news-digest - slow response from twitter-api; duration 3.2s
+2026-04-13 09:01:30 [INFO] tech-news-digest - Summary compiled; duration 550ms
+2026-04-13 09:01:45 tech-news-digest - fail to post to Discord webhook; will retry

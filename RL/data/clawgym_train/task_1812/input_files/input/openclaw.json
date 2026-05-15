@@ -1,0 +1,79 @@
+{
+  "name": "Moltbot Dev Rig",
+  "version": "0.9.12",
+  "gateway": {
+    "port": 18789,
+    "bind": "auto",
+    "auth": {
+      "mode": "password"
+    },
+    "bonjour": true,
+    "cors": {
+      "enabled": true,
+      "origin": "*"
+    }
+  },
+  "logging": {
+    "level": "debug",
+    "file": "~/.openclaw/logs/openclaw.log"
+  },
+  "features": {
+    "code_execution": true,
+    "allow_shell": true
+  },
+  "workspace": {
+    "root": "/Users/alex/projects/moltbot",
+    "data_dir": "~/.openclaw/data"
+  },
+  "integrations": {
+    "slack": {
+      "enabled": true,
+      "bot_token": "xoxb-1234567890-abcdef"
+    },
+    "telegram": {
+      "enabled": false
+    },
+    "github": {
+      "enabled": true,
+      "token": "ghp_exampletoken1234567890"
+    },
+    "twilio": {
+      "enabled": false
+    }
+  },
+  "llm_providers": {
+    "openai": {
+      "api_key": "sk-test-abc1234567890"
+    },
+    "anthropic": {
+      "api_key": "sk-ant-test-abcdef"
+    }
+  },
+  "profiles": {
+    "default": "personal",
+    "personal": {
+      "system_prompt": "You are a helpful coding assistant."
+    },
+    "ops": {
+      "system_prompt": "You are a strict operator."
+    }
+  },
+  "ssh": {
+    "host": "localhost",
+    "port": 22,
+    "allow_password": true
+  },
+  "telemetry": {
+    "enabled": false
+  },
+  "update": {
+    "autoCheck": true
+  },
+  "mdns": {
+    "enabled": true,
+    "service": "openclaw"
+  },
+  "security": {
+    "allowGuest": true
+  }
+}

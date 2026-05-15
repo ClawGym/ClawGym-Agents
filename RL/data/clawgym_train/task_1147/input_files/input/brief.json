@@ -1,0 +1,10 @@
+{
+  "purpose": "Inform",
+  "tone": "Professional",
+  "length_target": 1500,
+  "desired_action": "Follow and Comment",
+  "product": "FlowGrid",
+  "working_title_hint": "How to reduce meeting overload in remote teams without losing alignment",
+  "audience_hint": "Remote team leads and operations managers at distributed tech companies",
+  "notes": "Use second-person 'you', apply Pyramid Principle, WeChat-friendly Markdown, tasteful emojis, and highlight a concrete case (NovaCore)."
+}

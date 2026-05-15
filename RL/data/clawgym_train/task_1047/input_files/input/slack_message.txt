@@ -1,0 +1,3 @@
+TEAM,
+
+Our CI keeps failing and honestly it feels like nobody is paying attention. The tests are noisy, there are no clear artifacts, and this is blocking the methane mitigation brief we promised. I don’t want to waste more time chasing logs that aren’t there. We need everyone to stop pushing changes without tests and figure this out immediately, because stakeholders are expecting results and I’m tired of repeating the same asks. If this continues, we’ll slip deadlines and lose credibility. Please fix it today.

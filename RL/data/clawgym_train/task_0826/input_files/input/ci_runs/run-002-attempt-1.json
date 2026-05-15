@@ -1,0 +1,22 @@
+{
+  "databaseId": 1002,
+  "runAttempt": 1,
+  "workflowName": "build-and-test",
+  "event": "pull_request",
+  "headBranch": "feature/refactor-ci",
+  "headSha": "abc123def4560002",
+  "conclusion": "failure",
+  "createdAt": "2026-06-02T10:00:00Z",
+  "runStartedAt": "2026-06-02T10:00:20Z",
+  "updatedAt": "2026-06-02T10:30:00Z",
+  "url": "https://github.com/acme/relocation-app/actions/runs/1002/attempts/1",
+  "repository": {
+    "nameWithOwner": "acme/relocation-app"
+  },
+  "actor": {
+    "login": "ci-bot"
+  },
+  "triggeringActor": {
+    "login": "alice"
+  }
+}

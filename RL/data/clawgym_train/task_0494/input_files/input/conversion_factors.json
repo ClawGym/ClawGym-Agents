@@ -1,0 +1,9 @@
+{
+  "uv_to_dose_mSv_per_day_scale": 0.002,
+  "flare_dose_mSv_per_flare": 1.5,
+  "risk_thresholds": {
+    "low_upper": 0.5,
+    "moderate_upper": 1.5
+  },
+  "notes": "Dose rate (mSv/day) = (mean_uv_flux_wm2 * uv_to_dose_mSv_per_day_scale + flare_rate_per_day * flare_dose_mSv_per_flare) * assumed_shielding_factor; classify risks using unrounded dose values."
+}

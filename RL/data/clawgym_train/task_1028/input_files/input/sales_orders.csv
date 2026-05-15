@@ -1,0 +1,11 @@
+email,last_order_id,last_order_total,last_order_date
+alice@example.com,SO-1001,199.99,2026-04-10
+bob.smith@example.com,SO-1002,49.50,2026-04-11
+bob.smith@example.com,SO-1010,79.00,2026-04-18
+someoneelse@nowhere.com,SO-1003,20.00,2026-04-12
+daniel@another.co,SO-1011,15.99,2026-04-19
+erin@startup.io,SO-1004,300.00,2026-04-12
+erin@startup.io,SO-1012,250.00,2026-04-19
+zed@nonexistent.org,SO-1005,89.00,2026-04-13
+carol.jones@example.org,SO-1013,120.00,2026-04-20
+frank@example.net,SO-1014,0.00,2026-04-21

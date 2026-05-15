@@ -1,0 +1,29 @@
+market: Chicago
+class: Class B Office
+period: 2025-2026
+benchmarks:
+  rent_psf_year_range:
+    low: 28
+    high: 42
+  median_rent_psf_year: 35
+  load_factor_norms:
+    low: 1.12
+    high: 1.18
+  free_rent_standard_months_per_year: 1
+  ti_allowance_standard_psf: 30-50
+vacancy_rates:
+  cbd_overall_pct: 21.5
+  west_loop_pct: 23.0
+  loop_central_pct: 20.4
+  river_north_pct: 19.0
+  suburban_pct: 17.2
+parking:
+  benchmark_unreserved_monthly_usd: 220
+  downtown_range_usd: "180-320"
+cpi_scenarios:
+  base: 0.025
+  elevated: 0.04
+  high: 0.06
+negotiation_guidance:
+  tenant_market_threshold_vacancy_pct: 15
+  interpretation: "Vacancy > 15% indicates a tenant-favorable market; push for higher TI, more free rent, lower escalations, CAM caps, and flexible clauses."

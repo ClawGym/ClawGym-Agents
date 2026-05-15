@@ -1,0 +1,7 @@
+event_name: "Uncle Joe's Surprise 60th"
+date: "2026-05-15"
+time: "18:00"
+location: "Maple Grove Community Center, Hall B"
+arrival_buffer_minutes: 15
+organizer_name: "Pat"
+contact_phone: "555-123-4567"

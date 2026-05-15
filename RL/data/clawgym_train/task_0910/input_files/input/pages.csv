@@ -1,0 +1,10 @@
+slug,title,meta_description,category,primary_keyword,secondary_keywords,traffic_30d,bounce_rate,avg_time_seconds,last_updated,content_file
+collage-assemblage-2021,Collage & Assemblage Series (2021),"A look at a body of work combining paper, wood, and ephemera.",artworks,mixed media collage,"assemblage art; found objects",1240,0.74,58,2021-12-11,input/content/collage-assemblage-2021.md
+textile-paper-series,Textiles on Paper,Notes on stitched and layered surfaces made in the studio.,artworks,textile mixed media,"stitched paper; fiber art",980,0.67,72,2020-08-05,input/content/textile-paper-series.md
+vintage-book-journal-custom,Custom Journals from Vintage Books,Commission a notebook repurposed from worn but beautiful covers.,services,custom vintage book journals,"upcycled books; handmade journals",2100,0.62,95,2023-03-14,input/content/vintage-book-journal-custom.md
+studio-exhibitions,Studio & Exhibitions,"Recent shows, studio notes, and announcements.",news,mixed media exhibitions,"studio updates; gallery shows",540,0.81,45,2022-05-02,input/content/studio-exhibitions.md
+about-artist,About the Artist,"Background, materials, and approach.",info,mixed media artist,"artist statement; process",1860,0.48,130,2024-01-20,input/content/about-artist.md
+vintage-rare-finds,Vintage Finds: Rare Titles,Curated selections from my library of old books.,library,vintage books collection,"rare books; antiquarian",660,0.77,52,2021-06-18,input/content/vintage-rare-finds.md
+book-repair-notes,Notes on Repairs,Light conservation and repairs I do for my own shelves.,library,vintage book restoration,"book repair; conservation",430,0.64,88,2019-11-09,input/content/book-repair-notes.md
+shop-small-prints,Small Prints,Affordable pieces from larger works.,shop,mixed media art prints,"small prints; open edition",1520,0.69,61,2023-12-02,input/content/shop-small-prints.md
+contact,Contact,Reach out to the studio.,info,contact artist studio,"email; inquiries",1320,0.55,34,2024-02-10,input/content/contact.md

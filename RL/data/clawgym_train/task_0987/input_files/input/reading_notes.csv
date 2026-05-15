@@ -1,0 +1,7 @@
+date,jurisdiction,legal_system,topic,type,note,source_id,tags
+2024-01-09,Canada,Mixed,"Indigenous self-governance",benefit,"Recognition of indigenous legal orders strengthens community dispute resolution.",SRC1,indigenous;self-governance;dispute-resolution
+2024-01-10,India,Mixed,"Personal laws",challenge,"Plural personal laws create forum shopping concerns.",SRC2,personal-law;forum-shopping
+2024-01-12,South Africa,Mixed,"Customary law recognition",benefit,"Constitutional recognition of customary law promotes inclusivity.",SRC3,customary;constitution
+2024-01-13,Nigeria,Mixed,"Sharia courts",challenge,"Jurisdictional overlap with civil courts causes delays.",SRC4,sharia;delay;overlap
+2024-01-13,Nigeria,Mixed,"Alternative dispute resolution",benefit,"Customary mediation reduces case backlog in rural areas.",SRC5,adr;customary
+2024-01-14,Canada,Mixed,"Language access",challenge,"Multilingual proceedings increase administrative burden.",SRC6,language;access

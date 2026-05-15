@@ -1,0 +1,59 @@
+[
+  {
+    "date": "2026-04-10",
+    "quests_completed": 3,
+    "streak": 5,
+    "level": 4,
+    "missed": false,
+    "notes": "Solid day with multiple quests finished."
+  },
+  {
+    "date": "2026-04-11",
+    "quests_completed": 2,
+    "streak": 6,
+    "level": 4,
+    "missed": false,
+    "notes": "Maintained streak with a lighter workload."
+  },
+  {
+    "date": "2026-04-12",
+    "quests_completed": 0,
+    "streak": 0,
+    "level": 4,
+    "missed": true,
+    "notes": "Break day; no quests completed."
+  },
+  {
+    "date": "2026-04-13",
+    "quests_completed": 0,
+    "streak": 0,
+    "level": 4,
+    "missed": true,
+    "notes": "Second consecutive missed day."
+  },
+  {
+    "date": "2026-04-14",
+    "quests_completed": 1,
+    "streak": 1,
+    "level": 4,
+    "missed": false,
+    "notes": "Back on track with a single quest."
+  },
+  {
+    "date": "2026-04-15",
+    "quests_completed": 4,
+    "streak": 2,
+    "level": 5,
+    "missed": false,
+    "leveled_up": true,
+    "notes": "Strong push and level up."
+  },
+  {
+    "date": "2026-04-16",
+    "quests_completed": 2,
+    "streak": 3,
+    "level": 5,
+    "missed": false,
+    "notes": "Kept the momentum with a couple quests."
+  }
+]

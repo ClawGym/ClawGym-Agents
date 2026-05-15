@@ -1,0 +1,4 @@
+lookAheadMinutes: 180
+alertLeadMinutes: 12
+minRepeatMinutes: 30
+pollMinutes: 5

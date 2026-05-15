@@ -1,0 +1,155 @@
+{
+  "organization": "Northwind Cloud Services Ltd.",
+  "scope_version": "2025.12",
+  "notes": "ISO 27001:2022 Annex A control set. This SoA reflects the current implementation state as of Dec 2025.",
+  "controls": [
+    {
+      "control": "A.5.1",
+      "name": "Policies for Information Security",
+      "in_scope": true,
+      "implementation_status": "implemented",
+      "justification": "Core governance requirement applicable to entire ISMS scope.",
+      "evidence_refs": [
+        "Information Security Policy v3.2 (approved 2025-11-02, signed by CEO)",
+        "Policy review minutes (2025-11-02)"
+      ],
+      "notes": "Annual review cycle set to November; next review due 2026-11."
+    },
+    {
+      "control": "A.5.15",
+      "name": "Access Control",
+      "in_scope": true,
+      "implementation_status": "partially_implemented",
+      "justification": "Access management applies to all in-scope systems and data.",
+      "evidence_refs": [
+        "Access Control Policy v2.1",
+        "Quarterly access review records (Q3 2025 completed, Q4 2025 in progress)"
+      ],
+      "notes": "Service account review process being formalized; target completion 2026-Q1."
+    },
+    {
+      "control": "A.5.24",
+      "name": "Information Security Incident Management",
+      "in_scope": true,
+      "implementation_status": "implemented",
+      "justification": "Incident response required for SaaS operations supporting customers.",
+      "evidence_refs": [
+        "IR Plan v1.8",
+        "Incident playbooks (ransomware, credential compromise, DDoS)",
+        "Tabletop exercise report (2025-10-15)"
+      ],
+      "notes": "24/7 on-call rotation in place; post-incident reviews logged in Jira."
+    },
+    {
+      "control": "A.6.1",
+      "name": "Screening",
+      "in_scope": true,
+      "implementation_status": "implemented",
+      "justification": "Background checks required for roles with production/data access.",
+      "evidence_refs": [
+        "Screening policy v1.5",
+        "Vendor reports (CheckRight) for 2025 hires"
+      ],
+      "notes": "Contractor screening aligned to employee policy since 2025-09."
+    },
+    {
+      "control": "A.6.3",
+      "name": "Information Security Awareness",
+      "in_scope": true,
+      "implementation_status": "implemented",
+      "justification": "Awareness training for all personnel in scope.",
+      "evidence_refs": [
+        "LMS completion report (2025-12-05) — 98% completion",
+        "Phishing simulation results (Q4 2025)"
+      ],
+      "notes": "New hires complete training within 14 days; annual refresher each November."
+    },
+    {
+      "control": "A.7.1",
+      "name": "Physical Security Perimeters",
+      "in_scope": true,
+      "implementation_status": "implemented",
+      "justification": "Applies to London HQ office where support staff operate.",
+      "evidence_refs": [
+        "Office access logs (Sept–Nov 2025)",
+        "CCTV retention policy",
+        "Visitor management procedure"
+      ],
+      "notes": "Only London HQ in scope; Berlin coworking excluded from ISMS."
+    },
+    {
+      "control": "A.8.2",
+      "name": "Privileged Access Rights",
+      "in_scope": true,
+      "implementation_status": "partially_implemented",
+      "justification": "Privileged access governs production and admin environments.",
+      "evidence_refs": [
+        "Azure AD PIM configuration for Global Admin and Azure Admin roles",
+        "Admin account inventory (2025-11-30)"
+      ],
+      "notes": "Legacy DB shared admin accounts still present; PAM rollout planned Q1 2026."
+    },
+    {
+      "control": "A.8.5",
+      "name": "Secure Authentication",
+      "in_scope": true,
+      "implementation_status": "implemented",
+      "justification": "Strong authentication required for all user and admin access.",
+      "evidence_refs": [
+        "MFA enforcement settings (Azure AD)",
+        "Password policy and lockout configuration"
+      ],
+      "notes": "Two service accounts pending migration to managed identities by 2026-02."
+    },
+    {
+      "control": "A.8.8",
+      "name": "Management of Technical Vulnerabilities",
+      "in_scope": true,
+      "implementation_status": "implemented",
+      "justification": "Continuous vulnerability scanning and timely remediation are required.",
+      "evidence_refs": [
+        "Weekly Qualys scan reports (Q4 2025)",
+        "Patch SLA policy (Critical: 14 days; High: 30 days)"
+      ],
+      "notes": "Exception approved for legacy billing server until 2026-03-31 due to vendor constraints."
+    },
+    {
+      "control": "A.8.13",
+      "name": "Information Backup",
+      "in_scope": true,
+      "implementation_status": "implemented",
+      "justification": "Backups for production data and configuration are required.",
+      "evidence_refs": [
+        "Backup policy v2.0",
+        "AWS Backup job success logs (rolling 90 days)",
+        "Restore test report (2025-03-20)"
+      ],
+      "notes": "Next restoration test scheduled 2026-02-15; scope includes database point-in-time recovery."
+    },
+    {
+      "control": "A.8.15",
+      "name": "Logging",
+      "in_scope": true,
+      "implementation_status": "partially_implemented",
+      "justification": "Security logging and monitoring across in-scope systems.",
+      "evidence_refs": [
+        "SIEM onboarding checklist (CloudTrail, EKS, RDS)",
+        "Retention config (currently 90 days for app logs)"
+      ],
+      "notes": "Policy requires 180 days; application log retention uplift planned for Q1 2026. Two VPCs missing flow logs ingestion."
+    },
+    {
+      "control": "A.8.24",
+      "name": "Use of Cryptography",
+      "in_scope": true,
+      "implementation_status": "implemented",
+      "justification": "Encryption for data at rest and in transit.",
+      "evidence_refs": [
+        "Cryptography policy v1.4",
+        "TLS 1.2+ configuration reports",
+        "KMS CMK usage for PII databases"
+      ],
+      "notes": "Certificate inventory maintained; expirations tracked with alerting."
+    }
+  ]
+}

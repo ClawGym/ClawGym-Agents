@@ -1,0 +1,12 @@
+{
+  "listing-id": null,
+  "buyer_wallet": "0x82b4cde1f13a77b349f0b2e4c8d9f1a2b3c4d5e6",
+  "input_payload": {
+    "task": "Produce a concise market brief on the AI chip design landscape in 2026 focusing on open-source toolchains.",
+    "scope": "1-page summary with 5 bullet-point insights and 3 sources."
+  },
+  "prepare_payment": true,
+  "wait": true,
+  "timeout-sec": 150,
+  "interval-sec": 5
+}

@@ -1,0 +1,10 @@
+windows_api,macos_equivalent,mapping_status
+CreateFileW,NSFileManager,exists
+RegOpenKeyExW,CFPreferences,partial
+GetTickCount,mach_absolute_time,exists
+QueryPerformanceCounter,mach_timebase_info,exists
+SHGetKnownFolderPath,NSSearchPathForDirectoriesInDomains,exists
+SetWindowsHookExW,CGEventTap,partial
+CreateProcessW,NSTask,exists
+DeviceIoControl,IOKitDeviceControl,none
+CryptProtectData,SecKeychainProtectData,partial

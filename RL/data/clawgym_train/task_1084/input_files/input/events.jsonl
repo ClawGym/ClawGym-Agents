@@ -1,0 +1,11 @@
+{"timestamp":"2026-01-28T15:12:09Z","role":"system","content":"conversation-logger hook started; JSONL path /home/anthony/.openclaw/workspace/conversation_log.jsonl; Memvid mode monthly; memory path /home/anthony/.openclaw/workspace/memory_2026-01.mv2"}
+{"timestamp":"2026-01-28T15:12:15Z","role":"user","content":"Can you log everything for the compliance audit? My contact is seth@example.com and the server IP is 10.0.0.7."}
+{"timestamp":"2026-01-28T15:12:27Z","role":"assistant","content":"Acknowledged. I'll log all messages and tool outputs. For private docs, I found them at C:\\Users\\Seth\\Documents\\audit\\scope.pdf"}
+{"timestamp":"2026-01-28T15:13:02Z","role":"agent:planner","content":"Planner: staging a trial. We'll assemble a small team and call the social research tool for 'BadjAI policy reactions'."}
+{"timestamp":"2026-01-28T15:13:25Z","role":"tool:social_research","content":"Tier 1 FxTwitter returned 8 posts about BadjAI. Example: 'Acme Corp engineers debate governance' https://x.com/knuth/status/1789999999999999999"}
+{"timestamp":"2026-01-28T15:14:10Z","role":"assistant","content":"Summary so far: stakeholders at Acme Corp are split; Memvid Inc. users are positive."}
+{"timestamp":"2026-02-02T09:05:11Z","role":"user","content":"Please note my new phone 415-555-2671 and SSN 123-45-6789 for the onboarding form; also log our chat."}
+{"timestamp":"2026-02-02T09:05:55Z","role":"assistant","content":"I will not use sensitive numbers, but the logger will still record the raw text as requested."}
+{"timestamp":"2026-02-02T09:06:20Z","role":"agent:reviewer","content":"Evidence Collector: QA pass on logging pipeline in OpenClaw Labs; artifacts stored at /var/log/openclaw/memvid/test-run.jsonl"}
+{"timestamp":"2026-02-02T09:06:58Z","role":"tool:memory_search","content":"memvid ask memory_2026-01.mv2 'What did the researcher agent find?' -> 3 matches"}
+{"timestamp":"2026-02-28T22:44:00Z","role":"system","content":"monthly rotation: creating memory file at /home/anthony/.openclaw/workspace/memory_2026-02.mv2; source=compliance_trial"}

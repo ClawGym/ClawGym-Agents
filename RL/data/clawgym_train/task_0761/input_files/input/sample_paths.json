@@ -1,0 +1,83 @@
+{
+  "root": "CLA_NAS",
+  "directories": [
+    "CLA_NAS/Programs/Adult_Literacy/Intake/2024",
+    "CLA_NAS/Programs/Adult_Literacy/Reports",
+    "CLA_NAS/Programs/Youth_Tutoring/Photos/Events",
+    "CLA_NAS/Development/Donors/2023",
+    "CLA_NAS/Development/Grants/Active",
+    "CLA_NAS/Operations/HR/Policies",
+    "CLA_NAS/Operations/IT/Backups",
+    "CLA_NAS/Shared/Templates",
+    "CLA_NAS/Legacy_Migration/Old_Share_A",
+    "CLA_NAS/Legacy_Migration/Old_Share_B/Sub1/Sub2/Sub3/Sub4/Sub5"
+  ],
+  "files": [
+    {
+      "path": "CLA_NAS/Programs/Adult_Literacy/Intake/2024/intake_roster_jan.xlsx",
+      "size": 48312,
+      "extension": ".xlsx",
+      "note": "Contains PII, do not open; metadata only"
+    },
+    {
+      "path": "CLA_NAS/Programs/Adult_Literacy/Reports/summary_q1.docx",
+      "size": 91288,
+      "extension": ".docx"
+    },
+    {
+      "path": "CLA_NAS/Programs/Youth_Tutoring/Photos/Events/2024-02-15_reading_day.jpg",
+      "size": 2843312,
+      "extension": ".jpg"
+    },
+    {
+      "path": "CLA_NAS/Development/Donors/2023/prospects.csv",
+      "size": 13209,
+      "extension": ".csv",
+      "note": "Donor contact list; sensitive"
+    },
+    {
+      "path": "CLA_NAS/Development/Grants/Active/Smith_Foundation_2024/proposal_final.pdf",
+      "size": 388122,
+      "extension": ".pdf"
+    },
+    {
+      "path": "CLA_NAS/Operations/HR/Policies/Employee_Handbook_v3.pdf",
+      "size": 221004,
+      "extension": ".pdf"
+    },
+    {
+      "path": "CLA_NAS/Operations/IT/Backups/readme.txt",
+      "size": 1048,
+      "extension": ".txt"
+    },
+    {
+      "path": "CLA_NAS/Shared/Templates/letterhead_template.dotx",
+      "size": 78231,
+      "extension": ".dotx"
+    },
+    {
+      "path": "CLA_NAS/Legacy_Migration/Old_Share_A/finance_2018_archive.zip",
+      "size": 501223312,
+      "extension": ".zip",
+      "note": "Large archive; expect long paths"
+    },
+    {
+      "path": "CLA_NAS/Legacy_Migration/Old_Share_B/Sub1/Sub2/Sub3/Sub4/Sub5/very_deep_file.tmp",
+      "size": 0,
+      "extension": ".tmp",
+      "note": "Should be excluded by pattern in requirements"
+    }
+  ],
+  "symlinks_examples": [
+    {
+      "link_path": "CLA_NAS/Shared/Reports_Latest",
+      "target": "CLA_NAS/Programs/Adult_Literacy/Reports",
+      "type": "directory_symlink",
+      "note": "Do not follow by default"
+    }
+  ],
+  "ui_hints": {
+    "grouping": "Group by first-level share (Programs, Development, Operations, Shared, Legacy_Migration) then by subfolders",
+    "top_extensions_focus": [".pdf", ".docx", ".xlsx", ".jpg", ".csv"]
+  }
+}

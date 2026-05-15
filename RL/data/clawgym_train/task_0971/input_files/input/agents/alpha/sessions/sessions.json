@@ -1,0 +1,6 @@
+{
+  "sessions": [
+    { "key": "alpha-20260314-A", "sessionFile": "s1.jsonl" },
+    { "key": "alpha-20260315-B", "sessionFile": "s2.jsonl" }
+  ]
+}

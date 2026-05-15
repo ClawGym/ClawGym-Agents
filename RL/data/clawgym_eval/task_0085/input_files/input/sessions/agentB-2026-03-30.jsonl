@@ -1,0 +1,2 @@
+{"type":"message","message":{"role":"user","content":"Focus on Aurora migration only. Different project from Nimbus."},"timestamp":"2026-03-30T09:00:00Z"}
+{"type":"message","message":{"role":"assistant","content":"Aurora Migration Plan — Draft\n\n- Inventory existing services (Owner: Ops, Due: 2026-04-02)\n- Define cutover strategy (Owner: Sam, Due: 2026-04-05)\n- Load testing baseline (Owner: QA, Due: 2026-04-06)\n- Rollback runbook (Owner: Ops, Due: 2026-04-07)\n\nNote: This session does not cover Nimbus."},"timestamp":"2026-03-30T09:03:41Z"}

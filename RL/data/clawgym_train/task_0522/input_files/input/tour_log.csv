@@ -1,0 +1,11 @@
+show_id,date,city,venue,notes,attendees,merch_gross_usd,tickets_platform
+S001,2026-03-01,Portland,Folk House,"all-ages community center; zine library",120,800,at-door
+S002,2026-03-03,Seattle,Pioneer Warehouse,"DIY warehouse benefit night",90,600,sliding-scale
+S003,2026-03-05,Spokane,River Arena,"arena sound; ticketmaster presale",1500,3500,ticketmaster
+S004,2026-03-07,Missoula,Co-Op Hall,"community co-op venue",110,700,at-door
+S005,2026-03-09,Bozeman,Brand Stage,"brand stage showcase",2000,4200,ticketmaster
+S006,2026-03-11,Denver,All Ages Center,"all-ages fundraiser",130,850,at-door
+S007,2026-03-13,Kansas City,Downtown Theater,"independent theater",900,1800,ticketmaster
+S008,2026-03-15,St. Louis,Warehouse Collective,"warehouse collective show",100,650,sliding-scale
+S009,2026-03-17,Chicago,Northside Club,"all-ages matinee",140,900,at-door
+S010,2026-03-19,Detroit,Corporate Fest Grounds,"corporate festival grounds",5000,9000,ticketmaster

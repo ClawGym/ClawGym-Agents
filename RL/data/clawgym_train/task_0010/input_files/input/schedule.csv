@@ -1,0 +1,7 @@
+screening_date,film_title,format,estimated_audience,screen,projector_id,nitrate_flag
+2026-06-05,Metropolis,35mm,120,Main,FP-1,no
+2026-06-12,Nosferatu,35mm,80,Main,FP-2,yes
+2026-06-15,Casablanca,DCP,150,Screen 2,DCP-1,no
+2026-06-28,The General,16mm,60,Main,FP-2,no
+2026-05-20,City Lights,35mm,90,Main,FP-1,no
+2026-07-04,Rear Window,35mm,110,Main,FP-1,no

@@ -1,0 +1,4 @@
+name,email,city,country,tz_iana,working_start,working_end
+Alejandro M.,alejandro.m@example.com,Mexico City,MX,America/Mexico_City,09:00,12:00
+Mariana R.,mariana.r@example.com,Mexico City,MX,America/Mexico_City,09:00,12:00
+Claire Dubois,claire.dubois@example.com,Paris,FR,Europe/Paris,16:00,20:00

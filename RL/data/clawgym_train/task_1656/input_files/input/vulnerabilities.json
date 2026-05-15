@@ -1,0 +1,15 @@
+{
+  "requests": {
+    "2.19.0": [
+      {"id": "CVE-2018-18074", "severity": "high", "fixed_in": "2.20.0"}
+    ]
+  },
+  "pyyaml": {
+    "5.3": [
+      {"id": "CVE-2020-1747", "severity": "medium", "fixed_in": "5.4"}
+    ]
+  },
+  "numpy": {
+    "1.21.0": []
+  }
+}

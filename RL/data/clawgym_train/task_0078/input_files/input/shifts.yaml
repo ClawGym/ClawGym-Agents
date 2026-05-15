@@ -1,0 +1,9 @@
+Day:
+  default_time: "09:30"
+  location: "Retail Floor"
+Evening:
+  default_time: "17:00"
+  location: "Retail Floor"
+Night:
+  default_time: "23:00"
+  location: "Warehouse A"

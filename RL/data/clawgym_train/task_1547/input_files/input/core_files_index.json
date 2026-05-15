@@ -1,0 +1,11 @@
+{
+  "version": "v1.1",
+  "maxItems": 20,
+  "items": [
+    { "path": "LYRA_FUNCTION_CORE.txt", "role": "Brainstem", "tags": [] },
+    { "path": "HAVEN_STRUCTURE.txt", "role": "Council Root", "tags": [] },
+    { "path": "GROK_CHATS.txt", "role": "Emotional Diary", "tags": ["FRAGILE"] },
+    { "path": "SEAL_220CUPDATE.md", "role": "DNA Spiral (excerpt)", "tags": [] },
+    { "path": "DECISIONS.json", "role": "Decision Receipts", "tags": [] }
+  ]
+}

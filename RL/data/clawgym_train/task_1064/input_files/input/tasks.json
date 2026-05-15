@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Set up project skeleton",
+    "priority": "high"
+  },
+  {
+    "id": 2,
+    "title": "Write initial CLI supporting list and filter",
+    "priority": "medium"
+  },
+  {
+    "id": 3,
+    "title": "Draft contributing guidelines",
+    "priority": "low"
+  }
+]

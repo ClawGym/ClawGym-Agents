@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0684",
+  "user_query": "Read input/queries.json (and input/instructions.md if present). For each query:\n- Use web search to find fresh, credible information.\n- Save raw results to output/raw_results.jsonl as one JSON object per query with this exact schema: {\"query\": string, \"fetched_at\": ISO8601 timestamp (UTC, e.g., 2026-04-19T12:34:56Z), \"results\": [up to 5 unique items, each {\"title\": string, \"url\": string (http/https), \"content\": string snippet}]}. Deduplicate by URL and include only publicly accessible sources.\n- Then write a concise analyst-style summary to output/report.md with:\n  1) A top-level section \"## Methodology\" describing how you searched and vetted sources.\n  2) One section per query titled exactly \"## {query}\". Under each, include 3–5 bullet points summarizing the main findings (\"- \" bullets only), then a sub-section titled \"### Sources\" listing at least 2 distinct source URLs that also appear in output/raw_results.jsonl for that query.\nDo not use paywalled sources. Keep the report focused and cite URLs directly under each query’s Sources section.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

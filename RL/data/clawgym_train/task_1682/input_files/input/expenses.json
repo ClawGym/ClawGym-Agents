@@ -1,0 +1,9 @@
+{
+  "props": [
+    {"item": "costumes fabric", "amount": 530.40, "receipt": "R-102"},
+    {"item": "wood for set", "amount": 389.99, "receipt": "R-145"},
+    {"item": "paint and brushes", "amount": 123.50, "receipt": "R-167"},
+    {"item": "misc hardware", "amount": 231.00, "receipt": "R-190"}
+  ],
+  "notes": "All amounts are in USD."
+}

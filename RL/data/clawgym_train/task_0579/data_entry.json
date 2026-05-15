@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0579",
+  "user_query": "You’re in a Feishu chat and I need you to manage the running background tasks for this chat. Read input/tasks.json for the active child tasks snapshot and input/requests.jsonl for the exact sequence of my messages. For this scenario, treat the list order in input/tasks.json as the visible task numbering (#1, #2, ...).\n\nProduce these artifacts:\n- Write a concise, human-facing transcript to output/transcript.md, one reply per line, in English, responding to each message in input/requests.jsonl. Your replies must reflect correct task listing, progress percentages, asking for clarification when a request is ambiguous (e.g., \"research task\" when multiple matches exist), stopping a specific task by number or label, reporting a single task’s progress, and stopping all background tasks in this chat at the end. Do not include internal tool payloads or IDs; keep replies short.\n- Write output/actions.json with: a \"list_before\" array copied from input/tasks.json; an \"actions\" array of objects showing the order of actions you would take (types allowed: \"list\", \"clarify\", \"kill\", \"info\", \"kill_all\"), with fields identifying targets by task number and label; and a \"list_after\" array showing the final state after all actions.\n- Write output/final_state.json as an array of the remaining active tasks after all actions are applied.\n\nRules:\n- Only act on tasks in this chat (i.e., only those in input/tasks.json).\n- Use task numbers based on input/tasks.json order.\n- When a user refers to \"research task\" ambiguously, ask them to confirm #2 or #4 before killing.\n- In the listing reply, show the count and each task with its number, label, and progress as whole-number percentages.\n\nDeliver exactly these three files under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

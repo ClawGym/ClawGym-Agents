@@ -1,0 +1,18 @@
+keywords:
+  - funding
+  - expenditure
+  - revenue
+  - per pupil
+sources:
+  - slug: nces_expenditures_fastfacts
+    organization: National Center for Education Statistics
+    domain: nces.ed.gov
+    title_hint: Fast Facts: Expenditures
+  - slug: census_school_finances
+    organization: U.S. Census Bureau
+    domain: census.gov
+    title_hint: Annual Survey of School System Finances
+  - slug: ed_budget_summary
+    organization: U.S. Department of Education
+    domain: ed.gov
+    title_hint: Budget Summary

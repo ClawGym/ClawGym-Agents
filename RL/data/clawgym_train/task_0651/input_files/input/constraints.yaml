@@ -1,0 +1,62 @@
+service_name: orbitpay
+team:
+  size: 7
+  roles:
+    - backend
+    - infra/devops
+    - qa/automation
+  release_cadence: weekly
+domain:
+  complexity: medium
+  key_entities:
+    - Customer
+    - Subscription
+    - Invoice
+    - PaymentAttempt
+  notes: >
+    Domain includes subscription lifecycle, proration, and dunning.
+    Integration variability is the primary driver of complexity.
+non_functional:
+  availability_slo: "99.9%"
+  latency_targets:
+    read_p95_ms: 250
+    charge_p95_ms: 500
+  observability:
+    logs: structured
+    traces: enabled
+    metrics: standard
+  security_compliance:
+    pci_saq: "A"
+    store_pan: false
+    pii_handling: minimized
+technology:
+  language: python
+  async_first: true
+  preferred_framework: fastapi
+  database: postgresql
+  messaging: nats_or_kafka
+  orm: sqlalchemy
+architecture:
+  preferences:
+    - keep_domain_framework_agnostic: true
+    - easy_to_swap_providers: true
+    - testability_with_mocks: true
+  constraints:
+    - must_support_multi_provider_routing_per_region
+    - must_handle_idempotency
+    - must_emit_domain_events_outbox
+risks:
+  - provider APIs change often (versioning, auth, payloads)
+  - regional compliance differences
+  - cost optimization drives frequent provider switching
+timeline:
+  phase_1_weeks: 8
+  milestones:
+    - week_2: domain model + inbound/outbound ports defined
+    - week_4: payment + notification adapters implemented
+    - week_6: dunning + tax adapters
+    - week_8: soak tests + launch gates
+decision_drivers:
+  - adaptability_to_integration_change
+  - clear separation of domain from infrastructure
+  - ability_to_mock_outbound_dependencies_in_tests

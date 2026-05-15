@@ -1,0 +1,8 @@
+{"id":"u001","english":"Fetch user profiles from the CRM API with OAuth and a 20 second timeout."}
+{"id":"s002","english":"Write the daily sales summary to the analytics database as an upsert operation."}
+{"id":"t003","english":"Transform the source CSV file into JSON and upload it to the data lake folder named 'ingest'."}
+{"id":"n004","english":"Notify the on-call team via email if the error rate exceeds 5 percent."}
+{"id":"q005","english":"Reprocess failed messages from the billing queue with up to 3 retries and log warnings."}
+{"id":"v006","english":"Validate incoming webhook payloads against the JSON schema before processing."}
+{"id":"p007","english":"Fetch product details from both partner APIs in parallel and merge the results."}
+{"id":"a008","english":"Archive application logs older than 30 days to cold storage every night at 02:00 UTC."}

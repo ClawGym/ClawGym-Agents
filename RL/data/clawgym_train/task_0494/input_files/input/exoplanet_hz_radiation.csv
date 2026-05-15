@@ -1,0 +1,6 @@
+system_id,host_star_type,hz_distance_au,mean_uv_flux_wm2,flare_rate_per_day,assumed_shielding_factor
+Kepler-442,K,0.4,50,0.1,0.6
+TRAPPIST-1,M,0.02,120,3.0,0.5
+Proxima Centauri,M,0.05,80,1.2,0.5
+Tau Ceti,G,1.0,30,0.05,0.7
+AD Leo,M,0.1,150,2.2,0.55

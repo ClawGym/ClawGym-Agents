@@ -1,0 +1,22 @@
+{
+  "name": "Michael Ortega",
+  "title": "Staff Machine Learning Engineer",
+  "level": "Staff",
+  "team": "Applied AI",
+  "department": "Engineering",
+  "manager": {
+    "name": "Priya Nair",
+    "title": "Director of Applied AI",
+    "email": "priya.nair@example.com"
+  },
+  "location": {
+    "city": "Valencia",
+    "country": "Spain",
+    "region": "EU"
+  },
+  "time_zone": "Europe/Madrid",
+  "employment_type": "Full-time",
+  "start_date": "2021-08-02",
+  "last_working_day": "2026-06-14",
+  "notes": "Remote employee based in the EU. Company-issued devices are enrolled in Kandji MDM. Primary working hours align with CET/CEST."
+}

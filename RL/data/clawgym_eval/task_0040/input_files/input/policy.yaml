@@ -1,0 +1,11 @@
+max_payback_months: 12
+min_readiness_score: 6
+budget_capex_usd: 200000
+top_n: 3
+attendees:
+  - "Alex Rivera"
+  - "Maria Chen"
+  - "Luis Gomez"
+  - "Priya Nair"
+  - "Ethan Lee"
+meeting_duration_minutes: 60

@@ -1,0 +1,11 @@
+Account,Type,Balance
+Cash and Cash Equivalents,Asset,40000
+Accounts Receivable,Asset,6000
+Bitcoin Holdings,Asset,15500
+Prepaid Expenses,Asset,2000
+Fixed Assets,Asset,8000
+Accumulated Depreciation,Contra-Asset,-2000
+Accounts Payable,Liability,7500
+Credit Card Payable,Liability,5000
+Loan Payable,Liability,15000
+Owner's Equity,Equity,42000

@@ -1,0 +1,7 @@
+full_name,surname,given_name,county,state,birth_year,event_year,relation_hint,source_quality,source_id,url
+John Merritt,Merritt,John,Summit,Ohio,1895,1920,likely cousin,0.8,CEN-1920-001,http://example.org/census/1920/john_merritt
+"Ellen O'Leary","O'Leary",Ellen,Middlesex,New Jersey,1880,1920,ancestor,0.95,CEN-1920-002,http://example.org/census/1920/ellen_oleary
+Thomas Holloway,Holloway,Thomas,Cook,Illinois,1901,1920,descendant,0.7,CEN-1920-003,http://example.org/census/1920/thomas_holloway
+Sarah Sanders,Sanders,Sarah,Summit,Ohio,1890,1920,no clear relation,0.6,CEN-1920-004,http://example.org/census/1920/sarah_sanders
+William Smith,Smith,William,Franklin,Ohio,1892,1920,no clear relation,0.5,CEN-1920-005,http://example.org/census/1920/william_smith
+Mary Merritt,Merritt,Mary,Middlesex,New Jersey,1898,1920,descendant,0.85,CEN-1920-006,http://example.org/census/1920/mary_merritt

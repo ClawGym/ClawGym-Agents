@@ -1,0 +1,10 @@
+goals:
+  - short_name: Lower Residential Speed Limits
+    ask: Reduce speed limits on residential streets to 25 mph citywide in 2026.
+    rationale: Lower speeds reduce crash severity and save lives.
+  - short_name: Safe Crossings near Schools
+    ask: Fund at least 15 new marked crosswalks and flashing beacons within 1/4 mile of K-8 schools in 2026.
+    rationale: Children need safe routes to school; crossings decrease pedestrian risk.
+  - short_name: Crash Data Transparency
+    ask: Publish a quarterly open dataset of traffic crashes with location, mode, and injury severity.
+    rationale: Transparent data helps target investments and evaluate outcomes.

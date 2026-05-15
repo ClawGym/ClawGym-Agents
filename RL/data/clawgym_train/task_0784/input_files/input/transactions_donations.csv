@@ -1,0 +1,11 @@
+date,donor_name,amount,method,designated_fund,pledge_id
+2025-01-05,John & Mary Smith,300.00,check,General,P001
+2025-01-12,Faith Community Church,500.00,ach,CareerTransition,P002
+2025-01-20,Jane Doe,200.00,cash,General,
+2025-02-05,John & Mary Smith,300.00,check,General,P001
+2025-02-10,Faith Community Church,500.00,ach,CareerTransition,P002
+2025-02-15,Anonymous,150.00,cash,General,P003
+2025-03-03,John & Mary Smith,300.00,check,General,P001
+2025-03-09,Faith Community Church,500.00,ach,CareerTransition,P002
+2025-03-21,Jane Doe,250.00,cash,CareerTransition,
+2025-03-25,Anonymous,150.00,cash,General,P003

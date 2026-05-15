@@ -1,0 +1,4 @@
+{"id":"p1","title":"City Contract Controversy","author":"Reporter A","sources":[{"anonymous":true,"docs":0,"corroboration_count":0,"contact":"encrypted_only"}]}
+{"id":"p2","title":"Local Election Analysis","author":"Reporter B","sources":[{"anonymous":false,"docs":0,"corroboration_count":0,"contact":"email"}]}
+{"id":"p3","title":"Whistleblower at Agency","author":"Reporter C","sources":[{"anonymous":true,"docs":2,"corroboration_count":1,"contact":"phone"},{"anonymous":false,"docs":1,"corroboration_count":0,"contact":"email"}]}
+{"id":"p4","title":"Leaked Memos Surface","author":"Reporter D","sources":[{"anonymous":true,"docs":0,"corroboration_count":2,"contact":"encrypted_only"},{"anonymous":true,"docs":0,"corroboration_count":0,"contact":"email"}]}

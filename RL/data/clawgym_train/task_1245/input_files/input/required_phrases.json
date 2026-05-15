@@ -1,0 +1,26 @@
+{
+  "language": "Japanese",
+  "politeness_level": "polite (desu/masu)",
+  "transliteration": "romaji",
+  "must_include": [
+    { "english": "Where is the station?" },
+    { "english": "How much is this?" },
+    { "english": "Please (when requesting politely)" },
+    { "english": "Thank you" },
+    { "english": "Excuse me / I'm sorry" },
+    { "english": "Do you speak English?" },
+    { "english": "I don't understand" },
+    { "english": "I would like this one" },
+    { "english": "Is there an English menu?" },
+    { "english": "Water, please." },
+    { "english": "The check, please." },
+    { "english": "One ticket to Shinjuku, please." },
+    { "english": "Where is the restroom?" },
+    { "english": "Can you help me?" },
+    { "english": "I'm allergic to nuts." },
+    { "english": "Where can I buy a Suica card?" },
+    { "english": "What time does it open?" },
+    { "english": "Please take me to this address." }
+  ],
+  "notes": "Include these phrases across the 7-day plan, vocabulary list, dialogues, flashcards, and quiz. Use native Japanese script with romaji and English gloss in outputs."
+}

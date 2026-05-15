@@ -1,0 +1,13 @@
+sku,name,category,unit_cost,weekly_sales,shrink_risk,promo_item,backstock_qty,floor_qty
+SKU-1001,CloudSoft Pillow,Bedding,18,55,low,false,120,30
+SKU-1002,Bamboo Sheet Set Queen,Bedding,65,35,medium,false,40,12
+SKU-2001,Stainless Cookware 10pc,Kitchen,180,12,medium,true,8,3
+SKU-2002,Nonstick Fry Pan 12in,Kitchen,45,60,high,true,50,8
+SKU-2003,Chef Knife 8in,Kitchen,110,18,high,false,15,6
+SKU-3001,Scented Candle 3-wick,Decor,12,70,medium,false,200,40
+SKU-3002,Ceramic Vase Tall,Decor,35,22,low,false,25,5
+SKU-4001,Cordless Stick Vacuum,Small Appliances,220,9,medium,false,5,2
+SKU-4002,Air Purifier Medium Room,Small Appliances,150,14,medium,true,6,2
+SKU-5001,Fabric Storage Bin Large,Storage,10,80,low,false,180,60
+SKU-5002,Essential Oil Diffuser,Home Wellness,28,45,high,false,40,12
+SKU-5003,Weighted Blanket 15lb,Bedding,120,8,medium,true,10,2

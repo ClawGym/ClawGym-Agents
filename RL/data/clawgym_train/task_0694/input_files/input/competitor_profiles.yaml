@@ -1,0 +1,93 @@
+- name: Maintainly UK
+  region: UK
+  pricing_gbp_per_vehicle:
+    basic: 9
+    pro: 13
+  implementation_fee_gbp: 1500
+  typical_contract_length_months: 24
+  positioning: "Mid-tier UK incumbent with strong regional networks and service bureaus"
+  strengths:
+    - Deep UK compliance templates
+    - Strong partner network for implementation
+    - Solid Geotab/Samsara integrations
+  weaknesses:
+    - UI dated vs modern SaaS
+    - Limited predictive analytics
+  feature_gaps_vs_FleetIQ:
+    - "Predictive maintenance based on ML models"
+    - "Technician mobile offline mode parity"
+  integrations:
+    - Geotab
+    - Samsara
+    - Sage
+  market_share_uk_pct: 14
+  discounting_pattern: "10–15% for annual prepay"
+  notes: "Aggressive on multi-year deals; offers migration from legacy CMMS at low cost."
+
+- name: FleetFix Pro
+  region: UK
+  pricing_gbp_per_vehicle:
+    basic: 7
+    pro: 11
+  implementation_fee_gbp: 500
+  typical_contract_length_months: 12
+  positioning: "Value/budget player targeting SMB and small regional fleets"
+  strengths:
+    - Fast time-to-value
+    - Low price points
+  weaknesses:
+    - Limited API surface
+    - Basic analytics; no predictive
+  feature_gaps_vs_FleetIQ:
+    - "Open APIs and webhooks"
+    - "Predictive models and failure codes"
+  integrations:
+    - Verizon Connect
+  market_share_uk_pct: 9
+  discounting_pattern: "5–8% on 12-month; minimal negotiation"
+  notes: "Defends with price; weak mid-market onboarding support."
+
+- name: TelematicsCo Add-on
+  region: UK
+  pricing_gbp_per_vehicle:
+    maintenance_addon: 5
+  implementation_fee_gbp: 0
+  typical_contract_length_months: 12
+  positioning: "Telematics vendor maintenance add-on upsold into existing base"
+  strengths:
+    - Bundled procurement, low friction
+    - Strong device data capture
+  weaknesses:
+    - Shallow maintenance workflows
+    - Limited parts/work order depth
+  feature_gaps_vs_FleetIQ:
+    - "Parts inventory management"
+    - "Advanced scheduling/approvals"
+  integrations:
+    - Native to telematics platform
+  market_share_uk_pct: 11
+  discounting_pattern: "Bundled discounts; opaque pricing"
+  notes: "Good wedge into SMB; less sticky for mid-market ops teams."
+
+- name: AutoServe Cloud
+  region: UK
+  pricing_gbp_per_vehicle:
+    pro: 12
+    enterprise: 16
+  implementation_fee_gbp: 3000
+  typical_contract_length_months: 36
+  positioning: "Premium enterprise-first maintenance platform"
+  strengths:
+    - Rich API/SSO library
+    - Strong partner SI ecosystem
+  weaknesses:
+    - High switching costs and long deployment
+  feature_gaps_vs_FleetIQ:
+    - "Technician UX and mobile performance vs FleetIQ"
+  integrations:
+    - Microsoft Dynamics
+    - SAP
+    - Okta
+  market_share_uk_pct: 6
+  discounting_pattern: "Up to 20% for 3-year commitments"
+  notes: "Defends enterprise; threatens mid-market upsell from below."

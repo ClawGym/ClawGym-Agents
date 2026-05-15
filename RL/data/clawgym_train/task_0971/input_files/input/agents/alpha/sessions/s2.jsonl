@@ -1,0 +1,3 @@
+{"id":"alpha-s2-001","timestamp":"2026-03-15T03:00:00Z","type":"message","message":{"provider":"anthropic","model":"claude-3-7","usage":{"input":200,"output":300,"cacheRead":100,"cacheWrite":20,"totalTokens":620}}}
+{"id":"alpha-s2-002","timestamp":"2026-03-15T14:30:00Z","type":"message","message":{"provider":"github-copilot","model":"copilot-chat","usage":{"input":50,"output":100,"cacheRead":0,"cacheWrite":0,"totalTokens":150}}}
+{"id":"alpha-s2-outside","timestamp":"2026-03-16T01:00:00Z","type":"message","message":{"provider":"openai","model":"gpt-4o-mini","usage":{"input":5,"output":5,"cacheRead":0,"cacheWrite":0,"totalTokens":10}}}

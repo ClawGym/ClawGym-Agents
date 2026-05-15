@@ -1,0 +1,9 @@
+watchlist_source: "Citizen Lab test lists (official) - file: global.csv"
+watchlist_path: "<SET THIS TO downloads/global.csv AFTER DOWNLOAD>"
+hosts_path: "input/hosts_sample.txt"
+resolv_path: "input/resolv.conf"
+report_path: "output/status_report.json"
+alert_messages:
+  host_blocked: "The system might be interfering with access to key public information online. It is possible that some hosts of significant public discourse relevance are being redirected or otherwise manipulated via the hosts file, which could impact a user's ability to freely access content. Please investigate thoroughly."
+  no_matches: "No concerning hosts were found. At this time, there were not any entries indicating possible restrictions or redirections that could compromise open access to information, and no additional action is required. Continue monitoring."
+  error_watchlist_missing: "The watchlist file is missing or unreadable. Download it to proceed."

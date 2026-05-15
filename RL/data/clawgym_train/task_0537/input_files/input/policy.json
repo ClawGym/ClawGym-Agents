@@ -1,0 +1,47 @@
+{
+  "thresholds": {
+    "critical": 85,
+    "high": 60,
+    "medium": 30,
+    "low": 0
+  },
+  "recommendations": {
+    "domain": {
+      "low": "Monitor DNS and email reputation; no immediate action.",
+      "medium": "Add to watchlist; enable enhanced logging and alerting for this domain.",
+      "high": "Block on email/web gateways; alert SOC and investigate related traffic.",
+      "critical": "Immediate enterprise-wide block (DNS, proxies, email); search and eradicate; notify leadership."
+    },
+    "ip": {
+      "low": "Allow but monitor for abnormal behavior; retain logs.",
+      "medium": "Rate-limit and monitor; consider temporary block if patterns persist.",
+      "high": "Block at firewall/WAF; review logs for related connections; notify incident response.",
+      "critical": "Immediate network-wide block; hunt for lateral movement and exfiltration."
+    },
+    "email": {
+      "low": "No action beyond monitoring; educate user on phishing awareness.",
+      "medium": "Flag for caution; enable additional verification for messages from this domain.",
+      "high": "Notify affected users; enforce password change and MFA verification.",
+      "critical": "Force credential reset, review recent activity, and notify potentially impacted users."
+    },
+    "url": {
+      "low": "Allow with caution; scan in sandbox if accessed.",
+      "medium": "Quarantine and detonate in sandbox; warn users.",
+      "high": "Block at proxies and email; submit for takedown if applicable.",
+      "critical": "Immediate block and purge; distribute IOC; initiate takedown processes."
+    },
+    "password_sha1": {
+      "low": "Acceptable risk; no action required.",
+      "medium": "Discourage use; prompt for change at next login.",
+      "high": "Disallow; require immediate password change.",
+      "critical": "Treat as compromised; force reset and invalidate sessions immediately."
+    },
+    "password_prefix": {
+      "low": "Prefix not widely seen; no immediate action.",
+      "medium": "Discourage passwords matching this pattern.",
+      "high": "Disallow passwords that hash to this prefix; notify security engineering.",
+      "critical": "Treat as high-risk pattern; enforce immediate rotation and add to password blocklist."
+    }
+  },
+  "notes": "Map numeric risk_score to risk_level: critical >= 85; high >= 60; medium >= 30; low < 30. Apply recommendations by indicator type and derived level. Use demo/test mode for external checks when supported."
+}

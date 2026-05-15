@@ -1,0 +1,7 @@
+to:
+  - vp.tech@acme.example
+  - cdo.office@acme.example
+cc:
+  - pmosupport@acme.example
+greeting_name: "Leadership Team"
+subject_prefix: "Weekly Pilot Portfolio Update"

@@ -1,0 +1,81 @@
+{
+  "analysis_summary": "EV charging is evolving toward reliability and transparent user experience. Competitors emphasize speed, coverage, or sustainability but often struggle to balance all three. AuroraCharge can occupy a trust-and-clarity position with strong uptime, simple pricing, and friendly UX.",
+  "positioning_axes": {
+    "x_axis": "Speed vs. Coverage",
+    "y_axis": "Price Transparency vs. Premium Services"
+  },
+  "competitors": [
+    {
+      "name": "VoltHub",
+      "positioning": "Ultra-fast urban charging in premium locations",
+      "archetype_hint": "Ruler/Magician",
+      "strengths": [
+        "High-power chargers in dense cities",
+        "Strong partnerships with parking operators"
+      ],
+      "weaknesses": [
+        "Premium pricing with complex add-ons",
+        "Variable communication about outages"
+      ],
+      "pricing": "Premium; dynamic rates",
+      "coverage": "Urban cores in top 15 metros",
+      "notes": "Excellent app design but limited suburban presence."
+    },
+    {
+      "name": "EcoCharge Network",
+      "positioning": "Sustainability-first with renewable guarantees",
+      "archetype_hint": "Caregiver/Everyman",
+      "strengths": [
+        "Strong green credentials and community programs",
+        "Transparent energy sourcing reports"
+      ],
+      "weaknesses": [
+        "Slower charging speeds at many sites",
+        "App UX inconsistencies"
+      ],
+      "pricing": "Mid-range; membership discounts",
+      "coverage": "Suburban and small cities",
+      "notes": "Good brand goodwill; performance lags."
+    },
+    {
+      "name": "RapidZap",
+      "positioning": "Speed above all; highway corridor quick-stops",
+      "archetype_hint": "Hero",
+      "strengths": [
+        "Very high kW chargers",
+        "Highway presence for road trips"
+      ],
+      "weaknesses": [
+        "Limited station amenities",
+        "Customer support wait times"
+      ],
+      "pricing": "High; peak surcharges",
+      "coverage": "Highways and travel plazas",
+      "notes": "Strong for long-haul drivers; weak local coverage."
+    },
+    {
+      "name": "GridGo",
+      "positioning": "Budget-friendly neighborhood chargers",
+      "archetype_hint": "Everyman",
+      "strengths": [
+        "Low prices and simple plans",
+        "Wide suburban presence"
+      ],
+      "weaknesses": [
+        "Inconsistent maintenance",
+        "Unclear app notifications"
+      ],
+      "pricing": "Low; flat rates",
+      "coverage": "Suburban and exurban",
+      "notes": "Value choice but reliability concerns."
+    }
+  ],
+  "opportunities_for_auroracharge": [
+    "Transparent uptime reporting and proactive maintenance updates",
+    "Simple, flat pricing with no hidden fees",
+    "Renewable energy matching disclosures and roadmap",
+    "Balanced network expansion across corridors and neighborhoods",
+    "Best-in-class app clarity and accessibility"
+  ],
+  "differentiation_notes": "Blend Explorer/Hero traits: promise freedom of movement and dependable performance, backed by clear data and friendly design."
+}

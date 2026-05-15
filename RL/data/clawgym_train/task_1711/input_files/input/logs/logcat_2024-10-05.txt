@@ -1,0 +1,14 @@
+10-05 14:23:10.000  1234  1234 I Activity: Starting activity com.example.ui.DetailActivity
+10-05 14:23:11.234  1234  1234 E AndroidRuntime: FATAL EXCEPTION: main
+10-05 14:23:11.234  1234  1234 E AndroidRuntime: Process: com.example.app, PID: 1234
+10-05 14:23:11.234  1234  1234 E AndroidRuntime: java.lang.IllegalStateException: Fragment not attached to a context
+10-05 14:23:11.234  1234  1234 E AndroidRuntime:     at a.b.c.a.onResume(Unknown Source:12)
+10-05 14:23:11.234  1234  1234 E AndroidRuntime:     at androidx.fragment.app.Fragment.performResume(Fragment.java:3021)
+10-05 14:23:11.234  1234  1234 E AndroidRuntime:     at androidx.fragment.app.FragmentStateManager.resume(FragmentStateManager.java:559)
+10-05 14:23:12.500  1000  1100 I ActivityManager: ANR in com.example.app (com.example.app/.receiver.BootReceiver) (pid 1234) Reason: Broadcast of Intent { act=android.intent.action.BOOT_COMPLETED }
+10-05 15:10:05.678  5678  5901 E AndroidRuntime: FATAL EXCEPTION: DefaultDispatcher-worker-1
+10-05 15:10:05.678  5678  5901 E AndroidRuntime: Process: com.example.app, PID: 5678
+10-05 15:10:05.678  5678  5901 E AndroidRuntime: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.String.length()' on a null object reference
+10-05 15:10:05.678  5678  5901 E AndroidRuntime:     at x.y.z.d.run(Unknown Source:34)
+10-05 15:10:05.678  5678  5901 E AndroidRuntime:     at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:)
+10-05 15:10:05.678  5678  5901 E AndroidRuntime:     at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:)

@@ -1,0 +1,4 @@
+cpu_threshold: 15.0
+mem_threshold: 400
+purist_mode: false
+purist_blocklist: []

@@ -1,0 +1,12 @@
+{
+  "template": "minimal",
+  "editor": "code",
+  "color": true,
+  "telemetry": false,
+  "init": {
+    "git": true
+  },
+  "projectDir": ".",
+  "xdg_app_name": "projctl",
+  "notes": "These are built-in defaults. Do not modify at runtime; override via project/user config, env vars, or CLI flags."
+}

@@ -1,0 +1,60 @@
+{
+  "team": "Checkout & Payments",
+  "engineers": 7,
+  "sprint_length_days": 10,
+  "sprints_in_quarter": 6,
+  "effective_velocity_points_per_sprint": 48,
+  "capacity_overheads": {
+    "meetings_percent": 20,
+    "oncall_percent": 10
+  },
+  "new_hires": [
+    {
+      "name": "Priya",
+      "start": "2026-05-06",
+      "ramp_percent_by_sprint": {
+        "S3": 0.5,
+        "S4": 0.7,
+        "S5": 0.9,
+        "S6": 1.0
+      }
+    },
+    {
+      "name": "Leo",
+      "start": "2026-05-06",
+      "ramp_percent_by_sprint": {
+        "S3": 0.5,
+        "S4": 0.7,
+        "S5": 0.9,
+        "S6": 1.0
+      }
+    }
+  ],
+  "pto": [
+    {
+      "name": "Sam",
+      "sprint_impact": {
+        "S2": 0.5
+      }
+    },
+    {
+      "name": "Nina",
+      "sprint_impact": {
+        "S3": 0.5
+      }
+    }
+  ],
+  "planned_features": [
+    {
+      "name": "EU VAT 2.0",
+      "target_sprint_code_complete": "S4",
+      "estimate_points": 60
+    },
+    {
+      "name": "Mobile Checkout Revamp (A/B)",
+      "target_sprint_start": "S5",
+      "estimate_points": 40
+    }
+  ],
+  "notes": "Feature freeze in the final week of the quarter. Maintain 99.95% SLO for payments. SOC 2 audit in late June; ensure evidence for change management and incident response."
+}

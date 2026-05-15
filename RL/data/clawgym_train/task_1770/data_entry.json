@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1770",
+  "user_query": "Convert my Elite Longterm Memory workspace into a portable ExpertPack and produce a few supporting documents. Read everything under input/ including: input/SESSION-STATE.md, input/MEMORY.md, input/memory/*.md (daily journals), input/memory/topics/*.md (topic files), input/git-notes.jsonl (cold notes), and input/USER.md (primary user info). Strip any secrets you find. Write the ExpertPack to output/expertpack/ named \"Acme Agent Knowledge Pack\" with type person. Ensure output/expertpack/ contains: manifest.yaml, overview.md, the directories mind/, facts/, summaries/, operational/, relationships/ each with an _index.md and at least one content .md file, and relationships/primary-user.md derived from input/USER.md. In addition, based on input/branding_brief.md and any relevant workspace content, write brand guidelines to output/brand_guidelines.md with clear sections: Positioning, Audience Personas, Messaging, Visual Identity. Also, using input/health_profile.json, create a filled emergency health card at output/emergency_card.md with Name, Blood Type, Allergies, Medical Conditions, Current Medications, Emergency Contact Name, Emergency Contact Phone. Finally, create output/publish_git_checklist.md listing the exact git commands to publish the ExpertPack (include: git status, git pull, git branch, git commit -m, git push, git log --oneline). Keep all outputs in English and do not leak any secrets.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

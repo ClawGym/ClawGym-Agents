@@ -1,0 +1,31 @@
+{
+  "address": "0xBBB",
+  "fetched_at": "2026-04-15T12:01:02Z",
+  "positions": [
+    {
+      "conditionId": "Q2",
+      "title": "Will BTC reach $100k by Dec 2026?",
+      "outcome": "YES",
+      "shares": 60000,
+      "avg_price": 0.4,
+      "curr_price": 0.55,
+      "position_usd": 33000
+    },
+    {
+      "conditionId": "Q1",
+      "outcome": "NO",
+      "shares": 10000,
+      "avg_price": 0.35,
+      "curr_price": 0.28,
+      "position_usd": 2800
+    },
+    {
+      "conditionId": "Q4",
+      "outcome": "NO",
+      "shares": 5,
+      "avg_price": 0.6,
+      "curr_price": 0.5,
+      "position_usd": 2.5
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+MEETING_DATE: 2026-04-16
+ATTENDEES: Alex; Elena; Priya; Chen; Maksim
+TOPIC: Eigensolver design review
+
+DISCUSSION: Current power iteration is too slow on large sparse symmetric systems.
+DECISION: Adopt block-Lanczos with implicit restart for sparse symmetric matrices.
+DECISION: Use CSR with 64-bit indices to avoid overflow on large problems.
+
+ACTION: id=A2 owner=Alex due=2026-04-18 related_task_id=1018 text=Prototype block-Lanczos kernel with OpenMP
+ACTION: id=A1 owner=Elena due=2026-04-20 related_task_id=1021 text=Refactor preconditioner interface to allow ILU(0) and SPAI
+ACTION: id=A3 owner=Priya due=2026-04-22 related_task_id=1027 text=Add unit tests for eigenpair residuals
+
+NOTE: Next design sync on 2026-04-25.

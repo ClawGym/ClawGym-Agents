@@ -1,0 +1,8 @@
+{
+  "company_name": "NorthBridge Analytics, Inc.",
+  "location": "Chicago hub",
+  "chicago_hub_headcount": 48,
+  "trailing_12_month_revenue_usd": 14800000,
+  "expected_headcount_growth_per_year_pct": 5,
+  "notes": "Data science and analytics consultancy; hybrid work with ~70% weekly office utilization. Use headcount for per-employee cost calculations; use TTM revenue for cost-per-revenue-dollar metrics."
+}

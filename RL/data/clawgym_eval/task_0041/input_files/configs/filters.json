@@ -1,0 +1,5 @@
+{
+  "min_snr_db": 60.0,
+  "max_power_mw": 50.0,
+  "min_bandwidth_khz": 170.0
+}

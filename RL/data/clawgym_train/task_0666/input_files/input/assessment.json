@@ -1,0 +1,51 @@
+{
+  "sessionId": "sess-20260419-xyz123",
+  "userId": 1087,
+  "timestamp": "2026-04-19T12:00:00Z",
+  "assessmentData": {
+    "sessionId": "sess-20260419-xyz123",
+    "timestamp": "2026-04-19T11:59:00Z",
+    "experience": {
+      "currentRole": "IT Support Specialist",
+      "yearsInRole": 3.5,
+      "yearsInIT": 6,
+      "industriesWorked": ["Healthcare", "Manufacturing"]
+    },
+    "skills": {
+      "technical": [
+        "Windows 10/11",
+        "Windows Server",
+        "Active Directory",
+        "Azure AD",
+        "Microsoft 365",
+        "Basic Networking",
+        "PowerShell Basics",
+        "VMware vSphere Basics",
+        "Linux Fundamentals",
+        "Endpoint Management (Intune)"
+      ],
+      "soft": [
+        "Communication",
+        "Problem Solving",
+        "Mentoring",
+        "Documentation",
+        "Time Management"
+      ],
+      "certifications": [
+        "CompTIA A+",
+        "ITIL Foundation"
+      ]
+    },
+    "goals": {
+      "targetRole": "Cloud Systems Administrator",
+      "timeframe": "18-24 months",
+      "focusAreas": [
+        "Azure Administration",
+        "Automation (PowerShell/CLI)",
+        "Identity & Access Management",
+        "Security Hardening",
+        "Backup/DR"
+      ]
+    }
+  }
+}

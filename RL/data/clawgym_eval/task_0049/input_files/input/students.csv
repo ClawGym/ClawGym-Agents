@@ -1,0 +1,4 @@
+student_name,student_email,parent_email,recommender_name,recommender_email,college,app_deadline,rec_deadline,scholarship_ids
+Ava Li,ava.li@example.com,parent.li@example.com,Coach Dana Reed,dana.reed@school.org,State University,2026-11-15,2026-11-08,SCH-001;SCH-003
+Mateo Rivera,mateo.rivera@example.com,rivera.parent@example.com,Ms. Elaine Park,epark@school.org,Liberal Arts College,2027-01-05,2026-12-22,SCH-002
+Priya Shah,priya.shah@example.com,shah.parent@example.com,Dr. Samuel Lin,s.lin@school.org,Tech Institute,2026-12-01,2026-11-20,SCH-001;SCH-002

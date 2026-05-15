@@ -1,0 +1,14 @@
+{
+  "fields": [
+    {"name": "id", "type": "string", "required": true},
+    {"name": "org", "type": "string", "required": true},
+    {"name": "url", "type": "string", "required": true},
+    {"name": "title", "type": "string", "required": true},
+    {"name": "published_date", "type": "string", "format": "date", "required": true},
+    {"name": "text", "type": "string", "required": true},
+    {"name": "char_count", "type": "integer", "required": true},
+    {"name": "word_count", "type": "integer", "required": true},
+    {"name": "label", "type": "string", "required": true},
+    {"name": "source_search_query", "type": "string", "required": true}
+  ]
+}

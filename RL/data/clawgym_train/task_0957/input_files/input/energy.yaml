@@ -1,0 +1,17 @@
+day_start: "08:00"
+day_end: "18:00"
+morning_priming_minutes: 60
+
+windows:
+  peak:
+    - start: "09:00"
+      end: "12:00"
+  secondary:
+    - start: "13:30"
+      end: "16:00"
+  recovery:
+    - start: "12:00"
+      end: "13:30"
+  wind_down:
+    - start: "16:00"
+      end: "18:00"

@@ -1,0 +1,7 @@
+# Update values marked TODO before running the watcher.
+trigger_folder: "inbox"
+output_root: "out"
+museum_name: "TODO: set museum name (e.g., City War Museum)"
+tone: "TODO: write a short guideline for an energetic, respectful, and concise confirmation tone"
+message_max_sentences: 3
+processed_state_file: "state/processed.json"

@@ -1,0 +1,5 @@
+quiet_hours:
+  start: "21:30"  # inclusive start, UTC
+  end: "07:00"    # exclusive end, UTC
+threshold_db: 60   # please change to 55 before running the monitor
+neighborhood: "Grosvenor Square"

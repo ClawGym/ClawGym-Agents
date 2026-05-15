@@ -1,0 +1,19 @@
+2026-04-07 09:18:11 +0000 | e3f9a12 | chore(ci): migrate from CircleCI to GitHub Actions; remove .circleci/config.yml
+2026-04-07 11:02:44 +0000 | 7a1c4d9 | ci: add CodeQL workflow (security scan) — initially set to manual
+2026-04-08 08:27:05 +0000 | b71e8f2 | build(ts): enable "strict": true across packages; fix typing errors
+2026-04-08 14:36:58 +0000 | a9c03b4 | feat(logging): replace winston with pino; add request-id middleware
+2026-04-09 10:15:22 +0000 | 5f2a1cd | style: add .prettierrc and run formatting across repo
+2026-04-09 16:49:03 +0000 | 4c0dbe1 | chore: add Husky pre-commit hook (lint + test) and commit-msg hook
+2026-04-10 09:07:57 +0000 | 8d2b77f | test(e2e): add Playwright smoke tests; wire into CI matrix (linux, mac)
+2026-04-10 12:31:40 +0000 | c3f4a11 | docs: bootstrap Docusaurus site; add getting-started and architecture pages
+2026-04-11 13:22:19 +0000 | 2aa9f88 | build(release): introduce commitlint + Conventional Commits config
+2026-04-12 15:45:06 +0000 | 9b7e2ab | feat(flags): integrate unleash-client; add analytics collection flag
+2026-04-13 08:55:14 +0000 | d1f0c4e | infra(db): add docker-compose with postgres:16; local dev uses Postgres
+2026-04-13 11:10:59 +0000 | 6e3d9a0 | chore(db): keep SQLite for unit tests; add knex configs per env
+2026-04-14 17:02:25 +0000 | f88c0a2 | chore(security): npm audit fix; bump vulnerable dependencies
+2026-04-15 07:39:33 +0000 | 0ab9c77 | build(release): try semantic-release dry run (no publish)
+2026-04-16 10:21:18 +0000 | 1bc2f44 | observability: add pino-pretty in dev + HTTP timing logs
+2026-04-17 09:48:50 +0000 | a0dd2ee | docs(adr): add ADR-0003 logger choice rationale (Pino over Winston)
+2026-04-18 08:33:27 +0000 | 7f6e1c8 | ci: cache Playwright browsers to cut pipeline time by ~2 minutes
+2026-04-19 13:05:12 +0000 | 3c1a5f0 | perf: memoize CLI config load; reduce startup by ~80ms
+2026-04-20 08:12:41 +0000 | 2d7b9e4 | chore: add CODEOWNERS and branch protection guidelines doc

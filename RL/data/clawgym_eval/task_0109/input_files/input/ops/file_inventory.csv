@@ -1,0 +1,6 @@
+path,mode,owner
+/app/.env,664,app
+/app/src/app.py,644,app
+/app/config/settings.yaml,664,app
+/var/log/app.log,666,app
+/etc/ssl/private/dev.key,644,root

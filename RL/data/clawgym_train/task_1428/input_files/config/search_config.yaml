@@ -1,0 +1,5 @@
+allowed_domains:
+  - nih.gov
+  - who.int
+min_sources_per_concept: 1
+output_dir: "outputs"

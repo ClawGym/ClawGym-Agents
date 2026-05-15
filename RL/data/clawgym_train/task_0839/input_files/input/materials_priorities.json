@@ -1,0 +1,34 @@
+{
+  "materials": [
+    {
+      "material": "cellulose-based wrap",
+      "freshness_function": "humidity control for leafy herbs",
+      "chef_priority": "High",
+      "alias_keywords": ["cellulose wrap", "cellulose-based film", "plant-based wrap"]
+    },
+    {
+      "material": "polyamide/PE vacuum pouch",
+      "freshness_function": "oxygen barrier for fish and meats",
+      "chef_priority": "High",
+      "alias_keywords": ["vacuum pouch", "PA/PE pouch", "nylon/PE vacuum bag"]
+    },
+    {
+      "material": "EVOH coextrusion film",
+      "freshness_function": "high oxygen barrier for extended shelf life",
+      "chef_priority": "Medium",
+      "alias_keywords": ["EVOH film", "coextruded barrier film"]
+    },
+    {
+      "material": "foil laminate",
+      "freshness_function": "aroma and light barrier for spices",
+      "chef_priority": "Medium",
+      "alias_keywords": ["foil sachet", "foil-lined pouch", "metalized laminate"]
+    },
+    {
+      "material": "silica gel desiccant",
+      "freshness_function": "moisture control in spice sachets",
+      "chef_priority": "Medium",
+      "alias_keywords": ["desiccant packet", "moisture absorber"]
+    }
+  ]
+}

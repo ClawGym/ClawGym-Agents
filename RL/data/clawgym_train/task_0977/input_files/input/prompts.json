@@ -1,0 +1,7 @@
+[
+  "List all JavaScript and TypeScript files in the repository, relative to the project root.",
+  "Check if README.md exists; if not, create a concise README with setup steps, usage, and a short overview.",
+  "Create a .gitignore optimized for a Node.js project, including logs, node_modules, dist/build artifacts, coverage, and environment files.",
+  "Add a minimal index.js that prints: Hello from ACP. Also add a start script in package.json that runs node index.js.",
+  "Propose a basic test setup and a GitHub Actions CI workflow that runs on push and pull_request for the main branch."
+]

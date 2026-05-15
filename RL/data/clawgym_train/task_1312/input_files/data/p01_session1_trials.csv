@@ -1,0 +1,11 @@
+participant_id,session_id,condition,trial_index,rt_ms,accuracy,vividness_rating,report_text
+p01,s1,focused,1,520,1,5,"I kept visual focus on the image and felt in control."
+p01,s1,focused,2,480,1,4,"Breath steady and bodily calm; the picture remained clear."
+p01,s1,focused,3,610,0,3,"Effortful but automatic at times; the voice in my head was quiet."
+p01,s1,focused,4,550,1,6,"Strong agency and a clear visual image; muscle relaxed."
+p01,s1,focused,5,495,1,4,"No sound distractions and I maintained control of attention."
+p01,s1,mind_wandering,6,740,0,2,"Lost control as the image drifted; bodily tension rose."
+p01,s1,mind_wandering,7,700,0,3,"Automatic thoughts with a visual picture and a faint heartbeat."
+p01,s1,mind_wandering,8,680,0,4,"Heard a distant voice; agency felt low; breath shallow."
+p01,s1,mind_wandering,9,720,0,3,"Mind wandered to a bodily sensation and effort to refocus."
+p01,s1,mind_wandering,10,690,0,4,"An image popped in with little control and an auditory humming."

@@ -1,0 +1,13 @@
+{
+  "kyc": "A",
+  "log": "A",
+  "fixed_rate": false,
+  "backoff_seconds": 20,
+  "expiry_window_minutes": 20,
+  "consider_bridge": true,
+  "bridge_rationale_hint": "Break on-chain link ETH->BTC via XMR tunnel when available for higher privacy.",
+  "min_check": true,
+  "validate_addresses": true,
+  "require_memo_for": ["xrp", "xlm"],
+  "notes": "Always estimate first, choose best privacy route (kyc=A, log=A), validate destination addresses prior to trade creation, and never proceed below provider minimums."
+}

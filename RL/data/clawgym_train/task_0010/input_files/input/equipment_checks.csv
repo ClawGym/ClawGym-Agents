@@ -1,0 +1,6 @@
+equipment_id,type,last_inspection_date,status,notes
+FP-1,film_projector,2026-01-15,ok,""
+FP-2,film_projector,2026-05-01,ok,""
+DCP-1,dcp_projector,2025-12-30,ok,""
+NC-1,nitrate_cabinet,2025-12-15,ok,"Certified cabinet"
+FE-BOOTH,fire_extinguisher,2025-05-30,ok,"Booth extinguisher"

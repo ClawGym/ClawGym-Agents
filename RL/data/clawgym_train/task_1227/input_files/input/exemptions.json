@@ -1,0 +1,11 @@
+{
+  "exemptions": [
+    {
+      "skill": "net-monitor",
+      "rule": "no-network-calls",
+      "reason": "Network monitoring component requires establishing connections to validate reachability.",
+      "approved_by": "security-team",
+      "granted_at": "2026-03-01T10:00:00Z"
+    }
+  ]
+}

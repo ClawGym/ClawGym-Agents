@@ -1,0 +1,18 @@
+From: Elena R. <elena.r@example.com>
+To: Intake <intake@childtherapy.local>
+Subject: Re: Intake question (follow-up)
+Date: Thu, 11 Apr 2024 12:01:00 -0400
+Message-ID: <msg4@workspace.local>
+
+Hi,
+Following up on my question about intake.
+
+---- Intake Details ----
+Child Name: Lucas R.
+Age: 4
+Preferred Times: mornings Wed
+Completed Intake: No
+------------------------
+
+Thanks,
+Elena

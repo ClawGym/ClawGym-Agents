@@ -1,0 +1,164 @@
+{
+  "generate_java_code": true,
+  "base_package": "com.acme.shop",
+  "author": "Ava Stone",
+  "template_group": "Custom-V2",
+  "db_connection": null,
+  "tables": [
+    {
+      "table_name": "user_account",
+      "comment": "User account information",
+      "columns": [
+        {
+          "name": "id",
+          "type": "BIGINT",
+          "is_primary": true,
+          "is_nullable": false,
+          "comment": "Primary key"
+        },
+        {
+          "name": "username",
+          "type": "VARCHAR",
+          "length": 50,
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Unique username"
+        },
+        {
+          "name": "email",
+          "type": "VARCHAR",
+          "length": 120,
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Email address"
+        },
+        {
+          "name": "password_hash",
+          "type": "VARCHAR",
+          "length": 255,
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Password hash (never stored in plaintext)"
+        },
+        {
+          "name": "status",
+          "type": "INT",
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Account status code"
+        },
+        {
+          "name": "created_at",
+          "type": "TIMESTAMP",
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Creation time"
+        },
+        {
+          "name": "updated_at",
+          "type": "TIMESTAMP",
+          "is_primary": false,
+          "is_nullable": true,
+          "comment": "Last update time"
+        },
+        {
+          "name": "creator",
+          "type": "BIGINT",
+          "is_primary": false,
+          "is_nullable": true,
+          "comment": "Creator user id"
+        },
+        {
+          "name": "modifier",
+          "type": "BIGINT",
+          "is_primary": false,
+          "is_nullable": true,
+          "comment": "Modifier user id"
+        }
+      ]
+    },
+    {
+      "table_name": "order_item",
+      "comment": "Order line item",
+      "columns": [
+        {
+          "name": "id",
+          "type": "BIGINT",
+          "is_primary": true,
+          "is_nullable": false,
+          "comment": "Primary key"
+        },
+        {
+          "name": "order_id",
+          "type": "BIGINT",
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Order id"
+        },
+        {
+          "name": "product_id",
+          "type": "BIGINT",
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Product id"
+        },
+        {
+          "name": "quantity",
+          "type": "INT",
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Quantity"
+        },
+        {
+          "name": "unit_price",
+          "type": "DECIMAL",
+          "precision": 12,
+          "scale": 2,
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Price per unit"
+        },
+        {
+          "name": "discount",
+          "type": "DECIMAL",
+          "precision": 12,
+          "scale": 2,
+          "is_primary": false,
+          "is_nullable": true,
+          "comment": "Discount amount"
+        },
+        {
+          "name": "created_at",
+          "type": "TIMESTAMP",
+          "is_primary": false,
+          "is_nullable": false,
+          "comment": "Creation time"
+        },
+        {
+          "name": "updated_at",
+          "type": "TIMESTAMP",
+          "is_primary": false,
+          "is_nullable": true,
+          "comment": "Last update time"
+        }
+      ]
+    }
+  ],
+  "generation_config": {
+    "output_root": "output/src/main/java",
+    "type_mapping": {
+      "BIGINT": "java.lang.Long",
+      "INT": "java.lang.Integer",
+      "INTEGER": "java.lang.Integer",
+      "DECIMAL": "java.math.BigDecimal",
+      "NUMBER": "java.lang.Long",
+      "DATE": "java.util.Date",
+      "TIMESTAMP": "java.util.Date",
+      "DATETIME": "java.util.Date",
+      "VARCHAR": "java.lang.String",
+      "CHAR": "java.lang.String",
+      "TEXT": "java.lang.String"
+    },
+    "project_format_command": null
+  }
+}

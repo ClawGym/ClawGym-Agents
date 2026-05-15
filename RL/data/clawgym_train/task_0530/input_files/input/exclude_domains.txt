@@ -1,0 +1,9 @@
+reddit.com
+medium.com
+linkedin.com
+quora.com
+facebook.com
+tiktok.com
+pinterest.com
+twitter.com
+x.com

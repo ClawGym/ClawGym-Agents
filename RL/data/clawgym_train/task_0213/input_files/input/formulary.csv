@@ -1,0 +1,11 @@
+medication,class,primary_indication,evidence_rating,common_adverse_effects,cost_per_month_usd,on_formulary
+Sertraline,SSRI,Major Depressive Disorder,4,"nausea;sexual_dysfunction;insomnia",12,yes
+Escitalopram,SSRI,Major Depressive Disorder,5,"nausea;sexual_dysfunction",15,yes
+Vortioxetine,Serotonin modulator,Major Depressive Disorder,4,"nausea;constipation",320,no
+Bupropion,NDRI,Major Depressive Disorder,4,"insomnia;dry_mouth",10,yes
+Mirtazapine,NaSSA,Major Depressive Disorder,4,"sedation;weight_gain;dry_mouth",8,yes
+Quetiapine,Atypical Antipsychotic,Bipolar Depression,4,"sedation;weight_gain;orthostasis",18,yes
+Lumateperone,Atypical Antipsychotic,Bipolar Depression,3,"sedation;somnolence",1200,no
+Lamotrigine,Mood Stabilizer,Bipolar Depression,3,"rash;dizziness",6,yes
+Vilazodone,SSRI partial agonist,Major Depressive Disorder,3,"nausea;diarrhea",350,no
+Cariprazine,Atypical Antipsychotic,Bipolar Depression,4,"akathisia;insomnia",1400,no

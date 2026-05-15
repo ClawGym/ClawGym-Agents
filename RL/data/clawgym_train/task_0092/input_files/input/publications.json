@@ -1,0 +1,10 @@
+{
+  "priority_publications": [
+    {"name": "The New York Times", "domain": "nytimes.com"},
+    {"name": "The Guardian", "domain": "theguardian.com"},
+    {"name": "Time Out", "domain": "timeout.com"},
+    {"name": "Variety", "domain": "variety.com"},
+    {"name": "Los Angeles Times", "domain": "latimes.com"}
+  ],
+  "keywords": ["review", "critique", "premiere", "opening night"]
+}

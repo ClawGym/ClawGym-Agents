@@ -1,0 +1,9 @@
+# Health rules for OpenClaw Doctor analysis
+ws_disconnect_threshold: 3
+heartbeat_window_minutes: 60
+
+# Additional optional rules
+http_connect_timeout_seconds: 5
+http_max_time_seconds: 10
+max_ws_disconnects_per_hour: 3
+caffeinate_duration_seconds: 3600

@@ -1,0 +1,108 @@
+python:
+  - python
+  - py
+  - script
+  - pip
+  - pytest
+  - django
+  - flask
+  - fastapi
+  - pandas
+  - numpy
+
+javascript / typescript:
+  - javascript
+  - typescript
+  - js
+  - ts
+  - node
+  - react
+  - vue
+  - angular
+  - npm
+  - yarn
+
+git:
+  - git
+  - commit
+  - branch
+  - pull request
+  - pr
+  - merge
+  - rebase
+  - push
+  - clone
+
+docker:
+  - docker
+  - container
+  - image
+  - dockerfile
+  - compose
+  - kubernetes
+  - k8s
+  - helm
+
+browser automation:
+  - browser
+  - web
+  - ui
+  - selenium
+  - playwright
+  - automation
+  - scrape
+  - headless
+
+aws:
+  - aws
+  - s3
+  - lambda
+  - ec2
+  - cloudformation
+  - iam
+  - dynamodb
+  - rds
+  - ecr
+  - ecs
+
+sql / databases:
+  - sql
+  - database
+  - postgres
+  - mysql
+  - sqlite
+  - query
+  - schema
+  - join
+  - select
+  - where
+
+api design:
+  - api
+  - openapi
+  - rest
+  - endpoint
+  - endpoints
+  - authentication
+  - oauth
+  - jwt
+  - webhook
+
+linux / shell:
+  - bash
+  - shell
+  - linux
+  - cron
+  - chmod
+  - grep
+  - awk
+  - sed
+  - ssh
+  - script
+
+code review:
+  - review
+  - code review
+  - code quality
+  - lint
+  - linting

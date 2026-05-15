@@ -1,0 +1,15 @@
+Lab QA/QC notes for June 2025
+Only analyze samples explicitly marked VALID.
+
+S-001: VALID
+S-002: VALID
+S-003: VALID
+S-004: REJECTED - broken vial
+S-005: VALID
+S-006: VALID
+S-007: VALID
+S-008: VALID
+S-009: VALID
+S-010: VALID
+S-011: CONTAMINATED BLANK
+S-012: VALID

@@ -1,0 +1,35 @@
+import Foundation
+
+struct Item: Codable {
+    let id: String
+    let title: String
+}
+
+enum ParseError: Error {
+    case invalidData
+    case decodeFailed
+}
+
+final class Parser {
+
+    // Empty catch block (silently ignoring errors)
+    func loadJSON(from url: URL) -> Data? {
+        do {
+            return try Data(contentsOf: url)
+        } catch {
+        }
+        return nil
+    }
+
+    // try! on runtime JSON data (unsafe)
+    func parseItem(from data: Data) -> Item {
+        let item = try! JSONDecoder().decode(Item.self, from: data)
+        return item
+    }
+
+    // Force unwrap on dictionary access (unsafe)
+    func extractId(from dict: [String: Any]) -> String {
+        let raw = dict["id"]!
+        return String(describing: raw)
+    }
+}

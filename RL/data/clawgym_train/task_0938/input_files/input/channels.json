@@ -1,0 +1,5 @@
+[
+  {"channel": "Blog", "weekly_slots": 2},
+  {"channel": "LinkedIn", "weekly_slots": 1},
+  {"channel": "Twitter", "weekly_slots": 1}
+]

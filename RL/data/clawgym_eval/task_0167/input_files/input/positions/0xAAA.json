@@ -1,0 +1,40 @@
+{
+  "address": "0xAAA",
+  "fetched_at": "2026-04-15T11:59:30Z",
+  "positions": [
+    {
+      "conditionId": "Q2",
+      "outcome": "YES",
+      "shares": 100000,
+      "avg_price": 0.42,
+      "curr_price": 0.55,
+      "position_usd": 55000
+    },
+    {
+      "conditionId": "Q1",
+      "title": "Will Candidate X win the 2028 election?",
+      "outcome": "NO",
+      "shares": 30000,
+      "avg_price": 0.3,
+      "curr_price": 0.28,
+      "position_usd": 8400
+    },
+    {
+      "conditionId": "Q4",
+      "title": "Will Company Y acquire Z by 2027?",
+      "outcome": "NO",
+      "shares": 100,
+      "avg_price": 0.5,
+      "curr_price": 0.49,
+      "position_usd": 49
+    },
+    {
+      "conditionId": "Q3",
+      "outcome": "YES",
+      "shares": 10,
+      "avg_price": 0.1,
+      "curr_price": 0.09,
+      "position_usd": 0.9
+    }
+  ]
+}

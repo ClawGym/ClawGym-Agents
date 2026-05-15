@@ -1,0 +1,20 @@
+[
+  {
+    "match_id": "R8-STK-CAR",
+    "date": "2024-05-05",
+    "team": "St Kilda",
+    "opponent": "Carlton",
+    "round": "R8",
+    "quarter_scores": [18, 22, 12],
+    "total_points": 52
+  },
+  {
+    "match_id": "R7-RIC-MEL",
+    "date": "2024-04-28",
+    "team": "Richmond",
+    "opponent": "Melbourne",
+    "round": "R7",
+    "quarter_scores": [20, 15, 18, 21],
+    "total_points": 74
+  }
+]

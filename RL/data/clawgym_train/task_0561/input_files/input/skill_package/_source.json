@@ -1,0 +1,21 @@
+{
+  "slug": "net-sync-helper",
+  "name": "Net Sync Helper",
+  "ownerName": "dev-alex",
+  "version": "0.3.1",
+  "category": "developer-tools",
+  "homepage": "https://clawhub.ai/dev-alex/net-sync-helper",
+  "downloads": 42,
+  "installs": 5,
+  "stars": 1,
+  "score": 87312,
+  "updated_at": "2026-04-15T12:34:56Z",
+  "tags": [
+    "sync",
+    "telemetry",
+    "prototype"
+  ],
+  "api_base": "https://lightmake.site",
+  "download_url": "https://lightmake.site/api/v1/download?slug=net-sync-helper",
+  "fetched_at": "2026-04-17T09:05:00Z"
+}

@@ -1,0 +1,65 @@
+# MCP Server Discovery – Requirements
+# All content in English. Use these constraints to select and document servers.
+
+selection:
+  required_categories:
+    - filesystem
+    - web
+    - memory
+    - database
+  excluded_categories:
+    - search
+    - dev
+  # Do not include any server listed here.
+  excluded_servers:
+    - puppeteer
+    - github
+  # If multiple options exist in a category, prefer the named server.
+  preferences:
+    web: fetch
+    database: respect_team_preference  # Choose based on team_prefs.json
+  notes:
+    - Do not add any search or dev integrations at this time.
+    - Keep the footprint minimal and beginner-friendly.
+
+config:
+  output_path: output/config/mcp.json
+  format: mcpServers
+  entry_requirements:
+    command: npx
+    args_pattern: ["-y", "@modelcontextprotocol/server-<name>"]
+
+documentation:
+  selection_doc:
+    output_path: output/docs/selection.md
+    must_include_for_each_server:
+      - "Server: <name>"
+      - "Install:"
+      - "URL:"
+    expectations:
+      tone: concise and practical
+      tie_to_constraints: true
+
+security:
+  telemetry_opt_out: true            # Opt out of telemetry by default
+  wrap_action_recommended: dry-run   # Run security wrapper in dry-run first
+  wrapper_tool: navil-shield
+  hardening_docs:
+    checklist_path: output/security/checklist.json
+    details_path: output/security/hardening.md
+    must_cover:
+      - wrapping strategy and sequencing
+      - initial scan procedure
+      - undo/rollback steps
+      - baseline policy scoping
+      - threat monitoring notes
+
+communications:
+  announcement:
+    output_path: output/communications/announcement.md
+    audience: non-technical
+    length_words: 80-120
+    must_have:
+      - hook
+      - cta
+      - at least_three_hashtags

@@ -1,0 +1,19 @@
+weights:
+  radius_mean: 0.25
+  texture_mean: 0.10
+  perimeter_worst: 0.25
+  area_worst: 0.25
+  concave_points_worst: 0.15
+include_labels: ["M"]
+normalization: minmax
+risk_score_min: 0.6
+top_n: 20
+output_columns:
+  - id
+  - diagnosis
+  - risk_score
+  - radius_mean
+  - texture_mean
+  - perimeter_worst
+  - area_worst
+  - concave_points_worst

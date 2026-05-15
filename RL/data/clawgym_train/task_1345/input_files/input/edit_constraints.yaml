@@ -1,0 +1,31 @@
+target_cut_percent: 30
+
+# Required phrases must appear verbatim (case-insensitive) in the edited page.
+required_phrases:
+  - "BrightOak"
+  - "built to be simple"
+  - "people-first"
+  - "no-nonsense pricing"
+  - "privacy by default"
+
+# Banned words must not appear (case-insensitive substring match) in the edited page.
+banned_words:
+  - "synergy"
+  - "leverage"
+  - "paradigm"
+  - "disrupt"
+  - "cutting-edge"
+  - "world-class"
+  - "best-in-class"
+  - "incredible"
+  - "revolutionary"
+  - "innovative"
+
+# Require these section headings to appear as Markdown headings in the edited page.
+# Unless otherwise noted, use them as H2 (##) headings.
+required_headings:
+  - "Our Story"
+  - "What We Do"
+  - "How We Work"
+  - "Why It Matters"
+  - "Meet the Team"

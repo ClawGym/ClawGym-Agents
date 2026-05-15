@@ -1,0 +1,111 @@
+{
+  "team_name": "Dev Experience & Tooling",
+  "size": 8,
+  "members": [
+    {
+      "role": "Tech Lead",
+      "count": 1,
+      "skills": ["Bash", "Python", "CI/CD", "Kubernetes"],
+      "time_allocation": "50%"
+    },
+    {
+      "role": "Site Reliability Engineer",
+      "count": 2,
+      "skills": ["Linux", "Observability", "Incident Response", "Networking"],
+      "time_allocation": "60%"
+    },
+    {
+      "role": "Platform Engineer",
+      "count": 3,
+      "skills": ["GitHub Actions", "Containers", "Infrastructure as Code", "Security"],
+      "time_allocation": "50%"
+    },
+    {
+      "role": "Security Engineer",
+      "count": 1,
+      "skills": ["RBAC", "MFA", "Secrets Management", "Compliance"],
+      "time_allocation": "40%"
+    },
+    {
+      "role": "Developer Advocate",
+      "count": 1,
+      "skills": ["Documentation", "Training", "Rollout Planning"],
+      "time_allocation": "40%"
+    }
+  ],
+  "experience_level": {
+    "senior": 3,
+    "mid": 4,
+    "junior": 1
+  },
+  "tooling": {
+    "os": "Ubuntu 22.04 LTS",
+    "shells": ["bash", "zsh"],
+    "editors": ["VS Code", "Vim"],
+    "version_control": "GitHub Enterprise",
+    "ci_cd": ["GitHub Actions"],
+    "containers": {
+      "runtime": "Docker",
+      "orchestration": "Kubernetes (EKS)"
+    },
+    "package_registry": "GHCR",
+    "observability": {
+      "logs": "ELK",
+      "metrics": "Prometheus/Grafana",
+      "tracing": "OpenTelemetry"
+    }
+  },
+  "environments": {
+    "dev": {
+      "access": "bastion + SSO",
+      "constraints": ["ephemeral namespaces", "no persistent secrets"]
+    },
+    "staging": {
+      "access": "SSO + MFA required",
+      "constraints": ["change approvals", "feature flags enabled"]
+    },
+    "prod": {
+      "access": "SSO + MFA (WebAuthn preferred)",
+      "constraints": ["no root access", "no direct internet egress", "deny-by-default network policy"]
+    }
+  },
+  "constraints": {
+    "no_external_network": true,
+    "no_root_access_in_prod": true,
+    "change_freeze_windows": ["Fridays 20:00-23:59 UTC", "Month-end last business day 18:00-23:59 UTC"]
+  },
+  "security": {
+    "sso": "Okta",
+    "mfa": "Required (TOTP or WebAuthn)",
+    "rbac": "GitHub Teams + Cloud IAM roles (least privilege)",
+    "secrets": "Vault + Kubernetes Secrets; no secrets in code or CI logs"
+  },
+  "documentation": {
+    "system": "Confluence",
+    "requirement": "Document all changes and custom configurations prior to rollout and maintain runbooks for common tasks and incidents."
+ ,
+  "backup": {
+    "tools": ["Velero (clusters)", "RDS snapshots", "S3 versioning + lifecycle"],
+    "cadence": "Daily full, hourly incremental",
+    "retention": "30 days (non-PII), 90 days (PII)",
+    "tested_restore": "Quarterly"
+  },
+  "rollout_timeline": {
+    "pilot": "Sprint 12",
+    "staging_enablement": "Sprint 13",
+    "production_ga": "Sprint 14",
+    "success_metrics": [
+      ">=90% success rate for common tasks",
+      "p95 task duration <= 2 minutes",
+      "<10% rollback within first week of GA"
+    ],
+    "owners": ["Tech Lead", "Security Engineer"],
+    "communications": ["#devtools Slack channel", "Release notes email", "Knowledge base updates"]
+  },
+  "sketch_board_usage": {
+    "scope": "Reference tool for devtools",
+    "purpose": "Quick lookup documentation on patterns, debugging, performance, security, and migration",
+    "runtime": "bash",
+    "no_network": true
+  }
+}

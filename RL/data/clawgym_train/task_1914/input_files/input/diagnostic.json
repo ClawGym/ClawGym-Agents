@@ -1,0 +1,37 @@
+{
+  "date": "2026-03-15",
+  "source": "Bluebook Diagnostic Test A",
+  "scores": {
+    "Reading & Writing": 640,
+    "Math": 680,
+    "Total": 1320
+  },
+  "rw": {
+    "accuracy": 0.72,
+    "domains": {
+      "Craft and Structure": { "correct": 11, "total": 15, "accuracy": 0.73 },
+      "Information and Ideas": { "correct": 11, "total": 14, "accuracy": 0.79 },
+      "Standard English Conventions": { "correct": 9, "total": 14, "accuracy": 0.64 },
+      "Expression of Ideas": { "correct": 7, "total": 11, "accuracy": 0.64 }
+    },
+    "avg_time_per_question_sec": 63,
+    "notes": "Grammar (punctuation and sentence boundaries) and transitions are inconsistent."
+  },
+  "math": {
+    "accuracy": 0.77,
+    "domains": {
+      "Algebra": { "correct": 14, "total": 16, "accuracy": 0.88 },
+      "Advanced Math": { "correct": 10, "total": 15, "accuracy": 0.67 },
+      "Problem-Solving and Data": { "correct": 6, "total": 7, "accuracy": 0.86 },
+      "Geometry & Trig": { "correct": 4, "total": 6, "accuracy": 0.67 }
+    },
+    "avg_time_per_question_sec": 94,
+    "notes": "Struggles with quadratics in context, function transformations, and circle equations. Slower on geometry word problems."
+  },
+  "timing_notes": "Generally within time on RW; slightly slow on Math (Module 2 had several flagged geometry/advanced items).",
+  "mistake_samples": [
+    { "section": "RW", "question": 17, "topic": "Transitions", "error_type": "Misread context" },
+    { "section": "Math", "question": 32, "topic": "Quadratics (word problems)", "error_type": "Concept gap" },
+    { "section": "Math", "question": 41, "topic": "Circle equations", "error_type": "Calculation + Concept" }
+  ]
+}

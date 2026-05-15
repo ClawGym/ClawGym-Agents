@@ -1,0 +1,10 @@
+data_dir: data
+# Update this list to include both conditions used in the study
+include_conditions: ["focused"]
+# Thresholds for including a trial in theme detection (update as requested)
+min_vividness_for_theme: 4
+min_report_words: 4
+# Path to the coding scheme for theme detection
+coding_scheme_path: config/coding_scheme.yaml
+# Root output directory
+output_dir: output

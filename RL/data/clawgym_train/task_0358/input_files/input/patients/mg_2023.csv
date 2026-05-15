@@ -1,0 +1,5 @@
+patient_id,disease,year,age,sex,resp_support,medications,function_score
+M201,MG,2023,45,F,None,"Pyridostigmine",8
+M202,MG,2023,52,M,None,"Prednisone;Azathioprine",10
+M203,MG,2023,39,F,None,"Azathioprine",6
+M204,MG,2023,61,F,None,"None",12

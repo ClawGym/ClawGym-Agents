@@ -1,0 +1,13 @@
+id,language,herb,sentiment,quote
+1,en,ginger,positive,"Ginger tea helped soothe my nausea during travel."
+2,es,chamomile,positive,"La manzanilla me ayudó a dormir mejor."
+3,en,turmeric,neutral,"I use turmeric in cooking and I am unsure about health effects."
+4,es,echinacea,negative,"La equinácea no cambió mi resfriado."
+5,en,peppermint,positive,"Peppermint tea cleared my sinuses a bit."
+6,en,chamomile,positive,"Chamomile calmed my nerves before an exam."
+7,es,ginger,positive,"El jengibre alivió mi malestar estomacal."
+8,en,echinacea,neutral,"Echinacea tasted bitter and results were unclear."
+9,es,turmeric,positive,"La cúrcuma redujo un poco la inflamación de mi rodilla."
+10,en,ginger,positive,"A cup of ginger tea eased my digestion."
+11,es,peppermint,neutral,"El té de menta fue agradable sin cambios notables."
+12,en,chamomile,negative,"Chamomile made me feel too drowsy the next day."

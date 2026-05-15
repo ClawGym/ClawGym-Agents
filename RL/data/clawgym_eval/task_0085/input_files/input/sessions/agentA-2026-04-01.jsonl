@@ -1,0 +1,3 @@
+{"type":"message","message":{"role":"user","content":"Kickoff for Nimbus rollout Phase 1. Let's capture planning and discovery tasks only."},"timestamp":"2026-04-01T14:05:00Z"}
+{"type":"message","message":{"role":"assistant","content":"Phase 1: Planning & Discovery\n\n- Stakeholder map and RACI (Owner: Alex, Due: 2026-04-03)\n- Requirement confirmation workshop (Owner: PMO, Due: 2026-04-04)\n- Risk register draft (Owner: Nina, Due: 2026-04-05)\n- Architecture review (Owner: Leo, Due: 2026-04-06)\n- Comms plan v1 (Owner: Comms, Due: 2026-04-07)\n"},"timestamp":"2026-04-01T14:08:27Z"}
+{"type":"message","message":{"role":"user","content":"Phase 1 looks solid. We'll revisit Phase 2 next week for pilot details."},"timestamp":"2026-04-01T14:12:10Z"}

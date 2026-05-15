@@ -1,0 +1,8 @@
+output_dir: output
+locales:
+  - es-ES
+  - fr-FR
+source_files:
+  - input/products.md
+glossary_path: input/glossary.csv
+# TODO: add preserve_terms and placeholder_patterns per task instructions

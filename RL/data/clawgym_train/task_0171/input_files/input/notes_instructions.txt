@@ -1,0 +1,4 @@
+Re-enable log rotation
+Schedule weekly cleanup every Friday
+Verify KEEP tags are applied only to mission-critical logs
+Update the maintenance playbook with the 7-day retention policy

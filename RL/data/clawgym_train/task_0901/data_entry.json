@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0901",
+  "user_query": "I'm building a small, text-only dashboard that rotates daily guidance. Please read my birth details from input/birthdata.json and the target dates from input/dates.txt (one ISO date per line). For each date, generate personalized daily astrological insights and output them as an array in output/insights.json, where each element is one day object that follows this exact schema:\n- date (YYYY-MM-DD)\n- totalTransits (number)\n- relationships (array)\n- work (array)\n- growth (array)\n- luck (array)\n\nEach category array must contain 1-3 items. Each item must be an object with exactly these fields: transit (string), planet (lowercase string), natal (lowercase string), insight (string), action (string), emoji (string), exact (boolean). Use aspect words only from this set in the transit field: conjunction, sextile, square, trine, opposition. Set totalTransits equal to the total number of items across the four categories for that date.\n\nAlso write a human-readable summary to output/report.md that highlights the top two insights per category across all requested dates, uses emojis, and keeps all framing positive and encouraging. Do not include any personally identifying details from my birth data beyond what’s needed for the insights. Make sure both files are created under output/ and that the JSON is valid and ready for ingestion.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

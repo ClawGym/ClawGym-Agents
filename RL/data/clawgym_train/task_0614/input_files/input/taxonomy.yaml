@@ -1,0 +1,91 @@
+product_areas:
+  - id: stability
+    name: "Stability & Performance"
+    hints:
+      - crash
+      - crashes
+      - freeze
+      - lag
+      - slow
+      - performance
+      - battery
+      - drain
+      - overheating
+      - hot
+  - id: auth
+    name: "Authentication & Account"
+    hints:
+      - login
+      - sign in
+      - sign-in
+      - two-factor
+      - 2fa
+      - otp
+      - account
+      - password
+      - restore purchase
+      - restore subscription
+  - id: playback
+    name: "Playback & Audio"
+    hints:
+      - playback
+      - stutter
+      - buffer
+      - audio
+      - sound
+      - sync
+      - airpods
+      - bluetooth
+  - id: downloads
+    name: "Downloads & Offline"
+    hints:
+      - download
+      - offline
+      - speed
+      - faster
+      - slower
+      - wifi
+      - cellular
+  - id: payments
+    name: "Payments & Purchases"
+    hints:
+      - payment
+      - pay
+      - apple pay
+      - google pay
+      - purchase
+      - billing
+      - charged
+      - checkout
+  - id: sync
+    name: "Sync & Data"
+    hints:
+      - sync
+      - data loss
+      - wipe
+      - wiped
+      - lost
+      - disappeared
+      - playlists
+      - bookmarks
+      - restore
+  - id: ui
+    name: "UI & Navigation"
+    hints:
+      - ui
+      - interface
+      - design
+      - navigation
+      - home screen
+      - widget
+      - widgets
+      - snappy
+  - id: notifications
+    name: "Notifications"
+    hints:
+      - notification
+      - notifications
+      - alert
+      - alerts
+      - push
+      - badge

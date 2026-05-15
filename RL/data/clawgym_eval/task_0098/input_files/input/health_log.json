@@ -1,0 +1,236 @@
+[
+  {
+    "timestamp": "2026-04-14T23:50:00Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-14T23:50:30Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-14T23:51:00Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-14T23:51:30Z",
+    "status": "port_closed",
+    "source": "guardian",
+    "message": "TCP port not listening"
+  },
+  {
+    "timestamp": "2026-04-14T23:52:00Z",
+    "status": "port_closed",
+    "source": "guardian",
+    "message": "TCP port not listening"
+  },
+  {
+    "timestamp": "2026-04-14T23:52:30Z",
+    "status": "process_missing",
+    "source": "guardian",
+    "message": "Process not found"
+  },
+  {
+    "timestamp": "2026-04-14T23:52:35Z",
+    "status": "restart_attempted",
+    "source": "guardian",
+    "message": "Detected anomaly; attempting restart"
+  },
+  {
+    "timestamp": "2026-04-14T23:52:40Z",
+    "status": "restart_success",
+    "source": "guardian",
+    "message": "Restart succeeded"
+  },
+  {
+    "timestamp": "2026-04-14T23:53:00Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-14T23:53:30Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-14T23:54:00Z",
+    "status": "port_timeout",
+    "source": "guardian",
+    "message": "TCP connect timed out"
+  },
+  {
+    "timestamp": "2026-04-14T23:54:30Z",
+    "status": "port_timeout",
+    "source": "guardian",
+    "message": "TCP connect timed out"
+  },
+  {
+    "timestamp": "2026-04-14T23:55:00Z",
+    "status": "port_closed",
+    "source": "guardian",
+    "message": "TCP port not listening"
+  },
+  {
+    "timestamp": "2026-04-14T23:55:30Z",
+    "status": "process_missing",
+    "source": "guardian",
+    "message": "Process not found"
+  },
+  {
+    "timestamp": "2026-04-14T23:55:35Z",
+    "status": "restart_attempted",
+    "source": "guardian",
+    "message": "Attempting restart (1)"
+  },
+  {
+    "timestamp": "2026-04-14T23:55:40Z",
+    "status": "restart_attempted",
+    "source": "guardian",
+    "message": "Attempting restart (2)"
+  },
+  {
+    "timestamp": "2026-04-14T23:55:50Z",
+    "status": "restart_success",
+    "source": "guardian",
+    "message": "Restart succeeded"
+  },
+  {
+    "timestamp": "2026-04-14T23:56:00Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-14T23:56:30Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-14T23:57:00Z",
+    "status": "port_timeout",
+    "source": "guardian",
+    "message": "TCP connect timed out"
+  },
+  {
+    "timestamp": "2026-04-14T23:57:30Z",
+    "status": "port_timeout",
+    "source": "guardian",
+    "message": "TCP connect timed out"
+  },
+  {
+    "timestamp": "2026-04-14T23:58:00Z",
+    "status": "port_timeout",
+    "source": "guardian",
+    "message": "TCP connect timed out"
+  },
+  {
+    "timestamp": "2026-04-14T23:58:05Z",
+    "status": "restart_attempted",
+    "source": "guardian",
+    "message": "Attempting restart (1)"
+  },
+  {
+    "timestamp": "2026-04-14T23:58:10Z",
+    "status": "restart_attempted",
+    "source": "guardian",
+    "message": "Attempting restart (2)"
+  },
+  {
+    "timestamp": "2026-04-14T23:58:15Z",
+    "status": "restart_attempted",
+    "source": "guardian",
+    "message": "Attempting restart (3)"
+  },
+  {
+    "timestamp": "2026-04-14T23:58:30Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy after restart"
+  },
+  {
+    "timestamp": "2026-04-14T23:59:00Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-14T23:59:30Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-15T00:00:00Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-15T00:00:30Z",
+    "status": "port_closed",
+    "source": "guardian",
+    "message": "TCP port not listening"
+  },
+  {
+    "timestamp": "2026-04-15T00:01:00Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-15T00:01:30Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-15T00:02:00Z",
+    "status": "process_missing",
+    "source": "guardian",
+    "message": "Process not found"
+  },
+  {
+    "timestamp": "2026-04-15T00:02:30Z",
+    "status": "process_missing",
+    "source": "guardian",
+    "message": "Process not found"
+  },
+  {
+    "timestamp": "2026-04-15T00:03:00Z",
+    "status": "process_missing",
+    "source": "guardian",
+    "message": "Process not found"
+  },
+  {
+    "timestamp": "2026-04-15T00:03:05Z",
+    "status": "restart_attempted",
+    "source": "guardian",
+    "message": "Attempting restart"
+  },
+  {
+    "timestamp": "2026-04-15T00:03:10Z",
+    "status": "restart_success",
+    "source": "guardian",
+    "message": "Restart succeeded"
+  },
+  {
+    "timestamp": "2026-04-15T00:03:30Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  },
+  {
+    "timestamp": "2026-04-15T00:04:00Z",
+    "status": "healthy",
+    "source": "guardian",
+    "message": "Gateway healthy"
+  }
+]

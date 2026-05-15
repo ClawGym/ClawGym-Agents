@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0726",
+  "user_query": "mdls Read input/prompt.txt for the scenario brief, then run a double‑blind, multi‑model comparison on this writing task:\n\n\"Draft a concise stakeholder email that proposes the migration described in the brief, explaining business value, risks and mitigations, cost/ops trade‑offs, and a 90‑day pilot plan with success metrics. Keep it tight, executive‑friendly, and actionable.\"\n\nUse the configuration in input/config.json for the models list, judge model, timeouts, and output directory. After judging completes, make sure results are saved under output/modelshow-results/ as both a JSON file and a Markdown file. Then create two additional artifacts:\n\n1) output/analysis/overview.json with fields:\n- top_model: string (the winner’s model name)\n- top_score: number (the winner’s score)\n- overall_assessment: string (the judge’s holistic analysis)\n- models_compared: array of strings (the list of models compared)\n\n2) output/analysis/notes.md: a 120–180 word narrative explaining why the top response won and where lower‑ranked answers fell short (clarity, accuracy, completeness, practicality). Keep it concrete and decision‑oriented.\n\nRequirements:\n- Use blind judging with randomized response order.\n- Follow the provided configuration from input/config.json and ensure outputs are written under output/.\n- Do not include placeholder labels (e.g., \"Response A\") in the final files; ensure model names are de‑anonymized in saved results.\n- The overview.json should be consistent with the saved results (top_model/top_score should match the highest‑scoring entry; models_compared should match the compared models list).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

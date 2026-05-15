@@ -1,0 +1,19 @@
+{
+  "roles": [
+    {
+      "title": "Junior QA Engineer",
+      "must_have": ["Test case design", "Bug reporting", "Basic Python", "Version control (Git)"],
+      "nice_to_have": ["Selenium WebDriver", "API testing (Postman)"]
+    },
+    {
+      "title": "Technical Support Specialist",
+      "must_have": ["Troubleshooting", "Ticketing systems", "Customer communication", "Basic networking"],
+      "nice_to_have": ["Scripting (Bash/Python)", "Remote diagnostics"]
+    },
+    {
+      "title": "Junior Data Analyst",
+      "must_have": ["SQL basics", "Data cleaning", "Spreadsheets (Excel)"],
+      "nice_to_have": ["Basic Python (pandas)", "Data visualization"]
+    }
+  ]
+}

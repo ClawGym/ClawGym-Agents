@@ -1,0 +1,6 @@
+{
+  "alias": "acme-billing",
+  "issuer": "Acme Billing",
+  "account": "admin@acme.example",
+  "otpauth_uri": "otpauth://totp/Acme%20Billing:admin%40acme.example?secret=JBSWY3DPEHPK3PXP&issuer=Acme%20Billing&algorithm=SHA1&digits=6&period=30"
+}

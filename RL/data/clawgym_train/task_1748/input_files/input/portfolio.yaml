@@ -1,0 +1,32 @@
+portfolio:
+  owner: "Data Ops Group"
+  last_updated: "2026-04-17"
+  projects:
+    - name: "Client Analytics Dashboard"
+      goals:
+        - "Deliver a web-based analytics dashboard for client stakeholders with KPI tracking and drilldowns"
+        - "Integrate with client's data warehouse and expose daily refresh metrics"
+      deadline: "2026-05-30"
+      high_level_milestones:
+        - name: "Discovery & Design"
+          target_date: "2026-04-22"
+        - name: "Data Integration"
+          target_date: "2026-05-10"
+        - name: "Beta Release"
+          target_date: "2026-05-20"
+        - name: "Launch"
+          target_date: "2026-05-30"
+    - name: "Internal Forecasting Toolkit"
+      goals:
+        - "Build a lightweight forecasting library for internal teams to run repeatable baselines"
+        - "Provide CLI and scheduled jobs support with metrics logging"
+      deadline: "2026-06-20"
+      high_level_milestones:
+        - name: "Foundations (Repo/CI/Logging)"
+          target_date: "2026-04-25"
+        - name: "Data Connectors"
+          target_date: "2026-05-08"
+        - name: "Baseline Models (CMA/Naive)"
+          target_date: "2026-05-18"
+        - name: "v1 Release"
+          target_date: "2026-06-20"

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0160",
+  "user_query": "I need a quick network reachability audit for a small set of hosts. Please:\n\n1) Read input/hosts.csv (columns: group,host) and input/config.yaml (key: count for number of ICMP echo requests per host).\n2) For each host, run ICMP ping using the configured count. Treat a host as reachable if it receives at least one reply; otherwise mark it unreachable. If unreachable, set avg_ms to \"NA\".\n3) Create these files under output/:\n   - output/results.csv with header exactly: group,host,sent,received,loss_percent,avg_ms,status\n     • sent must equal the configured count for every host\n     • received must be an integer between 0 and sent\n     • loss_percent must be a number between 0 and 100 (allow decimals)\n     • avg_ms must be a number for reachable hosts or \"NA\" for unreachable hosts\n     • status must be either \"reachable\" or \"unreachable\" (lowercase)\n     • Preserve the input row order\n   - output/summary.json with overall and per-group aggregates in this structure:\n     {\n       \"total_hosts\": <int>,\n       \"reachable\": <int>,\n       \"unreachable\": <int>,\n       \"reachability_rate\": <float between 0 and 1>,\n       \"groups\": {\n         \"<group_name>\": {\"reachable\": <int>, \"unreachable\": <int>},\n         ...\n       }\n     }\n     Ensure reachable + unreachable equals total_hosts, and reachability_rate == reachable / total_hosts (rounded to 6 decimals or better).\n   - output/report.md containing one bullet per host in the exact format: \"- <group>/<host>: <status>\"; for reachable hosts append \" (avg_ms: <number>)\".\n\nUse only relative paths (input/, output/). Do not write files outside output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

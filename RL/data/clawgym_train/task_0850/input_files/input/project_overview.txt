@@ -1,0 +1,30 @@
+Project: Desk Vent Controller v0.3 (Arduino Uno R3)
+
+Goal:
+- Read ambient temperature/humidity/pressure from a BME280 sensor over I2C
+- Drive a small 5V DC motor (vent fan) via a transistor
+- Position an SG90 micro servo to open/close a flap (two positions)
+- Toggle modes with a single pushbutton
+- Indicate status with an onboard LED
+- Optional: send simple status over Bluetooth (HC-05) while also using the Serial Monitor for debugging
+
+Current status (why I’m asking for help):
+- The build is flaky. The Uno resets randomly, especially when the servo moves or when the fan spins up.
+- The Serial Monitor shows garbage characters unless I keep changing the baud; sometimes it only shows gibberish at 115200.
+- The BME280 sometimes isn’t detected by the I2C scanner; when it is detected, readings occasionally return NAN.
+- The pushbutton input flickers (reads pressed when untouched) and is inconsistent.
+- The LED once got very hot and died; I replaced it, but it’s extremely bright when on.
+- Uploads sometimes fail unless I unplug the HC-05 from pins 0/1.
+- The sketch feels unresponsive because of long pauses in the loop; I used delay() for timing.
+- Touching or moving wires affects the readings and behavior.
+
+Environment:
+- Arduino Uno R3 powered via laptop USB
+- Breadboard and ~30 cm male-male jumpers
+- No shielding/enclosure yet
+- Serial Monitor typically set to 115200 (I sometimes forget to match it to the sketch)
+
+What I’m trying to figure out:
+- A thorough diagnosis of the hardware and software problems
+- A concrete fix plan (power, wiring, code)
+- How to refactor the code to non-blocking timing and stabilize the inputs

@@ -1,0 +1,8 @@
+ref_id,region,topic,stance,reference_norm,reference_text
+R1,Japan,Greetings,supported,in japan bowing is a common way to greet people,"Bowing is a common greeting in Japan; depth varies by context."
+R2,Japan,Shoes,contradicted,in japan its fine to wear outdoor shoes into a private home,"People typically remove outdoor shoes before entering private homes."
+R3,Morocco,Ramadan,supported,in morocco during ramadan it is respectful not to eat or drink in public during daylight,"During Ramadan daytime hours, refraining from eating or drinking in public is respectful."
+R4,Brazil,Hand gestures,contradicted,in brazil the ok hand gesture is always positive,"In parts of Brazil, the 'OK' gesture can be considered rude."
+R5,Japan,Business cards,supported,in japan presenting business cards with both hands is polite,"Presenting and receiving business cards with both hands is considered polite."
+R6,Morocco,Left hand,contradicted,in morocco offering items with the left hand is preferred,"Using the right hand is generally preferred when offering items."
+R7,Brazil,Greetings,supported,in brazil a light cheek kiss may be a common greeting among acquaintances,"Light cheek kisses can be a common greeting among acquaintances in Brazil."

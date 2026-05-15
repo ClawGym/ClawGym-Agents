@@ -1,0 +1,13 @@
+version: 1
+weights:
+  surface_prep_clarity: 0.15
+  primer_evidence: 0.10
+  metal_specifics: 0.10
+  safety_practices: 0.10
+  adhesive_and_jointing: 0.10
+  tool_list_completeness: 0.10
+  paint_layering_detail: 0.15
+  weathering_guidance: 0.10
+must_haves: []
+scoring_scale: "0-5"
+notes: "Scores are 0-5 per criterion before weighting."

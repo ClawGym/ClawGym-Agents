@@ -1,0 +1,11 @@
+customer_id,full_name,email,signup_date,status,notes
+C-10001,Alexandra M. Pierce,alexandra.pierce@example.com,2020-11-05,active,"Legacy 2021 promo; consent captured via web form"
+C-10002,Brandon J. Rivera,brandon.rivera@example.org,2019-08-22,inactive,"Bounced emails in 2021; contains address in profile"
+C-10003,Chloe K. Singh,chloe.singh@example.net,2021-01-14,active,"Requested newsletter only; no purchases"
+C-10004,Diego L. Bennett,diego.bennett@example.com,2018-07-09,inactive,"Support ticket references refund; contains partial card BIN (masked)"
+C-10005,Emily R. Chen,emily.chen@example.org,2021-05-27,active,"EU data subject; retention window ended Dec 2023"
+C-10006,Farah T. Owens,farah.owens@example.net,2020-12-31,inactive,"Imported from 2020 CSV; duplicate email risk"
+C-10007,Gabriel N. Hart,gabriel.hart@example.com,2021-03-02,active,"Contains birthday field in profile (PII)"
+C-10008,Hannah Q. Patel,hannah.patel@example.org,2019-02-18,inactive,"Left platform in 2020; opted out of marketing"
+C-10009,Ian V. Morales,ian.morales@example.net,2021-07-30,active,"Contains address history; flagged for anonymization"
+C-10010,Jasmine W. Brooks,jasmine.brooks@example.com,2020-01-11,inactive,"No logins since 2021; legacy export present"

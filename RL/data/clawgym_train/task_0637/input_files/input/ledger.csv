@@ -1,0 +1,9 @@
+date,tx_id,from_account,to_account,amount,currency,memo
+2026-04-18,TX1001,treasury,alice,250.00,TOK,Payout April
+2026-04-18,TX1002,treasury,bob,125.50,TOK,Payout April
+2026-04-18,TX1003,alice,vendorX,42.75,TOK,Purchase supplies
+2026-04-19,TX1004,treasury,carol,310.00,TOK,Quarterly bonus
+2026-04-19,TX1005,dave,treasury,50.00,TOK,Refund
+2026-04-19,TX1006,treasury,erin,99.99,TOK,Payout April
+2026-04-19,TX1007,treasury,frank,80.00,TOK,Payout April
+2026-04-19,TX1008,treasury,grace,150.00,TOK,Payout April

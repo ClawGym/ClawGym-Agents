@@ -1,0 +1,16 @@
+[
+  { "type": "run",     "time": "2026-04-12 09:10", "value": "simplify quadratic expression 3x^2 + 5x - 2" },
+  { "type": "check",   "time": "2026-04-12 09:25", "value": "verify solution x = 2 for 2x + 1 = 5" },
+  { "type": "analyze", "time": "2026-04-12 10:05", "value": "factor x^2 - 9" },
+  { "type": "compare", "time": "2026-04-12 11:20", "value": "substitution vs elimination for linear system" },
+  { "type": "export",  "time": "2026-04-12 12:00", "value": "json seed export created" },
+  { "type": "report",  "time": "2026-04-13 08:45", "value": "draft weekly tally chapter 3" },
+  { "type": "batch",   "time": "2026-04-13 09:30", "value": "batch practice set 7 problems" },
+  { "type": "run",     "time": "2026-04-14 14:15", "value": "solve linear system 2x + y = 5 and x - y = 1" },
+  { "type": "analyze", "time": "2026-04-15 16:40", "value": "evaluate factoring strategies for quadratic formula" },
+  { "type": "check",   "time": "2026-04-16 07:05", "value": "verify roots for x^2 - 5x + 6 equals 2 and 3" },
+  { "type": "compare", "time": "2026-04-16 17:20", "value": "graphing vs solving algebraically for quadratic vertex" },
+  { "type": "export",  "time": "2026-04-17 11:55", "value": "csv seed export prepared" },
+  { "type": "report",  "time": "2026-04-17 16:10", "value": "midweek progress review chapter 4" },
+  { "type": "export",  "time": "2026-04-18 13:35", "value": "txt final export written" }
+]

@@ -1,0 +1,16 @@
+date,supplier_id,category,kg
+2024-01,S1,Organic Cotton,1000
+2024-02,S1,Organic Cotton,1200
+2024-03,S1,Recycled Polyester,800
+2024-01,S2,Conventional Cotton,1500
+2024-02,S2,Conventional Cotton,1500
+2024-03,S2,Organic Cotton,500
+2024-01,S3,Recycled Polyester,1000
+2024-02,S3,Recycled Polyester,1200
+2024-03,S3,Organic Cotton,300
+2024-01,S4,Conventional Cotton,800
+2024-02,S4,Recycled Polyester,700
+2024-03,S4,Conventional Cotton,800
+2024-01,S5,Conventional Cotton,1000
+2024-02,S5,Organic Cotton,800
+2024-03,S5,Organic Cotton,700

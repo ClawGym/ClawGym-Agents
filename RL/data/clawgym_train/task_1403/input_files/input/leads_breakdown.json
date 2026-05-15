@@ -1,0 +1,35 @@
+{
+  "Tier1": {
+    "label": "Hot",
+    "lead_count": 22,
+    "examples": [
+      {
+        "company": "Finlon Bank",
+        "detail": "asked for pricing and June pilot timeline"
+      },
+      {
+        "company": "NebulaHealth",
+        "detail": "needs Azure AD role cleanup across 5 subscriptions"
+      }
+    ]
+  },
+  "Tier2": {
+    "label": "Warm",
+    "lead_count": 58,
+    "examples": [
+      {
+        "company": "SkyForge",
+        "detail": "evaluating identity governance in Q3"
+      },
+      {
+        "company": "Arcadia Retail",
+        "detail": "interested in recorded demo"
+      }
+    ]
+  },
+  "Tier3": {
+    "label": "Cold",
+    "lead_count": 187,
+    "notes": "Badge scans, brochure pickups, or quick questions — no deep conversations."
+  }
+}

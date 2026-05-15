@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "question_id": "Q1",
+      "question_text": "Does the policy cover flood damage to my finished basement carpet and drywall?"
+    },
+    {
+      "question_id": "Q2",
+      "question_text": "Are sump pump failures and resulting water backup covered?"
+    },
+    {
+      "question_id": "Q3",
+      "question_text": "What is the deductible for a windstorm that damages my roof?"
+    },
+    {
+      "question_id": "Q4",
+      "question_text": "Is my $8,000 engagement ring fully covered for theft?"
+    },
+    {
+      "question_id": "Q5",
+      "question_text": "Do I have coverage for temporary housing if a flood makes my home uninhabitable?"
+    },
+    {
+      "question_id": "Q6",
+      "question_text": "Are detached structures like my backyard shed covered, and for how much?"
+    },
+    {
+      "question_id": "Q7",
+      "question_text": "Does the policy cover mold remediation after a burst pipe?"
+    },
+    {
+      "question_id": "Q8",
+      "question_text": "Are earthquakes covered under this policy?"
+    },
+    {
+      "question_id": "Q9",
+      "question_text": "Will my roof be paid at replacement cost or actual cash value after a covered loss?"
+    },
+    {
+      "question_id": "Q10",
+      "question_text": "Is there a waiting period before flood coverage starts?"
+    }
+  ]
+}

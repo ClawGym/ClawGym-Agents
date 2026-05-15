@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1508",
+  "user_query": "Please read the LaTeX-style paragraph in input/paper_section.txt and the figure description in input/figure_desc.txt. Deliverables:\n\n1) output/condensed.txt — reduce the paragraph by ~5–15 words without losing any technical detail.\n2) output/expanded.txt — add ~5–15 words by surfacing implicit logic (no filler).\n3) output/polished.txt — polish for publication quality and remove 'AI flavor' patterns. For all three: produce clean LaTeX-compatible English only (no Markdown), do not use em-dashes or itemized lists, and escape special characters (\\%, \\_, \\&).\n\n4) output/backtranslations.json — Chinese back-translations for each version under keys 'condensed_zh', 'expanded_zh', and 'polished_zh'.\n\n5) output/review.md — simulate a critical but fair reviewer focused on clarity and experimental rigor with the sections: Summary (2–3 sentences), Strengths (bullet list), Weaknesses (bullet list), Questions (numbered list, 3–5 items), and Preliminary Score: [1–10] with justification.\n\n6) output/caption.txt — figure caption (≤80 words) for the figure described, starting with \\textbf{Short title.} and using present tense.\n\nMake sure the condensed and expanded versions meet the exact word-change ranges relative to input/paper_section.txt.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

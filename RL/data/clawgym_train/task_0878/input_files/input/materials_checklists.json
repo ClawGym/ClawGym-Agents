@@ -1,0 +1,26 @@
+{
+  "sourcing_standards": [
+    "Supplier code of conduct",
+    "Organic certification proof",
+    "Fair-trade documentation"
+  ],
+  "material_testing": [
+    "Moisture meter",
+    "pH strips",
+    "Safety datasheets"
+  ],
+  "packaging_labeling": [
+    "Recycled packaging stock",
+    "Non-toxic ink labels",
+    "Compostable tape"
+  ],
+  "traceability": [
+    "Batch log template",
+    "Barcode labels",
+    "Inventory sheet"
+  ],
+  "wrapup_assessment": [
+    "Quiz printouts",
+    "Feedback forms"
+  ]
+}

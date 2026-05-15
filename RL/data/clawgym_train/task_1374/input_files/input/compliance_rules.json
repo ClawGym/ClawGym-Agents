@@ -1,0 +1,19 @@
+{
+  "territory_restrictions": {
+    "DE": {"disallow_gambling_marketing": true},
+    "IT": {"disallow_gambling_marketing": true},
+    "UK": {"alcohol_requires_health_warning": true}
+  },
+  "exclusivity": {
+    "enforce_unique_active_exclusivity_by_category": true
+  },
+  "usage_rights": {
+    "max_post_term_months": 24
+  },
+  "violation_types": {
+    "gambling_in_restricted_territory": {"severity": "critical", "weight": 10},
+    "alcohol_missing_health_warning": {"severity": "major", "weight": 5},
+    "exclusivity_conflict": {"severity": "critical", "weight": 10},
+    "usage_rights_exceed_limit": {"severity": "minor", "weight": 2}
+  }
+}

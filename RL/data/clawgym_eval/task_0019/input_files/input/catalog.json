@@ -1,0 +1,150 @@
+[
+  {
+    "keywords": "dyson airwrap",
+    "results": [
+      {
+        "title": "Dyson Airwrap Complete Long (Nickel/Copper)",
+        "price": 499.99,
+        "cashback": { "rate": "15%", "amount": null },
+        "affiliateUrl": "https://wild.link/macys/airwrap-long?aff=agent123",
+        "shop": { "name": "Macys", "domain": "macys.com" }
+      },
+      {
+        "title": "Dyson Airwrap Complete Styler",
+        "price": 479.95,
+        "cashback": { "rate": "2.50%", "amount": null },
+        "affiliateUrl": "https://wild.link/amazon/airwrap-complete?aff=agent123",
+        "shop": { "name": "Amazon", "domain": "amazon.com" }
+      },
+      {
+        "title": "Dyson Airwrap Multi-Styler",
+        "price": 489.99,
+        "cashback": { "rate": null, "amount": 19.60 },
+        "affiliateUrl": "https://wild.link/bestbuy/dyson-airwrap?aff=agent123",
+        "shop": { "name": "Best Buy", "domain": "bestbuy.com" }
+      },
+      {
+        "title": "Dyson Airwrap i.d. Limited Edition",
+        "price": 499.00,
+        "cashback": { "rate": null, "amount": null },
+        "affiliateUrl": "https://wild.link/dyson/airwrap-id?aff=agent123",
+        "shop": { "name": "Dyson", "domain": "dyson.com" }
+      },
+      {
+        "title": "Dyson Airwrap Volume+Shape",
+        "price": 495.00,
+        "cashback": { "rate": "8%", "amount": null },
+        "affiliateUrl": "www.sephora.com/p/airwrap-volume?aff=agent123",
+        "shop": { "name": "Sephora", "domain": "sephora.com" }
+      },
+      {
+        "title": "Dyson Airwrap with Gift Set",
+        "price": 0,
+        "cashback": { "rate": "5%", "amount": null },
+        "affiliateUrl": "https://wild.link/target/airwrap-gift?aff=agent123",
+        "shop": { "name": "Target", "domain": "target.com" }
+      },
+      {
+        "title": "Dyson Airwrap Short Barrel Set",
+        "price": 469.00,
+        "cashback": { "rate": null, "amount": null },
+        "affiliateUrl": "https://wild.link/kohls/airwrap-short?aff=agent123",
+        "shop": { "name": "Kohls", "domain": "kohls.com" }
+      }
+    ]
+  },
+  {
+    "keywords": "lenovo laptop 16GB RAM",
+    "results": [
+      {
+        "title": "Lenovo IdeaPad 5 15\" 16GB RAM, 512GB SSD",
+        "price": 770.00,
+        "cashback": { "rate": null, "amount": 5.00 },
+        "affiliateUrl": "https://wild.link/staples/lenovo-ideapad-5-15?aff=agent123",
+        "shop": { "name": "Staples", "domain": "staples.com" }
+      },
+      {
+        "title": "Lenovo IdeaPad 5 15\" - 16GB/512GB",
+        "price": 768.00,
+        "cashback": { "rate": null, "amount": 3.00 },
+        "affiliateUrl": "https://wild.link/officedepot/lenovo-ideapad-5-15?aff=agent123",
+        "shop": { "name": "Office Depot", "domain": "officedepot.com" }
+      },
+      {
+        "title": "Lenovo Slim 7 14\" - 16GB RAM",
+        "price": 768.00,
+        "cashback": { "rate": "0.20%", "amount": null },
+        "affiliateUrl": "https://wild.link/walmart/lenovo-slim-7-14?aff=agent123",
+        "shop": { "name": "Walmart", "domain": "walmart.com" }
+      },
+      {
+        "title": "Lenovo ThinkPad E14 Gen 6 - 16GB RAM",
+        "price": 799.00,
+        "cashback": { "rate": "4%", "amount": null },
+        "affiliateUrl": "https://wild.link/amazon/thinkpad-e14?aff=agent123",
+        "shop": { "name": "Amazon", "domain": "amazon.com" }
+      },
+      {
+        "title": "Lenovo Legion 5 - 16GB/512GB",
+        "price": 770.00,
+        "cashback": { "rate": null, "amount": 3.00 },
+        "affiliateUrl": "https://wild.link/microcenter/lenovo-legion-5?aff=agent123",
+        "shop": { "name": "Micro Center", "domain": "microcenter.com" }
+      },
+      {
+        "title": "Lenovo ThinkBook 15 - 16GB RAM",
+        "price": 769.00,
+        "cashback": { "rate": null, "amount": 0.69 },
+        "affiliateUrl": "https://wild.link/newegg/lenovo-thinkbook-15?aff=agent123",
+        "shop": { "name": "Newegg", "domain": "newegg.com" }
+      },
+      {
+        "title": "Lenovo Yoga 7 - 16GB RAM",
+        "price": 765.00,
+        "cashback": { "rate": "1.00%", "amount": null },
+        "affiliateUrl": "ftp://wild.link/bh/lenovo-yoga-7?aff=agent123",
+        "shop": { "name": "B&H", "domain": "bhphotovideo.com" }
+      },
+      {
+        "title": "Lenovo ThinkPad T14 - 16GB RAM",
+        "price": 769.00,
+        "cashback": { "rate": null, "amount": null },
+        "affiliateUrl": "https://wild.link/lenovo/thinkpad-t14?aff=agent123",
+        "shop": { "name": "Lenovo", "domain": "lenovo.com" }
+      }
+    ]
+  },
+  {
+    "keywords": "nike shoes cashback",
+    "results": [
+      {
+        "title": "Nike Air Zoom Pegasus 40",
+        "price": 110.00,
+        "cashback": { "rate": null, "amount": null },
+        "affiliateUrl": "https://wild.link/dicks/nike-pegasus-40?aff=agent123",
+        "shop": { "name": "Dicks Sporting Goods", "domain": "dickssportinggoods.com" }
+      },
+      {
+        "title": "Nike Air Zoom Pegasus 40",
+        "price": 110.00,
+        "cashback": { "rate": null, "amount": null },
+        "affiliateUrl": "https://wild.link/zappos/nike-pegasus-40?aff=agent123",
+        "shop": { "name": "Zappos", "domain": "zappos.com" }
+      },
+      {
+        "title": "Nike InfinityRN 4",
+        "price": 120.00,
+        "cashback": { "rate": "7.5%", "amount": null },
+        "affiliateUrl": "www.nike.com/t/infinityrn-4?aff=agent123",
+        "shop": { "name": "Nike", "domain": "nike.com" }
+      },
+      {
+        "title": "Nike Court Vision Low",
+        "price": 0,
+        "cashback": { "rate": null, "amount": 2.30 },
+        "affiliateUrl": "https://wild.link/footlocker/nike-court-vision?aff=agent123",
+        "shop": { "name": "Foot Locker", "domain": "footlocker.com" }
+      }
+    ]
+  }
+]

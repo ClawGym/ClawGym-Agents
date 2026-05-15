@@ -1,0 +1,4 @@
+week_start,week_end,strategy,reported_pnl
+2024-09-02,2024-09-06,StatArb,520
+2024-09-02,2024-09-06,OptionsVol,49.5
+2024-09-02,2024-09-06,CryptoArb,80

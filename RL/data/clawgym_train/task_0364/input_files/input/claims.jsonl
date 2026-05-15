@@ -1,0 +1,5 @@
+{"id":"c1","topic":"Arakoon","claim":"Arakoon is a distributed key-value store created by Incubaid/Open vStorage."}
+{"id":"c2","topic":"Arakoon","claim":"Arakoon implements cluster consistency using Paxos."}
+{"id":"c3","topic":"Arakoon","claim":"Arakoon is written primarily in Python."}
+{"id":"c4","topic":"Arakoon+Python","claim":"There is an official Python client for Arakoon provided by the project."}
+{"id":"c5","topic":"Python","claim":"The Python 'requests' package is part of the Python standard library."}

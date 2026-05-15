@@ -1,0 +1,34 @@
+{
+  "alerts": [
+    {
+      "title": "High Wind Advisory",
+      "severity": "advisory",
+      "start": "2026-04-19T15:00:00-04:00",
+      "end": "2026-04-19T23:00:00-04:00",
+      "description": "Sustained winds 20–30 mph with gusts up to 45 mph expected. Loose items may be blown around. Minor commute and infrastructure impacts possible."
+    }
+  ],
+  "forecast": [
+    {
+      "date": "2026-04-19",
+      "condition": "Windy",
+      "high": 62,
+      "low": 48,
+      "precipProbability": 0.2
+    },
+    {
+      "date": "2026-04-20",
+      "condition": "Rain",
+      "high": 58,
+      "low": 46,
+      "precipProbability": 0.7
+    },
+    {
+      "date": "2026-04-21",
+      "condition": "Cloudy",
+      "high": 60,
+      "low": 47,
+      "precipProbability": 0.3
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "scenarios": {
+    "instagram_caption": {
+      "context": "Weekend sourdough announcement for this week.",
+      "must_include": [
+        "Saturday and Sunday drop at 09:00",
+        "Flavors: classic; olive + rosemary; hint of mustard",
+        "Limited to 60 loaves per day",
+        "Pre-orders via Instagram DM or WhatsApp until Friday 18:00",
+        "Pick-up at Zabaleta Kalea 32 (Gros), Donostia",
+        "Warm, casual Basque; mention 'zu' or 'zure'; tiny Spanish like 'gracias' or 'vale' ok"
+      ]
+    },
+    "whatsapp_reply": {
+      "customer_question": "A customer asks: Are you open on Sunday, and do you have lactose-free options?",
+      "must_include": [
+        "Confirm Sunday hours are 08:30–13:30",
+        "Confirm most breads (including weekend sourdough) are lactose-free",
+        "Clarify pastries like cinnamon rolls contain butter; vegan mini cookies on Fridays are lactose-free",
+        "Offer to reserve a loaf under their name",
+        "Friendly, short Basque; use 'zu' or 'zure'",
+        "Mention address in Gros and option to WhatsApp for preorder"
+      ]
+    },
+    "banner": {
+      "context": "Short autumn banner about the pumpkin spiced loaf returning.",
+      "must_include": [
+        "Announce the pumpkin spiced loaf is back",
+        "Available Thursday–Sunday in season",
+        "Pre-orders welcome",
+        "Keep it concise (ideally under 25 words), warm tone"
+      ]
+    }
+  }
+}

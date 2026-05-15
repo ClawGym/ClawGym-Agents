@@ -1,0 +1,7 @@
+name,email,role,priority
+Alice Nguyen,alice@example.com,Author,Required
+Ben Torres,ben@example.com,Publicist,Required
+Cara Patel,cara@example.com,Event Coordinator,Important
+Dan Li,dan@example.com,Sales Lead,Important
+Eva Morales,eva@example.com,PR Agency,Optional
+Faisal Khan,faisal@example.com,Venue Rep,Optional

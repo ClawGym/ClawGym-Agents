@@ -1,0 +1,43 @@
+{
+  "federal": {
+    "fica": {
+      "social_security_rate_employee": 0.062,
+      "social_security_rate_employer": 0.062,
+      "ss_wage_base": 174900,
+      "medicare_rate_employee": 0.0145,
+      "medicare_rate_employer": 0.0145,
+      "additional_medicare_threshold_single": 200000,
+      "additional_medicare_rate": 0.009
+    },
+    "futa": {
+      "rate": 0.06,
+      "wage_base": 7000,
+      "credit_reduction_states": [],
+      "standard_credit": 0.054
+    }
+  },
+  "states": {
+    "CA": {
+      "sui_rate": 0.035,
+      "sui_wage_base": 7000,
+      "sdi_rate_employee": 0.009,
+      "sdi_wage_base": 153164,
+      "paid_family_leave": true,
+      "state_income_tax": true,
+      "local_taxes": []
+    },
+    "TX": {
+      "sui_rate": 0.021,
+      "sui_wage_base": 9000,
+      "state_income_tax": false,
+      "sdi_rate_employee": 0.0,
+      "paid_family_leave": false,
+      "local_taxes": []
+    }
+  },
+  "local": {
+    "applicable": []
+  },
+  "payroll_provider": "Gusto",
+  "reciprocity": []
+}

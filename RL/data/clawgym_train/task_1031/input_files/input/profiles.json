@@ -1,0 +1,58 @@
+{
+  "profiles": [
+    {
+      "name": "NA Outreach - Alice",
+      "platform": "facebook.com",
+      "target_group_name": "Outreach - North America",
+      "proxy_preference": { "mode": "saved", "match_host": "192.0.2.10", "match_port": "8080" },
+      "fingerprint_hints": {
+        "automatic_timezone": "by_ip",
+        "language": ["en-US"],
+        "webrtc": "disabled",
+        "browser_kernel": { "type": "chrome", "version": "119" }
+      },
+      "open_after_create": true
+    },
+    {
+      "name": "EMEA Outreach - Bob",
+      "platform": "linkedin.com",
+      "target_group_name": "Outreach - EMEA",
+      "proxy_preference": { "mode": "inline", "host": "198.51.100.23", "port": "1080", "type": "socks5" },
+      "fingerprint_hints": {
+        "automatic_timezone": "custom",
+        "timezone": "Europe/Berlin",
+        "language": ["en-GB", "de-DE"],
+        "webrtc": "forward",
+        "browser_kernel": { "type": "chrome", "version": "ua_auto" }
+      },
+      "open_after_create": true
+    },
+    {
+      "name": "QA - Canary",
+      "platform": "example.com",
+      "target_group_name": "QA & Testing",
+      "proxy_preference": { "mode": "inline", "host": "203.0.113.7", "port": "3128", "type": "http" },
+      "fingerprint_hints": {
+        "automatic_timezone": "custom",
+        "timezone": "UTC",
+        "language": ["en-US"],
+        "webrtc": "disabled",
+        "browser_kernel": { "type": "firefox", "version": "120" }
+      },
+      "open_after_create": false
+    },
+    {
+      "name": "EMEA Outreach - Carla",
+      "platform": "instagram.com",
+      "target_group_name": "Outreach - EMEA",
+      "proxy_preference": { "mode": "saved", "match_host": "198.51.100.23", "match_port": "1080" },
+      "fingerprint_hints": {
+        "automatic_timezone": "by_ip",
+        "language": ["en-GB"],
+        "webrtc": "disabled",
+        "browser_kernel": { "type": "chrome", "version": "114" }
+      },
+      "open_after_create": true
+    }
+  ]
+}

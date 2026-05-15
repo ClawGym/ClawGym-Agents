@@ -1,0 +1,11 @@
+{
+  "endpoint": "/orders/report",
+  "page": "/orders",
+  "p95_ms": 2405,
+  "p99_ms": 5120,
+  "sample_window": "2026-04-16T10:00:00Z/2026-04-16T11:00:00Z",
+  "rps": 7.5,
+  "concurrent_users": 42,
+  "notes": "Regression observed after a reporting code deploy adding extra filters and deeper pagination. Higher variance during peak hours. CPU spike correlated with sort and hash operations.",
+  "baseline_plan_hash": "b9f4e5f67a12"
+}

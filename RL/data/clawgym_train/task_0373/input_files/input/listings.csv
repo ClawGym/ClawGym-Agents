@@ -1,0 +1,6 @@
+id,address,type,beds,baths,sqft,price,status
+1001,123 Maple St,Residential,3,2,1500,350000,Active
+1002,456 Oak Ave,Residential,4,3,2200,525000,Pending
+1003,789 Pine Rd,Commercial,0,2,5000,950000,Active
+1004,321 Birch Ln,Residential,2,1,900,240000,Active
+1005,654 Cedar Pl,Residential,3,2,1800,410000,Active

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1028",
+  "user_query": "I need help reconciling customer data and preparing cleanup artifacts for our marketing team using the files under input/. Please do all of the following and write results under output/:\n\n1) Join input/crm_contacts.csv and input/sales_orders.csv on the email column to produce output/customers_orders_joined.csv.\n   - Header must be: all columns from crm_contacts.csv followed by all columns from sales_orders.csv except the duplicate email column.\n   - Treat this as an inner join: include only rows where the email exists in both files.\n   - If an email appears multiple times in sales_orders.csv, keep the last occurrence for that email.\n   - Sort the resulting rows by email ascending (A–Z). Ensure there is exactly one \"email\" column in the output header.\n\n2) Deduplicate input/marketing_list.txt (email addresses), preserving the first occurrence order, and save to output/marketing_list_deduped.txt.\n\n3) Generate output/to_remove.txt containing the email addresses that appear in both output/marketing_list_deduped.txt and input/unsubscribes.txt. Sort this file lexicographically ascending, one email per line.\n\n4) Apply the unified diff in input/product_catalog.patch.txt to input/product_catalog.txt, but do not modify anything under input/. Write the patched result to output/product_catalog_patched.txt.\n\n5) Create a brief report at output/README.md summarizing your process and results. Include these three lines exactly (with the correct numbers filled in):\n   - Joined rows: <N>\n   - Duplicates removed: <M>\n   - Emails to remove: <K>\n   Also include a short paragraph on assumptions or edge cases you handled (for example, header mismatches, stray whitespace, or malformed lines).\n\nRead only from input/ and write only to output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

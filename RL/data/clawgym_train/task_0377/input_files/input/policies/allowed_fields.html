@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Minimum Necessary Placeholders for Patient Messages</title>
+</head>
+<body>
+  <h1>Minimum Necessary Placeholders for Patient Messages</h1>
+  <p>The table below defines which placeholders are permitted in patient-facing messages for each consult type. Only the placeholders listed are allowed. All other PHI (e.g., full names, dates of birth, diagnosis codes, or complaints) should be excluded from messages.</p>
+  <table id="rules" border="1" cellspacing="0" cellpadding="4">
+    <thead>
+      <tr>
+        <th>Consult type</th>
+        <th>Allowed placeholders (comma-separated)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>general_med</td>
+        <td>patient_first_name, visit_date, visit_time, provider_initial, meeting_link</td>
+      </tr>
+      <tr>
+        <td>behavioral_health</td>
+        <td>patient_first_name, visit_date, visit_time, meeting_link</td>
+      </tr>
+      <tr>
+        <td>dermatology_photo_review</td>
+        <td>patient_first_name, visit_date, meeting_link</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>Definitions: patient_first_name = given name only; provider_initial = first initial only; meeting_link = unique URL for video visit. Diagnosis codes, chief complaints, dates of birth, full names, phone numbers, and email addresses are not permitted in these categories.</p>
+</body>
+</html>

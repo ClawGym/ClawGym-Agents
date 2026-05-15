@@ -1,0 +1,9 @@
+{
+  "raids": [
+    { "id": "raid_ash_1", "name": "Ruins of Ash", "hp": 24, "reward_usdc": 12 },
+    { "id": "raid_gob_2", "name": "Goblin Den", "hp": 30, "reward_usdc": 15 },
+    { "id": "raid_cry_3", "name": "Crystal Cavern", "hp": 38, "reward_usdc": 20 },
+    { "id": "raid_iron_4", "name": "Iron Keep", "hp": 50, "reward_usdc": 28 },
+    { "id": "raid_wyrm_5", "name": "Wyrm Nest", "hp": 60, "reward_usdc": 35 }
+  ]
+}

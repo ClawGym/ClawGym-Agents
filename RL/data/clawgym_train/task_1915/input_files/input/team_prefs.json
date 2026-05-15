@@ -1,0 +1,28 @@
+{
+  "team_name": "Applied AI Ops",
+  "preferred_database": "sqlite",
+  "search_keywords": [
+    "sqlite",
+    "filesystem",
+    "fetch",
+    "memory",
+    "MCP servers",
+    "configuration"
+  ],
+  "docs_expectations": {
+    "tone": "concise, practical, step-by-step",
+    "include_install_and_url": true,
+    "rationale_ties_to_prefs": true
+  },
+  "security": {
+    "prefer_dry_run_first": true,
+    "telemetry": "opt-out",
+    "risk_tolerance": "low"
+  },
+  "announcement": {
+    "audience": "non-technical",
+    "length_words_range": [80, 120],
+    "must_have": ["hook", "cta", "hashtags"],
+    "style": "upbeat but clear"
+  }
+}

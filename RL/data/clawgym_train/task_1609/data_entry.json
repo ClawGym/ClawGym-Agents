@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1609",
+  "user_query": "Read the daily BTC OHLCV dataset from input/BTC-USD_1d.csv and the parameter/config files input/params.json and input/opt_grid.json. Backtest three strategies—SMA crossover, RSI reversal, and Momentum—on the provided data using a starting capital of 10000, commission 0.001, and slippage 0.0005. Use the parameters specified in input/params.json for each strategy (if a parameter block is missing, fall back to sensible defaults). For each strategy, write: (a) a trade log CSV to output/trades_<strategy>.csv with columns [entry_time, exit_time, entry_price, exit_price, direction, size, pnl, pnl_pct, duration], (b) an equity curve CSV to output/equity_<strategy>.csv with columns [date, equity], and (c) a metrics JSON to output/metrics_<strategy>.json with keys [total_return_pct, cagr_pct, sharpe, sortino, max_drawdown_pct, win_rate_pct, profit_factor, final_equity]. Additionally, run a grid search for the SMA crossover using the parameter ranges in input/opt_grid.json and write output/opt_results.csv (columns: fast_period, slow_period, sharpe, total_return_pct, max_drawdown_pct) and output/best_sma.json identifying the best parameter set by highest Sharpe (break ties by higher total_return_pct). Produce a leaderboard at output/leaderboard.json that contains an array of the three strategies sorted by Sharpe descending with fields [strategy, sharpe, cagr_pct, max_drawdown_pct] and a top-level field \"winner\" equal to the best strategy. Also write output/manifest.json with the SHA256 hash of input/BTC-USD_1d.csv under key \"data_sha256\" and \"data_file\" equal to \"input/BTC-USD_1d.csv\". Do not fetch any external data—use only the files under input/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

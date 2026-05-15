@@ -1,0 +1,15 @@
+deal_terms:
+  advance_total: 50000
+  royalty_rate_initial: 0.15
+  royalty_rate_escalated: 0.18
+  escalation_threshold_streams: 100000000
+  recoup_marketing_cap: 10000
+  distribution_fee_rate: 0.25
+  term_albums: 1
+  option_periods: 1
+  accounting_period: "annual"
+  territory: "US"
+  recoupment_scope: "unspecified"
+status: "draft"
+synced_from_contract_version: ""
+notes: "Initial placeholder config before contract sync."

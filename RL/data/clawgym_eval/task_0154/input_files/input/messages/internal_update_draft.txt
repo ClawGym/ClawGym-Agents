@@ -1,0 +1,5 @@
+Team,
+
+I wanted to write a quick but actually not quick update explaining that our pages about tours that include artisan souvenirs need some things done and there are a lot of bits to consider. The landing page might have an extra header and probably the title is long, and the tour page has a description that may be too wordy but I am not totally sure yet. We also need to remember images without alt text which is something we talked about a while back.
+
+It would be great if we could generally improve the SEO situation for these pages so that people can find them more easily, but I don’t want to overcomplicate. Maybe we can meet to figure out who does what. I’m thinking content tweaks, titles, and other details, and then we can circle back. Sorry this is long—just getting thoughts out. Thanks!

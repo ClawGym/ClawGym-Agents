@@ -1,0 +1,13 @@
+# Auto-Updater Pro preferences for cron configuration
+schedule:
+  expr: "0 4 * * *"
+  tz: "Europe/London"
+
+session: "isolated"
+deliver: true
+missedRunPolicy: "run-immediately"
+
+payload:
+  kind: "agentTurn"
+  timeoutSeconds: 600
+  message: "Run production-style daily auto-updates for Clawdbot core and all installed skills."

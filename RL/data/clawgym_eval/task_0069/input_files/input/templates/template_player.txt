@@ -1,0 +1,9 @@
+Subject: Remembering our {TOURNAMENT_YEAR} OVC title — quick reunion note
+
+Hi {FIRST},
+
+This is Coach {COACH_LAST}. As one of our guys in {YEARS_PLAYED}, you helped make that {TOURNAMENT_YEAR} run special.
+
+I’m putting together a small reunion and a scrapbook. Would you share a favorite memory from the {TOURNAMENT_YEAR} Ohio Valley Conference tournament at {VENUE}? Reply if you’re interested in joining a brief call to reconnect.
+
+— Coach {COACH_FULL}

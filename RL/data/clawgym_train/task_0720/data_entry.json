@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0720",
+  "user_query": "Please perform a full DNS hygiene audit. Read the domain list from input/domains.csv and the IP list from input/ips.csv. For each domain, retrieve A, AAAA, MX, TXT, NS, CNAME, and SOA records, and also query TXT for _dmarc.<domain>. For each IP (both those listed in input/ips.csv and any IPs discovered from A/AAAA records), perform reverse DNS (PTR) and geolocation. For each domain, also fetch WHOIS/RDAP registration details. Produce two outputs: (1) output/report.json following the schema described in input/schema.json (one entry per domain with DNS records, WHOIS/RDAP, PTRs and geolocation of any resolved IPs); and (2) output/summary.csv with columns: domain,total_dns_records,has_mx,spf_present,dkim_present,dmarc_present,rdap_registrar,top_geo_country. Additionally, write a narrative audit at output/findings.md summarizing your methodology, key findings, and recommendations, and call out any misconfigurations (e.g., missing SPF/DKIM/DMARC, expired or odd SOA, empty MX, suspicious geolocation). Use only relative workspace paths.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

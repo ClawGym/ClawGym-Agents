@@ -1,0 +1,9 @@
+{"type":"user","content":"Can we schedule a 30-minute demo tomorrow at 10am? I'm in Boston (ET). Also, please keep your replies concise—ideally 3–5 bullets max."}
+{"type":"assistant","content":"Got it. Scheduling for tomorrow at 10am. Details to follow."}
+{"type":"assistant","content":"Proposed time: Tomorrow 10:00 PT, meeting link to follow."}
+{"type":"user","content":"Please confirm in ET — 10:00 ET is what I meant. And use bullets; long paragraphs are hard for me to scan."}
+{"type":"assistant","content":"Understood. Updating now:\n- Confirming: Tomorrow, 10:00 ET (Boston)\n- Duration: 30 minutes\n- I'll keep replies to 3–5 bullets\n- I'll include the timezone and date explicitly in future messages"}
+{"type":"user","content":"Yes, please always include the timezone abbreviation (ET) and the date to avoid confusion. Avoid phrases like \"tomorrow morning\" without a time."}
+{"type":"assistant","content":"Noted:\n- Will confirm scheduling details in ET with date (e.g., Fri Apr 19, 10:00 ET)\n- Will ask to confirm if time zone is unclear\n- Will keep replies concise with bullets (3–5 max)\n- Will avoid ambiguous phrases like \"tomorrow morning\"."}
+{"type":"user","content":"Perfect. Thanks for adjusting."}
+{"type":"assistant","content":"You're welcome. I'll apply these conventions going forward."}

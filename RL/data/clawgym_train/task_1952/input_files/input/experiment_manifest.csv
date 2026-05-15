@@ -1,0 +1,4 @@
+dataset,url,expected_hash,hash_func,local_path
+setA,https://example.org/data/setA.csv,9e107d9d372bb6826bd81d3542a419d6,md5,data/raw/setA.csv
+setB,https://example.org/data/setB.csv,e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855,sha256,data/raw/setB.csv
+setC,https://example.org/data/setC.csv,d41d8cd98f00b204e9800998ecf8427e,md5,data/raw/setC.csv

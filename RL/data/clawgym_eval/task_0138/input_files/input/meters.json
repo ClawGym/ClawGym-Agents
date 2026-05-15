@@ -1,0 +1,29 @@
+[
+  {
+    "meter_id": "MTR-E-1",
+    "customer_id": "CUST-001",
+    "meter_type": "electricity",
+    "name": "Main Panel - Acme",
+    "rate_plan_id": "RP-ELEC",
+    "unit": "kWh",
+    "install_date": "2025-06-15"
+  },
+  {
+    "meter_id": "MTR-E-2",
+    "customer_id": "CUST-002",
+    "meter_type": "electricity",
+    "name": "Main Panel - Bright",
+    "rate_plan_id": "RP-ELEC",
+    "unit": "kWh",
+    "install_date": "2025-08-20"
+  },
+  {
+    "meter_id": "MTR-S-1",
+    "customer_id": "CUST-001",
+    "meter_type": "saas",
+    "name": "SaaS Seats - Acme",
+    "rate_plan_id": "RP-SAAS",
+    "unit": "units",
+    "install_date": "2025-12-01"
+  }
+]

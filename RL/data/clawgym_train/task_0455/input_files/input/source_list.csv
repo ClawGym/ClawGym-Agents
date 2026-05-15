@@ -1,0 +1,7 @@
+id,tentative_title,type,origin,year_or_range,relevance_note,status
+SOU1,Census Manufacturing Schedule Extract - Selected Southern Counties,government dataset,US Census 1870 manufacturing schedule,1870,Factory output to gauge early industrial recovery,drafted
+SOU2,Louisville and Nashville Railroad - Annual Reports,corporate report,Corporate archives printed reports,1875-1890,Capital investment and employment figures,planned
+SOU3,Freedmen's Bureau Circulars and Reports,government records,US National Archives Freedmen's Bureau,1865-1869,Labor contracts and policy impacts,reviewing
+SOU4,Barrow Plantation Account Book,private ledger,University special collections,1866-1872,Local wage payments and supplies,identified
+SOU5,Weekly Times-Picayune Southern Advertisements Sample,newspaper,Digitized newspaper collection,1875-1885,Industrial job postings and prices,collecting
+SOU6,South Carolina Bureau of Statistics of Agriculture and Immigration Annual Report,state report,State government annual report,1883,Manufacturing and labor statistics for the state,planned

@@ -1,0 +1,31 @@
+=== GEP Prompt: Cycle 021 ===
+Timestamp: 2026-04-18T16:52:10Z
+Owner: evolution-controller
+
+Context [Signals]:
+[stable_success_plateau, force_steady_state, empty_cycle_loop_detected, known_limitation_reached]
+
+Intent: optimize
+
+Selected Gene "gene_context_compressor"
+
+Problem Statement:
+- Further compress context for web-monitor outputs.
+- Maintain readability while reducing token count.
+
+Proposed Adjustments:
+- Collapse whitespace-only lines more aggressively.
+- Normalize repeated headers and footers.
+
+Execution Trace:
+- Deployed context compressor.
+- Tested across mixed content pages.
+
+Result:
+- Readability drop detected in some diffs.
+- Two regression tests failed.
+- [SOLIDIFY] FAILURE: readability regression
+
+Notes:
+- Another optimization attempt without capability expansion.
+- Stagnation signals remain elevated.

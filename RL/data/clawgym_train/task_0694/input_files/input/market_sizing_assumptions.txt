@@ -1,0 +1,41 @@
+Planning Currency: GBP for pricing; convert to USD at 1 GBP = 1.28 USD for finance rollups.
+
+TAM (UK):
+- ~4.5M commercial vehicles in the UK (vans, HGVs, service vehicles).
+- Estimated fleets with 10–1500 vehicles = ~32% of vehicles → 1.44M vehicles relevant to fleet maintenance software.
+- Adoption of any digital maintenance software currently ~55% (rest use spreadsheets/legacy CMMS).
+
+SAM (Serviceable Available Market) for FleetIQ’s ICP (50–300 vehicles; includes SMB bleed):
+- Vehicles aligned to ICP ≈ 600k–700k; use midpoint 650k vehicles.
+- Monetization baseline: £10–£12 per vehicle/month for Pro; predictive add-on +£2.
+- Implied SAM revenue: 650k × £11 avg × 12 = ~£85.8M annually (core subscription only). Predictive attach 30–40% raises blended ARPU by ~£0.60–£0.80 per vehicle/month.
+
+SOM (3-Year Target):
+- Year 1: 0.8% of SAM vehicles (≈ 5,200 vehicles).
+- Year 2: 1.8% of SAM vehicles (≈ 11,700 vehicles).
+- Year 3: 3.0% of SAM vehicles (≈ 19,500 vehicles).
+- Average vehicles/account in UK entry: ~95 vehicles (mid-market skew). Accounts added in Year 1 ≈ 55; Year 2 ≈ 80; Year 3 ≈ 100 (cumulative growth).
+
+Unit Economics Assumptions (UK):
+- Initial CAC +12% vs US mid-market baseline due to localization and brand gap; expected to normalize to +5% by end of Year 2.
+- Sales cycle +15% vs US for first 2 quarters, then converges.
+- Data residency duplicative infrastructure adds ~0.7 pp to COGS in first 2 quarters; improves with scale.
+- Support/onboarding adds 6–8 hours/account extra in first quarter cohorts; mitigated via partner-led onboarding by Q4.
+- Target guardrails: LTV:CAC ≥ 3.0; payback ≤ 12 months; gross margin recovers to ≥76% by Q4 Year 1.
+
+Pricing/Packaging (guidelines):
+- Position Pro at £11–£12 with value narrative (downtime reduction KPIs).
+- Predictive add-on +£2; attach target 30–40%.
+- Annual prepay discount 8–10% to improve cash conversion; target 25% uptake.
+
+Funnel Benchmarks (initial UK):
+- Lead→MQL: 25–30%
+- MQL→SQL: 45–50%
+- SQL→Win: 22–25%
+- Overall Visit→Win: 0.8–1.1% (paid + partner)
+- Average Discount: 8–12% on annual; 0–5% on monthly for mid-market.
+
+Risks:
+- Competitor discounting war at <£10; mitigate with differentiated packaging and ROI proof.
+- Integration depth expectations (Geotab/Samsara) high; invest early.
+- FX volatility; consider GBP pricing with periodic guardrails.

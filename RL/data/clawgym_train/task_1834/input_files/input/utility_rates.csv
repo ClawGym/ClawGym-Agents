@@ -1,0 +1,5 @@
+component,value,unit,notes
+energy_rate,0.14,USD_per_kWh,APS standard residential energy charge (blended for modeling)
+export_rate,0.076,USD_per_kWh,APS RCP export credit for excess generation
+fixed_monthly_charge,12,USD_per_month,Non-bypassable service charge
+annual_rate_escalator,0.03,decimal,Assumed utility rate inflation per year

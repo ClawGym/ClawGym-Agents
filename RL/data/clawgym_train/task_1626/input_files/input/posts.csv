@@ -1,0 +1,19 @@
+id,date,author,title,tags,upvotes,replies,accepted,content
+P001,2023-01-15,Student_Alex,Influenza basics,Influenza;Virology101,15,3,true,Intro to flu basics
+P002,2023-02-10,Dr_Kim,Influenza HA and NA overview,Influenza,42,10,true,HA and NA overview
+P003,2023-03-05,BioNerd,SARS-CoV-2 variants,SARS-CoV-2;Epidemiology,35,8,false,Discussion of variant naming
+P004,2024-01-20,VirologyMod,Forum rules and FAQ,Virology101,20,5,true,Community guidelines
+P005,2023-05-12,LabTech_J,PCR troubleshooting,Diagnostics,18,4,false,Common PCR pitfalls
+P006,2023-06-30,Dr_Kim,Influenza vaccine strains 2023,Influenza;Vaccines,50,12,true,Seasonal update
+P007,2024-03-22,PhD_Lee,Bacteriophage therapy,Bacteriophage,27,6,false,Phage therapy overview
+P008,2023-07-14,CuriousCat,HIV replication cycle,HIV;Immunology,22,2,true,Stepwise replication
+P009,2022-11-19,Postdoc_Raj,Ancient viromes,Virology101,12,1,false,Ancient viral sequences
+P010,2023-08-21,Student_Alex,Influenza vs cold,Influenza,21,3,false,Symptom comparison
+P011,2023-09-30,VirologyMod,Moderation policy,Virology101,16,2,true,Policy update
+P012,2023-10-05,Dr_Kim,Influenza antiviral resistance,Influenza,45,9,false,Resistance mechanisms
+P013,2024-02-11,Undergrad_Mia,SARS-CoV-2 PCR primer design,SARS-CoV-2;Diagnostics,19,5,true,Primer design tips
+P014,2023-11-07,BioNerd,Influenza lab safety,Influenza;Immunology,28,7,true,Lab safety best practices
+P015,2023-12-15,Teacher_Sam,School outbreak protocols,Influenza;Epidemiology,26,6,false,School health planning
+P016,2024-04-09,Postdoc_Raj,HIV latency models,HIV,24,4,false,Latency discussion
+P017,2023-04-01,VirologyMod,Epidemics vs pandemics,Epidemiology;Virology101,14,3,true,Definitions and context
+P018,2023-02-25,LabTech_J,Influenza sample handling,Influenza;Diagnostics,33,5,true,Specimen handling tips

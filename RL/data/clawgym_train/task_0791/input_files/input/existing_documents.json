@@ -1,0 +1,97 @@
+{
+  "categories": [
+    {
+      "name": "Corporate",
+      "documents": [
+        {"name": "Articles of Incorporation", "status": "available", "last_updated": "2023-05-12", "notes": "Delaware C-Corp"},
+        {"name": "Bylaws", "status": "available", "last_updated": "2023-06-01", "notes": ""},
+        {"name": "Board Minutes (last 6 meetings)", "status": "available", "last_updated": "2026-03-28", "notes": "PDF bundle"},
+        {"name": "Cap Table (Carta export)", "status": "available", "last_updated": "2026-03-20", "notes": "As of March 20, 2026"},
+        {"name": "Shareholder Agreements", "status": "available", "last_updated": "2025-12-10", "notes": "Seed SAFE conversions included"},
+        {"name": "Option Plan and Grant Agreements", "status": "available", "last_updated": "2026-03-05", "notes": "Includes vesting schedules"},
+        {"name": "Board Decks (Q2'25–Q1'26)", "status": "available", "last_updated": "2026-04-01", "notes": "Quarterly decks bundle"}
+      ]
+    },
+    {
+      "name": "Financial",
+      "documents": [
+        {"name": "Monthly P&L (last 20 months)", "status": "available", "last_updated": "2026-03-31", "notes": "QuickBooks export + commentary"},
+        {"name": "Balance Sheet (Q1 2026)", "status": "available", "last_updated": "2026-03-31", "notes": ""},
+        {"name": "Cash Flow Statement (last 12 months)", "status": "missing", "last_updated": null, "notes": "CFO preparing indirect method"},
+        {"name": "Financial Model & 24-month Projections", "status": "available", "last_updated": "2026-03-18", "notes": "Bottoms-up with hiring plan"},
+        {"name": "Revenue by Product / ARR Waterfall", "status": "available", "last_updated": "2026-03-31", "notes": ""},
+        {"name": "AR/AP Aging", "status": "available", "last_updated": "2026-03-31", "notes": ""},
+        {"name": "US Federal & State Tax Returns 2024", "status": "available", "last_updated": "2025-09-20", "notes": "Filed and accepted"},
+        {"name": "US Federal & State Tax Returns 2025", "status": "partial", "last_updated": "2026-03-15", "notes": "In preparation (extension filed)"},
+        {"name": "UK HMRC CT600 (2024)", "status": "missing", "last_updated": null, "notes": "UK subsidiary first filing pending"}
+      ]
+    },
+    {
+      "name": "Legal",
+      "documents": [
+        {"name": "Customer MSA Template", "status": "available", "last_updated": "2026-02-20", "notes": ""},
+        {"name": "Data Processing Addendum (DPA) Template", "status": "available", "last_updated": "2026-02-20", "notes": "Includes SCCs for UK/EU"},
+        {"name": "IP Assignment Agreements (all contributors)", "status": "partial", "last_updated": "2026-03-10", "notes": "Two 2023 contractors missing executed IPAs"},
+        {"name": "Employment Agreements (current employees)", "status": "available", "last_updated": "2026-03-12", "notes": ""},
+        {"name": "Mutual NDA (standard)", "status": "available", "last_updated": "2025-11-02", "notes": ""},
+        {"name": "Litigation & Claims Disclosure", "status": "available", "last_updated": "2026-03-01", "notes": "None"},
+        {"name": "Open Source Attribution & License Register", "status": "partial", "last_updated": "2026-02-27", "notes": "Needs validation against current dependencies"},
+        {"name": "Trademark Certificates", "status": "available", "last_updated": "2025-08-11", "notes": ""},
+        {"name": "Privacy Impact Assessments (DPIAs/PIAs)", "status": "partial", "last_updated": "2026-04-01", "notes": "Completed: Engagement Analytics 1.3; In progress: HR Analytics 2.0"}
+      ]
+    },
+    {
+      "name": "Commercial",
+      "documents": [
+        {"name": "Top 25 Customer Contracts (executed)", "status": "partial", "last_updated": "2026-03-25", "notes": "20 uploaded; 5 pending counter-signed copies"},
+        {"name": "Customer List with ARR & Term", "status": "available", "last_updated": "2026-03-31", "notes": "Redacted emails"},
+        {"name": "Pricing History & Discount Policy", "status": "available", "last_updated": "2026-01-05", "notes": ""},
+        {"name": "Sales Pipeline Report (current quarter)", "status": "available", "last_updated": "2026-04-10", "notes": "From HubSpot"},
+        {"name": "Churn & Expansion Analysis (LTM)", "status": "partial", "last_updated": "2026-03-22", "notes": "Logo churn complete; needs cohort retention charts"},
+        {"name": "Partnership/Reseller Agreements", "status": "available", "last_updated": "2026-02-14", "notes": ""},
+        {"name": "Vendor & Subprocessor List", "status": "available", "last_updated": "2026-03-05", "notes": ""}
+      ]
+    },
+    {
+      "name": "Product & Tech",
+      "documents": [
+        {"name": "System Architecture Diagram", "status": "available", "last_updated": "2026-03-08", "notes": ""},
+        {"name": "Security Architecture & Controls Overview", "status": "partial", "last_updated": "2026-03-29", "notes": "SOC 2 readiness content in progress"},
+        {"name": "Uptime & Incident History (12 months)", "status": "available", "last_updated": "2026-03-31", "notes": "StatusPage exports"},
+        {"name": "Product Roadmap (next 4 quarters)", "status": "available", "last_updated": "2026-03-20", "notes": ""},
+        {"name": "Tech Stack Summary & Dependencies", "status": "available", "last_updated": "2026-02-28", "notes": ""},
+        {"name": "Penetration Test Report (2026)", "status": "available", "last_updated": "2026-02-15", "notes": "Cobalt.io"},
+        {"name": "SOC 2 Readiness / Gap Assessment", "status": "partial", "last_updated": "2026-03-31", "notes": "Type I audit scheduled"},
+        {"name": "Backup & Disaster Recovery Policy", "status": "available", "last_updated": "2026-01-31", "notes": ""},
+        {"name": "Data Flow Maps (US & UK)", "status": "partial", "last_updated": "2026-03-12", "notes": "UK data residency updates pending"}
+      ]
+    },
+    {
+      "name": "HR & Team",
+      "documents": [
+        {"name": "Org Chart", "status": "available", "last_updated": "2026-03-27", "notes": ""},
+        {"name": "Key Employee Bios (ELT + Directors)", "status": "available", "last_updated": "2026-03-27", "notes": ""},
+        {"name": "Compensation Summary & Bands", "status": "partial", "last_updated": "2026-03-18", "notes": "UK bands pending benchmarking"},
+        {"name": "Option Pool & Grant History", "status": "available", "last_updated": "2026-03-05", "notes": ""},
+        {"name": "Hiring Plan (next 12 months)", "status": "available", "last_updated": "2026-03-21", "notes": ""},
+        {"name": "Employee Handbook & Policies", "status": "available", "last_updated": "2026-02-01", "notes": ""},
+        {"name": "Right-to-Work & Work Permits (UK)", "status": "available", "last_updated": "2026-03-10", "notes": ""}
+      ]
+    },
+    {
+      "name": "Compliance",
+      "documents": [
+        {"name": "GDPR Compliance Policy", "status": "available", "last_updated": "2026-02-10", "notes": ""},
+        {"name": "UK GDPR Policy", "status": "available", "last_updated": "2026-02-10", "notes": ""},
+        {"name": "CCPA/CPRA Readiness Checklist", "status": "available", "last_updated": "2026-01-15", "notes": ""},
+        {"name": "SOC 2 Readiness Materials (Type I)", "status": "partial", "last_updated": "2026-03-31", "notes": "Controls mapped; evidence collection ongoing"},
+        {"name": "Insurance Certificates (Cyber, GL)", "status": "available", "last_updated": "2026-03-01", "notes": ""},
+        {"name": "DPO Appointment Letter", "status": "available", "last_updated": "2025-12-02", "notes": "Fractional DPO"},
+        {"name": "Data Retention & Deletion Policy", "status": "available", "last_updated": "2026-01-20", "notes": ""},
+        {"name": "Privacy Notices & Cookie Policy", "status": "available", "last_updated": "2026-02-18", "notes": ""},
+        {"name": "Cookie Consent Records (US/UK)", "status": "partial", "last_updated": "2026-03-03", "notes": "UK consent logs incomplete for Feb–Mar 2026"},
+        {"name": "ICO Registration Confirmation (UK)", "status": "available", "last_updated": "2025-07-22", "notes": ""}
+      ]
+    }
+  ]
+}

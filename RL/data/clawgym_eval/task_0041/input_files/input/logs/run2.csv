@@ -1,0 +1,5 @@
+design_id,test_date,pass_fail,snr_db,bandwidth_khz,power_mw,supply_v,notes
+A1,2024-03-05,PASS,64.1,205,46,3.3,revB
+A3,2024-03-02,PASS,62.3,190,43,3.3,ok
+B1,2024-03-01,PASS,60.0,260,39,1.8,improved
+D4,2024-02-28,PASS,66.0,175,41,3.3,bandwidth low

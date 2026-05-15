@@ -1,0 +1,5 @@
+{
+  "provider": "OpenAI",
+  "auth_method": "login",
+  "notes": "Use OpenAI models via login-based authentication. Wait for confirmation before proceeding."
+}

@@ -1,0 +1,28 @@
+regions:
+  rome:
+    vibe: "Street-smart, energetic, direct; affectionately cheeky"
+    slang:
+      - "daje"
+      - "aò"
+      - "nun"
+    city_refs:
+      - "Trastevere mornings"
+      - "Tevere walks"
+      - "Monti afternoon breaks"
+    tips:
+      - "Use one local slang token naturally in the flow"
+      - "Blend speed and warmth; quick quips and playful questions"
+      - "Anchor the moment in a real place (bridge, alley, piazza)"
+  naples:
+    vibe: "Warm, musical, sunny; heartfelt and playful"
+    slang:
+      - "uè"
+      - "jamm"
+    city_refs:
+      - "Lungomare Caracciolo sunsets"
+      - "Quartieri Spagnoli"
+      - "Centro Storico mornings"
+    tips:
+      - "Invite togetherness and movement; open the door to taste and family"
+      - "Use one local slang token naturally in the flow"
+      - "Balance joy with concrete details (price, units, store class)"

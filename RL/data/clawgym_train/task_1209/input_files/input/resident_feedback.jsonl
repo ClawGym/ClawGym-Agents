@@ -1,0 +1,8 @@
+{"resident_id":"R001","district":"1","position":"support","channel":"email","themes":["safety","schools"],"statement":"Lowering speeds will make it safer for my kids."}
+{"resident_id":"R002","district":"2","position":"support","channel":"meeting","themes":["safety","traffic"],"statement":"Crosswalks by Lincoln Elementary are needed."}
+{"resident_id":"R003","district":"3","position":"oppose","channel":"online","themes":["cost","traffic"],"statement":"Too expensive and will slow my commute."}
+{"resident_id":"R004","district":"1","position":"support","channel":"email","themes":["safety"],"statement":"We need safer crossings downtown."}
+{"resident_id":"R005","district":"4","position":"neutral","channel":"survey","themes":["data"],"statement":"I want to see crash data before deciding."}
+{"resident_id":"R006","district":"2","position":"support","channel":"event","themes":["schools","safety"],"statement":"Kids crossing Main St is dangerous."}
+{"resident_id":"R007","district":"5","position":"oppose","channel":"email","themes":["cost"],"statement":"We can't afford more projects this year."}
+{"resident_id":"R008","district":"3","position":"support","channel":"phone","themes":["safety","data"],"statement":"Transparency on crashes matters to me."}

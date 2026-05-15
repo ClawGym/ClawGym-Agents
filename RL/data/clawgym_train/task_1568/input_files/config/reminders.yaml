@@ -1,0 +1,10 @@
+window:
+  start: '2026-05-01'
+  end: '2026-05-31'
+channels:
+  - name: Email
+    days_prior: [14, 7, 1]  # INTENTIONAL mismatch: script expects 'days_before'
+    template: 'input/templates/reminder_email_template.md'
+  - name: SMS
+    days_prior: [1]  # INTENTIONAL mismatch: script expects 'days_before'
+    template: 'input/templates/reminder_email_template.md'

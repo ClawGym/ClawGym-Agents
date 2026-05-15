@@ -1,0 +1,6 @@
+output_dir: data/amitra_news
+keywords:
+  - Alessandro Amitrano
+  - Camera dei deputati
+source: "official parliamentary press releases (IT)"
+user_agent: "newsroom-fetcher/1.0"

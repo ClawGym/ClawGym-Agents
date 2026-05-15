@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Process Capability Primer: Cp, Cpk, and the Traps Engineers Miss</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    header, nav, footer, aside { background: #f4f6f8; }
+    body { font-family: Georgia, serif; margin: 0; }
+    .container { max-width: 880px; margin: 0 auto; padding: 24px; }
+    .article h1, .article h2 { font-family: system-ui, Arial; }
+    code { background: #f9f2f4; padding: 2px 4px; }
+  </style>
+  <script>
+    // Client-side TOC and tracking (ignore for summarization)
+    window.addEventListener('load', function() {
+      console.log('primer loaded');
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Quality Hub</h1>
+      <p>Guides and playbooks for Six Sigma, SPC, and capability analysis.</p>
+    </div>
+  </header>
+
+  <nav>
+    <div class="container">
+      <a href="/guides">Guides</a> |
+      <a href="/tools">Calculators</a> |
+      <a href="/courses">Courses</a> |
+      <a href="/about">About</a>
+    </div>
+  </nav>
+
+  <aside>
+    <div class="container">
+      <h2>On this page</h2>
+      <ul>
+        <li>Definitions</li>
+        <li>Assumptions</li>
+        <li>Computation</li>
+        <li>Pitfalls</li>
+      </ul>
+    </div>
+  </aside>
+
+  <main class="container">
+    <article class="article">
+      <h1>Process Capability Primer: Cp, Cpk, and the Traps Engineers Miss</h1>
+
+      <p>Process capability metrics translate variation into a common language that engineers, operators, and executives can share. The promise is simple: if we know the spread and centering of a process against specification limits, we can predict defect rates and decide whether to improve the process, widen the spec, or both. The reality is more nuanced, because capability indices are only as honest as the assumptions behind them. This primer introduces Cp and Cpk, contrasts them with Pp and Ppk, and highlights the traps that quietly distort decisions.</p>
+
+      <h2>Definitions: Cp, Cpk, Pp, and Ppk</h2>
+
+      <p>Cp is a measure of potential capability that compares the width of the specification window to the short‑term spread of the process. The formula is straightforward: Cp equals the difference between the upper and lower specification limits divided by six times the within‑subgroup standard deviation. Cp answers the question, “Could the process fit within the specs if perfectly centered?” Cp ignores where the mean sits; it only cares about spread. Many teams adopt a Cp threshold of 1.33 for acceptability and 1.67 for critical features, but those numbers are conventions, not laws.</p>
+
+      <p>Cpk is a measure of actual capability that accounts for centering by taking the minimum distance from the mean to each specification limit in units of three standard deviations. If the mean drifts toward one limit, Cpk drops even when Cp remains high. Cpk therefore detects off‑center processes that look good on paper but ship defects in practice. When Cp and Cpk are equal, the process is centered; when Cpk is smaller, centering is suspect. Cpk ties directly to short‑term sigma levels and to predicted defect rates under normality assumptions.</p>
+
+      <p>Pp and Ppk are cousins that use overall variation rather than within‑subgroup variation. They are informative for initial studies or unstable processes, because they capture long‑term swings and special causes. Pp mirrors Cp with overall standard deviation, and Ppk mirrors Cpk by referencing the mean’s distance to spec limits in overall sigma units. A common mistake is to report Ppk for a process under control and call it “capability,” which understates what a stable process can deliver.</p>
+
+      <h2>Assumptions: Stability and Distribution</h2>
+
+      <p>Capability indices assume the process is stable and that the distribution is appropriate for the calculation. Stability means special causes are addressed, control charts show only common cause variation, and the process has a predictable mean and variance. Without stability, capability numbers are snapshots of noise rather than properties of a system. Distributional assumptions matter because indices translate to defect probabilities by integrating tails. If tails are longer than a normal curve, the predicted defect rate is optimistic.</p>
+
+      <p>The normality assumption deserves more skepticism than it usually receives. Many processes behave like normal distributions near the center but exhibit skew or kurtosis in the tails due to tool wear, batch transitions, or measurement saturation. In those cases, a normal‑based Cpk over‑promises. Engineers have alternatives, including Box‑Cox transformations, percentiles, and non‑normal capability models such as Johnson curves or Pearson families. The correct approach is to test assumptions, not to force the data into a normal mold for convenience.</p>
+
+      <p>Subgrouping is the hinge that decides whether you estimate within‑subgroup variation or overall variation. The intent is to create subgroups that compress short‑term variation by sampling observations close in time or under near‑identical conditions. If subgroups collect across shifts, lines, or tool sets, you inflate within‑subgroup sigma and deflate Cp and Cpk. Poor subgrouping can hide a good process or falsely indict a stable one. Clarity on the sampling window turns a fragile study into a credible one.</p>
+
+      <h2>Computation and Interpretation</h2>
+
+      <p>Computing Cp starts with selecting rational subgroups, calculating the within‑subgroup standard deviation, and scaling by the d2 or c4 constants as appropriate for the chosen estimator. With sigma in hand, Cp equals the specification width divided by six times sigma. Computing Cpk requires the process mean and the distances to USL and LSL in units of three sigma; the smaller side governs. The arithmetics are simple, but the data hygiene is not. Engineers should record subgroup sizes, sampling intervals, and any data exclusions to make future reviews auditable.</p>
+
+      <p>Interpreting capability requires context. A Cp of 1.50 paired with a Cpk of 0.90 signals plenty of spread capacity but a centering problem, which invites a process adjustment rather than an overhaul. A Cp of 0.90 paired with a Cpk of 0.85 signals that the process cannot meet spec even if centered, which invites a design change, a tolerance review, or a fundamental process improvement. When Cp and Cpk both exceed 1.67 for critical features, teams can consider reducing inspection frequency and shifting energy to other constraints.</p>
+
+      <p>Capability links to DPMO through the normal cumulative distribution function. Roughly, a short‑term Cpk of 1.00 corresponds to about three sigma and about 66,800 defects per million opportunities without a long‑term shift. A short‑term Cpk of 1.33 approaches four sigma and around 6,210 DPMO, and a Cpk of 2.00 aligns with six sigma and about 3.4 DPMO under the 1.5 sigma shift convention. These conversions are approximations, and they inherit the assumptions of stability and distribution.</p>
+
+      <h2>Measurement Systems and Sample Size</h2>
+
+      <p>Measurement error can quietly ruin capability. If the gage cannot distinguish parts within tolerance, the observed sigma is a blend of process and gage variation, which drags capability down or up depending on the mix. A Gage R&amp;R study is mandatory before capability studies mature into policy. Teams aim for gage contributions below 10 percent for critical metrics and below 30 percent for exploratory work. When gage variation is high, capability metrics become opinions with decimal points.</p>
+
+      <p>Sample size influences the confidence we should claim. Capability indices computed from 25 subgroups of four provide a more reliable picture than indices computed from two days of sporadic readings. Confidence intervals for Cpk can span wide ranges at small sample sizes, which argues for humility in early phases. Decision makers should see error bars, not just point estimates, because uncertainty is part of the physics.</p>
+
+      <h2>Non‑Normal and Bounded Distributions</h2>
+
+      <p>Not all processes are even theoretically normal. Proportions are bounded between zero and one and often follow binomial or beta distributions. Cycle times can be log‑normal due to multiplicative factors in work content. Flatness and roundness sometimes follow specialized geometries that resist simple parametric models. In such cases, engineers should use distribution‑appropriate capability methods, map percentiles to specs, or simulate tails with bootstrap techniques. The refusal to adapt the model to the phenomenon is a primary source of surprise in production.</p>
+
+      <h2>Common Pitfalls and How to Avoid Them</h2>
+
+      <p>Reporting Ppk for a stable process and calling it “capability” is a frequent error that causes under‑investment in good lines and over‑investment in noisy ones. Another trap is subgrouping across setups, which blurs short‑term variation and cripples Cp. Teams sometimes compute capability during launch ramps, when learning curves and tool conditioning dominate variation, and then freeze policies that never update. Others set universal Cpk targets without considering measurement resolution or economic trade‑offs. The cure is to match the index and target to the value at stake and to revisit numbers as the system evolves.</p>
+
+      <p>Capability studies also fail when they become compliance rituals. When engineers compute indices to fill a form rather than to guide decisions, anomalies are explained away and sampling plans are distorted. Leaders should demand that capability results link to specific actions, such as centering moves, tool maintenance schedules, or design reviews. If nothing changes after a capability study, the study was theater.</p>
+
+      <h2>Actions That Create Real Capability</h2>
+
+      <p>Center the process first, then reduce spread. A half‑point gain in Cpk often hides in a simple set‑point correction or in a standardized warm‑up routine that stabilizes the mean. Reduce spread with maintenance discipline, tool refurbishment cycles, and operator standards that cut special cause variation. Improve measurement so that adjustments are not chasing gage noise. Review specifications against function and risk to ensure that tolerance is consistent with customer value and process physics. Capability is the outcome of these decisions, not their substitute.</p>
+
+      <p>Finally, remember that capability is not permanent. Wear, supplier changes, and shifts in material properties degrade performance over time. Control charts and capability should live together so that drift is detected and responded to before customer risk materializes. Capability is a living contract between design, production, and quality, and it stays honest only when the system stays curious.</p>
+
+      <p>With correct assumptions, disciplined subgrouping, and a measurement system you trust, Cp and Cpk become reliable guides. They help teams choose between centering, tightening variation, or redesigning the specification. The traps are real, but so is the value when numbers reflect the process we actually run. Capability is a decision tool, not a decoration.</p>
+    </article>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Quality Hub. All rights reserved.</p>
+      <p><a href="/privacy">Privacy</a> • <a href="/terms">Terms</a> • <a href="/contact">Contact</a></p>
+    </div>
+  </footer>
+</body>
+</html>

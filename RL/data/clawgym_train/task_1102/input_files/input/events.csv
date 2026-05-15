@@ -1,0 +1,8 @@
+event_id,title,date,budget_required,expected_visitors,theme,venue_id
+E001,Summer Art Walk,2026-07-20,12000,450,Street Art,V1
+E002,Gallery Nights,2026-08-15,18000,600,Fine Arts,V2
+E003,Mural Festival,2026-09-10,15000,800,Street Art,V3
+E004,Craft Market Pop-up,2026-06-18,8000,300,Crafts,V2
+E005,Digital Arts Expo,2026-07-30,14000,550,NFT,V4
+E006,Community Chalk Day,2026-08-05,5000,200,Family,V1
+E007,Autumn Sculpture Show,2026-10-02,16000,700,Sculpture,V2

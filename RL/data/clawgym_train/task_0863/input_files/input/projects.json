@@ -1,0 +1,190 @@
+{
+  "projects": [
+    {
+      "name": "Website Redesign",
+      "slug": "website-redesign",
+      "status": "Active",
+      "priority": "P1",
+      "started": "2026-03-10",
+      "target": "2026-05-15",
+      "one_liner": "Revamp the marketing website to improve conversion and clarify product messaging.",
+      "priority_factors": {
+        "revenue": 5,
+        "time_to_completion": 4,
+        "strategic_alignment": 4,
+        "energy": 4,
+        "dependencies": 4
+      },
+      "milestones": [
+        { "title": "Audit current site", "target_date": "2026-03-20", "completed": true },
+        { "title": "New IA and sitemap", "target_date": "2026-03-28", "completed": true },
+        { "title": "High-fidelity mockups", "target_date": "2026-04-25", "completed": false },
+        { "title": "Implement in Next.js", "target_date": "2026-05-10", "completed": false },
+        { "title": "Launch", "target_date": "2026-05-15", "completed": false }
+      ],
+      "progress_log": [
+        { "date": "2026-04-18", "summary": "Completed first round of homepage and pricing page mockups; aligned on hero narrative." },
+        { "date": "2026-04-16", "summary": "Reviewed competitor positioning and set tone/voice guidelines." },
+        { "date": "2026-04-12", "summary": "Finished sitemap and IA; validated with 3 customer interviews." }
+      ],
+      "decisions": [
+        { "date": "2026-04-12", "decision": "Adopt conversion-focused layout for pricing", "rationale": "Testing shows +12% CTR on CTA in variant B." }
+      ],
+      "blockers": []
+    },
+    {
+      "name": "Data Pipeline Revamp",
+      "slug": "data-pipeline-revamp",
+      "status": "Active",
+      "priority": "P1",
+      "started": "2026-02-01",
+      "target": "2026-04-30",
+      "one_liner": "Re-architect ETL to reduce latency and improve reliability using Airflow.",
+      "priority_factors": {
+        "revenue": 4,
+        "time_to_completion": 3,
+        "strategic_alignment": 5,
+        "energy": 3,
+        "dependencies": 3
+      },
+      "milestones": [
+        { "title": "Map current data flows", "target_date": "2026-02-10", "completed": true },
+        { "title": "Select orchestration tool", "target_date": "2026-02-20", "completed": true },
+        { "title": "Migrate jobs to Airflow", "target_date": "2026-04-15", "completed": false },
+        { "title": "Implement data quality checks", "target_date": "2026-04-20", "completed": false },
+        { "title": "Decommission legacy cron", "target_date": "2026-04-30", "completed": false }
+      ],
+      "progress_log": [
+        { "date": "2026-04-10", "summary": "Airflow POC stable with 3 DAGs; awaiting security review for VPC peering." },
+        { "date": "2026-04-05", "summary": "Defined SLAs and backfill strategy; aligned with analytics team." },
+        { "date": "2026-03-25", "summary": "Benchmarked ingestion performance; identified bottleneck in S3 to Redshift copy." }
+      ],
+      "decisions": [
+        { "date": "2026-03-05", "decision": "Choose Airflow over Prefect", "rationale": "Team familiarity and managed offering availability." }
+      ],
+      "blockers": [
+        { "date": "2026-04-08", "description": "Security review pending for new VPC peering to manage connection to warehouse", "resolved": false, "owner": "SecOps" }
+      ]
+    },
+    {
+      "name": "Newsletter Automation",
+      "slug": "newsletter-automation",
+      "status": "On Hold",
+      "priority": "P3",
+      "started": "2025-12-15",
+      "target": "2026-05-05",
+      "one_liner": "Automate the biweekly newsletter with RSS and reusable templates.",
+      "priority_factors": {
+        "revenue": 2,
+        "time_to_completion": 2,
+        "strategic_alignment": 3,
+        "energy": 2,
+        "dependencies": 3
+      },
+      "milestones": [
+        { "title": "Choose ESP", "target_date": "2026-01-10", "completed": true },
+        { "title": "Design template", "target_date": "2026-04-22", "completed": false },
+        { "title": "RSS integration", "target_date": "2026-04-30", "completed": false },
+        { "title": "QA and seed list test", "target_date": "2026-05-02", "completed": false }
+      ],
+      "progress_log": [
+        { "date": "2026-04-01", "summary": "Drafted initial MJML template; header and footer ready. Pausing pending budget." },
+        { "date": "2026-03-15", "summary": "Shortlisted ESP: Mailchimp vs. Campaign Monitor; leaning Mailchimp." }
+      ],
+      "decisions": [],
+      "blockers": [
+        { "date": "2026-04-05", "description": "Finance approval needed for ESP plan upgrade", "resolved": false, "owner": "Finance" }
+      ]
+    },
+    {
+      "name": "Mobile App v2",
+      "slug": "mobile-app-v2",
+      "status": "Active",
+      "priority": "P2",
+      "started": "2026-03-01",
+      "target": "2026-07-01",
+      "one_liner": "Second version of the mobile app focusing on onboarding and activation.",
+      "priority_factors": {
+        "revenue": 2,
+        "time_to_completion": 3,
+        "strategic_alignment": 2,
+        "energy": 2,
+        "dependencies": 3
+      },
+      "milestones": [
+        { "title": "Define MVP", "target_date": "2026-03-20", "completed": true },
+        { "title": "Prototype flows", "target_date": "2026-04-25", "completed": false },
+        { "title": "Implement onboarding", "target_date": "2026-05-30", "completed": false },
+        { "title": "Beta test (TestFlight)", "target_date": "2026-06-10", "completed": false }
+      ],
+      "progress_log": [
+        { "date": "2026-04-19", "summary": "Clickable prototype for onboarding complete; ready for 5-user test." },
+        { "date": "2026-04-17", "summary": "Completed user flow diagrams; identified 2 friction points in KYC step." },
+        { "date": "2026-04-14", "summary": "Met with design to align on motion specs for tooltips." }
+      ],
+      "decisions": [
+        { "date": "2026-04-17", "decision": "Defer dark mode to v2.1", "rationale": "Focus on activation metrics for v2.0." }
+      ],
+      "blockers": []
+    },
+    {
+      "name": "Legacy Feature Deprecation",
+      "slug": "legacy-feature-deprecation",
+      "status": "Done",
+      "priority": "P3",
+      "started": "2026-02-15",
+      "target": "2026-04-19",
+      "one_liner": "Remove unused legacy feature and clean up related code paths.",
+      "priority_factors": {
+        "revenue": 2,
+        "time_to_completion": 2,
+        "strategic_alignment": 2,
+        "energy": 2,
+        "dependencies": 2.5
+      },
+      "milestones": [
+        { "title": "Identify usage and communicate deprecation", "target_date": "2026-03-01", "completed": true },
+        { "title": "Remove code paths and feature flags", "target_date": "2026-04-15", "completed": true },
+        { "title": "Add redirects and update docs", "target_date": "2026-04-19", "completed": true }
+      ],
+      "progress_log": [
+        { "date": "2026-04-19", "summary": "Removed feature flag and cleaned routes; redirects in place and docs updated. Project closed." },
+        { "date": "2026-04-15", "summary": "Deleted legacy components; CI green across modules." }
+      ],
+      "decisions": [
+        { "date": "2026-03-05", "decision": "Proceed with deprecation", "rationale": "Feature usage < 0.1% and maintenance burden high." }
+      ],
+      "blockers": []
+    },
+    {
+      "name": "SEO Content Series",
+      "slug": "seo-content-series",
+      "status": "Active",
+      "priority": "P2",
+      "started": "2026-01-20",
+      "target": "2026-05-30",
+      "one_liner": "Publish a 12-post SEO series targeting core product keywords.",
+      "priority_factors": {
+        "revenue": 3,
+        "time_to_completion": 3,
+        "strategic_alignment": 3,
+        "energy": 2,
+        "dependencies": 4
+      },
+      "milestones": [
+        { "title": "Keyword research", "target_date": "2026-02-05", "completed": true },
+        { "title": "Outline 12 posts", "target_date": "2026-04-12", "completed": false },
+        { "title": "Draft 6 posts", "target_date": "2026-04-25", "completed": false },
+        { "title": "Publish batch 1", "target_date": "2026-05-01", "completed": false }
+      ],
+      "progress_log": [
+        { "date": "2026-04-09", "summary": "Completed keyword research and clustering; early outlines for 3 posts." },
+        { "date": "2026-03-28", "summary": "Defined content briefs and style guide for series." }
+      ],
+      "decisions": [],
+      "blockers": [
+        { "date": "2026-04-12", "description": "Subject matter expert availability limited for technical review", "resolved": false, "owner": "Content" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+farm_name: "Maple Hollow Farm"
+location: "Washington County"
+sibling_name: "Evelyn"
+audience_label: "friends and partners abroad"
+currency: "USD"
+targets:
+  Kale: 160
+  Tomatoes: 150
+  Corn: 250

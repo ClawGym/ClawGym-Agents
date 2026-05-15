@@ -1,0 +1,10 @@
+model_type:
+  saas:
+    sub_type: sales-led
+    pricing: tiered
+    contract: annual
+stage: series_a
+notes:
+  - Primary motion is outbound + mid-market ACV
+  - Annual contracts with monthly revenue recognition
+  - Focus KPIs: NDR, CAC payback, burn multiple, magic number

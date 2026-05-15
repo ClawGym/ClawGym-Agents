@@ -1,0 +1,6 @@
+{
+  "calls": 127,
+  "errors": 2,
+  "timeframe": "2026-03-01T00:00:00Z..2026-03-31T23:59:59Z",
+  "notes": "Production load test across 5 regions; both errors were upstream 502s that succeeded on retry. Average p95 response time: 420ms."
+}

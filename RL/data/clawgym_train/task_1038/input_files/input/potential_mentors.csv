@@ -1,0 +1,9 @@
+name,title,company,steps_ahead,accessibility,celebrity,met_at_event,creates_content,works_at_same_company,specialty,email,notes
+Alex Chen,Senior Staff Software Engineer,Northbeam Analytics,3,high,no,no,no,yes,Staff IC architecture and platform reliability,alex.chen@northbeam.com,Offered to sanity-check the Kafka→SQS plan last month; approachable on Slack.
+Priya Shaikh,Engineering Manager II,Northbeam Analytics,2,high,no,no,yes,yes,Engineering management, team health,priya.shaikh@northbeam.com,Writes an internal "Manager Notes" newsletter; thoughtful about 1:1s and feedback.
+Kenji Morales,Director of Engineering,ChargeFlow Systems,4,medium,no,yes,no,no,Org design and first-line manager coaching,kenji.morales@chargeflow.io,Met at Eng Leadership Roundtable (DevCon NYC, Mar 7); suggested guardrails for temporary EM trials.
+Dana Patel,Senior Engineering Manager,Northbeam Analytics,5,medium,no,no,no,yes,Managing managers and delivery execution,dana.patel@northbeam.com,Leads two teams adjacent to Platform; has coached EM backfills before.
+Sophie Turner,Principal Engineer,CloudStripe,5,low,yes,no,yes,no,Public principal IC and conference speaker,sophie.turner@cloudstripe.com,High-profile speaker; very limited availability.
+Miguel Alvarez,CTO,FastTrack AI,7,medium,no,yes,yes,no,Startup scaling and AI infra,miguel@fasttrack.ai,Well beyond scope needed right now.
+Erin O'Neil,Staff Engineer,OpenEdge Labs,2,high,no,no,yes,no,IC leadership and technical strategy,erin.oneil@openedgelabs.dev,Publishes the "IC Leadership Playbook" blog; recent post on leading without authority.
+Lina Gruber,Senior Product Manager,Northbeam Analytics,3,high,no,no,yes,yes,Product strategy and cross-functional collaboration,lina.gruber@northbeam.com,Strong on PM/eng collaboration for platform projects.

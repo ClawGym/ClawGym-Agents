@@ -1,0 +1,47 @@
+[
+  {
+    "id": "a44f8c68-27e2-4a52-9a1f-5a8f4c9d7b10",
+    "title": "API work",
+    "project_path": "./projects/payments-api",
+    "group_path": "backend",
+    "tool": "claude",
+    "status": "running",
+    "profile": "default"
+  },
+  {
+    "id": "b1c9c7f2-63d4-4422-b7ea-33fefbdb6c2a",
+    "title": "API work",
+    "project_path": "./projects/orders-api",
+    "group_path": "backend",
+    "tool": "codex",
+    "status": "waiting",
+    "profile": "default"
+  },
+  {
+    "id": "c3d553e0-5e76-4f3f-9a6e-2e2b1163f8e1",
+    "title": "Frontend revamp",
+    "project_path": "./webapp",
+    "group_path": "frontend",
+    "tool": "opencode",
+    "status": "stopped",
+    "profile": "staging"
+  },
+  {
+    "id": "d2b1aa90-7c37-4f0d-9b66-0a942fadb2e8",
+    "title": "Data migration",
+    "project_path": "./data-pipeline",
+    "group_path": "platform/data",
+    "tool": "claude",
+    "status": "idle",
+    "profile": "default"
+  },
+  {
+    "id": "e7d4b2fa-bc1a-44e4-96d2-2f2bc0e1345d",
+    "title": "Hotfix-2026-04",
+    "project_path": "./monolith",
+    "group_path": "ops",
+    "tool": "codex",
+    "status": "error",
+    "profile": "default"
+  }
+]

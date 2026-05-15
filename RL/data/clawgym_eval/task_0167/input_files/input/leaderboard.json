@@ -1,0 +1,24 @@
+{
+  "period": "MONTH",
+  "generated_at": "2026-04-15T12:00:00Z",
+  "leaders": [
+    {
+      "name": "AlphaWhale",
+      "address": "0xAAA",
+      "pnl": 154320.75,
+      "vol": 2321000.5
+    },
+    {
+      "name": "BetaShark",
+      "address": "0xBBB",
+      "pnl": 98350.1,
+      "vol": 1510000.0
+    },
+    {
+      "name": "GammaWhale",
+      "address": "0xCCC",
+      "pnl": 73210.0,
+      "vol": 940000.0
+    }
+  ]
+}

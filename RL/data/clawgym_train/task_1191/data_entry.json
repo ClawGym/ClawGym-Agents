@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1191",
+  "user_query": "I need five LinkedIn post versions in my five distinct styles for the topic in input/topic.txt. Read both input/topic.txt and input/notes.md to ground details. Deliver exactly five separate files:\n- output/style1.txt\n- output/style2.txt\n- output/style3.txt\n- output/style4.txt\n- output/style5.txt\n\nRequirements for every post:\n- Max 1,300 characters.\n- At least 5 sentences with dramatically different lengths. Put each sentence on its own line. Include at least one ultra‑short line (2–5 words) that is not a hashtag.\n- End with 2–4 niche hashtags on the final line only (no other words on that line).\n- Post body text only: no titles, no labels, no style names, no explanations.\n- Include at least one real or plausible detail grounded in my experience from the notes.\n- Target European importers, distributors, and OEM brands. No generic quality claims, motivational tone, or product pitches.\n\nStyle‑specific notes:\n- Style 1 (Scarred Veteran): raw, vulnerable; finish the body with a provocative thought, then the hashtags line.\n- Style 2 (Industry Dissenter): cold facts; the last non‑hashtag line must end with a question.\n- Style 3 (Inside the Factory): include one concrete factory/process detail tied to downstream impact; invite dialogue (not a pitch) before the hashtags.\n- Style 4 (European Market Watcher): interpret a market signal from the notes; the last non‑hashtag line must end with a question.\n- Style 5 (What 15 Years Finally Taught Me): name a specific early wrong assumption and how my behavior changed; leave the implication open before hashtags.\n\nDo not copy text from the notes verbatim—synthesize. Make each file clearly different in voice and structure. Place the 2–4 hashtags on the final line only.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

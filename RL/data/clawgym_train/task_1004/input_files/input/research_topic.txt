@@ -1,0 +1,45 @@
+Research topic:
+AI assistants and multimodal coding agents for professional game development teams
+
+Primary research question:
+What is the current state of peer‑reviewed evidence on AI assistants and multimodal coding agents that support game development workflows (Unity, Unreal, Godot), and what design patterns, productivity impacts, safety considerations, and evaluation benchmarks should inform the launch of an AI assistant for game studios?
+
+Sub‑questions:
+- Which agent architectures and interaction patterns (tool use, retrieval, planning, visual context grounding) work best in game‑centric IDEs and editors?
+- What evidence exists that AI assistants improve developer productivity, code quality, or issue resolution speed in software teams—especially in graphics/gameplay tasks?
+- How do multimodal signals (images, video, scene graphs, shaders) affect coding performance and debugging effectiveness?
+- What evaluation frameworks and benchmarks (e.g., game‑oriented or agentic code benchmarks) are most relevant?
+- What are the risks (hallucinations, asset licensing, IP leakage, unsafe code) and recommended mitigations in studio environments?
+
+Constraints and preferences:
+- Time window: 2020–2026 (prioritize 2022–2026).
+- Source types: peer‑reviewed journals and top conferences (SE/PL/HCI/AI/ML: ICSE, ASE, FSE, CHI, UIST, ICLR, NeurIPS, AAAI, ACL, CSCW, KDD, Nature/Science/Communications titles where applicable).
+- Include DOIs when available (required in bibliography).
+- Prioritize open access where possible.
+- Emphasize studies with quantitative outcomes (e.g., productivity, bug fix time, correctness) or rigorous user studies in developer contexts.
+- Cover at least one game‑specific benchmark (e.g., GameDevBench) and at least one general code‑agent benchmark for contrast (e.g., SWE‑bench/variants).
+- Focus engines/workflows: Unity (C#), Unreal (C++/Blueprints), Godot (GDScript/C#), shaders (HLSL/GLSL), asset pipeline, scene editing, build tools, CI.
+
+Must‑cover themes (for synthesis):
+- Productivity and quality impact in professional teams
+- Multimodal grounding (images/video/screenshots) for debugging and content alignment
+- Agent tool use and editor integration (commands, build/test, profiler)
+- Safety, IP/privacy, and governance in closed‑source codebases
+- Evaluation methods and benchmark limitations in game contexts
+
+Expected outputs:
+- ≥12 peer‑reviewed works with DOIs
+- Thematic clustering with short annotations per paper
+- Five most influential papers (JSON)
+- Practical implications for product/UX and GTM
+
+Keywords to try (variations encouraged):
+- “multimodal code agent” OR “multimodal programming assistant”
+- “game development AI assistant” OR “AI for Unity/Unreal/Godot”
+- “visual debugging” AND (shader OR graphics)
+- “LLM pair programming” developer study
+- “agentic coding benchmark” OR “software engineering benchmark”
+- “IDE integration” OR “editor plugin” OR “toolformer” AND developer
+
+Note:
+Prefer empirical work that reports effect sizes, ablation studies, or clear measurements (task success rates, citation counts secondary). Include at least one HCI/UX study on developer trust and adoption.

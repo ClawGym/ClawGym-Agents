@@ -1,0 +1,13 @@
+email,name,segment
+alice@rockfans.org,Alice,subscribers
+invalidbox@rockfans.org,Bob,subscribers
+charlie@blockedrock.com,Charlie,subscribers
+donna@fullbox.com,Donna,subscribers
+eve@tempfail.com,Eve,subscribers
+frank@loudblock.net,Frank,subscribers
+gina@greylist.me,Gina,press
+hank@rockfans.org,Hank,press
+irene@fullbox.com,Irene,press
+jakeinvalid@rockfans.org,Jake,subscribers
+kim@rockfans.org,Kim,subscribers
+leo@blockedrock.com,Leo,press

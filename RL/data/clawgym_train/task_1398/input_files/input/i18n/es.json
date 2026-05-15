@@ -1,0 +1,8 @@
+{
+  "welcome_title": "Bienvenido a {appname}",
+  "signup_cta": "Crear cuenta",
+  "email_placeholder": "Correo electrónico",
+  "password_placeholder": "Contraseña",
+  "push_optin_body": "Activa las notificaciones push para recibir novedades",
+  "promo_message": "Invita a {count} amigos para ganar {reward}"
+}

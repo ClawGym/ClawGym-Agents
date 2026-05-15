@@ -1,0 +1,182 @@
+{
+  "subscriptionId": "xxxx",
+  "vnets": [
+    {
+      "name": "vnet-weu-hub",
+      "resourceGroup": "rg-weu-hub",
+      "region": "West Europe",
+      "addressSpace": "10.10.0.0/16",
+      "subnets": [
+        {
+          "name": "snet-apps",
+          "addressPrefix": "10.10.1.0/24",
+          "notes": "App tier"
+        },
+        {
+          "name": "snet-pe",
+          "addressPrefix": "10.10.10.0/24",
+          "notes": "Private Endpoint subnet"
+        }
+      ],
+      "attachedResources": [
+        {
+          "type": "Microsoft.Compute/virtualMachines",
+          "name": "weu-app-01",
+          "region": "West Europe",
+          "egress": {
+            "publicInternet": true,
+            "targets": [
+              "stweuappmedia.blob.core.windows.net"
+            ]
+          }
+        },
+        {
+          "type": "Microsoft.Network/applicationGateways",
+          "name": "weu-app-gw",
+          "region": "West Europe",
+          "frontendPublic": true
+        }
+      ]
+    },
+    {
+      "name": "vnet-eus-prod",
+      "resourceGroup": "rg-eus-hub",
+      "region": "East US",
+      "addressSpace": "10.20.0.0/16",
+      "subnets": [
+        {
+          "name": "snet-core",
+          "addressPrefix": "10.20.1.0/24"
+        },
+        {
+          "name": "snet-pe",
+          "addressPrefix": "10.20.10.0/24"
+        }
+      ],
+      "attachedResources": [
+        {
+          "type": "Microsoft.Compute/virtualMachines",
+          "name": "eus-batch-01",
+          "region": "East US",
+          "egress": {
+            "publicInternet": true,
+            "targets": [
+              "storageeusbatch.blob.core.windows.net"
+            ]
+          }
+        },
+        {
+          "type": "Microsoft.Web/sites",
+          "name": "eus-app-frontend",
+          "region": "East US",
+          "publicEndpoint": true
+        }
+      ]
+    },
+    {
+      "name": "vnet-jpe-web",
+      "resourceGroup": "rg-jpe-web",
+      "region": "Japan East",
+      "addressSpace": "10.30.0.0/16",
+      "subnets": [
+        {
+          "name": "snet-web",
+          "addressPrefix": "10.30.1.0/24"
+        },
+        {
+          "name": "snet-pe",
+          "addressPrefix": "10.30.10.0/24"
+        }
+      ],
+      "attachedResources": [
+        {
+          "type": "Microsoft.ContainerService/managedClusters",
+          "name": "jpe-aks-web",
+          "region": "Japan East",
+          "egress": {
+            "publicInternet": true,
+            "targets": [
+              "stjpecontent.blob.core.windows.net"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "privateEndpoints": [
+    {
+      "name": "pe-sqleusprod",
+      "resourceGroup": "rg-eus-data",
+      "region": "East US",
+      "subnet": "/subscriptions/xxxx/resourceGroups/rg-eus-hub/providers/Microsoft.Network/virtualNetworks/vnet-eus-prod/subnets/snet-pe",
+      "targetResource": "/subscriptions/xxxx/resourceGroups/rg-eus-data/providers/Microsoft.Sql/servers/sqleusprod",
+      "groupIds": [
+        "sqlServer"
+      ],
+      "status": "Succeeded"
+    },
+    {
+      "name": "pe-kv-weu-001",
+      "resourceGroup": "rg-weu-sec",
+      "region": "West Europe",
+      "subnet": "/subscriptions/xxxx/resourceGroups/rg-weu-hub/providers/Microsoft.Network/virtualNetworks/vnet-weu-hub/subnets/snet-pe",
+      "targetResource": "/subscriptions/xxxx/resourceGroups/rg-weu-sec/providers/Microsoft.KeyVault/vaults/kv-weu-001",
+      "groupIds": [
+        "vault"
+      ],
+      "status": "Succeeded"
+    }
+  ],
+  "storageAccounts": [
+    {
+      "name": "stweuappmedia",
+      "resourceGroup": "rg-weu-apps",
+      "region": "West Europe",
+      "kind": "StorageV2",
+      "privateEndpointConfigured": false,
+      "publicNetworkAccess": "Enabled",
+      "notes": "High outbound to public clients; candidate for CDN and Private Endpoint for internal access"
+    },
+    {
+      "name": "storageeusbatch",
+      "resourceGroup": "rg-eus-data",
+      "region": "East US",
+      "kind": "StorageV2",
+      "privateEndpointConfigured": false,
+      "publicNetworkAccess": "Enabled",
+      "notes": "Partner downloads over public internet; consider Azure Front Door/Rules for caching or signed URLs with CDN"
+    },
+    {
+      "name": "stjpecontent",
+      "resourceGroup": "rg-jpe-web",
+      "region": "Japan East",
+      "kind": "StorageV2",
+      "privateEndpointConfigured": false,
+      "publicNetworkAccess": "Enabled",
+      "notes": "Static content for Japan; candidate for CDN"
+    }
+  ],
+  "serviceInventory": {
+    "frontDoorOrCDN": {
+      "present": false,
+      "details": []
+    },
+    "internetFacingEndpoints": [
+      {
+        "resource": "weu-app-gw",
+        "type": "ApplicationGateway",
+        "region": "West Europe"
+      },
+      {
+        "resource": "eus-app-frontend",
+        "type": "AppService",
+        "region": "East US"
+      }
+    ]
+  },
+  "findings": [
+    "Multiple VM/App and AKS components in all three regions egressing to public internet for static content without CDN.",
+    "Storage accounts in West Europe, East US, and Japan East are accessed publicly; no Private Endpoints for storage exist.",
+    "SQL in East US already uses Private Endpoint; Key Vault in West Europe already uses Private Endpoint."
+  ]
+}

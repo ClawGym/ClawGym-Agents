@@ -1,0 +1,11 @@
+id,title,topic,scope,priority
+A1,Welcome & Introductions,admin,Montreal,5
+A2,Snow Removal Update,city_services,Montreal,2
+A3,Trivia: Origin of 'Je me souviens' motto,political_trivia,Quebec,3
+A4,Book Club: Montreal Noir,culture,Montreal,5
+A5,Trivia: Expo 67 municipal impacts,political_trivia,Montreal,2
+A6,Borough budget overview,finance,Montreal,1
+A7,Trivia: First female city councillor in Montreal,political_trivia,Montreal,1
+A8,Neighbourhood festival permits,civic_process,Montreal,3
+A9,Trivia: Evolution of Montreal city flag symbols,political_trivia,Montreal,4
+A10,Transit: REM extension updates,transit,Montreal,2

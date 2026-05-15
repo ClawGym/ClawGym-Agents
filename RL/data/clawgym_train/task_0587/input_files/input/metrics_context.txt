@@ -1,0 +1,4 @@
+Company: Seed-stage SaaS fintech
+Model: B2B subscription, monthly contracts, hybrid self-serve + light sales assist
+Focus this month: strengthen onboarding to reduce early churn, maintain healthy expansion from existing accounts, and invest selectively in channels with proven CAC payback under 12 months.
+Notes: Lean team prioritizing durable growth efficiency and clear customer value delivery in regulated workflows.

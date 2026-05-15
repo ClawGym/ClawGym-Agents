@@ -1,0 +1,30 @@
+projects:
+  - name: user-api
+    language: python
+    description: "REST API for user management: CRUD for users, token auth, and simple audit logging."
+    license: mit
+    docker: true
+    ci: github
+    author:
+      name: "Jane Developer"
+      email: "jane.developer@example.com"
+
+  - name: telemetry-collector
+    language: go
+    description: "Lightweight agent that collects host and application metrics and ships them to a central endpoint."
+    license: apache2
+    docker: false
+    ci: github
+    author:
+      name: "Jane Developer"
+      email: "jane.developer@example.com"
+
+  - name: fast-parser
+    language: rust
+    description: "High-performance data parser for delimited and JSON streams with zero-copy optimization."
+    license: gpl3
+    docker: true
+    ci: github
+    author:
+      name: "Jane Developer"
+      email: "jane.developer@example.com"

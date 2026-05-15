@@ -1,0 +1,44 @@
+seller:
+  name: Acme Cloud Ltd.
+  address: 12 Grand Canal Dock, Dublin 4, Ireland
+  country: IE
+  vat_id: IE1234567A
+
+days_until_due: 30
+sells_digital_services: true
+
+# VAT rates by country (percent as integers)
+vat_rates:
+  IE: 23
+  DE: 19
+  US: 0
+
+# EU countries for tax rule determination
+eu_countries:
+  - AT
+  - BE
+  - BG
+  - HR
+  - CY
+  - CZ
+  - DK
+  - EE
+  - FI
+  - FR
+  - DE
+  - GR
+  - HU
+  - IE
+  - IT
+  - LV
+  - LT
+  - LU
+  - MT
+  - NL
+  - PL
+  - PT
+  - RO
+  - SK
+  - SI
+  - ES
+  - SE

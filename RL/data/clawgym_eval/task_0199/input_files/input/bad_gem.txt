@@ -1,0 +1,60 @@
+# Intentionally flawed version — to be refactored
+
+module BadGem
+  # Public module helper — current behavior has a ||= trap
+  def self.maybe_set(v)
+    # BUG: ||= overwrites false with true; only nil should become true
+    v ||= true
+    v
+  end
+
+  class Widget
+    # BUG: Shared default object trap — all missing keys share the same array
+    def initialize
+      @tags = Hash.new([])
+    end
+
+    # Public API: add_tag(key, value) → returns the tag array for that key
+    def add_tag(key, value)
+      @tags[key] << value
+      @tags[key]
+    end
+
+    # BUG: Default argument evaluated once; arrays shared across calls
+    def tricky_default(arr = [])
+      arr << :x
+      arr
+    end
+
+    # BUG: Using Proc.new with return escapes the enclosing method
+    def runner
+      p = Proc.new { return :early }
+      p.call
+      :after_proc
+    end
+
+    # BUG: method_missing without proper respond_to_missing? pairing
+    def method_missing(name, *args, &block)
+      if name.to_s =~ /^find_/
+        "missing: #{name}"
+      else
+        super
+      end
+    end
+
+    # Intentionally no respond_to_missing? here (bug)
+
+    private
+
+    def secret
+      "shh"
+    end
+
+    public
+
+    # BUG: Private method called with explicit receiver violates privacy rules
+    def call_secret
+      self.secret
+    end
+  end
+end

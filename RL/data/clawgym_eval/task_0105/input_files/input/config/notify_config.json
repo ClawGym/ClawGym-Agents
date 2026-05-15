@@ -1,0 +1,9 @@
+{
+  "recipients": {
+    "Willow Creek Golf Club": ["greenskeeper@willowcreek.example", "wildlife@willowcreek.example"],
+    "Pine Ridge Links": ["coursecare@pineridge.example"]
+  },
+  "priority_species": ["Great Egret", "Great Blue Heron", "Red-tailed Hawk"],
+  "email_from": "birdwatcher@example.com",
+  "subject_prefix": "[Birdwatching Update]"
+}

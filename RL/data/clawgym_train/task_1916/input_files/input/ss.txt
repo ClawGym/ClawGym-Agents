@@ -1,0 +1,6 @@
+Netid State  Recv-Q Send-Q Local Address:Port      Peer Address:Port Process
+udp   UNCONN 0      0      127.0.0.53%lo:53        0.0.0.0:*        users:(("systemd-resolve",pid=595,fd=12))
+tcp   LISTEN 0      128    0.0.0.0:18789           0.0.0.0:*        users:(("openclaw-gateway",pid=2143,fd=7))
+tcp   LISTEN 0      128    0.0.0.0:18792           0.0.0.0:*        users:(("openclaw-gateway",pid=2143,fd=8))
+tcp   LISTEN 0      128    127.0.0.1:6379          0.0.0.0:*        users:(("redis-server",pid=1201,fd=6))
+tcp   LISTEN 0      128    [::]:22                 [::]:*           users:(("sshd",pid=808,fd=3))

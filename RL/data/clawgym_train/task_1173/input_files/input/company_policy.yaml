@@ -1,0 +1,148 @@
+policy_name: "Acme Data & Insights — Social Scraping Policy"
+version: "2026.04"
+owner: "Data Governance & Compliance"
+contact:
+  email: "compliance@acme.example"
+  slack_channel: "#compliance-requests"
+
+# Core compliance switches (explicitly referenced by implementation playbooks)
+respect_robots_txt: true
+user_agent: "AcmeSocialScraper/2.0 (+mailto:compliance@acme.example)"
+rate_limit_rps: 0.5
+data_retention_days: 90
+prohibited_actions:
+  - "Ignoring robots.txt disallow rules"
+  - "Circumventing rate limits, blocks, or technical access controls"
+  - "Bypassing paywalls, CAPTCHAs, or authentication gates without permission"
+  - "Collecting or processing PII without documented legal basis and data minimization"
+  - "Posting content, voting, or automating interactions (this policy covers read-only collection only)"
+  - "Account creation solely for scraping if terms prohibit"
+  - "Use of headless browsers to mimic human behavior when terms ban automation"
+  - "Any action that degrades target service performance"
+
+# PII handling standards
+pii_handling:
+  collect_pii_by_default: false
+  allowed_pii:
+    - "Public usernames/handles visible without login"
+  restricted_pii:
+    - "Email addresses"
+    - "Phone numbers"
+    - "Precise location (< city level)"
+    - "Payment or credential data"
+  controls:
+    redaction_required: true
+    pseudonymization_required: true
+    consent_or_legal_basis_required: true
+    storage_encryption: "AES-256 at rest; TLS 1.3 in transit"
+    access_control: "RBAC with least privilege; quarterly access review"
+    pii_processing_log: true
+
+# Detailed technical guardrails
+robots_txt:
+  enforce: true
+  cache_ttl_hours: 12
+  require_crawl_delay: true
+  honor_disallow_paths: true
+
+http_client:
+  timeouts:
+    connect_timeout_s: 10
+    read_timeout_s: 20
+  retries:
+    max_retries: 4
+    backoff:
+      initial_seconds: 2
+      max_seconds: 64
+      jitter: "full"
+      retry_on_status: [429, 500, 502, 503, 504]
+  headers:
+    accept_language: "en"
+  concurrency:
+    max_concurrent_requests_per_domain: 2
+    burst_limit_per_domain: 2
+
+operational_windows:
+  allowed_hours_utc: "06:00-22:00"
+  maintenance_freeze_windows:
+    - "Dec 20–Jan 5 (yearly)"
+    - "Last Friday of each quarter"
+
+authentication:
+  login_allowed: true
+  conditions:
+    - "Only with company-owned, terms-compliant accounts"
+    - "MFA required when available"
+    - "No credential sharing; rotate every 90 days"
+    - "Session cookies stored in secure storage (encrypted); never in logs"
+  prefer_official_api_when_available: true
+
+source_approval:
+  require_legal_review_if:
+    requires_login: true
+    terms_scraping_prohibited: true
+  approval_workflow:
+    steps:
+      - "Engineering completes Sources Matrix"
+      - "Compliance reviews terms & robots.txt"
+      - "Security reviews threat model"
+      - "Legal provides written approval or mitigation plan"
+    sla_business_days: 5
+
+logging:
+  enabled: true
+  fields:
+    - "timestamp"
+    - "request_method"
+    - "url"
+    - "status_code"
+    - "latency_ms"
+    - "bytes_downloaded"
+    - "retry_count"
+    - "crawler_id"
+  excluded_fields:
+    - "passwords"
+    - "tokens"
+    - "cookies"
+  retention_days: 30
+  destination: "centralized logging pipeline (PII-filtered)"
+
+storage:
+  encryption_at_rest: true
+  key_management: "KMS-managed keys; quarterly rotation"
+  buckets_or_paths:
+    raw: "s3://acme-social/raw/"
+    processed: "s3://acme-social/processed/"
+  access:
+    roles:
+      - "scraper-operator (read/write raw)"
+      - "data-analyst (read processed)"
+      - "compliance (read logs)"
+    default_deny: true
+
+data_governance:
+  classification:
+    - "Public (non-sensitive)"
+    - "Internal"
+    - "Restricted (PII)"
+  defaults:
+    new_datasets_default_classification: "Internal"
+  deletion:
+    automated_delete_after_days: 90
+    legal_hold_process: true
+  deidentification:
+    required_for_analytics: true
+    methods: ["hashing with salt", "masking", "aggregation"]
+
+change_management:
+  migration:
+    require_runbook: true
+    dry_run_required: true
+    rollback_plan_required: true
+  review_cadence:
+    quarterly_policy_review: true
+
+incident_response:
+  contact_on_incident: "security@acme.example"
+  notify_target_site_on_request: true
+  throttle_to_zero_on_429: true

@@ -1,0 +1,21 @@
+weights:
+  audit: 0.5
+  carbon: 0.3
+  volume: 0.2
+region_multipliers:
+  EU: 0.9
+  North America: 0.9
+  South Asia: 1.1
+  East Asia: 1.0
+  Africa: 1.2
+severity_map:
+  minor: 0.2
+  major: 0.6
+  critical: 1.0
+shortlist_threshold: 0.45
+exclude_if_critical: true
+exclude_if_open_findings_gt: 7
+emission_factors:
+  Organic Cotton: 4.0
+  Conventional Cotton: 8.0
+  Recycled Polyester: 3.0

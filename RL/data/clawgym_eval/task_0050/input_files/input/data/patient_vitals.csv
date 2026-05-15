@@ -1,0 +1,9 @@
+patient_id,age_months,heart_rate_bpm,spo2,notes
+P001,3,95,97,post-feed nap
+P002,7,180,98,crying during measurement
+P003,60,85,99,resting quietly
+P004,2,230,95,artifact suspected
+P005,1,120,89,cyanosis noted
+P006,10,,96,HR not captured
+P007,36,45,97,bradycardia?
+P008,15,130,93,active play

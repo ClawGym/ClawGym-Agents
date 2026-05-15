@@ -1,0 +1,1 @@
+hey sir, i tried some cron like thing for our lab attendance just messing around, not sure it runs on time or if the numbers look ok. it's kinda long and rough so i didn’t want to send anything yet. maybe we can check later when i get it working. thanks.

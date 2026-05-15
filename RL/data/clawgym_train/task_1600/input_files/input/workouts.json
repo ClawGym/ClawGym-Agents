@@ -1,0 +1,10 @@
+{
+  "week": "2026-04-20",
+  "plan": [
+    {"day": "Mon", "start_time": "06:30", "title": "Guru HIIT A", "intensity": "high", "duration_min": 30},
+    {"day": "Tue", "start_time": "18:00", "title": "Mobility Flow", "intensity": "low", "duration_min": 40},
+    {"day": "Thu", "start_time": "06:00", "title": "Guru Strength B", "intensity": "medium", "duration_min": 45},
+    {"day": "Sat", "start_time": "08:00", "title": "Endurance Run", "intensity": "medium", "duration_min": 50},
+    {"day": "Sun", "start_time": "09:30", "title": "Yoga Recovery", "intensity": "low", "duration_min": 60}
+  ]
+}

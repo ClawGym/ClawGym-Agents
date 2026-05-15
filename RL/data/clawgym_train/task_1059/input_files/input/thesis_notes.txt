@@ -1,0 +1,16 @@
+Master's Thesis: Scalable Event Stream Anomaly Detection with Graph Neural Networks
+
+Context:
+- Real-time monitoring of microservices logs and metrics.
+- Goal: detect anomalous patterns with low latency at production throughput.
+
+Key contributions and results:
+- Built a streaming feature pipeline (Python + Kafka) that ingested ~1.2B log events over 4 weeks with a 5s micro-batch window.
+- Implemented a graph neural network with sparse attention; improved F1 score from 0.840 to 0.867 (+2.7 points) on an internal benchmark derived from service incident replays.
+- Optimized inference via quantization and operator fusion; reduced median latency from 42 ms to 32 ms (-23%) at 10k events/s and cut peak memory by 35%.
+- Created a reproducible evaluation harness with configuration snapshots and seeded experiments; integrated checks into CI for regression detection.
+- Deployed a prototype on a single node and correctly flagged 17 known incident patterns during a 48-hour replay test.
+
+Takeaways:
+- Translating research ideas (GNNs) into reliable, testable, maintainable code matters for production.
+- Latency and memory constraints require pragmatic optimization without sacrificing detection quality.

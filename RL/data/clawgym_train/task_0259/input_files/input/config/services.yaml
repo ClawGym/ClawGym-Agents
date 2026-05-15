@@ -1,0 +1,37 @@
+services:
+  - name: gateway
+    port: 8080
+    start_priority: 10
+    command: bin/gateway
+    env:
+      JAVA_OPTS: "-Xms128m -Xmx256m"
+  - name: users
+    port: 8080
+    start_priority: 20
+    command: bin/users
+    env:
+      JAVA_OPTS: "-Xms128m -Xmx256m"
+  - name: orders
+    port: 8081
+    start_priority: 30
+    command: bin/orders
+    env:
+      NODE_ENV: "production"
+  - name: payments
+    port: 8082
+    start_priority: 40
+    command: bin/payments
+    env:
+      NODE_ENV: "production"
+  - name: inventory
+    port: 8083
+    start_priority: 25
+    command: bin/inventory
+    env:
+      PYTHONUNBUFFERED: "1"
+  - name: billing
+    port: 8084
+    start_priority: 50
+    command: bin/billing
+    env:
+      JAVA_OPTS: "-Xms128m -Xmx256m"

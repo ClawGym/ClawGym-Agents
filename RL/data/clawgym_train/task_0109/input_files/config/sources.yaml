@@ -1,0 +1,5 @@
+# Configuration for fetching OpenML datasets.
+# Fill in openml.dataset_ids with integer IDs (e.g., 61) and keep output_root as a relative path.
+openml:
+  dataset_ids: []  # e.g., [61, 1461, 40945]
+  output_root: workspace

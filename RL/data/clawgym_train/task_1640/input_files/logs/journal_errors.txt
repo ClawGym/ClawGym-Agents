@@ -1,0 +1,6 @@
+Apr 17 09:15:02 myhost bluetoothd[842]: Failed to init device hci0: Operation not permitted
+Apr 17 09:15:03 myhost systemd[1]: Failed to start Bluetooth service.
+Apr 17 09:15:10 myhost dockerd[1021]: failed to start daemon: Error initializing network controller: list bridge addresses failed: no such file or directory
+Apr 17 09:15:10 myhost systemd[1]: docker.service: Main process exited, code=exited, status=1/FAILURE
+Apr 17 09:15:10 myhost systemd[1]: docker.service: Failed with result 'exit-code'.
+Apr 17 09:15:15 myhost systemd[1]: Failed to start Network Manager Wait Online.

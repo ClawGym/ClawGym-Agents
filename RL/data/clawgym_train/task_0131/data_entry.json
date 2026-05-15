@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0131",
+  "user_query": "Run a local security audit against the provided OpenClaw config and workspace snapshot. Use input/openclaw.json as the config and input/workspace as the workspace. Disable host and git scanning. Generate reports in JSON format under output/audit. After running the audit, read the generated JSON report and write a normalized summary to output/audit/summary.json with this schema:\n\n{\n  \"config_path\": string (must be \"input/openclaw.json\"),\n  \"config_parsed\": boolean,\n  \"total_findings\": number,\n  \"severities\": {\"critical\": number, \"high\": number, \"medium\": number, \"low\": number, \"info\": number},\n  \"present_finding_ids\": array of strings (unique, sorted),\n  \"detected_flags\": {\n    \"wildcard_bind\": boolean,\n    \"auth_weak_or_missing\": boolean,\n    \"sandbox_disabled\": boolean,\n    \"unrestricted_exec\": boolean,\n    \"channel_allowlist_missing\": boolean\n  },\n  \"evidence_map\": object mapping finding IDs to non-empty arrays of redacted evidence strings (at least the IDs NET-001, AUTH-001, EXEC-001, EXEC-002, CHAN-001 must be present if detected)\n}\n\nNotes and constraints:\n- Only read inputs from input/ and write outputs under output/.\n- Do not include any raw secret values in the evidence — keep evidence strings redacted/summarized.\n- Use input/openclaw.json and input/workspace as-is; do not modify input files.\n- The detected_flags booleans should be true if and only if the corresponding finding(s) are present in the audit results:\n  - wildcard_bind → finding NET-001 indicating a non-loopback/wildcard bind\n  - auth_weak_or_missing → finding AUTH-001\n  - sandbox_disabled → finding EXEC-001\n  - unrestricted_exec → finding EXEC-002\n  - channel_allowlist_missing → finding CHAN-001\n",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,7 @@
+month,customers_start,new_customers,reactivated_customers,churned_customers,customers_end,avg_arpu,gross_margin_pct
+2025-10,450,40,5,26,469,980,0.78
+2025-11,469,35,6,21,489,990,0.79
+2025-12,489,45,8,27,515,1000,0.80
+2026-01,515,44,9,24,544,1005,0.81
+2026-02,544,46,7,25,572,1010,0.81
+2026-03,572,20,6,39,559,1015,0.82

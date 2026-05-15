@@ -1,0 +1,6 @@
+segment_name,lead_count,opp_count,wins,losses,win_rate,avg_deal_size_monthly,primary_loss_reason,notes
+"B2B SaaS 10–100 employees (HubSpot + Stripe; CS team 2–8)",132,50,19,31,0.38,560,"Chose generic tools or deferred","Strongest fit; fastest setup; references value of usage triggers and templates"
+"B2B SaaS 100–500 employees (CS team 10+)",64,28,5,23,0.18,870,"Needed advanced reporting/BI","Often shortlists VitalTrack or GrowthSight Core; asks for complex reporting and SSO"
+"Agencies/Services (non-SaaS)",41,9,1,8,0.11,390,"Not true CS onboarding use case","Process doesn’t map to product usage; low value perception"
+"Very small SaaS <10 employees",58,12,3,9,0.25,240,"Too early / bandwidth constraints","Like the idea but postpone; cost sensitivity high"
+"PLG SaaS with Stripe + Segment (10–80 employees)",96,38,12,26,0.32,510,"Stayed with Boardly","Wins cite Slack alerts and usage-triggered 'no-login' playbook; good second-best fit"

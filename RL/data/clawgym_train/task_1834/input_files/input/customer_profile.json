@@ -1,0 +1,39 @@
+{
+  "customer": {
+    "name": "Laura and Miguel Ramirez",
+    "address": "3921 E Palm Lane, Phoenix, AZ 85008",
+    "utility": "APS (Arizona Public Service)",
+    "rate_plan": "APS RCP - Standard Residential Net Billing",
+    "email": "laura.m.ramirez@example.com",
+    "phone": "602-555-2377"
+  },
+  "property": {
+    "home_type": "Single-family residence",
+    "year_built": 2014,
+    "roof": {
+      "type": "asphalt shingle",
+      "age_years": 8,
+      "condition": "good",
+      "stories": 1
+    },
+    "main_service_panel_amps": 200,
+    "ev_owned": false,
+    "ev_plan": {
+      "plans_ev_within_years": 2,
+      "notes": "Considering a mid-size EV in ~24 months"
+    }
+  },
+  "goals": {
+    "offset_target_percent": 95,
+    "bill_reduction_priority": "high",
+    "battery_interest": "nice_to_have_for_outages",
+    "aesthetics": "all-black panels, low-profile racking",
+    "budget_preference": "keep net cost under $30k after incentives if possible",
+    "financing_preference": "monthly payment near or below current average electric bill"
+  },
+  "constraints": {
+    "hoa_requirements": "Flush-mount and black hardware required",
+    "work_hours": "Weekdays 8am–5pm for installation access"
+  },
+  "notes": "Family uses significant summer AC; wants ~95% offset, open to future battery add-on."
+}

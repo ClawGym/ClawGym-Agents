@@ -1,0 +1,8 @@
+facility_id,date,type,lost_time_days,direct_cost_usd
+F001,2025-01-14,Slip,2,1200
+F001,2025-03-22,Forklift,5,8000
+F002,2025-02-10,Chemical,0,15000
+F002,2025-04-05,Cut,1,500
+F002,2025-05-01,Burn,3,3500
+F003,2025-01-30,Ergonomic,0,0
+F004,2025-03-18,Trip,0,200

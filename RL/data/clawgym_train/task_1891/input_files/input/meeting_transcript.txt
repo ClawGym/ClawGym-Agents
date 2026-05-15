@@ -1,0 +1,26 @@
+Meeting: QKD Pilot — TLS Integration Workstream
+Date: 2026-04-18 10:00–11:00 PT
+Participants: Dana Rao (Senior Scientist), Priya Natarajan (Security Architect), Leo Martínez (Network Engineer), Marta Kovács (Program Manager), Sam Patel (IT Operations)
+
+Marta: Goal for today—confirm integration approach and list critical risks. Also, I need an end-of-week summary for stakeholders by 2026-04-26.
+Dana: We’ll validate a quantum-derived key feed into TLS 1.3 using an external key provider rather than modifying the OpenSSL engine.
+Priya: Agreed. Decision point—use external key feed. Note: FIPS mode can restrict certain EVP functions; we must ensure the right provider is discoverable.
+Leo: On the lab VLAN we’ve seen 0.8–1.2 ms jitter. If we go over 2 ms during key refresh, the session might churn.
+Dana: For the pilot, we’ll target 10k keys/s for the handshake test.
+Marta: So the decision is external key feed and target 10k keys/s for the test. Any blockers?
+Sam: On the IT side, I can’t yet guarantee the OPENSSL_MODULES path on the lab laptop. I’ll need to validate the provider install and FIPS compatibility.
+Priya: Risk: OpenSSL 3.x in FIPS mode may hide EVP_PKEY_fromdata unless the provider is correctly loaded.
+Leo: Risk: Latency jitter above 2 ms could cause key refresh failures.
+Dana: Risk: Python environment mismatches on the lab laptop can break the CLI (missing modules, etc.).
+Marta: Let’s capture action items with dates.
+Dana: ACTION — I’ll run qkd_cli diagnostics tonight and share the log.
+Leo: ACTION — I’ll provision VLAN-lab03 for the test. Due by 2026-04-22.
+Priya: ACTION — I’ll draft the initial threat model for the external key feed by 2026-04-25.
+Sam: ACTION — I’ll confirm the correct OPENSSL_MODULES path and FIPS mode compatibility on the lab laptop by 2026-04-23.
+Marta: ACTION — I’ll schedule an end-of-week stakeholder readout on 2026-04-26.
+Priya: OPEN QUESTION — Do we need to map to NIST SP 800-56Cr compliance for the pilot report, or keep it to internal controls only?
+Dana: OPEN QUESTION — Is 10k keys/s realistic for the lab hardware, or should we start at 5k?
+Marta: DECISION — Proceed with external key feed; do not modify or patch the OpenSSL engine for this pilot.
+Marta: DECISION — Use 10k keys/s as the initial handshake target for the lab test.
+Dana: I’ll send the diagnostic log after I run it.
+Marta: Great. Please ensure the notes capture decisions, top risks, and owners with dates. Thanks all.

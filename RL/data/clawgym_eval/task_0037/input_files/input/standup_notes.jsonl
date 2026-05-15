@@ -1,0 +1,3 @@
+{"name":"Ava","yesterday":"S010-ANIM-001 blocking pass; rigging tweaks on S030-RIG-005","today":"Polish S010; start S030-ANIM-006","blockers":"Waiting on render farm availability for S010-RENDER-007"}
+{"name":"Ben","yesterday":"Camera adjust S010-LAYOUT-002 completed; started S020-COMP-004","today":"Investigate compositing matte issue for S020","blockers":"Need updated plates from lighting for S020-LIGHT-003"}
+{"name":"Chloe","yesterday":"Lighting first pass S020-LIGHT-003; tests noisy","today":"Denoise tests and prepare review frames","blockers":"None"}

@@ -1,0 +1,95 @@
+{
+  "devices": [
+    {
+      "entity_id": "climate.hvac",
+      "name": "Central HVAC",
+      "category": "climate",
+      "allowed_to_schedule": true,
+      "critical": false,
+      "comfort_constraints": {
+        "min_temp_f": 68,
+        "max_temp_f": 74
+      },
+      "notes": "Allow pre-cooling and pre-heating only within 68–74°F setpoint bounds."
+    },
+    {
+      "entity_id": "switch.pool_pump",
+      "name": "Pool Pump",
+      "category": "pump",
+      "allowed_to_schedule": true,
+      "critical": false,
+      "constraints": {
+        "min_daily_runtime_hours": 6,
+        "max_daily_runtime_hours": 10,
+        "preferred_blocks": [
+          "21:00-07:00",
+          "13:00-16:00"
+        ]
+      }
+    },
+    {
+      "entity_id": "switch.dishwasher",
+      "name": "Dishwasher",
+      "category": "appliance",
+      "allowed_to_schedule": true,
+      "critical": false,
+      "constraints": {
+        "run_duration_hours": 2,
+        "avoid_hours": [
+          "22:00-07:00"
+        ]
+      }
+    },
+    {
+      "entity_id": "switch.washing_machine",
+      "name": "Washing Machine",
+      "category": "appliance",
+      "allowed_to_schedule": true,
+      "critical": false,
+      "constraints": {
+        "run_duration_hours": 1.5,
+        "avoid_hours": [
+          "22:00-07:00"
+        ]
+      }
+    },
+    {
+      "entity_id": "switch.fridge",
+      "name": "Kitchen Fridge",
+      "category": "appliance",
+      "allowed_to_schedule": false,
+      "critical": true,
+      "constraints": {}
+    },
+    {
+      "entity_id": "switch.oxygen_concentrator",
+      "name": "Oxygen Concentrator",
+      "category": "medical",
+      "allowed_to_schedule": false,
+      "critical": true,
+      "constraints": {}
+    },
+    {
+      "entity_id": "switch.security_hub",
+      "name": "Security Hub",
+      "category": "security",
+      "allowed_to_schedule": false,
+      "critical": true,
+      "constraints": {}
+    },
+    {
+      "entity_id": "switch.ev_charger",
+      "name": "EV Charger",
+      "category": "ev",
+      "allowed_to_schedule": false,
+      "critical": false,
+      "constraints": {
+        "notes": "User prefers to charge manually."
+      }
+    }
+  ],
+  "global_constraints": {
+    "guest_mode_entity_id": "input_boolean.guest_mode",
+    "holiday_calendar_entity_id": "calendar.family_holidays"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "start_date": "2024-09-02",
+  "weeks": 12,
+  "cadence_per_week": 2,
+  "channels": ["blog", "newsletter"],
+  "keywords_fallback": ["Imamate", "Caucasus", "19th century"]
+}

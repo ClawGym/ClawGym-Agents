@@ -1,0 +1,49 @@
+title: "Two-person mini-sprint: quality gate and release checklist"
+sprint_id: "SPR-2026-04-18-ORCH-01"
+timeframe:
+  start: "2026-04-18T10:00:00Z"
+  end: "2026-04-19T10:00:00Z"
+roles:
+  orchestrator:
+    name: "orchestrator"
+    owner: "alex"
+    responsibilities:
+      - Sprint planning and scope definition
+      - Prepare and issue narrowly scoped delegation (code_execution only)
+      - Review collaborator deliverables and record receipts
+      - Produce Merkle proof and compliance audit artifacts
+  collaborator:
+    name: "collaborator"
+    owner: "sam"
+    responsibilities:
+      - Implement agreed tasks under delegation
+      - Provide evidence (tests, logs) for review
+objectives:
+  - Define and document a minimal quality gate for code submissions (lint + unit test pass)
+  - Implement a release checklist stub with placeholders for human approval
+  - Ensure all work is recorded via signed receipts and summarized with a Merkle proof
+deliverables:
+  - Planning notes describing scope, acceptance criteria, and delegation limits
+  - A minimal script or configuration that runs lint and tests (dry-run acceptable)
+  - Review notes confirming outputs meet acceptance criteria
+  - Artifacts: receipts (planning, review), Merkle proof summary, compliance audit draft, sprint announcement draft
+acceptance_criteria:
+  - Delegation scope: ["code_execution"] only, limit <= 300, depth = 1, hours <= 24
+  - Receipts include planning and review, signed by orchestrator
+  - Merkle root computed over receipts using sha256
+  - Audit includes F-001..F-007 with clear status and notes
+constraints:
+  scope: ["code_execution"]
+  spend_limit: 300
+  depth: 1
+  expiry_hours: 24
+references:
+  values_floor:
+    - "F-001 Traceability"
+    - "F-002 Honest Identity"
+    - "F-003 Scoped Authority"
+    - "F-004 Revocability"
+    - "F-005 Auditability"
+    - "F-006 Non-Deception"
+    - "F-007 Proportionality"
+notes: "All work must be performed locally with no external network calls. Receipts should reference this sprint_id in summaries."

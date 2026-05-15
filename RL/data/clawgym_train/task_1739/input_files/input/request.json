@@ -1,0 +1,9 @@
+{
+  "disease": "Parkinson's disease",
+  "mechanism_theme": "Mitochondrial quality control / mitophagy (PINK1–Parkin axis)",
+  "study_goal": "Identify causal biomarkers and key cell types driving Parkinson's disease via mitophagy; integrate MR with scRNA-seq to prioritize genes, localize to cell states, and propose a translational shortlist.",
+  "preferred_tier": "Advanced",
+  "constraints": ["public-data-only", "no wet lab"],
+  "preferred_configuration": "Advanced",
+  "notes": "Open to Pattern A (mechanism gene-set) with a Pattern B (key-cell) complement. Prioritize dopaminergic neurons, microglia, and astrocytes. Include pQTL instruments where feasible. Aim for colocalization and SMR in main text if power allows."
+}

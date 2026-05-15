@@ -1,0 +1,6 @@
+email,response,plus_ones,timestamp_iso,notes
+bob@example.com,Yes,1,2026-04-15T19:00:00Z,
+daniel@example.com,Yes,0,2026-04-13T10:00:00Z,
+frank@example.com,Maybe,0,2026-04-14T18:20:00Z,
+grace@example.com,Yes,2,2026-04-14T21:05:00Z,
+ivy@example.com,No,0,2026-04-15T08:45:00Z,

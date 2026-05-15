@@ -1,0 +1,7 @@
+budget_total_usd: 60000
+max_projects: 3
+prefer_neighborhoods:
+  - Northside
+  - Downtown
+min_benefit_score: 7
+maintenance_years_penalty_threshold: 5

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0179",
+  "user_query": "Please use the provided generator to create a nested archive set, then recursively extract everything and produce a precise file report.\n\nSteps:\n1) From the workspace root, run: python3 input/generate_archives.py. This will create input/archives/ containing:\n   - top.zip with these contents at its top level:\n     - readme.txt (text file)\n     - inner.tar.gz which, when extracted, contains nested/data.csv and nested/more/notes.txt.gz (a single-file gzip of notes.txt)\n     - extra.tgz which contains alpha.txt\n     - another.zip which contains doc.md and pack.tar (pack.tar contains leaf.txt)\n   - solo.txt.gz (a single-file gzip of solo.txt)\n   The text contents are fixed and deterministic.\n\n2) Recursively extract all archives matching input/archives/* into output/extracted (use a glob so the destination is honored). Ensure the extraction places .extracted_success marker files in each directory created for an extracted archive.\n\n3) Create output/report.json as a JSON array of exactly these 7 final plain text files (no others), with objects having fields: path (relative to output/extracted), sha256 (hex lowercase), and size (bytes):\n   - top/readme.txt\n   - top/inner/nested/data.csv\n   - top/inner/nested/more/notes.txt/notes.txt\n   - top/extra/alpha.txt\n   - top/another/doc.md\n   - top/another/pack/leaf.txt\n   - solo.txt/solo.txt\n\n4) The extracted directory structure must reflect archive stems (e.g., notes.txt.gz becomes notes.txt/notes.txt). Do not include archives or marker files in the report; only the 7 plain text files above.\n\nWrite all extracted artifacts under output/extracted and the report to output/report.json.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

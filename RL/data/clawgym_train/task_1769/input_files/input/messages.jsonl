@@ -1,0 +1,5 @@
+{"topic":"mining.telemetry","key":"rig-01","message":{"miner_id":"rig-01","ts":"2026-04-19T10:00:00Z","algo":"rx/0","hashrate_khs":3.2,"temp_c":62,"pool":"pool.supportxmr.com:3333","accepted_shares":12,"rejected_shares":0}}
+{"topic":"lifegoals.events","key":"goal-001","message":{"goal_id":"goal-001","milestone":"Start Spanish B2 course","status":"completed","progress_pct":20,"timestamp":"2026-04-18T08:15:00Z","notes":"Enrolled and procured materials"}}
+{"topic":"mining.telemetry","key":"rig-01","message":{"miner_id":"rig-01","ts":"2026-04-19T10:05:00Z","algo":"rx/0","hashrate_khs":3.4,"temp_c":63,"pool":"pool.supportxmr.com:3333","accepted_shares":14,"rejected_shares":0}}
+{"topic":"lifegoals.events","key":"goal-001","message":{"goal_id":"goal-001","milestone":"Complete unit 1","status":"completed","progress_pct":25,"timestamp":"2026-04-19T12:05:00Z","notes":"Finished all exercises and quiz"}}
+{"topic":"lifegoals.events","message":{"goal_id":"goal-002","milestone":"Week 1 run completed","status":"completed","progress_pct":10,"timestamp":"2026-04-17T19:00:00Z","notes":"Ran 3 km without stopping"}}

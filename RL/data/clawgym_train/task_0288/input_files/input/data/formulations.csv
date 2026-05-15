@@ -1,0 +1,11 @@
+Product,Ingredient,BatchSizeKg,CostPerKg,Category
+PlantProteinBar,PeaProtein,120,4.5,Protein
+PlantProteinBar,ChicoryFiber,80,2.0,Fiber
+PlantProteinBar,CocoaPowder,30,3.8,Flavor
+PlantProteinBar,Stevia,2,45.0,Sweetener
+KetoBite,MCTOilPowder,70,6.2,Fat
+KetoBite,AlmondFlour,90,5.5,Base
+KetoBite,Erythritol,10,3.0,Sweetener
+HydrationMix,Dextrose,100,1.4,Carb
+HydrationMix,SeaSalt,5,0.5,Electrolyte
+HydrationMix,CitricAcid,3,2.2,Acidulant

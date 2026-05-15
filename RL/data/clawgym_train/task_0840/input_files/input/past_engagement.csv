@@ -1,0 +1,13 @@
+game_id,date,opponent,promotion_type,day_of_week,attendance,ticket_rev,merch_rev,concessions_rev,social_shares
+1,2024-01-05,Sharks,Theme Night,Fri,14500,320000,48000,76000,1200
+2,2024-01-12,Bears,Giveaway,Fri,15200,335000,42000,81000,950
+3,2024-01-19,Eagles,Dynamic Pricing,Fri,13800,345000,39000,72000,800
+4,2024-01-24,Wolves,Family Pack,Wed,12900,295000,36000,68000,600
+5,2024-02-02,Lions,Theme Night,Fri,15050,340000,51000,83000,1100
+6,2024-02-07,Hawks,Family Pack,Wed,13200,300000,37000,70000,620
+7,2024-02-16,Tigers,Giveaway,Fri,14600,330000,44000,79000,980
+8,2024-02-23,Panthers,Dynamic Pricing,Fri,14100,342000,40000,73000,820
+9,2024-03-01,Owls,Theme Night,Fri,14900,338000,52000,84000,1150
+10,2024-03-06,Bulls,Family Pack,Wed,12850,298000,35000,67000,590
+11,2024-03-15,Falcons,Giveaway,Fri,15300,336000,43000,80000,960
+12,2024-03-22,Raptors,Dynamic Pricing,Fri,14050,343000,41000,73500,840

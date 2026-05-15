@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0608",
+  "user_query": "Security hardening request: set up a cryptographic identity for my internal agent and produce a signed Agent Card.\n\nRead input/agent_config.json for the agent metadata (name, description, endpoint, capabilities) and input/message.txt for a message to sign.\n\nDo the following and keep all outputs under output/ using relative paths:\n\n1) Generate a new Ed25519 key pair for the agent name from the config. Save PEM files to:\n   - output/keys/{name}_private.pem\n   - output/keys/{name}_public.pem\n   Do not password-protect the private key for this exercise.\n\n2) Sign the exact contents of input/message.txt using the private key. Save the base64-encoded signature to output/signature.txt.\n\n3) Compute the agent ID as the lowercase hex SHA-256 of the public key PEM bytes, truncated to 32 characters. Save it to output/agent_id.txt (single line, no trailing spaces).\n\n4) Create a signed Agent Card JSON at output/agent_card.json with fields:\n   - agent_id (as computed above)\n   - name, description, endpoint, capabilities (capabilities must be an array)\n   - version set to \"1.0.0\"\n   - signature: a base64 signature of the canonical JSON of the card WITHOUT the signature field, serialized with lexicographically sorted keys using UTF-8. Sign with the same Ed25519 private key.\n\n5) Write output/security_notes.md that briefly explains:\n   - why passing passwords on the command line is insecure,\n   - why private key file permissions matter,\n   - and that keys should be backed up securely.\n\nEnsure the Agent Card values (name, description, endpoint, capabilities) match the config. Use only relative workspace paths like input/ and output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

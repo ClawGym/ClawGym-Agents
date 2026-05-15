@@ -1,0 +1,11 @@
+name,email,role,RSVP,interests,access_needs
+Alice Moore,alice@example.com,Volunteer,Yes,Public art; Modernism,
+Bernard Lee,bernard@example.com,Partner,Maybe,Photography; Community,Wheelchair access
+Clara Patel,clara@example.com,Public,No,Contemporary,
+Daniel Evans,daniel@example.com,Volunteer,Yes,Local history; Sculpture,
+Esther Kim,esther@example.com,Public,Yes,Photography; Contemporary,Large print
+Farah Khan,farah@example.com,Partner,Yes,Education; Families,
+George Nolan,george@example.com,Volunteer,Maybe,Walking tours; Architecture,
+Hannah Osei,hannah@example.com,Public,Yes,Public art; Families,
+Ian Wright,ian@example.com,Volunteer,No,Architecture,
+Julia Zhang,julia@example.com,Partner,Yes,Photography; Public art,

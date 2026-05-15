@@ -1,0 +1,5 @@
+{
+  "steps": [
+    { "name": "build", "run": "python project/build.py" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "player_id": "p-77-01",
+  "from_key": "ops-key-77",
+  "builds": [
+    {
+      "name": "Command Ship Alpha",
+      "struct_id": "st-1100-ax",
+      "type_id": 1,
+      "ambit": "space",
+      "slot": 0
+    },
+    {
+      "name": "Ore Refinery Gamma",
+      "struct_id": "st-4521-rf",
+      "type_id": 15,
+      "ambit": "land",
+      "slot": 1
+    },
+    {
+      "name": "PDC Sentinel",
+      "struct_id": "st-9902-pdc",
+      "type_id": 19,
+      "ambit": "land",
+      "slot": 2
+    }
+  ]
+}

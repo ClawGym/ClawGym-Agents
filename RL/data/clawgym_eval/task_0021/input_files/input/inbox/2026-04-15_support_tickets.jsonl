@@ -1,0 +1,5 @@
+{"id":"T-1001","severity":"high","message":"Build keeps timing out on CI since last merge. Logs are noisy; suspect test suite regression.","created_at":"2026-04-15T13:05:00Z","reporter":"alex"}
+{"id":"T-1002","severity":"medium","message":"User reports 'Cannot read property x of undefined' on Settings page; browser Chrome 123; OS Windows 11.","created_at":"2026-04-15T13:22:10Z","reporter":"brenda"}
+{"id":"T-1003","severity":"low","message":"Minor typo in About dialog: 'copryight' should be 'copyright'.","created_at":"2026-04-15T13:45:30Z","reporter":"chris"}
+{"id":"T-1004","severity":"critical","message":"Production API returns 500s after deploy at 14:32 UTC. AFFECTING PAYMENTS!!! Stack trace: Error: NullReferenceException at PaymentService.cs:42 -> Controller.cs:88 ...","created_at":"2026-04-15T14:40:00Z","reporter":"devops-bot"}
+{"id":"T-1005","severity":"medium","message":"README link to CONTRIBUTING returns 404; expected /docs/contributing.md but points to /CONTRIBUTING.","created_at":"2026-04-15T15:10:05Z","reporter":"alex"}

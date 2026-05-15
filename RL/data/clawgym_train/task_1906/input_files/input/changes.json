@@ -1,0 +1,9 @@
+{
+  "deletions": [
+    "AGENTS.md"
+  ],
+  "modifications": {
+    "TOOLS.md": "# TOOLS — Configuration (post-refactor)\n\nTooling Summary\n- Backup/Restore: Node.js scripts (fs, path, crypto) with improved logging\n- Validation: SHA-256 hashing with per-file status and summary\n- Egress Scan: Optional, decoupled from backup lifecycle\n\nLocal Settings\n- Backup root: ./backups\n- Named backup root: ./backups/named\n- Hash algorithm: SHA-256\n- Concurrency: 2 (safe parallel reads)\n\nOperational Notes\n- Still zero external dependencies\n- openclaw.json sanitized to openclaw.sanitized.json in backups\n- manifest.json includes size, hash, exists=true for core files\n"
+  },
+  "notes": "Simulate a broken workspace where AGENTS.md was deleted and TOOLS.md was edited."
+}

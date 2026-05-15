@@ -1,0 +1,52 @@
+import AppIntents
+import Foundation
+
+// MARK: - BookEntity (unstable ID)
+struct BookEntity: AppEntity, Identifiable {
+    // ID currently generated on instantiation; not stable/persistent across sessions
+    // This breaks continuity and disambiguation
+    var id = UUID()
+
+    @Property(title: "Title")
+    var title: String
+
+    var displayRepresentation: DisplayRepresentation {
+        DisplayRepresentation(title: title)
+    }
+
+    static var typeDisplayRepresentation: TypeDisplayRepresentation = "Book"
+    static var defaultQuery = BookQuery()
+}
+
+// MARK: - BookQuery (uses EntityQuery, but we rely on Siri voice input)
+struct BookQuery: EntityQuery {
+    // Using Dependencies in Siri/Shortcuts context
+    @Dependency var database: LibraryDatabase?
+
+    // NOTE: This intent will be invoked via Siri voice input.
+    // We currently use EntityQuery rather than EntityStringQuery, which prevents free-form matching
+    // and can cause Siri to loop asking for the parameter.
+
+    func entities(for identifiers: [UUID]) async throws -> [BookEntity] {
+        guard let db = database else { return [] }
+        return identifiers.compactMap { id in
+            guard let record = db.book(with: id) else { return nil }
+            return BookEntity(id: record.uuid, title: record.title)
+        }
+    }
+
+    // Currently returns nothing for suggested entities; not helpful for disambiguation
+    func suggestedEntities() async throws -> [BookEntity] {
+        return [] // TODO: return recent or favorites
+    }
+
+    // NOTE: We do NOT implement entities(matching:) since we chose EntityQuery.
+    // Voice-driven disambiguation is expected to match on title, but this is not implemented here.
+}
+
+// MARK: - Notes
+// - BookEntity.id is generated with UUID() at instantiation time (not stable/persistent).
+// - BookQuery conforms to EntityQuery although Siri voice input requires EntityStringQuery for free-form matching.
+// - suggestedEntities() returns an empty array, leading to poor disambiguation UX.
+// - @Dependency is used in queries, which is unreliable in Siri/Shortcuts context and may be nil or crash.
+// - We expect Siri voice input to accept book titles (free-form), but the query doesn’t implement entities(matching:).

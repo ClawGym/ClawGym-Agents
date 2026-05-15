@@ -1,0 +1,21 @@
+From: "Dad" <grandpa@example.com>
+To: "Me" <me@example.com>
+Subject: Old postcards scanned
+Date: Sun, 17 Mar 2024 09:02:05 -0700
+Message-ID: <msg2@example.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="BOUND123"
+
+--BOUND123
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+I scanned some old postcards for your anniversary spread.
+The photos look nice in the album. Want me to send higher-resolution versions?
+
+--BOUND123
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+<html><body><p>I scanned some <b>old postcards</b> for your <i>anniversary</i> spread.</p><p>The photos look nice in the album.</p></body></html>
+--BOUND123--

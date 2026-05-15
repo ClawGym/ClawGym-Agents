@@ -1,0 +1,217 @@
+{
+  "city": "Chicago",
+  "submarkets": {
+    "option_a": "West Loop Gate",
+    "option_b": "Loop - Central",
+    "option_c": "Fulton Market / West Loop"
+  },
+  "currency": "USD",
+  "options": [
+    {
+      "name": "Riverside Plaza — Suite 900",
+      "property_type": "office",
+      "address": "300 S Riverside Plaza, Chicago, IL 60606",
+      "term_years": 7,
+      "start_date": "2026-07-01",
+      "rentable_sf": 12000,
+      "usable_sf": 10300,
+      "cost_structure": "full-service gross (base year stop: 2026 operating expenses & taxes)",
+      "base_rent_psf_year": 34.0,
+      "escalation": {
+        "type": "fixed",
+        "rate": 0.03
+      },
+      "operating_expenses": {
+        "base_year": 2026,
+        "estimated_base_psf": 12.0,
+        "tenant_pays_increases_over_base": true,
+        "cam_cap": {
+          "controllable": 0.05,
+          "compounding": false
+        },
+        "taxes_insurance_cap": null,
+        "above_base_estimate_first_year_psf": 0.0
+      },
+      "utilities": {
+        "included": true,
+        "estimate_psf_year": 0.0,
+        "hvac_overtime_rate_per_hour": 65
+      },
+      "janitorial": {
+        "included": true,
+        "estimate_psf_year": 0.0
+      },
+      "parking": {
+        "ratio_per_1000": 2.0,
+        "stalls_allocated": 20,
+        "cost_per_stall_month": 230,
+        "included_stalls": 0,
+        "notes": "Unreserved garage parking in adjacent structure"
+      },
+      "ti_allowance_psf": 45.0,
+      "free_rent_months": 8,
+      "renewal_options": [
+        {
+          "term_years": 5,
+          "rate_basis": "FMV",
+          "notes": "Fair Market Value; first-year renewal bump capped at 3%"
+        }
+      ],
+      "clauses": {
+        "personal_guarantee": "none",
+        "demolition_clause": false,
+        "relocation_clause": {
+          "allowed": true,
+          "notice_days": 45,
+          "landlord_pays_relocation_costs": true,
+          "same_or_better_quality": true
+        },
+        "radius_restriction_miles": null,
+        "continuous_operation": false,
+        "cam_audit_rights": true,
+        "assignment_sublease": "Permitted with landlord’s consent not to be unreasonably withheld",
+        "holdover_rate_multiplier": 1.75,
+        "exclusive_use": null,
+        "early_termination": null
+      },
+      "notes": "Class B+ tower with refurbished lobby. FS gross with base year stop; controllable CAM capped at 5% non-compounding."
+    },
+    {
+      "name": "Meridian Center — 18th Floor",
+      "property_type": "office",
+      "address": "200 W Monroe St, Chicago, IL 60606",
+      "term_years": 6,
+      "start_date": "2026-09-01",
+      "rentable_sf": 11000,
+      "usable_sf": 9300,
+      "cost_structure": "modified gross (tenant pays electric; taxes over base year; CAM billed)",
+      "base_rent_psf_year": 31.0,
+      "escalation": {
+        "type": "cpi",
+        "floor": 0.02,
+        "cap": 0.05,
+        "base_assumption": 0.025
+      },
+      "operating_expenses": {
+        "base_year": 2026,
+        "cam_psf_year": 6.0,
+        "cam_escalation": {
+          "type": "uncapped",
+          "assumed_growth": 0.06
+        },
+        "taxes_over_base": true,
+        "taxes_psf_year_estimate_above_base": 0.5,
+        "insurance_over_base": false
+      },
+      "utilities": {
+        "included": false,
+        "estimate_psf_year": 1.75,
+        "metered": true
+      },
+      "janitorial": {
+        "included": true,
+        "estimate_psf_year": 0.0
+      },
+      "parking": {
+        "ratio_per_1000": 1.5,
+        "stalls_allocated": 16,
+        "cost_per_stall_month": 200,
+        "included_stalls": 0,
+        "notes": "Unreserved open-lot spaces two blocks away"
+      },
+      "ti_allowance_psf": 30.0,
+      "free_rent_months": 4,
+      "renewal_options": [
+        {
+          "term_years": 3,
+          "rate_basis": "FMV",
+          "notes": "FMV with no cap; notice 12 months prior to expiration"
+        }
+      ],
+      "clauses": {
+        "personal_guarantee": "Limited PG through month 24 equal to 6 months rent; sunsets thereafter",
+        "demolition_clause": false,
+        "relocation_clause": {
+          "allowed": false
+        },
+        "radius_restriction_miles": null,
+        "continuous_operation": false,
+        "cam_audit_rights": false,
+        "assignment_sublease": "Permitted with landlord’s consent not to be unreasonably withheld",
+        "holdover_rate_multiplier": 1.5,
+        "exclusive_use": null,
+        "early_termination": null
+      },
+      "notes": "Lower face rate with CPI-linked escalations; CAM is uncapped; tenant pays electric."
+    },
+    {
+      "name": "Fulton Market Labs — Suite 420",
+      "property_type": "office",
+      "address": "945 W Fulton Market, Chicago, IL 60607",
+      "term_years": 8,
+      "start_date": "2026-08-01",
+      "rentable_sf": 13500,
+      "usable_sf": 12100,
+      "cost_structure": "NNN (tenant pays CAM, taxes, insurance)",
+      "base_rent_psf_year": 27.5,
+      "escalation": {
+        "type": "fixed",
+        "rate": 0.03
+      },
+      "operating_expenses": {
+        "nnn_psf_year": 10.5,
+        "nnn_escalation": 0.06,
+        "cam_cap": {
+          "controllable": 0.08,
+          "compounding": true
+        },
+        "taxes_insurance_cap": null
+      },
+      "utilities": {
+        "included": false,
+        "estimate_psf_year": 2.0,
+        "metered": true
+      },
+      "janitorial": {
+        "included": false,
+        "estimate_psf_year": 1.2
+      },
+      "parking": {
+        "ratio_per_1000": 1.0,
+        "stalls_allocated": 14,
+        "cost_per_stall_month": 180,
+        "included_stalls": 0,
+        "notes": "Mix of surface and garage; limited availability"
+      },
+      "ti_allowance_psf": 55.0,
+      "free_rent_months": 10,
+      "renewal_options": [
+        {
+          "term_years": 5,
+          "rate_basis": "FMV",
+          "notes": "Two options; notice 9-12 months prior; no cap"
+        }
+      ],
+      "clauses": {
+        "personal_guarantee": "none",
+        "demolition_clause": true,
+        "demolition_details": "Landlord redevelopment termination right with 6 months’ notice and reimbursement of unamortized TI only",
+        "relocation_clause": {
+          "allowed": false
+        },
+        "radius_restriction_miles": null,
+        "continuous_operation": false,
+        "cam_audit_rights": true,
+        "assignment_sublease": "Permitted with reasonable consent; change of control permitted",
+        "holdover_rate_multiplier": 1.5,
+        "exclusive_use": null,
+        "early_termination": {
+          "allowed": true,
+          "earliest_date": "after year 5",
+          "fee": "unamortized TI + 3 months base rent"
+        }
+      },
+      "notes": "Creative office in renovated warehouse. NNN with strong TI and generous free rent; includes demolition/redevelopment clause."
+    }
+  ]
+}

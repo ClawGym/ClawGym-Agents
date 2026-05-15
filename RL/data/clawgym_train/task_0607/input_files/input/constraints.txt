@@ -1,0 +1,36 @@
+Non-Functional Constraints for Notifications & Preferences
+
+Performance
+- Notifications center initial render (first 20 items) must load within 2.0 seconds at p95 under typical network conditions (150ms RTT, 5 Mbps).
+- Read/unread toggle must update within 500 ms at p95, including UI state change and backend acknowledgment.
+- Preferences save must persist and reflect changes within 800 ms at p95.
+- Email digest scheduling should enqueue jobs within 1 second after preference updates.
+
+Accessibility (WCAG 2.1 AA)
+- Full keyboard navigation for all interactive elements (Tab/Shift+Tab order, Enter/Space activation).
+- Visible focus states with 3:1 contrast minimum; overall text contrast 4.5:1 or higher.
+- ARIA roles/labels for notification items (list/listitem), buttons (read/unread), and preferences toggles.
+- Live region announcements for ephemeral toasts (aria-live="polite") when actions succeed or fail.
+- Label controls: Each input must have a programmatically associated label; error messages must be linked via aria-describedby.
+
+Error Handling & Validation
+- Show human-readable, actionable error messages; do not expose stack traces or internal IDs.
+- If email service fails, the system must retry with exponential backoff (min 3 attempts) and surface failure to admins.
+- Prevent contradictory preferences (e.g., all channels off) without explicit confirmation; validate required selections with clear inline messages.
+
+Security & Privacy
+- Do not include PII (emails, names) in URLs or client-side logs.
+- Enforce authorization: users can only see notifications relevant to their account and permissions.
+- All preference updates require CSRF protection and audit logging.
+
+Localization & Time Zones
+- Display timestamps in the user’s selected time zone; digest windows honor that zone.
+- Copy must be ready for localization (no concatenated strings that break translation).
+
+Browser & Device Support
+- Support latest two versions of Chrome, Firefox, Safari, and Edge on desktop.
+- Responsive layout for common breakpoints (≥320px width); ensure touch targets are ≥44x44 px.
+
+Observability
+- Emit structured logs for notification creation, delivery attempts, failures, and user actions (read/unread, preference updates).
+- Expose metrics for p95 load time, toggle latency, and email retry rates.

@@ -1,0 +1,9 @@
+date,region,country,cultural_group,gender,responses
+2024-02-10,Europe,FR,Urban,Male,35
+2024-02-10,Europe,FR,Urban,Female,55
+2024-02-10,Europe,DE,Rural,Male,25
+2024-02-10,Europe,DE,Rural,Female,30
+2024-02-10,Asia,JP,Urban,Male,30
+2024-02-10,Asia,JP,Urban,Female,40
+2024-02-10,Asia,CN,Rural,Male,50
+2024-02-10,Asia,CN,Rural,Female,45

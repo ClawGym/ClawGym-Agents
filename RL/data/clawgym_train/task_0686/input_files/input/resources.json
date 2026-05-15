@@ -1,0 +1,8 @@
+{
+  "alert": "WARNING",
+  "ram": { "total_mb": 3820, "used_mb": 3110, "free_mb": 710, "pct": 81 },
+  "swap": { "total_mb": 1024, "used_mb": 384, "pct": 37 },
+  "cpu": { "cores": 4, "load_1m": "2.75", "pct": 69 },
+  "disk": { "total": "29G", "used": "24G", "pct": "83" },
+  "top_procs": "chromium:22.3% node:9.8% python3:7.4% Xorg:4.1% openclaw:3.6%"
+}

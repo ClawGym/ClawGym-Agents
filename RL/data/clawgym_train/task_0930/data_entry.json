@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0930",
+  "user_query": "You're our HR ops lead. Build a 12‑month workforce plan for our SaaS company using the files in input/. Read input/company_targets.yaml, input/current_workforce.csv, input/skills_inventory.json, input/succession_critical_roles.json, and input/cost_assumptions.json. Deliver these artifacts:\n\n1) Write output/workforce_plan.json with: executive_summary; demand_forecasting using three methods (revenue_per_employee with assumed_rpe and required_headcount; driver_based with explicit Support and Engineering calculations, formulas, and results; managerial_span with target spans and managers_needed); department_plans for Engineering, Sales, Support, Marketing, and G&A including for each: current_FTEs, current_contractors, demand_forecast_headcount, pipeline_hires, headcount_gap, skills_to_develop, automation_opportunities (with estimated_savings), and a budget_summary; company- and department-level gap_analysis; contingent_workforce target_mix (FTE, contractors, outsourced, AI agents); succession_pipeline summary; and risks_and_mitigations.\n\n2) Write output/hiring_plan.csv with columns: department, role, type (FTE/contractor), quarter, priority_score (use the priority formula weights provided), and cost_estimate_fully_loaded. Include at least one line per department from input/current_workforce.csv.\n\n3) Write output/quarterly_review.md outlining the Q1–Q4 cadence and answering the 5 review questions per quarter with a green/yellow/red status and brief rationale.\n\n4) Write output/succession_risks.json listing each critical role with successors (and readiness) and a summary count of roles with ready‑now successors.\n\nMake all assumptions explicit in the JSON and markdown, show the numbers pulled from inputs, and keep percentages and counts internally consistent across files.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

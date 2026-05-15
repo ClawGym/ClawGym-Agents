@@ -1,0 +1,9 @@
+TEAM — PLEASE READ ASAP!!!
+
+We had a bunch of weird logins and failures, and honestly it looked BAD. Some IPs just keep hitting and it may be a brute-force or something else going on, not sure. People might have weak passwords and we could be in trouble. This is serious and we don’t want to deal with account lockouts or worse. Also someone said they clicked a sketchy email last week (not naming names) and we can’t have that happening.
+
+Action items right now (SORRY FOR THE FIRE DRILL): change passwords TODAY, do longer ones, and stop reusing them. If you don’t know how, google it or ask. We really need 2FA on, like yesterday. Also, if you notice anything weird, send me a DM and maybe also ping the group chat, because if we don’t get on top of this we could lose time in the kitchen and on the register.
+
+I know everyone is busy mixing, proofing, baking, deliveries, etc., but we need to take security more seriously. Will try to set up some sort of training (maybe this Friday?) once I figure out the schedule and who can cover the morning bake.
+
+Thanks.

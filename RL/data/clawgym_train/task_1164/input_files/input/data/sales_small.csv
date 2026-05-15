@@ -1,0 +1,9 @@
+date,region,product,units,price
+2023-01-01,North,Widget,10,3.50
+2023-01-02,South,Gadget,5,2.00
+2023-01-02,North,Gizmo,7,4.00
+2023-01-03,West,Widget,3,3.50
+2023-01-03,South,Widget,8,3.00
+2023-01-04,East,Gadget,2,2.50
+2023-01-05,West,Gizmo,4,4.50
+2023-01-05,East,Widget,6,3.25

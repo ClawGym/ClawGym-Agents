@@ -1,0 +1,14 @@
+[Event "Blitz"]
+[Site "Online"]
+[Date "2021.12.31"]
+[Round "-"]
+[White "Someone"]
+[Black "Another"]
+[Result "1/2-1/2"]
+[WhiteElo "1700"]
+[BlackElo "1680"]
+[ECO "C01"]
+[Opening "French Defense: Exchange"]
+[Termination "Normal"]
+
+1. e4 e6 2. d4 d5 3. exd5 exd5 4. Nf3 Nf6 5. Bd3 Bd6 6. O-O O-O 7. c3 Re8 8. Re1 Rxe1+ 9. Qxe1 Bg4 10. Nbd2 Nbd7 11. Ne5 c5 12. Nxg4 Nxg4 13. h3 Ngf6 14. Nf3 Qe7 15. Qxe7 Bxe7 16. Be3 c4 17. Bc2 Bd6 18. Re1 Re8 19. Bg5 Rxe1+ 20. Nxe1 h6 21. Be3 b5 1/2-1/2

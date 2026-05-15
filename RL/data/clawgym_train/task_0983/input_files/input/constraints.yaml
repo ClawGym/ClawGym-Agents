@@ -1,0 +1,60 @@
+global:
+  phase_limits:
+    min: 3
+    max: 4
+  free_first: true
+  avoid_expensive_certifications: true
+  json_compact_output: true
+  cloud_preference_order:
+    - AWS
+    - Azure
+    - GCP
+  hardware_guidance:
+    fresh_grad: "Use ESP32/ESP-IDF or Arduino; avoid buying multiple dev boards; mobile app handoff allowed; optional BLE beacons."
+    switcher: "Use Raspberry Pi or containerized simulators; Modbus/TCP and OPC UA simulators; do not purchase PLCs."
+  tooling:
+    code_repos_required: true
+    ci_required: true
+  timeline_alignment:
+    monthly_milestones_required: true
+  weekly_time_budget:
+    fresh_grad: "8-10 hours/week"
+    switcher: "6-8 hours/week"
+  resource_types:
+    preferred:
+      - "MOOCs with audit mode"
+      - "Vendor documentation and labs"
+      - "Open-source tutorials"
+      - "Community projects and sample repos"
+    allowed_paid:
+      - "One cloud certification exam voucher if high ROI"
+      - "Low-cost books (<= $50 total)"
+  projects_guardrails:
+    emphasize_end_to_end: true
+    include_security: true
+
+fresh_grad:
+  objective_notes: "Consumer IoT focus: BLE/Wi-Fi, smart home patterns, UX and safety; showcase 2-3 portfolio projects."
+  target_cloud: "AWS IoT Core (primary), Azure IoT optional"
+  target_certs:
+    - "Arduino Certification (optional)"
+    - "AWS Certified Cloud Practitioner (optional)"
+  timebox_per_phase_months: [3, 3, 3, 3]
+  emphasize_free_resources: true
+  prefer_microcontrollers: ["ESP32", "Arduino Uno/Nano"]
+  deprecate_hardware: ["proprietary dev kits requiring paid licenses"]
+
+switcher:
+  objective_notes: "Industrial protocols, edge compute, device management, monitoring, security baseline; integrate with legacy systems."
+  target_cloud: "AWS IoT Greengrass + IoT Core preferred; Azure IoT Edge acceptable"
+  target_certs:
+    - "AWS Certified Developer - Associate (only if sponsor pays)"
+    - "IEC 62443 fundamentals (free/low-cost webinar acceptable)"
+  timebox_per_phase_months: [2, 2, 2, 3]
+  fast_track: true
+  emphasize_platform_labs: true
+  deprecate_hardware: ["real PLC purchase", "paid SCADA licenses"]
+  prefer_simulators:
+    - "mbserver (Modbus/TCP)"
+    - "open62541 (OPC UA)"
+    - "Eclipse Kura or AWS Greengrass local dev"

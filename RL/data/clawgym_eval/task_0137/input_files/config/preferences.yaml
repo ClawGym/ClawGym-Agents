@@ -1,0 +1,11 @@
+preferred_zip: 19103
+max_distance_miles: 25
+max_budget: 400
+min_years_experience: 8
+must_have_certifications:
+  - InterNACHI
+weights:
+  experience: 0.4
+  certifications: 0.3
+  complaints: 0.2
+  price: 0.1

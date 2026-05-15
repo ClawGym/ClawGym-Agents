@@ -1,0 +1,29 @@
+reporting_period:
+  start_date: 2024-03-01
+  end_date: 2024-03-15
+
+childcare_categories:
+  - Childcare
+  - Daycare
+  - Babysitting
+  - After-school
+  - Summer camp
+
+expenses:
+  file: input/expenses.csv
+  date_field: date
+  category_field: category
+  amount_field: amount
+  provider_field: provider
+
+sales:
+  file: input/sales.csv
+  date_field: date
+  gross_field: gross
+  fees_field: fees
+  refunds_field: refunds
+
+outputs:
+  childcare_vs_revenue: output/childcare_vs_revenue.csv
+  providers_summary: output/providers_summary.csv
+  checks: output/checks.json

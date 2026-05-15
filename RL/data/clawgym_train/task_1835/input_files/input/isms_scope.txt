@@ -1,0 +1,39 @@
+Organization: Northwind Cloud Services Ltd.
+
+ISMS Scope Statement (ISO 27001:2022):
+The ISMS covers the design, development, operation, and support of the Northwind Billing Platform (multi-tenant SaaS) and its supporting services that process customer data. The platform is hosted primarily in AWS (eu-west-1), with identity and access management provided via Microsoft Azure Active Directory. The scope includes people, processes, and technologies used to deliver and support the SaaS platform.
+
+In-Scope Locations and Functions:
+- London HQ office (customer support, security operations, engineering leadership)
+- AWS accounts hosting production and staging workloads (VPCs, EKS, EC2, RDS, S3, CloudFront)
+- Central logging and monitoring stack (CloudTrail, CloudWatch, OpenSearch-based SIEM)
+- Identity and access management (Azure AD; SSO for corporate and console access)
+- CI/CD and code repositories (GitLab SaaS; runners managed by Platform team)
+- Endpoint fleet for in-scope personnel (Mac/Windows laptops managed via MDM)
+- Vulnerability management tooling (Qualys) and patch management processes
+- Backup and recovery services (AWS Backup, RDS snapshots, S3 versioning)
+
+Key Third Parties (in scope as suppliers):
+- Stripe (payments), SendGrid (email), Cloudflare (DNS/WAF for marketing sites, where applicable)
+- Background screening provider (CheckRight)
+- CyberArk Essentials (PAM) planned for rollout in Q1 2026
+
+Out of Scope (with justification):
+- Berlin coworking office (no access to production; used for sales/marketing only)
+- Legacy on-prem lab networks (retired; no production data)
+- Public marketing websites not connected to production data flows (managed separately by Marketing)
+- Cloud provider physical security controls (covered by AWS and Microsoft certifications; validated via supplier review)
+
+Interfaces and Dependencies:
+- Customer support (Zendesk) integrated with incident response and service request workflows
+- Azure AD provides SSO to AWS and corporate applications
+- Monitoring/alerting integrated with on-call rotation (PagerDuty)
+
+Assumptions:
+- All production customer data resides in AWS eu-west-1.
+- ISMS operational since November 2025; targeted certification timeline: Stage 1 in May 2026, Stage 2 in August 2026.
+
+Constraints and Notable Risks:
+- Legacy database requires shared admin accounts until PAM rollout completes (A.8.2 risk).
+- Two production VPCs pending SIEM flow log integration and log retention uplift to meet policy (A.8.15 risk).
+- Legacy billing server under vendor patching exception until 2026-03-31 (A.8.8 risk).

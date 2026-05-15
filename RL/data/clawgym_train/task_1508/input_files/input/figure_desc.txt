@@ -1,0 +1,4 @@
+Figure comparing AdaShift to AdamW on ImageNet-1k with ViT-B/16, batch size 1024, lr 3e-4, wd 0.05, drop_path 0.1, cosine schedule, 300 epochs, averaged over 5 seeds.
+(a) Training loss vs epochs: AdaShift decreases faster and stabilizes earlier; the area under the loss curve is 12% lower.
+(b) Top-1 accuracy vs training time (relative): AdaShift reaches 80.1% at 0.89× the wall-clock of AdamW, which peaks at 78.6% at 1.00×.
+Shaded bands show 95% confidence intervals; markers indicate evaluation checkpoints every 10 epochs. Key takeaway: AdaShift converges faster and achieves higher accuracy with negligible overhead.

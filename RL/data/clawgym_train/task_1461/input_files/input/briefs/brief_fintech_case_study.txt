@@ -1,0 +1,13 @@
+Title: Payments API adoption case study for B2B SaaS
+Industry: FinTech
+Content Type: Case Study
+
+Background:
+A B2B SaaS payments platform needs a customer interview-based case study highlighting API integration, regulatory compliance, and measurable results. The audience is product managers and CTOs.
+
+Focus Areas:
+- API integration and developer experience
+- Compliance and risk mitigation
+- Metrics, outcomes, and implementation details
+
+Keywords: payments, API, compliance, interview, metrics

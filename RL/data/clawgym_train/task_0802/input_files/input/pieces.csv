@@ -1,0 +1,8 @@
+piece_id,title,composer,type,difficulty,target_tempo_bpm,focus_areas
+S1,Nocturne in E minor Op.72 No.1,Chopin,solo,3,72,voicing|rubato|pedaling
+S2,Sonata Op.14 No.2 I,Beethoven,solo,4,132,evenness|articulation|dynamics
+S3,Arabesque No.1,Debussy,solo,3,120,tone|rubato|voicing
+D1,Sonata for Four Hands K.521 I,Mozart,duet,4,138,ensemble|balance|articulation
+D2,Libertango (arr. 4 hands),Piazzolla,duet,5,128,ensemble|rhythm|accent
+T1,Hanon Exercises 1-10,Hanon,technique,2,120,evenness|"finger independence"
+T2,Major Scales (C,G,D,A,E),Traditional,technique,2,100,scales|tempo|consistency

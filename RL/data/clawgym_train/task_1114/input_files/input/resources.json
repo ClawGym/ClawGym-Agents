@@ -1,0 +1,82 @@
+[
+  {
+    "id": "res1",
+    "topic": "Axios Basics: GET and POST",
+    "type": "article",
+    "level": "beginner",
+    "duration_min": 20,
+    "tags": ["axios", "http"],
+    "popularity_score": 85,
+    "summary": "Intro to Axios with simple GET and POST requests and basic configuration."
+  },
+  {
+    "id": "res2",
+    "topic": "Axios Error Handling Patterns",
+    "type": "article",
+    "level": "intermediate",
+    "duration_min": 25,
+    "tags": ["axios", "errors"],
+    "popularity_score": 70,
+    "summary": "Common patterns for handling request errors, retries, and status checks."
+  },
+  {
+    "id": "res3",
+    "topic": "Using Axios Interceptors",
+    "type": "video",
+    "level": "intermediate",
+    "duration_min": 30,
+    "tags": ["axios", "interceptors"],
+    "popularity_score": 65,
+    "summary": "How to add request and response interceptors for auth tokens and logging."
+  },
+  {
+    "id": "res4",
+    "topic": "Redux Fundamentals: Store and Actions",
+    "type": "video",
+    "level": "beginner",
+    "duration_min": 35,
+    "tags": ["redux", "state"],
+    "popularity_score": 90,
+    "summary": "Core Redux concepts: store, actions, reducers, and unidirectional data flow."
+  },
+  {
+    "id": "res5",
+    "topic": "Redux Toolkit Intro",
+    "type": "article",
+    "level": "beginner",
+    "duration_min": 30,
+    "tags": ["redux", "toolkit"],
+    "popularity_score": 88,
+    "summary": "Simplify Redux with Redux Toolkit: createSlice, configureStore, and immutability."
+  },
+  {
+    "id": "res6",
+    "topic": "Async Flows with Redux Thunk",
+    "type": "article",
+    "level": "intermediate",
+    "duration_min": 28,
+    "tags": ["redux", "async"],
+    "popularity_score": 75,
+    "summary": "Manage async logic in Redux with thunks for Axios calls and side effects."
+  },
+  {
+    "id": "res7",
+    "topic": "Redux Middleware Deep Dive",
+    "type": "article",
+    "level": "advanced",
+    "duration_min": 40,
+    "tags": ["redux", "middleware"],
+    "popularity_score": 60,
+    "summary": "Build and apply custom middleware; advanced debugging and instrumentation."
+  },
+  {
+    "id": "res8",
+    "topic": "Advanced Axios Config",
+    "type": "article",
+    "level": "advanced",
+    "duration_min": 22,
+    "tags": ["axios", "config"],
+    "popularity_score": 55,
+    "summary": "Advanced Axios instance configuration, adapters, and transformers."
+  }
+]

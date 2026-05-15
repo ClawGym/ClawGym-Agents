@@ -1,0 +1,11 @@
+min_sources: 2
+summary_word_limit:
+  min: 60
+  max: 120
+official_domains:
+  - iau.org
+  - nasa.gov
+  - esa.int
+encyclopedia_domains:
+  - britannica.com
+  - encyclopedia.com

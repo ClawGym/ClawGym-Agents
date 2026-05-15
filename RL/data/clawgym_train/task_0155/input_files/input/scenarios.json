@@ -1,0 +1,82 @@
+{
+  "angry_retail_customer": {
+    "location": "Mall electronics store, main checkout lane with a waist-high glass display counter",
+    "time": "Friday 7:45 PM (near closing; staff reduced)",
+    "customer": {
+      "approx_age": "mid-30s",
+      "gender_presentation": "male",
+      "build": "average height, stocky",
+      "clothing": "gray hoodie, baseball cap (removed and set on the counter during argument)"
+    },
+    "issue": "Wants a cash refund for wireless headphones that are 12 days past the 30-day return window; says he waited 45 minutes with a takeout bag getting cold",
+    "observations": {
+      "hands": "Right hand gripping a crumpled receipt; left hand alternates between flat on the counter and briefly dipping into his jacket pocket before returning to the counter. Fingers tightening into partial fists when repeating his complaint.",
+      "stance": "Leaning over the counter, squared up toward the clerk; repeatedly steps forward when staff steps back (closing distance despite step-backs). Feet shoulder-width, weight rocking forward; brief blading when he shifts one foot back while arguing.",
+      "face": "Jaw clenched, nostrils flared, flushed cheeks; occasional quick target glance at the clerk’s jawline and the card terminal.",
+      "voice": "Loud and fast, talking over the clerk; repeating phrases like \"No one helped me\" and \"I want this handled tonight\"; cursing under his breath.",
+      "context": "Three other customers within earshot; two teens nearby filming on a phone; store music low; closing time posted. Counter provides a natural barrier. Front exit is to the right behind the checkout area. Security cameras are visible. No obvious smell of alcohol."
+    },
+    "environment": {
+      "barriers": "Waist-high checkout counter with glass display creates a partial barrier between staff and customer",
+      "exits": "Primary front door is 20 feet to the right behind the register; stockroom door is 15 feet behind staff",
+      "other_people": "Two floor associates restocking near the phone cases; one older couple at a side counter; two teens recording on a phone",
+      "manager_on_duty": "Dana (in the back office, reachable by store radio)",
+      "security": "Mall security available via shared radio (Channel 3); patrol typically passes by every 10–12 minutes",
+      "cameras": true
+    },
+    "history": "Customer claims he called earlier and was told a manager could approve an exception. He says he bought the headphones as a gift and the recipient disliked them.",
+    "escalation_triggers_observed": [
+      "Repeated closing distance despite staff step-backs",
+      "Receipt crumpling and fists clenching",
+      "Removed cap and placed it aside",
+      "Target glance toward the clerk’s jaw and card terminal"
+    ],
+    "staff_constraints": {
+      "return_policy": "Refunds beyond 30 days require manager approval and ID verification",
+      "register_controls": "Manager keycard required for exceptions",
+      "staffing": "Two associates on floor, one cashier, manager in office"
+    },
+    "desired_outcome": "Customer accepts an exchange or store credit if a cash refund is not possible; situation de-escalates without involving mall security"
+  },
+  "family_escalation": {
+    "location": "Sister’s apartment (open-plan living room and kitchen) during a family dinner",
+    "time": "Sunday 6:30 PM (meal just finished)",
+    "participants": [
+      "You (niece)",
+      "Uncle Ray (late 50s)",
+      "Aunt Mel",
+      "Your sister (host)",
+      "Two nieces (ages 7 and 10)",
+      "Two cousins"
+    ],
+    "issue": "Disagreement about selling your late mother’s car; Uncle Ray believes the car should be kept in the family until the estate paperwork is finalized, while others prefer to sell immediately to cover storage fees",
+    "observations": {
+      "hands": "Holding a water glass at first, then sets it down and starts flexing and unclenching fingers; intermittently rubs his jaw. No objects in hands afterward.",
+      "stance": "Starts seated, then stands and paces a tight line behind the sofa; shoulders rise when he pauses; occasionally turns his body sideways (blading) when addressing your cousin.",
+      "face": "Tight lips and furrowed brow; several moments of a distant, thousand-yard stare when conversation pauses; looks toward the balcony door and hallway intermittently.",
+      "voice": "Voice drops quieter but stays tense and controlled; repeats \"You’re not listening\" twice; after a brief back-and-forth, there’s sudden silence for several seconds.",
+      "context": "Small living room, crowded; kids within earshot; sliding door to a small balcony off the living room; front door down a short hallway by the kitchen. It’s warm inside. He’s had two beers earlier and is now on water."
+    },
+    "environment": {
+      "space": "Open-plan room with limited space between furniture; balcony access via sliding door; hallway leads to building corridor",
+      "exits": "Front apartment door near kitchen; balcony slider in the living room",
+      "children_present": true,
+      "noise": "Light music from a phone speaker; clinking dishes as the host tidies"
+    },
+    "relationship_dynamics": {
+      "rapport": "Uncle Ray generally respects you and listens if you speak calmly one-on-one",
+      "sensitive_topics": [
+        "Estate paperwork timeline",
+        "Perception of being excluded from decisions"
+      ],
+      "help_available": "Your sister can direct the kids to their room or the hallway; Aunt Mel can offer tea and help redirect the conversation"
+    },
+    "escalation_triggers_observed": [
+      "Sustained blading of stance while addressing cousin",
+      "Shoulders rising when he pauses mid-argument",
+      "Thousand-yard stare during a lull",
+      "Sudden silence after a tense exchange"
+    ],
+    "desired_outcome": "Move Uncle Ray to a calmer space (e.g., balcony) for a brief reset, acknowledge his concerns, agree on a short pause in decisions, and return to a neutral mood at dinner without upsetting the kids"
+  }
+}

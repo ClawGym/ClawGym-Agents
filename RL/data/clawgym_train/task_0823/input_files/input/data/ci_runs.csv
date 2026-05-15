@@ -1,0 +1,11 @@
+build_id,status,branch,duration_s,timestamp
+r101,success,main,120,2024-01-10T10:01:00Z
+r102,success,main,118,2024-01-11T10:02:00Z
+r103,failure,main,95,2024-01-12T10:03:00Z
+r201,success,releases/1.4,130,2024-01-13T10:04:00Z
+r104,success,main,115,2024-01-14T10:05:00Z
+r202,failure,releases/1.4,140,2024-01-15T10:06:00Z
+r105,failure,main,100,2024-01-16T10:07:00Z
+r106,success,main,111,2024-01-17T10:08:00Z
+r107,success,main,112,2024-01-18T10:09:00Z
+r108,success,main,109,2024-01-19T10:10:00Z

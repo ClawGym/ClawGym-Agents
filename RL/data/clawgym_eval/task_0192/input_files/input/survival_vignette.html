@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Survival Analysis in R: A Short Tutorial</title>
+</head>
+<body>
+  <h2>Cox proportional hazards model</h2>
+  <p>The Cox model estimates hazard ratios without specifying the baseline hazard.</p>
+  <pre><code class="language-r">
+library(survival)
+fit &lt;- coxph(Surv(time, status) ~ age + sex, data = lung)
+summary(fit)
+  </code></pre>
+  <h3>Assumptions</h3>
+  <ul>
+    <li>Proportional hazards: the effect of covariates is multiplicative and constant over time.</li>
+    <li>Linearity on the log hazard scale for continuous covariates unless transformed.</li>
+    <li>Independent censoring.</li>
+  </ul>
+</body>
+</html>

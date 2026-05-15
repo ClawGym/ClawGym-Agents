@@ -1,0 +1,49 @@
+activation:
+  activate_on:
+    - repeated_workflow: "multi-file doc updates"
+  proactive_after_friction: true
+  only_on_request: false
+  never_experiment_when:
+    - "release_freeze"
+    - "hotfix_emergency"
+
+value_gate:
+  promote_after_wins: 3
+  require_metrics:
+    - "speed_improvement"      # average speed_delta_sec must be < 0
+    - "error_reduction"        # total_error_reduction across comparable runs must be >= 1
+  evidence_requirement:
+    explicit_metrics: true
+    allow_silence_as_proof: false
+  comparable_definition:
+    group_by:
+      - "comparable.group"
+      - "repo"
+    min_runs: 3
+    notes: "Treat runs as comparable when they are multi-file doc updates within the same repo and group."
+
+guardrails:
+  - "Never modify the installed skill itself."
+  - "Never promote a rule after a single success."
+  - "Change one lever at a time; do not bundle mutations."
+  - "Do not read unrelated secrets or credentials."
+  - "Do not run hidden experiments on the user."
+
+context:
+  repeated_workflows:
+    - "multi-file doc updates across docs-site (changelogs, guides, sidebars)"
+  what_better_means:
+    - "faster cycle time (lower time-to-PR/merge)"
+    - "fewer reviewer-found issues (broken links, missed nav updates, inconsistent headings)"
+    - "higher first-pass approval rate"
+  notes:
+    - "Prefer small, reversible mutations."
+    - "Keep evidence local in ~/self-evolving/ for reuse."
+
+archiving_policy:
+  create_archive_note_on_discard: true
+  archive_folder_hint: "output/archive/"
+  include:
+    - "what was tried"
+    - "why it is retired"
+    - "what to avoid going forward"

@@ -1,0 +1,104 @@
+site:
+  name: "Acme CLI"
+  tagline: "Do more with less — fast, predictable command-line tooling."
+
+pages:
+  home:
+    title: "Home"
+    lede: "Acme CLI is a tiny, zero-dependency command-line utility for automating everyday developer tasks without the bloat."
+    highlights:
+      - "Single binary / single script distribution"
+      - "Fast startup and predictable output"
+      - "Human-friendly help and examples"
+    paragraphs:
+      - "Acme CLI focuses on speed, simplicity, and reproducibility. It’s designed for internal teams that need a consistent tool they can trust across CI and local environments."
+      - "The tool ships as a single Python script and runs on any machine with Python 3.8 or newer. No external services, no telemetry, and no surprises."
+    quick_start:
+      - "$ pipx install acme-cli"
+      - "$ acme --help"
+      - "$ acme init my-app && cd my-app && acme build --release"
+    notes:
+      - "Tip: Use 'acme --version' to confirm the installed version."
+      - "All commands return non-zero exit codes on failure for easy CI integration."
+
+  docs:
+    title: "Docs"
+    intro: "This page covers installation, configuration, available commands, and practical examples."
+    prerequisites:
+      - "Python 3.8 or newer"
+      - "macOS, Linux, or WSL on Windows"
+      - "Optional: pipx for isolated installs"
+    installation:
+      steps:
+        - "Install via pipx: pipx install acme-cli"
+        - "Upgrade to latest: pipx upgrade acme-cli"
+        - "Alternative (direct): pip install acme-cli"
+      verification:
+        - "$ acme --version"
+        - "$ acme --help"
+    configuration:
+      description: "Acme CLI reads an optional config file at ./acme.yaml or ACME_CONFIG env var path."
+      defaults:
+        - "logLevel: info"
+        - "outputDir: dist/"
+        - "color: auto"
+    commands:
+      - name: "init"
+        description: "Initialize a new workspace in the current or specified directory."
+        usage: "acme init [<directory>] [--template <name>]"
+        options:
+          - "--template <name>: Choose a starter template (default: basic)."
+      - name: "build"
+        description: "Build the project into the configured output directory."
+        usage: "acme build [--release] [--output <dir>]"
+        options:
+          - "--release: Enable optimizations for production builds."
+          - "--output <dir>: Override output directory (default: dist/)."
+      - name: "serve"
+        description: "Start a local static server for the output directory."
+        usage: "acme serve [--port <port>] [--dir <path>]"
+        options:
+          - "--port <port>: Port to listen on (default: 8000)."
+          - "--dir <path>: Directory to serve (default: dist/)."
+    examples:
+      - title: "Create, build, and preview"
+        lines:
+          - "$ acme init my-app"
+          - "$ cd my-app"
+          - "$ acme build --release"
+          - "$ acme serve --port 8000 --dir dist/"
+      - title: "Custom output directory"
+        lines:
+          - "$ acme build --output build/"
+          - "$ acme serve --dir build/"
+      - title: "CI usage (fail on warnings)"
+        lines:
+          - "$ acme build --release || { echo 'Build failed'; exit 1; }"
+
+  contact:
+    title: "Contact"
+    lede: "Acme CLI is maintained by the Developer Experience (DevEx) team. We welcome feedback, bug reports, and feature requests."
+    team:
+      - name: "Alex Rivera"
+        role: "Maintainer"
+        email: "devex@example.internal"
+      - name: "Sam Lee"
+        role: "Product Lead"
+        email: "product@example.internal"
+      - name: "Jordan Patel"
+        role: "Support Engineer"
+        email: "support@example.internal"
+    support:
+      bullets:
+        - "Email: devex@example.internal"
+        - "Slack: #acme-cli"
+        - "Hours: 09:00–17:00 UTC (Mon–Fri)"
+        - "SLA: First response within 1 business day"
+    reporting:
+      steps:
+        - "Run the command with --verbose and capture output."
+        - "Include acme --version and your OS information."
+        - "Attach minimal repro steps or a small sample project."
+    acknowledgements:
+      - "Thanks to the Internal Tools Guild for early testing and feedback."
+      - "Special thanks to CI Platform for integration guidance."

@@ -1,0 +1,15 @@
+{
+  "company_name": "Nimbus Metrics",
+  "size": 48,
+  "industry": "SaaS",
+  "states": ["CA", "NY", "IL"],
+  "hiring_plans": {
+    "next_12_months_headcount_change": 7,
+    "remote_distribution": "60% distributed across CA, NY, IL"
+  },
+  "salary_bands": {
+    "median_engineering_base": 148000,
+    "median_sales_ote": 170000
+  },
+  "notes": "Series A SaaS with a distributed team in CA, NY, IL. Looking to optimize 401(k) and health costs while improving compliance in CA and NY."
+}

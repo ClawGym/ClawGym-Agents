@@ -1,0 +1,12 @@
+1) What is the definitive installation method for bcc on macOS vs Ubuntu laptops, and what path should the binary live on each?
+2) How do we install and pin bcc in CI so runs are reproducible and non-interactive?
+3) For containers, should bcc be baked into base images or injected at runtime, and how do we meet our SBOM/signing requirements?
+4) Where should configuration (if any) be stored, and how do we keep it environment-agnostic while supporting $XDG_CONFIG_HOME?
+5) What are our logging expectations for bcc given it only prints documentation (e.g., do we write to /var/log/devtools/bcc.log in containers and laptops)?
+6) How do we enforce “Follow the principle of least privilege” for bcc usage and distribution?
+7) How do we align to “Enable multi-factor authentication where possible” for a local CLI that has no auth? Which systems must enforce MFA in the bcc workflow?
+8) What performance baselines should we track for bcc, and how do we monitor them in staging and production containers?
+9) What is the debugging process if bcc prints the wrong version or a topic fails (e.g., Unknown command), and who owns triage?
+10) What is our migration plan to sunset the existing wiki shell snippets and move to bcc within 45 days, including rollback criteria?
+11) How do we handle updates to bcc (versioning, change tickets, approvals, and maintenance windows)?
+12) What is the approved method to use bcc inside restricted production networks with no internet egress?

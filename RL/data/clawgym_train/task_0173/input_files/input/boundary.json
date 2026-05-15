@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "name": "boundary",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "name": "Study Area"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-122.4250, 37.7720],
+            [-122.4250, 37.7800],
+            [-122.4150, 37.7800],
+            [-122.4150, 37.7720],
+            [-122.4250, 37.7720]
+          ]
+        ]
+      }
+    }
+  ]
+}

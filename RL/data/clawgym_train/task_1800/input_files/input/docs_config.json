@@ -1,0 +1,22 @@
+{
+  "documents": [
+    {
+      "source": "input/weekly_notes.md",
+      "title": "Weekly Notes — Sprint 14",
+      "theme": "light",
+      "output": "output/weekly_notes.html"
+    },
+    {
+      "source": "input/changelog.md",
+      "title": "Q4 2026 Changelog",
+      "theme": "dark",
+      "output": "output/changelog.html"
+    },
+    {
+      "source": "input/api_guide.md",
+      "title": "Acme API Guide",
+      "theme": "light",
+      "output": "output/api_guide.html"
+    }
+  ]
+}

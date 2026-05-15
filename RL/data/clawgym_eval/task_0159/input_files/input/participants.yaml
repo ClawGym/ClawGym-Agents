@@ -1,0 +1,9 @@
+participants:
+  - name: Sam
+    role: facilitator
+  - name: Mira
+    role: policy_lead
+  - name: Leo
+    role: trivia_host
+  - name: Alex
+    role: scribe

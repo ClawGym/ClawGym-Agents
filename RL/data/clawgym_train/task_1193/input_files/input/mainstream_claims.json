@@ -1,0 +1,5 @@
+[
+  {"claim_id": "C1", "text": "The 1905 Dockside Riot was a brief, spontaneous scuffle by day laborers.", "keywords": ["Dockside", "riot", "laborers", "brief", "spontaneous"]},
+  {"claim_id": "C2", "text": "No fatalities were recorded.", "keywords": ["fatalities", "deaths", "victim"]},
+  {"claim_id": "C3", "text": "Police restored order in under two hours.", "keywords": ["police", "order", "hours", "two"]}
+]

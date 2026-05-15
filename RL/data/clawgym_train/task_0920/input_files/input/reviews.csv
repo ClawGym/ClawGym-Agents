@@ -1,0 +1,13 @@
+review_id,date,rating,helpful_votes,source,text
+r001,2025-04-03,5,8,Google,"Fantastic wood-fired pizza and friendly staff. The crust had a beautiful char and the seasonal salad was so fresh. We’ll be back."
+r002,2025-04-05,4,3,Yelp,"Loved the cozy atmosphere and the craft cocktails. House-made pasta was al dente. Service was a bit slow, but the team was gracious."
+r003,2025-04-02,3,5,Google,"Food tasted great but we waited 40 minutes for a table. The server seemed overwhelmed. Worth it for the pasta, but the wait was tough."
+r004,2025-04-06,5,6,Yelp,"Incredible farm-to-table flavors. The charcuterie board and wood fired pizza were outstanding. Quick service and warm hospitality."
+r005,2025-04-01,2,4,Google,"Over-salted risotto and our drinks took forever. Cozy room, but the kitchen felt backed up. Manager apologized."
+r006,2025-03-29,5,2,Yelp,"Best brunch in town! Fluffy eggs, crispy potatoes, and a bright mimosa. Friendly staff and great value."
+r007,2025-04-04,4,7,Google,"Great value tasting menu. Farm to table vibe with seasonal vegetables shining. Cocktail was balanced and delicious."
+r008,2025-03-28,1,3,Yelp,"Waited an hour past our reservation and the steak was cold. Service missed the mark tonight."
+r009,2025-04-07,5,10,Google,"House made pasta melted in my mouth. Cozy atmosphere, attentive service, and a perfect tiramisu. New favorite spot."
+r010,2025-04-03,4,1,Yelp,"Loved the wood-fired crust and the farm-to-table story. A tad pricey, but quality ingredients show."
+r011,2025-04-06,3,2,Google,"Tasty pizza but the music was too loud and we couldn’t hear our server. Otherwise a nice night."
+r012,2025-04-05,5,5,Yelp,"Exceptional service and a thoughtful seasonal menu. Craft cocktail list is creative. We felt welcomed."

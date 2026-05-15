@@ -1,0 +1,11 @@
+medication,indication,effect_size_g,sedation_rate,weight_gain_rate,n
+Sertraline,Major Depressive Disorder,0.45,0.10,0.02,500
+Escitalopram,Major Depressive Disorder,0.50,0.08,0.03,620
+Vortioxetine,Major Depressive Disorder,0.55,0.07,0.02,400
+Bupropion,Major Depressive Disorder,0.48,0.05,0.01,450
+Mirtazapine,Major Depressive Disorder,0.52,0.35,0.40,380
+Quetiapine,Bipolar Depression,0.46,0.30,0.25,520
+Lumateperone,Bipolar Depression,0.40,0.20,0.05,300
+Lamotrigine,Bipolar Depression,0.35,0.05,0.00,350
+Vilazodone,Major Depressive Disorder,0.47,0.12,0.03,410
+Cariprazine,Bipolar Depression,0.44,0.15,0.10,280

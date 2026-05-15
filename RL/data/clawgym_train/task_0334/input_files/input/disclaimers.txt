@@ -1,0 +1,19 @@
+ID: D1
+Title: Helping Hands Food Bank
+Text: Helping Hands Food Bank is a 501(c)(3) organization. Donations are tax-deductible. EIN: 52-1234567.
+
+ID: D2
+Title: Sunset Seniors Club
+Text: Sunset Seniors Club is a social club; donations may not be tax deductible. No EIN listed.
+
+ID: D3
+Title: Bright Futures Scholarship Fund
+Text: Bright Futures Scholarship Fund is recognized by the IRS as a 501(c)(3). EIN 11-7654321. No goods or services were provided.
+
+ID: D4
+Title: Neighborhood Watch
+Text: Neighborhood Watch is a volunteer neighborhood group; not a registered charity. Cash only; no receipts. No EIN.
+
+ID: D5
+Title: Community Garden Project
+Text: Community Garden Project is a 501(c)(3). EIN: 23-0009999. Raffle ticket sales support operations.

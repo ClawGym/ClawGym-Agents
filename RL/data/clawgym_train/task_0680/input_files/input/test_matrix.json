@@ -1,0 +1,6 @@
+{
+  "openai-codex/gpt-5.3-codex": "pass",
+  "anthropic/opus-3.1": "fail",
+  "openrouter/meta-llama-3.1-70b": "pass",
+  "openai/gpt-4.1": "pass"
+}

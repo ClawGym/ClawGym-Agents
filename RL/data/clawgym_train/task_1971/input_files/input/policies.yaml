@@ -1,0 +1,88 @@
+security:
+  authentication:
+    sso_provider: Okta
+    mfa: required
+    mfa_methods:
+      - TOTP
+      - WebAuthn
+    password_policy:
+      min_length: 14
+      rotation_days: 365
+      complexity: "upper, lower, number, special"
+  authorization:
+    rbac: enforced
+    principle_of_least_privilege: true
+    access_reviews: quarterly
+    break_glass:
+      allowed: true
+      approvals: 2
+      duration_minutes: 60
+      audit_required: true
+  credentials:
+    hardcoding: prohibited
+    storage: "Vault (namespaced per team) + cloud secret manager"
+    rotation_days: 90
+    sharing: prohibited
+  data_protection:
+    encryption_in_transit: "TLS 1.2+ required; TLS 1.3 preferred"
+    encryption_at_rest: "AES-256 via KMS-managed keys"
+    pii_handling:
+      classification: required
+      retention_days:
+        default: 30
+        pii: 90
+      masking: required_in_nonprod: true
+    backups:
+      cadence: "Daily full + hourly incremental"
+      retention_days: 30
+      retention_days_pii: 90
+      restore_testing: quarterly
+  network:
+    firewalls: required
+    segmentation: required
+    allowed_ports:
+      - 22
+      - 443
+    disable_unnecessary_services: true
+    egress_controls: "deny-by-default in production"
+    inbound_policy: "only from trusted CIDRs and load balancers"
+  logging_monitoring:
+    audit_logs: required
+    central_aggregation: "ELK"
+    retention_days: 30
+    alerting: "Critical alerts to on-call; security anomalies to SecOps"
+  patching:
+    os_updates: "apply within 14 days"
+    critical_vulns: "remediate within 72 hours"
+engineering:
+  documentation:
+    required: true
+    change_logs: required
+    runbooks: required
+    location: "Confluence"
+  code_review:
+    required: true
+    min_approvals:
+      staging: 1
+      production: 2
+  change_management:
+    approvals:
+      staging: 1
+      production: 2
+    maintenance_windows:
+      - "Fridays 20:00-23:59 UTC"
+      - "Month-end last business day 18:00-23:59 UTC"
+    rollback_plan: required
+  observability:
+    metrics: "Prometheus/Grafana"
+    tracing: "OpenTelemetry"
+    logs: "ELK"
+  compatibility:
+    target_os: ["Ubuntu 22.04 LTS"]
+    shells: ["bash", "zsh"]
+  constraints:
+    no_external_network_in_prod: true
+    root_access_in_prod: prohibited
+  training:
+    onboarding: "Security + tooling overview within first 2 weeks"
+    annual_refreshers: true

@@ -1,0 +1,13 @@
+date,origin_city,destination_city,passengers,distance_km,emission_factor_kg_per_pkm
+2025-03-01,Riverdale,Capital City,120,300,0.115
+2025-03-02,Riverdale,Lake Town,80,180,0.115
+2025-03-03,Riverdale,Metro City,150,550,0.115
+2025-03-04,Riverdale,Coastal Bay,95,420,0.115
+2025-03-05,Riverdale,Mountain View,60,260,0.115
+2025-03-06,Riverdale,Capital City,110,300,0.115
+2025-03-07,Riverdale,Metro City,140,550,0.115
+2025-03-08,Riverdale,Lake Town,75,180,0.115
+2025-03-09,Riverdale,Coastal Bay,100,420,0.115
+2025-03-10,Riverdale,Capital City,130,300,0.115
+2025-03-11,Riverdale,Metro City,160,550,0.115
+2025-03-12,Riverdale,Mountain View,70,260,0.115

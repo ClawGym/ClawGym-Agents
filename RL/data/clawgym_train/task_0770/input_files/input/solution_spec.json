@@ -1,0 +1,15 @@
+{
+  "solution": "MySolution.sln",
+  "solution_name": "MySolution.sln",
+  "projects": {
+    "web": "src/MyWeb/MyWeb.csproj",
+    "library": "src/MyLib/MyLib.csproj"
+  },
+  "web_project_path": "src/MyWeb/MyWeb.csproj",
+  "lib_project_path": "src/MyLib/MyLib.csproj",
+  "targetFramework": "net8.0",
+  "target_framework": "net8.0",
+  "packageVersion": "1.2.3",
+  "package_version": "1.2.3",
+  "notes": "All paths are relative to the repository root; values are intended for CI command generation."
+}

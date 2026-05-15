@@ -1,0 +1,9 @@
+debug: true
+# Connection string used during local testing
+# (I will rotate this later)
+database_url: postgresql://ceramic_user:claypot123@localhost:5432/ceramics
+api_token: sk-test-ABCD1234secret
+data_dir: data
+allow_eval: true
+# Shell command invoked after analysis (configurable)
+postprocess_cmd: "echo 'done' > /tmp/post.txt"

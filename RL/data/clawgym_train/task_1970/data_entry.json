@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1970",
+  "user_query": "Treat this as a task queue intake and immediate dispatch. Add the following three tasks to a persistent queue file at output/task-queue.json (assign IDs starting at T-01 or continue from an existing lastId), then execute them right away:\n\n1) Aggregate input/orders.csv by region and by month (YYYY-MM extracted from the date column), summing the amount. Write the result to output/aggregates/orders_by_region_month.csv with the exact headers: region,month,total_amount. Sort by region ascending, then month ascending.\n\n2) Generate a Markdown changelog at output/docs/CHANGELOG.md from input/commits.jsonl. Only include types feat, fix, and chore in that order, each as a level-2 heading (## feat, ## fix, ## chore). Under each heading, list bullet points in descending date order in the exact format \"- {scope}: {description}\" for entries of that type.\n\n3) Create output/validation/summary.json with these keys: orders_rows (integer count of data rows in output/aggregates/orders_by_region_month.csv), changelog_counts (an object with keys feat, fix, chore and integer counts for each based on input/commits.jsonl), and files_ok (boolean true only if both previous output files exist and are non-empty).\n\nAfter all three tasks complete, update output/task-queue.json so each task status is \"done\" and deliverable_path points to its output file. Also write a plain-text status table to output/queue-status.txt showing the totals for pending, running, done, and blocked, and the overall total. Use only the input files under input/ and write all outputs under output/ as specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

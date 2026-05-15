@@ -1,0 +1,6 @@
+{
+  "device_id": "demo-laptop-001",
+  "screen_lock_minutes": 15,
+  "full_disk_encryption": false,
+  "guest_account": "enabled"
+}

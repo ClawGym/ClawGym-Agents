@@ -1,0 +1,50 @@
+import UIKit
+
+protocol SomeDelegate: AnyObject {
+    func didTriggerAction(_ vc: ViewController)
+}
+
+class ViewController: UIViewController {
+
+    // IUO for IBOutlet (common but still a risk if not wired)
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var imageView: UIImageView!
+
+    // IUO for runtime data (risky pattern)
+    var currentUser: User!
+
+    // Missing weak on a delegate property (retain cycle risk)
+    var delegate: SomeDelegate?
+
+    // Stored closure property
+    var onDone: (() -> Void)?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Strong self capture in stored closure (retain cycle risk)
+        onDone = { self.refreshUI() }
+    }
+
+    func configure(user: User) {
+        self.currentUser = user
+        // Force unwraps on outlets and state
+        titleLabel!.text = user.name
+        imageView!.image = UIImage(named: "placeholder")
+    }
+
+    func tapDone() {
+        onDone?()
+        delegate?.didTriggerAction(self)
+    }
+
+    private func refreshUI() {
+        // Simple UI update
+        view.backgroundColor = .systemBackground
+    }
+}
+
+struct User {
+    let id: String
+    let name: String
+}

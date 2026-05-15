@@ -1,0 +1,12 @@
+Boston Seaport medical office renovation — market and execution notes
+
+- Labor market: Union subs dominate interior healthcare work. Crews are available but pricing is firm; expect normal competition (4-6 bids per major MEP trade).
+- Bid climate: Warm market; O&P combined commonly 8–10% on competitive bids. Bonding typically required at 100% P&P with ~1.5% premium.
+- Occupancy: Building remains partially occupied. All MEP tie-ins and shutdowns to be performed after-hours (nights/weekends). Infection control (ICRA) barriers and negative air management required for demo and dusty operations.
+- Logistics: Limited freight elevator access and street loading windows; plan for off-hours deliveries for large equipment.
+- Permitting: City of Boston building permit; inspections coordinated with ISD. Fire alarm work requires BFD coordination.
+- Hazmat: Building constructed in late 1980s; asbestos/lead possible in mastics and fireproofing. Survey required prior to demolition. Abatement, if discovered, will be a change order (not included).
+- Controls: Existing BAS is Johnson Controls; many local HVAC subs can integrate but confirm scope split with controls vendor.
+- Allowances: Maintain a discovery allowance for unforeseen existing conditions behind walls and above ceilings (10–15% typical). Brief includes a GC-controlled discovery allowance line item.
+- Schedule: 8-month duration; after-hours constraints may increase supervision and temporary protection costs.
+- Addenda: None issued as of 2026-04-20.

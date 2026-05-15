@@ -1,0 +1,19 @@
+rules:
+  allowed:
+    - Apache-2.0
+    - MIT
+    - BSD-3-Clause
+    - BSD-2-Clause
+    - ISC
+    - Zlib
+  restricted:
+    - id: LGPL-2.1-only
+      obligations:
+        - notice
+    - id: GPL-2.0-only
+      obligations:
+        - source_offer
+      condition: exceptions.source_offer == true
+  banned:
+    - GPL-3.0-only
+    - AGPL-3.0-only

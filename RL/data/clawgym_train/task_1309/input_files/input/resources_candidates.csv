@@ -1,0 +1,8 @@
+title,author,year,type,url,practice_ratio_pct,format,notes
+"Plotly Dash: Building Data Apps with Python (2023 Edition)","Jose Portilla",2023,"course","https://www.udemy.com/course/plotly-dash/",70,"video course + projects","Hands-on Dash apps covering callbacks, layouts, and deployment"
+"Storytelling with Data: A Data Visualization Guide for Business Professionals","Cole Nussbaumer Knaflic",2019,"book","https://www.storytellingwithdata.com/books",30,"book","Narrative and design principles for business audiences"
+"Official Plotly Python Documentation","Plotly",2024,"docs","https://plotly.com/python/",40,"documentation","Authoritative API docs and examples for Plotly Express and Graph Objects"
+"Maven Analytics Challenge: Executive Sales Dashboard (Current)","Maven Analytics",2024,"challenge","https://www.mavenanalytics.io/challenges",90,"practice challenge","Realistic business prompt with sample data; judged by community"
+"Python for Data Analysis, 3rd Edition","Wes McKinney",2022,"book","https://www.oreilly.com/library/view/python-for-data/9781098104030/",50,"book","Pandas workflows for real-world datasets"
+"Seaborn & Matplotlib for Business Visualization (Intermediate)","DataCamp Team",2023,"course","https://www.datacamp.com/",60,"interactive course","Practice-heavy plotting and design patterns for business"
+"Kaggle: Global Superstore Sales Dataset","Kaggle Community",2018,"dataset","https://www.kaggle.com/datasets/jessemorgan/global-superstore",95,"dataset + kernels","Classic dataset for sales dashboards; supports cohort and funnel analyses"

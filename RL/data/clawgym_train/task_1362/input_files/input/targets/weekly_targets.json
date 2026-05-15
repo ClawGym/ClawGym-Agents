@@ -1,0 +1,13 @@
+{
+  "report_range": {
+    "start_date": "2026-04-15",
+    "end_date": "2026-04-19"
+  },
+  "targets": {
+    "weekly_tonnage_target": 7000,
+    "weekly_recovered_gold_g_target": 25000,
+    "grade_target_gpt_range": [3.0, 6.0],
+    "min_recovery_pct": 90,
+    "alert_deviation_pct": 5
+  }
+}

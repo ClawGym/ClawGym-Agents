@@ -1,0 +1,13 @@
+date,start_time,end_time,event_type,project,location_city,location_venue,notes
+2026-05-04,09:00,10:00,Interview,Skyline Heist,Los Angeles,KPLS Studio,Live morning show
+2026-05-04,09:30,10:15,Fitting,Aurora Station,Los Angeles,Wardrobe House,Costume fitting
+2026-05-04,13:00,15:00,Rehearsal,General,Los Angeles,Studio 5,Press junket prep
+2026-05-05,11:00,12:00,Interview,Driftwood,Los Angeles,Podcast Bay,In-depth podcast
+2026-05-06,16:00,17:00,Interview,Skyline Heist,New York,Hotel Midtown,Print interview before premiere
+2026-05-06,17:30,19:00,Premiere,Skyline Heist,New York,Regal Union Square,Red carpet
+2026-05-06,20:00,21:00,Late Night Show,Skyline Heist,New York,Late Night NYC,Tapings
+2026-05-07,08:00,09:00,Flight,General,New York,JFK Airport,Fly to Austin
+2026-05-07,12:00,13:00,Panel,Driftwood,Austin,ATX Indie,Indie Q&A panel
+2026-05-07,12:30,13:30,Interview,Aurora Station,Austin,ATX Press Room,Press line
+2026-05-08,10:00,11:30,Photoshoot,Aurora Station,Austin,Studio East,Editorial shoot
+2026-05-09,18:00,21:00,Gala,General,Los Angeles,Charity Hall,Fundraiser event

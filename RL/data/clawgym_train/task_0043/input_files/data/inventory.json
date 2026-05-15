@@ -1,0 +1,42 @@
+[
+  {
+    "sku": "HV-1987-AB12",
+    "name": "Double-breasted blazer",
+    "designer": "HVRMINN",
+    "decade": "1980s",
+    "price": 450,
+    "status": "available"
+  },
+  {
+    "sku": "HV-1985-ZZ99",
+    "name": "Pinstripe suit",
+    "designer": "HVRMINN",
+    "decade": "1980s",
+    "price": 1200,
+    "status": "available"
+  },
+  {
+    "sku": "HV-1982-aa11",
+    "name": "Checked sport coat",
+    "designer": "HVRMINN",
+    "decade": "1980s",
+    "price": 525,
+    "status": "available"
+  },
+  {
+    "sku": "HV-1980-GOLD",
+    "name": "Tuxedo jacket",
+    "designer": "HVRMINN",
+    "decade": "1980s",
+    "price": 800,
+    "status": "archived"
+  },
+  {
+    "sku": "HV-1989-HT77",
+    "name": "Wool trousers",
+    "designer": "HvRminn",
+    "decade": "1980s",
+    "price": 350,
+    "status": "available"
+  }
+]

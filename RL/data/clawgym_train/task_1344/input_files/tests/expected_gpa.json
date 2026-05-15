@@ -1,0 +1,8 @@
+{
+  "students": [
+    {"name": "Alice", "expected_gpa": 3.67},
+    {"name": "Bob", "expected_gpa": 2.67},
+    {"name": "Chao", "expected_gpa": 4.00}
+  ],
+  "notes": "Expected GPAs computed using the scale in config/settings.json and rounded to 2 decimals."
+}

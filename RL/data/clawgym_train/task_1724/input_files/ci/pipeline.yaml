@@ -1,0 +1,14 @@
+version: "1"
+steps:
+  - name: build-report
+    enabled: false
+    inputs:
+      data: "data/run_sessions.csv"  # wrong path on purpose
+    outputs:
+      metrics: "build/metrics.json"   # wrong path on purpose
+      summary: "build/summary.md"     # wrong path on purpose
+  - name: publish-docs
+    enabled: true
+    inputs:
+      readme: "docs/README.md"
+    needs: ["build-report"]

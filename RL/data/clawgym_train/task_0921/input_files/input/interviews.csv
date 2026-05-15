@@ -1,0 +1,11 @@
+stakeholder_id,role,department,quote
+S1,Student,Undergraduate Biology,"I already feel watched in the LMS; please don't touch my email metadata."
+S2,Student,Undergraduate Psychology,"If the outreach is supportive and optional, I'm okay with it—just don't mislabel me because I work nights."
+A1,Advisor,Student Success,"Early pings at week 3 could help us reach students before they disappear."
+A2,Advisor,Student Success,"False positives are a concern; we need a human in the loop before any outreach."
+IT1,IT Security,Information Security,"We will not ingest subject lines or bodies; only to/from, timestamp, and thread count."
+DS1,Data Scientist,Institutional Research,"Section-level normalization is essential so heavy-LMS courses don’t bias the risk score."
+L1,Legal Counsel,Office of General Counsel,"Advisors qualify as school officials with a legitimate educational interest when acting to support student success."
+FAC1,Faculty,Department of History,"Don’t send me alerts unless a student opts in or asks me to be looped in."
+DSV1,Disability Services,Student Affairs,"Avoid proxies that penalize students who use extended-time accommodations."
+ISO1,International Office,Global Programs,"Email patterns differ across time zones; timestamp logic must account for that."

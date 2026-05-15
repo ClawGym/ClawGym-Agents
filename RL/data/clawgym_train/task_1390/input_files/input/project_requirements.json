@@ -1,0 +1,65 @@
+{
+  "service_name": "Checkout and Order Processing",
+  "description": "Minimal order workflow to validate orders, charge customers, persist order state, and notify via email.",
+  "language": "Python 3.11",
+  "domain": {
+    "complexity": "medium",
+    "key_rules": [
+      "Order must contain at least one item",
+      "Order total must be a positive integer amount in cents",
+      "Paid orders are immutable with respect to payment status"
+    ]
+  },
+  "team": {
+    "size": 4,
+    "roles": ["backend engineer", "backend engineer", "tech lead", "QA"],
+    "experience": "mixed"
+  },
+  "integrations": [
+    {
+      "type": "payment",
+      "providers": ["Stripe", "Adyen", "Braintree"],
+      "volatility": "high",
+      "notes": "We expect to experiment with multiple providers in the first 3-6 months and must be able to swap without touching domain logic."
+    },
+    {
+      "type": "notification",
+      "providers": ["SendGrid", "Amazon SES", "Mailgun"],
+      "volatility": "medium",
+      "notes": "Provider may change based on deliverability and pricing; notifications should be optional and not block the order."
+    },
+    {
+      "type": "persistence",
+      "providers": ["PostgreSQL", "DynamoDB"],
+      "volatility": "medium",
+      "notes": "Initial prototype may use in-memory or file-based storage; production target selected later."
+    }
+  ],
+  "delivery_channels": {
+    "inbound": ["REST (future)", "CLI for early manual tests"],
+    "outbound": ["Payments", "Email", "Persistence"]
+  },
+  "testing_goals": {
+    "unit_test_focus": "high",
+    "mock_adapters_required": true,
+    "domain_independence_required": true,
+    "offline_dev_mode": true
+  },
+  "non_goals": [
+    "Event sourcing",
+    "Microservices decomposition in v1",
+    "Real payment gateway calls in scaffold"
+  ],
+  "constraints": {
+    "libraries": "Standard library only for scaffold (no third-party deps)",
+    "framework_coupling": "Avoid framework imports inside domain and ports",
+    "io_policy": "Minimal; adapters may print to console"
+  },
+  "architecture_preferences": ["hexagonal", "ports & adapters", "clean architecture"],
+  "success_criteria": [
+    "Business logic independent of external providers",
+    "Adapters are swappable without changing domain/services",
+    "Easy to test with mock adapters"
+  ],
+  "notes": "The scaffold should demonstrate clear boundaries with inbound port(s) for use cases and outbound ports for dependencies."
+}

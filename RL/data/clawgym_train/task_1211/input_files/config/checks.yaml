@@ -1,0 +1,21 @@
+# System health check configuration (to be updated)
+# Thresholds for disk usage
+disk_thresholds:
+  warning_pct: 90
+  critical_pct: 95
+
+# TODO: Add memory thresholds like:
+# memory_thresholds:
+#   warning_pct: 85
+#   critical_pct: 90
+
+# TODO: Add process monitoring like:
+# process_monitor:
+#   names: ["zoom", "chrome"]
+#   rss_mb_critical: 1000
+
+# Source files (do not change these paths)
+source_files:
+  disk: input/system_snapshot/df.txt
+  memory: input/system_snapshot/free.txt
+  processes: input/system_snapshot/ps.txt

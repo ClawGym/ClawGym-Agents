@@ -1,0 +1,11 @@
+{
+  "name": "Jordan Lee",
+  "blood_type": "O+",
+  "allergies": ["Penicillin", "Peanuts"],
+  "medical_conditions": ["Mild asthma"],
+  "current_medications": ["Albuterol inhaler as needed"],
+  "emergency_contact": {
+    "name": "Avery Kim",
+    "phone": "+1-212-555-0198"
+  }
+}

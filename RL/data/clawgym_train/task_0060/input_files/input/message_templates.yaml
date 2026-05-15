@@ -1,0 +1,18 @@
+message_templates:
+  event_support: |
+    Draft message (too formal):
+    There was a {type} in {location} on {date}. Casualties reported: {casualties}.
+    Proposed support: {support_actions}.
+    Please join us at the community center to coordinate response.
+    Thank you for your cooperation.
+style_notes:
+  tone: "formal and administrative"
+  reminders:
+    - Avoid misinformation; reference only verified sources.
+    - Encourage kindness and practical help.
+placeholders:
+  - type
+  - location
+  - date
+  - casualties
+  - support_actions

@@ -1,0 +1,7 @@
+date,merchant,description,category,quantity,unit,amount_jpy,payment_method
+2025-02-03,Supermarket,Parmigiano Reggiano 200g,Groceries-Italian,2,pack,1600,credit
+2025-02-06,Supermarket,Pasta (Spaghetti) 500g,Groceries-Italian,4,pack,1200,cash
+2025-02-08,Cooking Studio,Cooking class: Sauces,Cooking Class,1,class,14000,credit
+2025-02-14,Trattoria,Dinner,Dining-Italian,1,meal,6200,credit
+2025-02-18,KALDI,San Marzano tomatoes 400g,Groceries-Italian,2,can,700,cash
+2025-02-23,Cafe,Lunch,Dining-Other,1,meal,1200,ic-card

@@ -1,0 +1,10 @@
+rules:
+  due_date_within_phase: "Pre-Production"
+  block_weekdays: ["Sat","Sun"]
+  require_contact_in_contacts: true
+  subject_max_length: 78
+  require_due_date_present: true
+report:
+  include_counts: true
+  pass_text: "Status: VALIDATION PASS"
+  fail_text: "Status: VALIDATION FAIL"

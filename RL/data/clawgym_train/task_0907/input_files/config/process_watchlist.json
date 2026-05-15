@@ -1,0 +1,3 @@
+{
+  "processes": ["obs", "zoom", "vpn", "docker"]
+}

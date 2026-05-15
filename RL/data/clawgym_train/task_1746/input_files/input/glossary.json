@@ -1,0 +1,13 @@
+{
+  "ambulatory consultation": "appointment",
+  "forthcoming": "upcoming",
+  "practice": "clinic",
+  "privacy practices": "privacy policy",
+  "reschedule": "change your appointment",
+  "immunization": "vaccination",
+  "influenza": "flu",
+  "provider": "clinician",
+  "administer": "give",
+  "individuals": "people",
+  "contraindications": "health conditions that mean a vaccine is not right for you"
+}

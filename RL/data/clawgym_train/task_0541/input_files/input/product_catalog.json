@@ -1,0 +1,72 @@
+{
+  "catalog_version": "2026-04",
+  "currency": "USD",
+  "products": [
+    {
+      "sku": "TB-TentPro-2P",
+      "name": "Trailblaze TentPro 2P Backpacking Tent",
+      "category": "Shelter",
+      "cogs": 62.0,
+      "amazon_price": 179.0,
+      "map_price": 169.0,
+      "shopify_target_price": 179.0,
+      "weight_lb": 3.0,
+      "dimensions_in": "19 x 6 x 6",
+      "bundle_eligible": true,
+      "notes": "Reinforced guy-outs; 2000 mm HH fly. Best-seller for spring/fall."
+    },
+    {
+      "sku": "TB-CookKit-4",
+      "name": "Trailblaze Camp CookKit 4-Piece",
+      "category": "Camp Kitchen",
+      "cogs": 18.0,
+      "amazon_price": 59.0,
+      "map_price": 54.99,
+      "shopify_target_price": 59.0,
+      "weight_lb": 1.6,
+      "dimensions_in": "8 x 8 x 5",
+      "bundle_eligible": true,
+      "notes": "Hard-anodized aluminum; nests; locking lid."
+    },
+    {
+      "sku": "TB-HeadlampX",
+      "name": "Trailblaze Headlamp X (400 lm, USB-C)",
+      "category": "Lighting",
+      "cogs": 9.0,
+      "amazon_price": 34.99,
+      "map_price": 32.99,
+      "shopify_target_price": 34.99,
+      "weight_lb": 0.2,
+      "dimensions_in": "4 x 3 x 2",
+      "bundle_eligible": true,
+      "notes": "True 400 lumen; lockout mode; IPX4."
+    },
+    {
+      "sku": "TB-UltraTrek-Poles",
+      "name": "Trailblaze UltraTrek Carbon Trekking Poles (Pair)",
+      "category": "Trekking",
+      "cogs": 28.0,
+      "amazon_price": 89.99,
+      "map_price": 84.99,
+      "shopify_target_price": 89.99,
+      "weight_lb": 0.95,
+      "dimensions_in": "26 x 3 x 3",
+      "bundle_eligible": true,
+      "notes": "3K carbon; tungsten tips; foam extended grips."
+    }
+  ],
+  "map_policy": {
+    "enforced": true,
+    "allowed_discount_windows": [
+      "Memorial Day Weekend",
+      "Labor Day Weekend",
+      "Black Friday / Cyber Monday"
+    ],
+    "allowed_discount_pct_max": 10
+  },
+  "shipping": {
+    "primary_method": "Ground",
+    "avg_packed_weight_lb": 1.94,
+    "dimensional_considerations": "Tents may incur higher dimensional weight during Q4 with carrier surcharges."
+  }
+}

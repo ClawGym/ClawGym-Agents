@@ -1,0 +1,10 @@
+product_id,name,hts_code,origin,cog_local,units,cbm,destination
+P001,Aluminum Extrusion Profiles,7604.10.10.00,CN,28,1200,12,USWC
+P002,Cotton T-Shirts,6109.10,CN,18,3000,20,USEC
+P003,PVC Vinyl Plank Flooring,3918101000,VN,230000,1500,60,USEC
+P004,Quartz Countertop Slabs,6810.99.00,CN,250,200,50,USWC
+P005,Steel Construction Nails,7317005500,CN,9,5000,25,USWC
+P006,Aluminum Household Foil,7607.11.60.00,CN,12,4000,18,USEC
+P007,Wooden Bedroom Dressers,9403.50.90.80,CN,420,300,120,USEC
+P008,Solar PV Modules,8541430000,CN,510,800,100,USWC
+P009,Aluminum Profiles (Mexico),7604101000,MX,520,1000,10,USWC

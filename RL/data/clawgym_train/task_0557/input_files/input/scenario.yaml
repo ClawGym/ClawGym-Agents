@@ -1,0 +1,50 @@
+id: workweek-q4-pilot-2026
+topic: "Should our company pilot a 4-day workweek in Q4?"
+description: "Internal multi-agent debate to decide whether to run a 10-week pilot of a 4-day (32-hour) workweek with full pay during Q4 2026, balancing productivity, coverage, and employee well-being."
+timeframe:
+  quarter: "Q4 2026"
+  pilot_window: "Oct 7 – Dec 20 (10 weeks, excludes major holidays and release blackout)"
+  holidays_considered: ["Nov 28–29 (Thanksgiving)", "Dec 24–25 (observed, outside pilot end)"]
+participants:
+  - agent_id: "hr-lead"
+    role: "HR"
+    bio: "HR lead focused on engagement, retention, and compliance."
+  - agent_id: "eng-manager"
+    role: "Engineering"
+    bio: "Engineering manager responsible for delivery and quality."
+  - agent_id: "finance-analyst"
+    role: "Finance"
+    bio: "Finance analyst focused on cost, revenue impact, and forecasting."
+  - agent_id: "ops-director"
+    role: "Operations"
+    bio: "Operations director responsible for on-call, support SLAs, and incident response."
+configuration:
+  max_rounds: 4
+  min_rounds_before_consensus: 2
+  consensus_threshold: 0.75
+  citation_rule:
+    mandatory_from_round: 2
+    format_hint: "Use a Markdown quote line starting with '>' and include @mention (e.g., > \"...\" — @eng-manager)."
+speaking_order_policy:
+  round1: "free"           # Randomized speaking order in Round 1
+  subsequent: "round_robin" # Rotate order in subsequent rounds
+scope:
+  included_teams: ["Product Engineering", "Platform", "Design", "People Ops", "FinOps (advisory)"]
+  excluded_teams: ["Customer Support Tier-1 (coverage constraints)", "Sales (quota-bearing)"]
+pilot_parameters:
+  hours_per_week: 32
+  pay_adjustment: "None (full pay maintained)"
+  default_off_day: "Friday (teams may stagger to maintain coverage)"
+  coverage_model: "Staggered schedules for Ops; ensure 5-day coverage and 24x5 on-call"
+success_criteria:
+  - "Maintain ≥95% of Q3 weekly delivery throughput (e.g., story points, cycle time)"
+  - "No breach of critical support SLAs; P1 incident MTTD/MTTR within ±10% of Q3 baseline"
+  - "Employee pulse survey: +15% improvement in work-life balance vs Q3"
+  - "No material increase (>3%) in overtime or contractor costs"
+risks_to_monitor:
+  - "Holiday season release crunch (mid-Nov release)"
+  - "Coordination overhead for cross-functional work (Design, QA, Eng)"
+  - "Coverage gaps on Fridays if staggering not enforced"
+notes:
+  - "Legal review required for non-exempt roles; union or local regulations may impose constraints."
+  - "Communicate expectations: outcomes-based performance; no 'cram 40 into 32' expectations."

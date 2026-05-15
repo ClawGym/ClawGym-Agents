@@ -1,0 +1,70 @@
+{"timestamp":"2026-02-24T08:55:13Z","speaker":"user","text":"Morning! As usual, can you do PR label triage for new PRs? Apply size/* and area/*, and mark anything without reviewers as needs-review."}
+{"timestamp":"2026-02-24T08:56:02Z","speaker":"assistant","text":"Sure — running label triage now and adding needs-review where missing."}
+{"timestamp":"2026-02-24T16:48:21Z","speaker":"user","text":"End of day: please draft the daily status blurb for eng-leads and send it. Keep the format the same: Today, Blockers, Tomorrow. This always takes me ~10 minutes and I forget."}
+{"timestamp":"2026-02-24T16:49:04Z","speaker":"assistant","text":"Drafting the status blurb with the standard three sections. I’ll share for review before sending."}
+{"timestamp":"2026-02-25T09:02:10Z","speaker":"user","text":"Same as yesterday — morning label triage pass on new PRs. I hate doing this every morning."}
+{"timestamp":"2026-02-25T09:03:02Z","speaker":"assistant","text":"On it. Applying size and area labels, then tagging needs-review."}
+{"timestamp":"2026-02-25T14:17:31Z","speaker":"user","text":"Feature 1243 was merged — please kick the staging deploy (same steps as always: build, deploy to staging, run smoke tests, post a short note in #releases). Takes ~5–7 minutes when everything’s green."}
+{"timestamp":"2026-02-25T14:18:22Z","speaker":"assistant","text":"Acknowledged. Following the staging deploy checklist and will report back with smoke test results."}
+{"timestamp":"2026-02-25T16:57:55Z","speaker":"user","text":"End of day status again — draft and send to eng-leads. Keep it concise; no sensitive info, internal audience only."}
+{"timestamp":"2026-02-25T16:58:37Z","speaker":"assistant","text":"Drafting the daily status and will share for your quick review."}
+{"timestamp":"2026-02-26T09:01:06Z","speaker":"user","text":"Morning label triage — same rules. If a PR touches /billing, please add area:billing."}
+{"timestamp":"2026-02-26T09:02:05Z","speaker":"assistant","text":"Got it. Adding area:billing where applicable and size labels for new PRs."}
+{"timestamp":"2026-02-26T15:11:42Z","speaker":"user","text":"Two more PRs merged — please deploy to staging again and do the smoke tests. Announce in #releases once done."}
+{"timestamp":"2026-02-26T15:12:25Z","speaker":"assistant","text":"Starting staging deploy for the new merges; will run the smoke tests and post in #releases."}
+{"timestamp":"2026-02-27T09:00:44Z","speaker":"user","text":"Label triage again, please. This is basically the same every weekday."}
+{"timestamp":"2026-02-27T09:01:26Z","speaker":"assistant","text":"Performing the weekday triage pass on PRs now."}
+{"timestamp":"2026-02-27T13:32:19Z","speaker":"user","text":"It’s Friday — please compile the weekly changelog draft from merged PRs. Use Added/Changed/Fixed sections and include PR numbers. This usually takes me 30–45 minutes."}
+{"timestamp":"2026-02-27T13:33:07Z","speaker":"assistant","text":"Compiling the weekly changelog with sections and PR references. I’ll send the draft for review."}
+{"timestamp":"2026-03-02T09:06:18Z","speaker":"user","text":"New week: do the Monday analytics snapshot from data/sales_export.csv. I need MRR, churn %, and the 7-day active users. We do this every Monday — it takes ~20–30 minutes."}
+{"timestamp":"2026-03-02T09:07:14Z","speaker":"assistant","text":"Loading sales_export.csv and calculating MRR, churn, and 7-day actives. I’ll produce a short summary with the three KPIs."}
+{"timestamp":"2026-03-02T09:28:03Z","speaker":"user","text":"Also, quick morning PR label triage, same rules as last week."}
+{"timestamp":"2026-03-02T09:28:44Z","speaker":"assistant","text":"Running the triage — size, area, and needs-review labels will be updated."}
+{"timestamp":"2026-03-02T16:50:41Z","speaker":"user","text":"Daily status blurb for eng-leads again. Same template. Internal-only, nothing sensitive."}
+{"timestamp":"2026-03-02T16:51:20Z","speaker":"assistant","text":"Drafting today’s status. I’ll ping you to review before sending."}
+{"timestamp":"2026-03-03T08:58:57Z","speaker":"user","text":"Morning PR label triage. I always have to do this and it adds up."}
+{"timestamp":"2026-03-03T08:59:35Z","speaker":"assistant","text":"Executing the triage pass now."}
+{"timestamp":"2026-03-03T13:45:16Z","speaker":"user","text":"Two merges just landed. Please do the staging deploy with smoke tests and a short #releases note. Same as before."}
+{"timestamp":"2026-03-03T13:45:58Z","speaker":"assistant","text":"Starting staging deploy and will complete smoke tests, then announce in #releases."}
+{"timestamp":"2026-03-03T16:49:50Z","speaker":"user","text":"Daily status update again. Keep it brief, just top highlights and blockers."}
+{"timestamp":"2026-03-03T16:50:26Z","speaker":"assistant","text":"Drafting today’s status with highlights and blockers for your review."}
+{"timestamp":"2026-03-04T09:03:11Z","speaker":"user","text":"PR label triage this morning — same rules. Add area:infra for changes in /ops."}
+{"timestamp":"2026-03-04T09:03:49Z","speaker":"assistant","text":"Acknowledged. Applying area:infra and other labels accordingly."}
+{"timestamp":"2026-03-04T14:02:22Z","speaker":"user","text":"Heads up: we’ll need a production deploy Friday afternoon. That is high risk and I want to approve every step. Not routine."}
+{"timestamp":"2026-03-04T14:03:07Z","speaker":"assistant","text":"Understood — production deploy is high risk and requires your explicit step-by-step approval. I will not proceed without it."}
+{"timestamp":"2026-03-04T16:52:33Z","speaker":"user","text":"Daily status for eng-leads — same template and tone."}
+{"timestamp":"2026-03-04T16:53:09Z","speaker":"assistant","text":"Drafting the daily status and will share before sending to the list."}
+{"timestamp":"2026-03-05T09:04:55Z","speaker":"user","text":"Morning label triage again. Honestly this is just process work."}
+{"timestamp":"2026-03-05T09:05:34Z","speaker":"assistant","text":"Executing the standard labeling pass now."}
+{"timestamp":"2026-03-05T13:27:46Z","speaker":"user","text":"Another staging deploy please — same checklist: build, deploy to staging, smoke tests, post in #releases."}
+{"timestamp":"2026-03-05T13:28:26Z","speaker":"assistant","text":"Running the staging deploy and smoke tests; will post completion note."}
+{"timestamp":"2026-03-05T16:47:22Z","speaker":"user","text":"Daily status again. This is pretty repetitive at this point."}
+{"timestamp":"2026-03-05T16:48:03Z","speaker":"assistant","text":"Drafting the EOD status update now."}
+{"timestamp":"2026-03-06T09:02:19Z","speaker":"user","text":"Label triage this morning — same rules as always."}
+{"timestamp":"2026-03-06T09:02:59Z","speaker":"assistant","text":"Triage in progress."}
+{"timestamp":"2026-03-06T13:20:44Z","speaker":"user","text":"It’s Friday — weekly changelog again. Same sections, include PR numbers and one-line summaries."}
+{"timestamp":"2026-03-06T13:21:28Z","speaker":"assistant","text":"Assembling the changelog with Added/Changed/Fixed and PR references for review."}
+{"timestamp":"2026-03-06T16:15:03Z","speaker":"user","text":"We’ll hold the production deploy today. Reminder: high risk, I need to approve each step. Not routine and not something to automate."}
+{"timestamp":"2026-03-06T16:15:44Z","speaker":"assistant","text":"Confirmed — production deploy remains manual with your explicit approvals. I will not take any action without them."}
+{"timestamp":"2026-03-09T09:05:11Z","speaker":"user","text":"Monday analytics snapshot again: compute MRR, churn%, 7-day actives from data/sales_export.csv and summarize. Same as last Monday."}
+{"timestamp":"2026-03-09T09:05:57Z","speaker":"assistant","text":"Running the Monday analytics snapshot and preparing the three-KPI summary."}
+{"timestamp":"2026-03-09T09:29:45Z","speaker":"user","text":"Also, label triage this morning — the usual."}
+{"timestamp":"2026-03-09T09:30:22Z","speaker":"assistant","text":"Completing the regular PR labeling pass now."}
+{"timestamp":"2026-03-09T16:49:58Z","speaker":"user","text":"Daily status for eng-leads again. Keep the tone consistent and internal."}
+{"timestamp":"2026-03-09T16:50:39Z","speaker":"assistant","text":"Drafting and will share before sending."}
+{"timestamp":"2026-03-10T09:04:07Z","speaker":"user","text":"Morning PR label triage — same rules. This really feels like autopilot work."}
+{"timestamp":"2026-03-10T09:04:47Z","speaker":"assistant","text":"Applying labels now."}
+{"timestamp":"2026-03-10T13:58:22Z","speaker":"user","text":"Two merges just now — please staging deploy with smoke tests, then post to #releases. Same as before."}
+{"timestamp":"2026-03-10T13:59:02Z","speaker":"assistant","text":"Executing the staging deploy and will report in #releases after smoke tests pass."}
+{"timestamp":"2026-03-10T16:46:55Z","speaker":"user","text":"Daily status again, please."}
+{"timestamp":"2026-03-10T16:47:31Z","speaker":"assistant","text":"Drafting today’s status now for your review."}
+{"timestamp":"2026-03-11T09:03:38Z","speaker":"user","text":"PR label triage. Same process."}
+{"timestamp":"2026-03-11T09:04:15Z","speaker":"assistant","text":"Running the triage pass now."}
+{"timestamp":"2026-03-11T16:51:02Z","speaker":"user","text":"Daily status — same template. Internal audience."}
+{"timestamp":"2026-03-11T16:51:38Z","speaker":"assistant","text":"Preparing the status update now."}
+{"timestamp":"2026-03-12T09:01:22Z","speaker":"user","text":"Morning label triage again. I always have to rubber-stamp this."}
+{"timestamp":"2026-03-12T09:02:01Z","speaker":"assistant","text":"Applying labels per usual rules."}
+{"timestamp":"2026-03-12T13:25:16Z","speaker":"user","text":"Staging deploy for the two merges from this morning. Same checklist as always."}
+{"timestamp":"2026-03-12T13:25:58Z","speaker":"assistant","text":"Starting the staging deploy and smoke tests; will post completion note in #releases."}
+{"timestamp":"2026-03-12T16:49:27Z","speaker":"user","text":"Daily status again. This is rubber-stamp work at this point."}
+{"timestamp":"2026-03-12T16:50:09Z","speaker":"assistant","text":"Drafting today’s internal status for your approval before sending."}

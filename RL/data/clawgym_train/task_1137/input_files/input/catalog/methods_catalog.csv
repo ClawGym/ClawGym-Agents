@@ -1,0 +1,10 @@
+method_name,explanation_type,approach,model_compatibility,compute_cost,faithfulness,open_source
+LIME,local,surrogate,model-agnostic,medium,medium,Yes
+Kernel SHAP,local,feature attribution,model-agnostic,high,high,Yes
+Tree SHAP,local,feature attribution,tree-only,low,high,Yes
+Integrated Gradients,local,feature attribution,differentiable-only,medium,high,Yes
+Partial Dependence Plots,global,global,model-agnostic,medium,medium,Yes
+Permutation Feature Importance,global,feature importance,model-agnostic,medium,medium,Yes
+Counterfactual Explanations,local,counterfactuals,model-agnostic,high,medium,Yes
+Anchors,local,rule-based,model-agnostic,medium,medium,Yes
+DeepLIFT,local,feature attribution,differentiable-only,medium,high,Yes

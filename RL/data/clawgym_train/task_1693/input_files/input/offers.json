@@ -1,0 +1,90 @@
+[
+  {
+    "platform": "Amazon",
+    "price": 84.99,
+    "currency": "USD",
+    "shipping": 5.0,
+    "shipping_currency": "USD",
+    "seller": "Amazon US",
+    "rating": 4.8,
+    "shipping_days": 2,
+    "link": "https://www.amazon.com/dp/B09X8YPLVV"
+  },
+  {
+    "platform": "eBay",
+    "price": 72.5,
+    "currency": "GBP",
+    "shipping": 10.0,
+    "shipping_currency": "GBP",
+    "seller": "TechBazaarUK",
+    "rating": 4.6,
+    "shipping_days": 7,
+    "link": "https://www.ebay.co.uk/itm/225678901234"
+  },
+  {
+    "platform": "AliExpress",
+    "price": 79.0,
+    "currency": "USD",
+    "shipping": 8.0,
+    "shipping_currency": "USD",
+    "seller": "Logitech Official Store",
+    "rating": 4.7,
+    "shipping_days": 12,
+    "link": "https://www.aliexpress.com/item/1005004321123456.html"
+  },
+  {
+    "platform": "Temu",
+    "price": 89.0,
+    "currency": "USD",
+    "shipping": 3.0,
+    "shipping_currency": "USD",
+    "seller": "LowPrice Gadgets",
+    "rating": 4.4,
+    "shipping_days": 10,
+    "link": "https://www.temu.com/logitech-mx-master-3s-g-12345678.html"
+  },
+  {
+    "platform": "JD",
+    "price": 499.0,
+    "currency": "CNY",
+    "shipping": 10.0,
+    "shipping_currency": "CNY",
+    "seller": "JD Self-Operated",
+    "rating": 4.8,
+    "shipping_days": 5,
+    "link": "https://item.jd.com/100022345678.html"
+  },
+  {
+    "platform": "Taobao",
+    "price": 510.0,
+    "currency": "CNY",
+    "shipping": 10.0,
+    "shipping_currency": "CNY",
+    "seller": "Logitech Peripheral Store",
+    "rating": 4.5,
+    "shipping_days": 7,
+    "link": "https://item.taobao.com/item.htm?id=678901234567"
+  },
+  {
+    "platform": "Tmall",
+    "price": 498.0,
+    "currency": "CNY",
+    "shipping": 10.0,
+    "shipping_currency": "CNY",
+    "seller": "Logitech Tmall Flagship",
+    "rating": 4.9,
+    "shipping_days": 4,
+    "link": "https://detail.tmall.com/item.htm?id=678901234568"
+  },
+  {
+    "platform": "Pinduoduo",
+    "price": 468.0,
+    "currency": "CNY",
+    "shipping": 0.0,
+    "shipping_currency": "CNY",
+    "seller": "Various sellers",
+    "rating": 4.2,
+    "shipping_days": 6,
+    "link": null
+  }
+]

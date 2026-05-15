@@ -1,0 +1,26 @@
+[
+  {
+    "name": "daily-report",
+    "schedule": "0 6 * * *",
+    "consecutiveErrors": 5,
+    "lastError": "HTTP 401 Unauthorized from analytics API during report generation at 06:00 UTC"
+  },
+  {
+    "name": "indexer",
+    "schedule": "*/15 * * * *",
+    "consecutiveErrors": 3,
+    "lastError": "TimeoutError: index build exceeded 120s while updating vector store"
+  },
+  {
+    "name": "heartbeat",
+    "schedule": "*/5 * * * *",
+    "consecutiveErrors": 0,
+    "lastError": ""
+  },
+  {
+    "name": "backup-snapshot",
+    "schedule": "30 3 * * *",
+    "consecutiveErrors": 1,
+    "lastError": "Transient network error: retry succeeded on next run"
+  }
+]

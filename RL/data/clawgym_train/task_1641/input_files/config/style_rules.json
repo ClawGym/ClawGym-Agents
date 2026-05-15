@@ -1,0 +1,8 @@
+{
+  "avoid_terms": [
+    "outrage",
+    "brutal",
+    "terrorist"
+  ],
+  "notes": "Case-insensitive substring match; prefer specific attribution and neutral verbs (e.g., 'said', 'announced', 'confirmed')."
+}

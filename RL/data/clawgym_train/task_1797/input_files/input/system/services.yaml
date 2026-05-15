@@ -1,0 +1,8 @@
+services:
+  crash_reporter:
+    enabled: true
+    channel: "sentry"
+  metrics_collector:
+    enabled: true
+  auto_update:
+    enabled: false

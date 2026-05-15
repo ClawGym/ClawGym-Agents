@@ -1,0 +1,9 @@
+source_id,name,affiliation,topic,credibility_score,last_contact,reliability_note
+S001,Dr. Alice Kim,University of Northlake,Climate Policy,92,2025-02-10,peer-reviewed
+S002,Prof. Luis Ortega,National Policy Institute,Climate Policy,88,2024-12-15,peer-reviewed
+S003,Dr. Mina Patel,Energy Council,Energy Economics,85,2025-01-05,peer-reviewed
+S004,Dr. Noah Reed,EnviroWatch,Environmental Science,73,2024-09-12,peer-reviewed
+S005,Dr. Sara Liu,Green Future,Climate Policy,67,2024-11-20,conflict of interest disclosed
+S006,Prof. Ethan Zhao,State University,Climate Policy,90,2025-03-02,peer-reviewed
+S007,Dr. Priya Nair,Coastal Lab,Climate Policy,77,2024-07-19,peer-reviewed
+S008,Dr. Omar Haddad,Policy Review,Climate Policy,88,2025-01-20,peer-reviewed

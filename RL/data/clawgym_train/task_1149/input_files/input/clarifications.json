@@ -1,0 +1,12 @@
+{
+  "w1": {
+    "audience": "product managers at mid-size SaaS companies",
+    "tone": "confident and practical",
+    "length": "600-800 words",
+    "key_points": [
+      "timeline for rollout",
+      "what changed since the beta",
+      "how to enable the update"
+    ]
+  }
+}

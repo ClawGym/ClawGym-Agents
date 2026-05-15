@@ -1,0 +1,10 @@
+task,minutes_per_task,frequency_per_month,setup_hours,tool_monthly_cost
+Order data to production sheet & grocery list,25,20,2,20
+Order confirmation + delivery/pickup instructions email,2,200,1,15
+HACCP temp logging via mobile form to sheet,15,60,2.5,9
+Weekly HACCP PDF report generation and archive,30,4,1.5,0
+Label generation from order data (Avery templates),20,8,3,10
+Social media post scheduling,20,12,3,29
+Subscription reminder emails (upcoming renewal/skip),10,40,2,20
+Delivery route optimization and driver sheet,30,3,5,49
+Stripe to QuickBooks payout reconciliation,45,4,2,0

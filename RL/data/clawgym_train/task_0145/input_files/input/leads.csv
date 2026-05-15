@@ -1,0 +1,10 @@
+lead_id,name,company,industry,company_size,role,location,email,linkedin_url,funding,recent_event,pain_signals,signal_source
+L001,Maya Chen,QuotaFlow,B2B SaaS,28,RevOps Manager,US,maya.chen@quotaflow.io,https://www.linkedin.com/in/mayachen-revops,Seed,"Job post: hiring 3 SDRs in Austin","long ramp times; inconsistent onboarding; low CRM adoption",job post
+L002,Andre Patel,SyncForge,B2B SaaS,12,Head of Sales,Canada,andre.patel@syncforge.co,https://www.linkedin.com/in/andre-patel,Series A,"Announced CRM migration to HubSpot","CRM migration; messy data; forecasting misses",migration
+L003,Lena Ortiz,CloudKite,B2C SaaS,45,VP Sales,US,lena.ortiz@cloudkite.com,https://www.linkedin.com/in/lena-ortiz,Series A,"Hiring 4 AEs","low win rate; weak discovery",job post
+L004,Tom Nguyen,AcmeAI,B2B SaaS,8,CEO,USA,tom@acmeai.io,https://www.linkedin.com/in/tom-nguyen,Pre-Seed,"Looking for first RevOps","no sales team yet",post
+L005,Priya Shah,PipelinePilot,B2B SaaS,95,Sales Manager,USA,,https://www.linkedin.com/in/priya-shah-sales,Seed,"Posted about low win rates after Series A","low win rate; inconsistent messaging; reps skipping MEDDICC",post
+L006,Ethan Brooks,Northstar Metrics,B2B SaaS,16,RevOps Lead,United Kingdom,ethan@northstarmetrics.io,https://www.linkedin.com/in/ethan-brooks-revops,Seed,"Job post: RevOps Manager","process gaps; tool sprawl",job post
+L007,Rachel Kim,SaaSGuard,B2B SaaS,150,VP Sales,United States,rachel.kim@saasguard.com,https://www.linkedin.com/in/rachel-kim-vpsales,Series B,"Podcast: discussed rep onboarding taking 120 days","rep ramp > 90 days; inconsistent enablement; content not used",podcast
+L008,Jordan Lee,MarketHawk,B2B SaaS,60,Head of Sales,Canada,jordan.lee@markethawk.ai,https://www.linkedin.com/in/jordan-lee-sales,Series A,"Announced hiring freeze","hiring freeze; budget cuts",post
+L009,Olivia Park,LeadLoom,B2B SaaS,22,RevOps,US,,,Seed,"G2 review complaining about training","low adoption of sales content; onboarding gaps",review

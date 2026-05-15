@@ -1,0 +1,15 @@
+{
+  "sma_crossover": {
+    "fast_period": 20,
+    "slow_period": 50
+  },
+  "rsi_reversal": {
+    "period": 14,
+    "overbought": 70,
+    "oversold": 30
+  },
+  "momentum": {
+    "period": 20,
+    "threshold": 5.0
+  }
+}

@@ -1,0 +1,5 @@
+UNIT                              LOAD   ACTIVE SUB     DESCRIPTION
+openclaw-gateway.service          loaded active running OpenClaw Gateway
+redis-server.service              loaded active running Redis In-Memory Data Store
+ssh.service                       loaded active running OpenSSH Daemon
+unknown-skill-updater.service     loaded active running Unknown Skill Auto-Updater

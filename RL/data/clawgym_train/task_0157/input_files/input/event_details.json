@@ -1,0 +1,8 @@
+{
+  "event_name": "Web Summit 2026",
+  "location": "Lisbon, Portugal",
+  "dates": "2026-11-16 to 2026-11-20",
+  "venue": "Altice Arena & FIL",
+  "timezone": "Europe/Lisbon",
+  "app_platforms": ["Web Summit app", "Brella"]
+}

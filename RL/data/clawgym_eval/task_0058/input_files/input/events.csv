@@ -1,0 +1,4 @@
+event_id,event_name,event_date,ward,type
+E1,Block Walk - Eastside,2023-09-10,5,canvass
+E2,Phonebank Night,2023-09-12,citywide,phonebank
+E3,Community Meeting - Southside,2023-09-15,6,meeting

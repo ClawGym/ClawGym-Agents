@@ -1,0 +1,110 @@
+{
+  "hot_memory": {
+    "path": "company_prefs.md",
+    "approx_tokens": 1200,
+    "contents_mix": [
+      "identity and preferences",
+      "code review checklist (duplicate of topic doc)",
+      "live queue counts and dashboard snapshots",
+      "outdated operational status"
+    ],
+    "issues": [
+      "live status mixed into canon",
+      "too many bullets for hot path",
+      "duplication with topic doctrine"
+    ]
+  },
+  "topic_docs": [
+    {
+      "name": "code_review_checklist.md",
+      "status": "stable",
+      "location": "internal docs space",
+      "issues": "key bullets duplicated in hot memory"
+    },
+    {
+      "name": "ops_runbook.md",
+      "status": "partially stale",
+      "location": "internal docs space",
+      "issues": "interleaves alerts snapshots with doctrine sections"
+    },
+    {
+      "name": "memory_architecture_notes.md",
+      "status": "draft",
+      "location": "internal docs space",
+      "issues": "never linked from retrieval; not loaded"
+    }
+  ],
+  "project_memory": [
+    {
+      "project": "apollo",
+      "artifacts": [
+        "migration_plan_v2.md",
+        "db_migration_checklist.md"
+      ],
+      "status": "active"
+    },
+    {
+      "project": "mercury",
+      "artifacts": [
+        "research_notes.md",
+        "transcripts_qa_experiments.md"
+      ],
+      "status": "active"
+    }
+  ],
+  "episodic_logs": [
+    {
+      "date": "2026-04-18",
+      "path": "log_2026-04-18.md",
+      "status": "present"
+    },
+    {
+      "date": "2026-04-17",
+      "path": "log_2026-04-17.md",
+      "status": "missing"
+    }
+  ],
+  "generated_summaries": [
+    {
+      "name": "daily_dashboard_digest.json",
+      "location": "misc/",
+      "last_updated": "2026-04-18T17:00:00Z",
+      "issues": "treated as durable memory in retrieval; sometimes pasted into hot memory"
+    },
+    {
+      "name": "queue_health_summary.txt",
+      "location": "misc/",
+      "last_updated": "2026-04-18T10:20:00Z",
+      "issues": "not clearly marked as derived; occasionally stored long-term"
+    }
+  ],
+  "retrieval": {
+    "engine": "vector search over combined store",
+    "top_k": 50,
+    "filters": "none",
+    "order": "semantic similarity only; no authority separation",
+    "packing": {
+      "system_prompt_hot_memory": "entire company_prefs.md",
+      "additional_context": "top-k hits from vector store across logs, projects, doctrine, and dashboards"
+    },
+    "common_problems": [
+      "stale live status retrieved as truth",
+      "project details leak into global answers",
+      "token bloat during retrieval",
+      "conflicts between dashboard snapshots and doctrine"
+    ]
+  },
+  "governance": {
+    "memory_curator": "unassigned",
+    "last_promotion_sweep": "never",
+    "promotion_rules": "implicit/undefined",
+    "demotion_rules": "none",
+    "index_selector": "none",
+    "archive_policy": "append-only"
+  },
+  "constraints": {
+    "token_budget_per_call": 6000,
+    "desired_hot_bullets_max": 10,
+    "weekly_migration_capacity_hours": 18
+  }
+}

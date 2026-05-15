@@ -1,0 +1,3 @@
+room_name,location,capacity,available_slot_ids
+Conf Rm 1,HQ - Floor 5,4,1;2;3;4;5
+Conf Rm 2,HQ - Floor 7,8,2;4;5

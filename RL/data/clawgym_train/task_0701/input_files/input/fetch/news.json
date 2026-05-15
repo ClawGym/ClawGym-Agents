@@ -1,0 +1,7 @@
+{
+  "url": "https://example-news.site/articles/privacy-digest?api_key=sk_live_51abc&ref=newsletter&campaign=alpha#intro",
+  "finalUrl": "https://example-news.site/articles/privacy-digest?api_key=sk_live_51abc&ref=newsletter&campaign=alpha#intro",
+  "contentType": "text/html; charset=utf-8",
+  "text": "<!doctype html><html><head><meta charset=\"utf-8\"><title>Report: Privacy-First Research Digests Gain Traction</title></head><body><article><header><h1>Report: Privacy-First Research Digests Gain Traction</h1><p class=\"byline\">By Data Ledger • Updated 2026-04-12</p></header><section><h2>Summary</h2><p>Independent creators are launching privacy-first research digests to reduce tracking while still delivering curated insights. Teams are adopting clear data boundaries and honoring Content-Signal semantics such as ai-train=no and ai-input=restricted.</p></section><section><h2>Key Findings</h2><ul><li>Readers prefer short weekly roundups with sources summarized to Markdown.</li><li>Explicit URL redaction policies improve trust.</li><li>Sites that publish Content-Signal headers expect downstream tools to respect them.</li></ul></section><section><h2>Implementation Notes</h2><p>Common safeguards include: stripping fragments, masking query parameters, and converting HTML to Markdown for a consistent reading experience.</p><p>Early adopters report higher open rates when the digest avoids third-party trackers and respects do-not-train signals.</p></section><footer><p>Source: Example News Research Desk</p></footer></article></body></html>",
+  "status": 200
+}

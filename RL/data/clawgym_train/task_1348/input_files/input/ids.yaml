@@ -1,0 +1,19 @@
+vat_number: "GB119752999"
+utrs:
+  - "1234567890"     # valid (10 digits)
+  - "0123456789"     # valid (10 digits)
+  - "123456789"      # invalid (9 digits)
+  - "12345A7890"     # invalid (non-digit)
+  - "9876543210"     # valid (10 digits)
+  - "0000000000"     # valid (10 digits)
+ninos:
+  - "AB123456C"      # valid
+  - "ab123456c"      # valid (case-insensitive)
+  - "QQ123456A"      # invalid (first letter Q not allowed)
+  - "GB123456E"      # invalid (suffix must be A-D)
+  - "TN12345A"       # invalid (only 5 digits)
+  - "DF123456B"      # invalid (first letter D not allowed)
+  - "AZ123456D"      # valid
+  - "ZX000000A"      # valid
+  - "BV654321D"      # valid
+  - "A1123456A"      # invalid (first part not two letters)

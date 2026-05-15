@@ -1,0 +1,28 @@
+{
+  "id": "RES-MID-001",
+  "name": "Maple Court Residences",
+  "gross_area": 4800,
+  "building_type": "Residential",
+  "quantities": [
+    {
+      "material_id": "concrete_40mpa",
+      "quantity": 1452.682667
+    },
+    {
+      "material_id": "steel_structural",
+      "quantity": 187313.007
+    },
+    {
+      "material_id": "steel_rebar",
+      "quantity": 122044.741
+    },
+    {
+      "material_id": "timber_clt",
+      "quantity": 20.914667
+    },
+    {
+      "material_id": "aluminum",
+      "quantity": 220.526
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+target,arr_millions,growth_yoy_percent,nrr_percent,gross_margin_percent,recurring_percent,customer_concentration_top10_percent,top_customer_percent,key_customer_expiration_months,founder_transition_willingness_months,tech_deprecated,technology_status,employee_turnover_percent
+HelpHub,12,35,108,76,92,38,14,18,9,false,Modern NodeTS microservices; React; Postgres on AWS; event-driven architecture,12
+TicketFlow,7.5,22,97,68,85,52,28,8,0,true,Monolithic Ruby 2.5; AngularJS 1.x; MySQL single node; on-prem legacy customers,34
+SupportNexus,4.2,-12,101,72,88,41,19,16,6,false,Python FastAPI services; Vue 3; PostgreSQL; legacy cron jobs pending refactor,22

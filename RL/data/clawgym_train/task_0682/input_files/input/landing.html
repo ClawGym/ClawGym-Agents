@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Launch Landing Page</title>
+    <meta name="description" content="Sample landing page used for pre-launch link audit.">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Launch</h1>
+      <p>Explore our main site and resources below. All links are part of the pre-launch audit.</p>
+      <nav>
+        <ul>
+          <li><a href="https://example.com">Main Site</a></li>
+          <li><a href="http://neverssl.com">No-SSL Demo</a></li>
+          <li><a href="https://www.iana.org/domains/reserved">IANA Reserved Domains</a></li>
+          <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <h2>Status Test Endpoints</h2>
+      <p>These endpoints simulate different HTTP responses for our link checker and monitoring tools.</p>
+      <ul>
+        <li><a href="https://httpstat.us/200">200 OK</a></li>
+        <li><a href="https://httpstat.us/301">301 Redirect</a></li>
+        <li><a href="https://httpstat.us/302">302 Redirect</a></li>
+        <li><a href="https://httpstat.us/404">404 Not Found</a></li>
+        <li><a href="https://httpstat.us/418">418 Client Error</a></li>
+        <li><a href="https://httpstat.us/500">500 Internal Server Error</a></li>
+        <li><a href="https://httpstat.us/503">503 Service Unavailable</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Error Handling</h2>
+      <p>The following link is expected to fail DNS resolution as part of testing: <strong>https://example.invalid</strong></p>
+      <p>Plain text repeat for extraction testing: https://httpstat.us/404</p>
+    </section>
+
+    <footer>
+      <p>&copy; Pre-Launch QA</p>
+    </footer>
+  </body>
+</html>

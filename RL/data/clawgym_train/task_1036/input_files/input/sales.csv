@@ -1,0 +1,7 @@
+event_id,tickets_sold,avg_ticket_price,merch_units,avg_merch_price,concessions_gross,concessions_share_rate
+E01,180,25,90,20,2000,0.10
+E02,220,22,140,18,3000,0.12
+E03,4000,40,500,25,50000,0.15
+E04,130,20,70,15,1500,0.10
+E05,1500,35,800,22,30000,0.20
+E06,210,24,110,17,2500,0.10

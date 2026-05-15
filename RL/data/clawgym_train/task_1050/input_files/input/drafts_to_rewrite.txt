@@ -1,0 +1,5 @@
+[CO MESSAGE DRAFT]
+Sir, during last watch we held an intermittent contact bearing 075 rel, possibly a quiet diesel-electric. In the ASW plot we ran TMA using the legacy model; results were noisy due to coastal clutter. MAD cueing was inconclusive. VLF band was cluttered; the narrow filter might be off. Quick FFT on the last stack showed a weak line around 25 Hz. Recommend we tighten search sectors and shift to IMM TMA for littoral tracks. Standing by for your guidance.
+
+[ALLIED LIAISON DRAFT]
+For the coalition desk: We observed a faint track consistent with routine fishing traffic, but continuing to monitor. ASW picture is otherwise calm. Switching TMA model from legacy to IMM for near-shore runs to reduce false solutions. We will retune VLF filtering before next watch. No action requested from partners at this time.

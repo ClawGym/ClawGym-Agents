@@ -1,0 +1,7 @@
+Subject: HELOC interest
+Name: S. Patel
+Email: spatel@example.org
+Phone: 555-2299
+Loan purpose: HELOC
+Estimated credit score: 690
+Loan amount: $100,000

@@ -1,0 +1,8 @@
+{"timestamp":"2026-04-14T10:02:00Z","project":"Client Analytics Dashboard","task_id":"CAD-12","task":"Wireframe charts","status":"completed","owner":"Mina Park","note":"Approved by client."}
+{"timestamp":"2026-04-15T16:07:00Z","project":"Internal Forecasting Toolkit","task_id":"IFT-3","task":"Set up repo and CI","status":"completed","owner":"Alex Romero","note":"CI green."}
+{"timestamp":"2026-04-16T09:20:00Z","project":"Client Analytics Dashboard","task_id":"CAD-18","task":"Define data contracts","status":"blocked","days_blocked":4,"owner":"Priya Patel","note":"Waiting on API keys from client IT."}
+{"timestamp":"2026-04-16T12:30:00Z","project":"Internal Forecasting Toolkit","task_id":"IFT-7","task":"Prototype feature loader","status":"in_progress","owner":"Avery Chen","note":"50% done."}
+{"timestamp":"2026-04-16T13:05:00Z","project":"Client Analytics Dashboard","task_id":"CAD-21","task":"Draft KPI glossary","status":"in_progress","owner":"Leo Garcia","note":"Drafting definitions."}
+{"timestamp":"2026-04-17T08:41:00Z","project":"Internal Forecasting Toolkit","task_id":"IFT-9","task":"Vendor data connector","status":"blocked","days_blocked":3,"owner":"Jules Kim","note":"Awaiting sandbox credentials."}
+{"timestamp":"2026-04-17T14:22:00Z","project":"Client Analytics Dashboard","task_id":"CAD-13","task":"Select charting library","status":"completed","owner":"Mina Park","note":"Decided on ECharts."}
+{"timestamp":"2026-04-17T17:55:00Z","project":"Internal Forecasting Toolkit","task_id":"IFT-10","task":"Error logging setup","status":"blocked","days_blocked":1,"owner":"Alex Romero","note":"Waiting on logging account."}

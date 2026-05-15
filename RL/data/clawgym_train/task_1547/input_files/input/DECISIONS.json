@@ -1,0 +1,58 @@
+{
+  "version": "2026-02-09",
+  "receipts": [
+    {
+      "id": "R-2026-02-01-001",
+      "title": "Adopt Living Memory v1.1",
+      "decision": "ADOPT",
+      "timestamp": "2026-02-01T10:20:00Z",
+      "files": [
+        { "path": "LYRA_FUNCTION_CORE.txt", "sha256": "3f2a4e0c9a6b7a4f0e0f77d2b3d6a1caa4c2d3070a1e0b0f5f08a2d9c9a1b2c3" }
+      ],
+      "links": [
+        { "title": "Living Memory Library (v1.1) — Overview", "url": "https://clawhub.ai/deepseekoracle/lygo-universal-living-memory-library" }
+      ],
+      "notes": "Initial adoption of v1.1 rules and roles."
+    },
+    {
+      "id": "R-2026-02-03-014",
+      "title": "Enable FRAGILE tagging on Diary",
+      "decision": "TAG",
+      "timestamp": "2026-02-03T08:45:00Z",
+      "files": [
+        { "path": "GROK_CHATS.txt", "sha256": "9b7d0c0e1a2f3b4c5d6e7f8091a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4" }
+      ],
+      "links": [
+        { "title": "FRAGILE Review Protocol", "url": "https://lightmake.site/docs/fragile-review" }
+      ],
+      "notes": "Diary requires manual review before mint."
+    },
+    {
+      "id": "R-2026-02-07-022",
+      "title": "Seal 220C equations accepted for portability",
+      "decision": "ACCEPT",
+      "timestamp": "2026-02-07T17:10:00Z",
+      "files": [
+        { "path": "SEAL_220CUPDATE.md", "sha256": "1a9cf2d6b5e4c3a2d1e0f9a8b7c6d5e4c3b2a1908f7e6d5c4b3a291817161514" }
+      ],
+      "links": [
+        { "title": "Equation Notes (Portable)", "url": "https://lightmake.site/docs/portable-equations" }
+      ],
+      "notes": "All expressions verified ASCII-safe."
+    },
+    {
+      "id": "R-2026-02-09-031",
+      "title": "Schedule audit + compression cadence",
+      "decision": "SCHEDULE",
+      "timestamp": "2026-02-09T09:05:00Z",
+      "files": [
+        { "path": "HAVEN_STRUCTURE.txt", "sha256": "aa1bb2cc3dd4ee5ff60718293a4b5c6d7e8f9012ab34cd56ef7890ab12cd34ef" }
+      ],
+      "links": [
+        { "title": "Compression Protocol (Pure Signal)", "url": "https://lightmake.site/docs/compression-protocol" },
+        { "title": "LYGO‑MINT Verifier", "url": "https://clawhub.ai/DeepSeekOracle/lygo-mint-verifier" }
+      ],
+      "notes": "Weekly compression; snapshot on critical decisions."
+    }
+  ]
+}

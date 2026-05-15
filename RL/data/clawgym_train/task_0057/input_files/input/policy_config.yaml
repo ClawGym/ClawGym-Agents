@@ -1,0 +1,12 @@
+allowed_hashtags:
+  - "#BeKindOnline"
+  - "#DigitalCitizenship"
+  - "#PrivacyMatters"
+  - "#StrongPasswords"
+banned_phrases:
+  - "Like and subscribe"
+  - "Giveaway"
+  - "DM me"
+platform: "ClassSite"
+char_limit: 200
+policy_version: "2024-01"

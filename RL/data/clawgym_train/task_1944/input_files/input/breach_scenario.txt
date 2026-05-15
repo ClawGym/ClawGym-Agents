@@ -1,0 +1,40 @@
+Title: Compromised Support Mailbox via Phishing and Malicious Forwarding Rules
+
+Detection:
+- On 2026-03-08 09:40 UTC, our security monitoring alerted to anomalous IMAP logins to the shared support mailbox (support@nimblecart.com) from an IP range in a foreign country not previously seen in our access logs.
+- A review of the mailbox uncovered unauthorized OAuth consent to a suspicious mail app and auto-forward rules that redirected inbound messages with attachments to an external Gmail address.
+
+Timeline:
+- Initial compromise likely occurred on 2026-03-06 16:12 UTC after a support agent clicked a phishing link in an email spoofing “O365 Security” and entered credentials on a fake page.
+- The attacker created two forwarding rules (“all messages with attachment” and “subject contains ‘invoice’”) and granted an OAuth app access to read mail.
+- Forwarding and access persisted until containment on 2026-03-08 12:25 UTC.
+
+Scope and Data Impact:
+- Approximately 3,100 messages were accessed; we estimate 2,350 unique individuals impacted across customers and their end-customers who wrote to us for support.
+- Data categories likely exposed: names, email addresses, merchant IDs, order IDs, and in 124 cases attachments (PDF/PNG) that included shipping labels with postal addresses. No full payment card numbers or passwords were present; some messages referenced “last 4” of a card (masked).
+- Geographic distribution (estimates): ~650 EU/EEA data subjects, ~420 UK data subjects, ~510 California residents, remainder distributed across US and other regions, including ~90 Brazil residents.
+
+Containment and Remediation to Date:
+- 2026-03-08 12:25 UTC: Disabled the malicious OAuth app, removed forwarding rules, revoked all active sessions, and forced password reset for the mailbox.
+- Enforced MFA and disabled legacy IMAP/POP protocols on all shared mailboxes.
+- Searched logs for data exfiltration indicators; cloud provider logs confirm message access and rule creation but no mass download via API beyond the accessed set.
+- Initiated password resets for any user that communicated credentials through support (none found).
+- Notified the impacted merchant accounts via in-app banner that we are investigating a support mailbox incident; full notifications pending legal assessment.
+
+Root Cause (Preliminary):
+- Phishing email bypassed basic filtering; the shared mailbox did not have enforced MFA due to a legacy exemption for IMAP clients. Conditional access policies were not applied to shared mailboxes.
+
+Open Items / Decisions Needed:
+- Authority notification: Given EU/UK data subjects and potential risk of identity theft and exposure of addresses, we likely need to notify relevant supervisory authorities within 72 hours of awareness if risk is above low.
+- Data subject notification: For individuals whose postal addresses were in attachments, risk is higher; consider direct notifications.
+- Processor notifications: Zendesk and email provider to be informed that their systems were not breached but may need to assist with logs and containment validation.
+
+Assumptions for Register:
+- Date detected: 2026-03-08
+- Date contained: 2026-03-08
+- Nature: Confidentiality breach via unauthorized access and exfiltration by forwarding
+- Cause: Phishing + lack of MFA on shared mailbox
+- Estimated affected: 2,350 individuals; ~3,100 records/messages touched
+- Special categories: None expected; no health/biometric data; some addresses in attachments
+- Risk level: Medium to High for a subset (attachments with addresses)
+- Cross-border: Yes, impacted data subjects include EU, UK, US-CA, and BR residents

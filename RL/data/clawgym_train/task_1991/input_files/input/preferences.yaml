@@ -1,0 +1,89 @@
+customers:
+  - customer_id: CUST-001
+    seeking_products:
+      - auto
+      - homeowners
+    telematics_opt_in: true
+    bundle_interest: high
+    good_student_present: false
+    steer_clear_candidate: false
+    preferred_quote_channels:
+      - online
+      - agent
+    claim_channel_preference:
+      - mobile_app
+      - online
+    home_features:
+      security_system: true
+      impact_resistant_roof: false
+
+  - customer_id: CUST-002
+    seeking_products:
+      - auto
+      - renters
+      - life
+    telematics_opt_in: false
+    open_to_telematics_later: true
+    bundle_interest: medium
+    good_student_present: true
+    steer_clear_candidate: true
+    life_insurance_interest:
+      types_considered:
+        - term
+        - whole
+      priority: "income protection for dependent"
+    preferred_quote_channels:
+      - agent
+      - online
+    claim_channel_preference:
+      - online
+      - phone
+    home_features:
+      security_system: false
+
+  - customer_id: CUST-003
+    seeking_products:
+      - auto
+      - homeowners
+      - umbrella
+    telematics_opt_in: true
+    bundle_interest: high
+    good_student_present: true
+    steer_clear_candidate: true
+    umbrella_interest: true
+    preferred_quote_channels:
+      - online
+      - mobile_app
+      - agent
+    claim_channel_preference:
+      - mobile_app
+      - online
+    home_features:
+      security_system: true
+      impact_resistant_roof: true
+      wind_mitigation: true
+
+  - customer_id: CUST-004
+    seeking_products:
+      - auto
+      - homeowners
+      - life
+    telematics_opt_in: true
+    bundle_interest: high
+    good_student_present: false
+    steer_clear_candidate: false
+    life_insurance_interest:
+      types_considered:
+        - term
+        - universal
+      priority: "long-term protection with flexibility"
+    preferred_quote_channels:
+      - agent
+      - online
+    claim_channel_preference:
+      - online
+      - mobile_app
+    home_features:
+      security_system: false
+      impact_resistant_roof: false
+    homeowners_request_is_new_policy: true

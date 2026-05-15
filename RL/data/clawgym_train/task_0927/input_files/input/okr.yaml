@@ -1,0 +1,82 @@
+quarter: "Q2-2026"
+owner: "Product Team"
+note: "OKRs for April–June 2026. Keys are referenced as OBJx/KRy."
+
+objectives:
+  - key: "OBJ1"
+    title: "Increase new-user activation"
+    description: "Improve early funnel conversion and accelerate first value."
+    key_results:
+      - key: "OBJ1/KR1"
+        title: "Increase activation rate from 32% to 45%"
+        metric: "activation_rate_percent"
+        baseline: 32
+        target: 45
+        target_date: "2026-06-30"
+      - key: "OBJ1/KR2"
+        title: "Ship Onboarding Checklist v1 and instrument funnel"
+        metric: "checklist_released_and_events_covered"
+        target: "Checklist released + events ≥ 90% coverage"
+        target_date: "2026-05-12"
+
+  - key: "OBJ2"
+    title: "Reduce time-to-value via integrations"
+    description: "Deliver high-impact integrations that shorten setup friction."
+    key_results:
+      - key: "OBJ2/KR1"
+        title: "Release Slack integration MVP"
+        metric: "slack_mvp_shipped"
+        target: "MVP available to design partners by 2026-05-10"
+        target_date: "2026-05-10"
+      - key: "OBJ2/KR2"
+        title: "Cut median TTV by 20%"
+        metric: "median_time_to_value_minutes"
+        baseline: 120
+        target: 96
+        target_date: "2026-06-30"
+
+  - key: "OBJ3"
+    title: "Strengthen reliability and observability"
+    description: "Reduce user-visible errors and improve alerting."
+    key_results:
+      - key: "OBJ3/KR1"
+        title: "Reduce API 5xx rate below 0.2%"
+        metric: "api_5xx_percent"
+        baseline: 0.6
+        target: 0.2
+        target_date: "2026-06-30"
+      - key: "OBJ3/KR2"
+        title: "Ship SLO dashboards and alerts"
+        metric: "slo_dashboards_alerts_live"
+        target: "Dashboards live with paging alerts"
+        target_date: "2026-05-31"
+
+  - key: "OBJ4"
+    title: "Convert design partners to paid pilots"
+    description: "Secure and deliver high-quality pilots that convert."
+    key_results:
+      - key: "OBJ4/KR1"
+        title: "Close 3 design partner pilots"
+        metric: "design_partner_pilots_signed"
+        target: 3
+        target_date: "2026-06-30"
+      - key: "OBJ4/KR2"
+        title: "Deliver demo that meets Acme's acceptance criteria"
+        metric: "acme_demo_pass"
+        target: "Demo accepted by 2026-05-08"
+        target_date: "2026-05-08"
+
+  - key: "OBJ5"
+    title: "Analytics foundations"
+    description: "Ensure product analytics coverage for activation and retention."
+    key_results:
+      - key: "OBJ5/KR1"
+        title: "≥ 90% activation funnel event coverage"
+        metric: "event_coverage_percent"
+        target: 90
+        target_date: "2026-05-12"
+      - key: "OBJ5/KR2"
+        title: "Publish analytics QA playbook"
+        metric: "playbook_published"
+        target: "v1 published"
+        target_date: "2026-05-31"

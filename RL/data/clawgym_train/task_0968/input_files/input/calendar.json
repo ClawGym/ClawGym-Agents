@@ -1,0 +1,8 @@
+{
+  "start_date": "2026-05-11",
+  "business_days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+  "crews": [
+    { "name": "Crew A", "size": 3 }
+  ],
+  "notes": "Single crew operation. Standard 8-hour workday. No work on weekends unless noted."
+}

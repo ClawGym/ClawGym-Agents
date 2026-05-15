@@ -1,0 +1,10 @@
+{
+  "route": "Central City -> Ridgefield",
+  "date": "2026-05-15",
+  "departure_window": {"earliest": "08:00", "latest": "12:00"},
+  "max_duration_min": 220,
+  "min_on_time_pct": 85,
+  "disallow_low_availability": true,
+  "scoring_weights": {"on_time_pct": 0.6, "duration_min": 0.25, "fare_usd": 0.15},
+  "tie_breakers": ["earliest_arrival", "fewest_transfers"]
+}

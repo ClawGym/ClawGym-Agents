@@ -1,0 +1,15 @@
+required_sections:
+  - Meeting Title
+  - Date
+  - Location
+  - Attendees
+  - Agenda Summary
+  - Scholarship Requirements Summary
+  - Decisions
+  - Action Items
+action_item_columns:
+  - task
+  - owner
+  - due_date
+  - source
+  - category

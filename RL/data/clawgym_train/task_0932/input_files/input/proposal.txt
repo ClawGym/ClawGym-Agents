@@ -1,0 +1,48 @@
+QuickAsk: One-Question Requests for Asynchronous Work
+
+Original framing: QuickAsk forces a single explicit question per request to cut coordination tax in teams.
+
+Problem
+- Ambiguous pings and meandering chats create back-and-forth that escalates into meetings.
+- Recipients see unclear asks, context sprawl, and no single answerable question.
+- Senders assume recipients “get it,” then chase clarifications later.
+
+Target Users
+- Knowledge workers in mid-size, distributed organizations (engineering, product, design, ops).
+- Constraints: frequent context switching, limited meeting windows, and reliance on async communication.
+
+Core Proposition
+- Forcing the sender to state one explicit question — plus minimal context — reduces ambiguity and increases first-response rates without synchronous meetings.
+- The goal is fewer clarifications and faster first replies by compressing the ask into a single, answerable unit.
+
+Mechanic (concept)
+- A composer with a required Question field.
+- Optional 140-character context field.
+- A simple inbox for recipients to reply in one go; no complex threads or reactions in v1.
+- Optional voice notes considered later; not core.
+
+Non-Goals
+- Not a full chat replacement.
+- Not a task tracker.
+- Not a meeting scheduler.
+
+Critical Assumption
+- Senders will accept a small upfront cost (tens of seconds) to formulate a single explicit question because it saves everyone time later.
+
+Early Signals (internal exploration)
+- Semi-structured interviews suggest many “clarification chases” originate from missing questions.
+- Pilot observation indicated higher first-response rates when a single question was enforced (see user responses for exact numbers).
+
+Open Risks
+- Senders may split complex asks into multiple separate requests.
+- Recipients could feel pressured to answer fast if the ask looks “simple.”
+- Some work items genuinely require multi-part asks; forcing a single question could oversimplify.
+
+Initial Scope
+- Ship a minimal composer (required Question + optional short context) and a basic reply box.
+- Defer voice, reminders, locks, and rich formatting.
+- Measure first-response rate and time-to-first-reply deltas against unstructured requests.
+
+Success Criteria
+- Increased first-response rate and reduced time-to-first-reply versus unstructured pings.
+- High opt-in/continued use of the composer after the first week.

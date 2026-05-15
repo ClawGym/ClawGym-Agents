@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Anna Lee",
+    "email": "anna@example.com",
+    "timezone": "America/Los_Angeles",
+    "interest_tags": ["trauma", "indie", "drama"],
+    "engagement_score": 0.8,
+    "notify_window_days": 5,
+    "follow_up_window_days": 2
+  },
+  {
+    "name": "Ben Ortiz",
+    "email": "ben@example.com",
+    "timezone": "America/Los_Angeles",
+    "interest_tags": ["recovery", "anxiety", "indie"],
+    "engagement_score": 0.6,
+    "notify_window_days": 3,
+    "follow_up_window_days": 1
+  },
+  {
+    "name": "Carla Mendez",
+    "email": "carla@example.com",
+    "timezone": "America/Los_Angeles",
+    "interest_tags": ["family", "drama"],
+    "engagement_score": 0.9,
+    "notify_window_days": 7,
+    "follow_up_window_days": 2
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "P201",
+    "name": "SoMa Nails & Spa",
+    "distanceMiles": 2.1,
+    "rating": 4.6,
+    "services": [
+      { "serviceId": "svc-deluxe-001", "serviceName": "Deluxe Pedicure" },
+      { "serviceId": "svc-classic-001", "serviceName": "Classic Pedicure" },
+      { "serviceId": "svc-gelmani-001", "serviceName": "Gel Manicure" }
+    ]
+  },
+  {
+    "id": "P105",
+    "name": "Mission Beauty Lounge",
+    "distanceMiles": 4.5,
+    "rating": 4.8,
+    "services": [
+      { "serviceId": "svc-deluxe-002", "serviceName": "Deluxe Pedicure" },
+      { "serviceId": "svc-classic-002", "serviceName": "Classic Pedicure" }
+    ]
+  },
+  {
+    "id": "P330",
+    "name": "Bay City Nails",
+    "distanceMiles": 7.9,
+    "rating": 4.4,
+    "services": [
+      { "serviceId": "svc-deluxe-003", "serviceName": "Deluxe Pedicure" },
+      { "serviceId": "svc-kids-001", "serviceName": "Kid's Pedicure" }
+    ]
+  },
+  {
+    "id": "P420",
+    "name": "Sunset Zen Spa",
+    "distanceMiles": 6.0,
+    "rating": 4.2,
+    "services": [
+      { "serviceId": "svc-deluxe-004", "serviceName": "Deluxe Pedicure" },
+      { "serviceId": "svc-lux-001", "serviceName": "Luxury Manicure" }
+    ]
+  },
+  {
+    "id": "P512",
+    "name": "Downtown Quick Nails",
+    "distanceMiles": 8.5,
+    "rating": 4.5,
+    "services": [
+      { "serviceId": "svc-deluxe-005", "serviceName": "Deluxe Pedicure" },
+      { "serviceId": "svc-express-001", "serviceName": "Express Pedicure" }
+    ]
+  },
+  {
+    "id": "P901",
+    "name": "Noe Organic Spa",
+    "distanceMiles": 3.0,
+    "rating": 4.9,
+    "services": [
+      { "serviceId": "svc-luxped-001", "serviceName": "Luxury Pedicure" },
+      { "serviceId": "svc-organic-001", "serviceName": "Organic Manicure" }
+    ]
+  }
+]

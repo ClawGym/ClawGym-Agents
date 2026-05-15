@@ -1,0 +1,5 @@
+email,response,plus_ones,timestamp_iso,notes
+clara@example.com,Yes,0,2026-04-16T12:00:00Z,
+eva@example.com,No,0,2026-04-13T09:10:00Z,
+liam@example.com,Yes,1,2026-04-17T17:30:00Z,
+kara@example.com,No,0,2026-04-11T10:05:00Z,

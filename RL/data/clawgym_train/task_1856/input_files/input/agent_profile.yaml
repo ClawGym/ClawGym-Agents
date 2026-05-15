@@ -1,0 +1,118 @@
+id: "cs-assistant-v1"
+name: "Aurora Support Assistant"
+owner: "Customer Experience Team"
+description: "Autonomous customer-support agent handling refunds, order lookups, and cancellations within policy limits. Optimized for speed, safety, and cost-efficiency."
+
+capabilities:
+  - "Order lookups by ID, email, or recent history (read OMS)"
+  - "Refund initiation via OMS within allowed limits and time windows"
+  - "Order cancellation when status allows (pre-shipment)"
+  - "Compose and send templated customer emails (CRM integration)"
+  - "Summarize conversation histories and attach case notes"
+  - "Trigger human escalation with full context when required"
+
+typical_actions:
+  - name: "lookup_order"
+    method: "GET"
+    resource: "OMS"
+    path_template: "/orders/{order_id}"
+  - name: "cancel_order"
+    method: "POST"
+    resource: "OMS"
+    path_template: "/orders/{order_id}/cancel"
+  - name: "initiate_refund"
+    method: "POST"
+    resource: "OMS"
+    path_template: "/orders/{order_id}/refunds"
+  - name: "get_payment"
+    method: "GET"
+    resource: "PaymentsService"
+    path_template: "/payments/{payment_id}"
+  - name: "get_ledger_entry"
+    method: "GET"
+    resource: "LedgerDB"
+    path_template: "/ledger/entries/{entry_id}"
+  - name: "add_crm_note"
+    method: "POST"
+    resource: "CRM"
+    path_template: "/cases/{case_id}/notes"
+
+systems:
+  OMS:
+    description: "Order Management System — source of truth for orders, refunds, cancellations"
+    access: "read/write for order state within policy"
+  PaymentsService:
+    description: "Financial transactions service (settlements, adjustments)"
+    access: "read-only for AI agent"
+  LedgerDB:
+    description: "General ledger database"
+    access: "read-only for AI agent"
+  CRM:
+    description: "Customer relationship management — cases, emails, notes"
+    access: "read/write (notes and emails only)"
+
+data_access:
+  pii:
+    allowed_fields: ["customer_name", "email", "shipping_address"]
+    prohibited_fields: ["full_card_number", "cvv", "bank_account_number"]
+  scope: "per-request minimum necessary"
+
+cost_model:
+  llm:
+    avg_tokens_per_conversation: 200
+    token_cost_usd_per_1k: 0.01
+  api_calls:
+    oms_read_usd: 0.0005
+    oms_write_usd: 0.001
+    payments_read_usd: 0.0007
+    ledger_read_usd: 0.0007
+    crm_write_usd: 0.0008
+  business_actions:
+    refund_cost_equals_amount: true
+
+operational_baselines:
+  window_days: 14
+  decision_quality_mean: 0.941
+  decision_quality_p10: 0.935
+  error_rate_mean: 0.021
+  error_rate_p90: 0.026
+  avg_latency_ms_mean: 2450
+  token_usage_daily_mean: 208000
+  token_usage_daily_p90: 230000
+  confidence_mean: 0.83
+  conversations_daily_mean: 1040
+
+safety_constraints:
+  refund_limits:
+    auto_approve_under_usd: 50
+    manager_review_usd_max: 200
+    finance_approval_above_usd: 200
+    hard_cap_usd: 500
+    time_window_days: 30
+  financial_systems_read_only:
+    - "PaymentsService"
+    - "LedgerDB"
+  min_confidence_for_auto_actions: 0.70
+  escalate_below_confidence: 0.60
+
+known_behaviors:
+  - "Occasional repeated lookups on ambiguous orders can spike token usage"
+  - "Longer reasoning paths during policy interpretation increase latency"
+  - "Tends to propose small goodwill refunds when policy is borderline"
+  - "Confidence scores correlate with decision quality; <0.6 is risky"
+
+escalation_contacts:
+  support_team: "support_team@company.com"
+  security_team: "security_team@company.com"
+  on_call_manager: "oncall_manager@company.com"
+
+assumptions:
+  - "Agent executes writes only in OMS and CRM per policy"
+  - "All financial adjustments must be created by humans; AI only reads from financial systems"
+  - "Refund amounts represent direct business cost; enforce strict thresholds"
+
+monitoring_notes:
+  - "Alert if decision_quality < 0.92 for >10 minutes"
+  - "Alert if error_rate > 0.04 over 5 minutes or spikes above 0.05"
+  - "Token usage anomaly if >3x 7-day hourly rolling average"
+  - "Page on call if confidence_mean < 0.6 with pending action"

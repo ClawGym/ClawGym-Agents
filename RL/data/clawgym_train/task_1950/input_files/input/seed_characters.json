@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Maya Chen",
+    "age": 28,
+    "pronouns": "she/her",
+    "role": "Urban gardener and project lead",
+    "traits": ["patient", "resourceful", "detail-oriented", "quietly humorous"],
+    "goals": ["Restore the Marigold rooftop as a shared garden", "Earn community trust", "Redeem a past failed proposal"],
+    "background": "Studied environmental design; volunteers at the community center. Previously pitched a garden plan that stalled.",
+    "relationships": {
+      "Jamal Ortiz": "Works with him to navigate building logistics",
+      "Evelyn Park": "Seeks her help with permit research",
+      "Theo Brooks": "Mentors his sensor experiments"
+    }
+  },
+  {
+    "name": "Jamal Ortiz",
+    "age": 35,
+    "pronouns": "he/him",
+    "role": "Building superintendent and evening musician",
+    "traits": ["pragmatic", "protective", "steady", "good listener"],
+    "goals": ["Keep the building safe", "Support community projects within rules", "Find time for music"],
+    "background": "Knows the Marigold’s bones: beams, vents, skylights. Grew up nearby; cares about the tenants.",
+    "relationships": {
+      "Maya Chen": "Gatekeeper for rooftop access; potential ally",
+      "Evelyn Park": "Trades stories; respects her thoroughness",
+      "Theo Brooks": "Keeps an eye on his tinkering for safety"
+    }
+  },
+  {
+    "name": "Evelyn Park",
+    "age": 62,
+    "pronouns": "she/her",
+    "role": "Retired librarian, neighborhood historian",
+    "traits": ["meticulous", "kindly direct", "observant", "archival memory"],
+    "goals": ["Ensure the garden’s plan is documented and compliant", "Connect old neighbors with new arrivals"],
+    "background": "Managed the library’s local history room; knows where paperwork lives and what to ask for.",
+    "relationships": {
+      "Maya Chen": "Offers research support and moral steadiness",
+      "Jamal Ortiz": "Shares building records; swaps maintenance lore",
+      "Theo Brooks": "Encourages curiosity, shares note-taking tricks"
+    }
+  },
+  {
+    "name": "Theo Brooks",
+    "age": 14,
+    "pronouns": "he/him",
+    "role": "Tinkerer and aspiring environmental scientist",
+    "traits": ["curious", "inventive", "eager", "earnest"],
+    "goals": ["Build simple sensors for moisture and light", "Contribute despite being younger", "See plants thrive"],
+    "background": "Lives on the fourth floor with his aunt; subscribes to maker forums; loves salvaging parts.",
+    "relationships": {
+      "Maya Chen": "Looks up to her as a mentor",
+      "Jamal Ortiz": "Asks for permission before testing gadgets",
+      "Evelyn Park": "Helps catalog rooftop findings"
+    }
+  }
+]

@@ -1,0 +1,19 @@
+date,order_id,channel,product,units,unit_price,cost_per_unit,promo_code
+2025-06-01,O001,online,Almond Flour Brownie,2,3.50,1.20,NEWGF10
+2025-06-01,O001,online,Coconut Macaron,6,1.80,0.60,NEWGF10
+2025-06-02,O002,market,Buckwheat Banana Muffin,4,2.50,1.00,
+2025-06-03,O003,online,Quinoa Lemon Tart,1,4.00,1.50,
+2025-06-05,O004,pop-up,Chia Seed Cookie,5,1.50,0.50,BOGO
+2025-06-08,O005,online,Almond Flour Brownie,3,3.50,1.20,
+2025-06-10,O006,market,Coconut Macaron,10,1.80,0.60,BOGO
+2025-06-12,O007,online,Buckwheat Banana Muffin,2,2.50,1.00,
+2025-06-15,O008,market,Quinoa Lemon Tart,2,4.00,1.50,
+2025-06-16,O009,online,Chia Seed Cookie,8,1.50,0.50,
+2025-06-18,O010,pop-up,Almond Flour Brownie,1,3.50,1.20,
+2025-06-20,O011,market,Coconut Macaron,12,1.80,0.60,NEWGF10
+2025-06-22,O012,online,Quinoa Lemon Tart,3,4.00,1.50,
+2025-06-24,O013,market,Buckwheat Banana Muffin,6,2.50,1.00,
+2025-06-25,O014,online,Chia Seed Cookie,4,1.50,0.50,
+2025-06-27,O015,market,Almond Flour Brownie,5,3.50,1.20,
+2025-06-28,O016,online,Coconut Macaron,7,1.80,0.60,
+2025-06-30,O017,market,Chia Seed Cookie,9,1.50,0.50,BOGO

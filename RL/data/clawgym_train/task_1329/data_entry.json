@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1329",
+  "user_query": "Our CI keeps failing a leap-year test in our tiny date utils. Please debug this using a disciplined, evidence-first protocol with bounded escalation. Read input/buggy_module.py and input/test_log.txt. Produce three artifacts that show your escalation steps and evidence: (1) output/progress_l1.md using a \"Debug Progress\" template with sections: Objective, Current hypothesis, Actions executed, Evidence observed, Decision, Next step. (2) output/triage_l2.md that includes the full error text from input/test_log.txt and a short code-context snippet from the is_leap_year function. (3) output/escalation_l3.md with sections: Facts established, Options eliminated, 7-point checklist evidence (list all seven items as checkboxes), Smallest unresolved uncertainty, Required external dependency, Recommendation. Then provide a fix: write output/buggy_module_fixed.py with a corrected is_leap_year implementation that satisfies these cases: 1996 -> True, 1900 -> False, 2000 -> True, 2023 -> False, and keep the rest of the file intact. Also write output/validation.json listing those four cases with fields year, expected, predicted, where predicted reflects the result after your fix. Briefly scan for adjacent risks (for example, other functions depending on is_leap_year) and include any notes in your L3 report. Do not ask me for environment details; work only with the provided inputs.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

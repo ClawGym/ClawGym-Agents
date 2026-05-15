@@ -1,0 +1,12 @@
+{
+  "festival": "Global Groove Fest",
+  "date": "2026-05-23",
+  "order": [
+    {"song": "Caravan Jam", "base_length_seconds": 300},
+    {"song": "Nomad Shuffle", "base_length_seconds": 260},
+    {"song": "Desert Groove", "base_length_seconds": 240},
+    {"song": "Rain Market", "base_length_seconds": 280},
+    {"song": "Midnight Train", "base_length_seconds": 310}
+  ],
+  "notes": "Main stage sunset set; allow space for solos."
+}

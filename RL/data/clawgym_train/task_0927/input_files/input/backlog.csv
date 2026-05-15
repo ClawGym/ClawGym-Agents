@@ -1,0 +1,11 @@
+id,title,effort,urgency,owner,dependencies
+T-120,Onboarding Checklist v1,16,5,Leo,T-150
+T-131,Slack Integration MVP (incoming webhooks + OAuth),20,5,Priya,T-135
+T-135,Webhook Rate Limit Fix,8,4,Priya,
+T-150,Analytics Events Coverage (Activation funnel),12,4,Leo,
+T-140,Pilot Demo Script & Dataset (Acme),10,5,Sarah,T-131;T-120
+T-160,Error Budget Alerts & Dashboards,10,3,Nina,
+T-170,DPA Template v1 for Design Partners,6,3,Sarah,
+T-180,Retry & Backoff for Slack webhook deliveries,12,3,Priya,T-135
+T-190,UX Research Synthesis (onboarding interviews),8,2,Sarah,
+T-200,Postgres Index Tuning,10,2,Priya,

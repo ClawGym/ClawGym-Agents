@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1699",
+  "user_query": "We had some misalignment last quarter and want a clean, defensible alignment audit for this quarter.\n\nPlease read input/okrs.json and deliver two artifacts:\n\n1) Write a detailed audit to output/alignment_report.txt with these sections (in this order):\n- Summary (must include a line exactly like: \"Alignment Score: <N> out of 100\")\n- Orphan Team OKRs (list each orphan by team and OKR id)\n- Conflicting OKRs (list known and potential conflict pairs by OKR id)\n- Coverage Gaps (company OKRs with zero team support)\n- Over-indexed Company OKRs (company OKRs with 4 or more supporting team OKRs)\n- Recommendations at a glance (bulleted, 5–10 items)\n\nUse the OKR data to compute the alignment score 0–100 using this approach: penalize by 30×(orphan_count/total_team_okrs) + 30×(gap_count/total_company_okrs) + 10×conflict_count (capped at 30), then subtract from 100 and round to nearest integer. Make sure the score you report matches the computed value for the provided input.\n\n2) Write a pragmatic realignment plan to output/realignment_plan.md. Requirements:\n- Address every orphan OKR and each coverage gap explicitly (name the exact IDs) with proposed ownership and whether to connect or cut.\n- For each declared or potential conflict, propose at least one shared guardrail metric and an incentive/measurement change to prevent cross-purpose optimization.\n- Include a short 90-day cadence for follow-ups (workshop, cross-check, ownership reassignment, and quarterly check).\n- Keep it self-contained, concrete, and action-oriented.\n\nDo not modify the input file. Use relative paths exactly as specified above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

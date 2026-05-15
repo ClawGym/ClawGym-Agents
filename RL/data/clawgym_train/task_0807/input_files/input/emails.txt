@@ -1,0 +1,121 @@
+----- Forwarded message -----
+From: Jane Rivera <jane.rivera@acme.co>
+Subject: Project Phoenix — Zoom Kickoff Meeting (ET)
+Date: Mon, Apr 20, 2026 09:12:00 -0400
+
+Hi team,
+
+Kickoff meeting: Thu, Apr 23, 2026, 2:00–3:00 PM ET on Zoom
+Zoom link: https://zoom.us/j/94912345678?pwd=KICKOFF
+Meeting ID: 949 1234 5678 | Passcode: start
+Agenda: Introductions, scope review, milestones
+
+Attendees: Jane Rivera <jane.rivera@acme.co>, Marcus Lee <marcus.lee@acme.co>, Priya Shah <priya.shah@acme.co>, You
+
+Please be on time. Thanks!
+
+— Jane
+
+---
+
+----- Forwarded message -----
+From: Finance Ops <finance@acme.co>
+Subject: Q2 Budget Submission — RSVP & Deadline
+Date: Tue, Apr 21, 2026 08:45:00 -0400
+
+Team,
+
+We are kicking off Q2 planning. Please note the following:
+
+RSVP by May 1, 2026: https://forms.example.com/q2-budget-rsvp
+Submit Q2 budget by May 15, 2026 (EOD). Portal: https://intranet.example.com/budget/q2
+
+Details:
+- RSVP confirms attendance at the review workshop and access to the budget template
+- Submission required for all department owners
+- Questions? finance@acme.co
+
+Thank you,
+Finance Ops
+
+---
+
+----- Forwarded message -----
+From: Alex Kim <alex.kim@acme.co>
+Subject: Team lunch next week?
+Date: Fri, Apr 17, 2026 16:03:00 -0400
+
+Hey all,
+
+Team lunch sometime next week. Thinking The Garden Bistro if the weather’s nice. Time and exact day TBD — chime in with preferences.
+
+– Alex
+
+---
+
+----- Forwarded message -----
+From: Marcus Lee <marcus.lee@acme.co>
+Subject: Weekly Standup — Tuesdays 9am PT (starts 4/28)
+Date: Wed, Apr 22, 2026 10:27:00 -0700
+
+Hi Product Eng,
+
+Weekly standup every Tuesday at 9:00 AM PT starting Apr 28, 2026.
+Duration: 30 minutes
+Location: Zoom (link below)
+Zoom: https://zoom.us/j/9130001122?pwd=STANDUP
+
+Participants: Product Engineering (Alice, Ben, Chen, Dana, Marcus)
+
+Please have your blockers ready.
+
+— Marcus
+
+---
+
+----- Forwarded message -----
+From: Delta Air Lines <confirmation@delta.com>
+Subject: Your Trip Confirmation — DL123 SFO→JFK + Hotel
+Date: Thu, May 7, 2026 11:18:00 -0700
+
+Thank you for booking with Delta.
+
+Reservation: ABC123 (Passenger: Priya Shah)
+Flight: DL123 SFO → JFK — Wed, Jun 3, 2026
+Depart SFO 1:15 PM PDT (Terminal 2, Gate D5) | Arrive JFK 9:45 PM EDT (Terminal 4, Gate B6)
+Seat: 12C | Aircraft: A321
+Baggage: 1 checked bag included
+
+Hotel:
+New York Hilton Midtown
+1335 6th Ave, New York, NY 10019
+Hotel check-in: Jun 3, 2026 (after 4:00 PM ET) | Hotel check-out: Jun 7, 2026 (11:00 AM)
+Hotel Confirmation: HMN7890
+
+Notes:
+- Please arrive at SFO 2 hours prior to departure
+- TSA PreCheck eligible
+- Contact Delta: 800-221-1212
+
+Safe travels.
+
+---
+
+----- Forwarded message -----
+From: Ops & HR <peopleops@acme.co>
+Subject: Save the Date: Company Offsite — July 9–11 in Denver (MT)
+Date: Mon, May 11, 2026 13:02:00 -0600
+
+All,
+
+Save the date for our Company Offsite!
+
+Offsite July 9–11, 2026 — Denver (MT) — The Source Hotel
+Address: 3330 Brighton Blvd, Denver, CO 80216
+Schedule: Sessions 9:00 AM–5:00 PM daily; Kickoff dinner Thu Jul 9 at 6:30 PM
+Travel: Book flights to DEN; rooms will be arranged (details to follow)
+Attendees: All full-time employees
+
+More details soon.
+
+— People Operations

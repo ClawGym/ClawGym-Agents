@@ -1,0 +1,10 @@
+Trip: Phoenix, AZ → Flagstaff, AZ
+When: This weekend (Saturday morning departure, Sunday return)
+Route: I-17 northbound from Phoenix to Flagstaff
+Notes:
+- Significant elevation gain (approx. 1,100 ft to ~7,000 ft), with long climbs and descents
+- Steep grades near Black Canyon City, Sunset Point, and approaching the Mogollon Rim
+- Forecast: cool in Flagstaff (highs mid-50s °F), chance of light rain, gusty winds possible on I-17
+- Rig: 2019 Ford F-150 (5.0L V8, 4WD) towing a 2018 Forest River R-Pod RP-180 travel trailer (~2,800–3,500 lbs loaded)
+- Cargo: two bikes (~200 lbs) in truck bed, water tank at 50%
+- Preferences: prioritize braking safety on downgrades, monitor transmission temps, and verify trailer brake controller gain before departure

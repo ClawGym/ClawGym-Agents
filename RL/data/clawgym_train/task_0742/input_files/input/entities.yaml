@@ -1,0 +1,57 @@
+version: 1
+entities:
+  User:
+    description: Primary user entity for authentication and access control
+    fields:
+      id:
+        type: uuid
+        source: server
+        notes: Server-generated unique identifier (UUIDv4)
+      email:
+        type: email
+        constraints:
+          unique: true
+          pattern: "^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$"
+        notes: Must be unique per user
+      name:
+        type: string
+        constraints:
+          min_length: 1
+          max_length: 100
+      password:
+        type: string
+        constraints:
+          min_length: 8
+          max_length: 128
+        visibility: input_only
+        notes: Never expose in any API response; store hashed form only
+      roles:
+        type: list
+        items:
+          $ref: "#/roles/Role"
+        default: ["user"]
+        notes: Role-based access; admin can access protected endpoints
+      created_at:
+        type: datetime
+        source: server
+        notes: ISO8601 UTC timestamp
+    schemas:
+      UserCreate:
+        fields: [email, name, password]
+      UserResponse:
+        fields: [id, email, name, roles, created_at]
+      LoginRequest:
+        fields: [email, password]
+      TokenResponse:
+        fields:
+          - access_token: string
+          - token_type: string
+roles:
+  Role:
+    enum: ["user", "admin"]
+    notes: Minimum two roles supported; admin required for listing users
+constraints:
+  User:
+    - unique: [email]
+    - password_never_in_response: true
+    - default_roles_must_include_user: true

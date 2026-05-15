@@ -1,0 +1,7 @@
+name,role,email,attending
+Alice Smith,Surgeon,alice.smith@hospital.org,yes
+Bob Lee,Surgeon,bob.lee@hospital.org,yes
+Carla Nguyen,Transplant Coordinator,carla.nguyen@hospital.org,no
+Diego Perez,Transplant Coordinator,diego.perez@hospital.org,yes
+Eva Martin,Lab Liaison,eva.martin@hospital.org,yes
+Frank Zhou,Procurement,frank.zhou@hospital.org,yes

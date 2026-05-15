@@ -1,0 +1,24 @@
+{
+  "team": {
+    "engineers": 12,
+    "composition": {
+      "backend": 6,
+      "frontend": 3,
+      "platform": 2,
+      "qa": 1
+    },
+    "sprint_length_days": 14,
+    "working_days_per_week": 5,
+    "work_hours_per_engineer_per_week": 35,
+    "story_points_per_sprint": 120
+  },
+  "cost_model": {
+    "loaded_cost_per_engineer_hour_usd": 135,
+    "currency": "USD"
+  },
+  "assumptions": {
+    "debt_drag_percent_estimate": 0.28,
+    "bugfix_time_percent_estimate": 0.22,
+    "hours_per_story_point": 6
+  }
+}

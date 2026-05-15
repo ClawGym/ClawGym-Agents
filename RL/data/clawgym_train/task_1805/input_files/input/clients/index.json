@@ -1,0 +1,21 @@
+{
+  "clients": [
+    {
+      "id": "acme",
+      "name": "Acme Corp S.L.",
+      "tax_id": "B87654321",
+      "address": {
+        "street": "Main Avenue 456",
+        "city": "Barcelona",
+        "postal": "08001",
+        "country": "ES"
+      },
+      "email": "contabilidad@acme.com",
+      "payment_terms": 30,
+      "default_rate": null,
+      "notes": "Primary contact: Maria Garcia",
+      "created_at": "2025-01-15",
+      "last_invoice": "2026-02-01"
+    }
+  ]
+}

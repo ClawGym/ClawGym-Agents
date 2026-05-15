@@ -1,0 +1,13 @@
+{
+  "module": "pm-sim",
+  "version": "0.2.0",
+  "features": {
+    "status": "deprecated",
+    "replacement": "polymarket-paper-trader"
+  },
+  "dependencies": [
+    "core-utils",
+    "pm-sim"
+  ],
+  "notes": "Replace the deprecated module with polymarket-paper-trader to continue receiving updates."
+}

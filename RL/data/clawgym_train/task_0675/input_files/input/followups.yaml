@@ -1,0 +1,28 @@
+- email: alex@bigco.com
+  date: 2026-04-22
+  note: "Website demo request — send calendar link and case study"
+
+- email: jamie@midmarket.co
+  date: 2026-04-23
+  note: "Referral intro call — confirm stakeholders"
+  convert: true
+  deal_value: 15000
+
+- email: priya@university.edu
+  date: 2026-04-24
+  note: "Discuss procurement steps and .edu pricing"
+  convert: true
+
+- email: mark@startup.io
+  date: 2026-04-25
+  note: "Trial setup — share sandbox credentials"
+  convert: true
+  deal_value: 5000
+
+- email: nina@localshop.com
+  date: 2026/04/26
+  note: "Cold outreach follow-up — confirm availability"
+
+- email: omar@shippingpro.com
+  date: 2026-04-27
+  note: "Share shipping ROI case study and book demo"

@@ -1,0 +1,28 @@
+{
+  "unit": {
+    "passed": 102,
+    "failed": 0,
+    "skipped": 3,
+    "duration_s": 45.2
+  },
+  "integration": {
+    "passed": 27,
+    "failed": 0,
+    "skipped": 0,
+    "duration_s": 120.6
+  },
+  "e2e": {
+    "passed": 11,
+    "failed": 0,
+    "skipped": 0,
+    "duration_s": 310.4
+  },
+  "overall": {
+    "status": "passed",
+    "total_passed": 140,
+    "total_failed": 0,
+    "total_skipped": 3
+  },
+  "generated_at": "2026-04-15T12:27:10Z",
+  "notes": "All mandatory suites passed on the default branch CI run."
+}

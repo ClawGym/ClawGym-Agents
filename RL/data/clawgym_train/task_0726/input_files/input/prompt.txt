@@ -1,0 +1,37 @@
+Scenario Brief: Analytics Stack Migration for Apex Retail Group (ARG)
+
+Business Context
+- ARG operates 220 stores and a fast‑growing e‑commerce channel (35% YoY). Leadership needs near real‑time margin, inventory, and marketing ROI visibility to react faster to demand spikes and supply constraints.
+
+Current State (Pain Points)
+- On‑prem SQL Server 2012 data warehouse; SSIS nightly batches (~12 hours); ~8 TB compressed across 120+ tables.
+- Reporting via Tableau Desktop extracts updated once daily; frequent SLA misses (2–4 hours late) during month‑end.
+- Fragile pipelines: 180+ SSIS packages maintained by 4 FTEs; high coordination overhead and change risk.
+- Incremental loads are inconsistent; source schema changes cause breakages and manual rework.
+
+Target State (Proposal)
+- Migrate analytics to Google BigQuery (serverless DWH) with dbt for transformations and Cloud Composer (managed Airflow) for orchestration; ingest via Fivetran/Batch Dataflow for key sources.
+- Row‑level security and column‑level masking for PII; centralized governance with tags and lineage.
+- Dashboards in Looker with semantic layer; near real‑time (≤30‑minute freshness) for critical KPIs.
+
+Scope for 90‑Day Pilot
+- Sources: ERP (orders, inventory), e‑commerce (transactions, web events), customer support (tickets).
+- Rebuild 6 executive KPIs: gross margin, inventory turns, order cycle time, stockout rate, CAC, LTV.
+
+Assumptions & Constraints
+- No PII leaves region; VPC‑SC and CMEK required; identity via Okta SSO.
+- Budget guardrails: pilot compute + storage capped at $20k; alerting on cost anomalies.
+
+Expected Value
+- Faster decisions (hours → minutes), 30–40% lower TCO year‑over‑year, reduced maintenance toil, better auditability.
+
+Risks & Mitigations (High‑Level)
+- Data quality drift → contract tests, source monitoring, and dbt tests.
+- Skill gaps → targeted enablement, pairing, and vendor workshops.
+- Cost sprawl → quotas, reservations where appropriate, and weekly budget reviews.
+
+Success Metrics (Pilot)
+- Data freshness ≤30 minutes for the 6 KPIs; 99% pipeline success rate.
+- Dashboard load time <3 seconds for top 10 exec views.
+- Forecast accuracy improvement (±10% vs baseline) for demand planning.
+- Stakeholder satisfaction (survey NPS ≥8/10) and adoption (≥30 weekly active exec users).

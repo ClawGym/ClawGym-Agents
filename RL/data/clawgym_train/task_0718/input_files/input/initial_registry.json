@@ -1,0 +1,79 @@
+{
+  "updatedAt": "2026-04-19T12:00:00Z",
+  "defaultAgentId": "main_assistant",
+  "agents": [
+    {
+      "id": "main_assistant",
+      "name": "Main Assistant",
+      "identityName": "Orion",
+      "identityEmoji": "🦉",
+      "workspace": "/home/openclaw/.openclaw/workspace-main_assistant",
+      "model": "gpt-4o-mini",
+      "bindings": [
+        {
+          "agentId": "main_assistant",
+          "match": {
+            "channel": "telegram",
+            "accountId": "main_assistant"
+          }
+        },
+        {
+          "agentId": "main_assistant",
+          "match": {
+            "channel": "web",
+            "accountId": "default"
+          }
+        }
+      ],
+      "isDefault": true,
+      "heartbeat": {
+        "enabled": true,
+        "every": "5m"
+      }
+    },
+    {
+      "id": "old_helper_bot",
+      "name": "Legacy Helper",
+      "identityName": "Sparrow",
+      "identityEmoji": "🐦",
+      "workspace": "/home/openclaw/.openclaw/workspace-old_helper_bot",
+      "model": "gpt-3.5-turbo",
+      "bindings": [
+        {
+          "agentId": "old_helper_bot",
+          "match": {
+            "channel": "telegram",
+            "accountId": "old_helper_bot"
+          }
+        }
+      ],
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": false,
+        "every": "disabled"
+      }
+    },
+    {
+      "id": "data_ops_bot",
+      "name": "Data Ops",
+      "identityName": "Atlas",
+      "identityEmoji": "🧭",
+      "workspace": "/home/openclaw/.openclaw/workspace-data_ops_bot",
+      "model": "gpt-4o-mini",
+      "bindings": [
+        {
+          "agentId": "data_ops_bot",
+          "match": {
+            "channel": "slack",
+            "accountId": "analytics"
+          }
+        }
+      ],
+      "isDefault": false,
+      "heartbeat": {
+        "enabled": true,
+        "every": "10m"
+      }
+    }
+  ]
+}

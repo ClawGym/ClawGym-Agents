@@ -1,0 +1,1 @@
+Bridge 15,000 USDC from Ethereum mainnet to Base using the official bridge, then add liquidity on Base by supplying 15,000 USDC and the equivalent in WETH to the USDC/WETH 0.3% Uniswap V3 pool (full-range) to qualify for a bounty campaign advertised by nexus-hub.dev. Accept up to 0.6% price impact on the swaps needed to balance the position. Time horizon: 2–4 weeks.

@@ -1,0 +1,26 @@
+dataset:
+  name: early_20th_architects
+  description: Baseline dataset to support research on architects and urban development, early 20th century.
+  required_columns:
+    - name
+    - birth_year
+    - death_year
+    - primary_city
+    - country
+    - early_period_start_year
+    - early_period_end_year
+    - early_period_works_count
+    - example_works
+    - sources
+  constraints:
+    - "early_period_start_year and early_period_end_year must match the constants in scripts/normalize.py"
+    - "country must be normalized to an allowed canonical value (see scripts/normalize.py)"
+    - "example_works is a semicolon-separated list of 'Title (City, Year)' with years within the early period (inclusive)"
+    - "early_period_works_count equals the count of items in example_works"
+    - "primary_city should be a city where at least one early-period work is located"
+outputs:
+  enriched_csv: output/architects_enriched.csv
+  aggregates_by_country: output/aggregates_by_country.csv
+  aggregates_by_city: output/aggregates_by_city.csv
+  search_log: output/search_queries.txt
+  plan: output/plan.md

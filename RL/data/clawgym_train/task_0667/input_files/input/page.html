@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AcmeFlow — Automate team tasks without code</title>
+  <!-- Note: meta viewport missing (mobile may render desktop layout) -->
+  <meta name="description" content="Connect your tools and let routine tasks run themselves.">
+  <style>
+    /* Fixed-width desktop-first layout (no responsive rules) */
+    body { font-family: Arial, sans-serif; margin: 0; color: #222; }
+    .nav { display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; border-bottom: 1px solid #eee; }
+    .nav a { margin: 0 10px; text-decoration: none; color: #333; font-size: 14px; }
+    .container { width: 1200px; margin: 0 auto; }
+    .hero { display: flex; align-items: center; gap: 24px; padding: 48px 0; }
+    .hero h1 { font-size: 38px; margin: 0 0 8px 0; }
+    .hero p.sub { font-size: 18px; color: #555; margin: 0 0 16px 0; }
+    .btn { padding: 10px 18px; border: none; cursor: pointer; border-radius: 4px; }
+    .btn-primary { background: #ddd; color: #333; } /* Low-contrast primary */
+    .btn-secondary { background: transparent; border: 1px solid #999; color: #333; }
+    .features { padding: 32px 0; }
+    .features h2 { margin: 0 0 16px 0; }
+    .features ul { columns: 2; padding-left: 20px; }
+    .proof { background: #fafafa; padding: 32px 0; border-top: 1px solid #eee; border-bottom: 1px solid #eee; }
+    blockquote { margin: 0 0 12px 0; padding-left: 12px; border-left: 4px solid #ddd; color: #555; }
+    .pricing { padding: 32px 0; }
+    .cta { padding: 40px 0; text-align: center; border-top: 1px solid #eee; }
+    .cta input[type="email"] { padding: 10px; width: 260px; margin-right: 8px; }
+    .footer { padding: 24px 0; font-size: 13px; color: #666; }
+    .legal { color: #888; font-size: 12px; }
+    /* Possible distraction: sticky promo ribbon */
+    .ribbon { position: fixed; bottom: 16px; right: 16px; background: #fef3c7; border: 1px solid #f59e0b; padding: 10px 12px; border-radius: 6px; font-size: 13px; }
+  </style>
+  <!-- Potentially heavy scripts (speed impact) -->
+  <script src="https://cdn.example.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.example.com/marketing.js"></script>
+  <script src="https://cdn.example.com/heatmap-tracker.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="container" style="display:flex; justify-content:space-between; align-items:center;">
+      <div>
+        <strong>AcmeFlow</strong>
+      </div>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#blog">Blog</a>
+        <a href="#resources">Resources</a>
+        <a href="#careers">Careers</a>
+        <a href="#partners">Partners</a>
+        <a href="#contact">Contact</a>
+        <a href="#login">Log in</a>
+        <a href="#try" class="btn btn-secondary">Try Beta</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div style="flex:1;">
+        <h1>Automate team tasks without writing code</h1>
+        <p class="sub">Connect your tools and let routine tasks run themselves.</p>
+        <p style="color:#666; max-width: 540px;">
+          Streamline workflows across Slack, Gmail, and Notion with flexible, no-code playbooks. Reduce manual work and keep your team focused on what matters.
+        </p>
+        <!-- Above-the-fold CTA uses low-contrast "Learn More" and secondary "Schedule a Call" -->
+        <div>
+          <a href="#features" class="btn btn-primary">Learn More</a>
+          <a href="#demo" class="btn btn-secondary">Schedule a Call</a>
+        </div>
+      </div>
+      <div style="flex:1;">
+        <!-- Large autoplaying hero media (possible speed issue) -->
+        <!-- Approx 6MB video file referenced; could cause slower loads on mobile -->
+        <video src="assets/hero-demo.mp4" autoplay muted loop playsinline width="540" height="304" style="border:1px solid #eee;">
+          <!-- Fallback image (also large) -->
+          <img src="assets/hero-fallback-2800w.jpg" alt="AcmeFlow workflow demo">
+        </video>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <h2>Do more with less effort</h2>
+      <ul>
+        <li>Integrates with Slack, Gmail, Notion, and more</li>
+        <li>Drag-and-drop workflow builder</li>
+        <li>Conditional logic and approvals</li>
+        <li>Templates for onboarding, reminders, and follow-ups</li>
+        <li>Centralized run history and basic analytics</li>
+        <li>Team roles and permissions</li>
+      </ul>
+      <p style="color:#777; max-width: 700px;">No more copy-pasting between tabs or forgetting follow-ups — AcmeFlow keeps your routine tasks on track.</p>
+    </section>
+
+    <section id="proof" class="proof">
+      <div class="container">
+        <h2>Trusted by teams everywhere</h2>
+        <p style="color:#666;">Join 1,200+ users who simplified their workflows.</p>
+        <!-- Social proof is generic and lacks specifics/logos -->
+        <blockquote>“Great product! It changed how we work.” — Alex M.</blockquote>
+        <blockquote>“Saved us hours each week.” — Pat, Marketing Manager</blockquote>
+        <!-- Placeholder for logos (not provided) -->
+        <div id="logos" style="opacity:0.6; font-size: 14px; color:#999;">[Customer logos coming soon]</div>
+      </div>
+    </section>
+
+    <section id="how">
+      <h2>How it works</h2>
+      <ol>
+        <li>Connect your tools in minutes.</li>
+        <li>Choose a template or build a custom workflow.</li>
+        <li>Run it once or schedule it to run automatically.</li>
+      </ol>
+      <p style="color:#666;">Get started quickly with pre-built playbooks and simple step-by-step setup.</p>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <h2>Simple pricing that fits teams of all sizes</h2>
+      <!-- Pricing details not shown -->
+      <p style="color:#777;">Transparent plans that scale with you. Contact us for details.</p>
+      <!-- No actual numbers or tiers; ambiguous offer -->
+    </section>
+
+    <section id="cta" class="cta">
+      <h2>Join the waitlist</h2>
+      <p style="color:#666; max-width:600px; margin: 0 auto 12px auto;">
+        Be first to know when we open up wider access.
+      </p>
+      <form>
+        <input type="email" placeholder="Enter email">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+      <!-- Missing privacy statement near form fields -->
+      <!-- No mention of “no credit card required” or risk reduction -->
+    </section>
+
+    <section id="faq">
+      <h2>FAQ</h2>
+      <details>
+        <summary>Do I need technical skills?</summary>
+        <p>No — everything is built with non-technical users in mind.</p>
+      </details>
+      <details>
+        <summary>How long does setup take?</summary>
+        <p>Most teams connect their tools in under 30 minutes.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div style="display:flex; justify-content: space-between;">
+      <div>
+        <strong>AcmeFlow</strong><br>
+        <span class="legal">© 2026 AcmeFlow Inc.</span>
+      </div>
+      <div>
+        <a href="#terms">Terms</a> &middot;
+        <a href="#privacy">Privacy</a> &middot;
+        <a href="#security">Security</a> &middot;
+        <a href="#status">Status</a>
+      </div>
+    </div>
+    <!-- Security/Trust page exists in footer nav but no inline trust badges -->
+  </footer>
+
+  <div class="ribbon">
+    Limited-time webinar this week — save your spot!
+    <button class="btn" style="margin-left:8px;">Register</button>
+  </div>
+
+  <!-- Notes for audit context:
+       - Primary CTA above fold is "Learn More" (not action/outcome-oriented)
+       - Social proof lacks names/companies/results/logos
+       - Pricing not disclosed; no tiers or numbers
+       - Waitlist form "Submit" button generic; no privacy note
+       - No meta viewport; fixed 1200px container (mobile issues likely)
+       - Large media (video ~6MB) + multiple marketing/heatmap scripts (potential speed impact)
+       - Multiple nav links may distract from conversion
+  -->
+</body>
+</html>

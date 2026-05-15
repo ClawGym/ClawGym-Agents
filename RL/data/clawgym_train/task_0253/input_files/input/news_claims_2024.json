@@ -1,0 +1,7 @@
+[
+  { "symbol": "TCEHY", "claimed_dividend_per_share_usd_2024_total": 0.8, "claim_source": "Local business daily (print), 'Tencent to raise annual payout'", "note": "Implied full-year per ADR" },
+  { "symbol": "BABA", "claimed_dividend_per_share_usd_2024_total": 1.0, "claim_source": "Company IR summary screenshot", "note": "First-time dividend" },
+  { "symbol": "JD", "claimed_dividend_per_share_usd_2024_total": 0.5, "claim_source": "WeChat news roundup", "note": "Expected special + regular" },
+  { "symbol": "NIO", "claimed_dividend_per_share_usd_2024_total": 0.2, "claim_source": "Forum rumor compiled by local outlet", "note": "Unverified" },
+  { "symbol": "PDD", "claimed_dividend_per_share_usd_2024_total": 0.1, "claim_source": "Official filing excerpt", "note": "Stated interim payout" }
+]

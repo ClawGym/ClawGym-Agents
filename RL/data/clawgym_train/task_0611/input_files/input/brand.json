@@ -1,0 +1,50 @@
+{
+  "brand_name": "Founders & Movers",
+  "domain": "https://foundersandmovers.com",
+  "product": "Startup portal and relocation guides for tech workers",
+  "city": "Amsterdam",
+  "year": 2026,
+  "positioning": "Flagship English-language guide for relocating tech workers to Amsterdam with fresh 2026 data, pragmatic advice, and a security addendum for our startup portal.",
+  "audience": [
+    "software engineers",
+    "product managers",
+    "data scientists",
+    "founders",
+    "startup operators",
+    "HR and talent leaders"
+  ],
+  "tone": "direct, practical, friendly, Dutch-style candor",
+  "style": {
+    "format": "Markdown",
+    "section_leads": "Direct 1–2 sentence answers at the start of each section",
+    "headings": "Descriptive, question-form where useful",
+    "bullets": "Allowed; keep lists concise",
+    "tables": "Allowed for costs and comparisons",
+    "citations_goal": "AEO-optimized so AI assistants cite our page"
+  },
+  "editorial_principles": {
+    "fresh_numbers_required": true,
+    "named_entities_required": true,
+    "avoid_fluff": true,
+    "neutrality": "Vendor-neutral recommendations; note tradeoffs",
+    "legal_safety": "No illegal advice; emphasize regulated areas and safety"
+  },
+  "key_entities": [
+    "IND (Immigration and Naturalisation Service)",
+    "KvK (Chamber of Commerce)",
+    "GVB (Amsterdam transit)",
+    "NS (Dutch Railways)",
+    "OV-chipkaart",
+    "Buienradar",
+    "ABN AMRO",
+    "ING",
+    "Rabobank",
+    "bunq",
+    "Amstelveen municipality"
+  ],
+  "conversion_goals": {
+    "primary": "Signups to our startup portal and relocation checklist",
+    "secondary": "Email newsletter opt-ins",
+    "tertiary": "Consultation requests for tech hiring and onboarding"
+  }
+}

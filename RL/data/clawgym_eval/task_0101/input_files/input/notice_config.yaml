@@ -1,0 +1,14 @@
+rights_holder: "AVM LLC"
+contact:
+  name: "M. Calder"
+  email: "tak edown@astervale.co"
+  address: "PO Box 1172, Los Angeles, CA"
+  phone: "+1-323-555-0198"
+deadline_hours: 48
+works:
+  - title: "Skyline"
+    isrc: "US-ABC-23-00001"
+  - title: "Midnight Echos"
+    isrc: "USDEF2200456"
+  - title: "Golden Hour Live"
+    isrc: "USGHI2400789"

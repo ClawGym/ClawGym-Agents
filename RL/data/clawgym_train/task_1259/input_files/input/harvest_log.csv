@@ -1,0 +1,19 @@
+date,crop,quantity_kg,field
+2025-03-01,Kale,30,North Field
+2025-03-01,Tomatoes,20,Greenhouse A
+2025-03-02,Kale,25,North Field
+2025-03-02,Tomatoes,22,Greenhouse A
+2025-03-03,Corn,50,East Field
+2025-03-05,Kale,28,North Field
+2025-03-05,Corn,45,East Field
+2025-03-07,Tomatoes,26,Greenhouse A
+2025-03-08,Corn,60,East Field
+2025-03-10,Kale,32,North Field
+2025-03-12,Tomatoes,24,Greenhouse A
+2025-03-12,Corn,55,East Field
+2025-03-15,Kale,29,North Field
+2025-03-20,Tomatoes,27,Greenhouse A
+2025-03-20,Corn,58,East Field
+2025-03-25,Kale,31,North Field
+2025-03-28,Tomatoes,25,Greenhouse A
+2025-02-28,Kale,15,North Field

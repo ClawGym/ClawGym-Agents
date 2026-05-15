@@ -1,0 +1,8 @@
+{
+  "hostname": "notebook-kitchen",
+  "os_name": "Ubuntu 22.04",
+  "disk_total_gb": 256,
+  "disk_used_gb": 180,
+  "memory_total_gb": 16.0,
+  "memory_used_gb": 8.5
+}

@@ -1,0 +1,76 @@
+{
+  "version": "1.3",
+  "stateDir": "state",
+  "agents": {
+    "list": [
+      {
+        "id": "main",
+        "name": "Main Assistant",
+        "workspace": "state/workspace-main",
+        "agentDir": "state/agents/main/agent"
+      },
+      {
+        "id": "research",
+        "name": "Research Assistant",
+        "workspace": "state/workspace-research",
+        "agentDir": "state/agents/research/agent"
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "agentId": "main",
+      "match": {
+        "channel": "telegram",
+        "accountId": "main"
+      }
+    },
+    {
+      "agentId": "research",
+      "match": {
+        "channel": "telegram",
+        "accountId": "research"
+      }
+    }
+  ],
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "accounts": {
+        "main": {
+          "enabled": true,
+          "botToken": "111111:AAAAAA-main-bot-token",
+          "dmPolicy": "pairing",
+          "allowFrom": [
+            "123456789"
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": "off"
+        },
+        "research": {
+          "enabled": true,
+          "botToken": "222222:BBBBBB-research-bot-token",
+          "dmPolicy": "pairing",
+          "allowFrom": [
+            "123456789"
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": "off"
+        }
+      }
+    }
+  },
+  "tools": {
+    "agentToAgent": {
+      "enabled": true,
+      "allow": [
+        "main",
+        "research"
+      ]
+    }
+  },
+  "gateway": {
+    "host": "0.0.0.0",
+    "port": 8787
+  }
+}

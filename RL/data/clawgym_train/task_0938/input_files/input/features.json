@@ -1,0 +1,19 @@
+{
+  "features": [
+    {
+      "name": "Automated QC Module",
+      "launch_date": "2026-05-15",
+      "associated_topics": ["T001", "T007"]
+    },
+    {
+      "name": "Cloud Cost Optimizer",
+      "launch_date": "2026-05-29",
+      "associated_topics": ["T010", "T006"]
+    },
+    {
+      "name": "Interpretability Toolkit",
+      "launch_date": "2026-06-10",
+      "associated_topics": ["T008", "T006"]
+    }
+  ]
+}

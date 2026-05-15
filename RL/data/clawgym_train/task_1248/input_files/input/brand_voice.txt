@@ -1,0 +1,19 @@
+Brand voice and required elements:
+- Tone: warm, courteous, plain language; no emojis or slang.
+- Aim for 120–160 words.
+- Subject line format: [Event Name] in Springfield — Invitation for {FirstName}
+- The email body must include:
+  1) Greeting with the client's first name.
+  2) Event name, date (YYYY-MM-DD), time (HH:MM), and location exactly as in events.csv.
+  3) One-sentence value proposition tailored to status:
+     - Renters: getting ready to buy and understanding the path to homeownership.
+     - Homeowners: simplifying, right-sizing, and practical steps to downsizing.
+  4) Clear call to action: "Reply to this email to save your seat."
+  5) Signature block:
+     Best regards,
+     Alex Martinez, Realtor
+     Main Street Realty
+     (555) 123-4567
+  6) Disclaimers (include both lines verbatim):
+     This invitation is informational; there is no obligation to attend.
+     If you received this by mistake, please disregard.

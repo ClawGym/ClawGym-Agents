@@ -1,0 +1,14 @@
+debug: true
+secret_key: "changeme"
+session:
+  cookie_secure: false
+  cookie_httponly: false
+auth:
+  allowed_ips: "*"
+  password_policy:
+    min_length: 6
+    require_numbers: false
+logging:
+  login_log_path: "logs/security.log"
+database:
+  path: "data/app.db"

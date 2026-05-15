@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0734",
+  "user_query": "Read input/targets.json for the list of Nostr authors (npubs or hex pubkeys) and per-author limits, and read input/stopwords.txt for the stopword list. Using a command-line Nostr client and public relays, fetch recent kind 1 (text note) events for each author. If targets.json does not specify relays or specifies an empty list, use sensible default discovery relays. For each author, fetch up to the configured limit. Normalize the results and write:\n\n1) output/notes.json — a JSON array of unique events with exactly these fields in each object:\n   - id (string)\n   - pubkey (string)\n   - created_at (integer Unix epoch seconds)\n   - kind (must be 1)\n   - content (string)\n\n   Requirements:\n   - Remove duplicates by id across all authors.\n   - Sort in descending order of created_at (latest first).\n\n2) output/provenance.json — capture how you fetched the data, with this structure:\n   {\n     \"relays\": [\"wss://...\"],\n     \"queries\": [{\"author\": \"<npub-or-hex>\", \"limit\": <int>}],\n     \"cmd_log\": [\"<the exact shell command(s) you executed to retrieve the notes>\"],\n     \"timestamp\": \"<ISO-like timestamp>\"\n   }\n   - Relays must be full wss:// URLs.\n   - Do not include any secrets.\n\n3) output/summary.md — a human-readable summary that includes:\n   - An Overview section with total notes and min/max timestamps (as readable times)\n   - Per-author note counts\n   - Top words across all note content (case-insensitive), excluding words from input/stopwords.txt (show at least the top 10 with their counts)\n   - The relays used\n\nAll file paths must be relative. Do not include any private keys or secrets anywhere. If any author has no available notes, proceed with others and still produce all three output files.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

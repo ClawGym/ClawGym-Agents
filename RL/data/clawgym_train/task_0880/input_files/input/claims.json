@@ -1,0 +1,7 @@
+[
+  "BIP-39 mnemonics use 12 or 24 words to deterministically derive wallet keys offline.",
+  "Cold (offline) key storage reduces the risk of remote private key theft compared to hot wallets.",
+  "Multi-chain wallets rely on chain-specific derivation paths (e.g., BIP44) to produce correct addresses for each chain.",
+  "If a seed phrase is compromised, assets on every derived chain are at risk.",
+  "Hardware wallets and air-gapped signing keep private keys off internet-connected machines."
+]

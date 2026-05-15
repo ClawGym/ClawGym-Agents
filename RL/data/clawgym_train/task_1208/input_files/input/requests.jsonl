@@ -1,0 +1,10 @@
+{"id":"req-001","textLength":2000,"itemCount":5,"inputTokens":3000,"outputTokens":900,"systemPromptTokens":800}
+{"id":"req-002","textLength":12000,"itemCount":10,"inputTokens":8000,"outputTokens":2000,"systemPromptTokens":1500}
+{"id":"req-003","textLength":500,"itemCount":1,"forceModel":"claude-haiku-4-5-20251001","inputTokens":1500,"outputTokens":600,"systemPromptTokens":2000}
+{"id":"req-004","textLength":4000,"itemCount":40,"inputTokens":5000,"outputTokens":1000,"systemPromptTokens":300}
+{"id":"req-005","textLength":7000,"itemCount":12,"inputTokens":4000,"outputTokens":500,"systemPromptTokens":1800}
+{"id":"req-006","textLength":20000,"itemCount":25,"inputTokens":20000,"outputTokens":6000,"systemPromptTokens":1600}
+{"id":"req-007","textLength":1500,"itemCount":35,"inputTokens":12000,"outputTokens":2500,"systemPromptTokens":900}
+{"id":"req-008","textLength":900,"itemCount":5,"inputTokens":7000,"outputTokens":1800,"systemPromptTokens":1300}
+{"id":"req-009","textLength":10500,"itemCount":8,"inputTokens":3000,"outputTokens":500,"systemPromptTokens":1100}
+{"id":"req-010","textLength":300,"itemCount":1,"inputTokens":2000,"outputTokens":200,"systemPromptTokens":300}

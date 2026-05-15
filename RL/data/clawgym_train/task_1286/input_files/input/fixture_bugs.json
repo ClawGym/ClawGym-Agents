@@ -1,0 +1,125 @@
+{
+  "ok": true,
+  "data": [
+    {
+      "id": "web-101",
+      "title": "Login button unresponsive on Safari",
+      "description": "Click events on the primary login button are ignored on Safari 17 due to passive event listeners.",
+      "status": "open",
+      "priority": "high",
+      "project_id": "proj-web",
+      "created_at": "2026-04-10T09:15:00Z",
+      "updated_at": "2026-04-11T12:03:00Z"
+    },
+    {
+      "id": "web-102",
+      "title": "Footer links misaligned on mobile",
+      "description": "Flex container breaks at 360px width causing wrapping and inconsistent padding for legal links.",
+      "status": "open",
+      "priority": "medium",
+      "project_id": "proj-web",
+      "created_at": "2026-04-09T14:00:00Z",
+      "updated_at": "2026-04-10T09:20:00Z"
+    },
+    {
+      "id": "web-103",
+      "title": "User avatar not updating after upload",
+      "description": "S3 cache-control headers cause clients to see stale avatar images; CDN invalidation missing.",
+      "status": "fixed",
+      "priority": "high",
+      "project_id": "proj-web",
+      "created_at": "2026-04-07T08:30:00Z",
+      "updated_at": "2026-04-13T17:45:00Z"
+    },
+    {
+      "id": "web-104",
+      "title": "404 page missing site nav",
+      "description": "Not Found template fails to include the primary navigation component.",
+      "status": "closed",
+      "priority": "low",
+      "project_id": "proj-web",
+      "created_at": "2026-03-30T16:20:00Z",
+      "updated_at": "2026-04-05T10:10:00Z"
+    },
+    {
+      "id": "web-105",
+      "title": "Password reset email not sent (Mailgun)",
+      "description": "Webhook signature verification fails intermittently; messages are queued but never dispatched.",
+      "status": "fixed",
+      "priority": "medium",
+      "project_id": "proj-web",
+      "created_at": "2026-04-01T10:45:00Z",
+      "updated_at": "2026-04-12T07:55:00Z"
+    },
+    {
+      "id": "web-106",
+      "title": "Search results pagination off-by-one",
+      "description": "Page count miscalculated when result total is a multiple of page size; last page appears empty.",
+      "status": "open",
+      "priority": "high",
+      "project_id": "proj-web",
+      "created_at": "2026-04-08T11:00:00Z",
+      "updated_at": "2026-04-09T13:00:00Z"
+    },
+    {
+      "id": "rk-201",
+      "title": "Deployment fails on cold start",
+      "description": "Container health check times out on first boot due to missing DB migration step.",
+      "status": "open",
+      "priority": "medium",
+      "project_id": "proj-rocket",
+      "created_at": "2026-04-06T06:10:00Z",
+      "updated_at": "2026-04-07T08:00:00Z"
+    },
+    {
+      "id": "rk-202",
+      "title": "Crash on telemetry parsing",
+      "description": "Nil pointer dereference when decoding optional GPS fields in binary telemetry stream.",
+      "status": "closed",
+      "priority": "high",
+      "project_id": "proj-rocket",
+      "created_at": "2026-03-15T12:00:00Z",
+      "updated_at": "2026-03-20T09:30:00Z"
+    },
+    {
+      "id": "rk-203",
+      "title": "CLI help text typos",
+      "description": "Several command descriptions have spelling mistakes and incorrect flag examples.",
+      "status": "fixed",
+      "priority": "low",
+      "project_id": "proj-rocket",
+      "created_at": "2026-03-28T18:25:00Z",
+      "updated_at": "2026-04-01T14:40:00Z"
+    },
+    {
+      "id": "an-301",
+      "title": "Dashboard fails to render on Firefox ESR",
+      "description": "Optional chaining not transpiled in production bundle; breaks on older Firefox versions.",
+      "status": "open",
+      "priority": "low",
+      "project_id": "proj-analytics",
+      "created_at": "2026-04-11T13:20:00Z",
+      "updated_at": "2026-04-11T14:05:00Z"
+    },
+    {
+      "id": "an-302",
+      "title": "ETL job retries not exponential",
+      "description": "Retry policy resets after worker restart causing rapid-fire retries and API throttling.",
+      "status": "fixed",
+      "priority": "high",
+      "project_id": "proj-analytics",
+      "created_at": "2026-03-25T07:15:00Z",
+      "updated_at": "2026-04-02T11:35:00Z"
+    },
+    {
+      "id": "an-303",
+      "title": "Incorrect timezone for daily rollups",
+      "description": "Aggregation runs at UTC midnight but business logic expects America/Los_Angeles.",
+      "status": "closed",
+      "priority": "medium",
+      "project_id": "proj-analytics",
+      "created_at": "2026-03-18T09:50:00Z",
+      "updated_at": "2026-03-22T16:00:00Z"
+    }
+  ]
+}

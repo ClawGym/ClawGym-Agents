@@ -1,0 +1,6 @@
+# Local CI config for the crime-solving algorithms project
+# Only adjust the test_command if needed.
+# The CI runner will parse this simple key:value format.
+
+test_command: python tests/run_test.py
+timeout_s: 20

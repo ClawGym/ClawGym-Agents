@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1495",
+  "user_query": "Please read the podcast transcript at input/transcript.md and produce a complete content package in human hosted style. Write a single JSON file to output/episode_package.json with this exact structure and constraints:\n\n{\n  \"style_mode\": \"human_hosted\",\n  \"titles\": [\"...\", \"...\", \"...\", \"...\", \"...\"],\n  \"show_notes\": \"...\",\n  \"chapters\": [\n    {\"time\": \"MM:SS\", \"title\": \"...\"},\n    {\"time\": \"MM:SS\", \"title\": \"...\"}\n  ],\n  \"social\": {\n    \"twitter_x\": \"...\",\n    \"instagram_caption\": \"...\",\n    \"instagram_hashtags\": [\"#...\", \"#...\"]\n  },\n  \"seo_tags\": [\"...\", \"...\"]\n}\n\nFormatting rules to follow so the file can be validated by code:\n- titles: exactly 5 strings; each title must be 6–10 words.\n- show_notes: a single paragraph between 150 and 300 words.\n- chapters: at least 5 items; each has time in MM:SS format; the first chapter time must be \"00:00\"; titles are non-empty. You may note they are approximate based on narrative beats.\n- social.twitter_x: maximum 280 characters.\n- social.instagram_caption: between 150 and 200 words (hashtags must NOT be included in this caption field).\n- social.instagram_hashtags: 10–15 items; each item must start with \"#\" (no spaces inside an individual hashtag).\n- seo_tags: 15–20 non-empty strings.\n- All strings must be English.\n\nDo not create any other files. Only write output/episode_package.json.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

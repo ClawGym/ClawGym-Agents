@@ -1,0 +1,23 @@
+{
+  "nodes": [
+    {
+      "node_id": "gpu-a",
+      "recommend_pull": [
+        {"model": "qwen2.5:14b", "size_gb": 8.0},
+        {"model": "llama3.1:8b", "size_gb": 5.2}
+      ]
+    },
+    {
+      "node_id": "gpu-b",
+      "recommend_pull": [
+        {"model": "codestral:22b", "size_gb": 13.0}
+      ]
+    },
+    {
+      "node_id": "cpu-c",
+      "recommend_pull": [
+        {"model": "phi:3.8b", "size_gb": 2.0}
+      ]
+    }
+  ]
+}

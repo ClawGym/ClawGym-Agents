@@ -1,0 +1,11 @@
+id,transport_type,line_name,year_opened,year_closed,kommune
+1,tram,Nørre Allé Line,1904,1965,Aarhus
+2,tram,Møllevang Line,1910,1971,Aarhus
+3,bus,Vesterbro Bus,1930,1950,Aarhus
+4,bus,Sønder Boulevard Bus,1925,1940,Odense
+5,tram,Kloster Torv Line,1905,1960,Aalborg
+6,bus,H.C. Andersen Route,1935,1980,Odense
+7,tram,Rådhuspladsen Line,1912,1965,Copenhagen
+8,bus,Nørrebro Bus,1927,1970,Copenhagen
+9,tram,Skovvejen Line,1908,1958,Aalborg
+10,bus,Frederiksbjerg Bus,1932,1972,Aarhus

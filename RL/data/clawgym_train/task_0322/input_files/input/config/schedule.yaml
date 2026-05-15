@@ -1,0 +1,17 @@
+version: 1
+fetch:
+  domain: wikibooks.org
+  project: en
+  cookbook_namespace: Cookbook
+  page_title: "Cookbook:Baked goods"
+  recipe_link_prefix: "/wiki/Cookbook:"
+  max_recipes: 3
+schedule:
+  day_of_week: "Friday"
+  time_local: "18:00"
+notes:
+  meeting_day: "Saturday"
+  meeting_time: "10:00"
+  neighbor_name: "Mrs. Alvarez"
+output:
+  base_dir: "output"

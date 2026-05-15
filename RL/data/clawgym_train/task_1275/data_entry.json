@@ -1,0 +1,8 @@
+{
+  "task_id": "task_1275",
+  "user_query": "Start autonomous planning to specify sequential, self-contained features for a lightweight meeting notes platform for a remote-first product team, focusing on: fast note capture, tagging, full-text search, and role-based access control. Operate append-only with no summaries or meta commentary. Initialization: capture this foundation verbatim, state one system domain sentence, declare only minimal necessary assumptions, and lock the domain. Then produce exactly 3 iterations (one feature per iteration) with the following exact section labels and casing. No branching in plans, no references to future features, and stop after the third iteration. Write the entire planning artifact to output/plan.md.\n\nUse exactly this format and labels:\nFOUNDATION: <verbatim foundation command>\nSYSTEM DOMAIN: <single sentence>\nASSUMPTIONS:\n- <bulleted minimal assumptions>\nDOMAIN LOCK: ACTIVE\n\nIteration 1\nFeature:\nInclusions:\nExclusions:\nPlan (linear):\n1. <step>\n2. <step>\n3. <step>\nRequired Inputs:\nProduced Outputs:\nDependencies: none\nSuccess Condition:\n\nIteration 2\nFeature:\nInclusions:\nExclusions:\nPlan (linear):\n1. <step>\n2. <step>\n3. <step>\nRequired Inputs:\nProduced Outputs:\nDependencies:\nSuccess Condition:\n\nIteration 3\nFeature:\nInclusions:\nExclusions:\nPlan (linear):\n1. <step>\n2. <step>\n3. <step>\nRequired Inputs:\nProduced Outputs:\nDependencies:\nSuccess Condition:\n\nIf any ambiguity would require speculation beyond minimal assumptions, halt immediately.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  }
+}

@@ -1,0 +1,8 @@
+logging:
+  level: debug
+features:
+  - metrics
+  - auth
+  - devtools
+database:
+  url: postgres://user:pass@localhost:5432/devdb

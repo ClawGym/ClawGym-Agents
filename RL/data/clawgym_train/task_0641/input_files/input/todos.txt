@@ -1,0 +1,4 @@
+Review postmortem draft
+Schedule load tests for api
+Update runbooks for failover
+Verify alert thresholds with team

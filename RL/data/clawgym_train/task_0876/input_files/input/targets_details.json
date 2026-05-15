@@ -1,0 +1,136 @@
+{
+  "HelpHub": {
+    "overview": "HelpHub is a modern B2B SaaS platform focused on AI-assisted customer support workflows for mid-market SaaS and fintech. Core modules include ticket routing, knowledge base automation, and in-app chat.",
+    "product_modules": [
+      "AI ticket triage and routing",
+      "Self-serve knowledge base with semantic search",
+      "In-app chat and co-browsing",
+      "CSAT/NPS analytics dashboard",
+      "Integrations: Salesforce, HubSpot, Slack, Jira, Zendesk data bridge"
+    ],
+    "customer_segments": [
+      "Mid-market SaaS (ARR $20M-$200M)",
+      "Fintech customer success teams",
+      "B2B marketplaces"
+    ],
+    "go_to_market": {
+      "pricing": "Tiered per-agent with platform fee; usage-based add-ons for AI features",
+      "sales_model": "Hybrid PLG with SDR/AE assist for accounts >100 seats",
+      "churn_commentary": "Logo churn low; revenue churn offset by expansion via AI add-ons"
+    ],
+    "financial_notes": {
+      "arr_commentary": "ARR grew from $8.9M to $12.0M in the last 12 months",
+      "gross_margin_drivers": "High-margin AI features; modest third-party LLM costs with volume discounts",
+      "working_capital": "Positive cash conversion; prepaid annual contracts dominant"
+    },
+    "risk_assessment": {
+      "customer_concentration": "Top 10 contribute 38% of ARR; largest single customer at 14%",
+      "technology": "Modern cloud-native stack; strong internal MLOps; no deprecated components noted",
+      "compliance": "SOC 2 Type II in progress, expected completion within 6 months"
+    },
+    "integration_risks": [
+      "Potential overlap with buyer’s existing analytics module",
+      "Salesforce integration mapping differences may require data model reconciliation",
+      "Need to align AI model governance and prompt libraries post-close"
+    ],
+    "team_notes": {
+      "founder_status": "Founder-CEO willing to transition for 9 months and then advisory",
+      "key_leaders": "VP Engineering with strong ML background; Head of CS with low attrition",
+      "culture": "Data-driven, collaborative; engineering-focused rituals"
+    },
+    "assumptions": [
+      "Retention remains >100% NRR with AI add-on attach rate sustaining",
+      "No near-term need for on-prem deployments",
+      "Buyer can cross-sell into existing enterprise accounts"
+    ]
+  },
+  "TicketFlow": {
+    "overview": "TicketFlow provides legacy ticketing and knowledge base software primarily for traditional SaaS and manufacturing support teams. The product is stable but behind modern UI/UX expectations.",
+    "product_modules": [
+      "Ticketing and SLA workflows",
+      "Email-to-ticket parser",
+      "Basic knowledge base",
+      "Limited reporting suite",
+      "Legacy on-prem option for a subset of customers"
+    ],
+    "customer_segments": [
+      "SMB to lower mid-market support teams",
+      "Manufacturing and field service orgs with legacy IT policies"
+    ],
+    "go_to_market": {
+      "pricing": "Seat-based with discounts for on-prem installs",
+      "sales_model": "Channel-heavy with a few regional resellers",
+      "churn_commentary": "Stable logos but weak upsell; some pressure from modern SaaS competitors"
+    },
+    "financial_notes": {
+      "arr_commentary": "ARR at $7.5M with moderate growth from renewal pricing actions",
+      "gross_margin_drivers": "Lower margins due to on-prem support and older infra",
+      "capex_needs": "UI rewrite and cloud migration would require notable investment"
+    },
+    "risk_assessment": {
+      "customer_concentration": "Top 10 at 52% of ARR; top customer contributes 28%",
+      "key_contracts": "Largest customer’s 3-year agreement expires in 8 months; renewal risk flagged",
+      "technology": "Monolithic Ruby 2.5 backend, AngularJS 1.x frontend; significant tech debt",
+      "compliance": "Ad-hoc security practices; no SOC 2; basic vendor questionnaires only"
+    },
+    "integration_risks": [
+      "Migration from monolith to service-oriented architecture will be complex",
+      "UI rewrite required to meet modern standards",
+      "Data model mismatches with buyer’s CRM and billing systems",
+      "On-prem customers complicate support model post-close"
+    ],
+    "team_notes": {
+      "founder_status": "Founder unwilling to remain post-close (0 months)",
+      "turnover": "Elevated attrition in engineering and support over the last year",
+      "key_person_risk": "Two senior engineers hold critical system knowledge"
+    },
+    "assumptions": [
+      "Earnout mechanics would be contentious given tech rewrite timeline",
+      "Retention risk if largest customer churns at renewal",
+      "Potential upside from channel refresh if product modernized"
+    ]
+  },
+  "SupportNexus": {
+    "overview": "SupportNexus focuses on workflow automation and agent assistance for vertical SaaS in healthcare and govtech. Strong compliance posture but facing recent growth headwinds.",
+    "product_modules": [
+      "Workflow automation designer",
+      "Agent assist suggestions",
+      "Knowledge sync connectors",
+      "Compliance logging and audit trails"
+    ],
+    "customer_segments": [
+      "Healthcare SaaS vendors",
+      "Govtech platforms with strict compliance needs"
+    ],
+    "go_to_market": {
+      "pricing": "Hybrid per-seat and per-workflow pricing; enterprise minimums",
+      "sales_model": "Direct enterprise with long sales cycles"
+    },
+    "financial_notes": {
+      "arr_commentary": "ARR $4.2M; YoY decline driven by loss of two logos after budget cuts",
+      "gross_margin_drivers": "Efficient cloud spend; moderate support costs",
+      "pipeline": "Improving pipeline but elongated decision cycles"
+    },
+    "risk_assessment": {
+      "revenue_trend": "Negative growth of -12% YoY; stabilization plan underway",
+      "customer_concentration": "Top 10 at 41% of ARR; top customer at 19%",
+      "technology": "Modern Python FastAPI and Vue 3; some legacy cron jobs scheduled for refactor",
+      "compliance": "HIPAA-friendly architecture; documented data handling"
+    },
+    "integration_risks": [
+      "Custom compliance workflows may slow standardization",
+      "Overlap with buyer’s automation tool could cause positioning confusion",
+      "Data residency requirements for certain customers"
+    ],
+    "team_notes": {
+      "founder_status": "Founder willing to transition for 6 months and facilitate key relationships",
+      "turnover": "Within normal range; retention programs in place",
+      "culture": "Process-oriented; compliance-first mindset"
+    },
+    "assumptions": [
+      "Stabilization achievable if top customers retained",
+      "Cross-sell into buyer’s healthcare portfolio can restore growth",
+      "Refactor of legacy cron jobs can be completed within 90 days post-close"
+    ]
+  }
+}

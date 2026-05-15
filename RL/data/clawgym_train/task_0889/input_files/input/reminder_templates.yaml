@@ -1,0 +1,9 @@
+templates:
+  general:
+    subject: "Follow-up: {topic}"
+    body: "Hi {recipient}, per our expert {expert}'s guidance on \"{topic}\", please confirm next steps. Recommendation: {recommendation}. Target: {due_date}. Thanks, Production."
+  high_priority:
+    subject: "[High] Follow-up: {topic}"
+    body: "Hi {recipient}, this is high-priority for pre-production. Recommendation: {recommendation}. Please respond by {due_date}. - Production"
+selection:
+  use_high_priority_for: ["High"]

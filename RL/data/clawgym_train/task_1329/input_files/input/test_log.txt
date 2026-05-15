@@ -1,0 +1,31 @@
+============================= test session starts ==============================
+platform linux -- Python 3.11.7, pytest-8.0.2, pluggy-1.4.0
+rootdir: /builds/acme/date-utils
+collected 12 items
+
+tests/test_leap_years.py ..F........                                              [100%]
+
+=================================== FAILURES ===================================
+_____________________ test_century_not_divisible_by_400 ______________________
+
+    def test_century_not_divisible_by_400():
+        # 1900 is divisible by 100 but not by 400, so it is NOT a leap year.
+>       assert is_leap_year(1900) is False
+E       AssertionError: assert True is False
+
+tests/test_leap_years.py:42: AssertionError
+----------------------------- Captured stdout call -----------------------------
+leap check for 1900 -> True
+------------------------------- Captured log call ------------------------------
+DEBUG date: checking leap status for 1900
+--------------------------------- Traceback -----------------------------------
+  File "/builds/acme/date-utils/tests/test_leap_years.py", line 42, in test_century_not_divisible_by_400
+    assert is_leap_year(1900) is False
+  File "/builds/acme/date-utils/input/buggy_module.py", line 26, in is_leap_year
+    return year % 4 == 0
+                               ^^^^^^^^^^^^^^^^^^^^^
+HINT: Leap-year rule should consider centuries: divisible by 4 AND (not divisible by 100 OR divisible by 400).
+
+=========================== short test summary info ============================
+FAILED tests/test_leap_years.py::test_century_not_divisible_by_400 - AssertionError: assert True is False
+============================== 1 failed, 11 passed ============================

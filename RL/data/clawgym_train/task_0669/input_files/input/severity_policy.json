@@ -1,0 +1,53 @@
+{
+  "policy_version": "1.0",
+  "guidelines": {
+    "assign_high": [
+      "Sleep in atomic context (e.g., GFP_KERNEL allocation or blocking calls while holding spinlock or in IRQ)",
+      "Deadlock risk from double-acquire of same lock or inconsistent lock ordering",
+      "User pointer misuse leading to crashes or info leaks (e.g., printk with %s on __user, incorrect copy_from_user semantics causing out-of-bounds or uninitialized reads)",
+      "Publishing shared pointers or data for lockless readers without proper memory ordering (missing smp_wmb/WRITE_ONCE on publish, missing READ_ONCE on consume)",
+      "RCU read-side critical section containing sleeping/blocking operations"
+    ],
+    "assign_medium": [
+      "Allocation failure paths not checked or not handled (e.g., GFP_ATOMIC unchecked)",
+      "Using vmalloc memory for DMA or DMA mapping without dma_mapping_error checks",
+      "Module init error path does not unwind previously initialized resources (missing goto-based reverse cleanup)"
+    ],
+    "assign_low": [
+      "Misunderstanding of mutex_trylock return semantics (1=success, 0=busy) with limited impact",
+      "Minor style or robustness issues that do not cause immediate failure but reduce reliability"
+    ]
+  },
+  "category_hints": {
+    "Atomic Context": [
+      "spinlock-held regions must not sleep",
+      "use spin_lock_irqsave in interrupt context",
+      "no blocking calls inside RCU read-side"
+    ],
+    "Allocation Failures": [
+      "GFP_ATOMIC can return NULL; check and handle",
+      "vmalloc memory is not suitable for DMA",
+      "prefer kzalloc to avoid info leaks"
+    ],
+    "User Pointer Handling": [
+      "copy_from_user returns bytes not copied; 0 means success",
+      "never printk %s with a __user pointer",
+      "copy user memory to kernel buffer and validate before use"
+    ],
+    "Memory Ordering": [
+      "use WRITE_ONCE with smp_wmb before publishing",
+      "use READ_ONCE when consuming",
+      "spinlock release provides barriers but lockless paths need explicit ordering"
+    ],
+    "Module Error Paths": [
+      "on init failure, undo prior steps in reverse order",
+      "use goto err_* pattern",
+      "only free/unregister what was actually initialized"
+    ],
+    "Locking Mistakes": [
+      "avoid double-acquisition of the same lock",
+      "maintain consistent lock ordering across code paths",
+      "mutex_trylock returns 1 on success"
+    ]
+  }
+}

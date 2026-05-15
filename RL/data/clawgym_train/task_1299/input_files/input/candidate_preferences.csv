@@ -1,0 +1,4 @@
+candidate_id,candidate_name,max_commute_minutes,commute_weight,shift_preference,hard_no_nights,shift_weight,max_travel_nights,travel_weight,min_remote_days,remote_weight,max_training_hours,training_weight,notes
+C01,Amelia Reed,45,0.30,day,TRUE,0.25,2,0.20,1,0.10,3,0.15,Prioritizes family evenings; no nights.
+C02,Rajat Verma,60,0.25,rotating,FALSE,0.25,4,0.25,0,0.10,5,0.15,Open to travel; flexible shifts.
+C03,Lucia Santos,30,0.35,day,FALSE,0.30,0,0.20,2,0.05,2,0.10,Prefers short commutes; no travel.

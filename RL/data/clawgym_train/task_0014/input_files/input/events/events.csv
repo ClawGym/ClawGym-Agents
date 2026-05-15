@@ -1,0 +1,4 @@
+event_id,event_name,date,attendees,reported_total_waste_kg
+E001,Quarterly All-Hands,2025-03-15,180,250
+E002,Sustainability Workshop,2025-04-22,60,52
+E003,Client Summit,2025-05-10,240,410

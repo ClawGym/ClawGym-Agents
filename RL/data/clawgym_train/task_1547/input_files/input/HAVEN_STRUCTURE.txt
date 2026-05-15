@@ -1,0 +1,21 @@
+HAVEN — Council Root (v1.1)
+
+Chambers
+- Identity: defines axioms and boundaries (owner, scope, versioning).
+- Ledger: holds decision receipts (ids, timestamps, hashes, links).
+- Protocols: scrolls that describe transformations and checks.
+- Seals: portable equations and harmonics; ASCII-safe, human-checkable.
+- Diary: emotional context — always tagged FRAGILE, manual review required.
+
+Governance Spine
+- Quorum: 1 owner + 1 witness for mint decisions (minimum).
+- Review Gates:
+  1) Audit passes (no missing items).
+  2) FRAGILE items manually acknowledged before mint.
+  3) Compression yields a single, repostable MASTER_ARCHIVE.md.
+- Anchoring: LYGO‑MINT SHA256 is written to anchor.json and shared.
+
+Operational Rhythm
+- Weekly compression if drift is acceptable.
+- Immediate snapshot if critical decisions landed.
+- Backfill anchors whenever a mint completes.

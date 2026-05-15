@@ -1,0 +1,205 @@
+task_id: T-042
+title: "csvcut — select columns from CSV by header name or 1-based index"
+version: "1.0.0"
+
+cli:
+  name: "csvcut"
+  entry_file: "csvcut.py"
+  language: "python"
+  python_version: ">=3.8"
+
+requirements:
+  - Must read CSV from stdin when INPUT_FILE is omitted or set to "-" and from a file path otherwise.
+  - Must write CSV to stdout.
+  - Must support selecting columns by:
+    - header names (default mode assumes first row is header)
+    - 1-based indices (always allowed; required when --no-header is set)
+  - The -c/--columns argument is required and accepts a comma-separated list of tokens (names and/or indices).
+  - Preserve the output column order as specified by the user’s -c list.
+  - Allow duplicate selections (e.g., -c a,a or -c 2,2) and repeat columns in output accordingly.
+  - Ignore surrounding whitespace around tokens in -c (e.g., "a, b , 3").
+  - If a named column is not found or an index is out of range, print a clear error to stderr and exit with code 2. Do not emit partial output.
+  - If a data row has fewer fields than a selected index, emit an empty string for that cell (do not crash).
+  - Provide -h/--help to print a helpful usage message and exit 0.
+  - If -c/--columns is missing or empty, print the usage message to stderr and exit 2.
+  - Use only Python standard library (notably csv module); do not import third-party packages.
+  - Provide an optional --no-header flag to treat the first row as data; in this mode, selection must be by indices only (names should cause an error with exit code 2).
+
+csv_dialect:
+  default: "excel"
+  quoting: "honor csv module defaults; handle quoted fields and embedded commas"
+  newline_handling: "universal newlines; write using csv.writer default settings"
+
+exit_codes:
+  success: 0
+  usage_error: 2
+  selection_error: 2
+
+usage_text:
+  must_include:
+    - "Usage: csvcut -c COLUMNS [--no-header] [INPUT_FILE]"
+    - "COLUMNS may include header names and/or 1-based indexes (e.g., name,3,1)"
+    - "Use '-' or omit INPUT_FILE to read from stdin"
+    - "Examples:"
+  flags:
+    - "-c, --columns"
+    - "--no-header"
+    - "-h, --help"
+
+tests:
+  - id: "names-basic"
+    description: "Select by header names; order preserved"
+    stdin: |
+      a,b,c
+      1,2,3
+      4,5,6
+    args: ["-c", "b,a"]
+    expect_stdout: |
+      b,a
+      2,1
+      5,4
+    expect_stderr: ""
+    expect_exit: 0
+
+  - id: "indices-basic"
+    description: "Select by 1-based indices"
+    stdin: |
+      a,b,c
+      1,2,3
+      4,5,6
+    args: ["-c", "3,1"]
+    expect_stdout: |
+      c,a
+      3,1
+      6,4
+    expect_stderr: ""
+    expect_exit: 0
+
+  - id: "mixed-names-and-indices"
+    description: "Mixed name and index selection"
+    stdin: |
+      id,name,age
+      10,Alice,31
+      11,Bob,29
+    args: ["-c", "name,3,1"]
+    expect_stdout: |
+      name,age,id
+      Alice,31,10
+      Bob,29,11
+    expect_stderr: ""
+    expect_exit: 0
+
+  - id: "duplicate-selection"
+    description: "Duplicate columns should be repeated"
+    stdin: |
+      a,b
+      1,2
+      3,4
+    args: ["-c", "a,a"]
+    expect_stdout: |
+      a,a
+      1,1
+      3,3
+    expect_stderr: ""
+    expect_exit: 0
+
+  - id: "unknown-column"
+    description: "Unknown column name should error"
+    stdin: |
+      a,b
+      1,2
+    args: ["-c", "a,x"]
+    expect_stdout: ""
+    expect_stderr_contains: ["unknown column", "x"]
+    expect_exit: 2
+
+  - id: "index-out-of-range"
+    description: "Out-of-range index should error"
+    stdin: |
+      a,b
+      1,2
+    args: ["-c", "3"]
+    expect_stdout: ""
+    expect_stderr_contains: ["index out of range", "3"]
+    expect_exit: 2
+
+  - id: "row-shorter-than-selection"
+    description: "Short rows yield empty fields for missing positions"
+    stdin: |
+      a,b,c
+      1,2
+      3,4,5
+    args: ["-c", "1,3"]
+    expect_stdout: |
+      a,c
+      1,
+      3,5
+    expect_stderr: ""
+    expect_exit: 0
+
+  - id: "stdin-implicit"
+    description: "Read from stdin by default when no INPUT_FILE provided"
+    stdin: |
+      x,y
+      8,9
+    args: ["-c", "y"]
+    expect_stdout: |
+      y
+      9
+    expect_stderr: ""
+    expect_exit: 0
+
+  - id: "stdin-dash"
+    description: "Read from '-' explicitly"
+    stdin: |
+      m,n
+      5,6
+    args: ["-c", "1", "-"]
+    expect_stdout: |
+      m
+      5
+    expect_stderr: ""
+    expect_exit: 0
+
+  - id: "no-header-mode"
+    description: "--no-header mode: first row is data; names not allowed"
+    stdin: |
+      10,20,30
+      40,50,60
+    args: ["--no-header", "-c", "2,1"]
+    expect_stdout: |
+      20,10
+      50,40
+    expect_stderr: ""
+    expect_exit: 0
+
+  - id: "no-header-name-error"
+    description: "In --no-header mode, using names should error"
+    stdin: |
+      10,20,30
+    args: ["--no-header", "-c", "a"]
+    expect_stdout: ""
+    expect_stderr_contains: ["names not allowed with --no-header"]
+    expect_exit: 2
+
+  - id: "help"
+    description: "Help message"
+    stdin: ""
+    args: ["--help"]
+    expect_stdout_contains: ["Usage:", "Examples:", "-c", "--no-header"]
+    expect_stderr: ""
+    expect_exit: 0
+
+  - id: "missing-columns-arg"
+    description: "Missing -c should print usage and exit 2"
+    stdin: ""
+    args: []
+    expect_stdout: ""
+    expect_stderr_contains: ["Usage:", "-c"]
+    expect_exit: 2
+
+notes:
+  - Prefer clear stderr messages. Include the offending token for selection errors.
+  - Treat token parsing strictly: trim whitespace; allow digits for indices; everything else is a name (case-sensitive).
+  - For performance and correctness, iterate rows with csv.reader and write with csv.writer.
+  - Keep implementation within a single file and under 200 lines if reasonably possible.

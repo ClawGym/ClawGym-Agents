@@ -1,0 +1,80 @@
+timezone: America/New_York
+
+allowed_posting_windows:
+  Monday:
+    - "08:30-09:30"
+    - "12:00-12:30"
+    - "17:00-18:00"
+  Tuesday:
+    - "08:30-10:00"
+    - "12:00-13:00"
+  Wednesday:
+    - "08:30-09:30"
+    - "12:30-13:00"
+    - "17:00-17:30"
+  Thursday:
+    - "08:45-10:00"
+    - "12:00-12:45"
+  Friday:
+    - "08:30-09:30"
+    - "11:30-12:30"
+  Saturday:
+    - "09:00-11:00"
+  Sunday:
+    - "09:00-10:00"
+    - "16:00-17:00"
+
+posting_frequency:
+  cadence: daily
+  duration_days: 7
+  variety_rules:
+    - "At least 2 founder-journey posts"
+    - "At least 2 product how-to posts"
+    - "Avoid consecutive hard pitches; alternate pillars where possible"
+
+content_policies:
+  - "Bodies must be 120–300 words"
+  - "No URLs in the post body"
+  - "If referencing resources, write: 'link in comments'"
+  - "Use 3–5 relevant hashtags per post"
+  - "Ask at least one question to invite comments"
+  - "Tone: plainspoken, specific, non-buzzy"
+  - "No tagging individuals or companies without explicit consent"
+  - "No screenshots of customer data without permission"
+
+banned_phrases:
+  - "disrupt"
+  - "revolutionize"
+  - "paradigm shift"
+  - "AI-powered" # okay only when mechanism is explained; default banned
+  - "10x overnight"
+  - "growth hack"
+
+hashtag_guidelines:
+  examples_broad:
+    - "#SMB"
+    - "#SmallBusiness"
+    - "#Data"
+    - "#Operations"
+    - "#Finance"
+  examples_specific:
+    - "#CashFlow"
+    - "#Ecommerce"
+    - "#DTC"
+    - "#Analytics"
+    - "#FractionalCFO"
+  rules:
+    - "Use 3–5 hashtags per post"
+    - "Mix 1–2 broad + 1–3 specific tags"
+    - "No more than 5 hashtags total"
+
+review_checklist:
+  - "Does the post align to a brand pillar?"
+  - "Is there a clear, comment-oriented CTA?"
+  - "Is the time within an allowed window for that day?"
+  - "Is the language concrete and free of hype?"
+  - "If a resource is mentioned, does it say 'link in comments'?"
+
+notes:
+  - "Prefer morning or early lunch windows for Owners and Ops"
+  - "Weekend slots perform better mid-morning for Owners"

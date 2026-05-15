@@ -1,0 +1,73 @@
+{
+  "name": "Alex Johnson",
+  "citizenship": "United States",
+  "role": "Remote Software Engineer",
+  "employment": {
+    "type": "remote full-time",
+    "employer_country": "United States",
+    "contract": "permanent"
+  },
+  "income": {
+    "currency": "EUR",
+    "net_monthly": 4500
+  },
+  "visa_intent": "D8",
+  "alt_visa_consideration": "D7",
+  "household": {
+    "adults": 1,
+    "children": 0,
+    "pets": 0
+  },
+  "budget": {
+    "rent_max": 1600,
+    "monthly_total": 3200,
+    "move_in_fund": 6000
+  },
+  "housing": {
+    "type_preference": "1BR apartment",
+    "furnished": true,
+    "noise_sensitivity": "medium",
+    "natural_light": "important",
+    "prefer_modern_bathroom": true
+  },
+  "work_style": {
+    "coworking_days_per_week": 2,
+    "home_office": true,
+    "time_zone_overlap": "US East Coast (late afternoons/evenings)"
+  },
+  "transport": {
+    "own_car": false,
+    "bike": true,
+    "e_scooter": false,
+    "public_transport_card": "Navegante (to be acquired)",
+    "commute_distance_km": 0
+  },
+  "location_preferences": {
+    "neighborhood_vibe": "trendy but residential",
+    "walkability": true,
+    "nightlife": "occasional",
+    "green_spaces": true,
+    "waterfront": true
+  },
+  "interests": [
+    "coffee culture",
+    "live music (low-key)",
+    "startup/tech meetups",
+    "weekend surfing"
+  ],
+  "dealbreakers": [
+    "long daily uphill walk to home",
+    "noisy bars directly downstairs",
+    "lack of sunlight"
+  ],
+  "weekend_travel": {
+    "surfing": "Costa da Caparica (willing to ferry/bus)",
+    "day_trips": ["Cascais", "Sintra"]
+  },
+  "coworking_preferences": [
+    "fast fiber (300Mbps+)",
+    "quiet zones",
+    "community events"
+  ],
+  "notes": "Open to across-the-river options (Almada/Caparica) if ferry/transport is fast and reliable."
+}

@@ -1,0 +1,27 @@
+company:
+  name: "AfrexAI Consulting LLC"
+  address:
+    line1: "455 Market Street"
+    line2: "Suite 900"
+    city: "San Francisco"
+    state: "CA"
+    zip: "94105"
+    country: "US"
+  tax_id: "US-EIN-83-2048571"
+  primary_currency: "USD"
+  your_name: "Kalin Petro"
+  email: "billing@afrexai.co"
+  phone: "+1 (415) 555-0182"
+payment_methods:
+  bank_transfer:
+    bank: "First Republic Bank"
+    account_last4: "4821"
+    routing: "321271555"
+    swift: "FRBBUS6S"
+    reference_note: "Please include the invoice number on the transfer"
+  paypal: "billing@afrexai.co"
+  stripe: "https://pay.afrexai.co"
+  bitcoin: "bc1qv9k0p4exampleaddress0000000000"
+  lightning: "lnurl1dp68gurn8ghj7mrfde5xjmn0w4exct"
+notes:
+  late_fee_policy: "1.5% per month on overdue balances with a 5-business-day grace period (25% cap)."

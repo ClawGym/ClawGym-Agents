@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0195",
+  "user_query": "Please process a small batch of tap-tempo requests and generate two artifacts for our session file. Read input/tempo_requests.json and, for each track:\n- Determine the source type (intervals vs timestamps).\n- Compute intervals: use the provided intervals as-is, or when timestamps are given, compute successive positive differences.\n- Compute averageIntervalMs and medianIntervalMs (rounded to 2 decimals).\n- Compute rawBpm = 60000 / averageIntervalMs, rounded to 2 decimals.\n- Normalize BPM using this explicit rule and thresholds from the file: if rawBpm < min → normalizedBpm = rawBpm * 2; if rawBpm > max → normalizedBpm = rawBpm / 2; otherwise keep rawBpm. Round normalizedBpm to 2 decimals.\n- Compute msPerBeatRaw = 60000 / rawBpm and msPerBeatNormalized = 60000 / normalizedBpm, each rounded to 2 decimals.\n- Determine beatsPerBar from the track; if missing, use beatsPerBarDefault from the file.\n- Compute msPerBarNormalized = msPerBeatNormalized * beatsPerBar, rounded to 2 decimals.\n- Set tapCount to (intervals.length + 1) for interval inputs, or timestamps.length for timestamp inputs.\n\nThen produce:\n1) output/tempo_report.json containing an object with a \"tracks\" array. Each element should be an object with fields: id, source, tapCount, averageIntervalMs, medianIntervalMs, rawBpm, normalizedBpm, msPerBeatRaw, msPerBeatNormalized, beatsPerBar, msPerBarNormalized.\n2) output/tempo_summary.csv with the header row exactly:\ntrackId,rawBpm,normalizedBpm,beatsPerBar,msPerBarNormalized\nand one data row per track, in any order, with values matching the JSON.\n\nUse only the data in input/tempo_requests.json. Ensure all numeric values are rounded to exactly two decimals.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

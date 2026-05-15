@@ -1,0 +1,16 @@
+{
+  "study": "Internal assessment of configuration drift in Kubernetes environments adopting GitOps and policy-as-code.",
+  "scope": "Three independent teams operating multiple clusters with GitOps controllers and admission policies.",
+  "metrics": {
+    "manual_hotfix_drift_pct": "36%",
+    "median_detection_lag": "45 minutes",
+    "mttr_reduction_with_rollback": "27%",
+    "policy_prevented_rate": "11 of 18",
+    "post_guardrail_drift_pct": "9%"
+  },
+  "notes": [
+    "Values above should be quoted verbatim in any article or summary.",
+    "Do not round or restate as different units.",
+    "Context for \"11 of 18\": controls prevented misconfigurations in staging before merge."
+  ]
+}

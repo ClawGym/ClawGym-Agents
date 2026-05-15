@@ -1,0 +1,7 @@
+weights:
+  rating_weight: 0.7
+  plays_weight: 0.3
+top_n: 20
+genres_filter:
+  - folk
+  - alternative

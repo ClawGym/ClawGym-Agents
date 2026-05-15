@@ -1,0 +1,35 @@
+scoring:
+  weights:
+    pass_rush_relevance: 0.5
+    equipment_simplicity: 0.2
+    time_fit: 0.2
+    safety: 0.1
+  scales:
+    pass_rush_relevance: "0=not relevant to edge rushing; 5=directly trains rush get-off, hand usage, bend, counters, or contain"
+    equipment_simplicity: "0=requires specialized gear; 5=cones/bags only"
+    time_fit: "0=rarely fits 10-15 min blocks; 5=easily done in <=15 min"
+    safety: "0=high collision risk for youth; 5=low collision, controlled"
+focus_tags_master_list:
+  - get-off
+  - stance
+  - burst
+  - hand-usage
+  - strike
+  - leverage
+  - bend
+  - corner
+  - balance
+  - counter-moves
+  - spin
+  - rip
+  - swim
+  - contain
+  - block-shed
+  - twists
+  - games
+  - coordination
+  - film-study
+  - recognition
+  - keys
+  - competition
+  - evaluation

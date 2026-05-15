@@ -1,0 +1,16 @@
+[
+  { "month": "2026-01", "region": "East",  "revenue_target": 3500.00 },
+  { "month": "2026-01", "region": "West",  "revenue_target": 2200.00 },
+  { "month": "2026-01", "region": "North", "revenue_target": 3600.00 },
+  { "month": "2026-01", "region": "South", "revenue_target": 500.00 },
+
+  { "month": "2026-02", "region": "East",  "revenue_target": 1100.00 },
+  { "month": "2026-02", "region": "West",  "revenue_target": 1500.00 },
+  { "month": "2026-02", "region": "North", "revenue_target": 1200.00 },
+  { "month": "2026-02", "region": "South", "revenue_target": 0.00 },
+
+  { "month": "2026-03", "region": "East",  "revenue_target": 1300.00 },
+  { "month": "2026-03", "region": "West",  "revenue_target": 700.00 },
+  { "month": "2026-03", "region": "North", "revenue_target": 500.00 },
+  { "month": "2026-03", "region": "South", "revenue_target": 300.00 }
+]

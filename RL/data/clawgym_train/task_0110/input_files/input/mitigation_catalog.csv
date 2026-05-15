@@ -1,0 +1,13 @@
+id,title,keywords,impact_score,effort_score,category
+M1,Disable DHCP hostname option,"dhcp;hostname;fqdn",5,2,Endpoint
+M2,Randomize DHCP client identifier (DUID),"dhcp;client-id;duid;randomize",4,3,Endpoint
+M3,Minimize DHCP Parameter Request List,"dhcp;parameter request list;prl;metadata minimization",4,4,Endpoint
+M4,Supress vendor-class identifier,"dhcp;vendor-class;privacy",3,2,Endpoint
+M5,Enable Perfect Forward Secrecy on TLS services,"pfs;tls;forward secrecy;monitoring",5,3,Network
+M6,Disable legacy TLS versions,"tls;tlsv1.0;tlsv1.1;monitoring",4,2,Network
+M7,Implement DNS over HTTPS with privacy resolver,"dns;doh;monitoring;metadata",4,4,Network
+M8,Harden browser fingerprinting,"browser;fingerprinting;monitoring",3,5,Endpoint
+M9,Rotate MAC addresses when scanning,"wifi;mac randomization;monitoring",3,3,Endpoint
+M10,Use pluggable transports for Tor,"tor;pluggable transports;obfuscation;monitoring",4,4,Network
+M11,Reduce telemetry in OS services,"telemetry;monitoring;metadata",3,3,Endpoint
+M12,Segment network to limit metadata exposure,"segmentation;monitoring",5,4,Network

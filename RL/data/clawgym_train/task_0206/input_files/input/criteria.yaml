@@ -1,0 +1,17 @@
+selection_rules:
+  excluded_sources: ["blogger"]
+  max_quote_length_chars: 220
+  max_red_flag_count: 2
+  top_n: 3
+  prefer_sources: ["community_leader", "ethics_officer", "pastor", "colleague"]
+
+scoring:
+  weights:
+    relevance_hint: 0.6
+    readability: 0.4
+    red_flag_penalty: 0.7
+  readability_normalization_divisor: 20
+
+style_constraints:
+  target_letter_word_count_range: [350, 550]
+  avoid_terms: ["bribe", "vendetta", "cover-up"]

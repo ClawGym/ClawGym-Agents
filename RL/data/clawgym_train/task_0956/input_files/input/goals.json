@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Buy Camera",
+    "target": 8000.00,
+    "months": 6,
+    "saved": 3500.00,
+    "created": "2026-01-10"
+  },
+  {
+    "name": "Emergency Fund",
+    "target": 15000.00,
+    "months": 12,
+    "saved": 12000.00,
+    "created": "2025-12-01"
+  },
+  {
+    "name": "Vacation",
+    "target": 3000.00,
+    "months": 4,
+    "saved": 3100.00,
+    "created": "2026-02-01"
+  }
+]

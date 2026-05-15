@@ -1,0 +1,36 @@
+monitor:
+  allowed_domains:
+    - bahamas.com
+    - bnt.bs
+    - gov.bs
+  islands:
+    - name: Nassau & Paradise Island
+      topics:
+        - cruise
+        - museum
+        - food tour
+    - name: Exuma
+      topics:
+        - swimming pigs
+        - snorkeling
+        - boat tour
+    - name: Andros
+      topics:
+        - blue hole
+        - bonefishing
+        - eco-tour
+    - name: Eleuthera
+      topics:
+        - pink sand beach
+        - surfing
+        - boutique hotel
+    - name: Abaco
+      topics:
+        - boating
+        - sailing
+        - national park
+    - name: Bimini
+      topics:
+        - dolphin
+        - shark
+        - shipwreck

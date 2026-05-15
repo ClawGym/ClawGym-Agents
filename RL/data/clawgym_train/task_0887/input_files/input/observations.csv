@@ -1,0 +1,13 @@
+id,date,plant,motif,complexity_score,notes
+1,2025-03-01,Sunflower,spiral,7,"tight spiral seed head; golden ratio impression"
+2,2025-03-02,Pine cone,spiral,6,"staggered scales; alternating spirals"
+3,2025-03-03,Fern,venation,5,"delicate fronds; parallel veins"
+4,2025-03-04,Lily,venation,4,"strong central vein; radiating leaves"
+5,2025-03-05,Aloe,phyllotaxis,8,"rosette pattern; thick fleshy leaves"
+6,2025-03-06,Romanesco,spiral,9,"logarithmic spiral; fractal florets"
+7,2025-03-07,Maple,venation,6,"palmate venation network"
+8,2025-03-08,Cactus,phyllotaxis,7,"areoles spiral around column"
+9,2025-03-09,Lotus,radial,5,"symmetrical radial petals"
+10,2025-03-10,Monstera,venation,7,"fenestration; veins circle splits"
+11,2025-03-11,Sunflower,phyllotaxis,7,"seed arrangement shows Fibonacci spirals"
+12,2025-03-12,Fern,venation,3,"young fiddleheads; minor veins"

@@ -1,0 +1,5 @@
+timeout: 5
+groups:
+  - core
+  - customer-facing
+  - analytics

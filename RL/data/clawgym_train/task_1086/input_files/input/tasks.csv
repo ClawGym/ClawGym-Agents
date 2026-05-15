@@ -1,0 +1,10 @@
+task,minutes_per_occurrence,frequency_per_month,rule_based,tools,notes
+Website contact form to Airtable CRM, intro email, follow-up task,15,20,yes,"Webflow,Airtable,Gmail,Slack,Notion","Add new lead; send templated intro; create 3-day follow-up task"
+Sync Calendly bookings to Notion and send prep resources,12,10,yes,"Calendly,Google Calendar,Notion,Gmail,Slack","Create meeting page with template; attach checklist; email prep links"
+Reconcile Stripe payments and update revenue sheet,8,12,yes,"Stripe,Google Sheets,Gmail,Slack","Mark invoice paid; send receipt; append to monthly revenue tracker"
+Typeform lead magnet sign-ups to Google Sheets and tag in ConvertKit,7,16,yes,"Typeform,Google Sheets,ConvertKit,Slack","Copy response; tag subscriber; notify #ops-alerts"
+Post new blog excerpt to LinkedIn and Twitter,10,4,yes,"Webflow RSS,LinkedIn,Twitter","Share link with pre-approved caption template"
+Weekly client status digest from Notion to email,15,4,yes,"Notion,Gmail,Slack","Query tasks due next 7 days; email summary to self"
+Draft custom proposals for qualified leads,60,4,no,"Google Docs,Airtable,Gmail","Requires tailoring scope and pricing"
+Quarterly expense categorization in accounting software,120,1,no,"QuickBooks Online,Google Sheets","Requires judgment on ambiguous transactions"
+Prepare client presentation slides,90,2,no,"Google Slides,Notion","Creative work; not rule-based"

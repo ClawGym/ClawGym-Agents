@@ -1,0 +1,8 @@
+allowed_active_ingredients:
+  - Copper Hydroxide
+  - Spinosad
+  - Neem Oil
+require_training_within_days: 365
+season_start_date: "2026-01-01"
+season_end_date: "2026-12-31"
+phi_definition: "Harvest is compliant if harvest_date >= application_date + PHI_days (whole days)."

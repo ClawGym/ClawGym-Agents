@@ -1,0 +1,7 @@
+case_id,region,status,child_involved,category,immigration_pathway,risk_score,last_update,language,summary
+C1006,Northwest,open,TRUE,family_separation_risk,asylum,95,2026-04-12,ru,"Father deportation order imminent; minor child citizen; emergency plan needed."
+C1007,South,open,TRUE,guardianship_gap,asylum,68,2026-04-10,hy,"Relative caregiver lacks legal authorization; foster placement considered."
+C1008,Northwest,open,TRUE,language_access,temporary_protection,84,2026-04-06,ru,"School meetings without interpreter; discipline issues escalating."
+C1009,Central,open,TRUE,family_separation_risk,temporary_protection,88,2026-04-09,uk,"Siblings split between shelters after transfer; reunification plan missing."
+C1010,Northwest,open,FALSE,documentation,asylum,77,2026-04-07,en,"Adult applicant lost ID; no child."
+C1011,Northwest,open,TRUE,guardianship_gap,asylum,80,2026-04-11,ru,"Grandmother de facto caregiver; court hearing delayed."

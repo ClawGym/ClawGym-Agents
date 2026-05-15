@@ -1,0 +1,11 @@
+topic_id,topic,persona,channel,click_through_rate,avg_time_seconds,bounce_rate,conversions,last_published_date,pipeline_stage
+T001,scRNA-seq QC,Wet-lab Scientist,Blog,0.12,260,0.45,8,2026-03-15,consideration
+T002,Batch effect correction,Data Analyst,Blog,0.15,310,0.38,12,2026-02-20,consideration
+T003,AutoML for omics,CTO,LinkedIn,0.09,220,0.52,5,2026-04-10,awareness
+T004,Variant annotation best practices,Data Analyst,Blog,0.11,280,0.41,9,2026-03-28,consideration
+T005,Nextflow pipeline orchestration,CTO,Blog,0.10,240,0.50,6,2026-02-05,awareness
+T006,MLOps for biological data,CTO,LinkedIn,0.13,270,0.44,10,2026-04-20,decision
+T007,Data normalization pitfalls,Wet-lab Scientist,Newsletter,0.18,200,0.35,7,2026-03-05,awareness
+T008,Interpretable models in genomics,Data Analyst,Twitter,0.07,180,0.58,3,2026-01-30,awareness
+T009,Reproducible research checklists,Wet-lab Scientist,Blog,0.14,290,0.40,11,2026-04-05,consideration
+T010,Cloud costs for bioinformatics,CTO,LinkedIn,0.16,250,0.42,13,2026-04-25,decision

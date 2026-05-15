@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1339",
+  "user_query": "Curate a mini-anthology of tech‑tinged ghost stories and sci‑fi vignettes for our internal newsletter. Read input/prompts.json for the seed prompts and length/tagline constraints. For each prompt in that file, write a 150–220 word micro‑story in an atmospheric tone using the specified genre (ghost or sci‑fi). Requirements:\n\n1) Write a newline‑delimited JSON file at output/tales.jsonl with one object per story using this schema:\n   {\"id\": \"slug-from-title\", \"title\": \"Unique Title\", \"genre\": \"ghost|sci-fi\", \"prompt\": \"<exact prompt text>\", \"tagline\": \"<=90 characters\", \"body\": \"<story text>\", \"word_count\": <integer>}\n   - The body must include the exact prompt sentence verbatim somewhere.\n   - Title must be unique across all entries.\n   - id must be a lowercase hyphenated slug of the title (letters/digits/hyphens only; spaces replaced by hyphens; other punctuation removed).\n   - word_count should reflect the actual number of words in body (150–220 inclusive).\n\n2) Create output/index.md that includes:\n   - An H1 heading for the collection.\n   - An \"Editor's Foreword\" section 120–200 words long that references at least two story titles by name.\n   - A table of contents listing each story title with its genre tag and tagline on the same line.\n\n3) Create output/qc_report.json summarizing: {\"total\": <int>, \"by_genre\": {\"ghost\": <int>, \"sci-fi\": <int>}, \"avg_word_count\": <number>}.\n\nEnsure: (a) total stories equal the number of prompts in input/prompts.json, (b) at least two stories per genre, (c) all JSON is valid. Keep everything in English and write only to the output/ directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

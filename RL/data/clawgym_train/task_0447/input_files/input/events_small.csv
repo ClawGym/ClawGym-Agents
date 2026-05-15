@@ -1,0 +1,7 @@
+date,governorate,actor1,actor2,event_type,fatalities
+2020-01-01,Damascus,Pro-Gov,Civilians,Protest,0
+2020-01-15,Aleppo,Unknown,Unknown,Explosions/Remote violence,3
+2020-01-31,Idlib,Gov Forces,Opposition,Battles,5
+2020-02-01,Idlib,Gov Forces,Opposition,Battles,2
+2020-01-20,Aleppo,Kurdish,ISIS,Battles,1
+2020-01-05,Damascus,Unknown,Unknown,Violence against civilians,2

@@ -1,0 +1,9 @@
+{
+  "tier": "pro",
+  "apiKey": "ABCD123456XYZ",
+  "rateLimit": {
+    "maxRequests": 75,
+    "windowMs": 60000
+  },
+  "notes": "Enable high-sensitivity prompt injection detection and require approval for dangerous tools."
+}

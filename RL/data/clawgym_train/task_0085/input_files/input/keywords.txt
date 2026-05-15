@@ -1,0 +1,17 @@
+canceled
+cancelled
+postponed
+rescheduled
+suspended
+abandoned
+delay
+delayed
+behind closed doors
+closed-door
+weather alert
+storm
+typhoon
+blizzard
+heavy rain
+travel disruption
+transport strike

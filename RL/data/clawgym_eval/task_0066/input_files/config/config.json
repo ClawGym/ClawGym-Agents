@@ -1,0 +1,10 @@
+{
+  "service_name": "cart-sync",
+  "timeouts": {
+    "dependency_timeout_ms": 500,
+    "max_retries": 5
+  },
+  "reliability": {
+    "fail_fast_threshold_ms": 1200
+  }
+}

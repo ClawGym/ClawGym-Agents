@@ -1,0 +1,22 @@
+Temporary rent abatement for February 2026.
+
+Context:
+- Landlord provided a one-time $500 abatement for February due to HVAC maintenance impacting building access during the last week of January.
+- Normal monthly rent: $5,000.00
+- Abatement amount to apply in February: $500.00
+- Adjusted February rent: $4,500.00
+
+Instructions:
+1) If a February 2026 rent journal has already been created or submitted, CANCEL the original February entry to reverse its GL impact (do not delete).
+2) AMEND by creating a new draft journal for February 2026 with the reduced amount of $4,500.00 (debit Rent Expense $4,500.00; credit Accounts Payable $4,500.00), keeping the same accounts and supplier party reference.
+3) Include a clear remark on the amended journal lines: "February 2026 rent abatement - $500 reduction."
+4) SUBMIT the amended February entry once the draft is confirmed to be balanced.
+
+Reference details:
+- Company: Acme Robotics Inc. (company_id: c5f2b5b1-7b2e-4b36-8e71-1b9a5b7c0d2e)
+- Rent Expense account_id: 89a3e7c8-0f44-4cd8-9c7a-5596f9717a90
+- Accounts Payable account_id: 0f87224f-9465-42c7-8fbf-6eb5b6f3e4d2
+- Landlord supplier_id: 7f4b2e1a-3a52-485d-8b3a-45e9311d6b11
+
+Note:
+- This is a one-time abatement for February 2026 only. Resume the standard $5,000.00 monthly amount beginning March 2026 unless further notice is provided.

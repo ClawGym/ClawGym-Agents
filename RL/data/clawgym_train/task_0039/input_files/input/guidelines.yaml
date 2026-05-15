@@ -1,0 +1,11 @@
+policies:
+  disallow_fundraising_during_lent: true
+  allowed_fundraising_exception_terms:
+    - almsgiving
+  banned_phrases:
+    - "Vote for"
+    - "endorse any candidate"
+notes: >
+  Parish communications should reflect Catholic social teaching and Sri Lankan Catholic traditions.
+  Avoid political endorsements.
+  Fundraising appeals should not be scheduled during Lent unless clearly framed as almsgiving.

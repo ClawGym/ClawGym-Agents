@@ -1,0 +1,67 @@
+{
+  "jobs": [
+    {
+      "name": "deals-morning",
+      "schedule": "0 8 * * *",
+      "state": {
+        "lastStatus": "error",
+        "lastRunAt": "2026-04-13T08:06:00+08:00",
+        "lastError": "Timeout after 120s while contacting deals-api"
+      }
+    },
+    {
+      "name": "tech-news-digest",
+      "schedule": "0 9 * * *",
+      "state": {
+        "lastStatus": "error",
+        "lastRunAt": "2026-04-13T09:01:10+08:00",
+        "lastError": "Timed out connecting to HackerNews after 30s"
+      }
+    },
+    {
+      "name": "content-research",
+      "schedule": "0 10 * * *",
+      "state": {
+        "lastStatus": "ok",
+        "lastRunAt": "2026-04-13T10:02:10+08:00",
+        "lastError": null
+      }
+    },
+    {
+      "name": "workspace-backup",
+      "schedule": "30 2 * * *",
+      "state": {
+        "lastStatus": "error",
+        "lastRunAt": "2026-04-13T02:31:00+08:00",
+        "lastError": "Disk space low: only 1% free on /"
+      }
+    },
+    {
+      "name": "daily-update",
+      "schedule": "0 7 * * *",
+      "state": {
+        "lastStatus": "ok",
+        "lastRunAt": "2026-04-13T07:00:45+08:00",
+        "lastError": null
+      }
+    },
+    {
+      "name": "failure-monitor",
+      "schedule": "*/15 * * * *",
+      "state": {
+        "lastStatus": "ok",
+        "lastRunAt": "2026-04-13T10:15:00+08:00",
+        "lastError": null
+      }
+    },
+    {
+      "name": "skill-sync",
+      "schedule": "0 6 * * *",
+      "state": {
+        "lastStatus": "ok",
+        "lastRunAt": "2026-04-13T06:00:10+08:00",
+        "lastError": null
+      }
+    }
+  ]
+}

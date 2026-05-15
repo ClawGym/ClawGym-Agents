@@ -1,0 +1,17 @@
+name,category,url,notes
+Psycopg,Clients,https://www.psycopg.org/,Python PostgreSQL adapter
+node-postgres (pg),Clients,https://node-postgres.com/,Node.js PostgreSQL client
+libpq,Libraries,https://www.postgresql.org/docs/current/libpq.html,C interface for PostgreSQL
+pgAdmin 4,Tools,https://www.pgadmin.org/,Administration and development platform
+DBeaver,Tools,https://dbeaver.io/,Universal database client (supports PostgreSQL)
+pgBouncer,Tools,https://www.pgbouncer.org/,Lightweight connection pooler
+psql,Clients,https://www.postgresql.org/docs/current/app-psql.html,Official PostgreSQL CLI client
+sqlx (Go),Libraries,https://github.com/jmoiron/sqlx,SQL extensions for Go
+pgx (Go),Clients,https://github.com/jackc/pgx,High-performance PostgreSQL driver for Go
+Flyway,Tools,https://flywaydb.org/,Database migrations tool
+TimescaleDB,Extensions,https://www.timescale.com/,Time-series PostgreSQL extension
+PostGIS,Extensions,https://postgis.net/,Geospatial extension for PostgreSQL
+pgAdmin 4,Tools,https://www.pgadmin.org/,Duplicate test
+node-postgres (pg),Clients,https://node-postgres.com/,Duplicate test
+Awesome Postgres Article,Articles,https://example.com/awesome-postgres,Blog post about PostgreSQL
+Mastering PostgreSQL in Application Development,Books,https://masteringpostgresql.com/,Book by Dimitri Fontaine

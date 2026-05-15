@@ -1,0 +1,27 @@
+Availability windows (local time):
+- Tuesdays: 19:00–21:00 (2h)
+- Wednesdays: 12:30–13:30 (1h, lunch slot)
+- Thursdays: 19:00–21:00 (2h)
+- Saturdays: 09:00–12:00 (3h)
+- Sundays: Rest day (no study)
+- Mondays & Fridays: Generally unavailable (family commitments), occasional 07:00–08:00 buffer if needed for catch-up
+
+Baseline weekly study hours: 8 hours (Tue 2h + Wed 1h + Thu 2h + Sat 3h)
+
+Blackout dates and adjustments:
+- Week 3: 2026-05-23 (Saturday) — attending a wedding; Saturday 09:00–12:00 unavailable (−3h). Plan ~5h that week.
+- Week 5: 2026-06-02 to 2026-06-04 (Tue–Thu) — business travel; Tue/Thu evening and Wed lunch slots unavailable (−5h). Plan ~3h on Saturday only.
+- Sundays remain no-study throughout.
+
+Meeting cadence to consider:
+- Weekly Ops meeting on Mondays (dashboard review target)
+- Peer buddy check-ins: Fridays 12:00–12:15 (async if traveling)
+
+Hard constraints:
+- No sessions longer than 60 minutes on weekdays to preserve energy after work
+- Avoid adding new learning projects during the 6-week period
+
+Assumptions:
+- Start date: 2026-05-04 (Week 1)
+- End target: 2026-06-15 (end of Week 6)
+- Data exports refreshed weekly by Friday afternoon for Saturday practice sessions

@@ -1,0 +1,44 @@
+# Core home entities for accessibility-first automations
+
+home:
+  human_name: "Alex"
+  person: person.alex
+  zone_home: zone.home
+  notify:
+    primary: notify.accessibility_agent
+    caregiver: notify.caregiver_phone
+
+devices:
+  lights:
+    bedroom_main: light.bedroom_main
+    bedside_lamp: light.bedside_lamp
+    living_room_main: light.living_room_main
+    desk_lamp: light.desk_lamp
+    tv_backlight: light.tv_backlight
+
+  climate:
+    thermostat: climate.main
+
+  locks:
+    front_door: lock.front_door
+
+  media_players:
+    bedroom_speaker: media_player.bedroom_speaker
+    living_room_tv: media_player.living_room_tv
+
+  switches:
+    white_noise: switch.white_noise_machine
+
+  sensors:
+    motion_bedroom: binary_sensor.motion_bedroom
+    motion_living_room: binary_sensor.motion_living_room
+
+  helpers:
+    do_not_disturb: input_boolean.do_not_disturb
+
+# Optional: friendly scene references (will be created by the agent)
+scenes_expected:
+  - "Good Morning"
+  - "Focus Mode"
+  - "Movie Time"
+  - "Bedtime"

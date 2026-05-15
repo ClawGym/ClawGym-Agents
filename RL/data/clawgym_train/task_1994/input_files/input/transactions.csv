@@ -1,0 +1,22 @@
+date,description,type,amount,currency,category
+2025-01-03,Salary January,credit,3200.00,USD,Income
+2025-01-05,Rent January,debit,1200.00,USD,Housing
+2025-01-07,Grocery Store,debit,210.45,USD,Groceries
+2025-01-10,Badminton racket Yonex,debit,150.00,USD,Sports - Badminton
+2025-01-12,Court booking - community center,debit,24.00,USD,Sports - Badminton
+2025-01-15,Shuttlecocks (12 pcs),debit,18.99,USD,Sports - Badminton
+2025-01-20,Coaching session - mixed doubles basics,debit,45.00,USD,Sports - Badminton
+2025-01-22,Cafe lunch,debit,13.50,USD,Dining
+2025-01-27,Stringing service - 24 lbs,debit,22.00,USD,Sports - Badminton
+2025-01-29,Refund - defective shuttlecocks,credit,5.00,USD,Sports - Badminton
+2025-02-01,Salary February,credit,3200.00,USD,Income
+2025-02-03,Rent February,debit,1200.00,USD,Housing
+2025-02-05,Grocery Store,debit,198.30,USD,Groceries
+2025-02-08,Club membership - local badminton club (1 month),debit,35.00,USD,Sports - Badminton
+2025-02-11,Court booking - community center,debit,24.00,USD,Sports - Badminton
+2025-02-14,Valentine's dinner,debit,68.00,USD,Dining
+2025-02-18,Shuttlecocks (6 pcs),debit,9.99,USD,Sports - Badminton
+2025-02-20,Coaching session - mixed doubles tactics,debit,50.00,USD,Sports - Badminton
+2025-02-22,Taxi to club,debit,12.50,USD,Transport
+2025-02-25,Wrist support band,debit,14.99,USD,Sports - Badminton
+2025-02-28,Stringing service - 26 lbs,debit,22.00,USD,Sports - Badminton

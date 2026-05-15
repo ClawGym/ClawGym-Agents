@@ -1,0 +1,10 @@
+@startuml
+namespace com.example.billing {
+  class Invoice
+  interface InvoiceRepository
+}
+' Intentionally leaving out InMemoryInvoiceRepository from explicit declarations
+class Payment
+
+InvoiceRepository <|-- InMemoryInvoiceRepository
+@enduml

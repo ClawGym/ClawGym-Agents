@@ -1,0 +1,9 @@
+columns:
+  pre: lead_ppb_pre
+  post: lead_ppb_post
+  group_by: remedy
+  neighborhood: neighborhood
+action_level_ppb: 15
+report:
+  include_overall: true
+  include_group_breakdown: true

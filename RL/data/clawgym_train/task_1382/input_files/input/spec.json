@@ -1,0 +1,89 @@
+{
+  "indicator_name": "LB RTH VWAP + Bands",
+  "shorttitle": "LB_RTH_VWAP",
+  "session": {
+    "window": "0930-1600",
+    "timezone": "America/New_York",
+    "label": "US RTH (09:30–16:00 ET)"
+  },
+  "feature_toggles": {
+    "enable_vwap": true,
+    "enable_bands": true,
+    "enable_ma1": true,
+    "enable_ma2": true
+  },
+  "vwap_settings": {
+    "use_hlc3": true,
+    "reset_each_session": true,
+    "source_label": "VWAP Source (HLC3 recommended)"
+  },
+  "vwap_bands": {
+    "stdev_multiplier": 1.0,
+    "show_fill": true,
+    "upper_label": "VWAP +1 SD",
+    "lower_label": "VWAP -1 SD",
+    "line_width": 2
+  },
+  "moving_averages": {
+    "ma_type_default": "EMA",
+    "ma_types": ["SMA", "EMA"],
+    "ma1_length": 20,
+    "ma2_length": 50,
+    "ma_type_label": "MA Type",
+    "ma1_label": "MA 1 Length",
+    "ma2_label": "MA 2 Length"
+  },
+  "input_groups": {
+    "feature_toggles": "Feature Toggles",
+    "vwap_settings": "VWAP Settings",
+    "vwap_bands": "VWAP Bands",
+    "session_settings": "Session Settings",
+    "display_options": "Display Options",
+    "colors": "Colors"
+  },
+  "display_options": {
+    "overlay": true,
+    "show_ma_plots": true,
+    "plot_transparency": 0,
+    "band_fill_transparency": 80
+  },
+  "colors": {
+    "light_theme_default": false,
+    "light": {
+      "vwap": "#1E3A8A",
+      "band": "#2563EB",
+      "band_fill": "rgba(37,99,235,0.15)",
+      "ma1": "#059669",
+      "ma2": "#EF4444",
+      "grid_hint": "#9CA3AF"
+    },
+    "dark": {
+      "vwap": "#93C5FD",
+      "band": "#60A5FA",
+      "band_fill": "rgba(96,165,250,0.20)",
+      "ma1": "#34D399",
+      "ma2": "#F87171",
+      "grid_hint": "#6B7280"
+    }
+  },
+  "resource_limits": {
+    "max_bars_back": 5000,
+    "max_labels_count": 500,
+    "max_lines_count": 500
+  },
+  "plot_titles": {
+    "vwap": "Session VWAP",
+    "upper": "VWAP +1 SD",
+    "lower": "VWAP -1 SD",
+    "ma1": "MA 1",
+    "ma2": "MA 2"
+  },
+  "authors": "Luther Barnum",
+  "license": "MPL-2.0",
+  "notes": [
+    "Detect and restrict calculations to RTH session using the provided window and timezone.",
+    "Reset cumulative VWAP state at the start of each new trading day/session using ta.change(time(\"D\")).",
+    "Include basic NA handling and division-by-zero guards where applicable.",
+    "Organize inputs with the exact group labels defined in input_groups."
+  ]
+}

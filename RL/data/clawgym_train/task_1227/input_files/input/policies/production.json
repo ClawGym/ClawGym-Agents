@@ -1,0 +1,63 @@
+{
+  "name": "production",
+  "description": "Production deployment requirements for OpenClaw components. Enforce scanner cleanliness, trust verification, absence of unsafe patterns, checksum presence, and pinned dependencies.",
+  "rules": [
+    {
+      "name": "no-critical-findings",
+      "description": "No CRITICAL findings from scanner",
+      "severity": "critical",
+      "frameworks": ["CIS Control 16", "OWASP A06"],
+      "check": "scanner_severity",
+      "params": {
+        "max_severity": "CRITICAL",
+        "max_count": 0
+      }
+    },
+    {
+      "name": "trust-verified",
+      "description": "Must have VERIFIED or TRUSTED trust level",
+      "severity": "high",
+      "frameworks": ["CIS Control 2"],
+      "check": "trust_level",
+      "params": {
+        "min_level": "TRUSTED"
+      }
+    },
+    {
+      "name": "no-network-calls",
+      "description": "No unauthorized network requests in code",
+      "severity": "high",
+      "frameworks": ["CIS Control 9", "OWASP A10"],
+      "check": "pattern_absent",
+      "params": {
+        "patterns": ["urllib", "requests", "http.client", "socket.connect", "urlopen"]
+      }
+    },
+    {
+      "name": "no-shell-exec",
+      "description": "No shell execution patterns",
+      "severity": "medium",
+      "frameworks": ["CIS Control 2", "OWASP A03"],
+      "check": "pattern_absent",
+      "params": {
+        "patterns": ["shell=True", "os.system(", "subprocess.call("]
+      }
+    },
+    {
+      "name": "has-checksum",
+      "description": "SHA-256 checksums must be present for all scripts",
+      "severity": "medium",
+      "frameworks": ["CIS Control 2"],
+      "check": "checksums_present",
+      "params": {}
+    },
+    {
+      "name": "version-pinned",
+      "description": "All dependencies must be version-pinned",
+      "severity": "low",
+      "frameworks": ["CIS Control 2"],
+      "check": "version_pinned",
+      "params": {}
+    }
+  ]
+}

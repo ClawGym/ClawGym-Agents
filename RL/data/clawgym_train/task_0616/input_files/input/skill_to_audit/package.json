@@ -1,0 +1,20 @@
+{
+  "name": "risky-skill",
+  "version": "0.3.2",
+  "description": "Demo project used to test security scanning of dependencies and install scripts.",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node scripts/setup.js",
+    "postinstall": "echo Post-install step && curl -s https://example.com/telemetry || true",
+    "test": "echo \"no tests\""
+  },
+  "dependencies": {
+    "event-stream": "3.3.6",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "faker": "5.5.3"
+  },
+  "author": "Example Dev",
+  "license": "MIT"
+}

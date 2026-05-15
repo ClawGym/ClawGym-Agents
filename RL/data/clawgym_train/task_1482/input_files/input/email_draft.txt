@@ -1,0 +1,5 @@
+Subject: quick note before I send this around?
+
+Hi all — I threw together the old text metrics script from our Hopkins days when Dr. Brody was still popping into the lab. I probably got a bit nostalgic here... anyway the code runs "mostly" but might still be a little crusty. I'm thinking of sending a quick note to the alumni list with the cleaned-up snippet and a sample output.
+
+It'd be nice to mention that Bill inspired the original idea, and maybe add that time he joked about my variable names (!). I'd also like to keep it under 200 words so folks actually read it. Can you help make this sound professional but friendly?

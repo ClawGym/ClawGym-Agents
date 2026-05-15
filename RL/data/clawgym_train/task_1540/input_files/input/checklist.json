@@ -1,0 +1,35 @@
+{
+  "canon_references_mandatory": [
+    "Arin",
+    "Skylark",
+    "Moonsilver Sea",
+    "Accord Stone",
+    "Serenya",
+    "Emberion"
+  ],
+  "bibliography_labels_required": [
+    "Arin",
+    "Skylark",
+    "Moonsilver Sea",
+    "Accord Stone",
+    "Serenya",
+    "Emberion"
+  ],
+  "additional_references_suggested": [
+    "The Lullaby",
+    "First Seal",
+    "Accord",
+    "Seals",
+    "Moon-Shadow",
+    "Elysun Vale",
+    "Skylorn Peaks",
+    "Cantor's House",
+    "Matron Evela",
+    "Kaelion",
+    "The 13 heroes",
+    "Shattered Accord",
+    "Ascension War",
+    "Eternal Dawns"
+  ],
+  "notes": "Use brief quotes only; each block quote under 120 words and total quoted words <= 180. Label layers as Canon:, Reflection:, and Speculation:. Keep the Speculative Addendum explicitly non-canonical."
+}

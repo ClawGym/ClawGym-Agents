@@ -1,0 +1,12 @@
+rules:
+  - keywords: ["coffee", "americano", "cold brew", "latte", "espresso"]
+    subcategory: coffee
+    category: food
+  - keywords: ["bento", "bento box"]
+    subcategory: bento
+    category: food
+  - keywords: ["ramen"]
+    subcategory: ramen
+    category: food
+  - keywords: ["metro", "subway", "train", "line"]
+    category: transport

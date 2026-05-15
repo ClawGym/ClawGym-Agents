@@ -1,0 +1,6 @@
+{"type":"decision","content":"We will standardize the brand voice as helpful, pragmatic, and friendly across all channels.","tags":["branding","voice"],"importance":"high","timestamp":"2026-04-14T10:32:00Z"}
+{"type":"learning","content":"Chunking knowledge into 400–800 tokens leads to more precise retrieval and fewer hallucinations.","tags":["retrieval","chunking"],"importance":"medium","timestamp":"2026-04-12T09:00:00Z"}
+{"type":"context","content":"The Acme Clean line targets urban millennials seeking effective, eco-friendly home care solutions.","tags":["audience","product"],"timestamp":"2026-04-10T12:05:00Z"}
+{"type":"preference","content":"When addressing UK audiences, prefer British spelling and metric units.","tags":["localization"],"timestamp":"2026-04-09T08:45:00Z"}
+{"type":"observation","content":"Customers report confusion between the ‘Multi-Surface’ and ‘Kitchen’ sprays; simplified naming could reduce returns.","tags":["ux","naming"],"timestamp":"2026-04-13T14:10:00Z"}
+{"type":"fact","content":"Acme Clean bottles are made from 100% post-consumer recycled plastic and are curbside recyclable.","tags":["sustainability"],"timestamp":"2026-04-08T16:22:00Z"}

@@ -1,0 +1,9 @@
+Subject: Meeting request re: ADC characterization experiment
+Hi Prof. Chen,
+
+I was thinking we could maybe find a time next week to just chat about the latest ADC characterization results from the lab. I know you are very busy, and I kind of wanted to give you a bit more context before our next group meeting, since the comparison between the two boards is sort of messy and I am still organizing the plots. I think the key question is whether the repeatability we saw on the second setup is possibly due to the clocking scheme or just measurement noise. I was thinking that a short meeting could help me decide whether to rerun the INL sweeps or try a different input route. If Tuesday afternoon does not work, hopefully another time could be okay.
+
+If this is too much detail over email, maybe we can keep it brief. Thank you for your time!
+
+Best,
+Alex

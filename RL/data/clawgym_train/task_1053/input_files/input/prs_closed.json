@@ -1,0 +1,62 @@
+[
+  {
+    "number": 230,
+    "title": "Record: NorMuon Int6 SWA [val_bpb=1.15990]",
+    "body": "Stabilized training with SWA.\nval_bpb=1.15990",
+    "user": { "login": "alphafox" },
+    "state": "closed",
+    "merged_at": "2026-03-20T15:00:00Z",
+    "created_at": "2026-03-19T14:00:00Z",
+    "labels": [{ "name": "record" }]
+  },
+  {
+    "number": 229,
+    "title": "Record: 1.16100",
+    "body": "val_bpb: 1.16100\nImproved tokenizer alignment.",
+    "user": { "login": "betabot" },
+    "state": "closed",
+    "merged_at": "2026-03-19T20:00:00Z",
+    "created_at": "2026-03-19T19:00:00Z",
+    "labels": [{ "name": "record" }]
+  },
+  {
+    "number": 228,
+    "title": "Record: 1.17000",
+    "body": "val_bpb=1.17000",
+    "user": { "login": "oldtimer" },
+    "state": "closed",
+    "merged_at": "2026-03-18T15:00:00Z",
+    "created_at": "2026-03-18T10:00:00Z",
+    "labels": [{ "name": "record" }]
+  },
+  {
+    "number": 231,
+    "title": "Record: Cheeky run val_bpb=1.09990",
+    "body": "Aggressive settings to squeeze out a low validation bpb.\nval_bpb=1.09990",
+    "user": { "login": "trickster" },
+    "state": "closed",
+    "merged_at": "2026-03-20T16:00:00Z",
+    "created_at": "2026-03-20T12:30:00Z",
+    "labels": [{ "name": "record" }]
+  },
+  {
+    "number": 232,
+    "title": "Record: 1.16050",
+    "body": "val_bpb=1.16050\nDid not meet merge criteria yet.",
+    "user": { "login": "closermiss" },
+    "state": "closed",
+    "merged_at": null,
+    "created_at": "2026-03-20T09:15:00Z",
+    "labels": [{ "name": "record" }]
+  },
+  {
+    "number": 233,
+    "title": "Record: Another attempt",
+    "body": "No val metric to report yet - pending rerun.",
+    "user": { "login": "someone" },
+    "state": "closed",
+    "merged_at": "2026-03-20T17:00:00Z",
+    "created_at": "2026-03-20T13:00:00Z",
+    "labels": [{ "name": "record" }]
+  }
+]

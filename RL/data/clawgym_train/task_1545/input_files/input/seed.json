@@ -1,0 +1,123 @@
+{
+  "facts": [
+    {
+      "key": "f1",
+      "content": "Boss prefers brief status updates over long explanations",
+      "tags": ["preference", "communication", "boss"],
+      "source": "conversation",
+      "confidence": 0.9,
+      "created_at": "2026-02-10T10:00:00Z"
+    },
+    {
+      "key": "f2",
+      "content": "API rate limit is 60 req/min",
+      "tags": ["technical", "api"],
+      "source": "observation",
+      "confidence": 0.8,
+      "created_at": "2026-03-01T12:00:00Z",
+      "expires_in_days": 90
+    },
+    {
+      "key": "f3",
+      "content": "Weekly standup is every Monday at 9am ET",
+      "tags": ["schedule", "meeting"],
+      "confidence": 0.95,
+      "created_at": "2025-12-01T09:00:00Z",
+      "expires_in_days": 120
+    },
+    {
+      "key": "f4",
+      "content": "Use Kelly criterion sparingly to manage risk in trading",
+      "tags": ["trading", "risk"],
+      "source": "inference",
+      "confidence": 0.6,
+      "created_at": "2025-10-10T08:00:00Z"
+    },
+    {
+      "key": "f5",
+      "content": "Alice prefers Slack over email for quick questions",
+      "tags": ["communication", "Alice"],
+      "source": "conversation",
+      "confidence": 0.7,
+      "created_at": "2024-11-15T14:20:00Z",
+      "expires_in_days": 365
+    },
+    {
+      "key": "f6",
+      "content": "Project DataDeck status is 'maintenance' with minor updates monthly",
+      "tags": ["project", "status", "DataDeck"],
+      "source": "observation",
+      "confidence": 0.85,
+      "created_at": "2026-03-15T18:00:00Z",
+      "expires_in_days": 30
+    }
+  ],
+  "lessons": [
+    {
+      "id": "L1",
+      "action": "Deployed without running tests",
+      "context": "deployment",
+      "outcome": "negative",
+      "insight": "Always run the full test suite before deploying any change",
+      "created_at": "2026-02-20T16:00:00Z"
+    },
+    {
+      "id": "L2",
+      "action": "Used quarter-Kelly position sizing",
+      "context": "trading",
+      "outcome": "positive",
+      "insight": "Conservative sizing reduces drawdowns and improves recovery odds",
+      "created_at": "2025-11-01T11:00:00Z"
+    },
+    {
+      "id": "L3",
+      "action": "Skipped standup during holiday week",
+      "context": "communication",
+      "outcome": "neutral",
+      "insight": "Confirm schedule changes proactively with the team",
+      "created_at": "2025-12-20T10:30:00Z"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Alex",
+      "type": "person",
+      "attributes": {
+        "role": "boss",
+        "timezone": "America/New_York",
+        "communication_style": "brief and direct"
+      },
+      "first_seen": "2026-02-05T09:00:00Z"
+    },
+    {
+      "name": "DataDeck",
+      "type": "project",
+      "attributes": {
+        "type": "SaaS",
+        "status": "maintenance",
+        "url": "https://example.invalid/datadeck"
+      },
+      "first_seen": "2026-03-10T12:00:00Z"
+    },
+    {
+      "name": "Alice",
+      "type": "person",
+      "attributes": {
+        "team": "engineering",
+        "expertise": "backend"
+      },
+      "first_seen": "2024-10-20T08:00:00Z"
+    }
+  ],
+  "links": [
+    { "entity": "Alex", "fact_key": "f1" },
+    { "entity": "Alex", "fact_key": "f2" },
+    { "entity": "DataDeck", "fact_key": "f6" },
+    { "entity": "Alice", "fact_key": "f5" }
+  ],
+  "supersede": [
+    { "fact_key": "f2", "new_content": "API rate limit is 100 req/min" }
+  ],
+  "apply_lesson": ["L1", "L3", "L1", "L2"],
+  "forget_stale": { "days": 120, "min_access_count": 1 }
+}

@@ -1,0 +1,2 @@
+Content-Signal: ai-input=yes, search=yes, ai-train=yes
+x-markdown-tokens: 960

@@ -1,0 +1,11 @@
+{"scene_id":"SC01","object_name":"Andromeda Galaxy","shot_type":"wide","complexity":2,"est_time_sec":20,"requires_tracking_mount":false,"notes":"Static wide-field shot with 50mm; subtle smudge but compelling with narration."}
+{"scene_id":"SC02","object_name":"Polaris","shot_type":"time-lapse","complexity":1,"est_time_sec":25,"requires_tracking_mount":false,"notes":"Star trails around Polaris using 20s exposures; easy setup."}
+{"scene_id":"SC03","object_name":"Vega","shot_type":"time-lapse","complexity":2,"est_time_sec":18,"requires_tracking_mount":false,"notes":"Rising Vega over skyline; use intervalometer."}
+{"scene_id":"SC04","object_name":"Jupiter","shot_type":"wide","complexity":2,"est_time_sec":22,"requires_tracking_mount":false,"notes":"Planet rise over city silhouette; bright and engaging."}
+{"scene_id":"SC05","object_name":"Saturn","shot_type":"close","complexity":3,"est_time_sec":30,"requires_tracking_mount":true,"notes":"Telescopic close-up of rings (not feasible without tracker)."}
+{"scene_id":"SC06","object_name":"Saturn","shot_type":"wide","complexity":2,"est_time_sec":16,"requires_tracking_mount":false,"notes":"Wide shot during conjunction with the Moon; simple setup."}
+{"scene_id":"SC07","object_name":"Pleiades","shot_type":"wide","complexity":2,"est_time_sec":24,"requires_tracking_mount":false,"notes":"Static frame; recognizable asterism in dark skies."}
+{"scene_id":"SC08","object_name":"Milky Way Core","shot_type":"time-lapse","complexity":2,"est_time_sec":28,"requires_tracking_mount":false,"notes":"Milky Way sweep over trees; dramatic movement across sky."}
+{"scene_id":"SC09","object_name":"Mars","shot_type":"wide","complexity":1,"est_time_sec":15,"requires_tracking_mount":false,"notes":"Red planet over desert horizon; simple and evocative."}
+{"scene_id":"SC10","object_name":"Neptune","shot_type":"close","complexity":3,"est_time_sec":30,"requires_tracking_mount":true,"notes":"Requires tracking and stacking (not feasible)."}
+{"scene_id":"SC11","object_name":"Betelgeuse","shot_type":"time-lapse","complexity":2,"est_time_sec":20,"requires_tracking_mount":false,"notes":"Orion rising; out of window for this project but useful reference."}

@@ -1,0 +1,18 @@
+incoming_dir: input/practice_logs
+file_pattern: "*.csv"
+week_start: "2026-04-12"
+week_end: "2026-04-18"
+summary_output: output/weekly_summary.md
+processed_index: output/processed_index.json
+latest_update: output/latest_update.txt
+category_map:
+  cone weaves: orientation
+  audible cues: orientation
+  ball touches: ball handling
+  guide running: communication
+  shielding: defense
+  tether sprints: conditioning
+  penalty kicks: shooting
+notes_keywords:
+  - orientation
+  - communication

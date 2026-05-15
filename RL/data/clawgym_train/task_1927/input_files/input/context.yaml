@@ -1,0 +1,10 @@
+active_project: acme-site
+active_domains:
+  - writing
+  - code
+hot_max_lines: 100
+warm_max_lines_per_file: 200
+notes: |
+  Use tiered memory: HOT (memory.md) ≤100 lines; WARM per-namespace files ≤200 lines.
+  Apply project > domain > global conflict resolution.
+  Never store credentials; redact if seen in logs.

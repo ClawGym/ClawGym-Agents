@@ -1,0 +1,39 @@
+Must-Include Data & Case
+- Include this specific data point: "38%". It must appear verbatim.
+- Case: NovaCore (remote-first SaaS, ~420 employees across US/EU/APAC). Before FlowGrid:
+  - Avg. meeting load: 27 hours/week per knowledge worker; only ~3.2 hours/week of 2h+ “focus time”.
+  - Recurring meetings lacked agenda discipline; decisions scattered in chats.
+- Intervention using FlowGrid over 8 weeks:
+  1) Agenda discipline via templated agendas and “meeting hygiene” check (timeboxing, purpose, owner).
+  2) Shift to async collaboration for updates: documentation-first summaries + Loom video updates; live time reserved for decisions or blockers.
+  3) Decision logs standardized with RACI on owners and due dates; searchable in FlowGrid.
+  4) Focus Guard: protected “focus time” blocks and automatic guardrails against calendar debt.
+- Outcomes at NovaCore by week 8:
+  - 38% reduction in recurring meeting hours (from 27h to ~16.7h/week).
+  - +6.1 hours/week regained focus time (2h+ blocks).
+  - +61% more decisions captured in decision logs; cycle time to decision down 14%.
+  - Meeting Health score up 22 points; pulse survey open-text mentions fewer “performative” status calls.
+- Messaging nuance: Emphasize balance—reduce meetings without losing alignment. Present FlowGrid as an enabler (not a hard sell).
+
+Recommended Structure & Emphasis
+- Lead with the main takeaway: You can cut recurring meetings by ~30–40% without losing alignment using three plays: agenda discipline + async collaboration + decision logs with protected focus time.
+- Use second-person “you” and WeChat-friendly Markdown.
+- Include one concrete example per point; can reuse NovaCore details or create another remote-team vignette.
+- Tasteful emoji usage (3–6 total). Suggest: ✅ 💡 🧭 ⏱️ 📌
+- CTA: Invite readers to Follow and Comment; optionally mention starting a FlowGrid trial or using free templates.
+
+FlowGrid Features to Mention (light touch)
+- Decision Logs (searchable; link docs and owners)
+- Agenda templates and Meeting Health checks (meeting hygiene prompts)
+- Focus Guard for protected deep work
+- Async collaboration support (docs + Loom video updates)
+- Operational cadence and analytics dashboards
+
+Internal Benchmarks (optional context)
+- Across 120 FlowGrid customers, median reduction in meeting time is 12–18% in the first 90 days when the three plays are applied consistently.
+- Teams that adopt documentation-first with timeboxing see a 20–30% improvement in time-to-decision within two quarters. (Use as illustrative, no hard claims.)
+
+Tone Guardrails
+- Professional, calm confidence; no hype.
+- Avoid shaming managers; acknowledge cultural risks and how to mitigate.
+- Use “you” to make it practical and reader-focused.

@@ -1,0 +1,30 @@
+{
+  "providers": [
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "models": [
+        "gpt-5.1-codex",
+        "gpt-5.1-codex-extended"
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "models": [
+        "claude-sonnet-4-5",
+        "claude-3-7-sonnet"
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Google Gemini",
+      "models": [
+        "gemini-3-pro",
+        "gemini-2.0-flash"
+      ]
+    }
+  ],
+  "updated_at": "2026-04-15T10:00:00Z",
+  "description": "This file represents a local cache that update_providers.sh would typically refresh."
+}

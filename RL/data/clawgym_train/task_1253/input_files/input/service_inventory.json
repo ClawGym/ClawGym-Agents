@@ -1,0 +1,109 @@
+{
+  "services": [
+    {
+      "name": "API Gateway",
+      "owner_team": "Platform Reliability",
+      "description": "Edge routing and request orchestration for all public APIs and web/mobile clients.",
+      "critical_journeys": [
+        {
+          "name": "api_request_routing",
+          "description": "Client requests are routed to the correct backend and receive successful responses.",
+          "user_visible": true,
+          "priority": "critical"
+        },
+        {
+          "name": "health_check",
+          "description": "Load balancer health checks confirm healthy targets to prevent misrouting.",
+          "user_visible": false,
+          "priority": "high"
+        }
+      ],
+      "dependencies": [
+        { "type": "external", "name": "Cloud Load Balancer", "reference": "aws_elb" },
+        { "type": "infra", "name": "Redis Cluster", "reference": "elasticache" },
+        { "type": "internal", "name": "Auth Service" },
+        { "type": "internal", "name": "Marketplace Service" },
+        { "type": "internal", "name": "Payments Service" },
+        { "type": "internal", "name": "Notifications Service" }
+      ]
+    },
+    {
+      "name": "Auth Service",
+      "owner_team": "Identity Platform",
+      "description": "Handles signup, login, token issuance, password reset, and session validation.",
+      "critical_journeys": [
+        { "name": "signup", "description": "New users create accounts with email verification.", "user_visible": true, "priority": "critical" },
+        { "name": "login", "description": "Users authenticate and receive session tokens.", "user_visible": true, "priority": "critical" },
+        { "name": "password_reset", "description": "Password reset link delivery and credential update.", "user_visible": true, "priority": "high" },
+        { "name": "token_issue", "description": "JWT token issuance and refresh flow for clients.", "user_visible": false, "priority": "high" }
+      ],
+      "dependencies": [
+        { "type": "infra", "name": "Postgres (Auth DB)", "reference": "rds_postgres_auth" },
+        { "type": "infra", "name": "Redis Cluster", "reference": "elasticache" },
+        { "type": "external", "name": "SendGrid", "reference": "twilio_sendgrid" }
+      ]
+    },
+    {
+      "name": "Marketplace Service",
+      "owner_team": "Commerce",
+      "description": "Product catalog, search, cart, and coordination with payments to complete checkout.",
+      "critical_journeys": [
+        { "name": "browse_catalog", "description": "Users browse product listings and category pages.", "user_visible": true, "priority": "high" },
+        { "name": "search", "description": "Users search for products with filters and relevance.", "user_visible": true, "priority": "high" },
+        { "name": "add_to_cart", "description": "Users add items to cart and see updates instantly.", "user_visible": true, "priority": "critical" },
+        { "name": "checkout", "description": "Users review cart and proceed to payment confirmation.", "user_visible": true, "priority": "critical" }
+      ],
+      "dependencies": [
+        { "type": "infra", "name": "Postgres (Marketplace DB)", "reference": "rds_postgres_marketplace" },
+        { "type": "infra", "name": "Elasticsearch", "reference": "managed_elasticsearch" },
+        { "type": "internal", "name": "Payments Service" },
+        { "type": "infra", "name": "Kafka Cluster", "reference": "managed_kafka" }
+      ]
+    },
+    {
+      "name": "Payments Service",
+      "owner_team": "Fintech",
+      "description": "Payment authorization, capture, and refunds with external payment provider.",
+      "critical_journeys": [
+        { "name": "authorize_charge", "description": "Authorize payment method for an order.", "user_visible": true, "priority": "critical" },
+        { "name": "capture_charge", "description": "Capture payment for an order after confirmation.", "user_visible": true, "priority": "critical" },
+        { "name": "refund_payment", "description": "Process refunds for canceled or returned orders.", "user_visible": true, "priority": "high" }
+      ],
+      "dependencies": [
+        { "type": "external", "name": "Stripe API", "reference": "stripe_payments" },
+        { "type": "infra", "name": "Postgres (Payments DB)", "reference": "rds_postgres_payments" },
+        { "type": "infra", "name": "Kafka Cluster", "reference": "managed_kafka" }
+      ]
+    },
+    {
+      "name": "Notifications Service",
+      "owner_team": "Engagement",
+      "description": "Email and push notification delivery for order confirmations and account flows.",
+      "critical_journeys": [
+        { "name": "send_order_confirmation_email", "description": "Email sent after successful checkout.", "user_visible": true, "priority": "critical" },
+        { "name": "send_password_reset_email", "description": "Password reset email deliverability.", "user_visible": true, "priority": "high" },
+        { "name": "push_notification", "description": "Mobile push for promotions and updates.", "user_visible": true, "priority": "medium" }
+      ],
+      "dependencies": [
+        { "type": "external", "name": "SendGrid", "reference": "twilio_sendgrid" },
+        { "type": "infra", "name": "Kafka Cluster", "reference": "managed_kafka" },
+        { "type": "infra", "name": "Redis Cluster", "reference": "elasticache" }
+      ]
+    },
+    {
+      "name": "Analytics Service",
+      "owner_team": "Data Platform",
+      "description": "Event ingestion, ETL pipeline, and dashboards for business metrics.",
+      "critical_journeys": [
+        { "name": "analytics_dashboard_load", "description": "Business dashboard loads with current metrics.", "user_visible": true, "priority": "high" },
+        { "name": "data_pipeline_freshness", "description": "ETL pipeline ensures fresh data at expected intervals.", "user_visible": false, "priority": "critical" }
+      ],
+      "dependencies": [
+        { "type": "infra", "name": "Kafka Cluster", "reference": "managed_kafka" },
+        { "type": "external", "name": "S3 Data Lake", "reference": "aws_s3" },
+        { "type": "internal", "name": "ETL Runner" }
+      ]
+    }
+  ],
+  "last_reviewed": "2026-04-15"
+}

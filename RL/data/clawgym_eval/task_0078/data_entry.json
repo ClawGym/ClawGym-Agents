@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0078",
+  "user_query": "I need you to simulate a full run of my OpenClaw config backup workflow using the provided snapshots. Read the current config under input/openclaw_current/ and the existing backup root under input/prev_backup/. Then:\n1) Set the backup directory by writing a config file at output/openclaw/backup.json with JSON: {\"backup_location\":\"output/backup_store\"}. Treat this as the changedir step.\n2) Detect changes by comparing input/openclaw_current/ against the latest date-named folder under input/prev_backup/.\n3) If changes are detected, create a new backup under output/backup_store/<YYYY-MM-DD>/ where the date value comes from input/backup_date.txt. Copy all files from input/openclaw_current/ except the entire workspace/ subtree. Do not modify anything under input/.\n4) Append a changelog entry at output/backup_store/changelog.md headed exactly \"## <YYYY-MM-DD> <HH:MM:SS>\", where the time comes from input/backup_time.txt. Under that header, list one bullet per changed file in relative path form with a status in parentheses exactly as: \"(modified)\", \"(added)\", or \"(deleted)\".\n5) Ensure workspace/ is excluded both from the backup and from the changelog.\n6) Use the provided snapshots so that the changelog includes at least these three lines (order is not important):\n- openclaw.json (modified)\n- extensions/feishu/skills/feishu-doc/SKILL.md (added)\n- agents/bot/config.yaml (deleted)\nWrite all outputs only under output/, creating any necessary directories.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,5 @@
+test_id,primer_brand,primer_type,cure_time_hr,substrate,adhesion_rating_1to5,tape_pull_result,notes
+test001,Brand X Self-Etching,etching,24,pewter,5,pass,Excellent bite after 24h cure
+test002,Generic Acrylic Primer,acrylic,2,pewter,3,fail,Lifted under tape after 24h cure
+test003,Lacquer Primer Y,lacquer,12,pewter,4,pass,Good adhesion; slight chipping on edges
+test004,Generic Acrylic Primer,acrylic,24,pewter,3,fail,Still lifted with aggressive tape pull

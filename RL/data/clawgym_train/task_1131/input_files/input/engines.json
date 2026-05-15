@@ -1,0 +1,42 @@
+{
+  "Unity": {
+    "license": "proprietary (free tier)",
+    "strengths": [
+      "large asset ecosystem",
+      "mature XR plug-ins",
+      "cross-platform",
+      "rapid iteration"
+    ],
+    "typical_industrial_use": "VR/AR training, maintenance guidance, digital twins"
+  },
+  "Unreal Engine": {
+    "license": "proprietary (royalty-based for games)",
+    "strengths": [
+      "high-fidelity graphics",
+      "robust physics",
+      "blueprint visual scripting",
+      "multi-user editing"
+    ],
+    "typical_industrial_use": "simulation, high realism training, large scenes"
+  },
+  "Godot": {
+    "license": "open-source MIT",
+    "strengths": [
+      "lightweight",
+      "fast iteration",
+      "good 2D/3D",
+      "C# and GDScript",
+      "no royalties"
+    ],
+    "typical_industrial_use": "cost-sensitive prototypes, internal tools, web export"
+  },
+  "WebXR": {
+    "license": "web standard",
+    "strengths": [
+      "browser-based deployment",
+      "easy distribution",
+      "low install friction"
+    ],
+    "typical_industrial_use": "simple AR overlays, rapid pilots"
+  }
+}

@@ -1,0 +1,4 @@
+finding_id,topic,severity,owner,due_date,status,notes
+CF-101,HCP hospitality controls,High,Compliance - Ravi,2025-04-26,Open,Policy exceptions observed in 3 regions.
+CF-102,Third-party due diligence renewals,Medium,Compliance - Mei,2025-05-03,Open,60 vendors pending screening refresh.
+CF-103,Speaker program documentation,High,Sales Ops - Jorge,2025-05-15,Open,Sign-in sheets missing in 12% of events.

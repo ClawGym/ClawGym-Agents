@@ -1,0 +1,28 @@
+profile:
+  case_id: "PP-001"
+  summary: "Professor's parents immigrated from Gujarat, India to Detroit, Michigan in the late 1970s. Focus: Gujarati-speaking immigrant labor in the Midwest auto industry and home-based seamstresses, 1975–1995."
+  origin:
+    country: "India"
+    region_or_state: "Gujarat"
+    cities_of_origin: ["Vadodara", "Ahmedabad"]
+  migration:
+    departure_year_range: [1975, 1985]
+    arrival_country: "United States"
+    arrival_city_or_region: "Detroit, Michigan"
+  languages: ["Gujarati", "Hindi", "English"]
+  occupations:
+    - "auto factory worker"
+    - "mechanic"
+    - "home-based seamstress"
+    - "community organizer"
+  religion_or_community: ["Hindu", "Gujarati diaspora"]
+  themes:
+    - "immigration"
+    - "auto industry"
+    - "Midwest"
+    - "labor organizing"
+    - "small businesses"
+    - "neighborhood life"
+  query_terms_hint:
+    include: ["oral history", "interview", "transcript", "audio", "immigrant", "Gujarati", "Detroit", "factory"]
+    exclude: ["fiction", "movie", "restaurant review"]

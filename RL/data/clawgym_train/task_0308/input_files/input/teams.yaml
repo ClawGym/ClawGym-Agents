@@ -1,0 +1,27 @@
+teams:
+  core-platform:
+    status: active
+    manager_before: "Alice Nguyen"
+    manager_after: "Alice Nguyen"
+    canonical_name: "Core Platform"
+  payments-foundation:
+    status: merged_into
+    merged_into: core-platform
+    manager_before: "Brian Chen"
+    manager_after: "Carol D'Souza"
+    canonical_name: "Payments Foundation"
+  mobile-eng:
+    status: dissolved
+    manager_before: "Derek Lee"
+    manager_after: ""
+    canonical_name: "Mobile Engineering"
+  data-insights:
+    status: active
+    manager_before: "Eva Patel"
+    manager_after: "Frank Wright"
+    canonical_name: "Data Insights"
+  corp-tools:
+    status: active
+    manager_before: "George Kim"
+    manager_after: "Helen Zhao"
+    canonical_name: "Corporate Tools"

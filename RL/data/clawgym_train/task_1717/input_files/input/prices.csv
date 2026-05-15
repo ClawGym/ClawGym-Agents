@@ -1,0 +1,45 @@
+asin,date,price,seller,buy_box,coupon,event,notes
+B001ALPHA,2025-12-10,29.99,Brand,Yes,10% off,Holiday Sale,Strong Q4 demand
+B001ALPHA,2025-12-20,27.99,Brand,Yes,None,Pre-Christmas Promo,Short promo
+B001ALPHA,2025-12-27,31.99,Brand,Yes,None,None,Post-Christmas rebound
+B001ALPHA,2026-01-05,24.99,Brand,Yes,None,Post-holiday Clearance,Inventory cleanup
+B001ALPHA,2026-01-15,26.49,Brand,Yes,None,None,Steady recovery
+B001ALPHA,2026-01-28,26.49,Brand,Yes,None,None,Price held
+B001ALPHA,2026-02-05,27.99,Brand,Yes,None,None,Normal pricing
+B001ALPHA,2026-02-14,28.49,Brand,Yes,5% off,Valentine Promo,Light promo
+B001ALPHA,2026-02-28,29.49,Brand,Yes,None,None,End of month
+B001ALPHA,2026-03-05,30.49,Brand,Yes,None,None,Gradual increase
+B001ALPHA,2026-03-12,29.99,MegaRetail,No,None,None,Competitor present
+B001ALPHA,2026-03-20,31.49,Brand,Yes,None,None,Strong demand
+B001ALPHA,2026-03-31,39.99,Brand,Yes,None,Low Inventory,Supply tightness spike
+
+B002BRAVO,2025-12-10,24.99,Brand,Yes,10% off,Holiday Deal,Seasonal promo
+B002BRAVO,2025-12-20,25.49,Brand,Yes,None,None,Stable
+B002BRAVO,2025-12-27,26.49,Brand,Yes,None,None,Peak season
+B002BRAVO,2026-01-05,23.99,Brand,Yes,None,Post-holiday Compression,Price compression
+B002BRAVO,2026-01-15,24.49,Brand,Yes,None,None,Recovered slightly
+B002BRAVO,2026-01-28,24.29,Brand,Yes,None,None,Minor adjustment
+B002BRAVO,2026-02-05,24.49,Brand,No,None,None,Lost Buy Box to new seller
+B002BRAVO,2026-02-05,19.99,QuickShip,Yes,None,New Seller Undercuts,New seller entry
+B002BRAVO,2026-02-14,23.99,Brand,No,None,None,Competitor still winning
+B002BRAVO,2026-02-14,20.49,QuickShip,Yes,None,Flash Sale,Undercutting continues
+B002BRAVO,2026-02-28,22.99,Brand,Yes,None,None,Buy Box regained
+B002BRAVO,2026-03-05,23.49,Brand,Yes,None,None,Stable
+B002BRAVO,2026-03-12,22.99,Brand,No,None,None,Lost Buy Box again
+B002BRAVO,2026-03-12,18.99,BargainHub,Yes,None,Flash Sale,Deep discount
+B002BRAVO,2026-03-20,21.99,Brand,Yes,5% off,Spring Sale,Seasonal promo
+B002BRAVO,2026-03-31,19.09,Brand,No,10% off,Clearance,Aggressive markdown
+
+B003CHARLIE,2025-12-10,17.99,Brand,Yes,None,Holiday Season,Normal
+B003CHARLIE,2025-12-20,17.49,Brand,Yes,None,None,Minor promo
+B003CHARLIE,2025-12-27,17.99,Brand,Yes,None,None,Peak season
+B003CHARLIE,2026-01-05,16.99,Brand,Yes,None,Post-holiday Compression,Seasonal dip
+B003CHARLIE,2026-01-15,16.79,Brand,Yes,None,None,Stable
+B003CHARLIE,2026-01-28,16.99,Brand,Yes,None,None,Minor rebound
+B003CHARLIE,2026-02-05,16.49,Brand,Yes,None,None,Price optimization
+B003CHARLIE,2026-02-14,16.59,Brand,Yes,5% off,Valentine Promo,Small coupon
+B003CHARLIE,2026-02-28,16.49,Brand,Yes,None,None,Consistent
+B003CHARLIE,2026-03-05,16.49,Brand,Yes,None,None,Flat
+B003CHARLIE,2026-03-12,16.59,Brand,Yes,None,None,Flat
+B003CHARLIE,2026-03-20,16.49,Brand,Yes,None,None,Flat
+B003CHARLIE,2026-03-31,16.49,Brand,Yes,None,None,Flat end-of-month

@@ -1,0 +1,12 @@
+{"createdAt":"2026-02-01T10:06:20Z","userId":"u2","rating":2,"category":"ux","comment":"I wasn't sure what input format to use. A sample would help.","theme":"input_validation"}
+{"createdAt":"2026-02-03T11:12:30Z","userId":"u4","rating":3,"category":"performance","comment":"It took a while and I couldn't tell if it was working.","theme":"progress_indicator"}
+{"createdAt":"2026-02-05T13:35:00Z","userId":"u7","rating":2,"category":"performance","comment":"Operation timed out on a big file. A progress bar would be great.","theme":"progress_indicator"}
+{"createdAt":"2026-02-04T09:46:22Z","userId":"u2","rating":4,"category":"usability","comment":"Worked after I retried. Clearer field names would be good.","theme":"input_clarity"}
+{"createdAt":"2026-02-06T10:02:30Z","userId":"u10","rating":2,"category":"bug","comment":"Validation error but the message didn't explain the expected format.","theme":"input_validation"}
+{"createdAt":"2026-02-07T09:33:10Z","userId":"u3","rating":5,"category":"satisfaction","comment":"Fast and accurate. I will use this again.","theme":"positive"}
+{"createdAt":"2026-02-08T15:12:20Z","userId":"u1","rating":3,"category":"ux","comment":"Got stuck waiting. Maybe show steps or percentage.","theme":"progress_indicator"}
+{"createdAt":"2026-02-09T12:49:02Z","userId":"u11","rating":5,"category":"satisfaction","comment":"Great summary output. Easy to read.","theme":"output_quality"}
+{"createdAt":"2026-02-10T18:23:10Z","userId":"u12","rating":4,"category":"feature","comment":"Would love batch processing for multiple files.","theme":"batch_processing"}
+{"createdAt":"2026-02-11T07:56:05Z","userId":"u13","rating":3,"category":"reliability","comment":"External service error once. Retry would help.","theme":"retries"}
+{"createdAt":"2026-02-11T08:41:02Z","userId":"u14","rating":5,"category":"satisfaction","comment":"Smooth experience on desktop.","theme":"positive"}
+{"createdAt":"2026-02-12T14:03:05Z","userId":"u5","rating":4,"category":"mobile","comment":"On my phone the layout felt cramped. Mobile optimization would be nice.","theme":"mobile_optimization"}

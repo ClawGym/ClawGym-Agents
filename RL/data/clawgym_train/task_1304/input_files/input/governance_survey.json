@@ -1,0 +1,8 @@
+{
+  "Data Quality": [2, 1, 1, 1, 2, 2, 1, 1],
+  "Data Cataloging": [1, 1, 0, 1, 1, 1, 0, 1],
+  "Access Control": [2, 2, 1, 1, 1, 1, 1, 2],
+  "Compliance Mapping": [1, 1, 0, 1, 0, 1, 1, 1],
+  "Retention & Lifecycle": [1, 1, 0, 1, 1, 1, 1, 0],
+  "AI/Agent Data Governance": [1, 1, 1, 0, 0, 1, 1, 0]
+}

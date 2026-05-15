@@ -1,0 +1,14 @@
+{
+  "system": {
+    "cpu_name": "Intel Core i7-12700K",
+    "cpu_cores": 12,
+    "total_ram_gb": 64.0,
+    "available_ram_gb": 52.0,
+    "has_gpu": true,
+    "gpu_name": "NVIDIA GeForce RTX 3060",
+    "gpu_vram_gb": 12.0,
+    "gpu_count": 1,
+    "backend": "CUDA",
+    "unified_memory": false
+  }
+}

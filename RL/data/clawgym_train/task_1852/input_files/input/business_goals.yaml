@@ -1,0 +1,18 @@
+# Business goals and delivery constraints for Offline Mode MVP
+company: Nimbus Notes
+product: Mobile Notes App
+
+goals:
+  - Increase 90-day retention by 8% in H2 2026
+  - Improve mobile weekly active users by 12%
+
+delivery_constraints:
+  mvp_deadline: 2026-06-30
+  scope: "MVP focused on offline text note creation/editing, with local cache and basic conflict handling."
+  platforms:
+    - iOS
+    - Android
+  security:
+    storage_encryption: true
+    storage_engine: SQLite
+    notes: "Keys stored securely; follow platform best practices."

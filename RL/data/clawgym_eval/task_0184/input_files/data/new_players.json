@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Dylan Cease",
+    "position": "RHP",
+    "bats": "R",
+    "throws": "R",
+    "projected_war": 3.8,
+    "2023_ops": null,
+    "2023_teams": ["MLB"]
+  },
+  {
+    "name": "Luis Arraez",
+    "position": "2B",
+    "bats": "L",
+    "throws": "R",
+    "projected_war": 3.1,
+    "2023_ops": 0.861,
+    "2023_teams": ["MLB"]
+  },
+  {
+    "name": "Jackson Merrill",
+    "position": "SS",
+    "bats": "L",
+    "throws": "R",
+    "projected_war": 2.7,
+    "2023_ops": 0.812,
+    "2023_teams": ["AA", "AAA"]
+  },
+  {
+    "name": "Yuki Matsui",
+    "position": "LHP",
+    "bats": "L",
+    "throws": "L",
+    "projected_war": 1.5,
+    "2023_ops": null,
+    "2023_teams": ["NPB"]
+  }
+]

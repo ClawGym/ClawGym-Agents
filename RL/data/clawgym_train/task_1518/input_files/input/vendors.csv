@@ -1,0 +1,3 @@
+sku,vendor,lead_time_days_avg,lead_time_days_std,case_pack,moq_units,review_policy,review_period_days,ordering_cost
+OJ-64OZ,CitrusCo,7,2,12,48,periodic,7,45
+GRANOLA-BAR-12PK,SnackMakers,10,3,24,120,continuous,0,60

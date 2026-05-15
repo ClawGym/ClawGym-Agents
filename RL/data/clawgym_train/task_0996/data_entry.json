@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0996",
+  "user_query": "Simulate a change-aware backup of my OpenClaw configuration using a fixed backup date 2026-03-12. Read input/current_openclaw.json (a JSON object mapping file paths under ~/.openclaw to their text contents) and input/latest_backup.json (the most recent prior backup in the same format). Ignore any paths whose first segment is workspace/. Then:\n\n1) Compute the diff vs the latest backup to determine added, modified, and deleted files (excluding workspace/).\n\n2) If there are changes:\n- Materialize a new backup under output/backup/2026-03-12/ that replicates the current files (exact text contents) excluding workspace/.\n- Append a changelog entry to output/backup/changelog.md with a '## 2026-03-12' header and one bullet per changed file in relative path form, each labeled '(modified)', '(added)', or '(deleted)'.\n- Write output/backup/restore-2026-03-12-preview.txt that lists all files that would be restored and includes a clear warning that restoring will overwrite the current ~/.openclaw configuration; do not actually restore anything.\n\n3) If there are no changes:\n- Do not create the date-stamped directory.\n- Instead, write output/backup/no_changes.txt containing just the single line: no changes\n\nUse only the provided input files for state; do not touch any real system paths. Write only to output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

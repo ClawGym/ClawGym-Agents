@@ -1,0 +1,7 @@
+watch_dir: "input/inbox"
+file_glob: "overdose_calls_*.csv"
+threshold_alert: 8
+message:
+  max_chars: 700
+  tone: "supportive and plain-spoken"
+  include_percentage_change: true

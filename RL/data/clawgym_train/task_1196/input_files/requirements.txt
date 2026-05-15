@@ -1,0 +1,3 @@
+# Runtime dependencies for the pipeline
+PyYAML==6.*
+# TODO: add requests and beautifulsoup4 (versions of your choice)

@@ -1,0 +1,31 @@
+{
+  "address": "0xCCC",
+  "fetched_at": "2026-04-15T12:02:45Z",
+  "positions": [
+    {
+      "conditionId": "Q3",
+      "outcome": "YES",
+      "shares": 120000,
+      "avg_price": 0.45,
+      "curr_price": 0.55,
+      "position_usd": 66000
+    },
+    {
+      "conditionId": "Q4",
+      "title": "Will Company Y acquire Z by 2027?",
+      "outcome": "YES",
+      "shares": 200,
+      "avg_price": 0.51,
+      "curr_price": 0.5,
+      "position_usd": 100
+    },
+    {
+      "conditionId": "Q2",
+      "outcome": "NO",
+      "shares": 9,
+      "avg_price": 0.45,
+      "curr_price": 0.44,
+      "position_usd": 3.96
+    }
+  ]
+}

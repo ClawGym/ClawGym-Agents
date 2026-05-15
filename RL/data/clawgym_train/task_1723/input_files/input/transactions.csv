@@ -1,0 +1,12 @@
+date,description,category,amount,payer,child_related
+2025-02-01,Pediatrics Clinic - Annual physical,medical,180.00,Me,TRUE
+2025-02-03,Soccer Club - Spring registration,extracurricular,220.00,Ex,TRUE
+2025-02-05,Groceries - Whole Foods,groceries,95.43,Me,FALSE
+2025-02-08,School PTA - Field trip fee,school,45.00,Me,TRUE
+2025-02-10,Children's Place - Winter coat,clothing,72.50,Ex,TRUE
+2025-02-14,Valentine gift,gift,25.00,Me,FALSE
+2025-02-18,Urgent Care - Copay,medical,50.00,Ex,TRUE
+2025-02-21,Piano lessons - February,extracurricular,120.00,Me,TRUE
+2025-02-24,Gas for exchange,transport,30.00,Me,TRUE
+2025-02-26,School lunch account top-up,school,60.00,Ex,TRUE
+2025-02-27,Library late fee,other,8.00,Me,TRUE

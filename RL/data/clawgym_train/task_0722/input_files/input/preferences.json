@@ -1,0 +1,11 @@
+{
+  "referenceSite": "Skyscanner",
+  "currency": "USD",
+  "location": "US",
+  "adults": 1,
+  "children": 0,
+  "infantsInSeat": 0,
+  "infantsOnLap": 0,
+  "travelClass": "ECONOMY",
+  "notes": "Validate price competitiveness across multiple booking sites before purchase."
+}

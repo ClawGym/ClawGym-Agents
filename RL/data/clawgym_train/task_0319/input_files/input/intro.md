@@ -1,0 +1,1 @@
+We’re Alex and Jordan. We want a structured at-home practice plan to support counseling and rebuild connection. Our goals are to slow down arguments, reduce defensiveness, and get back to enjoying everyday life together. Please keep sessions short, encouraging, and practical.

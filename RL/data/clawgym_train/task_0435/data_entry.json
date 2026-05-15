@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0435",
+  "user_query": "I’m preparing a quick summary from my students’ neighborhood fieldwork and a short note to my principal. Please do the following using only the provided files:\n\n1) Write and run a small script (any language is fine) that reads input/student_fieldwork.csv, treats all records with district == \"Longhua\" as part of \"Bao'an\" (merge Longhua into Bao'an for all grouping and totals), computes per-district aggregates, and saves output/summary_by_district.csv with the columns:\n- district\n- sample_size (count of rows)\n- avg_litter_count (mean, rounded to 2 decimals)\n- median_hours_spent (median, rounded to 2 decimals)\n- total_observations (sum)\n- avg_water_ph (mean, rounded to 2 decimals)\nInclude a final citywide row labeled district = \"All\" computed after the Longhua→Bao'an merge. Save your script at scripts/analyze.py (or equivalent) and run it to produce the CSV.\n\n2) Rewrite input/draft_email.txt into a concise, professional note at output/email_to_principal.txt (max 120 words). The rewritten note must include the following numbers exactly as computed and rounded in the CSV:\n- Bao'an (including Longhua): sample_size and avg_litter_count\n- Nanshan: sample_size and avg_litter_count\n- All (citywide): sample_size and avg_litter_count\n\nAssume Longhua is part of Bao'an throughout. Don’t use any external data; base all figures on the CSV provided. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

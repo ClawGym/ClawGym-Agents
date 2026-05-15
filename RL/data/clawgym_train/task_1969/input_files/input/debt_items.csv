@@ -1,0 +1,11 @@
+item,description
+Slow CI pipeline (45m),End-to-end CI takes ~45 minutes per commit causing long feedback loops and context switching; parallelism is limited and caching is misconfigured.
+Legacy auth service (deprecated framework),Authentication microservice is still on a deprecated framework version with security patches ending this quarter; impacts login and session stability.
+No DB migration tooling,Schema changes are applied via ad-hoc manual SQL; no standardized migration tooling or rollback process.
+Flaky integration tests,~15% of integration tests are flaky, forcing 2-3 reruns per PR and masking real regressions.
+Inconsistent logging formats,Services emit logs with inconsistent structure and correlation IDs, making incident triage and tracing slow.
+Outdated feature flag SDK (mobile),Mobile apps use a 2-major-versions-old feature flag SDK that adds ~80ms to startup and lacks fail-closed behavior.
+Payment retry logic (no idempotency/backoff),Payment retries do not use idempotency keys or exponential backoff, risking duplicate charges and noisy failures.
+Missing circuit breaker: Tax API,No circuit breaker or graceful degradation around the third-party tax calculation API; outages cascade to checkout.
+Checkout N+1 queries,Order and line-item fetching in checkout path triggers N+1 queries, adding ~120ms p95 latency in production.
+Outdated on-call runbooks,Runbooks for critical services (checkout, payments, auth) are stale or missing escalation paths; slows incident response.

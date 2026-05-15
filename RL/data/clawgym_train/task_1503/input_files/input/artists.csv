@@ -1,0 +1,6 @@
+artist_id,name,country,active_start,active_end,origin_city,subgenre_id
+A001,Hank Williams,US,1937,1953,Montgomery,SG01
+A002,Bill Monroe,US,1936,1996,Rosine,SG02
+A003,Patsy Cline,US,1952,1963,Winchester,SG03
+A004,Willie Nelson,US,1956,,Abbott,SG04
+A005,Dolly Parton,US,1967,,Sevierville,SG03

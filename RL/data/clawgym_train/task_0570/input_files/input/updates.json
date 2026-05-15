@@ -1,0 +1,20 @@
+{
+  "due_by": "2026-04-24",
+  "operations": [
+    { "type": "start", "title": "Implement user login flow" },
+    { "type": "update_due", "title": "Implement user login flow", "due": "2026-04-21" },
+    { "type": "complete", "title": "Database migration for users table" },
+    { "type": "start", "title": "Set up CI pipeline" },
+    { "type": "update_priority", "title": "Set up CI pipeline", "priority": "P0" },
+    { "type": "update_due", "title": "Set up CI pipeline", "due": "2026-04-22" },
+    { "type": "archive", "title": "Fix 500 error on /api/profile" },
+    { "type": "delete", "title": "Refactor CSS utilities" },
+    { "type": "start", "title": "Design landing page hero" },
+    { "type": "complete", "title": "Design landing page hero" },
+    { "type": "update_priority", "title": "Write onboarding email copy", "priority": "P1" },
+    { "type": "update_due", "title": "Add analytics events", "due": "2026-04-23" },
+    { "type": "start", "title": "Prepare sprint demo slides" },
+    { "type": "update_due", "title": "Prepare sprint demo slides", "due": "2026-04-26" },
+    { "type": "complete", "title": "Implement user login flow" }
+  ]
+}

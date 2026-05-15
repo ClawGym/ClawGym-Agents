@@ -1,0 +1,20 @@
+[
+  {
+    "name": "web-app",
+    "template": "web",
+    "status": "active",
+    "createdAt": "2026-01-02T10:03:00Z"
+  },
+  {
+    "name": "api-server",
+    "template": "api",
+    "status": "active",
+    "createdAt": "2026-02-10T15:45:12Z"
+  },
+  {
+    "name": "legacy-tool",
+    "template": "minimal",
+    "status": "archived",
+    "createdAt": "2025-11-20T08:21:05Z"
+  }
+]

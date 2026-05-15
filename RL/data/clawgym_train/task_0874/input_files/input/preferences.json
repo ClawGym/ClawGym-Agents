@@ -1,0 +1,39 @@
+{
+  "team_name": "Platform Acceleration Team",
+  "time_per_day": 90,
+  "topics": [
+    "CI/CD",
+    "Git",
+    "Infrastructure as Code",
+    "Containers",
+    "Observability",
+    "Security",
+    "Backups",
+    "Automation",
+    "Cloud",
+    "SRE"
+  ],
+  "exclude_tools": [
+    "Kubernetes",
+    "Jenkins",
+    "Chef"
+  ],
+  "hands_on": true,
+  "ci_preference": "GitHub Actions",
+  "iac_preference": "Terraform + Ansible",
+  "container_runtime": "Docker",
+  "observability_stack": "Prometheus, Grafana, Loki",
+  "cloud_approach": "Cloud-agnostic; prefer LocalStack for demos and MinIO for S3-compatible storage",
+  "constraints": [
+    "No cluster-grade orchestration in this 10-day sprint",
+    "Use open-source tools only",
+    "Developers are on Ubuntu 22.04",
+    "Limited admin rights on corporate laptops; prefer containerized labs",
+    "Avoid GUI-heavy tools; prefer CLI-first instructions",
+    "Focus on practical, command-driven labs that fit within 90 minutes per day"
+  ],
+  "evaluation_preferences": {
+    "proof_of_work": "Commands run and artifacts committed to a dedicated onboarding branch in the monorepo",
+    "acceptance": "Lightweight PRs with passing CI and short demos (under 5 minutes) at the end of each day"
+  }
+}

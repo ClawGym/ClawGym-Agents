@@ -1,0 +1,23 @@
+"1":
+  kind: note
+  tags:
+    - security
+    - example
+  ttl_ms: 3600000
+"2":
+  kind: fact
+  tags:
+    - aws
+    - auth
+  ttl_ms: 0
+"3":
+  kind: decision
+  tags:
+    - planning
+  ttl_ms: 86400000
+"4":
+  kind: doc
+  tags:
+    - devops
+    - github
+  ttl_ms: 1800000

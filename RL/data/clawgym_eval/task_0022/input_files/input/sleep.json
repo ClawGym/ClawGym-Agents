@@ -1,0 +1,15 @@
+[
+  {"date": "2026-02-01", "duration_minutes": 390, "awakenings": 3, "sleep_score": 68},
+  {"date": "2026-02-02", "duration_minutes": 430, "awakenings": 2, "sleep_score": 75},
+  {"date": "2026-02-03", "duration_minutes": 410, "awakenings": 4, "sleep_score": 70},
+  {"date": "2026-02-04", "duration_minutes": 455, "awakenings": 2, "sleep_score": 80},
+  {"date": "2026-02-05", "duration_minutes": 400, "awakenings": 3, "sleep_score": 72},
+  {"date": "2026-02-06", "duration_minutes": 480, "awakenings": 1, "sleep_score": 82},
+  {"date": "2026-02-07", "duration_minutes": 500, "awakenings": 2, "sleep_score": 85},
+  {"date": "2026-02-08", "duration_minutes": 440, "awakenings": 2, "sleep_score": 78},
+  {"date": "2026-02-09", "duration_minutes": 395, "awakenings": 3, "sleep_score": 70},
+  {"date": "2026-02-11", "duration_minutes": 520, "awakenings": 1, "sleep_score": 88},
+  {"date": "2026-02-12", "duration_minutes": 450, "awakenings": 2, "sleep_score": 80},
+  {"date": "2026-02-13", "duration_minutes": 405, "awakenings": 3, "sleep_score": 72},
+  {"date": "2026-02-14", "duration_minutes": 465, "awakenings": 2, "sleep_score": 84}
+]

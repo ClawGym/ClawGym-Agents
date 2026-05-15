@@ -1,0 +1,6 @@
+Filename|Path|Type|Last Edited Time
+design_spec.md|C:\Users\steve\Documents\Projects\alpha\design_spec.md|file|2026-04-11 09:05:30
+project_plan.md|C:\Users\steve\Documents\Projects\alpha\project_plan.md|file|2026-04-10 13:20:05
+budget.xlsx|C:\Users\steve\Documents\Projects\alpha\budget.xlsx|file|2026-04-10 10:15:00
+notes.txt|C:\Users\steve\Documents\Notes\notes.txt|file|2026-04-09 08:00:00
+README|C:\Users\steve\Documents\Projects\alpha\README|file|2026-04-08 17:01:00

@@ -1,0 +1,17 @@
+{
+  "Potatoes": [
+    {"variety": "Home Guard", "heritage_note": "First early potato popular in Ireland since the 1940s; prized for its delicate skin and quick cooking.", "origin": "Ireland", "cultivar_age_years": 80}
+  ],
+  "Oats": [
+    {"variety": "Irish Glen", "heritage_note": "A resilient landrace suited to Atlantic winds; central to traditional porridge and bannocks.", "origin": "Ireland", "cultivar_age_years": 120}
+  ],
+  "Kale": [
+    {"variety": "Curly", "heritage_note": "", "origin": "Ireland", "cultivar_age_years": 100}
+  ],
+  "Carrageen Moss": [
+    {"variety": "Wild", "heritage_note": "For generations, carrageen has thickened puddings and broths along the coast.", "origin": "Atlantic shore", "cultivar_age_years": 200}
+  ],
+  "Cabbage": [
+    {"variety": "January King", "heritage_note": "Victorian-era cultivar cherished in winter stews across Irish homes.", "origin": "UK/Ireland", "cultivar_age_years": 150}
+  ]
+}

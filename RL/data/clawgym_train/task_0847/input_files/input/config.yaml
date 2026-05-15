@@ -1,0 +1,6 @@
+schedule:
+  day_of_week: "Friday"
+  time: "07:30"
+window_days: 7
+top_n_events: 3
+out_dir: "out"

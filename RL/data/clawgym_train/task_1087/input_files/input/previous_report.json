@@ -1,0 +1,74 @@
+{
+  "generated_at": "2026-04-01T12:00:00Z",
+  "policy": { "expiring_soon_days": 30 },
+  "hosts": [
+    {
+      "host": "example.com",
+      "valid": true,
+      "expiring_soon": false,
+      "days_until_expiry": 85,
+      "error": "",
+      "certificate": {
+        "subject": "CN=example.com",
+        "issuer": "CN=Example Root CA O=Example Org",
+        "valid_from": "Mar 15 00:00:00 2026 GMT",
+        "valid_to": "Jun 15 12:00:00 2026 GMT",
+        "fingerprint_sha256": "1a2b3c4d5e6f708192a3b4c5d6e7f8091a2b3c4d5e6f708192a3b4c5d6e7f809",
+        "subject_alt_names": ["example.com", "www.example.com"]
+      }
+    },
+    {
+      "host": "www.google.com",
+      "valid": true,
+      "expiring_soon": false,
+      "days_until_expiry": 120,
+      "error": "",
+      "certificate": {
+        "subject": "CN=www.google.com",
+        "issuer": "CN=GTS CA 1O1 O=Google Trust Services",
+        "valid_from": "Feb 20 00:00:00 2026 GMT",
+        "valid_to": "Jul 20 23:59:59 2026 GMT",
+        "fingerprint_sha256": "abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789",
+        "subject_alt_names": ["www.google.com", "google.com"]
+      }
+    },
+    {
+      "host": "api.github.com:443",
+      "valid": true,
+      "expiring_soon": false,
+      "days_until_expiry": 60,
+      "error": "",
+      "certificate": {
+        "subject": "CN=api.github.com",
+        "issuer": "CN=DigiCert TLS RSA SHA256 2020 CA1 O=DigiCert Inc",
+        "valid_from": "Jan 15 00:00:00 2026 GMT",
+        "valid_to": "May 15 23:59:59 2026 GMT",
+        "fingerprint_sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+        "subject_alt_names": ["api.github.com", "github.com"]
+      }
+    },
+    {
+      "host": "old.removed.example.org",
+      "valid": true,
+      "expiring_soon": true,
+      "days_until_expiry": 10,
+      "error": "",
+      "certificate": {
+        "subject": "CN=old.removed.example.org",
+        "issuer": "CN=Example Root CA O=Example Org",
+        "valid_from": "Mar 01 00:00:00 2026 GMT",
+        "valid_to": "Apr 27 12:00:00 2026 GMT",
+        "fingerprint_sha256": "feedfacecafebeeffeedfacecafebeeffeedfacecafebeeffeedfacecafebeef",
+        "subject_alt_names": ["old.removed.example.org"]
+      }
+    },
+    {
+      "host": "internal.example.lan:8443",
+      "valid": false,
+      "expiring_soon": false,
+      "days_until_expiry": 0,
+      "error": "Failed to connect or retrieve certificate",
+      "certificate": null
+    }
+  ]
+}

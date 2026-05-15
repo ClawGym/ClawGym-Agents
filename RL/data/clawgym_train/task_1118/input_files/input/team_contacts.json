@@ -1,0 +1,5 @@
+{
+  "driver": {"name": "Morgan Reyes", "email": "morgan.reyes@qsracing.test"},
+  "crew_chief": {"name": "Avery Chen", "email": "avery.chen@qsracing.test"},
+  "data_analyst": {"name": "Sam Patel", "email": "sam.patel@qsracing.test"}
+}

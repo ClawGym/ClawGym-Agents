@@ -1,0 +1,11 @@
+validate_posts v0.1
+INFO: Starting validation run for input/posts.csv
+INFO: Loaded 16 data row(s)
+WARNING row 4 (post_id P004): missing 'comments'; defaulting to 0
+ERROR row 5 (post_id P005): invalid date '2022-13-05' -> row will be dropped
+WARNING row 7 (post_id P007): unknown topic 'misc'; normalizing to 'other'
+WARNING row 9 (post_id P009): missing 'likes'; defaulting to 0
+ERROR row 10 (post_id P010): negative 'shares' -5 -> row will be dropped
+WARNING row 14 (post_id P014): missing 'link_clicks'; defaulting to 0
+ERROR row 15 (post_id P015): non-numeric 'likes' value 'N/A' -> row will be dropped
+INFO: Completed with 3 error row(s) and 4 warning row(s) (3 with fills, 1 with topic normalization)

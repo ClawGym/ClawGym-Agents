@@ -1,0 +1,4 @@
+- Hands-on lab work increases retention of core concepts by connecting theory to practice.
+- The scientific method cultivates logical reasoning and evidence-based decision making useful beyond science.
+- Properly equipped labs also teach safety, risk assessment, and collaboration.
+- Chemistry labs reinforce math skills through stoichiometry and data analysis.

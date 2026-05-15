@@ -1,0 +1,7 @@
+incident_id,isp,region,severity,start_utc,last_update_utc,customer_notified,status,latest_note
+INC001,BlueWaveNet,Northwest,critical,2026-03-15T06:10:00Z,2026-03-15T07:00:00Z,no,open,Fiber cut; crew dispatched
+INC002,BlueWaveNet,Southwest,major,2026-03-14T22:30:00Z,2026-03-15T10:30:00Z,yes,monitoring,Service mostly restored; monitoring
+INC003,SkyBridgeISP,Midwest,major,2026-03-15T02:20:00Z,2026-03-15T05:00:00Z,no,open,Core router failure; vendor engaged
+INC004,MetroFiber,Southeast,minor,2026-03-13T18:45:00Z,2026-03-14T18:30:00Z,yes,open,Intermittent packet loss
+INC005,SkyBridgeISP,Northeast,critical,2026-03-15T11:10:00Z,2026-03-15T11:45:00Z,no,resolved,Brief outage; resolved
+INC006,MetroFiber,Northwest,minor,2026-03-10T08:00:00Z,2026-03-15T10:00:00Z,yes,monitoring,Maintenance window extended

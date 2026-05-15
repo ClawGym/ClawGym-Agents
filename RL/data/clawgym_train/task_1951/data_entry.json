@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1951",
+  "user_query": "I need a quick code-search driven audit of the small Python project under input/project/. Read only from input/project/ and do not modify any input files. Produce the following four outputs exactly:\n\n1) output/reports/todo_report.json\n- JSON array of objects with keys: path (relative to input/project), line (1-based), text (the TODO content only)\n- Find every occurrence of the token \"TODO\" across all files (code and docs). For each, extract the text after \"TODO\" or \"TODO:\" (strip leading comment markers like # or //, remove the word TODO and any leading punctuation/whitespace). Keep original punctuation that comes after the extracted content.\n\n2) output/reports/routes.csv\n- Extract Flask route definitions from *.py files by locating lines that match @app.route(\"...\") and the function defined immediately below\n- CSV with header: route_path,function_name\n- One row per route\n\n3) output/reports/import_index.txt\n- List all unique file paths (relative to input/project) that contain the word \"import\" (this includes lines like \"from x import y\" and \"import x\")\n- One path per line\n- Sort ascending (lexicographic)\n\n4) output/reports/summary.md\n- Exactly three lines, with counts consistent with the other outputs:\nTotal TODOs: N\nFiles with imports: M\nDiscovered routes: K\n\nUse relative paths in outputs (e.g., app/main.py). Write to the exact output/ paths above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

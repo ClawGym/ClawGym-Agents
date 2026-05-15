@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0780",
+  "user_query": "Build a small Python utility that programmatically constructs a formatted operations report as an ODT document and emits verification artifacts. Read input/report_spec.json and input/kpi.csv. Write the script to output/build_report.py. The script must: 1) create an ODT report in memory, 2) set document metadata (title, subject, description) from report_spec.json, 3) append content from sections in report_spec.json (use a Heading for any entry with a heading and a plain paragraph otherwise), 4) insert a 4x4 table named \"KPI\" populated from kpi.csv (first row is the header), 5) enable numbered heading outline (1./1.1/1.1.1), 6) set the document font family to \"Noto Sans\" at size 11 across all style layers while preserving monospace/code styles, 7) perform both a plain find-and-replace and a regex replace as specified in report_spec.json, 8) export the full document text (headings + paragraphs in order) to output/report_text.txt, and 9) write output/structure.json that includes: headings array with level and text for all headings, tables array with name/rows/cols for all tables, meta object (title/subject/description), font object (family/size), and outlineNumbering set to \"numbered\". Do not write any ODT files under output/; keep the ODT document in memory or use a temporary location internal to the script for any intermediate work.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

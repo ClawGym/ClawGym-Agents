@@ -1,0 +1,16 @@
+quiet_hours:
+  start: "21:00"
+  end: "07:00"
+primary_recipients:
+  - "N001"
+  - "F001"
+  - "PRO1"
+backup_recipients:
+  - "N002"
+  - "BM01"
+escalation_minutes: 30
+groups:
+  neighbors: ["N001", "N002"]
+  family: ["F001"]
+  management: ["BM01"]
+  landlords: ["LORD1"]

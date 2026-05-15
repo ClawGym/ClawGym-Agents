@@ -1,0 +1,8 @@
+{
+  "mode": "fork",
+  "forkFrom": "ethereum",
+  "blockNumber": 19234567,
+  "seedLiquidity": true,
+  "fundedAccounts": 5,
+  "port": 8547
+}

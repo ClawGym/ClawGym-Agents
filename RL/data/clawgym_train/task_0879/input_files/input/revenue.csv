@@ -1,0 +1,13 @@
+quarter,segment,revenue_usd
+Q1,Core SaaS,1700000
+Q1,Enterprise Add-ons,450000
+Q1,Services,180000
+Q2,Core SaaS,1800000
+Q2,Enterprise Add-ons,500000
+Q2,Services,190000
+Q3,Core SaaS,1950000
+Q3,Enterprise Add-ons,550000
+Q3,Services,200000
+Q4,Core SaaS,2050000
+Q4,Enterprise Add-ons,600000
+Q4,Services,210000

@@ -1,0 +1,8 @@
+{
+  "characters": [
+    {"name": "Eliza", "role": "artisan's daughter", "is_protagonist": true},
+    {"name": "Jonah", "role": "dockworker", "is_protagonist": true},
+    {"name": "Mae", "role": "printer's apprentice", "is_protagonist": false},
+    {"name": "Magistrate Perkins", "role": "town magistrate", "is_protagonist": false}
+  ]
+}

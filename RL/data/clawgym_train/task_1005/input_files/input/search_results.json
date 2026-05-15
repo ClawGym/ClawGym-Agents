@@ -1,0 +1,43 @@
+{
+  "invoice": [
+    { "message_id": "m3", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "m4", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "p9", "thread_id": "!sup456:beeper.local" },
+    { "message_id": "p9", "thread_id": "!sup456:beeper.local" },
+    { "message_id": "n7", "thread_id": "!xyz789:beeper.local" },
+    { "message_id": "n9", "thread_id": "!xyz789:beeper.local" }
+  ],
+  "payment": [
+    { "message_id": "m4", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "m5", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "m5", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "n5", "thread_id": "!xyz789:beeper.local" },
+    { "message_id": "m15", "thread_id": "!abc123:beeper.local" }
+  ],
+  "paid": [
+    { "message_id": "m8", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "p6", "thread_id": "!sup456:beeper.local" },
+    { "message_id": "n2", "thread_id": "!xyz789:beeper.local" }
+  ],
+  "wire": [
+    { "message_id": "m6", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "n4", "thread_id": "!xyz789:beeper.local" },
+    { "message_id": "p8", "thread_id": "!sup456:beeper.local" }
+  ],
+  "net 30": [
+    { "message_id": "m4", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "m14", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "p4", "thread_id": "!sup456:beeper.local" }
+  ],
+  "po": [
+    { "message_id": "m12", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "m14", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "p5", "thread_id": "!sup456:beeper.local" },
+    { "message_id": "p5", "thread_id": "!sup456:beeper.local" },
+    { "message_id": "p11", "thread_id": "!sup456:beeper.local" }
+  ],
+  "purchase order": [
+    { "message_id": "m11", "thread_id": "!abc123:beeper.local" },
+    { "message_id": "p3", "thread_id": "!sup456:beeper.local" }
+  ]
+}

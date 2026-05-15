@@ -1,0 +1,9 @@
+{"lesson_id":"L5","sentiment":"neutral","confusion_points":["VOR tracking without GPS"],"requested_practice":["Raw data ILS","NDB hold","Partial panel approach"]}
+{"lesson_id":"L5","sentiment":"positive","confusion_points":[],"requested_practice":["Raw data ILS","VOR radial intercept"]}
+{"lesson_id":"L1","sentiment":"neutral","confusion_points":["Engine relight criteria"],"requested_practice":["V1 cut","Immediate return"]}
+{"lesson_id":"L1","sentiment":"neutral","confusion_points":["Feathering timing"],"requested_practice":["V1 cut","Feathering drill"]}
+{"lesson_id":"L7","sentiment":"neutral","confusion_points":["Crosswind control through flare"],"requested_practice":["Wing-low touchdown","Rudder coordination"]}
+{"lesson_id":"L7","sentiment":"neutral","confusion_points":[],"requested_practice":["Wing-low touchdown","Go-around decision"]}
+{"lesson_id":"L2","sentiment":"neutral","confusion_points":[],"requested_practice":["Emergency descent drill"]}
+{"lesson_id":"L3","sentiment":"neutral","confusion_points":[],"requested_practice":["Manual reversion landing"]}
+{"lesson_id":"L6","sentiment":"neutral","confusion_points":["Reversionary mode activation"],"requested_practice":["Reversionary mode setup","Manual tuning"]}

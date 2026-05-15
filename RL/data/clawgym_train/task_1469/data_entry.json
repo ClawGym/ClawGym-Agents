@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1469",
+  "user_query": "I need a small, well-structured Python package and CLI that computes daily- and customer-level order metrics from a CSV. Please read input/spec.md and input/orders.csv to understand the exact requirements. Then:\n\n1) Create a Python package under output/src/orders with at least metrics.py (core logic), cli.py (argument parsing and I/O), and __init__.py. Use only the Python standard library.\n2) Implement a CLI in cli.py that takes the CSV path as a required argument and supports an option to write JSON metrics to a file (e.g., --json output/metrics.json). It should also print a concise summary to stdout.\n3) Expose a function in metrics.py (e.g., compute_metrics(rows)) that the tests can import. Follow the spec’s definitions for totals, by_day, and by_customer.\n4) Write unit tests under output/tests that verify the core metrics logic on the provided input/orders.csv and a few synthetic rows you construct in tests.\n5) Add output/README.md with clear usage instructions (examples using input/orders.csv and producing output/metrics.json), and output/DESIGN.md explaining your module boundaries, error handling, and testing approach.\n6) Provide a Makefile in output/ with test and run targets. The run target should demonstrate running the CLI against input/orders.csv and writing output/metrics.json.\n7) Finally, run your CLI on input/orders.csv and produce output/metrics.json so I can inspect it.\n\nDo not require any external dependencies beyond the Python standard library. Keep all files you create under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

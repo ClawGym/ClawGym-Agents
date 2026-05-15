@@ -1,0 +1,13 @@
+id: P002
+title: "Automated Guided Vehicles (AGVs) for Material Handling"
+department: Logistics
+capex_usd: 120000
+estimated_annual_benefit_usd: 180000
+readiness_score: 6
+risk_score: 5
+owner: "Luis Gomez"
+pilot_site: "Warehouse A to Line Feeds"
+timeline_quarters: 2
+dependencies:
+  - "Floor marking and path mapping"
+  - "Warehouse WMS integration"

@@ -1,0 +1,9 @@
+{
+  "name": "Client Data Warehouse Implementation",
+  "company_id": "comp-ACME-001",
+  "project_type": "consulting",
+  "customer_id": "cust-Globex-778",
+  "start_date": "2026-05-04",
+  "end_date": "2026-07-05",
+  "description": "Consulting engagement to design and implement a cloud-based data warehouse with ETL pipelines and analytics dashboards for Globex."
+}

@@ -1,0 +1,7 @@
+contact_id,name,role,relevance,allowed_followup
+C001,Acme Headsets,Sponsor,5,yes
+C002,StreamSafe Coalition,Sponsor,4,yes
+C003,Mod Alex,Moderator,5,yes
+C004,Mod Blair,Moderator,3,yes
+C005,Brand Y Energy,Sponsor,2,no
+C006,Mod Casey,Moderator,4,no

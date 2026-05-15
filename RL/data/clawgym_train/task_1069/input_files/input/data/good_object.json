@@ -1,0 +1,16 @@
+{
+  "id": "obj-001",
+  "name": "Sample Widget",
+  "price": 19.99,
+  "in_stock": true,
+  "tags": [
+    "widget",
+    "sample"
+  ],
+  "dimensions": {
+    "width": 5,
+    "height": 2.5,
+    "unit": "cm"
+  },
+  "metadata": null
+}

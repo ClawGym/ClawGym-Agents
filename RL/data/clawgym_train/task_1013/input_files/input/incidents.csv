@@ -1,0 +1,25 @@
+date,team,player_id,category,severity,sanction
+2023-09-01,Varsity,P12,Unsportsmanlike Conduct,Moderate,Penalty
+2023-09-01,Junior Varsity,P45,Taunting,Minor,Warning
+2023-09-08,Varsity,P77,Late Hit,Moderate,Penalty
+2023-09-08,Freshman,P09,Trash Talk,Minor,Warning
+2023-09-15,Varsity,P12,Taunting,Minor,Warning
+2023-09-15,Junior Varsity,P33,Sideline Dissent,Moderate,Penalty
+2023-09-22,Varsity,P21,Helmet-to-Helmet,Major,Ejection
+2023-09-22,Freshman,P88,Unsportsmanlike Conduct,Moderate,Penalty
+2023-09-29,Varsity,P12,Late Hit,Moderate,Penalty
+2023-09-29,Junior Varsity,P45,Unsportsmanlike Conduct,Moderate,Penalty
+2023-10-06,Varsity,P77,Helmet-to-Helmet,Major,Ejection
+2023-10-06,Freshman,P09,Taunting,Minor,Warning
+2023-10-13,Junior Varsity,P33,Unsportsmanlike Conduct,Moderate,Penalty
+2023-10-13,Varsity,P21,Taunting,Minor,Warning
+2023-10-20,Freshman,P88,Trash Talk,Minor,Warning
+2023-10-20,Varsity,P66,Unsportsmanlike Conduct,Moderate,Penalty
+2023-10-27,Junior Varsity,P33,Sideline Dissent,Moderate,Penalty
+2023-10-27,Varsity,P77,Taunting,Minor,Warning
+2023-11-03,Freshman,P88,Late Hit,Moderate,Penalty
+2023-11-03,Varsity,P21,Unsportsmanlike Conduct,Moderate,Penalty
+2023-11-10,Junior Varsity,P45,Taunting,Minor,Warning
+2023-11-10,Varsity,P12,Unsportsmanlike Conduct,Moderate,Penalty
+2023-11-10,Freshman,P09,Unsportsmanlike Conduct,Moderate,Penalty
+2023-11-10,Varsity,P21,Helmet-to-Helmet,Major,Ejection

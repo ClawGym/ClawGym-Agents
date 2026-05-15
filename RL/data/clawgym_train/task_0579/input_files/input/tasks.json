@@ -1,0 +1,22 @@
+[
+  {
+    "id": "tsk_wkly_01",
+    "label": "Weekly report",
+    "progress": 0.75
+  },
+  {
+    "id": "tsk_research_industry_02",
+    "label": "Industry research",
+    "progress": 0.3
+  },
+  {
+    "id": "tsk_ppt_03",
+    "label": "PPT generation",
+    "progress": 0.85
+  },
+  {
+    "id": "tsk_research_competitor_04",
+    "label": "Competitor research",
+    "progress": 0.45
+  }
+]

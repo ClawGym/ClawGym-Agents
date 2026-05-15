@@ -1,0 +1,5 @@
+threads: 2
+cache_size_mb: 128
+enable_autostart: false
+log_level: info
+data_dir: /var/lib/bioindexer

@@ -1,0 +1,129 @@
+{
+  "brand": "NorthRiver Naturals",
+  "sku": "NRN-ADP-120",
+  "product_name": "AdaptEase Adaptogen Complex",
+  "category": "Health & Household > Vitamins & Dietary Supplements > Herbal Supplements > Adaptogen Blends",
+  "marketplace": "US",
+  "product_type": "Herbal supplement - Adaptogen complex",
+  "product_form": "Capsules",
+  "count_per_bottle": 120,
+  "servings_per_bottle": 60,
+  "serving_size": "2 capsules",
+  "capsule_type": "Vegetarian cellulose (Size 0)",
+  "ingredients_per_serving": [
+    {
+      "name": "Ashwagandha (Withania somnifera) root extract",
+      "amount_mg": 600,
+      "standardization": "5% withanolides"
+    },
+    {
+      "name": "Rhodiola rosea root extract",
+      "amount_mg": 200,
+      "standardization": "3% rosavins, 1% salidroside"
+    },
+    {
+      "name": "Holy Basil (Ocimum tenuiflorum) leaf powder",
+      "amount_mg": 200
+    },
+    {
+      "name": "Lemon Balm (Melissa officinalis) leaf powder",
+      "amount_mg": 200
+    },
+    {
+      "name": "Black Pepper (Piper nigrum) extract",
+      "amount_mg": 10,
+      "standardization": "95% piperine"
+    }
+  ],
+  "free_from": [
+    "Non-GMO",
+    "Vegan",
+    "Gluten-Free",
+    "Soy-Free",
+    "Dairy-Free"
+  ],
+  "benefits_language_guidance": [
+    "Supports a calm, balanced stress response",
+    "Helps maintain focus and clarity",
+    "Promotes natural energy without jitters",
+    "Traditional adaptogenic herbs for everyday wellness"
+  ],
+  "avoid_phrases": [
+    "treats anxiety",
+    "cures depression",
+    "prevents disease",
+    "clinically proven to cure",
+    "doctor recommended"
+  ],
+  "packaging": {
+    "bottle_color": "White HDPE",
+    "cap_type": "Black ribbed screw cap with induction seal",
+    "tamper_evident": "Shrink band over cap",
+    "label_finish": "Matte laminate, forest-green theme",
+    "fnsku_clear_area": "1.25in x 2.25in blank space on right side panel",
+    "poly_bag": "Optional 1.5 mil clear poly bag if additional seal needed",
+    "suffocation_warning_required": true
+  },
+  "dimensions_in": {
+    "length": 2.4,
+    "width": 2.4,
+    "height": 4.7
+  },
+  "unit_weight_lb": 0.35,
+  "ship_weight_lb": 0.5,
+  "carton": {
+    "case_pack": 48,
+    "carton_dimensions_in": {
+      "length": 16,
+      "width": 12,
+      "height": 10
+    },
+    "carton_weight_lb": 28
+  },
+  "storage": {
+    "shelf_life_months": 36,
+    "lot_code_format": "LOT NR-AXR-####",
+    "expiration_format": "EXP MM/YYYY",
+    "storage_instructions": "Store in a cool, dry place away from sunlight."
+  },
+  "label_requirements": [
+    "Supplement Facts",
+    "Serving size",
+    "Ingredients",
+    "Other ingredients",
+    "Allergen statement",
+    "Directions",
+    "Warnings",
+    "Manufacturer/Distributor",
+    "Lot and Expiration"
+  ],
+  "cogs": {
+    "manufacturing_per_unit": 4.2,
+    "bottle_cap_label": 0.55,
+    "outer_packaging": 0.25,
+    "inbound_freight_per_unit": 0.4,
+    "total_unit_cost": 5.4
+  },
+  "target_pricing": {
+    "msrp": 24.99,
+    "map": 0,
+    "launch_coupon": "10% for first 30 days"
+  },
+  "keywords_seed": [
+    "ashwagandha",
+    "rhodiola",
+    "adaptogen complex",
+    "stress support",
+    "holy basil",
+    "lemon balm",
+    "vegan ashwagandha",
+    "non gmo supplement",
+    "herbal capsules",
+    "piperine black pepper"
+  ],
+  "brand_story": "NorthRiver Naturals crafts minimalist, science-informed formulas using time-honored botanicals. Made in the USA in cGMP facilities and third-party tested for purity and potency.",
+  "compliance": {
+    "fda_disclaimer": "These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease.",
+    "warnings": "Not intended for pregnant or nursing individuals. Consult your healthcare professional before use if you have a medical condition or take medications."
+  }
+}

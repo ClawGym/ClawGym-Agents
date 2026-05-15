@@ -1,0 +1,55 @@
+{
+  "date": "2026-04-16",
+  "timestamp": "2026-04-16T07:09:31Z",
+  "index": {
+    "file_count": 121,
+    "chunk_count": 4560,
+    "index_size_mb": 182.1,
+    "last_updated": "2026-04-16 01:58Z",
+    "collection_count": 3
+  },
+  "bm25": {
+    "hit_rate": 0.75,
+    "avg_score": 0.489,
+    "hits": 15,
+    "total_queries": 20,
+    "by_domain": {
+      "eval": { "hits": 4, "total": 5, "avg_score": 0.50 },
+      "infra": { "hits": 3, "total": 5, "avg_score": 0.47 },
+      "proj": { "hits": 4, "total": 5, "avg_score": 0.49 },
+      "ctx": { "hits": 3, "total": 4, "avg_score": 0.50 },
+      "tools": { "hits": 1, "total": 1, "avg_score": 0.46 }
+    }
+  },
+  "gateway": {
+    "session_saves": 7,
+    "qmd_armed": 0,
+    "qmd_errors": 0
+  },
+  "query_results": [
+    { "query": "qwen2.5 classify score", "domain": "eval", "expected_collection": "hybrid-cp", "hit": true, "score": 0.51, "collection": "hybrid-cp", "source_file": "qmd://hybrid-cp/evals/qwen2.5.md" },
+    { "query": "granite4 format promotion", "domain": "eval", "expected_collection": "hybrid-cp", "hit": true, "score": 0.50, "collection": "hybrid-cp", "source_file": "qmd://hybrid-cp/evals/granite4_promo.md" },
+    { "query": "promotion threshold 200 runs", "domain": "eval", "expected_collection": "hybrid-cp", "hit": true, "score": 0.49, "collection": "hybrid-cp", "source_file": "qmd://hybrid-cp/evals/promotion_thresholds.md" },
+    { "query": "phi4 control floor latency", "domain": "eval", "expected_collection": "hybrid-cp", "hit": false, "score": 0.0, "collection": null, "source_file": null },
+    { "query": "deepseek-r1 thinking token strip", "domain": "eval", "expected_collection": "hybrid-cp", "hit": true, "score": 0.50, "collection": "hybrid-cp", "source_file": "qmd://hybrid-cp/evals/deepseek_r1_tokens.md" },
+
+    { "query": "Voyage nomic replacement", "domain": "infra", "expected_collection": "daily", "hit": false, "score": 0.0, "collection": null, "source_file": null },
+    { "query": "QMD memory backend enabled", "domain": "infra", "expected_collection": "daily", "hit": true, "score": 0.48, "collection": "daily", "source_file": "qmd://daily/infra/qmd_backend.md" },
+    { "query": "launchctl gateway restart PATH", "domain": "infra", "expected_collection": "daily", "hit": true, "score": 0.47, "collection": "daily", "source_file": "qmd://daily/ops/gateway_restart.md" },
+    { "query": "openclaw doctor schema validate", "domain": "infra", "expected_collection": "daily", "hit": true, "score": 0.46, "collection": "daily", "source_file": "qmd://daily/ops/doctor_schema.md" },
+    { "query": "caffeinate sleep prevention", "domain": "infra", "expected_collection": "daily", "hit": false, "score": 0.0, "collection": null, "source_file": null },
+
+    { "query": "hybrid control plane Sprint", "domain": "proj", "expected_collection": "hybrid-cp", "hit": true, "score": 0.50, "collection": "hybrid-cp", "source_file": "qmd://hybrid-cp/roadmap/sprint_notes.md" },
+    { "query": "Insight Engine Langfuse", "domain": "proj", "expected_collection": "hybrid-cp", "hit": true, "score": 0.49, "collection": "hybrid-cp", "source_file": "qmd://hybrid-cp/insight/langfuse_integration.md" },
+    { "query": "accumulator IndentationError", "domain": "proj", "expected_collection": "daily", "hit": true, "score": 0.49, "collection": "daily", "source_file": "qmd://daily/projects/accumulator_fix.md" },
+    { "query": "Notion Content Pipeline blog", "domain": "proj", "expected_collection": "vault", "hit": false, "score": 0.0, "collection": null, "source_file": null },
+    { "query": "Monk Fenix inbox cleanup", "domain": "proj", "expected_collection": "vault", "hit": true, "score": 0.48, "collection": "vault", "source_file": "qmd://vault/blog/fenix_inbox.md" },
+
+    { "query": "Nissan Sydney Mac Mini", "domain": "ctx", "expected_collection": "vault", "hit": true, "score": 0.51, "collection": "vault", "source_file": "qmd://vault/people/nissan_devices.md" },
+    { "query": "Benjamin Locutus Dookeran", "domain": "ctx", "expected_collection": "vault", "hit": true, "score": 0.50, "collection": "vault", "source_file": "qmd://vault/people/benjamin_profile.md" },
+    { "query": "1Password service account token", "domain": "ctx", "expected_collection": "daily", "hit": true, "score": 0.49, "collection": "daily", "source_file": "qmd://daily/context/1password_service.md" },
+    { "query": "Telegram personal account", "domain": "ctx", "expected_collection": "daily", "hit": false, "score": 0.0, "collection": null, "source_file": null },
+
+    { "query": "pyenv Python 3.14.3", "domain": "tools", "expected_collection": "daily", "hit": true, "score": 0.46, "collection": "daily", "source_file": "qmd://daily/tools/pyenv_3.14.3.md" }
+  ]
+}

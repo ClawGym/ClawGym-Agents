@@ -1,0 +1,22 @@
+archetypes:
+  Tank:
+    health:
+      min: 150
+      max: 220
+    speed:
+      min: 2.5
+      max: 3.5
+  DPS:
+    health:
+      min: 80
+      max: 120
+    speed:
+      min: 4.5
+      max: 6.0
+  Support:
+    health:
+      min: 90
+      max: 130
+    speed:
+      min: 3.5
+      max: 4.5

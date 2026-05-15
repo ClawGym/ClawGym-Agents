@@ -1,0 +1,23 @@
+{
+  "agents": {
+    "defaults": {
+      "workspace": "/Users/operator/agents/atlas/workspace"
+    }
+  },
+  "skills": {
+    "entries": {
+      "simple-backup": {
+        "config": {
+          "workspaceDir": "/Users/operator/agents/atlas/workspace",
+          "stateDir": "/Users/operator/.openclaw",
+          "skillsDir": "/Users/operator/openclaw/skills",
+          "backupRoot": "/Users/operator/agents/atlas/workspace/BACKUPS",
+          "remoteDest": "acme-remote:ai-backups",
+          "maxDays": 7,
+          "hourlyRetentionHours": 24,
+          "password": "S3cr3t-Backup-2026!"
+        }
+      }
+    }
+  }
+}

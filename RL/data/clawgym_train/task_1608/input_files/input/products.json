@@ -1,0 +1,26 @@
+{
+  "catalog_updated": "2026-03-11",
+  "products": [
+    {
+      "sku": "JPE-100",
+      "name": "JSON Performance Engine",
+      "category": "optimization",
+      "description": "High-speed JSON optimization with orjson; delivers 662x faster parse and 57% size reduction while preserving semantics.",
+      "status": "stable"
+    },
+    {
+      "sku": "USE-210",
+      "name": "Universal Smart Indexer",
+      "category": "indexing",
+      "description": "Lightweight search index across markdown, text, and code; 317.6x faster lookup with security-focused scope.",
+      "status": "stable"
+    },
+    {
+      "sku": "ACS-330",
+      "name": "Auto-Compaction System",
+      "category": "compaction",
+      "description": "Merges and compresses content while preserving meaning; security-focused, user-controlled file access only.",
+      "status": "beta"
+    }
+  ]
+}

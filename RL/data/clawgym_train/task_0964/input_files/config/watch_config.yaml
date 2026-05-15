@@ -1,0 +1,11 @@
+watch_dirs:
+  - scripts
+file_patterns:
+  - "*.md"
+marker_prefixes:
+  scenes: "SCENE:"
+  beats: "BEAT:"
+outputs:
+  event_path: out/events/event.json
+  summary_path: out/status/summary.md
+  snapshot_path: out/state/current_snapshot.json

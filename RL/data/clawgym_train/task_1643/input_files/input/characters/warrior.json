@@ -1,0 +1,14 @@
+{
+  "name": "Baldric",
+  "archetype": "Tank",
+  "health": 180,
+  "speed": 3.2,
+  "model_polycount": 22000,
+  "abilities": ["Shield Bash", "Taunt"],
+  "animations": [
+    "anims/warrior/idle.anim.json",
+    "anims/warrior/run.anim.json",
+    "anims/shared/block.anim.json"
+  ],
+  "tags": ["melee", "heavy_armor"]
+}

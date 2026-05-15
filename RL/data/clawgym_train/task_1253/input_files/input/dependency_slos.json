@@ -1,0 +1,94 @@
+{
+  "window": "30d",
+  "dependencies": [
+    {
+      "name": "Stripe API",
+      "provider": "Stripe",
+      "slos": {
+        "availability": "99.95%",
+        "latency_p95": "<300ms"
+      },
+      "notes": "Payment operations limited by Stripe API rate limits and regional availability."
+    },
+    {
+      "name": "SendGrid",
+      "provider": "Twilio SendGrid",
+      "slos": {
+        "availability": "99.9%",
+        "latency_p95": "<500ms"
+      },
+      "notes": "Email deliverability depends on SendGrid regional routing and ISP behavior."
+    },
+    {
+      "name": "AWS ELB",
+      "provider": "AWS",
+      "slos": {
+        "availability": "99.99%"
+      },
+      "notes": "Regional load balancer service; misconfiguration can cause outages despite provider SLO."
+    },
+    {
+      "name": "Kafka Cluster",
+      "provider": "Internal (Managed by Platform Reliability)",
+      "slos": {
+        "availability": "99.9%",
+        "freshness": "pipeline_lag < 2min p95"
+      },
+      "notes": "Cluster health affects notifications and analytics freshness."
+    },
+    {
+      "name": "Postgres (Auth DB)",
+      "provider": "AWS RDS (Managed)",
+      "slos": {
+        "availability": "99.95%",
+        "latency_p95": "<50ms"
+      },
+      "notes": "Multi-AZ; failover events impact write availability briefly."
+    },
+    {
+      "name": "Postgres (Marketplace DB)",
+      "provider": "AWS RDS (Managed)",
+      "slos": {
+        "availability": "99.95%",
+        "latency_p95": "<60ms"
+      },
+      "notes": "Primary write load during peak checkout hours."
+    },
+    {
+      "name": "Postgres (Payments DB)",
+      "provider": "AWS RDS (Managed)",
+      "slos": {
+        "availability": "99.95%",
+        "latency_p95": "<50ms"
+      },
+      "notes": "Stores transaction records and reconciliation state."
+    },
+    {
+      "name": "Redis Cluster",
+      "provider": "AWS ElastiCache",
+      "slos": {
+        "availability": "99.9%",
+        "latency_p95": "<5ms"
+      },
+      "notes": "Evictions and maintenance windows can affect cache hit rate."
+    },
+    {
+      "name": "S3 Data Lake",
+      "provider": "AWS",
+      "slos": {
+        "availability": "99.9%"
+      },
+      "notes": "Eventual consistency affects pipeline freshness, not raw availability."
+    },
+    {
+      "name": "Elasticsearch",
+      "provider": "Managed Search (AWS/OpenSearch)",
+      "slos": {
+        "availability": "99.9%",
+        "latency_p95": "<150ms"
+      },
+      "notes": "Indexing backlogs and shard imbalance affect search latency and correctness."
+    }
+  ],
+  "last_updated": "2026-04-15"
+}

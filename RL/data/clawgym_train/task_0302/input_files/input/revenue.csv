@@ -1,0 +1,9 @@
+event_id,event_name,event_date,source,amount
+EVT-001,Beat Cypher Night,2024-02-09,Ticket sales,480.00
+EVT-001,Beat Cypher Night,2024-02-09,Merch table,150.00
+EVT-001,Beat Cypher Night,2024-02-09,Donations,70.00
+EVT-002,Open Turntable Session,2024-03-15,Door donations,220.00
+EVT-002,Open Turntable Session,2024-03-15,Merch table,80.00
+EVT-003,Spring Campus Block Party,2024-04-20,Ticket sales,1200.00
+EVT-003,Spring Campus Block Party,2024-04-20,Merch table,300.00
+EVT-003,Spring Campus Block Party,2024-04-20,Sponsor support,500.00

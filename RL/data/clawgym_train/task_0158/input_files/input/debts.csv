@@ -1,0 +1,4 @@
+name,balance,apr_percent,min_payment,due_day,notes
+CC BankX,1200.00,22.99,75.00,17,Credit card minimum due monthly
+Student Loan,8500.00,5.50,150.00,25,Federal loan standard plan
+Medical Bill,300.00,0.00,50.00,18,Payoff plan with clinic

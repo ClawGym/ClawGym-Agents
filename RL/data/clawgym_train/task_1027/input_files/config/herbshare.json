@@ -1,0 +1,4 @@
+{
+  "include_herbs": ["basil", "rosemary", "thyme"],
+  "grams_unit": "g"
+}

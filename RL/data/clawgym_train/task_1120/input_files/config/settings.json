@@ -1,0 +1,8 @@
+{
+  "notes_dir": "notes",
+  "category_tags": {
+    "Beginner Classes": ["beginners", "basics"],
+    "Advanced Classes": ["advanced", "sparring"],
+    "Kids Classes": ["kids", "youth"]
+  }
+}

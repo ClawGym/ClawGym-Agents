@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Offline macOS API Availability</title>
+</head>
+<body>
+<h1>API Availability Reference</h1>
+<table id="availability">
+  <thead>
+    <tr><th>API Name</th><th>Availability</th><th>Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>NSFileManager</td><td>available</td><td>Core file operations</td></tr>
+    <tr><td>CFPreferences</td><td>deprecated</td><td>Use UserDefaults for new code</td></tr>
+    <tr><td>mach_absolute_time</td><td>available</td><td>High-resolution timer</td></tr>
+    <tr><td>mach_timebase_info</td><td>available</td><td>Timing conversion factors</td></tr>
+    <tr><td>NSSearchPathForDirectoriesInDomains</td><td>available</td><td>Directory resolution</td></tr>
+    <tr><td>CGEventTap</td><td>available</td><td>Global event tapping</td></tr>
+    <tr><td>NSTask</td><td>available</td><td>Process management</td></tr>
+    <tr><td>IOKitDeviceControl</td><td>unavailable</td><td>Not provided in public APIs</td></tr>
+    <tr><td>SecKeychainProtectData</td><td>available</td><td>Keychain protection routines</td></tr>
+  </tbody>
+</table>
+</body>
+</html>

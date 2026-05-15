@@ -1,0 +1,10 @@
+{"timestamp":"2024-10-10T08:01:00Z","voter_id":"UT-SL-1001","event":"mailed","county":"Salt Lake"}
+{"timestamp":"2024-10-12T16:22:30Z","voter_id":"UT-SL-1001","event":"received","county":"Salt Lake"}
+{"timestamp":"2024-10-12T18:45:10Z","voter_id":"UT-SL-1001","event":"accepted","county":"Salt Lake"}
+{"timestamp":"2024-10-11T09:05:00Z","voter_id":"UT-UT-2001","event":"mailed","county":"Utah"}
+{"timestamp":"2024-10-14T10:12:05Z","voter_id":"UT-SL-1003","event":"received","county":"Salt Lake",}
+{"timestamp":"2024-10-14T11:50:00Z","voter_id":"UT-SL-1003","event":"signature_mismatch","county":"Salt Lake","details":"Signature does not match file"}
+{"timestamp":"2024-10-15T07:17:42Z","voter_id":"UT-UT-2001","event":"rejected","county":"Utah","details":"Late arrival"}
+{"timestamp":"2024-10-15T09:00:00Z","voter_id": "UT-DV-3001", "event": "received", "county": "Davis"  // extra comment}
+{"timestamp":"2024-10-15T10:05:00Z","voter_id":"UT-DV-3001","event":"accepted","county":"Davis"}
+{"timestamp":"2024-10-15T12:20:00Z","voter_id":"UT-UT-2002","event":"mailed","county":"Utah"}

@@ -1,0 +1,14 @@
+{"event_id":"EVT-1001","type":"commit","actor":"Ava Patel","repo":"web-frontend","message":"chore: tidy linter rules and fix small spacing issues","created_at":"2026-05-03T09:14:22Z"}
+{"event_id":"EVT-1002","type":"bug_fix","actor":"Ben Carter","repo":"api-session","message":"fix: race condition in session cache when refreshing tokens","created_at":"2026-05-03T11:02:47Z"}
+{"event_id":"EVT-1003","type":"test_added","actor":"Mina Zhou","repo":"billing-service","message":"test: add edge cases for price rounding and JPY handling","created_at":"2026-05-03T12:36:05Z"}
+{"event_id":"EVT-1004","type":"feature_shipped","actor":"Ava Patel","repo":"checkout","message":"feat: multi-currency checkout (USD/EUR/JPY) behind feature flag","created_at":"2026-05-04T15:18:11Z"}
+{"event_id":"EVT-1005","type":"review_completed","actor":"Diego Ramirez","repo":"payments","message":"review: PR#482 payment service modularization approval with notes","created_at":"2026-05-04T17:53:39Z"}
+{"event_id":"EVT-1006","type":"major_refactor","actor":"Mina Zhou","repo":"auth","message":"refactor: extract auth module and delete 5k lines of duplicated code","created_at":"2026-05-05T08:21:10Z"}
+{"event_id":"EVT-1007","type":"release_tagged","actor":"Ben Carter","repo":"platform","message":"release: tag v2.3.0 - feature flags cleanup and perf tweaks","created_at":"2026-05-05T19:02:22Z"}
+{"event_id":"EVT-1008","type":"incident_survived","actor":"Diego Ramirez","repo":"infra","message":"incident: INC-5000 P0 db failover at 03:07 UTC; restored in 21 minutes","created_at":"2026-05-06T03:45:12Z","metadata":{"severity":"P0","incident_id":"INC-5000"}}
+{"event_id":"EVT-1009","type":"commit","actor":"Celeste Nguyen","repo":"docs","message":"docs: update onboarding guide with local dev bootstrap","created_at":"2026-05-06T14:11:45Z"}
+{"event_id":"EVT-1010","type":"review_completed","actor":"Celeste Nguyen","repo":"security","message":"security review: rotate API keys and tighten IAM policies","created_at":"2026-05-06T18:26:04Z"}
+{"event_id":"EVT-1011","type":"feature_shipped","actor":"Diego Ramirez","repo":"web-frontend","message":"feat: dark mode beta for dashboard","created_at":"2026-05-07T10:33:27Z"}
+{"event_id":"EVT-1012","type":"extraordinary_feat","actor":"BuildOrbit Team","repo":"platform","message":"decommissioned legacy monolith two weeks early without downtime","created_at":"2026-05-08T16:59:41Z"}
+{"event_id":"EVT-1013","type":"commit","actor":"Ben Carter","repo":"media-pipeline","message":"perf: micro-optimize image pipeline (downscale concurrency + caching)","created_at":"2026-05-09T09:05:55Z"}
+{"event_id":"EVT-1014","type":"bug_fix","actor":"Celeste Nguyen","repo":"reports","message":"fix: parameterized queries to close SQL injection vector in reports","created_at":"2026-05-09T13:44:08Z"}

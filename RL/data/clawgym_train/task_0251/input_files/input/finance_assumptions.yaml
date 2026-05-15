@@ -1,0 +1,23 @@
+bill:
+  id: SB-842
+  title: Safe Staffing Standards Act
+  effective_date: 2026-01-01
+  fiscal_year: FY2025
+staffing:
+  med_surg_ratio: "1:4"
+  icu_ratio: "1:2"
+  stepdown_ratio: "1:3"
+  additional_hours_pct: 0.08
+costing:
+  baseline_annual_nursing_hours: 1200000
+  avg_hourly_rn_cost_usd: 52.75
+  one_time_training_cost_usd: 1500000
+reimbursement:
+  medicaid_base_rate_bps_change: -50
+recipients:
+  board_to:
+    - board@hospital.org
+  cc:
+    - cfo@hospital.org
+    - coo@hospital.org
+    - gc@hospital.org

@@ -1,0 +1,5 @@
+1001 scribo 0:00 scribo
+1002 scribo 0:01 scribo-sync --auto
+1003 root 0:00 metricsd --collect
+1004 user 0:00 backupd --local
+1005 user 0:02 vim chapter1.md

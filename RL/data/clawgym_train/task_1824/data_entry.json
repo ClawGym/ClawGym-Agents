@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1824",
+  "user_query": "Please read input/reading_insights.json and batch-generate reviews and related concepts as follows:\n\n1) Reviews\n- For each object in the JSON array (fields: id, title, insight, depth), generate a Markdown review using our standard local template at the specified depth.\n- brief: include the security note line, a \"Brief Review\" section with an \"Insight\" line that contains the exact insight text; omit any \"Suggested Connections\" section.\n- detailed: include the security note line, a \"Detailed Book Review\" section with an \"Original Insight\" block containing the exact insight text; include a \"Suggested Connections\" section with exactly these three bullets, in this order:\n  - Relates to principles of active learning and knowledge retention\n  - Connects to frameworks for personal and professional development\n  - Could be integrated with goal-setting and progress tracking practices\n- comprehensive: include the security note line, a \"Comprehensive Review & Analysis\" section with a \"Core Insight\" block containing the exact insight text; include both \"Learning Pathways\" and \"Reflection Prompts\" sections; also include the same \"Suggested Connections\" section as detailed (the exact three bullets in the same order).\n- Write each file to output/reviews/<id>-<depth>.md (e.g., output/reviews/bk001-detailed.md). Ensure the exact insight text from input appears in the appropriate section.\n\n2) Related concepts\n- Create output/related_concepts.json mapping each id to an array of related concept suggestions (strings only; no explanations). Use exactly 4 suggestions for detailed entries, 3 for brief entries, and 5 for comprehensive entries.\n\nCreate any needed folders under output/ before writing files.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

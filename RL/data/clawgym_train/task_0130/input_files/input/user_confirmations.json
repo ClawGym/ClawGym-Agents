@@ -1,0 +1,12 @@
+{
+  "OpenAI": {
+    "login_confirmed": true,
+    "confirmed_at": "2026-04-15T10:33:00Z"
+  },
+  "Anthropic": {
+    "login_confirmed": false
+  },
+  "Google": {
+    "login_confirmed": false
+  }
+}

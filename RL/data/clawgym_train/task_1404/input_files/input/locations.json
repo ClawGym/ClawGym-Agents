@@ -1,0 +1,4 @@
+{
+  "L1": {"name": "North Ditch", "type": "surface"},
+  "L2": {"name": "Irrigation Well", "type": "groundwater"}
+}

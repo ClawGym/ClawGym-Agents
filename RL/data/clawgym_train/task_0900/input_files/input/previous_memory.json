@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "lead_id": "LD-202403-ACME-001",
+      "decision": "nurture",
+      "key_facts": [
+        "Acme Analytics Director of BI downloaded whitepaper",
+        "No timeline or budget shared",
+        "Asked only high-level questions about analytics automation"
+      ],
+      "tags": [
+        "inbound",
+        "analytics",
+        "early_interest"
+      ],
+      "created_at": "2026-03-11T17:22:00Z"
+    },
+    {
+      "lead_id": "LD-202403-SUNSET-014",
+      "decision": "pursue now",
+      "key_facts": [
+        "Sunset Retail VP Ops requested security review",
+        "Pilot start agreed for 2026-04-03",
+        "SOC2 and Okta SSO required"
+      ],
+      "tags": [
+        "retail",
+        "pilot",
+        "security"
+      ],
+      "created_at": "2026-03-12T09:10:00Z"
+    }
+  ],
+  "last_updated": "2026-03-15T12:00:00Z",
+  "notes": "Keep entries concise and focused on decisions and hard facts."
+}

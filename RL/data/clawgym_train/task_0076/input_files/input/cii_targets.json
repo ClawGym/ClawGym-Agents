@@ -1,0 +1,8 @@
+{
+  "batch_id": "batch_1970s_ciihw",
+  "targets": [
+    { "qid": "Q37156", "note": "IBM (contemporary competitor)" },
+    { "qid": "Q68", "note": "Apple (later-era reference)" },
+    { "qid": "Q999999999", "note": "CII 10070" }
+  ]
+}

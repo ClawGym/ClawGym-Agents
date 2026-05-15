@@ -1,0 +1,74 @@
+{
+  "app": {
+    "name": "Commerce API",
+    "type": "laravel",
+    "architecture": "API+SPA",
+    "entry_points": ["web", "api", "queue", "scheduler"]
+  },
+  "runtime": {
+    "php_version": "8.2.12",
+    "framework": {
+      "name": "Laravel",
+      "version": "10.23.0"
+    },
+    "node_version": "20.11.1",
+    "composer_constraints": "^2.6"
+  },
+  "infrastructure": {
+    "db": {
+      "engine": "mysql",
+      "version": "8.0.35",
+      "host": "db.internal",
+      "database": "commerce"
+    },
+    "cache": {
+      "driver": "redis",
+      "version": "7.2"
+    },
+    "queue": {
+      "driver": "redis"
+    },
+    "storage": {
+      "provider": "local"
+    }
+  },
+  "conventions": {
+    "api_prefix": "/api/v1",
+    "auth": {
+      "method": "bearer_token",
+      "notes": "Project typically uses Laravel Sanctum or custom bearer tokens for public-ish endpoints"
+    },
+    "pagination": {
+      "style": "page_per_page",
+      "defaults": {
+        "per_page": 20,
+        "max_per_page": 100
+      }
+    },
+    "error_format": {
+      "type": "json",
+      "fields": ["code", "message"]
+    }
+  },
+  "data_model": {
+    "orders": {
+      "table": "orders",
+      "fields": [
+        {"name": "id", "type": "bigint", "notes": "primary key"},
+        {"name": "number", "type": "varchar(32)", "notes": "public order number"},
+        {"name": "status", "type": "enum(pending,paid,shipped,cancelled,refunded)"},
+        {"name": "total_amount", "type": "decimal(10,2)"},
+        {"name": "currency", "type": "char(3)"},
+        {"name": "customer_id", "type": "bigint"},
+        {"name": "created_at", "type": "timestamp"}
+      ],
+      "pii_fields": ["customer_id"],
+      "exposed_fields_safe": ["id", "number", "status", "total_amount", "currency", "created_at"]
+    }
+  },
+  "observability": {
+    "logs": "stdout/json",
+    "error_tracking": "none",
+    "metrics": "none"
+  }
+}

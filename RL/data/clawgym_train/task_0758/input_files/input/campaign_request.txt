@@ -1,0 +1,32 @@
+Campaign: FlowForge Automations 2.0 — Mini-Launch
+
+Requestor: Sara (PMM)
+Start date: 2026-04-20
+Target launch date: 2026-05-07 (Thursday)
+Window: 3 weeks total
+
+Channels we care about:
+- Website: new feature landing page (or upgrade existing Automations page)
+- Email: 3-message launch sequence to existing list (announce → proof → offer)
+- Social: LinkedIn and X organic (founders + brand page)
+- Product Hunt: one-day launch (if ready)
+- Paid: small LinkedIn test ($3k cap)
+- PR: not required
+
+Non-negotiables:
+- Legal review required for all public copy (48h turnaround)
+- Tracking must include trial start, template used, and approval action completed
+- Do not oversell “AI” — stick to measurable outcomes and auditability
+
+Deliverables:
+- 1 landing page with scroll-to-CTA and in-page demo
+- Email sequence (3 emails), social kit (6 posts), PH assets (tagline, first comment)
+- Ad set: 4 variations (headline + primary + image)
+- Tracking plan: GA4 + Segment events with HubSpot mapping
+
+Risks to consider:
+- Limited budget on paid, need tight audience targeting
+- Compliance approvals may slip
+- Development bandwidth is 1–2 days from Alex during week 2 only
+
+Decision needed (assume if not answered): If PH slips, launch without it and repurpose assets for our blog.

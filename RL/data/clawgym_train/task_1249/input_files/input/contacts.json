@@ -1,0 +1,8 @@
+[
+  {"isp": "BlueWaveNet", "region": "Northwest", "ops_lead": "Jamie Ortega", "email": "jamie.ortega@bluewavenet.example.com"},
+  {"isp": "BlueWaveNet", "region": "Southwest", "ops_lead": "Priya Raman", "email": "priya.raman@bluewavenet.example.com"},
+  {"isp": "SkyBridgeISP", "region": "Midwest", "ops_lead": "Marcus Lee", "email": "marcus.lee@skybridge.example.com"},
+  {"isp": "SkyBridgeISP", "region": "Northeast", "ops_lead": "Dana Kline", "email": "dana.kline@skybridge.example.com"},
+  {"isp": "MetroFiber", "region": "Southeast", "ops_lead": "Alicia Gomez", "email": "alicia.gomez@metrofiber.example.com"},
+  {"isp": "MetroFiber", "region": "Northwest", "ops_lead": "Ben Howard", "email": "ben.howard@metrofiber.example.com"}
+]

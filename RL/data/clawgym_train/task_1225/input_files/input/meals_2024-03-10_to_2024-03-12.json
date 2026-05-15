@@ -1,0 +1,76 @@
+{
+  "days": [
+    {
+      "date": "2024-03-10",
+      "meals": [
+        {
+          "type": "Breakfast",
+          "time": "08:00",
+          "items": ["Oats 80g", "Banana", "Almond milk 200ml"]
+        },
+        {
+          "type": "Lunch",
+          "time": "13:00",
+          "items": ["Chicken breast 150g", "Mixed greens 100g", "Olive oil 15ml"]
+        },
+        {
+          "type": "Dinner",
+          "time": "19:30",
+          "items": ["Salmon 200g", "Broccoli 150g"]
+        },
+        {
+          "type": "Snacks",
+          "items": ["Apple", "Greek yogurt 150g"]
+        }
+      ]
+    },
+    {
+      "date": "2024-03-11",
+      "meals": [
+        {
+          "type": "Breakfast",
+          "time": "08:15",
+          "items": ["Greek yogurt 150g", "Walnut 30g"]
+        },
+        {
+          "type": "Lunch",
+          "time": "12:45",
+          "items": ["Spinach 100g", "Egg", "Rice 100g cooked", "Olive oil 15ml"]
+        },
+        {
+          "type": "Dinner",
+          "time": "19:15",
+          "items": ["Chicken breast 150g", "Mixed greens 100g", "Orange 1 medium"]
+        },
+        {
+          "type": "Snacks",
+          "items": ["Apple"]
+        }
+      ]
+    },
+    {
+      "date": "2024-03-12",
+      "meals": [
+        {
+          "type": "Breakfast",
+          "time": "07:30",
+          "items": ["Greek yogurt 150g", "Banana"]
+        },
+        {
+          "type": "Lunch",
+          "time": "13:00",
+          "items": ["Sardines 100g", "Rice 100g cooked", "Broccoli 150g"]
+        },
+        {
+          "type": "Dinner",
+          "time": "19:00",
+          "items": ["Chicken breast 150g", "Mixed greens 100g", "Olive oil 15ml"]
+        },
+        {
+          "type": "Snacks",
+          "items": ["Orange 1 medium", "Walnut 30g"]
+        }
+      ]
+    }
+  ]
+}

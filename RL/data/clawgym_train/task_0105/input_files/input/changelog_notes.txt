@@ -1,0 +1,6 @@
+btw we updated geometry options (kinda messy); please fix margins?
+hyperref had weird breakage last week; links sometimes not coloured; we hacked it
+siunitx usage: folks keep writing degrees incorrectly; need doc note to clarify
+biblatex upgrade 3.19 -> 3.20, some breaking changes in biber mapping; perf improved a lil
+note: prefer colourlinks=false for printing? maybe; ask team
+cleanup: many warnings during compile; see log; but it’s fine

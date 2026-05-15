@@ -1,0 +1,4 @@
+schedule:
+  frequency: daily
+  time: "09:00"
+  timezone: local

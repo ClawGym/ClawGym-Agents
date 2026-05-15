@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0173",
+  "user_query": "I need a small reproducible QGIS CLI workflow using the files under input/. Please do all processing with qgis_process and write all artifacts under output/.\n\nFiles to read from input/:\n- boundary.json: a GeoJSON FeatureCollection with one polygon boundary in EPSG:4326\n- roads.json: a GeoJSON FeatureCollection of line features in EPSG:4326\n- sites.json: a GeoJSON FeatureCollection of point features in EPSG:4326 with a \"type\" attribute (e.g., \"A\", \"B\")\n\nTask:\n1) Inspect available algorithms and parameters you plan to use, then reproject all three input layers to EPSG:3857 (so buffers are in meters).\n2) Buffer the reprojected sites by 250 meters. Dissolve the buffers by the \"type\" attribute so the result has one dissolved feature per distinct type.\n3) Clip the reprojected roads to the reprojected boundary.\n4) From the clipped roads, keep only those that intersect the dissolved 250 m site buffers (extract by location/intersects).\n5) Write the following outputs in GeoJSON format to these exact paths:\n   - output/sites_buffer_250m_dissolved.json (dissolved buffers by type, in EPSG:3857)\n   - output/roads_within_250m.json (only roads intersecting the dissolved buffers, in EPSG:3857)\n6) Create a machine-readable summary file at output/processing_report.json with this structure:\n   {\n     \"target_crs\": \"EPSG:3857\",\n     \"sites_buffer_dissolved_count\": <integer>,\n     \"roads_within_250m_count\": <integer>\n   }\n   The counts must reflect the number of features in the two GeoJSON outputs.\n\nNotes:\n- Use EPSG:3857 as the working CRS for buffering and overlay operations.\n- Do not overwrite inputs. Write only to the exact output/ paths above.\n- Ensure the GeoJSON coordinates in the outputs reflect EPSG:3857 (meter units).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,73 @@
+pragma solidity ^0.8.0;
+
+// Simplified example contract for security auditing purposes only.
+// Contains intentional flaws for demonstration.
+
+contract Vault {
+    address public owner;
+    mapping(address => uint256) public balances;
+    bool public paused;
+
+    constructor() {
+        // Vulnerability: using tx.origin for ownership can be phished via proxy contracts.
+        owner = tx.origin;
+    }
+
+    // Accept ETH deposits
+    function deposit() public payable {
+        // Potential arithmetic issues if compiled with <0.8.0; also no event emitted.
+        balances[msg.sender] += msg.value;
+    }
+
+    // Withdraw ETH
+    function withdraw(uint256 amount) public {
+        require(!paused, "paused");
+        require(balances[msg.sender] >= amount, "insufficient");
+
+        // Vulnerability: external call before state update (reentrancy risk).
+        (bool ok, ) = msg.sender.call{value: amount}("");
+        require(ok, "transfer failed");
+
+        // State updated after external call: typical reentrancy pattern.
+        balances[msg.sender] -= amount;
+    }
+
+    // Sweep funds (owner-only) - but using transfer without checks of contract balance
+    function sweep(address payable to, uint256 amount) public {
+        require(msg.sender == owner, "not owner");
+        to.transfer(amount); // Can revert unexpectedly due to 2300 gas stipend; no balance checks.
+    }
+
+    // Pause/unpause contract - Missing access control (anyone can pause or unpause)
+    function setPaused(bool p) public {
+        paused = p; // No onlyOwner guard
+    }
+
+    // Destructive function enabled for owner
+    function kill() public {
+        if (msg.sender == owner) {
+            selfdestruct(payable(owner)); // Permanent loss of funds if misused.
+        }
+    }
+
+    // Donation endpoint with missing accounting
+    function donate(address to) public payable {
+        // Missing accounting for msg.value; funds get stuck in contract balance.
+        // Also no event logged.
+    }
+
+    // Change owner guarded by tx.origin (vulnerable)
+    function changeOwner(address newOwner) public {
+        require(tx.origin == owner, "not owner"); // Vulnerable to phishing via intermediary calls.
+        owner = newOwner;
+    }
+
+    // Insecure lottery using predictable randomness
+    function lottery() public returns (uint256) {
+        // Vulnerability: blockhash and block.number are miner-influenced and predictable.
+        return uint256(blockhash(block.number - 1)) % 100;
+    }
+
+    // Fallback to receive ETH
+    receive() external payable {}
+}

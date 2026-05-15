@@ -1,0 +1,9 @@
+timestamp_start,duration_min,service,severity_user_impact,impact_summary,cause,detected_by,notes
+2026-04-25T09:12:00Z,35,postgres-payments,High,Write stalls causing payment retries and failures,Disk usage reached 95% leading to IO throttling,Internal metrics,Freed space and expanded volume
+2026-04-12T18:05:00Z,10,payments,High,Checkout errors spiked to ~3% immediately after deploy,Regression in error handling after release,Canary check,Rollback resolved
+2026-03-21T13:40:00Z,70,orders,Medium,Order processing delayed; queue backlog grew 5x,Insufficient worker capacity during traffic spike,On-call page,Scaled workers and adjusted batch size
+2026-03-04T07:22:00Z,47,payments,High,5xx error rate peaked around 12%; purchases failing,DB connection pool exhaustion,User reports + on-call,Increased pool and optimized queries
+2026-02-28T22:10:00Z,12,redis-auth,Medium,Intermittent login failures,Out-of-memory eviction of critical keys,Internal metrics,Increased memory and tuned eviction policy
+2026-02-15T15:30:00Z,25,auth,Medium,Login latency p95 > 1.2s causing slow sign-ins,Cache miss storm on token validation,On-call page,Added caching and warmed keys
+2026-01-10T11:05:00Z,18,api-gateway,Medium,HTTP 502 from upstream orders endpoint,Upstream dependency timeout propagation,Synthetic checks,Added timeouts and retries
+2025-12-05T03:00:00Z,65,web-frontend,Low,Homepage unavailable over HTTPS for some users,Expired TLS certificate,User reports,Renewed certificate and added expiry monitoring

@@ -1,0 +1,39 @@
+Weekly Client-Reporting Use Case
+
+Context
+- We produce a Monday-morning performance report for each client summarizing last week’s KPIs, notable changes, risks, and next steps.
+- Audience: client executives (C-suite/VP) and account managers.
+- Sources: analytics exports (ads/web), CRM snapshots, campaign change logs, internal notes.
+
+Goals
+- Accuracy first: numbers and deltas must match source exports.
+- Clear narrative: executive-ready summary (8–12 sentences) with crisp chart annotations and concrete recommendations.
+- Consistency: stable tone across clients; reuse a standard structure (Overview → Key Movements → Risks/Opportunities → Next Steps).
+- Turnaround: end-to-end per client within 3 hours; all reports delivered by Monday 9:00 AM local time.
+
+Constraints & Budget
+- PII: raw CRM data and some analytics exports contain names, emails, and phone numbers. Any task that touches raw PII must run on a local/on‑prem model only. No cloud logging or training on our data.
+- Budget: keep routine steps on low cost_score models; reserve high cost_score and high power_score models for analysis-heavy sections only when warranted.
+- Practical targets:
+  - Default for low/medium complexity: models with cost_score ≤ 2.
+  - Allow up to cost_score 6–7 for at most two high-impact steps per client (deep analysis, risk/opportunity synthesis).
+  - Weekly cost control: stay within a combined cost_score envelope of ~24 across the workflow per client.
+
+Quality Bar
+- Every numeric claim must be checked against the exports (add a dedicated fact-check step).
+- Use a compact evaluation rubric with weighted criteria: factual accuracy, relevance to client goals, clarity, actionability, and tone alignment.
+- Keep auditability: save the prompt, sources used, and a short reasoning note per section.
+
+Workflow Overview (desired)
+1) Collect KPIs from exports (PII present) → local model assists with parsing/structuring only.
+2) First narrative draft (no PII) → economical general model for a clean first pass.
+3) Deeper risk/opportunity analysis (no PII) → escalate to a stronger reasoning model if trends are ambiguous or high-impact.
+4) Chart text and headlines (no PII) → lightweight model.
+5) Fact-check numbers (PII present) → local model verifies against exports.
+6) Client email draft (no PII) → economical writing-focused model; final human pass.
+
+Success Criteria
+- Numbers correct and reconciled; trends interpreted with appropriate caution.
+- Recommendations specific, measurable, and tied to observed drivers.
+- Tone: concise, executive-friendly, and consistent with our brand voice.
+- Delivery on time within budget envelope.

@@ -1,0 +1,29 @@
+Product kickoff – “Atlas”
+Mon 5/5? (calendar said 5/6 but ppl said “today’s Monday”…)
+Attendees: Maya (PM), Leo (Eng Lead), Priya (Design), Sam (Data), Nina (Finance), Omar (Sales) — late join 9:12
+
+[9:03] Warm-up: chatter about last sprint. Maya: “Let’s get started.”
+- Project scope: Atlas mobile onboarding revamp. Goal: drop time-to-first-action by ~30%.
+- Decision? To sunset legacy “Guided Tour v1” (design debt). Priya + Leo agree. Nina: “OK as long as cost to remove is within this quarter’s budget.”
+- Data dependency: need baseline funnel numbers (signups → verified → first action). Sam has partial, needs to backfill last 2 weeks.
+
+Action items (tentative):
+  * Priya: update onboarding flow wireframes → EOD Wed
+  * Leo: spike on feature flag rollout, estimate eng effort → by Fri 5/9 (or 5/10? he said “this Friday”)
+  * Sam: provide funnel baseline and a 6-week tracking dashboard → next Mon
+  * Maya to draft comms for deprecating Guided Tour v1 → maybe by 5/12? (TBD, depends on finance sign-off)
+  * Nina: confirm budget cap for Q2 workstream → “I’ll send by COB tomorrow”
+  * Omar wants customer list for early beta; who owns? (debate: sales vs PMM)
+
+- Risk: vendor SDK for analytics flaky on Android 14 beta; Priya saw missing events in Figma prototype review (unclear if instrumentation or preview issue).
+- Decision: Use feature flags for gradual rollout (start with 10% of new users).
+- Parking lot: customer success training materials (later), PMM involvement (who?), translation coverage.
+
+[9:28] Timeline talk:
+- Target pilot: week of 5/19.
+- Go/no-go meeting “midweek that week”.
+- Leo: “We’ll need a back-end endpoint tweak for referral codes; small.”
+
+Misc:
+- Nina asked: “Do we really need in-app tutorial video?” Unclear. To validate with 5 users.
+- Participants used “Fri”, “EOD Wed”, “next Mon” loosely.

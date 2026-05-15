@@ -1,0 +1,33 @@
+{
+  "repository": "acme/gizmos",
+  "total_count": 3,
+  "artifacts": [
+    {
+      "id": 2001,
+      "name": "dist-zip",
+      "size_in_bytes": 996147200,
+      "expired": false,
+      "expires_at": "2030-05-01T00:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/gizmos/actions/artifacts/2001/zip",
+      "workflow_run": { "id": 2101 }
+    },
+    {
+      "id": 2002,
+      "name": "dist-zip",
+      "size_in_bytes": 964689920,
+      "expired": false,
+      "expires_at": "2030-05-02T00:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/gizmos/actions/artifacts/2002/zip",
+      "workflow_run": { "id": 2102 }
+    },
+    {
+      "id": 2003,
+      "name": "build-cache",
+      "size_in_bytes": 188743680,
+      "expired": false,
+      "expires_at": "2030-05-03T00:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/gizmos/actions/artifacts/2003/zip",
+      "workflow_run": { "id": 2103 }
+    }
+  ]
+}

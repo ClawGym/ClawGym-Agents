@@ -1,0 +1,10 @@
+supplier_id,supplier_name,species,region,price_per_kg,sustainability_score,certification
+1,BlueOcean Co,Atlantic Salmon,Norway,11.5,88,MSC
+2,Fjord Harvest,Atlantic Salmon,Norway,10.8,82,ASC
+3,Pacific Source,Pacific Cod,USA,8.2,91,MSC
+4,GreenSea,Pacific Cod,Canada,7.9,76,MSC
+5,Shellfish Farms,Blue Mussels,USA,4.5,85,MSC
+6,Trout Valley,Rainbow Trout,Chile,9.0,79,ASC
+7,Scallop Bay,Sea Scallops,USA,14.0,84,MSC
+8,OceanLine,Atlantic Salmon,Scotland,12.1,90,None
+9,Northern Nets,Pacific Cod,USA,8.5,83,ASC

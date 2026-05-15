@@ -1,0 +1,11 @@
+{
+  "global": {
+    "navigation-block-readme.sh": "pass",
+    "roadmap-tasks.sh": "fail",
+    "semver-changelog.sh": "pass"
+  },
+  "local": {
+    "semver-changelog.sh": "pass",
+    "pre-merge-tasks.sh": "pass"
+  }
+}

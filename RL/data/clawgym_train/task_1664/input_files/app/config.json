@@ -1,0 +1,6 @@
+{
+  "data_dir": "sensors",
+  "sensor_poll_interval_ms": "50ms",
+  "max_hr_threshold": 190,
+  "log_level": "INFO"
+}

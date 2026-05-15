@@ -1,0 +1,180 @@
+version: 1.0
+name: Weekly Image Sort & Rename
+description: >
+  A small weekly macOS task that collects the currently selected Finder items,
+  filters to images matching a naming pattern, renames them with an ISO date suffix
+  and sequence to avoid collisions, then moves them into a user-specified target
+  folder. Designed for safe, bounded runs with reversible effects.
+
+schedule:
+  cadence: weekly
+  trigger: user-initiated (run manually with a bounded selection)
+  max_items: 100   # hard cap; do not process more than this per run
+
+required_actions:
+  - Get Selected Finder Items
+  - Filter Finder Items
+  - Rename Finder Items
+  - Move Finder Items
+
+variables:
+  TargetFolder:
+    type: posix-path
+    required: true
+    description: Destination folder for moved, renamed files. Must be provided by the user.
+    examples:
+      - $HOME/Documents/Weekly-Images
+      - $HOME/Desktop/Weekly/Staging
+    validation:
+      - must_not_be_empty: true
+      - must_be_folder_like: true
+      - allow_relative: false
+    notes: >
+      Do not hardcode machine-specific absolute paths in the AppleScript. Keep this as a
+      variable that can be set in-script from a placeholder or passed at runtime when using
+      the Automator CLI (-D TargetFolder="/path") if the workflow is saved.
+  DateFormat:
+    type: string
+    default: YYYY-MM-DD
+    description: Date format for the rename action when adding the date suffix.
+  NameSeparator:
+    type: string
+    default: " "
+    description: Separator between the original name and the appended date/sequence.
+  SequenceStart:
+    type: integer
+    default: 1
+    description: Starting index for sequence when renaming (to ensure uniqueness).
+
+filters:
+  - field: Kind
+    operator: is
+    value: Image
+  - field: Name
+    operator: matches_any
+    value:
+      - prefix: "Weekly_"
+      - contains: "report"
+    case_sensitive: false
+
+rename_policy:
+  mode: Add Date or Time
+  where: After name
+  date_format: ${DateFormat}      # should resolve to YYYY-MM-DD by default
+  separator: ${NameSeparator}     # " "
+  also_make_sequential: true      # ensure uniqueness
+  sequence:
+    start_at: ${SequenceStart}
+    pad_to: 2                     # e.g., 01, 02, ...
+    place: After date
+  example_result: original-name 2026-04-19 01.png
+
+move_policy:
+  destination: ${TargetFolder}
+  replace_existing: false
+  create_missing_destination: false
+  notes: >
+    Do not overwrite existing files. If a name collision somehow occurs, the rename step
+    should already prevent that by adding a sequence. If Automator exposes a "replace existing"
+    toggle, ensure it is off.
+
+safety:
+  class: Reversible write
+  destructive_operations: false
+  guardrails:
+    - confirm bounded selection (<= max_items)
+    - no deletes or overwrites
+    - run with verbose logging on first execution
+    - parameterize TargetFolder; never hardcode machine-specific paths
+    - prefer a staging folder for initial runs
+  two_step_confirmation_required_when:
+    - replace_existing_toggle_on
+    - any delete/cleanup steps are added in the future
+  two_step_confirmation_wording:
+    - "This run will rename and move selected image files into the specified TargetFolder. Confirm this exact target."
+    - "Final check: proceed with execution now?"
+
+post_run_verification:
+  - Verify the number of processed files equals the count of filtered items.
+  - Check that each target file name includes the date suffix and (if applicable) a sequence number.
+  - Confirm files exist in TargetFolder and were removed from their original location due to the move.
+  - Spot-check 1–2 files to ensure image integrity (open and preview).
+  - If any mismatch, stop and review verbose output before retrying.
+
+apple_script_requirements:
+  notes: >
+    The AppleScript should construct the workflow step-by-step. It must:
+      - tell application "Automator"
+      - make new workflow and assign it to a variable (e.g., wf)
+      - add each action by its exact name one at a time in this order:
+          1) Get Selected Finder Items
+          2) Filter Finder Items
+          3) Rename Finder Items
+          4) Move Finder Items
+      - set parameters on each action according to this spec (use readable comments).
+      - avoid hardcoding absolute paths; use a TargetFolder variable or placeholder string.
+      - finish with execute wf and return the execution result if available.
+  parameter_hints:
+    Filter Finder Items:
+      - Configure criteria per the "filters" section.
+      - Use AND between "Kind is Image" and the (Name prefix OR Name contains) logic.
+    Rename Finder Items:
+      - Use the "Add Date or Time" mode with ISO date, placed after the name, with the configured separator.
+      - Enable or emulate "Make Sequential" starting at SequenceStart, padded to 2 digits and placed after the date.
+    Move Finder Items:
+      - Set destination to the TargetFolder variable.
+      - Ensure "replace existing" is false.
+  non_goals:
+    - Do not add delete, trash, or overwrite behavior.
+    - Do not require Shortcuts; use Automator only.
+
+execution_guidance:
+  interface: automator-cli-or-applescript
+  examples:
+    - description: If saved as a .workflow and run via CLI
+      command: automator -v -D TargetFolder="$HOME/Documents/Weekly-Images" "/absolute/path/to/Weekly-Image-Workflow.workflow"
+    - description: If executing the AppleScript directly (no hardcoded paths inside)
+      command: osascript ./output/workflow.applescript.txt
+
+test_input_guidance:
+  file: output/test_input.txt
+  lines: 3-5
+  example_lines:
+    - Weekly_report_image_01.png
+    - weekly_capture_report.png
+    - misc_report_graph.jpg
+    - Weekly_photo.png
+  notes: >
+    These are example filenames only to illustrate filter matching and rename outcomes.
+    They are not absolute paths and are safe/non-destructive examples.
+
+validation_expectations:
+  actions:
+    - Get Selected Finder Items
+    - Filter Finder Items
+    - Rename Finder Items
+    - Move Finder Items
+  json_output: output/validation.json
+  notes:
+    - Indicate for each action whether it appears in the AppleScript (true/false).
+    - Include brief notes on parameters (date format, sequence, replace_existing=false, TargetFolder parameterization).
+
+runbook_requirements:
+  file: output/runbook.md
+  must_include:
+    - Pre-run checklist
+    - The exact two-step confirmation lines specified in safety.two_step_confirmation_wording
+    - Post-run verification checklist
+
+bounds_and_limits:
+  max_runtime_minutes: 5
+  max_items: 100
+  fail_fast_on:
+    - empty selection
+    - missing TargetFolder
+    - more than max_items selected
+
+remarks: >
+  Keep the AppleScript readable with brief comments next to each add and parameter
+  assignment operation. Do not execute anything in this task; only produce the artifacts
+  as files under output/ as requested in the user query.

@@ -1,0 +1,5 @@
+resource_name,category,description,hours,contact
+Writing Center,Academics,One-on-one writing tutoring for essays and research papers.,Mon–Fri 9am–5pm,writing@university.edu
+Counseling Services,Wellnes,Confidential counseling sessions for students.,Mon–Thu 8am–6pm,counseling@university.edu
+Food Pantry,Wellness,Free groceries and basic supplies for students in need.,,pantry@university.edu
+Peer Tutoring,academics,Tutoring across many subjects; booking required.,Sun–Thu 6pm–9pm,tutoring@university.edu

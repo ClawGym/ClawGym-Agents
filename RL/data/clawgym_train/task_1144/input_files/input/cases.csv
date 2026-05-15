@@ -1,0 +1,5 @@
+case_id,organ,recipient_name,surgery_date,status,labs_cleared,consent_on_file,assigned_surgeon_email,assigned_coordinator_email
+C-101,Kidney,John Doe,2026-05-03,scheduled,yes,yes,alice.smith@hospital.org,carla.nguyen@hospital.org
+C-102,Liver,Mary Roe,2026-05-02,scheduled,no,yes,bob.lee@hospital.org,diego.perez@hospital.org
+C-103,Heart,Sam Kim,2026-05-10,tentative,no,no,alice.smith@hospital.org,carla.nguyen@hospital.org
+C-104,Kidney,Ana Li,2026-04-28,scheduled,yes,no,bob.lee@hospital.org,diego.perez@hospital.org

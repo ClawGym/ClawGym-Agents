@@ -1,0 +1,43 @@
+system:
+  os_family: debian
+  requires_root: true
+  headless: true
+  use_xvfb: true
+  non_root_user: obsidian
+  allow_user_creation: true
+
+obsidian:
+  cli: official
+  wrapper_path: /usr/local/bin/obs
+  install_source: github_releases
+  config_file: ~/.config/obsidian/obsidian.json
+  permissions:
+    prefer_acls: true
+    forbid_chown: true
+  required_packages:
+    - curl
+    - xvfb
+    - acl
+    - libasound2
+
+vault:
+  path_from_input: true
+  prefer_single_vault: true
+  path_policy:
+    allow_under_root: true
+    traversal_acl_for_root: true
+
+verification:
+  commands:
+    - obs help
+    - obs vault
+    - obs daily:path
+    - obs daily:append content="skill verification"
+    - obs daily:read
+    - obs search query="skill verification"
+
+limits:
+  no_plugins: true
+  no_desktop_env_setup: true
+  minimal_permissions: true
+  ownership_change: none

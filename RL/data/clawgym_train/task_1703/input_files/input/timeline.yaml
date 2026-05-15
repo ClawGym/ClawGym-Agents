@@ -1,0 +1,12 @@
+campaign_start: 2026-05-01
+campaign_end: 2026-05-28
+channels:
+  - Instagram
+  - LinkedIn
+posting_cadence:
+  Instagram: 2
+  LinkedIn: 2
+preferred_days:
+  - Tue
+  - Thu
+internal_approval_lead_time_days: 5

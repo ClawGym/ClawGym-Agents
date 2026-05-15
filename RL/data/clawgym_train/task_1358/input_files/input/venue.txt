@@ -1,0 +1,8 @@
+NeurIPS-style methodology expectations:
+- Concise, precise, and clear prose; reduce redundancy and avoid hype.
+- Preserve all LaTeX exactly: do not alter equations, macros, citations, labels, or references.
+- Maintain non-breaking spaces before citations and references (e.g., “~\cite{…}”, “~\ref{…}”).
+- Keep citation keys and their order unchanged; do not add or remove citations.
+- Camera-ready tone is fine, but avoid self-promotional language; focus on facts.
+- Use first-person plural (“we”) sparingly and consistently; keep tense consistent (present for method, past for experiments).
+- Avoid filler phrases and overly fancy word choices; prefer simple, direct wording.

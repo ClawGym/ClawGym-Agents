@@ -17,4 +17,4 @@ We provide ClawGym-Data and ClawGym-Agents as follows:
 
 
 ## Training Code
-Please refer to [SFT](https://github.com/ClawGym/ClawGym-Agents/tree/main/SFT) and [RL](https://github.com/ClawGym/ClawGym-Agents/tree/main/RL).
+Please refer to [SFT](SFT) and [RL](RL).

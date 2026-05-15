@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0980",
+  "user_query": "You're my crypto news editor for this week. Using the provided feed and filters, produce a concise ETH/regulation-focused briefing and structured artifacts. Please do not fetch anything new; use only the files under input/.\n\nRequirements:\n1) Read input/news_feed.jsonl and input/filters.json. Apply the filters strictly. Treat tags as a match if any tag in an item intersects the filter tags. Only include items whose importance and sentiment are in the filter lists. Deduplicate strictly by title OR URL (case-insensitive) and keep the most recent by time. Sort final results by time descending.\n2) Write these files under output/ exactly as specified:\n   - output/filtered_news.jsonl: one JSON object per line with fields [time, title, source, url, importance, sentiment, tags] for the filtered, deduplicated, time-descending items.\n   - output/alert_list.txt: one line per filtered item in the same order, formatted exactly as: \"- TITLE | SOURCE | URL\".\n   - output/sources.csv: header \"source,count\" then a row for each source present in the filtered set with the count of its items.\n   - output/metadata.json: {\"generated_at\": ISO8601 UTC timestamp, \"filter_used\": (exact copy of input/filters.json), \"total_filtered\": <int>}.\n   - output/brief.md: 350-1000 words, follow editorial guidance in input/guidelines.md. Include the section headings exactly: \"Top Headlines\", \"Market Impact\", and \"Actionable Alerts\" on their own lines. Mention BTC and ETH at least once. Cite at least three distinct sources by name from the filtered items.\n3) Be rigorous: no hallucinated articles or sources. Everything must trace to input/news_feed.jsonl.\n\nDeliver all outputs under output/ with the exact filenames above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

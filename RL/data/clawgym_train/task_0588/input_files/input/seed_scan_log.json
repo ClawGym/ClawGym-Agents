@@ -1,0 +1,122 @@
+{
+  "location": {
+    "country": "AE",
+    "city": "Dubai",
+    "timezone": "Asia/Dubai"
+  },
+  "morning": {
+    "scan_time_local": "2026-03-13T07:30:00+04:00",
+    "counts": { "CRITICAL": 0, "HIGH": 1, "MEDIUM": 5 },
+    "items": [
+      {
+        "id": "wm_20260313_0635",
+        "tier": 2,
+        "level": "MEDIUM",
+        "source": "World Monitor",
+        "title": "Maritime risk level 2 (caution) in Strait of Hormuz",
+        "summary": "Advisory indicates occasional drone/boat activity near shipping lanes; no direct impact to Dubai. Monitoring ongoing.",
+        "locations": ["Strait of Hormuz"],
+        "distance_km": 150
+      },
+      {
+        "id": "liveua_20260313_0618",
+        "tier": 2,
+        "level": "MEDIUM",
+        "source": "LiveUAMap (Iran region)",
+        "title": "Reported explosion near Bandar Abbas, Iran",
+        "summary": "Local sources reported a single explosion overnight; cause unconfirmed. No spillover reported toward UAE.",
+        "locations": ["Bandar Abbas, Iran"],
+        "distance_km": 250
+      },
+      {
+        "id": "faa_notam_omdb_20260313",
+        "tier": 2,
+        "level": "MEDIUM",
+        "source": "FAA NOTAMs (DXB)",
+        "title": "OMDB 12R/30L nightly maintenance 02:00–05:00 local",
+        "summary": "Minor taxi/runway sequencing delays possible; airport operating normally.",
+        "effective_window_local": "2026-03-13T02:00:00+04:00 to 2026-03-13T05:00:00+04:00"
+      },
+      {
+        "id": "gdacs_20260313_0700",
+        "tier": 0,
+        "level": "MEDIUM",
+        "source": "GDACS",
+        "title": "Dust and strong wind advisory (Gulf of Oman)",
+        "summary": "Visibility may reduce to 3–5 km on coastal roads late evening; monitor local RTA advisories."
+      },
+      {
+        "id": "ncema_20260312_test",
+        "tier": 0,
+        "level": "MEDIUM",
+        "source": "NCEMA",
+        "title": "Routine siren test scheduled Friday 12:00",
+        "summary": "This is a test; no action needed beyond awareness."
+      },
+      {
+        "id": "reuters_20260313_0540",
+        "tier": 1,
+        "level": "HIGH",
+        "source": "Reuters (Gulf)",
+        "title": "Houthi drones intercepted over the Red Sea; no effect on UAE airspace",
+        "summary": "Regional air defense activity noted; airlines report schedules to/from DXB remain normal."
+      }
+    ],
+    "notes": "No direct or imminent threats to Dubai identified in this scan window."
+  },
+  "evening": {
+    "scan_time_local": "2026-03-13T19:30:00+04:00",
+    "counts": { "CRITICAL": 0, "HIGH": 1, "MEDIUM": 6 },
+    "items": [
+      {
+        "id": "wm_20260313_1850",
+        "tier": 2,
+        "level": "MEDIUM",
+        "source": "World Monitor",
+        "title": "Maritime advisory unchanged (level 2) for Strait of Hormuz",
+        "summary": "Caution remains in place; shipping traffic normal."
+      },
+      {
+        "id": "rta_20260313_1830",
+        "tier": 0,
+        "level": "MEDIUM",
+        "source": "Dubai RTA (public advisory)",
+        "title": "Low visibility pockets due to dust on E11 and E311",
+        "summary": "Drive with headlights on; maintain safe distance; expect slower traffic."
+      },
+      {
+        "id": "dxb_ops_20260313_1800",
+        "tier": 2,
+        "level": "MEDIUM",
+        "source": "Airport Operations (public NOTAM summary)",
+        "title": "Runway maintenance completed on schedule",
+        "summary": "No significant delays; throughput normal for evening peak."
+      },
+      {
+        "id": "liveua_20260313_1745",
+        "tier": 2,
+        "level": "MEDIUM",
+        "source": "LiveUAMap (Iran region)",
+        "title": "Isolated air defense activity reported in southwestern Iran",
+        "summary": "No spillover or warnings for UAE."
+      },
+      {
+        "id": "uk_fcdo_uae_20260313",
+        "tier": 0,
+        "level": "MEDIUM",
+        "source": "UK FCDO UAE",
+        "title": "Travel advice unchanged",
+        "summary": "Remain aware of regional developments; follow local authority instructions."
+      },
+      {
+        "id": "reuters_20260313_1710",
+        "tier": 1,
+        "level": "HIGH",
+        "source": "Reuters (Gulf)",
+        "title": "Regional shipping reports brief precautionary reroutings",
+        "summary": "No direct impact to UAE ports reported; Jebel Ali operations normal."
+      }
+    ],
+    "notes": "Status steady; situational awareness recommended. No NCEMA emergency instructions issued for Dubai."
+  }
+}

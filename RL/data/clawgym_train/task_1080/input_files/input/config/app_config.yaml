@@ -1,0 +1,5 @@
+require_double_opt_in: false
+enforce_eu_age_limit: false
+retention_days_unengaged: 730
+unsubscribe_url: "/unsubscribe"
+log_ip: true

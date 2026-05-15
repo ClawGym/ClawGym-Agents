@@ -1,0 +1,15 @@
+url: https://learnathome.example
+permalink: /:year/:month/:day/:title/
+allowed_categories:
+  - co-op
+  - curriculum
+  - field-trips
+  - organization
+allowed_tags:
+  - planning
+  - schedules
+  - resources
+  - volunteer
+  - budgeting
+  - STEM
+  - language-arts

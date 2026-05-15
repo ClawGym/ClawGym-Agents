@@ -1,0 +1,10 @@
+{
+  "claude-haiku-4-5-20251001": {
+    "input_cost_per_1M": 0.8,
+    "output_cost_per_1M": 4.0
+  },
+  "claude-sonnet-4-6": {
+    "input_cost_per_1M": 3.0,
+    "output_cost_per_1M": 15.0
+  }
+}

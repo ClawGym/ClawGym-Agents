@@ -1,0 +1,6 @@
+Source,Type,Resolution,FrameRate,Transport,BitDepth,Chroma,Count,RecordingCodecPreference,LiveEncodingPreference
+CamA,Camera,3840x2160,60,NDI,10,4:2:2,1,ProRes,HEVC
+CamB,Camera,1920x1080,60,NDI,8,4:2:2,2,ProRes,H264
+Graphics1,Graphics,1920x1080,60,NDI,8,4:4:4,1,ProRes,H264
+RemoteGuest1,Remote,1920x1080,30,RTMP,8,4:2:0,1,H264,H264
+Playback1,Playback,1920x1080,60,SDI,10,4:2:2,1,ProRes,HEVC

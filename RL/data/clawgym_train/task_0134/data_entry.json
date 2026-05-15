@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0134",
+  "user_query": "I want to test a local personality swap using the SOUL.md I provided. Read input/SOUL.md (its declared name is \"The Friendly Curator\") and do the following:\n\n1) Do a dry-run preview of possessing that exact file and write a short plain-text summary to output/preview.txt. The summary must include the words \"dry-run\" and the literal path \"input/SOUL.md\".\n\n2) Actually possess that SOUL.md. Then write a machine-readable status file to output/status.json with these fields exactly:\n- active_name (string) — set this to \"The Friendly Curator\"\n- source (string) — must be \"local\"\n- soul_path (string) — must be \"input/SOUL.md\"\n- possessed (boolean) — must be true\n\n3) Write the list of locally cached souls (one per line) to output/cached.txt. Ensure this file contains either the active name or the path so it’s clear the possessed soul is present.\n\n4) Immediately restore your original personality (exorcise). After restoring, write output/post_exorcise.json with these fields:\n- possessed (boolean) — must be false\n- previous_active (string) — set to \"The Friendly Curator\"\n\nOnly write these four files under output/ and nothing else.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

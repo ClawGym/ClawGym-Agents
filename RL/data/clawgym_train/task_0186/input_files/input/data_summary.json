@@ -1,0 +1,91 @@
+{
+  "date": "2026-06-15",
+  "company": "AcmeFlow",
+  "product": "Workflow automation SaaS",
+  "metrics": {
+    "arr": 24300000,
+    "mrr": 2025000,
+    "gross_margin": 0.79,
+    "logo_churn_monthly": 0.018,
+    "net_revenue_retention": 1.12,
+    "avg_acv": 38000,
+    "sales_cycle_days": 54,
+    "win_rate": 0.31,
+    "discount_rate_mean": 0.18,
+    "segment_mix": {
+      "enterprise": 0.55,
+      "mid_market": 0.35,
+      "smb": 0.10
+    },
+    "billing_mix": {
+      "annual": 0.62,
+      "quarterly": 0.20,
+      "monthly": 0.18
+    },
+    "seat_utilization": {
+      "mean": 0.62,
+      "p90": 0.88,
+      "avg_seats_per_account": 44
+    },
+    "usage": {
+      "automations_run_monthly_per_account_median": 12000,
+      "automations_run_monthly_per_account_p90": 120000,
+      "api_calls_monthly_per_account_median": 95000,
+      "storage_gb_median": 30,
+      "usage_to_outcome_correlation": 0.68,
+      "top_10_percent_usage_share": 0.56,
+      "seasonality_q3_vs_q2": 0.06
+    },
+    "unit_costs": {
+      "infra_cost_per_1k_runs_usd": 2.10,
+      "support_cost_per_1k_runs_usd": 1.65,
+      "variable_cost_per_1k_runs_usd": 3.75
+    }
+  },
+  "pricing": {
+    "current_seat_tiers": [
+      {
+        "name": "Basic",
+        "price_per_seat_usd": 25,
+        "notes": "Core features, limited automation rate"
+      },
+      {
+        "name": "Pro",
+        "price_per_seat_usd": 45,
+        "notes": "Advanced features and integrations"
+      },
+      {
+        "name": "Enterprise",
+        "price_per_seat_usd": 85,
+        "notes": "SAML/SSO, audit, premium support"
+      }
+    ],
+    "usage_overage_today": "none",
+    "discounting_practice": "deal-by-deal with floor guidance"
+  },
+  "billing_system": {
+    "supports_meters": [
+      "automations_run",
+      "api_calls"
+    ],
+    "plan_level_meters_only": true,
+    "per_user_metering": false,
+    "proration_limitations": "no mid-cycle proration for meter changes until 2026-11",
+    "feature_flags_ready": true,
+    "data_latency_minutes": 15,
+    "data_accuracy_estimate": 0.98
+  },
+  "q3_timeline": {
+    "july": "Closed beta with 20 opt-in accounts",
+    "august": "Public beta for new self-serve signups; no migrations",
+    "september": "Opt-in migrations for SMB/MM at renewal; enterprise remain renewal-bound"
+  },
+  "risk_guardrails": {
+    "churn_increase_limit_abs": 0.01,
+    "gross_margin_floor": 0.78,
+    "sales_velocity_impact_limit_rel": 0.10
+  },
+  "legal_commercial": {
+    "require_60_day_notice": true
+  }
+}

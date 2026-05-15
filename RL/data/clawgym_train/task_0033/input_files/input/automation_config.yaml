@@ -1,0 +1,8 @@
+severity_threshold: 4
+top_n: 3
+inbox_dir: input/inbox
+normalized_dir: output/normalized
+top_hazards_dir: output/top_hazards
+emails_dir: output/emails
+index_path: output/index.csv
+processed_log: output/log/processed.jsonl

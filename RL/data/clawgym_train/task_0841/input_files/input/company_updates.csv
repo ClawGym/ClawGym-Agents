@@ -1,0 +1,5 @@
+company,stage,containerization_level,orchestrator,primary_cloud,efficiency_metric_pct,scalability_note,last_updated
+NimbusPay,Series A,partial,Kubernetes (EKS),AWS,18,"Scaled checkout services to 5x during holiday without downtime",2025-03-04
+ShipRight,Seed,full,Kubernetes (AKS),Azure,24,"Autoscaling stabilized promo traffic spikes",2025-03-05
+QuantaLog,Series B,full,Kubernetes (GKE),GCP,15,"Horizontal pod autoscaling cut training queues",2025-03-03
+FieldStack,Seed,pilot,None,On-prem,0,"Pilot limited to internal tooling; planning cloud burst",2025-03-01

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "ISMS-2025-001",
+    "control_reference": "A.8.2",
+    "title": "Shared privileged accounts and incomplete PIM coverage",
+    "severity": "Major",
+    "status": "Open",
+    "description": "Six shared admin accounts identified for legacy database administration; Azure AD PIM not enforced for two Azure Subscription Owner roles. Last formal privileged access review occurred 10 months ago.",
+    "date_found": "2025-09-15",
+    "remediation_target_date": "2026-01-31",
+    "owner": "Mark Chen (Infrastructure Operations Manager)",
+    "notes": "PAM solution (CyberArk Essentials) procurement approved; rollout planned in Q1 2026."
+  },
+  {
+    "id": "ISMS-2025-002",
+    "control_reference": "A.8.15",
+    "title": "Incomplete SIEM coverage and insufficient log retention",
+    "severity": "Minor",
+    "status": "Open",
+    "description": "Two production VPCs not sending VPC Flow Logs to SIEM; application logs retained for 90 days vs policy requirement of 180 days.",
+    "date_found": "2025-11-07",
+    "remediation_target_date": "2026-02-15",
+    "owner": "Priya Nair (Security Operations Lead)",
+    "notes": "Terraform module update planned to enable flow logs and increase retention."
+  },
+  {
+    "id": "ISMS-2025-003",
+    "control_reference": "A.8.8",
+    "title": "Critical vulnerabilities exceeded remediation SLA",
+    "severity": "Minor",
+    "status": "Closed",
+    "description": "Three Linux hosts exceeded the 14-day SLA for critical CVEs in October 2025 (CVE-2025-XXXX).",
+    "date_found": "2025-10-21",
+    "remediation_target_date": "2025-12-31",
+    "owner": "Diego Alvarez (Platform Lead)",
+    "notes": "Backlog cleared by 2025-12-10; patch cadence adjusted; added escalation to weekly ops review."
+  },
+  {
+    "id": "ISMS-2025-004",
+    "control_reference": "A.5.1",
+    "title": "Policy review cycle missed by one month",
+    "severity": "Observation",
+    "status": "Closed",
+    "description": "Information Security Policy review occurred in November instead of October. No impact identified.",
+    "date_found": "2025-11-02",
+    "remediation_target_date": "2025-11-15",
+    "owner": "Hannah Lee (GRC Manager)",
+    "notes": "Calendarized to recur each November; Board notified."
+  },
+  {
+    "id": "ISMS-2025-005",
+    "control_reference": "A.8.13",
+    "title": "Gap in documented restoration tests for CI infrastructure",
+    "severity": "Observation",
+    "status": "Open",
+    "description": "No documented restoration test for GitLab runner configuration backups.",
+    "date_found": "2025-12-05",
+    "remediation_target_date": "2026-03-15",
+    "owner": "Diego Alvarez (Platform Lead)",
+    "notes": "Plan to run and document a restoration test during 2026-02 maintenance window."
+  },
+  {
+    "id": "ISMS-2025-006",
+    "control_reference": "A.6.3",
+    "title": "Training completion below target",
+    "severity": "Minor",
+    "status": "Closed",
+    "description": "Q3 2025 completion was 86% vs target 95%.",
+    "date_found": "2025-09-01",
+    "remediation_target_date": "2025-10-15",
+    "owner": "Hannah Lee (GRC Manager)",
+    "notes": "Completion reached 98% by 2025-12-05 after reminder campaign."
+  }
+]

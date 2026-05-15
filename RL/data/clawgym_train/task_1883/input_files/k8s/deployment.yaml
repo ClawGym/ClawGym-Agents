@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+spec:
+  replicas: 2
+  template:
+    spec:
+      hostNetwork: true
+      containers:
+        - name: api
+          image: mycorp/api:latest
+          securityContext:
+            runAsUser: 0
+            allowPrivilegeEscalation: true
+            readOnlyRootFilesystem: false
+          env:
+            - name: JWT_SECRET
+              value: "changeme"
+          ports:
+            - containerPort: 5000
+          # no livenessProbe/readinessProbe
+      # no resource limits

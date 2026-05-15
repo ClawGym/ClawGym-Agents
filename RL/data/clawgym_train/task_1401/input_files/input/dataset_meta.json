@@ -1,0 +1,22 @@
+{
+  "dataset_version": "2026-04-19.v1",
+  "slices": {
+    "invoice": {
+      "file": "invoices.jsonl",
+      "count": 10,
+      "description": "Candidate invoice outputs with items, tax, totals and currency symbols."
+    },
+    "im_formatting": {
+      "file": "markdown_samples.jsonl",
+      "count": 10,
+      "description": "Markdown inputs and IM-friendly outputs for compliance checks."
+    },
+    "math_slop": {
+      "file": "math_slop.jsonl",
+      "count": 10,
+      "description": "LaTeX satirical formulas for validity and trivial-identity checks."
+    }
+  },
+  "created_at": "2026-04-19T00:00:00Z",
+  "notes": "Synthetic dataset for offline evaluation of prompt swap across three slices."
+}

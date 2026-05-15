@@ -1,0 +1,118 @@
+{
+  "tenantId": "72c9f978-9c2e-42ef-8b2e-6c457be77f11",
+  "tenantName": "Nimbus Labs",
+  "generatedAt": "2026-04-10T12:34:56Z",
+  "tenantSettings": {
+    "pimEnabled": false,
+    "legacyAuthEnabled": true
+  },
+  "assignments": [
+    {
+      "principal": {
+        "type": "User",
+        "upn": "alex.mercer@nimbuslabs.dev",
+        "displayName": "Alex Mercer",
+        "mfa": {
+          "enabled": false,
+          "methods": []
+        },
+        "isGuest": false
+      },
+      "role": "Global Administrator",
+      "scope": "Tenant",
+      "assignmentType": "Permanent"
+    },
+    {
+      "principal": {
+        "type": "User",
+        "upn": "bianca.cho@nimbuslabs.dev",
+        "displayName": "Bianca Cho",
+        "mfa": {
+          "enabled": true,
+          "methods": [
+            "SMS"
+          ]
+        },
+        "isGuest": false
+      },
+      "role": "Privileged Role Administrator",
+      "scope": "Tenant",
+      "assignmentType": "Permanent"
+    },
+    {
+      "principal": {
+        "type": "User",
+        "upn": "bianca.cho@nimbuslabs.dev",
+        "displayName": "Bianca Cho",
+        "mfa": {
+          "enabled": true,
+          "methods": [
+            "SMS"
+          ]
+        },
+        "isGuest": false
+      },
+      "role": "User Administrator",
+      "scope": "Tenant",
+      "assignmentType": "Permanent"
+    },
+    {
+      "principal": {
+        "type": "Guest",
+        "upn": "dave.partner@solutionsco.com",
+        "displayName": "Dave Partner (SolutionsCo)",
+        "mfa": {
+          "enabled": false,
+          "methods": []
+        },
+        "isGuest": true
+      },
+      "role": "Application Administrator",
+      "scope": "Tenant",
+      "assignmentType": "Permanent"
+    },
+    {
+      "principal": {
+        "type": "Group",
+        "displayName": "Cloud Admins",
+        "id": "a2f0b8f1-9fe2-4a9e-9b01-2eab3e1fe2ed"
+      },
+      "role": "Owner",
+      "scope": "Subscription: DEV-Sub-01",
+      "assignmentType": "Permanent"
+    },
+    {
+      "principal": {
+        "type": "User",
+        "upn": "chris.hart@nimbuslabs.dev",
+        "displayName": "Chris Hart",
+        "mfa": {
+          "enabled": true,
+          "methods": [
+            "FIDO2"
+          ]
+        },
+        "isGuest": false
+      },
+      "role": "Owner",
+      "scope": "Subscription: DEV-Sub-01",
+      "assignmentType": "Permanent"
+    },
+    {
+      "principal": {
+        "type": "ServicePrincipal",
+        "appId": "0fef9c98-0d0a-4f4e-9302-71d475d5112a",
+        "displayName": "Automation Runner",
+        "authMethod": "client_secret",
+        "certConfigured": false,
+        "appPermissions": [
+          "Directory.ReadWrite.All",
+          "RoleManagement.ReadWrite.Directory"
+        ]
+      },
+      "role": null,
+      "scope": null,
+      "assignmentType": null
+    }
+  ]
+}

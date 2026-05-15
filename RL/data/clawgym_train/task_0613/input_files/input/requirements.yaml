@@ -1,0 +1,160 @@
+title: Study Group Algebra Logging Workflow
+version: "1.0"
+description: Standardized rules for generating clean log exports and weekly reports using the algebra CLI
+
+manual_requirements:
+  sections:
+    - Proof-of-Work
+    - Cascading Validation
+    - Completion Contract
+  must_include_examples:
+    - "algebra run"
+    - "algebra check"
+    - "algebra analyze"
+    - "algebra compare"
+    - "algebra report"
+    - "algebra export"
+  notes:
+    - The algebra CLI is a logging utility only; it does not perform computations.
+    - All examples should use plain text inputs without commas to keep CSV simple.
+
+export_requirements:
+  source_of_truth: input/seed_entries.json
+  simulate_clean_export: true
+  files:
+    - output/logs/export.json
+    - output/logs/export.csv
+    - output/logs/export.txt
+  ordering: preserve_given_order
+  timestamp_format: "YYYY-MM-DD HH:MM"
+  minimum_entries: 12
+  required_types:
+    - run
+    - check
+    - analyze
+    - compare
+    - export
+  allowed_types:
+    - run
+    - check
+    - convert
+    - analyze
+    - generate
+    - preview
+    - batch
+    - compare
+    - export
+    - config
+    - status
+    - report
+  required_keywords:
+    - quadratic
+    - linear system
+    - factor
+    - verify
+    - batch
+  csv:
+    header_exact: "type,time,value"
+    value_constraints:
+      - no_commas_in_value
+  txt:
+    group_by_type: true
+    section_header_format: "--- <type> ---"
+    line_format: "YYYY-MM-DD HH:MM|<value>"
+  json:
+    schema:
+      type: array
+      item_keys:
+        - type
+        - time
+        - value
+
+weekly_pipeline:
+  name: "seed → logs → export → summary"
+  steps:
+    - name: seed
+      input: input/seed_entries.json
+      action: Review seed entries for coverage and timestamp format
+      validation:
+        - all_required_types_present
+        - required_keywords_present
+        - timestamps_match_format
+    - name: logs
+      action: Simulate recording entries via algebra commands
+      examples:
+        - "algebra run \"simplify quadratic expression\""
+        - "algebra check \"verify result for x^2 - 4 = 0\""
+        - "algebra analyze \"factor x^2 - 9\""
+        - "algebra compare \"substitution vs elimination for linear system\""
+        - "algebra report \"weekly summary notes\""
+    - name: export
+      action: Emit synchronized artifacts in JSON CSV TXT
+      validation:
+        - count_matches_across_formats
+        - identical_ordering_across_formats
+        - csv_header_correct
+        - txt_grouping_correct
+    - name: summary
+      output: output/report/weekly_summary.md
+      contents:
+        - total_entries
+        - per_type_counts
+        - earliest_timestamp
+        - latest_timestamp
+
+cascading_validation_rules:
+  - step: "Validate input/seed_entries.json"
+    checks:
+      - schema_valid
+      - timestamps_valid
+      - required_types_present
+      - keywords_present
+    on_fail: "Fix seed entries before proceeding"
+  - step: "Generate export.json"
+    checks:
+      - schema_valid
+      - count_meets_minimum
+    on_fail: "Regenerate export.json from seed"
+  - step: "Generate export.csv"
+    checks:
+      - header_exact_match
+      - row_count_equals_json
+      - row_order_matches_json
+    on_fail: "Regenerate export.csv to mirror JSON exactly"
+  - step: "Generate export.txt"
+    checks:
+      - sections_for_all_types
+      - reconstructed_multiset_equals_json
+    on_fail: "Regenerate export.txt preserving order and grouping"
+  - step: "Produce weekly summary"
+    checks:
+      - totals_match_exports
+      - per_type_counts_match
+      - earliest_and_latest_correct
+    on_fail: "Recompute summary from canonical JSON"
+
+completion_contract:
+  done_criteria:
+    - All three export files exist at output/logs/
+    - JSON CSV TXT contain identical sets and ordering of entries
+    - Total entries >= 12 with required command coverage
+    - Weekly summary reflects exact counts and timestamps from JSON
+    - Proof-of-work ledger lists all three export files with correct entry counts
+  evidence_required:
+    - "output/logs/export.json"
+    - "output/logs/export.csv"
+    - "output/logs/export.txt"
+    - "output/report/weekly_summary.md"
+    - "output/proof_of_work.md"
+
+proof_of_work_ledger_rule:
+  format_exact: "- path: <relative-path> entries: <N>"
+  required_lines:
+    - "- path: output/logs/export.json entries: <N>"
+    - "- path: output/logs/export.csv entries: <N>"
+    - "- path: output/logs/export.txt entries: <N>"
+
+notes:
+  - Do not include commas in the value field for any entry.
+  - Preserve the order of entries exactly across JSON CSV TXT.
+  - Use only allowed command types listed above.

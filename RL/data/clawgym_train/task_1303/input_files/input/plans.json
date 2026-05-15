@@ -1,0 +1,34 @@
+[
+  {
+    "plan_id": "HMO-100",
+    "name": "Silver HMO",
+    "monthly_premium_employee": 420.0,
+    "employer_share_percent": 60,
+    "deductible": 2000,
+    "network_size": 1500
+  },
+  {
+    "plan_id": "PPO-200",
+    "name": "Gold PPO",
+    "monthly_premium_employee": 560.0,
+    "employer_share_percent": 70,
+    "deductible": 1000,
+    "network_size": 2500
+  },
+  {
+    "plan_id": "EPO-150",
+    "name": "Bronze EPO",
+    "monthly_premium_employee": 350.0,
+    "employer_share_percent": 50,
+    "deductible": 4000,
+    "network_size": 1200
+  },
+  {
+    "plan_id": "HDHP-300",
+    "name": "HDHP with HSA",
+    "monthly_premium_employee": 300.0,
+    "employer_share_percent": 65,
+    "deductible": 3000,
+    "network_size": 2000
+  }
+]

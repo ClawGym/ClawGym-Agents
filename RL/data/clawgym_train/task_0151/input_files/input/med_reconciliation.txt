@@ -1,0 +1,13 @@
+Medication Reconciliation
+Date: 2026-04-10
+
+Current medications:
+- metformin 500 mg qAM (every morning) — for type 2 diabetes mellitus
+- atorvastatin 20 mg qhs (at bedtime) — for hyperlipidemia
+- lisinopril 10 mg daily — for hypertension
+
+Over-the-counter:
+- acetaminophen 500 mg prn (as needed for headache)
+
+Allergies:
+- NKDA (no known drug allergies)

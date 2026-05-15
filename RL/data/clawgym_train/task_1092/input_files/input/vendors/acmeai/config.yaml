@@ -1,0 +1,11 @@
+name: "AcmeAI"
+channels:
+  chat: true
+  email: true
+  voice: false
+languages_supported: 3
+escalation:
+  to_human: true
+  conditions:
+    - "billing"
+    - "account_lock"

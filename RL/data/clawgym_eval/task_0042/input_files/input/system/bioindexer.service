@@ -1,0 +1,16 @@
+[Unit]
+Description=BioIndexer service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/bioindexer --config /etc/bioindexer.yaml
+Restart=no
+# CPUQuota and MemoryMax can be tuned:
+# CPUQuota=50%
+# MemoryMax=512M
+User=bioindexer
+Group=bioindexer
+
+[Install]
+WantedBy=multi-user.target

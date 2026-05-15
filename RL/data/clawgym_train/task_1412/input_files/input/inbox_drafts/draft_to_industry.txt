@@ -1,0 +1,11 @@
+Subject: Quick update on modular DSP pipeline prototype
+Hello Taylor,
+
+I just wanted to send a quick note, which is maybe more detailed than necessary, to share that the modular DSP pipeline prototype is kind of working end-to-end on my machine. The filter stage is a bit configurable now, and I was thinking that the way we pass data between blocks could possibly be simplified once I get feedback. Right now, the main blockers are mostly around I/O glue and naming, and I am still putting together a short README that explains the usage.
+
+If you have time, I think a short 15-minute call could help me validate priorities before I spend a lot more time polishing. I can also send a small zip if that is preferable, but I am not sure if that is helpful. Maybe you could share any constraints I should keep in mind from your deployment side.
+
+Thanks so much and hopefully this is useful!
+
+Regards,
+Alex

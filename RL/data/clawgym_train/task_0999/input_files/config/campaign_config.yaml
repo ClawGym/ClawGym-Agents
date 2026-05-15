@@ -1,0 +1,20 @@
+constituency_name: "Rafter's constituency"
+preferred_topics:
+  - clean rivers
+  - urban trees
+  - active travel
+allowed_channels:
+  - email
+  - twitter
+  - instagram
+posting_times:
+  weekdays:
+    - "09:00"
+    - "18:00"
+planned_dates:
+  - "2026-05-01"
+  - "2026-05-03"
+  - "2026-05-05"
+  - "2026-05-07"
+  - "2026-05-09"
+notes: "Initial config; update 'featured_resource' and 'email_subject_prefix' before generating outputs."

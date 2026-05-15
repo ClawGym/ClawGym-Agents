@@ -1,0 +1,28 @@
+{"timestamp":"2026-04-10T10:05:00Z","role":"user","content":"Global preference: Indentation should be 2 spaces across projects unless otherwise specified.","scope":{"level":"global"}}
+{"timestamp":"2026-04-11T08:30:00Z","role":"user","content":"Writing guideline: For emails and docs, subject lines should be ≤50 characters.","scope":{"level":"domain","domain":"writing"}}
+{"timestamp":"2026-04-11T09:15:00Z","role":"user","content":"When listing action items, use bullet lists, not prose paragraphs.","scope":{"level":"global"}}
+{"timestamp":"2026-04-12T10:05:00Z","role":"user","content":"In JavaScript projects, prefer pnpm over npm for package management.","scope":{"level":"domain","domain":"code"}}
+{"timestamp":"2026-04-12T14:22:00Z","role":"user","content":"Correction: Your code block used 4-space indentation. Use 2 spaces globally.","scope":{"level":"global"}}
+{"timestamp":"2026-04-12T15:10:00Z","role":"user","content":"Project acme-site: always use Tailwind CSS, not Bootstrap.","scope":{"level":"project","project":"acme-site"}}
+{"timestamp":"2026-04-13T17:40:00Z","role":"user","content":"Correction (writing): The subject line was too long. Keep subject lines ≤50 characters.","scope":{"level":"domain","domain":"writing"}}
+{"timestamp":"2026-04-14T10:30:00Z","role":"user","content":"Correction (code): You used npm in the example. Please use pnpm by default.","scope":{"level":"domain","domain":"code"}}
+{"timestamp":"2026-04-14T15:15:00Z","role":"user","content":"Correction (acme-site): You added Bootstrap classes. For acme-site we use Tailwind CSS.","scope":{"level":"project","project":"acme-site"}}
+{"timestamp":"2026-04-14T16:10:00Z","role":"user","content":"Correction: Convert the action items into bullet points.","scope":{"level":"global"}}
+{"timestamp":"2026-04-15T09:20:00Z","role":"user","content":"Reminder: 2-space indentation is our global standard.","scope":{"level":"global"}}
+{"timestamp":"2026-04-15T09:21:00Z","role":"assistant","content":"Acknowledged. I will apply 2-space indentation globally unless otherwise specified."}
+{"timestamp":"2026-04-15T09:22:00Z","role":"user","content":"Yes, always — re: 2-space indentation globally.","scope":{"level":"global"}}
+{"timestamp":"2026-04-15T10:30:00Z","role":"user","content":"I accidentally pasted a test API key: sk-ABC123. Do not store credentials in memory. Please redact and forget this.","scope":{"level":"global"}}
+{"timestamp":"2026-04-15T15:00:00Z","role":"user","content":"Project acme-site only: indent with 4 spaces to match the existing codebase. This overrides the global 2-space rule.","scope":{"level":"project","project":"acme-site"}}
+{"timestamp":"2026-04-16T09:00:00Z","role":"user","content":"Let's enforce the writing rule: subject lines ≤50 chars.","scope":{"level":"domain","domain":"writing"}}
+{"timestamp":"2026-04-16T09:01:00Z","role":"user","content":"Confirm — re: subject lines ≤50 characters in the writing domain.","scope":{"level":"domain","domain":"writing"}}
+{"timestamp":"2026-04-16T15:20:00Z","role":"user","content":"Reminder for acme-site: use 4-space indentation.","scope":{"level":"project","project":"acme-site"}}
+{"timestamp":"2026-04-16T15:22:00Z","role":"user","content":"acme-site: Tailwind only. No Bootstrap.","scope":{"level":"project","project":"acme-site"}}
+{"timestamp":"2026-04-16T15:23:00Z","role":"user","content":"Yes, always — re: Tailwind-only standard for acme-site.","scope":{"level":"project","project":"acme-site"}}
+{"timestamp":"2026-04-17T13:50:00Z","role":"user","content":"Please always use bullet lists for action items rather than long paragraphs.","scope":{"level":"global"}}
+{"timestamp":"2026-04-17T13:51:00Z","role":"user","content":"Yes, always — re: bullets for action items.","scope":{"level":"global"}}
+{"timestamp":"2026-04-17T15:25:00Z","role":"user","content":"For acme-site, use 4 spaces (override global).","scope":{"level":"project","project":"acme-site"}}
+{"timestamp":"2026-04-17T15:26:00Z","role":"user","content":"Confirm — re: acme-site indentation override to 4 spaces.","scope":{"level":"project","project":"acme-site"}}
+{"timestamp":"2026-04-18T11:12:00Z","role":"user","content":"Default to pnpm for JS package management across code examples.","scope":{"level":"domain","domain":"code"}}
+{"timestamp":"2026-04-18T11:13:00Z","role":"user","content":"Confirm — re: pnpm over npm (code domain).","scope":{"level":"domain","domain":"code"}}
+{"timestamp":"2026-04-18T15:40:00Z","role":"assistant","content":"Drafted the email with a 62-character subject line. Let me know if you want changes.","scope":{"level":"domain","domain":"writing"}}
+{"timestamp":"2026-04-18T15:42:00Z","role":"user","content":"Correction: subject line must be ≤50 characters. Please shorten it.","scope":{"level":"domain","domain":"writing"}}

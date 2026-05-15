@@ -1,0 +1,5 @@
+{
+  "skvector (Qdrant)": "up",
+  "skchat daemon": "down",
+  "openclaw gateway": "up"
+}

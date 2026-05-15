@@ -1,0 +1,45 @@
+Document: SmartHome DoorSense 200 — Technical Datasheet & User Manual, Rev. 1.3
+Manufacturer: SmartHome Technologies, Inc.
+Product: SmartHome DoorSense 200
+Publication Date: March 2025
+
+1. Product Overview
+- The SmartHome DoorSense 200 is a battery-powered, Zigbee 3.0 door/window contact sensor designed to mount to a door frame using the included adhesive or screws. A companion magnet mounts to the moving door surface.
+- The device monitors door open/close status and reports state changes to a Zigbee gateway or hub.
+
+2. Mounting & Mechanical
+- "The DoorSense 200 housing is designed for surface mounting to a door frame using the provided mounting plate. The housing snaps onto the plate and is secured by a latch." (User Manual §2.1 "Mounting", p. 5)
+
+3. Magnetic Sensing Element (Open/Close Detection)
+- "A sealed reed switch inside the sensor detects the presence of the supplied magnet. Separation of the magnet from the reed switch indicates 'OPEN'; proximity indicates 'CLOSED'." (Datasheet §3.1 "Magnetic Detection", p. 7)
+- "The MCU debounces the reed input and determines state transitions from CLOSED→OPEN and OPEN→CLOSED." (Datasheet §3.2 "Signal Conditioning", p. 8)
+
+4. Microcontroller & Firmware Behavior
+- "An ultra-low-power 16-bit microcontroller continuously monitors the reed switch and tamper inputs. On a detected state change, the firmware generates an event and triggers a radio transmission." (Datasheet §4.1 "Microcontroller", p. 9)
+- "Debounce timing and transition detection are implemented in firmware." (User Manual §3.2, p. 8)
+
+5. Wireless Transceiver & Messaging
+- "Radio: Zigbee 3.0 compliant (2.4 GHz). Clusters: IAS Zone (0x0500), Power Configuration (0x0001)." (Datasheet §5.1 "Radio Specifications", p. 10)
+- "Upon door OPEN or CLOSED, the device transmits an IAS Zone Status Change Notification to the bound hub." (User Manual §4.1 "Event Reporting", p. 12)
+- "The Zone Status frame is addressed using the device’s 64-bit IEEE address (unique device identifier) and includes zone status flags indicating OPEN/CLOSED and TAMPER." (Datasheet §5.3 "IAS Zone Frames", p. 11)
+
+6. Power Source & Battery Reporting
+- "Power: One CR2450 3V lithium coin cell (user-replaceable)." (Datasheet §6.1 "Power", p. 13)
+- "The sensor periodically reports battery voltage and percentage using the Power Configuration cluster at 60-minute intervals and upon significant change (>5%)." (Datasheet §6.2 "Battery Telemetry", p. 13)
+- "Following a state change event, the device may perform a follow-up Power Configuration report depending on the reporting configuration set by the hub." (User Manual §4.2 "Battery Reporting", p. 12)
+
+7. Tamper Detection
+- "A rear-cover tamper switch is actuated when the housing is removed from the mounting plate. When triggered, the tamper bit (bit 2) is set in the IAS ZoneStatus." (Datasheet §7.1 "Tamper Switch", p. 14)
+- "Tamper alarms are sent to the hub as Zone Status Change Notifications." (User Manual §5.1 "Tamper Indication", p. 15)
+
+8. Pairing & Security
+- "During joining, the device stores Zigbee network credentials (including the network key) in non-volatile memory for authenticated communications with the hub." (User Manual §6.1 "Joining", p. 16)
+- "The device supports install code-based link key for secure initial pairing." (Datasheet §8.3 "Security Features", p. 18)
+
+9. Unique Identifier
+- "Each DoorSense 200 carries a factory-programmed 64-bit IEEE address used as its unique device identifier on the Zigbee network." (Datasheet §5.2 "Device Identifier", p. 10)
+
+Notes:
+- Event Composition: "IAS Zone Status Change Notification conveys status flags (OPEN/CLOSED, TAMPER) but battery information is provided via the Power Configuration cluster. Depending on hub configuration, a battery report may be sent shortly after a state change." (User Manual §4.2, p. 12)
+
+Source: input/evidence_SmartHome_DoorSense_200.txt (official excerpts compiled from SmartHome DoorSense 200 datasheet/user manual)

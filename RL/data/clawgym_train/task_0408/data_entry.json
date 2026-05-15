@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0408",
+  "user_query": "I need to orchestrate a small, verifiable data-to-brief workflow for an entrepreneurship policy memo. Please do the following, using only the provided local files:\n\n1) Run the aggregator to produce a summary JSON from the TSV dataset: generate data/summary.json by running the provided script over input/entrepreneurship.tsv. Use the script as-is and do not modify input files or tests.\n\n2) Validate the summary: run python tests/validate_summary.py data/summary.json. It should exit with status 0 and print \"OK\".\n\n3) Update the brief: in docs/policy_brief.md, replace the content between the markers <!-- START DATA SUMMARY --> and <!-- END DATA SUMMARY --> with a short, data-driven section that includes:\n   - One line: \"Overall average new business formation rate per 1,000 residents: {value}\" where {value} is the overall average from data/summary.json rounded to two decimals.\n   - A ranked list (three lines) of the top 3 regions by rate, in this exact format using two decimals: \n     1) RegionName: X.XX per 1,000\n     2) RegionName: X.XX per 1,000\n     3) RegionName: X.XX per 1,000\n   Keep all other parts of the brief unchanged.\n\n4) Check consistency: run python tests/check_brief_consistency.py. It should exit with status 0 and print \"CONSISTENT\".\n\nDeliverables:\n- data/summary.json created by the script.\n- The updated docs/policy_brief.md with the Data Summary section rewritten as specified.\n\nConstraints:\n- Do not change input/entrepreneurship.tsv or any files under tests/.\n- Use the provided aggregator (scripts/aggregate.py) to generate the summary; do not hardcode numbers.\n- Ensure both validation commands pass.\n All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,9 @@
+$ python naive_monitor.py --feed input/status_feed.jsonl --contacts input/county_contacts.csv
+Processing line 5 ...
+Traceback (most recent call last):
+  File "naive_monitor.py", line 27, in <module>
+    rec = json.loads(line)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 1 column 95 (char 94)
+
+Processing line 8 ...
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 1 column 111 (char 110)

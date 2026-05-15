@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0716",
+  "user_query": "Build me a \"Sector Rotation Briefing\" from the latest AI-generated multi-analyst signals for the 11 SPDR sector ETFs.\n\nRead input/config.json for the ticker list and preferences and input/style_guide.md for the required report structure.\n\nDeliverables (write all outputs to these exact paths):\n1) For each ticker in the config, save the raw sector signal JSON to output/raw/<TICKER>.json.\n2) Aggregate the results into output/sector_signals.csv with columns: ticker, sector, bullish, bearish, neutral, total_analysts, avg_confidence, prediction_accuracy, cw_bullish_score. Compute cw_bullish_score as (bullish/total_analysts) * avg_confidence, rounded to 4 decimals.\n3) Write a narrative report to output/sector_rotation_briefing.md that follows the style guide and includes:\n- Executive Summary naming the top 3 and bottom 3 sectors by cw_bullish_score,\n- Rotation Gradient overview explaining where momentum appears to be flowing,\n- Sector-by-Sector Notes citing at least one analyst perspective and one active prediction per sector when available (if missing, call it out),\n- Methodology & Limitations explaining how you obtained and evaluated the signals and what could make them unreliable,\n- Risk Disclaimer that clearly states the analysis is AI-generated and not financial advice,\n- Monitoring Plan that specifies update cadence and how to verify or challenge the signals.\n\nUse the latest available signals for all 11 sectors (XLK, XLF, XLE, XLV, XLI, XLC, XLY, XLP, XLB, XLRE, XLU). If any data fields are unavailable, do not fabricate numbers—note the gap and proceed with best-effort qualitative synthesis.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

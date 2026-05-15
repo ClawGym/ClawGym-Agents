@@ -1,0 +1,60 @@
+applicability:
+  gdpr: true
+  uk_gdpr: true
+  ccpa_cpra: true
+  hipaa: false
+  soc2:
+    type: "Type I"
+    status: "in_progress"
+    expected_audit_window_end: "2026-07-31"
+security:
+  encryption_at_rest: "AES-256"
+  encryption_in_transit: "TLS 1.2+"
+  data_regions:
+    - "us-east-1"
+    - "eu-west-2"
+  backups:
+    frequency: "daily"
+    storage: "S3 with cross-region replication"
+  access_controls:
+    - "SSO/SAML (Okta)"
+    - "MFA for admins"
+    - "Role-based access (RBAC)"
+privacy:
+  dpo:
+    name: "Eleanor Hayes"
+    role: "Fractional DPO"
+    contact: "dpo@teamlyft.com"
+  dpias:
+    - feature: "Engagement Analytics 1.3"
+      status: "complete"
+      date: "2025-11-15"
+    - feature: "HR Analytics 2.0"
+      status: "in_progress"
+      date: "2026-04-01"
+  sub_processors:
+    - name: "AWS"
+      purpose: "Hosting & storage"
+      region: "US/EU"
+    - name: "Segment"
+      purpose: "Event collection"
+      region: "US"
+    - name: "Datadog"
+      purpose: "Monitoring/observability"
+      region: "US"
+  data_retention: "Employee PII retained for 24 months after account closure; metrics retained in aggregate"
+  dsar_sla_days: 30
+insurance:
+  policies:
+    - type: "Cyber"
+      carrier: "At-Bay"
+      limit_usd: 2000000
+      effective: "2026-01-01"
+    - type: "General Liability"
+      carrier: "Travelers"
+      limit_usd: 5000000
+      effective: "2026-01-01"
+regulatory:
+  ico_registration: true
+  export_controls: "No restricted encryption exports"
+  soc2_readiness_assessor: "Strike Graph"

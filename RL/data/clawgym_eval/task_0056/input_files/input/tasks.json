@@ -1,0 +1,7 @@
+[
+  {"id": 1, "title": "Pair presentation sign-up", "due": "2024-10-15 23:59", "source": "class announcement", "tags": ["admin"]},
+  {"id": 2, "title": "Email discussion prompts", "due": "2024-10-15 18:00", "source": "class announcement", "tags": ["prep"]},
+  {"id": 3, "title": "Reflection journal #2 submission", "due": "2024-10-18 17:00", "source": "syllabus", "tags": ["writing", "graded"]},
+  {"id": 4, "title": "Bring a short theodicy quote to share", "due": "2024-10-16 18:00", "source": "study group", "tags": ["meeting"]},
+  {"id": 5, "title": "Midterm essay outline", "due": "2024-10-27 17:00", "source": "syllabus", "tags": ["writing"]}
+]

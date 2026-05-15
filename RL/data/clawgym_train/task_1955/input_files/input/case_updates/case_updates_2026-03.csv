@@ -1,0 +1,6 @@
+case_id,region,status,child_involved,category,immigration_pathway,risk_score,last_update,language,summary
+C1001,Northwest,open,TRUE,family_separation_risk,asylum,90,2026-03-28,ru,"Mother in detention; two children with temporary caregiver; coordination pending."
+C1002,Central,open,TRUE,guardianship_gap,temporary_protection,75,2026-03-26,uk,"No formal guardian assigned after relocation; school enrollment blocked."
+C1003,Northwest,closed,TRUE,housing_insecurity,asylum,70,2026-03-20,ru,"Case resolved with temporary housing voucher."
+C1004,Volga,open,FALSE,documentation,asylum,65,2026-03-18,en,"Adult single applicant; no child involved."
+C1005,Northwest,open,TRUE,language_access,temporary_protection,82,2026-03-29,ru,"Interpreter not provided at intake; confusion about obligations."

@@ -1,0 +1,19 @@
+sources:
+  - name: US Board on Geographic Names (BGN) / USGS GNIS
+    domain_pattern: usgs.gov
+    notes: Official federal gazetteer and toponym authority.
+  - name: Colorado State Archives
+    domain_pattern: archives.colorado.gov
+    notes: State archival resources; historical place-name references.
+  - name: History Colorado
+    domain_pattern: historycolorado.org
+    notes: Museum and research center; articles on Colorado place names.
+  - name: San Juan National Forest (USDA Forest Service)
+    domain_pattern: fs.usda.gov
+    notes: Official site; regional history pages and place descriptions.
+  - name: City of Durango Government
+    domain_pattern: durangogov.org
+    notes: Official city site; history pages and documents.
+  - name: La Plata County Government
+    domain_pattern: laplatacounty.gov
+    notes: Official county site; history sections and planning documents.

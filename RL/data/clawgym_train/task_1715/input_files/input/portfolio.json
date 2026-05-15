@@ -1,0 +1,19 @@
+{
+  "account_equity": 100000,
+  "current_portfolio_heat_percent": 8.0,
+  "risk_limits": {
+    "max_risk_per_trade_percent": 2.0,
+    "max_portfolio_heat_percent": 15.0,
+    "max_single_position_percent": 10.0,
+    "correlated_pair_combined_weight_limit_percent": 20.0
+  },
+  "holdings": [
+    { "ticker": "SPY", "weight_percent": 25.0, "asset_class": "etf" },
+    { "ticker": "MSFT", "weight_percent": 8.0, "asset_class": "equity" },
+    { "ticker": "TLT", "weight_percent": 12.0, "asset_class": "bond" },
+    { "ticker": "GLD", "weight_percent": 6.0, "asset_class": "commodity" },
+    { "ticker": "BTC-USD", "weight_percent": 5.0, "asset_class": "crypto" },
+    { "ticker": "CASH", "weight_percent": 44.0, "asset_class": "cash" }
+  ],
+  "notes": "Portfolio heat currently at 8.0%. New positions must keep total heat ≤ 15% and single-position weight ≤ 10%."
+}

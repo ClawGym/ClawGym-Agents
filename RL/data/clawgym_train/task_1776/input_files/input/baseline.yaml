@@ -1,0 +1,154 @@
+openapi: 3.0.3
+info:
+  title: Acme Payments API
+  version: 1.2.0
+  description: Baseline specification for Acme Payments API v1.2.0.
+servers:
+  - url: https://api.acme-payments.test
+security:
+  - bearerAuth: []
+paths:
+  /v1/transactions:
+    get:
+      summary: List transactions
+      operationId: listTransactions
+      parameters:
+        - name: limit
+          in: query
+          required: false
+          description: Maximum number of items to return (default 50, max 100)
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+        - name: startingAfter
+          in: query
+          required: false
+          description: Cursor for pagination; returns results after this ID
+          schema:
+            type: string
+      responses:
+        '200':
+          description: A list of transactions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Transaction'
+    post:
+      summary: Create a transaction
+      operationId: createTransaction
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - amount
+                - currency
+              properties:
+                amount:
+                  type: number
+                  format: decimal
+                  description: Monetary amount to charge
+                currency:
+                  type: string
+                  enum: [USD, EUR, GBP]
+                metadata:
+                  type: object
+                  additionalProperties: true
+      responses:
+        '201':
+          description: Transaction created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+        '400':
+          description: Invalid request
+  /v1/accounts/{id}:
+    get:
+      summary: Get account by ID
+      operationId: getAccount
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Account identifier
+          schema:
+            type: string
+        - name: verbose
+          in: query
+          required: false
+          description: Include extended account fields
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Account details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Account'
+        '404':
+          description: Account not found
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  schemas:
+    Transaction:
+      type: object
+      required:
+        - id
+        - amount
+        - currency
+        - status
+      properties:
+        id:
+          type: string
+          description: Unique transaction ID
+        amount:
+          type: number
+          format: decimal
+          description: Monetary amount in the smallest currency unit for precision
+        currency:
+          type: string
+          description: Three-letter ISO currency code
+          enum:
+            - USD
+            - EUR
+            - GBP
+        status:
+          type: string
+          enum:
+            - pending
+            - settled
+            - failed
+        metadata:
+          type: object
+          description: Arbitrary key-value metadata set at creation
+          additionalProperties: true
+    Account:
+      type: object
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        balances:
+          type: object
+          properties:
+            available:
+              type: number
+              format: decimal
+            ledger:
+              type: number
+              format: decimal

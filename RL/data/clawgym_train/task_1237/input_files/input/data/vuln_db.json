@@ -1,0 +1,14 @@
+{
+  "openssl": [
+    {"cve": "CVE-2021-3450", "severity": "high", "affected_versions": ["1.1.1k"], "description": "CA certificate check bypass in X509_V_FLAG_X509_STRICT."}
+  ],
+  "requests": [
+    {"cve": "CVE-2018-18074", "severity": "medium", "affected_versions": ["2.19.0"], "description": "Authorization header leakage in redirects."}
+  ],
+  "flask": [
+    {"cve": "CVE-2019-1010083", "severity": "medium", "affected_versions": ["1.0.2"], "description": "Debug mode pin vulnerability."}
+  ],
+  "paramiko": [
+    {"cve": "CVE-2018-7750", "severity": "medium", "affected_versions": ["2.4.0"], "description": "Authentication bypass with None cipher under certain conditions."}
+  ]
+}

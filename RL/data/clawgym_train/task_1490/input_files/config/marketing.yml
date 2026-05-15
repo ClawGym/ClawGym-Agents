@@ -1,0 +1,26 @@
+brand: "NAU Alumni Chapter"
+default_channel: "Twitter"
+hashtags:
+  - "#NAU"
+  - "#NAUFootball"
+  - "#Lumberjacks"
+pillars:
+  campus_spirit:
+    name: "Campus Spirit"
+    description: "Highlight on-campus energy and traditions."
+  road_warriors:
+    name: "Road Warriors"
+    description: "Support the team on away games."
+templates:
+  angle_label:
+    home: "Home Hype"
+    away: "Road Trip"
+  outline:
+    home:
+      - "Countdown to kickoff vs {opponent} at {kickoff_time} MT."
+      - "Pack the Skydome! Wear blue and gold."
+      - "Tag a friend who's coming."
+    away:
+      - "On the road to face {opponent} at {kickoff_time} MT."
+      - "Show your #LumberjackNation pride from anywhere."
+      - "Drop your score predictions."

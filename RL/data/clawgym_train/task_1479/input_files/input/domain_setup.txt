@@ -1,0 +1,55 @@
+Sending domain: mail.relayhub.io
+Parent domain: relayhub.io
+
+DNS authentication status:
+- SPF: PASS
+  Record: v=spf1 include:sendgrid.net include:mailgun.org -all
+  Alignment: Envelope-from aligned with From domain
+- DKIM: PASS
+  Selectors: s1._domainkey.mail.relayhub.io, s2._domainkey.mail.relayhub.io
+  Keys: 2048-bit RSA, rotated 2026-03-01
+- DMARC: PARTIAL
+  Record: v=DMARC1; p=none; rua=mailto:dmarc@relayhub.io; ruf=mailto:dmarc@relayhub.io; pct=100; fo=1
+  Alignment: Relaxed (aspf=r; adkim=r)
+  Gap: Policy currently p=none (monitoring only). No quarantine/reject yet.
+
+Infrastructure:
+- ESPs: Primary SendGrid, secondary Mailgun for transactional
+- IPs: Migrating to a new dedicated IP (192.0.2.45). Currently warming up from shared pool.
+- Reverse DNS: Configured for dedicated IP (mail.relayhub.io)
+- TLS: Required for outbound connections
+
+List health (last 30 days):
+- Total recipients mailed: 4,120
+- Open rate: 18.4%
+- Click rate: 1.9%
+- Bounce rate: 0.9%
+- Unsubscribe rate: 0.28%
+- Spam complaints: 0.07% (7 per 10,000 sends)
+Observations: Opens and clicks slightly below target; complaints within acceptable limits; bounces low but monitor soft bounces from microsoft365 domains.
+
+Recent deliverability signals:
+- Gmail: Stable inbox placement
+- Microsoft 365/Outlook: Some messages landing in “Other”/Focused split; minor throttling observed during spikes
+- Yahoo/AOL: Normal
+- Apple iCloud: Normal
+
+Blacklist monitoring:
+- Current status: Not listed on Spamhaus, Barracuda, SURBL, or UCEPROTECT (checked 2026-04-10)
+- Tools used: MXToolbox monitors, Google Postmaster (connected), Microsoft SNDS (connected)
+- Alerting: Email alerts to deliverability@relayhub.io for blacklist hits and complaint spikes
+
+Compliance/identity:
+- BIMI: Logo prepared, VMC not purchased (optional)
+- Physical address in footer: 200 Market St, Suite 400, San Francisco, CA 94105, USA
+- Unsubscribe: One-click header + footer link; removal processed in real time
+
+Planned changes (next 2–4 weeks):
+- DMARC raise to p=quarantine after IP warmup reaches 5k/day and complaint rate stays <0.1%
+- Enable domain alignment (strict) once historical data stabilizes
+- Roll out BIMI after VMC evaluation
+
+Risks/gaps to address:
+- DMARC enforcement currently off (p=none)
+- New dedicated IP requires disciplined IP warming ramp
+- Outlook throttling at >1k/hour bursts — need smoothing and STS ramp

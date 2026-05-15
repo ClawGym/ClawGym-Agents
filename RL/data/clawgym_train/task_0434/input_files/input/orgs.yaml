@@ -1,0 +1,17 @@
+organizations:
+  - name: Republican National Committee
+    domain: gop.com
+  - name: The Heritage Foundation
+    domain: heritage.org
+  - name: Americans for Prosperity
+    domain: americansforprosperity.org
+  - name: Cato Institute
+    domain: cato.org
+  - name: Club for Growth
+    domain: clubforgrowth.org
+  - name: The Lincoln Project
+    domain: lincolnproject.us
+  - name: National Review
+    domain: nationalreview.com
+  - name: Forward Party
+    domain: forwardparty.com

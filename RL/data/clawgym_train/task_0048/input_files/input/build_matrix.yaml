@@ -1,0 +1,4 @@
+targets:
+  - aqua_mk1
+  - aqua_mk2
+  - sim_only

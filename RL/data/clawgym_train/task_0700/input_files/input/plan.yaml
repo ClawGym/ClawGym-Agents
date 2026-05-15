@@ -1,0 +1,36 @@
+quarter: 2026-Q2
+notes: Spring into summer maintenance plan focusing on HVAC, water systems, and safety.
+
+tasks:
+  - item: Smoke Detectors
+    task: Replace all batteries and test alarms
+    dates: ["2026-04-01"]
+    remind: "3 days before"
+  - item: HVAC System
+    task: Replace return air filter (MERV 11)
+    dates: ["2026-04-05"]
+    remind: "3 days before"
+  - item: Irrigation System
+    task: Start up sprinkler system and check for leaks
+    dates: ["2026-04-15"]
+    remind: "1 week before"
+  - item: Refrigerator
+    task: Vacuum condenser coils and toe grille
+    dates: ["2026-04-20"]
+    remind: "3 days before"
+  - item: Water Heater
+    task: Flush tank and test T&P valve
+    dates: ["2026-05-04"]
+    remind: "1 week before"
+  - item: Gutters
+    task: Clean gutters and downspouts
+    dates: ["2026-05-18"]
+    remind: "1 week before"
+  - item: HVAC System
+    task: Clean outdoor condenser coils
+    dates: ["2026-06-10"]
+    remind: "1 week before"
+  - item: Sump Pump
+    task: Test pump and backup battery
+    dates: ["2026-06-25"]
+    remind: "3 days before"

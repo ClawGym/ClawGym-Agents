@@ -1,0 +1,22 @@
+watch:
+  path: "input/transcripts"
+  filename_pattern: "*.md"
+outputs:
+  base_dir: "workspace/outputs"
+  notes_filename: "meeting_notes.md"
+  actions_filename: "action_items.md"
+  journal_sanitized_dir: "workspace/outputs/clean"
+  processed_state: "input/state/processed.json"
+parse:
+  note_tag: "NOTE:"
+  action_tag: "ACTION:"
+  participants_prefix: "Participants:"
+  date_prefix: "Date:"
+redact:
+  replace_names:
+    "Dr. Patel": "my counselor"
+    "Marcus": "a fellow veteran"
+    "Camp Pendleton": "the base"
+  drop_prefixes:
+    - "PRIVATE:"
+  normalize_whitespace: true

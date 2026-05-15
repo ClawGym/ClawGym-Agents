@@ -1,0 +1,7 @@
+09-01 10:00:00.000  1234  1234 I/MainActivity: App started
+09-01 10:00:00.100  1234  1234 D/StatusNotifier: Showing toast: Build ready
+09-01 10:00:00.200  1234  1234 E/Network: Failed to resolve host
+09-01 10:00:00.250  1234  1234 I/StatusNotifier: Toast: Network error occurred
+09-01 10:00:00.300  1234  1234 W/ContextImpl: Using fallback
+09-01 10:00:00.350  1234  1234 E/Crashlytics: Non-fatal exception
+09-01 10:00:00.400  1234  1234 D/StatusNotifier: Toast shown

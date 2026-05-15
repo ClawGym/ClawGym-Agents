@@ -1,0 +1,11 @@
+{
+  "player_name": "Annu",
+  "timezone": "Asia/Kolkata",
+  "offset_minutes": 330,
+  "sleep_curfew": "23:00",
+  "morning_quest_time": "07:00",
+  "evening_report_time": "22:15",
+  "sleep_check_time": "23:45",
+  "weekly_review_day": "sunday",
+  "weekly_review_time": "10:00"
+}

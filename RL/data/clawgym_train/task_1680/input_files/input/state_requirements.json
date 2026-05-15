@@ -1,0 +1,27 @@
+{
+  "issuing_body": "Riverland State Department of Education",
+  "program_area": "Music Education (K-12)",
+  "version": "2024-02-15",
+  "min_gpa": 3.0,
+  "validity_period_years": 5,
+  "student_teaching": {
+    "required_weeks": 14,
+    "min_hours": 560
+  },
+  "background_check": ["Riverland State", "FBI"],
+  "required_exams": [
+    {"name": "Praxis Music Education", "code": "5114"},
+    {"name": "Basic Skills Test", "code": "BST"}
+  ],
+  "coursework_requirements": [
+    {"area": "Music Theory", "credits": 12},
+    {"area": "Music History", "credits": 6},
+    {"area": "Conducting", "credits": 4},
+    {"area": "Instrumental Techniques", "credits": 6},
+    {"area": "Vocal Pedagogy", "credits": 3},
+    {"area": "Education Core", "credits": 18},
+    {"area": "Special Education", "credits": 3},
+    {"area": "ESL/ELL", "credits": 3}
+  ],
+  "notes": "Coursework must include both instrumental and choral methods; piano proficiency recommended but not required."
+}

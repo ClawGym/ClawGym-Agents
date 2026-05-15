@@ -1,0 +1,9 @@
+id,claim_text,topic_hint,harm_level,source_type
+1,"Drinking herbal detox tea prevents COVID-19","detox tea prevents covid","high","ad"
+2,"Washing hands with soap helps prevent the spread of flu","hand washing prevent flu","medium","school_flyer"
+3,"Taking antibiotics can cure a cold","antibiotics cure cold","high","friend"
+4,"Getting the HPV vaccine can prevent some cancers","hpv vaccine prevent cancers","high","clinic_poster"
+5,"High-dose vitamin C will stop you from catching colds","vitamin c prevent cold","medium","social_media"
+6,"Wearing masks reduces the spread of respiratory viruses","mask reduce spread","medium","community_post"
+7,"Regular exercise lowers your risk of type 2 diabetes","exercise prevent diabetes","medium","pe_class"
+8,"Megadose vitamin D prevents all infections","vitamin d prevent infections","medium","influencer_video"

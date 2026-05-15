@@ -1,0 +1,37 @@
+{
+  "Carabus auronitens": {
+    "has_dorsal_photo": true,
+    "filename": "carabus_auronitens_dorsal_v1.jpg",
+    "dpi": 350,
+    "credit": "J. Doe",
+    "license_approved": true
+  },
+  "Bembidion lampros": {
+    "has_dorsal_photo": false,
+    "filename": "",
+    "dpi": 0,
+    "credit": "",
+    "license_approved": false
+  },
+  "Coccinella septempunctata": {
+    "has_dorsal_photo": true,
+    "filename": "c9sept_dorsal.png",
+    "dpi": 280,
+    "credit": "",
+    "license_approved": true
+  },
+  "Tenebrio molitor": {
+    "has_dorsal_photo": true,
+    "filename": "tenebrio_dorsal.tif",
+    "dpi": 600,
+    "credit": "K. Singh",
+    "license_approved": false
+  },
+  "Harmonia axyridis": {
+    "has_dorsal_photo": true,
+    "filename": "harmonia_axyridis_dorsal.jpg",
+    "dpi": 300,
+    "credit": "M. Alvarez",
+    "license_approved": true
+  }
+}

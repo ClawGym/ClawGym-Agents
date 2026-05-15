@@ -1,0 +1,4 @@
+appointment_id,consult_type,patient_full_name,patient_first_name,patient_last_name,patient_dob,provider_name,provider_initial,visit_date,visit_time,meeting_link,chief_complaint,diagnosis_code,location,phone,email
+A1001,general_med,Alex Martin,Alex,Martin,1985-07-14,Dr. Priya N.,P,2026-05-01,09:30,https://video.example/abc123,cough and fever,J00,Telemedicine,(555) 010-1111,alex.martin@example.com
+A1002,behavioral_health,Jamie Chen,Jamie,Chen,1990-11-03,Dr. Sam R.,S,2026-05-02,14:00,https://video.example/def456,stress and sleep issues,F43.0,Telemedicine,(555) 010-2222,jamie.chen@example.com
+A1003,dermatology_photo_review,Riley Patel,Riley,Patel,1979-02-20,Dr. Lee K.,L,2026-05-03,,https://video.example/ghi789,rash on arm,L20.9,Telemedicine,(555) 010-3333,riley.patel@example.com

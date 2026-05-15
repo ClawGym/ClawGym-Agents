@@ -1,0 +1,27 @@
+{
+  "metric_command": "python output/target/target.py",
+  "metric_parser": "val_bpb",
+  "minimize": true,
+  "status_values": ["keep", "discard", "crash"],
+  "verification_gates": [
+    "file_exists",
+    "syntax_check",
+    "tests_pass",
+    "lint_clean"
+  ],
+  "reputation": {
+    "range": [0.0, 1.0],
+    "suspend_threshold": 0.2
+  },
+  "tsv_header": "iteration\\tcommit\\tmetric_value\\tstatus\\thypothesis\\tduration_s\\treputation",
+  "keep_logic": "strictly_decreasing_kept_values",
+  "commit_format": "^[0-9a-f]{7,40}$",
+  "target_file": "output/target/target.py",
+  "target_expectations": {
+    "first_line_comment": "final_version_commit: <hex>",
+    "print_format": "print(\"val_bpb:\", <float>)",
+    "must_contain_literal": "metric_parser=val_bpb",
+    "exact_prints": 1
+  },
+  "notes": "All outputs are simulated and must be internally consistent. Baseline is iteration 0 with status keep and hypothesis baseline. At least six total iterations including baseline with at least one discard or crash. Among keeps, values strictly decrease because minimize=true."
+}

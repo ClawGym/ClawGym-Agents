@@ -1,0 +1,38 @@
+date: 2026-03-15
+meals:
+  - name: Breakfast
+    time: "08:00"
+    ingredients:
+      - food: Rolled oats
+        amount: 60
+        unit: g
+      - food: Whole milk
+        amount: 200
+        unit: ml
+  - name: Lunch
+    time: "13:00"
+    ingredients:
+      - food: Chicken breast
+        amount: 200
+        unit: g
+      - food: White rice (cooked)
+        amount: 200
+        unit: g
+      - food: Olive oil
+        amount: 1
+        unit: tbsp
+  - name: Dinner
+    time: "19:00"
+    ingredients:
+      - food: Chicken breast
+        amount: 150
+        unit: g
+      - food: White rice (cooked)
+        amount: 150
+        unit: g
+      - food: Broccoli (steamed)
+        amount: 150
+        unit: g
+      - food: Olive oil
+        amount: 1
+        unit: tsp

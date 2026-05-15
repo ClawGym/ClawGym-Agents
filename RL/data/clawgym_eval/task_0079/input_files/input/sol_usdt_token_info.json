@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "code": "0000",
+  "message": "OK",
+  "data": {
+    "tokenId": "224987722",
+    "chainId": 2001,
+    "contract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+    "tokenDecimal": 6,
+    "isNativeToken": 0,
+    "type": "spl-token",
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "tokenIcon": "https://static.bitmart.com/icons/usdt-sol.png",
+    "isWithdraw": 1,
+    "isDeposit": 1,
+    "status": "active",
+    "gasLimit": null,
+    "contractOwner": "",
+    "source": "verified",
+    "createdAt": "2020-09-09T00:00:00Z",
+    "createTime": 1599609600000
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "company_name": "LeaseShield",
+  "legal_name": "LeaseShield, Inc.",
+  "stage": "Seed",
+  "monthly_revenue": {
+    "current_mrr": 38000,
+    "trend_3mo": [28000, 33000, 38000]
+  },
+  "burn_rate": 52000,
+  "cash_on_hand": 420000,
+  "runway_months": 8.1,
+  "headcount": 9,
+  "key_metric": {
+    "name": "Negotiation success rate",
+    "value": "68%"
+  },
+  "secondary_metrics": {
+    "activation_to_paid_conversion": "22%",
+    "avg_savings_per_lease_usd": 612,
+    "nps": 67
+  },
+  "unit_economics": {
+    "cac_usd": 62,
+    "ltv_usd": 420,
+    "payback_months": 1.5
+  },
+  "fundraising": {
+    "ask_usd": 1200000,
+    "instrument": "Post-Money SAFE",
+    "valuation_cap_usd": 10000000,
+    "discount_percent": 20
+  },
+  "market": {
+    "tam": "US residential rental market: 44M renter households",
+    "sam": "Urban renters in top 30 MSAs: ~20M households",
+    "som": "Early adopters in 8 MSAs via partnerships and paid channels"
+  },
+  "use_of_funds": [
+    {
+      "category": "Engineering & Product",
+      "amount_usd": 420000,
+      "percent": 35,
+      "purpose": "Clause engine accuracy, landlord response classifier, mobile app"
+    },
+    {
+      "category": "Sales & Marketing",
+      "amount_usd": 480000,
+      "percent": 40,
+      "purpose": "Paid acquisition, content, renter org partnerships"
+    },
+    {
+      "category": "Operations (Concierge)",
+      "amount_usd": 180000,
+      "percent": 15,
+      "purpose": "Expand negotiator team and QA"
+    },
+    {
+      "category": "G&A / Reserve",
+      "amount_usd": 120000,
+      "percent": 10,
+      "purpose": "Legal, accounting, contingency"
+    }
+  ],
+  "team": [
+    {
+      "name": "Ava Morgan",
+      "role": "CEO",
+      "bio": "Former property manager and tenant-advocacy nonprofit lead; BA Urban Studies. Negotiated 1,000+ leases."
+    },
+    {
+      "name": "Raj Patel",
+      "role": "CTO",
+      "bio": "Ex-Google ML engineer; built contract NLP systems at a mid-market SaaS startup."
+    }
+  ],
+  "customers_and_traction": {
+    "renters_helped": 5200,
+    "cities_active": 18,
+    "partnerships": [
+      "Renter Alliance of Greater Seattle",
+      "Metro Tenant Union (pilot)"
+    ]
+  },
+  "website": "https://leaseshield.example.com",
+  "contact": {
+    "name": "Ava Morgan",
+    "email": "ava@leaseshield.example.com"
+  }
+}

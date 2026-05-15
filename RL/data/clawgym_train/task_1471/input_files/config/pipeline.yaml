@@ -1,0 +1,13 @@
+version: "1.3.0"
+release_cadence: "fortnightly on Tuesday"
+coverage_threshold: 80
+stages:
+  - build
+  - test
+  - package
+  - deploy_staging
+  - smoke_test
+  - deploy_prod
+services:
+  - kaitiaki-web
+  - hauora-api

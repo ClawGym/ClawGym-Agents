@@ -1,0 +1,8 @@
+Title: Patient engagement blog series kickoff
+Industry: Healthcare
+Content Type: Blog
+
+Overview:
+We need a blog post (first in a series) on patient engagement best practices for hospital administrators and clinicians, covering HIPAA-conscious approaches using EMR systems.
+
+Keywords: patient, engagement, hospital, HIPAA, EMR, clinicians, blog

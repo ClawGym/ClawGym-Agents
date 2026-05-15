@@ -1,0 +1,13 @@
+{
+  "name": "Alex",
+  "budget": 50,
+  "dietary_restrictions": ["vegetarian", "gluten-free"],
+  "eggs_ok": true,
+  "allergies": [],
+  "cooking_skills": ["eggs", "rice", "roasting vegetables", "simple stir-fry"],
+  "equipment": ["stove/oven", "microwave", "rice cooker", "sheet pans", "containers"],
+  "fridge_freezer_space": "medium fridge, small freezer",
+  "meals_to_cover": ["breakfast", "lunch", "dinner", "snacks"],
+  "goals": ["eat better on $50/week", "reduce food waste", "prep on Sundays", "cut takeout"],
+  "notes": "Vegetarian + gluten-free; eggs are fine; wants 2–3 hour Sunday prep; avoids food waste."
+}

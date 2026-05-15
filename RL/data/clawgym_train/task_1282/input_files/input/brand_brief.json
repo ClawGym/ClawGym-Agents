@@ -1,0 +1,81 @@
+{
+  "brand": {
+    "name": "Boga Ogitegia",
+    "type": "small artisan bakery",
+    "city": "Donostia-San Sebastián",
+    "neighborhood": "Gros",
+    "address": "Zabaleta Kalea 32, 20002 Donostia",
+    "instagram": "@boga.ogitegia",
+    "whatsapp": "+34 688 123 456",
+    "voice": {
+      "goal": "Sound like a friendly local from Gipuzkoa, not formal or robotic.",
+      "register": "Use the Basque 'zu/zure' form; avoid 'hi' register.",
+      "tone": "Casual, warm, a bit playful; short lines; friendly emojis okay.",
+      "mixing": "Allow tiny Spanish bits like 'vale', 'bueno', 'gracias' when natural.",
+      "fillers": ["ba", "bada", "ezta", "badakizu", "begira"],
+      "interjections": ["Aiba!", "Bikain!", "Primeran!", "Oso ondo!", "Genial!", "Ene!", "Ostras!"],
+      "avoid": ["Egun on", "jakina", "stiff batua"]
+    },
+    "hours": {
+      "monday": "Closed",
+      "tuesday": "08:00-14:30",
+      "wednesday": "08:00-14:30",
+      "thursday": "08:00-14:30",
+      "friday": "08:00-15:00",
+      "saturday": "08:30-14:30",
+      "sunday": "08:30-13:30"
+    },
+    "preorders": {
+      "methods": ["Instagram DM", "WhatsApp"],
+      "cutoff": "Friday 18:00 for weekend sourdough",
+      "pickup_policy": "Pick up next day from opening; name on the bag."
+    },
+    "products": {
+      "breads": [
+        {
+          "name": "Weekend sourdough (masa madre)",
+          "days": ["Saturday", "Sunday"],
+          "first_drop": "09:00",
+          "flavors": ["classic", "olive + rosemary", "hint of mustard"],
+          "daily_limit": 60,
+          "notes": "Natural leaven, long fermentation; crispy crust."
+        },
+        {
+          "name": "Wholegrain loaf",
+          "days": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+        },
+        {
+          "name": "Seeded loaf (sunflower, pumpkin seed, flax)",
+          "days": ["Wednesday", "Friday", "Sunday"]
+        }
+      ],
+      "pastries": [
+        {"name": "cinnamon rolls", "contains_lactose": true},
+        {"name": "thick chocolate cookies", "contains_lactose": true},
+        {"name": "almond tartlets", "contains_lactose": true}
+      ],
+      "diet_notes": {
+        "lactose_free": [
+          "Most breads (including weekend sourdough) are dairy-free.",
+          "Mini vegan cookies on Fridays are lactose-free."
+        ],
+        "reminder": "Lactose-free is not gluten-free."
+      },
+      "seasonal": {
+        "autumn": {
+          "product": "Pumpkin spiced loaf",
+          "basque_hint": "kalabaza + spices",
+          "availability": "Thursday–Sunday during autumn (mid-September to November)",
+          "ingredients": "pumpkin purée, cinnamon, nutmeg, a touch of ginger",
+          "formats": ["whole loaf", "sliced"],
+          "preorder": "Recommended due to limited batches."
+        }
+      }
+    },
+    "policies": [
+      "Small batches; first come, first served.",
+      "Card and cash accepted.",
+      "We love local farmers; pumpkins from Asteasu in autumn."
+    ]
+  }
+}

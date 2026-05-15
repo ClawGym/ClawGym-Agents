@@ -1,0 +1,11 @@
+Subject: Reminder: {university} transfer deadline in {days_before} days ({deadline})
+
+Hi {student_name},
+
+This is a reminder about your {university} {program_interest} transfer application due on {deadline}.
+Next steps:
+{checklist_excerpt}
+
+If you have questions, reply to this email or contact us.
+
+- Career Services

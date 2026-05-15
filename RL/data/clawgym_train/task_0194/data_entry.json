@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0194",
+  "user_query": "I need you to pick and prepare a pedicure appointment request for me this week using the data I provided. Read these files: input/preferences.json, input/providers.json, and input/availability.json. Use the following decision rules:\n- Only consider providers that: (a) offer the service named exactly \"Deluxe Pedicure\" (use its matching serviceId), (b) have rating >= the minimumRating in preferences.json, and (c) are within maxDistance (miles) from preferences.json.\n- Only consider availability on the exact date specified in preferences.json.\n- Choose the earliest available timeSlot within the inclusive timeWindow [start, end] from preferences.json.\n- Tie-breakers, in order: highest provider rating, then smallest distanceMiles, then lexicographically smallest providerId.\n- The selected timeSlot must exactly match a slot listed in input/availability.json for the chosen providerId/serviceId on the specified date (use the time string as-is; do not reformat or change timezone).\nThen write a single JSON file to output/booking_request.json with exactly these keys and string values: providerId, providerName, serviceId, serviceName, timeSlot, customerName, customerEmail, customerPhone. The customer fields must come from input/preferences.json. Do not contact any external service; just prepare the request JSON for submission.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

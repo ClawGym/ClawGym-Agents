@@ -1,0 +1,13 @@
+question_id,text,topic,likes,comments,shares
+Q001,"Is 16:8 intermittent fasting safe every day?","Intermittent Fasting",120,45,30
+Q002,"How much water should I drink during workouts?","Hydration",95,30,25
+Q003,"Best time to sleep for muscle recovery?","Sleep Hygiene",85,28,20
+Q004,"Are magnesium supplements good for sleep?","Supplements Safety",110,35,22
+Q005,"Is dry fasting okay?","Intermittent Fasting",60,10,5
+Q006,"How to track hydration beyond thirst?","Hydration",70,18,12
+Q007,"Is melatonin safe long-term?","Supplements Safety",130,50,40
+Q008,"Tips to fall asleep faster?","Sleep Hygiene",150,42,35
+Q009,"Can I do 24-hour fasts weekly?","Intermittent Fasting",90,25,18
+Q010,"Do I need electrolyte packets daily?","Hydration",80,22,15
+Q011,"Are greens powders necessary?","Supplements Safety",100,20,10
+Q012,"Should I do detox teas?","Detox Diets",140,30,28

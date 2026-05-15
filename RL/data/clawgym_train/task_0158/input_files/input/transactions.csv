@@ -1,0 +1,32 @@
+date,amount,merchant,category,account,note
+2026-01-01,-14.99,Spotify,Subscriptions,Checking,monthly plan
+2026-01-03,-820.00,Rent,Housing,Checking,January rent
+2026-01-06,2450.00,Payroll,Income,Checking,main salary
+2026-01-07,-49.00,Gym Membership,Subscriptions,Checking,monthly gym
+2026-01-12,-120.00,Supermarket,Groceries,Credit Card,weekly shop
+2026-01-12,-60.21,Supermarket,Groceries,Credit Card,top-up groceries
+2026-01-15,-120.42,Electric Co,Utilities,Checking,Jan electric bill
+2026-01-17,-75.00,CC BankX,Debt Payments,Checking,credit card payment
+2026-01-20,-9.99,Cloud Storage,Subscriptions,Checking,storage plan
+2026-01-25,-150.00,Student Loan,Debt Payments,Checking,loan payment
+2026-01-26,-35.00,Gas Station,Transport,Credit Card,fuel
+2026-01-28,-24.15,Coffee Shop,Dining,Credit Card,coffee with friend
+2026-02-01,-14.99,Spotify,Subscriptions,Checking,monthly plan
+2026-02-03,-820.00,Rent,Housing,Checking,February rent
+2026-02-05,2450.00,Payroll,Income,Checking,main salary
+2026-02-07,-49.00,Gym Membership,Subscriptions,Checking,monthly gym
+2026-02-12,-130.55,Supermarket,Groceries,Credit Card,weekly shop
+2026-02-14,-80.20,Supermarket,Groceries,Credit Card,weekly shop
+2026-02-15,-120.43,Electric Co,Utilities,Checking,Feb electric bill
+2026-02-17,-75.00,CC BankX,Debt Payments,Checking,credit card payment
+2026-02-20,-9.99,Cloud Storage,Subscriptions,Checking,storage plan
+2026-02-25,-150.00,Student Loan,Debt Payments,Checking,loan payment
+2026-02-26,-40.00,Gas Station,Transport,Credit Card,fuel
+2026-02-27,-23.74,Pharmacy,Health,Credit Card,over-the-counter
+2026-03-01,-14.99,Spotify,Subscriptions,Checking,monthly plan
+2026-03-03,-820.00,Rent,Housing,Checking,March rent
+2026-03-05,2450.00,Payroll,Income,Checking,main salary
+2026-03-07,-49.00,Gym Membership,Subscriptions,Checking,monthly gym
+2026-03-09,-92.00,Supermarket,Groceries,Credit Card,weekly shop
+2026-03-10,-85.11,Supermarket,Groceries,Credit Card,weekly shop
+2026-03-11,-16.91,Coffee Shop,Dining,Credit Card,coffee

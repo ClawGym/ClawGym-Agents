@@ -1,0 +1,11 @@
+sector,avg_change,change_rank
+Automotive,2.6,1
+Consumer Electronics,2.2,2
+Internet/Platform,1.5,3
+Retail,1.0,4
+Biotech,0.7,5
+Utilities,0.4,6
+Banks,0.3,7
+Shipping/Logistics,-1.2,8
+Semiconductors,-2.1,9
+Batteries,-2.8,10

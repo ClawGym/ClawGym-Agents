@@ -1,0 +1,50 @@
+{
+  "testimonials": [
+    {
+      "quote": "LeaseShield got my rent capped at 3% and 48-hour entry notice added. The scripts made it easy.",
+      "name": "Sarah Chen",
+      "title": "Marketing Manager",
+      "city": "Seattle, WA",
+      "result": "Saved $75/mo and stopped surprise entries"
+    },
+    {
+      "quote": "They added a fair break clause with 8 weeks’ notice and a one-month fee. Peace of mind is worth it.",
+      "name": "Jamal Robinson",
+      "title": "Product Designer",
+      "city": "Austin, TX",
+      "result": "Secured clean exit terms before signing"
+    },
+    {
+      "quote": "Our deposit came back in full. Their move-out checklist and dispute template shut down two bogus charges.",
+      "name": "Priya Nair",
+      "title": "Grad Student",
+      "city": "Boston, MA",
+      "result": "Recovered $1,250 deposit"
+    },
+    {
+      "quote": "I thought landlords never negotiate. With their email language, mine agreed to cap late fees and clarify repairs.",
+      "name": "Daniel Ruiz",
+      "title": "Sales Associate",
+      "city": "Chicago, IL",
+      "result": "Eliminated unlimited late fee risk"
+    }
+  ],
+  "stats": {
+    "star_rating": 4.8,
+    "review_count": 1240,
+    "renters_helped": 5200,
+    "avg_savings_per_lease_usd": 612,
+    "nps": 67
+  },
+  "press": [
+    "RenterTimes",
+    "CityLiving Daily",
+    "TenantWatch",
+    "Urban Move Weekly"
+  ],
+  "snippets": [
+    "Trusted by 5,200+ renters",
+    "4.8★ from 1,240 reviews",
+    "Average $612 saved per lease"
+  ]
+}

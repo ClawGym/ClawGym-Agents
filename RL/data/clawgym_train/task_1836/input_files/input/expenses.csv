@@ -1,0 +1,9 @@
+date,category,description,amount,paid_by,mode,vendor_payment_status,reimbursable,reimbursement_status,vendor
+2026-03-01,Venue,Community hall rent,15000,Nayan Kalita,UPI,paid,false,NA,Guwahati Community Hall
+2026-03-02,Printing,Flyers A5 (2000 pcs),5200,Rohit Das,Cash,paid,true,paid,QuickPrint Guwahati
+2026-03-02,Printing,Flex banners (3 pcs),3600,Rohit Das,Cash,paid,true,paid,QuickPrint Guwahati
+2026-03-03,Transport,Village outreach van hire,2800,Nayan Kalita,Cash,paid,false,NA,Assam Transport Service
+2026-03-03,Transport,Fuel for van,1200,Rohit Das,Cash,paid,true,unpaid,HP Petrol Pump
+2026-03-04,Refreshments,Snacks and tea,3500,Nayan Kalita,UPI,paid,false,NA,Sharma Caterers
+2026-03-04,Refreshments,Drinking water cans,900,Nayan Kalita,Cash,paid,false,NA,PureWater Supply
+2026-03-05,Digital Ads,Targeted social media ads,4200,Priya Sen,Bank Transfer,paid,false,NA,AdServe India

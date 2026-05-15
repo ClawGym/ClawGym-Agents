@@ -1,0 +1,10 @@
+sample_rate: 48000
+bit_depth: 16
+hrtf_profile: gen2_standard
+spatializer_plugin: AuralX
+spatializer_version: "2.3.1"
+enabled_features:
+  - dynamic_occlusion
+  - room_sim
+  - legacy_3d
+latency_mode: low

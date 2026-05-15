@@ -1,0 +1,4 @@
+{"role": "user", "timestamp": "2026-04-14T14:20:00Z", "content": "Draft a short product announcement for the April campaign."}
+{"role": "assistant", "timestamp": "2026-04-14T14:21:18Z", "model": "claude-3.5-sonnet", "content": "Here’s a concise announcement with CTA...", "usage": {"input_tokens": 500, "output_tokens": 220}, "costUSD": 0.1150}
+{"role": "user", "timestamp": "2026-04-14T14:25:40Z", "content": "Create three subject line variants with A/B options."}
+{"role": "assistant", "timestamp": "2026-04-14T14:27:02Z", "model": "claude-3.5-sonnet", "content": "Subject line options: ...", "usage": {"prompt_tokens": 650, "completion_tokens": 240}, "cost": 0.1300}

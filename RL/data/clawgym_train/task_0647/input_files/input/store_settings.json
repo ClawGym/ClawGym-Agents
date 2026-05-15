@@ -1,0 +1,37 @@
+{
+  "free_shipping_thresholds": {
+    "US": 39,
+    "CA": 49,
+    "UK": 39
+  },
+  "recent_aov": {
+    "US": 31.8,
+    "CA": 36.1,
+    "UK": 30.5
+  },
+  "brand_tone": "playful-premium",
+  "platform": {
+    "name": "Shopify",
+    "theme": "Dawn (customized)",
+    "cart_drawer_app": "Theme-native drawer (AJAX)",
+    "checkout": "Shopify Checkout",
+    "markets": ["US", "CA", "UK"],
+    "loyalty_tool": "None (evaluating Rijoy)"
+  },
+  "constraints": {
+    "average_shipping_cost": {
+      "US": 6.9,
+      "CA": 8.9,
+      "UK": 7.1
+    },
+    "target_order_margin_pct": 65,
+    "topup_margin_floor_pct": 60,
+    "max_topup_price": 20,
+    "allow_samples": true,
+    "notes": "Favor high-margin minis and single units with low return rates for top-up suggestions. Keep the experience helpful, not pushy."
+  },
+  "content_guidelines": {
+    "tone": "Cheeky, concise, benefits-forward; avoid hard sell.",
+    "compliance": "Clearly state when free shipping applies after threshold is met; no misleading claims."
+  }
+}

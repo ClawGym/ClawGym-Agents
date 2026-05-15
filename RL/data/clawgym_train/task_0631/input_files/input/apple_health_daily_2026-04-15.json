@@ -1,0 +1,18 @@
+{
+  "date": "2026-04-15",
+  "day": {
+    "steps": 8420,
+    "sleep_duration_hours": 6.7,
+    "active_energy_kcal": 612,
+    "stand_hours": 13,
+    "exercise_minutes": 42
+  },
+  "baseline": {
+    "steps_avg_7d": 7950,
+    "sleep_duration_avg_7d": 7.2
+  },
+  "resting_heart_rate": null,
+  "hrv": null,
+  "deep_sleep_duration": null,
+  "notes": "Metrics generated from Apple Health export imported into the Mac app on 2026-04-15. Steps included a 25-minute afternoon walk."
+}

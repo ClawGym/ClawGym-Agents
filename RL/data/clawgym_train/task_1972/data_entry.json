@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1972",
+  "user_query": "I need to set up three crypto payment requests for a checkout. Read input/payments.csv and input/wallet_preference.txt. For each payment row: generate a wallet deeplink for the selected wallet type, compute base units correctly (USDC=6 decimals, ETH=18), and default ERC20 to USDC if the token contract is missing (use the standard USDC address for chain IDs 1, 8453, 11155111, 84532). Write these files:\n- output/links.jsonl — one JSON object per line with: intent (including chainId, asset, token if ERC20, symbol, decimals, to, amountHuman, amountBaseUnits), wallet, deeplink, and messageTemplate.\n- output/verify_intents.jsonl — one JSON object per line with: chainId, from, to, asset, amount, symbol (for later on-chain verification).\n- output/sanity.json — summary with totalPayments, chains (unique list), tokens (unique list), and wallet.\nMessage templates must include amount, token symbol, truncated recipient (first 8 chars, ellipsis, last 6 chars), and clear guidance to approve/reject.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

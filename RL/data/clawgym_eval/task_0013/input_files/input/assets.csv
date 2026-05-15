@@ -1,0 +1,4 @@
+asset_name,width_px,height_px,color_hex,roughness,metallic
+moss_rock,512,256,#7A8450,0.8,0.1
+wet_soil,300,300,#3B2F2F,0.9,0.0
+pine_bark,128,512,#5D4A3A,0.6,0.2

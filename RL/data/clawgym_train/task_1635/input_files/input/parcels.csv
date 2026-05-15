@@ -1,0 +1,13 @@
+parcel_id,district,zoning,area_sq_m,centroid_lat,centroid_lon,current_use,ownership,flood_risk
+P-001,Central,Commercial,5000,40.7128,-74.0060,Parking Lot,Private,Low
+P-002,Central,Mixed Use,4500,40.7132,-74.0055,Low-rise Retail,Private,Low
+P-003,Riverside,Industrial,12000,40.7210,-74.0100,Warehouse,Private,Medium
+P-004,Midtown,Commercial,8000,40.7540,-73.9845,Office,Public,Low
+P-005,Midtown,Residential,6000,40.7550,-73.9850,Apartments,Private,Low
+P-006,OldTown,Mixed Use,4000,40.7300,-73.9950,Shops,Private,Low
+P-007,Riverside,Industrial,15000,40.7220,-74.0150,Vacant,Private,Medium
+P-008,Riverside,Commercial,7000,40.7200,-74.0200,Big-box Retail,Private,High
+P-009,OldTown,Commercial,3000,40.7310,-73.9960,Cafe,Private,Low
+P-010,Central,Mixed Use,5500,40.7140,-74.0070,Parking Lot,Private,Medium
+P-011,Midtown,Industrial,9000,40.7560,-73.9820,Warehouse,Private,Low
+P-012,OldTown,Commercial,3500,40.7320,-73.9970,Historic Hall,Public,Low

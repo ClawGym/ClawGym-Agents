@@ -1,0 +1,22 @@
+[
+  {
+    "claim_id": "C1",
+    "claim_text": "Metrovale transit ridership increased by 10% in 2024 compared to 2023."
+  },
+  {
+    "claim_id": "C2",
+    "claim_text": "The July 2024 base fare was raised to $3.00."
+  },
+  {
+    "claim_id": "C3",
+    "claim_text": "Electric buses in Metrovale have lower lifecycle CO2 emissions than diesel buses."
+  },
+  {
+    "claim_id": "C4",
+    "claim_text": "We should freeze further fare increases until 2026 because higher fares drive riders away."
+  },
+  {
+    "claim_id": "C5",
+    "claim_text": "The July 2024 fare hike caused ridership to drop in the second half of 2024."
+  }
+]

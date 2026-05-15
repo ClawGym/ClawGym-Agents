@@ -1,0 +1,9 @@
+{
+  "output_dir": "output",
+  "messages_style": "verbose",
+  "rfc": {
+    "identifier": "RFC 8259",
+    "format": "txt",
+    "official_source": "IETF RFC Editor"
+  }
+}

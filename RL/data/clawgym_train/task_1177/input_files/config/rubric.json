@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "emotional_keywords": ["fear", "quiet", "brave", "cry", "smile"],
+    "pacing": {
+      "short_sentence_threshold": 6,
+      "long_sentence_threshold": 18
+    },
+    "clarity": {
+      "filler_words": ["um", "uh", "like"]
+    }
+  },
+  "weight": {
+    "emotion": 0.4,
+    "pacing": 0.3,
+    "clarity": 0.3
+  }
+}

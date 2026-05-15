@@ -1,0 +1,115 @@
+{
+  "updated_at": "2026-04-10",
+  "items": [
+    {
+      "id": "RET-101",
+      "title": "Weekly Manager Digest v2 (actionable next steps)",
+      "category": "retention",
+      "owner": "product",
+      "status": "in_progress",
+      "hypothesis": "If the digest includes a clear next-best-action per alert, managers will act within 48h and return weekly.",
+      "metric": "D7 retention +5pp; digest click-through >35%",
+      "effort": {"engineering_hours": 18, "design_hours": 6, "founder_hours": 6},
+      "priority_score": 0.86
+    },
+    {
+      "id": "ACT-073",
+      "title": "Manual Concierge Onboarding for all new trials (2 calls)",
+      "category": "activation",
+      "owner": "sales",
+      "status": "planned",
+      "hypothesis": "White-glove setup reduces time-to-first-signal and improves week-1 activation.",
+      "metric": "Activation rate from 55% to 75%; time-to-signal <3 days",
+      "effort": {"engineering_hours": 0, "design_hours": 0, "founder_hours": 12},
+      "priority_score": 0.81
+    },
+    {
+      "id": "NOISE-012",
+      "title": "Slack Check-in Noise Reduction (cadence calibration)",
+      "category": "retention",
+      "owner": "engineering",
+      "status": "planned",
+      "hypothesis": "Reducing false positives and matching team cadence lowers churn drivers.",
+      "metric": "Alert precision +20%; support tickets on 'noise' -50%",
+      "effort": {"engineering_hours": 24, "design_hours": 4, "founder_hours": 3},
+      "priority_score": 0.83
+    },
+    {
+      "id": "GROW-030",
+      "title": "In-product Referral Nudge (manager share link)",
+      "category": "growth",
+      "owner": "marketing",
+      "status": "planned",
+      "hypothesis": "Prompting satisfied managers after 2 digests will increase referral trials.",
+      "metric": "Referral signups from 0-1/week to 2-3/week",
+      "effort": {"engineering_hours": 8, "design_hours": 4, "founder_hours": 2},
+      "priority_score": 0.62
+    },
+    {
+      "id": "TRUST-021",
+      "title": "Privacy & Data Handling Page + DPIA summary",
+      "category": "trust",
+      "owner": "legal",
+      "status": "planned",
+      "hypothesis": "Clear documentation unblocks trials in compliance-conscious orgs.",
+      "metric": "Trial start rate +15% at enterprise leads",
+      "effort": {"engineering_hours": 3, "design_hours": 2, "founder_hours": 10},
+      "priority_score": 0.77
+    },
+    {
+      "id": "PRICE-005",
+      "title": "Pricing Experiment: per-manager vs per-team",
+      "category": "monetization",
+      "owner": "finance",
+      "status": "todo",
+      "hypothesis": "Per-team pricing reduces friction for larger orgs and improves POC-to-paid.",
+      "metric": "POC-to-paid conversion +10pp",
+      "effort": {"engineering_hours": 6, "design_hours": 2, "founder_hours": 4},
+      "priority_score": 0.55
+    },
+    {
+      "id": "COMPL-100",
+      "title": "SOC 2 Scoping (desk research + gap list)",
+      "category": "compliance",
+      "owner": "legal",
+      "status": "todo",
+      "hypothesis": "Understanding scope now prevents wasted builds; defer full certification.",
+      "metric": "Documented gaps; decision doc for when to start",
+      "effort": {"engineering_hours": 0, "design_hours": 0, "founder_hours": 6},
+      "priority_score": 0.50
+    },
+    {
+      "id": "FEAT-250",
+      "title": "OKR Integration",
+      "category": "feature",
+      "owner": "engineering",
+      "status": "icebox",
+      "hypothesis": "Linking OKRs to health will improve exec adoption.",
+      "metric": "Increased exec logins",
+      "effort": {"engineering_hours": 60, "design_hours": 20, "founder_hours": 6},
+      "priority_score": 0.30
+    },
+    {
+      "id": "CHURN-014",
+      "title": "Systematic Churn Interviews (5 recent churned trials)",
+      "category": "research",
+      "owner": "product",
+      "status": "planned",
+      "hypothesis": "Understanding top-2 churn reasons will guide retention fixes.",
+      "metric": "List of top-2 reasons validated by 5 calls",
+      "effort": {"engineering_hours": 0, "design_hours": 0, "founder_hours": 8},
+      "priority_score": 0.78
+    },
+    {
+      "id": "ACT-074",
+      "title": "Activation Checklist inside product (manager first week)",
+      "category": "activation",
+      "owner": "design",
+      "status": "todo",
+      "hypothesis": "A visible checklist reduces setup confusion and increases activation.",
+      "metric": "Activation +10pp; time-to-signal -1 day",
+      "effort": {"engineering_hours": 10, "design_hours": 10, "founder_hours": 3},
+      "priority_score": 0.69
+    }
+  ]
+}

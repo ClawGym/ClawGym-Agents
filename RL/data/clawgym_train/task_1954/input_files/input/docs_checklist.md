@@ -1,0 +1,7 @@
+- Skills-data convention: Verify where persistent runtime data (indexes, state) should be stored and not packaged with the skill.
+- Cron/backoff guidance: Confirm recommended polling/backoff patterns for long-running tasks and safe retry strategies.
+- Providers/engines: Check guidance on integrating external providers/APIs and selecting engines dynamically after estimation.
+- Channels and sessions: Confirm how to manage session state and emit progress/status messages to channels.
+- Error handling and expiry: Review best practices for handling failures, expired jobs, and surfacing actionable errors.
+- Environment & config: Validate how to load agent config (filters, defaults) and avoid hardcoding in code.
+- Security boundaries: Ensure no credentials are stored in logs, and follow privacy guidelines when handling swap details.

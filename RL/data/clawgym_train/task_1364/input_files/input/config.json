@@ -1,0 +1,6 @@
+{
+  "rfc_number": 8259,
+  "output_text_path": "workspace/output/rfc-8259.txt",
+  "output_metadata_path": "workspace/output/metadata.json",
+  "report_path": "workspace/report/fix-report.md"
+}

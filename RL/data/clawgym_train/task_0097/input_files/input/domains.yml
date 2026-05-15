@@ -1,0 +1,56 @@
+organizations:
+  - key: SHRM
+    name: Society for Human Resource Management
+    domain_pattern: shrm.org
+    topics:
+      - performance reviews
+      - feedback
+      - coaching
+      - conflict resolution
+      - employee relations
+  - key: HBR
+    name: Harvard Business Review
+    domain_pattern: hbr.org
+    topics:
+      - leadership
+      - influencing without authority
+      - managing technical teams
+      - giving feedback
+      - team dynamics
+  - key: CIPD
+    name: Chartered Institute of Personnel and Development
+    domain_pattern: cipd.org
+    topics:
+      - HR best practices
+      - employee engagement
+      - learning and development
+      - performance management
+
+constraints:
+  min_resources_total: 6
+  min_by_org:
+    SHRM: 2
+    HBR: 2
+    CIPD: 1
+  public_access_only: true
+
+tags_allowed:
+  - leadership
+  - feedback
+  - coaching
+  - conflict resolution
+  - employee relations
+  - influencing without authority
+  - managing technical teams
+  - team dynamics
+  - HR best practices
+  - employee engagement
+  - learning and development
+  - performance management
+  - software engineering
+
+guidance:
+  - use_search_engine: true
+  - avoid_paywalls_or_logins: true
+  - prefer_official_sources: true
+  - extract_title_from: ["html <title>", "meta property='og:title'"]

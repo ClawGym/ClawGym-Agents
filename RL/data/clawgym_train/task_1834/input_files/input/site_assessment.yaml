@@ -1,0 +1,38 @@
+site:
+  city: Phoenix
+  state: AZ
+  latitude: 33.45
+  longitude: -112.07
+  peak_sun_hours: 6.5
+roof:
+  primary_plane:
+    azimuth_degrees: 210        # SSW
+    tilt_degrees: 20
+    usable_area_sqft: 320
+  secondary_plane:
+    azimuth_degrees: 160        # SSE
+    tilt_degrees: 20
+    usable_area_sqft: 130
+  total_usable_area_sqft: 450
+  type: asphalt shingle
+  age_years: 8
+  condition: good
+shading:
+  shade_loss_percent: 4         # minimal shading overall
+  sources:
+    - "Single palm tree northeast causes light morning shade in winter"
+    - "Two roof vents on primary plane (minor layout constraint)"
+  obstructions:
+    - "Satellite dish on secondary plane (to be removed)"
+structural:
+  truss_spacing_inches: 24
+  rafter_size: "2x6"
+  engineer_letter_required: true
+electrical:
+  main_service_panel_amps: 200
+  busbar_rating_amps: 200
+  service_voltage: "240V split-phase"
+  meter_location: "south exterior wall"
+notes: |
+  HOA requires flush-mount and black hardware. Conduit can be hidden to attic run.
+  IronRidge or Unirac racking acceptable. No evidence of roof leaks.

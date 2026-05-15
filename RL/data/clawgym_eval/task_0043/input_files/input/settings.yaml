@@ -1,0 +1,6 @@
+project_name: Math-in-Science Notes
+source_dir: input/notes
+output_dir: output
+target_languages: []
+glossary_csv: input/glossary.csv
+preserve_math: false

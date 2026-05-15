@@ -1,0 +1,1 @@
+For {audience} who need to {need}, {product} is a {category} that {benefit}. Unlike {alternatives}, we {differentiator}.

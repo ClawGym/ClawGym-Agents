@@ -1,0 +1,16 @@
+2026-04-20T09:12:33Z ERROR api.client: Request failed: 401 Unauthorized
+Request: POST https://api.example.com/v1/embeddings
+Headers:
+  Authorization: Bearer sk-live-0a1b2c3d4e5f6g7h8i9j
+  Content-Type: application/json
+Body: {"input":"hello world","model":"text-embedding-3-small"}
+Response:
+  {"error":{"message":"Invalid API key","type":"auth_error"}}
+Stack:
+Error: Request failed with status code 401
+    at createError (node_modules/axios/lib/core/createError.js:16:15)
+    at settle (node_modules/axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (node_modules/axios/lib/adapters/http.js:293:11)
+Env:
+  OPENAI_API_KEY=sk-live-0a1b2c3d4e5f6g7h8i9j
+  NODE_ENV=production

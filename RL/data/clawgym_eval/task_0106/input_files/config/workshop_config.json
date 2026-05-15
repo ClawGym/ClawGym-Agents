@@ -1,0 +1,13 @@
+{
+  "event_title": "Community Nonviolence Dialogue",
+  "proposed_date": "2026-06-15",
+  "max_minutes": 135,
+  "teams": ["Youth Team", "Outreach Team", "De-escalation Team"],
+  "modules": [
+    {"title": "Welcome & Prayer", "duration": 10, "facilitator": "Pastor Maria", "risk_flag": false},
+    {"title": "Testimonies", "duration": 25, "facilitator": "Leaders Council", "risk_flag": true},
+    {"title": "Conflict Mapping Exercise", "duration": 30, "facilitator": "Peacebuilders Collective", "risk_flag": false},
+    {"title": "De-escalation Training Basics", "duration": 35, "facilitator": "Street Chaplains", "risk_flag": false},
+    {"title": "Youth Breakout Circles", "duration": 35, "facilitator": "Youth Team", "risk_flag": true}
+  ]
+}

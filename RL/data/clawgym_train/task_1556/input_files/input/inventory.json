@@ -1,0 +1,40 @@
+{
+  "records": [
+    {
+      "record_id": "SC001",
+      "title": "Stray Cats - Rare 1981 Promo 7\"",
+      "listing_md": "listings/lst-001.md",
+      "assets": [
+        {
+          "asset_path": "assets/images/sc001_cover.txt",
+          "asset_type": "image",
+          "declared_rights": "licensed",
+          "license_ref": "license_SC001"
+        },
+        {
+          "asset_path": "assets/audio/sc001_snippet.txt",
+          "asset_type": "audio",
+          "declared_rights": "licensed",
+          "license_ref": "license_SC001"
+        }
+      ]
+    },
+    {
+      "record_id": "SC002",
+      "title": "Stray Cats - Obscure Live Bootleg EP",
+      "listing_md": "listings/lst-002.md",
+      "assets": [
+        {
+          "asset_path": "assets/images/sc002_cover.txt",
+          "asset_type": "image",
+          "declared_rights": "unknown"
+        },
+        {
+          "asset_path": "assets/audio/sc002_snippet.txt",
+          "asset_type": "audio",
+          "declared_rights": "unknown"
+        }
+      ]
+    }
+  ]
+}

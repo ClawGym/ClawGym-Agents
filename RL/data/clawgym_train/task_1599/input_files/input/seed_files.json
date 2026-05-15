@@ -1,0 +1,46 @@
+{
+  "workspace": [
+    "README.md",
+    "src/app.py",
+    "src/utils/helpers.py",
+    "data/dataset.csv",
+    "notebooks/experiment.ipynb",
+    "project/plan.md",
+    ".git/config",
+    "node_modules/lodash/package.json",
+    "BACKUPS/backup-20260415-0305-DAILY.tgz.gpg",
+    "canvas/screenshot.png"
+  ],
+  "state": [
+    "openclaw.json",
+    "credentials/backup.key",
+    "logs/agent.log",
+    "sessions/state.db",
+    "browser/cache/index.sqlite"
+  ],
+  "skills": [
+    "simple-backup/SKILL.md",
+    "simple-backup/simple-backup.sh",
+    "sourdough-starter-manager/SKILL.md",
+    "sourdough-starter-manager/README.md",
+    ".venv/bin/activate",
+    "node_modules/leftpad/index.js"
+  ],
+  "excludes": {
+    "workspace": [
+      ".git",
+      "node_modules",
+      "BACKUPS",
+      "canvas"
+    ],
+    "state": [
+      "logs",
+      "media",
+      "browser"
+    ],
+    "skills": [
+      "node_modules",
+      ".venv"
+    ]
+  }
+}

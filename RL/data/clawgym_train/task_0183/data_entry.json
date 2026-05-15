@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0183",
+  "user_query": "I’m assembling a concise Audi lineup catalog for internal documentation. Please: 1) Read the requested categories and output paths from input/models_request.json and the feature emphasis list from input/tech_focus.txt. 2) Create output/catalog.json with this exact structure: { \"categories\": { \"Sedans & Sportbacks\": [...], \"SUVs & Crossovers\": [...], \"Performance (RS & S)\": [...], \"Electric (e-tron)\": [...] }, \"technology\": [\"Quattro\", \"Virtual Cockpit\", \"MMI\", \"Matrix LED\"], \"company\": { \"parent\": \"Volkswagen Group\", \"founded\": 1909, \"slogan\": \"Vorsprung durch Technik\" }, \"generated_at\": \"<ISO 8601 UTC>\" }. For each category, list only the official Audi models using the exact names and formatting as in the Audi lineup (do not expand or rename combined entries; keep names like \"A4/A5\", include \"RS e-tron GT\" and \"e-tron GT\" exactly). 3) Create output/summary.md summarizing all models grouped by category, briefly explaining the four technologies from input/tech_focus.txt in your own words, and including the company parent, founding year, and slogan. Do not include non-Audi brands or models. Use only your knowledge; no external sources.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

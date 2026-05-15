@@ -1,0 +1,10 @@
+env:
+  name: demo
+  mode: readonly
+features:
+  - inventory
+  - reporting
+  - audit
+limits:
+  max_events: 1000
+  strict_paths: true

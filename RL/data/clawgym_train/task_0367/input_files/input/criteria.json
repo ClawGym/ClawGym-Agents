@@ -1,0 +1,41 @@
+{
+  "source_requirements": [
+    {
+      "label": "FAO guidance",
+      "domain_patterns": ["fao.org"],
+      "min_count": 3
+    },
+    {
+      "label": "Government or extension guidance",
+      "domain_patterns": ["gov", "ministry", "agric"],
+      "min_count": 2
+    }
+  ],
+  "keywords": [
+    "soil rehabilitation",
+    "drought-resistant",
+    "seed distribution",
+    "cropping calendar",
+    "irrigation",
+    "cash-for-work",
+    "extension services",
+    "rainwater harvesting",
+    "mulching",
+    "composting"
+  ],
+  "section_terms": ["recommendation", "guideline", "best practice"],
+  "official_domain_patterns": ["fao.org", "gov", "ministry", "agric"],
+  "file_types_considered_known": ["pdf", "html"],
+  "scoring_rules": {
+    "points": {
+      "keyword_threshold": 1,
+      "official_domain": 1,
+      "recent_publication_year": 1,
+      "file_type_known": 1,
+      "section_terms_present": 1
+    },
+    "keyword_threshold": 3,
+    "min_publication_year": 2015,
+    "actionable_threshold": 3
+  }
+}

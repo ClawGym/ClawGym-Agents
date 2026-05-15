@@ -1,0 +1,39 @@
+Title: A Field-Tested Wearable System to Predict Heat Stress 30 Minutes Ahead in Outdoor Workers
+
+Authors: Maya Chen, Ph.D.; Luis Ortega, M.S.; Samuel Price, M.D.
+
+Abstract
+Heat stress is a growing occupational hazard as summers become hotter and more humid. We present a low-power wearable and smartphone system that forecasts individual heat stress risk up to 30 minutes ahead using wrist skin temperature, heart rate, activity, ambient temperature, and humidity. In a 12-week field study involving 184 outdoor workers across two U.S. cities, our model achieved an area under the ROC curve (AUC) of 0.86 (95% CI: 0.83–0.89) and a sensitivity of 0.81 at a 0.20 false-alarm rate. Compared with standard threshold-based alerts (heart rate and heat index), our approach reduced false alarms by 22% and improved early-warning lead time by a median of 17 minutes. In a randomized subset (n=124 intervention, n=60 control), workers receiving predictive alerts reported 18% fewer moderate-to-severe heat stress symptoms and took proactive cooling breaks more often (rate ratio 1.34; p=0.02). The wearable consumed under 5 mW on average, enabling a full workday of continuous monitoring. While the system is not a medical device and does not diagnose heat illness, it may help workers and supervisors make earlier, safer decisions during heat waves.
+
+Introduction (Background)
+Heat stress contributes to fatigue, decreased productivity, and medical emergencies in outdoor occupations such as construction, landscaping, and municipal services. Traditional monitoring strategies rely on environmental indices (e.g., WBGT) or simple thresholds (heart rate > X bpm) that do not account for individual variability or provide much lead time. Predictive, personalized alerts could enable earlier hydration, shade seeking, and work-rest adjustments, but field evidence for such systems has been limited.
+
+Methods
+We developed a wrist-worn device that streams skin temperature, heart rate, and 3-axis accelerometry to a smartphone app that also logs local weather (temperature and relative humidity). A lightweight gradient-boosted decision tree model was trained to forecast a binary “heat stress risk” event in the next 30 minutes. Ground truth for risk events combined: (1) exceeding OSHA work-rest guidance thresholds based on estimated metabolic workload and ambient conditions, and (2) participant-reported symptoms (dizziness, headache, nausea) scored on validated scales. Participants (N=184) were enrolled from two metropolitan areas with hot summers. After a two-week calibration period, participants were randomized to intervention (predictive alerts delivered to phone) or control (data collected silently). The primary outcomes were predictive performance (AUC), early-warning lead time, false-alarm rate, and self-reported symptom burden. Secondary outcomes included adherence to alerts and device power consumption.
+
+Results
+Predictive performance: The model reached AUC 0.86 (95% CI: 0.83–0.89) on held-out days. At an operating point chosen a priori, sensitivity was 0.81 and specificity 0.78. Compared to threshold-based baselines, false alarms decreased by 22% and positive predictive value improved from 0.49 to 0.62.
+
+Lead time: Median early-warning lead time was 17 minutes (IQR 12–24) before a risk event, versus 6 minutes (IQR 3–10) for baselines. Alerts were delivered a mean of 29.6 minutes (SD 4.2) before peak combined risk score on days with events.
+
+Worker outcomes: In the randomized subset (n=184; intervention n=124, control n=60), the intervention group reported an 18% reduction in moderate-to-severe symptom episodes over the study period (incidence rate ratio 0.82; 95% CI: 0.70–0.96). The rate of proactive cooling breaks increased by 34% (p=0.02). No adverse events related to the device were reported.
+
+Energy and usability: Average device power draw was 4.7 mW with on-device preprocessing enabled, supporting >24 hours of operation between charges. App adherence (acknowledging alerts) was 78%. Qualitative feedback indicated that earlier alerts were “actionable” when paired with access to shade and water.
+
+Discussion
+The system’s predictive performance suggests individualized signals (skin temperature, heart rate, and activity) combined with ambient data can provide meaningful early warnings of heat stress risk beyond what environmental thresholds alone offer. Reduced false alarms are important for trust and long-term adoption. The observed 18% reduction in symptom burden in the intervention group is consistent with earlier, more frequent cooling breaks prompted by alerts.
+
+Limitations
+The study occurred during a single summer season in two cities and may not generalize to different climates or year-round operations. We relied on estimated metabolic workload rather than direct calorimetry. Self-reported symptoms, while validated, remain subjective. The system is not a medical device and does not diagnose or treat heat illness; it supports preventive decision-making.
+
+Conclusion
+A low-power wearable and smartphone system can forecast individual heat stress risk up to 30 minutes in advance with AUC 0.86 in real-world outdoor work. Early, personalized alerts reduced false alarms and were associated with fewer moderate-to-severe symptoms and more proactive breaks.
+
+Significance and Implications
+As heat waves become more frequent, practical tools that help workers and supervisors take earlier precautions are increasingly valuable. Our findings indicate that predictive, individualized alerts can complement existing work-rest guidance to support safer outdoor work. Future studies should evaluate sustained use over multiple seasons, integration with scheduling policies, and cost-effectiveness at scale.
+
+Funding and Acknowledgments
+This work was supported by the Riverton University Center for Environmental Health and the CityWorks Partnership. We thank participating workers and supervisors for their time and feedback.
+
+Ethics
+The study protocol was approved by the Riverton University Institutional Review Board. All participants provided informed consent.

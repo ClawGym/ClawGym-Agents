@@ -1,0 +1,11 @@
+user_id,email,region,birthdate,signup_source,event_name,consent_checkbox,consent_text_version,consent_timestamp,double_opt_in_confirmed,ip,unsubscribed,unsub_timestamp
+U001,alice@example.com,EU,1990-05-10,website_form,Career-Changers Meetup Jan,true,v1.0,2024-01-15T10:30:00Z,true,203.0.113.1,false,
+U002,bob@example.com,EU,1988-03-22,event_booth,Resume Workshop Feb,true,v1.0,2024-02-10T14:00:00Z,false,203.0.113.2,false,
+U003,carol@example.com,US,1995-07-08,website_form,New Career Webinar,true,v1.1,2024-03-05T09:45:00Z,false,198.51.100.3,false,
+U004,dave@example.com,EU,2009-06-01,referral,Career Switch Bootcamp,true,v1.1,2024-03-01T12:00:00Z,true,203.0.113.4,false,
+U005,erin@example.com,US,1999-11-19,event_booth,Career Fair March,false,v1.0,2024-03-10T16:20:00Z,false,198.51.100.5,false,
+U006,fred@example.com,EU,1992-02-14,website_form,Portfolio Workshop,true,,2024-03-12T11:05:00Z,true,203.0.113.6,false,
+U007,gina@example.com,US,1985-09-30,website_form,Resume Workshop Feb,true,v1.0,2024-02-12T10:00:00Z,true,198.51.100.7,true,
+U008,hank@example.com,US,1990-04-04,referral,New Career Webinar,true,v1.0,,true,198.51.100.8,false,
+U009,iris@example.com,EU,1997-12-12,event_booth,Career-Changers Meetup Jan,true,v1.2,2024-01-16T08:00:00Z,true,203.0.113.9,false,
+U010,jack@example.com,US,1980-01-01,website_form,Career Switch Bootcamp,true,v1.1,2024-03-14T13:30:00Z,true,198.51.100.10,false,

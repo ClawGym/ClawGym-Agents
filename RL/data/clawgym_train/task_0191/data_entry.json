@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0191",
+  "user_query": "Read input/requirements.md and input/vars.json. Create a JSON workflow definition at input/workflow.json that executes a multi-step pipeline using only relative paths. The workflow must: (1) generate a build ID and save it to a variable, (2) write a report that includes the build ID and the message from input/vars.json, (3) run a step that fails the first time and then succeeds on retry (use on_fail: retry and ensure it actually triggers a retry), (4) run a conditional step that only executes if the previous step's saved output contains \"ok\", and (5) write a final JSON summary. Use variable substitution for values loaded from input/vars.json and for saved outputs between steps. Important: Do not include any shell metacharacters in workflow commands: |;&$`(){}!>< or newlines. Implement any helper scripts you need under output/scripts/ (Python is fine) and reference them from the workflow commands. Then: (a) validate the workflow and save the validator output to output/logs/validate.txt, (b) perform a dry run and save console output to output/logs/dry_run.txt, and (c) execute the workflow and save console output to output/logs/run.txt. Produce these artifacts: output/report.txt, output/conditional.txt (only if the conditional step runs), and output/summary.json that includes the build ID, the message from input/vars.json, and whether the conditional file was written. Keep all created files under output/ and use only relative workspace paths.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

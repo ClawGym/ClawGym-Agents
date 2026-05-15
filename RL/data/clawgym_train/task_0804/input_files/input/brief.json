@@ -1,0 +1,61 @@
+{
+  "topic": "How to write cold emails that get replies (B2B)",
+  "audience": {
+    "primary": "Early-stage B2B founders, SDRs, and marketers",
+    "pain_points": [
+      "Low open and reply rates on outbound email",
+      "Unclear messaging and weak calls-to-action",
+      "Overly long emails that lose attention",
+      "Inconsistent follow-up strategy"
+    ]
+  },
+  "brand_voice": {
+    "tone": "clear, warm, data-backed, and practical",
+    "principles": [
+      "Lead with value and specificity",
+      "Use plain language over jargon",
+      "Cite credible sources for any statistics",
+      "Offer concrete steps and examples",
+      "Encourage testing and iteration"
+    ],
+    "platform_guidance": {
+      "linkedin": "Slightly more context and rationale per slide; professional and instructive.",
+      "instagram": "Snappier, more visual, focus on punchy lines and quick wins."
+    },
+    "style_examples": {
+      "do": [
+        "Keep subject lines short and purposeful.",
+        "Use one clear CTA per email.",
+        "Explain the 'why' behind each recommendation."
+      ],
+      "dont": [
+        "Overpromise outcomes.",
+        "Rely on buzzwords or vague claims.",
+        "Use hype-y phrasing."
+      ]
+    }
+  },
+  "banned_words": [
+    "hack",
+    "killer",
+    "secret sauce",
+    "ninja",
+    "dominate",
+    "explode",
+    "unprecedented",
+    "synergy",
+    "disrupt",
+    "game-changer",
+    "crush",
+    "guru",
+    "unstoppable",
+    "skyrocket",
+    "viral",
+    "10x",
+    "magic bullet",
+    "must-have",
+    "mind-blowing",
+    "insane"
+  ],
+  "notes": "Always avoid the banned words (case-insensitive). Keep headlines to 8 words or fewer and provide 2–4 body lines per slide."
+}

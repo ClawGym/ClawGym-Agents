@@ -1,0 +1,85 @@
+{
+  "bootcamp": {
+    "name": "Austin Bar Prep Sprint (UBE-focused)",
+    "delivery": "Hybrid (in-person evenings + live online + on-demand practice)",
+    "location_preference": ["Downtown Austin (Capital Factory)", "East Austin near Plaza Saltillo", "The Domain for North Austin access"],
+    "duration_weeks": 8,
+    "schedule": {
+      "evenings": "Tue/Thu 6:30–9:00 pm CT (in-person or Zoom)",
+      "weekend_workshops": "Saturdays 10:00 am–1:00 pm (rotating focus: MBE, MEE/IRAC, MPT)",
+      "office_hours": "Sun 3:00–5:00 pm (online)"
+    },
+    "cohort_size_target": 24,
+    "audience": ["First-time takers", "Retakers", "Working professionals needing structure"],
+    "coverage": {
+      "MBE_weight": 0.5,
+      "MEE_weight": 0.3,
+      "MPT_weight": 0.2,
+      "irac_training_included": true
+    },
+    "curriculum_features": [
+      "Daily MBE drills with explanations",
+      "Essay issue-spotting checklists (IRAC)",
+      "Two timed MPT simulations",
+      "Full-length simulated exams (2)",
+      "Analytics dashboard by subject and subtopic"
+    ],
+    "differentiators": [
+      "Austin-based hybrid schedule with small cohorts",
+      "Instructor feedback on 6 graded essays (IRAC-focused)",
+      "Data-driven MBE mastery with subtopic tagging",
+      "Community accountability and coaching"
+    ],
+    "price_usd": {
+      "standard": 1499,
+      "early_bird": 1299,
+      "payment_plan": "4 x $375",
+      "scholarships": "Limited need-based scholarships available"
+    },
+    "refund_policy": "7-day no-questions-asked from cohort start; pass guarantee = free retake next cohort if attendance 85%+ and practice targets met",
+    "jurisdictions": {
+      "focus": "UBE jurisdictions (NY, DC, CO, AZ, etc.)",
+      "notes": "California-specific track planned in v2; high-level CA guidance available now (no legal advice)"
+    },
+    "launch_window_days_after_move": 45,
+    "assumptions": [
+      "⚠️ Evening venue availability at selected coworking site",
+      "⚠️ Cohort minimum of 12 to run"
+    ]
+  },
+  "workbook": {
+    "title": "MBE Drill Workbook: 1,200 Questions with Full Explanations (UBE Edition)",
+    "format": "Print-on-demand paperback (Amazon KDP), 8.5 x 11 inches",
+    "page_count_estimate": 620,
+    "question_count": 1200,
+    "sections": ["Civil Procedure", "Constitutional Law", "Contracts", "Criminal Law & Procedure", "Evidence", "Real Property", "Torts"],
+    "features": [
+      "Difficulty-tiered sets with mixed blocks",
+      "Subtopic tags (e.g., hearsay exceptions, RAP, SoF)",
+      "Timing drills (1.8 min/question)",
+      "Answer explanations with rule statements + application",
+      "Error log and reflection prompts"
+    ],
+    "price_usd": 44.99,
+    "isbn_13": "979-8-7654-3210-1",
+    "authors": ["Lone Star Legal Ed LLC (faculty team)"],
+    "amazon_listing": {
+      "fulfillment": "KDP Print (POD)",
+      "categories": ["Law Study Guides", "Test Prep & Study Guides"],
+      "target_keywords": [
+        "MBE practice questions",
+        "bar exam questions",
+        "UBE study guide",
+        "IRAC essay",
+        "MEE practice",
+        "MPT performance test"
+      ],
+      "launch_goal_units_month_1": 150,
+      "launch_goal_units_month_3": 300
+    },
+    "assumptions": [
+      "⚠️ Final page count depends on layout and proof pass",
+      "⚠️ KDP turnaround times may vary (proof to live 7–10 days)"
+    ]
+  }
+}

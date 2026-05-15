@@ -1,0 +1,10 @@
+audiences:
+  - id: GradStudents
+    interests: ["reproducibility", "datasets", "tooling", "ci"]
+    tone: "practical, encouraging"
+  - id: ResearchEngineers
+    interests: ["hpc", "performance", "ci", "build-systems"]
+    tone: "technical, concise"
+  - id: PI
+    interests: ["sustainability", "impact", "ethics", "reproducibility"]
+    tone: "evidence-focused"

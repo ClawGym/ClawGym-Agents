@@ -1,0 +1,5 @@
+id,name,email,country,vat_number,vat_valid,plan
+C001,Aoife Murphy,aoife.murphy@example.ie,IE,,false,pro_monthly
+C002,Mueller GmbH,billing@mueller-gmbh.de,DE,DE123456789,true,pro_annual
+C003,Hans Schmidt,hans.schmidt@example.de,DE,,false,pro_monthly
+C004,Acme Corp US,ap@acme-us.com,US,,false,pro_annual

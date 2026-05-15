@@ -1,0 +1,8 @@
+task_id,description,complexity,pii
+T01_collect_kpis,Pull weekly KPIs from analytics exports and CRM,medium,true
+T02_first_draft_report,Draft the weekly client performance narrative,high,false
+T03_generate_charts_text,Create chart annotations and headlines,low,false
+T04_fact_check_metrics,Cross-check KPI deltas vs raw exports,medium,true
+T05_client_email_draft,Draft client-facing summary email (C-suite tone),medium,false
+T06_risk_opportunity_analysis,Identify anomalies risks and opportunities with root-cause hypotheses,high,false
+T07_appendix_compile,Compile appendix of campaign changes and notes,low,false

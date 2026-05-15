@@ -1,0 +1,38 @@
+[
+  {
+    "query": "boss communication",
+    "tags": ["communication", "boss"],
+    "min_confidence": 0.6,
+    "limit": 5
+  },
+  {
+    "query": "api rate limit",
+    "tags": ["api"],
+    "min_confidence": 0.7,
+    "limit": 3
+  },
+  {
+    "query": "meetings schedule",
+    "tags": ["schedule"],
+    "min_confidence": 0.9,
+    "limit": 10
+  },
+  {
+    "query": "project status DataDeck",
+    "tags": ["project", "status"],
+    "min_confidence": 0.5,
+    "limit": 5
+  },
+  {
+    "query": "trading risk",
+    "tags": ["trading"],
+    "min_confidence": 0.65,
+    "limit": 5
+  },
+  {
+    "query": "communication",
+    "tags": ["communication"],
+    "min_confidence": 0.75,
+    "limit": 2
+  }
+]

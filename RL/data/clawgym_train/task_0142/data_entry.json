@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0142",
+  "user_query": "Set up a short \"Meeting Notes\" collaborative session using the incremental CRDT persistence engine that supports three actions: create (\"team.create\"), incremental sync (\"team.sync\" with Ed25519 signature parameters), and load (\"team.load\"). Read input/updates.json for two update payloads and associated keys/signatures, then:\n\n1) Create a new persistent session with taskName \"Notes Sync Demo\".\n2) Append both updates in order with \"team.sync\".\n3) Load the full merged state with \"team.load\".\n4) Write the following outputs:\n\n- output/manifest.json: An object capturing the raw JSON responses from each step plus a \"checks\" section. Required shape:\n{\n  \"sessionId\": \"<from create>\",\n  \"create\": <exact response>,\n  \"sync\": [<exact response 1>, <exact response 2>],\n  \"load\": <exact response>,\n  \"checks\": {\n    \"payload_sha256\": \"<lowercase hex>\",\n    \"payload_base64_length\": <integer byte length after base64 decode>\n  }\n}\n\n- output/state_base64.txt: the exact base64 payload string from load.data.payload\n- output/state_hash.txt: the same SHA-256 hex shown in manifest.checks.payload_sha256\n- output/timeline.tsv: header \"step\tiso8601\", then four rows for \"create\", \"sync1\", \"sync2\", \"load\" with strictly increasing ISO-8601 timestamps.\n\nOnly use relative paths under input/ and output/. Do not include any absolute paths in the files you write.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

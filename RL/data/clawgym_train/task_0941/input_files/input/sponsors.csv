@@ -1,0 +1,5 @@
+tier,price,expected_qty,notes
+Platinum,20000,1,"Keynote intro + premium branding + 10 comp tickets"
+Gold,10000,2,"Panel slot or workshop + standard branding + 5 comp tickets"
+Silver,5000,3,"Logo placement + 3 comp tickets"
+Exhibitor,2000,4,"Expo table + 2 comp tickets"

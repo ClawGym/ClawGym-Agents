@@ -1,0 +1,21 @@
+{
+  "product": "LocalFlow — Reviews & SMS Automation",
+  "product_type": "SaaS (monthly subscription)",
+  "target_audience": "Local service businesses (dentists, HVAC, salons, home services)",
+  "market_position": "Value-focused alternative to Birdeye and Podium with simpler setup and strong automation",
+  "estimated_monthly_savings_per_customer": 240,
+  "competitive_landscape_summary": "Competitors charge between $79 and $149 per month for similar review and messaging features.",
+  "desired_outcome": "Increase conversion and average order value via clear tiering, ethical scarcity, and strong ROI framing.",
+  "core_features": [
+    "Automated review requests via SMS",
+    "AI-generated response templates",
+    "Two-way SMS inbox",
+    "Google Business Profile integration",
+    "Appointment booking links",
+    "Basic analytics and reporting"
+  ],
+  "constraints": {
+    "capacity": "We can onboard up to 25 growth-tier customers per month due to support bandwidth."
+  },
+  "notes": "Primary buyers are owners and office managers; price sensitivity is moderate when ROI is demonstrated."
+}

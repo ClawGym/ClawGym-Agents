@@ -1,0 +1,3 @@
+Action item: REQ-105 still blocking month-end close; filter on 'Region' resets.
+Reminder: REQ-110 guest portal copy reviewed; waiting on legal phrasing.
+Heads-up: REQ-108 rules order affects shared mailbox triage.

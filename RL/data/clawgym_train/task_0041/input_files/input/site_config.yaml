@@ -1,0 +1,8 @@
+site_name: "SAFIA Fan Zine"
+language: "en"
+default_timezone: "UTC"
+nav:
+  - Home: "index.md"
+features:
+  theme: "default"
+data_files: []

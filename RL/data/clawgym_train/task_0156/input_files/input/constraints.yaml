@@ -1,0 +1,56 @@
+# Global package selection and safety constraints for winget operations
+
+allowed_publishers:
+  - Microsoft
+  - Mozilla
+  - VideoLAN
+  - Notepad++
+  - Git
+  - Google
+  - 7zip
+
+forbidden_packages:
+  - EvilCorp.BadTool
+  - SomeMalware.BadApp
+
+selection:
+  # Prefer the exact package ID provided in the CSV when available
+  prefer_preferred_id: true
+
+  # If a row provides publisher_whitelist, enforce it; otherwise require publisher to be in allowed_publishers
+  require_allowed_publisher: true
+
+  # Matching strategy: try exact ID first, then restrict by publisher, then fallback to name match
+  match_order:
+    - id
+    - publisher_then_name
+    - name_fuzzy
+
+  # Only consider these sources
+  allowed_sources:
+    - winget
+    - msstore
+
+  # Limit for search result processing
+  max_search_results: 25
+
+  # If version is specified in the CSV, pin install/upgrade to that version
+  pin_versions_when_specified: true
+
+  # Always verify results by listing the package after each action
+  verify_via_list_after_action: true
+
+  # Skip and log any package that matches forbidden_packages
+  skip_if_forbidden: true
+
+upgrade_policy:
+  allow_major: true
+  allow_prerelease: false
+
+safety:
+  # Extra safeguard for uninstalls: proceed only if the target matches constraints
+  uninstall_safe_guard: true
+
+logging:
+  # Keep logs concise but include decision points and constraint checks
+  verbosity: concise

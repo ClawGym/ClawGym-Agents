@@ -1,0 +1,6 @@
+timestamp,from,subject,preview
+2026-04-19T07:50:00-04:00,billing@cloudscale.com,"Payment overdue: CloudScale April invoice","Your April invoice for CloudScale ($12,480) is past due. Service may be limited after 18:00 today."
+2026-04-19T06:05:00-04:00,security@authlion.com,"Security alert: unusual admin login attempt","We blocked an unusual login attempt to your tenant admin console from an unrecognized device. No action required unless this was you."
+2026-04-18T21:30:00-04:00,liam@company.com,"Payments dependency: schema change waiting on approval","We can't deploy today's payments release until Core confirms the gateway schema."
+2026-04-19T08:05:00-04:00,noreply@newsletter.company,"Engineering newsletter — Apr 19","Weekly updates and highlights."
+2026-04-18T17:10:00-04:00,receipts@cloudscale.com,"Invoice 8421 paid","We received your payment for March. Thank you."

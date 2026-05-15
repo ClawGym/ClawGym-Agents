@@ -1,0 +1,16 @@
+id,platform,component,command,symptom,log_excerpt,notes
+INC-001,"Windows 11 Pro x64","npm (global)","npm install -g clawhub","Global installation fails with EEXIST file already exists","npm ERR! code EEXIST
+npm ERR! syscall rename
+npm ERR! path C:\Users\dev\AppData\Roaming\npm\clawhub
+npm ERR! dest C:\Users\dev\AppData\Roaming\npm\clawhub.old
+npm ERR! errno -4075
+npm ERR! EEXIST: file already exists, rename 'C:\Users\dev\AppData\Roaming\npm\clawhub' -> 'C:\Users\dev\AppData\Roaming\npm\clawhub.old'","Previous global install left files; Windows path collision likely. Impacts new installs/updates."
+INC-002,"Ubuntu 22.04 LTS","npm (registry)","npm install -g tavily-search","Package installation fails with 404 Not Found","npm ERR! code E404
+npm ERR! 404 Not Found - GET https://registry.npmjs.org/tavily-search - Not found
+npm ERR! 404  'tavily-search' is not in the npm registry.","Likely wrong or unknown package name. Candidate skill may exist on ClawHub under a different name."
+INC-003,"macOS 14.3 (Sonoma)","Web search tool","web_search \"k8s ingress best practices\"","Tool fails due to missing environment variable","Error: TAVILY_API_KEY is not set
+Check README_CONFIG.md for required environment variables.
+Process exited with code 1.","Environment variable not configured for Tavily API. Affects all web_search calls."
+INC-004,"Windows 10 + Chrome 123","OpenClaw Browser Extension","browser.snapshot and then browser.click","Browser integration reports 'tab not found' during follow-up operations","[extension] error: tab not found
+Gateway: connected=true; badge: OFF
+Action aborted: target tab is detached or closed.","Follow-up operation attempted after tab was closed or extension detached. Gateway reseat may be required."

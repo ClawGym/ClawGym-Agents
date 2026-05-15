@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0922",
+  "user_query": "Build an SSL certificate health monitoring mini‑toolkit and a review package:\n\n1) Read input/domains.csv (columns: domain, port optional) and generate both a human‑readable report at output/ssl_report.txt and a structured JSON at output/ssl_report.json. Use a warning threshold of 21 days. For each domain, include subject, issuer, protocol, not_before, not_after, days_remaining, SANs, status, and any error encountered. If port is blank, default to 443.\n2) Write the monitoring script you used to output/check_ssl.py. It must support CLI flags: --warn-days, --port, --json, --timeout and multiple domains. Handle DNS failures and timeouts gracefully.\n3) Read input/security_announcement.md and produce a critical decode at output/announcement_decode.md using the Shadow Sentinel 5‑part framework (Mirror Text, Hidden Face, Mechanism, Receipts to collect, Risk notes).\n4) Read input/judge_criteria.md and run a judge‑style cross‑model review of your monitoring approach. Save the verdict to output/judge_review.md with the required verdict and scored dimensions (Completeness, Feasibility, Risk Awareness, Testing Strategy). Target the 60–70% approval‑rate norms.\n5) Log at least one learning and one error placeholder to output/.learnings/LEARNINGS.md and output/.learnings/ERRORS.md following the structured formats (IDs, priority, status, area, summary, details, suggested action, metadata).\n\nAll outputs must be written under output/. If you need extra helper files, put them under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

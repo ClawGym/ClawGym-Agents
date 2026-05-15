@@ -1,0 +1,6 @@
+SECURITY AUDIT — captured snapshot
+CRITICAL: 2
+[CRITICAL] C:\Users\Alice\.openclaw\openclaw.json — ACL too permissive: BUILTIN\Users:(F), Everyone:(F)
+[CRITICAL] C:\Users\Alice\.openclaw\credentials\telegram\default\token.txt — Inherited permissions grant Users:Read, Everyone:Read
+WARN: 1
+[WARN] C:\Users\Alice\.openclaw\logs — directory is writable by Users

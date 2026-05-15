@@ -1,0 +1,5 @@
+source_dir: "input/incoming"
+archive_dir: "archive"
+allowed_extensions:
+  - ".flac"
+case_sensitive: true

@@ -1,0 +1,6 @@
+run_id,date,team,participant,checkpoints_completed,total_checkpoints,distance_km,time_min,dropped_at_checkpoint
+1,2026-04-13,Alpha,Jack,8,8,5.2,59,
+2,2026-04-13,,Aiden,8,8,5.2,sixty,
+3,2026-04-13,Bravo,Chloe,8,8,-5.2,58,
+4,2026-04-13,Charlie,Amelia,7,8,5.two,67,7
+5,2026-04-13,Alpha,Ben,8,8,5.2,,

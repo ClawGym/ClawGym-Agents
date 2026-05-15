@@ -1,0 +1,12 @@
+{
+  "total_customers_start": 600,
+  "total_customers_end": 780,
+  "logo_churn_pct": 8.5,
+  "nrr_pct": 114,
+  "nps": 45,
+  "arr_start": 8500000,
+  "arr_end": 11500000,
+  "arpa_monthly": 1200,
+  "cac_per_customer": 17500,
+  "monthly_churn_rate": 0.00864
+}

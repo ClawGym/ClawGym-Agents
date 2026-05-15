@@ -1,0 +1,7 @@
+initiative_id,name,start_date,end_date,baseline_foot_traffic,period_foot_traffic,baseline_sales,period_sales,notes
+INI-001,Shop Local Week,2026-03-01,2026-03-07,1200,1380,24000,27600,Partnered with Chamber for social boosts
+INI-002,Farmers' Market Saturdays,2026-03-05,2026-04-09,900,1080,18000,19500,Foot traffic uptick earlier in the day
+INI-003,City Parking Discount,2026-03-10,2026-03-24,1100,1045,22000,21450,Customers confused about validation
+INI-004,Holiday Parade Street Closure,2025-12-10,2025-12-12,1300,1170,26000,24960,Store access limited on parade day
+INI-005,Back-to-School Voucher,2025-08-15,2025-09-01,1000,1150,20000,24000,Strong response from families
+INI-006,Neighborhood Night Out,2026-04-12,2026-04-12,950,1045,19000,20500,Evening spike; staffing ok

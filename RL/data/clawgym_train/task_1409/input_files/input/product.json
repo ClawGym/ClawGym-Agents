@@ -1,0 +1,17 @@
+{
+  "name": "Stainless Steel Water Bottle 750ml",
+  "duty_category": "kitchen_tools",
+  "unit_weight_kg": 0.36,
+  "unit_dimensions_cm": {
+    "L": 7.5,
+    "W": 7.5,
+    "H": 26
+  },
+  "unit_cost_usd": 4.40,
+  "units_per_carton": 24,
+  "carton_dimensions_cm": {
+    "L": 60,
+    "W": 40,
+    "H": 40
+  }
+}

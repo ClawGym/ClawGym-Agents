@@ -1,0 +1,9 @@
+{
+  "data_path": "input/routes.csv",
+  "output_dir": "output",
+  "fields": {
+    "mode": "mode",
+    "start_year": "start_year",
+    "municipality": "municipality"
+  }
+}

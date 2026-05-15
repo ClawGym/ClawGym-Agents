@@ -1,0 +1,21 @@
+student_id,district,site,observations,litter_count,water_ph,hours_spent
+S001,Bao'an,Bihai Park,25,10,7.2,1.5
+S002,Bao'an,Xixiang River,20,12,7.4,2.0
+S003,Bao'an,Tiegang Reservoir,18,8,7.1,1.0
+S004,Bao'an,Shiyan Lake,30,15,7.3,2.5
+S005,Bao'an,Qiaotou Stream,22,9,7.0,1.8
+S006,Bao'an,Gongming Park,24,11,7.2,2.2
+S007,Longhua,Minzhi Park,15,7,7.1,1.2
+S008,Longhua,Shenzhen North Greenway,28,13,7.3,2.3
+S009,Longhua,Red Mountain Park,19,9,7.2,1.7
+S010,Longhua,Longhua Riverbank,21,11,7.4,2.1
+S011,Nanshan,Shenzhen Bay Park,14,6,7.0,1.1
+S012,Nanshan,Tech Park Greenbelt,16,8,6.9,1.3
+S013,Nanshan,Tanglang Stream,12,5,7.1,1.0
+S014,Nanshan,Shekou Harbor Walk,15,7,7.0,1.4
+S015,Nanshan,Meilin Park,18,9,7.2,1.6
+S016,Futian,Lianhuashan Park,26,14,7.5,2.4
+S017,Futian,Central River,32,16,7.6,2.6
+S018,Futian,Xiangmi Park,25,12,7.4,2.0
+S019,Luohu,Shuibei Stream,23,10,7.3,2.1
+S020,Luohu,Honghu Park,20,8,7.2,1.9

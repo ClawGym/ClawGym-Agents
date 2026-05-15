@@ -1,0 +1,12 @@
+{
+  "include_genres": ["Sci-Fi", "Literary Fiction", "Mystery"],
+  "min_priority": 3,
+  "date_window": {
+    "start": "2026-06-01",
+    "end": "2026-08-31"
+  },
+  "exclude_titles": ["The Lost Archive"],
+  "include_if_no_embargo_only": true,
+  "blogger_name": "Marin",
+  "email_salutation": "Hi {blogger_name},"
+}

@@ -1,0 +1,6 @@
+birthday
+anniversary
+scrapbook
+album
+photo
+photos

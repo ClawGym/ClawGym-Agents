@@ -1,0 +1,7 @@
+base_url: "https://example.org/"
+title_len_min: 50
+title_len_max: 65
+meta_description_len_min: 120
+meta_description_len_max: 160
+required_keywords_csv: "input/keywords.csv"
+require_robots_index_follow: true

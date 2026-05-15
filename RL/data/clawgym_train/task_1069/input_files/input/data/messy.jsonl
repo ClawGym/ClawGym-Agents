@@ -1,0 +1,8 @@
+# ignore: header
+{"event":"login","user":"carol","success":true}
+{"event":"logout","user":"carol","success":true,}
+# another comment
+{"event":"purchase","items":3,"amount":42.5}
+{"event": "signup" "user": "ed"}
+[{"x":1},{"x":2}]
+# end

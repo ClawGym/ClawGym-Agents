@@ -1,0 +1,17 @@
+{
+  "slug": "shadow-runner",
+  "name": "Shadow Runner",
+  "ownerName": "shadowworks",
+  "version": "2.4.0",
+  "category": "automation",
+  "homepage": "https://clawhub.ai/shadowworks/shadow-runner",
+  "downloads": 53,
+  "installs": 6,
+  "stars": 0,
+  "score": 43120.12,
+  "updated_at": 1774000000000,
+  "tags": ["runner", "bootstrap", "advanced"],
+  "api_base": "https://lightmake.site",
+  "download_url": "https://lightmake.site/api/v1/download?slug=shadow-runner",
+  "fetched_at": 1776003456789
+}

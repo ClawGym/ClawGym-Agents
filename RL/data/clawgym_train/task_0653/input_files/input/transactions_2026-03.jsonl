@@ -1,0 +1,38 @@
+{"date": "2026-03-01", "type": "income", "category": "Salary", "amount": 4500.00, "note": "March salary"}
+{"date": "2026-03-01", "type": "expense", "category": "Entertainment", "amount": 12.99, "note": "Streaming subscription"}
+{"date": "2026-03-01", "type": "expense", "category": "Transport", "amount": 40.00, "note": "Subway card top-up"}
+{"date": "2026-03-02", "type": "expense", "category": "Housing", "amount": 1200.00, "note": "Rent"}
+{"date": "2026-03-03", "type": "expense", "category": "Food", "amount": 12.35, "note": "Lunch"}
+{"date": "2026-03-04", "type": "expense", "category": "Food", "amount": 68.90, "note": "Groceries"}
+{"date": "2026-03-04", "type": "expense", "category": "Education", "amount": 89.00, "note": "Online course"}
+{"date": "2026-03-05", "type": "expense", "category": "Food", "amount": 22.80, "note": "Dinner"}
+{"date": "2026-03-05", "type": "expense", "category": "Utilities", "amount": 60.00, "note": "Electricity bill"}
+{"date": "2026-03-06", "type": "expense", "category": "Food", "amount": 4.50, "note": "Coffee"}
+{"date": "2026-03-07", "type": "expense", "category": "Food", "amount": 82.75, "note": "Groceries"}
+{"date": "2026-03-07", "type": "expense", "category": "Utilities", "amount": 45.00, "note": "Internet bill"}
+{"date": "2026-03-08", "type": "expense", "category": "Transport", "amount": 24.50, "note": "Taxi"}
+{"date": "2026-03-09", "type": "expense", "category": "Shopping", "amount": 120.00, "note": "Electronics accessory"}
+{"date": "2026-03-10", "type": "expense", "category": "Food", "amount": 13.20, "note": "Lunch"}
+{"date": "2026-03-11", "type": "expense", "category": "Entertainment", "amount": 18.00, "note": "Movie ticket"}
+{"date": "2026-03-12", "type": "expense", "category": "Food", "amount": 24.60, "note": "Dinner"}
+{"date": "2026-03-12", "type": "expense", "category": "Utilities", "amount": 30.00, "note": "Water bill"}
+{"date": "2026-03-13", "type": "expense", "category": "Healthcare", "amount": 38.20, "note": "Pharmacy"}
+{"date": "2026-03-14", "type": "expense", "category": "Food", "amount": 95.30, "note": "Groceries"}
+{"date": "2026-03-15", "type": "income", "category": "Freelance", "amount": 600.00, "note": "Project payment"}
+{"date": "2026-03-15", "type": "expense", "category": "Education", "amount": 24.50, "note": "Book"}
+{"date": "2026-03-16", "type": "expense", "category": "Shopping", "amount": 180.00, "note": "Clothes"}
+{"date": "2026-03-17", "type": "expense", "category": "Transport", "amount": 40.00, "note": "Subway card top-up"}
+{"date": "2026-03-18", "type": "expense", "category": "Food", "amount": 11.80, "note": "Lunch"}
+{"date": "2026-03-19", "type": "expense", "category": "Healthcare", "amount": 85.00, "note": "Dental cleaning"}
+{"date": "2026-03-20", "type": "expense", "category": "Food", "amount": 26.40, "note": "Dinner"}
+{"date": "2026-03-21", "type": "expense", "category": "Entertainment", "amount": 95.00, "note": "Concert ticket"}
+{"date": "2026-03-22", "type": "expense", "category": "Food", "amount": 86.90, "note": "Groceries"}
+{"date": "2026-03-23", "type": "expense", "category": "Shopping", "amount": 95.00, "note": "Home goods"}
+{"date": "2026-03-24", "type": "expense", "category": "Entertainment", "amount": 27.50, "note": "Drinks with friends"}
+{"date": "2026-03-25", "type": "expense", "category": "Food", "amount": 18.50, "note": "Brunch"}
+{"date": "2026-03-26", "type": "expense", "category": "Shopping", "amount": 65.00, "note": "Small gadget"}
+{"date": "2026-03-27", "type": "expense", "category": "Food", "amount": 91.25, "note": "Groceries"}
+{"date": "2026-03-28", "type": "income", "category": "Investments", "amount": 85.50, "note": "Dividend payout"}
+{"date": "2026-03-29", "type": "expense", "category": "Food", "amount": 21.70, "note": "Dinner"}
+{"date": "2026-03-30", "type": "expense", "category": "Other", "amount": 55.00, "note": "Birthday gift"}
+{"date": "2026-03-31", "type": "expense", "category": "Other", "amount": 25.00, "note": "Charitable donation"}

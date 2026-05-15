@@ -1,0 +1,11 @@
+participant_id,session_id,condition,trial_index,rt_ms,accuracy,vividness_rating,report_text
+p02,s1,focused,1,530,1,5,"The visual image stayed stable; agency was clear; breath smooth."
+p02,s1,focused,2,510,1,6,"Felt strong bodily awareness, no sound, good control."
+p02,s1,focused,3,560,1,4,"Some effort to maintain the picture; the voice was absent."
+p02,s1,focused,4,590,0,3,"An automatic response but the visual focus remained."
+p02,s1,focused,5,545,1,4,"Heartbeat noticeable; agency intact; the image was vivid."
+p02,s1,mind_wandering,6,760,0,2,"Drifting without control and little image."
+p02,s1,mind_wandering,7,710,0,3,"Auditory chatter, bodily tension, and effort to concentrate."
+p02,s1,mind_wandering,8,690,0,4,"Heard a voice; the image faded; breath was rough."
+p02,s1,mind_wandering,9,705,0,3,"Agency felt low and an automatic pull to sound."
+p02,s1,mind_wandering,10,695,0,4,"A picture popped up; little control; muscle tightness."

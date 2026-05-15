@@ -1,0 +1,10 @@
+----- pid 1234 at 2024-10-05 14:23:12 -----
+Cmd line: com.example.app
+
+"main" prio=5 tid=1 Native
+  at android.app.ActivityThread.handleReceiver(ActivityThread.java:)
+  at r.t.u.b.onReceive(Unknown Source:0)
+  at android.os.Handler.dispatchMessage(Handler.java:)
+
+"DefaultDispatcher-worker-1" prio=5 tid=12 Runnable
+  at x.y.z.d.run(Unknown Source:34)

@@ -1,0 +1,25 @@
+ip_network:
+  capacity_mbps: 10000
+  safety_margin_pct: 20
+
+transport_profiles:
+  NDI:
+    type: compressed_bpp
+    compression_ratio: 12.5
+    overhead_pct: 8
+    bpp_map:
+      "8bit_422": 16
+      "10bit_422": 20
+      "8bit_444": 24
+  RTMP:
+    type: table
+    bitrate_table_mbps:
+      "1920x1080@60": 6
+      "1920x1080@30": 4
+      "3840x2160@60": 20
+  SDI:
+    type: ignore_ip
+
+encoding_preferences:
+  fallback_rules:
+    live_if_hevc_unavailable: "H264"

@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "date": "2026-03-20",
+      "type": "news",
+      "title": "Achieved SOC 2 Type II for Watchtower and Pulse",
+      "details": "Audit completed; controls cover data security, availability, and confidentiality across core services."
+    },
+    {
+      "date": "2026-02-28",
+      "type": "product_update",
+      "title": "Pulse adds anomaly detection and seasonal baseline modeling",
+      "details": "Early customers report fewer noisy alerts and clearer incident prioritization."
+    },
+    {
+      "date": "2026-01-12",
+      "type": "partnership",
+      "title": "Partnered with CloudMart to deliver marketplace analytics blueprints",
+      "details": "Prebuilt patterns for marketplace operations and seller onboarding health."
+    },
+    {
+      "date": "2025-12-05",
+      "type": "product_update",
+      "title": "Watchtower 3.3: Faster Shopify connector and new order-latency metric",
+      "details": "Connector performance improved ~40%; adds latency tracking for orders and webhooks."
+    },
+    {
+      "date": "2025-09-15",
+      "type": "partnership",
+      "title": "Technology partnership with TinyETL for no-code connectors",
+      "details": "Co-built connectors and shared go-to-market initiatives to accelerate data onboarding."
+    },
+    {
+      "date": "2025-07-10",
+      "type": "funding",
+      "title": "Announced $12M Series A led by Notional Ventures",
+      "details": "Capital allocated to engineering hiring, partner programs, and developer tooling."
+    }
+  ]
+}

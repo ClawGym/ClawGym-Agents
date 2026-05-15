@@ -1,0 +1,7 @@
+{
+  "aliases": ["Alpha", "Beta"],
+  "messages": ["We come in peace", "All systems nominal"],
+  "secret": "LaunchCode-2026",
+  "sessionId": "demo-session-001",
+  "relayUrl": "wss://relay.example.org"
+}

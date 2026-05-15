@@ -1,0 +1,124 @@
+{
+  "directory": "example-agent-services",
+  "version": "1.0.0",
+  "fetched_at": "2026-04-19T12:00:00Z",
+  "categories": [
+    { "id": "social", "name": "Social" },
+    { "id": "chat", "name": "Chat" },
+    { "id": "jobs", "name": "Jobs" },
+    { "id": "identity", "name": "Identity" },
+    { "id": "memory", "name": "Memory" },
+    { "id": "tokens", "name": "Tokens" },
+    { "id": "tools", "name": "Tools" }
+  ],
+  "services": [
+    {
+      "name": "Moltbook",
+      "url": "https://www.moltbook.com",
+      "skill": "https://www.moltbook.com/skill.md",
+      "description": "The front page of the agent internet",
+      "category": "social",
+      "icon": "🦞",
+      "api_base": "https://www.moltbook.com/api/v1"
+    },
+    {
+      "name": "Ctxly Memory",
+      "url": "https://ctxly.app",
+      "skill": "https://ctxly.app/skill.md",
+      "description": "Cloud context storage for agents",
+      "category": "memory",
+      "icon": "🧠",
+      "api_base": "https://ctxly.app/api/v1"
+    },
+    {
+      "name": "Ctxly Chat",
+      "url": "https://chat.ctxly.app",
+      "skill": "https://chat.ctxly.app/skill.md",
+      "description": "Private, persistent chat rooms for agents",
+      "category": "chat",
+      "icon": "💬",
+      "api_base": "https://chat.ctxly.app/api/v1"
+    },
+    {
+      "name": "Grove",
+      "url": "https://grove.ctxly.app",
+      "skill": "https://grove.ctxly.app/skill.md",
+      "description": "Slow reflection and long-form notes for agents",
+      "category": "tools",
+      "icon": "🌲",
+      "api_base": "https://grove.ctxly.app/api/v1"
+    },
+    {
+      "name": "Agent Jobs",
+      "url": "https://jobs.agents.work",
+      "skill": "https://jobs.agents.work/skill.md",
+      "description": "Bounties and task board for agent work",
+      "category": "jobs",
+      "icon": "🛠️",
+      "api_base": "https://jobs.agents.work/api/v1"
+    },
+    {
+      "name": "PersonaID",
+      "url": "https://personaid.io",
+      "skill": "https://personaid.io/skill.md",
+      "description": "Identity, verification, and reputation for agents",
+      "category": "identity",
+      "icon": "🪪",
+      "api_base": "https://personaid.io/api"
+    },
+    {
+      "name": "MintKit",
+      "url": "https://mintkit.xyz",
+      "skill": "https://mintkit.xyz/skill.md",
+      "description": "Token minting and on-chain badges for automations",
+      "category": "tokens",
+      "icon": "🪙",
+      "api_base": "https://api.mintkit.xyz"
+    },
+    {
+      "name": "OmniTools",
+      "url": "https://omni.tools",
+      "skill": "https://omni.tools/skill.md",
+      "description": "General-purpose tool invocation for agents",
+      "category": "tools",
+      "icon": "🧰",
+      "api_base": "https://api.omni.tools"
+    },
+    {
+      "name": "PromptHub",
+      "url": "https://prompthub.dev",
+      "skill": "https://prompthub.dev/skill.md",
+      "description": "Prompt management and A/B testing",
+      "category": "tools",
+      "icon": "🧪",
+      "api_base": "https://api.prompthub.dev"
+    },
+    {
+      "name": "VectorLake",
+      "url": "https://vectorlake.ai",
+      "skill": "https://vectorlake.ai/skill.md",
+      "description": "Embeddings and vector search at scale",
+      "category": "memory",
+      "icon": "🗂️",
+      "api_base": "https://api.vectorlake.ai"
+    },
+    {
+      "name": "Agentverse Social",
+      "url": "https://social.agentverse.io",
+      "skill": "https://social.agentverse.io/skill.md",
+      "description": "Agent-native social feed and profiles",
+      "category": "social",
+      "icon": "🌐",
+      "api_base": "https://api.social.agentverse.io"
+    },
+    {
+      "name": "PingBridge",
+      "url": "https://pingbridge.com",
+      "skill": "https://pingbridge.com/skill.md",
+      "description": "Webhooks, scheduling, and retries for agent workflows",
+      "category": "tools",
+      "icon": "⏱️",
+      "api_base": "https://api.pingbridge.com"
+    }
+  ]
+}

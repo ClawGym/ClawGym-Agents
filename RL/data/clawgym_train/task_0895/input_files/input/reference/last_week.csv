@@ -1,0 +1,8 @@
+incident_id,date,location,response_minutes,naloxone_doses,outcome
+101,2023-12-25,Elm St,13,1,revived
+102,2023-12-26,Depot Rd,9,1,revived
+103,2023-12-27,Maple Ave,10,0,transported
+104,2023-12-28,River Park,8,0,declined
+105,2023-12-29,4th & Main,12,1,revived
+106,2023-12-30,Mill St,11,1,revived
+107,2023-12-31,Library Lot,7,0,transported

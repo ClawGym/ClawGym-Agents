@@ -1,0 +1,19 @@
+{
+  "response_delay": "0.2s",
+  "speech_speed": 1.2,
+  "caution_coefficient": 0.1,
+  "risk_reminder": true,
+  "channels": [
+    "customers",
+    "internal_staff",
+    "partners",
+    "status_page"
+  ],
+  "max_chars": {
+    "customers": 160,
+    "internal_staff": 220,
+    "partners": 200,
+    "status_page": 240
+  },
+  "anchor_phrase": "We will keep you informed"
+}

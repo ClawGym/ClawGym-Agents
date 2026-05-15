@@ -1,0 +1,9 @@
+{
+  "pairs": [
+    {"candidate_id": "C01", "better": "J103", "worse": "J102", "reason": "day+low travel should outrank rotating+higher travel for Amelia"},
+    {"candidate_id": "C01", "better": "J101", "worse": "J104", "reason": "lower travel nights and similar commute"},
+    {"candidate_id": "C02", "better": "J103", "worse": "J104", "reason": "no travel and remote vs high travel"},
+    {"candidate_id": "C02", "better": "J101", "worse": "J104", "reason": "lower travel nights"},
+    {"candidate_id": "C03", "better": "J103", "worse": "J101", "reason": "short commute and meets remote min"}
+  ]
+}

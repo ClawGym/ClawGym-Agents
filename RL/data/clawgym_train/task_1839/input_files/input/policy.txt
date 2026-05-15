@@ -1,0 +1,43 @@
+Auto Authenticator Local — Policy and Safety Rules
+
+Scope
+- This tool is for legitimate account owners and authorized administrators only.
+- All operations must be explicit, local, and auditable.
+
+Safety Rules
+1) Confirm authorization
+   - Confirm you own the account or have explicit approval to manage it before storing or generating any codes.
+
+2) Secret handling
+   - Do not store TOTP seeds in plaintext.
+   - Never paste seeds into chat logs, ticketing systems, screenshots, wikis, or version control.
+   - Avoid passing seeds via shell history or environment variables that persist.
+
+3) Generation behavior
+   - No background or silent code generation.
+   - Require an explicit alias for each code request; do not automate hidden OTP flows.
+
+4) Export and enumeration controls
+   - Do not bulk-export secrets.
+   - Do not list or dump all aliases; handle one alias at a time.
+
+5) Storage backend
+   - Prefer OS secure storage (system vault) such as macOS Keychain, Windows Credential Manager, or Linux Secret Service/KWallet.
+   - Do not fall back to plaintext files if a system vault is unavailable; fix the backend instead.
+
+6) Rotation and offboarding
+   - Delete aliases on rotation.
+   - Remove aliases when decommissioning accounts or offboarding users and verify deletion.
+
+7) Compliance boundary
+   - Do not attempt to bypass MFA policies, evade rate limits, or defeat anti-abuse systems.
+   - Do not attempt to hide OTP generation from security controls or logs.
+
+Operational Notes
+- Keep commands scoped to a single alias.
+- When storing a seed, paste it locally only and avoid recording it anywhere else.
+- JSON outputs from code generation are minimal and intended for local consumption; do not forward them to external systems without authorization.
+
+Environment Expectations
+- Python 3.11+ and keyring>=25.0.0 installed locally.
+- A working OS-level secure storage backend (Keychain, Credential Manager, or Secret Service/KWallet).

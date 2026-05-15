@@ -1,0 +1,11 @@
+{
+  "default_split": {"me": 0.5, "ex": 0.5},
+  "overrides": {
+    "extracurricular": {"me": 0.6, "ex": 0.4},
+    "medical": {"me": 0.5, "ex": 0.5},
+    "school": {"me": 0.5, "ex": 0.5},
+    "clothing": {"me": 0.5, "ex": 0.5},
+    "transport": {"me": 0.5, "ex": 0.5}
+  },
+  "exclude_categories": ["gift", "groceries"]
+}

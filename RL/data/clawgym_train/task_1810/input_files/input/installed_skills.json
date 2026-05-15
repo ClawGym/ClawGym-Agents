@@ -1,0 +1,25 @@
+[
+  {
+    "slug": "agentmesh",
+    "location": "./skills/agentmesh",
+    "installed_version": "1.1.0",
+    "migration_risk": false
+  },
+  {
+    "slug": "agentledger-financial-tracker",
+    "location": "./skills/agentledger-financial-tracker",
+    "installed_version": "1.0.0",
+    "auto_update": "yes",
+    "migration_risk": true,
+    "from_version": "1.0.0",
+    "to_version": "1.1.0",
+    "possible_changes": "Adds streams.md and restructures the finance/ folder layout."
+  },
+  {
+    "slug": "assignment-check",
+    "location": "./skills/assignment-check",
+    "installed_version": "1.0.0",
+    "auto_update": "no",
+    "migration_risk": false
+  }
+]

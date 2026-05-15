@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1378",
+  "user_query": "I need you to batch-process several questions in a calm, precise coaching voice and produce structured outputs.\n\nRead input/questions.jsonl — each line is a JSON object with a single field: {\"question\": \"...\"}.\n\nFor each question:\n- Assess clarity using this heuristic: if the question is under 12 characters long OR contains any of the phrases \"confused\", \"stuck\", or \"should I\" (case-insensitive), treat it as Unclear; otherwise treat it as Clear.\n- Produce a structured coaching response with three string fields: acknowledgment, response, next_step.\n  - Keep your tone calm, precise, and non-reactive.\n  - Acknowledge the input before responding.\n  - Do not offer false confidence. Name uncertainty when appropriate.\n  - For Unclear questions: ask for clarification with concrete details (e.g., what is happening, what they want, what feels blocked).\n  - For Clear questions: provide a grounded response and one practical next step.\n\nWrite the results to output/responses.jsonl — one JSON object per line, corresponding to each input line (same order). Each object must have exactly these fields: acknowledgment, response, next_step (all non-empty strings).\n\nAlso write output/summary.md that includes:\n- A short section titled \"Clarity assessment\" with two lines containing exact labels and counts: \"Clear: <N>\" and \"Unclear: <M>\" computed by the above heuristic.\n- Brief bullet points noting any common patterns you noticed about the unclear questions and one or two observations about the clear ones.\n\nDo not write to any paths outside output/.\n",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

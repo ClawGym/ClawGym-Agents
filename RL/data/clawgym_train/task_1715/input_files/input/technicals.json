@@ -1,0 +1,31 @@
+{
+  "ticker": "AAPL",
+  "timeframe": "daily",
+  "trend": {
+    "primary": "uptrend",
+    "above_200ma": true,
+    "above_50ma": true,
+    "ma_alignment": "bullish"
+  },
+  "levels": {
+    "support": [185.0, 182.0, 178.0],
+    "resistance": [198.0, 205.0, 215.0],
+    "current_price": 190.0,
+    "invalidation_level": 182.0
+  },
+  "momentum": {
+    "rsi_14": 58,
+    "macd_signal": "bullish",
+    "macd_histogram_trend": "increasing"
+  },
+  "volume": {
+    "vs_20d_avg": "+12%",
+    "trend": "rising_on_up_days"
+  },
+  "pattern": {
+    "name": "ascending_triangle",
+    "target": 210.0,
+    "confidence": "medium-high"
+  },
+  "risk_sizing_hint": "Use a stop below 182.0 support for value/trend alignment; consider 181.5 if volatility expands."
+}

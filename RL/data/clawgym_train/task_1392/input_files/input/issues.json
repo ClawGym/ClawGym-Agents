@@ -1,0 +1,8 @@
+[
+  {"id": "ISSUE-101", "title": "Reduce branching in validator", "status": "Open", "labels": ["tech-debt"], "component": "src/security/validator.py", "severity": "medium"},
+  {"id": "ISSUE-102", "title": "Handler fails on null input", "status": "Open", "labels": ["bug"], "component": "src/api/handlers.py", "severity": "high"},
+  {"id": "ISSUE-103", "title": "Refactor DB connector pooling", "status": "Open", "labels": ["tech-debt"], "component": "src/db/connector.py", "severity": "low"},
+  {"id": "ISSUE-104", "title": "Add CLI help examples", "status": "Open", "labels": ["enhancement"], "component": "src/cli/main.py", "severity": "low"},
+  {"id": "ISSUE-105", "title": "Parser optimization", "status": "Closed", "labels": ["enhancement"], "component": "src/parser.py", "severity": "medium"},
+  {"id": "ISSUE-106", "title": "Utils dead code removal", "status": "Closed", "labels": ["tech-debt"], "component": "src/utils.py", "severity": "low"}
+]

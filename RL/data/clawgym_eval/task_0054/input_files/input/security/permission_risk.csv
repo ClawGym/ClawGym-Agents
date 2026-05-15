@@ -1,0 +1,5 @@
+permission,risk_level,description
+android.permission.INTERNET,medium,Allows app to create network sockets.
+android.permission.READ_EXTERNAL_STORAGE,high,Reads from external storage; risk of data exfiltration.
+android.permission.WRITE_EXTERNAL_STORAGE,high,Writes to external storage; risk of data leakage or tampering.
+android.permission.CAMERA,medium,Access camera; may capture images.

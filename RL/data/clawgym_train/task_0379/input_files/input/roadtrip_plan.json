@@ -1,0 +1,26 @@
+{
+  "trip_title": "Southwest Desert Loop",
+  "window": {"start_date": "2026-05-10", "end_date": "2026-05-20"},
+  "destinations": [
+    {"city": "Moab", "state": "UT", "dates": ["2026-05-10", "2026-05-12"], "focus": ["national parks", "scenic drives", "local food"]},
+    {"city": "Sedona", "state": "AZ", "dates": ["2026-05-13", "2026-05-15"], "focus": ["red rock hikes", "stargazing", "jeep tours"]},
+    {"city": "Santa Fe", "state": "NM", "dates": ["2026-05-16", "2026-05-18"], "focus": ["historic plazas", "art markets", "southwestern cuisine"]}
+  ],
+  "collaborators": [
+    {"name": "Casey Lee", "role": "co-host"},
+    {"name": "Alex Kim", "role": "drone pilot"}
+  ],
+  "sponsor": {
+    "brand": "TrailFuel Energy Bars",
+    "deliverables": [
+      "1 YouTube vlog per destination (8-12 min)",
+      "2 Instagram Reels per destination",
+      "3 TikToks across the trip",
+      "10 edited photos per destination for sponsor use"
+    ],
+    "key_message": "Clean energy for long days on the road"
+  },
+  "constraints": {
+    "drone_restrictions_note": "Always verify local drone regulations near national parks."
+  }
+}

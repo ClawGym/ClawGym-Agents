@@ -1,0 +1,38 @@
+-- Schema: orders, customers (simplified)
+-- Note: This environment is PostgreSQL 13.9 (see engine.yaml)
+
+-- customers: customer master data. Region is used to filter reports.
+CREATE TABLE public.customers (
+  id           BIGSERIAL PRIMARY KEY,
+  email        TEXT UNIQUE NOT NULL,
+  name         TEXT,
+  region       TEXT NOT NULL, -- e.g., 'NA', 'EMEA', 'APAC'
+  created_at   TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+-- Existing indexes on customers
+-- customers_pkey (id) and customers_email_key already exist
+-- There is NO index on region currently.
+-- CREATE INDEX customers_region_idx ON public.customers(region); -- (proposed, not present)
+
+-- orders: high-ingest transactional table
+CREATE TABLE public.orders (
+  id            BIGSERIAL PRIMARY KEY,
+  customer_id   BIGINT NOT NULL REFERENCES public.customers(id),
+  status        TEXT NOT NULL CHECK (status IN ('pending','paid','shipped','cancelled','refunded')),
+  created_at    TIMESTAMPTZ NOT NULL, -- order creation time
+  shipped_at    TIMESTAMPTZ,
+  total_amount  NUMERIC(12,2) NOT NULL DEFAULT 0,
+  updated_at    TIMESTAMPTZ NOT NULL DEFAULT now()
+);
+
+-- Existing indexes on orders
+CREATE INDEX idx_orders_status ON public.orders(status);
+CREATE INDEX idx_orders_created_at ON public.orders(created_at);
+-- Note: There is NO composite index combining (status, created_at).
+-- Foreign key on (customer_id) exists but no separate index; rely on PK lookup on customers.
+
+-- Row counts and sizes (approximate; also see workload.json):
+-- customers: ~1.2M rows, ~12.4 GB total (including TOAST and indexes)
+-- orders:    ~28M rows, ~135.2 GB total (including TOAST and indexes)
+-- orders ingest rate: ~600 writes/min (bursty around the hour)

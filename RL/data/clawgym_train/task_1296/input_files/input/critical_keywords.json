@@ -1,0 +1,58 @@
+[
+  {
+    "keyword": "customer analytics software",
+    "current_rank": 3,
+    "tier": 1,
+    "page_url": "https://novametrics.io/platform/customer-analytics",
+    "notes": "Primary product page; core revenue driver"
+  },
+  {
+    "keyword": "customer journey analytics",
+    "current_rank": 6,
+    "tier": 1,
+    "page_url": "https://novametrics.io/solutions/customer-journey-analytics",
+    "notes": "High-intent solution page; strategic category"
+  },
+  {
+    "keyword": "product analytics platform",
+    "current_rank": 5,
+    "tier": 1,
+    "page_url": "https://novametrics.io/platform/product-analytics",
+    "notes": "Competitive head term; heavy SERP volatility"
+  },
+  {
+    "keyword": "marketing attribution tool",
+    "current_rank": 10,
+    "tier": 2,
+    "page_url": "https://novametrics.io/solutions/marketing-attribution",
+    "notes": "Emerging pipeline source; target page 1 stability"
+  },
+  {
+    "keyword": "cohort analysis",
+    "current_rank": 11,
+    "tier": 2,
+    "page_url": "https://novametrics.io/blog/cohort-analysis-guide",
+    "notes": "Evergreen blog pillar; education-to-trial funnel"
+  },
+  {
+    "keyword": "analytics dashboard",
+    "current_rank": 15,
+    "tier": 3,
+    "page_url": "https://novametrics.io/blog/analytics-dashboard-examples",
+    "notes": "Mid-funnel blog; long-tail internal links opportunity"
+  },
+  {
+    "keyword": "event tracking",
+    "current_rank": 13,
+    "tier": 2,
+    "page_url": "https://novametrics.io/docs/event-tracking",
+    "notes": "Developer-focused documentation keyword"
+  },
+  {
+    "keyword": "data pipeline monitoring",
+    "current_rank": 22,
+    "tier": 3,
+    "page_url": "https://novametrics.io/blog/data-pipeline-monitoring",
+    "notes": "New content cluster; track early traction"
+  }
+]

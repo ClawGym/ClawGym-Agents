@@ -1,0 +1,35 @@
+{
+  "project": "Data Quality Audit for CSV Logs",
+  "limits": {
+    "budget_tier": "caution",
+    "max_concurrent": 3,
+    "max_concurrent_agents": 3,
+    "retry_limit": 3
+  },
+  "execution": {
+    "offline_only": true,
+    "network_access": false,
+    "phase_gates_required": true,
+    "verification": {
+      "hallucination_checklist_14": true,
+      "regressions_max": 3
+    }
+  },
+  "output": {
+    "root": "output/workspace/orch-001/",
+    "text_only": true,
+    "allowed_extensions": [".md", ".json"]
+  },
+  "rules": [
+    "Use only input/request.md and input/constraints.json",
+    "No TODO or TBD placeholders",
+    "All files must be non-empty",
+    "Reflect limits in planning and execution artifacts"
+  ],
+  "notes": [
+    "Include the exact dependency line: \"Dependencies: T3 depends on T1 and T2\" in the final plan",
+    "Include the literal substrings \"budget tier: caution\", \"max concurrent: 3\", and \"retry limit: 3\" in the final plan",
+    "Task-2 output must mention both \"max concurrent agents: 3\" and \"budget tier: caution\"",
+    "Hallucination report must list exactly 14 lines from H-1 PASS to H-14 PASS"
+  ]
+}

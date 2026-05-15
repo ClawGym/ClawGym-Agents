@@ -1,0 +1,20 @@
+{
+  "B001ALPHA": {
+    "cogs": 10.0,
+    "fba_fee": 5.2,
+    "ppc_cost": 1.5,
+    "min_profit": 2.0
+  },
+  "B002BRAVO": {
+    "cogs": 8.0,
+    "fba_fee": 4.5,
+    "ppc_cost": 2.0,
+    "min_profit": 2.0
+  },
+  "B003CHARLIE": {
+    "cogs": 6.0,
+    "fba_fee": 3.5,
+    "ppc_cost": 0.8,
+    "min_profit": 1.7
+  }
+}

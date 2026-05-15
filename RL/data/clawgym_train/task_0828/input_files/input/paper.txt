@@ -1,0 +1,35 @@
+=== Page 1
+Towards Efficient Cross-Modal Retrieval via Sparse Semantic Projections
+
+Abstract
+Cross-modal retrieval links images and text by embedding them into a shared representation space. Our goal is to reduce end to end compute costs while preserving strong retrieval accuracy at realistic latency budgets. We investigate whether sparse projections can maintain semantic alignment without relying on large dense heads. We propose Sparse Semantic Projections (SSP), a lightweight projection layer that selects and reweights a small subset of embedding dimensions using learned gates. Our contributions are threefold: we introduce a sparsity aware projection mechanism, a curriculum for gate annealing that stabilizes training, and an open weight benchmark suite for reproducible evaluation. Experiments show that SSP achieves comparable accuracy to strong dense baselines while using roughly forty five percent fewer floating point operations. We conclude that controlled sparsity is an effective lever for scaling cross modal retrieval under tight latency constraints.
+
+1 Introduction
+Modern retrieval systems increasingly operate at web scale, yet many models assume generous compute and memory budgets. However, existing methods typically depend on heavy encoders and dense projection heads that inflate latency and index size. Prior work struggles to maintain accuracy when compressing embeddings aggressively, and it often fails to scale beyond one hundred million items under strict service level objectives. This gap motivates a method that preserves semantic alignment with compute efficient projections. We study the problem of cross modal retrieval where a query from one modality must retrieve relevant items from another modality under fixed latency budgets. We define success as high recall at low latency with stable performance across domains.
+
+=== Page 2
+2 Related Work
+Contrastive pretraining has enabled robust cross modal alignment, but most approaches rely on dense projections and large batch training. Several compression methods use dimensionality reduction or product quantization, yet they frequently degrade semantic fidelity. In contrast, sparse feature selection can preserve salient cues if the gating mechanism is trained end to end.
+
+3 Method
+We propose Sparse Semantic Projections (SSP), a learnable layer that maps encoder embeddings to a lower cost space via selective gating. Our approach consists of three components that work together to maintain alignment under sparsity. First, a score network produces per dimension gate logits conditioned on the embedding and a temperature parameter. Second, a straight through estimator enables discrete like selection while keeping gradients stable. Third, a sparsity aware loss encourages compactness without collapsing the representation. Let x denote a normalized encoder embedding, and let G(x) be a vector of gate probabilities. We define the projected embedding as z = W(x ⊙ m), where m is a binary mask sampled via the straight through estimator, and W is a thin projection matrix. We assume queries and documents share a compatible embedding space established by contrastive pretraining. Under this setting, inference cost is dominated by the number of active dimensions and the size of the projection matrix. The training objective combines an InfoNCE contrastive loss with a sparsity penalty weighted by a schedule that anneals the temperature and target sparsity.
+
+=== Page 3
+4 Experiments
+We evaluate SSP on three benchmarks covering e commerce product search, caption retrieval, and multimodal news. Our experimental setup fixes encoder architectures and varies only the projection head to isolate the effect of sparsity. Results show that SSP matches or outperforms dense projection heads at equal or lower compute budgets. We achieve consistent recall improvements at the same latency on two datasets and parity on the third while reducing floating point operations by roughly forty five percent. Ablations indicate that the annealed sparsity schedule prevents early collapse and that the thin projection matrix is necessary to realize compute savings. We find that the learned gates select dimensions correlated with modality specific cues and discard redundant channels. The method remains stable across different batch sizes and temperature schedules.
+
+5 Results and Analysis
+Our results demonstrate that compute efficient projections can preserve cross modal alignment when gating is trained with a curriculum. We conclude that learned sparsity is a practical path to scaling retrieval systems without specialized hardware. The primary takeaway is that selective projection layers can achieve dense like accuracy at substantially lower cost, enabling deployment under tighter service level agreements. We also observe that SSP is compatible with standard indexing strategies and does not require architectural changes to upstream encoders.
+
+=== Page 4
+6 Limitations
+A limitation of SSP is that performance degrades when the upstream encoder is not contrastively aligned, because the gates rely on informative channel structure. Another limitation is sensitivity to the temperature schedule in extremely low data regimes. We leave end to end training with video encoders and exploration of adaptive per query sparsity to future work, and we note that robustness under heavy domain shift remains an open question.
+
+7 Conclusion
+This paper investigates compute efficient cross modal retrieval and asks whether sparse projections can retain semantic fidelity. Our method, SSP, introduces a lightweight gate based projection with an annealed sparsity curriculum and a thin projection matrix. We find that SSP delivers competitive accuracy to dense heads while lowering inference cost and memory footprint. In conclusion, selective sparsity offers a simple and effective mechanism for scaling retrieval systems, and our open weight benchmark suite enables reproducible comparison across future methods. Finally, we release code and checkpoints to support adoption and standardized evaluation.
+
+Appendix A Implementation Notes
+We follow standard optimizer settings and use a cosine schedule for both learning rate and temperature annealing. For evaluation, we report recall at fixed latency using calibrated batches to remove queueing effects.
+
+Definitions and Setup
+We define recall at K under a latency budget B as the fraction of queries whose correct match appears in the top K results when the median per query latency is below B milliseconds. Let D denote the document collection size and let s be the sparsity level measured as the fraction of active dimensions after gating. Under this definition, compute scales approximately with s times the projection width.

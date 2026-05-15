@@ -1,0 +1,20 @@
+{
+  "observations": [
+    "Servo jitters when the DC motor starts or when serial printing occurs; sometimes the Uno resets.",
+    "Serial Monitor shows garbled output at 115200; occasionally readable only when I change baud settings.",
+    "I2C scanner often reports no devices; when detected, BME280 readings sometimes return NAN.",
+    "Pushbutton on D7 reads HIGH intermittently when not pressed (flickers).",
+    "LED on D13 became extremely bright; one LED burned out previously.",
+    "Uploads fail unless I disconnect the HC-05 from pins 0/1; Serial Monitor cannot open port reliably when HC-05 is connected.",
+    "Sketch feels unresponsive — long pauses due to delay() calls.",
+    "Touching or moving wires causes sensor readings to change or the system to reset.",
+    "When the DC motor runs from its battery pack, the servo moves erratically and readings glitch."
+  ],
+  "when_it_happens": [
+    "On startup after a few seconds",
+    "When pressing the button rapidly",
+    "Whenever the fan spins up or servo moves",
+    "After opening Serial Monitor at 115200"
+  ],
+  "notes": "No explicit decoupling capacitors installed; long wire runs (~30 cm) for I2C; servo powered from Arduino 5V; motor battery ground is not tied to Arduino ground."
+}

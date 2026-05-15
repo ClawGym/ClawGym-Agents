@@ -1,0 +1,16 @@
+{
+  "slug": "quicktext-formatter",
+  "name": "QuickText Formatter",
+  "ownerName": "textworks-labs",
+  "version": "0.3.2",
+  "category": "productivity",
+  "homepage": "https://example.com/quicktext",
+  "downloads": 412,
+  "installs": 73,
+  "stars": 2,
+  "updated_at": 1775968400000,
+  "tags": ["formatter", "docs", "markdown"],
+  "api_base": "https://example.com",
+  "download_url": "https://example.com/api/v1/download?slug=quicktext-formatter",
+  "fetched_at": 1775968500000
+}

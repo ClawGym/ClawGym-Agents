@@ -1,0 +1,9 @@
+states_of_interest:
+  - NSW
+  - VIC
+  - QLD
+investor_residency: "unspecified"
+entity_type: "individual"
+property_type: "residential apartment"
+target_contract_date: "2024-08-01"
+meeting_date: "2024-08-20"

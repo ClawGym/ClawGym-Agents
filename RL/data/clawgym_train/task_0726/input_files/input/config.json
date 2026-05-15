@@ -1,0 +1,16 @@
+{
+  "keyword": "mdls",
+  "alternativeKeywords": ["modelshow"],
+  "models": ["pro", "grok", "gpt4", "kimi"],
+  "judgeModel": "sonnet",
+  "outputDir": "output/modelshow-results",
+  "timeoutSeconds": 360,
+  "minSuccessful": 3,
+  "parallel": true,
+  "showTopN": 10,
+  "includeResponseText": true,
+  "blindJudging": true,
+  "blindJudgingLabels": "alphabetic",
+  "shuffleBlindOrder": true,
+  "systemPrompt": "You are participating in a blind multi-model evaluation. Produce a concise, executive-friendly stakeholder email that proposes the migration from the provided brief, covering business value, risks with mitigations, cost/ops trade-offs, and a 90-day pilot plan with success metrics. Be specific and actionable; avoid marketing tone; keep it tight and easy to scan."
+}

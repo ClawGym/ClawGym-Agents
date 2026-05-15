@@ -1,0 +1,13 @@
+post_id,platform,date,format,impressions,likes,comments,shares
+L1,LinkedIn,2026-04-05,Post,4000,90,20,10
+L2,LinkedIn,2026-04-08,Post,3000,40,15,5
+L3,LinkedIn,2026-04-12,Carousel,3000,120,20,10
+L4,LinkedIn,2026-04-15,Carousel,5000,400,150,50
+L5,LinkedIn,2026-04-18,Post,2000,90,20,10
+L6,LinkedIn,2026-04-22,Post,10000,30,5,5
+T1,Twitter,2026-04-06,Tweet,2000,60,15,5
+T2,Twitter,2026-04-09,Tweet,4000,15,5,4
+T3,Twitter,2026-04-13,Thread,2500,140,40,20
+T4,Twitter,2026-04-16,Tweet,2000,120,15,5
+T5,Twitter,2026-04-19,Thread,2000,150,35,15
+T6,Twitter,2026-04-23,Tweet,5000,5,3,2

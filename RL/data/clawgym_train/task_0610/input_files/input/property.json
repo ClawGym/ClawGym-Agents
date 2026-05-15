@@ -1,0 +1,46 @@
+{
+  "address": "227 West Lynn Ave, Toronto, ON",
+  "city": "Toronto",
+  "neighborhood": "East Danforth (Woodbine Corridor)",
+  "property_type": "Semi-detached",
+  "interior_size_sqft": 1320,
+  "basement_finished_sqft": 500,
+  "lot_size_ft": {
+    "front": 18,
+    "depth": 100
+  },
+  "bedrooms": 3,
+  "bathrooms": 2,
+  "parking": "1 front-pad parking space",
+  "age_built": 1927,
+  "condition": "Well maintained and updated",
+  "renovations_upgrades": [
+    "Kitchen renovated in 2019 (quartz counters, shaker cabinets, stainless appliances)",
+    "Main bathroom updated in 2020",
+    "New roof in 2021",
+    "Windows replaced in 2018",
+    "200A electrical panel upgrade in 2018",
+    "New furnace and central AC in 2021",
+    "Fresh interior paint and refinished hardwood floors in 2024"
+  ],
+  "basement": {
+    "type": "Finished recreation room + laundry + 3pc bath",
+    "separate_entrance": true,
+    "ceiling_height_ft": 6.7,
+    "is_legal_suite": false
+  },
+  "special_features": [
+    "South-facing backyard with deck",
+    "Quiet residential street",
+    "6-minute walk to Woodbine Station (~450m)",
+    "Proximity to Danforth shops and cafes",
+    "Fenced yard suitable for pets"
+  ],
+  "micro_location_notes": "Quiet street south of Danforth Ave, short walk to TTC, limited through traffic. No garage; front-pad parking with city permit.",
+  "occupancy": "Owner-occupied; will be delivered vacant",
+  "known_drawbacks": [
+    "Narrow 18 ft frontage limits interior width",
+    "Basement ceiling height under 7 ft and not a legal suite"
+  ],
+  "target_seller_goal": "Maximize sale price while aiming for 1–2 strong offers within 2 weeks"
+}

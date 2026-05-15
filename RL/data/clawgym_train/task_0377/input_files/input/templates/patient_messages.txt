@@ -1,0 +1,7 @@
+=== TEMPLATE: reminder ===
+Subject: Appointment Reminder for {patient_full_name}
+Hi {patient_first_name}, this is a reminder for your upcoming telemedicine visit on {visit_date} at {visit_time} with {provider_name}. We'll discuss your "{chief_complaint}". Your secure meeting link is {meeting_link}. DOB: {patient_dob}. If you have questions, call us at {phone}.
+
+=== TEMPLATE: summary ===
+Subject: After-Visit Summary for {patient_full_name}
+Thank you for meeting with {provider_name} on {visit_date}. Summary: reason for visit was "{chief_complaint}". Provisional code: {diagnosis_code}. A note will be sent to {email}.

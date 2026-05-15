@@ -1,0 +1,9 @@
+ElementId,Category,Type,Level,Material,Volume,Area,Length
+W-001,Wall,Wall-200mm,Level 1,Brick,3.00,12.0,6.0
+W-002,Wall,Wall-200mm,Level 2,Brick,4.50,18.0,9.0
+W-003,Wall,Wall-250mm,Level 2,Concrete,22.00,88.0,44.0
+F-001,Floor,Slab-200mm,Level 1,Concrete,20.00,100.0,0.0
+F-002,Floor,Slab-200mm,Level 2,Concrete,17.50,87.5,0.0
+C-001,Column,Column-400x400,Level 1,Concrete,5.00,8.0,4.0
+C-002,Column,Column-300x300,Level 2,Concrete,4.00,6.0,3.5
+B-001,Beam,Beam-300x500,Level 2,Steel,3.20,6.4,8.0

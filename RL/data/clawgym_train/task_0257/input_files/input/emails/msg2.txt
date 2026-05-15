@@ -1,0 +1,18 @@
+From: Marc P. <marc.p@example.com>
+To: Intake <intake@childtherapy.local>
+Subject: Waitlist Inquiry - Occupational Therapy
+Date: Tue, 09 Apr 2024 15:20:00 -0400
+Message-ID: <msg2@workspace.local>
+
+Hello,
+We're interested in getting on the waitlist for OT.
+
+---- Intake Details ----
+Child Name: Ethan P.
+Age: 9
+Preferred Times: afternoons Mon/Wed
+Completed Intake: No
+------------------------
+
+Thanks,
+Marc

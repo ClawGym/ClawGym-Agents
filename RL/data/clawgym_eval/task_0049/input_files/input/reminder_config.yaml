@@ -1,0 +1,15 @@
+timezone: America/New_York
+send_time: "16:30"
+weekday_only: true
+pre_deadline_days: [14, 3]
+followup_after_days: 2
+audiences:
+  student:
+    subject_prefix: "[Chess Coaching]"
+    templates:
+      application: "input/templates/student_application_template.md"
+      scholarship: "input/templates/student_scholarship_template.md"
+  recommender:
+    subject_prefix: "[Recommendation Reminder]"
+    templates:
+      recommendation: "input/templates/recommender_template.md"

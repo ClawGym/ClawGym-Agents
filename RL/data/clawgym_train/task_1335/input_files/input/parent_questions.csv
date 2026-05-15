@@ -1,0 +1,13 @@
+parent_id,grade,topic,question_en,timestamp
+p001,4,screen_time,How much screen time is safe for 10-year-olds?,2024-03-03T18:45:00Z
+p002,5,blue_light,Should my child use blue light glasses?,2024-03-04T09:10:00Z
+p003,5,outdoor_time,Does outdoor play help eye health?,2024-03-04T12:00:00Z
+p004,4,screen_time,How much screen time is safe for 10-year-olds?,2024-03-05T08:30:00Z
+p005,6,sleep,Can lack of sleep affect vision?,2024-03-05T19:45:00Z
+p006,5,outdoor_time,How much time outside is recommended per day?,2024-03-06T10:15:00Z
+p007,6,blue_light,Do classroom lights cause eye strain?,2024-03-06T14:20:00Z
+p008,4,screen_time,Are educational apps better than videos for eyes?,2024-03-07T07:50:00Z
+p009,5,outdoor_time,Does outdoor play help eye health?,2024-03-07T13:05:00Z
+p010,6,eye_exam,When should kids get an eye exam?,2024-03-08T11:00:00Z
+p011,4,sleep,How late is too late for bedtime to protect eyes?,2024-03-08T19:30:00Z
+p012,5,nutrition,Do carrots really help eyesight?,2024-03-09T16:12:00Z

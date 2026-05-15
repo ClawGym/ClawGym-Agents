@@ -1,0 +1,12 @@
+watch:
+  dir: "incoming"
+  patterns: ["*.jsonl"]
+  poll_seconds: 5
+search:
+  allowed_domains:
+    - "sec.gov"
+  max_candidates: 2
+output:
+  findings_dir: "outputs/findings"
+  alerts_dir: "outputs/alerts"
+  summary_dir: "outputs/summary"

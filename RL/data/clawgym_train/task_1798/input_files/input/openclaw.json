@@ -1,0 +1,40 @@
+{
+  "defaultModel": "gpt-5",
+  "overrides": {
+    "research": {
+      "model": "claude-3-opus"
+    }
+  },
+  "reasoning": {
+    "enabled": true,
+    "level": "high"
+    },
+  "limits": {
+    "maxOutputTokens": 20000
+  },
+  "cron": {
+    "jobs": [
+      {
+        "name": "nightly-refresh",
+        "schedule": "0 2 * * *",
+        "task": "refresh-index"
+      },
+      {
+        "name": "hourly-stats",
+        "schedule": "0 * * * *",
+        "task": "collect-metrics"
+      }
+    ]
+  },
+  "browser": {
+    "enabled": true,
+    "driver": "playwright"
+  },
+  "workflows": [
+    {
+      "name": "site-scrape",
+      "useBrowser": true,
+      "interactive": true
+    }
+  ]
+}

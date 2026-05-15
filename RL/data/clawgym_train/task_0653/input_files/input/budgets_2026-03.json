@@ -1,0 +1,11 @@
+{
+  "Food": 600.00,
+  "Transport": 150.00,
+  "Shopping": 400.00,
+  "Entertainment": 250.00,
+  "Housing": 1200.00,
+  "Healthcare": 100.00,
+  "Education": 150.00,
+  "Utilities": 200.00,
+  "Other": 100.00
+}

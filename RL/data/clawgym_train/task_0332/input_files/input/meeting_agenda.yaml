@@ -1,0 +1,11 @@
+title: "Creative Robotics Design Sync: Baseline Sensor Classifier"
+date: "2026-04-22"
+attendees:
+  - "Coach Pat (head coach)"
+  - "Riley (controls)"
+  - "Sam (perception)"
+  - "Devi (mechanical)"
+agenda:
+  - "Review quick baseline for classification pipeline using a small public dataset"
+  - "Decide data flow for on-robot logging"
+  - "Identify risks and next steps"

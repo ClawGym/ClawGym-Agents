@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Alice Morgan",
+    "role": "Product Manager",
+    "daily_capacity": 4
+  },
+  {
+    "name": "Boris Kim",
+    "role": "Backend Engineer",
+    "daily_capacity": 6
+  },
+  {
+    "name": "Cara Nguyen",
+    "role": "Frontend Engineer",
+    "daily_capacity": 6
+  },
+  {
+    "name": "Diego Patel",
+    "role": "QA / DevOps",
+    "daily_capacity": 5
+  }
+]

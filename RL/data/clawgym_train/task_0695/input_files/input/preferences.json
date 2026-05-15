@@ -1,0 +1,10 @@
+{
+  "hsk_level": 4,
+  "topic": "healthy living and daily routines",
+  "requests": {
+    "tone_focus": "3rd tone",
+    "reading_length_preference": "6-7 sentences",
+    "include_dialogue_context": "morning routine or gym setting",
+    "style": "practical, everyday scenarios with health focus"
+  }
+}

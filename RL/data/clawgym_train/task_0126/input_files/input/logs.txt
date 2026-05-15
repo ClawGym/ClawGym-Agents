@@ -1,0 +1,5 @@
+2026-04-15T09:21:55.102Z error config: Parse error loading C:\Users\Alice\.openclaw\openclaw.json: Unexpected token ﻿ in JSON at position 0
+2026-04-15T09:22:12.477Z warn gateway.health: probe failed: connect ECONNREFUSED 127.0.0.1:18789
+2026-04-15T09:22:12.478Z info memory: fts unavailable: no such module: fts5
+2026-04-15T09:22:30.211Z error channels.telegram: Bot API probe failed: 401 Unauthorized
+2026-04-15T09:23:01.005Z info webhook: no listener detected on :18790 at startup check (optional)

@@ -1,0 +1,6 @@
+OpenClaw Gateway status: running
+OpenClaw Gateway version: 1.2.3
+Control UI: enabled
+API: v1
+Build: 9f3c6e2
+Note: this is a dev lab instance

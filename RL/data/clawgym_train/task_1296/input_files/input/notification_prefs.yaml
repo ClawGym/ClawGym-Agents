@@ -1,0 +1,149 @@
+domain: novametrics.io
+timezone: America/Los_Angeles
+
+office_hours:
+  weekdays:
+    start: "08:00"
+    end: "18:00"
+  weekend_policy:
+    allow_only_critical_sms: true
+    notes: "During weekends, send only Critical via SMS; queue all others for next business day digest."
+
+channels_by_priority:
+  Critical: ["Email", "SMS", "Slack"]
+  High: ["Email", "Slack"]
+  Medium: ["Email", "Slack-Digest"]
+  Low: ["Email-Digest"]
+
+suppression:
+  duplicate_cooldown_mins:
+    Critical: 60
+    High: 240
+    Medium: 720
+    Low: 10080
+  maintenance_windows:
+    - name: "Weekly deploy window"
+      category_filter: ["Technical"]
+      day_of_week: "Saturday"
+      start: "01:00"
+      end: "03:00"
+      timezone: America/Los_Angeles
+    - name: "Monthly infra patching"
+      category_filter: ["Technical"]
+      recurrence: "First Sunday"
+      start: "02:00"
+      end: "04:00"
+      timezone: America/Los_Angeles
+  known_issues_suppression:
+    enabled: true
+    ttl_hours: 24
+    notes: "Suppress duplicate alerts tied to a tracked incident until resolved or TTL expires."
+
+digests:
+  medium_daily_digest:
+    time: "09:00"
+    timezone: America/Los_Angeles
+    channels: ["Email", "Slack"]
+  low_weekly_digest:
+    day_of_week: "Monday"
+    time: "09:30"
+    timezone: America/Los_Angeles
+    channels: ["Email"]
+
+roles:
+  - role: "SEO Manager"
+    name: "Maya Patel"
+    email: "maya.patel@novametrics.io"
+    phone: "+1-415-555-0174"
+    slack: "@maya"
+    receive_priorities: ["Critical", "High", "Medium", "Low"]
+    categories: ["Rankings", "Traffic", "Technical", "Backlinks", "Competitors", "GEO", "Brand"]
+    channels_override: {}
+    oncall:
+      schedule: "primary"
+      notes: "Primary receiver for all SEO alerts."
+
+  - role: "Dev Team"
+    name: "Web Platform Team"
+    email: "dev@novametrics.io"
+    phone: "+1-415-555-0142"
+    slack: "#web-platform"
+    receive_priorities: ["Critical", "High", "Medium"]
+    categories: ["Technical"]
+    channels_override:
+      Medium: ["Slack-Digest"]
+    oncall:
+      schedule: "rotating"
+      notes: "Technical alerts route here; pager rotation maintained in OpsGenie."
+
+  - role: "Marketing Lead"
+    name: "Alex Romero"
+    email: "alex.romero@novametrics.io"
+    phone: "+1-415-555-0160"
+    slack: "@alexr"
+    receive_priorities: ["Critical", "High", "Medium"]
+    categories: ["Rankings", "Traffic", "Backlinks", "Brand", "GEO", "Competitors"]
+    channels_override: {}
+    oncall:
+      schedule: "business-hours"
+      notes: "Receives business-impact alerts; no off-hours SMS unless Critical."
+
+  - role: "Executive"
+    name: "COO - Dana Lee"
+    email: "dana.lee@novametrics.io"
+    phone: "+1-415-555-0120"
+    slack: "@dlee"
+    receive_priorities: ["Critical"]
+    categories: ["Rankings", "Traffic", "Technical", "Backlinks", "Competitors", "GEO", "Brand"]
+    channels_override:
+      Critical: ["Email", "SMS"]
+    oncall:
+      schedule: "business-hours"
+      notes: "Critical business-impact only."
+
+escalation_policies:
+  Critical:
+    ack_timeout_mins: 60
+    steps:
+      - after_mins: 60
+        escalate_to:
+          - role: "SEO Director"
+            name: "Priya Desai"
+            email: "priya.desai@novametrics.io"
+            phone: "+1-415-555-0199"
+            slack: "@priyad"
+          - role: "CTO"
+            name: "Ethan Wright"
+            email: "ethan.wright@novametrics.io"
+            phone: "+1-415-555-0105"
+            slack: "@ethan"
+      - after_mins: 120
+        escalate_to:
+          - role: "Executive"
+            name: "COO - Dana Lee"
+            email: "dana.lee@novametrics.io"
+            phone: "+1-415-555-0120"
+            slack: "@dlee"
+    notes: "Paging via SMS continues every 30 minutes until ack."
+
+  High:
+    ack_timeout_mins: 240
+    steps:
+      - after_mins: 240
+        escalate_to:
+          - role: "SEO Manager Backup"
+            name: "Jordan Kim"
+            email: "jordan.kim@novametrics.io"
+            phone: "+1-415-555-0183"
+            slack: "@jordank"
+    notes: "No SMS to executives for High unless business outage is confirmed."
+
+  Medium:
+    ack_timeout_mins: 1440
+    steps: []
+    notes: "Handled in daily digest unless trend worsens."
+
+  Low:
+    ack_timeout_mins: 10080
+    steps: []
+    notes: "Weekly review only; no escalation."

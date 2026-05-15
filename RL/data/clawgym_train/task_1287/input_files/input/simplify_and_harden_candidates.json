@@ -1,0 +1,44 @@
+[
+  {
+    "pattern_key": "comm.thread_replies.default",
+    "title": "Thread replies by default",
+    "summary": "Reply in the same thread by default; fall back to channel only for new topics or when explicitly requested.",
+    "area": "agents",
+    "priority": "high",
+    "first_seen": "2026-04-02",
+    "last_seen": "2026-04-15",
+    "examples": [
+      "Two sessions posted follow-ups to channel instead of thread",
+      "Users repeatedly asked to keep conversations threaded for context"
+    ],
+    "tags": ["threads", "slack", "reply", "ux"]
+  },
+  {
+    "pattern_key": "harden.input_validation",
+    "title": "Harden input validation on path arguments",
+    "summary": "Validate and normalize path inputs; reject absolute paths and path traversal; enforce relative paths under the workspace root.",
+    "area": "infra",
+    "priority": "medium",
+    "first_seen": "2026-03-28",
+    "last_seen": "2026-04-14",
+    "examples": [
+      "User supplied '/var/tmp/output' causing writes outside workspace",
+      "Agent accepted '../' path which could escape repository"
+    ],
+    "tags": ["security", "validation", "paths"]
+  },
+  {
+    "pattern_key": "build.package_manager.pnpm",
+    "title": "Use pnpm consistently",
+    "summary": "Project uses pnpm workspaces; npm/yarn introduce conflicting lockfiles and break installs.",
+    "area": "config",
+    "priority": "high",
+    "first_seen": "2026-03-20",
+    "last_seen": "2026-04-15",
+    "examples": [
+      "pnpm-lock.yaml present in repo root",
+      "npm install created package-lock.json and caused hoisting mismatch"
+    ],
+    "tags": ["build", "dependencies", "workspace"]
+  }
+]

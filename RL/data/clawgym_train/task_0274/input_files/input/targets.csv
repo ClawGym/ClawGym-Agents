@@ -1,0 +1,7 @@
+source,identifier,notes
+NCBI_Gene,7157,TP53 gene (GeneID 7157)
+UniProtKB,P04637,Human TP53 protein accession
+GeneOntology,GO:0006915,Apoptotic process term
+UniProtKB,P38398,Saccharomyces cerevisiae RAD9
+NCBI_Gene,5290,PIK3CA gene (GeneID 5290)
+GeneOntology,GO:0007049,Cell cycle term

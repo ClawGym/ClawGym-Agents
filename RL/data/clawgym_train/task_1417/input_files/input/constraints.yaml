@@ -1,0 +1,50 @@
+program_title: "Aviation Leadership & Safety Mini-Course"
+audience: "High school students (ages 15–17)"
+sessions_count: 4
+session_length_minutes: 75
+required_topics:
+  - "Aviation Fundamentals (lift/drag/thrust/weight – simplified)"
+  - "Crew Resource Management (CRM) principles"
+  - "Operational Risk Management (ORM) basics"
+  - "Debrief culture and constructive feedback"
+required_components_per_session:
+  - leadership_takeaway
+  - safety_takeaway
+  - hands_on_activity
+  - reflection_prompt
+constraints:
+  - "Do not include tactical or sensitive procedures."
+  - "No advanced aerobatic instruction or flight maneuvers."
+  - "Use only materials listed under materials_available."
+materials_available:
+  - projector
+  - whiteboard
+  - printer paper
+  - index cards
+  - foam plates
+  - plastic straws
+  - masking tape
+  - pennies
+  - stopwatches
+assessment:
+  exit_ticket_questions_required: 2
+  final_reflection_required: true
+scheduling:
+  proposed_dates:
+    - "2026-05-07"
+    - "2026-05-14"
+    - "2026-05-21"
+    - "2026-05-28"
+  room_preference: "STEM Lab 201"
+  max_students: 20
+deliverables:
+  curriculum_outline_fields:
+    - session_number
+    - title
+    - objectives
+    - activities
+    - leadership_takeaway
+    - safety_takeaway
+    - materials
+    - assessment
+    - required_topics_covered

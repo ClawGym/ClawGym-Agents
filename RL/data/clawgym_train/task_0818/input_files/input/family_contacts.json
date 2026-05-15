@@ -1,0 +1,8 @@
+[
+  {"name": "Maya Vega", "role": "requester", "side": "Maya family", "priority": 1, "availability_notes": "Weeknights after 6pm"},
+  {"name": "Ana Rivera", "role": "recipient", "side": "Ana family", "priority": 1, "availability_notes": "Sundays and Thursdays"},
+  {"name": "Elena Vega", "role": "mother", "side": "Maya family", "priority": 1, "availability_notes": "Flexible afternoons"},
+  {"name": "Rosa Delgado", "role": "mother", "side": "Ana family", "priority": 1, "availability_notes": "Weekends only"},
+  {"name": "Sister Margot", "role": "archivist", "side": "neutral", "priority": 2, "availability_notes": "Mon-Wed mornings"},
+  {"name": "Carlos Rivera", "role": "uncle", "side": "Ana family", "priority": 3, "availability_notes": "Traveling, back next month"}
+]

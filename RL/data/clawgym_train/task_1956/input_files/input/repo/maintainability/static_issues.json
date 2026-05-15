@@ -1,0 +1,35 @@
+{
+  "tooling": [
+    "eslint",
+    "flake8"
+  ],
+  "generated_at": "2026-04-15T12:41:03Z",
+  "files_analyzed": 96,
+  "issues": {
+    "error": 3,
+    "warning": 5,
+    "info": 0
+  },
+  "total_issues": 8,
+  "issue_density_per_kloc": 4.2,
+  "top_files": [
+    {
+      "path": "api/controllers/userController.js",
+      "issues": 3,
+      "notes": [
+        "no-unused-vars",
+        "max-lines-per-function",
+        "complexity"
+      ]
+    },
+    {
+      "path": "web/src/components/Table.tsx",
+      "issues": 2,
+      "notes": [
+        "react-hooks/exhaustive-deps",
+        "no-explicit-any"
+      ]
+    }
+  ],
+  "notes": "No high-severity code smells. Auto-fixable issues will be addressed in the next linting sweep."
+}

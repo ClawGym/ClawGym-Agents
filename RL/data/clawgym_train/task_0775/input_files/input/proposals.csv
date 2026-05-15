@@ -1,0 +1,16 @@
+proposal_id,applicant,program_stream,region,requested_funds,need_index,impact_score,readiness_score,compliance_issues_count,past_performance_rating,disadvantaged_area_flag
+P001,Northside Outreach,Community Health,North,450000,82,75,68,0,4,1
+P002,Sunrise Youth,Workforce Development,East,600000,70,80,72,0,3,0
+P003,TechBridge,Digital Inclusion,Central,350000,65,74,59,0,4,1
+P004,GreenFuture,Community Health,West,520000,78,69,66,1,5,0
+P005,Harbor Jobs,Workforce Development,South,480000,88,85,74,0,5,1
+P006,Rural Connect,Digital Inclusion,North,300000,90,70,61,0,3,1
+P007,City Health Partners,Community Health,Central,550000,60,72,80,0,2,0
+P008,Pathways Training,Workforce Development,West,620000,72,68,62,0,3,0
+P009,BrightWeb,Digital Inclusion,East,400000,55,77,83,0,4,0
+P010,Community Lift,Community Health,South,510000,85,90,88,0,5,1
+P011,UpSkill Works,Workforce Development,North,450000,68,73,70,0,3,1
+P012,Metro Bytes,Digital Inclusion,West,380000,80,82,58,0,4,0
+P013,Healthy Horizons,Community Health,East,470000,77,76,63,0,3,0
+P014,NextGen Coders,Digital Inclusion,South,360000,92,88,69,0,5,1
+P015,Westside Works,Workforce Development,Central,590000,58,60,64,2,3,0

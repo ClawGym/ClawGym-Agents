@@ -1,0 +1,14 @@
+event_id,event_name,event_date,category,item,amount
+EVT-001,Beat Cypher Night,2024-02-09,Venue,Room rental,200.00
+EVT-001,Beat Cypher Night,2024-02-09,DJ Fees,Guest DJ stipend,250.00
+EVT-001,Beat Cypher Night,2024-02-09,Promo,Flyers and IG ads,90.00
+EVT-001,Beat Cypher Night,2024-02-09,Equipment,Mixer rental,60.00
+EVT-002,Open Turntable Session,2024-03-15,Venue,Student center A/V fee,120.00
+EVT-002,Open Turntable Session,2024-03-15,DJ Fees,Host DJ stipend,180.00
+EVT-002,Open Turntable Session,2024-03-15,Promo,Campus posters,40.00
+EVT-002,Open Turntable Session,2024-03-15,Equipment,Needles and cables,35.00
+EVT-003,Spring Campus Block Party,2024-04-20,Venue,Quad permit and staging,600.00
+EVT-003,Spring Campus Block Party,2024-04-20,DJ Fees,Lineup stipends,550.00
+EVT-003,Spring Campus Block Party,2024-04-20,Promo,Banners and social ads,200.00
+EVT-003,Spring Campus Block Party,2024-04-20,Equipment,PA rental,180.00
+EVT-003,Spring Campus Block Party,2024-04-20,Security,Event security,150.00

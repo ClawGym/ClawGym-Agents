@@ -1,0 +1,66 @@
+{
+  "title": "Eco-Friendly QC Onboarding Workshop",
+  "workshop_date": "2026-05-20",
+  "target_total_minutes": 240,
+  "modules": [
+    {
+      "id": "sourcing_standards",
+      "title": "Sourcing Standards & Certifications",
+      "duration_minutes": 70,
+      "min_minutes": 50,
+      "max_minutes": 80,
+      "topics": [
+        "Local sourcing criteria",
+        "Organic and fair-trade basics",
+        "Supplier audits overview"
+      ]
+    },
+    {
+      "id": "material_testing",
+      "title": "Material Testing & Safety",
+      "duration_minutes": 65,
+      "min_minutes": 45,
+      "max_minutes": 75,
+      "topics": [
+        "Moisture/pH checks",
+        "Contaminant red flags",
+        "Sampling protocol"
+      ]
+    },
+    {
+      "id": "packaging_labeling",
+      "title": "Packaging, Labeling, and Claims",
+      "duration_minutes": 60,
+      "min_minutes": 40,
+      "max_minutes": 70,
+      "topics": [
+        "Recyclable/compostable packaging",
+        "Label claims do/don'ts",
+        "Barcode basics"
+      ]
+    },
+    {
+      "id": "traceability",
+      "title": "Traceability & Record-Keeping",
+      "duration_minutes": 45,
+      "min_minutes": 30,
+      "max_minutes": 60,
+      "topics": [
+        "Batch logging",
+        "Inventory controls",
+        "Recall scenarios"
+      ]
+    },
+    {
+      "id": "wrapup_assessment",
+      "title": "Wrap-up & Assessment",
+      "duration_minutes": 25,
+      "min_minutes": 20,
+      "max_minutes": 30,
+      "topics": [
+        "Knowledge check",
+        "Feedback & next steps"
+      ]
+    }
+  ]
+}

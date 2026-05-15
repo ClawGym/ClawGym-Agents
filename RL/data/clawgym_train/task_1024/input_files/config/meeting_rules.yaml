@@ -1,0 +1,16 @@
+incoming_dir: "incoming_transcripts"
+notes_dir: "out/notes"
+invalid_dir: "out/invalid"
+logs_dir: "out/logs"
+action_items_csv: "out/action_items.csv"
+file_glob: "*.txt"
+required_headers:
+  - "Meeting"
+  - "Date"
+  - "Participants"
+action_item_markers:
+  - "Action:"
+  - "- [ ]"
+groups:
+  - "Peer Support Circle"
+  - "Field Seminar Cohort"

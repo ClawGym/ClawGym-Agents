@@ -1,0 +1,13 @@
+project: "SongLab"
+version: "1.2"
+influences:
+  the_band:
+    enabled: false
+    feature_weights:
+      call_and_response: 0.0
+      piano_organ_combo: 0.0
+      roots_rock_shuffle: 0.0
+      storytelling_verses: 0.0
+  general:
+    groove_bias: 0.5
+    lyric_density: 0.6

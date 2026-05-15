@@ -1,0 +1,7 @@
+payment_date,symbol,per_share_dividend_usd,shares_paid,total_amount_usd,fx_rate_note
+2024-03-20,TCEHY,0.20,200,40.00,HKD->USD settlement; ADR ratio accounted
+2024-09-18,TCEHY,0.30,200,60.00,HKD->USD settlement; ADR ratio accounted
+2024-07-05,BABA,1.00,150,150.00,USD cash dividend
+2024-12-10,JD,0.25,100,25.00,USD cash dividend
+2024-05-15,NIO,0.00,300,0.00,No dividend paid despite rumor
+2024-04-28,PDD,0.10,120,11.98,Should be $12.00; brokerage posted $11.98

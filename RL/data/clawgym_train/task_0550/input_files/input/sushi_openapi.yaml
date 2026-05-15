@@ -1,0 +1,170 @@
+openapi: 3.0.0
+info:
+  title: SushiSwap Aggregator API (Excerpt)
+  version: 7.0.0
+  description: >
+    Excerpt of SushiSwap REST API for quoting and swap transaction generation.
+    Includes /quote and /swap endpoints, parameters, and error codes.
+servers:
+  - url: https://api.sushi.com
+    description: Production
+tags:
+  - name: swap
+    description: Quote and swap endpoints
+components:
+  parameters:
+    chainId:
+      in: path
+      name: chainId
+      required: true
+      schema:
+        type: integer
+      description: EVM chain ID
+    tokenIn:
+      in: query
+      name: tokenIn
+      required: true
+      schema:
+        type: string
+      description: Input token address (hex or native sentinel)
+    tokenOut:
+      in: query
+      name: tokenOut
+      required: true
+      schema:
+        type: string
+      description: Output token address
+    amount:
+      in: query
+      name: amount
+      required: true
+      schema:
+        type: string
+      description: Amount of input token in smallest units (wei)
+    referrer:
+      in: query
+      name: referrer
+      required: false
+      schema:
+        type: string
+        default: none
+      description: Integrator identifier (required for swap-related requests by policy)
+    maxSlippage:
+      in: query
+      name: maxSlippage
+      required: false
+      schema:
+        type: number
+        minimum: 0
+        exclusiveMaximum: true
+        default: 0.005
+      description: Maximum slippage tolerance (e.g., 0.005 = 0.5%)
+    sender:
+      in: query
+      name: sender
+      required: true
+      schema:
+        type: string
+      description: Address initiating the transaction
+    recipient:
+      in: query
+      name: recipient
+      required: false
+      schema:
+        type: string
+      description: Recipient of output tokens (defaults to sender)
+paths:
+  /quote/v7/{chainId}:
+    get:
+      tags: [swap]
+      summary: Generate a swap quote
+      description: >
+        Returns pricing and routing information for swapping tokenIn -> tokenOut.
+        Include referrer for swap-related requests per integration policy.
+      parameters:
+        - $ref: '#/components/parameters/chainId'
+        - $ref: '#/components/parameters/tokenIn'
+        - $ref: '#/components/parameters/tokenOut'
+        - $ref: '#/components/parameters/amount'
+        - $ref: '#/components/parameters/referrer'
+        - $ref: '#/components/parameters/maxSlippage'
+      responses:
+        '200':
+          description: Quote computed successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  swapPrice:
+                    type: number
+                  priceImpact:
+                    type: number
+                  amountIn:
+                    type: string
+                  assumedAmountOut:
+                    type: string
+                example:
+                  status: Success
+                  swapPrice: 2837.6709
+                  priceImpact: -0.0022
+                  amountIn: "10000000000000000"
+                  assumedAmountOut: "28376709246572527616"
+        '422':
+          description: Request parameters invalid
+        '500':
+          description: Internal server error
+        '529':
+          description: Server overloaded
+  /swap/v7/{chainId}:
+    get:
+      tags: [swap]
+      summary: Generate an executable swap transaction
+      description: >
+        Returns executable transaction data for performing the swap on-chain.
+        referrer is required by integration policy for swap-related requests.
+      parameters:
+        - $ref: '#/components/parameters/chainId'
+        - $ref: '#/components/parameters/tokenIn'
+        - $ref: '#/components/parameters/tokenOut'
+        - $ref: '#/components/parameters/amount'
+        - $ref: '#/components/parameters/sender'
+        - $ref: '#/components/parameters/recipient'
+        - $ref: '#/components/parameters/referrer'
+        - $ref: '#/components/parameters/maxSlippage'
+      responses:
+        '200':
+          description: Swap transaction data
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  tx:
+                    type: object
+                    properties:
+                      to:
+                        type: string
+                      data:
+                        type: string
+                      value:
+                        type: string
+                      gas:
+                        type: string
+                example:
+                  status: Success
+                  tx:
+                    to: "0xAC4c6e212A361c968F1725b4d055b47E63F80b75"
+                    data: "0x5f3bd1c8..."
+                    value: "10000000000000000"
+                    gas: "162561"
+        '422':
+          description: Request parameters invalid
+        '500':
+          description: Internal server error
+        '529':
+          description: Server overloaded

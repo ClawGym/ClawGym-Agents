@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1330",
+  "user_query": "Run an iterative optimization loop in project mode for the repository at input/demo-repo using default cross-file checks (README↔CLI commands, dependencies vs imports, env vars coverage, and ignore patterns). Minimum 2 iterations, dry-run only. Baseline must be Iteration 1 with status \"baseline\". Evaluate pass rates numerically and ensure Iteration 2 reflects a higher pass rate than the baseline with status \"improved\". Apply minimal, surgical fixes to address:\n- README↔CLI drift: README.md should document three commands: start, stop, and status (per the CLI in main.py)\n- Dependencies complete: requirements.txt must include pyyaml if yaml is imported while keeping requests present\n- Env vars documented: add an API_KEY placeholder entry to env.example.txt\n- Ignore patterns: add __pycache__/ to gitignore.txt\nWrite the TSV log with the exact 5-column header (tab-separated) and rows to output/results/demo-repo-results.tsv, observing these rules: prompt_version_summary ≤ 50 chars; change_description ≤ 100 chars; pass_rate must be an integer followed by %; statuses must be one of baseline, improved, retained, discard. After the loop ends, write all proposed file fixes mirroring the repo structure to output/results/demo-repo-proposed/ (README.md, requirements.txt, env.example.txt, gitignore.txt). Do not modify any files under input/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

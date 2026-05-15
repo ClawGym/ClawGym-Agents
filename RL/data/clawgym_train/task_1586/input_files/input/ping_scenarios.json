@@ -1,0 +1,15 @@
+{
+  "single": [
+    {"model": "kimi", "sent": "09:34:15.123", "received": "09:34:15.247"},
+    {"model": "minimax", "sent": "10:02:05.000", "received": "10:02:06.333"},
+    {"model": "gemini", "sent": "11:59:59.120", "received": "12:01:01.120"}
+  ],
+  "compare": {
+    "models": [
+      {"model": "kimi", "sent": "13:10:00.000", "received": "13:10:00.800"},
+      {"model": "deepseek", "sent": "13:10:00.000", "received": "13:10:02.450"},
+      {"model": "openai", "sent": "13:10:00.000", "received": "13:10:05.670"},
+      {"model": "glm", "sent": "13:10:00.000", "received": "13:10:01.100"}
+    ]
+  }
+}

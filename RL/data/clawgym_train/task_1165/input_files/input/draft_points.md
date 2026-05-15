@@ -1,0 +1,5 @@
+- Tone: warm, concise, sincere; I’m a grateful dad and a runner.
+- Please mention that Leo is already back to short run–walks with me in the park.
+- I’m training for the "Riverfront 10K" on April 20 to honor the team.
+- Ask if it’s okay to drop off a handwritten thank-you card next week.
+- Include both Dr. A. Patel and Nurse Maria by name and thank the "6 West" team.

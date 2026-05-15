@@ -1,0 +1,25 @@
+id,title,team,business_value,time_criticality,risk_reduction,job_size,status,created_date,tag
+1,Improve dashboard load time,Analytics,8,7,5,5,Open,2024-01-10,performance
+2,Migrate auth service,Platform,9,8,8,8,In Progress,2024-01-05,infrastructure
+3,Add dark mode,Frontend,6,5,3,5,Open,2024-02-12,UX
+4,Refactor build pipeline,Platform,5,7,9,8,Open,2024-01-20,build
+5,Crash on login (Android),Mobile,10,10,7,3,Open,2024-03-01,bug
+6,A/B test new checkout,Frontend,7,6,5,8,Open,2024-02-25,experiment
+7,Data export CSV bug,Analytics,8,9,4,3,Open,2024-03-03,bug
+8,Upgrade DB minor version,Platform,4,5,6,5,In Progress,2024-02-01,database
+9,Reduce bundle size,Frontend,7,8,6,5,Open,2024-01-28,performance
+10,iOS push notification delays,Mobile,8,9,6,5,Open,2024-03-05,reliability
+11,Improve monitoring alerts,Platform,6,6,8,5,Open,2024-02-14,monitoring
+12,Remove deprecated APIs,Platform,5,4,7,8,Open,2024-01-30,cleanup
+13,User onboarding tutorial,Frontend,6,6,4,3,Closed,2024-02-05,onboarding
+14,Report totals rounding error,Analytics,9,7,6,3,Open,2024-03-02,bug
+15,Android battery drain,Mobile,9,8,7,5,In Progress,2024-03-04,battery
+16,Add SSO for partners,Platform,8,9,9,8,Open,2024-03-06,security
+17,Realtime chart flicker,Analytics,6,7,5,5,Open,2024-02-18,bug
+18,Cache image assets,Frontend,5,5,4,3,Open,2024-02-22,performance
+19,App store compliance update,Mobile,8,10,6,5,Open,2024-03-07,compliance
+20,Security headers audit,Platform,7,8,9,5,Open,2024-03-08,security
+21,Search autocomplete latency,Frontend,7,7,5,5,Open,2024-02-28,performance
+22,ETL job retry policy,Analytics,6,8,8,8,Open,2024-03-01,reliability
+23,Android dark theme polish,Mobile,5,4,3,3,Closed,2024-02-15,UX
+24,Service mesh POC,Platform,4,6,5,13,Open,2024-03-09,research

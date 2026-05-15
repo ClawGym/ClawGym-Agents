@@ -1,0 +1,42 @@
+runway_months: 8
+bank_balance_usd: 230000
+monthly_burn_usd: 28000
+mrr_usd: 1200
+pricing:
+  current_model: "Per manager license"
+  price_per_manager_usd: 60
+  typical_managers_per_account: 10
+  paying_accounts: 2
+headcount:
+  founders:
+    - name: "Alex (CEO/Product)"
+      allocation_hours_per_week: 25
+      focus: ["product", "sales", "customer_interviews"]
+    - name: "Sam (CTO/Engineering)"
+      allocation_hours_per_week: 35
+      focus: ["engineering", "data", "ops"]
+  contractors:
+    - role: "Designer (part-time)"
+      fte: 0.2
+      hours_per_week: 8
+      notes: "Available for UX on activation/retention"
+    - role: "Data Analyst (ad-hoc)"
+      fte: 0.1
+      hours_per_week: 4
+      notes: "Helps with metrics sanity checks"
+constraints:
+  max_new_hires: 0
+  marketing_budget_usd_per_month: 1000
+  tools_budget_usd_per_month: 500
+  infra_spend_usd_per_month: 1100
+  require_soc2_before_enterprise: false
+  security_reviews:
+    allowed: "Lightweight only (questionnaires, DPIA summaries)"
+    note: "Defer full SOC 2; collect requests to time the investment"
+founders_time_budget_hours_per_week: 60
+gates:
+  - "Enterprise deals need clearer privacy/data handling docs"
+  - "Noise/false positives must drop before scaling outreach"
+notes:
+  - "Prioritize learning speed over scale until retention improves"
+  - "Cash conservation: avoid long contracts and expensive tooling"

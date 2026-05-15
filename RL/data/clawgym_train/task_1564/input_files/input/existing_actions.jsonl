@@ -1,0 +1,3 @@
+{"type":"proposal","target":"proposal:acme-rfp-2025","ts":"2025-12-08T14:30:00Z","note":"Submitted proposal for 2025 research tooling pilot"}
+{"type":"email","target":"client:evergreen-nda","ts":"2026-02-10T16:05:12Z","note":"Sent NDA status update to Evergreen Ventures"}
+{"type":"deploy","target":"intranet:research-assistant-alpha-1","ts":"2026-03-22T09:12:45Z","note":"Deployed alpha build to internal intranet (restricted access)"}

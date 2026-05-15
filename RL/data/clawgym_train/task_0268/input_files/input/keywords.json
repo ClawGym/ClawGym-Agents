@@ -1,0 +1,14 @@
+{
+  "index.html": {
+    "primary_keyword": "phenomenology and neuroscience",
+    "secondary_keywords": ["bridging first-person and third-person methods", "integrative cognitive science"]
+  },
+  "phenomenology-intro.html": {
+    "primary_keyword": "phenomenology of perception",
+    "secondary_keywords": ["first-person reports", "subjective experience"]
+  },
+  "neural-correlates.html": {
+    "primary_keyword": "neural correlates of consciousness",
+    "secondary_keywords": ["NCC", "empirical methods", "EEG and fMRI"]
+  }
+}

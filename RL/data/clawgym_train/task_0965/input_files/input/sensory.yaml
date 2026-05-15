@@ -1,0 +1,23 @@
+location:
+  city: Oakland
+  region: CA
+  country: USA
+  latitude: 37.8044
+  longitude: -122.2712
+weather:
+  condition: "partly cloudy"
+  temperature_c: 18.3
+  humidity_pct: 62
+  wind_kph: 12
+time:
+  local_iso: "2026-04-20T16:24:00-07:00"
+  timezone: "America/Los_Angeles"
+device:
+  type: "MacBook Pro (M3, 14-inch)"
+  battery_pct: 38
+  network: "wifi"
+  ssid: "Home-5G"
+ambience:
+  noise_level: "quiet"
+  lighting: "natural daylight"
+  notes: "Window open; light breeze"

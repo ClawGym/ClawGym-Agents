@@ -1,0 +1,57 @@
+Security Policies (Acme TaskFlow)
+
+CRITICAL
+- NO SECRETS in output or client bundles
+- Use app/ directory ONLY; Do NOT use pages/ directory
+- Do NOT use getServerSideProps (Pages Router only; we use App Router)
+- NO direct database queries in Client Components
+- External browsing requires allow-list approval (fetch only to approved domains)
+
+Data Handling
+- PII (email, name) must not be logged at INFO; use DEBUG with redaction when needed
+- All API inputs must be validated (Zod) and sanitized (escape HTML in user content)
+- Enforce least privilege: restrict Prisma queries by user/session scope
+- Secrets only read on server; never pass raw tokens to the client
+
+Authentication
+- Sessions via NextAuth JWT; httpOnly, secure cookies; rotate keys quarterly
+- Server Components and API routes must verify session before accessing protected data
+- Client Components must call Server Actions or API routes; never touch Prisma directly
+
+Authorization
+- Role-based access: user vs admin; admin endpoints must re-check role on server
+- Task access is team-scoped; filter queries by teamId from session claims
+
+Operational Policies
+
+Severity Levels
+- SEV1: Critical outage, data breach, error rate >= 25%, or auth broken globally
+- SEV2: Major degradation, single critical path failing, error rate >= 5%
+- SEV3: Minor degradation, elevated errors, error rate >= 1%
+- SEV4: Low impact issue, cosmetic or with workaround
+
+Detection & Alerting
+- Health check every 60s; page on SEV2+ and notify on SEV3
+- Error rate thresholds: SEV3 >= 1%, SEV2 >= 5%, SEV1 >= 25% over 5 min window
+- Latency: alert when p95 > 2x 7d baseline for 5 min
+- Cost anomaly: alert when daily spend > 150% 7d avg
+- Auth errors spike (>3x baseline) triggers SEV2 investigation
+
+Triage Checklist
+- Confirm alert validity, classify severity, define blast radius (which routes/teams)
+- Check recent deploys/config changes and upstream provider status
+- Assign incident commander and open incident channel; update every 30–60 min for SEV2+, 15 min for SEV1
+
+Containment & Recovery
+- Kill switch for faulty feature flags or routes; rollback to last known good deploy
+- Circuit breakers for failing upstreams; exponential backoff
+- Security: rotate credentials immediately on suspected leak; preserve logs for forensics
+- Data quality: halt automated outputs, identify contamination window, prepare correction batch
+
+Change Management
+- All production changes via reviewed PRs and CI; feature flags default OFF
+- Canary deploy before global rollout for risky changes
+
+Documentation
+- Inline critical guidance in AGENTS.md; larger docs available locally via llms.txt and llms-full.txt
+- Do NOT paste full code blocks from third-party docs; summarize and adapt to our stack

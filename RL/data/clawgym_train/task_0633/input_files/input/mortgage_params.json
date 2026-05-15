@@ -1,0 +1,10 @@
+{
+  "property_value": 750000,
+  "loan_amount": 675000,
+  "interest_rate": 6.3,
+  "loan_term_years": 30,
+  "state": "NSW",
+  "first_home_buyer": true,
+  "annual_income": 140000,
+  "existing_debts": 10000
+}

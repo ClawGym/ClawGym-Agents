@@ -1,0 +1,16 @@
+categories:
+  physics:
+    weight: 2
+    terms: ["physics", "motion", "force", "energy"]
+  chemistry:
+    weight: 2
+    terms: ["chemistry", "reaction", "molecule", "atom"]
+  biology:
+    weight: 2
+    terms: ["biology", "plants", "animals", "cells"]
+  space:
+    weight: 3
+    terms: ["space", "planet", "star", "galaxy", "astronaut", "rocket"]
+  experiments:
+    weight: 3
+    terms: ["experiment", "DIY", "how to", "try", "make"]

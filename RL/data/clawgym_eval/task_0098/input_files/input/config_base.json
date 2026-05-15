@@ -1,0 +1,26 @@
+{
+  "gateway": {
+    "port": 18789,
+    "check_interval_seconds": 45,
+    "max_restart_attempts": 8,
+    "restart_delay_seconds": 5,
+    "health_check_url": "ws://127.0.0.1:18789"
+  },
+  "notifications": {
+    "enabled": true,
+    "feishu_bot_token": "cli_xxx",
+    "feishu_user_id": "ou_12345",
+    "telegram_bot_token": "123:ABC",
+    "telegram_chat_id": "-100123456",
+    "wechat_webhook": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=abc"
+  },
+  "logging": {
+    "level": "INFO",
+    "max_log_size_mb": 10,
+    "backup_count": 5
+  },
+  "auto_start": {
+    "enabled": true,
+    "delay_seconds": 10
+  }
+}

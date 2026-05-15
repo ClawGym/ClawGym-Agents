@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1353",
+  "user_query": "Help me organize a Mega Millions office pool for our Culver City team (Los Angeles). Read input/pool_config.json (pool size, date, budget), input/previous_draws.csv (past results for frequency stats), and input/logistics.md (meeting and location details). Do the following:\n\n1) Generate exactly 10 Mega Millions picks using a lottery number generator. Ensure each pick has 5 unique numbers from 1-70 sorted ascending, plus 1 Mega Ball from 1-25. Save all picks to output/picks.json and output/picks.csv.\n\n2) Do a math analysis: compute and verify the total number of possible Mega Millions combinations, the exact jackpot odds, and a basic expected value per $2 ticket using reasonable assumptions. Present results in output/analysis.json using a strict data/meta/errors envelope, ISO 8601 timestamps (UTC, Z suffix), and no nulls.\n\n3) Write a concise LA-specific guide for pool participants focused on timing and transportation to our meetup in Culver City, calling out car reality, 405 traffic, parking, Metro limitations, and June Gloom considerations. Save to output/guide.md.\n\nUse only relative paths under input/ and output/. If you need to generate numbers multiple times to meet the constraints, make sure final files reflect the valid picks. Please include a unique requestId in analysis.json meta.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

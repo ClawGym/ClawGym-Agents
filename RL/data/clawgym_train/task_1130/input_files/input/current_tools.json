@@ -1,0 +1,55 @@
+{
+  "business": "Fresh Fork Meals",
+  "owner": "Avery Brooks",
+  "tools": [
+    {
+      "name": "Shopify",
+      "purpose": "ecommerce storefront and order capture",
+      "connected_to": ["Stripe"]
+    },
+    {
+      "name": "Stripe",
+      "purpose": "payment processing",
+      "connected_to": ["Shopify", "QuickBooks Online"]
+    },
+    {
+      "name": "Gmail",
+      "purpose": "customer email communications"
+    },
+    {
+      "name": "Google Sheets",
+      "purpose": "order master sheet, pivots, production lists"
+    },
+    {
+      "name": "Google Drive",
+      "purpose": "document storage (labels, logs, HACCP packet)"
+    },
+    {
+      "name": "QuickBooks Online",
+      "purpose": "accounting and payout reconciliation",
+      "connected_to": ["Stripe (payouts export/manual import)"]
+    },
+    {
+      "name": "Mailchimp",
+      "purpose": "email marketing and audience list"
+    },
+    {
+      "name": "Google Calendar",
+      "purpose": "production schedule and delivery windows"
+    },
+    {
+      "name": "Slack",
+      "purpose": "internal alerts (light use)"
+    },
+    {
+      "name": "Instagram",
+      "purpose": "social media posts"
+    }
+  ],
+  "manual_artifacts": [
+    "Paper HACCP logs (receiving, cooking, cooling, sanitizer, cold holding)",
+    "Avery label templates in Google Docs",
+    "Printed delivery routes from Google Maps"
+  ],
+  "notes": "Most workflows are manual and rely on copy/paste between Shopify -> Sheets -> labels, and manual Gmail confirmations. HACCP logs are primarily paper-based and summarized monthly."
+}

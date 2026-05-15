@@ -1,0 +1,7 @@
+method,path,description
+GET,/items,List all items
+POST,/items,Create a new item
+GET,/items/:id,Get an item by id
+PUT,/items/:id,Update an item by id
+DELETE,/items/:id,Delete an item by id
+GET,/status,Service status summary

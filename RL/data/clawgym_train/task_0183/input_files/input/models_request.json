@@ -1,0 +1,12 @@
+{
+  "categories": [
+    "Sedans & Sportbacks",
+    "SUVs & Crossovers",
+    "Performance (RS & S)",
+    "Electric (e-tron)"
+  ],
+  "output_paths": {
+    "catalog": "output/catalog.json",
+    "summary": "output/summary.md"
+  }
+}

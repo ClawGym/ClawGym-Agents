@@ -1,0 +1,13 @@
+pre_game_tasks:
+  - minutes_before: 120
+    task: "Set promo chalkboard and table tents"
+    role: "Floor Lead"
+  - minutes_before: 60
+    task: "AV: soundcheck main hall (TVs 1-6) and ensure broadcast source ready"
+    role: "AV Tech"
+  - minutes_before: 30
+    task: "Post to socials about today's screening"
+    role: "Manager"
+  - minutes_before: 15
+    task: "Staff briefing at bar"
+    role: "Manager"

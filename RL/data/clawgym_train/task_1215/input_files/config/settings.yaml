@@ -1,0 +1,10 @@
+local_currency_code: KES
+usd_to_local_rate: 90.0
+bank_fee_flat_usd: 2.50
+bank_fee_percent: 1.2
+expense_category_normalization:
+  Fertilizer: Inputs
+  Seeds: Inputs
+  Feed: Inputs
+  Tools: Equipment
+  Transport: Transport

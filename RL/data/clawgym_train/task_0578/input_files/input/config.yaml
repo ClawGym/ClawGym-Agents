@@ -1,0 +1,5 @@
+drivers:
+  - VER
+  - HAM
+speed_threshold: 315
+include_weather: true

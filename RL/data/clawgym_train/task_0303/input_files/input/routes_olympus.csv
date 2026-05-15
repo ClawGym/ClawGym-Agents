@@ -1,0 +1,6 @@
+route_id,name,start,end,distance_km,elevation_gain_m,max_exposure,notes
+R1,Prionia to Spilios Agapitos Refuge,Prionia,Refuge A,6.2,1100,moderate,forest and rocky path
+R2,Gortsia to Petrostrouga Refuge,Gortsia,Petrostrouga,7.5,950,low,steady forest trail
+R3,Spilios Agapitos Refuge to Skala Peak,Refuge A,Skala,3.1,800,high,exposed ridge near summit
+R4,Skala to Mytikas (Kakoskala),Skala,Mytikas,0.6,200,very_high,scrambling and significant exposure
+R5,Prionia to Enipeas Gorge section,Prionia,Enipeas Gorge,5.0,300,low,gorge path with some wet rocks

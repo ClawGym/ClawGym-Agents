@@ -1,0 +1,23 @@
+Meeting: Nanodevice Sync
+Date: 2026-04-15
+Participants: Alex (EE); Maya (Process); Ken (Modeling); Priya (EDA)
+
+Agenda:
+- ALD deposition tuning
+- Tunneling model docstrings
+- Interconnect pitch update
+- Simulation leakage review
+
+Decisions:
+- Proceed with trial anneal at 375C next run (Maya to update deposition.yaml; due by 2026-04-20).
+- Reduce target nanowire pitch to 16 nm for next sims (Ken to update sim_config.json; due by 2026-04-18).
+- Keep WKB path enabled in modeling.
+
+Action items:
+- [Maya] Update anneal_temp_c in input/config/deposition.yaml to 375 (currently 360). Due: 2026-04-20
+- [Ken] Change nanowire_pitch_nm in input/config/sim_config.json from 18 to 16. Due: 2026-04-18
+- [Alex] Confirm that estimate_tunneling_current in input/models/quantum_tunnel_model.py docstring explicitly mentions "WKB". No due date.
+
+Notes:
+- Seed=42 leakage was 12% over spec; plan a param sweep once pitch=16 nm is in place (owner: Priya).
+- Baseline vgate remains 0.7 V in sim_config.json.

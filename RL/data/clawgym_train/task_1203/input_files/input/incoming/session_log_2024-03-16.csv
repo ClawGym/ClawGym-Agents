@@ -1,0 +1,7 @@
+participant_id,date,screen_time_minutes,tabs_switched,interruptions_count,self_reported_focus
+P001,2024-03-15,180,45,3,4
+P002,2024-03-15,320,120,5,2
+P003,2024-03-15,95,30,1,5
+P001,2024-03-16,210,60,4,3
+P002,2024-03-16,260,140,6,2
+P003,2024-03-16,130,35,2,4

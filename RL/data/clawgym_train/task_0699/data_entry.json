@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0699",
+  "user_query": "I need to set up a scheduling poll for a 60-minute cross‑team design review next week. Please: 1) Read input/availability.csv (people’s availability windows in their local time), input/preferences.json (my timezone, meeting length, date range, daily time bounds, and buffer rules), and input/holidays.csv (company holidays). 2) Propose 3–6 candidate time slots that maximize overlapping availability, respect the date range and daily bounds, add buffers, and avoid holidays. 3) Create a scheduling poll with those slots. 4) Save these files: - output/created_poll.json: include purpose, my timezone, the final slots you used (with start and end in ISO 8601), the admin token, the participate URL, and an \"assumptions\" field explaining any inferences you made. - output/slots.csv: columns slot_id,start_iso,end_iso,tz for the final slots. - output/share_message.md: a short message I can paste in Slack asking everyone to vote; include the participate URL and mention it’s for the design review. - output/plan.md: a concise plan for monitoring votes, when to close the poll, and follow‑ups; include instructions that reference the admin token to view results and close the poll. Use only relative paths (input/… and output/…).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

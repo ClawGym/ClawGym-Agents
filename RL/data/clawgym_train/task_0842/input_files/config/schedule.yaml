@@ -1,0 +1,12 @@
+schedule:
+  day_of_week: Sunday
+  time: "19:00"
+  timezone: local
+io:
+  attendance_csv: "input/attendance_log.csv"
+  roster_json: "input/roster.json"
+  output_dir: "reports/weekly"
+  ops_dir: "ops"
+reporting:
+  rolling_window_weeks: 4
+  report_name_prefix: "attendance"

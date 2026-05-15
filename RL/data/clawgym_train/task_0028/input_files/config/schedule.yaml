@@ -1,0 +1,15 @@
+version: 1
+schedule:
+  cron: "30 7 * * 1,4"  # 07:30 every Monday and Thursday
+  timezone_hint: "Use system local time"
+retention:
+  log_retention_days: 7
+  raw_html_retention_days: 7
+runtime:
+  lockfile: "tmp/holistic_monitor.lock"
+  max_runtime_minutes: 20
+paths:
+  log_path: "logs/holistic_monitor.log"
+  output_base: "outputs"
+  raw_dir: "outputs/raw_html"
+  structured_dir: "outputs/structured"

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0005",
+  "user_query": "Read the hourly forecast JSON for Field 14 from input/field_14_forecast_hourly.json and spray thresholds from input/spray_thresholds.json. Using the given thresholds, find the earliest contiguous 3-hour window within the forecast where all hours meet these conditions: wind_speed_10m_mph <= wind_max_mph, wind_gusts_10m_mph <= gust_max_mph, min_temp_F <= temperature_F <= max_temp_F, and rain_probability_pct <= rain_prob_max_pct. Additionally, require that the 6 hours immediately after the window end each have rain_probability_pct <= rain_prob_max_pct (drying period). If multiple windows satisfy this, pick the earliest; if there is a tie, pick the one with the highest average temperature across the window. Treat the 3-hour window as consecutive hourly entries; set start_time to the first hour timestamp and end_time to the last hour timestamp in the window.\n\nProduce:\n- output/spray_plan.csv with a header row exactly: start_time,end_time,avg_temp_F,max_wind_mph,max_gust_mph,dry_post_hours_ok and exactly one data row for the selected window. Compute avg_temp_F as the arithmetic mean of the three hourly temperature_F values rounded to one decimal. max_wind_mph and max_gust_mph are the maxima across the three hours. dry_post_hours_ok should be \"yes\" if the post-window drying condition is met, otherwise \"no\".\n- output/summary.json containing: field_id (number), thresholds_used (object copied from input), selected_window {start_time, end_time, hour_count, avg_temp_F, max_wind_mph, max_gust_mph}, and checked_hours (the total number of hourly entries in the forecast file).\n\nDo not call any external services. Use only the provided input files and the data within them.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

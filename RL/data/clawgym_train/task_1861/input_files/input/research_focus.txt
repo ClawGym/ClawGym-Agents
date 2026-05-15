@@ -1,0 +1,12 @@
+impermanent loss
+slippage
+MEV
+TWAP
+concentrated liquidity
+dynamic fee
+front-running
+sandwich
+oracle
+invariant
+bridge
+circuit breaker

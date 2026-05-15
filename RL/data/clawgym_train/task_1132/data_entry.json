@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1132",
+  "user_query": "Read our cloud billing exports and stack context from input/cloud_spend_aws.csv, input/cloud_spend_azure.csv, input/cloud_spend_gcp.csv, and input/team_context.md. Produce a comprehensive cloud cost optimization audit that includes: (1) an Executive Summary with total monthly spend, waste identified, estimated savings potential, and Top 3 Quick Wins; (2) a Domain Breakdown across the 8 domains (compute, storage, networking, databases, AI/ML, observability, security, licensing) with approximate spend vs. benchmarks; (3) a detailed Findings Table that quantifies current monthly cost, optimized monthly cost, monthly and annual savings, effort, and priority for each finding; (4) a 90-day roadmap (week 1-2 quick wins, week 3-6 medium effort, week 7-12 strategic moves); and (5) governance recommendations (tagging strategy, budget alerts, review cadence). Write the narrative report to output/report.md, the machine-readable findings table to output/findings.csv with headers: id,cloud,service,domain,anti_pattern,current_monthly_cost,optimized_monthly_cost,monthly_savings,annual_savings,effort,priority,notes, and the roadmap to output/roadmap.json with keys: week_1_2, week_3_6, week_7_12. Use USD for all amounts and compute annual_savings = monthly_savings * 12. Ensure anti_pattern values map to the standard 12 waste patterns and that priorities clearly reflect effort vs. impact.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

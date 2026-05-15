@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1053",
+  "user_query": "Build a ranked leaderboard from the provided PR snapshots for the parameter-golf competition. Read input/prs_open.json and input/prs_closed.json. Apply these rules:\n- Include both open and merged PRs\n- Only include PRs created on or after 2026-03-19\n- Include only record submissions\n- Exclude suspect submissions (score < 1.10 or titles mentioning \"val-only\" or \"paid prefix\")\n- Use top N = 5 for display, but always include my PRs by username \"dexhunter\" even if outside the top N\n\nExtract val_bpb from PR titles or bodies; if missing, skip the PR. Rank by val_bpb ascending; for merged PRs, set status \"merged\"; for non-record submissions, set status \"non-rec\". Write the final leaderboard to output/leaderboard.csv with exact header:\nrank,val_bpb,pr,status,author,date,title,suspect,category\n\nAlso write a summary JSON to output/summary.json containing:\n- best_score (number)\n- best_pr_number (integer)\n- total_rows (integer)\n- scored_rows (integer)\n- highlight (object with fields: username, rank, val_bpb, gap_to_best rounded to 5 decimals)",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

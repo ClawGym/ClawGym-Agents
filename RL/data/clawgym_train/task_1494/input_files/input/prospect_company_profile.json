@@ -1,0 +1,94 @@
+{
+  "company": "Apex Outfitters",
+  "domain": "apexoutfitters.com",
+  "industry": "E-commerce (DTC outdoor apparel & gear)",
+  "hq_location": "Denver, CO",
+  "employees": 120,
+  "annual_revenue_usd": 25000000,
+  "platform": "Shopify Plus",
+  "analytics": "GA4",
+  "cdp_crm": "Klaviyo",
+  "third_party_scripts": [
+    "Meta Pixel",
+    "TikTok Pixel",
+    "Intercom",
+    "Yotpo",
+    "Rebuy",
+    "Hotjar (ad hoc)"
+  ],
+  "traffic_profile": {
+    "monthly_sessions": 250000,
+    "mobile_share_pct": 58,
+    "desktop_share_pct": 42,
+    "average_order_value_usd": 180,
+    "baseline_conversion_rate_pct": 0.8
+  },
+  "decision_makers": [
+    {
+      "name": "Erin Blake",
+      "role": "Chief Marketing Officer",
+      "priorities": [
+        "Increase conversion rate",
+        "Protect brand look and feel",
+        "Prove ROI on paid spend"
+      ],
+      "communication_style": "expressive"
+    },
+    {
+      "name": "David Chen",
+      "role": "Chief Operating Officer",
+      "priorities": [
+        "Operational stability",
+        "Low-risk rollout",
+        "On-time delivery"
+      ],
+      "communication_style": "analytical"
+    },
+    {
+      "name": "Maya Ortiz",
+      "role": "Head of Growth",
+      "priorities": [
+        "Data-driven testing",
+        "Performance budgets",
+        "Cross-team alignment"
+      ],
+      "communication_style": "analytical"
+    }
+  ],
+  "authority_notes": {
+    "erin_approval_limit_usd": 75000,
+    "coo_final_sign_for_over_usd": 75000,
+    "cfo_involved": true
+  },
+  "budget_signal": {
+    "stated_range_usd": "60000-100000",
+    "stretch_usd": 125000,
+    "roi_threshold": "3x within 12 months"
+  },
+  "timeline_targets": {
+    "desired_kickoff": "2026-05-12",
+    "pilot_live": "2026-06-10",
+    "broad_go_live": "2026-07-01",
+    "blackout_periods": [
+      "2026-11-01 to 2026-11-30 (BFCM)"
+    ]
+  },
+  "competition": [
+    {
+      "type": "local_dev_shop",
+      "price_usd": 50000,
+      "notes": "Light CRO, long backlog"
+    },
+    {
+      "type": "performance_consultancy",
+      "price_usd": 140000,
+      "notes": "6-month timeline; too slow for client"
+    }
+  ],
+  "risk_flags": [
+    "Brittle theme codebase",
+    "Heavy third-party script load",
+    "Legal review for consent",
+    "SEO regression risk"
+  ]
+}

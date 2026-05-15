@@ -1,0 +1,33 @@
+{
+  "plans": [
+    {
+      "id": "RP-ELEC",
+      "name": "Residential Electric",
+      "billing_model": "tiered",
+      "service_type": "electricity",
+      "currency": "USD",
+      "base_charge": 15.00,
+      "minimum_charge": 25.00,
+      "tiers": [
+        { "tier_start": 0, "tier_end": 100, "rate": 0.10 },
+        { "tier_start": 100, "tier_end": 500, "rate": 0.08 },
+        { "tier_start": 500, "rate": 0.06 }
+      ],
+      "effective_from": "2026-01-01"
+    },
+    {
+      "id": "RP-SAAS",
+      "name": "SaaS Usage",
+      "billing_model": "tiered",
+      "service_type": "saas",
+      "currency": "USD",
+      "base_charge": 0.00,
+      "tiers": [
+        { "tier_start": 0, "tier_end": 1000, "rate": 0.005 },
+        { "tier_start": 1000, "tier_end": 5000, "rate": 0.004 },
+        { "tier_start": 5000, "rate": 0.003 }
+      ],
+      "effective_from": "2026-01-01"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "title": "Secure task routing demo (LocalHub, 1 coordinator, 3 workers)",
+  "coordinator": {
+    "agent_id": "coordinator",
+    "description": "Assigns tasks and aggregates results"
+  },
+  "workers": [
+    {
+      "agent_id": "worker_1",
+      "description": "Processes dataset indexing"
+    },
+    {
+      "agent_id": "worker_2",
+      "description": "Runs compute jobs"
+    },
+    {
+      "agent_id": "worker_3",
+      "description": "Summarizes reports"
+    }
+  ],
+  "hub": {
+    "type": "LocalHub",
+    "notes": "In-process broker for routing encrypted envelopes; cannot decrypt payloads"
+  },
+  "flow": {
+    "sequence": "Coordinator sends three distinct tasks, one to each worker; each worker replies with a result to the coordinator using the same task_id.",
+    "ordering": "Prefer alternating task→result per worker, but sending all 3 tasks first followed by 3 results is acceptable.",
+    "timestamps": "Use integer milliseconds since epoch; ensure monotonic non-decreasing order across the transcript."
+  },
+  "tasks": [
+    {
+      "task_id": 101,
+      "recipient": "worker_1",
+      "text": "Index dataset ALPHA and report document count"
+    },
+    {
+      "task_id": 102,
+      "recipient": "worker_2",
+      "text": "Compute embeddings for file set BETA"
+    },
+    {
+      "task_id": 103,
+      "recipient": "worker_3",
+      "text": "Summarize incident report GAMMA in 2 sentences"
+    }
+  ],
+  "result_format": {
+    "type": "result",
+    "text_template": "Completed: {original_text} — status: OK",
+    "echo_fields": [
+      "task_id"
+    ]
+  },
+  "security": {
+    "encryption": "AES-256-GCM",
+    "signing": "Ed25519",
+    "key_exchange": "X25519 (ephemeral sessions)",
+    "replay_protection": "Nonce + monotonic per-session counter to detect duplicates"
+  },
+  "notes": [
+    "All agent_ids listed here must appear in identities.json and hub_stats.json.",
+    "transcript.jsonl must contain at least these 6 messages (3 tasks + 3 results).",
+    "Result messages must be addressed to coordinator."
+  ]
+}

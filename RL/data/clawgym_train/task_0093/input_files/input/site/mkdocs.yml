@@ -1,0 +1,11 @@
+site_name: "POLI 402: Political Structures and Social Systems"
+repo_url: "https://example.edu/poli402"
+nav:
+  - Home: pages/index.md
+  - Syllabus: pages/syllabus.md
+  - Data: ../data/survey_responses.csv
+plugins:
+  - search
+extra:
+  analytics:
+    google_analytics: "UA-TEST-12345"

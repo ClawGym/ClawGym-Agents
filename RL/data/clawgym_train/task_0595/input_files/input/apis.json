@@ -1,0 +1,38 @@
+{
+  "module": "TaskFlow API",
+  "functions": [
+    "createTask(input: CreateTaskInput): Promise<Task>",
+    "listTasks(params: TaskQuery): Promise<Task[]>",
+    "getTask(id: string): Promise<Task | null>",
+    "updateTask(id: string, patch: TaskPatch): Promise<Task>",
+    "deleteTask(id: string): Promise<void>",
+    "assignTask(taskId: string, userId: string): Promise<Assignment>",
+    "createUser(input: CreateUserInput): Promise<User>",
+    "getUserByEmail(email: string): Promise<User | null>",
+    "authenticate(credentials: Credentials): Promise<Session>",
+    "invalidateSession(sessionId: string): Promise<void>"
+  ],
+  "types": [
+    "type CreateTaskInput = { title: string; description?: string; assigneeId?: string }",
+    "type Task = { id: string; title: string; status: 'todo' | 'in_progress' | 'done'; assigneeId?: string; createdAt: string }",
+    "type TaskPatch = { title?: string; status?: 'todo' | 'in_progress' | 'done'; assigneeId?: string }",
+    "type TaskQuery = { status?: string; assigneeId?: string; page?: number; pageSize?: number }",
+    "type CreateUserInput = { email: string; name?: string; role?: 'user' | 'admin' }",
+    "type Credentials = { email: string; password: string }",
+    "type Session = { id: string; userId: string; issuedAt: string; expiresAt: string }",
+    "type Assignment = { taskId: string; userId: string; assignedAt: string }",
+    "type User = { id: string; email: string; name?: string; role: 'user' | 'admin' }"
+  ],
+  "routes": [
+    "POST /api/tasks -> createTask(input: CreateTaskInput): Promise<Task>",
+    "GET /api/tasks -> listTasks(params: TaskQuery): Promise<Task[]>",
+    "GET /api/tasks/:id -> getTask(id: string): Promise<Task | null>",
+    "PATCH /api/tasks/:id -> updateTask(id: string, patch: TaskPatch): Promise<Task>",
+    "DELETE /api/tasks/:id -> deleteTask(id: string): Promise<void>",
+    "POST /api/tasks/:id/assign -> assignTask(taskId: string, userId: string): Promise<Assignment>",
+    "POST /api/auth/login -> authenticate(credentials: Credentials): Promise<Session>",
+    "POST /api/auth/logout -> invalidateSession(sessionId: string): Promise<void>",
+    "GET /api/users/by-email -> getUserByEmail(email: string): Promise<User | null>",
+    "POST /api/users -> createUser(input: CreateUserInput): Promise<User>"
+  ]
+}

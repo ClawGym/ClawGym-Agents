@@ -1,0 +1,16 @@
+Session: Pre-delete checklist for input/archives/2021-private/customers.csv
+When: 2026-03-22T10:11:22Z
+Operator notes:
+- Path safety: verified no traversal ('..') and no symlink; target path resolves under input/archives/2021-private/customers.csv
+- Reason: compliance-retention-cleanup (2021 archival PII beyond policy window)
+- Risk level: high (irreversible)
+
+2026-03-22T10:12:01Z
+Prepared canonical action summary string (dry-run; not yet persisted to output):
+delete|path=input/archives/2021-private/customers.csv|reason=compliance-retention-cleanup|irreversible=true|risk=high
+
+2026-03-22T10:12:18Z
+Intended next step: generate short consent token (e.g., ACT-123) and write tokens ledger (status=pending, ttl=10, single_use=true). Do not execute deletion until standalone token confirmation arrives.
+
+2026-03-22T10:13:04Z
+Hard reset detected: memory/index unavailable, cache likely cleared. No deletion executed. No token generated. Manifest not updated past entry_seq 7. Fail-closed; awaiting recovery and re-latch.

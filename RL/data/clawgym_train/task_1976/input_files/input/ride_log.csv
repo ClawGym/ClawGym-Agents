@@ -1,0 +1,16 @@
+ride_id,date,horse_id,distance_km,duration_min,gait_dominant,heart_rate_avg,location
+RL001,2024-01-05,H001,5.0,40,trot,120,Istanbul
+RL002,2024-01-12,H001,7.2,55,canter,132,Istanbul
+RL003,2024-01-18,H001,4.0,35,walk,98,Istanbul
+RL004,2024-02-03,H001,10.5,70,canter,140,Bursa
+RL005,2024-02-17,H001,6.0,50,trot,118,Istanbul
+RL006,2024-03-02,H001,8.1,60,canter,130,Izmir
+RL007,2024-01-08,H002,3.0,30,walk,95,Ankara
+RL008,2024-01-20,H002,6.5,50,trot,110,Ankara
+RL009,2024-02-10,H002,7.0,60,trot,115,Ankara
+RL010,2024-02-22,H002,12.0,45,gallop,155,Ankara
+RL011,2024-02-28,H002,5.0,42,trot,,Ankara
+RL012,2024-03-10,H002,15.0,10,gallop,170,Istanbul
+RL013,2024-01-15,H003,5.0,40,trot,120,Istanbul
+RL014,2024-03-15,H002,3.0,0,trot,100,Ankara
+RL015,2024-03-18,H001,6.0,50,trot,250,Istanbul

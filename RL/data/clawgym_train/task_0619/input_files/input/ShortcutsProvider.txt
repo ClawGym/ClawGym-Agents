@@ -1,0 +1,36 @@
+import AppIntents
+
+struct LibraryShortcuts: AppShortcutsProvider {
+    static var appShortcuts: [AppShortcut] {
+        [
+            AppShortcut(
+                intent: OpenCurrentlyReading(),
+                phrases: [
+                    // Missing .applicationName in all phrases
+                    "Open currently reading",
+                    "Show my reading list"
+                ],
+                shortTitle: "Open Reading List",
+                systemImageName: "books.vertical.fill"
+            ),
+            AppShortcut(
+                intent: SyncLibrary(),
+                phrases: [
+                    // Missing .applicationName
+                    "Sync my library now"
+                ],
+                shortTitle: "Sync Library",
+                systemImageName: "arrow.triangle.2.circlepath"
+            )
+        ]
+    }
+}
+
+// Packaging note:
+// This AppShortcutsProvider is defined inside the Swift Package “PageTurnerIntents”.
+// Our app minimum target is iOS 16; we have not moved these definitions into the app bundle or an App Intents extension yet.
+
+// Notes:
+// - Phrases do not include \(.applicationName), which can prevent Siri discovery.
+// - Some phrases reference entity parameters indirectly through voice, but we haven’t tested discovery.
+// - There is no AppShortcuts.strings file; phrases are currently localized in Localizable.strings (see LocalizationNotes.md).

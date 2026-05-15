@@ -1,0 +1,25 @@
+timezone: "UTC"
+
+windows:
+  - day: "Tuesday"
+    times: ["09:00", "14:00"]
+  - day: "Wednesday"
+    times: ["09:00"]
+  - day: "Thursday"
+    times: ["14:00"]
+
+earliest_date: "2026-05-01"
+spacing_hours: 24
+
+blackout_dates:
+  - "2026-05-25"   # Memorial Day (US) — avoid
+
+notes:
+  - "Avoid weekends."
+  - "Prefer 09:00 UTC for EMEA/AMER overlap."
+  - "Ensure unique scheduled timestamps across posts."
+
+suggested_slots:
+  - "2026-05-05T09:00:00Z"
+  - "2026-05-06T09:00:00Z"
+  - "2026-05-07T14:00:00Z"

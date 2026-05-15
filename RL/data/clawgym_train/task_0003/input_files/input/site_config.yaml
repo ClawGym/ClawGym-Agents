@@ -1,0 +1,21 @@
+festival:
+  name: "Summit Peaks Outdoor Festival"
+  participant_count_estimate: 12000
+i18n:
+  languages_enabled:
+    - en
+    - es
+  signage_keys_required:
+    - hydration_station
+    - first_aid
+    - registration
+    - start_line
+    - finish_line
+    - lost_and_found
+owners:
+  content_ops: "Ava Chen"
+  signage_ops: "Liam Ortiz"
+constraints:
+  translation_deadline_days: 4
+  use_internal_glossary: true
+notes: "Bilingual signage for volunteers and participants is required across all venues."

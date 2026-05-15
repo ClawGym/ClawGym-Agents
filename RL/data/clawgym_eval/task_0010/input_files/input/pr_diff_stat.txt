@@ -1,0 +1,4 @@
+src/auth/token.js | 22 ++++++---------
+src/auth/session.js | 7 +++----
+README.md | 4 ++--
+3 files changed, 20 insertions(+), 13 deletions(-)

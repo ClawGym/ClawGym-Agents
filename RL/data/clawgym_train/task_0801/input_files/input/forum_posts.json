@@ -1,0 +1,29 @@
+[
+  {
+    "id": 101,
+    "username": "HandyDad",
+    "room_type": "living room",
+    "budget": "under $1000",
+    "style_preference": "mid-century modern",
+    "constraints": ["north-facing", "rental (no painting walls)"],
+    "question": "Looking for ways to brighten my north-facing rental living room without painting. Any suggestions on lighting and rugs?"
+  },
+  {
+    "id": 102,
+    "username": "StudioCat",
+    "room_type": "studio apartment",
+    "budget": "$500-$700",
+    "style_preference": "minimalist + japandi",
+    "constraints": ["one wall has mirrored closet", "needs desk + dining"],
+    "question": "How can I zone my small studio for work and dining without making it feel cramped?"
+  },
+  {
+    "id": 103,
+    "username": "PlantNerd",
+    "room_type": "bedroom",
+    "budget": "up to $1500",
+    "style_preference": "biophilic + Scandinavian",
+    "constraints": ["low ceilings", "allergy to wool"],
+    "question": "Suggestions for calm, plant-friendly bedroom materials and layout?"
+  }
+]

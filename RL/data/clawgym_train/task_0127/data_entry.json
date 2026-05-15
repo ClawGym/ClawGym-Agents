@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0127",
+  "user_query": "Simulate a secure migration of my OpenClaw Agent state. Read input/.openclaw/openclaw.json, input/clawd/MEMORY.md, and input/password.txt. Then produce these outputs:\n1) Write output/export_manifest.json summarizing an encrypted export: include fields algorithm=\"AES-256-GCM\"; header.magic=\"OCM1\"; header.version=1; header.algo_id=1; header.salt_len=16; header.iv_len=12; sources=[\".openclaw\",\"clawd\"]; files listing at least \".openclaw/openclaw.json\" and \"clawd/MEMORY.md\"; workspace_in_config extracted from the input config; DO NOT include the actual password.\n2) Restore to output/restore-site/ and normalize paths: write output/restored_openclaw.json as the original config but with agents.defaults.workspace set exactly to \"output/restore-site/clawd\" (other fields preserved); write output/restore-site/manifest.json capturing the original workspace (same value as export_manifest.workspace_in_config) and createdAt in ISO8601; do not include any password.\n3) Copy input/clawd/MEMORY.md to output/restore-site/clawd/MEMORY.md (content preserved).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

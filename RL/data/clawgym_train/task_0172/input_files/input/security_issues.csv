@@ -1,0 +1,7 @@
+id,title,severity,status
+SEC-1,Cross-site scripting in comments,Medium,open
+SEC-2,Weak password policy,Low,open
+SEC-3,Admin panel exposure,High,investigating
+SEC-2,Weak password policy,MEDIUM,triage
+SEC-1,Cross-site scripting in comments,HIGH,in_progress
+SEC-3,Admin panel exposure,CRITICAL,open

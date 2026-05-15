@@ -1,0 +1,66 @@
+brand: Founders & Movers
+year: 2026
+city: Amsterdam
+
+required_sections:
+  - "Who is this guide for?"
+  - "Where should tech workers live in Amsterdam? (Neighborhoods)"
+  - "What is the 2026 housing market reality and current rents?"
+  - "How do tech workers get around? (Bikes, trams, GVB)"
+  - "What does it cost to live in Amsterdam in 2026?"
+  - "What visas, permits, and tax benefits apply? (HSM & 30% ruling)"
+  - "What laws, safety rules, and local traps should I know?"
+  - "How to integrate quickly in Dutch work culture?"
+  - "Security Addendum for our startup portal"
+
+required_numbers:
+  gvb_monthly_pass: "EUR 99"
+  hsm_threshold_30_plus: "EUR 5,688/month"
+  hsm_threshold_under_30: "EUR 4,171/month"
+  rent_1br_centrum: "EUR 1,800–2,800/month"
+  rent_1br_outside_ring: "EUR 1,400–2,000/month"
+  thirty_percent_ruling_phase_down: "30% (months 1–20), 20% (months 21–40), 10% (months 41–60)"
+
+security_addendum_requirements:
+  jwt_access_refresh: true
+  oauth2_pkce_public_clients: true
+  session_vs_jwt_tradeoffs: true
+  csrf_samesite_httponly_guidance: true
+  mfa_totp_webauthn: true
+  concrete_do_dont_items:
+    - "Never put tokens in URLs or query params."
+    - "Do not store tokens in localStorage; prefer httpOnly cookies or in-memory."
+    - "Always enable SameSite and CSRF tokens for cookie-based sessions."
+  mention_terms:
+    - "JWT"
+    - "OAuth 2.0"
+    - "PKCE"
+    - "MFA"
+    - "WebAuthn"
+    - "httpOnly"
+    - "SameSite"
+    - "CSRF"
+
+style:
+  english_only: true
+  direct_answer_lead: true
+  descriptive_headings: true
+  named_entities_required: true
+
+legal_guardrails:
+  - "No promises of visa approvals; explain processes and thresholds."
+  - "Emphasize regulated areas: cannabis (licensed coffeeshops), prostitution (designated areas)."
+  - "Highlight cycling laws: lights at night, no phone use while riding, hand signals."
+  - "Note Airbnb limits (30 nights/year for entire home)."
+
+avoid:
+  - "Outdated 2024/2025 numbers unless clearly labeled historical."
+  - "Non-English language."
+  - "Stereotypes or culture-bashing."
+  - "Unsafe recommendations (e.g., swimming in canals outside designated areas)."
+
+aeo:
+  headings_match_questions: true
+  extractable_leads: true
+  tables_for_costs: true
+  freshness_review_window_weeks: 2-4

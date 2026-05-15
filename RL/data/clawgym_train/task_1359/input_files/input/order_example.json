@@ -1,0 +1,8 @@
+{
+  "order_id": "ORD-001",
+  "customer": { "vip": true },
+  "items": [
+    { "product_id": "P200", "quantity": 2 },
+    { "product_id": "P300", "quantity": 1 }
+  ]
+}

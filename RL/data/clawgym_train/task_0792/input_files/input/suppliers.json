@@ -1,0 +1,8 @@
+{
+  "suppliers": [
+    {"supplier_id": "S01", "supplier_name": "Nordic Form AB", "country": "Sweden", "lead_time_days": 14},
+    {"supplier_id": "S02", "supplier_name": "Skog & Stål AB", "country": "Sweden", "lead_time_days": 21},
+    {"supplier_id": "S03", "supplier_name": "Havs Design Oy", "country": "Finland", "lead_time_days": 18},
+    {"supplier_id": "S04", "supplier_name": "Arctic Living AS", "country": "Norway", "lead_time_days": 10}
+  ]
+}

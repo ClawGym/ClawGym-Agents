@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1963",
+  "user_query": "I need a clean, reproducible filesystem inventory using read-only shell commands. Please use /term to run the commands and generate the following artifacts:\n\n1) output/tree.txt\n   - A sorted list of every regular file under input/ (one per line), paths starting with \"input/\" and using forward slashes.\n   - Include only files, not directories.\n   - Sort lexicographically by the full relative path.\n\n2) output/inventory.csv\n   - A CSV with the header: path,size_bytes\n   - One row per file in the same order as output/tree.txt.\n   - path must match the exact path listed in tree.txt; size_bytes must be an integer byte size for that file.\n\n3) output/files_by_ext.json\n   - A JSON object mapping file extensions to counts.\n   - Use the full extension including the leading dot (e.g., \".py\", \".md\", \".jsonl\"). For files with no extension, use an empty string \"\".\n   - The sum of the counts must equal the number of files in output/tree.txt.\n\n4) output/summary.md\n   - Briefly describe your approach and rationale.\n   - Include the exact /term command lines you executed (at least two), and mention each of the generated output files by path.\n\nConstraints:\n- Use only read-only shell operations (listing, finding, sorting, measuring sizes, etc.). Do not modify anything under input/.\n- Use relative workspace paths only (start from the current working directory). Do not use absolute paths.\n- Write all outputs under the output/ directory using the exact filenames above.\n- Read the repository structure exclusively from the files under input/.\n\nThanks!",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

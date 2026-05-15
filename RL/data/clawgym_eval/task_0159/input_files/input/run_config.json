@@ -1,0 +1,10 @@
+{
+  "target_date": "2026-04-17",
+  "frequency_days": 7,
+  "output_base": "out/meetings",
+  "inputs": {
+    "agenda_csv": "input/agenda.csv",
+    "transcript_txt": "input/previous_transcript.txt",
+    "participants_yaml": "input/participants.yaml"
+  }
+}

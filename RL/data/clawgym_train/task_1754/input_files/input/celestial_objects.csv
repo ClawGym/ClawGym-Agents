@@ -1,0 +1,11 @@
+object_name,type,hemisphere,brightness_mag,rarity_score,themes,visibility_months,description
+Polaris,star,north,1.98,1,navigation,August;September;October,Bright North Star; ideal for star trails as it marks true north
+Andromeda Galaxy,galaxy,north,3.4,4,origins;time-lapse,September;October,Nearest major galaxy; faint smudge suitable for wide-field shots
+Jupiter,planet,both,-2.0,3,origins;navigation,August;September,Very bright planet; easy to spot near the horizon after dusk
+Saturn,planet,both,1.4,3,origins,August,Ringed planet; bright enough for a wide shot when near the Moon
+Pleiades,cluster,north,1.6,3,origins;time-lapse,October,Open cluster (Seven Sisters); striking in wide shots
+Vega,star,north,0.03,1,navigation;time-lapse,August;September,Part of the Summer Triangle; bright and rises early
+Milky Way Core,feature,both,0.0,5,time-lapse,August,Dense star fields; excellent for time-lapse sequences
+Mars,planet,both,1.8,3,navigation;origins,September,Rusty-red planet; bright enough for wide shots
+Neptune,planet,both,7.8,4,origins,September;October,Very dim; typically requires tracking and long exposures
+Betelgeuse,star,north,0.4,2,origins,December;January,Bright red supergiant in Orion; outside the production window

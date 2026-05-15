@@ -1,0 +1,94 @@
+facility:
+  size_sq_ft: 60000
+  layout_type: rack
+  rack_types:
+    - selective pallet rack
+    - bin shelving
+    - limited carton flow near pack
+  aisle_width_ft: 11
+  clear_height_ft: 26
+  pallet_positions_total: 1800
+  pallet_positions_occupied: 1200
+  pick_faces_bin: 2200
+  pack_stations: 4
+  dock_doors: 6
+  temperature_control: false
+
+inventory:
+  sku_count: 4200
+  abc_policy: "Not formalized; slotting mostly by product family"
+  dead_stock_percent: 8.5
+  estimated_dead_stock_skus: 357
+
+operations:
+  shifts:
+    - name: Day
+      hours: "06:00-14:30"
+      employees:
+        pickers: 8
+        receivers: 3
+        packers: 5
+        cycle_counters: 1
+    - name: Swing
+      hours: "14:30-22:00"
+      employees:
+        pickers: 4
+        receivers: 1
+        packers: 3
+        cycle_counters: 0
+  pick_method: batch
+  equipment:
+    - picking carts (6-position)
+    - manual pallet jacks
+    - RF scanners (handheld)
+  pack_lines: 2
+  replenishment_method: "Manual min/max on top ~300 SKUs; reactive for long tail"
+
+systems:
+  wms: "Zoho Inventory"
+  erp: "QuickBooks Online"
+  barcode: "1D barcodes; some 2D capability"
+  shipping: "ShipStation"
+  reporting: "Spreadsheets + Zoho reports"
+
+automation:
+  current:
+    - none (no conveyor)
+    - no pick-to-light
+    - no AMRs/AGVs
+  notes: "Receiving uses gravity conveyors at dock only; picking is entirely cart-based."
+
+slotting:
+  current_policy: "Family-based zones; not velocity-driven"
+  avg_distance_A_class_ft: 75
+  near_pack_fast_movers_percent: 25
+  remarks: "High-velocity SKUs are scattered; congestion near pack on Mondays"
+
+inbound:
+  avg_receipts_per_day: 8
+  avg_units_per_receipt: 300
+  dock_to_stock_hours: 18
+  staging_space_sq_ft: 4500
+
+outbound:
+  carrier_mix:
+    UPS: 0.7
+    USPS: 0.2
+    FedEx: 0.1
+  packing_materials: "Right-size cartons with paper dunnage; no auto-tapers"
+
+safety_and_compliance:
+  dart_rate: 3.8
+  osha_program: "Basic training; annual refresher"
+  incidents_last_12_months: 5
+  notes: "Aisle congestion during peak; limited ergonomic aids at pack"
+
+seasonality:
+  peak_months:
+    - November
+    - December
+  notes: "Order volume increases ~35% in Nov-Dec"
+
+constraints:
+  budget_notes: "Capex limited through Q2; Opex available for process changes"
+  building: "Lease; mezzanine expansion restricted without landlord approval"

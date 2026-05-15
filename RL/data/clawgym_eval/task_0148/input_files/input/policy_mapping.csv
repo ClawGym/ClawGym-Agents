@@ -1,0 +1,9 @@
+control_id,status,implementation_date,notes
+AC-2,Implemented,2024-02-01,Provisioning workflow in place
+AC-7,Not Implemented,,Lockout policy deferred pending MFA rollout
+IA-2,Implemented,2023-12-15,MFA enabled for staff
+IA-5,Partially Implemented,2024-01-10,Password policy improved; hardware tokens pending
+AU-2,Implemented,2024-03-05,SIEM collecting core events
+CM-2,Implemented,2023-11-20,Baseline with weekly reviews
+SC-7,Partially Implemented,2024-02-20,Perimeter rules draft; segmentation incomplete
+SC-13,Not Implemented,,Crypto upgrade project planned

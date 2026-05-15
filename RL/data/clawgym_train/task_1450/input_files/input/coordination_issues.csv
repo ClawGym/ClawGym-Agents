@@ -1,0 +1,11 @@
+id,project,team,status,severity,opened_at,resolved_at
+1,GreenTower,Structure,open,high,2024-06-01,
+2,GreenTower,MEP,resolved,medium,2024-05-20,2024-06-02
+3,GreenTower,Architecture,resolved,high,2024-05-25,2024-06-10
+4,RiverBridge,Structure,open,low,2024-06-12,
+5,RiverBridge,MEP,open,medium,2024-05-29,
+6,GreenTower,MEP,resolved,high,2024-05-15,2024-05-30
+7,RiverBridge,Architecture,resolved,low,2024-06-05,2024-06-18
+8,GreenTower,Structure,resolved,medium,2024-05-28,2024-06-03
+9,GreenTower,Architecture,open,high,2024-05-31,
+10,RiverBridge,MEP,resolved,medium,2024-05-10,2024-05-20

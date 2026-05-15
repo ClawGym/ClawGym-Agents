@@ -1,0 +1,67 @@
+[
+  {
+    "name": "Maria Garcia",
+    "birthday": "1990-04-18",
+    "tags": ["friend", "work"],
+    "basics": {
+      "how_we_met": "Met at a DevOps meetup in 2019",
+      "company": "RoboSoft",
+      "location": "San Francisco, CA",
+      "communication_preference": "text"
+    },
+    "personal_details": {
+      "kids": [],
+      "spouse": null,
+      "preferences": ["morning person"]
+    },
+    "interests": ["robotics", "cooking"],
+    "notes": "Enjoys coffee shops near SOMA.",
+    "interactions": [
+      { "date": "2026-01-20", "note": "Lunch, discussed her new job" },
+      { "date": "2025-12-05", "note": "Holiday party catch-up" }
+    ]
+  },
+  {
+    "name": "John Smith",
+    "birthday": "1985-04-22",
+    "tags": ["family"],
+    "basics": {
+      "how_we_met": "Cousin",
+      "company": "North Ridge Logistics",
+      "location": "Denver, CO",
+      "communication_preference": "phone"
+    },
+    "personal_details": {
+      "kids": ["Sofia"],
+      "spouse": "Emily",
+      "preferences": ["weekend calls"]
+    },
+    "interests": ["hiking", "grilling"],
+    "notes": "Planning a summer road trip.",
+    "interactions": [
+      { "date": "2026-03-01", "note": "Family dinner; talked about Sofia's recital" },
+      { "date": "2025-11-24", "note": "Thanksgiving plans coordination" }
+    ]
+  },
+  {
+    "name": "Sarah Lee",
+    "birthday": "1991-05-01",
+    "tags": ["work"],
+    "basics": {
+      "how_we_met": "Coworker at GroundWorks",
+      "company": "GroundWorks",
+      "location": "Seattle, WA",
+      "communication_preference": "email"
+    },
+    "personal_details": {
+      "kids": [],
+      "spouse": null,
+      "preferences": []
+    },
+    "interests": ["hiking", "photography"],
+    "notes": "Interested in trail races this summer.",
+    "interactions": [
+      { "date": "2026-02-10", "note": "Project kickoff; discussed Q2 goals" }
+    ]
+  }
+]

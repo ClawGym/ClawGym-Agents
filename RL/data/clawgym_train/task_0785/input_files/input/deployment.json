@@ -1,0 +1,22 @@
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "model_params_billion": 7,
+  "hardware_platform": "rtx5090",
+  "gpu_vram_gb": 24,
+  "quantization": "int8_default",
+  "precision": "fp16",
+  "batch_size": 1,
+  "sequence_length": 512,
+  "generation_length": 256,
+  "monthly_requests": 1200000,
+  "use_case": "Production chat API with English/Chinese support; average 512 input + 256 output tokens per request",
+  "environment": {
+    "pytorch_version": "2.12.0.dev20260315+cu128",
+    "cuda_version": "12.8",
+    "transformers_version": "4.50.0",
+    "bitsandbytes_version": "0.45.3",
+    "torchao_version": "0.17.0.dev20260316+cu128",
+    "driver_version": "580.105.08"
+  },
+  "notes": "Running on a single RTX 5090 (Blackwell). Keeping BS=1 for now to minimize latency; considering NF4 later if memory gets tight."
+}

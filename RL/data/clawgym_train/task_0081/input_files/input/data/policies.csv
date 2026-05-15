@@ -1,0 +1,15 @@
+id,year,policy_name,domain,level,province,type
+1,1979,国家空气质量管理试行,air_quality,national,National,law
+2,1984,广东省水环境保护办法,water_protection,provincial,Guangdong,regulation
+3,1988,国家固体废物管理条例,solid_waste,national,National,regulation
+4,1995,河北省大气治理方案,air_quality,provincial,Hebei,program
+5,1998,国家水污染防治规划,water_protection,national,National,program
+6,2000,四川省固废分类试点,solid_waste,provincial,Sichuan,program
+7,2005,国家清洁空气行动,air_quality,national,National,program
+8,2006,山东省水治理行动,water_protection,provincial,Shandong,program
+9,2010,国家流域综合治水,water_protection,national,National,program
+10,2013,北京市清洁空气条例,air_quality,provincial,Beijing,regulation
+11,2015,国家固废污染防治条例,solid_waste,national,National,regulation
+12,2018,广东省饮用水水源保护,water_protection,provincial,Guangdong,regulation
+13,2020,国家蓝天保卫行动,air_quality,national,National,program
+14,2021,河北省固废资源化试点,solid_waste,provincial,Hebei,program

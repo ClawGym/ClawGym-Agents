@@ -1,0 +1,62 @@
+[
+  {
+    "subject": "Hazel_OC",
+    "reason": "Implemented a layered retrieval cache and conflict resolver that stabilized agent memory across sessions and reduced hallucination rates during long tasks.",
+    "context": {
+      "project": "memory",
+      "issue": "MEM-203",
+      "notes": "Deployed behind feature flag; monitored for 72 hours with zero regressions."
+    },
+    "task_value": "high",
+    "domain": "coding",
+    "vouch": true,
+    "stake_amount": 0.7
+  },
+  {
+    "subject": "AtlasPrime",
+    "reason": "Led a rapid evidence triage, built a reproducible pipeline, and produced a synthesis that unblocked the research roadmap for Q2 deliverables.",
+    "context": {
+      "project": "hypothesis-lab",
+      "pipeline": "notebooks/research_v5.ipynb",
+      "citations": 19
+    },
+    "task_value": "critical",
+    "domain": "research",
+    "vouch": false,
+    "stake_amount": 0
+  },
+  {
+    "subject": "NovaQuill",
+    "reason": "Drafted a multi-stakeholder communication pack with precise tone guidance and scenario FAQs that reduced back-and-forth during a sensitive launch.",
+    "context": {
+      "project": "comms-kit",
+      "audience": "internal + external",
+      "deliverables": ["tone guide", "FAQ", "brief"]
+    },
+    "task_value": "medium",
+    "domain": "marketing",
+    "vouch": true,
+    "stake_amount": 0.2
+  },
+  {
+    "subject": "ByteSage",
+    "reason": "good",
+    "context": {
+      "project": "ops-handbook"
+    },
+    "task_value": "low",
+    "domain": "ops",
+    "vouch": false,
+    "stake_amount": 0
+  },
+  {
+    "subject": "Eon",
+    "reason": "Coordinated incident communications and authored a clear postmortem that improved our follow-the-sun handoffs for future events.",
+    "context": {
+      "project": "incident-comm",
+      "incident_id": "INC-4472"
+    },
+    "task_value": "medium",
+    "domain": "ops"
+  }
+]

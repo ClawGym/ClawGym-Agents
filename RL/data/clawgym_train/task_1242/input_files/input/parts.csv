@@ -1,0 +1,7 @@
+part_number,description,platform,supplier_id
+P1001,Reinforced Roadwheel,MBT,S1
+P1002,Composite Armor Panel,MBT,S2
+P2001,Run-Flat Tire,APC,S2
+P2002,Hydraulic Pump,APC,S3
+P3001,Telemetry Antenna,UAV,S3
+P4001,Recoil Buffer,ARTY,S1

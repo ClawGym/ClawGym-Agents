@@ -1,0 +1,10 @@
+{"metric_name":"http_requests_total","labels":{"method":"GET","route":"/api/v1/users","status":"200"},"value":42}
+{"metric_name":"http_requests_total","labels":{"method":"GET","route":"/api/v1/users","status":"500"},"value":1}
+{"metric_name":"http_requests_total","labels":{"method":"POST","route":"/api/v1/items","status":"201"},"value":3}
+{"metric_name":"http_requests_total","labels":{"method":"POST","route":"/api/v1/items","status":"400"},"value":2}
+{"metric_name":"http_request_duration_seconds","labels":{"method":"GET","route":"/api/v1/users"},"value":0.123}
+{"metric_name":"http_request_duration_seconds","labels":{"method":"POST","route":"/api/v1/items"},"value":0.256}
+{"metric_name":"cache_miss_total","labels":{"cache_name":"redis"},"value":8}
+{"metric_name":"cache_miss_total","labels":{"cache_name":"memcached"},"value":5}
+{"metric_name":"worker_queue_depth","labels":{"queue":"default"},"value":17}
+{"metric_name":"background_tasks_total","labels":{"task":"cleanup"},"value":12}

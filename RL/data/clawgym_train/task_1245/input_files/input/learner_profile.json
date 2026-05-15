@@ -1,0 +1,31 @@
+{
+  "name": "Alex Rivera",
+  "target_language": "Japanese",
+  "level": "absolute beginner",
+  "goal": "Travel — navigate Tokyo confidently for transport, ordering food, shopping, and basic emergencies",
+  "departure_in_weeks": 4,
+  "preferred_style": "mixed",
+  "session_format": "short, practical daily lessons (15–20 minutes) plus 5-minute quick drills",
+  "focus_preferences": {
+    "prioritize_polite_speech": true,
+    "romaji_support": true,
+    "include_native_script": true,
+    "hiragana_basics": true
+  },
+  "context": {
+    "destination_city": "Tokyo",
+    "dietary_notes": "no known allergies",
+    "budget_range": "moderate",
+    "tech_setup": "smartphone on the go with offline maps"
+  },
+  "confidence_areas": [
+    "clear step-by-step phrases",
+    "cashier interactions"
+  ],
+  "anxiety_points": [
+    "train navigation and transfers",
+    "understanding rapid speech"
+  ],
+  "tone": "practical and encouraging",
+  "notes_for_tutor": "Keep sessions short, emphasize politeness, include romaji with native script, and reinforce must-include travel phrases."
+}

@@ -1,0 +1,5 @@
+assignment_id,course,assignment,due_at,estimate_hours
+A1,ENG101,Essay Draft,2024-10-03T18:00:00-04:00,2.5
+A2,MATH221,Calc Problem Set 4,2024-10-04T12:00:00-04:00,3
+A3,COMM210,Group Presentation Slides,2024-10-07T09:00:00-04:00,4
+A4,CS150,Lab 3 - File I/O,2024-10-10T17:00:00-04:00,2

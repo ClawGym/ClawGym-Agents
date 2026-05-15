@@ -1,0 +1,5 @@
+[
+  {"name":"Quick Notes","enabled": true, "permissions": ["storage","clipboardRead","clipboardWrite","<all_urls>"]},
+  {"name":"Recipe Saver","enabled": true, "permissions": ["storage"]},
+  {"name":"Tab Organizer","enabled": false, "permissions": ["tabs","sessions","history"]}
+]

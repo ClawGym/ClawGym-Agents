@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0125",
+  "user_query": "I need you to simulate a rotating backup of my OpenClaw-like workspace using the files provided under input/. Create six timestamped backup folders under output/backup following this exact naming scheme: 20240101_120000, 20240102_120000, 20240103_120000, 20240104_120000, 20240105_120000, 20240106_120000. In each backup folder, create the subdirectories config, skills, workspace, and memory, then copy content as follows:\n- config: copy all JSON config files from input/openclaw/config/ (openclaw.json, exec-approvals.json, update-check.json) with identical content\n- skills: recursively copy everything under input/skills/ (preserve nested folders/files)\n- workspace: copy only .md files from the root of input/workspace/ (include AGENTS.md and README.md; exclude any non-.md files like notes.txt)\n- memory: copy only .md files from input/workspace/memory/ (include session1.md; exclude any non-.md files like debug.txt)\nAfter populating all six backups, enforce a rolling rotation of 5 backups by deleting the oldest (20240101_120000) so that only the five newest timestamps remain. Do not compress anything. Write all artifacts strictly under output/ with the structure described. Make sure file contents are byte-identical to the originals for files that are copied.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

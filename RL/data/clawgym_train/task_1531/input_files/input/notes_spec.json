@@ -1,0 +1,22 @@
+{
+  "notes": [
+    {
+      "title": "GPU price tracker plan",
+      "category": "projects",
+      "tags": ["project", "data", "scraping", "pricing"],
+      "body": "Goal: build a small service to monitor daily GPU prices across several retailers and alert when price-per-performance crosses a threshold.\n\nArchitecture: a Python fetcher running on a schedule, with request concurrency tuned to meet retailer TOS and keep latency under 800 ms per page. Data sources: retailer HTML pages and a public pricing API that requires an API key stored securely in a local .env file (or in the CI secret store for deployments). We will normalize data into a tiny SQLite DB, compute moving averages, and export a lightweight dashboard.\n\nRisks: blocking, captcha challenges, and flaky page structures. Mitigations: randomized backoff, rotating user agents, robust parsing with schema checks, and graceful degradation when a field is missing. Success metric: median end-to-end latency under 2s including parsing and writes; alert delivery within 5 min of price change detection. Stretch goal: add simple price anomaly detection with a rolling z-score."
+    },
+    {
+      "title": "Backyard garden irrigation ideas",
+      "category": "ideas",
+      "tags": ["idea", "garden", "iot"],
+      "body": "Exploration of an automated drip irrigation system for the backyard garden.\n\nSensors: soil moisture and ambient temperature; optional rain sensor. Controller: ESP32 with Wi‑Fi, deep sleep between readings. Control loop: open valve for 2–5 minutes when moisture is below threshold and no rain is detected; pause during cool evenings to reduce mildew risk.\n\nDesign considerations: multi‑zone layout (herbs, tomatoes, peppers), quick‑connects to simplify maintenance, and a manual override switch. Integration ideas: Home Assistant for dashboards and notifications; seasonal presets to reduce watering in shoulder seasons. This remains a weekend experiment, but it would save time and improve plant health."
+    },
+    {
+      "title": "DDIA book takeaways",
+      "category": "misc",
+      "tags": ["books", "notes", "databases"],
+      "body": "Notes from Designing Data‑Intensive Applications (Kleppmann).\n\nThe book emphasizes trade‑offs between consistency, availability, and latency. Streaming systems with exactly‑once semantics are notoriously hard; idempotent consumers and deterministic processing simplify reprocessing. Storage engines: LSM‑tree vs B‑Tree and their write/read trade‑offs. Replication models and conflict resolution strategies (e.g., last‑write‑wins vs CRDTs) depend on business needs and user expectations.\n\nData evolution: forward/backward compatibility, schema migration strategies, and feature flags to decouple deployment from release. A recurring theme: understand tail latency and apply backpressure to prevent overload cascades."
+    }
+  ]
+}

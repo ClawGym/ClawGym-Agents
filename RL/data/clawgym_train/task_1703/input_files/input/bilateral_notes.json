@@ -1,0 +1,95 @@
+{
+  "country_pair": "Indonesia-Japan",
+  "items": [
+    {
+      "id": "H_1958_Treaty",
+      "category": "Historical Milestones",
+      "title": "1958 Treaty of Peace and cultural normalization",
+      "description": "Formal normalization that enabled cultural and educational exchanges to grow.",
+      "date": "1958-01-20",
+      "sensitivity_level": "high",
+      "notes": "Frame as reconciliation and foundation for exchange; avoid militaristic or triumphalist language."
+    },
+    {
+      "id": "H_Malari_1974_Lessons",
+      "category": "Historical Milestones",
+      "title": "1974 unrest: lessons in equitable collaboration",
+      "description": "Economic unrest that informs today\'s emphasis on fairness and partnership.",
+      "date": "1974-01-15",
+      "sensitivity_level": "high",
+      "notes": "If mentioned, keep focus on mutual learning and transparent collaboration; avoid blame framing."
+    },
+    {
+      "id": "A_Textiles_Batik_Shibori",
+      "category": "Arts & Heritage",
+      "title": "Batik x Shibori: textile dialogue",
+      "description": "Workshops and exhibitions blending Indonesian batik and Japanese shibori techniques.",
+      "date": "2000-01-01",
+      "sensitivity_level": "low",
+      "notes": "Use respectful examples; credit artisans appropriately."
+    },
+    {
+      "id": "A_Wayang_Anime_Workshop",
+      "category": "Arts & Heritage",
+      "title": "Wayang meets anime: storytelling workshop",
+      "description": "Youth workshops exploring narrative techniques across traditions.",
+      "date": "2015-06-01",
+      "sensitivity_level": "low",
+      "notes": "Avoid caricatures; highlight shared values in storytelling."
+    },
+    {
+      "id": "E_Student_Exchange_Programs",
+      "category": "Education & Exchange",
+      "title": "Student exchanges and scholarships",
+      "description": "Decades of bilateral study and exchange programs supporting youth.",
+      "date": "1990-01-01",
+      "sensitivity_level": "medium",
+      "notes": "Provide practical benefits; diversify student voices."
+    },
+    {
+      "id": "E_Japanese_Language_Learners_ID",
+      "category": "Education & Exchange",
+      "title": "Japanese language learning in Indonesia",
+      "description": "Growth of Nihongo learning communities and cultural clubs.",
+      "date": "2010-01-01",
+      "sensitivity_level": "low",
+      "notes": "Use inclusive examples; avoid elitist framing."
+    },
+    {
+      "id": "B_Automotive_Collab_WestJava",
+      "category": "Business & Technology",
+      "title": "Automotive manufacturing collaborations",
+      "description": "Joint ventures supporting skills transfer and jobs in Indonesia.",
+      "date": "2005-01-01",
+      "sensitivity_level": "medium",
+      "notes": "Emphasize fair partnerships and local capacity building."
+    },
+    {
+      "id": "B_Tech_SME_Innovation",
+      "category": "Business & Technology",
+      "title": "SME innovation and startup mentorship",
+      "description": "Workshops linking Indonesian SMEs with Japanese mentors.",
+      "date": "2018-03-10",
+      "sensitivity_level": "low",
+      "notes": "Highlight mutual learning and concrete outcomes."
+    },
+    {
+      "id": "H_Humanitarian_Aid_2004",
+      "category": "Humanitarian Cooperation",
+      "title": "Post-disaster cooperation",
+      "description": "Collaboration on disaster response and reconstruction in Indonesia.",
+      "date": "2004-12-26",
+      "sensitivity_level": "medium",
+      "notes": "Respect affected communities; avoid graphic or sensational content."
+    },
+    {
+      "id": "S_Sports_Community_Ties",
+      "category": "Sports & Community",
+      "title": "Friendly sports and community ties",
+      "description": "Cultural festivals and friendly tournaments building people-to-people links.",
+      "date": "2012-09-01",
+      "sensitivity_level": "low",
+      "notes": "Feature inclusivity and accessibility."
+    }
+  ]
+}

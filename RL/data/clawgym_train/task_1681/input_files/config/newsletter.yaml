@@ -1,0 +1,1 @@
+sender:\n  from_name: \"Grace Turner\"\n  from_email: \"grace@example.com\"\nlimits:\n  max_subject_length: 60\n  max_body_words: 120\ntone:\n  positive_keywords:\n    - \"Hope\"\n    - \"together\"\n    - \"strength\"\n    - \"community\"\n  banned_words:\n    - \"suffer\"\n    - \"victim\"\n    - \"afflicted\"\n

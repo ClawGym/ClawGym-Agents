@@ -1,0 +1,14 @@
+[Event "Rated Blitz"]
+[Site "Online"]
+[Date "2022.10.01"]
+[Round "-"]
+[White "PlayerA"]
+[Black "PlayerB"]
+[Result "1-0"]
+[WhiteElo "1850"]
+[BlackElo "1900"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf"]
+[Termination "Normal"]
+
+1. e4 c5 2. Nf3 d6 3. d4 cxd4 4. Nxd4 Nf6 5. Nc3 a6 6. Be2 e5 7. Nb3 Be7 8. O-O O-O 9. f4 Nbd7 10. a4 b6 11. Kh1 Bb7 12. Bf3 Rc8 13. Be3 exf4 14. Bxf4 Ne5 15. Nd4 Re8 16. Nf5 Bf8 17. Bg5 h6 18. Bh4 Ng6 19. Bg3 Nxe4 20. Nxe4 Bxe4 21. Bxe4 Rxe4 22. Qd5 Re6 23. Nd4 Re7 24. Nc6 Rxc6 25. Qxc6 Re6 26. Rad1 d5 27. Qb7 Ne7 28. Qxa6 d4 29. Qb7 Nc6 30. Qxf7+ Kh7 31. Qxe6 Nb4 32. Rxd4 Qxd4 33. Rxf8 Nxc2 34. Qf5+ g6 35. Rf7+ Kh8 36. Be5+ Qxe5 37. Qxe5+ Kg8 38. Qg7# 1-0

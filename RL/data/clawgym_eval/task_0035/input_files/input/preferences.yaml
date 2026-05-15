@@ -1,0 +1,16 @@
+allow_mental_health_themes:
+  - trauma
+  - recovery
+  - family
+  - anxiety
+min_film_rating: 6
+exclude_tags:
+  - horror
+scoring:
+  film_rating_weight: 0.5
+  alignment_weight: 0.3
+  engagement_weight: 0.2
+  awards_bonus:
+    winner: 0.1
+    nominee: 0.05
+    none: 0.0

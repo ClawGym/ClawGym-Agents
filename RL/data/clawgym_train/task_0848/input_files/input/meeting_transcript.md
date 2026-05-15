@@ -1,0 +1,11 @@
+3/18 Club Meeting (rough notes, messy)
+- We won Haven twice lately; Ascent is up/down; Bind mid control weak.
+- TODO: Review Ascent attack strats — Owner: Kai — Due: 3/21
+- Coach: schedule a rematch vs Northside HS in early April (target week of 4/8). Owner: Alex
+- Action: Collect POVs from last 3 Valorant matches for VOD review — Owner: Jess — Due 3/20
+- Comms: shorten callouts, esp. post-plant — Owner: Team — Next scrim 3/25
+- Aim routine: add 15m flick drills before scrims — Owner: Pat — Due: 3/19
+- Note: Ilios rotations better; need to practice King's Row B hold.
+- Task: Create a one-page recap of map win rates for the bulletin — Owner: Sam — Due: 3/24
+- Stretch goal: try new default on Bind if mid control fails by 3/26 — Owner: IGL — no firm due
+- Reminder: share coach-approved quiz with class by end of month.

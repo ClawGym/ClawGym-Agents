@@ -1,0 +1,8 @@
+{
+  "task_id": "task_0176",
+  "user_query": "I want a simple ASCII cheat sheet for the I–V–vi–IV progression in G major. Use the chord names: g d em c (lowercase given on purpose). Please:\n- Normalize the chord names to the correct case expected by chord-diagram tools (e.g., \"em\" -> \"Em\").\n- Generate a side-by-side ASCII chord diagram for the sequence G D Em C and save it to output/progression.txt.\n- Also generate individual chord diagram files at:\n  - output/diagrams/G.txt\n  - output/diagrams/D.txt\n  - output/diagrams/Em.txt\n  - output/diagrams/C.txt\n- Write output/normalized_chords.json containing the final ordered list of normalized chord names as a JSON array [\"G\",\"D\",\"Em\",\"C\"].\n- If any chord is unsupported, list them in output/unsupported.json as a JSON array; otherwise write an empty array [].\nMake sure the diagrams are monospace-friendly and preserve the layout exactly in the text files.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  }
+}

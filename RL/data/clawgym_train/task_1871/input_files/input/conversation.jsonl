@@ -1,0 +1,14 @@
+{"ts":"2026-03-01T09:10:00Z","role":"user","content":"Can you run the analytics daily report and post a short summary to the channel?"}
+{"ts":"2026-03-01T09:11:30Z","role":"assistant","content":"Acknowledged. I'll prepare the daily analytics summary as requested."}
+{"ts":"2026-03-02T09:08:00Z","role":"user","content":"Same as yesterday, please: analytics daily report and a brief summary."}
+{"ts":"2026-03-03T09:07:00Z","role":"user","content":"Analytics daily report again, thanks. Same metrics as usual."}
+{"ts":"2026-03-04T13:22:00Z","role":"user","content":"Deploy to staging for webapp@main — same as before, routine staging push."}
+{"ts":"2026-03-05T16:40:00Z","role":"user","content":"Deploy to staging again after merging PR #123. No special steps — routine."}
+{"ts":"2026-03-07T15:00:00Z","role":"user","content":"Weekly client status email: please send the usual summary to ACME Corp (highlights, blockers, next steps)."}
+{"ts":"2026-03-10T10:25:00Z","role":"user","content":"Expense approvals under $50 are basically a rubber-stamp. I always approve them without changes — it's tedious every time."}
+{"ts":"2026-03-12T11:05:00Z","role":"user","content":"Routine deploy to staging after bumping the version. Same checklist as prior runs."}
+{"ts":"2026-03-14T15:05:00Z","role":"user","content":"Weekly client status email again for ACME — same format as last week, please."}
+{"ts":"2026-03-15T08:30:00Z","role":"user","content":"Just to be clear: I do not want to delegate calendar/scheduling. I prefer to keep control of my calendar personally."}
+{"ts":"2026-03-16T09:04:00Z","role":"user","content":"I hate spending time on those under-$50 expense approvals — they pop up often and add up."}
+{"ts":"2026-03-17T09:06:00Z","role":"user","content":"Analytics daily report again today — same scope as earlier this week."}
+{"ts":"2026-03-18T12:45:00Z","role":"user","content":"If possible, I'd like to formalize handing off some of this repetitive work, but only with strict safeguards and explicit approvals."}

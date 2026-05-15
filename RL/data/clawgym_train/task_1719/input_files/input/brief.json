@@ -1,0 +1,27 @@
+{
+  "topic": "Turning digital transformation strategy into measurable business outcomes in 2025",
+  "audience": {
+    "role": "Senior digital and operations leaders",
+    "seniority": "Director, VP, CIO, CTO",
+    "industry": "Cross-industry, digital-first enterprises",
+    "readability": "professional (Grade 9-12)"
+  },
+  "platform": "Business technology magazine website",
+  "tone": "Objective, practical, news-feature blend; active voice, data-backed",
+  "goals": [
+    "Explain how to build and govern a digital transformation strategy tied to outcomes",
+    "Provide a 90-day playbook and risk mitigations with pragmatic steps",
+    "Address shadow IT and legacy constraints while sustaining adoption"
+  ],
+  "constraints": {
+    "hook": "Use a question hook in the first sentence (<= 25 words, ends with a question mark).",
+    "length": "900-1200 words",
+    "keywords": "Use the primary keyword naturally 6-20 times; include 'shadow IT' at least once."
+  },
+  "angles": [
+    "Outcome-based roadmaps co-owned by technology and finance",
+    "Data governance as an enabler for faster delivery and risk control",
+    "Change management to align incentives and prevent backsliding"
+  ],
+  "notes": "Include at least one exact statistic from stats.csv verbatim. Attribute quotes using the specified format. Maintain an objective tone with practical, actionable steps."
+}

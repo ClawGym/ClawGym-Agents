@@ -1,0 +1,46 @@
+goals:
+  target_skill: "Data storytelling with Python for business dashboards"
+  why:
+    - "Translate analysis into decisions for operators and leadership"
+    - "Move beyond 'pretty charts' to clear, persuasive narratives tied to KPIs"
+    - "Ship an executive-ready dashboard used in weekly ops reviews"
+  timeframe:
+    duration_weeks: 6
+    start_date: "2026-05-04"
+    end_date_target: "2026-06-15"
+  business_problem:
+    description: "Leadership needs a weekly revenue and retention dashboard for the North America segment with executive-friendly visuals and short commentary."
+    primary_audience: ["VP of Operations", "RevOps Manager", "Customer Success Lead"]
+    decision_cadence: "Weekly operations meeting (Mondays)"
+  deliverable:
+    type: "Plotly Dash web app (internal)"
+    scope:
+      metrics:
+        - "New MRR by week (North America)"
+        - "Churned MRR by week (North America)"
+        - "Net MRR and growth rate (MoM)"
+        - "Active customers and NRR (rolling 3 months)"
+        - "Top 5 churn reasons (tagged from HubSpot/PostHog)"
+        - "Conversion funnel (trial -> paid) for last 8 weeks"
+        - "Cohort retention (12-week view)"
+      narrative: "200–300 word weekly note summarizing the story (what/so-what/now-what)"
+      constraints: ["No PII exposure", "Load from CSV exports initially; plan for API later"]
+  success_criteria:
+    observable:
+      - "VP Ops can navigate and understand narrative without analyst present"
+      - "Dashboard referenced in at least 2 consecutive Monday ops meetings"
+      - "Two stakeholder questions answered using the dashboard within first 2 weeks post-ship"
+      - "Self-assessed confidence moves from 'script charts' to 'competent' (can work independently on standard problems)"
+  risks:
+    - "Scope creep (trying to boil the ocean)"
+    - "Overfitting visuals to data instead of the decision"
+    - "Time constraints due to travel and family commitments"
+  assumptions:
+    - "Data exports from Stripe, PostHog, and HubSpot are available and refreshed weekly"
+    - "Internal hosting through a simple Dash server on an internal VM or local run for demo is acceptable"
+  constraints_summary:
+    hours_per_week_baseline: 8
+    hard_no_study_days: ["Sunday"]
+    planned_blackouts:
+      - "2026-05-23 (Saturday) wedding"
+      - "2026-06-02 to 2026-06-04 travel (Tue–Thu)"

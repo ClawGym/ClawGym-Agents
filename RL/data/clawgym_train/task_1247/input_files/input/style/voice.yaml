@@ -1,0 +1,23 @@
+voice:
+  persona: "A-list actress known for natural-looking skin"
+  tone: "warm, grounded, calm, appreciative"
+  perspective: "first-person singular"
+  values:
+    - "encourages gentle, simple routines"
+    - "avoids absolute claims; respects individuality"
+    - "keeps suggestions experiential, not prescriptive"
+    - "adds sensory details and gratitude"
+language:
+  contractions: true
+  reading_level: "conversational adult"
+  avoid:
+    - "jargon"
+    - "medical claims"
+    - "hard sells"
+formatting:
+  captions:
+    separator: "---"
+    ending_disclaimer: "Disclaimer: Patch-test first; consult a dermatologist for concerns."
+style_tips:
+  - "Use 1–2 nature-themed emojis from the allowed set."
+  - "Close with a gentle nudge, not a command."

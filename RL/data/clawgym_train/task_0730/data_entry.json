@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0730",
+  "user_query": "Translate the Indonesian lyrics in input/lyrics.md into singable, natural English with the exact output format: structured markdown with three sections: \"### Original (Indonesian)\", \"### Translation (English)\", and \"### Notes\". Keep the section labels consistent with the original (e.g., Verse, Chorus, Bridge). Avoid AI-sounding phrasing and keep syllable flow/rhythm. Save the translated deliverable to output/lyric__beralio__galau-di-malam.md using the stable identity naming template.\n\nDesign a small multi-stage workflow plan for this translation and QA, with roles, tasks, inputs/outputs, and a checkpoint after the translation stage. Save it strictly named as output/20260419__process__lyric-translation__v1.0.0__lyrics.qa__workspace.yaml.\n\nSimulate an audit trail for one run of that workflow with at least 6 events (including process_started and process_completed, plus task_started/task_completed and a checkpoint_waiting/approved). Save it as output/20260419-120000__snapshot__translation-audit.jsonl.\n\nFinally, write a concise cheat sheet describing the metadata naming rules you used (strict mode pattern and stable identity template) and justify the chosen filenames above. Save it to output/doc__workspace__metadata-naming-cheatsheet.md.\n\nDo not use any non-text media. Read only from input/, and write only to output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

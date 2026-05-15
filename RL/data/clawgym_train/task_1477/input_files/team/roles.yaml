@@ -1,0 +1,13 @@
+roles:
+  author:
+    name: Avery Reed
+    email: avery@example.com
+  teacher:
+    name: Ms. Li
+    email: ms.li@example.com
+  illustrator:
+    name: Jules
+    email: jules@example.com
+  editor:
+    name: Morgan
+    email: morgan@example.com

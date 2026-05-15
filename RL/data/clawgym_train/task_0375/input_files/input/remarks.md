@@ -1,0 +1,6 @@
+- We cannot tolerate inaction; countries must stop delaying and finally deliver on climate financing, no exceptions.
+- Some governments keep backtracking on coal phase-out despite our repeated warnings and the science.
+- Our coalition has delivered measurable emissions cuts while others issue press releases and little else.
+- Communities most affected are still waiting for promised adaptation support; delays are unacceptable.
+- We must pressure industries to move faster on clean energy and nature protection.
+- I will ask the UN to call out laggards by name at the next briefing.

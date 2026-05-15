@@ -1,0 +1,10 @@
+sprint_id,team,ticket_id,type,story_points,committed,completed,cycle_time_days
+S1,Alpha,A-101,bug,3,1,1,4
+S1,Alpha,A-102,feature,5,1,1,8
+S1,Alpha,A-103,chore,2,1,0,0
+S2,Alpha,A-104,feature,8,1,1,9
+S2,Alpha,A-105,bug,2,1,1,3
+S2,Alpha,A-106,feature,5,1,0,0
+S3,Alpha,A-107,bug,3,1,1,5
+S3,Alpha,A-108,chore,1,1,1,2
+S3,Alpha,A-109,feature,8,1,1,10

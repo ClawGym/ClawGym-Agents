@@ -1,0 +1,54 @@
+# Fragments — IR + Change Mgmt (current state, pain points, half-baked plans)
+
+- IR tooling:
+  - PagerDuty for paging primary on-call per service
+  - Slack #incidents for triage; #status for customer updates (manual)
+  - Monitoring: Prometheus alerts routed via Alertmanager; Grafana dashboards exist but ownership unclear
+  - Runbooks live in Confluence; many outdated (last review dates > 12 months)
+- Change tooling:
+  - Jira used for change tickets (types: Standard, Emergency, “Quick Fix” — not formally defined)
+  - GitHub Actions deploys; no uniform pre-deploy checklist per repo
+  - CAB meets Fridays 11:00 AM UTC; emergency changes approved in Slack by “any senior” — inconsistent
+  - Backout plans often missing or generic (“revert commit”); DB migrations lack tested rollback path
+- What works (keep/preserve):
+  - PagerDuty rotations are maintained weekly and escalation policies mostly correct
+  - Slack triage channel helps cross-team visibility
+  - On-call handoff notes are posted (though variable quality)
+  - Jira tickets do link commits to changes in some teams (SRE + Payments)
+- What’s broken:
+  - Near-miss on SOC 2 audit: change approvals not consistently captured in Jira (30–40% missing)
+  - Separation of duties violated: deployers approving their own changes (observed on 3/14 and 4/02)
+  - Service ownership mapping incomplete; responders paging the wrong team occasionally
+  - Status page updates delayed (manual step; no templated comms); customer comms inconsistent
+  - Incident postmortems often > 7 business days; some never finalized
+  - Access reviews for PagerDuty users not documented quarterly
+  - Ethics review for user-facing changes (privacy-affecting logs/flags) is ad hoc / not recorded
+- Incidents patterns (from recent CSV):
+  - Misconfig during deploys; missing backout plan → prolonged MTTR
+  - Certificate expiry not detected early → outage; no auto-renew check
+  - Cache invalidation change during peak → throttling, partial outage
+  - Feature flag toggled without change record; blast radius not understood
+- Draft ideas (in-flight but incomplete):
+  - Change risk scoring (low/medium/high) based on service tier + blast radius + rollback readiness
+  - Canary + auto-rollback for Tier 0/1 services
+  - Standardize change templates in Jira with required fields: risk, test evidence, backout steps, SoD approval
+  - Incident “golden hour” checklist (roles, timelines, comms, diagnostics, customer msg template)
+  - Monthly IR drills per critical service; quarterly org-wide game day
+- Unknowns:
+  - Which teams lack runbooks entirely?
+  - Are all production changes actually going through Jira? (CI/CD bypass?)
+  - Do we have a CMDB or service catalog that’s current?
+  - How are vendor changes tracked (CDN, auth provider), if at all?
+- Constraints (from policy, to verify in constraints.yaml):
+  - SOC 2 Type II evidence for approvals + backout plans + postmortems within 5 business days
+  - GDPR minimal logging + privacy review for changes that touch personal data
+  - RBAC + MFA for production; no shared accounts
+- People/roles:
+  - IM (Incident Manager): rotating among SREs; not always assigned
+  - Comms Lead: usually product/CS; unclear escalation tree
+  - CAB members: SRE lead, Security, app lead(s); quorum not enforced for “Standard” changes
+- Quick wins proposed:
+  - Template-based change request in Jira; block merge if missing change ID for prod branches
+  - PagerDuty access review dashboard + quarterly sign-offs
+  - Certificate monitoring (expiry alerts 30/15/7 days)
+  - Auto-post incident timelines to Confluence with Slack export links

@@ -1,0 +1,8 @@
+min_free_gb: 1.5
+max_python_procs: 8
+crypto_tools:
+  - gpg
+  - openssl
+sensitive_files:
+  - path: input/portfolio_notes.txt
+    require_no_world_writable: true

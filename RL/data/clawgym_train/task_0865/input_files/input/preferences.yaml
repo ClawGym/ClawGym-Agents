@@ -1,0 +1,4 @@
+target_arrival_time: "09:00"
+workdays_per_month: 22
+monthly_budget_usd: 200
+required_on_time_rate: 0.9

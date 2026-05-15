@@ -1,0 +1,26 @@
+{
+  "preferred_domains": {
+    "stoa.org": 10,
+    "harvard.edu": 9,
+    "jstor.org": 8,
+    "perseus.tufts.edu": 8,
+    "ox.ac.uk": 7,
+    "ucl.ac.uk": 7,
+    "oxfordreference.com": 7,
+    "unesco.org": 6,
+    "britannica.com": 5,
+    "wikipedia.org": 2
+  },
+  "query_templates": [
+    "{polity} frontier boundaries",
+    "{polity} provincial boundaries",
+    "{polity} border delimitation historical",
+    "{polity} administrative divisions",
+    "{polity} satrapies",
+    "{polity} limes"
+  ],
+  "must_include_terms": ["boundary", "frontier", "province", "border", "satrapy", "limes"],
+  "exclusion_terms_regex": "(?i)(video|youtube|tourism|travel blog|game|mod)",
+  "results_per_polity": 5,
+  "tie_breaker": "title_asc"
+}

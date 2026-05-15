@@ -1,0 +1,9 @@
+themes:
+  bodily_sensation:
+    keywords: ["bodily", "breath", "heartbeat", "muscle"]
+  agency_control:
+    keywords: ["control", "agency", "effort", "automatic"]
+  imagery_visual:
+    keywords: ["image", "visual", "picture"]
+  auditory:
+    keywords: ["sound", "auditory", "voice"]

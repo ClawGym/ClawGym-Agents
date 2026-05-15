@@ -1,0 +1,8 @@
+{
+  "media": [
+    {"file": "privacy_art.txt", "topics": ["Online Privacy"], "permission": true, "alt_text": "Student poster about keeping personal info private"},
+    {"file": "kindness_poster.txt", "topics": ["Kindness Online"], "permission": true, "alt_text": "Poster promoting kindness online"},
+    {"file": "passwords_collage.txt", "topics": ["Strong Passwords"], "permission": false, "alt_text": "Collage on creating strong passphrases"},
+    {"file": "unlisted_photo.txt", "topics": ["Online Privacy"], "permission": true, "alt_text": "Referenced in manifest but not present in media directory"}
+  ]
+}

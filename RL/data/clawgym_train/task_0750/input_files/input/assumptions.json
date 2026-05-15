@@ -1,0 +1,9 @@
+{
+  "per_stream_net_receipt": 0.004,
+  "base_monthly_streams": 1200000,
+  "monthly_growth_rate": 0.05,
+  "marketing_spend_planned": 20000,
+  "apply_distribution_fee": false,
+  "currency": "USD",
+  "notes": "per_stream_net_receipt reflects post-distributor Net Receipts from platforms."
+}

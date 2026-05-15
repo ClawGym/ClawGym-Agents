@@ -1,0 +1,18 @@
+{
+  "morning": [
+    "What are the three most important tasks today?",
+    "What is one thing I can do to move the needle?",
+    "How will I keep distractions out of my morning?"
+  ],
+  "evening": [
+    "What went well today and why?",
+    "What did I learn today?",
+    "What would I do differently if I could redo today?",
+    "What am I grateful for tonight?"
+  ],
+  "deep": [
+    "What fear is keeping me from shipping?",
+    "Which relationship needs my attention this week?",
+    "What belief served me once but no longer does?"
+  ]
+}

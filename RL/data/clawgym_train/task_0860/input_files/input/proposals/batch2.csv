@@ -1,0 +1,5 @@
+project_id,title,editor,est_units,list_price,unit_cost,advance,marketing,prob_success,status,ms_ready_date,target_pub_quarter
+P-105,Poetry of Ledgers,Ana Rossi,2000,18,6,15000,20000,0.4,pending,2026-04-10,2026Q4
+P-107,Forensic Audits 101,David Chen,9000,32,8,30000,25000,0.75,pending,2026-05-05,2026Q3
+P-103,Vampire Accounting,Elena Novak,8000,22,7,20000,30000,0.52,pending,2026-05-20,2026Q4
+P-106,Risky Sci-Fi,Tom Reed,5000,28,9,22000,28000,0.55,deferred,2026-05-01,2026Q4

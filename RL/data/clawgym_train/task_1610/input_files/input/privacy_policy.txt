@@ -1,0 +1,31 @@
+WellLife Privacy Policy (Effective 2026-02-15)
+
+Scope
+This policy describes how we collect, use, and share information when you use the WellLife program.
+
+Information We Collect
+• Wearable and app data (e.g., steps, heart rate, sleep duration)
+• Questionnaire responses about wellness habits
+• Device identifiers and diagnostic logs
+• Approximate location inferred from IP address for fraud prevention and service localization
+
+How We Use Information
+• To provide coaching and recommendations
+• To maintain and improve the service
+• To conduct analytics and program evaluation
+
+Sharing
+• We may share pseudonymous identifiers with third‑party analytics providers
+• We may share de‑identified datasets with research partners
+
+Retention
+• We retain personal data for up to 36 months from last activity unless a longer period is required for legal compliance or dispute resolution
+
+Your Choices
+• You can request deletion of your personal data; upon confirmed request, we aim to delete within 30 days
+
+Security
+• We use encryption and access controls to protect your information
+
+Changes to This Policy
+• We will post updates with a new effective date when changes occur

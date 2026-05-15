@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0158",
+  "user_query": "I exported my bookmarks to input/Bookmarks.json (Chrome Bookmarks JSON format). Please do a read-only audit with no network requests, then produce two files: (1) output/analysis.json containing the full analysis report, and (2) output/plan.json containing a conservative cleanup plan in the specified JSON format. The plan must do all of the following using guid selectors only (and do not apply the plan):\n- Remove the exact duplicate under /bookmark_bar/Duplicates by deleting the item with guid \"url-dup2\".\n- Normalize the tracked news URL by updating guid \"url-news-tracked\" to \"https://example.com/news\".\n- Upgrade the HTTP link by updating guid \"url-insecure\" to \"https://insecure.example.com/page\".\n- Delete the empty folder with guid \"fld-old\".\n- Move the \"Solo Link\" with guid \"url-solo\" out of its singleton folder into the root bookmark bar (use target {\"root\": \"bookmark_bar\"}), then delete the singleton folder with guid \"fld-single\".\n- Rename the weakly named bookmark with guid \"url-weakname\" to \"Docs\".\nWrite the analysis to output/analysis.json and the plan to output/plan.json. Do not modify the input file and do not perform any network requests.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

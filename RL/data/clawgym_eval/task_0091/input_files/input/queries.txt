@@ -1,0 +1,2 @@
+Qordinate, show me all upcoming tasks due within the next 7 days, sorted by due date.
+Qordinate, in the contacts list, show me the contact details for 'Harpinder Singh'.

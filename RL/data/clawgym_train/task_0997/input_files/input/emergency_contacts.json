@@ -1,0 +1,9 @@
+{
+  "contacts": [
+    {"name": "Chris Taylor", "role": "Parent", "phone": "+1-555-0142", "preferred": true},
+    {"name": "Maya Taylor", "role": "Parent", "phone": "+1-555-0188", "preferred": false},
+    {"name": "Pediatrician Clinic", "role": "Doctor", "phone": "+1-555-0200", "preferred": false},
+    {"name": "Emergency Services", "role": "Emergency", "phone": "911", "preferred": true}
+  ],
+  "local_pool": {"name": "Maple Community Pool", "email": "info@maplepool.example", "phone": "+1-555-7777"}
+}

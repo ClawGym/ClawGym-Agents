@@ -1,0 +1,41 @@
+Curated Excerpts — Thinking, Fast and Slow (Daniel Kahneman)
+
+Purpose: Ground selection of one high-leverage model. This pack emphasizes the System 1 vs System 2 architecture, WYSIATI (What You See Is All There Is), substitution, and cognitive ease. Avoids deep dives on anchoring, availability, and loss aversion.
+
+1) Two systems of thought
+- System 1: Fast, automatic, effortless, associative, often emotional. It generates quick impressions and feelings.
+- System 2: Slow, effortful, deliberate, rule-governed, capable of complex computations. It monitors and (sometimes) corrects System 1.
+- “Laziness of System 2”: It conserves effort and often endorses System 1’s answers unless a conflict is detected.
+
+2) WYSIATI (What You See Is All There Is)
+- The mind builds the most coherent story from the information at hand, ignoring what is missing.
+- Confidence is often a feeling of coherence, not a measure of accuracy.
+- Illusion of validity: Strong internal consistency of a story is mistaken for truth even when evidence is thin.
+
+3) Substitution
+- When faced with a difficult question, System 1 unconsciously answers an easier, related question.
+- Example: “How happy are you with your life?” → substituted by “What is my mood right now?”
+- This mechanism explains many predictable errors under time pressure or cognitive load.
+
+4) Iconic problem — Bat and Ball (Cognitive Reflection Test)
+- “A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?”
+- Intuitive answer (System 1): 10 cents. Correct answer (System 2): 5 cents (since 1.05 + 0.05 = 1.10).
+- Demonstrates how an appealing, immediate response arises and how deliberate checking prevents error.
+
+5) Stroop Task — Triggering System 2
+- Reading the word “RED” printed in blue ink and naming the ink color requires inhibiting the automatic reading response.
+- The need for inhibition and attention lights up System 2; performance worsens under cognitive load or distraction.
+
+6) Cognitive Ease vs. Strain
+- Repetition, clear fonts, and good mood create “ease,” increasing perceived truth and reducing scrutiny.
+- Strain (difficult font, low contrast, accountability) can cue System 2 to engage more carefully.
+
+7) Practical levers
+- Create friction to slow down snap judgments when stakes are high (checklists, base-rate prompts, red teaming).
+- Use structured decision processes (premortems, outside view) to counter WYSIATI and substitution.
+
+8) Additional illustrative example — “Linda Problem” (Conjunction fallacy)
+- A description of “Linda” (bright, outspoken, concerned with discrimination) leads many to rate “Linda is a bank teller and active in the feminist movement” as more probable than “Linda is a bank teller.”
+- Represents representativeness heuristic and System 1’s love of coherence over logic; System 2 must enforce probability rules.
+
+These excerpts collectively support a single, battle-ready model: Dual-Process Decision Guardrails (System 1 vs System 2 + WYSIATI/substitution), anchored by the bat-and-ball problem and the Stroop task, with operational levers to trigger deliberate thinking when it matters.

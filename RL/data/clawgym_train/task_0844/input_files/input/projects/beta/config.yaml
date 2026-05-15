@@ -1,0 +1,6 @@
+project_id: beta
+building_type: retail
+gross_floor_area_m2: 4000
+emission_factors:
+  grid_ef_kg_per_kwh: 0.233
+  gas_ef_kg_per_kwh: 0.184

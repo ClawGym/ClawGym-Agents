@@ -1,0 +1,6 @@
+[SCENE:S1]
+The hallway seems endless. Footsteps echo. [TRIGGER:isolation] The walls feel too close. [TRIGGER:claustrophobia]
+[SCENE:S2]
+Breathing behind the protagonist. A shadow follows. [TRIGGER:stalking]
+[SCENE:S3]
+Lights flicker without a source. Cold air moves. [TRIGGER:supernatural]

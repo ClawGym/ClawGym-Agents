@@ -1,0 +1,10 @@
+Client: Redwood Logistics
+Date: 2026-04-12
+Attendees: Alex (Ops), Priya (Analytics), Jordan (Client Success)
+Notes:
+- Discussed handoffs between inbound and picking teams; need clearer SOPs.
+- Agreed to start with a two-week pilot in the Dallas DC.
+Action: Draft SOP for warehouse handoffs | Owner: Alex | Due: 2026-04-20
+Action: Prepare pilot KPI dashboard mockup | Owner: Priya | Due: 2026-04-22
+Action: Schedule stakeholder workshop | Owner: Jordan | Due: 2026-04-25
+Additional context: Client is keen on quick wins before peak season.

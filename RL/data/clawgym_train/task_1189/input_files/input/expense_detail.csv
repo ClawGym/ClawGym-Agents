@@ -1,0 +1,54 @@
+Date,Vendor,Account,Amount,Description
+2025-01-05,Google Ads,Advertising,1500,Search ads Q1
+2025-08-12,Social Media Co.,Advertising,1500,Social campaign Q3
+2025-02-20,Bob Designer,Contract Labor,1200,Logo redesign
+2025-05-22,Acme Contractors LLC,Contract Labor,3000,Website development phase 1
+2025-08-19,Acme Contractors LLC,Contract Labor,1600,Website development phase 2
+2025-03-15,CPA Co.,Legal & Professional,1200,Tax prep retainer
+2025-10-10,Legal Advice LLC,Legal & Professional,1200,Contract review
+2025-01-31,Main Street Offices,Rent - Property,1000,Office rent Jan
+2025-02-28,Main Street Offices,Rent - Property,1000,Office rent Feb
+2025-03-31,Main Street Offices,Rent - Property,1000,Office rent Mar
+2025-04-30,Main Street Offices,Rent - Property,1000,Office rent Apr
+2025-05-31,Main Street Offices,Rent - Property,1000,Office rent May
+2025-06-30,Main Street Offices,Rent - Property,1000,Office rent Jun
+2025-07-31,Main Street Offices,Rent - Property,1000,Office rent Jul
+2025-08-31,Main Street Offices,Rent - Property,1000,Office rent Aug
+2025-09-30,Main Street Offices,Rent - Property,1000,Office rent Sep
+2025-10-31,Main Street Offices,Rent - Property,1000,Office rent Oct
+2025-11-30,Main Street Offices,Rent - Property,1000,Office rent Nov
+2025-12-31,Main Street Offices,Rent - Property,1000,Office rent Dec
+2025-04-18,HVAC Pros,Repairs & Maintenance,300,HVAC tune-up
+2025-06-10,TopNotch Roofing Co.,Repairs & Maintenance,3200,Roof replacement
+2025-09-05,Locksmith LLC,Repairs & Maintenance,600,Door lock repair
+2025-03-08,Airline Inc.,Travel,400,Client visit flight
+2025-04-12,City Hotel,Travel,300,Client onsite lodging
+2025-06-20,RideShare,Travel,200,Local client travel
+2025-08-14,Intercity Rail,Travel,300,Regional conference travel
+2025-10-03,Airline Inc.,Travel,300,Workshop travel
+2025-11-09,City Hotel,Travel,300,Client follow-up lodging
+2025-12-15,RideShare,Travel,400,Year-end client meetings
+2025-01-10,Bistro 101,Meals (Business),200,Working lunch with client
+2025-02-14,Cafe Central,Meals (Business),200,Client prospect meeting
+2025-03-22,Steakhouse,Meals (Business),200,Client dinner after photoshoot
+2025-04-09,Deli House,Meals (Business),200,Vendor meeting lunch
+2025-05-17,Pizza Place,Meals (Business),200,Team planning lunch
+2025-06-07,Sushi Spot,Meals (Business),200,Client wrap-up dinner
+2025-07-13,Burger Barn,Meals (Business),200,Working lunch offsite
+2025-08-21,Taco Time,Meals (Business),200,Client pitch lunch
+2025-09-16,Noodle Bar,Meals (Business),200,Vendor coordination lunch
+2025-10-11,Vegan Cafe,Meals (Business),200,Client discovery meeting
+2025-11-18,BBQ Joint,Meals (Business),200,Vendor appreciation lunch
+2025-12-20,Italian Eatery,Meals (Business),200,Client holiday meeting
+2025-01-03,Utility Co.,Utilities,150,Monthly utilities Jan
+2025-02-03,Utility Co.,Utilities,150,Monthly utilities Feb
+2025-03-03,Utility Co.,Utilities,150,Monthly utilities Mar
+2025-04-03,Utility Co.,Utilities,150,Monthly utilities Apr
+2025-05-03,Utility Co.,Utilities,150,Monthly utilities May
+2025-06-03,Utility Co.,Utilities,150,Monthly utilities Jun
+2025-07-03,Utility Co.,Utilities,150,Monthly utilities Jul
+2025-08-03,Utility Co.,Utilities,150,Monthly utilities Aug
+2025-09-03,Utility Co.,Utilities,150,Monthly utilities Sep
+2025-10-03,Utility Co.,Utilities,150,Monthly utilities Oct
+2025-11-03,Utility Co.,Utilities,150,Monthly utilities Nov
+2025-12-03,Utility Co.,Utilities,150,Monthly utilities Dec

@@ -1,0 +1,37 @@
+[
+  {
+    "symbol": "TSLA",
+    "direction": "at_or_below",
+    "target": 200.0
+  },
+  {
+    "symbol": "BTC",
+    "direction": "at_or_above",
+    "target": 60000.0
+  },
+  {
+    "symbol": "MSFT",
+    "direction": "at_or_above",
+    "target": 400.0
+  },
+  {
+    "symbol": "AAPL",
+    "direction": "at_or_above",
+    "target": 200.0
+  },
+  {
+    "symbol": "NVDA",
+    "direction": "at_or_below",
+    "target": 600.0
+  },
+  {
+    "symbol": "ETH",
+    "direction": "at_or_below",
+    "target": 3000.0
+  },
+  {
+    "symbol": "VTI",
+    "direction": "at_or_above",
+    "target": 260.0
+  }
+]

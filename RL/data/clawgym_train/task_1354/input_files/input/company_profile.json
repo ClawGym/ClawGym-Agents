@@ -1,0 +1,10 @@
+{
+  "company": "EuroElectro Devices GmbH",
+  "hq_country": "Germany",
+  "industry": "Consumer Electronics",
+  "employees": 1800,
+  "revenue_million": 620,
+  "base_year": 2025,
+  "regions": ["EU", "US"],
+  "notes": "Mid-sized consumer electronics manufacturer with EU and US supply chains and assembly partners."
+}

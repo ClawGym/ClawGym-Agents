@@ -1,0 +1,51 @@
+import SwiftUI
+import Observation
+
+@Observable
+class UserModel {
+    var name: String = ""
+}
+
+// Nested type not marked @Observable
+class Settings {
+    var darkMode: Bool = false
+}
+
+@Observable
+class AppViewModel {
+    // Nested non-observable object inside an @Observable type (won't trigger updates when settings changes)
+    var settings: Settings = Settings()
+
+    var user: UserModel = UserModel()
+
+    func toggleDarkMode() {
+        settings.darkMode.toggle()
+    }
+}
+
+struct UserRow: View {
+    // Misuse: @State for a model that should be passed through; this preserves the initial instance
+    @State var model: UserModel
+
+    var body: some View {
+        HStack {
+            Text(model.name)
+            Button("Uppercase") {
+                model.name = model.name.uppercased()
+            }
+        }
+    }
+}
+
+struct EditUserView: View {
+    // Missing @Bindable for two-way binding
+    var user: UserModel
+
+    var body: some View {
+        VStack {
+            // Two-way binding used without @Bindable
+            TextField("Name", text: $user.name)
+            Text("Preview: \(user.name)")
+        }.padding()
+    }
+}

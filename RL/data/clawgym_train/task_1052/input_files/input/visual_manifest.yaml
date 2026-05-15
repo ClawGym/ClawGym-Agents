@@ -1,0 +1,17 @@
+figures:
+  - id: F001
+    file: assets/figures/fig_food_security.svg
+    source_publication_id: P005
+    license: CC BY 4.0
+  - id: F002
+    file: assets/figures/fig_vaccination.svg
+    source_publication_id: P002
+    license: CC BY 4.0
+  - id: F003
+    file: assets/figures/fig_ethics_ai.svg
+    source_publication_id: P099
+    license: CC BY 4.0
+  - id: F004
+    file: assets/figures/fig_water_access.svg
+    source_publication_id: P004
+    license: ""

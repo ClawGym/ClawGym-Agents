@@ -1,0 +1,11 @@
+request_id,property_id,category,priority,reported_date,due_date,estimated_hours,assigned_vendor,cost_estimate
+R1001,P001,HVAC,High,2025-03-01,2025-03-20,6,,
+R1002,P002,Electrical,Medium,2025-02-25,2025-03-18,4,,
+R1003,P003,Plumbing,Urgent,2025-03-10,2025-03-16,3,V003,
+R1004,P004,Landscaping,Low,2025-03-05,2025-03-28,8,,1200
+R1005,P001,Electrical,High,2025-03-12,2025-03-17,2,,
+R1006,P005,HVAC,Medium,2025-02-20,2025-03-25,5,,
+R1007,P003,Plumbing,High,2025-02-15,2025-03-15,7,,2100
+R1008,P002,Landscaping,Medium,2025-03-01,2025-04-01,3,,
+R1009,P004,Electrical,Urgent,2025-03-14,2025-03-15,1,,500
+R1010,P003,HVAC,Low,2025-02-10,2025-03-10,10,,

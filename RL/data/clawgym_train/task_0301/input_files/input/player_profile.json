@@ -1,0 +1,14 @@
+{
+  "name": "Alex",
+  "position_group": "FW",
+  "avoid_risks": ["high_sprint"],
+  "target_weekly_minutes": 180,
+  "max_daily_minutes": 60,
+  "sessions_per_day_cap": 2,
+  "veteran_focus_weights": {
+    "finishing": 1.8,
+    "press": 1.5,
+    "build_up": 1.3,
+    "transition": 1.0
+  }
+}

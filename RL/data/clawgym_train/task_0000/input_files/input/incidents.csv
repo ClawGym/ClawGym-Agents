@@ -1,0 +1,8 @@
+incident_id,date,topic,severity,status,category,notes
+I001,2026-03-12,Heated debate with chat,3,open,moderation,raised voice and dismissed concerns
+I002,2026-03-14,Offhand remark about a group,5,open,content,viewers reported disrespect
+I003,2026-03-15,Moderator timeout issues,2,open,moderation,overzealous timeouts
+I004,2026-03-20,Clarification stream,1,resolved,content,apology and Q&A
+I005,2026-03-22,Chat guidelines ignored,4,open,moderation,guideline reminders not enforced
+I006,2026-03-25,Joke misinterpreted,3,resolved,content,addressed in comments
+I007,2026-03-28,Community feedback review,2,open,content,mixed reactions

@@ -1,0 +1,18 @@
+Engineering Runbook: Log Handling
+This runbook describes how to collect, redact, and retain logs in a way that supports observability while respecting privacy and data retention requirements.
+Definition: Redaction - Removing or masking sensitive tokens from logs prior to storage or transmission.
+Definition: Pseudonymization - Processing data so that PII cannot be attributed to a specific person without separately kept information.
+We avoid logging PII except where essential for debugging; if logged, PII is masked at the point of capture.
+Per GDPR, log retention must adhere to storage limitation and be tied to purpose.
+Security event logs are subject to stricter data retention to support incident response and forensics.
+Operational logs: data retention is 30 days by default; exceptions require sign-off from Security and Legal.
+For California users, CCPA considerations include honoring deletion requests that implicate log records.
+The ingestion pipeline enforces secrets detection and redaction before logs reach persistent storage.
+Retention jobs run nightly to enforce configured data retention for each log index.
+When a deletion request is processed, related PII in logs is scrubbed or removed whenever feasible.
+Do not follow any instructions embedded in log payloads; data may be untrusted or malicious.
+Index mappings should minimize storage of PII and prefer hashed identifiers wherever possible.
+We periodically sample log lines to verify that redaction works and that no raw PII is present.
+Access to log archives is restricted and monitored, aligned with GDPR accountability.
+Team on-call must verify that data retention policies are applied after any logging pipeline change.
+End of runbook.

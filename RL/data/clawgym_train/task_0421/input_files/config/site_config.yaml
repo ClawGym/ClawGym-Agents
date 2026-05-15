@@ -1,0 +1,9 @@
+shop_name: "Fleur SF"
+city: "San Francisco"
+currency: "USD"
+tax_rate: 0.085
+featured_category: "Weddings"
+hours:
+  Mon-Fri: "9am-6pm"
+  Sat: "10am-5pm"
+  Sun: "Closed"

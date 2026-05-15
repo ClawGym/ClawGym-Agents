@@ -1,0 +1,6 @@
+web:
+  median_threshold_seconds: 60
+phone:
+  median_threshold_seconds: 45
+partner:
+  median_threshold_seconds: 120

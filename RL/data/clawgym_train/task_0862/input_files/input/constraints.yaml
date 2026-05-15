@@ -1,0 +1,46 @@
+budget_cap: 500000
+
+deadlines:
+  code_freeze: "2026-07-15"
+  readiness_review: "2026-08-01"
+  target_launch: "2026-08-31"
+  change_freeze_window: "2026-08-15 to 2026-09-07"
+
+delivery_constraints:
+  hiring_freeze: true
+  contractor_slots: 2
+  vendor_certification_cutoff: "2026-06-30"
+  parallel_compliance_work: "SOC 2 Type II evidence collection through Q3 2026"
+
+compliance:
+  required:
+    - GDPR
+    - PSD2
+    - NACHA
+    - OFAC
+    - PCI_DSS_SAQ_A
+    - SOC_2_Type_II
+
+regions:
+  - US
+  - EU
+
+availability_slo: 99.95
+
+data_residency:
+  US: "us-east-1"
+  EU: "eu-west-1"
+
+third_parties:
+  - name: "AcmeBank Partner API (US)"
+    certification_deadline: "2026-06-30"
+    notes: "ACH and wire certification; no extensions expected"
+  - name: "EuroBank Partner API (EU)"
+    certification_deadline: "2026-06-30"
+    notes: "SEPA CT and Instant; strict message validation"
+  - name: "KYCPro"
+    sla: "99.9%"
+    role: "Primary KYC/KYB"
+  - name: "Onboardly"
+    sla: "99.5%"
+    role: "Secondary KYC/KYB (failover)"

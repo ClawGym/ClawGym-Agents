@@ -1,0 +1,13 @@
+action_id,theme,action,impact_score,effort_score
+NAV-1,Navigation,"Add breadcrumbs to category/product pages",4,2
+NAV-2,Navigation,"Reduce mobile menu depth to two levels",3,3
+SPD-1,Page Speed,"Compress and lazy-load hero images",4,2
+SPD-2,Page Speed,"Split and defer JS bundles",5,4
+CON-1,Content,"Rewrite hero copy to match fintech ICP",4,3
+CON-2,Content,"Expand case studies with outcomes and metrics",3,4
+CTA-1,CTA,"Move primary CTA above the fold on mobile",5,2
+CTA-2,CTA,"Standardize CTA color and contrast",3,2
+FOR-1,Forms,"Reduce signup form to 6 essential fields",5,3
+FOR-2,Forms,"Enable browser autofill and clear labels",3,2
+SEO-1,SEO,"Fix duplicate H1s and long title tags",4,3
+SEO-2,SEO,"Add internal links to solutions pages and reduce orphans",4,4

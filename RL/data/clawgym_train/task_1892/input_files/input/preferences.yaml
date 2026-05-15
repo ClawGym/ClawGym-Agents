@@ -1,0 +1,42 @@
+program:
+  max_partner_margin_percent: 30
+  referral_commission_cap_percent: 20
+  oem_discount_floor_percent: 40
+  allow_oem: true
+  prefer_reseller_in_smb: true
+  preferred_acv_focus_segment: Mid-market
+  extend_deal_reg_window_days_with_justification: 30
+  deal_reg_auto_approve_after_hours: 48
+  probation_threshold_score: 40
+  maintain_threshold_score_min: 40
+  maintain_threshold_score_max: 59
+  grow_threshold_score_min: 60
+  grow_threshold_score_max: 79
+  invest_heavily_threshold_score_min: 80
+mdf:
+  annual_budget_usd: 150000
+  default_cost_share: "50/50"
+  allocation_by_tier_percent:
+    Registered: 0
+    Silver: 2
+    Gold: 4
+    Platinum: 6
+scoring_weights:
+  Revenue Performance: 30
+  Pipeline Generation: 20
+  Certification Compliance: 15
+  Customer Satisfaction: 20
+  Engagement: 15
+enablement:
+  certification_requirements_by_tier:
+    Registered: 0
+    Silver: 1
+    Gold: 2
+    Platinum: 3
+  emphasis:
+    - "EMEA reseller readiness"
+    - "Mid-market playbook for $45k ACV"
+    - "Enterprise co-sell coordination for 120-day cycles"
+conflict_resolution:
+  direct_vs_partner_split_when_direct_engaged: "60/40"
+  first_to_register_wins: true

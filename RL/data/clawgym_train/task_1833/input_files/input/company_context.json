@@ -1,0 +1,136 @@
+{
+  "business_unit": "Smart Thermostat BU",
+  "strategic_priorities": [
+    {
+      "id": "gm_improve",
+      "description": "Improve gross margin by 5 percentage points within 12 months",
+      "importance": "High"
+    },
+    {
+      "id": "grid_services",
+      "description": "Accelerate grid-services revenue via utility partnerships and demand response",
+      "importance": "High"
+    },
+    {
+      "id": "v3_time_to_market",
+      "description": "Deliver v3 hardware by Q2 next year",
+      "importance": "High"
+    },
+    {
+      "id": "privacy_compliance",
+      "description": "Strengthen data privacy and EU compliance",
+      "importance": "High"
+    },
+    {
+      "id": "ml_capability",
+      "description": "Build internal ML capability over 18 months; partner in the interim",
+      "importance": "Medium"
+    },
+    {
+      "id": "supply_chain_resilience",
+      "description": "Increase supply chain resilience and avoid single-source for critical components",
+      "importance": "High"
+    },
+    {
+      "id": "ux_differentiation",
+      "description": "Maintain differentiation through superior user experience and firmware reliability",
+      "importance": "High"
+    }
+  ],
+  "risk_appetite": {
+    "overall": "Moderate",
+    "supply_chain": "Avoid single points of failure; require dual-sourcing for manufacturing and critical components",
+    "technology": "Partner for non-differentiating capabilities; keep firmware security, product UX, and data models in-house",
+    "finance": "Avoid capex-heavy joint ventures unless required for EU market entry and co-funded"
+  },
+  "governance": {
+    "decision_authority": "IoT Sourcing Council chaired by VP Operations",
+    "review_process": "Quarterly reviews for critical partners; semi-annual for others; legal review mandated for DPAs and LTAs over $1M"
+  },
+  "constraints": {
+    "service_spend_cap_usd": 6000000,
+    "headcount_cap_fte": 65,
+    "minimum_cloud_contract_term_months": 24,
+    "data_residency": "EU customer data must remain within EU",
+    "compliance": [
+      "UL",
+      "FCC",
+      "ENERGY STAR",
+      "GDPR",
+      "CCPA"
+    ],
+    "manufacturing_dual_source_required": true,
+    "supplier_location_preference": "Prefer nearshore (Mexico/EU) final assembly for resilience and tariffs"
+  },
+  "existing_partners": [
+    {
+      "name": "NimbusCloud",
+      "type": "Cloud provider",
+      "contract": "3-year through 2027-06",
+      "notes": "99.9% SLA; EU regions available; data egress fees elevate switching cost"
+    },
+    {
+      "name": "GridSense Analytics",
+      "type": "Energy analytics partner",
+      "contract": "1-year pilot renewable",
+      "notes": "We own data and model outputs; they own base models"
+    },
+    {
+      "name": "Taiyo Electronics",
+      "type": "Contract manufacturer",
+      "contract": "LTA; 18-month rolling forecast",
+      "notes": "Single-source risk on PCBA"
+    },
+    {
+      "name": "FlexiBuild",
+      "type": "Contract manufacturer",
+      "contract": "New supplier ramping",
+      "notes": "Risk moderate until PPAP complete"
+    },
+    {
+      "name": "ThermoSense Co.",
+      "type": "Component supplier",
+      "contract": "Spot purchases",
+      "notes": "No volume commitment; lead time volatile"
+    },
+    {
+      "name": "HelpHub BPO",
+      "type": "BPO provider",
+      "contract": "2-year through 2026-12",
+      "notes": "CSAT 81 (target 90); high agent turnover"
+    },
+    {
+      "name": "HomePro Retail",
+      "type": "Retail channel partner",
+      "contract": "Annual wholesale agreement",
+      "notes": "Strong sell-through; high MDF expectations"
+    },
+    {
+      "name": "ElectroMart",
+      "type": "Retail channel partner",
+      "contract": "Annual wholesale agreement",
+      "notes": "Moderate sell-through; requests exclusive colorway"
+    },
+    {
+      "name": "Midwest Energy Alliance",
+      "type": "Utility aggregator",
+      "contract": "Annual program MOUs",
+      "notes": "Coverage in 6 states; expanding to 3 more"
+    }
+  ],
+  "preferences": {
+    "manufacturing": "Two qualified CMs for each critical SKU; long-term contracts with price-down clauses",
+    "cloud": "Prefer 24–36 month terms with exit/data portability clauses; EU data residency compliance",
+    "utilities": "Strategic alliances preferred over transactional engagements; co-marketing welcomed",
+    "components": "Avoid transactional buying for sensors; seek LTAs with two suppliers where feasible"
+  },
+  "teams": {
+    "firmware_engineers": 12,
+    "mobile_app_developers": 6,
+    "industrial_designers": 3,
+    "data_scientists": 2,
+    "cloud_devops": 2,
+    "supply_chain": 5,
+    "customer_support": 4
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "ticker": "AAPL",
+  "valuation": {
+    "pe_ratio_ttm": 28.1,
+    "forward_pe": 22.3,
+    "peg_ratio": 1.8,
+    "ps_ratio": 7.2,
+    "pb_ratio": 35.0,
+    "ev_ebitda": 17.1,
+    "ev_revenue": 7.1,
+    "fcf_yield_percent": 3.8,
+    "sector_median_forward_pe": 25.0,
+    "historical_5y_avg_ev_ebitda": 18.2
+  },
+  "financials": {
+    "gross_margin_percent": 44.5,
+    "net_margin_percent": 24.1,
+    "roe_percent": 60.2,
+    "roic_percent": 29.4,
+    "revenue_yoy_percent": 6.3,
+    "eps_yoy_percent": 8.1,
+    "fcf_growth_yoy_percent": 7.2,
+    "debt_to_equity": 1.4,
+    "interest_coverage": 20.1,
+    "net_debt_to_ebitda": 1.2,
+    "current_ratio": 1.1,
+    "quick_ratio": 0.9,
+    "asset_turnover": 0.95
+  },
+  "moat": {
+    "network_effects": 2,
+    "switching_costs": 4,
+    "cost_advantages": 3,
+    "intangible_assets": 5,
+    "efficient_scale": 4,
+    "total_score": 18
+  },
+  "notes": {
+    "services_revenue_yoy_percent": 12.4,
+    "active_devices_billion": 2.2,
+    "buyback_program_active": true,
+    "commentary": "Forward P/E below sector median and EV/EBITDA below 5Y average suggest mild relative undervaluation given profitability and moat."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "tests": [
+    {
+      "date": "2026-03-29",
+      "source": "Bluebook Practice Test 1",
+      "scores": { "Reading & Writing": 670, "Math": 710, "Total": 1380 },
+      "conditions": { "timed": true, "distraction_free": true },
+      "rw": {
+        "module1_accuracy": 0.78,
+        "module2_accuracy": 0.73,
+        "domains": {
+          "Craft and Structure": 0.78,
+          "Information and Ideas": 0.82,
+          "Standard English Conventions": 0.66,
+          "Expression of Ideas": 0.70
+        },
+        "avg_time_per_question_sec": 62
+      },
+      "math": {
+        "module1_accuracy": 0.77,
+        "module2_accuracy": 0.70,
+        "domains": {
+          "Algebra": 0.86,
+          "Advanced Math": 0.69,
+          "Problem-Solving and Data": 0.86,
+          "Geometry & Trig": 0.60
+        },
+        "avg_time_per_question_sec": 98
+      },
+      "timing": {
+        "rw_avg": 1.1,
+        "math_avg": 1.7,
+        "slow_topics": ["Geometry word problems", "Nonlinear functions (quadratics/exponentials)"]
+      },
+      "mistakes": [
+        { "q": 12, "section": "RW", "topic": "Comma splice", "error_type": "Standard English - Grammar" },
+        { "q": 23, "section": "RW", "topic": "Transition (contrast vs addition)", "error_type": "Misread" },
+        { "q": 31, "section": "Math", "topic": "Quadratic vertex form", "error_type": "Concept gap" },
+        { "q": 36, "section": "Math", "topic": "Circle equation (center-radius)", "error_type": "Concept + Calculation" }
+      ],
+      "takeaways": "Grammar rules (comma usage, sentence boundaries) and advanced math (quadratics, circle equations) remain top weaknesses; timing slightly slow on Math module 2."
+    },
+    {
+      "date": "2026-04-12",
+      "source": "Bluebook Practice Test 2",
+      "scores": { "Reading & Writing": 690, "Math": 720, "Total": 1410 },
+      "conditions": { "timed": true, "distraction_free": true },
+      "rw": {
+        "module1_accuracy": 0.82,
+        "module2_accuracy": 0.76,
+        "domains": {
+          "Craft and Structure": 0.82,
+          "Information and Ideas": 0.85,
+          "Standard English Conventions": 0.70,
+          "Expression of Ideas": 0.75
+        },
+        "avg_time_per_question_sec": 60
+      },
+      "math": {
+        "module1_accuracy": 0.80,
+        "module2_accuracy": 0.73,
+        "domains": {
+          "Algebra": 0.88,
+          "Advanced Math": 0.73,
+          "Problem-Solving and Data": 0.86,
+          "Geometry & Trig": 0.67
+        },
+        "avg_time_per_question_sec": 95
+      },
+      "timing": {
+        "rw_avg": 1.1,
+        "math_avg": 1.6,
+        "slow_topics": ["Function transformations", "Geometry word problems"]
+      },
+      "mistakes": [
+        { "q": 8, "section": "RW", "topic": "Pronoun agreement", "error_type": "Careless" },
+        { "q": 19, "section": "RW", "topic": "Transition (cause/effect)", "error_type": "Misinterpretation" },
+        { "q": 29, "section": "Math", "topic": "Quadratic word problem (maximum/minimum)", "error_type": "Set-up" },
+        { "q": 40, "section": "Math", "topic": "Right triangle trig (SOH-CAH-TOA)", "error_type": "Time pressure" }
+      ],
+      "takeaways": "RW rising but Standard English still below others. Math stable improvement; Advanced Math and Geo/Trig still the bottleneck. Timing closer to target but some items rushed."
+    }
+  ],
+  "trend": {
+    "rw": [640, 670, 690],
+    "math": [680, 710, 720],
+    "total": [1320, 1380, 1410],
+    "notes": "Upward trend ~+15-25 points per test; weaknesses consistent across tests."
+  },
+  "common_errors": [
+    "Comma usage and sentence boundary (run-ons/comma splices)",
+    "Choosing incorrect transition type (contrast vs continuation)",
+    "Quadratic modeling in word problems (vertex, factored/standard form)",
+    "Circle equations and geometry word problems",
+    "Time management in Math module 2"
+  ]
+}

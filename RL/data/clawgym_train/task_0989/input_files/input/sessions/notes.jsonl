@@ -1,0 +1,3 @@
+{"session_id":"S001","issues":[{"id":"S001-1","severity":"high","description":"Search button has no aria-label"},{"id":"S001-2","severity":"medium","description":"Low contrast on Settings panel"}],"notes":["User used NVDA","Had difficulty finding search"]}
+{"session_id":"S002","issues":[{"id":"S002-1","severity":"high","description":"Keyboard trap in modal dialog"}],"notes":["VoiceOver user on Mac","Modal could not be closed with keyboard"]}
+{"session_id":"S004","issues":[{"id":"S004-1","severity":"low","description":"Redundant 'title' attributes announced twice"},{"id":"S004-2","severity":"medium","description":"Skip link not visible on focus"}],"notes":["JAWS user","Reported confusion with link labels"]}

@@ -1,0 +1,16 @@
+{
+  "complex": true,
+  "question": "Develop a 12-month go-to-market strategy for AcmeSoft’s new AI-powered revenue-operations copilot, “PipelinePilot,” targeting mid-market B2B SaaS companies (100–1,000 employees) in North America and Western Europe. The product integrates with common CRM and sales stacks (Salesforce, HubSpot, Outreach) to forecast pipeline, flag risk on deals, recommend next-best actions for SDRs/AEs, and automate hygiene tasks (notes, follow-ups). Deliver a single synthesized plan that addresses: (1) ICP and segmentation (industry, firmographic, buyer personas, pains); (2) positioning and messaging versus competitors (e.g., Gong, Clari, Salesforce Einstein); (3) channel mix with budget allocation across inbound content, paid demand, events, outbound, partner/reseller motions, and PLG touchpoints; (4) a phased timeline with quarterly milestones and core KPIs (pipeline created, CAC payback, win rate, expansion); (5) pricing and packaging tiers (seats vs usage, add-ons, discounting guardrails); (6) top risks and mitigations; and (7) a 90-day validation plan with experiments and success thresholds. Assume an initial sales-led motion with a light PLG assist and that security reviews are a gating factor for larger accounts.",
+  "models": [
+    "acp-codex",
+    "acp-claude",
+    "acp-gemini"
+  ],
+  "constraints": "English only. Final Answer must be 800-1000 words. Use concise bullets where helpful. Structure the synthesis as: Executive Overview; ICP & Segmentation; Positioning & Messaging; Channel Mix & Budget Allocation; Timeline & KPIs (by quarter); Pricing & Packaging; Risks & Mitigations; 90-Day Validation Plan. Provide concrete ranges with labeled assumptions; avoid unverifiable claims. No chain-of-thought; provide concise rationale summaries only.",
+  "ops": {
+    "timeoutSec": 180,
+    "maxRetries": 1,
+    "maxRounds": 4,
+    "budgetUsd": 10.0
+  }
+}

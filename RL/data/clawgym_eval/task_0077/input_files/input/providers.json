@@ -1,0 +1,69 @@
+{
+  "providers": [
+    {
+      "providerId": "p_soma",
+      "name": "SoMa Tire & Auto",
+      "zipCode": "94107",
+      "distanceMiles": 1.2,
+      "rating": 4.6,
+      "services": [
+        { "serviceId": "svc_trb_p1", "name": "Tire Rotation & Balance", "price": 49.99 },
+        { "serviceId": "svc_oil_p1", "name": "Oil Change", "price": 79.0 }
+      ]
+    },
+    {
+      "providerId": "p_mission",
+      "name": "Mission Wheel Works",
+      "zipCode": "94110",
+      "distanceMiles": 3.8,
+      "rating": 4.7,
+      "services": [
+        { "serviceId": "svc_trb_p2", "name": "Tire Rotation & Balance", "price": 54.0 },
+        { "serviceId": "svc_brake_p2", "name": "Brake Inspection", "price": 39.0 }
+      ]
+    },
+    {
+      "providerId": "p_baybridge",
+      "name": "Bay Bridge Auto Care",
+      "zipCode": "94111",
+      "distanceMiles": 4.9,
+      "rating": 4.9,
+      "services": [
+        { "serviceId": "svc_trb_p3", "name": "Tire Rotation & Balance", "price": 49.99 },
+        { "serviceId": "svc_align_p3", "name": "Wheel Alignment", "price": 99.0 }
+      ]
+    },
+    {
+      "providerId": "p_dalycity",
+      "name": "Daly City Tires & Brakes",
+      "zipCode": "94014",
+      "distanceMiles": 6.2,
+      "rating": 4.8,
+      "services": [
+        { "serviceId": "svc_trb_p4", "name": "Tire Rotation & Balance", "price": 45.0 }
+      ]
+    },
+    {
+      "providerId": "p_southbeach",
+      "name": "South Beach Auto Spa",
+      "zipCode": "94107",
+      "distanceMiles": 2.2,
+      "rating": 4.2,
+      "services": [
+        { "serviceId": "svc_detail_p5", "name": "Car Detailing", "price": 149.0 },
+        { "serviceId": "svc_wash_p5", "name": "Car Wash", "price": 25.0 }
+      ]
+    },
+    {
+      "providerId": "p_potrero",
+      "name": "Potrero Hill Auto",
+      "zipCode": "94107",
+      "distanceMiles": 2.8,
+      "rating": 4.5,
+      "services": [
+        { "serviceId": "svc_trb_p6", "name": "Tire Rotation & Balance", "price": 59.0 },
+        { "serviceId": "svc_oil_p6", "name": "Oil Change", "price": 85.0 }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+health_check:
+  signals:
+    - name: Progressive overload
+      score: 1
+      notes: "Big lifts logged in notebook; accessories and runs not consistently tracked. No clear week-to-week progression for stations."
+    - name: Program structure
+      score: 1
+      notes: "Upper/Lower + runs without formal mesocycles; Hyrox-specific elements added ad hoc."
+    - name: Recovery management
+      score: 1
+      notes: "Sleep averages ~7h; no planned deloads; recovery days used inconsistently."
+    - name: Nutrition alignment
+      score: 1
+      notes: "Mostly intuitive eating; protein inconsistent; weekend fueling for long sessions not planned."
+    - name: Movement quality
+      score: 2
+      notes: "Pain-free; solid warm-up; past knee issue managed with controlled ROM and tempo work."
+    - name: Balance
+      score: 1
+      notes: "Push work slightly dominant; vertical pull and carries underrepresented; single-leg work limited due to prior knee issues."
+    - name: Consistency
+      score: 2
+      notes: "3-4 sessions/week sustained for 12+ weeks; minimal gaps."
+    - name: Goal specificity
+      score: 2
+      notes: "Clear target: Hyrox in ~12 weeks with Saturday sled access constraint."
+  total_score: 11
+  comments: "Primary fixes: add structured mesocycles with deloads, plan 80/20 run distribution, schedule Saturday sled stations, and track accessories/runs with RPE and times for true progressive overload."

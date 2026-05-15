@@ -1,0 +1,11 @@
+{
+  "en": {"issues": []},
+  "es": {"issues": [
+    {"type": "missing_key", "key": "terms_ack", "severity": "major"},
+    {"type": "placeholder_mismatch", "key": "welcome_title", "expected_placeholders": ["app_name"], "found_placeholders": ["appname"], "severity": "critical"}
+  ]},
+  "fr": {"issues": [
+    {"type": "extra_key", "key": "legacy_cta", "severity": "minor"},
+    {"type": "placeholder_mismatch", "key": "promo_message", "expected_placeholders": ["count", "reward"], "found_placeholders": ["count", "reward_offer"], "severity": "critical"}
+  ]}
+}

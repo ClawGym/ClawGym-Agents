@@ -1,0 +1,13 @@
+event,user,email,register,checkin,payment_status
+data-ethics,Alice Green,alice.green@example.org,yes,yes,paid
+data-ethics,Bob Lee,bob.lee@example.com,yes,no,unpaid
+data-ethics,Carla Mendes,carla.mendes@example.net,yes,yes,unpaid
+data-ethics,Daniel Hart,daniel.hart@example.org,no,yes,paid
+data-ethics,Elena Zhou,elena.zhou@example.com,yes,yes,paid
+data-ethics,Frank Patel,frank.patel@example.net,yes,no,unpaid
+hands-on-sql,Grace Kim,grace.kim@example.com,yes,yes,paid
+hands-on-sql,Henry O'Neill,henry.oneill@example.org,yes,yes,unpaid
+hands-on-sql,Ivy Chen,ivy.chen@example.net,yes,no,unpaid
+hands-on-sql,Jack Smith,jack.smith@example.com,no,no,unpaid
+hands-on-sql,Karen Diaz,karen.diaz@example.org,yes,yes,paid
+hands-on-sql,Liam Johnson,liam.johnson@example.net,yes,no,paid

@@ -1,0 +1,16 @@
+# Title: 2023 Industry Remote Work Pulse Survey
+# Publisher: WorkMetrics Consortium (Industry Association)
+# Date: 2023-11-20
+# Method: Online survey of managers and ICs; self-reported % change in productivity vs. 2019 baseline; n=12,482 respondents across 640 companies
+# Notes: Responses weighted by company size; sectors include technology, finance, marketing, support, manufacturing admin; measures reflect perceived productivity
+company,sector,region,sample_size,pct_change_productivity,timeframe,method_notes
+BlueLake Software,Technology,North America,420,0.09,2022-2023,"Self-reported; hybrid 3-2; tooling maturity high"
+Northline Analytics,Technology,Europe,310,0.07,2022-2023,"Self-reported; mostly remote; strict async norms"
+BrightArc Media,Marketing,North America,275,0.05,2022-2023,"Self-reported; hybrid; creative sprint weeks in office"
+Fairview National Bank,Finance,North America,390,0.03,2022-2023,"Self-reported; hybrid; CRM upgrade mid-2023"
+Helio Capital,Finance,Europe,210,0.04,2022-2023,"Self-reported; hybrid; monthly in-person planning"
+ServicePath Support,Customer Support,North America,510,0.02,2022-2023,"Self-reported; remote; investment in QA and call analytics"
+OmniRetail Ops,Manufacturing Admin,North America,360,0.01,2022-2023,"Self-reported; hybrid; e-signature rollout ongoing"
+Vertex Design Co.,Design,Europe,180,0.06,2022-2023,"Self-reported; remote; meeting cap 12 hrs/week"
+CrestBridge Consulting,Professional Services,North America,540,0.05,2022-2023,"Self-reported; hybrid; outcome-based management"
+Pacific Devices Admin,Manufacturing Admin,APAC,260,0.00,2022-2023,"Self-reported; remote; process redesign pending"

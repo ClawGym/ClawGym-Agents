@@ -1,0 +1,11 @@
+incident_id,incident_type,region,report_time,response_time_minutes,status,households_assessed,displaced_persons
+M001,Flood,North,2024-05-02T08:15:00Z,45,closed,120,35
+M002,Wildfire,West,2024-05-03T12:40:00Z,30,closed,80,10
+M003,Storm,East,2024-05-05T05:20:00Z,60,open,50,5
+M004,Earthquake,South,2024-05-07T21:10:00Z,90,closed,200,120
+M005,Flood,East,2024-05-10T14:05:00Z,55,closed,60,20
+M006,Landslide,North,2024-05-12T09:00:00Z,75,open,40,8
+M007,Storm,Central,2024-05-15T16:30:00Z,35,closed,70,15
+M008,Flood,South,2024-05-18T03:50:00Z,25,closed,110,40
+M009,Wildfire,West,2024-05-21T11:00:00Z,50,open,95,22
+M010,Flood,Central,2024-05-25T07:45:00Z,40,closed,130,30

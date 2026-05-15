@@ -1,0 +1,17 @@
+version: 1
+vault_name: "internal-ops"
+wallets:
+  - name: "ops-alpha"
+    words: 12
+    chains:
+      - evm
+      - solana
+      - bitcoin
+    indexes: [0, 1]
+  - name: "ops-beta"
+    words: 24
+    chains:
+      - cosmos
+      - tron
+      - evm
+    indexes: [0, 1]

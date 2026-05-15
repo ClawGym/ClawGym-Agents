@@ -1,0 +1,8 @@
+{
+  "course": "Practical Machine Learning",
+  "modules": [
+    {"id": "M1", "title": "Supervised Learning Basics", "outcomes": ["Linear models", "Overfitting/underfitting"]},
+    {"id": "M2", "title": "Model Evaluation & Metrics", "outcomes": ["Train/validation/test splits", "Precision/Recall/F1"]},
+    {"id": "M3", "title": "MLOps & Reproducibility", "outcomes": ["Experiment tracking", "Packaging", "Pipelines"]}
+  ]
+}

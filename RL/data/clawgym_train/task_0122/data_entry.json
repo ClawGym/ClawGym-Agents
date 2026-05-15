@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0122",
+  "user_query": "Read input/okx_subscriptions.json for the list of OKX public real-time channels and instruments. For each entry, subscribe to the corresponding public market data feed and write the raw NDJSON event stream to output/streams/<channel>_<instId>.jsonl (channel lowercase, instId uppercase exactly as in input). Capture at least 15 data events per stream before producing the following reports:\n\n1) Write output/reports/ticker_snapshot.json containing, for each instrument that has a tickers subscription, an object with the most recent {last, bidPx, askPx, ts} values from the stream.\n\n2) Write output/reports/trade_activity.json containing, for each instrument that has a trades subscription, an object {events: <total event count captured>, first_ts: <earliest ts>, last_ts: <latest ts>} computed from the stream.\n\n3) Write output/reports/metadata.md listing each created stream file and the number of events captured for it.\n\nUse only relative workspace paths. Do not write anything outside output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

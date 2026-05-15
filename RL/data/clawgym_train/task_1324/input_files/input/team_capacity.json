@@ -1,0 +1,11 @@
+{
+  "sprint": "Sprint 07",
+  "capacity": 20,
+  "team": {
+    "engineers": 3,
+    "qa": 1,
+    "designer": 1,
+    "product_owner": 1
+  },
+  "notes": "Recent velocity ~19-21 points; capacity set to 20 for Sprint 07 based on availability and holidays (none)."
+}

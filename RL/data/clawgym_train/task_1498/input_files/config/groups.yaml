@@ -1,0 +1,12 @@
+period_field: period
+group_size: 4
+roles:
+  - Isolationist
+  - Interventionist
+role_balance_per_group: equal
+balance_field: reading_level
+target_counts_per_group:
+  low: 1
+  mid: 2
+  high: 1
+strict_conflict: true

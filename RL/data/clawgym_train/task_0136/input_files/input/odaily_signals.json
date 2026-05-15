@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Energy futures volatility increases Midwest electricity costs",
+    "impact_score": 8.7,
+    "priority": "High",
+    "summary": "Day-ahead power prices projected up 12–18% across several Midwest ISO zones over the next month.",
+    "operational_implications": "Consider shifting compressor and heavy press schedules toward off-peak hours; budget for higher utility costs; verify emergency generator testing schedule."
+  },
+  {
+    "title": "Stablecoin policy draft tightens KYC for business payments",
+    "impact_score": 8.5,
+    "priority": "High",
+    "summary": "A U.S. draft stablecoin bill proposes stricter issuer and corporate wallet KYC/recordkeeping requirements.",
+    "operational_implications": "If finance uses USDC/USDT for vendor payments or reimbursements, prepare to update KYC procedures and recordkeeping; low impact on production operations."
+  },
+  {
+    "title": "Powder coating resin supply disruptions",
+    "impact_score": 7.9,
+    "priority": "Medium",
+    "summary": "An outage at a regional supplier could tighten polyester resin availability for 4–6 weeks.",
+    "operational_implications": "Review alternative resins and safety data sheets; pre-qualify substitutes and update HazCom training if materials change."
+  },
+  {
+    "title": "Bitcoin network fees spike on congestion",
+    "impact_score": 4.1,
+    "priority": "Low",
+    "summary": "On-chain transaction fees increased materially due to network congestion.",
+    "operational_implications": "Minimal operations impact unless treasury uses BTC for cross-border settlements; monitor if relevant."
+  }
+]

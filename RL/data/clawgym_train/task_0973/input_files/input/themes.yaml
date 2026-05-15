@@ -1,0 +1,17 @@
+themes:
+  estimation:
+    keywords: ["estimate", "estimation", "story points", "points"]
+  timeboxing:
+    keywords: ["timebox", "timeboxing", "time-box", "overran", "ran long"]
+  facilitation:
+    keywords: ["facilitator", "facilitation", "managed energy", "discussion ran long", "standups", "refinement"]
+  tooling:
+    keywords: ["jira", "trello", "board", "tool", "tooling"]
+  user_stories:
+    keywords: ["user story", "user stories", "acceptance criteria", "given-when-then", "slicing"]
+  wip_limits:
+    keywords: ["wip", "work in progress", "multitask", "multitasking", "flow"]
+  demos:
+    keywords: ["demo", "review", "sprint review"]
+  retrospectives:
+    keywords: ["retro", "retrospective", "cadence"]

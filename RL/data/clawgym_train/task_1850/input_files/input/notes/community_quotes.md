@@ -1,0 +1,3 @@
+- Leo Hernandez: "We're happy to keep you rolling; you keep us healthy."
+- Mina Patel: "Thank you for the free clinics. Helping with your car is the least we can do."
+- Sam O'Neil: "The community looks out for each other—that's how we thrive."

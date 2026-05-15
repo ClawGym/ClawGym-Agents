@@ -1,0 +1,78 @@
+invoices:
+  - number: "INV-2026.03.015"
+    client_id: "CLI-001"
+    status: "sent"
+    issue_date: "2026-03-01"
+    due_date: "2026-03-31"
+    currency: "USD"
+    subtotal: 5000.00
+    discount: 0.00
+    tax: 0.00
+    total: 5000.00
+    amount_paid: 0.00
+    balance_due: 5000.00
+    payment_terms: "net-30"
+    line_items:
+      - type: "time_based"
+        description: "AI Integration Consulting — March"
+        qty: 20
+        rate: 250.00
+        amount: 5000.00
+    payments: []
+    notes: "Thank you for your business."
+    sent_date: "2026-03-01"
+    reminders_sent: 1
+    created: "2026-03-01T10:15:00Z"
+  - number: "INV-2026.03.009"
+    client_id: "CLI-002"
+    status: "sent"
+    issue_date: "2026-03-31"
+    due_date: "2026-04-30"
+    currency: "USD"
+    subtotal: 8000.00
+    discount: 0.00
+    tax: 0.00
+    total: 8000.00
+    amount_paid: 0.00
+    balance_due: 8000.00
+    payment_terms: "net-30"
+    line_items:
+      - type: "fixed_fee"
+        description: "Data Platform Advisory — March Sprint"
+        qty: 1
+        rate: 8000.00
+        amount: 8000.00
+    payments: []
+    notes: "Cross-border B2B export — 0% tax."
+    sent_date: "2026-03-31"
+    reminders_sent: 0
+    created: "2026-03-31T17:45:00Z"
+  - number: "INV-2026.02.011"
+    client_id: "CLI-003"
+    status: "paid"
+    issue_date: "2026-02-10"
+    due_date: "2026-03-11"
+    currency: "USD"
+    subtotal: 2500.00
+    discount: 0.00
+    tax: 0.00
+    total: 2500.00
+    amount_paid: 2500.00
+    balance_due: 0.00
+    payment_terms: "net-30"
+    line_items:
+      - type: "quantity"
+        description: "Campaign Analytics Package — February"
+        qty: 5
+        rate: 500.00
+        amount: 2500.00
+    payments:
+      - date: "2026-02-28"
+        amount: 2500.00
+        method: "bank_transfer"
+        reference: "BSM-0228-ACH"
+        notes: "Paid in full"
+    notes: "Thank you — payment received."
+    sent_date: "2026-02-10"
+    reminders_sent: 0
+    created: "2026-02-10T09:05:00Z"

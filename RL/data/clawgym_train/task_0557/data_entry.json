@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0557",
+  "user_query": "Orchestrate a multi-agent, multi-round internal debate to decide: Should our company pilot a 4-day workweek in Q4? Read the discussion setup in input/scenario.yaml and the context memo in input/brief.md. Then:\n\n1) Plan: Create output/discussion_plan.json containing a normalized plan with fields: topic, description, participants (array of {agent_id, role}), max_rounds, consensus_threshold, and speaking_order (use \"free\" for randomized round 1 and then rotate in subsequent rounds).\n\n2) Run discussion: Conduct at least 3 rounds. Use randomized speaking order in Round 1, then rotate order for later rounds. Starting in Round 2, each message must cite an opponent by quoting one of their earlier statements using a Markdown quote line that begins with \">\" and includes an @mention of the cited agent. Assess each message with a dialectical analysis (argument quality, fallacies, citations). Save the full result to output/transcript.json with this structure:\n- Top-level: { id, topic, description, status, current_round, max_rounds, consensus_level, participants, rounds }\n- Each round: { round_number, status, messages }\n- Each message: { message_id, sender: { agent_id }, content: { text }, type: \"proposal\"|\"statement\"|\"rebuttal\", analysis: { quality: \"strong\"|\"moderate\"|\"weak\"|\"fallacious\", score: number, has_citation: boolean, fallacies: string[], cites: { agent_id: string, message_id: string } | null } }\n\n3) Summarize: Write output/summary.md (<=400 words) stating whether consensus was reached, the strongest pro and con arguments (with at least one quoted line from the transcript), a count of fallacy types observed, and a clear recommendation with justification.\n\nDo not write anything outside the output/ directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

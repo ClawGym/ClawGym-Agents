@@ -1,0 +1,33 @@
+version: 1
+organizations:
+  - id: apple
+    domains: ["apple.com"]
+    site_hints: ["newsroom", "press release"]
+  - id: microsoft
+    domains: ["microsoft.com"]
+    site_hints: ["press release", "news", "blogs"]
+  - id: google
+    domains: ["google.com", "blog.google"]
+    site_hints: ["press", "news", "blog"]
+
+date_range:
+  start: "2020-01-01"
+  end: "2020-12-31"
+
+sample_size_per_org: 5
+
+label_rules:
+  announcement:
+    keywords: ["launch", "introduce", "announce", "unveil", "release", "debut"]
+  acquisition:
+    keywords: ["acquire", "acquisition", "merger", "merge", "buy", "purchase"]
+  partnership:
+    keywords: ["partner", "partnership", "collaborate", "collaboration", "alliance", "join forces"]
+
+extraction:
+  min_characters: 500
+  drop_if_no_date: true
+
+query_templates:
+  - "site:{domain} {hint} 2020"
+  - "site:{domain} {hint} {org} 2020 press release"

@@ -1,0 +1,11 @@
+proto,local_address,local_port,remote_address,remote_port,state,pid,process,created_time,remote_hostname
+TCP,10.0.5.34,49722,185.231.223.88,443,ESTABLISHED,4024,rundll32.exe,2026-04-18 13:12:40,cdn-update-win.com
+TCP,10.0.5.34,49714,91.210.165.50,443,ESTABLISHED,1256,svchost.exe,2026-04-18 13:10:12,telemetry-sync.net
+TCP,10.0.5.34,49715,91.210.165.50,80,TIME_WAIT,1256,svchost.exe,2026-04-18 13:10:13,telemetry-sync.net
+TCP,10.0.5.34,49801,104.37.167.12,8080,CLOSE_WAIT,3788,powershell.exe,2026-04-18 13:16:21,api-dropboxs.com
+TCP,10.0.5.34,49789,77.91.75.34,443,ESTABLISHED,3420,chrome.exe,2026-04-18 13:14:02,cdn-images.host
+TCP,10.0.5.34,49790,142.250.190.78,443,ESTABLISHED,3420,chrome.exe,2026-04-18 13:14:05,accounts.google.com
+TCP,10.0.5.34,49791,23.214.138.88,443,ESTABLISHED,3512,chrome.exe,2026-04-18 13:14:06,adobedcscdn.net
+UDP,10.0.5.34,5353,224.0.0.251,5353,LISTENING,3420,chrome.exe,2026-04-18 13:10:46,
+UDP,10.0.5.34,68,10.0.5.1,67,ESTABLISHED,1820,svchost.exe,2026-04-18 12:59:14,
+UDP,10.0.5.34,0,8.8.8.8,53,ESTABLISHED,1256,svchost.exe,2026-04-18 12:58:59,dns.google

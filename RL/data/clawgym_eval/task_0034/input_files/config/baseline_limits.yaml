@@ -1,0 +1,8 @@
+baseline:
+  men:
+    daily: 4
+    weekly: 14
+  women:
+    daily: 3
+    weekly: 7
+source: Baseline values for internal cross-checks; compare with extracted NIAAA limits.

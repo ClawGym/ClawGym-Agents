@@ -1,0 +1,10 @@
+{
+  "registration_goal": 300,
+  "ticket_tiers": {
+    "early_bird": { "price": 149, "qty": 120 },
+    "regular": { "price": 199, "qty": 140 },
+    "vip": { "price": 399, "qty": 20 },
+    "group": { "price": 149, "qty": 20 }
+  },
+  "notes": "Hybrid event: in-person tickets for 300 capacity; virtual access included for VIP and post-event recordings."
+}

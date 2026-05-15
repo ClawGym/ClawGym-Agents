@@ -1,0 +1,46 @@
+slot_id,name,available
+S1,Dr. Asha Patel,1
+S1,Dr. Minh Nguyen,0
+S1,Dr. Lucia Alvarez,1
+S1,Dr. Daniel Kim,1
+S1,Dr. Robert Lee,0
+S1,Jamie Chen,1
+S1,Priya Sharma,1
+S1,Alex Garcia,0
+S1,Sam O'Neill,1
+S2,Dr. Asha Patel,0
+S2,Dr. Minh Nguyen,1
+S2,Dr. Lucia Alvarez,0
+S2,Dr. Daniel Kim,1
+S2,Dr. Robert Lee,1
+S2,Jamie Chen,1
+S2,Priya Sharma,1
+S2,Alex Garcia,1
+S2,Sam O'Neill,0
+S3,Dr. Asha Patel,0
+S3,Dr. Minh Nguyen,1
+S3,Dr. Lucia Alvarez,1
+S3,Dr. Daniel Kim,0
+S3,Dr. Robert Lee,1
+S3,Jamie Chen,1
+S3,Priya Sharma,0
+S3,Alex Garcia,1
+S3,Sam O'Neill,1
+S4,Dr. Asha Patel,1
+S4,Dr. Minh Nguyen,0
+S4,Dr. Lucia Alvarez,0
+S4,Dr. Daniel Kim,1
+S4,Dr. Robert Lee,1
+S4,Jamie Chen,0
+S4,Priya Sharma,1
+S4,Alex Garcia,1
+S4,Sam O'Neill,1
+S5,Dr. Asha Patel,1
+S5,Dr. Minh Nguyen,1
+S5,Dr. Lucia Alvarez,1
+S5,Dr. Daniel Kim,0
+S5,Dr. Robert Lee,1
+S5,Jamie Chen,1
+S5,Priya Sharma,1
+S5,Alex Garcia,1
+S5,Sam O'Neill,0

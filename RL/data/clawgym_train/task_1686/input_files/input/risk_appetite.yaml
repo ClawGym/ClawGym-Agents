@@ -1,0 +1,49 @@
+risk_appetite:
+  categories:
+    Strategic:
+      max_residual_rating: "High"
+      notes: "Management accepts higher strategic risk to enable market expansion and product bets."
+      quantitative:
+        max_market_share_loss_pct: 10
+        max_top_client_concentration_pct: 25
+    Financial:
+      max_residual_rating: "Medium"
+      quantitative:
+        max_budget_variance_pct: 15
+        max_ar_over_90_pct: 10
+        min_cash_runway_months: 9
+    Operational:
+      max_residual_rating: "Medium"
+      quantitative:
+        max_outage_minutes_per_quarter: 60
+        max_vendor_sla_breaches_per_month: 3
+        max_backlog_growth_pct_mom: 10
+    Compliance:
+      max_residual_rating: "Low"
+      notes: "Zero tolerance for regulatory violations and privacy breaches."
+      quantitative:
+        violations_tolerance: 0
+        overdue_compliance_actions: 0
+    Cyber:
+      max_residual_rating: "Medium"
+      quantitative:
+        pii_breach_tolerance: 0
+        mean_time_to_patch_critical_hours: 72
+        phishing_click_rate_pct: 5
+        privileged_access_reviews_overdue: 0
+    Reputational:
+      max_residual_rating: "Low"
+      quantitative:
+        national_media_negative_events_per_year: 0
+        nps_floor: 45
+    People:
+      max_residual_rating: "Medium"
+      quantitative:
+        voluntary_turnover_pct: 18
+        critical_role_vacancy_days: 45
+        succession_coverage_pct: 70
+    External:
+      max_residual_rating: "Medium"
+      quantitative:
+        max_supply_chain_disruption_days: 7
+        geopolitical_exposure_threshold: "No single-country dependency >40% of vendor footprint"

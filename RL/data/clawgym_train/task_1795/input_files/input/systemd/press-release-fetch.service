@@ -1,0 +1,12 @@
+[Unit]
+Description=Fetch official press releases mentioning Alessandro Amitrano
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/utente/newsroom
+ExecStart=/usr/bin/python3 /home/utente/newsroom/scripts/fetch_amitranonews.py --config /home/utente/newsroom/config/fetcher.yaml
+User=utente
+
+[Install]
+WantedBy=multi-user.target

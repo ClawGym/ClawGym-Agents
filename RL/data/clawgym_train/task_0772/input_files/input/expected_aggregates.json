@@ -1,0 +1,18 @@
+{
+  "expected_total_titles": 12,
+  "expected_counts_by_region": {
+    "North East England": 4,
+    "Yorkshire": 2,
+    "Scotland": 2,
+    "Wales": 2,
+    "USA - Northeast": 2
+  },
+  "expected_average_rating_overall": 4.28,
+  "expected_average_rating_by_region": {
+    "North East England": 4.53,
+    "Yorkshire": 4.00,
+    "Scotland": 4.25,
+    "Wales": 4.45,
+    "USA - Northeast": 3.90
+  }
+}

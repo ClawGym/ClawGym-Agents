@@ -1,0 +1,9 @@
+depot_id,depot_name,city,state,total_drivers,part_time_drivers,union_members_drivers,avg_age,avg_years_seniority
+D001,Hudson Yard,Jersey City,NJ,220,40,210,44,9.2
+D002,Ironbound,Newark,NJ,180,30,175,46,11.1
+D003,North River,Manhattan,NY,300,25,298,43,8.5
+D004,Flatbush,Brooklyn,NY,250,35,240,41,7.3
+D005,South Philly,Philadelphia,PA,160,28,158,45,10.0
+D006,Allegheny,Pittsburgh,PA,190,20,188,47,12.4
+D007,Bronx East,Bronx,NY,210,32,205,42,9.0
+D008,Camden Yard,Camden,NJ,120,18,116,44,8.8

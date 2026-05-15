@@ -1,0 +1,8 @@
+# Trip configuration (to be updated by the assistant)
+# NOTE: You must update this file to match the requested destination and dates before analysis.
+destination: CoastalTown
+start_date: 2024-08-10
+end_date: 2024-08-14
+comfort:
+  min_c: 20
+  max_c: 28

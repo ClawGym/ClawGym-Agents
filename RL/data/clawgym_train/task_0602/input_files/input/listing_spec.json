@@ -1,0 +1,43 @@
+{
+  "service_id": "svc_research_agent_v1",
+  "name": "Research Agent",
+  "description": "Produces a concise market research summary given a topic and scope.",
+  "price_usdt": "1.50",
+  "supplier_wallet": "0x3f1a2b4c5d6e7f8091a2b3c4d5e6f708192a3b4c",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "task": {
+        "type": "string",
+        "description": "The research task to perform"
+      },
+      "scope": {
+        "type": "string",
+        "description": "Formatting scope or constraints for the brief"
+      }
+    },
+    "required": [
+      "task"
+    ]
+  },
+  "output_schema": {
+    "type": "object",
+    "properties": {
+      "result": {
+        "type": "string",
+        "description": "The generated market research brief"
+      },
+      "sources": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "Cited sources or links used in the research"
+      }
+    },
+    "required": [
+      "result"
+    ]
+  },
+  "is_active": true
+}

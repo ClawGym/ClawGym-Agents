@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "stars": 4,
+  "operator": {
+    "en_name": "Jessica",
+    "cn_name": "Jessica",
+    "avatar_url": "https://static.wikia.nocookie.net/arknights/images/1/11/Jessica_icon.png",
+    "en_detail_url": "https://arknights.fandom.com/wiki/Jessica",
+    "cn_detail_url": "https://prts.wiki/w/Jessica"
+  },
+  "agent_name": "jessica",
+  "workspace": "~/.openclaw/workspace-jessica",
+  "duplicate": true,
+  "dialogue_url": "https://arknights.fandom.com/wiki/Jessica/Dialogue"
+}

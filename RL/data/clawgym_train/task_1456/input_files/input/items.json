@@ -1,0 +1,224 @@
+[
+  {
+    "name": "MacBook Pro 2023",
+    "category": "electronics",
+    "location": "home office, desk drawer (left)",
+    "purchase_date": "2023-06-15",
+    "purchase_price": 2399,
+    "serial_number": "C02LMPRO2023XYZ",
+    "last_used_date": "2026-06-10",
+    "warranty": {
+      "expires_on": "2026-08-30",
+      "coverage": "AppleCare+ 3-year, accidental damage with service fee",
+      "registered": true
+    },
+    "receipts": {
+      "vendor": "Apple Store",
+      "number": "INV-AP-93817"
+    }
+  },
+  {
+    "name": "Samsung 65in QLED TV",
+    "category": "electronics",
+    "location": "living room, media console",
+    "purchase_date": "2021-06-15",
+    "purchase_price": 1299,
+    "serial_number": "SN-TV-65QLED-5567",
+    "last_used_date": "2026-06-14",
+    "warranty": {
+      "expires_on": "2024-06-15",
+      "coverage": "Manufacturer limited warranty, 1 year",
+      "registered": true
+    },
+    "receipts": {
+      "vendor": "Best Buy",
+      "number": "BBY-065-QLED-2021"
+    }
+  },
+  {
+    "name": "Bosch Dishwasher",
+    "category": "appliances",
+    "location": "kitchen, installed under counter",
+    "purchase_date": "2024-06-15",
+    "purchase_price": 899,
+    "serial_number": "BD-SHX78C75N-2204",
+    "last_used_date": "2026-06-01",
+    "warranty": {
+      "expires_on": "2026-06-15",
+      "coverage": "Manufacturer 2-year limited parts and labor",
+      "registered": true
+    },
+    "receipts": {
+      "vendor": "Home Depot",
+      "number": "HD-DSW-2024-0615"
+    }
+  },
+  {
+    "name": "Dyson V11 Vacuum",
+    "category": "appliances",
+    "location": "hall closet, upper shelf",
+    "purchase_date": "2020-06-15",
+    "purchase_price": 599,
+    "serial_number": "DY-V11-2045-UK",
+    "last_used_date": "2026-05-15",
+    "warranty": {
+      "expires_on": "2022-06-15",
+      "coverage": "Limited warranty, 2 years",
+      "registered": true
+    },
+    "receipts": {
+      "vendor": "Dyson Online",
+      "number": "DY-INV-2020-0615"
+    }
+  },
+  {
+    "name": "DeWalt Cordless Drill",
+    "category": "tools",
+    "location": "garage, shelf 3, red toolbox",
+    "purchase_date": "2019-06-15",
+    "purchase_price": 199,
+    "serial_number": "DW-DCD791-9981",
+    "last_used_date": "2025-12-15",
+    "warranty": {
+      "expires_on": "2020-06-15",
+      "coverage": "1-year limited warranty",
+      "registered": false
+    },
+    "receipts": {
+      "vendor": "Lowe's",
+      "number": "LOW-DRILL-2019-615"
+    }
+  },
+  {
+    "name": "Road Bike - Trek FX 3",
+    "category": "outdoor",
+    "location": "garage, wall bike rack",
+    "purchase_date": "2022-06-15",
+    "purchase_price": 799,
+    "serial_number": "TRK-FX3-220615",
+    "last_used_date": "2026-05-30",
+    "warranty": {
+      "expires_on": "2027-06-15",
+      "coverage": "Frame lifetime, components 5-year",
+      "registered": true
+    },
+    "receipts": {
+      "vendor": "City Cycles",
+      "number": "CC-TREK-2022-0615"
+    }
+  },
+  {
+    "name": "Solid Wood Dining Table",
+    "category": "furniture",
+    "location": "dining room, center",
+    "purchase_date": "2018-06-15",
+    "purchase_price": 1200,
+    "serial_number": "HW-TABLE-1806-REDOAK",
+    "last_used_date": "2026-06-12",
+    "warranty": {
+      "expires_on": "2019-06-15",
+      "coverage": "1-year workmanship warranty",
+      "registered": false
+    },
+    "receipts": {
+      "vendor": "Home Furnishings Co.",
+      "number": "HF-1200-2018-0615"
+    }
+  },
+  {
+    "name": "PS5 Console",
+    "category": "electronics",
+    "location": "living room, media console shelf 2",
+    "purchase_date": "2020-06-15",
+    "purchase_price": 499,
+    "serial_number": "PS5-CFI-1015A-7782",
+    "last_used_date": "2026-04-20",
+    "warranty": {
+      "expires_on": "2022-06-15",
+      "coverage": "Standard 1-year warranty",
+      "registered": true
+    },
+    "receipts": {
+      "vendor": "Sony Direct",
+      "number": "SD-PS5-2020-0615"
+    }
+  },
+  {
+    "name": "HDMI Cable (6ft) - Black 1",
+    "category": "storage",
+    "location": "living room, media console drawer",
+    "purchase_date": "2022-06-15",
+    "purchase_price": 15,
+    "serial_number": "",
+    "last_used_date": "2023-08-10",
+    "warranty": {
+      "expires_on": "",
+      "coverage": "none",
+      "registered": false
+    }
+  },
+  {
+    "name": "HDMI Cable (6ft) - Black 2",
+    "category": "storage",
+    "location": "living room, media console drawer",
+    "purchase_date": "2023-06-15",
+    "purchase_price": 12,
+    "serial_number": "",
+    "last_used_date": "2024-01-05",
+    "warranty": {
+      "expires_on": "",
+      "coverage": "none",
+      "registered": false
+    }
+  },
+  {
+    "name": "HDMI Cable (6ft) - Black 3",
+    "category": "storage",
+    "location": "office, cable organizer bin",
+    "purchase_date": "2021-06-15",
+    "purchase_price": 10,
+    "serial_number": "",
+    "last_used_date": "2021-07-15",
+    "warranty": {
+      "expires_on": "",
+      "coverage": "none",
+      "registered": false
+    }
+  },
+  {
+    "name": "Snowblower - Toro Power Max",
+    "category": "outdoor",
+    "location": "garage, rear corner on pallet",
+    "purchase_date": "2019-06-15",
+    "purchase_price": 1100,
+    "serial_number": "TORO-PM-1120-0615",
+    "last_used_date": "2024-01-20",
+    "warranty": {
+      "expires_on": "2021-06-15",
+      "coverage": "2-year limited warranty",
+      "registered": true
+    },
+    "receipts": {
+      "vendor": "Ace Hardware",
+      "number": "ACE-SNB-2019-0615"
+    }
+  },
+  {
+    "name": "Acoustic Guitar - Taylor 214ce",
+    "category": "valuables",
+    "location": "bedroom, closet (hard case)",
+    "purchase_date": "2017-06-15",
+    "purchase_price": 1200,
+    "serial_number": "TAY-214CE-170615",
+    "last_used_date": "2026-03-01",
+    "warranty": {
+      "expires_on": "2018-06-15",
+      "coverage": "Limited 1-year warranty",
+      "registered": true
+    },
+    "receipts": {
+      "vendor": "Guitar Center",
+      "number": "GC-T214-2017-0615"
+    }
+  }
+]

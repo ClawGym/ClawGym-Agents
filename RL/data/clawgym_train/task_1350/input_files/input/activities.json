@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Solution Scoping & Requirements Gathering",
+    "description": "Elicit business objectives, success metrics, data sources, and constraints to shape onboarding scope and plan.",
+    "current": 4
+  },
+  {
+    "name": "Solution Architecture & Design",
+    "description": "Design target solution architecture across data flows, security, environments, and analytics components.",
+    "current": 4
+  },
+  {
+    "name": "Environment Provisioning",
+    "description": "Provision cloud environments, networking, and access for dev, test, and prod tenants.",
+    "current": 3
+  },
+  {
+    "name": "Security & Compliance Review",
+    "description": "Assess data protection, access controls, and compliance requirements prior to implementation.",
+    "current": 3
+  },
+  {
+    "name": "Data Integration Setup",
+    "description": "Connect source systems, configure connectors, and establish data ingestion patterns.",
+    "current": 2
+  },
+  {
+    "name": "ETL/ELT Pipeline Configuration",
+    "description": "Configure and orchestrate transformations, data quality checks, and scheduling.",
+    "current": 2
+  },
+  {
+    "name": "Analytics Model Configuration",
+    "description": "Parameterize analytics models, metrics, and dashboards for client-specific use cases.",
+    "current": 3
+  },
+  {
+    "name": "Implementation Project Management",
+    "description": "Plan, track, and coordinate tasks, dependencies, risks, and stakeholders across the rollout.",
+    "current": 4
+  },
+  {
+    "name": "QA & UAT Coordination",
+    "description": "Plan, execute, and coordinate system/functional tests and user acceptance activities.",
+    "current": 2
+  },
+  {
+    "name": "Runbook & Documentation",
+    "description": "Create deployment guides, operating procedures, and data lineage documentation.",
+    "current": 3
+  },
+  {
+    "name": "Customer Training & Enablement",
+    "description": "Train admins and end users, develop learning materials, and measure adoption.",
+    "current": 2
+  },
+  {
+    "name": "Hypercare & Post-Go-Live Support",
+    "description": "Provide intensive support, monitoring, and issue triage immediately after go-live.",
+    "current": 2
+  }
+]

@@ -1,0 +1,4 @@
+horse_id,name,breed,birth_year,active_from,active_to
+H001,Duman,Anadolu Pony,2012,2020-01-01,
+H002,Yildiz,Arabian,2015,2021-06-01,
+H003,Kartal,Thoroughbred,2010,2019-03-01,2023-12-31

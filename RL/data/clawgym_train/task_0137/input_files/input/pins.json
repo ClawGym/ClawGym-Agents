@@ -1,0 +1,7 @@
+{
+  "devices": [
+    {"device": "DoorPanel-A", "length": 6},
+    {"device": "Locker-12", "length": 4},
+    {"device": "Tablet-X5", "length": 8}
+  ]
+}

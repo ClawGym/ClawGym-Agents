@@ -1,0 +1,9 @@
+{
+  "service": "checkout",
+  "version": "1.9.0",
+  "status": "ok",
+  "updated_at": "2026-04-17T08:30:00Z",
+  "uptime_seconds": 423689,
+  "region": "eu-central-1",
+  "build": "2026.04.16-rc1"
+}

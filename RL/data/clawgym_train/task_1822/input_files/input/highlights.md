@@ -1,0 +1,3 @@
+- Eastwood pop-up distributed 120 grocery kits with zero waste.
+- New partnership with Southside Library confirmed space for workshops.
+- Canvass reached 85 households; 22 opted into SMS updates.

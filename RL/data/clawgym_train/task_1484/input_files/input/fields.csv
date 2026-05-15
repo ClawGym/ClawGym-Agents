@@ -1,0 +1,7 @@
+FieldID,SoilTestMethod,SoilTestP_ppm,pH,Tillage,Texture,PlannedCrop,ExpectedYield
+F1,Bray,4,6.2,Conventional,Silt loam,Corn (grain),200
+F2,Olsen,6,7.8,No-till,Loam,Soybean,60
+F3,Mehlich 3,22,6.5,Strip-till,Clay loam,Wheat,80
+F4,Bray,35,6.8,No-till,Sandy loam,Alfalfa hay,5
+F5,Olsen,30,7.4,No-till,Silt loam,Corn silage,25
+F6,Mehlich 3,10,5.4,Conventional,Sandy loam,Potato,450

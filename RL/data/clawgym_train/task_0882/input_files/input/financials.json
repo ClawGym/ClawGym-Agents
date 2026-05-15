@@ -1,0 +1,20 @@
+{
+  "mrr": 145000,
+  "last_month_mrr": 130000,
+  "starting_mrr": 140000,
+  "expansion_mrr": 8000,
+  "contraction_mrr": 4000,
+  "churned_mrr": 6000,
+  "new_mrr": 15000,
+  "new_customers": 20,
+  "sales_marketing_spend": 60000,
+  "arpu": 500,
+  "gross_margin_pct": 75,
+  "headcount": 9,
+  "monthly_burn": 120000,
+  "prior_quarter_sm_spend": 400000,
+  "net_new_arr_qoq": 360000,
+  "monthly_churn_pct": 2.5,
+  "revenue_growth_pct": 40,
+  "ebitda_margin_pct": -10
+}

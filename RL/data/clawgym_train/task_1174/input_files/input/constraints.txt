@@ -1,0 +1,68 @@
+Implementation Constraints and Best Practices
+
+Required patterns
+- Lifespan:
+  - Use an async context manager for app lifespan; do not use @app.on_event("startup") or "shutdown".
+  - Initialize shared resources on app.state (e.g., widgets store, name index, logs, counters).
+  - Ensure cleanup occurs on shutdown.
+
+- Dependencies:
+  - Implement at least one yield-based dependency (e.g., get_request_context) with cleanup code that runs even if the request handling raises an error.
+  - Demonstrate dependency usage in at least one endpoint.
+  - Show per-request caching behavior via Depends or note it in comments.
+
+- Pydantic v2:
+  - Use Field(default_factory=list) and/or Field(default_factory=dict) for mutable defaults.
+  - Use Annotated[...] with Field constraints (e.g., min_length, ge, le) for at least one path or query parameter and one request model field.
+  - Use model_dump for any internal serialization you perform (avoid .dict which is deprecated in v2).
+  - Return plain dicts from endpoints; do not return Pydantic model instances directly.
+
+- Endpoints:
+  - Implement the endpoints as defined in spec.md:
+    - POST /widgets: returns 201 Created and triggers a BackgroundTasks action; enforces unique name (409).
+    - GET /widgets/{widget_id}: fetch by UUID; 404 if not found.
+    - GET /widgets: list with optional tag filter and limit (1..50).
+    - POST /widgets/{widget_id}/actions/rename: requires token security; 401 on invalid token; 404 if not found; 409 on name conflict.
+    - GET /healthz: returns plain text "ok" with Response(media_type="text/plain").
+  - Simulate any latency with await asyncio.sleep(); never use time.sleep().
+
+- Security:
+  - Include OAuth2PasswordBearer for documentation purposes only and implement explicit validation logic:
+    - "secrettoken" => user with role "admin"
+    - tokens starting with "user:" => user with role "user"
+    - otherwise raise HTTPException(401)
+  - Use Depends(get_current_user) only on the endpoints that require auth (e.g., rename).
+
+- Background tasks:
+  - Use BackgroundTasks in POST /widgets to append a message to app.state.logs (e.g., "indexed widget {id}").
+  - Note the limitation that BackgroundTasks run in the same process, sequentially, after response is sent.
+
+- Error handling:
+  - Use raise HTTPException for error responses (401, 404, 409).
+  - Do not return Response for errors to avoid bypassing middleware.
+  - Include informative, user-safe detail messages; do not leak stack traces.
+
+- Testing:
+  - Write async tests in output/tests/test_app.py using httpx.AsyncClient with ASGITransport to call the in-process app.
+  - Cover:
+    - Successful POST /widgets creation (assert 201 and response payload shape).
+    - An error path: either duplicate name (409) or rename with invalid token (401).
+    - Optionally verify GET /healthz returns text/plain and "ok".
+  - Import the app from output/main.py and avoid spinning up a server process.
+  - Avoid TestClient for async endpoints; use AsyncClient with ASGITransport.
+
+Edge cases to handle
+- name: empty string or whitespace-only should fail validation (min_length=1).
+- quantity: negative values should fail validation (ge=0).
+- limit: values > 50 or < 1 should fail validation (422).
+- tag filter: if provided but not present on any widget, return empty items list and count 0.
+- Duplicate name on creation or rename should return 409 Conflict.
+- Invalid or missing Authorization header on protected endpoint should return 401.
+- Invalid UUID format in path should produce a 422 validation error (FastAPI default behavior).
+
+Project structure (to be produced by the solution)
+- output/main.py — FastAPI app with routers, lifespan, endpoints as above, using BackgroundTasks and plain-text health.
+- output/models.py — Pydantic v2 models and validated types; must show Field(default_factory=...) and Annotated with Field constraints.
+- output/deps.py — Dependencies including yield-based cleanup dependency and token-based security using OAuth2PasswordBearer with custom validation.
+- output/tests/test_app.py — Async tests with httpx.AsyncClient + ASGITransport covering creation and at least one error path.
+- output/ARCHITECTURE.md — Concise explanation of lifespan usage, dependency graph and cleanup, validation approach, background tasks limitations, security caveats, and error handling rationale.

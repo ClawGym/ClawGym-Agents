@@ -1,0 +1,29 @@
+Ops & Sales sync — “Northstar”
+Thu 6/12, 2–2:45pm (Zoom) — Recording auto-generated transcript had gaps
+Attendees: Janelle (Ops), Victor (Sales), Dan (Support), Rosa (CS), Malik (RevOps), Chen (Eng liaison)
+
+Agenda:
+- CRM integration status (Northstar pilot)
+- Support queue spikes from vendor outage
+- Q3 pipeline hygiene
+
+Notes (rough):
+- Decision: proceed with limited pilot of new CRM webhook integration for 3 enterprise accounts (Apex, Lumen, Torus). Chen okayed the sandbox keys.
+- Blocking issue: Vendor outage on Mon caused API retries to pile up; support queue spiked. Dan says backlog should clear by “tomorrow EOD”.
+- Action: Janelle to draft customer comms (outage + pilot notice). She said “I’ll send draft by tomorrow morning” → which is Fri 6/13.
+- Action: Victor to secure account owner approvals (Apex, Lumen, Torus) by “early next week”.
+- Rosa: propose proactive check-ins with top 10 accounts impacted; needs list from RevOps (Malik).
+- Malik: will export the impacted accounts list by end of day today (Thu 6/12).
+- Chen: create a runbook for webhook failure modes (time out, 5xx, retries) → “next Wed?”
+- Decision: no changes to SLAs; keep comms transparent while we stabilize.
+
+More:
+- Risk: If vendor SLA breach continues into next week, pilot might slip. Contingency: manual sync via CSV (short-term only).
+- Parking lot: Evaluate if Gainsight plays can help with proactive outreach; Consider rate-limit thresholds for webhooks.
+- Next meeting: same slot next Thu 6/19 (tentative).
+- Random: someone asked about swag for Torus—ignore for now.
+
+Clarifications/ambiguities:
+- “Early next week” unclear → Mon 6/16 or Tue 6/17?
+- “Next Wed?” for the runbook likely Wed 6/18 given meeting date 6/12.
+- Transcript had missing words; use best judgment, don’t invent.

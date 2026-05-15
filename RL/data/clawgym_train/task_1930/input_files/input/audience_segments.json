@@ -1,0 +1,25 @@
+{
+  "segments": [
+    {
+      "name": "Busy Professionals",
+      "pain_points": [
+        "Limited time for research or shopping",
+        "Need convenient, reliable choices"
+      ]
+    },
+    {
+      "name": "Budget-Conscious Families",
+      "pain_points": [
+        "Need clear value for money",
+        "Prefer flexible options and savings"
+      ]
+    },
+    {
+      "name": "Early Adopters",
+      "pain_points": [
+        "Want the newest tech/features",
+        "Seek performance and thoughtful design"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "code": "0000",
+  "message": "OK",
+  "data": {
+    "list": [
+      {
+        "tokenId": "224987722",
+        "chainId": 2001,
+        "contract": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+        "symbol": "USDT",
+        "name": "Tether USD",
+        "tokenDecimal": 6,
+        "isDeposit": 1,
+        "isWithdraw": 1
+      }
+    ]
+  }
+}

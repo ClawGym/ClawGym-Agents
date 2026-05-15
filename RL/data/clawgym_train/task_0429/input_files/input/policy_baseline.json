@@ -1,0 +1,8 @@
+{
+  "version": "1.0",
+  "requirements": {
+    "screen_lock_minutes_max": 10,
+    "require_full_disk_encryption": true,
+    "guest_account_disabled": true
+  }
+}

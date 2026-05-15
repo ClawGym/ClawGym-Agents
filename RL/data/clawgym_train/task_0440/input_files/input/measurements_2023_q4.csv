@@ -1,0 +1,14 @@
+sensor_id,timestamp_iso,metric,value_dba,zone,timeslot
+S01,2023-11-05T22:15:00Z,Leq,57.2,Residential,Night
+S01,2023-11-05T22:15:00Z,Lmax,68.4,Residential,Night
+S02,2023-11-06T13:00:00Z,LAeq,63.1,Commercial,Day
+S02,2023-11-06T13:00:00Z,L10,67.0,Commercial,Day
+S03,2023-12-01T01:30:00Z,LAmax,72.3,Residential,Night
+S03,2023-12-01T01:30:00Z,SEL,79.0,Residential,Night
+S04,2023-12-12T18:45:00Z,Leq,58.9,Residential,Day
+S04,2023-12-12T18:45:00Z,L90,48.2,Residential,Day
+S05,2023-10-23T10:15:00Z,Lmax,76.5,Industrial,Day
+S05,2023-10-23T10:15:00Z,Leq,69.2,Industrial,Day
+S02,2023-11-15T23:50:00Z,LAeq,59.0,Commercial,Night
+S02,2023-11-15T23:50:00Z,SEL,85.5,Commercial,Night
+S05,2023-10-24T00:05:00Z,LAmax,81.0,Industrial,Night

@@ -1,0 +1,30 @@
+Senior Data Analyst — Product Analytics (Consumer App)
+
+About the Role:
+We are seeking a Senior Data Analyst to partner with Product, Design, and Engineering to drive user activation, retention, and engagement. You will own the product metrics framework, design and evaluate A/B tests, and translate insights into decisions that move the needle on growth.
+
+Responsibilities:
+- Define and maintain North Star and guardrail metrics for activation and retention
+- Build dashboards and self-serve tools for PMs and designers
+- Collaborate with experimentation leads to design, launch, and analyze A/B tests
+- Investigate funnel drop-offs and propose actionable improvements
+- Lead deep dives on feature adoption and cohort retention
+- Communicate insights clearly to stakeholders and influence roadmaps
+
+Qualifications:
+- 5+ years in product analytics or growth analytics
+- Advanced SQL; proficiency with Python or R preferred
+- Experimentation design and causal inference basics
+- Experience with event instrumentation and product telemetry
+- Ability to frame ambiguous problems and deliver clear recommendations
+- Strong communication with non-technical stakeholders
+
+Nice to Have:
+- Experience with Amplitude, Looker, or Mode
+- Mobile analytics background
+- Prior work at a consumer subscription company
+
+Success in 90 Days:
+- Establish a product metrics hierarchy for activation/retention
+- Ship at least one impactful A/B test improving a key metric
+- Build trust with PMs through clear, concise storytelling

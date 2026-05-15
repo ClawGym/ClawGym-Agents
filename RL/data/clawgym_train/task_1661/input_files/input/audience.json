@@ -1,0 +1,88 @@
+{
+  "segments": [
+    {
+      "name": "Freelance Creators",
+      "roles": ["designer", "copywriter", "videographer", "illustrator", "content strategist"],
+      "age_range": "22-38",
+      "locations": ["Serbia", "Bosnia and Herzegovina", "Croatia", "Montenegro", "North Macedonia", "Slovenia"]
+    },
+    {
+      "name": "Indie Developers",
+      "roles": ["full‑stack dev", "web developer", "mobile dev"],
+      "age_range": "23-35",
+      "locations": ["Serbia", "Croatia", "Bosnia and Herzegovina", "Slovenia"]
+    },
+    {
+      "name": "Micro Agencies",
+      "roles": ["agency owner", "project lead"],
+      "age_range": "25-40",
+      "locations": ["Balkans / CEE"]
+    }
+  ],
+  "pain_points": [
+    "Chasing late invoices burns time and hurts client relationships",
+    "Manual admin breaks creative flow",
+    "Complex tools with enterprise jargon and long setup",
+    "Anxiety about data security and compliance"
+  ],
+  "goals": [
+    "Spend more time on billable work",
+    "Get paid on time without awkward messages",
+    "Keep tools simple and fast",
+    "Stay compliant and in control of data"
+  ],
+  "tone_preferences": {
+    "register": "ti (informal second person)",
+    "script": "latin",
+    "style": "warm, direct, lightly playful, practical",
+    "avoid": ["corporate tone", "buzzwords", "emojis", "hashtags", "Cyrillic", "formal address (Vi)"]
+  },
+  "triggers": {
+    "trial_days": 14,
+    "no_credit_card": true,
+    "cancel_anytime": true,
+    "pricing_from_eur": 9
+  },
+  "platform_nuances": {
+    "LinkedIn": "Still casual and warm; slightly tighter structure; avoid heavy slang.",
+    "X": "Short, punchy, playful; lead with a hook and a clear benefit.",
+    "Instagram": "Conversational and relatable; friendly call to try the free trial."
+  },
+  "words_like": [
+    "lightweight",
+    "no-nonsense",
+    "easy",
+    "friendly",
+    "fast",
+    "clear"
+  ],
+  "words_avoid": [
+    "end-to-end",
+    "synergy",
+    "digital transformation",
+    "regional leader",
+    "enterprise-grade"
+  ],
+  "facts": {
+    "eu_servers": "Frankfurt, DE",
+    "gdpr": true,
+    "integrations": ["Stripe", "PayPal"],
+    "onboarding_minutes": 2,
+    "auto_reminders": true,
+    "pdf_export": true
+  },
+  "proof_points": [
+    "Early users report 20–35% improvement in on-time payments with reminders enabled",
+    "Setup to first invoice commonly under 2 minutes"
+  ],
+  "objections": [
+    "I don’t want to nag clients",
+    "Switching tools will slow me down",
+    "I’m worried about data privacy"
+  ],
+  "objection_responses": [
+    "Reminders are friendly and customizable; they stop automatically when paid",
+    "Import clients quickly; first invoice is minutes away",
+    "EU servers and GDPR compliance; easy export anytime"
+  ]
+}

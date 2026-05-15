@@ -1,0 +1,49 @@
+version: 1
+risk_factors:
+  hr_tachy:
+    threshold: 120
+    weight: 2
+    fields: ["heart_rate"]
+    rule: "heart_rate >= threshold"
+  sbp_hypo:
+    threshold: 100
+    weight: 2
+    fields: ["systolic_bp"]
+    rule: "systolic_bp < threshold"
+  gcs_low:
+    threshold: 15
+    weight: 2
+    fields: ["gcs"]
+    rule: "gcs < threshold"
+  high_risk_mechanism:
+    keywords: ["motorcycle", "rollover", "fall>20ft", "high-speed"]
+    weight: 2
+    fields: ["mechanism"]
+    rule: "any keyword in mechanism (case-insensitive)"
+  spinal_tenderness:
+    keywords: ["spinal tenderness", "midline spinal tenderness"]
+    weight: 1
+    fields: ["notes"]
+    rule: "any keyword in notes (case-insensitive)"
+  active_bleeding:
+    keywords: ["active bleeding", "bleeding"]
+    weight: 2
+    fields: ["notes"]
+    rule: "any keyword in notes (case-insensitive)"
+  chest_pain:
+    keywords: ["chest pain"]
+    weight: 1
+    fields: ["notes", "mechanism"]
+    rule: "any keyword in notes or mechanism (case-insensitive)"
+  anticoagulant_use:
+    keywords: ["warfarin", "anticoagulant"]
+    weight: 2
+    fields: ["notes"]
+    rule: "any keyword in notes (case-insensitive)"
+risk_levels:
+  high_min_score: 6
+  moderate_min_score: 3
+ tie_breakers:
+  - "lower systolic_bp first"
+  - "higher heart_rate next"
+  - "then lexicographic patient_id last"

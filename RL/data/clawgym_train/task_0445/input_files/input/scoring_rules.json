@@ -1,0 +1,48 @@
+{
+  "weights": {
+    "legibility_small_text": 0.35,
+    "personality_alignment": 0.30,
+    "versatility": 0.20,
+    "licensing_value": 0.15
+  },
+  "rules": {
+    "legibility_small_text": {
+      "description": "Map rating 1–5 to 0–100 via ((rating - 1) / 4) * 100.",
+      "min": 1,
+      "max": 5
+    },
+    "personality_alignment": {
+      "classification_points": {"sans-serif": 30, "serif": 10, "mono": 0},
+      "contrast_points": {"low": 20, "medium": 10, "high": 0},
+      "aperture_points": {"open": 20, "narrow": 5},
+      "terminals_points": {"rounded": 10, "straight": 5},
+      "max_points": 100
+    },
+    "versatility": {
+      "weight_range_points": [
+        {"min": 6, "max": 100, "points": 50},
+        {"min": 4, "max": 5, "points": 35},
+        {"min": 2, "max": 3, "points": 20},
+        {"min": 1, "max": 1, "points": 10}
+      ],
+      "italic_support_points": {"true": 20, "false": 0},
+      "recommended_sizes_points": {
+        "UI_and_Print": 15,
+        "UI_only": 10,
+        "Print_only": 10,
+        "Other": 0
+      },
+      "max_points": 100
+    },
+    "licensing_value": {
+      "license_type_points": {"OFL": 100, "commercial": "by_cost"},
+      "commercial_cost_bands": [
+        {"max": 100, "points": 80},
+        {"max": 300, "points": 60},
+        {"max": 600, "points": 40},
+        {"max": 1000000, "points": 20}
+      ]
+    }
+  },
+  "notes": "Total score is the weighted sum of criterion scores (each 0–100) using the weights above. For recommended_sizes_points, treat [\"UI\", \"Print\"] as UI_and_Print; a single [\"UI\"] as UI_only; a single [\"Print\"] as Print_only; any other combination as Other."
+}

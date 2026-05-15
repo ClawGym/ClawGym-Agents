@@ -1,0 +1,40 @@
+Editorial Style Requirements — HelioStack Inc.
+
+Audience:
+- Internal professional audience (engineering, product, design, operations).
+- Target readability: Grade 9–12.
+- US English only.
+
+Tone and Voice:
+- Concise, authoritative, and practical.
+- Prefer active voice (≥70%).
+- Avoid hype and vague claims; no buzzwords without clear meaning.
+
+Structure:
+- Use H2 subheadings (##) for major sections in articles.
+- Keep paragraphs to 2–3 sentences on average.
+- Include at least one attributed quote in articles using: "Text," said Name, Title.
+
+Terminology and Jargon:
+- Limit jargon to ≤15% of content; define terms on first use if non-obvious.
+- Use consistent domain terms: CSS, memory alignment, sequence alignment, typographic alignment, columns.
+
+SEO (for article.md only):
+- SEO Title length: 50–60 characters (not including the label).
+- Meta Description length: 150–160 characters (not including the label).
+- Provide 5–8 comma-separated keywords relevant to alignment.
+
+Formatting Rules:
+- Dates in metadata use YYYY-MM-DD.
+- Warning callouts: include a clear warning symbol (⚠️) before the warning text in runbooks.
+- Tables: For CLI examples, use monospaced, pipe-delimited, fixed-width columns; align numbers right.
+
+Assumptions:
+- Briefly state reasonable assumptions if inputs are ambiguous (one sentence near the top of each document).
+- Do not include external links unless necessary; if used, provide descriptive text.
+
+Quality Checklist (apply before finalizing):
+- Clear: Would a new team member understand it?
+- Correct: Verified by trying the steps or cross-checking references.
+- Current: Reflects how we work today.
+- Concise: Remove needless words.

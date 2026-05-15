@@ -1,0 +1,5 @@
+python_version: "3.9+"
+execution_mode: "local-only"
+budget: "0 for first 3 months"
+license_preference: "open-source"
+data_privacy: "no hosted services for pipeline runs"

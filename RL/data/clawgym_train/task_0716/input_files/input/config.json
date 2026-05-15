@@ -1,0 +1,40 @@
+{
+  "tickers": ["XLK", "XLF", "XLE", "XLV", "XLI", "XLC", "XLY", "XLP", "XLB", "XLRE", "XLU"],
+  "sector_map": {
+    "XLK": "Technology",
+    "XLF": "Financials",
+    "XLE": "Energy",
+    "XLV": "Healthcare",
+    "XLI": "Industrials",
+    "XLC": "Communication Services",
+    "XLY": "Consumer Discretionary",
+    "XLP": "Consumer Staples",
+    "XLB": "Materials",
+    "XLRE": "Real Estate",
+    "XLU": "Utilities"
+  },
+  "preferences": {
+    "top_n": 3,
+    "bottom_n": 3,
+    "min_perspectives_per_sector": 1,
+    "include_active_predictions": true,
+    "confidence_decimal_places": 4,
+    "csv_header": [
+      "ticker",
+      "sector",
+      "bullish",
+      "bearish",
+      "neutral",
+      "total_analysts",
+      "avg_confidence",
+      "prediction_accuracy",
+      "cw_bullish_score"
+    ],
+    "narrative_tone": "concise, neutral, risk-aware",
+    "update_cadence_hint": "Signals update multiple times daily; treat as intraday analysis, not real-time quotes.",
+    "missing_data_policy": "Do not fabricate numbers. If a field (e.g., prediction_accuracy or active_predictions) is missing for a sector, explicitly call it out and proceed with qualitative synthesis based on available fields.",
+    "report_title": "Sector Rotation Briefing",
+    "overview_note": "Rank sectors by cw_bullish_score = (bullish/total_analysts) * avg_confidence (0.0–1.0), rounded to 4 decimals.",
+    "curl_hint": "Fetch raw JSON for each ticker via: curl -s https://moltstreet.com/api/v1/ticker-summary/<TICKER>"
+  }
+}

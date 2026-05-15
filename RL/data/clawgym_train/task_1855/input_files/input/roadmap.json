@@ -1,0 +1,86 @@
+{
+  "quarters": [
+    {
+      "id": "2026-Q2",
+      "initiatives": [
+        {
+          "id": "CM-001",
+          "title": "Standardize Change Templates and SoD",
+          "description": "Jira templates with required fields (risk, test evidence, backout steps). Enforce separation of duties via workflow gates.",
+          "owners": ["ChangeOps", "SRE"],
+          "dependencies": [],
+          "target": "2026-06-15",
+          "priority": "P0"
+        },
+        {
+          "id": "IR-002",
+          "title": "Golden Hour IR Playbook + Roles",
+          "description": "Define Incident Manager and Comms Lead roles; create 30-minute status cadence and customer message templates.",
+          "owners": ["SRE", "Comms"],
+          "dependencies": [],
+          "target": "2026-05-30",
+          "priority": "P0"
+        },
+        {
+          "id": "SEC-003",
+          "title": "Certificate Monitoring and Auto-Renew",
+          "description": "Add expiry alerts at 30/15/7 days and automate renewals where supported.",
+          "owners": ["Security", "Platform"],
+          "dependencies": [],
+          "target": "2026-06-01",
+          "priority": "P1"
+        },
+        {
+          "id": "DEP-004",
+          "title": "Tier 0 Canary + Auto-Rollback",
+          "description": "Implement canary deploys with automated rollback on SLO breaches for Tier 0 services.",
+          "owners": ["Platform"],
+          "dependencies": ["CM-001"],
+          "target": "2026-06-30",
+          "priority": "P0"
+        }
+      ]
+    },
+    {
+      "id": "2026-Q3",
+      "initiatives": [
+        {
+          "id": "KB-005",
+          "title": "Runbook Refresh and Service Ownership Map",
+          "description": "Update runbooks quarterly; complete service ownership catalog; link to on-call rotations.",
+          "owners": ["SRE", "Service Leads"],
+          "dependencies": ["IR-002"],
+          "target": "2026-08-15",
+          "priority": "P1"
+        },
+        {
+          "id": "CM-006",
+          "title": "Change Risk Scoring",
+          "description": "Risk score based on tier, blast radius, and rollback readiness; gate high-risk changes for Security review.",
+          "owners": ["ChangeOps", "Security"],
+          "dependencies": ["CM-001"],
+          "target": "2026-08-31",
+          "priority": "P1"
+        },
+        {
+          "id": "IR-007",
+          "title": "Monthly Live-Fire Drills",
+          "description": "Drills for Tier 0/1 services with documented outcomes and action items.",
+          "owners": ["SRE"],
+          "dependencies": ["IR-002"],
+          "target": "2026-09-30",
+          "priority": "P1"
+        },
+        {
+          "id": "GOV-008",
+          "title": "Immutable Approval Ledger",
+          "description": "Append-only audit log for change approvals and deploys; integrates with Jira and CI/CD.",
+          "owners": ["Security", "Platform"],
+          "dependencies": ["CM-001"],
+          "target": "2026-09-15",
+          "priority": "P1"
+        }
+      ]
+    }
+  ]
+}

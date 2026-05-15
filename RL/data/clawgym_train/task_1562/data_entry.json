@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1562",
+  "user_query": "I helped our school's makers club test whether cleaning a small solar panel improved performance. Can you analyze the attached data and prepare both a summary and an email to our club advisor? Read input/metadata.md to get the comparison irradiance range and the panel area—do not hardcode those values. Use input/before_cleaning.csv and input/after_cleaning.csv, and filter both datasets to only rows where irradiance_Wm2 is within the range specified in metadata.md. For each dataset, compute: rows_used, mean_power_W (average of voltage_V * current_A per row), mean_panel_temp_C, and mean_efficiency (average of power/(irradiance_Wm2 * panel_area_m2) per row). Then compute improvement_percent_power as ((after_mean_power_W - before_mean_power_W) / before_mean_power_W) * 100. Produce three outputs: 1) outputs/status_summary.json with fields: range_used (as [min,max]), panel_area_m2, before {rows, mean_power_W, mean_efficiency, mean_panel_temp_C}, after {rows, mean_power_W, mean_efficiency, mean_panel_temp_C}, improvement_percent_power; 2) outputs/report.md summarizing the method, data sources, calculations, and key results, and include one sentence from metadata.md describing the setup; 3) outputs/email_to_advisor.txt, a short email addressed to the club advisor using contact details from input/club_contact.json (use advisor_name, email, and club_name) that includes a subject line and a 2–3 sentence summary highlighting the improvement percent and pointing to outputs/report.md. Keep everything reproducible from the inputs and do not use the Internet. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

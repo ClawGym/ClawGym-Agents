@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0759",
+  "user_query": "Please read my February 2026 finance commands from input/commands.csv (columns: date,time,command). Parse each line as if I typed it live, apply smart categorization, budgets, split-logic, payment methods, and income vs expenses, and round all amounts to 2 decimals in USD. Then write the following files:\n\n1) output/expenses.json — an array of all parsed expenses (not including income or budget commands). Each object should have: id, amount, currency, category, description, payment_method (or null), date (YYYY-MM-DD), time (HH:MM), tags (array, can be empty).\n2) output/income.json — an array of income entries with: id, amount, source, date, notes (or null).\n3) output/budgets.json — budgets set by the commands with: id, category, amount, period (\"monthly\"), created (YYYY-MM-DD).\n4) output/summary_feb_2026.json — computed summary for February 2026 with fields: month (\"2026-02\"), total_expenses, total_income, net_savings, by_category (object of category totals).\n5) output/insights.md — at least 3 specific spending insights and 2 concrete action suggestions based on the parsed data.\n\nImportant parsing details to follow:\n- \"gas\" alone is Transport; \"gas bill\" is a utility Bill.\n- \"split 120 dinner with 3 friends\" should log only my share (total/4) under Food.\n- \"groceries 95 via card\" should set payment_method to \"card\".\n- Use the exact dates and times from the CSV for each entry.\n\nPlease make sure the JSON files are valid and consistent across all outputs.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

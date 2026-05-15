@@ -1,0 +1,7 @@
+email,first_name,last_name,company,segment
+alice@example.com,Alice,Nguyen,Acme Corp,Enterprise
+bob.smith@example.com,Bob,Smith,Smith LLC,SMB
+carol.jones@example.org,Carol,Jones,Future Tech,Mid-Market
+daniel@another.co,Daniel,Ruiz,Another Co,SMB
+erin@startup.io,Erin,Lee,Startup.io,Startup
+frank@example.net,Frank,Hall,Green Foods,Enterprise

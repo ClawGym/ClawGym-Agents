@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0774",
+  "user_query": "I’m setting up a small, local developer cheatsheet repository for my team. Please do the following end-to-end using a local cheatsheet manager CLI that supports init/add/search/export and a configurable data directory:\n\n1) Read input/cheatsheets.json for the entries and search queries.\n2) Set the CLI’s data directory to output/data_store (via its environment variable or equivalent) so everything is self-contained under output/.\n3) Initialize the data store, then add each entry from the JSON using this exact entry string format when adding:\n   \"[category] - [title]: [content]\"\n4) After adding all entries, export the full data store to a raw text dump at output/exports/cli_export.txt (capture the CLI’s export/list output verbatim).\n5) Build a cleaned JSON array of all added entries (without any timestamps) at output/exports/entries.json — this should contain exactly the three entry strings in any order.\n6) For each query in the JSON, run a case-insensitive search and write a combined, cleaned JSON mapping at output/search/search_results.json where each key is the query and the value is an array of matching entry strings (no timestamps). Only include matched entries for each query.\n7) Also write output/meta/status.txt that includes version, data path, and readiness (e.g., capture lines from the CLI’s info, status, and config outputs so the file clearly mentions the version, that the data directory is output/data_store, and that status is ready).\n\nAll paths must be relative and within output/. Do not write anywhere outside output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

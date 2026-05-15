@@ -1,0 +1,22 @@
+include_keywords:
+  - "kväll"
+  - "helg"
+  - "deltid"
+  - "lager"
+  - "städ"
+  - "kök"
+  - "restaurang"
+  - "butik"
+  - "bud"
+  - "truck"
+  - "köksbiträde"
+exclude_keywords:
+  - "heltid"
+location_keywords:
+  - "Stockholm"
+allowed_domains:
+  - "arbetsformedlingen.se"
+  - "regionstockholm.se"
+  - "stockholm.se"
+top_n_letters: 3
+daily_run_time_local: "19:00"

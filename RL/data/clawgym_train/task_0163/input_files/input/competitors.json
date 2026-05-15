@@ -1,0 +1,179 @@
+{
+  "updated_at": "2026-04-10",
+  "currency": "USD",
+  "competitors": [
+    {
+      "name": "RoadKeep",
+      "pricing_model": "per vehicle per month",
+      "price_usd": 6.0,
+      "target_segment": "Mid-market fleets (200–1,000 vehicles)",
+      "market_position": "Leader",
+      "key_features": [
+        "Predictive maintenance scoring",
+        "Parts inventory with reorder points",
+        "Multi-location dashboards",
+        "Mobile technician app (offline capable)",
+        "Role-based permissions",
+        "SOC2 Type II"
+      ],
+      "integrations": [
+        "Samsara",
+        "Geotab",
+        "Verizon Connect",
+        "QuickBooks",
+        "NetSuite (limited)"
+      ],
+      "strengths": [
+        "Strong compliance posture (SOC2 Type II)",
+        "Robust integrations and data migration tooling",
+        "Solid offline mobile performance"
+      ],
+      "weaknesses": [
+        "Opaque pricing tiers and overage fees",
+        "Limited customization of approval workflows"
+      ],
+      "gaps": [
+        "No public webhooks",
+        "Limited template logic (no conditional steps)"
+      ],
+      "notes": "Frequently shortlisted by municipal buyers due to security posture."
+    },
+    {
+      "name": "AxleTrack",
+      "pricing_model": "tiered subscription + per vehicle add-on",
+      "price_usd": 4.5,
+      "target_segment": "SMB fleets (30–250 vehicles)",
+      "market_position": "Value",
+      "key_features": [
+        "Basic PM scheduling",
+        "Work order management",
+        "Simple parts lists",
+        "Mobile app (online-only)"
+      ],
+      "integrations": [
+        "Samsara",
+        "Geotab"
+      ],
+      "strengths": [
+        "Lower price point",
+        "Easy-to-use interface"
+      ],
+      "weaknesses": [
+        "No offline mode",
+        "Weak inventory controls",
+        "No SSO"
+      ],
+      "gaps": [
+        "No audit-ready export",
+        "No predictive analytics"
+      ],
+      "notes": "Popular with small fleets; churn increases as fleets scale."
+    },
+    {
+      "name": "WrenchOps",
+      "pricing_model": "per user per month",
+      "price_usd": 29.0,
+      "target_segment": "Specialty fleets (buses, aviation ground support)",
+      "market_position": "Niche",
+      "key_features": [
+        "Inspection checklists",
+        "Photo and signature capture",
+        "DOT audit packet generation",
+        "Template marketplace"
+      ],
+      "integrations": [
+        "Samsara",
+        " email export"
+      ],
+      "strengths": [
+        "Best-in-class inspection reports",
+        "Strong checklist templating"
+      ],
+      "weaknesses": [
+        "No parts forecasting",
+        "Limited analytics and APIs",
+        "Mixed mobile reliability"
+      ],
+      "gaps": [
+        "No multi-location permissions",
+        "No public API"
+      ],
+      "notes": "Often used alongside spreadsheets for inventory."
+    },
+    {
+      "name": "ShopPilot",
+      "pricing_model": "per vehicle per month",
+      "price_usd": 7.5,
+      "target_segment": "Enterprise fleets (800+ vehicles)",
+      "market_position": "Enterprise",
+      "key_features": [
+        "Advanced workflow engine",
+        "SAML/SCIM",
+        "Custom reporting layer",
+        "Procurement integrations"
+      ],
+      "integrations": [
+        "Okta",
+        "Azure AD",
+        "NetSuite",
+        "SAP"
+      ],
+      "strengths": [
+        "Enterprise-grade security and SSO",
+        "Highly customizable workflows"
+      ],
+      "weaknesses": [
+        "Complex implementation (120+ days)",
+        "High services cost",
+        "Overkill for SMB/mid-market"
+      ],
+      "gaps": [
+        "No telematics-native features",
+        "Limited offline support"
+      ],
+      "notes": "Strong where IT/security drives the deal; long time-to-value."
+    },
+    {
+      "name": "FleetForge",
+      "pricing_model": "per vehicle per month + analytics add-on",
+      "price_usd": 5.5,
+      "target_segment": "Mid-market growth fleets (100–600 vehicles)",
+      "market_position": "Challenger",
+      "key_features": [
+        "Parts forecasting (basic)",
+        "Route-level cost analytics",
+        "Public API (rate-limited)",
+        "Webhook events (beta)"
+      ],
+      "integrations": [
+        "Samsara",
+        "Geotab",
+        "QuickBooks"
+      ],
+      "strengths": [
+        "Open API approach",
+        "Good analytics visuals"
+      ],
+      "weaknesses": [
+        "API documentation incomplete",
+        "Rate limits trigger sync delays",
+        "No SOC2 listed"
+      ],
+      "gaps": [
+        "No formal data migration tooling",
+        "No template conditional logic"
+      ],
+      "notes": "Wins analytics-led deals but loses security-conscious buyers."
+    }
+  ],
+  "summary": {
+    "security_table_stakes": "SOC2 and SSO increasingly required for mid-market and public sector",
+    "differentiation_spaces": [
+      "Offline-first mobile with reliable sync conflict handling",
+      "Guided onboarding and data migration quality",
+      "Open API + webhooks with clear quotas and docs",
+      "Template logic and approval flows with conditional steps"
+    ],
+    "pricing_observations": "Market clears between $4–$7 per vehicle per month for mid-market core features; enterprise SSO/workflow buyers pay higher TCV with long implementations."
+  }
+}

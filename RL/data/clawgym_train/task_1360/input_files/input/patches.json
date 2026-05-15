@@ -1,0 +1,9 @@
+{
+  "patches": [
+    { "name": "inlet", "type": "patch", "role": "velocity_inlet" },
+    { "name": "outlet", "type": "patch", "role": "pressure_outlet" },
+    { "name": "walls", "type": "wall", "role": "noSlip_wall" },
+    { "name": "frontAndBack", "type": "empty", "role": "2D_empty" }
+  ],
+  "notes": "Use exactly these patch names in all 0/ field files. Treat 'frontAndBack' as the 2D thin-direction patch with type 'empty' across all fields."
+}

@@ -1,0 +1,20 @@
+timezone: "America/New_York"
+week_start_date: "2026-04-20"
+windows:
+  Monday:
+    - "18:00-19:30"
+  Tuesday:
+    - "07:30-08:00"
+    - "20:00-21:00"
+  Wednesday:
+    - "19:00-20:00"
+  Thursday: []
+  Friday:
+    - "12:00-12:45"
+  Saturday:
+    - "09:00-10:30"
+  Sunday:
+    - "16:00-17:00"
+rules:
+  max_posts: 4
+  min_research_sessions: 3

@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  web:
+    build:
+      context: .
+    environment:
+      - SCREENIN_MODE=${SCREENIN_MODE:-production}
+      - APP_PORT=5000
+    ports:
+      - "5000:5000"

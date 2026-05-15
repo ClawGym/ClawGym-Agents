@@ -1,0 +1,8 @@
+[
+  {"event_id":"E01","venue_fee":800,"guarantee_paid":1000,"rentals_cost":1200,"crew_cost":900,"transport_cost":300,"misc_costs":150},
+  {"event_id":"E02","venue_fee":1300,"guarantee_paid":1500,"rentals_cost":1600,"crew_cost":1100,"transport_cost":400,"misc_costs":200},
+  {"event_id":"E03","venue_fee":10000,"guarantee_paid":30000,"rentals_cost":5000,"crew_cost":10000,"transport_cost":5000,"misc_costs":2000},
+  {"event_id":"E04","venue_fee":500,"guarantee_paid":800,"rentals_cost":900,"crew_cost":700,"transport_cost":200,"misc_costs":100},
+  {"event_id":"E05","venue_fee":8000,"guarantee_paid":15000,"rentals_cost":4000,"crew_cost":8000,"transport_cost":3000,"misc_costs":1500},
+  {"event_id":"E06","venue_fee":1000,"guarantee_paid":1200,"rentals_cost":1400,"crew_cost":1000,"transport_cost":350,"misc_costs":200}
+]

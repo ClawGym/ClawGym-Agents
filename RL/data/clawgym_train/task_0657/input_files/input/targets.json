@@ -1,0 +1,11 @@
+{
+  "brand": "AcmeTrail Labs",
+  "username": "acmetrail",
+  "variants": [
+    "acmetrail_labs",
+    "acmetraillabs"
+  ],
+  "email": "security@acmetraillabs.com",
+  "domain": "acmetraillabs.com",
+  "notes": "Defensive, public-only OSINT sweep focused on brand handle and close variants."
+}

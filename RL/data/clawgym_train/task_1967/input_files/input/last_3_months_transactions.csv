@@ -1,0 +1,25 @@
+date,type,amount,client,description
+2026-01-03,expense,350,,SaaS tools subscriptions
+2026-01-08,expense,900,,Marketing ads and landing pages
+2026-01-10,revenue,18000,Apertia CRM,Attribution audit and roadmap
+2026-01-12,expense,450,,Professional liability insurance
+2026-01-15,expense,300,,Coworking desk
+2026-01-18,expense,1500,,Subcontractor analytics audits
+2026-01-20,revenue,12000,DevCycle Labs,PLG analytics instrumentation sprint
+2026-01-22,expense,250,,Local travel and client meetings
+2026-02-02,expense,350,,SaaS tools subscriptions
+2026-02-07,revenue,15000,NimbusQueue,Data model and MTA design
+2026-02-10,expense,1200,,Digital marketing and content production
+2026-02-14,expense,250,,Online course: advanced dbt
+2026-02-17,expense,300,,Coworking desk
+2026-02-20,expense,2000,,Contractor support - dashboard builds
+2026-02-25,revenue,8000,Apertia CRM,HubSpot and Salesforce integration fixes
+2026-02-27,expense,150,,Office supplies and peripherals
+2026-03-03,expense,350,,SaaS tools subscriptions
+2026-03-05,revenue,22000,LeadBridge,End-to-end revenue analytics implementation
+2026-03-06,expense,800,,Marketing ads and content
+2026-03-12,expense,1000,,Contractor support - QA and testing
+2026-03-15,expense,300,,Coworking desk
+2026-03-18,expense,450,,Professional liability insurance
+2026-03-22,expense,300,,Training workshop
+2026-03-28,expense,600,,Equipment upgrade (monitor and accessories)

@@ -1,0 +1,7 @@
+{
+  "projects": [
+    {"id": "P-001", "title": "Digitize Jacob Young Letters", "owner": "Marcus Young", "status": "in_progress"},
+    {"id": "P-002", "title": "2026 Family Reunion", "owner": "Tessa Young", "status": "planning"},
+    {"id": "P-003", "title": "Grave Marker Restoration", "owner": "Daniel Cho", "status": "backlog"}
+  ]
+}

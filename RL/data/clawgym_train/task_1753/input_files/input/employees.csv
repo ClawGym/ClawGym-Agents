@@ -1,0 +1,7 @@
+name,last4,classification,apprentice_flag,apprentice_pct,st_hours,ot_hours,plan_credit_per_hour,deductions_total
+Adrian Cole,4321,Electrician,false,1.00,24,4,5.00,150.00
+Bianca Reyes,7788,Electrician,false,1.00,16,0,5.00,110.00
+Colin Hart,1122,Electrician,true,0.70,20,4,2.50,95.00
+Devon Lee,3344,Laborer,false,1.00,40,2,0.00,80.00
+Evan Brooks,5566,Operating Engineer,false,1.00,36,6,4.00,120.00
+Farah Singh,9900,Pipefitter,false,1.00,32,0,6.00,100.00

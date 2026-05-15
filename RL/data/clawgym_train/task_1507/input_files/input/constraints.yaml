@@ -1,0 +1,12 @@
+duration_minutes_min: 45
+duration_minutes_max: 55
+min_house_share: 0.4
+min_early2000s_pop_count: 3
+early_2000s_pop_year_range:
+  start: 2000
+  end: 2005
+max_same_genre_streak: 2
+max_adjacent_bpm_diff: 8
+max_adjacent_energy_diff: 3
+start_energy_max: 6
+end_energy_min: 7

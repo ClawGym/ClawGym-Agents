@@ -1,0 +1,17 @@
+{
+  "authors": [
+    {
+      "author": "abcdef0123456789abcdef0123456789abcdef0123456789abcdef0123456789",
+      "limit": 5
+    },
+    {
+      "author": "00112233445566778899aabbccddeeff00112233445566778899aabbccddeeff",
+      "limit": 3
+    },
+    {
+      "author": "deadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeefdeadbeef",
+      "limit": 7
+    }
+  ],
+  "relays": []
+}

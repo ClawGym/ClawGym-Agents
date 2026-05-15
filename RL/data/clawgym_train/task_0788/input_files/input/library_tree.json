@@ -1,0 +1,164 @@
+{
+  "name": "library",
+  "type": "directory",
+  "children": [
+    {
+      "name": "2021",
+      "type": "directory",
+      "children": [
+        {
+          "name": "Appendices",
+          "type": "directory",
+          "children": [
+            { "name": "2-addendum.pdf", "type": "file" },
+            { "name": "01-charts.pdf", "type": "file" }
+          ]
+        },
+        {
+          "name": ".temp",
+          "type": "directory",
+          "children": [
+            { "name": "temp.pdf", "type": "file" }
+          ]
+        },
+        { "name": "01 Q1 - 2021.pdf", "type": "file" },
+        { "name": "Q4 FY2021.pdf", "type": "file" },
+        { "name": "10 Q3 Insights 2021.pdf", "type": "file" },
+        { "name": "2 Q2 - 2021.pdf", "type": "file" }
+      ]
+    },
+    {
+      "name": "2019",
+      "type": "directory",
+      "children": [
+        { "name": "10 - Q3 2019.pdf", "type": "file" },
+        { "name": "Q4 2019 Final.pdf", "type": "file" },
+        { "name": "2 - Q2 2019.pdf", "type": "file" },
+        { "name": "01 - Q1 2019.pdf", "type": "file" },
+        {
+          "name": "Supplementals",
+          "type": "directory",
+          "children": [
+            { "name": "10 - Data Tables.pdf", "type": "file" },
+            { "name": "01 - KPI Appendix.pdf", "type": "file" }
+          ]
+        }
+      ]
+    },
+    { "name": "00 - Cover.pdf", "type": "file" },
+    {
+      "name": ".hidden-archive",
+      "type": "directory",
+      "children": [
+        { "name": "Q0 2018.pdf", "type": "file" }
+      ]
+    },
+    {
+      "name": "2020",
+      "type": "directory",
+      "children": [
+        { "name": "notes.txt", "type": "file" },
+        {
+          "name": "Analyst Notes",
+          "type": "directory",
+          "children": [
+            { "name": "Tables.pdf", "type": "file" },
+            { "name": "Summary.pdf", "type": "file" }
+          ]
+        },
+        { "name": "01- Q1 2020.pdf", "type": "file" },
+        { "name": "Budget.xlsx", "type": "file" },
+        {
+          "name": "Old Drafts",
+          "type": "directory",
+          "children": [
+            { "name": "Q1 Draft.pdf", "type": "file" },
+            { "name": "Q2 Draft.pdf", "type": "file" }
+          ]
+        },
+        { "name": "2- Q2 2020.pdf", "type": "file" },
+        { "name": "Q3-2020.pdf", "type": "file" },
+        { "name": "Q4 - 2020.pdf", "type": "file" }
+      ]
+    },
+    {
+      "name": "2024",
+      "type": "directory",
+      "children": [
+        { "name": "2_Q2_2024.pdf", "type": "file" },
+        { "name": "01_Q1_2024.pdf", "type": "file" }
+      ]
+    },
+    {
+      "name": "2022",
+      "type": "directory",
+      "children": [
+        {
+          "name": "Extras",
+          "type": "directory",
+          "children": [
+            { "name": "PressRelease.pdf", "type": "file" }
+          ]
+        },
+        {
+          "name": "Scans",
+          "type": "directory",
+          "children": [
+            { "name": "scan1.pdf", "type": "file" },
+            { "name": "scan2.pdf", "type": "file" }
+          ]
+        },
+        { "name": "11-Q4_2022.pdf", "type": "file" },
+        { "name": "01-Q1_2022.pdf", "type": "file" },
+        { "name": "10-Q3_2022.pdf", "type": "file" },
+        { "name": "02-Q2_2022.pdf", "type": "file" }
+      ]
+    },
+    {
+      "name": "Backup",
+      "type": "directory",
+      "children": [
+        {
+          "name": "2018",
+          "type": "directory",
+          "children": [
+            { "name": "Q4 2018.pdf", "type": "file" }
+          ]
+        }
+      ]
+    },
+    { "name": "README.md", "type": "file" },
+    {
+      "name": "2023",
+      "type": "directory",
+      "children": [
+        {
+          "name": "Scans",
+          "type": "directory",
+          "children": [
+            { "name": "misc.pdf", "type": "file" }
+          ]
+        },
+        { "name": "1_Q1_2023.pdf", "type": "file" },
+        {
+          "name": "Slide Decks",
+          "type": "directory",
+          "children": [
+            { "name": "01-Deck.pdf", "type": "file" },
+            { "name": "02-Deck.pdf", "type": "file" }
+          ]
+        },
+        { "name": "Q4_2023_Final.pdf", "type": "file" },
+        { "name": "02_Q2_2023.pdf", "type": "file" },
+        { "name": "10_Q3_2023.pdf", "type": "file" }
+      ]
+    },
+    {
+      "name": ".attic",
+      "type": "directory",
+      "children": [
+        { "name": "old.pdf", "type": "file" }
+      ]
+    }
+  ]
+}

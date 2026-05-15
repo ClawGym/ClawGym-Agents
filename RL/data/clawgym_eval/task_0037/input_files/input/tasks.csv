@@ -1,0 +1,8 @@
+task_id,shot_id,title,owner,status,due_date
+S010-ANIM-001,S010,Blocking pass for hero shot,Ava,In Progress,2024-06-18
+S010-LAYOUT-002,S010,Camera adjust,Ben,Done,2024-06-15
+S020-LIGHT-003,S020,Lighting first pass,Chloe,Review,2024-06-20
+S020-COMP-004,S020,Compositing matte fix,Ben,Blocked,2024-06-19
+S030-RIG-005,S030,Rig weight painting,Ava,In Progress,2024-06-22
+S030-ANIM-006,S030,Lip sync polish,Chloe,Not Started,2024-06-21
+S010-RENDER-007,S010,Test render farm,Ben,Blocked,2024-06-17

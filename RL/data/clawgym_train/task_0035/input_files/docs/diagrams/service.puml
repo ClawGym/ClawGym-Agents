@@ -1,0 +1,5 @@
+@startuml
+class ServiceCoordinator
+class BaseService
+ServiceCoordinator --|> BaseService
+@enduml

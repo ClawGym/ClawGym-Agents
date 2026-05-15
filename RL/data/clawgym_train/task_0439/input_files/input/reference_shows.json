@@ -1,0 +1,14 @@
+{
+  "shows": [
+    {"title": "I Love Lucy", "era": "1950s", "aliases": ["lucy", "ricardo"]},
+    {"title": "The Twilight Zone", "era": "1960s", "aliases": ["twilight zone", "serling"]},
+    {"title": "M*A*S*H", "era": "1970s", "aliases": ["mash", "hawkeye", "4077th"]},
+    {"title": "The Mary Tyler Moore Show", "era": "1970s", "aliases": ["mary tyler moore", "mtm"]},
+    {"title": "All in the Family", "era": "1970s", "aliases": ["archie bunker", "all in the family"]},
+    {"title": "Cheers", "era": "1980s", "aliases": ["cheers", "sam malone"]},
+    {"title": "The Honeymooners", "era": "1950s", "aliases": ["honeymooners", "ralph kramden"]},
+    {"title": "Dragnet", "era": "1950s", "aliases": ["dragnet", "joe friday"]},
+    {"title": "Gunsmoke", "era": "1950s", "aliases": ["gunsmoke", "matt dillon"]},
+    {"title": "The Dick Van Dyke Show", "era": "1960s", "aliases": ["dick van dyke", "rob petrie"]}
+  ]
+}

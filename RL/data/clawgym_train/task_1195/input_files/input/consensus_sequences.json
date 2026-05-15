@@ -1,0 +1,17 @@
+{
+  "threshold": 0.5,
+  "species": [
+    {
+      "name": "Cyanoribus marinus",
+      "consensus": "MVAXLKTGWPDECNQHIVSTCFYWLAGPRKDEMILSTNQHHYFVVCTDEM"
+    },
+    {
+      "name": "Thermophila rubra",
+      "consensus": "RRKHHPPAAXDEDEFGYWSTCSTC-QLNMIIVVLAGGPPKKTTHHYYFWDE"
+    },
+    {
+      "name": "Novaverta alba",
+      "consensus": "QQNNAA--XXSTSTCCFYWFYWVLMILDEDEHKRHKRAGPSTCVMILNQDE"
+    }
+  ]
+}

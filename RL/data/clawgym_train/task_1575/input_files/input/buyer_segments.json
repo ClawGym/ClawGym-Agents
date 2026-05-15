@@ -1,0 +1,12 @@
+{
+  "B0E1ELEC01": { "repeat_buyer_share": 0.22, "first_time_buyer_share": 0.78 },
+  "B0E1ELEC02": { "repeat_buyer_share": 0.35, "first_time_buyer_share": 0.65 },
+  "B0K1KITCH01": { "repeat_buyer_share": 0.18, "first_time_buyer_share": 0.82 },
+  "B0A1APP01": { "repeat_buyer_share": 0.0, "first_time_buyer_share": 1.0 },
+  "B0B1BEAUTY01": { "repeat_buyer_share": 0.05, "first_time_buyer_share": 0.95 },
+  "B0T1TOY01": { "repeat_buyer_share": 0.12, "first_time_buyer_share": 0.88 },
+  "B0S1SPORT01": { "repeat_buyer_share": 0.27, "first_time_buyer_share": 0.73 },
+  "B0BK1BOOK01": { "repeat_buyer_share": 0.0, "first_time_buyer_share": 1.0 },
+  "B0K1KITCH02": { "repeat_buyer_share": 0.09, "first_time_buyer_share": 0.91 },
+  "B0E1ELEC03": { "repeat_buyer_share": 0.31, "first_time_buyer_share": 0.69 }
+}

@@ -1,0 +1,5 @@
+site_id,name,type,protection_level,parcel_id,notes
+HR-001,Grand Arcade,building,A,P-002,19th-century structure
+HR-002,Riverside Foundry,building,B,P-006,Early industrial site
+HR-003,OldTown Fountain,monument,C,P-009,Community landmark
+HR-004,City Heritage Hall,building,A,P-012,Protected civic building

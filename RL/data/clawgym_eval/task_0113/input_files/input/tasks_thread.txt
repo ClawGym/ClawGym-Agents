@@ -1,0 +1,7 @@
+- [ ] ID: TN-101 | Production: Twelfth Night | Task: Confirm rehearsal room booking for Mon-Wed | Owner: Alex Kim | Due: 2024-09-16 | Notes: Edison Theatre availability with EM&S
+- [ ] ID: TN-102 | Production: Twelfth Night | Task: Finalize prop list draft | Owner: Jamie Lee | Due: 2024-09-18 | Notes: include shipwreck scene props
+- [ ] ID: TN-103 | Production: Twelfth Night | Task: Distribute updated script pages (Act II) | Owner: Morgan Patel | Due: 2024-09-17 | Notes: print + PDF to cast
+- [ ] ID: TN-104 | Production: Twelfth Night | Task: Submit costume measurements | Owner: Cast | Due: 2024-09-19 | Notes: bring to Thursday rehearsal
+- [ ] ID: DC-201 | Production: Student Dance Concert | Task: Confirm lighting plot | Owner: Lighting Team | Due: 2024-09-18 | Notes: for Saturday tech
+- [ ] ID: TN-105 | Production: Twelfth Night | Task: Draft fight choreography safety brief | Owner: Riley Chen | Due: 2024-09-21 | Notes: coordinate with fight captain
+- [ ] ID: TN-106 | Production: Twelfth Night | Task: Update callboard with weekly schedule | Owner: Stage Management | Due: 2024-09-16 | Notes: post by Monday 12:00

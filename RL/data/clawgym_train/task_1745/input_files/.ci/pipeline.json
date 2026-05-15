@@ -1,0 +1,9 @@
+{
+  "name": "demo-pipeline",
+  "steps": [
+    {
+      "name": "build",
+      "run": "python -c \"print('building...')\""
+    }
+  ]
+}

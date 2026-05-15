@@ -1,0 +1,7 @@
+{
+  "region_filter": "All",
+  "policy_position": "Undecided",
+  "summary_path": "output/summary.csv",
+  "channel_path": "output/channel.csv",
+  "zip_path": "output/zip.csv"
+}

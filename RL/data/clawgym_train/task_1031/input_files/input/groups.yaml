@@ -1,0 +1,7 @@
+groups:
+  - name: "Outreach - North America"
+    remark: "US & Canada outreach accounts; PST/EST routing"
+  - name: "Outreach - EMEA"
+    remark: "Europe, Middle East, and Africa outreach accounts; CET/UTC routing"
+  - name: "QA & Testing"
+    remark: "Internal QA profiles for preflight checks and safe experiments"

@@ -1,0 +1,3 @@
+com.example.ui.DetailFragment -> a.b.c.a
+com.example.net.SyncWorker -> x.y.z.d
+com.example.receiver.BootReceiver -> r.t.u.b

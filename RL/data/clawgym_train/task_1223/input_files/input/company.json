@@ -1,0 +1,118 @@
+{
+  "company": "SprintFlow",
+  "homepage": "https://sprintflow.example",
+  "tagline": "Ship faster with predictable sprints.",
+  "product": {
+    "name": "SprintFlow",
+    "category": "Sprint planning tool for engineering teams",
+    "overview": "SprintFlow helps engineering leaders plan predictable sprints with capacity-aware scheduling, backlog prioritization, and data-driven forecasting. It integrates with Jira, GitHub, and Linear to keep plans and execution in sync.",
+    "key_features": [
+      "Capacity modeling that accounts for PTO, holidays, and interrupts",
+      "Scenario planning (what-if) for backlog items and scope trade-offs",
+      "Velocity trends with burn-up/down forecasts",
+      "Definition of Ready and acceptance criteria checklists",
+      "Two-way sync with Jira and GitHub issues",
+      "Team availability with per-person load balancing",
+      "AI-assisted sprint planning recommendations"
+    ],
+    "plans": [
+      { "name": "Starter", "price": "$0", "includes": ["1 team", "5 users", "Basic capacity model"] },
+      { "name": "Growth", "price": "$79/mo", "includes": ["3 teams", "Unlimited users", "Scenario planning", "Integrations"] },
+      { "name": "Scale", "price": "Custom", "includes": ["SSO", "Advanced reporting", "Priority support"] }
+    ]
+  },
+  "audience": [
+    {
+      "role": "Engineering Manager",
+      "goals": [
+        "Deliver on sprint commitments consistently",
+        "Balance scope with team capacity",
+        "Defend estimates with data"
+      ],
+      "pains": [
+        "Surprise PTO and interrupts break plans",
+        "Unclear Definition of Ready leads to thrash",
+        "Under/over-committing due to poor capacity signals"
+      ],
+      "decision_criteria": [
+        "Works with existing tools (Jira/GitHub)",
+        "Low overhead for the team",
+        "Clear reporting for stakeholders"
+      ]
+    },
+    {
+      "role": "Scrum Master",
+      "goals": [
+        "Run efficient planning ceremonies",
+        "Improve predictability and flow",
+        "Coach the team on agile best practices"
+      ],
+      "pains": [
+        "Planning meetings run long and unfocused",
+        "Estimates ignore real availability",
+        "Dependencies surface late"
+      ]
+    },
+    {
+      "role": "Product Manager",
+      "goals": [
+        "Prioritize work that drives outcomes",
+        "Negotiate scope with engineering",
+        "Communicate timelines to stakeholders"
+      ],
+      "pains": [
+        "Roadmap dates slip without early warnings",
+        "Hard to see trade-offs during planning",
+        "Confusion around acceptance criteria"
+      ]
+    }
+  ],
+  "positioning": {
+    "market_category": "Agile planning and delivery",
+    "differentiators": [
+      "Capacity modeling with PTO and interrupts built-in",
+      "Scenario planning with real-time impact on sprint goal probability",
+      "Guardrails for Definition of Ready to reduce thrash"
+    ],
+    "competitors": ["Jira", "Shortcut", "ClickUp", "Asana"],
+    "why_choose_us": "SprintFlow combines practical capacity math with clear planning workflows so teams commit confidently and hit their goals more often."
+  },
+  "brand_voice": {
+    "tone": ["practical", "engineering-first", "clear", "data-driven"],
+    "style_notes": [
+      "Use specific examples and numbers",
+      "Short paragraphs (2–4 sentences)",
+      "Active voice",
+      "Avoid hype and filler"
+    ],
+    "terminology": [
+      "sprint goal",
+      "velocity",
+      "capacity",
+      "Definition of Ready",
+      "acceptance criteria",
+      "work in progress (WIP)"
+    ]
+  },
+  "compliance": {
+    "claims_policy": "Use concrete numbers with sources or label as example",
+    "links_policy": "Link to credible sources such as Scrum Guide, Agile Alliance, and peer-reviewed industry reports"
+  },
+  "ctas": {
+    "primary": "Start free trial",
+    "secondary": "Download the sprint planning agenda template"
+  },
+  "internal_linking": {
+    "pillar_pages": ["/guide/sprint-planning", "/guide/agile-ceremonies"],
+    "clusters": [
+      "/templates/sprint-planning-agenda",
+      "/blog/capacity-planning-engineering",
+      "/blog/backlog-prioritization-techniques",
+      "/guide/sprint-retrospectives",
+      "/features/capacity-modeling",
+      "/features/team-availability",
+      "/case-studies/improve-predictability",
+      "/blog/definition-of-ready"
+    ]
+  }
+}

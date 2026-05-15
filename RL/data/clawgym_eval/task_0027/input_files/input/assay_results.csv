@@ -1,0 +1,12 @@
+sample_id,replicate_id,date,viability_pct,notes
+A549_DMSO,r1,2026-04-07,98.2,
+A549_DMSO,r2,2026-04-07,97.5,
+A549_DMSO,r3,2026-04-08,98.9,
+A549_DrugX_10uM,r1,2026-04-07,65.3,
+A549_DrugX_10uM,r2,2026-04-07,62.1,
+A549_DrugX_10uM,r3,2026-04-08,12.0,"edge well low volume suspected"
+MCF7_DMSO,r1,2026-04-07,96.7,
+MCF7_DMSO,r2,2026-04-07,97.9,"bubbles observed"
+MCF7_DrugY_5uM,r1,2026-04-08,70.2,
+MCF7_DrugY_5uM,r2,2026-04-08,71.0,
+MCF7_DrugY_5uM,r3,2026-04-09,69.5,

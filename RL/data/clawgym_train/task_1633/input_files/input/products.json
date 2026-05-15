@@ -1,0 +1,32 @@
+[
+  {
+    "product_id": "P100",
+    "name": "Aurora Lamp",
+    "category": "Home",
+    "unit_cost": 12.50
+  },
+  {
+    "product_id": "P101",
+    "name": "Nimbus Chair",
+    "category": "Furniture",
+    "unit_cost": 35.00
+  },
+  {
+    "product_id": "P102",
+    "name": "Zephyr Fan",
+    "category": "Home",
+    "unit_cost": 22.00
+  },
+  {
+    "product_id": "P103",
+    "name": "Orbit Desk",
+    "category": "Office",
+    "unit_cost": 80.00
+  },
+  {
+    "product_id": "P104",
+    "name": "Comet Mug",
+    "category": "Kitchen",
+    "unit_cost": 3.20
+  }
+]

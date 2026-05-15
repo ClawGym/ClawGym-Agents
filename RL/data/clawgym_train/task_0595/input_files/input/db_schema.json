@@ -1,0 +1,63 @@
+{
+  "tables": [
+    {
+      "name": "users",
+      "columns": [
+        { "name": "id", "type": "uuid", "primaryKey": true },
+        { "name": "email", "type": "text", "unique": true, "nullable": false },
+        { "name": "name", "type": "text", "nullable": true },
+        { "name": "role", "type": "text", "default": "user", "nullable": false },
+        { "name": "created_at", "type": "timestamp", "default": "now()" }
+      ],
+      "indexes": ["email_unique"],
+      "notes": "Role is 'user' or 'admin'; email is the login identifier."
+    },
+    {
+      "name": "teams",
+      "columns": [
+        { "name": "id", "type": "uuid", "primaryKey": true },
+        { "name": "name", "type": "text", "nullable": false },
+        { "name": "created_at", "type": "timestamp", "default": "now()" }
+      ],
+      "notes": "Teams own tasks; users belong to one or more teams via memberships."
+    },
+    {
+      "name": "memberships",
+      "columns": [
+        { "name": "user_id", "type": "uuid", "references": "users.id" },
+        { "name": "team_id", "type": "uuid", "references": "teams.id" },
+        { "name": "role", "type": "text", "default": "member" }
+      ],
+      "compositePrimaryKey": ["user_id", "team_id"],
+      "notes": "Defines user-to-team relationships and roles."
+    },
+    {
+      "name": "tasks",
+      "columns": [
+        { "name": "id", "type": "uuid", "primaryKey": true },
+        { "name": "team_id", "type": "uuid", "references": "teams.id" },
+        { "name": "title", "type": "text", "nullable": false },
+        { "name": "description", "type": "text", "nullable": true },
+        { "name": "status", "type": "text", "enum": ["todo", "in_progress", "done"], "default": "todo" },
+        { "name": "assignee_id", "type": "uuid", "references": "users.id", "nullable": true },
+        { "name": "created_at", "type": "timestamp", "default": "now()" },
+        { "name": "updated_at", "type": "timestamp", "default": "now()" }
+      ],
+      "indexes": ["team_id", "assignee_id", "status"],
+      "notes": "Tasks belong to teams; assignments are optional."
+    },
+    {
+      "name": "comments",
+      "columns": [
+        { "name": "id", "type": "uuid", "primaryKey": true },
+        { "name": "task_id", "type": "uuid", "references": "tasks.id" },
+        { "name": "author_id", "type": "uuid", "references": "users.id" },
+        { "name": "body", "type": "text", "nullable": false },
+        { "name": "created_at", "type": "timestamp", "default": "now()" }
+      ],
+      "indexes": ["task_id", "author_id", "created_at"],
+      "notes": "Simple comment system for tasks."
+    }
+  ],
+  "notes": "This is a concise schema summary. Enforce access control by team; client components must never query the database directly."
+}

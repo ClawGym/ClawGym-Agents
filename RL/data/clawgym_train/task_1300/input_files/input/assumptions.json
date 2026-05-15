@@ -1,0 +1,9 @@
+{
+  "season": 2025,
+  "bale_weight_lbs": 480,
+  "proposed_contract_price_per_lb_usd": 0.93,
+  "expected_quality_premium_per_lb_usd": 0.05,
+  "email_recipient": "Textile buyer at Acme Mills",
+  "buyer_name": "Acme Mills",
+  "farmer_name": "Jordan Reyes"
+}

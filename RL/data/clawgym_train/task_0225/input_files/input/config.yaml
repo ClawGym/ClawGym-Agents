@@ -1,0 +1,29 @@
+queries:
+  - 'site:uscourts.gov policy "electronic filing"'
+  - 'site:.gov court "remote proceedings" policy'
+  - 'site:.gov courts technology guidance'
+
+# Domain constraints: select at least one federal (uscourts.gov) and at least one
+# state judiciary .gov hostname containing "court" or "courts".
+domain_constraints:
+  federal_required_domain: 'uscourts.gov'
+  state_judiciary_regex: '^([a-z0-9.-]*courts?[a-z0-9.-]*)\\.gov$'
+
+selection:
+  min_federal: 1
+  min_state: 1
+  max_total: 4
+
+# Keywords to count in the extracted visible text (case-insensitive, simple word matching)
+keywords:
+  - electronic
+  - filing
+  - remote
+  - virtual
+  - video
+  - teleconference
+  - technology
+  - access
+  - fairness
+  - due
+  - process

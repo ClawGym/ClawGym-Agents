@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1282",
+  "user_query": "I run a small bakery in Donostia called \"Boga Ogitegia\" and I want our Basque copy to feel natural and warm, not stiff. Please read input/brand_brief.json and input/prompts.json to understand our voice and the three scenarios. Then write three files under output/ with casual Basque that sounds like a real local would text or post:\n- output/instagram_caption.txt — an Instagram caption for the weekend sourdough announcement.\n- output/whatsapp_reply.txt — a WhatsApp reply script to a customer asking about Sunday hours and lactose-free options.\n- output/banner.txt — a short autumn menu banner about the pumpkin spiced loaf returning.\nStyle and constraints (apply to each file):\n- Keep it casual Basque with a bit of Gipuzkoa flavor; prefer the \"zu\" register (no hika), and include either \"zu\" or \"zure\".\n- Include at least one tiny Spanish code-switch like \"bueno\", \"vale\", or \"gracias\" if it feels natural.\n- Use at least one natural filler/softener like \"ba\", \"bada\", \"ezta\", or \"badakizu\".\n- Add a warm, expressive interjection like \"Aiba!\", \"Bikain!\", \"Primeran!\", \"Oso ondo!\", \"Genial!\", \"Ene!\", or \"Ostras!\".\n- Avoid overly formal phrases like \"Egun on\" and \"jakina\", and do not use the \"hi\" register.\n- Each file should be 200 words or fewer.\nPlease make sure each deliverable is tailored to its scenario and uses details from the inputs (e.g., hours, pre-orders).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

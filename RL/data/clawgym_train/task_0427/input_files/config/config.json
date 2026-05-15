@@ -1,0 +1,6 @@
+{
+  "target_artist": "",
+  "schedule_time": "20:00",
+  "csv_path": "input/listening_history.csv",
+  "output_dir": "output/daily_reports"
+}

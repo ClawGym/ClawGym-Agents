@@ -1,0 +1,110 @@
+competitors:
+  - name: Gusto
+    geography:
+      us_presence: Nationwide
+      states_covered: "All 50 states + DC"
+      international_payroll: false
+    channels:
+      self_serve: true
+      direct_sales: true
+      accountant_program: true
+      marketplaces:
+        - QuickBooks App Store
+        - Xero App Store
+      pos_time_partners:
+        - Homebase
+        - When I Work
+  - name: Intuit QuickBooks Payroll
+    geography:
+      us_presence: Nationwide
+      states_covered: "All 50 states + DC"
+      international_payroll: false
+    channels:
+      self_serve: true
+      direct_sales: false
+      accountant_program: true
+      marketplaces:
+        - QuickBooks Online Ecosystem
+      pos_time_partners:
+        - QuickBooks Time
+  - name: ADP RUN
+    geography:
+      us_presence: Nationwide
+      states_covered: "All 50 states + DC"
+      international_payroll: false
+    channels:
+      self_serve: false
+      direct_sales: true
+      accountant_program: true
+      broker_channel: true
+      marketplaces: []
+      pos_time_partners:
+        - When I Work
+        - Deputy
+  - name: Paychex Flex
+    geography:
+      us_presence: Nationwide
+      states_covered: "All 50 states + DC"
+      international_payroll: false
+    channels:
+      self_serve: false
+      direct_sales: true
+      accountant_program: true
+      broker_channel: true
+      marketplaces: []
+      pos_time_partners:
+        - Clover
+        - Homebase
+  - name: Square Payroll
+    geography:
+      us_presence: Nationwide
+      states_covered: "All 50 states + DC"
+      international_payroll: false
+    channels:
+      self_serve: true
+      direct_sales: false
+      accountant_program: false
+      marketplaces:
+        - Square App Marketplace
+      pos_time_partners:
+        - Square Shifts
+        - Square POS
+  - name: Rippling
+    geography:
+      us_presence: Nationwide
+      states_covered: "All 50 states + DC"
+      international_payroll: true
+    channels:
+      self_serve: true
+      direct_sales: true
+      accountant_program: limited
+      marketplaces:
+        - Rippling App Shop
+      pos_time_partners:
+        - When I Work
+        - Deputy
+  - name: Justworks
+    geography:
+      us_presence: Nationwide
+      states_covered: "All 50 states + DC"
+      international_payroll: false
+    channels:
+      self_serve: false
+      direct_sales: true
+      accountant_program: limited
+      broker_channel: true
+      marketplaces: []
+      pos_time_partners: []
+  - name: Deel
+    geography:
+      us_presence: Expanding
+      states_covered: "Multi-state coverage in beta"
+      international_payroll: true
+    channels:
+      self_serve: true
+      direct_sales: true
+      accountant_program: limited
+      marketplaces:
+        - Xero App Store
+      pos_time_partners:
+        - When I Work

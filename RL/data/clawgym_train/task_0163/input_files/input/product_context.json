@@ -1,0 +1,68 @@
+{
+  "product_name": "FleetFlow",
+  "product_stage": "MVP in-market, seeking PMF",
+  "initial_value_prop": "Reduce unplanned downtime and maintenance cost with predictive schedules, automated work orders, and parts forecasting tailored for mid-sized fleets.",
+  "target_segment": "North American SMB and mid-market fleets with 50–500 vehicles in last-mile delivery, field services, and municipal operations",
+  "negative_icp": [
+    "Micro-fleets under 20 vehicles",
+    "Enterprises over 1,000 vehicles requiring bespoke ERP and union workflows",
+    "Owner-operators without centralized maintenance ops"
+  ],
+  "team_capacity": {
+    "engineering": {
+      "backend": 4,
+      "frontend": 3,
+      "mobile": 2,
+      "data": 1
+    },
+    "design": 1,
+    "product_management": 1,
+    "qa": 1,
+    "sprint_velocity_points": 95
+  },
+  "constraints": {
+    "security_compliance": "SOC2 Type I not yet achieved; customer security reviews block several mid-market deals",
+    "integrations": [
+      "Samsara",
+      "Geotab",
+      "Verizon Connect (planned)",
+      "QuickBooks Online (beta)"
+    ],
+    "budget": "Runway 14 months; prefer ROI-positive bets within 2 quarters",
+    "sales": "Average sales cycle 60–90 days; security and data migration are common blockers",
+    "data_migration": "CSV import quality issues; historical maintenance records mapping varies widely"
+  },
+  "gtm": {
+    "live_customers": 42,
+    "pilots": 6,
+    "regions": [
+      "US",
+      "Canada"
+    ],
+    "pricing": {
+      "model": "per vehicle per month",
+      "range_usd": "3–7"
+    },
+    "channels": [
+      "direct sales",
+      "referrals from telematics resellers"
+    ]
+  },
+  "operating_assumptions": {
+    "primary_jobs_to_be_done": [
+      "Keep vehicles road-ready at lowest total cost",
+      "Plan and track PM schedules across locations",
+      "Minimize technician time on admin",
+      "Have audit-ready maintenance history"
+    ],
+    "device_environment": [
+      "desktop web (dispatch, managers)",
+      "Android/iOS mobile (technicians)"
+    ],
+    "offline_needs": "Technicians often work in areas with poor connectivity; offline-first mobile is critical"
+  },
+  "success_criteria_hints": {
+    "activation_definition": "Org completes data import, connects telematics, creates first 10 work orders, and closes at least 3 within 14 days",
+    "north_star": "Vehicles available for service (%) and cost per mile"
+  }
+}

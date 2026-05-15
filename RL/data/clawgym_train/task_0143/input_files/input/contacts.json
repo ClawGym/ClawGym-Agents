@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Alex Chen",
+    "tags": ["colleague", "engineering"],
+    "org": "Acme Corp",
+    "role": "Staff Engineer",
+    "tier": "close",
+    "met": "2025-06-15",
+    "last_contact": "2026-02-20"
+  },
+  {
+    "name": "Jordan Lee",
+    "tags": ["colleague", "product"],
+    "org": "Acme Corp",
+    "role": "Product Manager",
+    "tier": "regular",
+    "met": "2024-11-03",
+    "last_contact": "2026-01-28"
+  },
+  {
+    "name": "Sam Patel",
+    "tags": ["friend", "design", "college"],
+    "org": "Independent",
+    "role": "Freelance Designer",
+    "tier": "acquaintance",
+    "met": "2013-09-01",
+    "last_contact": "2025-12-30"
+  },
+  {
+    "name": "Rita Gomez",
+    "tags": ["mentor", "product", "leadership"],
+    "org": "Orbital Labs",
+    "role": "Director of Product",
+    "tier": "close",
+    "met": "2023-05-18",
+    "last_contact": "2025-10-30"
+  }
+]

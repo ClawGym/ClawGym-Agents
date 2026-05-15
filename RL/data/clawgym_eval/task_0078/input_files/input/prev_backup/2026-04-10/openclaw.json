@@ -1,0 +1,30 @@
+{
+  "version": "2026.3.8",
+  "gateway": {
+    "bind": "loopback",
+    "auth": {
+      "mode": "token"
+    }
+  },
+  "tools": {
+    "profile": "messaging",
+    "fs": {
+      "workspaceOnly": true
+    },
+    "exec": {
+      "security": "deny"
+    }
+  },
+  "agents": {
+    "default": "bot",
+    "list": [
+      {
+        "id": "bot",
+        "name": "Feishu Helper",
+        "tools": {
+          "profile": "messaging"
+        }
+      }
+    ]
+  }
+}

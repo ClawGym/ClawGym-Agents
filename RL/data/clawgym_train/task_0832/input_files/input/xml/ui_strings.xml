@@ -1,0 +1,7 @@
+<resources>
+  <string key="app.title">ACME Console</string>
+  <string key="btn.save">Save</string>
+  <string>Unnamed</string>
+  <string key="btn.cancel">Cancel</string>
+  <string key="btn.save">Save Again</string>
+</resources>

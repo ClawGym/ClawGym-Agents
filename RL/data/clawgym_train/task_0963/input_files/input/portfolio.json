@@ -1,0 +1,19 @@
+{
+  "symbols": [
+    {
+      "symbol": "BTC/USFT",
+      "timeframes": ["1h", "4h"]
+    },
+    {
+      "symbol": "ETH/USDT",
+      "timeframes": ["4h"]
+    }
+  ],
+  "config": {
+    "use_local": true,
+    "limit": 40,
+    "prefer_mfi": true,
+    "volume_analysis": true,
+    "notes": "Use ONLY CSVs under input/ohlcv/. If an indicator cannot be computed due to data limits (e.g., Ichimoku), set it to null but keep the schema."
+  }
+}

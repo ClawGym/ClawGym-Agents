@@ -1,0 +1,4 @@
+campaign_name,product,payment_model,deposit_percent,price,preorder_open,preorder_close,production_start,production_end,est_ship_window_start,est_ship_window_end
+Aurora Fox Neon,Aurora Fox Figure - Neon Edition,deposit+balance,30,120,2026-04-01,2026-04-30,2026-05-05,2026-06-20,2026-07-01,2026-07-15
+Boundless Sky Signed,Boundless Sky - Signed Hardcover,full-upfront,100,45,2026-03-20,2026-04-10,2026-04-15,2026-05-10,2026-05-20,2026-06-05
+Mech Beetle Micro,Mech Beetle Micro Series,deposit+balance,40,85,2026-04-10,2026-05-05,2026-05-12,2026-06-30,2026-07-10,2026-07-25

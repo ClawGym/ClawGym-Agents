@@ -1,0 +1,87 @@
+{
+  "notes": {
+    "subjects": "Use lowercase snake_case with a namespace prefix like user:<id>, person:<id>, system:<name>, feature:<name>, project:<slug>.",
+    "values": "Normalize values per predicate. Trim whitespace, collapse internal spaces, and enforce case rules where specified.",
+    "provenance": "Record source and trust score when available. Prefer system-of-record over ad hoc notes when conflicts arise."
+  },
+  "predicates": {
+    "preferred_language": {
+      "cardinality": "single",
+      "conflictPolicy": "supersede",
+      "normalize": "lowercase_trim",
+      "examples": [
+        {"subject": "user:avery", "value": "english"},
+        {"subject": "user:lee", "value": "spanish"}
+      ],
+      "notes": "Choose the most recent or highest-trust entry when multiple exist; keep lower-trust entries in quarantine if contradictory."
+    },
+    "spoken_languages": {
+      "cardinality": "multi",
+      "dedupPolicy": "corroborate",
+      "normalize": "lowercase_trim",
+      "examples": [
+        {"subject": "user:avery", "value": "english"},
+        {"subject": "user:avery", "value": "spanish"},
+        {"subject": "user:avery", "value": "french"}
+      ],
+      "notes": "Multi-valued set. Additive unless explicitly contradicted by the same source; prefer corroboration from multiple sources."
+    },
+    "salary": {
+      "cardinality": "single",
+      "conflictPolicy": "require_review",
+      "normalize": "currency",
+      "examples": [
+        {"subject": "person:jordan", "value": "USD 120000"},
+        {"subject": "person:jordan", "value": "USD 115000"}
+      ],
+      "notes": "Treat HR system as system-of-record. Conflicts should be quarantined pending manual review."
+    },
+    "timezone": {
+      "cardinality": "single",
+      "conflictPolicy": "supersede",
+      "normalize": "uppercase_trim",
+      "examples": [
+        {"subject": "user:avery", "value": "AMERICA/CHICAGO"}
+      ]
+    },
+    "server_port": {
+      "cardinality": "single",
+      "conflictPolicy": "require_review",
+      "normalize": "number",
+      "examples": [
+        {"subject": "system:postgres", "value": "5432"}
+      ],
+      "notes": "Use numeric string normalization; conflicts may indicate environment-specific values."
+    },
+    "rollout_percent": {
+      "cardinality": "single",
+      "conflictPolicy": "supersede",
+      "normalize": "number",
+      "examples": [
+        {"subject": "feature:search_v2", "value": "20"}
+      ]
+    },
+    "notification_channel": {
+      "cardinality": "single",
+      "conflictPolicy": "supersede",
+      "normalize": "lowercase_trim",
+      "examples": [
+        {"subject": "user:avery", "value": "email"}
+      ]
+    },
+    "ui_theme": {
+      "cardinality": "single",
+      "conflictPolicy": "supersede",
+      "normalize": "lowercase_trim",
+      "examples": [
+        {"subject": "user:avery", "value": "dark"}
+      ]
+    }
+  },
+  "normalization": {
+    "lowercase_trim": "tolower(value).trim()",
+    "uppercase_trim": "toupper(value).trim()",
+    "number": "strip non-numeric characters where safe; preserve minus/decimal; trim",
+    "currency": "parse '<CURRENCY> <AMOUNT>' into canonical 'USD 120000' (no commas), store as string; optional cents not required"
+  }
+}

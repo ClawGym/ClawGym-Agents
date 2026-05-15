@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1784",
+  "user_query": "Simulate one full brain self-review cycle for my file-based learning brain using the inputs. Read these files under input/: - brain_init.json (initial pathways state), - thresholds.json (learning thresholds), - records.jsonl (chronological outcome records to apply), and - review_time.txt (ISO timestamp to anchor the review). Apply the records in order (creating new pathways at weight 0.30 if they don’t exist), then run a single review pass using the thresholds and these rules: strengthen if fires >= 3 and success rate >= 0.80 (+0.05), weaken if fires >= 3 and success rate < 0.50 (-0.10), decay if days since lastFired > 7 (-0.02). Enforce type floors: instinct >= 0.80, reflex >= 0.20, others min 0.05. Do not exceed max weight 0.95. After review, prune any non-instinct pathway with weight <= 0.05. Treat each record’s timestamp as its lastFired for that record. Then write: - output/brain/weights/pathways.json with the final pathways object (weights as numeric decimals, two fractional digits), and - output/brain/mutations/audit.jsonl where each line is a JSON object for a mutation with fields {type, target, from, to, reason} (for neurogenesis, from/to may be omitted). Make sure the audit includes the neurogenesis for any auto-created pathway, all strengthen/weaken/decay mutations applied during review, and any prune mutation. Do not write anything outside output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,12 @@
+Audit checklist (engineering notes):
+- Optimization: Minify users.json and products.json; validate with strict JSON parser
+- Security: Process only input/ paths specified by the user; no network calls; no system scan
+- Indexing: Include README.md, CHANGELOG.md, notes.txt, users.json, products.json; lowercase tokens; deduplicate
+- Compaction: Merge core points from README.md, CHANGELOG.md, and notes.txt into a concise digest
+- Reporting: Record original vs minified sizes and percent reduction; include timestamp and method
+- Keywords to verify in index/search: optimization, security, indexing, compaction, performance
+
+Edge cases:
+- Ensure minified JSON has no spaces after colons/commas and no trailing newline
+- JSON values: only index keys and string values; ignore numbers/booleans for tokenization
+- Avoid single-character tokens and excessive stopwords to keep the index meaningful

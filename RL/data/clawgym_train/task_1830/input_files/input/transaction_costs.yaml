@@ -1,0 +1,4 @@
+commission_bps: 5
+bid_ask_spread_bps: 2
+position_size_usd: 500000
+adv_usd: 10000000000

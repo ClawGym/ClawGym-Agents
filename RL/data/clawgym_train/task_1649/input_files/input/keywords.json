@@ -1,0 +1,10 @@
+{
+  "CRISPR": 3,
+  "germline": 4,
+  "viral vector": 2,
+  "PCR": 1,
+  "karyotype": 1,
+  "mitochondrial": 2,
+  "gene drive": 5,
+  "off-target": 3
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Waterfront Fusion - Floor Plan</title>
+  <style>
+    /* visual classes are not authoritative; use data attributes for parsing */
+    .table { margin: 4px; padding: 4px; border: 1px solid #ccc; display: inline-block; }
+    .window { background: #e6f7ff; }
+    .interior { background: #f7f7f7; }
+  </style>
+</head>
+<body>
+  <h1>Dining Room Layout</h1>
+  <p>Each table element below includes data-id, data-area, and data-seats.</p>
+  <section id="floorplan">
+    <div class="table window" data-id="T1" data-area="waterfront" data-seats="4">Table T1 (Window, 4 seats)</div>
+    <div class="table window" data-id="T2" data-area="waterfront" data-seats="2">Table T2 (Window, 2 seats)</div>
+    <div class="table interior" data-id="T3" data-area="interior" data-seats="4">Table T3 (Interior, 4 seats)</div>
+    <div class="table window" data-id="T4" data-area="waterfront" data-seats="6">Table T4 (Window, 6 seats)</div>
+    <div class="table interior" data-id="T5" data-area="interior" data-seats="2">Table T5 (Interior, 2 seats)</div>
+    <div class="table interior" data-id="T6" data-area="interior" data-seats="4">Table T6 (Interior, 4 seats)</div>
+    <div class="table window" data-id="T7" data-area="waterfront" data-seats="2">Table T7 (Window, 2 seats)</div>
+    <div class="table interior" data-id="T8" data-area="interior" data-seats="6">Table T8 (Interior, 6 seats)</div>
+    <div class="table interior" data-id="T9" data-area="interior" data-seats="6">Table T9 (Interior, 6 seats)</div>
+    <div class="table interior" data-id="T10" data-area="interior" data-seats="2">Table T10 (Interior, 2 seats)</div>
+  </section>
+  <footer>
+    <small>Legend: data-area = waterfront|interior; data-seats = integer capacity.</small>
+  </footer>
+</body>
+</html>

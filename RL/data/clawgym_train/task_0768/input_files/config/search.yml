@@ -1,0 +1,8 @@
+allowed_domains:
+  - "archives.gov"
+  - "federalregister.gov"
+queries: []
+output:
+  docs_dir: "output/docs"
+  manifest: "output/eo_manifest.json"
+  search_log: "output/search_log.jsonl"

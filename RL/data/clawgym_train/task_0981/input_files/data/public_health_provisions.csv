@@ -1,0 +1,9 @@
+state,constitution_year,has_quarantine_clause,has_police_power_language,notes
+Massachusetts,1780,True,True,"Public welfare and safety language; early quarantine ordinances in port towns."
+Pennsylvania,1776,False,True,"General welfare clauses; quarantine authority largely in statutes."
+Virginia,1776,False,False,"Rights-focused document; public health powers developed legislatively."
+New York,1777,True,True,"Delegated legislative powers included quarantine in port regulations."
+South Carolina,1778,False,False,"Limited explicit public health provisions; relied on ad hoc measures."
+Georgia,1777,False,False,"Sparse early public health references; statutory development later."
+Maryland,1776,True,True,"Acknowledged necessity of quarantine and inspection for trade."
+New Jersey,1776,True,True,"County boards exercised quarantine under constitutional police powers."

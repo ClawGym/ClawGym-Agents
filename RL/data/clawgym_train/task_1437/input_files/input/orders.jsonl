@@ -1,0 +1,15 @@
+{"order_id":"O-1001","customer_id":"C001","order_date":"2025-03-02","status":"completed","payment_status":"paid","refunded_amount":20.00,"items":[{"sku":"SKU100","quantity":2,"unit_price":40.00},{"sku":"SKU500","quantity":1,"unit_price":60.00}]}
+{"order_id":"O-1002","customer_id":"C002","order_date":"2025-03-05","status":"shipped","payment_status":"paid","items":[{"sku":"SKU300","quantity":1,"unit_price":120.00}]}
+{"order_id":"O-1003","customer_id":"C001","order_date":"2025-03-06","status":"processing","payment_status":"paid","refunded_amount":50.00,"items":[{"sku":"SKU200","quantity":3,"unit_price":25.00},{"sku":"SKU300","quantity":1,"unit_price":120.00}]}
+{"order_id":"O-1004","customer_id":"C003","order_date":"2025-03-08","status":"completed","payment_status":"paid","refunded_amount":0.00,"items":[{"sku":"SKU400","quantity":1,"unit_price":200.00},{"sku":"SKU500","quantity":2,"unit_price":60.00}]}
+{"order_id":"O-1005","customer_id":"C002","order_date":"2025-03-10","status":"completed","payment_status":"paid","items":[{"sku":"SKU100","quantity":1,"unit_price":40.00},{"sku":"SKU999","quantity":2,"unit_price":15.00}]}
+{"order_id":"O-1006","customer_id":"C004","order_date":"2025-03-15","status":"shipped","payment_status":"paid","refunded_amount":10.00,"items":[{"sku":"SKU200","quantity":2,"unit_price":25.00}]}
+{"order_id":"O-1007","customer_id":"C003","order_date":"2025-03-20","status":"processing","payment_status":"paid","refunded_amount":60.00,"items":[{"sku":"SKU300","quantity":2,"unit_price":120.00}]}
+{"order_id":"O-1008","customer_id":"C002","order_date":"2025-03-28","status":"completed","payment_status":"paid","items":[{"sku":"SKU500","quantity":1,"unit_price":60.00},{"sku":"SKU400","quantity":1,"unit_price":200.00}]}
+{"order_id":"O-1009","customer_id":"C001","order_date":"2025-03-12","status":"cancelled","payment_status":"paid","items":[{"sku":"SKU100","quantity":1,"unit_price":50.00}]}
+{"order_id":"O-1010","customer_id":"C002","order_date":"2025-03-22","status":"fraud","payment_status":"paid","items":[{"sku":"SKU300","quantity":1,"unit_price":120.00}]}
+{"order_id":"O-1011","customer_id":"C003","order_date":"2025-03-18","status":"completed","payment_status":"pending","items":[{"sku":"SKU400","quantity":1,"unit_price":200.00}]}
+{"order_id":"O-1012","customer_id":"C001","order_date":"2025-02-25","status":"completed","payment_status":"paid","items":[{"sku":"SKU500","quantity":1,"unit_price":60.00}]}
+{"order_id":"O-1013","customer_id":"C002","order_date":"2025-04-02","status":"completed","payment_status":"paid","items":[{"sku":"SKU200","quantity":2,"unit_price":25.00}]}
+{"order_id":"O-1014","customer_id":"C003","order_date":"2025-03-25","status":"completed","payment_status":"paid","items":[{"sku":"SKU100","quantity":1,"unit_price":0.00},{"sku":"SKU200","quantity":0,"unit_price":25.00}]}
+{"order_id":"O-1015","customer_id":"C004","order_date":"2025-03-07","status":"void","payment_status":"paid","items":[{"sku":"SKU500","quantity":1,"unit_price":60.00}]}

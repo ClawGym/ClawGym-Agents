@@ -1,0 +1,4 @@
+id,audience,channel,draft_message
+1,Business Owners,email,"CRITICAL: RTO/RPO breach risk observed. Failover sim threw DNS/NXDOMAIN errors. Immediate triage underway; pipeline frozen. Expect service impact if primary region fails."
+2,Internal IT,slack,"Heads-up: backup_verify OK but rto_rpo_check warns RPO drift (15m). Please pause nonessential changes; we'll tune schedules after root cause analysis."
+3,Clients,email,"We experienced a simulated failover error due to DNS propagation issues. No current outage, but we are investigating and will share updates."

@@ -1,0 +1,6 @@
+donor_id,full_name,email,preferred_channel
+101,Amelia Santos,amelia.santos@example.org,email
+102,Brian O'Neal,brian.oneal@example.org,phone
+103,Chandra Patel,chandra.patel@example.org,email
+104,Diego Morales,diego.morales@example.org,sms
+105,Fatima Noor,fatima.noor@example.org,email

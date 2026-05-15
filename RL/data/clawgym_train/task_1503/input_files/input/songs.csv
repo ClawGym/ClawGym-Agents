@@ -1,0 +1,10 @@
+song_id,title,artist_id,release_year,chart_peak,notes,subgenre_id
+S001,Your Cheatin' Heart,A001,1953,1,posthumous,SG01
+S002,Blue Moon of Kentucky,A002,1947,25,,SG02
+S003,Crazy,A003,1961,2,,SG03
+S004,On the Road Again,A004,1980,1,,SG05
+S005,Jolene,A005,1973,1,,SG04
+S006,I Walk the Line,A006,1956,1,missing artist,SG01
+S007,Always on My Mind,A004,1982,5,,SG05
+S008,I Will Always Love You,A005,1974,1,,SG04
+S009,Move It On Over,A001,1947,4,,SG01

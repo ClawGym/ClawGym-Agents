@@ -1,0 +1,73 @@
+{
+  "company_name": "TeamLyft",
+  "stage": "Series A",
+  "industry": "B2B SaaS HR-tech",
+  "employees": 28,
+  "hq": "San Francisco, CA",
+  "markets": ["US", "UK"],
+  "founded": "2023-05-12",
+  "revenue_months": 20,
+  "mrr_usd": 230000,
+  "arr_usd": 2760000,
+  "gross_margin_pct": 82,
+  "net_dollar_retention_pct": 112,
+  "customers_payings": 146,
+  "avg_contract_value_usd": 16000,
+  "product": {
+    "summary": "People analytics and engagement platform for mid-market companies (200–2,000 employees). Provides engagement surveys, pulse checks, cohort analysis, and automated action plans.",
+    "modules": ["Engagement Surveys", "Pulse & eNPS", "Cohort Analytics", "Action Plans", "HRIS Connectors"],
+    "integrations": ["Workday", "BambooHR", "ADP", "Okta", "Slack"]
+  },
+  "security": {
+    "soc2": {
+      "type": "Type I",
+      "status": "in_progress",
+      "expected_audit_window_end": "2026-07-31"
+    },
+    "pen_test": {
+      "status": "complete",
+      "date": "2026-02-15",
+      "provider": "Cobalt.io"
+    },
+    "data_hosting": ["AWS us-east-1", "AWS eu-west-2"],
+    "pii_data_types": ["employee identifiers", "business email addresses", "engagement scores", "department metadata (no bank numbers)"],
+    "encryption": {
+      "at_rest": "AES-256",
+      "in_transit": "TLS 1.2+"
+    },
+    "access_controls": ["SSO/SAML (Okta)", "RBAC", "MFA enforced for admins"]
+  },
+  "finance": {
+    "bookkeeping": "QuickBooks Online",
+    "audited": false,
+    "reviewed_financials": false,
+    "burn_usd": 210000,
+    "cash_runway_months": 16,
+    "billing": "Annual upfront (80%) and quarterly (20%)"
+  },
+  "legal": {
+    "counsel": "Ivy & Lee LLP",
+    "ip_assignments": "Incomplete for two legacy contractors (2023)",
+    "litigation": "None",
+    "trademarks": ["TEAMLYFT (US)", "TEAMLYFT (UK)"]
+  },
+  "sales": {
+    "go_to_market": "PLG + outbound SDRs",
+    "top_markets": ["US", "UK"],
+    "pipeline_value_usd": 3700000,
+    "logo_churn_pct_ltm": 2.1,
+    "notable_customers": ["NorthBridge Capital", "Greyline Media", "Finsbury Foods UK", "Atlas Logistics"]
+  },
+  "tech": {
+    "stack": ["React", "Node.js", "PostgreSQL", "Kafka", "Terraform", "Docker"],
+    "hosting": "AWS",
+    "observability": ["Datadog", "CloudWatch"],
+    "sdks": ["TypeScript SDK", "Python SDK"]
+  },
+  "contacts": {
+    "CEO": "Maya Chen",
+    "CFO": "Luis Ortega",
+    "CTO": "Priya Nair",
+    "DPO": "Eleanor Hayes (fractional) <dpo@teamlyft.com>"
+  }
+}

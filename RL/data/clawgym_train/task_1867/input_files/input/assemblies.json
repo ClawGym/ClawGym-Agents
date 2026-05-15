@@ -1,0 +1,18 @@
+{
+  "assemblies": [
+    {
+      "assembly_id": "CW-U1",
+      "name": "Unitized Curtain Wall (Glass + Aluminum)",
+      "components": [
+        {
+          "material_id": "glass_double",
+          "quantity": 1.0
+        },
+        {
+          "material_id": "aluminum",
+          "quantity": 12.0
+        }
+      ]
+    }
+  ]
+}

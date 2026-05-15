@@ -1,0 +1,2 @@
+customer_id,meter_id,adjustment_type,amount,reason
+CUST-002,MTR-E-2,credit,-5.00,Goodwill credit for billing issue in February 2026

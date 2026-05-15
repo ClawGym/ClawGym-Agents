@@ -1,0 +1,14 @@
+{
+  "players": [
+    {
+      "name": "Marie Pollmann",
+      "slug": "marie-polmann",
+      "features_dir": "content/features/${slug}",
+      "social_dir": "content/social/${slug}",
+      "required_files": {
+        "features": ["bio.md", "timeline.csv"],
+        "social": ["quote_snippets.jsonl"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<orders>
+  <order id="o1">
+    <item sku="SKU-1" qty="2">Widget</item>
+    <price currency="USD">19.99</price>
+  </order>
+  <order>
+    <item sku="SKU-2" qty="1">Gadget</item>
+    <discountCode>SPRING</discountCode>
+    <price currency="USD">9.99</price>
+  </order>
+</orders>

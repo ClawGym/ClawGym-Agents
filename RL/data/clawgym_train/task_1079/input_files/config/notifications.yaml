@@ -1,0 +1,5 @@
+profiles:
+  default:
+    notification_command: "echo 'Notification: {message}'"
+  # TODO: Add a profile named "matcha_promo" with a notification_command
+  # that appends the message to output/logs/notifications.log

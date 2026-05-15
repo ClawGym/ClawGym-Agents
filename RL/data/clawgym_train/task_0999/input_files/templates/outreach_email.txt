@@ -1,0 +1,13 @@
+Subject: {{email_subject_prefix}} {{group_name}}
+
+Hi {{group_name}},
+
+As a local environmentalist in {{constituency_name}}, I'm coordinating a grassroots push to promote practical, high-impact actions this month. I’m reaching out because your interests align with our focus areas.
+
+Resource: {{resource_summary}}
+Local priorities: {{preferred_topics_list}}.
+
+If this aligns with your plans, could you share it with your members or co-host a short campaign with us?
+
+Thanks for all you do,
+A neighbor in {{constituency_name}}

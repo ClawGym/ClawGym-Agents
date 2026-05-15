@@ -1,0 +1,58 @@
+Legacy App Review — FieldOps (pre-ORION-77)
+
+Summary
+The current FieldOps app has reliability and UX issues affecting both technicians and supervisors. Below are categorized findings and high-priority pain points to address in ORION-77.
+
+Lifecycle & State
+- Unsaved edits (notes, parts) were lost when the OS killed the app in background; state not persisted on backgrounding.
+- Resume from background sometimes reopened to the dashboard instead of the last viewed work order.
+- Low-memory conditions led to cache resets without user feedback.
+
+Offline & Sync
+- Offline write failures were silent; users believed items synced but outbox was hidden.
+- No clear visual sync status; sync conflicts overwrote technician edits with server data (no conflict resolution).
+- Attachment uploads stuck on slow-3G and never retried with backoff.
+
+Navigation
+- Inconsistent back behavior between iOS and Android; deep stacks built up leading to confusion.
+- Returning to Work Orders List reset scroll position to top, losing progress.
+
+Permissions
+- App requested multiple permissions at first launch (camera, location ‘Always’), leading to denial and distrust.
+- On Android, requested broad storage permissions for photo attachments instead of using scoped storage/options.
+
+Performance & Battery
+- Slow cold start (~4-5s median).
+- Locator map used high-accuracy GPS in the background continuously, draining batteries.
+- Heavy network chatter on home screen blocked UI thread.
+
+Notifications
+- Push spam: multiple notifications per work order event; no grouping; no actions to “Start” or “Mark done”.
+- Tapping notifications sometimes opened the wrong screen or crashed due to missing route params.
+
+Deep Linking
+- Some deep links lacked parameter validation; malformed IDs caused crashes.
+- No web fallback when app not installed; links dead-end.
+
+Storage & Security
+- Tokens stored insecurely in plain preferences on some Android builds.
+- Cache treated as permanent; invalidation inconsistently applied.
+
+Accessibility & Input
+- Touch targets were too small for gloved use.
+- Screen reader labels missing for scanner and critical buttons.
+- Keyboard sometimes obscured input fields; poor dismissal behavior.
+
+Testing & Release
+- Limited device/OS coverage; regressions slipped through.
+- Review builds occasionally contained placeholder text and missing privacy policy links.
+
+Top Priorities for ORION-77
+1) Offline-first with visible Outbox, retries, and conflict resolution.
+2) Contextual permission prompts and graceful degradation.
+3) Faster startup; keep main thread for UI.
+4) Battery-aware location policy (on-demand high-accuracy).
+5) Consistent navigation with deep link safety and web fallback.
+6) Secure storage for tokens; scoped media handling.
+7) Accessibility compliance and larger touch targets.
+8) Broader test matrix including offline and slow-3G.

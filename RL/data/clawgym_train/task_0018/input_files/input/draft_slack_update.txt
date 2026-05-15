@@ -1,0 +1,2 @@
+hey team,
+so i'm poking at the transactions and trying to make monthly features for our fraud model, but my script keeps blowing up with some column nonsense lol. I think we need totals and maybe some anomaly flagging? can somebody please check later? also not sure how many rows we have or if there are dupes. anyway will circle back.

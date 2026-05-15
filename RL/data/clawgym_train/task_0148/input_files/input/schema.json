@@ -1,0 +1,109 @@
+{
+  "categories": {
+    "smartphone": {
+      "required_fields": {
+        "chipset": "string",
+        "display_inches": "number",
+        "s_pen_included": "boolean",
+        "galaxy_ai": "boolean",
+        "smartthings_compatible": "boolean"
+      },
+      "optional_fields": {
+        "battery_mah": "number",
+        "triple_fold": "boolean",
+        "price_usd": "number",
+        "book_style": "boolean",
+        "inner_display_inches": "number",
+        "clamshell": "boolean",
+        "large_outer_display": "boolean"
+      }
+    },
+    "tablet": {
+      "required_fields": {
+        "s_pen_included": "boolean",
+        "premium": "boolean",
+        "smartthings_compatible": "boolean"
+      },
+      "optional_fields": {
+        "display_inches": "number",
+        "battery_mah": "number"
+      }
+    },
+    "wearable": {
+      "required_fields": {
+        "material": "string",
+        "ip_rating": "string",
+        "smartthings_compatible": "boolean"
+      }
+    },
+    "tv": {
+      "required_fields": {
+        "technology": "string",
+        "tizen_os": "boolean",
+        "os_upgrade_years": "number",
+        "smartthings_compatible": "boolean"
+      },
+      "optional_fields": {
+        "resolution": "string",
+        "art_mode": "boolean"
+      }
+    },
+    "appliance": {
+      "required_fields": {
+        "bespoke_ai": "boolean",
+        "gemini_ai": "boolean",
+        "food_recognition": "boolean",
+        "meal_planning": "boolean",
+        "smartthings_compatible": "boolean"
+      }
+    },
+    "robot_vacuum": {
+      "required_fields": {
+        "camera_navigation": "boolean",
+        "liquid_spill_detection": "boolean",
+        "smartthings_compatible": "boolean"
+      }
+    }
+  },
+  "model_specific": {
+    "Galaxy S26 Ultra": {
+      "required_fields": {
+        "battery_mah": "number"
+      }
+    },
+    "Galaxy Z TriFold": {
+      "required_fields": {
+        "triple_fold": "boolean",
+        "price_usd": "number"
+      }
+    },
+    "Galaxy Z Fold7": {
+      "required_fields": {
+        "book_style": "boolean",
+        "inner_display_inches": "number"
+      }
+    },
+    "Galaxy Z Flip7": {
+      "required_fields": {
+        "clamshell": "boolean",
+        "large_outer_display": "boolean"
+      }
+    },
+    "Neo QLED 8K": {
+      "required_fields": {
+        "resolution": "string"
+      }
+    },
+    "Crystal UHD": {
+      "required_fields": {
+        "resolution": "string"
+      }
+    },
+    "The Frame": {
+      "required_fields": {
+        "art_mode": "boolean"
+      }
+    }
+  },
+  "notes": "All numeric fields must be numbers (not strings). All boolean flags must be true/false. Strings must match the technology or rating labels exactly as specified in the task instructions where applicable."
+}

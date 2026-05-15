@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1790",
+  "user_query": "I’m investigating a suspicious spike in auth failures and HTTP errors across our small SaaS. Please analyze the three log files under input/ and produce a concise incident analysis pack. Read these files:\n- input/nginx_access.log.txt\n- input/syslog_auth.log.txt\n- input/app_events.jsonl\n\nDeliverables (write all results to output/):\n1) output/nginx_stats.json — a stats summary of the nginx access log including total_entries, status_distribution, top_ips, and top_paths.\n2) output/nginx_errors.json — extract only error entries (HTTP 4xx/5xx), include counts and a small sample (up to 5 entries).\n3) output/app_errors.json — extract ERROR/WARN/CRITICAL-level application events, include counts and a small sample (up to 5 entries).\n4) output/syslog_failed_logins.json — count how many \"Failed password\" events occurred, compute top_failed_ips (map of IP to count), and include total_lines examined.\n5) output/top_nginx_ips.json — top 3 IPs seen in the nginx access log with their request counts.\n6) output/incident_summary.json — a combined numeric summary with at least: nginx_total, nginx_errors, app_error_entries, syslog_failed_passwords, and top_nginx_ip (object with ip and count) so I can glance at the core signal.\n7) output/incident_response.md — a brief, actionable incident response plan (120–250 words) covering: suspected attack patterns, immediate mitigations (e.g., blocking/rate limiting), short-term monitoring/alerting, and longer-term hardening recommendations. Reference any clearly suspicious IPs you found.\n\nNotes:\n- Auto-detect log formats and parse appropriately.\n- Keep JSON outputs strictly valid and machine-readable.\n- For sampling, include up to 5 representative entries, not the entire dataset.\n- Use relative workspace paths exactly as specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

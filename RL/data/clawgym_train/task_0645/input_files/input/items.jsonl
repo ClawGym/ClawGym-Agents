@@ -1,0 +1,30 @@
+{"id":"c001","email":"  Alice.Smith@Example.com  "}
+{"id":"c002"}
+{"id":"c003","email":"bob.example.com"}
+{"id":"c004","email":"carol@domain.net"}
+{"id":"c005","email":"timeouter@domain.com","should_timeout":true}
+{"id":"c006","email":"dave@@example.org"}
+{"id":"c007","email":"EVE@EXAMPLE.ORG"}
+{"id":"c008","email":""}
+{"id":"c009","email":"  frank.o'reilly+newsletter@sub.example.co.uk "}
+{"id":"c010","email":"george@localhost"}
+{"id":"c011","email":"hannah@domain.io","should_timeout":true,"force_fail":true}
+{"id":"c012","email":"@no-local.com"}
+{"id":"c013","email":"no-domain@"}
+{"id":"c014","email":" ivan.petrov@Example.com "}
+{"id":"c015","email":"JILL@ExAmPlE.Com"}
+{"id":"c016","email":"   "}
+{"id":"c017","email":"kevin+sales@company.co"}
+{"id":"c018","email":"linda@domain.travel"}
+{"id":"c019","email":"mike@domain@another.com"}
+{"id":"c020","email":"nora_doe@domain"}
+{"id":"c021","email":"oscar@sub.domain.org"}
+{"id":"c022","email":"123"}
+{"id":"c023","email":"patty@example.com"}
+{"id":"c024","email":"quentin@domain.com"}
+{"id":"c025","email":"rachel@domain.com","should_timeout":true}
+{"id":"c026","email":"sam@example.org "}
+{"id":"c027","email":"tom@@example.com"}
+{"id":"c028","email":"ulysses@domain.info"}
+{"id":"c029"}
+{"id":"c030","email":"victor@domain.ai"}

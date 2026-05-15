@@ -1,0 +1,6 @@
+type,date,leap,with_fortune,notes
+solar,2026-02-17,false,true,Gregorian to lunar for 2026 Spring Festival (expect lunar New Year)
+lunar,2037-09-05,false,false,Lunar to Gregorian known case mapping to 2037-10-13
+lunar,2020-04-01,true,true,Leap month case (treat as leap fourth lunar month)
+solar,1899-12-31,false,false,Out-of-range lower boundary for algorithm
+solar,2024-02-10,false,false,Gregorian to lunar for 2024 Spring Festival

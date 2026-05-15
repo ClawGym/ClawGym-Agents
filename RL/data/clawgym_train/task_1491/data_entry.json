@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1491",
+  "user_query": "I have a small batch of birth records to process. Please read input/people.jsonl (newline-delimited JSON). For each valid record, generate a complete astrological birth chart including: ascendant (sign and degree), sun (sign and degree), moon (sign and degree), an array of planetary positions (each with name, sign, degree), house placements, and a readable chart_interpretation string. Use the person’s language field if present, otherwise default to \"en\". Write one JSON file per processed person to output/charts/{id}.json (where {id} is the record’s id). In addition, create:\n- output/manifest.json: a JSON array where each item includes id, name, language (used), ascendant_sign, sun_sign, moon_sign, and chart_path for all processed people.\n- output/stats.json: counts with keys total_rows, processed, skipped.\n- output/skipped.json: a JSON array of objects with id and a short reason for each record you skip due to missing or invalid required fields (name, birth_date YYYY-MM-DD, birth_time HH:MM:SS 24-hour, birth_location).\nValidate inputs strictly (formats and presence). Do not include any fields in outputs beyond those requested. Use only the paths under output/ as specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

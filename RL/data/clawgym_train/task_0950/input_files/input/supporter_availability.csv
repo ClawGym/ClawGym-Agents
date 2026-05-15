@@ -1,0 +1,23 @@
+name,email,precinct,available_slots
+Anna Perez,anna.perez@example.com,Precinct 1,Tue 6-7pm;Thu 6-7pm
+Ben Ortiz,ben.ortiz@example.com,Precinct 1,Tue 6-7pm;Wed 6-7pm
+Carla Gomes,carla.gomes@example.com,Precinct 1,Tue 6-7pm
+David Li,david.li@example.com,Precinct 1,Wed 6-7pm;Thu 6-7pm
+Elena Rossi,elena.rossi@example.com,Precinct 1,Tue 6-7pm;Sat 10-11am
+Frank Nunes,frank.nunes@example.com,Precinct 1,Tue 6-7pm;Wed 6-7pm;Thu 6-7pm
+Gloria Silva,gloria.silva@example.com,Precinct 1,Thu 6-7pm
+Henry Patel,henry.patel@example.com,Precinct 1,Wed 6-7pm
+Iris Chen,iris.chen@example.com,Precinct 1,Tue 6-7pm
+Jose Rivera,jose.rivera@example.com,Precinct 1,Tue 6-7pm;Thu 6-7pm;Sat 10-11am
+Karla Mendes,karla.mendes@example.com,Precinct 1,Tue 6-7pm;Wed 6-7pm
+Luis Santos,luis.santos@example.com,Precinct 1,Sat 10-11am
+Marco Almeida,marco.almeida@example.com,Precinct 2,Tue 6-7pm;Sat 10-11am
+Nadia Sousa,nadia.sousa@example.com,Precinct 2,Sat 10-11am
+Omar Haddad,omar.haddad@example.com,Precinct 2,Thu 6-7pm
+Priya Shah,priya.shah@example.com,Precinct 2,Tue 6-7pm;Thu 6-7pm
+Quentin Brown,quentin.brown@example.com,Precinct 2,Sat 10-11am
+Rosa Lopez,rosa.lopez@example.com,Precinct 2,Tue 6-7pm
+Samir Khan,samir.khan@example.com,Precinct 2,Sat 10-11am;Thu 6-7pm
+Talia Nguyen,talia.nguyen@example.com,Precinct 2,Tue 6-7pm;Sat 10-11am
+Victor Gomes,victor.gomes@example.com,Precinct 2,Sat 10-11am
+Wendy Clark,wendy.clark@example.com,Precinct 2,Tue 6-7pm;Sat 10-11am

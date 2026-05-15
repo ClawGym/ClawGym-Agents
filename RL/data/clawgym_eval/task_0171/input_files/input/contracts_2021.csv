@@ -1,0 +1,11 @@
+id,agency,vendor,value_usd,date,status
+2021-001,Department of Health and Human Services,Medico Corp,250000,2021-02-15,awarded
+2021-002,Dept. of Health,Wellness Inc,125000,2021-05-03,awarded
+2021-003,Department of Energy,PowerGen Ltd,500000,2021-03-21,awarded
+2021-004,Dept. of Energy,EcoFuel LLC,200000,2021-06-10,awarded
+2021-005,Environmental Protection Agency,CleanAir Co,175000,2021-04-12,awarded
+2021-006,EPA,GreenWorks,80000,2021-09-30,awarded
+2021-007,City Housing Authority,BuildIt,300000,2021-07-01,awarded
+2021-008,Housing Authority,UrbanHomes,150000,2021-08-19,awarded
+2021-009,Department of Energy,PowerGen Ltd,0,2021-12-01,cancelled
+2021-010,Dept. of Health,Medico Corp,90000,2021-11-11,awarded

@@ -1,0 +1,28 @@
+# Global forecasting assumptions
+season: Q4
+
+# Service level Z-score for safety stock (95% service level default)
+service_level_z: 1.65
+
+# Opportunity cost of capital (annual, used in H = 12×monthly_storage_fee + opportunity_cost_rate×unit_cost)
+opportunity_cost_rate: 0.20
+
+# Default seasonal multiplier (used only if a SKU does not specify its own)
+default_seasonal_multiplier: 1.15
+
+# FBA check-in buffer days
+fba_checkin_buffer:
+  normal: 7
+  q4: 10
+
+# Minimum safety stock in days of adjusted daily sales
+safety_stock_min_days: 14
+
+# Misc notes for the agent
+notes: |
+  - Apply per-SKU seasonal_multiplier when provided; otherwise use default_seasonal_multiplier.
+  - Total lead time = supplier_processing_days + shipping_transit_days + FBA check-in buffer (10 days in Q4).
+  - Safety stock = max(Z × daily_demand_stddev × sqrt(lead_time_days), 14 × adjusted_daily_sales).
+  - EOQ = sqrt(2 * D * S / H) where D = annual demand (365 × adjusted_daily_sales), S = order cost per PO,
+    H = annual holding cost per unit = 12 × monthly_storage_fee_per_unit + opportunity_cost_rate × unit_cost.
+  - Round reorder points and EOQ to whole units; round EOQ up to the nearest full case_pack multiple.

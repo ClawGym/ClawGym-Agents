@@ -1,0 +1,7 @@
+id,first_name,last_name,email,role,years
+1,John,Carter,jcarter@example.com,player,1985-1988
+2,Mike,Thompson,mikethompson[at]mail.com,player,1983-1987
+3,Rob,Daniels,rob.daniels@schoolalumni.org,staff,N/A
+4,Linda,Greene,linda.greene@communityclub.net,supporter,N/A
+5,Sam,O'Neal,soneal33@example.org,player,1984-1988
+6,Alan,Reed,alan@reed,player,1986-1990

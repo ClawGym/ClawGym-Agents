@@ -1,0 +1,27 @@
+{
+  "briefs": [
+    {
+      "id": "repo_profiling",
+      "query": "site:github.com react performance profiling",
+      "time_filter": "week"
+    },
+    {
+      "id": "ml_pdf_year",
+      "query": "machine learning tutorial filetype:pdf",
+      "time_filter": "year"
+    },
+    {
+      "id": "fx_compute",
+      "type": "compute",
+      "query": "250 GBP to USD"
+    },
+    {
+      "id": "privacy_tools_us",
+      "query": "privacy tools",
+      "duckduckgo_params": {
+        "kp": "-1",
+        "kl": "us-en"
+      }
+    }
+  ]
+}

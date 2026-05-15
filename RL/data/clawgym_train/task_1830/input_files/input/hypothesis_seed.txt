@@ -1,0 +1,9 @@
+Edge: Daily crypto momentum — when BTC posts strong positive 5-day returns, it tends to continue outperforming over the next 5–10 trading days, especially in bull or neutral regimes with moderate volatility.
+
+Mechanism: Behavioral herding and FOMO among retail and trend-following funds create short-term autocorrelation in returns. Structural flows (spot-perp basis trades) and funding/positioning feedback loops amplify trends. Information diffusion across regions/time zones and weekend microstructure delays contribute to continuation after multi-day moves.
+
+Counterparty: Short-term contrarian/mean-reversion bots fading breakouts, overleveraged speculators forced to close positions during trend extensions, and options market makers whose delta hedging under-reacts to multi-day moves. These counterparties provide liquidity but are systematically wrong during clean trend phases.
+
+Regime dependency: The edge weakens or inverts in range-bound chop, high realized volatility spikes, or during sharp regime transitions (macro shocks). It is notably weaker when price is below the 200-day MA or when funding/crowding indicators are extreme. It also struggles around major event risk (Fed, ETF flows, large exchange outages).
+
+Holding period: Expect to hold winners for 5–12 trading days with an average of ~7 days; exits are driven by signal reversal or a 10-day max time stop.

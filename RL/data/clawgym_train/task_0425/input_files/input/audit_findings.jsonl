@@ -1,0 +1,5 @@
+{"supplier_id":"S1","severity":"minor","open_findings":2}
+{"supplier_id":"S2","severity":"major","open_findings":5}
+{"supplier_id":"S3","severity":"minor","open_findings":0}
+{"supplier_id":"S4","severity":"critical","open_findings":1}
+{"supplier_id":"S5","severity":"major","open_findings":3}

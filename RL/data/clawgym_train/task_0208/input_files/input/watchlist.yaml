@@ -1,0 +1,13 @@
+watch_items:
+  - org: "IFAB"
+    topic: "Laws of the Game"
+    domain: "theifab.com"
+    baseline_key: "ifab_laws"
+  - org: "FIBA"
+    topic: "Official Basketball Rules"
+    domain: "fiba.basketball"
+    baseline_key: "fiba_rules"
+  - org: "World Rugby"
+    topic: "Regulation 17 sanctions"
+    domain: "world.rugby"
+    baseline_key: "world_rugby_reg17"

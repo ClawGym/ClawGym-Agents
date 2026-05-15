@@ -1,0 +1,131 @@
+project: Roi Field Manual
+audience: DevTools guild engineers and operators
+source_of_truth:
+  description: Use the roi reference tool outputs as the only source for quoted material.
+  topics:
+    - intro
+    - quickstart
+    - patterns
+    - debugging
+    - performance
+    - security
+    - migration
+    - cheatsheet
+outputs:
+  manual: output/roi_field_manual.md
+  cheatsheet: output/roi_cheatsheet.txt
+  appendix: output/appendix/sources.json
+front_matter:
+  required: true
+  fields:
+    title:
+      must_include_phrase: "Roi Field Manual"
+    date:
+      format: ISO-8601 (YYYY-MM-DD) in UTC
+structure:
+  headings_h1_exact_order:
+    - Intro
+    - Quickstart
+    - Patterns
+    - Debugging
+    - Performance
+    - Security
+    - Migration
+    - Cheatsheet
+  blockquotes:
+    min_per_section: 2
+    format: lines starting with "> "
+    rule: Only verbatim lines taken from the corresponding roi reference topic output; no paraphrasing.
+checklists:
+  quickstart:
+    subsection_label: "Checklist"
+    requirement: Reproduce enumerated steps verbatim from the Quickstart reference.
+    include_examples:
+      - "Download or clone the roi package"
+      - "Install dependencies"
+      - "Configure initial settings"
+      - "Verify installation"
+      - "Run the hello-world example"
+      - "Explore available commands and options"
+  migration:
+    subsection_label: "Checklist"
+    requirement: Reproduce enumerated pre-migration items and migration steps verbatim from the Migration reference.
+    include_examples:
+      - "Prepare target environment"
+      - "Export data from source"
+      - "Verify data integrity"
+      - "Switch traffic / go live"
+quoting_requirements:
+  intro:
+    must_include_substrings:
+      - "Roi (roi) is a specialized tool/concept in the devtools domain."
+      - "Improving efficiency in devtools workflows"
+  quickstart:
+    must_include_substrings:
+      - "Run the hello-world example"
+      - "Explore available commands and options"
+  patterns:
+    must_include_substrings:
+      - "Follow the principle of least privilege"
+      - "Anti-Patterns to Avoid"
+  debugging:
+    must_include_substrings:
+      - "Reproduce the issue consistently"
+  performance:
+    must_include_substrings:
+      - "Caching: Reduce redundant operations"
+      - "Parallel Processing: Utilize multiple cores"
+  security:
+    must_include_substrings:
+      - "Encrypt data at rest and in transit"
+  migration:
+    must_include_substrings:
+      - "Prepare target environment"
+      - "Switch traffic / go live"
+  cheatsheet:
+    must_include_substrings:
+      - "Setup: install → configure → verify → test"
+      - "Daily: check → monitor → report → review"
+      - "Issue: diagnose → isolate → fix → verify → document"
+cheatsheet_txt_requirements:
+  essential_commands_bullets:
+    - "- help: Show available commands"
+    - "- version: Display version info"
+    - "- intro: Overview and fundamentals"
+    - "- troubleshooting: Common problems and fixes"
+  common_workflows_exact_lines:
+    - "Setup: install → configure → verify → test"
+    - "Daily: check → monitor → report → review"
+    - "Issue: diagnose → isolate → fix → verify → document"
+appendix_sources_json:
+  required_keys:
+    - intro
+    - quickstart
+    - patterns
+    - debugging
+    - performance
+    - security
+    - migration
+    - cheatsheet
+  object_shape:
+    command: one of [intro, quickstart, patterns, debugging, performance, security, migration, cheatsheet]
+    quotes: integer >= 2
+style:
+  reference: input/style_guide.md
+  summary:
+    - Use concise, pragmatic, and neutral tone.
+    - End each section with an "Action Items" mini-list of exactly 3 bullets tailored to that section.
+    - Maintain consistent terminology; use American English.
+constraints:
+  - English only.
+  - Do not invent commands or steps not present in the roi references.
+  - All outputs must be written to the specified output/ paths.
+  - Preserve verbatim text for quoted lines and checklist items.
+acceptance_checklist:
+  - Manual begins with YAML front matter containing title (including "Roi Field Manual") and date.
+  - Manual contains H1 headings in the exact order specified.
+  - Each section contains at least two blockquoted lines (verbatim).
+  - Quickstart and Migration include a "Checklist" subsection with verbatim enumerated steps.
+  - Manual contains all required verbatim substrings per section (see quoting_requirements).
+  - Cheatsheet text contains the four essential commands bullets in "name: description" format and the three common workflows exactly.
+  - Appendix JSON is valid, includes all required keys, maps to correct commands, and quote counts are >= 2.

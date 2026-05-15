@@ -1,0 +1,49 @@
+{
+  "student": "Alex Morgan",
+  "updated": "2026-04-15",
+  "overall_target_score": 1450,
+  "score_targets_by_tier": {
+    "Elite (Ivy+)": "1550+",
+    "Highly Selective": "1500+",
+    "Selective": "1400+",
+    "Competitive": "1300+"
+  },
+  "colleges": [
+    {
+      "name": "UCLA",
+      "tier": "Highly Selective",
+      "policy": "test-optional",
+      "submit_if": ">= 1500",
+      "notes": "STEM-leaning programs. UC application opens Aug 1, due Nov 30."
+    },
+    {
+      "name": "Boston University",
+      "tier": "Selective",
+      "policy": "test-optional",
+      "submit_if": ">= 1450",
+      "notes": "ED possible; Regular Decision around Jan 2."
+    },
+    {
+      "name": "UC Davis",
+      "tier": "Selective",
+      "policy": "test-free",
+      "submit_if": "n/a",
+      "notes": "UCs currently do not consider SAT/ACT scores."
+    },
+    {
+      "name": "Northeastern University",
+      "tier": "Highly Selective",
+      "policy": "test-optional",
+      "submit_if": ">= 1490",
+      "notes": "Co-op focus. EA/ED in Nov, RD in Jan."
+    },
+    {
+      "name": "Cal Poly San Luis Obispo",
+      "tier": "Competitive",
+      "policy": "test-optional",
+      "submit_if": ">= 1350",
+      "notes": "Polytechnic emphasis; earlier application timelines for CSU system."
+    }
+  ],
+  "strategy_notes": "Aim for 1450+ for broader options; plan for May 2026 test, with August and October as superscore opportunities."
+}

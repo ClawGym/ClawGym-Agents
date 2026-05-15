@@ -1,0 +1,24 @@
+{
+  "checks": [
+    {
+      "id": "backup_verify",
+      "component": "Backups",
+      "command": ["python", "tools/backup_verify.py"]
+    },
+    {
+      "id": "rto_rpo_check",
+      "component": "Recovery Objectives",
+      "command": ["python", "tools/rto_rpo_check.py", "--rto", "4", "--rpo", "1"]
+    },
+    {
+      "id": "failover_sim",
+      "component": "Failover",
+      "command": ["python", "tools/failover_sim.py", "--region", "us-east"]
+    }
+  ],
+  "classification_rules": {
+    "pass_tokens": ["[OK]"],
+    "warn_tokens": ["[WARN]"],
+    "error_tokens": ["[ERROR]"]
+  }
+}

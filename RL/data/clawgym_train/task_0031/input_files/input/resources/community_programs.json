@@ -1,0 +1,16 @@
+[
+  {
+    "topic": "Neighborhood Safety",
+    "program_name": "Campus Night Escort",
+    "description": "After-hours walking escort between campus and nearby housing.",
+    "neighborhood": "University District",
+    "eligibility": "Students with ID"
+  },
+  {
+    "topic": "Civic Engagement",
+    "program_name": "Stockton Cleanup Days",
+    "description": "Monthly volunteer trash pickup events coordinated with local groups.",
+    "neighborhood": "Downtown & Waterfront",
+    "eligibility": "Open to all"
+  }
+]

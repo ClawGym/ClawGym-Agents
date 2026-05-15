@@ -1,0 +1,25 @@
+game_id,title,emulator,version,test_id,result,notes
+BRK,Breakout,Stella,6.6,T-BRK-FRAME,pass,
+BRK,Breakout,Stella,6.6,T-BRK-RESET,pass,
+BRK,Breakout,Stella,6.6,T-BRK-PADDLE,fail,jitter on center position
+BRK,Breakout,Stella,6.7,T-BRK-FRAME,pass,
+BRK,Breakout,Stella,6.7,T-BRK-RESET,pass,
+BRK,Breakout,Stella,6.7,T-BRK-PADDLE,pass,jitter fixed
+WAR,Warlords,Stella,6.6,T-WAR-FRAME,pass,
+WAR,Warlords,Stella,6.6,T-WAR-RESET,pass,
+WAR,Warlords,Stella,6.6,T-WAR-PADDLE,fail,spin sensitivity too high
+WAR,Warlords,Stella,6.7,T-WAR-FRAME,pass,
+WAR,Warlords,Stella,6.7,T-WAR-RESET,pass,
+WAR,Warlords,Stella,6.7,T-WAR-PADDLE,fail,still too sensitive
+PIT,Pitfall!,Stella,6.6,T-PIT-FRAME,pass,
+PIT,Pitfall!,Stella,6.6,T-PIT-RESET,pass,
+PIT,Pitfall!,Stella,6.6,T-PIT-BANK,fail,glitch on level load
+PIT,Pitfall!,Stella,6.7,T-PIT-FRAME,pass,
+PIT,Pitfall!,Stella,6.7,T-PIT-RESET,pass,
+PIT,Pitfall!,Stella,6.7,T-PIT-BANK,pass,banking fixed
+IND,Indy 500,Stella,6.6,T-IND-FRAME,pass,
+IND,Indy 500,Stella,6.6,T-IND-RESET,pass,
+IND,Indy 500,Stella,6.6,T-IND-DRIVE,fail,steering not registering quadrature
+IND,Indy 500,Stella,6.7,T-IND-FRAME,pass,
+IND,Indy 500,Stella,6.7,T-IND-RESET,pass,
+IND,Indy 500,Stella,6.7,T-IND-DRIVE,fail,no change to driving input

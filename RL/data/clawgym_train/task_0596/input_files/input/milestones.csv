@@ -1,0 +1,5 @@
+milestone,target_date,status,notes
+Ship onboarding email sequence,2026-04-15,Done,Deployed to production; monitoring metrics
+Launch Gumroad v2 sales page,2026-04-16,On Track,Copy approved; awaiting final hero asset
+API wrapper MVP demo,2026-04-18,At Risk,Auth bug + rate limit; needs code review
+Renewal payment ready,2026-04-27,At Risk,Funding gap; minimum needed 90 GBP

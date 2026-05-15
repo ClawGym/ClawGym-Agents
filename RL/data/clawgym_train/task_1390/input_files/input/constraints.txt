@@ -1,0 +1,34 @@
+Project Constraints and Goals
+
+Timeline
+- Prototype scaffold within 2 days.
+- Production integration work to follow after vendor selection.
+
+Team & Process
+- Team size: 4 (2 backend engineers, 1 tech lead, 1 QA).
+- Mixed experience with architecture patterns; prefer explicit boundaries to aid onboarding and testing.
+
+Non-Functional Requirements
+- Maintainability: High; code should communicate boundaries clearly.
+- Testability: Must support unit tests with mock adapters; offline development mode is required.
+- Swappability: Payment and email providers will likely change; we need swappable adapters without touching core business logic.
+- Performance: Moderate (<= 50 RPS initially), not a primary concern for scaffold.
+- Reliability: Payment outcomes must be deterministic in tests; use mock implementations for scaffold.
+
+Technical Constraints
+- Language: Python 3.11.
+- Dependencies: Standard library only for scaffold (no external packages).
+- Framework Coupling: Prohibited in domain and ports. Keep domain independent of adapters and frameworks.
+- I/O: Keep to minimal console prints in adapters only (if needed).
+
+Architecture Guidance
+- Multiple unstable external integrations (payments: Stripe/Adyen/Braintree; notifications: SendGrid/SES/Mailgun) imply a Ports & Adapters (Hexagonal) approach.
+- Inbound ports represent use cases (e.g., PlaceOrder).
+- Outbound ports for payment, notification, and persistence.
+- Composition root wires concrete adapters to ports; domain and ports must not import from adapters.
+- Provide a simple CLI driving adapter for the PlaceOrder use case in the scaffold.
+
+Acceptance Criteria for Scaffold
+- Clear directory structure separating domain, ports (inbound/outbound), adapters (primary/secondary), and infrastructure (composition root).
+- Demonstrates adapter swappability and testability via mock payment and in-memory repository.
+- No external libraries; code runs with Python standard library only.

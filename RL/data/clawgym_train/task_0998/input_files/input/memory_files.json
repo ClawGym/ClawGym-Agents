@@ -1,0 +1,17 @@
+[
+  {
+    "agent": "alpha",
+    "path": "/home/user/.openclaw/memory/alpha/context-1.mem",
+    "size_bytes": 4096
+  },
+  {
+    "agent": "alpha",
+    "path": "/home/user/.openclaw/memory/alpha/context-2.mem",
+    "size_bytes": 8192
+  },
+  {
+    "agent": "beta",
+    "path": "/home/user/.openclaw/memory/beta/summary.mem",
+    "size_bytes": 4096
+  }
+]

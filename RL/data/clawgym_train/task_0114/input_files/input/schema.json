@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {"type": "string"},
+    "title": {"type": "string"},
+    "url": {"type": "string"},
+    "source_domain": {"type": "string"},
+    "publication_date": {"type": ["string", "null"]},
+    "condition": {"type": ["string", "null"]},
+    "design_type": {"type": ["string", "null"]},
+    "is_randomized": {"type": ["boolean", "null"]},
+    "sample_size_total": {"type": ["integer", "null"]},
+    "serious_adverse_event_rate": {"type": ["number", "null"]},
+    "dropout_rate": {"type": ["number", "null"]},
+    "funding_source": {"type": ["string", "null"]},
+    "conflict_of_interest": {"type": ["boolean", "null"]},
+    "notes": {"type": ["string", "null"]}
+  },
+  "required": [
+    "id",
+    "title",
+    "url",
+    "source_domain",
+    "design_type",
+    "is_randomized",
+    "condition",
+    "sample_size_total",
+    "serious_adverse_event_rate",
+    "dropout_rate"
+  ]
+}

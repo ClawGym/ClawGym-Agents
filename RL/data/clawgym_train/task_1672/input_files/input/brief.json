@@ -1,0 +1,17 @@
+{
+  "issue_number": 17,
+  "working_title": "Ship Weekly in 45 Minutes (Without Burnout)",
+  "main_topic": "A repeatable 3-step workflow (brief → voice check → sprint) to publish a weekly newsletter faster.",
+  "audience": "Solopreneurs building AI-assisted businesses (tools, agents, and systems).",
+  "goal": "Give readers a practical system they can adopt this week to ship the next issue on time.",
+  "sections": ["HOOK", "MAIN CONTENT", "PRACTICAL TAKEAWAY", "CLOSING", "CTA"],
+  "cta_style": "One clear CTA, specific action, no link shorteners, no 'click here'.",
+  "cta_copy_hint": "Reply 'weekly' to get my 1-page Weekly Writing System template.",
+  "length": "700-900 words",
+  "tone": "Check writing-state.md; direct, conversational, specific.",
+  "notes": [
+    "Integrate at least one stat/example from research.md (e.g., survey percentages, case study, or A/B test result).",
+    "Avoid banned phrases listed in writing-state.md.",
+    "Exactly one CTA line labeled 'CTA:'"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "contacts": [
+    {"role": "PI", "name": "Dr. Amelia Chen", "email": "amelia.chen@university.edu"},
+    {"role": "Biosafety Officer", "name": "Marco Ruiz", "email": "mruiz@university.edu"},
+    {"role": "Lab Manager", "name": "Priya Natarajan", "email": "priya.n@university.edu"},
+    {"role": "Team Lead", "name": "Samir Patel", "email": "samir.patel@university.edu"},
+    {"role": "Ethics Club Chair", "name": "Lena Morales", "email": "lena.morales@university.edu"}
+  ],
+  "group_aliases": {
+    "ethics_discussion_list": "bioe-ethics-discussion@university.edu"
+  }
+}

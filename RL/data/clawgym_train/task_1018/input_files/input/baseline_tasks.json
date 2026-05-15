@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": "hvac_filter",
+      "name": "Replace HVAC air filter",
+      "frequency": "quarterly",
+      "keywords": ["filter", "hvac", "air filter"]
+    },
+    {
+      "id": "smoke_alarms",
+      "name": "Test smoke alarms and replace batteries",
+      "frequency": "monthly",
+      "keywords": ["smoke alarm", "test", "battery"]
+    },
+    {
+      "id": "leaks_check",
+      "name": "Check faucets and pipes for leaks",
+      "frequency": "monthly",
+      "keywords": ["leak", "faucet", "drip"]
+    },
+    {
+      "id": "dryer_lint",
+      "name": "Clean dryer lint trap and vent",
+      "frequency": "weekly",
+      "keywords": ["lint", "dryer", "vent"]
+    },
+    {
+      "id": "gfci_test",
+      "name": "Test and reset GFCI outlets",
+      "frequency": "monthly",
+      "keywords": ["gfci", "outlet", "test reset"]
+    }
+  ]
+}

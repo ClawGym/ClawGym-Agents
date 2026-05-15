@@ -1,0 +1,33 @@
+version: v2
+table: users_dim
+description: User dimension table for analytics and reporting
+columns:
+  - name: id
+    type: INT
+    primary_key: true
+    nullable: false
+    description: Surrogate key for the user dimension
+  - name: email
+    type: VARCHAR(255)
+    nullable: false
+    description: User email address
+  - name: signup_date
+    type: DATE
+    nullable: true
+    description: Date the user registered (UTC)
+  - name: country
+    type: CHAR(2)
+    nullable: true
+    description: ISO-3166 alpha-2 country code
+  - name: created_at
+    type: TIMESTAMP
+    nullable: true
+    description: Record creation timestamp (UTC)
+indexes:
+  - name: users_dim_email_idx
+    columns: [email]
+  - name: users_dim_country_idx
+    columns: [country]
+owner: data_engineering
+retention: permanent
+quality_tier: gold

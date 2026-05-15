@@ -1,0 +1,3 @@
+id,claim_text,verdict,source_title,source_type,quote,date,match_keywords
+REF002_DUP,"Grandparents Day in the United States falls on the first Sunday after Labor Day.",supported,"National holidays overview",reference calendar,"Observed annually on the first Sunday after Labor Day.",2021-07-15,"grandparents day;first sunday;labor day"
+REF003_DUP,"Lemon water does not cure the common cold.",contradicted,"Community health clinic Q&A",health info,"There's no cure for the common cold; lemon water can provide comfort but is not a cure.",2022-02-10,"lemon water;common cold;cure"

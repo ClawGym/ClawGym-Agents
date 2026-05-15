@@ -1,0 +1,35 @@
+product_name: "LiteTrace"
+tagline: "Faster distributed tracing without the yak-shave"
+category: "Developer Tools / Observability"
+brand_voice:
+  principles:
+    - "Value-first: 80% helpful content, 20% product mention."
+    - "Transparency: always disclose we are the builders."
+    - "No hype for hype’s sake; prefer real-world examples and data."
+    - "Respect community norms; never ask for upvotes or reviews."
+  tone_by_community:
+    reddit:
+      style: "Casual, helpful, humble. Share examples and code snippets. Avoid corporate speak."
+      do:
+        - "Acknowledge trade-offs."
+        - "Use self-deprecating humor if appropriate."
+      dont:
+        - "No astroturfing or fake accounts."
+        - "No vote-begging or cross-post spam."
+    hacker_news:
+      style: "Technical and measured. Lead with data and implementation details."
+      do:
+        - "Include performance numbers, configs, and limitations."
+        - "Be ready to answer tough questions."
+      dont:
+        - "No marketing fluff or vague claims."
+    producthunt:
+      style: "Enthusiastic builder energy. Focus on story, problem, and what’s new."
+      do:
+        - "Share the ‘why’ behind LiteTrace and early user feedback."
+      dont:
+        - "No DMs asking for upvotes."
+messaging_notes:
+  - "Emphasize fast time-to-first-trace and low overhead."
+  - "Highlight Adaptive Burst Sampling and OTLP compatibility."
+  - "Position as complementary to existing backends like Jaeger/Tempo."

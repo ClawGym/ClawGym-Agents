@@ -1,0 +1,44 @@
+Early Modern Women’s Lives Research Collective — Meeting Notes
+Date: 2024-10-18
+Time: 14:05–15:27 UK
+Attendees (present): Dr. Ana Pérez (chair), Prof. S. Okoye, L. Hammond, J. Patel, C. Rossi, M. de Vries (remote), RA: Theo Wright
+Apologies: Dr. S. Iqbal
+
+[Item 1] Intros and quick updates.
+[14:08] Review of last actions. Theo confirms shared drive structure complete.
+
+[Item 2] Norwich household account books (1665–1670)
+[14:12] Transcription conventions reviewed; minor debate on long-s/ff ligatures.
+DECISION: Adopt transcription conventions v2.1 as circulated.
+DECISION: Proceed with extraction of weekly bread/ale expenses dataset from 1666–1667 folios.
+ACTION: J. Patel to finish double-keying folios 43–58 by 2024-10-25.
+[14:19] Note on ambiguous surname spelling in folio 47: “?? Mary? or Marie?” — flag for later consistency pass.
+
+[Item 3] Widows’ petitions to guilds c. 1620–1690
+[14:24] Metadata fields discussed: petitioner status, trade, marital status coding.
+DECISION: Adopt abbreviation "wd." for widow across petition dataset.
+ACTION: C. Rossi to draft 1-page guide for widows’ petition metadata fields by 2024-10-23.
+?? Is the guild petitions span ending 1690 or 1695? Need to verify.
+
+[Item 4] Bodleian visit (midwives’ casebooks)
+[14:36] Travel windows compared. Tentative reading room availability confirmed.
+DECISION: Schedule Bodleian visit for 2024-11-21 to 2024-11-22.
+ACTION: L. Hammond to contact Bodleian reading room about camera permits by 2024-10-20.
+ACTION: M. de Vries to compile list of midwives’ casebooks cited in Heal (1990) by 2024-10-30.
+ACTION: Theo Wright to set up shared Zotero tags "petitions_widows" and "midwives_casebooks" by 2024-10-19.
+
+[Item 5] Reading group: Cavendish, Sociable Letters
+[14:52] Text selected: 1664 edition, pp. 112–138.
+DECISION: Assign lead discussant Prof. Okoye for next session; confirm passages pp. 112–138.
+
+[Item 6] Funding update and outreach newsletter
+[15:05] Draft newsletter outline discussed; emphasis on women’s household economies and petitioning.
+DECISION: Publish newsletter on 2024-11-08 highlighting 17th-c women’s household economies and upcoming Bodleian work.
+ACTION: Ana to draft newsletter blurb by 2024-10-24.
+
+[Item 7] AOB and next meeting
+[15:20] Norwich alewife ledgers—insufficient time today.
+DECISION: Defer detailed analysis of Norwich alewife ledgers to November.
+DECISION: Next meeting on 2024-11-08 at 14:00 UK.
+
+End 15:27.

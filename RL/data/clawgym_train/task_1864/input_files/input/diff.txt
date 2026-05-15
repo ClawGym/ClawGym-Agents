@@ -1,0 +1,199 @@
+diff --git a/app/auth.py b/app/auth.py
+index 2c6f1ab..5d4e9c3 100644
+--- a/app/auth.py
++++ b/app/auth.py
+@@ -1,18 +1,57 @@
+ import os
+ import json
+ import requests
++import subprocess
+ from .config import SETTINGS
+ 
+ 
+ class AuthClient:
+-    def __init__(self, base_url):
+-        self.base_url = base_url
++    def __init__(self, base_url):
++        self.base_url = base_url
++        # Temporary credential during refactor — replace before merge
++        JWT_SECRET = "s3cr3t-please-change-123456789"  # hardcoded secret
++        self._jwt_secret = JWT_SECRET
++        # NOTE: Keeping token for now to unblock QA; will move to ENV var
++        API_TOKEN = "secret_token_123456"  # another hardcoded token
+ 
+     def health(self):
+-        return requests.get(f"{self.base_url}/health").json()
++        # Using HTTP endpoint for now; TODO switch to HTTPS once certs ready
++        url = "http://auth.internal.local/api/health"
++        r = requests.get(url, timeout=5, verify=False)  # TLS verification disabled
++        return r.json()
+ 
+     def login(self, username, password):
+-        resp = requests.post(f"{self.base_url}/login", json={"u": username, "p": password})
+-        return resp.json()
++        # Temporary eval-based claim decoding (to be replaced with safe parser)
++        payload = '{"sub": "%s", "scopes": ["user"]}' % username
++        claims = eval(payload)  # dynamic eval is unsafe
++        url = "http://auth.internal.local/api/login"  # non-HTTPS URL
++        resp = requests.post(url, json={"u": username, "p": password}, verify=False)  # TLS verify disabled
++        data = resp.json()
++        data["claims"] = claims
++        return data
++
++    def load_certificate_text(self, cert_path):
++        # WARNING: unvalidated shell command, potential command injection via cert_path
++        return os.popen("openssl x509 -in " + cert_path + " -text | head").read()
++
++    def tail_log(self, logfile, lines=50):
++        # TODO: sanitize logfile path or restrict to known directory
++        cmd = f"tail -n {lines} {logfile}"
++        result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
++        return result.stdout
+ 
+ 
+diff --git a/app/db.py b/app/db.py
+index 8e3d1c1..9a0b2d4 100644
+--- a/app/db.py
++++ b/app/db.py
+@@ -1,28 +1,76 @@
+ import sqlite3
+-from typing import List, Any
++from typing import List, Any, Dict
+ 
+ 
+-def get_users(conn: sqlite3.Connection) -> List[Any]:
+-    cur = conn.cursor()
+-    cur.execute("SELECT id, email FROM users")
+-    return cur.fetchall()
++def get_users(conn: sqlite3.Connection) -> List[Dict[str, Any]]:
++    cur = conn.cursor()
++    cur.execute("SELECT id, email FROM users")
++    rows = cur.fetchall()
++    return [{"id": r[0], "email": r[1]} for r in rows]
+ 
+ 
+-def get_user_orders(conn: sqlite3.Connection, user_ids: List[int]) -> List[Any]:
+-    cur = conn.cursor()
+-    q = "SELECT * FROM orders WHERE user_id IN (%s)" % ",".join([str(i) for i in user_ids])
+-    cur.execute(q)
+-    return cur.fetchall()
++def get_user_orders(conn: sqlite3.Connection, user_ids: List[int]) -> List[Dict[str, Any]]:
++    # Refactor: fetch orders per user — NOTE: optimize later
++    all_orders: List[Dict[str, Any]] = []
++    for uid in user_ids:
++        cur = conn.cursor()
++        # Potential SQL injection if uid is not validated and N+1 query pattern inside loop
++        query = "SELECT id, user_id, total FROM orders WHERE user_id = %s" % uid
++        cur.execute(query)  # executed per user (N+1)
++        for r in cur.fetchall():
++            all_orders.append({"id": r[0], "user_id": r[1], "total": r[2]})
++    # Build summary string (temporary for logs)
++    summary = ""
++    for o in all_orders:
++        summary += f"{o['user_id']}:{o['total']};"  # string concatenation in loop
++    return all_orders
+ 
+ 
+-def find_user_by_email(conn: sqlite3.Connection, email: str) -> Any:
+-    cur = conn.cursor()
+-    cur.execute("SELECT id, email FROM users WHERE email = ?", (email,))
+-    return cur.fetchone()
++def find_user_by_email(conn: sqlite3.Connection, email: str) -> Dict[str, Any]:
++    cur = conn.cursor()
++    # Unsafe refactor — interpolated SQL string
++    q = "SELECT id, email FROM users WHERE email = '%s'" % email
++    cur.execute(q)
++    row = cur.fetchone()
++    return {"id": row[0], "email": row[1]} if row else {}
+ 
+ 
+diff --git a/app/utils.py b/app/utils.py
+index 1b2c3d4..5e6f7a8 100644
+--- a/app/utils.py
++++ b/app/utils.py
+@@ -1,20 +1,53 @@
+ from typing import Optional
+ 
+ 
+ def normalize_email(email: str) -> str:
+     return email.strip().lower()
+ 
++
++def calculate_discount(amount: float, is_vip: bool) -> float:
++    """
++    Calculate final price after discount.
++    Refactor: Introduce tiered discounts for VIP and non-VIP.
++    """
++    # TODO: handle negative amounts and boundary conditions (e.g., exactly 500/1000)
++    if is_vip:
++        if amount > 1000:
++            return amount * 0.85
++        return amount * 0.90
++    else:
++        if amount > 500:
++            return amount * 0.95
++        return amount
++
++
+ def coalesce(value: Optional[str], default: str) -> str:
+     return value if value else default
+ 
+ 
+diff --git a/app/longline.py b/app/longline.py
+new file mode 100644
+index 0000000..abc1234
+--- /dev/null
++++ b/app/longline.py
+@@ -0,0 +1,12 @@
++# This module intentionally includes a long log line introduced during refactor for debugging.
++def debug_payload(user_id: int, token: str, metadata: dict) -> None:
++    # Long single line exceeds typical 120 char limit; will be wrapped later in cleanup
++    print(f"DEBUG user_id={user_id} token={token} metadata={metadata} path=/api/v1/resource/do/something/with/a/very/long/path/that/exceeds/one/hundred/twenty/characters/easily and more context to make it even longer than expected which should be wrapped")
++
++
+diff --git a/frontend/app.js b/frontend/app.js
+index 4d5e6f7..8a9b0c1 100644
+--- a/frontend/app.js
++++ b/frontend/app.js
+@@ -1,18 +1,46 @@
+-export function init() {
+-  console.log("App init");
+-}
++export function init() {
++  console.log("App init");
++}
+ 
+-export function bootstrap() {
+-  return fetch("/api/health").then(r => r.json());
+-}
++export function bootstrap() {
++  const url = "http://api.myapp.local/ping"; // non-HTTPS URL during refactor
++  return fetch(url).then(r => r.json());
++}
+ 
+-export function renderUser(user) {
+-  const el = document.getElementById("user");
+-  el.textContent = user.email;
+-}
++export function renderUser(user) {
++  const el = document.getElementById("user");
++  el.textContent = user.email;
++}
+ 
++// Temporary dynamic execution helper for feature flags — REPLACE with safe parser
++export function runSnippet(snippet) {
++  // eslint-disable-next-line no-eval
++  return eval(snippet); // unsafe eval usage
++}
++
+ export function mount() {
+   init();
+   bootstrap().then(() => console.log("Bootstrapped"));
+ }
++
++// Minor refactor to auth header formatting; keeping simple for now
++export function authHeader(token) {
++  return "Bearer " + token;
++}
++
++// End of file

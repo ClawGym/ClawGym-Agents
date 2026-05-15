@@ -1,0 +1,3 @@
+Hi church family! This Sunday's message is called "{{title}}", drawing from {{passage}} in our "{{series}}" series on {{date}}. I'll be preaching, and I'd love folks to come with open hearts. We'll reflect on the theme in this week's summary: {{summary}} Please invite neighbors and share widely.
+
+Please rewrite this into a warm, concise, story-minded note for the bulletin.

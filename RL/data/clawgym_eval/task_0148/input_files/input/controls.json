@@ -1,0 +1,10 @@
+[
+  {"id": "AC-2", "family": "AC", "title": "Account Management", "mandatory": {"low": true, "moderate": true, "high": true}, "priority": "P1"},
+  {"id": "AC-7", "family": "AC", "title": "Unsuccessful Logon Attempts", "mandatory": {"low": false, "moderate": true, "high": true}, "priority": "P2"},
+  {"id": "IA-2", "family": "IA", "title": "Identification and Authentication (Organizational Users)", "mandatory": {"low": true, "moderate": true, "high": true}, "priority": "P1"},
+  {"id": "IA-5", "family": "IA", "title": "Authenticator Management", "mandatory": {"low": true, "moderate": true, "high": true}, "priority": "P1"},
+  {"id": "AU-2", "family": "AU", "title": "Audit Events", "mandatory": {"low": true, "moderate": true, "high": true}, "priority": "P2"},
+  {"id": "CM-2", "family": "CM", "title": "Baseline Configuration", "mandatory": {"low": true, "moderate": true, "high": true}, "priority": "P1"},
+  {"id": "SC-7", "family": "SC", "title": "Boundary Protection", "mandatory": {"low": false, "moderate": true, "high": true}, "priority": "P1"},
+  {"id": "SC-13", "family": "SC", "title": "Cryptographic Protection", "mandatory": {"low": false, "moderate": true, "high": true}, "priority": "P2"}
+]

@@ -1,0 +1,3 @@
+{"event_id":"evt-101","fired_ids":["nodeA","nodeB"],"outcome":1.0,"content":"Deployment change resolved timeout errors; prefer download-then-terminate sequence."}
+{"event_id":"evt-102","fired_ids":["nodeC","nodeD"],"outcome":-1.0,"content":"Skipping cache invalidation caused stale results; add corrective safeguard."}
+{"event_id":"evt-103","fired_ids":["nodeB","nodeC"],"outcome":0.0,"content":"Observation: splitting bloated nodes improved retrieval focus and reduced hub dominance."}

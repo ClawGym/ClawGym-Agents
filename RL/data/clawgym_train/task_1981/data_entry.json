@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1981",
+  "user_query": "Run a final QA validation on the PRD at input/prd/upgrade-paywall-prd.md. Apply a 6-dimension quality gate: factual accuracy (verify each claim), tone/voice consistency, completeness (no TODO/TBD or missing sections), structural integrity (heading hierarchy, code blocks, links), operational soundness (are procedures executable), and sensitive data check (no secrets or keys). Then write a full QA report to output/qa-gate/2026-04-16-upgrade-paywall-prd.md using this structure: title, Gate Result (PASS | PASS WITH FIXES | FAIL), Artifact Type, Findings (with severities CRITICAL/MAJOR/MINOR and locations), and Summary. If the artifact fails, list all CRITICAL and MAJOR issues explicitly and quote the exact offending substrings in brackets where helpful. Do not modify the source file; only produce the QA report in the specified output path.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

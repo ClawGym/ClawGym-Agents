@@ -1,0 +1,34 @@
+{
+  "assessmentData": {
+    "experience": {
+      "yearsInDevelopment": 5,
+      "currentRole": "Software Engineer",
+      "arExperience": "intermediate",
+      "vrExperience": "beginner",
+      "shippedProjects": 1
+    },
+    "skills": {
+      "programmingLanguages": ["C#", "JavaScript", "Python"],
+      "gameEngines": ["Unity", "Unreal Engine"],
+      "platforms": ["Meta Quest", "PlayStation VR"],
+      "xrSDKs": ["OpenXR", "ARCore", "ARKit"],
+      "tools": ["Git", "Jira"],
+      "strengths": ["3D math fundamentals", "prototyping", "performance profiling"]
+    },
+    "goals": {
+      "primary": "Become a senior AR/VR architect",
+      "timeline": "24 months",
+      "focusArea": "enterprise solutions",
+      "targetRoles": ["Senior AR/VR Architect", "XR Technical Lead"],
+      "targetPlatforms": ["Meta Quest", "PlayStation VR"]
+    },
+    "availability": {
+      "hoursPerWeek": 10
+    },
+    "sessionId": "sess_abc123xyz789",
+    "timestamp": "2024-01-15T10:30:00Z"
+  },
+  "sessionId": "sess_abc123xyz789",
+  "userId": 1042,
+  "timestamp": "2024-01-15T10:30:00Z"
+}

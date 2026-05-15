@@ -1,0 +1,57 @@
+{
+  "promos": [
+    {
+      "app": "Uber",
+      "code": "UBERJFK10",
+      "discount_type": "fixed",
+      "amount": 10.0,
+      "expires": "2026-12-31",
+      "terms": "Valid for trips to or from JFK. Min fare $30. Applies to scheduled and on-demand. One use.",
+      "stackable": false,
+      "uses_remaining": 1
+    },
+    {
+      "app": "Lyft",
+      "code": "LYFTEARLY8",
+      "discount_type": "fixed",
+      "amount": 8.0,
+      "expires": "2026-12-31",
+      "terms": "Valid only on scheduled rides booked >=15 minutes before pickup. Min fare $25. One use.",
+      "stackable": false,
+      "uses_remaining": 1
+    },
+    {
+      "app": "Curb",
+      "code": "CURBRESERVE5",
+      "discount_type": "fixed",
+      "amount": 5.0,
+      "expires": "2026-12-31",
+      "terms": "Valid only on Curb Reserve (scheduled). Min fare $20. One use.",
+      "stackable": false,
+      "uses_remaining": 1
+    }
+  ],
+  "credits": [
+    {
+      "app": "Uber",
+      "name": "Uber Cash",
+      "balance": 0.0,
+      "auto_applied": true,
+      "notes": "Monthly Amex credit already used in April"
+    },
+    {
+      "app": "Lyft",
+      "name": "Lyft Credits",
+      "balance": 0.0,
+      "auto_applied": true,
+      "notes": "No current balance"
+    },
+    {
+      "app": "Curb",
+      "name": "Curb Wallet",
+      "balance": 0.0,
+      "auto_applied": true,
+      "notes": "No current balance"
+    }
+  ]
+}

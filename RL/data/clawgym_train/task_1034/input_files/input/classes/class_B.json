@@ -1,0 +1,12 @@
+{
+  "option_id": "B",
+  "title": "Evening Smithing Basics",
+  "provider": "Riverside Guild",
+  "tuition_usd": 380,
+  "commute_km": 28,
+  "weekly_hours": 5,
+  "meeting_days": ["Tue", "Thu"],
+  "start_date": "2026-05-15",
+  "end_date": "2026-06-12",
+  "contact_email": "info@riversideguild.net"
+}

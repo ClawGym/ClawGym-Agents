@@ -1,0 +1,51 @@
+{
+  "version": "1.4.2",
+  "period": "last-7-days",
+  "npm_downloads": 1248,
+  "installs": 18,
+  "issues": [
+    {
+      "id": 231,
+      "title": "Network commands fail intermittently; need auto-retry",
+      "type": "feature",
+      "status": "open",
+      "user": "@devon",
+      "created_at": "2026-04-19T09:33:00Z",
+      "body": "install and fetch occasionally fail with ECONNRESET on flaky wifi. Please add automatic retries with backoff."
+    },
+    {
+      "id": 228,
+      "title": "Progress bar stalls on large imports",
+      "type": "bug",
+      "status": "closed",
+      "user": "@hikari",
+      "created_at": "2026-04-18T16:10:00Z",
+      "closed_at": "2026-04-19T20:00:00Z",
+      "body": "Under v1.4.2 the spinner freezes at 99% for ~30s but the operation completes. Cosmetic but confusing."
+    },
+    {
+      "id": 226,
+      "title": "Docs: mismatch between help text and README",
+      "type": "docs",
+      "status": "open",
+      "user": "@samantha",
+      "created_at": "2026-04-18T08:05:00Z",
+      "body": "README says --force defaults to false; --help shows true. Which is correct?"
+    }
+  ],
+  "user_notes": [
+    {
+      "user": "@ops-automation",
+      "note": "We saw 10-15% transient failures on CI with v1.4.2. Automatic retry would help stabilize nightly jobs.",
+      "timestamp": "2026-04-20T07:45:00Z"
+    },
+    {
+      "user": "@pete",
+      "note": "The colorized logs in 1.4.2 are great. Would love a --retry flag for fetch/install on poor hotel wifi.",
+      "timestamp": "2026-04-19T12:20:00Z"
+    }
+  ],
+  "telemetry": {
+    "network_error_rate_first_attempt": 0.12
+  }
+}

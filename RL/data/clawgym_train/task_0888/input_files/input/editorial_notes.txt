@@ -1,0 +1,7 @@
+Editorial notes for scene revision:
+- Make minimal changes necessary to restore mid-century ad voice.
+- Do NOT alter lines that begin with "NARRATION:".
+- Only adjust dialogue lines that begin with "Lila:" or "Jack:".
+- Preserve character names, scene order, and any ad slogans in quotation marks unless they contain terms from the Avoid list in the guide.
+- Timeframe is 1959 Manhattan; avoid anachronisms.
+- Maintain romantic tension; do not remove bracketed or implicit stage directions.

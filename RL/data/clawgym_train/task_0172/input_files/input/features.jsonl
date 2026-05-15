@@ -1,0 +1,6 @@
+{"id": 101, "title": "User Profiles", "status": "Planned", "description": "Basic profile pages with avatars", "component": "frontend"}
+{"id": "102", "title": "MFA Support", "status": "design", "description": "TOTP only", "component": "auth"}
+{"id": "F-104", "title": "Dark Mode", "status": "In_Progress", "description": "Theme toggle with OS preference", "component": "ui"}
+{"id": 101, "title": "User Profiles", "status": "Ready", "description": "Extended profile fields and privacy controls", "component": "frontend"}
+{"id": 103, "title": "Search", "status": "Planned", "description": "Site-wide keyword search with filters", "component": "backend"}
+{"id": 102, "title": "MFA Support", "status": "Review", "description": "TOTP + backup codes", "component": "auth"}

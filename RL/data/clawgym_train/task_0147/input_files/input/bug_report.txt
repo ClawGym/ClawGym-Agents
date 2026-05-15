@@ -1,0 +1,65 @@
+Title: CSV→JSON converter produced extra empty record and failed type/null normalization
+
+Date: 2026-04-15
+Environment:
+- Python 3.11.8
+- macOS 14.4.1
+- Ran via: python tools/csv_to_json.py samples/input.csv samples/output.json
+
+Summary of Issues Observed
+1) Trailing blank line created an extra empty object in JSON
+- Actual last element was {"id": null, "name": null, "age": null, "height": null, "notes": null}
+- Expected: No extra object for trailing whitespace-only line
+
+2) Whitespace trimming not applied to cells
+- Input cell " Alice " remained " Alice " in JSON instead of "Alice"
+
+3) "NULL"/"null" values not mapped to JSON null consistently
+- "null" (lowercase) worked in one code path; "NULL" (uppercase) stayed as the string "NULL"
+- " null " (with spaces) stayed as " null " (string), not null
+
+4) Numeric conversion incomplete
+- Values like "5.0" and " 6 " were emitted as strings "5.0" and " 6 " instead of numbers 5.0 and 6
+- Negative integers "-7" also remained strings
+
+5) Missing cells caused an IndexError
+- Error Output:
+  Traceback (most recent call last):
+    ...
+    row_dict = dict(zip(headers, row))  # headers=5, row had only 4 cells
+  IndexError: list index out of range
+
+Repro Steps
+1. Use a CSV with headers and a few data rows, including:
+   - A trailing whitespace-only line
+   - Cells with leading/trailing spaces
+   - Mixed-case "NULL"/"null"
+   - Missing cells
+   - Numeric-looking values like "5.0", " 6 ", "-7"
+2. Run: python tools/csv_to_json.py input.csv output.json
+3. Inspect the resulting JSON array:
+   - Observe extra empty object at the end (from trailing blank line)
+   - Observe strings where numbers should be numbers
+   - Observe "NULL" strings not mapped to null
+   - Potential IndexError when row has fewer cells than headers
+
+Expected Behavior
+- Ignore any blank/whitespace-only lines anywhere in the file (no empty objects).
+- Trim whitespace around every cell and header.
+- Map case-insensitive "null" (e.g., "NULL", " null ") to JSON null.
+- Treat empty cells as null.
+- Convert numeric-looking values to numbers (int first, then float).
+- Gracefully pad missing cells with null; do not throw IndexError.
+- Extra cells beyond header count should be ignored.
+
+Suggested Fix
+- Pre-filter lines: skip any that are blank or whitespace-only; detect header from the first non-blank line.
+- Use csv.reader for parsing; after parsing, strip() each cell.
+- Normalize values:
+  - If value == "" → None
+  - If value (casefold()) == "null" → None
+  - Else try int conversion, then float; if both fail, keep as string
+- When building row dicts:
+  - If len(row) < len(headers): pad row with None to header length
+  - If len(row) > len(headers): truncate row to header length
+- Add tests for blank-line handling, trimming, numeric conversion (ints/floats), and null mapping to prevent regressions.

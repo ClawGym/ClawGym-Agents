@@ -1,0 +1,15 @@
+{
+  "name": "net-monitor",
+  "trust_level": "VERIFIED",
+  "scanner_findings": [
+    {
+      "severity": "LOW",
+      "message": "Debug logging enabled by default."
+    }
+  ],
+  "code_text": "# Network Monitor\\n\\nimport socket\\nimport time\\n\\ndef check_port(host, port, timeout=2):\\n    s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)\\n    s.settimeout(timeout)\\n    try:\\n        s.connect((host, port))\\n        return True\\n    except Exception:\\n        return False\\n    finally:\\n        s.close()\\n\\nif __name__ == '__main__':\\n    targets = [('1.1.1.1', 53), ('8.8.8.8', 53)]\\n    for h, p in targets:\\n        status = 'open' if check_port(h, p) else 'closed'\\n        print(f'{h}:{p} is {status}')\\n",
+  "dependencies": [
+    "psutil==5.9.8"
+  ],
+  "has_checksums": true
+}

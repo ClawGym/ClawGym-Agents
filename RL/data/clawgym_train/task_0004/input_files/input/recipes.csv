@@ -1,0 +1,9 @@
+cuisine,dish_name,asset_path,tags,vegetarian,spice_level,origin_city
+Ethiopian,Doro Wat,input/assets/ethiopian_doro_wat.txt,stew|spicy,false,hot,Addis Ababa
+Japanese,Okonomiyaki,input/assets/japanese_okonomiyaki.txt,street|savory,false,medium,Osaka
+Japanese,Onigiri,input/assets/japanese_onigiri.txt,snack|rice,true,mild,Tokyo
+Mexican,Tacos al Pastor,input/assets/mexican_tacos_al_pastor.txt,street|pork,false,medium,Mexico City
+Ethiopian,Injera with Shiro,input/assets/ethiopian_injera_shiro.txt,staple|vegan,true,mild,Addis Ababa
+Okinawan,Goya Champuru,input/assets/okinawan_goya_champuru.txt,stir-fry|bitter,false,medium,Naha
+Yucatecan,Cochinita Pibil,input/assets/yucatecan_cochinita_pibil.txt,slow-cook|pork,false,hot,Merida
+Eritrean,Zigni,input/assets/eritrean_zigni.txt,stew|spicy,false,hot,Asmara

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 101,
+    "title": "Write Q2 roadmap draft",
+    "difficulty": "deep",
+    "est_minutes": 90,
+    "due_date": "2026-06-03",
+    "must_do": true
+  },
+  {
+    "id": 102,
+    "title": "Prepare client proposal v1",
+    "difficulty": "focus",
+    "est_minutes": 90,
+    "due_date": "2026-06-03",
+    "must_do": true
+  },
+  {
+    "id": 103,
+    "title": "Finalize budget adjustments",
+    "difficulty": "deep",
+    "est_minutes": 60,
+    "due_date": "2026-06-04",
+    "must_do": true
+  },
+  {
+    "id": 104,
+    "title": "Inbox triage (email + Slack)",
+    "difficulty": "light",
+    "est_minutes": 30,
+    "due_date": "2026-06-10",
+    "must_do": false
+  },
+  {
+    "id": 105,
+    "title": "Update team wiki: API docs",
+    "difficulty": "focus",
+    "est_minutes": 60,
+    "due_date": "2026-06-07",
+    "must_do": false
+  },
+  {
+    "id": 106,
+    "title": "Plan sprint backlog grooming",
+    "difficulty": "focus",
+    "est_minutes": 45,
+    "due_date": "2026-06-05",
+    "must_do": false
+  },
+  {
+    "id": 107,
+    "title": "Book dentist appointment",
+    "difficulty": "light",
+    "est_minutes": 15,
+    "due_date": "2026-06-20",
+    "must_do": false
+  },
+  {
+    "id": 108,
+    "title": "Daily journal + reflection",
+    "difficulty": "light",
+    "est_minutes": 20,
+    "due_date": "2026-06-03",
+    "must_do": false
+  }
+]

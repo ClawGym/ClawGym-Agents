@@ -1,0 +1,6 @@
+{
+  "required_fields": ["id", "date", "city", "country", "text"],
+  "id_prefix": "DE-",
+  "id_digits": 3,
+  "date_regex": "^\\d{4}-\\d{2}-\\d{2}$"
+}

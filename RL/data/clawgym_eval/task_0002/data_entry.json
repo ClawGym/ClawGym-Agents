@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0002",
+  "user_query": "We're doing a quarterly CI artifact storage audit. Please read all JSON exports under input/ci-artifacts/*.json and generate two machine-readable reports with exact paths:\n\n1) Full audit: group artifacts by repository and artifact name, compute per-group max/avg/total size in MiB, instance/run counts, and expired/soon-to-expire counts. Apply thresholds WARN_MB=300 and CRITICAL_MB=900, TOP_N=5, OUTPUT_FORMAT=json, and SOON_EXPIRES_DAYS=0. Write the raw JSON report to output/audit/report.json. The JSON must include these top-level keys: summary (with files_matched, files_scanned, records_scanned, records_filtered, records_missing_size, groups, critical_instances, warn_mb, critical_mb, soon_expires_days, top_n, filters), groups (top N groups), all_groups (full list), and critical_instances (each instance at or above critical). Do not make any network calls; only use the local input files.\n\n2) Filtered audit: same computation, but only include artifact names matching the regex (coverage|test-results). Use TOP_N=10, OUTPUT_FORMAT=json, SOON_EXPIRES_DAYS=0, and the same thresholds. Write this JSON to output/audit/report_filtered.json. Ensure the summary.filters.artifact_match reflects the regex used.\n\nNote: Normalize repository identifiers consistently whether the input \"repository\" is a string or an object with nameWithOwner/full_name. Treat missing/empty artifact names as \"<unnamed-artifact>\". Skip and count any records with missing/invalid size_in_bytes as records_missing_size.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

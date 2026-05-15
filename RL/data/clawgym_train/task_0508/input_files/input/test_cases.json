@@ -1,0 +1,9 @@
+{
+  "cases": [
+    {"beats": 3, "steps": 8, "expected": "10010010"},
+    {"beats": 4, "steps": 9, "expected": "100100100"},
+    {"beats": 5, "steps": 16, "expected": "1001001001001000"},
+    {"beats": 7, "steps": 12, "expected": "101101010110"},
+    {"beats": 5, "steps": 4, "expect_error_substring": "beats must be <= steps"}
+  ]
+}

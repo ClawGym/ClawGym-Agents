@@ -1,0 +1,4 @@
+rule,outcome,status,violations,tested_rows
+"NOT NULL check on user_id","0 violations out of 35214 rows","PASS",0,35214
+"email matches regex","17 violations out of 35214 rows","FAIL",17,35214
+"signup_date parseable","3 violations out of 35214 rows","WARN",3,35214

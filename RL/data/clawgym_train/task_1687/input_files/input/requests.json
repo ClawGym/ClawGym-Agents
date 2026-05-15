@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ops-urgent-123",
+    "recipient": "Sam Patel",
+    "relationship": "internal_ops",
+    "role": "SRE Lead",
+    "urgency": "emergency",
+    "recipient_local_hour": 10,
+    "last_messages": [
+      "ack. checking logs.",
+      "on it — paging payments now.",
+      "pls open an incident channel + drop links.",
+      "#inc-payments-2026-04-19 created. see thread.",
+      "share grafana/pagerduty context here."
+    ],
+    "content": "Production down impacting checkout payments. Need Sam to join the incident bridge ASAP, confirm they saw the page, and coordinate next steps. Keep it concise — just enough to orient."
+  },
+  {
+    "id": "inv-001",
+    "recipient": "Priya Venkataraman",
+    "relationship": "investor",
+    "role": "Partner, Catalyst Ventures",
+    "urgency": "this_week",
+    "recipient_local_hour": 5,
+    "last_messages": [
+      "Hi Alex, thanks for the April update. Quick question on your go-to-market assumptions.",
+      "Hi Priya, appreciate the thoughtful feedback. Attaching the detailed cohort analysis.",
+      "Thanks, Alex. Noted. Let's revisit in May. Best, Priya",
+      "Understood. I'll send the May metrics by the 5th. Best, Alex",
+      "Sounds good. Best, Priya"
+    ],
+    "content": "Draft a brief update about last week's customer demo outcomes and a request for feedback on our positioning. Keep it professional and concise. No hard promises; just ask for input."
+  },
+  {
+    "id": "client-complaint-77",
+    "recipient": "Jordan Lee",
+    "relationship": "client_enterprise",
+    "role": "Director of IT, Northwind Logistics",
+    "urgency": "same_day",
+    "recipient_local_hour": 14,
+    "last_messages": [
+      "Hello Alex, our team noticed an unexpected billing overage this cycle.",
+      "Hi Jordan, thanks for flagging. We will review the usage details and follow up.",
+      "We are disappointed this slipped through, especially given the contract limits. Please advise.",
+      "Thanks for the context. Let's pull the line items and clarify what happened. Regards, Alex",
+      "We would like to discuss a refund and next steps. Regards, Jordan"
+    ],
+    "content": "Reply to Jordan acknowledging their complaint about billing overage and request for refund. Recognize the concern, suggest a call to review details with finance and account teams, and avoid committing to any refunds or contractual interpretations. Maintain a professional, calm tone."
+  },
+  {
+    "id": "friend-042",
+    "recipient": "Maya Chen",
+    "relationship": "friend",
+    "role": "Friend",
+    "urgency": "this_week",
+    "recipient_local_hour": 19,
+    "last_messages": [
+      "yo u free sat for the hike?",
+      "yesss let’s do it 🥾",
+      "cool cool, I’ll bring snacks 😎",
+      "lol perfect, meet 9?",
+      "👍 see u then!"
+    ],
+    "content": "Check if Saturday still works for the hike and suggest confirming meetup spot. Keep it casual and short."
+  }
+]

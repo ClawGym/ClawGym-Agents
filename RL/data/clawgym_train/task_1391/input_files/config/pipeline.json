@@ -1,0 +1,7 @@
+{
+  "input_csv": "input/samples.csv",
+  "site_id": "Tel_Hazon",
+  "min_density": 1.6,
+  "max_depth_cm": 120,
+  "output_dir": "output"
+}

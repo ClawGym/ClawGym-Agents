@@ -1,0 +1,13 @@
+supplement,manufacturer,category,claimed_benefit,evidence_level,adverse_event_reports,interactions_count,service_member_incidents,banned_substances_flag,quality_seal_flag
+Fish Oil,Ocean Labs,Omega-3,Heart health,High,25,3,1,0,1
+Green Tea Extract,LeafWorks,Herbal,Metabolism support,Moderate,70,5,2,0,0
+DMAA Pre-Workout,Power Surge,Pre-Workout,Energy/Focus,None,220,7,15,1,0
+Vitamin D3,SunBright,Vitamins,Bone/Immune support,High,10,1,0,0,1
+Kratom Capsules,NatureRoot,Botanical,Pain/Mood,Low,180,9,11,1,0
+Turmeric Curcumin,GoldenSpice,Herbal,Inflammation support,Moderate,15,2,0,0,1
+Echinacea,PrairieHerb,Herbal,Immune support,Low,40,2,1,0,0
+Melatonin,SleepWell,Melatonin,Sleep support,Moderate,20,3,1,0,1
+St. John's Wort,SunVale,Herbal,Mood support,Moderate,65,18,3,0,0
+Ginkgo Biloba,AncientLeaf,Herbal,Memory/Focus,Low,55,6,2,0,0
+Creatine Monohydrate,PeakForm,Performance,Strength/Power,Moderate,12,1,0,0,1
+Yohimbe Bark,WildCore,Herbal,Energy/Libido,Low,140,8,6,0,0

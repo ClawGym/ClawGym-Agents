@@ -1,0 +1,22 @@
+{
+  "queries": [
+    {
+      "query_id": "csb_official_news",
+      "query": "Canada Snowboard news press release site:canadasnowboard.ca",
+      "allowed_domains": ["canadasnowboard.ca"],
+      "max_results": 8
+    },
+    {
+      "query_id": "fis_snowboard_canada",
+      "query": "FIS Snowboard Canada results site:fis-ski.com",
+      "allowed_domains": ["fis-ski.com"],
+      "max_results": 8
+    },
+    {
+      "query_id": "gov_canada_snowboard_funding",
+      "query": "Snowboard Canada funding announcement site:canada.ca",
+      "allowed_domains": ["canada.ca"],
+      "max_results": 5
+    }
+  ]
+}

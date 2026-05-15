@@ -1,0 +1,7 @@
+as_of_date: 2025-03-15
+planning_window_days: 30
+priority_weights:
+  Urgent: 4
+  High: 3
+  Medium: 2
+  Low: 1

@@ -1,0 +1,3 @@
+# CODEOWNERS for tools-portal
+/ @corp-tools
+/scripts/ @field-eng

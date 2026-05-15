@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1636",
+  "user_query": "Please import my April finance data into my local tracker and produce three reports. Read these files under input/:\n- input/transactions.csv (columns: date, description, category, amount)\n- input/budgets.json (monthly budgets by category)\n- input/schedules.csv (scheduled EMIs and one-time payments with due dates)\n\nTasks:\n1) Use the data to create/update categories (including any custom ones), set monthly budgets, insert all transactions, and register the scheduled payments. Assume today is 2026-04-10 for reminders.\n2) Generate a weekly spending digest for the week 2026-04-06 through 2026-04-12 (inclusive) and write it to output/weekly_digest_2026-04-06_to_2026-04-12.json. Include per-category totals for that week and an overall total.\n3) Generate an April 2026 budget status report and write it to output/budget_status_2026-04.json. For each category that appears in budgets or transactions, include: budget, spent (April only), and remaining (budget - spent). Mark overspending if spent > budget.\n4) Generate upcoming payment reminders for the next 14 days from 2026-04-10 (inclusive) and write them to output/reminders_next_14_days_from_2026-04-10.json. Include each item’s type, name, amount, and due_date, sorted by due_date.\n5) Export all April 2026 transactions you inserted (date, description, category, amount) sorted by date ascending to output/april_2026_transactions.csv.\n\nExact file paths to write:\n- output/weekly_digest_2026-04-06_to_2026-04-12.json\n- output/budget_status_2026-04.json\n- output/reminders_next_14_days_from_2026-04-10.json\n- output/april_2026_transactions.csv",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

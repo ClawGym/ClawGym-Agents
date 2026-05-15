@@ -1,0 +1,14 @@
+engine: postgresql
+version: "13.9"
+cluster: "prod-eu-west"
+extensions:
+  - pg_stat_statements
+settings:
+  work_mem: "4MB"
+  shared_buffers: "8GB"
+  effective_cache_size: "24GB"
+  maintenance_work_mem: "2GB"
+  random_page_cost: 1.1
+  default_statistics_target: 100
+  max_parallel_workers: 8
+  max_parallel_workers_per_gather: 2

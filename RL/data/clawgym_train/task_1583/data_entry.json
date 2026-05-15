@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1583",
+  "user_query": "I’m a loyal Alanyaspor fan and I want to turn the attached season match log into something I can share with friends. Please do the following using the local files only (no Internet):\n\n1) Implement and run a script or command-line program that reads input/matches.csv, computes an excitement_score for each match, ranks the matches, and writes two outputs under output/:\n   - excitement_score = (goals_for + goals_against) + (1 if abs(goals_for - goals_against) == 1 else 0) + (1 if (goals_for + goals_against) >= 4 else 0)\n   - For the ranking, EXCLUDE 0–0 draws from consideration (filter them out), then sort by excitement_score descending, tie‑break by date ascending, then opponent ascending. Write exactly the top 5 rows to output/top_matches.csv with columns in this order: date,opponent,competition,home_away,goals_for,goals_against,result,excitement_score. Compute result as W/D/L from the scores.\n   - Also produce output/home_away_summary.csv summarizing all matches (including 0–0 draws) grouped by home_away with columns: venue (Home/Away), matches, wins, draws, losses, avg_goals_for, avg_goals_against, avg_excitement_score.\n\n2) Rewrite the note in input/message_draft.txt into a concise, upbeat fan message (120–180 words) that invites friends to revisit the season. Make it friendly and clear, remove repetition, and include a reference to each of the top five matches from output/top_matches.csv using the format “vs {opponent} ({goals_for}-{goals_against}) on {date}”. Save the rewrite to output/fan_message.txt.\n\nPlease place any scripts you create under scripts/ and run them so the three deliverables exist at: output/top_matches.csv, output/home_away_summary.csv, and output/fan_message.txt. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

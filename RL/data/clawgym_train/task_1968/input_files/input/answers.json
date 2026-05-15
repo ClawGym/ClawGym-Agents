@@ -1,0 +1,42 @@
+{
+  "skill_name": "incident-postmortem-writer",
+  "purpose": "Generate consistent, no-blame incident postmortems that capture timeline, root cause (5 Whys), impact, lessons, and actionable follow-ups.",
+  "trigger_conditions": [
+    "create a postmortem",
+    "incident report",
+    "RCA template",
+    "write a post-incident review",
+    "postmortem draft",
+    "outage report",
+    "root cause analysis"
+  ],
+  "process_steps": [
+    "Confirm scope, severity, and time window for the incident; collect or ask for essentials (title, dates, services affected, severity, stakeholders).",
+    "Normalize timestamps to UTC ISO 8601 and anonymize names to roles/teams; ensure consistent nomenclature for systems and services.",
+    "Draft a short Summary (what happened, when, primary impact, duration, status) and quantify Impact with metrics (error rate, latency, revenue/user impact).",
+    "Construct a Timeline from provided events, chats, pages, and logs; sort chronologically; mark key moments (detection, escalation, mitigation, resolution).",
+    "Run a 5 Whys analysis in neutral, no-blame language to identify root cause; list Contributing Factors across people/process/technology without naming individuals.",
+    "Document Detection and Response: how it was detected (signals/alerts), MTTD/MTTR, response actions taken, and gaps observed.",
+    "Capture What Went Well and What Went Wrong to highlight strengths and opportunities; include links to evidence if provided by the user.",
+    "Generate SMART Action Items with fields: description, owner (role/team), due_date (YYYY-MM-DD), and status (todo/in-progress/done).",
+    "Perform quality checks: enforce no-blame, redact secrets or sensitive identifiers, ensure clarity, and verify consistency with the standard template.",
+    "Output a complete Markdown postmortem using the standard sections and formatting so it can be shared and iterated."
+  ],
+  "required_tools": {
+    "binaries": [],
+    "apis": [],
+    "env": [],
+    "notes": "Text-only generation. Optionally reads user-provided incident notes or log excerpts pasted into the session. No external commands, no network, no credentials."
+  },
+  "constraints": [
+    "Follow a strict no-blame policy; never attribute fault to individuals.",
+    "Do not access the network or external services; operate on user-provided text only.",
+    "Redact secrets, tokens, hostnames, or internal URLs unless the user explicitly says they are safe to include.",
+    "Use neutral, psychologically safe language; avoid accusatory phrasing.",
+    "Prefer roles/teams (e.g., 'SRE on-call') over individual names.",
+    "Use UTC times in ISO 8601 format and include time zone.",
+    "Ensure the final output follows the standard template and includes Action Items with description, owner, due_date, and status.",
+    "Do not store or reuse incident data beyond the current session.",
+    "Do not execute shell commands or modify files."
+  ]
+}

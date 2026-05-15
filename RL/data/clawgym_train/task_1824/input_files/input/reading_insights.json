@@ -1,0 +1,20 @@
+[
+  {
+    "id": "bk001",
+    "title": "Deliberate Practice and Lasting Learning",
+    "insight": "Deliberate practice turns focused effort into lasting learning.",
+    "depth": "detailed"
+  },
+  {
+    "id": "bk002",
+    "title": "The Power of Feedback in Practice",
+    "insight": "Consistent practice works best when guided by clear feedback loops.",
+    "depth": "brief"
+  },
+  {
+    "id": "bk003",
+    "title": "Growth Mindset and Continuous Improvement",
+    "insight": "A growth mindset reframes setbacks as feedback for continuous improvement.",
+    "depth": "comprehensive"
+  }
+]

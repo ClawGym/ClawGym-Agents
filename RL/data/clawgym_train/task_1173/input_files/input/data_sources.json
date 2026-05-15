@@ -1,0 +1,158 @@
+{
+  "sources": [
+    {
+      "name": "PublicNewsForum",
+      "source_type": "public_forum",
+      "requires_login": false,
+      "robots_txt_allows": true,
+      "robots_txt_crawl_delay": 5,
+      "terms_scraping_prohibited": false,
+      "has_official_api": false,
+      "api_recommended": false,
+      "public_data": true,
+      "rate_limit_hint_rps": 1.0,
+      "geographic_scope": "global",
+      "pii_risk": "low",
+      "sample_urls": [
+        "https://newsforum.example.com/topics/data",
+        "https://newsforum.example.com/robots.txt"
+      ],
+      "notes": "Open discussion forum; attribution requested but not mandated."
+    },
+    {
+      "name": "PhotoShare",
+      "source_type": "consumer_photos",
+      "requires_login": true,
+      "robots_txt_allows": false,
+      "robots_txt_crawl_delay": null,
+      "terms_scraping_prohibited": true,
+      "has_official_api": true,
+      "api_recommended": true,
+      "public_data": false,
+      "rate_limit_hint_rps": 0.1,
+      "geographic_scope": "global",
+      "pii_risk": "high",
+      "sample_urls": [
+        "https://photoshare.example.com/",
+        "https://photoshare.example.com/robots.txt"
+      ],
+      "notes": "Explicitly prohibits automated scraping; API access available with OAuth and contractual terms."
+    },
+    {
+      "name": "ProNet",
+      "source_type": "professional_network",
+      "requires_login": true,
+      "robots_txt_allows": true,
+      "robots_txt_crawl_delay": 10,
+      "terms_scraping_prohibited": true,
+      "has_official_api": true,
+      "api_recommended": true,
+      "public_data": true,
+      "rate_limit_hint_rps": 0.2,
+      "geographic_scope": "global",
+      "pii_risk": "medium",
+      "sample_urls": [
+        "https://pronet.example.com/public-profiles",
+        "https://pronet.example.com/robots.txt"
+      ],
+      "notes": "Public profiles visible but terms limit automated collection; API offers profile fields with rate limits."
+    },
+    {
+      "name": "CodeHub",
+      "source_type": "code_hosting",
+      "requires_login": false,
+      "robots_txt_allows": true,
+      "robots_txt_crawl_delay": 2,
+      "terms_scraping_prohibited": false,
+      "has_official_api": true,
+      "api_recommended": true,
+      "public_data": true,
+      "rate_limit_hint_rps": 1.5,
+      "geographic_scope": "global",
+      "pii_risk": "low",
+      "sample_urls": [
+        "https://codehub.example.com/explore",
+        "https://codehub.example.com/robots.txt"
+      ],
+      "notes": "Public repos are broadly crawlable; prefer API for reliability and rate clarity."
+    },
+    {
+      "name": "CityOpenData",
+      "source_type": "government_open_data",
+      "requires_login": false,
+      "robots_txt_allows": true,
+      "robots_txt_crawl_delay": 1,
+      "terms_scraping_prohibited": false,
+      "has_official_api": true,
+      "api_recommended": true,
+      "public_data": true,
+      "rate_limit_hint_rps": 2.0,
+      "geographic_scope": "city",
+      "pii_risk": "low",
+      "sample_urls": [
+        "https://data.city.example.gov/datasets",
+        "https://data.city.example.gov/robots.txt"
+      ],
+      "notes": "Open license (CC BY 4.0); API keys optional for higher quotas."
+    },
+    {
+      "name": "ReviewSite",
+      "source_type": "product_reviews",
+      "requires_login": false,
+      "robots_txt_allows": true,
+      "robots_txt_crawl_delay": 8,
+      "terms_scraping_prohibited": true,
+      "has_official_api": false,
+      "api_recommended": false,
+      "public_data": true,
+      "rate_limit_hint_rps": 0.2,
+      "geographic_scope": "global",
+      "pii_risk": "medium",
+      "sample_urls": [
+        "https://reviewsite.example.com/categories/electronics",
+        "https://reviewsite.example.com/robots.txt"
+      ],
+      "notes": "Terms prohibit scraping; public pages include user PII like names and locations."
+    },
+    {
+      "name": "MicroBlog",
+      "source_type": "microblogging",
+      "requires_login": true,
+      "robots_txt_allows": true,
+      "robots_txt_crawl_delay": 3,
+      "terms_scraping_prohibited": true,
+      "has_official_api": true,
+      "api_recommended": true,
+      "public_data": true,
+      "rate_limit_hint_rps": 0.3,
+      "geographic_scope": "global",
+      "pii_risk": "medium",
+      "sample_urls": [
+        "https://microblog.example.com/explore",
+        "https://microblog.example.com/robots.txt"
+      ],
+      "notes": "API requires paid plan and app review; automated scraping restricted by terms."
+    },
+    {
+      "name": "VideoStream",
+      "source_type": "video_streaming",
+      "requires_login": true,
+      "robots_txt_allows": false,
+      "robots_txt_crawl_delay": null,
+      "terms_scraping_prohibited": true,
+      "has_official_api": true,
+      "api_recommended": true,
+      "public_data": false,
+      "rate_limit_hint_rps": 0.05,
+      "geographic_scope": "global",
+      "pii_risk": "high",
+      "sample_urls": [
+        "https://videostream.example.com/",
+        "https://videostream.example.com/robots.txt"
+      ],
+      "notes": "Robots disallow bots; content behind authentication; scraping is prohibited."
+    }
+  ],
+  "last_updated": "2026-04-17T00:00:00Z",
+  "owner": "Data Engineering"
+}

@@ -1,0 +1,32 @@
+languages:
+  es:
+    terms:
+      voting rights: derechos de voto
+      poll tax: impuesto de capitación
+      literacy test: prueba de alfabetización
+      registration office: oficina de registro
+      federal court: tribunal federal
+      transportation: transporte
+      citizens: ciudadanos
+      free of charge: sin costo
+      assistance: asistencia
+      registration: inscripción
+    subject_template: Información para {county} sobre derechos de voto y registro
+    salutation: Estimado/a {name},
+    signoff: Con respeto,
+  fr:
+    terms:
+      voting rights: droits de vote
+      poll tax: impôt de capitation
+      literacy test: test d’alphabétisation
+      registration office: bureau d’inscription
+      federal court: tribunal fédéral
+      transportation: transport
+      citizens: citoyens
+      free of charge: gratuit
+      assistance: assistance
+      registration: inscription
+    subject_template: Renseignements pour {county} sur les droits de vote et l'inscription
+    salutation: Cher/Chère {name},
+    signoff: Respectueusement,
+signature: Rev. J. M. Carter

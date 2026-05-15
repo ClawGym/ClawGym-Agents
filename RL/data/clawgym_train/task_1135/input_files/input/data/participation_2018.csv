@@ -1,0 +1,7 @@
+respondent_id,year,country,region,ethnicity,voted
+1,2018,Countriana,North,Group A,1
+2,2018,Countriana,North,Group A,0
+3,2018,Countriana,South,Group B,1
+4,2018,Countriana,South,Group B,0
+5,2018,Countriana,East,Group C,1
+6,2018,Countriana,East,Group C,1

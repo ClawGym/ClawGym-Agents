@@ -1,0 +1,9 @@
+incident_id,service,severity,start_utc,end_utc,cause_category,region,detected_by
+INC-1001,Identity-API,high,2024-06-01T03:15:00Z,2024-06-01T03:52:00Z,Deployment,EU-Central,Monitoring
+INC-1002,Citizen-Portal,medium,2024-06-02T11:02:00Z,2024-06-02T11:26:00Z,Database,US-East,Monitoring
+INC-1003,Payments-Gateway,critical,2024-06-03T21:10:00Z,2024-06-03T22:05:00Z,External-Dependency,US-East,Customer
+INC-1004,Identity-API,low,2024-06-04T06:30:00Z,2024-06-04T06:41:00Z,Network,AP-South,Monitoring
+INC-1005,Citizen-Portal,high,2024-06-05T14:00:00Z,2024-06-05T14:39:00Z,Configuration,EU-Central,On-Call
+INC-1006,Payments-Gateway,high,2024-06-06T00:40:00Z,2024-06-06T01:05:00Z,Database,EU-West,Monitoring
+INC-1007,Identity-API,medium,2024-06-06T19:20:00Z,2024-06-06T19:47:00Z,Cache,US-East,Monitoring
+INC-1008,Citizen-Portal,low,2024-06-07T08:15:00Z,2024-06-07T08:21:00Z,Deployment,AP-South,Monitoring

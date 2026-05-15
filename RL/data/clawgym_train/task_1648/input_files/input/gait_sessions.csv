@@ -1,0 +1,5 @@
+session_id,patient_id,date,task,stride_time_ms,stride_time_sd_ms,step_count,device,adverse_event
+S001,P001,2026-03-15,10m_walk,1200,90,220,Shimmer3,
+S002,P002,2026-03-16,timed_up_and_go,1350,200,180,Shimmer3,none
+S003,P002,2026-03-18,10m_walk,1400,250,210,Shimmer3,
+S004,P003,2026-03-21,10m_walk,, ,160,Axivity,

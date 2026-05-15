@@ -1,0 +1,7 @@
+timestamp,platform,screen,issue,severity,notes
+2026-04-07 10:15,Android,Checkout,Checkout button is hard to tap,4,Button target feels too small on Pixel 4a
+2026-04-07 14:22,iOS,Checkout,Checkout button is hard to tap,5,Hard to tap with thumb; maybe increase hit area
+2026-04-08 09:05,iOS,Sign-in,Confusing sign-in error message,3,Shows generic Something went wrong message
+2026-04-08 16:40,Android,Sign-in,Confusing sign-in error message,4,Error disappears too quickly
+2026-04-09 11:02,Android,Profile,Profile photo upload fails on slow network,5,Upload spins forever on 3G
+2026-04-09 13:47,iOS,Profile,Profile photo upload fails on slow network,4,Timeout after 30s

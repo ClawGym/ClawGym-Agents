@@ -1,0 +1,80 @@
+service:
+  name: release-readiness-dashboard
+  owner: core-platform
+  environment: internal-only
+
+performance:
+  api_p95_ms: 300
+  max_concurrency: 50
+  throughput_rps_avg: 5
+  throughput_rps_peak: 20
+  freshness_sla_seconds: 120
+  caching:
+    readiness_ttl_seconds: 60
+    criteria_ttl_seconds: 60
+
+reliability:
+  availability_slo: "99.5% monthly"
+  graceful_degradation:
+    missing_signal_policy: "mark_unknown_and_weight_zero"
+    fallback_status: "yellow_if_any_unknown"
+  healthcheck:
+    liveness: "/healthz"
+    readiness: "/readyz"
+  retention_days: 30
+  rollback:
+    strategy: "toggle feature flag or revert to compute-on-read"
+    max_recovery_time_minutes: 30
+
+testing:
+  coverage_target_overall: 0.85
+  pyramid:
+    unit: 0.6
+    integration: 0.3
+    e2e: 0.1
+  critical_path_tests:
+    - "scoring: threshold boundaries and weighting"
+    - "api: readiness endpoint returns cached or precomputed data within p95"
+    - "ingest: input schema validation and rejection cases"
+  test_first:
+    modules:
+      - "src/lib/scoring.ts"
+      - "src/lib/validation.ts"
+
+security:
+  auth:
+    internal_token_header: "X-Internal-Token"
+    enforcement: "required_on_all_api_endpoints"
+  input_validation:
+    schema_enforced: true
+    reject_unknown_fields: true
+  secrets:
+    no_hardcoded: true
+    config_via_env: true
+  logging:
+    pii_free: true
+    redact_patterns:
+      - "token"
+      - "password"
+      - "secret"
+  rate_limiting:
+    enabled: true
+    window_seconds: 60
+    max_requests_per_window: 600
+
+quality:
+  code_style:
+    max_function_lines: 50
+    max_file_lines: 300
+    types_first: true
+  dependency_policy:
+    no_new_dependencies_without_approval: true
+
+acceptance:
+  - "API p95 latency under 300ms at 50 concurrent users on cached path"
+  - "Freshness: signals updated within 120 seconds"
+  - "85%+ test coverage overall; critical path modules above 90%"
+  - "No secrets in code or logs; all inputs validated against schemas"
+  - "30 days of readiness snapshots retrievable"
+
+---

@@ -1,0 +1,26 @@
+Current integration summary
+
+- Base URL (cloud): https://api.openai.com/v1
+  - Configurable via env var CLOUD_BASE_URL (defaults to above).
+- Authentication: Bearer token via OPENAI_API_KEY (or CLOUD_API_KEY fallback).
+- Endpoints actually used today:
+  - POST /chat/completions — for conversational turns.
+  - POST /embeddings — for generating vector embeddings.
+- Endpoints not currently used:
+  - GET /v1/models — no explicit readiness check is performed today.
+  - POST /responses — not used in this app, but some frameworks rely on it.
+- Models (cloud names):
+  - Chat model: gpt-3.5-turbo
+  - Embedding model: text-embedding-3-small
+- Payload shapes expected by the app:
+  - chat/completions:
+    - Keys: model (str), messages (list of role/content objects), temperature (float, default 0.7)
+    - The code reads choices[0].message.content from the response.
+  - embeddings:
+    - Keys: model (str), input (list of strings)
+    - The code reads data[].embedding from the response.
+- Other considerations:
+  - The app assumes the chat endpoint returns a non-empty choices list with a message object.
+  - There is no built-in server reachability or port-check step; errors surface at request time.
+  - The app will need a local base URL (OpenAI-compatible) and local runtime model identifiers for migration.
+  - For deterministic validation during migration, temperature should be set to 0 on chat smoke tests.

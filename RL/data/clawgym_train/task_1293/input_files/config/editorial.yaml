@@ -1,0 +1,22 @@
+editorial_policy:
+  min_case_ratio: 0.5
+  max_avg_footnote_words: 40
+  max_cover_letter_words: 150
+  rewrite_tone: "concise, professional, and collegial"
+
+watch:
+  input_dir: "input/submissions"
+  file_glob: "*.json"
+
+report_fields:
+  - submission_id
+  - title
+  - word_count
+  - citations.case
+  - citations.statute
+  - citations.article
+  - footnotes.count
+  - footnotes.avg_words
+  - citation_ratio.case
+  - compliance.case_ratio
+  - compliance.avg_footnote_words

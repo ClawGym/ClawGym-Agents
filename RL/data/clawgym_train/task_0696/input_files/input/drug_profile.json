@@ -1,0 +1,29 @@
+{
+  "name": "Cardiovex",
+  "indication": "Heart Failure with Reduced Ejection Fraction (HFrEF) in adults with symptomatic NYHA class II–IV",
+  "mechanism": "Selective cardiac myosin activator that enhances myocardial contractility without increasing intracellular calcium.",
+  "efficacy_highlights": [
+    "Reduced composite of cardiovascular death or heart failure hospitalization by 18% vs standard of care over 12 months",
+    "Improved 6-minute walk distance by 28 meters vs baseline at 12 months"
+  ],
+  "safety_highlights": [
+    "Overall adverse event rates similar to comparator",
+    "Transient mild elevations in liver enzymes in 3% of patients"
+  ],
+  "icer_usd_per_qaly": 52000,
+  "adoption": {
+    "US": {
+      "year1_adoption_rate": 0.12
+    },
+    "EU": {
+      "year1_adoption_rate": 0.08
+    },
+    "Japan": {
+      "year1_adoption_rate": 0.06
+    }
+  },
+  "patient_reported_outcomes": [
+    "Mean improvement in Kansas City Cardiomyopathy Questionnaire overall summary score by 6 points at 12 months among responders",
+    "Reported reductions in fatigue and dyspnea vs baseline"
+  ]
+}

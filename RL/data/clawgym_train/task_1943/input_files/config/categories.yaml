@@ -1,0 +1,45 @@
+version: 1
+categories:
+  Pricing:
+    positive_keywords:
+      affordable: 3
+      value: 2
+    negative_keywords:
+      expensive: 3
+      pricey: 2
+      overpriced: 3
+  Usability:
+    positive_keywords:
+      easy: 3
+      intuitive: 2
+      simple: 2
+    negative_keywords:
+      confusing: 3
+      hard: 2
+      complicated: 2
+  Support:
+    positive_keywords:
+      helpful: 3
+      responsive: 2
+      support: 2
+    negative_keywords:
+      unhelpful: 3
+      slow: 2
+      "no support": 3
+  Performance:
+    positive_keywords:
+      fast: 3
+      quick: 2
+    negative_keywords:
+      slow: 3
+      lag: 3
+      crash: 3
+  Features:
+    positive_keywords:
+      features: 2
+      flexible: 2
+      customizable: 2
+    negative_keywords:
+      missing: 3
+      lack: 2
+      bug: 3

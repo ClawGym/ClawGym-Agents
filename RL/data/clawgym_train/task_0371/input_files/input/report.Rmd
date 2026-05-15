@@ -1,0 +1,14 @@
+---
+title: "Pilot Analysis"
+author: "Research Assistant"
+output: html_document
+bibliography: input/library.bib
+---
+
+# Introduction
+
+This pilot references several works to justify our priors. See @smith2019ml for general ML background, and [@doe2020bayes; @doe2020model] for Bayesian and modeling perspectives. For a refresher, @brown2018stats is helpful. Placeholder to resolve later: @missing_key.
+
+# Methods
+
+We will use simple priors and sanity checks. Citations: @smith2019ml.

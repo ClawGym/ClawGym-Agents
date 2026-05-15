@@ -1,0 +1,76 @@
+project: "Creator Membership Platform"
+environment: "sandbox/test"
+currency_plan:
+  - provider: "stripe"
+    currency: "USD"
+    unit: "cents"
+  - provider: "paypal"
+    currency: "USD"
+    unit: "string with two decimals"
+  - provider: "razorpay"
+    currency: "INR"
+    unit: "paise"
+amount_examples:
+  monthly_subscription:
+    usd: 1200   # $12.00 (Stripe cents), "12.00" (PayPal), 1200*? (not used for INR)
+    inr: 49900  # ₹499.00 in paise (Razorpay)
+  tip:
+    usd: 500    # $5.00
+    inr: 10000  # ₹100.00 in paise
+requirements:
+  providers:
+    - name: "stripe"
+      flow: "PaymentIntents"
+      must_include:
+        - "Use paymentIntents.create with amount in cents and currency 'usd'"
+        - "Enable automatic_payment_methods for broad PM support"
+        - "Use idempotency_key on write operations"
+        - "Webhook verification with stripe-signature header and constructEvent using the raw body (do not JSON-parse before verification)"
+        - "Common pitfalls: raw body requirement, idempotency to avoid duplicate charges, handle requires_action"
+    - name: "paypal"
+      flow: "Orders API v2"
+      endpoints:
+        - "v2/checkout/orders"
+        - "v2/checkout/orders/{id}/capture"
+      must_include:
+        - "OAuth2 client credentials → Bearer token"
+        - "Create order with string amount values (e.g., '12.00')"
+        - "Perform capture after user approval"
+        - "Note token expiration (cache/refresh)"
+        - "Mention webhook verification exists for capture events"
+        - "Call out sandbox base URL usage and production differences"
+    - name: "razorpay"
+      flow: "Orders → Checkout → Server-side verification"
+      must_include:
+        - "Create order with amount in paise (e.g., 49900 for ₹499.00)"
+        - "Checkout returns razorpay_order_id, razorpay_payment_id, razorpay_signature"
+        - "Verify signature with HMAC-SHA256: createHmac('sha256', key_secret)"
+        - "Signature base string format: 'order_id|payment_id' (literal pipe)"
+        - "Webhook verification uses a separate webhook secret (different from key_secret)"
+        - "Call out common pitfall: paise vs rupees, and correct signature string"
+guide_structure:
+  sections:
+    - "Overview and security-first principles"
+    - "Stripe (PaymentIntents) — server-side Node.js/TypeScript code, idempotency_key, webhook verification with raw body and stripe-signature/constructEvent"
+    - "PayPal (Orders API v2) — OAuth2/Bearer, v2/checkout/orders, capture, pitfalls, mention webhook verification"
+    - "Razorpay — Orders, Checkout, server verification with createHmac sha256 and 'order_id|payment_id', webhook secret verification"
+    - "Common pitfalls and testing notes"
+security_musts:
+  - "Use environment variables for all secrets (no hardcoded keys)"
+  - "Use HTTPS for all webhook endpoints"
+  - "Never store PANs or raw card data; no raw card handling on server"
+  - "Server-side amount validation against expected order totals"
+  - "Idempotency on write requests to avoid duplicate charges"
+testing:
+  stripe:
+    test_cards:
+      - "4242424242424242"
+      - "4000002500003155"
+  paypal:
+    sandbox_base: "https://api-m.sandbox.paypal.com"
+  razorpay:
+    test_key_prefix: "rzp_test_"
+expected_output_notes:
+  - "Include Node.js/TypeScript examples with proper imports and error handling"
+  - "Avoid live secrets; use placeholders and environment variables"
+  - "Call out amount units explicitly for each provider"

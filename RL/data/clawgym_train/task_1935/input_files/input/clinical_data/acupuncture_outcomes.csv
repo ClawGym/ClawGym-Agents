@@ -1,0 +1,11 @@
+patient_id,treatment,treatment_detail,pre_gad7,post_gad7,visits,adverse_event,sex
+A001,acupuncture,body_points,15,9,8,none,F
+A002,acupuncture,auricular,12,7,6,none,M
+A003,acupuncture,body_points,18,13,9,mild,F
+A004,acupuncture,auricular,14,,5,none,M
+A005,acupuncture,body_points,10,8,4,none,F
+A006,acupuncture,body_points,16,16,6,none,F
+A007,acupuncture,auricular,19,15,10,mild,M
+A008,acupuncture,body_points,11,7,6,none,F
+A009,acupuncture,auricular,13,10,5,none,F
+A010,acupuncture,body_points,17,12,8,none,M

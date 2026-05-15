@@ -1,0 +1,6 @@
+backlog_id,country,symbol_type,topic,priority,source_hint
+BL-001,Armenia,Coat of Arms,"Official blazon wording and any 2012+ standardization updates",High,"Official Gazette or Ministry of Justice legal acts registry"
+BL-002,Kazakhstan,Flag,"Legal basis for flag proportions and color specs",High,"Parliament legislation portal or presidential decrees"
+BL-003,Moldova,Colors,"Pantone or RGB reference for state colors (flag/coat of arms)",Medium,"Government standards agency or heraldic commission"
+BL-004,Ukraine,Small Coat of Arms,"Usage guidelines for the Tryzub in ministries",High,"Cabinet of Ministers resolutions or official style guide"
+BL-005,Kyrgyzstan,Flag,"Year and document type of the most recent flag regulation",Medium,"President's decrees or Ministry of Justice database"

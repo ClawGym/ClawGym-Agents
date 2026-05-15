@@ -1,0 +1,7 @@
+app_name: HypeClip Showdown
+application_version: "1.3.0"
+feature_flags:
+  big_reaction_emotes: true
+  reaction_heatmap: false
+  autoplay_clips: true
+  max_clip_length_seconds: 60

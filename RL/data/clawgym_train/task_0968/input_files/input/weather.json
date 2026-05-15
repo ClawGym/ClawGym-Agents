@@ -1,0 +1,12 @@
+[
+  { "date": "2026-05-11", "temp_high": 65, "humidity": 50, "precip": 0.00 },
+  { "date": "2026-05-12", "temp_high": 68, "humidity": 48, "precip": 0.00 },
+  { "date": "2026-05-13", "temp_high": 70, "humidity": 40, "precip": 0.00 },
+  { "date": "2026-05-14", "temp_high": 72, "humidity": 42, "precip": 0.00 },
+  { "date": "2026-05-15", "temp_high": 74, "humidity": 45, "precip": 0.00 },
+  { "date": "2026-05-16", "temp_high": 73, "humidity": 50, "precip": 0.00 },
+  { "date": "2026-05-17", "temp_high": 60, "humidity": 70, "precip": 0.00 },
+  { "date": "2026-05-18", "temp_high": 66, "humidity": 60, "precip": 0.00 },
+  { "date": "2026-05-19", "temp_high": 69, "humidity": 65, "precip": 0.00 },
+  { "date": "2026-05-20", "temp_high": 55, "humidity": 80, "precip": 0.00 }
+]

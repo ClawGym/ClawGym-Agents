@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Standup Meeting",
+    "list": "Work",
+    "weekdays": ["Mon", "Tue", "Wed", "Thu", "Fri"]
+  },
+  {
+    "title": "Inbox Zero Sweep",
+    "list": "Work",
+    "weekdays": ["Mon", "Wed", "Fri"]
+  },
+  {
+    "title": "Gym - Strength",
+    "list": "Personal",
+    "weekdays": ["Tue", "Thu"]
+  },
+  {
+    "title": "Grocery Top-Up",
+    "list": "Errands",
+    "weekdays": ["Wed"]
+  },
+  {
+    "title": "Plan Weekly Menu",
+    "list": "Personal",
+    "weekdays": ["Mon"]
+  },
+  {
+    "title": "Weekly Review",
+    "list": "Work",
+    "weekdays": ["Fri"]
+  }
+]

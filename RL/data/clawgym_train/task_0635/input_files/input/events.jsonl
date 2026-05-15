@@ -1,0 +1,30 @@
+{"time":"2026-04-19T00:30:00-04:00","type":"feed","method":"bottle","amount":3,"unit":"oz","milk_type":"expressed breast milk","notes":"overnight feed; drowsy"}
+{"time":"2026-04-19T00:45:00-04:00","type":"sleep","start":"2026-04-19T00:45:00-04:00","end":"2026-04-19T02:15:00-04:00","notes":"overnight block"}
+{"time":"2026-04-19T02:20:00-04:00","type":"diaper","subtype":"wet","notes":"clear urine"}
+{"time":"2026-04-19T02:30:00-04:00","type":"sleep","start":"2026-04-19T02:30:00-04:00","end":"2026-04-19T05:50:00-04:00","notes":"overnight block"}
+{"time":"2026-04-19T06:05:00-04:00","type":"feed","method":"bottle","amount":4,"unit":"oz","milk_type":"expressed breast milk","notes":"sleepy but fed well"}
+{"time":"2026-04-19T06:35:00-04:00","type":"diaper","subtype":"wet","notes":"normal wet"}
+{"time":"2026-04-19T07:30:00-04:00","type":"sleep","start":"2026-04-19T07:30:00-04:00","end":"2026-04-19T08:20:00-04:00","notes":"morning nap"}
+{"time":"2026-04-19T08:30:00-04:00","type":"symptom","symptom_type":"temperature","value":37.8,"unit":"C","method":"forehead","notes":"mildly warm to touch"}
+{"time":"2026-04-19T08:35:00-04:00","type":"care_action","action":"saline drops","notes":"congestion before feed"}
+{"time":"2026-04-19T08:40:00-04:00","type":"care_action","action":"nasal suction","notes":"moderate mucus; temporary relief"}
+{"time":"2026-04-19T09:00:00-04:00","type":"feed","method":"bottle","amount":80,"unit":"mL","milk_type":"expressed breast milk","notes":"slow feed; some refusal near end"}
+{"time":"2026-04-19T09:25:00-04:00","type":"symptom","symptom_type":"spit_up","severity":"small","notes":"small spit-up after burp; no distress"}
+{"time":"2026-04-19T10:00:00-04:00","type":"diaper","subtype":"wet","notes":"normal wet"}
+{"time":"2026-04-19T10:10:00-04:00","type":"diaper","subtype":"dirty","notes":"small mustard stool, normal"}
+{"time":"2026-04-19T10:30:00-04:00","type":"sleep","start":"2026-04-19T10:30:00-04:00","end":"2026-04-19T11:20:00-04:00","notes":"late morning nap"}
+{"time":"2026-04-19T11:45:00-04:00","type":"feed","method":"bottle","amount":3,"unit":"oz","milk_type":"expressed breast milk","notes":"took 3 oz then refused remainder"}
+{"time":"2026-04-19T12:30:00-04:00","type":"symptom","symptom_type":"temperature","value":38.3,"unit":"C","method":"rectal","notes":"fever above baseline; baby fussy"}
+{"time":"2026-04-19T13:10:00-04:00","type":"medication","name":"Acetaminophen","dose":2.5,"dose_unit":"mL","concentration":"160 mg/5 mL","reason":"fever/comfort","notes":"given after rectal temp 38.3 C; per prior pediatric guidance"}
+{"time":"2026-04-19T13:25:00-04:00","type":"sleep","start":"2026-04-19T13:25:00-04:00","end":"2026-04-19T14:05:00-04:00","notes":"short nap"}
+{"time":"2026-04-19T14:15:00-04:00","type":"diaper","subtype":"wet","notes":"lighter than morning but wet"}
+{"time":"2026-04-19T14:30:00-04:00","type":"feed","method":"bottle","amount":70,"unit":"mL","milk_type":"expressed breast milk","notes":"paused often due to congestion; refused more"}
+{"time":"2026-04-19T15:40:00-04:00","type":"diaper","subtype":"dirty","notes":"small brown-yellow stool, soft"}
+{"time":"2026-04-19T16:00:00-04:00","type":"symptom","symptom_type":"congestion","severity":"moderate","notes":"noisy breathing during feeds; no retractions; normal color; feeding impacted"}
+{"time":"2026-04-19T16:15:00-04:00","type":"care_action","action":"humidifier on","notes":"set in nursery"}
+{"time":"2026-04-19T16:30:00-04:00","type":"feed","method":"bottle","amount":30,"unit":"mL","milk_type":"expressed breast milk","notes":"attempted top-up; mostly refused"}
+{"time":"2026-04-19T17:15:00-04:00","type":"sleep","start":"2026-04-19T17:15:00-04:00","end":"2026-04-19T17:45:00-04:00","notes":"short nap; restless"}
+{"time":"2026-04-19T18:00:00-04:00","type":"symptom","symptom_type":"temperature","value":37.9,"unit":"C","method":"rectal","notes":"down from earlier after acetaminophen; still warm"}
+{"time":"2026-04-19T18:10:00-04:00","type":"diaper","subtype":"wet","notes":"normal wet"}
+{"time":"2026-04-19T18:20:00-04:00","type":"feed","method":"bottle","amount":100,"unit":"mL","milk_type":"expressed breast milk","notes":"fed better post-nap; still slower than usual"}
+{"time":"2026-04-19T19:00:00-04:00","type":"note","text":"Urgent pediatric call scheduled for 19:30 regarding fever, congestion, and reduced intake today."}

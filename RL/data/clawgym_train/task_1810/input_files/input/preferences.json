@@ -1,0 +1,21 @@
+{
+  "core_update_mode": "notify",
+  "new_skill_default": "all-out",
+  "summary_style": "standard",
+  "backup_scope": {
+    "core_always": [
+      "~/.openclaw/openclaw.json",
+      "AGENTS.md",
+      "SOUL.md",
+      "TOOLS.md"
+    ],
+    "core_optional": [
+      "~/.openclaw/workspace/"
+    ]
+  },
+  "discovery_cadence": "daily 03:00",
+  "apply_cadence": "daily 04:00",
+  "quiet_hours": "23:00-07:00",
+  "migration_pause": true,
+  "feature_review": true
+}

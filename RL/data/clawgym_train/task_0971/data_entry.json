@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0971",
+  "user_query": "Please audit token consumption from my OpenClaw transcripts for March 14–15, 2026 in timezone UTC+8. Read all transcript files under input/agents/*/sessions/. Aggregate usage only for messages within that local date range, and include these metrics: input, output, cacheRead, cacheWrite, totalTokens, and messages. Group results as totals, by day × agent, by agent, by model (as provider/model), by session, and by day × session. Then write three deliverables:\n1) A JSON report at output/usage/token-usage.json with keys: assumption_timezone, range_local {start,end}, summary, by_day_agent, by_agent, by_model, by_session, by_day_session.\n2) CSV exports under output/usage/csv/: summary.csv, by_day_agent.csv, by_agent.csv, by_model.csv, by_session.csv, by_day_session.csv (use these exact filenames and include headers matching the metrics).\n3) A markdown report at output/usage/report.md that clearly states the total tokens and lists the Top 3 sessions by totalTokens.\nNotes:\n- Only count entries with a non-empty usage object.\n- Treat timestamps as ISO 8601; convert to local UTC+8 for day grouping.\n- Ignore any entries outside 2026-03-14 00:00 to 2026-03-15 23:59 (UTC+8).\n- Use the session keys from sessions.json to label sessions in the outputs.\n- Do not hardcode absolute paths; use the provided input directory and write to the specified output paths.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

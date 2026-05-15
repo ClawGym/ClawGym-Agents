@@ -1,0 +1,13 @@
+{
+  "CLAUDE.md": "policy",
+  "docs/": "docs",
+  "hooks/": "automation",
+  "scripts/": "ops",
+  "tools/": "tools",
+  "tools/mcp/": "tools",
+  "src/mcp/": "backend",
+  "src/api/": "api",
+  "src/": "code",
+  "tests/": "testing",
+  ".github/": "ci"
+}

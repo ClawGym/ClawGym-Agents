@@ -1,0 +1,4 @@
+pledge_id,donor_name,start_date,end_date,monthly_amount,designated_fund
+P001,John & Mary Smith,2025-01-01,,300.00,General
+P002,Faith Community Church,2025-01-01,,500.00,CareerTransition
+P003,Anonymous,2025-02-01,2025-03-31,150.00,General

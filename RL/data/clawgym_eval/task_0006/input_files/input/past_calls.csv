@@ -1,0 +1,9 @@
+call_id,start_utc,duration_minutes,attendees_emails
+1,2025-05-04T18:00:00Z,60,"alice@example.com;bob@example.com;carol@example.co.uk;dan@example.de;emma@example.in;grace@example.com;henry@example.eu"
+2,2025-05-07T20:00:00Z,60,"alice@example.com;carol@example.co.uk;dan@example.de;henry@example.eu"
+3,2025-05-10T16:00:00Z,60,"alice@example.com;bob@example.com;carol@example.co.uk;grace@example.com;henry@example.eu"
+4,2025-05-11T18:00:00Z,60,"alice@example.com;bob@example.com;carol@example.co.uk;dan@example.de;emma@example.in;grace@example.com"
+5,2025-05-14T20:00:00Z,60,"alice@example.com;carol@example.co.uk;dan@example.de;emma@example.in;henry@example.eu"
+6,2025-05-17T16:00:00Z,60,"alice@example.com;carol@example.co.uk;grace@example.com;henry@example.eu"
+7,2025-05-18T18:00:00Z,60,"alice@example.com;bob@example.com;carol@example.co.uk;dan@example.de;emma@example.in;grace@example.com;henry@example.eu"
+8,2025-05-25T18:00:00Z,60,"alice@example.com;carol@example.co.uk;dan@example.de;emma@example.in;grace@example.com;henry@example.eu"

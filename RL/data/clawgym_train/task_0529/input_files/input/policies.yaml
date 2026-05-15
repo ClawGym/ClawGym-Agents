@@ -1,0 +1,50 @@
+roles:
+  user:
+    - read:posts
+    - write:posts
+    - read:own_profile
+    - write:own_profile
+  moderator:
+    - read:posts
+    - write:posts
+    - read:users
+    - moderate:posts
+  admin:
+    - read:posts
+    - write:posts
+    - read:users
+    - write:users
+    - delete:users
+    - manage:roles
+
+hierarchy:
+  admin:
+    - admin
+    - moderator
+    - user
+  moderator:
+    - moderator
+    - user
+  user:
+    - user
+
+resources:
+  posts:
+    # Write requires ownership for normal users.
+    write_policy:
+      mode: owner_only
+      override_roles:
+        - admin
+    # Reads are public by default (future private-post handling may change this).
+    read_policy:
+      mode: public
+
+policy_notes:
+  - Access tokens are short-lived (15m); refresh tokens are 7d.
+  - On logout, revoke the presented refresh token; support bulk revocation for a user.
+  - Login: rate limit 5 attempts per 15 minutes.
+  - General API: rate limit 100 requests per minute.
+  - Passwords: min 12 chars with uppercase, lowercase, number, special; hash with cost factor 12+.
+  - Session cookies (if used): httpOnly, secure, sameSite.
+  - Do not use localStorage for tokens; prefer httpOnly cookies or secure storage inaccessible to JavaScript.
+  - Log security events (auth successes/failures, token refresh/revocation, permission denials).

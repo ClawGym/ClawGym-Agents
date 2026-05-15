@@ -1,0 +1,6 @@
+module_id,title,topic_tags,audience_roles,hours,last_updated
+T001,Annual HIPAA Privacy & Security,"privacy;security;HIPAA","All",1.5,2025-01-15
+T002,Phishing Awareness Basics,"security;phishing;email","All",1,2025-03-01
+T003,EHR Efficiency Tips for Clinicians,"EHR;workflow;shortcuts","Physicians;Nurses",1,2025-02-10
+T004,Multi-factor Authentication Setup,"security;MFA;access","All",0.5,2024-12-01
+T005,Change Management Fundamentals,"leadership;change;process","Managers;Executives",1,2024-11-20

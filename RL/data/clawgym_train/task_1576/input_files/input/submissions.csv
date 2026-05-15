@@ -1,0 +1,15 @@
+id,artist,title,microgenre,country,duration_sec,upvotes
+g1,Violet Static,Hollow Eyes,shoegaze,UK,212,18
+p1,Neon Fractures,Concrete Bloom,post-punk,Germany,197,22
+c1,Night Pareidolia,Fading Neon,cold wave,Poland,165,17
+n1,Crater Choir,Overdriven Hymn,noise rock,USA,248,15
+d1,Seafoam Lullaby,Blue Apartment,dream pop,Canada,219,14
+m1,Tessellation,Odd Vertices,math rock,Japan,305,20
+s1,Static Visions,Nerve Net,synth punk,USA,142,16
+p2,Neon Fractures,Glass Corridor,post-punk,Germany,231,12
+sh1,Glass Harbour,Salt Cathedral,shoegaze,Chile,188,19
+c2,Echolalia,Night Shift,cold wave,France,201,13
+n2,Serrated Meadow,Bent Antenna,noise rock,USA,178,11
+d2,Sleep Committee,Airless Room,dream pop,Australia,256,10
+m2,Tessellation,Edge Cases,math rock,Japan,189,9
+p3,Grayscale Arches,In-Between Stations,post-punk,UK,174,21

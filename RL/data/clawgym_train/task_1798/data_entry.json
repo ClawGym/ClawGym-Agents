@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1798",
+  "user_query": "We’re preparing to expand agent usage next week. Please run a preflight cost risk audit on our OpenClaw configuration in input/openclaw.json. Use a lightweight static review to detect missing budget fields, premium model defaults, oversized token ceilings, interactive/browser workflows, cron/recurring automation without budgets, and verbose/thinking modes. Then:\n\n1) Write a machine-readable report to output/cost_audit.json with keys: score (0–100), verdict (PASS|WARN|FAIL), summary, findings (array of {level, area, issue}), recommendations (array), guardrails (array), and evidence (object with budgetHints, expensiveModelSignals, maxTokenSignals).\n2) Also write a brief summary to output/summary.txt that includes two lines starting with “VERDICT: …” and “SCORE: …”.\n\nUse only the provided config at input/openclaw.json. Do not modify the config. Make the guardrails explicit and actionable.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

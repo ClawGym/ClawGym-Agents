@@ -1,0 +1,5 @@
+{
+  "checkpoint_interval": 10,
+  "retry_attempts": 3,
+  "backoff_seconds": [1, 2, 4]
+}

@@ -1,0 +1,16 @@
+license_policy:
+  permissive_only: true
+required_features:
+  - built-in validation
+  - async or concurrency
+language_preferences:
+  primary:
+    - python
+    - go
+  secondary:
+    - node.js
+    - java
+deployment_os: ubuntu-22.04
+max_words:
+  architecture_brief: 250
+  scoring_notes: 200

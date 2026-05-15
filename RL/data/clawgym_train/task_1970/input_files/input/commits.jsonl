@@ -1,0 +1,9 @@
+{"date":"2026-03-15","type":"feat","scope":"orders","description":"Add monthly aggregation by region"}
+{"date":"2026-02-28","type":"feat","scope":"reports","description":"Introduce analytics dashboard"}
+{"date":"2026-01-05","type":"feat","scope":"pipeline","description":"Initial ingestion setup"}
+{"date":"2026-03-10","type":"fix","scope":"changelog","description":"Correct heading order to match spec"}
+{"date":"2026-02-12","type":"fix","scope":"aggregation","description":"Handle missing amounts as zero"}
+{"date":"2026-03-09","type":"chore","scope":"deps","description":"Bump csv parsing library"}
+{"date":"2026-01-20","type":"chore","scope":"lint","description":"Apply code style formatting"}
+{"date":"2026-03-11","type":"docs","scope":"readme","description":"Update documentation for task runner"}
+{"date":"2026-02-02","type":"refactor","scope":"dispatcher","description":"Extract queue processing loop"}

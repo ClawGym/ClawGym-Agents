@@ -1,0 +1,13 @@
+id,received_utc,from_email,city,subject,body,rating_helpful,rating_energy,contains_suggestion,tags
+1001,2026-04-15T03:10:00Z,sara@example.com,Portland,"Opener great; airline bit long","Your opener landed, but the airline bit ran long—tighten the setup and cut one example.",5,4,yes,"opener;too long;pacing;airline"
+1002,2026-04-15T04:55:00Z,dave@example.com,Portland,"Timing note","Punchlines were great; pause longer before the guitar callback so it pops more.",4,3,yes,"timing;guitar;callback"
+1003,2026-04-15T02:00:00Z,liz@example.com,Seattle,"Loved it","Hilarious night! Keep it up.",3,5,no,"praise"
+1004,2026-04-15T05:20:00Z,omar@example.com,Portland,"Cleaner works better","The clean material hit harder than the dark joke about roommates—maybe swap the order.",4,4,yes,"clean material;dark humor;bit order"
+1005,2026-04-15T01:50:00Z,nina@example.com,Portland,"Transitions","Loved the crowd work but the transition into the dating app bit felt abrupt—maybe a quick tag to bridge them.",5,5,yes,"crowd work;transitions;dating apps;tagging"
+1006,2026-04-15T06:10:00Z,matt@example.com,Eugene,"Too short","Closer hit but I wanted one more callback—set felt a bit short.",4,3,yes,"closer;too short;callback;set length"
+1007,2026-04-15T03:05:00Z,jo@example.com,Portland,"Opener suggestion","Open with the crowd work instead of the airline bit; room was chatty and you already owned them.",5,4,yes,"opener;crowd work;bit order"
+1008,2026-04-15T07:15:00Z,kevin@example.com,Portland,"Guitar piece","The guitar song was fun but under-miked. Maybe skip it in small rooms.",4,2,yes,"guitar;sound;room size"
+1009,2026-04-15T03:12:00Z,amy@example.com,Portland,"Beat timing","Some beats felt rushed—leave space after the self-deprecating line.",4,4,yes,"timing;self-deprecation;pacing"
+1010,2026-04-15T05:50:00Z,rob@example.com,Portland,"Rambling","Story about your uncle was a bit long; tighten the setup.",4,3,yes,"storytelling;too long;setup"
+1011,2026-04-15T08:00:00Z,nina.dup@example.com,Portland,"Transitions (same)","Loved the crowd work but the transition into the dating app bit felt abrupt—maybe a quick tag to bridge them.",5,5,yes,"crowd work;transitions;dating apps;tagging"
+1012,2026-04-15T00:30:00Z,leo@example.com,Seattle,"Too much crowd work","Crowd work was fun but maybe trim one exchange to get to the new bits quicker.",4,3,yes,"crowd work;new bits;pacing;bit order"

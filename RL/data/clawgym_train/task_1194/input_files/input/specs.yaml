@@ -1,0 +1,19 @@
+filters:
+  allowed_socket: ["LGA1700"]
+  min_cores: 8
+  max_tdp_w: 125
+  require_ecc: true
+  max_price_usd: 550
+scoring:
+  weights:
+    cores_base: 100.0
+    boost: 50.0
+    l3: 1.5
+    tdp_penalty: 0.5
+    process_penalty: 2.0
+ranking:
+  primary: "value_score_desc"
+  tie_breakers: ["stock_desc", "tdp_asc"]
+email:
+  to: "purchasing@acme.local"
+  top_n: 3

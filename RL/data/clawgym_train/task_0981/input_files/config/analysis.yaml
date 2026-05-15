@@ -1,0 +1,6 @@
+start_year: 1790
+end_year: 1800
+group_by_clause: has_police_power_language
+outcome_metric: smallpox_deaths_per_100k
+smooth_window: 1
+notes: "Adjust years and grouping before running. This config is read by your analysis script."

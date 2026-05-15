@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0085",
+  "user_query": "Last week we outlined Phase 2 for the Nimbus rollout. I need you to continue where we left off: recover the \"Phase 2: Pilot\" tasks and turn them into an actionable checklist. Read the JSONL transcripts under input/sessions/ to rebuild the context. Write the checklist to output/nimbus_checklist.md and write a context trace to output/context_sources.json that indicates which session file contained the Phase 2 details. The checklist must include each task with its Owner and Due date from the transcript.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

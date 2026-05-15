@@ -1,0 +1,28 @@
+method: straight_line
+currency: USD
+categories:
+  electronics:
+    annual_rate: 0.25
+    salvage_floor_percent: 0.30
+  appliances:
+    annual_rate: 0.15
+    salvage_floor_percent: 0.30
+  tools:
+    annual_rate: 0.10
+    salvage_floor_percent: 0.20
+  furniture:
+    annual_rate: 0.08
+    salvage_floor_percent: 0.40
+  storage:
+    annual_rate: 0.05
+    salvage_floor_percent: 0.50
+  outdoor:
+    annual_rate: 0.20
+    salvage_floor_percent: 0.10
+  valuables:
+    annual_rate: 0.05
+    salvage_floor_percent: 0.50
+notes:
+  - "Compute years as fractional years between purchase_date and the reference date."
+  - "current_estimated_value = max(purchase_price * (1 - annual_rate * years), purchase_price * salvage_floor_percent)."
+  - "Round to two decimals."

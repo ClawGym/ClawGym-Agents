@@ -1,0 +1,52 @@
+service_level_to_z:
+  "0.90": 1.2816
+  "0.95": 1.6449
+  "0.97": 1.8808
+  "0.975": 1.96
+  "0.99": 2.3263
+
+methods:
+  safety_stock_method: independent_variability
+  formula_note: "sigma_LT = sqrt(demand_sd^2 * lead_time_days + (avg_daily_demand^2) * (lead_time_sd^2)); safety_stock = z * sigma_LT"
+  reorder_point_method: "lead_time_demand + safety_stock"
+  target_stock_method: "reorder_point + review_cycle_demand"
+  post_reorder_coverage_method: "post_coverage_days = (current_stock + suggested_order_qty) / avg_daily_demand"
+
+rounding:
+  pack_rounding: up
+  enforce_moq: true
+  rounding_sequence:
+    - compute_needed_qty
+    - apply_moq_minimum
+    - round_up_to_nearest_pack
+  notes: "Round up to the next pack multiple to avoid partial cartons. Ensure final quantity meets or exceeds MOQ."
+
+promo_guidance:
+  uplift_multipliers_by_topic:
+    Hatsune Miku:
+      default: 1.25
+      upper_bound_for_major_collab: 1.4
+      lower_bound_for_light_mention: 1.1
+      rationale: "High awareness character; apparel tie-ins typically see short-term spikes around announcements and social campaigns."
+  application_rules:
+    - "Apply uplift to avg_daily_demand only for SKUs explicitly tied to a promo topic."
+    - "Keep demand_sd unchanged unless there is evidence of higher promo volatility (not assumed here)."
+    - "Do not alter lead_time assumptions due to promo unless supplier confirms surge capacity limits."
+  fragility_notes:
+    - "If influencer content or pre-orders substantially exceed baseline, revisit the uplift factor within 48 hours."
+    - "If paid media is reduced or promo is delayed, reduce the multiplier toward 1.10."
+
+seasonality_notes: "No major seasonal events expected in the next 30 days. Mild winter apparel baseline (+5%) not applied unless instructed."
+
+time:
+  timezone: "UTC"
+  generated_by: "inventory-reorder-calculator inputs v1"
+
+constraints_defaults:
+  assume_no_open_pos: true
+  max_pack_rounding_multiple: 1000
+  allow_negative_gap_to_target: false
+
+data_quality_notes:
+  - "Lead time standard deviations are estimates; confirm with suppliers quarterly."
+  - "Demand standard deviations are based on recent weeks; adjust if catalog or pricing changes occur."

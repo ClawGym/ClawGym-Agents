@@ -1,0 +1,54 @@
+Project: Westfield Public Library Renovation
+Obligee/Owner: City of Westfield Public Works
+Delivery Method: Design-Bid-Build (single-prime general contractor)
+
+Bond Requirements:
+- Bid Bond: 5 percent of the bid price. Use AIA A310 or equivalent. Penal sum form acceptable. The bid bond must be included with the bid submission.
+- Performance Bond: 100 percent of the contract price. Use AIA A312 (2010 or later) or an equivalent form acceptable to the City.
+- Payment Bond: 100 percent of the contract price. Use AIA A312 (2010 or later) or an equivalent form acceptable to the City.
+- Surety Qualifications: Surety must be listed on the U.S. Treasury Department Circular 570 and licensed to do business in the project jurisdiction. Attorneys-in-fact must provide a valid digital or wet-signed power of attorney.
+- Electronic Bonds: Electronic surety bonds are accepted via Surety2000 or as a digitally executed PDF with verifiable signatures and power of attorney.
+- Substitutions: Subcontractor default insurance is not accepted as a substitute for the required payment bond.
+
+Bid Deadline:
+- Date: 2026-05-20
+- Late bids, or bids without the required bid bond, will be rejected as non-responsive.
+
+Claims and Notice Windows (expected forms based on AIA A312 concepts and City preferences):
+- Performance Bond:
+  - Owner will provide written notice of contractor default to the contractor and surety after giving any required cure opportunity stated in the contract.
+  - Owner agrees to make remaining contract balance available to the surety for completion.
+  - Surety is expected to acknowledge the claim promptly and begin its investigation within a short period. The City’s preference is acknowledgement within 7 calendar days and a position letter within 30 calendar days after receipt of sufficient documentation.
+  - Available surety responses may include: financing the contractor, tendering a completion contractor, undertaking performance itself, or denying the claim with reasons.
+- Payment Bond:
+  - First-tier claimants with a direct contract with the general contractor generally do not need to give a preliminary notice before filing a claim, but must document last furnishing and amount due.
+  - Second-tier claimants (subs or suppliers without a direct contract with the general contractor) must give written notice to the contractor and surety within 90 days from last furnishing of labor or materials.
+  - Suits on the payment bond may not be filed before 90 days from last furnishing and must be filed within 1 year from last furnishing, consistent with common public works requirements. No mechanics’ liens are allowed on this public project, so the payment bond is the primary remedy for unpaid claimants.
+
+Documentation Expectations (owner and surety preferences):
+- Schedule Management: Maintain a current CPM schedule with monthly updates, critical path identification, and recovery plans as needed.
+- Progress Documentation: Daily reports, photo logs, and quality control records should be kept current and made available upon request.
+- Payment Documentation: Monthly pay applications must include sworn statements, conditional and unconditional lien waivers as applicable, updated subcontractor and supplier lists with contact information, and evidence of payment flowing downstream.
+- Change Management: Written change directives, signed change orders, cost backup, and schedule impact analyses are required for all changes.
+- Compliance: Prevailing wage compliance and certified payrolls are required; submit weekly payroll reports to the owner’s representative.
+- Safety: Maintain a site-specific safety plan and incident logs; report incidents promptly per contract requirements.
+- Communication: The City prefers a pre-claim coordination meeting prior to any formal declaration of default and encourages early notice to the surety when performance concerns arise.
+
+Owner Preferences and Administrative Notes:
+- Bond forms should not include rider language that materially alters the owner’s rights without prior written approval.
+- The City prefers local points of contact for the surety, clear escalation paths, and a single email address for claims notices.
+- For performance bond claims, the City’s preferred sequence is: notice of concerns, cure opportunity, default notice, surety involvement, and an agreed path to completion that minimizes service disruption to the library.
+- Liquidated damages, if applicable under the contract, are enforceable per the General Conditions.
+- Insurance requirements are separate from bonding requirements and do not replace the bonds.
+
+Submission Checklist for Bonds:
+- Correct obligee name: City of Westfield Public Works
+- Correct project name: Westfield Public Library Renovation
+- Proper bond amounts: Bid 5 percent, Performance 100 percent, Payment 100 percent
+- Surety qualifications: Treasury-listed and licensed in the jurisdiction
+- Executed bond forms: AIA or equivalent acceptable to the City with valid power of attorney
+- Electronic submission: Ensure verification is accessible to the City’s procurement portal
+
+Points of Contact (for notices per the RFP):
+- Owner’s Representative: City of Westfield Public Works, Capital Projects Division (official contact details to be provided in award documents)
+- Surety Claims Notices: Use the surety’s official claims email and mailing address as listed on the bond

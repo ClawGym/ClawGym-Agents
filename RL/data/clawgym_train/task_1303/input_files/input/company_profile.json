@@ -1,0 +1,9 @@
+{
+  "company_name": "BrightStart LLC",
+  "employee_count": 12,
+  "monthly_benefits_budget": 4000.0,
+  "preferences": {
+    "max_deductible": 3000,
+    "min_network_size": 1500
+  }
+}

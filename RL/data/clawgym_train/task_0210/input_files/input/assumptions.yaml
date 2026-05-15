@@ -1,0 +1,7 @@
+temperature_coefficients:
+  baseline: -0.0038
+  prototype: -0.0025
+module_cost_usd:
+  baseline: 200
+  prototype: 210
+performance_ratio: 0.8

@@ -1,0 +1,16 @@
+cluster:
+  name: "edge-dc-1"
+  nodes:
+    - id: "node01"
+      cpu_cores: 16
+      memory_gib: 64
+    - id: "node02"
+      cpu_cores: 16
+      memory_gib: 64
+    - id: "node03"
+      cpu_cores: 32
+      memory_gib: 128
+  storage_tb: 48
+  average_power_kw: 3.2
+  power_cost_usd_per_kwh: 0.12
+  annual_maintenance_usd: 9500

@@ -1,0 +1,8 @@
+{
+  "items": [
+    {"name": "venue", "requested": 1800, "approved": 1800},
+    {"name": "catering", "requested": 1200, "approved": 800},
+    {"name": "printing", "requested": 300, "approved": 150},
+    {"name": "transport", "requested": 500, "approved": 500}
+  ]
+}

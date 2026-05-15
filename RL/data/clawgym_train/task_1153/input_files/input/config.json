@@ -1,0 +1,5 @@
+{
+  "perplexityThreshold": 45.0,
+  "burstinessThreshold": 0.35,
+  "minTextLength": 50
+}

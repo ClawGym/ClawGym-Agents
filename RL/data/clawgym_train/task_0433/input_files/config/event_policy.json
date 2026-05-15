@@ -1,0 +1,12 @@
+{
+  "day_noise_limit_db": 70,
+  "night_noise_limit_db": 55,
+  "noise_buffer_meters": 50,
+  "curfew_hour": 23,
+  "residential_vph_limit": 1000,
+  "detour_enabled": false,
+  "detour_residential_reduction_pct": 30,
+  "stagger_exit_minutes": 0,
+  "stagger_effect_pct_at_30min": 20,
+  "emergency_access_plan": false
+}

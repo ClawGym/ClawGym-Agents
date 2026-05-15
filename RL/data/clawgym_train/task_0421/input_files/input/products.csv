@@ -1,0 +1,8 @@
+id,name,price,inventory,category,tags,active
+BQT001,Sunset Bouquet,49.00,5,Bouquets,seasonal;featured,true
+BQT002,Classic Roses Dozen,59.50,0,Bouquets,roses;classic,true
+PLT001,Potted Succulent Trio,28.00,12,Plants,succulent;low-maintenance,true
+EVT001,Wedding Centerpiece (Peonies),85.00,3,Events,peonies;wedding;seasonal,true
+EVT002,Corporate Desk Vase,35.00,20,Events,corporate;weekly,true
+ACC001,Handwritten Card,5.00,100,Accessories,gift;addon,true
+DIS001,Clearance Dried Wreath,22.00,2,Seasonal,dried;clearance,false

@@ -1,0 +1,5 @@
+include_recommended_only: true
+sibling_name: TBD
+highlight_keywords: ["AES", "CHACHA20", "GCM"]
+# Fill this with the exact columns (and order) to include in out/tls_suites_recommended.csv
+output_fields: []

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0623",
+  "user_query": "Read the birth data in input/natal_config.json and the dates in input/targets.yaml, then do the following:\n\n1) Generate a natal chart from the birth data and write it to output/natal.json as a JSON object with these top-level keys: birth_data, positions, house_cusps, and signs.\n\n2) Calculate daily transits for the date specified as daily_date in input/targets.yaml using the natal chart, and write the console-style report to output/daily.txt. The first line must begin with \"TRANSIT CONTEXT —\" and the report must include a \"Moon:\" line, a \"Transits active today\" section, and a final \"Notable:\" line.\n\n3) Calculate a week-ahead forecast anchored to weekly_anchor_date in input/targets.yaml and write it to output/weekly.txt. The first line must begin with \"WEEK AHEAD —\" and list up to the three most significant transits with dates and themes.\n\n4) Check the current void-of-course Moon status and write a JSON object to output/voc.json. It must include at least a boolean field voc. If voc is true, also include end_time_utc and end_sign.\n\n5) Write a 300–500 word human-readable synthesis to output/summary.md with these section headers in this order: \"Top Transit\", \"Week Theme\", \"VoC Advisory\", \"Planning Tips\". In the content: mention at least one specific aspect by name (e.g., square, trine, opposition, conjunction), reference at least one house number (e.g., \"2nd house\"), and include at least one actionable planning tip tied to a house placement, plus one caution note related to the Moon's phase.\n\nUse only the files under input/ for inputs and write all artifacts under output/ at the exact paths specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,34 @@
+Business: Solo consultant specializing in marketing analytics and automation for B2B startups (retainer + project work). I spend ~10–15 hours/week on client work and the rest on sales, content, and admin.
+
+Key tools:
+- Google Workspace (Gmail, Calendar, Sheets)
+- Airtable (simple CRM)
+- Notion (project management, meeting notes, templates)
+- Stripe (one-off invoices and subscription payments)
+- Calendly (prospect and client scheduling)
+- Typeform (lead magnet and mini-surveys)
+- ConvertKit (newsletter + tagging)
+- Slack (personal workspace for alerts)
+- Webflow (site/blog with RSS)
+- LinkedIn and Twitter (content distribution)
+
+Constraints and preferences:
+- Keep monthly automation spend under $30.
+- I do not want to self-host or maintain servers (prefer Zapier or Make).
+- Security and data privacy matter (handle PII minimally, avoid copying payment data).
+- I want failure alerts in Slack (#ops-alerts) and escalation by email for persistent failures.
+- I prefer simple, reliable automations over complex ones; start with 2–4 steps then iterate.
+- Working hours are typically 9am–6pm local time; avoid sending client emails outside business hours when possible.
+
+Pain points (weekly):
+- Manually copying web/contact form leads into Airtable, sending intro emails, and creating follow-up tasks.
+- Calendly bookings require creating a Notion meeting page and emailing prep resources.
+- Reconciling Stripe payments: marking invoices paid, sending receipts, and updating a revenue tracker.
+- Copying Typeform lead magnet sign-ups into Sheets and tagging in ConvertKit.
+- Posting blog excerpts to LinkedIn/Twitter.
+- Compiling a weekly status digest from Notion tasks.
+
+Goals:
+- Reduce repetitive admin time by ~5–8 hours/month.
+- Ensure reliable notifications so silent failures don’t cause missed leads or payments.
+- Keep workflows documented and easy to maintain.

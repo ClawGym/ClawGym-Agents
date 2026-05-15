@@ -1,0 +1,17 @@
+version: 1
+rules:
+  - name: parent_review
+    trigger: layout_proof_ready
+    offset_days: 1
+    assignee: "Parent (Pat)"
+    channel: "email"
+  - name: team_review
+    trigger: layout_proof_ready
+    offset_days: 0
+    assignee: "Design Team"
+    channel: "slack"
+  - name: copy_edit_followup
+    trigger: copy_edit_returned
+    offset_days: 2
+    assignee: "Copy Chief"
+    channel: "email"

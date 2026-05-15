@@ -1,0 +1,4 @@
+# Initial review configuration (to be extended by implementing agent)
+# NOTE: Do not hardcode weights in code; populate and read all keys from here.
+min_flag_score: 6
+notes: "Populate scoring weights here; pipeline must read them at runtime."

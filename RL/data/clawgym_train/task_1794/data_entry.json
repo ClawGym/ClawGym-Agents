@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1794",
+  "user_query": "I want to migrate my small Python app from a cloud LLM provider to a local OpenAI-compatible server running on localhost. Please read input/app_client.py and input/notes.md to understand how it currently calls the API and which endpoints it uses. Then:\n\n1) Write a migration plan to output/migration_plan.json that covers: proving server reachability first, replacing the model identifier with a local runtime id, endpoint-by-endpoint smoke tests for chat/completions, responses, and embeddings, and validating after each runtime change. Include the exact base URL you will target and a clear ordered step list.\n\n2) Create minimal POST payloads for smoke tests at output/chat_smoke.json and output/embeddings_smoke.json. The chat payload should prompt the model to reply with READY and set temperature=0. The embeddings payload should request embeddings for a short list of texts. Use placeholder local model ids like LOCAL_MODEL_ID and LOCAL_EMBEDDING_MODEL_ID.\n\n3) Provide a Python example client at output/client_example.py that uses the localhost OpenAI-compatible base URL, sends the chat smoke test, and prints the model reply.\n\n4) Create output/troubleshooting.md with a concise checklist of common migration pitfalls and fixes (wrong base URL or port, model not found, empty outputs, first token slow, embeddings endpoint mismatch). Give a one-line exact check and a better next move for each.\n\nKeep everything local-first and do not include any references to external cloud endpoints. Make sure all output files are valid and self-contained.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

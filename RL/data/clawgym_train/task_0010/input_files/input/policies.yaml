@@ -1,0 +1,10 @@
+require_valid_license_for_screening: true
+require_format_match: true
+enforce_audience_cap: true
+film_projector_max_days_since_inspection: 120
+dcp_projector_max_days_since_inspection: 180
+extinguisher_max_days_since_inspection: 365
+nitrate_requires_cabinet: true
+nitrate_cabinet_max_days_since_inspection: 365
+extinguisher_equipment_id: FE-BOOTH
+nitrate_cabinet_equipment_id: NC-1

@@ -1,0 +1,7 @@
+event_id,title,start_date,end_date,location,type,organizer,priority,tags
+E-001,Coffee Chat with Retired Diplomat,2026-05-01T10:00,,Grad Lounge,meeting,IR Department,1,"mentor;chat"
+E-002,Briefing: UNSC Resolution Simulation,2026-05-06T14:00,,Policy Lab,workshop,IR Lab,2,"simulation;UNSC"
+E-003,Roundtable on Diplomacy & Sanctions,2026-05-02T09:00,,Room 204,roundtable,Sanctions Working Group,1,"sanctions;roundtable"
+E-004,Seminar: Conflict Negotiation,2026-05-10T13:00,,Auditorium,seminar,Peace Studies,3,"negotiation;seminar"
+E-005,Debrief: Embassy Case Study,2026-04-30T11:00,,Room 112,debrief,IR Department,2,"embassy;case-study"
+E-006,Reading Group: Post-Conflict Reconstruction,2026-05-05T16:00,,Library 3F,reading,IR Reading Circle,3,"reading;reconstruction"

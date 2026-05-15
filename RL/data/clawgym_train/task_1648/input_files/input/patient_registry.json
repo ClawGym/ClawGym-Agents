@@ -1,0 +1,5 @@
+[
+  {"patient_id": "P001", "age": 62, "sex": "F", "diagnosis": "Stroke", "group": "hemiparetic"},
+  {"patient_id": "P002", "age": 45, "sex": "M", "diagnosis": "TBI", "group": "moderate"},
+  {"patient_id": "P003", "age": 71, "sex": "M", "diagnosis": "Parkinsonism", "group": "idiopathic"}
+]

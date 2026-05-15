@@ -1,0 +1,106 @@
+{
+  "facility_name": "Riverbend Precision Components – Milwaukee Plant",
+  "location": "Milwaukee, WI",
+  "industry": "Metal fabrication and CNC machining",
+  "shifts": {
+    "count": 2,
+    "hours": [
+      "06:00-14:30",
+      "14:30-23:00"
+    ]
+  },
+  "employee_count": 96,
+  "roles": [
+    { "role": "CNC Operator", "count": 34 },
+    { "role": "Press Operator", "count": 12 },
+    { "role": "Welders", "count": 10 },
+    { "role": "Powder Coat/Paint", "count": 6 },
+    { "role": "Material Handler/Forklift", "count": 12 },
+    { "role": "Maintenance Technician", "count": 5 },
+    { "role": "Supervisors", "count": 6 },
+    { "role": "Office/Admin", "count": 11 }
+  ],
+  "operations": [
+    "CNC machining",
+    "Stamping press",
+    "Welding",
+    "Powder coating with spray booth",
+    "Warehouse and shipping",
+    "Equipment maintenance"
+  ],
+  "hazards": [
+    {
+      "hazard": "Rotating equipment and pinch points",
+      "locations": ["CNC mills", "Stamping press", "Conveyors"],
+      "related_standards": ["1910.212"],
+      "risk_level": "High",
+      "details": "Exposed rotating chucks; interlocks inconsistently used."
+    },
+    {
+      "hazard": "Hazardous energy during maintenance",
+      "locations": ["All production equipment"],
+      "related_standards": ["1910.147"],
+      "risk_level": "High",
+      "details": "LOTO procedures partially documented; missing equipment-specific steps."
+    },
+    {
+      "hazard": "Forklift traffic and pedestrian interfaces",
+      "locations": ["Warehouse", "Loading docks"],
+      "related_standards": ["1910.178"],
+      "risk_level": "Medium",
+      "details": "Mixed aisles; spotters not always used; near misses recorded."
+    },
+    {
+      "hazard": "Chemical exposure (solvents and powder coating)",
+      "locations": ["Parts washers", "Paint booth"],
+      "related_standards": ["1910.1200", "1910.134"],
+      "risk_level": "Medium",
+      "details": "Acetone and MEK in use; SDS are available but not centralized; half-mask respirators used in paint booth."
+    },
+    {
+      "hazard": "Noise exposure \u2265 85 dBA",
+      "locations": ["Stamping", "CNC", "Compressor room"],
+      "related_standards": ["1910.95"],
+      "risk_level": "High",
+      "details": "Dosimetry in 2025 showed 88\u201392 dBA TWA for press operators."
+    },
+    {
+      "hazard": "Walking-working surfaces (falls, slips, ladders, mezzanines)",
+      "locations": ["Mezzanine storage", "Docks", "Shop floor"],
+      "related_standards": ["1910.23"],
+      "risk_level": "Medium",
+      "details": "Open pallet rack edges at mezzanine; some ladders untagged."
+    },
+    {
+      "hazard": "Electrical safety and guarding of panels",
+      "locations": ["Main electrical room", "Shop floor"],
+      "related_standards": ["1910.303"],
+      "risk_level": "Medium",
+      "details": "Temporary cords across aisles; junction boxes missing covers."
+    },
+    {
+      "hazard": "Welding fumes and hot work",
+      "locations": ["Welding cells"],
+      "related_standards": ["1910.134", "1910.252"],
+      "risk_level": "Medium",
+      "details": "Local exhaust present but not measured; respirators used ad hoc."
+    }
+  ],
+  "existing_programs": {
+    "hazcom_written_program": true,
+    "loto_program": "Partial",
+    "forklift_training": { "current": true, "last_evaluation_year": 2024 },
+    "eap_posted": true,
+    "hearing_conservation_program": false,
+    "respirator_program": "Informal - fit testing not documented"
+  },
+  "sds_storage": "Cabinets near chemical areas; some SDS only digital on shared drive.",
+  "ppe": [
+    "Safety glasses",
+    "Cut-resistant gloves",
+    "Hearing protection",
+    "Steel-toe boots",
+    "Half-mask respirators in paint booth",
+    "Welding helmets"
+  ]
+}

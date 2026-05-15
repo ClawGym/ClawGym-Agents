@@ -1,0 +1,15 @@
+[
+  {"topic":"screen_time","tip_en":"Follow the 20-20-20 rule: every 20 minutes, look at something 20 feet away for 20 seconds.","evidence_level":5,"source":"AAP"},
+  {"topic":"screen_time","tip_en":"Encourage regular breaks from screens during homework.","evidence_level":4,"source":"AAP"},
+  {"topic":"screen_time","tip_en":"Keep screens at arm's length to reduce eye strain.","evidence_level":3,"source":"AAP"},
+  {"topic":"blue_light","tip_en":"Prioritize good lighting and posture over blue light filters.","evidence_level":4,"source":"AAO"},
+  {"topic":"blue_light","tip_en":"Use night mode to reduce glare in the evening.","evidence_level":3,"source":"AAO"},
+  {"topic":"blue_light","tip_en":"Set device brightness to comfortable levels to minimize eye fatigue.","evidence_level":3,"source":"AAO"},
+  {"topic":"outdoor_time","tip_en":"Aim for at least 60 minutes of outdoor daylight play most days.","evidence_level":5,"source":"WHO"},
+  {"topic":"outdoor_time","tip_en":"Combine outdoor time with active play for overall health.","evidence_level":4,"source":"WHO"},
+  {"topic":"outdoor_time","tip_en":"Plan outdoor reading breaks between homework tasks.","evidence_level":3,"source":"WHO"},
+  {"topic":"sleep","tip_en":"Maintain a consistent bedtime to support eye comfort.","evidence_level":3,"source":"SleepFoundation"},
+  {"topic":"sleep","tip_en":"Avoid screens at least 30 minutes before bed.","evidence_level":4,"source":"SleepFoundation"},
+  {"topic":"eye_exam","tip_en":"Schedule routine vision screenings as recommended by your healthcare provider.","evidence_level":3,"source":"CDC"},
+  {"topic":"nutrition","tip_en":"Offer a variety of colorful fruits and vegetables for overall eye health.","evidence_level":2,"source":"USDA"}
+]

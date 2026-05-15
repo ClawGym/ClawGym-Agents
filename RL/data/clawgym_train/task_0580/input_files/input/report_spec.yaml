@@ -1,0 +1,127 @@
+# Report specification for the local health check artifacts
+artifacts:
+  - name: top_processes.csv
+    type: csv
+    location: output/top_processes.csv
+    delimiter: ","
+    header:
+      required: true
+      columns_exact_order:
+        - id
+        - device_name
+        - application_name
+        - cpu_usage
+        - memory_usage
+        - timestamp
+        - day
+        - week
+        - month
+        - working_day
+    rows:
+      minimum: 1
+    column_constraints:
+      id:
+        type: integer
+        notes: "Sequential identifier for the row, starting at 1 for the most recent capture export."
+      device_name:
+        type: string
+        notes: "Hostname reported by the local system; must be a single string."
+      application_name:
+        type: string
+        notes: "Process name at capture time."
+      cpu_usage:
+        type: number
+        notes: "Numeric value only (no % sign). Decimals allowed. Represents CPU usage percentage per process."
+      memory_usage:
+        type: number
+        notes: "Numeric value only (no % sign). Decimals allowed. Represents memory usage percentage per process."
+      timestamp:
+        type: string
+        format: "YYYY-MM-DD HH:MM:SS"
+        regex: "^\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}$"
+        notes: "Capture time of the metrics, local time acceptable if consistent."
+      day:
+        type: integer
+        range: [1, 7]
+        notes: "ISO weekday number (1=Monday ... 7=Sunday)."
+      week:
+        type: integer
+        range: [1, 6]
+        notes: "Week-of-month as used by the monitoring script ((day-1)//7 + 1)."
+      month:
+        type: integer
+        range: [1, 12]
+      working_day:
+        type: string
+        enum: ["Weekday", "Weekend"]
+    examples:
+      - header: "id,device_name,application_name,cpu_usage,memory_usage,timestamp,day,week,month,working_day"
+        row: "1,myhost,python,12.75,3.2,2026-04-17 14:05:00,5,3,04,Weekday"
+
+  - name: alerts_summary.json
+    type: json
+    location: output/alerts_summary.json
+    schema:
+      type: object
+      required_keys:
+        - total_alerts
+        - by_severity
+        - sample
+      properties:
+        total_alerts:
+          type: integer
+          minimum: 0
+        by_severity:
+          type: object
+          required_keys: ["Amber", "Red"]
+          properties:
+            Amber:
+              type: integer
+              minimum: 0
+            Red:
+              type: integer
+              minimum: 0
+        sample:
+          type: array
+          maxItems: 3
+          items:
+            type: object
+            required_keys: ["alert", "date", "devicename", "type", "variant"]
+            properties:
+              alert:
+                type: string
+                enum: ["Amber", "Red"]
+              date:
+                type: string
+                notes: "Timestamp string; same format as CSV timestamp recommended."
+              devicename:
+                type: string
+              type:
+                type: string
+                const: "CPU"
+              variant:
+                type: string
+                const: "CPU"
+    insufficient_history_behavior:
+      total_alerts: 0
+      by_severity:
+        Amber: 0
+        Red: 0
+      sample: []
+
+  - name: monitoring_overview.md
+    type: markdown
+    location: output/monitoring_overview.md
+    content_requirements:
+      min_word_count: 120
+      must_contain_substrings:
+        - "Methodology"
+        - "Limitations"
+        - "output/top_processes.csv"
+        - "output/alerts_summary.json"
+    notes: "Describe how metrics were collected and (if possible) how predictions were generated. If prediction was skipped due to insufficient history, explicitly state that."
+
+notes:
+  - "All artifact paths must be relative (under output/)."
+  - "Do not include absolute or machine-specific paths inside any artifact."
+  - "Numeric fields must be renderable as numbers by a standard CSV/JSON parser (no symbols like %)."

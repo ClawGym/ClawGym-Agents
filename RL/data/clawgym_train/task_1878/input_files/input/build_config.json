@@ -1,0 +1,12 @@
+{
+  "appName": "PerfDemo",
+  "bundleOutput": "harmony/entry/src/main/resources/rawfile/index.harmony.js",
+  "bundleDev": true,
+  "bundleMinify": false,
+  "useHermes": false,
+  "nativeBuild": "Debug",
+  "extra": {
+    "entryFile": "index.js",
+    "assetsDest": "harmony/entry/src/main/resources/rawfile"
+  }
+}

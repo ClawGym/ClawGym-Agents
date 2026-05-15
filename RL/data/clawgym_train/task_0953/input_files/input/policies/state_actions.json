@@ -1,0 +1,26 @@
+[
+  {
+    "date": "2020-03-18",
+    "state": "Emerald",
+    "action": "Executive Order 2020-12",
+    "domain": "governance",
+    "source_type": "Governor",
+    "excerpt": "Executive order authorizes emergency purchases of PPE and reallocates hospital beds."
+  },
+  {
+    "date": "2020-03-30",
+    "state": "Emerald",
+    "action": "Legislative oversight session",
+    "domain": "governance",
+    "source_type": "Legislature",
+    "excerpt": "Oversight committee debates relief budget and mandates for providers."
+  },
+  {
+    "date": "2020-04-10",
+    "state": "Emerald",
+    "action": "Health Department bulletin",
+    "domain": "healthcare",
+    "source_type": "Health Department",
+    "excerpt": "Hospitals report ICU capacity improving; nurses equipped with PPE across systems."
+  }
+]

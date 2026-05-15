@@ -1,0 +1,26 @@
+{
+  "course": {
+    "title": "WWI Mini-Seminar: Context and Consequences",
+    "convenor": "Pat Morgan",
+    "sessions": [
+      {
+        "title": "Origins and Outbreak of WWI",
+        "date": "2026-04-21",
+        "topics": [
+          "Alliance systems",
+          "Assassination at Sarajevo",
+          "The July Crisis"
+        ]
+      },
+      {
+        "title": "Trenches and Technology on the Western Front",
+        "date": "2026-04-28",
+        "topics": [
+          "Trench life",
+          "Artillery and gas",
+          "Tanks and aircraft"
+        ]
+      }
+    ]
+  }
+}

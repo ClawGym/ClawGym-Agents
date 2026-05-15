@@ -1,0 +1,6 @@
+name,claimed_status,ein,website,notes,disclaimer_id
+Helping Hands Food Bank,501(c)(3),521234567,http://helpinghands.example,Monthly newsletter says donations are tax-deductible,D1
+Sunset Seniors Club,Social Club,,http://sunsetseniors.example,Collects annual membership dues,D2
+Bright Futures Scholarship Fund,501(c)(3),,http://brightfutures.example,Raising funds; newsletter includes EIN,D3
+Neighborhood Watch,Unregistered,, ,Door-to-door cash only,D4
+Community Garden Project,501(c)(3),,http://garden.example,Raffle tickets sold

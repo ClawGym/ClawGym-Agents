@@ -1,0 +1,5 @@
+[2026-04-15 10:12:03] INFO catalog.xml:3 Validation started
+[2026-04-15 10:12:03] ERROR orders.xml:12 Missing required attribute 'id' on <order>
+[2026-04-15 10:12:03] WARNING ui_strings.xml:22 Duplicate key 'btn.save' in <string>
+[2026-04-15 10:12:03] ERROR users.xml:7 Invalid email format in <email>
+[2026-04-15 10:12:04] WARNING orders.xml:34 Deprecated element <discountCode>

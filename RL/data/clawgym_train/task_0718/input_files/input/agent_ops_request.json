@@ -1,0 +1,10 @@
+{
+  "new_agent_id": "field_ops_bot",
+  "telegram_token": "123456:ABC-DEF_fake_token_field_ops",
+  "consent_text": "I explicitly consent to credential inheritance for the new agent field_ops_bot.",
+  "pairing_code": "TELE-PAIR-8891",
+  "delete_agent_id": "old_helper_bot",
+  "operator": "devops-alex",
+  "workspace": "/home/openclaw/.openclaw/workspace-field_ops_bot",
+  "archive_root": "state/archive"
+}

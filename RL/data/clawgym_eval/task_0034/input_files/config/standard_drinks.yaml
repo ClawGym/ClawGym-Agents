@@ -1,0 +1,16 @@
+drink_types:
+  beer:
+    standard_drink_per_oz: 0.0833333333  # 12 oz of ~5% beer ≈ 1 standard drink
+    description: 12 oz of ~5% beer is 1 standard drink
+  wine:
+    standard_drink_per_oz: 0.2           # 5 oz of ~12% wine ≈ 1 standard drink
+    description: 5 oz of ~12% wine is 1 standard drink
+  whiskey:
+    standard_drink_per_oz: 0.6666666667  # 1.5 oz of ~40% spirits ≈ 1 standard drink
+    description: 1.5 oz of ~40% spirits is 1 standard drink
+  cocktail:
+    standard_drink_per_oz: 0.5           # assumption for mixed drinks when exact recipe unknown
+    description: Assumed average for mixed drinks (use with caution)
+default:
+  standard_drink_per_oz: 0.1             # fallback if drink_type not listed
+notes: Standard drink conversion factors are approximations intended for aggregate analysis.

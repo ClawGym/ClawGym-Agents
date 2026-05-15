@@ -1,0 +1,16 @@
+name,county,state,year_built,status,preservation_score,last_featured_date
+El Reno Depot,Canadian,OK,1909,candidate,85,2025-10-15
+Guthrie Santa Fe Depot,Logan,OK,1903,candidate,92,2026-02-10
+Sapulpa Frisco Depot,Creek,OK,1907,candidate,88,2025-06-01
+McAlester Katy Depot,Pittsburg,OK,1915,candidate,75,2024-11-20
+Enid Rock Island Depot,Garfield,OK,1917,candidate,65,2025-08-05
+Pryor Katy Depot,Mayes,OK,1910,candidate,61,2026-03-01
+Shawnee Santa Fe Depot,Pottawatomie,OK,1905,needs_research,83,2025-05-01
+Durant Rock Island Depot,Bryan,OK,1911,candidate,59,2025-03-14
+Chickasha Rock Island Depot,Grady,OK,1910,candidate,77,2025-09-10
+Ardmore Santa Fe Depot,Carter,OK,1916,candidate,90,2025-12-20
+Nowata MKT Depot,Nowata,OK,1908,candidate,60,2025-04-02
+Frederick Frisco Depot,Tillman,OK,1920,removed,70,2024-05-19
+Claremore Frisco Depot,Rogers,OK,1912,candidate,82,2023-07-30
+Pauls Valley Santa Fe Depot,Garvin,OK,1903,candidate,82,2026-01-15
+Vinita Katy Depot,Craig,OK,1899,candidate,86,2025-02-12

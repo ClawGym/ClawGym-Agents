@@ -1,0 +1,13 @@
+target_renewables_share_percent: 80
+target_year: 2030
+max_annual_growth_abs_percent: 6
+carbon_fee_schedule:
+  2026: 25
+  2027: 35
+  2028: 40
+  2029: 45
+  2030: 50
+avg_household_energy_use_mmbtu_annual: 90
+cost_increase_per_mmbtu_from_fee_2030: 2
+efficiency_rebate_per_household_2030: 150
+reliability_buffer_percent: 15

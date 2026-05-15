@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0983",
+  "user_query": "I’m mentoring two people into IoT. Please read input/assessment_fresh_grad.json and input/assessment_career_switcher.json. Generate a personalized IoT engineering learning roadmap for each profile based on their assessment data, and save each as compact, valid JSON at:\n- output/fresh_grad/roadmap.json\n- output/switcher/roadmap.json\n\nThen write a comparison brief at output/comparison.md that includes the following clearly labeled sections and content:\n- Starting points (summarize each person’s background and goals)\n- Per-phase comparison (compare objectives and durations across both plans)\n- Top 3 skill gaps (for each profile)\n- 30-60-90 (an action plan for each profile)\n- Resource preferences (explain how the preferences in input/constraints.yaml were respected)\n- Timeline alignment (a simple alignment table mapping milestones month-by-month across both roadmaps)\n\nUse input/constraints.yaml to guide the brief (e.g., preferences like free resources emphasis or phase limits). Make sure the two JSON roadmaps reflect a multi-phase structure with objectives, coursework, projects, certifications, skill gaps, milestones, and recommended resources, and that the comparison shows clear differentiation between the Fresh Grad and Career Switcher.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

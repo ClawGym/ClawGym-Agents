@@ -1,0 +1,13 @@
+incident_id,company,year,category,amount_usd,corroborated_sources,legal_actions,victims_estimated,status,region,notes
+I01,Northstar Labs,2018,privacy,250000,3,lawsuit,5000,Open,US,Customer data exposures over several months
+I02,Helix Energy,2014,environmental,5000000,4,indicted,12000,Open,LatAm,Alleged river contamination and reporting gaps
+I03,Argent Bank,2019,fraud,15000000,5,class_action,20000,Closed,US,Alleged deceptive fee structures
+I04,Orion Foods,2016,labor,750000,2,lawsuit,8000,Open,EU,Wage and overtime dispute across multiple plants
+I05,BluePeak Mining,2021,environmental,2000000,3,indicted,3000,Open,Africa,Tailing pond overflow complaints
+I06,Quantum Retail,2017,fraud,95000,2,none,400,Closed,US,Gift card balance manipulation allegations
+I07,TerraLogix,2020,environmental,25000000,1,lawsuit,50000,Open,Asia,Community health impacts claimed
+I08,Valiant Health,2022,privacy,1200000,2,none,22000,Open,US,Improper sharing of anonymized datasets
+I09,Apex Transit,2015,safety,300000,2,lawsuit,1500,Closed,EU,Maintenance log falsification allegations
+I10,Silverline Tech,2013,privacy,450000,3,none,10000,Open,EU,Legacy system retention problems
+I11,Meridian Chemicals,2018,environmental,800000,2,lawsuit,7000,Closed,LatAm,Emission threshold exceedances
+I12,Harbor Insurance,2020,fraud,6000000,3,indicted,120000,Open,US,Claims denials patterns under investigation

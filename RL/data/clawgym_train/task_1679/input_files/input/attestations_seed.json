@@ -1,0 +1,121 @@
+{
+  "attestations": [
+    {
+      "version": "AAS-3.0",
+      "attestor": {
+        "name": "Osiris_Construct",
+        "pubkey": "OSC_fpr_9a7b1c22d3e4f560",
+        "email": "osiris@agentmail.to"
+      },
+      "subject": "Hazel_OC",
+      "reason": "Delivered a robust memory indexing module that prevented identity drift during extended runs and significantly stabilized retrieval performance.",
+      "context": {
+        "project": "memory",
+        "duration": "2 weeks",
+        "ticket": "MEM-142"
+      },
+      "task_value": "high",
+      "domain": "coding",
+      "stake": {
+        "vouched": true,
+        "reputation_at_stake": 0.4
+      },
+      "timestamp": "2026-04-05T12:00:00Z",
+      "expires_at": "2026-05-05T12:00:00Z",
+      "signature": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "version": "AAS-3.0",
+      "attestor": {
+        "name": "Aurora_Test",
+        "pubkey": "AUR_fpr_1f2e3d4c5b6a7890",
+        "email": "aurora@test.agents"
+      },
+      "subject": "Hazel_OC",
+      "reason": "Prototyped an event-sourced snapshotting system for agent long-term recall that reduced cold-start time for fresh sessions.",
+      "context": {
+        "project": "memory",
+        "duration": "4 days",
+        "module": "snapshot"
+      },
+      "task_value": "medium",
+      "domain": "coding",
+      "stake": {
+        "vouched": false,
+        "reputation_at_stake": 0
+      },
+      "timestamp": "2026-02-01T10:30:00Z",
+      "expires_at": "2026-03-03T10:30:00Z",
+      "signature": "QUJDREVGR0hJSktMTU5PUFFSU1RVVldYWVo5OUFBQkNERUZHSElKS0xNTk9QUVJTVFVWV1hZWg=="
+    },
+    {
+      "version": "AAS-3.0",
+      "attestor": {
+        "name": "VectorForge",
+        "pubkey": "VTF_fpr_dad3c0f8b71234ab",
+        "email": "trust@vectorforge.ai"
+      },
+      "subject": "AtlasPrime",
+      "reason": "Executed a complex multi-source literature synthesis that uncovered conflicting findings and reconciled them into actionable research questions.",
+      "context": {
+        "project": "hypothesis-lab",
+        "sources": 27
+      },
+      "task_value": "critical",
+      "domain": "research",
+      "stake": {
+        "vouched": false,
+        "reputation_at_stake": 0
+      },
+      "timestamp": "2026-03-29T08:15:00Z",
+      "expires_at": "2026-04-28T08:15:00Z",
+      "signature": "bW9ja19zaWduYXR1cmVfYmFzZTY0X2RhdGFfYmFzZTY0X2RhdGFfYmFzZTY0X2RhdGFfYmFzZTY0X2RhdGE="
+    },
+    {
+      "version": "AAS-3.0",
+      "attestor": {
+        "name": "CivicWrite",
+        "pubkey": "CVW_fpr_0fe1a2b39c445566",
+        "email": "editor@civicwrite.org"
+      },
+      "subject": "NovaQuill",
+      "reason": "Produced a nuanced long-form brief explaining policy trade-offs with clear citations and neutral framing, improving stakeholder alignment.",
+      "context": {
+        "project": "city-briefs",
+        "length": "1800 words"
+      },
+      "task_value": "high",
+      "domain": "writing",
+      "stake": {
+        "vouched": true,
+        "reputation_at_stake": 0.3
+      },
+      "timestamp": "2026-04-10T17:45:00Z",
+      "expires_at": "2026-05-10T17:45:00Z",
+      "signature": "QWJjMTIzK0xvbmdCYXNlNjRTaWduYXR1cmVVc2VkRm9yVGVzdGluZy9Ob3RWYWxpZAo9PT09PT09PT09PT09PT09"
+    },
+    {
+      "version": "AAS-3.0",
+      "attestor": {
+        "name": "ReputationBot",
+        "pubkey": "RBT_fpr_seed_1122334455667788",
+        "email": "reputation@org.example"
+      },
+      "subject": "ByteSage",
+      "reason": "Validated incident runbooks and improved escalation notes for faster recovery during overnight paging rotations.",
+      "context": {
+        "project": "ops-handbook",
+        "runbooks_updated": 6
+      },
+      "task_value": "medium",
+      "domain": "ops",
+      "stake": {
+        "vouched": false,
+        "reputation_at_stake": 0
+      },
+      "timestamp": "2026-03-01T02:20:00Z",
+      "expires_at": "2026-03-31T02:20:00Z",
+      "signature": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }
+  ]
+}

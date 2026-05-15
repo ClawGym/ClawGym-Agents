@@ -1,0 +1,14 @@
+Draft a runbook-style checklist to validate the AOI Squad Orchestrator (Lite) install in a clean developer environment. The checklist should:
+
+- Verify Node.js is installed and available on PATH.
+- Enumerate available presets and confirm the presence of "builder-security-operator".
+- Show current team names for "builder-security-operator".
+- Rename the "security" role to "Sentinel Kestrel" and confirm the change persists.
+- Execute a sample run using the exact preset "builder-security-operator" with this validation task, ensuring no external side effects.
+- Capture artifacts: exported team mapping (role keys → display names), structured JSON report, and Markdown report.
+- Emphasize safety, security, and compliance: no network calls, no secret handling, and local-only persistence.
+
+Output expectations:
+- A concise, step-by-step checklist suitable for internal use.
+- Clear ownership per step and validation points (what to check, what success looks like).
+- Notes on troubleshooting common setup issues (permissions, PATH, missing Node.js).

@@ -1,0 +1,10 @@
+Name,Role,Email,Company,Area
+Priya Nair,Director of Applied AI,priya.nair@example.com,Internal,Management
+Jonas Weber,SRE Lead,jonas.weber@example.com,Internal,SRE / Platform
+Elena Popov,Data Platform Lead,elena.popov@example.com,Internal,Data Platform
+Maria Gonzalez,Security Engineer,maria.gonzalez@example.com,Internal,Security / IAM
+Akash Mehta,Product Manager - Risk Systems,akash.mehta@example.com,Internal,Product
+Laura Schmidt,Senior ML Engineer,laura.schmidt@example.com,Internal,Applied AI (peer)
+Rafael Costa,AWS TAM,rafael.costa@amazon.com,Amazon Web Services,Cloud Support
+Sophie Durant,Snowflake AE,sophie.durant@snowflake.com,Snowflake,Data Warehouse
+Marco Bianchi,Datadog CSM,marco.bianchi@datadoghq.com,Datadog,Monitoring

@@ -1,0 +1,21 @@
+nationality: United States
+travelers: couple (early 30s)
+budget: mid-range
+pace: moderate
+late_night_arrival: true
+duration_days: 10
+
+# Optional context the planner may use
+dates: "2026-11-08 to 2026-11-18"
+arrival_city: Rio de Janeiro
+arrival_airport: GIG
+arrival_time_local: "23:15"
+must_see:
+  - beach time
+  - Sugarloaf or Christ the Redeemer
+  - lively food scene
+constraints:
+  weather_tolerance: "heat and some humidity; okay with brief rain"
+  water_comfort: "casual swimmers; prefer calmer seas"
+  mobility: "full"
+notes: "Open to one add-on region if transfer time is reasonable (<=4-5 hours door-to-door)."

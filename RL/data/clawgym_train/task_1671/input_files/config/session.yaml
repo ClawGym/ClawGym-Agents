@@ -1,0 +1,8 @@
+tolerance_bpm: 3
+overhead_seconds_between_songs: 12
+target_bpm_by_song:
+  Caravan Jam: 128
+  Nomad Shuffle: 102
+  Desert Groove: 95
+  Rain Market: 110
+  Midnight Train: 140

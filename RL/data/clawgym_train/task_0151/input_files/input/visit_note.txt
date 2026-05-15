@@ -1,0 +1,40 @@
+Outpatient Internal Medicine Visit Note
+Date: 2026-04-10
+
+Patient Contact:
+- Email: jane.doe77@examplemail.com
+- Phone: (415) 555-0198 or 415-555-0198
+- Address: 1234 Maple Street, Apt 5B, Springfield, IL 62704
+- MRN: 123456789
+- Insurance ID: 9876543210
+
+Chief Complaint:
+- Ongoing fatigue, increased thirst and urination (polyuria), and occasional blurry vision.
+
+History of Present Illness:
+- 52-year-old with history of type 2 diabetes mellitus and hypertension. Reports progressive fatigue over 3 months, polyuria (day and night), polydipsia, and intermittent blurry vision when reading. No chest pain or dyspnea on exertion. Denies syncope. Diet adherence variable.
+
+Past Medical History (PMH):
+- Type 2 diabetes mellitus (Dx ~2017)
+- Essential hypertension
+- Hyperlipidemia
+- Overweight/obesity (BMI ~31)
+
+Medications (per prior reconciliation; see attached list):
+- metformin 500 mg qAM
+- atorvastatin 20 mg qhs
+- lisinopril 10 mg daily
+
+Vitals (today):
+- BP 142/90 mmHg, HR 78 bpm, afebrile, BMI 31.2 kg/m^2
+
+Assessment:
+1) Type 2 diabetes mellitus with suboptimal control; symptoms of polyuria and blurry vision.
+2) Hypertension, not at target today.
+3) Hyperlipidemia, on statin therapy.
+4) Fatigue, likely multifactorial (sleep, glycemic control).
+
+Plan:
+- Reinforce diet and exercise, confirm adherence to metformin and lisinopril.
+- Consider A1c check and lipid panel.
+- Follow-up in 3 months or sooner if symptoms worsen.

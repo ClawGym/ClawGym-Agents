@@ -1,0 +1,7 @@
+receipt_id,date,sector,item,quantity
+R1001,2025-09-21,7,hygiene_kit,150
+R1002,2025-09-20,3,water_tablets,390
+R1003,2025-09-21,5,water_tablets,420
+R1004,2025-09-21,7,tarp,75
+R1005,2025-09-20,5,hygiene_kit,60
+R1006,2025-09-21,3,hygiene_kit,90

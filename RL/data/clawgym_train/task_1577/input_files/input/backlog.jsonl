@@ -1,0 +1,13 @@
+{"action":"add","client_ref":"t1","title":"Follow up with Acme re: Q3 SOW","notes":"Call procurement to confirm scope and sign-off.","priority":2,"tags":["sales"],"due_at":"2026-06-19T12:00:00-04:00","remind_at":"2026-06-19T09:00:00-04:00"}
+{"action":"add","client_ref":"t2","title":"Book team offsite venue","notes":"Compare quotes and lock deposit.","priority":2,"tags":["ops","events"],"due_at":null,"remind_at":null}
+{"action":"add","client_ref":"t3","title":"Fix flaky CI on api-tests","notes":"Investigate test order dependency and runner cache.","priority":2,"tags":["engineering","ci"],"due_at":"2026-06-21T17:00:00-04:00","remind_at":null}
+{"action":"add","client_ref":"t4","title":"Draft June newsletter","notes":"Focus on product updates + case study.","priority":3,"tags":["marketing"],"due_at":"2026-06-26T12:00:00-04:00","remind_at":"2026-06-25T10:00:00-04:00"}
+{"action":"add","client_ref":"t5","title":"Renew domain for dev blog","notes":"Renew for 3 years to lock pricing.","priority":2,"tags":["ops"],"due_at":"2026-06-10T18:00:00-04:00","remind_at":null}
+{"action":"add","client_ref":"t6","title":"Clean up obsolete Slack channels","notes":"Archive channels inactive >90 days.","priority":3,"tags":["ops"],"due_at":null,"remind_at":null}
+{"action":"set-tags","client_ref":"t1","tags":["sales","followup"]}
+{"action":"set-dates","client_ref":"t2","due_at":"2026-06-23T18:00:00-04:00","remind_at":"2026-06-20T09:00:00-04:00"}
+{"action":"set-priority","client_ref":"t3","priority":1}
+{"action":"set-status","client_ref":"t4","status":"blocked"}
+{"action":"done","client_ref":"t5"}
+{"action":"reopen","client_ref":"t4"}
+{"action":"delete","client_ref":"t6"}

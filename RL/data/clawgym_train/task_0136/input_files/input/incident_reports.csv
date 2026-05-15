@@ -1,0 +1,14 @@
+id,date,department,incident_type,classification,days_away,description
+1,2025-01-15,Stamping,Laceration,Recordable,0,Finger laceration on press requiring stitches
+2,2025-02-03,Warehouse,Near miss,Near Miss,0,Pedestrian stepped into forklift lane; horn not sounded
+3,2025-03-12,CNC,Minor cut,First Aid,0,Small cut treated with bandage
+4,2025-04-21,Paint Booth,Chemical splash,First Aid,0,Solvent splash in eye; eyewash used
+5,2025-05-09,Maintenance,Electrical shock,Near Miss,0,Brief contact with live circuit; no injury
+6,2025-06-18,Stamping,Hearing loss threshold shift,Recordable,0,Standard threshold shift confirmed by audiogram
+7,2025-07-07,Warehouse,Sprain,Restricted Duty,0,Ankle sprain from twisting while pulling pallet
+8,2025-08-02,Welding,Burn,First Aid,0,Minor welding spatter burn; ointment applied
+9,2025-09-14,Warehouse,Property damage,Property Damage,0,Pallet rack struck by forklift; no injury
+10,2025-10-05,Assembly,Slip/trip,First Aid,0,Slip on wet floor; no medical treatment beyond first aid
+11,2025-11-12,Maintenance,Crush injury,Recordable,3,Pinch point injury during unplanned maintenance; LOTO not applied
+12,2025-12-22,Warehouse,Near miss,Near Miss,0,Forklift mirror clipped employee's sleeve; no injury
+13,2025-12-30,CNC,Nip pinch,First Aid,0,Minor pinch at chuck; cleaned and bandaged

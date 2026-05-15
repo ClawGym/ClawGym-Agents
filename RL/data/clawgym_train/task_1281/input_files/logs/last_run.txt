@@ -1,0 +1,14 @@
+>>> python scripts/process_checklist.py input/checklist.csv --out output/visa_checklist.md
+Traceback (most recent call last):
+  File "scripts/process_checklist.py", line 22, in main
+    with open(args.csv, "r", encoding="ascii", newline="") as f:
+UnicodeDecodeError: 'ascii' codec can't decode byte 0xe1 in position 73: ordinal not in range(128)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "scripts/process_checklist.py", line 41, in <module>
+    main()
+  File "scripts/process_checklist.py", line 28, in main
+    raise
+RuntimeError: Failed while reading the input CSV due to encoding.

@@ -1,0 +1,11 @@
+topics:
+  - topic: "Jōmon period"
+    slug: "jomon"
+    expect_keywords:
+      - "Japan"
+      - "pottery"
+  - topic: "Great white shark"
+    slug: "great-white-shark"
+    expect_keywords:
+      - "shark"
+      - "Carcharodon"

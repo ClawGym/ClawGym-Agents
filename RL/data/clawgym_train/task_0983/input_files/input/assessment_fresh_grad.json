@@ -1,0 +1,58 @@
+{
+  "sessionId": "sess_fg_12mo_iotc",
+  "userId": 101,
+  "timestamp": "2026-04-19T10:00:00Z",
+  "assessmentData": {
+    "sessionId": "sess_fg_12mo_iotc",
+    "timestamp": "2026-04-19T10:00:00Z",
+    "experience": {
+      "yearsInTech": 0.5,
+      "previousRoles": [
+        "Electrical engineering student",
+        "IoT club lead",
+        "Firmware intern"
+      ],
+      "industryExposure": [
+        "consumer electronics",
+        "smart home"
+      ]
+    },
+    "skills": {
+      "hardSkills": [
+        "C",
+        "C++",
+        "Python",
+        "Arduino",
+        "ESP32",
+        "basic electronics",
+        "PCB basics",
+        "Git"
+      ],
+      "softSkills": [
+        "problem solving",
+        "communication",
+        "self-learning",
+        "teamwork"
+      ],
+      "proficiencyLevels": {
+        "embedded": "beginner",
+        "networking": "beginner",
+        "cloud": "none",
+        "mobile": "beginner",
+        "dataAnalytics": "beginner",
+        "security": "none"
+      }
+    },
+    "goals": {
+      "targetRole": "IoT Engineer (Consumer)",
+      "timeframe": "12 months",
+      "specialization": "Smart home devices with BLE/Wi-Fi and mobile integration",
+      "priorities": [
+        "hands-on projects",
+        "free resources",
+        "portfolio development",
+        "cloud integration (AWS/Azure)"
+      ]
+    }
+  }
+}

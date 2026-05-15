@@ -1,0 +1,4 @@
+type,name,amount,frequency,due_date
+EMI,Car Loan,350.00,MONTHLY,2026-04-15
+ONE_TIME,Insurance Premium,350.00,ANNUAL,2026-04-20
+EMI,Phone Installment,29.99,MONTHLY,2026-04-25

@@ -1,0 +1,7 @@
+transaction_id,user_id,timestamp,amount,merchant_category
+t5,u1,2024-02-02T09:00:00,42.10,Food
+t6,u2,2024-02-10T18:00:00,200.00,Travel
+t7,u2,2024-02-18T21:00:00,18.20,Food
+t8,u3,2024-02-28T10:00:00,12.00,Fees
+tdup,u2,2024-02-05T12:30:00,5.00,Fees
+t9,u4,2024-02-14T13:45:00,4100.00,Electronics

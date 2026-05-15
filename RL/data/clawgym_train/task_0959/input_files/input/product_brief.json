@@ -1,0 +1,119 @@
+{
+  "product_name": "StandupSpark",
+  "tagline": "AI standups in Slack that save time and surface blockers.",
+  "overview": "StandupSpark is a Slack-based AI standup assistant that replaces daily status meetings with quick DM check-ins and clean, human-sounding summaries in your team channel. It respects time zones, nudges gently, highlights blockers, and connects to your tools so managers and teammates can see what matters at a glance.",
+  "audience": {
+    "primary": "Engineering and product teams at startups and SMBs working remote or hybrid",
+    "team_size_range": "5–200",
+    "buyer_roles": ["Engineering Manager", "CTO", "Head of Product"],
+    "user_roles": ["Software Engineers", "Designers", "Product Managers"]
+  },
+  "problems": [
+    "Daily standup meetings eat into focus time and multiply across time zones.",
+    "Asynchronous updates scatter across Slack threads and are easy to miss.",
+    "Blockers get buried; managers waste time chasing status.",
+    "Bots feel noisy or rigid; reminders become nagging."
+  ],
+  "features": [
+    {
+      "name": "Slack DM check-ins",
+      "description": "Private, scheduled questions sent via Slack DM; answers post to a shared summary",
+      "benefit": "Team replies in under a minute without breaking flow",
+      "so_what": "You reclaim the 15–30 minutes normally lost to standup and keep momentum"
+    },
+    {
+      "name": "AI channel summaries",
+      "description": "Clear, human-sounding daily digest with what’s done, what’s next, and blockers",
+      "benefit": "Everyone scans one clean brief instead of reading threads",
+      "so_what": "Leaders spot risks early and teammates see where they can help"
+    },
+    {
+      "name": "Timezone‑aware scheduling",
+      "description": "Check-ins adapt to each member’s local start time and skip PTO/holidays",
+      "benefit": "No more pings at 2 AM; fewer missed updates",
+      "so_what": "Async teams stay connected without hurting focus or morale"
+    },
+    {
+      "name": "Smart nudges (low-noise)",
+      "description": "Gentle reminders that respect quiet hours and stop once you reply",
+      "benefit": "Higher response rates without spam",
+      "so_what": "You get a complete picture daily without policing the team"
+    },
+    {
+      "name": "Blocker alerts",
+      "description": "Automatic highlight of blockers with optional manager ping",
+      "benefit": "Faster unblocking and clearer ownership",
+      "so_what": "Issues move sooner; cycle time shortens"
+    },
+    {
+      "name": "Integrations",
+      "description": "Jira, GitHub, Linear, and Asana context linked in summaries",
+      "benefit": "Updates reference real work (tickets, PRs)",
+      "so_what": "Less status writing, more shipping"
+    },
+    {
+      "name": "Participation analytics",
+      "description": "Simple dashboard for response rates and time saved",
+      "benefit": "See adoption and impact without spreadsheets",
+      "so_what": "Prove ROI and tune cadences"
+    },
+    {
+      "name": "Privacy controls",
+      "description": "Private-by-default answers; data retention controls; skip sensitive channels",
+      "benefit": "People share honest updates without worry",
+      "so_what": "Better signal with less noise"
+    }
+    ],
+  "differentiators": [
+    "Summaries that read like a human wrote them — not a wall of bullets",
+    "Zero‑noise mode: post one clean digest instead of individual messages",
+    "Gentle, respectful nudges that auto-skip PTO and holidays",
+    "Catch‑up brief: one tap to see what you missed while in meetings",
+    "Fast, simple setup with opt-in privacy defaults"
+  ],
+  "integrations": ["Jira", "GitHub", "Linear", "Asana"],
+  "security": {
+    "privacy_defaults": "Private by default; you choose what posts to a public channel",
+    "data_use": "We process updates to generate summaries and never use your data to train shared models",
+    "retention": "Admin-set retention window (30/60/90 days) with early purge option",
+    "compliance": ["SOC 2 in progress", "SAML/SSO on Business plan"]
+  },
+  "pricing": {
+    "free": {
+      "price_usd": 0,
+      "limits": "Up to 10 active users, 1 daily summary, basic analytics"
+    },
+    "pro": {
+      "price_usd": 4,
+      "unit": "per active user / month",
+      "includes": [
+        "Unlimited users",
+        "AI summaries",
+        "Timezone scheduling",
+        "Blocker alerts",
+        "Jira/GitHub/Linear integrations",
+        "Participation analytics"
+      ]
+    },
+    "business": {
+      "price_usd": 7,
+      "unit": "per active user / month",
+      "includes": [
+        "Everything in Pro",
+        "SAML/SSO",
+        "Advanced privacy & retention controls",
+        "Priority support"
+      ]
+    }
+  },
+  "primary_cta": "Start your 14-day free trial",
+  "success_metrics": [
+    "Cut standup meeting time by ~15 minutes per day",
+    "Reach 90%+ response rate within two weeks",
+    "Reduce average blocker time-to-resolution"
+  ],
+  "positioning": {
+    "category": "Slack-based standup assistant",
+    "why_now": "Remote and async teams need time back without losing alignment"
+  }
+}

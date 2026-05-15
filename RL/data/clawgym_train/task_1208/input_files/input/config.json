@@ -1,0 +1,16 @@
+{
+  "budgetLimit": 0.2,
+  "routing": {
+    "sonnet_text_threshold": 10000,
+    "sonnet_item_threshold": 30
+  },
+  "retryableErrors": [
+    "APIConnectionError",
+    "RateLimitError",
+    "InternalServerError"
+  ],
+  "models": {
+    "simple": "claude-haiku-4-5-20251001",
+    "complex": "claude-sonnet-4-6"
+  }
+}

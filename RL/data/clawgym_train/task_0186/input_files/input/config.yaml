@@ -1,0 +1,26 @@
+# Ask-More runtime configuration for the consultation
+
+models:
+  - anthropic/claude-sonnet-4
+  - openai/gpt-4o
+  - google/gemini-2.5-pro
+  - deepseek/deepseek-chat
+  - mistral/mistral-large-2407
+
+presets:
+  deep:
+    - anthropic/claude-sonnet-4
+    - openai/gpt-4o
+    - google/gemini-2.5-pro
+    - deepseek/deepseek-chat
+  fast:
+    - google/gemini-2.5-flash
+    - deepseek/deepseek-chat
+
+synthesis_model: anthropic/claude-opus-4
+
+min_models: 2
+timeout_seconds: 45
+context_mode: summary
+show_cost_estimate: true
+require_confirmation: false

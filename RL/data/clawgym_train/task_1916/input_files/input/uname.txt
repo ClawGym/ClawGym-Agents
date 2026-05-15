@@ -1,0 +1,1 @@
+Linux secops-lab 5.15.0-92-generic #102-Ubuntu SMP Tue Feb 6 11:25:11 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux

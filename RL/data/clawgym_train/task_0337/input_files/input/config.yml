@@ -1,0 +1,17 @@
+allowed_domains:
+  - epa.gov
+  - usda.gov
+required_sources:
+  - type: federal_guidance
+    must_include_domain: epa.gov
+  - type: state_or_city_manual
+    must_include_domain_pattern: .gov
+sources: []
+extraction:
+  heading_min_length: 6
+  pdf_max_pages_to_scan: 20
+output_paths:
+  resources_dir: web_resources
+  sources_csv: out/data/sources.csv
+  headings_json: out/data/extracted_headings.json
+  report_md: out/review/bmp_suitability.md

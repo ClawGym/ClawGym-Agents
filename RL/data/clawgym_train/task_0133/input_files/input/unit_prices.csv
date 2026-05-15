@@ -1,0 +1,8 @@
+Category,Material,Unit_Price
+Wall,Concrete,150
+Wall,Brick,120
+Floor,Concrete,80
+Column,Steel,450
+Beam,Steel,200
+Column,Concrete,400
+Foundation,Concrete,90

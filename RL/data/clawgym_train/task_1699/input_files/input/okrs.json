@@ -1,0 +1,236 @@
+{
+  "quarter": "Q3 2026",
+  "company": {
+    "name": "Northstar Analytics",
+    "okrs": [
+      {
+        "id": "C1",
+        "objective": "Expand and win the mid-market North America segment",
+        "key_results": [
+          "Acquire 45 new mid-market logos by end of quarter",
+          "Increase NA ARR by $1.2M",
+          "Onboard-to-value time < 14 days for new NA customers"
+        ]
+      },
+      {
+        "id": "C2",
+        "objective": "Launch Analytics v2 platform and drive adoption",
+        "key_results": [
+          "Ship Analytics v2 GA by Week 10 with 0 critical bugs",
+          "Migrate 30% of active customers to v2 by EoQ",
+          "NPS for v2 early adopters >= 45"
+        ]
+      },
+      {
+        "id": "C3",
+        "objective": "Improve capital efficiency across GTM and product",
+        "key_results": [
+          "Burn multiple < 1.3x by EoQ",
+          "CAC payback period < 11 months",
+          "Infrastructure cost per active customer down 20% QoQ"
+        ]
+      },
+      {
+        "id": "C4",
+        "objective": "Strengthen data security and compliance posture",
+        "key_results": [
+          "Complete SOC 2 Type II audit with zero high-severity findings",
+          "100% of PII flows mapped and monitored",
+          "Mean time to patch critical CVEs < 72 hours"
+        ]
+      }
+    ]
+  },
+  "teams": [
+    {
+      "name": "Sales",
+      "okrs": [
+        {
+          "id": "S1",
+          "objective": "Hit NA mid-market new business target",
+          "parent_company_okr_id": "C1",
+          "key_results": [
+            "Close 20 new mid-market NA logos",
+            "Average deal size >= $26K ARR",
+            "Pipeline coverage 3x of target by Week 6"
+          ],
+          "potential_conflicts": ["CS2"]
+        },
+        {
+          "id": "S2",
+          "objective": "Accelerate expansion within existing accounts",
+          "parent_company_okr_id": "C1",
+          "key_results": [
+            "Land-and-expand in 12 current customers",
+            "Multi-product attach rate to 35%",
+            "Churn on expansion cohort < 5% over 90 days"
+          ],
+          "potential_conflicts": []
+        },
+        {
+          "id": "S3",
+          "objective": "Open LATAM pilots",
+          "parent_company_okr_id": null,
+          "key_results": [
+            "Secure 3 pilot agreements in LATAM",
+            "Localize pitch collateral for Spanish and Portuguese"
+          ],
+          "potential_conflicts": []
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "okrs": [
+        {
+          "id": "M1",
+          "objective": "Generate qualified pipeline for NA mid-market",
+          "parent_company_okr_id": "C1",
+          "key_results": [
+            "$3.5M in qualified pipeline sourced in NA",
+            "45 ICP demo requests/month",
+            "Inbound CAC <= $4.2K"
+          ],
+          "potential_conflicts": []
+        },
+        {
+          "id": "M2",
+          "objective": "Drive demand for Analytics v2 launch",
+          "parent_company_okr_id": "C2",
+          "key_results": [
+            "800 registrants for v2 launch webinar series",
+            "60 PQLs tagged for v2 by EoQ",
+            "Launch CTR >= 3.5%"
+          ],
+          "potential_conflicts": ["E1"]
+        }
+      ]
+    },
+    {
+      "name": "Engineering",
+      "okrs": [
+        {
+          "id": "E1",
+          "objective": "Deliver Analytics v2 GA on schedule and quality",
+          "parent_company_okr_id": "C2",
+          "key_results": [
+            "Feature complete by Week 8",
+            "Zero Sev-1 bugs at GA for 30 days",
+            "P95 latency <= 180ms under 600 RPS"
+          ],
+          "potential_conflicts": []
+        },
+        {
+          "id": "E2",
+          "objective": "Reduce infrastructure costs by 20% without user impact",
+          "parent_company_okr_id": "C3",
+          "key_results": [
+            "Migrate 4 services to autoscaling + spot",
+            "Storage cost down 25% via tiering",
+            "Error budget consumption remains <= 20%"
+          ],
+          "potential_conflicts": ["E1"]
+        },
+        {
+          "id": "E3",
+          "objective": "Implement zero-downtime deploys across all services",
+          "parent_company_okr_id": "C5",
+          "key_results": [
+            "Blue/green rollout for 6 core services",
+            "Deployment success rate > 99.5%"
+          ],
+          "potential_conflicts": []
+        }
+      ]
+    },
+    {
+      "name": "Product",
+      "okrs": [
+        {
+          "id": "P1",
+          "objective": "Ensure v2 feature set meets top customer use-cases",
+          "parent_company_okr_id": "C2",
+          "key_results": [
+            "Ship 5 highest-impact v2 features by GA",
+            "Beta satisfaction score >= 4.4/5",
+            "Reduce onboarding time by 30% for v2"
+          ],
+          "potential_conflicts": ["E2"]
+        },
+        {
+          "id": "P2",
+          "objective": "Improve trial-to-paid conversion in NA",
+          "parent_company_okr_id": "C1",
+          "key_results": [
+            "Trial-to-paid from 16% to 24%",
+            "Time-to-first-value < 10 minutes",
+            "Self-serve onboarding completion >= 70%"
+          ],
+          "potential_conflicts": []
+        }
+      ]
+    },
+    {
+      "name": "Customer Success",
+      "okrs": [
+        {
+          "id": "CS1",
+          "objective": "Drive retention and expansion for NA mid-market",
+          "parent_company_okr_id": "C1",
+          "key_results": [
+            "NRR >= 112% for NA mid-market cohort",
+            "Gross churn <= 1.8% monthly",
+            "CSAT >= 4.6/5"
+          ],
+          "potential_conflicts": []
+        },
+        {
+          "id": "CS2",
+          "objective": "Reduce support ticket volume and improve deflection",
+          "parent_company_okr_id": "C3",
+          "key_results": [
+            "Ticket volume down 30% QoQ",
+            "Knowledge base deflection >= 35%",
+            "Time-to-first-response < 2 hours"
+          ],
+          "potential_conflicts": ["S1"]
+        }
+      ]
+    },
+    {
+      "name": "Finance",
+      "okrs": [
+        {
+          "id": "F1",
+          "objective": "Tighten spend and improve CAC payback",
+          "parent_company_okr_id": "C3",
+          "key_results": [
+            "Non-essential OpEx down 8%",
+            "Renegotiate 4 vendor contracts for 12% savings",
+            "Report CAC payback monthly with cohort splits"
+          ],
+          "potential_conflicts": []
+        },
+        {
+          "id": "F2",
+          "objective": "Implement new ERP system",
+          "parent_company_okr_id": null,
+          "key_results": [
+            "Select vendor by Week 4",
+            "Migrate GL and AP by Week 12"
+          ],
+          "potential_conflicts": []
+        }
+      ]
+    }
+  ],
+  "known_conflicts": [
+    {
+      "team_a": "Sales",
+      "okr_a": "S1",
+      "team_b": "Customer Success",
+      "okr_b": "CS2",
+      "description": "Sales volume target risks bringing in unqualified customers, increasing support tickets and conflicting with CS ticket reduction objective."
+    }
+  ]
+}

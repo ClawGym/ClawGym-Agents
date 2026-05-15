@@ -1,0 +1,38 @@
+{
+  "Case ID": "ORIF-2026-0418-001",
+  "Patient": {
+    "ID": "PT-447201",
+    "Name": "Jordan Riley",
+    "DOB": "1989-07-12"
+  },
+  "Facility": {
+    "Name": "Riverside General Hospital",
+    "MRN": "RGH-992314",
+    "Surgeon": "A. Patel, MD",
+    "Anesthesiologist": "K. Nguyen, MD"
+  },
+  "Procedure Date": "2026-04-18",
+  "Procedure": "Open reduction and internal fixation (ORIF) of right distal radius",
+  "Procedure Summary": "ORIF of right distal radius using a volar approach. Fracture reduced and stabilized with volar locking plate and locking screws. Fluoroscopy utilized to confirm reduction and hardware placement. Uneventful course.",
+  "Surgeon Notes": "Pre-op: Cefazolin 2 g IV given within 30 minutes of incision. Anesthesia: General endotracheal anesthesia. Regional: Supraclavicular single-shot nerve block performed by anesthesia.\nApproach: Volar FCR interval. Reduction achieved with K-wire joystick (removed prior to closure).\nImplants: 1 x volar locking plate (7-hole); 6 x locking screw 3.5mm.\nGrafts: Cancellous bone graft putty 5cc x1 to support volar metaphyseal defect.\nFluoroscopy: 12 minutes total for reduction and hardware confirmation.\nClosure: 2-0 Vicryl x2 packs for deep closure; 3-0 Nylon x1 pack for skin. Sterile dressing applied. Tourniquet time 75 minutes. No complications.",
+  "Billed Items": [
+    { "item": "General anesthesia base", "quantity": 1 },
+    { "item": "Anesthesia time (per 15 min)", "quantity": 6 },
+    { "item": "OR service (per 30 min)", "quantity": 3 },
+    { "item": "Fluoroscopy (per 15 min)", "quantity": 1 },
+    { "item": "Suture 2-0 Vicryl", "quantity": 1 },
+    { "item": "Suture 3-0 Nylon", "quantity": 1 }
+  ],
+  "Price Catalog": [
+    { "item": "Volar locking plate 7-hole", "unit": "each", "unit_price": 1250.0 },
+    { "item": "Locking screw 3.5mm", "unit": "each", "unit_price": 75.0 },
+    { "item": "Cancellous bone graft putty 5cc", "unit": "each", "unit_price": 320.0 },
+    { "item": "Regional nerve block (single-shot)", "unit": "each", "unit_price": 180.0 },
+    { "item": "Suture 2-0 Vicryl", "unit": "pack", "unit_price": 18.0 },
+    { "item": "Suture 3-0 Nylon", "unit": "pack", "unit_price": 12.0 },
+    { "item": "Fluoroscopy (per 15 min)", "unit": "unit", "unit_price": 90.0 },
+    { "item": "General anesthesia base", "unit": "each", "unit_price": 250.0 },
+    { "item": "Anesthesia time (per 15 min)", "unit": "unit", "unit_price": 60.0 },
+    { "item": "OR service (per 30 min)", "unit": "unit", "unit_price": 300.0 }
+  ]
+}

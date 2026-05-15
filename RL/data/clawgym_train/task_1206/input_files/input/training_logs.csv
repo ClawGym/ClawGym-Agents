@@ -1,0 +1,24 @@
+session_id,date,exercise_type,duration_min,avg_hr_bpm,rpe_1_10,throws_count
+1,2026-03-02,Darts practice,90,96,6,600
+2,2026-03-02,Shoulder mobility,30,72,3,0
+3,2026-03-03,Running,45,142,7,0
+4,2026-03-03,Wrist curls,25,88,5,0
+5,2026-03-04,Darts practice,120,102,7,800
+6,2026-03-05,Strength circuit,50,128,8,0
+7,2026-03-06,Darts practice,60,98,5,450
+8,2026-03-07,Restorative yoga,40,68,2,0
+9,2026-03-08,Darts practice,75,100,6,520
+10,2026-03-09,Running,60,150,8,0
+11,2026-03-10,Wrist curls,30,90,6,0
+12,2026-03-11,Darts practice,110,104,7,700
+13,2026-03-12,Strength circuit,55,130,7,0
+14,2026-03-13,Darts practice,80,101,6,560
+15,2026-03-14,Restorative yoga,45,66,2,0
+16,2026-03-15,Shoulder mobility,35,70,3,0
+17,2026-03-16,Darts practice,95,99,6,640
+18,2026-03-17,Running,50,145,7,0
+19,2026-03-18,Wrist curls,35,92,6,0
+20,2026-03-19,Darts practice,100,103,7,750
+21,2026-03-20,Strength circuit,60,132,8,0
+22,2026-03-21,Restorative yoga,50,65,2,0
+23,2026-03-22,Darts practice,70,97,5,480

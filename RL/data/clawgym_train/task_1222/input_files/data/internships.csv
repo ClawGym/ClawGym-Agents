@@ -1,0 +1,10 @@
+internship_id,department,title,stipend,location,modality,semester
+CS101,Computer Science,Web Accessibility Intern,1800,Town Center,Hybrid,Fall 2025
+CS102,Computer Science,Data Visualization Intern,2200,Town Center,On-site,Fall 2025
+CS103,Computer Science,IT Support Intern,2000,North Campus,On-site,Spring 2026
+BUS201,Business,Marketing Outreach Intern,1500,Downtown,Hybrid,Fall 2025
+BUS202,Business,Finance Analytics Intern,1600,South Campus,On-site,Spring 2026
+BUS203,Business,Event Coordination Intern,1400,Main Office,On-site,Fall 2025
+ENV301,Environmental Studies,Urban Garden Intern,1700,Green Hub,On-site,Fall 2025
+ENV302,Environmental Studies,Sustainability Data Intern,1800,Green Hub,Hybrid,Spring 2026
+ENV303,Environmental Studies,Community Clean-Up Coordinator,1750,Riverfront,On-site,Spring 2026

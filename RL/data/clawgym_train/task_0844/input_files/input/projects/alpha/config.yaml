@@ -1,0 +1,6 @@
+project_id: alpha
+building_type: office
+gross_floor_area_m2: 9500
+emission_factors:
+  grid_ef_kg_per_kwh: 0.233
+  gas_ef_kg_per_kwh: 0.184

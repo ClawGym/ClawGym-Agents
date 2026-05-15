@@ -1,0 +1,22 @@
+{
+  "company_name": "Pinnacle Spend Systems",
+  "industry": "B2B SaaS - Fintech (SMB Spend Management)",
+  "team_size": 55,
+  "hourly_cost": 40,
+  "locations": [
+    "San Francisco, CA",
+    "Dublin, IE (EU support and compliance)"
+  ],
+  "departments": {
+    "customer_support": 8,
+    "sales": 10,
+    "marketing": 6,
+    "customer_success": 6,
+    "product_engineering": 23,
+    "finance_ops": 4,
+    "people_ops": 3,
+    "it_security": 3,
+    "leadership": 2
+  },
+  "context_notes": "We provide an SMB spend management platform (corporate cards, expense controls, approvals, and AP automation) integrating with QuickBooks, Xero, and NetSuite. We operate under SOC 2 Type II controls and support US/EU customers. Use this hourly_cost override for savings calculations."
+}

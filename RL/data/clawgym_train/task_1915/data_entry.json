@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1915",
+  "user_query": "I need a ready-to-use MCP server configuration for my AI assistant, plus a security hardening plan and a short announcement to share with my team. Read input/requirements.yaml and input/team_prefs.json, then do the following:\n\n1) Build a client configuration JSON at output/config/mcp.json that includes servers for filesystem, web fetching, memory, and a database per the preferences. Do not include any excluded servers. Use the standardized \"mcpServers\" JSON format, with each server entry defining \"command\" and \"args\" correctly.\n\n2) Create output/docs/selection.md explaining which servers you chose, what each one does, and include the installation command and URL for each selected server.\n\n3) Produce a security checklist at output/security/checklist.json reflecting telemetry preferences, the initial wrap action you recommend (dry-run vs active vs undo), and at least three risk notes. Also write output/security/hardening.md detailing how you will wrap the servers with a security proxy, run an initial scan, handle undo, and set basic policies.\n\n4) Draft output/communications/announcement.md with a concise, team-facing announcement that includes a compelling hook, a clear CTA, and at least three relevant hashtags.\n\nMake sure everything aligns with the constraints in the input files and is suitable for immediate use.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

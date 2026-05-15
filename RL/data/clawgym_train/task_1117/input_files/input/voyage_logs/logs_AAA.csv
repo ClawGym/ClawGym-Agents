@@ -1,0 +1,4 @@
+voyage_id,port_code,departure_date,arrival_date,scheduled_arrival_date,reported_delivered_tonnage
+VAA-101,AAA,2024-10-02,2024-10-12,2024-10-13,500.0
+VAA-102,AAA,2024-11-05,2024-11-21,2024-11-20,620.5
+VAA-103,AAA,2024-12-10,2024-12-22,2024-12-22,450.0

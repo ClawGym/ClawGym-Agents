@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "event_id": "E1",
+      "date": "2024-06-28",
+      "title": "Rocznica wystąpienia o reformie wymiaru sprawiedliwości",
+      "themes": ["praworządność", "służba publiczna"],
+      "keywords": ["prawo", "sprawiedliwość", "reforma"]
+    },
+    {
+      "event_id": "E2",
+      "date": "2024-08-31",
+      "title": "Dziedzictwo Solidarności",
+      "themes": ["solidarność", "demokracja"],
+      "keywords": ["Solidarność", "wolność", "praca"]
+    },
+    {
+      "event_id": "E3",
+      "date": "2024-11-11",
+      "title": "Święto Niepodległości",
+      "themes": ["patriotyzm", "jedność"],
+      "keywords": ["niepodległość", "jedność", "wspólnota"]
+    }
+  ]
+}

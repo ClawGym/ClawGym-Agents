@@ -1,0 +1,4 @@
+{"plant": "Springfield Nuclear Plant", "date": "2024-10-02", "type": "Scram", "severity": "INES-1", "status": "resolved", "summary": "Automatic scram due to turbine trip; no safety impact."}
+{"plant": "Seabrook Station", "date": "2024-11-12", "type": "Leak", "severity": "INES-2", "status": "investigating", "summary": "Minor coolant leak detected in auxiliary piping; contained."}
+{"plant": "Fukui Research Reactor", "date": "2024-12-01", "type": "Procedure deviation", "severity": "INES-0", "status": "resolved", "summary": "Test procedure deviation; no radiological release."}
+{"plant": "Unknown" "date": "2024-10-15"}

@@ -1,0 +1,22 @@
+{
+  "cap": 100,
+  "source_points": {
+    "website": 20,
+    "referral": 30,
+    "event": 25,
+    "social": 15,
+    "direct": 10
+  },
+  "domain_points": {
+    "bigco.com": 40,
+    "midmarket.co": 30,
+    "university.edu": 35,
+    "startup.io": 25,
+    "localshop.com": 10,
+    "shippingpro.com": 20
+  },
+  "tld_points": {
+    "edu": 20
+  },
+  "notes": "Apply source_points and domain_points additively per lead based on CSV 'source' and email domain. If a domain is not listed, you may optionally apply tld_points based on the email TLD. Cap total score at 'cap'. Construct a clear reason string summarizing applied rules and points."
+}

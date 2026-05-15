@@ -1,0 +1,10 @@
+{"id":"A1","type":"basic","p":0.55,"win":1.10,"loss":1.00}
+{"id":"A2","type":"basic","p":0.48,"win":1.00,"loss":1.00}
+{"id":"A3","type":"polymarket","your":0.60,"market":0.40}
+{"id":"A4","type":"polymarket","your":0.45,"market":0.50}
+{"id":"A5","type":"ratio","p":0.62,"b":1.8}
+{"id":"A6","type":"ratio","p":0.46,"b":1.00}
+{"id":"A7","type":"basic","p":0.70,"win":2.00,"loss":3.00}
+{"id":"A8","type":"polymarket","your":0.55,"market":0.52}
+{"id":"A9","type":"basic","p":1.20,"win":1.00,"loss":1.00}
+{"id":"A10","type":"ratio","p":0.25,"b":3.00}

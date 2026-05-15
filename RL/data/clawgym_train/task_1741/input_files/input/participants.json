@@ -1,0 +1,8 @@
+{
+  "participants": [
+    {"name": "Marie DuPont", "organization": "Savoie Nature Collective", "email": "marie@example.org", "timezone_offset_minutes": 120},
+    {"name": "Paul Garnier", "organization": "Chambéry Tourism", "email": "paul@example.org", "timezone_offset_minutes": 120},
+    {"name": "Lina Rossi", "organization": "Green Trails Guides", "email": "lina@example.org", "timezone_offset_minutes": 120},
+    {"name": "Hugo Martin", "organization": "Eco-Lodge Chambéry", "email": "hugo@example.org", "timezone_offset_minutes": 120}
+  ]
+}

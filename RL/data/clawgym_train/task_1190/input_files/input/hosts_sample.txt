@@ -1,0 +1,14 @@
+# Sample /etc/hosts snapshot for inspection
+127.0.0.1	localhost
+::1	localhost
+
+# Potential blocks added by unknown tools
+0.0.0.0	tracker.example.com
+0.0.0.0	wikipedia.org
+# blocked social
+0.0.0.0	facebook.com
+0.0.0.0	youtube.com
+
+# local devices/services
+192.168.1.5	myrouter.local
+127.0.0.1	someblog.example

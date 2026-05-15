@@ -1,0 +1,9 @@
+deal_id,partner_name,category,territories,start_date,end_date,exclusivity,alcohol_marketing,gambling_marketing,health_warning_required,usage_rights_months_after_end,notes
+D001,Apex Motors Test Drive Tour,Automotive,UK,2025-03-01,2025-12-31,YES,NO,NO,,12,Show appearances at dealerships
+D002,HighRoller Bet,Betting,DE,2025-05-01,2025-10-31,NO,NO,YES,,6,Digital ads and social posts
+D003,Old Reserve Whiskey,Alcoholic Beverage,UK,2025-06-01,2025-12-31,NO,YES,NO,NO,12,Event sponsorship and print ads
+D004,Spark Energy Drink,Energy Drink,US,2025-01-15,2025-06-30,NO,NO,NO,,36,Stadium banners and meet-and-greet
+D005,TravelFast Insurance,Insurance,UK;US,2025-02-01,2025-08-31,NO,NO,NO,,12,TV spot and web banners
+D006,LuckyPlay Casino,Betting,IT,2025-03-01,2025-09-30,NO,NO,YES,,6,Online campaign
+D007,Heritage Watches,Luxury Goods,US,2025-04-01,2025-12-31,NO,NO,NO,,12,Print magazine ads
+D008,Vintage Wine Club,Alcoholic Beverage,UK,2025-05-15,2025-13-40,NO,YES,YES,YES,twentyfour,Invalid date and usage rights to trigger import error

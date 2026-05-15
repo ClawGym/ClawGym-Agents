@@ -1,0 +1,49 @@
+{"timestamp":"2026-04-12T07:18:04Z","speaker":"human","text":"What's my day look like?"}
+{"timestamp":"2026-04-12T07:18:10Z","speaker":"assistant","text":"☀️ 68°F clear. 📅 2 events (10:00 PT, 14:00 PT). 💊 Meds at 08:00 and 20:00. 🔋 Phone 24%."}
+{"timestamp":"2026-04-12T07:22:33Z","speaker":"human","text":"Turn on the bedroom speaker and play Morning News."}
+{"timestamp":"2026-04-12T07:22:40Z","speaker":"assistant","text":"Playing Morning News on bedroom speaker at comfortable volume."}
+{"timestamp":"2026-04-12T07:23:02Z","speaker":"human","text":"Set the thermostat to 72."}
+{"timestamp":"2026-04-12T07:23:08Z","speaker":"assistant","text":"Thermostat set to 72°F."}
+{"timestamp":"2026-04-12T07:30:11Z","speaker":"human","text":"Dim the bedroom lights to 30%."}
+{"timestamp":"2026-04-12T07:30:18Z","speaker":"assistant","text":"Bedroom lights set to 30%."}
+{"timestamp":"2026-04-12T09:01:55Z","speaker":"human","text":"I'm working."}
+{"timestamp":"2026-04-12T09:02:03Z","speaker":"assistant","text":"Focus Mode: Desk lamp 70%, DND on, notifications minimized."}
+{"timestamp":"2026-04-12T09:15:12Z","speaker":"human","text":"Turn on the desk lamp."}
+{"timestamp":"2026-04-12T09:15:18Z","speaker":"assistant","text":"Desk lamp is on."}
+{"timestamp":"2026-04-12T09:45:10Z","speaker":"human","text":"Turn on the desk lamp."}
+{"timestamp":"2026-04-12T09:45:16Z","speaker":"assistant","text":"Desk lamp is already on."}
+{"timestamp":"2026-04-12T18:50:22Z","speaker":"human","text":"Movie time."}
+{"timestamp":"2026-04-12T18:50:29Z","speaker":"assistant","text":"Movie Time: TV on Apple TV, lights 15%, subtitles enabled."}
+{"timestamp":"2026-04-12T20:00:01Z","speaker":"assistant","text":"💊 Evening meds due now. Need a hand?"}
+{"timestamp":"2026-04-12T22:05:45Z","speaker":"human","text":"Goodnight."}
+{"timestamp":"2026-04-12T22:05:51Z","speaker":"assistant","text":"Bedtime: Lights off, thermostat 68°F, white noise on, doors locked."}
+{"timestamp":"2026-04-13T07:18:05Z","speaker":"assistant","text":"📋 Morning brief in 10 min: ☀️ 70°F, clear. 📅 3 events (9:00, 13:00, 16:30). 💊 Meds at 08:00 & 20:00. 🚗 No traffic alerts."}
+{"timestamp":"2026-04-13T07:22:31Z","speaker":"human","text":"Turn on the bedroom speaker and play Morning News."}
+{"timestamp":"2026-04-13T07:22:39Z","speaker":"assistant","text":"Playing Morning News on bedroom speaker at comfortable volume."}
+{"timestamp":"2026-04-13T07:23:01Z","speaker":"human","text":"Set the thermostat to 72."}
+{"timestamp":"2026-04-13T07:23:06Z","speaker":"assistant","text":"Thermostat set to 72°F."}
+{"timestamp":"2026-04-13T09:00:12Z","speaker":"human","text":"I'm working."}
+{"timestamp":"2026-04-13T09:00:19Z","speaker":"assistant","text":"Focus Mode: Desk lamp 70%, DND on, notifications minimized."}
+{"timestamp":"2026-04-13T18:59:48Z","speaker":"human","text":"Help."}
+{"timestamp":"2026-04-13T18:59:55Z","speaker":"assistant","text":"I'm here. What's wrong? Alerting caregiver and unlocking front door if needed."}
+{"timestamp":"2026-04-13T19:05:10Z","speaker":"human","text":"Dim living room lights to 20%."}
+{"timestamp":"2026-04-13T19:05:16Z","speaker":"assistant","text":"Living room lights set to 20%."}
+{"timestamp":"2026-04-13T22:10:03Z","speaker":"human","text":"Prep for bed."}
+{"timestamp":"2026-04-13T22:10:10Z","speaker":"assistant","text":"Turning off lights, setting thermostat to 68°F, locking front door, starting white noise."}
+{"timestamp":"2026-04-14T07:18:05Z","speaker":"assistant","text":"📋 Morning brief in 10 min: ☀️ 69°F partly cloudy. 📅 1 event (11:00). 💊 Meds at 08:00 & 20:00. 🔋 Wheelchair battery 73%."}
+{"timestamp":"2026-04-14T07:22:20Z","speaker":"human","text":"Play Morning News."}
+{"timestamp":"2026-04-14T07:22:26Z","speaker":"assistant","text":"Playing Morning News on bedroom speaker."}
+{"timestamp":"2026-04-14T08:00:00Z","speaker":"assistant","text":"💊 Morning meds due now."}
+{"timestamp":"2026-04-14T09:05:11Z","speaker":"human","text":"Turn on the desk lamp."}
+{"timestamp":"2026-04-14T09:05:18Z","speaker":"assistant","text":"Desk lamp is on."}
+{"timestamp":"2026-04-14T19:15:31Z","speaker":"human","text":"Set thermostat to 72."}
+{"timestamp":"2026-04-14T19:15:37Z","speaker":"assistant","text":"Thermostat set to 72°F."}
+{"timestamp":"2026-04-14T22:02:42Z","speaker":"human","text":"Goodnight."}
+{"timestamp":"2026-04-14T22:02:49Z","speaker":"assistant","text":"Bedtime: Lights off, thermostat 68°F, white noise on, doors locked."}
+{"timestamp":"2026-04-15T07:19:30Z","speaker":"human","text":"What's my day look like?"}
+{"timestamp":"2026-04-15T07:19:37Z","speaker":"assistant","text":"☀️ 71°F, clear. 📅 2 events (09:30, 15:00). 💊 Meds at 08:00 & 20:00. 🔋 Phone 32%."}
+{"timestamp":"2026-04-15T09:00:05Z","speaker":"human","text":"I'm working."}
+{"timestamp":"2026-04-15T09:00:12Z","speaker":"assistant","text":"Focus Mode: Desk lamp 70%, DND on, notifications minimized."}
+{"timestamp":"2026-04-15T18:52:12Z","speaker":"human","text":"Movie time."}
+{"timestamp":"2026-04-15T18:52:19Z","speaker":"assistant","text":"Movie Time: TV on Apple TV, lights 15%, subtitles enabled."}
+{"timestamp":"2026-04-15T20:00:01Z","speaker":"assistant","text":"💊 Evening meds due now."}

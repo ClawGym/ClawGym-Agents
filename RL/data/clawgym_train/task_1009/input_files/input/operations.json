@@ -1,0 +1,192 @@
+[
+  {
+    "id": "op-swap-eth-usdc-eth",
+    "type": "swap",
+    "description": "Swap 100 ETH to USDC on Ethereum via Uniswap V3 0.05%",
+    "chain": "Ethereum",
+    "tokens": [
+      {
+        "role": "from",
+        "symbol": "ETH",
+        "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "verified": true
+      },
+      {
+        "role": "to",
+        "symbol": "USDC",
+        "address": "0xA0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "verified": true
+      }
+    ],
+    "tokenVerified": true,
+    "amountTokenIn": 100,
+    "amountUSD": 350000,
+    "poolTVLUSD": 250000000,
+    "priceImpactPct": 0.3,
+    "riskTolerance": "moderate",
+    "poolVersion": "V3",
+    "feeTierBps": 5
+  },
+  {
+    "id": "op-swap-eth-newtoken-eth",
+    "type": "swap",
+    "description": "Swap 12 ETH to NEWTOKEN on Ethereum via Uniswap V3 1%",
+    "chain": "Ethereum",
+    "tokens": [
+      {
+        "role": "from",
+        "symbol": "ETH",
+        "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "verified": true
+      },
+      {
+        "role": "to",
+        "symbol": "NEWTOKEN",
+        "address": "0x1234567890abcdef1234567890ABCDEF12345678",
+        "verified": false
+      }
+    ],
+    "tokenVerified": false,
+    "amountTokenIn": 12,
+    "amountUSD": 42000,
+    "poolTVLUSD": 80000,
+    "priceImpactPct": 2.5,
+    "riskTolerance": "aggressive",
+    "poolVersion": "V3",
+    "feeTierBps": 100
+  },
+  {
+    "id": "op-lp-weth-op-optimism",
+    "type": "lp",
+    "description": "Add $50,000 liquidity to WETH/OP 0.3% on Optimism (Uniswap V3)",
+    "chain": "Optimism",
+    "tokens": [
+      {
+        "role": "token0",
+        "symbol": "WETH",
+        "address": "0x4200000000000000000000000000000000000006",
+        "verified": true
+      },
+      {
+        "role": "token1",
+        "symbol": "OP",
+        "address": "0x4200000000000000000000000000000000000042",
+        "verified": true
+      }
+    ],
+    "tokenVerified": true,
+    "amountUSD": 50000,
+    "poolTVLUSD": 4000000,
+    "estimatedILAnnPct": 22,
+    "priceImpactPct": 1.2,
+    "riskTolerance": "conservative",
+    "poolVersion": "V3",
+    "feeTierBps": 30
+  },
+  {
+    "id": "op-swap-usdc-weth-arb",
+    "type": "swap",
+    "description": "Swap 500,000 USDC to WETH on Arbitrum via Uniswap V3 0.05%",
+    "chain": "Arbitrum",
+    "tokens": [
+      {
+        "role": "from",
+        "symbol": "USDC",
+        "address": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+        "verified": true
+      },
+      {
+        "role": "to",
+        "symbol": "WETH",
+        "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+        "verified": true
+      }
+    ],
+    "tokenVerified": true,
+    "amountTokenIn": 500000,
+    "amountUSD": 500000,
+    "poolTVLUSD": 2000000,
+    "priceImpactPct": 12.0,
+    "riskTolerance": "moderate",
+    "poolVersion": "V3",
+    "feeTierBps": 5
+  },
+  {
+    "id": "op-bridge-usdc-polygon-base",
+    "type": "bridge",
+    "description": "Bridge 10,000 USDC from Polygon to Base via canonical bridge",
+    "chainFrom": "Polygon",
+    "chainTo": "Base",
+    "tokens": [
+      {
+        "role": "asset",
+        "symbol": "USDC",
+        "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+        "verified": true
+      }
+    ],
+    "tokenVerified": true,
+    "amountUSD": 10000,
+    "bridgeLiquidityUSD": 8000,
+    "poolTVLUSD": 5000000,
+    "priceImpactPct": 0.0,
+    "riskTolerance": "aggressive",
+    "bridgeName": "Polygon-Base-Canonical"
+  },
+  {
+    "id": "op-swap-usdc-weth-base-conservative",
+    "type": "swap",
+    "description": "Swap 20,000 USDC to WETH on Base via Uniswap V3 0.3%",
+    "chain": "Base",
+    "tokens": [
+      {
+        "role": "from",
+        "symbol": "USDC",
+        "address": "0x833589fCD6EDb6E08f4c7C32D4f71b54bdA02913",
+        "verified": true
+      },
+      {
+        "role": "to",
+        "symbol": "WETH",
+        "address": "0x4200000000000000000000000000000000000006",
+        "verified": true
+      }
+    ],
+    "tokenVerified": true,
+    "amountTokenIn": 20000,
+    "amountUSD": 20000,
+    "poolTVLUSD": 1500000,
+    "priceImpactPct": 1.2,
+    "riskTolerance": "conservative",
+    "poolVersion": "V3",
+    "feeTierBps": 30
+  },
+  {
+    "id": "op-lp-abc-weth-lowtvl",
+    "type": "lp",
+    "description": "Add $2,000 liquidity to ABC/WETH 1% on Ethereum (new pool)",
+    "chain": "Ethereum",
+    "tokens": [
+      {
+        "role": "token0",
+        "symbol": "ABC",
+        "address": "0xAbCDEFabcdefABCdefABcdefabCDEfAbcDeF0001",
+        "verified": true
+      },
+      {
+        "role": "token1",
+        "symbol": "WETH",
+        "address": "0xC02aaA39b223FE8D0A0E5C4F27eAD9083C756Cc2",
+        "verified": true
+      }
+    ],
+    "tokenVerified": true,
+    "amountUSD": 2000,
+    "poolTVLUSD": 900,
+    "estimatedILAnnPct": 15,
+    "priceImpactPct": 0.8,
+    "riskTolerance": "moderate",
+    "poolVersion": "V3",
+    "feeTierBps": 100
+  }
+]

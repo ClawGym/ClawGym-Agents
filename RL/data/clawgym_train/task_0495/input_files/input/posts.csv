@@ -1,0 +1,13 @@
+post_id,timestamp,user_id,url,text
+1,2022-10-01,u1,http://fake-news.example/article-a,"Story about election fraud"
+2,2022-10-01,u2,https://reliable.news/report-1,"Fact check on rumor"
+3,2022-10-01,u3,,"Meme with no link"
+4,2022-10-02,u4,https://www.rumors.net/story-1,"Shocking revelation thread"
+5,2022-10-02,u5,http://example.com/info,"General news piece"
+6,2022-10-02,u6,conspiracy.blog/post-7,"Blog post without scheme"
+7,2022-10-03,u7,http://conspiracy.blog/x,"Commentary"
+8,2022-10-03,u8,http://fake-news.example/article-b,"Another claim"
+9,2022-10-03,u9,http://othersite.org/abc,"Unrelated link"
+10,2022-10-03,u10,www.rumors.net/expose,"No scheme rumors link"
+1,2022-10-01,u1,http://fake-news.example/article-a,"Duplicate post id"
+12,2022-10-02,u11,https://reliable.news/report-2,"Follow-up fact check"

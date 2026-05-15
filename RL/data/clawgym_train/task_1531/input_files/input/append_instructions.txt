@@ -1,0 +1,13 @@
+Append the following section to the end of the existing note specified below. Do not remove or modify any prior content. Insert a blank line before the new section.
+
+Target note title: GPU price tracker plan
+Relative path from output/notes: projects/gpu-price-tracker-plan.md
+
+Section to append:
+## Confidence levels
+
+We assign confidence to each scraped record based on validation checks:
+
+- High — All fields parsed; price within 2σ of the rolling mean; checksum and schema validations pass; repeated samples agree. Use for alerts with no human review.
+- Medium — Minor anomalies present or a non-critical field is missing; a transient latency spike occurred during fetch. Keep the data but require a secondary confirmation before sending alerts.
+- Low — Captcha or layout drift detected; only a partial parse succeeded; confidence is low and the record is excluded from aggregates and alert triggers until the parser is fixed.

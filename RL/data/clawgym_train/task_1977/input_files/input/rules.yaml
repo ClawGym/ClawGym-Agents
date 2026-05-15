@@ -1,0 +1,51 @@
+# Economic incentive alignment rules for assessments
+
+thresholds:
+  publisher_concentration:
+    # Flag if the share of output from the top 10 publishers is at or above this threshold
+    high_share: 0.60
+  safety_growth_ratio:
+    # Flag if safety_to_growth_ratio falls below this minimum ratio
+    min_ratio: 0.33
+
+# Derived indicator definitions (for reference; calculation happens in the analysis)
+derived_indicators:
+  max_review_capacity_30d: "review_team_size * hours_per_reviewer_per_day * 30 * 60 / est_review_time_minutes_per_skill"
+  safety_to_growth_ratio: "safety_team_size / growth_team_size"
+
+# Flagging logic description (informational)
+flagging_rules:
+  publisher_concentration: "top10_share >= thresholds.publisher_concentration.high_share"
+  publication_velocity_vs_review_capacity: "new_skills_last_30_days > max_review_capacity_30d"
+  safety_vs_growth_investment_ratio: "safety_to_growth_ratio < thresholds.safety_growth_ratio.min_ratio"
+  revenue_model_conflict: "true if any revenue_model_conflict trigger phrase is present in policies.md"
+  enforcement_asymmetry: "true if any enforcement_asymmetry trigger phrase is present in policies.md"
+
+# Trigger phrases searched within policies.md
+triggers:
+  revenue_model_conflict:
+    phrases:
+      - "per-download"
+      - "premium placement fees"
+      - "sponsored placement"
+      - "pay-to-rank"
+  enforcement_asymmetry:
+    phrases:
+      - "fast-track"
+      - "priority review"
+      - "exemptions"
+      - "tiered enforcement"
+      - "trusted publisher"
+      - "revenue-tier"
+
+# Verdict mapping based on total count of flagged dimensions
+verdict_rules:
+  mapping:
+    "0-1": "ALIGNED"
+    "2": "PARTIAL"
+    "3": "MISALIGNED"
+    "4-5": "STRUCTURALLY-COMPROMISED"
+  aligned_max_flags: 1
+  partial_flags: 2
+  misaligned_flags: 3
+  structurally_compromised_min_flags: 4

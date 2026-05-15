@@ -1,0 +1,41 @@
+run_id: "sy-trip-safety-check"
+trip_date: "2026-05-01"
+sources:
+  - name: "Shenyang Metro service advisories"
+    description: "Official metro operator service bulletin or notices page"
+    domain_objective_attributes:
+      language: "Chinese"
+      organization: "Shenyang Metro Group"
+      site_title_contains: ["Shenyang Metro", "沈阳地铁"]
+      content_sections: ["公告", "服务公告", "运营信息"]
+    type: "transport"
+  - name: "Shenyang Municipal Government notices"
+    description: "Official municipal portal notices or emergency announcements"
+    domain_objective_attributes:
+      language: "Chinese"
+      organization: "Shenyang Municipal Government"
+      site_title_contains: ["Shenyang", "沈阳"]
+      content_sections: ["通知公告", "应急", "新闻"]
+    type: "government"
+  - name: "China Railway service updates for Shenyang"
+    description: "Official railway service updates relevant to Shenyang stations"
+    domain_objective_attributes:
+      language: "Chinese"
+      organization: "China Railway / 12306"
+      site_title_contains: ["12306", "铁路"]
+      content_sections: ["公告", "服务", "出行提示"]
+    type: "rail"
+detection_keywords:
+  include: ["Shenyang", "沈阳", "Metro", "地铁", "Line", "线路", "停运", "封闭", "延期", "施工", "晚点", "调整", "限流", "暴雨", "台风", "寒潮", "疫情", "公告", "通知", "出行提示"]
+  exclude: ["招聘", "庆祝", "节日祝福"]
+reliability:
+  timeout_seconds: 5
+  max_retries: 3
+  retry_backoff_seconds: 2
+output_paths:
+  raw_dir: "data/raw"
+  processed_incidents_json: "data/processed/incidents.json"
+  processed_summary_csv: "data/processed/incidents_summary.csv"
+logging:
+  path: "logs/fetch.log"
+  level: "info"

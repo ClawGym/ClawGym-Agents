@@ -1,0 +1,13 @@
+topics:
+  heatwave:
+    keywords:
+      - "heat"
+      - "cooling center"
+      - "heat index"
+    priority: "medium"
+  flood:
+    keywords:
+      - "flood"
+      - "river"
+      - "evacuation"
+    priority: "medium"

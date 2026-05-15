@@ -1,0 +1,7 @@
+[
+  {"name": "flask", "version": "2.0.3"},
+  {"name": "requests", "version": "2.25.1"},
+  {"name": "werkzeug", "version": "2.0.1"},
+  {"name": "jinja2", "version": "2.11.3"},
+  {"name": "itsdangerous", "version": "2.0.1"}
+]

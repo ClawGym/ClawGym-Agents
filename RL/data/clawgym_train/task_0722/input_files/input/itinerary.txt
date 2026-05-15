@@ -1,0 +1,19 @@
+Round-trip flight itinerary (British Airways):
+
+Outbound:
+- Date: Nov 15, 2026
+- Flight: BA178
+- Route: JFK → LHR
+- Times: 19:30 departure (JFK) / 07:25 arrival (+1 day) (LHR)
+
+Return:
+- Date: Nov 25, 2026
+- Flight: BA113
+- Route: LHR → JFK
+- Times: 10:10 departure (LHR) / 13:10 arrival (JFK)
+
+Passengers: 1 adult
+Cabin/Class: Economy
+Reference price: $1,150
+
+Notes: Please validate this round-trip price across multiple booking sites before I book.

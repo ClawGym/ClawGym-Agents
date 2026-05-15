@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "AAPL",
+    "asset_type": "stock",
+    "quantity": 50.11421,
+    "cost_basis_per_unit": 141.7103
+  },
+  {
+    "symbol": "NVDA",
+    "asset_type": "stock",
+    "quantity": 25.009015,
+    "cost_basis_per_unit": 319.9298
+  },
+  {
+    "symbol": "TSLA",
+    "asset_type": "stock",
+    "quantity": 8.756923,
+    "cost_basis_per_unit": 285.3628
+  },
+  {
+    "symbol": "MSFT",
+    "asset_type": "stock",
+    "quantity": 15.39539,
+    "cost_basis_per_unit": 331.4052
+  },
+  {
+    "symbol": "VTI",
+    "asset_type": "stock",
+    "quantity": 30.01772,
+    "cost_basis_per_unit": 133.2356
+  },
+  {
+    "symbol": "BTC",
+    "asset_type": "crypto",
+    "quantity": 0.507015,
+    "cost_basis_per_unit": 45358.678
+  },
+  {
+    "symbol": "ETH",
+    "asset_type": "crypto",
+    "quantity": 1.99975,
+    "cost_basis_per_unit": 2599.925
+  }
+]

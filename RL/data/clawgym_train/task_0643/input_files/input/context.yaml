@@ -1,0 +1,214 @@
+initiative: "Deploy an AI Clinical Documentation Assistant integrated with Epic to auto-generate encounter notes from ambient audio for outpatient clinics"
+organization:
+  name: "Northstar Health Systems"
+  size: "1,200 employees"
+  industry: "Healthcare — regional hospital and outpatient clinics"
+  locations:
+    - "Midtown Medical Center (HQ)"
+    - "Riverbend Clinic"
+    - "Lakeside Outpatient"
+  region: "Midwest, USA"
+scope:
+  included:
+    - "Outpatient primary care clinics (adult and family medicine)"
+    - "Integration with Epic (Hyperspace) for note insertion and encounter templates"
+    - "HIM/Coding review workflow updates"
+    - "Clinician-facing ambient scribe mobile app and desktop microphone setup"
+    - "Knowledge base, tip sheets, and manager huddle materials"
+  excluded:
+    - "Inpatient hospital departments"
+    - "Emergency department documentation"
+    - "Pediatrics specialty clinics (phase 2)"
+    - "Any AI-driven diagnosis or clinical decision support"
+timeline:
+  start_date: "2026-05-04"
+  go_live_date: "2026-06-30"
+  intended_duration_weeks: 8
+sponsor:
+  name: "Dr. Elena Park"
+  role: "Chief Medical Officer"
+  department: "Executive Leadership"
+  commitment_notes:
+    - "Weekly steering check-in on Mondays 09:00-09:30"
+    - "Visible sponsorship at town halls and pilot kickoff"
+key_concerns:
+  - "Clinicians fear job displacement or loss of autonomy"
+  - "Accuracy of AI-generated notes and liability if errors slip through"
+  - "HIPAA compliance, PHI handling, and audit trail requirements"
+  - "Training time competing with full patient schedules; union-protected breaks"
+  - "Alert fatigue and change fatigue due to multiple recent initiatives"
+  - "Bandwidth constraints at rural clinics impacting audio upload"
+  - "Impact on HIM coding throughput and DRG accuracy"
+constraints:
+  budget_cap_usd: 150000
+  compliance:
+    - "HIPAA compliance with documented compliance gates"
+    - "Business Associate Agreement (BAA) executed before pilot"
+    - "Audit logs retained for 7 years"
+    - "Access controls mapped to least privilege; SSO with MFA"
+    - "No PHI stored outside US-based, HIPAA-eligible environment"
+  technical:
+    - "Epic integration must use approved APIs/HL7 FHIR; no screen-scraping"
+    - "VPC or on-prem connectivity with TLS 1.2+"
+    - "Microphone hardware procurement limited to existing vendors"
+    - "Rural clinics have limited upload bandwidth (2–5 Mbps)"
+  operational:
+    - "Protected training time required for unionized clinicians"
+    - "Go-Live must avoid end-of-quarter coding close (July 1–5 blackout)"
+previous_attempts:
+  - year: 2024
+    initiative: "Speech-to-text dictation pilot for outpatient notes"
+    outcome: "Pilot discontinued after 6 weeks"
+    root_causes:
+      - "No formal manager change network; inconsistent adoption"
+      - "Optional training led to low attendance (<40%)"
+      - "Compliance review delayed; privacy sign-off came mid-pilot"
+      - "Epic integration incomplete; duplicate copy/paste steps"
+      - "Under-resourced support (single helpdesk technician)"
+    lessons_learned:
+      - "Establish change champions per clinic and per function (HIM/IT)"
+      - "Mandatory manager briefings and protected training time"
+      - "Compliance gate at each rollout phase with documented artifacts"
+      - "Do not start pilot without end-to-end Epic workflow validated"
+      - "Create a dedicated support rotation and clear escalation paths"
+affected_teams:
+  - name: "Physicians (MD/DO)"
+    size: 38
+    impact_level: "High"
+    current_state: "Manual note entry or basic dictation; variable template usage"
+    likely_resistance:
+      - "Skepticism about accuracy and medico-legal risk"
+      - "Loss of control over note narrative/style"
+  - name: "Nurse Practitioners / Physician Assistants"
+    size: 22
+    impact_level: "High"
+    current_state: "Heavy documentation load; frequent after-hours charting"
+    likely_resistance:
+      - "Time to learn new tool amid tight schedules"
+  - name: "Clinic Managers"
+    size: 15
+    impact_level: "High"
+    current_state: "Juggling staffing, metrics, and multiple initiatives"
+    likely_resistance:
+      - "Concern about productivity dip and schedule disruptions"
+  - name: "HIM / Coding"
+    size: 12
+    impact_level: "High"
+    current_state: "Downstream coding from variable-quality clinician notes"
+    likely_resistance:
+      - "Fear of note structure changes impacting coding accuracy"
+  - name: "IT — EHR (Epic) Team"
+    size: 10
+    impact_level: "Medium-High"
+    current_state: "Managing Epic integrations and upgrades"
+    likely_resistance:
+      - "Integration risk and support burden during rollout"
+  - name: "Compliance & Privacy"
+    size: 5
+    impact_level: "Medium"
+    current_state: "Gatekeeper for HIPAA and BAA reviews"
+    likely_resistance:
+      - "Insufficient evidence of de-identification and auditability"
+  - name: "Training & L&D"
+    size: 3
+    impact_level: "Medium"
+    current_state: "Lean team with multiple concurrent programs"
+    likely_resistance:
+      - "Capacity constraints to deliver hands-on sessions"
+  - name: "Patient Services / Front Desk"
+    size: 8
+    impact_level: "Low-Medium"
+    current_state: "Occasional involvement in device placement/room prep"
+    likely_resistance:
+      - "Confusion about their role and patient consent scripting"
+early_adopters:
+  clinics:
+    - name: "Midtown Adult Primary Care"
+      clinicians_in_scope: 14
+      rationale: "High leadership engagement; good bandwidth; stable staffing"
+    - name: "Riverbend Family Medicine"
+      clinicians_in_scope: 10
+      rationale: "Volunteer clinicians; prior pilot participants"
+  functions:
+    - "HIM Coders Group A (6 coders) for early template review"
+    - "Epic integration team for pre-pilot validation"
+champions:
+  - name: "Dr. Maya Chen"
+    role: "Physician Champion"
+    department: "Midtown Adult Primary Care"
+    influence: "High"
+  - name: "Alex Romero, RN"
+    role: "Nurse Champion"
+    department: "Midtown Adult Primary Care"
+    influence: "Medium"
+  - name: "Priya Patel"
+    role: "HIM Coding Lead"
+    department: "HIM/Coding"
+    influence: "High"
+  - name: "Jorge Alvarez"
+    role: "Integration Lead"
+    department: "IT — EHR (Epic)"
+    influence: "High"
+  - name: "Sara Kim"
+    role: "Clinic Manager Champion"
+    department: "Midtown Adult Primary Care"
+    influence: "High"
+  - name: "Nina Brooks"
+    role: "Privacy Officer"
+    department: "Compliance & Privacy"
+    influence: "High"
+communication_channels:
+  - name: "Email — Clinical Ops Bulletin"
+    description: "Weekly digest for clinicians and managers"
+    audiences: ["Clinicians", "Clinic Managers", "HIM/Coding"]
+  - name: "Slack — #clinical-operations"
+    description: "Day-to-day updates and Q&A"
+    audiences: ["Clinicians", "Clinic Managers", "L&D", "IT"]
+  - name: "Slack — #it-announcements"
+    description: "System notices and technical updates"
+    audiences: ["IT", "Integration", "Service Desk"]
+  - name: "All-hands Town Hall"
+    description: "Leadership messaging and live Q&A"
+    audiences: ["All staff"]
+  - name: "Manager Huddle Kit"
+    description: "5-minute scripts, FAQs, and slides for huddles"
+    audiences: ["Clinic Managers"]
+  - name: "In-EHR Tip Sheets"
+    description: "Contextual help within Epic"
+    audiences: ["Clinicians"]
+  - name: "Intranet Hub Page"
+    description: "Single source of truth for materials and timelines"
+    audiences: ["All staff"]
+training_windows:
+  - group: "Clinicians"
+    format: "Live webinar + hands-on sandbox"
+    protected_time: "60 minutes"
+    windows:
+      - "2026-05-20 12:00–13:00"
+      - "2026-05-22 07:30–08:30"
+  - group: "HIM/Coding"
+    format: "Workshop on note structure changes"
+    protected_time: "45 minutes"
+    windows:
+      - "2026-05-21 10:00–10:45"
+compliance_requirements:
+  - "Signed BAA with vendor before Phase 0 — Pilot"
+  - "Security review and DPIA completed before Early Adopters"
+  - "HIPAA compliance gate with audit trail validation before Majority rollout"
+  - "Patient consent scripting and signage in clinics"
+support_model:
+  helpdesk:
+    tier_1: "Service Desk (2 dedicated agents during launch week)"
+    tier_2: "IT — EHR Integration (Jorge Alvarez rotation)"
+    tier_3: "Vendor support via secure ticketing portal"
+  sla:
+    critical: "4 hours to initial response; 24 hours to workaround"
+    high: "8 hours to initial response; 3 business days to fix"
+success_vision_90_days:
+  - "80% of eligible encounters produce a draft note via AI assistant"
+  - "Reduction of after-hours charting by 30 minutes per clinician per day"
+  - "HIM coding error rate unchanged or improved versus baseline"
+  - "User satisfaction score ≥ 7/10 among clinicians"
+notes:
+  - "Go-Live targeted for 2026-06-30; post-launch stabilization during first two weeks of July"
+  - "Avoid July 1–5 for major changes due to coding close blackout"

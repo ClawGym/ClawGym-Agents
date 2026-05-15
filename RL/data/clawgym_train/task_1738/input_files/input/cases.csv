@@ -1,0 +1,11 @@
+ClaimID,ClaimantName,AccidentType,DemandUSD,PriorClaimsCount,InjurySeverityReported,PropertyDamageUSD,WitnessCount,InconsistenciesFlag,SurveillanceFlag,StrictPleadingVenueFlag,ClaimantSocialMediaFlag
+CID-1001,Rita Calderon,Low-speed rear-end,8500,2,Moderate,600,0,Y,Y,Y,Y
+CID-1002,Marcus Lee,Slip-and-fall supermarket,50000,0,Severe,0,2,N,N,N,N
+CID-1003,Dana Ortiz,Parking lot sideswipe,12000,1,Minor,900,0,Y,N,Y,Y
+CID-1004,Gavin Price,Ride-share sudden stop,15000,0,Moderate,1500,1,N,Y,N,N
+CID-1005,Yvonne Patel,Bicycle dooring,30000,1,Severe,300,1,N,N,Y,N
+CID-1006,Henry Brooks,Warehouse trip hazard,22000,2,Moderate,0,0,Y,N,Y,Y
+CID-1007,Sofia Nguyen,Intersection T-bone,40000,0,Moderate,2500,2,N,N,N,N
+CID-1008,Leo Morales,Dog bite,10000,1,Minor,0,1,N,N,Y,Y
+CID-1009,Priya Sharma,Escalator malfunction,27000,0,Moderate,0,0,Y,Y,N,N
+CID-1010,Ethan Rogers,Low-speed backing,8000,0,Minor,400,0,N,N,Y,Y

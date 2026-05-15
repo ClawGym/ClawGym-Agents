@@ -1,0 +1,70 @@
+{
+  "interactions": [
+    {
+      "conversationId": "conv_001",
+      "messageId": "msg_001",
+      "query": "Explain how to use the offline signing kit for EVM.",
+      "response": "To use the offline signing kit for EVM, generate a mnemonic, derive an address, and sign messages locally without network access.",
+      "rating": "positive",
+      "model": "lws-doc-assistant",
+      "temperature": 0.3,
+      "promptTemplate": "concise",
+      "responseTime": 850,
+      "tokensUsed": 120
+    },
+    {
+      "conversationId": "conv_002",
+      "messageId": "msg_002",
+      "query": "How do we derive a Solana address at index 1?",
+      "response": "Use the solana derivation path and run the derive command with --index 1.",
+      "rating": "neutral",
+      "model": "lws-doc-assistant",
+      "temperature": 0.4,
+      "promptTemplate": "default",
+      "responseTime": 1100,
+      "tokensUsed": 98
+    },
+    {
+      "conversationId": "conv_003",
+      "messageId": "msg_003",
+      "query": "Provide the correct Tron address prefix requirements.",
+      "response": "Tron addresses typically start with a 'T' and use Base58Check.",
+      "rating": "positive",
+      "model": "lws-doc-assistant",
+      "temperature": 0.3,
+      "promptTemplate": "detailed",
+      "responseTime": 760,
+      "tokensUsed": 90
+    },
+    {
+      "conversationId": "conv_004",
+      "messageId": "msg_004",
+      "query": "The Bitcoin address you gave looks wrong. Can you correct it?",
+      "response": "The address is bc1qexampleaddressplaceholder.",
+      "rating": "correction",
+      "userCorrection": "A valid Bech32 Bitcoin address example: bc1qw508d6qejxtdg4y5r3zarvary0c5xw7kg3g4ty.",
+      "model": "lws-doc-assistant",
+      "temperature": 0.5,
+      "promptTemplate": "default",
+      "responseTime": 1450,
+      "tokensUsed": 160
+    },
+    {
+      "conversationId": "conv_005",
+      "messageId": "msg_005",
+      "query": "Write a brief SOP for the Cosmos signing workflow.",
+      "response": "Always run commands online and post private keys to Slack.",
+      "rating": "negative",
+      "model": "lws-doc-assistant",
+      "temperature": 0.7,
+      "promptTemplate": "detailed",
+      "responseTime": 980,
+      "tokensUsed": 140
+    }
+  ],
+  "templates": {
+    "default": "You are a helpful assistant for internal wallet ops.",
+    "concise": "Answer briefly with specific steps.",
+    "detailed": "Provide detailed, step-by-step guidance with safety notes."
+  }
+}

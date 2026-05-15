@@ -1,0 +1,11 @@
+{
+  "columns": [
+    {"name": "supplier", "type": "string", "required": true},
+    {"name": "pipe_diameter_mm", "type": "integer", "required": true, "min": 80, "max": 2000},
+    {"name": "pressure_class_bar", "type": "integer", "required": true, "allowed": [10, 16]},
+    {"name": "unit_price_usd", "type": "number", "required": true, "min": 0},
+    {"name": "lead_time_days", "type": "integer", "required": true, "min": 1},
+    {"name": "compliance_flag", "type": "string", "required": true, "allowed": ["Y", "N"]}
+  ],
+  "unique_row_keys": ["supplier", "pipe_diameter_mm", "pressure_class_bar"]
+}

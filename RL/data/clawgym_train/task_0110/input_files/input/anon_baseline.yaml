@@ -1,0 +1,27 @@
+rules:
+  - id: suppress_hostname
+    triggers: ["hostname", "fqdn", "client fqdn"]
+    set:
+      dhcp.send_hostname: "false"
+      dhcp.send_fqdn: "false"
+
+  - id: randomize_clientid
+    triggers: ["client identifier", "client-id", "duid"]
+    set:
+      dhcp.randomize_clientid: "true"
+
+  - id: minimal_prl
+    triggers: ["parameter request list", "prl"]
+    set:
+      dhcp.parameter_request_list: "[\"subnet-mask\"]"
+
+  - id: suppress_vendor_class
+    triggers: ["vendor class", "vendor-class"]
+    set:
+      dhcp.send_vendor_class: "false"
+
+  - id: mitigate_monitoring
+    triggers: ["pervasive monitoring", "monitoring"]
+    set:
+      net.enable_pfs: "true"
+      net.disable_tls_versions: "[\"TLSv1.0\",\"TLSv1.1\"]"

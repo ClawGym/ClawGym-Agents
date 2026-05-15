@@ -1,0 +1,4 @@
+{
+  "local_radius_miles": 150,
+  "allowed_labels": ["LOCAL", "USDA_ORGANIC"]
+}

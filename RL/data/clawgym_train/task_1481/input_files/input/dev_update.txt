@@ -1,0 +1,5 @@
+Hey team — quick brain dump:
+
+Windows build uses a bunch of APIs. File stuff is in decent shape, timers are okay, but Registry migration is messy and IOKit is a black box. We have some mappings in place, but I’m not confident about EventTap yet. Metrics are scattered; I think we’ve covered like 90% of calls. DeviceIoControl might be a blocker. I'll prioritize based on gut feel unless someone has better data. Sorry this is rambling.
+
+—

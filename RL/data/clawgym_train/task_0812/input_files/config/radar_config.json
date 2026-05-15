@@ -1,0 +1,12 @@
+{
+  "frequencies_MHz": [100, 500, 3000],
+  "tx_power_W": 10000,
+  "antenna_gain_linear": 1000,
+  "radar_cross_section_m2": 5,
+  "noise_temperature_K": 290,
+  "bandwidth_Hz": 1000000,
+  "noise_figure_linear": 3,
+  "system_losses_linear": 2,
+  "snr_threshold_dB": 13,
+  "output_csv": "outputs/radar_results.csv"
+}

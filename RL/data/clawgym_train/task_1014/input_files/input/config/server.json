@@ -1,0 +1,12 @@
+{
+  "server_name": "dino-den.local",
+  "enable_tls": false,
+  "allowed_hosts": ["*"],
+  "debug_mode": true,
+  "admin_username": "park_ranger",
+  "admin_password": "triceratops",
+  "password_policy": "weak",
+  "log_level": "DEBUG",
+  "allow_signup": true,
+  "rate_limit_per_minute": 0
+}

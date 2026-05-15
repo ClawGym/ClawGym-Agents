@@ -1,0 +1,17 @@
+{
+  "profile_name": "Studio Mode - Bass Sessions",
+  "audio": {
+    "sample_rate_hz": 48000,
+    "buffer_size": 128,
+    "bit_depth": 24
+  },
+  "system": {
+    "disable_sleep": true,
+    "power_mode": "performance",
+    "wifi_off": false
+  },
+  "devices": [
+    { "name": "Focusrite Scarlett 2i2", "preferred": true },
+    { "name": "Onboard Audio", "preferred": false }
+  ]
+}

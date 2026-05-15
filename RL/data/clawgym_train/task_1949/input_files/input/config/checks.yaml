@@ -1,0 +1,6 @@
+disk_free_percent_min: 20
+mem_free_percent_min: 15
+python_min_version: "3.8.0"
+required_tools:
+  - python
+  - git

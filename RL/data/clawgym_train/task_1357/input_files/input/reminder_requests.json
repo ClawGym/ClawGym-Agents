@@ -1,0 +1,49 @@
+{
+  "timezone": "America/Los_Angeles",
+  "preferences": {
+    "interpretations": {
+      "morning": "09:00",
+      "afternoon": "15:00",
+      "evening": "20:00",
+      "sooner": "tomorrow",
+      "end_of_week": "friday 17:00"
+    },
+    "conflict_resolution": "Choose the nearest available time outside the conflict window on the same day; if none, move to tomorrow at 09:00.",
+    "avoid_conflicts": true
+  },
+  "notes": [
+    "Keep weekday names lowercase when using the 'next [weekday]' form",
+    "Avoid 'next [weekday] at [time]' in final plan; use an ISO date/time instead",
+    "No recurring reminders or custom lists"
+  ],
+  "requests": {
+    "create": [
+      { "title": "Pay rent", "when": "first business day of May at 9am" },
+      { "title": "Call Alex about venue", "when": "later today" },
+      { "title": "Practice presentation", "when": "tomorrow morning" },
+      { "title": "Renew car registration", "when": "in 2 days" },
+      { "title": "Plan June trip", "when": "next wednesday at 11am" },
+      { "title": "Water the plants", "when": "tonight" },
+      { "title": "Follow up with Sam (hiring)", "when": "next friday morning" },
+      { "title": "Write thank-you note to Dr. Nguyen", "when": "by tuesday afternoon" }
+    ],
+    "reschedule": [
+      { "target_contains": "Submit expense report", "new_when": "next monday at 4pm" }
+    ],
+    "rename": [
+      { "target_contains": "Grocery list", "new_title": "Buy groceries for the week" }
+    ],
+    "complete": [
+      { "target_contains": "File taxes for 2025" }
+    ],
+    "delete": [
+      { "target_contains": "Test reminder" }
+    ]
+  },
+  "existing_reminders": [
+    { "title": "Submit expense report - Q1", "due": "2026-04-20 09:00" },
+    { "title": "Grocery list - recipes", "due": null },
+    { "title": "File taxes for 2025", "due": "2026-04-18 20:00" },
+    { "title": "Test reminder - delete me", "due": null }
+  ]
+}

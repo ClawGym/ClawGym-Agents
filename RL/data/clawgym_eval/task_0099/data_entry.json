@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0099",
+  "user_query": "I need to prepare a complete multi-file contract verification submission for the QELT Mainnet Indexer using the files in input/. Read the contract address from input/address.txt, the compilation/deployment settings from input/deploy.json, and the Solidity sources mapping from input/source_files.json. Then:\n\n1) Determine the correct evmVersion from the compilerVersion using the documented mapping (0.8.6–0.8.17 → london, 0.8.18–0.8.19 → paris, 0.8.20–0.8.23 → shanghai, 0.8.24+ → cancun; 0.5.14–0.8.4 → istanbul; 0.8.5 → berlin).\n\n2) Create output/submit_payload.json that is a valid JSON body for a multi-file verification submission (for the /api/v1/verification/submit-multi endpoint) with these fields: address, compilerVersion, contractName, optimizationUsed, runs, viaIR, evmVersion (the one you selected), mainFile, sourceFiles (exactly as in input/source_files.json, unchanged), and include constructorArguments if it is present in input/deploy.json.\n\n3) Create output/checklist.txt with exactly six lines in this order:\n- GET https://mnindexer.qelt.ai/api/v2/contracts/<ADDRESS>/verification\n- POST https://mnindexer.qelt.ai/api/v1/verification/submit-multi\n- GET https://mnindexer.qelt.ai/api/v1/verification/status/<jobId>\n- result.verified === true\n- Rate limit: 10 submissions/hour\n- Poll every 3-5 seconds\nReplace <ADDRESS> with the actual address from input/address.txt.\n\n4) Create output/evm_choice.txt that contains only the chosen evmVersion string.\n\nDo not alter the source file contents; preserve them exactly in the payload. Ensure all paths are relative as provided in the inputs. Write only the specified files to output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

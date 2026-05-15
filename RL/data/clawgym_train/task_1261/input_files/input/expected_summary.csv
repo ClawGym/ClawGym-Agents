@@ -1,0 +1,5 @@
+severity,total_events,unique_alerts
+CRITICAL,4,2
+HIGH,3,2
+MEDIUM,2,2
+LOW,3,2

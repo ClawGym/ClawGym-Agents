@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://httpbin.org/get",
+    "method": "GET",
+    "expected_status": 200,
+    "headers": {
+      "X-Test-Token": "abc123xyz",
+      "User-Agent": "OpenClaw-Tester/1.0"
+    }
+  },
+  {
+    "url": "https://httpbin.org/post",
+    "method": "POST",
+    "expected_status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "X-Suite-ID": "suite-62fcc008"
+    },
+    "body": {
+      "title": "suite-check",
+      "count": 3,
+      "active": true
+    }
+  },
+  {
+    "url": "https://httpbin.org/put",
+    "method": "PUT",
+    "expected_status": 200,
+    "body": {
+      "update": "value",
+      "nested": {
+        "x": 1
+      }
+    }
+  },
+  {
+    "url": "https://httpbin.org/status/201",
+    "method": "GET",
+    "expected_status": 201
+  },
+  {
+    "url": "https://httpbin.org/delay/1",
+    "method": "GET",
+    "expected_status": 200,
+    "timeout": 5
+  }
+]

@@ -1,0 +1,6 @@
+﻿ User ID ,User_ID,Email,Signup Date,last_login,"Total Spend ($)",Country,opt_in?
+"  1001",1001,"alice@example.com","2024-03-05","2024-03-06T22:10:00Z","$12.50","United States","yes"
+,1002,"bob@example.com","2024/03/06","3/6/24 10:10 PM PST",1,234.50,United States,TRUE
+"1003",1003,"carol@example.com ","05-03-2024","","$0","UK","no"
+"1004",1004,"dana@example.com","2024-03-07","2024-03-07 08:00:00","€9.99","Germany","false"
+"1005",1005,"eve@example.com","03/08/2024","8 Mar 2024 09:15 GMT","15,00","France","Yes"

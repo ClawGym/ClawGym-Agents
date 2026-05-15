@@ -1,0 +1,90 @@
+[
+  {
+    "id": "election_usa_turnout_2026",
+    "title": "US 2026 midterm voter turnout exceeds 50%",
+    "volume_eur": 12500,
+    "delta_prob_24h": 0.05,
+    "closes_at": "2026-05-10T23:00:00Z",
+    "current_prob": 0.62
+  },
+  {
+    "id": "btc_above_100k_2026",
+    "title": "Bitcoin to close 2026 above $100k",
+    "volume_eur": 9800,
+    "delta_prob_24h": -0.03,
+    "closes_at": "2026-12-31T23:59:59Z",
+    "current_prob": 0.41
+  },
+  {
+    "id": "rain_in_rome_weekend",
+    "title": "Rome to see measurable rain this coming weekend",
+    "volume_eur": 2100,
+    "delta_prob_24h": 0.07,
+    "closes_at": "2026-04-18T12:00:00Z",
+    "current_prob": 0.58
+  },
+  {
+    "id": "eu_policy_passes_q2",
+    "title": "EU Green policy package passes by end of Q2 2026",
+    "volume_eur": 4500,
+    "delta_prob_24h": 0.02,
+    "closes_at": "2026-06-15T18:00:00Z",
+    "current_prob": 0.36
+  },
+  {
+    "id": "tech_stock_rally",
+    "title": "Top tech index gains >5% this week",
+    "volume_eur": 3500,
+    "delta_prob_24h": 0.015,
+    "closes_at": "2026-04-22T16:00:00Z",
+    "current_prob": 0.52
+  },
+  {
+    "id": "oil_price_spike",
+    "title": "Brent crude to spike above $110 before May 2026",
+    "volume_eur": 6700,
+    "delta_prob_24h": -0.08,
+    "closes_at": "2026-04-30T20:00:00Z",
+    "current_prob": 0.29
+  },
+  {
+    "id": "worldcup_host_city",
+    "title": "Selected host city to face legal injunction",
+    "volume_eur": 1950,
+    "delta_prob_24h": 0.1,
+    "closes_at": "2026-07-01T00:00:00Z",
+    "current_prob": 0.12
+  },
+  {
+    "id": "ai_regulation_delay",
+    "title": "AI Act implementation delayed to 2027",
+    "volume_eur": 5200,
+    "delta_prob_24h": 0.04,
+    "closes_at": "2026-04-17T08:00:00Z",
+    "current_prob": 0.47
+  },
+  {
+    "id": "space_launch_success",
+    "title": "Next orbital test launch succeeds",
+    "volume_eur": 2600,
+    "delta_prob_24h": 0.02,
+    "closes_at": "2026-04-20T15:00:00Z",
+    "current_prob": 0.61
+  },
+  {
+    "id": "inflation_below_2",
+    "title": "Annualized CPI falls below 2% by July 2026",
+    "volume_eur": 8000,
+    "delta_prob_24h": 0.0,
+    "closes_at": "2026-07-31T14:00:00Z",
+    "current_prob": 0.28
+  },
+  {
+    "id": "gold_above_3k",
+    "title": "Gold spot price to trade above $3,000 in 2026",
+    "volume_eur": 3000,
+    "delta_prob_24h": -0.02,
+    "closes_at": "2026-09-01T12:00:00Z",
+    "current_prob": 0.33
+  }
+]

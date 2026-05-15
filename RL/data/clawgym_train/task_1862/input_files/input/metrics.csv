@@ -1,0 +1,7 @@
+week_start,wau,dau_avg,new_trials,activated_trials,poc_accounts,paying_accounts,day7_retention_pct,month1_retention_pct,referral_signups,notes
+2026-03-02,41,12,12,5,3,1,18,9,0,First wave of March trials; Slack check-in v0 launched to 2 pilots
+2026-03-09,44,13,10,6,3,1,20,10,1,Added Jira throughput chart to weekly digest; 1 referral trial from Wavely
+2026-03-16,52,15,8,5,4,2,24,12,1,Digest v1.1 with lead time trendline; BlueForge paused after 2 sprints
+2026-03-23,58,16,9,6,4,2,26,13,1,Noise reduction toggle in Slack check-ins; 1 security review requested
+2026-03-30,61,17,7,4,3,2,27,14,0,Introduced manager-specific calibration; 1 trial churn due to privacy concerns
+2026-04-06,59,16,6,3,3,2,25,15,0,Stability fixes; started manual onboarding calls for all new trials

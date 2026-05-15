@@ -1,0 +1,64 @@
+import AppIntents
+
+// MARK: - Open Book (non-optional parameter without defaults/requestValue)
+struct OpenBook: AppIntent {
+    static var title: LocalizedStringResource = "Open Book"
+
+    @Parameter(title: "Book")
+    var book: BookEntity // Required, no default; we do not call requestValue()
+
+    @Parameter(title: "Chapter")
+    var chapter: ChapterEntity // Required, no default; we rely on dynamic options
+
+    static var parameterSummary: some ParameterSummary {
+        Summary("Open \(\.$book) at chapter \(\.$chapter)")
+    }
+
+    func perform() async throws -> some IntentResult {
+        // We assume both parameters were provided; we are not requesting values or disambiguation at runtime.
+        // If the user invokes via Siri without specifying, system may enter repeated prompts.
+        return .result()
+    }
+}
+
+// MARK: - ChapterEntity (simplified)
+struct ChapterEntity: AppEntity, Identifiable {
+    // Another unstable id example (not persisted)
+    var id = UUID()
+
+    @Property(title: "Name")
+    var name: String
+
+    var displayRepresentation: DisplayRepresentation { DisplayRepresentation(title: name) }
+    static var typeDisplayRepresentation: TypeDisplayRepresentation = "Chapter"
+    static var defaultQuery = ChapterQuery()
+}
+
+struct ChapterQuery: EntityQuery {
+    func entities(for identifiers: [UUID]) async throws -> [ChapterEntity] {
+        return [] // Stubbed for now
+    }
+}
+
+// MARK: - Dynamic options provider with @IntentParameterDependency (no iOS 17 availability guard)
+struct ChapterOptions: DynamicOptionsProvider {
+    // This uses @IntentParameterDependency but our app targets iOS 16 minimum.
+    // There is no @available(iOS 17, *) guard here.
+    @IntentParameterDependency<OpenBook>(\.book)
+    var selectedBook
+
+    func results() async throws -> [ChapterEntity] {
+        // In practice, this should derive chapters from the selected book.
+        guard let _ = selectedBook else { return [] }
+        return []
+    }
+
+    func defaultResult() async -> ChapterEntity? {
+        return nil
+    }
+}
+
+// MARK: - Notes
+// - Non-optional parameters "Book" and "Chapter" have no defaults and we do not call requestValue() or requestDisambiguation().
+// - @IntentParameterDependency is used without availability gating for iOS 17+, but our minimum target is iOS 16.
+// - Entities again use UUID() inline for ids, not persistent identifiers.

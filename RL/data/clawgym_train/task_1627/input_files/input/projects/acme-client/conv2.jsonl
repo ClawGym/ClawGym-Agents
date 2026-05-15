@@ -1,0 +1,4 @@
+{"role": "user", "timestamp": "2026-04-08T12:01:00Z", "content": "Generate test cases for the Acme webhook handler."}
+{"role": "assistant", "timestamp": "2026-04-08T12:02:22Z", "model": "gpt-4o-mini", "content": "Proposed test matrix and edge cases...", "usage": {"input_tokens": 900, "output_tokens": 400}, "costUSD": 0.2222}
+{"role": "user", "timestamp": "2026-04-08T12:09:10Z", "content": "Add performance benchmarks and expected latencies."}
+{"role": "assistant", "timestamp": "2026-04-08T12:11:45Z", "model": "gpt-4o-mini", "content": "Benchmark plan with thresholds and metrics...", "usage": {"prompt_tokens": 1100, "completion_tokens": 450}, "cost": 0.2909}

@@ -1,0 +1,15 @@
+{
+  "name": "Eldrin",
+  "archetype": "Support",
+  "health": 110,
+  "speed": 4.2,
+  "model_polycount": 20000,
+  "abilities": ["Heal", "Levitate"],
+  "animations": [
+    "anims/mage/idle.anim.json",
+    "anims/mage/cast.anim.json",
+    "anims/shared/roll.anim.json",
+    "anims/mage/levitate.anim.json"
+  ],
+  "tags": ["magic", "buffer"]
+}

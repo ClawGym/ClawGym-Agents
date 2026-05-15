@@ -1,0 +1,66 @@
+[
+  {
+    "plan_name": "BudgetDental Saver",
+    "patient_share_pct": 3.2,
+    "codes": [
+      { "code": "D0120", "ucr": 70, "reimb": 40 },
+      { "code": "D0274", "ucr": 80, "reimb": 48 },
+      { "code": "D0330", "ucr": 160, "reimb": 95 },
+      { "code": "D1110", "ucr": 120, "reimb": 65 },
+      { "code": "D2392", "ucr": 240, "reimb": 140 },
+      { "code": "D2750", "ucr": 1400, "reimb": 800 },
+      { "code": "D2740", "ucr": 1500, "reimb": 880 },
+      { "code": "D4341", "ucr": 300, "reimb": 170 },
+      { "code": "D7140", "ucr": 250, "reimb": 145 },
+      { "code": "D3330", "ucr": 1200, "reimb": 680 }
+    ]
+  },
+  {
+    "plan_name": "Delta Basic PPO",
+    "patient_share_pct": 18.5,
+    "codes": [
+      { "code": "D0120", "ucr": 70, "reimb": 50 },
+      { "code": "D0274", "ucr": 90, "reimb": 60 },
+      { "code": "D0330", "ucr": 175, "reimb": 120 },
+      { "code": "D1110", "ucr": 130, "reimb": 85 },
+      { "code": "D2392", "ucr": 260, "reimb": 160 },
+      { "code": "D2750", "ucr": 1500, "reimb": 900 },
+      { "code": "D2740", "ucr": 1600, "reimb": 1040 },
+      { "code": "D4341", "ucr": 300, "reimb": 200 },
+      { "code": "D7140", "ucr": 275, "reimb": 170 },
+      { "code": "D3330", "ucr": 1300, "reimb": 800 }
+    ]
+  },
+  {
+    "plan_name": "Aetna Preferred",
+    "patient_share_pct": 12.7,
+    "codes": [
+      { "code": "D0120", "ucr": 70, "reimb": 56 },
+      { "code": "D0274", "ucr": 90, "reimb": 68 },
+      { "code": "D0330", "ucr": 175, "reimb": 131 },
+      { "code": "D1110", "ucr": 130, "reimb": 100 },
+      { "code": "D2392", "ucr": 260, "reimb": 195 },
+      { "code": "D2750", "ucr": 1500, "reimb": 1125 },
+      { "code": "D2740", "ucr": 1600, "reimb": 1200 },
+      { "code": "D4341", "ucr": 300, "reimb": 225 },
+      { "code": "D7140", "ucr": 275, "reimb": 206 },
+      { "code": "D3330", "ucr": 1300, "reimb": 975 }
+    ]
+  },
+  {
+    "plan_name": "United Value PPO",
+    "patient_share_pct": 6.1,
+    "codes": [
+      { "code": "D0120", "ucr": 70, "reimb": 45 },
+      { "code": "D0274", "ucr": 90, "reimb": 58 },
+      { "code": "D0330", "ucr": 175, "reimb": 115 },
+      { "code": "D1110", "ucr": 130, "reimb": 80 },
+      { "code": "D2392", "ucr": 260, "reimb": 155 },
+      { "code": "D2750", "ucr": 1500, "reimb": 975 },
+      { "code": "D2740", "ucr": 1600, "reimb": 1000 },
+      { "code": "D4341", "ucr": 300, "reimb": 190 },
+      { "code": "D7140", "ucr": 275, "reimb": 170 },
+      { "code": "D3330", "ucr": 1300, "reimb": 780 }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "patterns": [
+    {"beats": 2, "steps": 5},
+    {"beats": 3, "steps": 7},
+    {"beats": 5, "steps": 8}
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "min_words": 150,
+  "max_words": 220,
+  "tagline_max_len": 90,
+  "prompts": [
+    {
+      "genre": "ghost",
+      "prompt": "Every night at 3:33 AM, the server room hums even though the building has no power."
+    },
+    {
+      "genre": "ghost",
+      "prompt": "A commit appears each Sunday from an engineer who died three years ago."
+    },
+    {
+      "genre": "ghost",
+      "prompt": "The error logs began spelling a name none of us recognized."
+    },
+    {
+      "genre": "sci-fi",
+      "prompt": "The time machine only transports data, not people."
+    },
+    {
+      "genre": "sci-fi",
+      "prompt": "We completed a Dyson sphere and found the star was missing."
+    },
+    {
+      "genre": "sci-fi",
+      "prompt": "An android reported its first dream, a loop of ocean static."
+    }
+  ]
+}

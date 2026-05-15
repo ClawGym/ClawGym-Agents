@@ -1,0 +1,3 @@
+notes_dir: "workspace/input/notes"
+output_csv: "workspace/output/events_index.csv"
+summary_max_len: 160

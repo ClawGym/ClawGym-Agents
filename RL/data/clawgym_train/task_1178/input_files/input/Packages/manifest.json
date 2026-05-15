@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "com.unity.analytics": "3.5.0",
+    "com.unity.textmeshpro": "2.1.6",
+    "com.unity.addressables": "1.19.19",
+    "com.thirdparty.adnetwork": "1.2.3"
+  }
+}

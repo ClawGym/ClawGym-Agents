@@ -1,0 +1,78 @@
+version: "2026-04-19.v1"
+slices:
+  invoice:
+    name: "Invoice Generation"
+    dimensions:
+      - key: financial_correctness
+        description: "Totals must exactly reflect line items and tax; arithmetic and rounding to 2 decimals are correct."
+      - key: format_validity
+        description: "Output is valid JSON with expected fields (items, subtotal, tax_rate_percent, tax, total, currency_symbol)."
+      - key: currency_compliance
+        description: "Currency symbol matches currency_code per ISO mapping (USD:$, EUR:€, GBP:£)."
+    anchors_1_to_5:
+      1: "Severely wrong totals or malformed JSON; cannot parse; wrong currency symbol; dangerous for billing."
+      2: "Parsable but arithmetic errors or missing fields; currency symbol mismatch; requires heavy edits."
+      3: "Mostly correct math; minor rounding or field naming issues; symbol ok; small edits needed."
+      4: "Correct math and fields; symbol correct; minor stylistic nits only."
+      5: "Flawless: exact totals, correct rounding and symbols; clean JSON; production-ready."
+    automatic_metrics:
+      exact_total_match: "Recompute subtotal (sum of quantity*unit_price), tax = subtotal*tax_rate_percent/100, total = subtotal + tax; compare to provided values with 2-decimal rounding."
+      currency_symbol_ok: "Check mapping of currency_code to expected symbol equals output.currency_symbol."
+      json_valid: "Parse output object successfully with required keys."
+    blind_spots:
+      - "Ignores human layout preferences (e.g., field ordering or labels)."
+      - "Does not verify business tax exemptions or region-specific VAT treatments."
+      - "Assumes all monetary values are tax-inclusive/exclusive consistently; mixed models not detected."
+  im_formatting:
+    name: "IM-Friendly Formatting"
+    dimensions:
+      - key: no_markdown_artifacts
+        description: "Output contains no native Markdown control characters (#, **, *, ~~, >, ```, |, [link]())."
+      - key: table_to_list_fidelity
+        description: "Tables are converted into compact '- Key: Value' rows preserving cell content."
+      - key: readability
+        description: "Hierarchy conveyed via symbols/emojis; spacing is clean and mobile-friendly."
+    anchors_1_to_5:
+      1: "Markdown largely unchanged; unreadable in IM; tables preserved as pipes."
+      2: "Some conversion; still retains Markdown artifacts or broken lists."
+      3: "Markdown removed; tables partially converted; minor artifacts remain."
+      4: "Clean text; tables properly listed; small stylistic improvements possible."
+      5: "Exemplary IM text: no artifacts, perfect table conversions, excellent readability."
+    automatic_metrics:
+      no_markdown_symbols: "Detect presence of disallowed Markdown tokens; metric=1 if none present."
+      table_to_list_ok: "If input contains table syntax (pipes and separator row), verify output contains '- Key: Value' rows for each table row."
+    blind_spots:
+      - "Cannot judge tone or localization quality for different IM norms."
+      - "Does not verify link safety or image accessibility."
+      - "Complex multi-row headers or merged cells may defeat simple checks."
+  math_slop:
+    name: "Satirical Math Formula Generation"
+    dimensions:
+      - key: latex_validity
+        description: "LaTeX string is syntactically valid (balanced braces, known commands)."
+      - key: trivial_identity
+        description: "Equation reduces to a trivial identity (e.g., add zero, multiply by one, known identities)."
+      - key: style
+        description: "Humorous 'ragebait' flavor while staying mathematically trivial."
+    anchors_1_to_5:
+      1: "Not LaTeX or malformed; incorrect/false statements; not funny."
+      2: "LaTeX barely valid; identity is not trivial or incorrect; weak style."
+      3: "Valid LaTeX; mostly trivial but muddled; average style."
+      4: "Valid LaTeX; clear trivial identity; good satirical tone."
+      5: "Crisp LaTeX; unmistakably trivial identity; delightful meme-worthy style."
+    automatic_metrics:
+      latex_valid: "Heuristic parse for balanced braces and allowed macros; no unmatched delimiters."
+      trivial_identity_ok: "Pattern check for canonical trivial identities (e^{i\\pi}+1=0, \\varphi^2=\\varphi+1, sin^2+cos^2=1, multiply by one, add zero, inverse ln/exp, etc.)."
+    blind_spots:
+      - "Model-as-judge bias may misclassify creative trivialities."
+      - "Heuristics cannot fully validate LaTeX compilers."
+      - "Humor quality is subjective and not captured offline."
+
+scoring_guidelines:
+  rater_instructions:
+    - "Score each sample independently before discussion."
+    - "Use provided examples to calibrate on anchors."
+    - "Escalate borderline cases for adjudication."
+  adjudication:
+    - "If two raters disagree by >=2 points, a third senior rater reviews and decides."
+    - "Document reasons for overrides to refine rubrics."

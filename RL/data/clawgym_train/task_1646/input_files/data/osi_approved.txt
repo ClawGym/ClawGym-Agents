@@ -1,0 +1,5 @@
+# Canonical license identifiers (subset for demo)
+MIT
+Apache-2.0
+GPL-3.0-or-later
+BSD-3-Clause

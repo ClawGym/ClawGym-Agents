@@ -1,0 +1,159 @@
+{
+  "company_name": "FinSight",
+  "tagline": "Risk and payments intelligence for regulated B2B financial workflows",
+  "industry": "B2B fintech SaaS",
+  "headcount": {
+    "total": 120,
+    "by_function": {
+      "engineering_backend": 28,
+      "engineering_frontend": 16,
+      "platform_devops_sre": 10,
+      "data_platform_ml": 8,
+      "qa_set": 10,
+      "product_management": 6,
+      "design_ux": 6,
+      "sales": 14,
+      "marketing": 8,
+      "customer_success": 8,
+      "support": 2,
+      "compliance_and_risk": 2,
+      "finance_and_operations": 2
+    },
+    "management": {
+      "engineering_managers": 4,
+      "tech_leads": 6,
+      "directors": 0,
+      "vp_engineering": 1,
+      "vp_product": 0,
+      "head_of_design": 0,
+      "cfo": "fractional",
+      "head_of_people": 0
+    }
+  },
+  "operating_model_current": "functional",
+  "product_suite": [
+    "Risk Scoring (KYC/KYB, fraud signals, underwriting features)",
+    "Payments Orchestration (gateways, methods, retries, routing)",
+    "Billing & Invoicing (subscription + usage-based hybrid)",
+    "Analytics (cohort, ARPU, fraud rates, payment success)"
+  ],
+  "target_markets": [
+    {"segment": "mid-market banks", "geo": "US/EU"},
+    {"segment": "fintech lenders", "geo": "US/EU"},
+    {"segment": "payment facilitators (PayFacs)", "geo": "US"}
+  ],
+  "sales_motion": "Enterprise B2B; average deal cycles 4–7 months; ACV $150k–$400k; security and compliance diligence is mandatory in 95% of deals.",
+  "security_compliance": {
+    "soc2": "Type II certified (renewal due in Q4)",
+    "pci_dss": "SAQ A-EP target by Q3 (today: partial controls, not fully attested)",
+    "data_residency": "US primary, EU region requested by prospects (under evaluation)",
+    "third_party_risk": "Policy draft exists; not formally approved or operationalized"
+  },
+  "architecture": {
+    "codebase": "monorepo",
+    "services": {
+      "backend": "Node/TypeScript monolith with modular boundaries (billing, auth, payments, reporting)",
+      "ml_scoring": "Python microservice for risk scoring (FastAPI) served behind internal gateway",
+      "data": "Postgres (OLTP), S3 data lake, Snowflake for analytics",
+      "streaming": "Kafka for events (payments, risk decisions)",
+      "cache": "Redis",
+      "ui": "React/TypeScript SPA"
+    },
+    "infra": {
+      "cloud": "AWS",
+      "orchestration": "Kubernetes (EKS)",
+      "ci_cd": "GitHub Actions",
+      "observability": "Datadog (logs, APM, infra)",
+      "feature_flags": "Homegrown toggles (limited targeting, no kill-switch by cohort)"
+    }
+  },
+  "metrics_baseline": {
+    "lead_time_for_changes_days": 12,
+    "deployment_frequency_per_service_per_week": 2,
+    "change_failure_rate_percent": 24,
+    "mttr_hours": 9,
+    "on_call_pages_per_engineer_per_week": 5,
+    "incident_severity_definition": "inconsistent by team; not standardized"
+  },
+  "goals_12_months": {
+    "headcount_target": 200,
+    "hiring_plan_high_level": {
+      "engineering": 48,
+      "product_management": 6,
+      "design_ux": 4,
+      "data": 6,
+      "sales": 8,
+      "marketing": 4,
+      "customer_success_and_support": 3,
+      "g_and_a": 1
+    },
+    "strategy": [
+      "Re-architect billing to support clean usage-based pricing by Q3",
+      "Launch Payments EU (PSD2-compliant) by end of Q3",
+      "Improve reliability: MTTR < 2 hours, Sev1 < 2 per quarter by Q4",
+      "Adopt enterprise-grade feature flags to enable safe launches by Q2",
+      "Formalize third-party risk management policy and process by end of Q2",
+      "Shift to product squads with clear API boundaries and platform teams by end of Q1/Q2"
+    ],
+    "org_design_objectives": [
+      "Move from functional to product model with 6–8 person squads",
+      "Create platform axes (DevEx, Data Platform, Payments Core) to reduce duplication",
+      "Establish decision SLAs and escalation path to speed decisions"
+    ]
+  },
+  "constraints": {
+    "budget_guardrails": {
+      "net_new_hires": "up to +80 over 12 months",
+      "runway": ">= 18 months",
+      "cloud_cost_growth_yoy": "<= 20%",
+      "manager_span_of_control_max": 8,
+      "two_pizza_team_enforced": true
+    },
+    "launch_timeline": {
+      "Q2": ["Feature flags vendor cutover", "Incident severity matrix + runbooks live"],
+      "Q3": ["Payments EU (PSD2) GA", "Usage-based billing MVP GA"],
+      "Q4": ["SOC 2 Type II recertification", "Self-serve analytics v2"]
+    },
+    "compliance_non_negotiables": [
+      "No PII flows without DPIA and DPA updates",
+      "Vendor risk review required pre-procurement for all high-risk vendors"
+    ]
+  },
+  "org_design_preferences": {
+    "target_model": "product",
+    "two_pizza": true,
+    "platform_vs_product": {
+      "platform_teams": ["Developer Experience (DevEx)", "Data Platform", "Payments Platform"],
+      "product_squads": ["Risk", "Payments Apps", "Billing", "Analytics", "Onboarding & Admin"]
+    },
+    "team_split_candidates": [
+      "Payments (12) -> Payments Platform (6) + Payments Applications (6)"
+    ],
+    "roles_to_add_by_200": [
+      "Engineering Director",
+      "VP Product",
+      "Head of Design",
+      "CFO",
+      "Head of Recruiting",
+      "Head of People/HR"
+    ]
+  },
+  "decision_backlog": [
+    "Adopt feature flags",
+    "Re-architect billing",
+    "Define incident severities",
+    "Third-party risk management policy"
+  ],
+  "known_hotspots": {
+    "payments": "Initiative has grown to 12 engineers working off one backlog; multiple gateways and methods; conflicting priorities US vs EU",
+    "billing": "Legacy code in monolith, shared DB tables with orders; hard to decouple",
+    "on_call": "SRE primary; application teams not fully owning services; incident roles unclear",
+    "frontend": "Shared component library creates cross-team coupling; long PR queues"
+  },
+  "risks": [
+    "Regulatory slippage (PCI, SOC2) delaying enterprise deals",
+    "Matrix-like behavior if platform and product reporting not clarified",
+    "Hiring ahead of managerial capacity leading to burnout and culture drift"
+  ],
+  "notes_for_consultant": "We want a concrete 12-month plan to move to product squads with platform boundaries; keep compliance and enterprise expectations central; prefer minimal matrix complexity and clear decision rights."
+}

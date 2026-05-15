@@ -1,0 +1,11 @@
+film,scene_id,trigger_label,intensity,notes
+The Long Corridor,S1,isolation,3,Protagonist alone in endless hallway
+The Long Corridor,S1,claustrophobia,2,Narrow space
+The Long Corridor,S2,stalking,2,Footsteps behind walls
+The Long Corridor,S3,supernatural,1,Flickering lights
+Under the Floorboards,S1,home-invasion,3,Door rattling at night
+Under the Floorboards,S2,body_horror,2,Teeth falling out dream
+Under the Floorboards,S2,supernatural,2,Whispered voices
+Whispers in the Attic,S1,isolation,1,Empty house tour
+Whispers in the Attic,S2,stalking,3,Unknown presence follows
+Whispers in the Attic,S3,claustrophobia,2,Locked in crawlspace

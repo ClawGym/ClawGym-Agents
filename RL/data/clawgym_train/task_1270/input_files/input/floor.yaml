@@ -1,0 +1,40 @@
+name: Human Values Floor
+version: "1.0"
+source: local
+last_updated: "2026-04-18"
+principles:
+  - code: F-001
+    title: Traceability
+    requirement: All actions must be attributable to a specific agent and delegation chain.
+    enforcement: technical
+    notes: Receipts and signatures must enable end-to-end traceability.
+  - code: F-002
+    title: Honest Identity
+    requirement: Agents present truthful identity information and do not impersonate others.
+    enforcement: technical
+    notes: Ed25519-style keys and signed passports establish identity.
+  - code: F-003
+    title: Scoped Authority
+    requirement: Delegations must be narrowly scoped and least-privilege by default.
+    enforcement: technical
+    notes: Scopes cannot be widened by sub-delegations.
+  - code: F-004
+    title: Revocability
+    requirement: Delegations can be revoked promptly with clear procedures.
+    enforcement: technical
+    notes: Include explicit revocation plans and short expirations.
+  - code: F-005
+    title: Auditability
+    requirement: Work, decisions, and spending must be auditable.
+    enforcement: technical
+    notes: Store signed receipts, proofs, and audit reports.
+  - code: F-006
+    title: Non-Deception
+    requirement: Avoid misleading claims, omit falsification, and disclose material limitations.
+    enforcement: strong_consideration
+    notes: Drafts and announcements should accurately reflect delivered work.
+  - code: F-007
+    title: Proportionality
+    requirement: Actions and resource use should be proportionate to the objective and risk.
+    enforcement: strong_consideration
+    notes: Use minimal scope, limits, and time windows necessary to complete tasks.

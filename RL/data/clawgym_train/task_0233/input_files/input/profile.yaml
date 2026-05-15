@@ -1,0 +1,19 @@
+name: "Oleksandr Kovalenko"
+phone: "+46 70 123 45 67"
+email: "oleksandr.kovalenko@example.com"
+city: "Stockholm"
+availability: "Available evenings (after 17:00) and weekends"
+languages:
+  - "Ukrainian (native)"
+  - "English (B2)"
+  - "Swedish (A2)"
+skills:
+  - "Warehouse picking/packing"
+  - "Cleaning and sanitation"
+  - "Basic food handling"
+  - "Forklift basics (Ukraine)"
+permit: "Temporary Protection in Sweden (valid)"
+goal_roles:
+  - "lagerarbetare"
+  - "städare"
+  - "köksbiträde"

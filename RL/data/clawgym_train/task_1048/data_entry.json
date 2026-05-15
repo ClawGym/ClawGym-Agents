@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1048",
+  "user_query": "Read input/births.json (three people) and compute their BaZi Four Pillars charts using precise solar-term month boundaries and true solar time correction for each person’s city. For each person, produce a structured analysis that includes: (1) pillars.year/month/day/hour each with \"stem\", \"branch\", and \"hidden_stems\"; (2) five_elements with keys wood/fire/earth/metal/water, each having \"score\" (number), \"percent\" (string like \"20%\"), and \"chinese\"; (3) day_master_strength labeled exactly as \"偏强\" or \"偏弱\"; (4) major_luck with \"direction\" (\"顺排\" or \"逆排\"), integer \"start_age\", and a \"periods\" array of at least 8 entries each containing \"age\" (e.g., \"3-12\"), \"years\" (e.g., \"1993-2002\"), \"stem\", and \"branch\"; (5) relationships as a list of clash/combine/harm findings (can be empty). Write a combined JSON to output/charts.json with an array field \"results\" where each item includes an \"id\" and an \"input\" object echoing the original fields (date, time, city, gender), plus the computed fields (pillars, five_elements, day_master_strength, major_luck, relationships). Also write a CSV to output/summary.csv with header: id,gender,birth_local_time,city,day_master_stem,major_luck_direction,major_luck_start_age,dominant_element_en. Fill each row so that: birth_local_time = \"{date} {time}\" from the input; day_master_stem = the day pillar’s stem; major_luck_direction and major_luck_start_age match major_luck.direction and major_luck.start_age; dominant_element_en is the element key with the highest five_elements.score. Keep all paths relative and use only input/ and output/ as specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

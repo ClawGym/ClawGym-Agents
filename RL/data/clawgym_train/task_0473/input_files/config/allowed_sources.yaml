@@ -1,0 +1,38 @@
+# Allowed and banned sources for authoritative titles
+
+allowed:
+  - name: Claremont Coptic Encyclopedia
+    domain_patterns:
+      - "copticencyclopedia.org"
+  - name: St Shenouda the Archimandrite Coptic Society
+    domain_patterns:
+      - "stshenouda.org"
+  - name: Bibliotheca Alexandrina Digital Assets Repository
+    domain_patterns:
+      - "bibalex.org"
+  - name: Dumbarton Oaks
+    domain_patterns:
+      - "doaks.org"
+  - name: WorldCat
+    domain_patterns:
+      - "worldcat.org"
+  - name: JSTOR
+    domain_patterns:
+      - "jstor.org"
+  - name: Vatican Library
+    domain_patterns:
+      - "vatican.va"
+  - name: Internet Archive
+    domain_patterns:
+      - "archive.org"
+
+banned:
+  - name: Wikipedia
+    domain_patterns:
+      - "wikipedia.org"
+  - name: General blogs and forums
+    domain_patterns:
+      - "blogspot.com"
+      - "wordpress.com"
+      - "reddit.com"
+      - "quora.com"

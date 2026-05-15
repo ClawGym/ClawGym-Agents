@@ -1,0 +1,7 @@
+respondent_id,income_quartile,literacy_score,state
+1001,1,3,NY
+1002,2,5,NY
+1003,3,6,CA
+1004,4,8,CA
+1005,2,4,TX
+1006,1,2,TX

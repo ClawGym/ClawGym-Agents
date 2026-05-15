@@ -1,0 +1,42 @@
+{
+  "skills": [
+    {
+      "name": "common",
+      "files": ["index.js", "SKILL.md", "package.json", "utils.js"]
+    },
+    {
+      "name": "workspace-health-dashboard",
+      "files": ["index.js", "SKILL.md", "package.json"]
+    },
+    {
+      "name": "moltbook-fanboy",
+      "files": ["index.js", "README.md"]
+    },
+    {
+      "name": "feishu-doc",
+      "files": ["README.md", "docs/overview.md"]
+    },
+    {
+      "name": "git-sync",
+      "files": ["index.js", "SKILL.md", "helpers.js"]
+    },
+    {
+      "name": "weather",
+      "files": ["SKILL.md", "README.md"]
+    }
+  ],
+  "skills_root_extras": [
+    "__MACOSX_trash",
+    ".DS_Store"
+  ],
+  "package": {
+    "dependencies": {
+      "lodash": "^4.17.21",
+      "axios": "^1.6.7"
+    },
+    "devDependencies": {
+      "jest": "^29.7.0",
+      "eslint": "^8.57.0"
+    }
+  }
+}

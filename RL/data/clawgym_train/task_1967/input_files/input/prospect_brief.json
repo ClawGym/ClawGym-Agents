@@ -1,0 +1,19 @@
+{
+  "company": "NimbusQueue",
+  "website": "https://www.nimbusqueue.com",
+  "contact_name": "Maya Chen",
+  "role": "VP Growth",
+  "project_overview": "Implement end-to-end product-led growth analytics, unify marketing and product attribution, and build a board-ready revenue reporting layer.",
+  "current_state": "Events inconsistently tracked across web/app; last-click reports conflict with CRM. No trusted multi-touch model to inform paid spend. Fragmented dashboards, slow monthly close.",
+  "desired_outcomes": [
+    "Reliable multi-touch attribution across self-serve and sales-assisted motions",
+    "Self-serve revenue dashboards in Looker for exec and GTM leaders",
+    "Faster, defensible CAC payback and LTV:CAC insights for budget reallocation"
+  ],
+  "constraints": [
+    "Team bandwidth limited; prefer 8-10 week implementation",
+    "Must preserve Salesforce and HubSpot data integrity",
+    "Security review required for any new integrations"
+  ],
+  "expected_gain_first_year": 600000
+}

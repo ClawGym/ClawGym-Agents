@@ -1,0 +1,84 @@
+{
+  "date": "2026-04-18",
+  "crisis_mode": false,
+  "hyperfocus": false,
+  "energy_windows": {
+    "high": [
+      { "start": "08:30", "end": "11:30" }
+    ],
+    "low": [
+      { "start": "12:30", "end": "14:00" }
+    ],
+    "moderate": [
+      { "start": "14:00", "end": "17:30" }
+    ]
+  },
+  "preferences": {
+    "day_start": "08:30",
+    "day_end": "17:30",
+    "music": "lo-fi beats",
+    "timer_style": "45/10 focus/break blocks",
+    "body_doubling": "Focusmate preferred for deep work",
+    "phone_blocker": "Forest",
+    "meeting_buffer_minutes": 15,
+    "avoid_back_to_back_meetings": true,
+    "protect_morning_for_deep_work": true
+  },
+  "constraints": {
+    "lunch_window": "12:00-12:45",
+    "preferred_admin_time": "13:00-14:00"
+  },
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Write Q2 Strategy Draft",
+      "naive_estimate_minutes": 60,
+      "importance": "high",
+      "energy_fit": "morning",
+      "notes": "Requires deep thinking; aim for a solid messy first draft."
+    },
+    {
+      "id": "t2",
+      "title": "Prep Client Review Slides",
+      "naive_estimate_minutes": 45,
+      "importance": "high",
+      "deadline_time": "15:00",
+      "notes": "Slides for 15:00 call. Focus on key wins and next steps."
+    },
+    {
+      "id": "t3",
+      "title": "Code Review PR#284 and PR#289",
+      "naive_estimate_minutes": 30,
+      "importance": "medium",
+      "notes": "Two small PRs."
+    },
+    {
+      "id": "t4",
+      "title": "Inbox triage to zero",
+      "naive_estimate_minutes": 20,
+      "importance": "low",
+      "notes": "Archive, snooze, or reply to <5-min emails."
+    },
+    {
+      "id": "t5",
+      "title": "Schedule dentist appointment",
+      "naive_estimate_minutes": 10,
+      "importance": "low",
+      "notes": "Call office; find morning slot next month."
+    },
+    {
+      "id": "t6",
+      "title": "Laundry: wash + fold",
+      "naive_estimate_minutes": 40,
+      "importance": "low",
+      "notes": "Home task; can overlap with low-energy break."
+    },
+    {
+      "id": "t7",
+      "title": "Update expense report",
+      "naive_estimate_minutes": 25,
+      "importance": "medium",
+      "notes": "Receipts from last week."
+    }
+  ]
+}

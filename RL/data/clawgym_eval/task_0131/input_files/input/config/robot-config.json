@@ -1,0 +1,18 @@
+{
+  "network": {
+    "heartbeatIntervalMs": 4000,
+    "disconnectAfterMs": 3000,
+    "maxReconnectAttempts": 5,
+    "backoffMs": 250
+  },
+  "safety": {
+    "estopEnabled": true,
+    "stallThresholdMs": 600
+  },
+  "controllers": {
+    "arm": {
+      "id": "arm",
+      "rateHz": 50
+    }
+  }
+}

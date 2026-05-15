@@ -1,0 +1,6 @@
+activity_id,date,start_time,end_time,child,activity,location,notes
+A0,2026-04-16,07:00,07:20,Family,Breakfast,Home,Prep backpacks
+A1,2026-04-16,08:00,08:30,Emma,School Drop-off,Sunnyvale Elementary,Pack lunch
+A2,2026-04-16,09:00,10:00,Emma,Pediatrician Appointment,Greenfield Clinic,Routine check-up
+A3,2026-04-16,15:00,15:30,Liam,School Pick-up,Hillside Middle,PTA flyer
+A4,2026-04-16,15:15,16:00,Emma,After-school Tutoring,Town Library,Math session

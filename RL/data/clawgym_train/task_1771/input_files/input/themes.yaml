@@ -1,0 +1,16 @@
+themes:
+  injuries:
+    keywords_en: ["injury", "shoulder", "knee", "concussed", "crunched"]
+    keywords_es: ["lesión", "hombro", "rodilla", "sangrado", "crujió"]
+  fan_interactions:
+    keywords_en: ["fans", "autograph", "crowd", "respect"]
+    keywords_es: ["aficionados", "firma", "máscara", "público", "gracias"]
+  tag_team:
+    keywords_en: ["tag", "partner", "double-team"]
+    keywords_es: ["pareja", "relevos"]
+  travel:
+    keywords_en: ["travel", "flight", "road", "bus"]
+    keywords_es: ["vuelo", "gira", "carretera", "autobús"]
+  promos:
+    keywords_en: ["promo", "mic"]
+    keywords_es: ["promo", "micro"]

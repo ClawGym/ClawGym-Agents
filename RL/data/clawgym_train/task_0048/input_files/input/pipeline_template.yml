@@ -1,0 +1,26 @@
+name: drone-ci
+on:
+  push:
+    branches: [ main ]
+env:
+  MIN_COVERAGE: "{{MIN_COVERAGE}}"
+jobs:
+  build:
+    strategy:
+      matrix:
+        target: {{TARGETS_INLINE}}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up toolchain
+        run: echo "setup"
+      - name: Build
+        run: echo "build for ${{ matrix.target }}"
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run tests
+        run: echo "run tests"
+      - name: Gate on coverage
+        run: echo "fail if coverage < $MIN_COVERAGE"

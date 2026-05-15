@@ -1,0 +1,7 @@
+filename,age_days,type
+app-2026-04-01.log,15,log
+db-2026-04-07.log,8,log
+api-KEEP-2026-04-05.log,20,log
+old-KEEP-2026-03-15.LOG,30,log
+metrics-2026-04-12.log,4,log
+system-rotate-2026-04-10.LOG,6,log

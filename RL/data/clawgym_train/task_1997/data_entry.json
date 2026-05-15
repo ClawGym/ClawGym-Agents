@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1997",
+  "user_query": "Audit our Shopify product landing page for \"EverCool Linen Sheets\" and propose a data-driven optimization plan to lift conversion rate. Read input/landing_page.html, input/analytics.csv, input/traffic_sources.json, and input/reviews.jsonl for context. Current conversion rate is 0.85%, mobile traffic share is ~65%, and traffic is primarily from Meta ads (paid social) and organic search. Mobile bounce is high and add-to-cart rate from paid is low. Deliverables:\n- Write output/audit_report.md with structured sections: Summary of Findings; CTA Analysis; Hero Section; Trust Signals; Social Proof; Mobile Optimization; Page Speed Considerations; Copy Optimization; A/B Testing Strategy; Next Steps.\n- Write output/ab_test_plan.json as an array of 6–10 hypotheses, each with fields: id, hypothesis, metric, expected_impact, confidence (1–5), priority_score (number), variant_a, variant_b, segment (\"mobile\" | \"desktop\" | \"all\"), duration_days (integer).\n- Write output/prioritized_actions.csv with columns: priority (1=high,2=medium,3=low), category, recommendation, effort (low/medium/high), impact (low/medium/high), confidence (1–5), owner.\n- Write output/summary.json containing: platform (\"Shopify\"), product (\"EverCool Linen Sheets\"), current_cr (number), mobile_share (number 0–100), primary_traffic_sources (array of strings), key_issues (array of strings), quick_wins (array of strings).\nUse the provided inputs to ground your recommendations. Prioritize actions by impact vs. effort, and include at least three quick wins. For A/B tests, make metrics measurable (e.g., CTR on hero CTA, ATC rate, session conversion rate).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

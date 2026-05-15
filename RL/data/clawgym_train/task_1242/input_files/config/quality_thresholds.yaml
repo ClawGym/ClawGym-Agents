@@ -1,0 +1,3 @@
+risk_thresholds:
+  MBT: 0.02
+  APC: 0.03

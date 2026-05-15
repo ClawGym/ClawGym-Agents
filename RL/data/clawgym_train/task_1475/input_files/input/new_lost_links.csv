@@ -1,0 +1,9 @@
+type,source_domain,da,link_type,anchor,date
+new,developernews.io,61,Guest Post,best analytics tools for 2026,2026-04-07
+new,researchhub.org,74,Resource,Acme Analytics,2026-04-03
+new,statstory.co,45,Editorial,Acme Analytics platform,2026-04-06
+new,datablog.uk,38,Editorial,Acme Analytics,2026-04-09
+new,bestsoftdir.com,28,Directory,https://acmeanalytics.com,2026-04-02
+lost,openstats.net,55,Resource,Acme Analytics,2026-04-05
+lost,webmastersforum.net,33,Forum,this website,2026-03-26
+lost,datainsightsweekly.com,43,Editorial,Acme Analytics,2026-03-29

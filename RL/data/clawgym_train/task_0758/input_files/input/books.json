@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "9780132350884",
+    "monitor": true
+  },
+  {
+    "title": "Effective Java",
+    "author": "Joshua Bloch",
+    "isbn": "9780134685991",
+    "monitor": true
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "isbn": "9781449373320",
+    "monitor": false
+  },
+  {
+    "title": "Fluent Python",
+    "author": "Luciano Ramalho",
+    "isbn": "9781492056355",
+    "monitor": true
+  }
+]

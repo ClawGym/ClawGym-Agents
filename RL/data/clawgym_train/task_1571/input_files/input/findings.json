@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "target": "./skills/image-resizer",
+    "name": "image-resizer",
+    "version": "2.1.0",
+    "scanPath": "/home/runner/work/image-resizer"
+  },
+  "staticFindings": [
+    {
+      "ruleId": "safehub-network-fetch",
+      "message": "Outbound HTTP request via fetch() to api.example.com",
+      "severity": "MEDIUM",
+      "path": "src/client.js",
+      "line": 42
+    },
+    {
+      "ruleId": "safehub-filesystem-write-outside-tmp",
+      "message": "Write to filesystem outside /tmp: /var/log/image-resizer.log",
+      "severity": "HIGH",
+      "path": "lib/logger.js",
+      "line": 18
+    },
+    {
+      "ruleId": "safehub-env-access",
+      "message": "Access to process.env.API_KEY",
+      "severity": "LOW",
+      "path": "index.js",
+      "line": 27
+    },
+    {
+      "ruleId": "safehub-obfuscation-encoded-string",
+      "message": "Suspicious base64 decoding pattern",
+      "severity": "MEDIUM",
+      "path": "utils/obf.js",
+      "line": 7
+    },
+    {
+      "ruleId": "safehub-execution-eval",
+      "message": "eval() used to execute dynamic string",
+      "severity": "CRITICAL",
+      "path": "utils/exec.js",
+      "line": 12
+    },
+    {
+      "ruleId": "safehub-crypto-md5",
+      "message": "Use of weak crypto algorithm MD5",
+      "severity": "LOW",
+      "path": "security/hash.js",
+      "line": 66
+    }
+    ],
+  "sandboxResult": {
+    "skipped": false,
+    "networkAttempted": false,
+    "suspiciousSyscalls": [
+      "ptrace",
+      "execve"
+    ],
+    "sensitiveReads": [
+      "/etc/shadow"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+Role excerpt: Machine Learning Engineer (Streaming Anomaly Detection)
+- Build and productionize real-time ML for systems observability and incident prevention.
+- Balance model quality with strict latency and memory constraints.
+- Collaborate with platform and SRE teams; deliver maintainable code and clear documentation for stakeholders.
+- Translate research into reliable services and iterate with monitoring in place.
+- Familiarity with GNNs, Kafka, and MLOps is a plus.

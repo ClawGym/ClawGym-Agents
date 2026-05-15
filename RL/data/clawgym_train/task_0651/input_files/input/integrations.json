@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Stripe",
+    "category": "payment_gateway",
+    "changes_frequently": true,
+    "reason": "A/B test gateways by market; contract terms revisited quarterly"
+  },
+  {
+    "name": "Adyen",
+    "category": "payment_gateway",
+    "changes_frequently": true,
+    "reason": "New regions and alternative payment methods; regional PSPs may be added"
+  },
+  {
+    "name": "Braintree",
+    "category": "payment_gateway",
+    "changes_frequently": true,
+    "reason": "Legacy accounts; may be sunset or replaced by local PSP in H2"
+  },
+  {
+    "name": "SendGrid",
+    "category": "email_service",
+    "changes_frequently": true,
+    "reason": "Marketing may switch to Mailgun for deliverability experiments"
+  },
+  {
+    "name": "Mailgun",
+    "category": "email_service",
+    "changes_frequently": true,
+    "reason": "Considered for campaigns; provider rotation possible"
+  },
+  {
+    "name": "Twilio",
+    "category": "sms_provider",
+    "changes_frequently": true,
+    "reason": "Compliance costs vary by country; Vonage may be used for certain routes"
+  },
+  {
+    "name": "Vonage",
+    "category": "sms_provider",
+    "changes_frequently": true,
+    "reason": "May be swapped with Twilio depending on delivery and cost"
+  },
+  {
+    "name": "TaxJar",
+    "category": "tax_service",
+    "changes_frequently": false,
+    "reason": "Stable; reevaluate if pricing or coverage changes"
+  },
+  {
+    "name": "Avalara",
+    "category": "tax_service",
+    "changes_frequently": false,
+    "reason": "Backup option; not expected to change often"
+  },
+  {
+    "name": "Sift",
+    "category": "fraud_detection",
+    "changes_frequently": true,
+    "reason": "Pilot; may switch to in-house scoring or another vendor"
+  },
+  {
+    "name": "Segment",
+    "category": "analytics",
+    "changes_frequently": true,
+    "reason": "Experimentation with RudderStack for cost/performance"
+  },
+  {
+    "name": "PostgreSQL",
+    "category": "database",
+    "changes_frequently": false,
+    "reason": "Primary relational data store; not expected to change"
+  }
+]

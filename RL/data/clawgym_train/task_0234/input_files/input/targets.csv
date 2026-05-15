@@ -1,0 +1,7 @@
+target_id,description,org_hints,official_domain_keywords,min_sources
+WX_ALERTS,"Marine and coastal weather warnings for Saint-Pierre-et-Miquelon","Météo-France","meteo;meteofrance",1
+FERRY_INFO,"Ferry schedules or service alerts between Saint-Pierre and Miquelon-Langlade","Collectivité Territoriale de Saint-Pierre et Miquelon; ferry operator","collectivite;ctspm;spm;ferries;maritime",1
+PREF_PRESS,"Recent press releases or notices from the Prefecture","Préfecture de Saint-Pierre et Miquelon","gouv;prefecture;spm",1
+PORT_NOTICES,"Notices to mariners or port advisories for Port de Saint-Pierre","Port de Saint-Pierre","port;capitainerie;spm",1
+AIR_ADVISORIES,"Airport operational advisories for Saint-Pierre Airport","Aéroport de Saint-Pierre; DGAC (aviation authority)","aeroport;spm;dgac;aviation",1
+EMERGENCY_ALERTS,"Civil protection or emergency alerts relevant to SPM residents","Sécurité civile; Collectivité Territoriale","securite;securite-civile;collectivite;spm",1

@@ -1,0 +1,33 @@
+Company: Nimbus Labs, Inc. (seed-stage SaaS startup)
+Headcount: 18 employees (12 based in California, 3 in Washington, 2 in Texas, 1 in New York)
+Business: AI-enabled workflow automation platform for operations and finance teams
+Hiring Plan: 10 additional hires in the next 12 months, primarily in California (remote-first, HQ in San Francisco)
+
+Offer Paperwork Package (draft):
+- Offer letter with comp terms (base salary + equity)
+- Employee Proprietary Information and Inventions Assignment Agreement (PIIAA)
+- Standalone agreement containing: (1) a 12-month nationwide non-compete, (2) a mandatory arbitration agreement governed by the FAA with AAA rules, no opt-out, confidentiality requirement, venue in San Francisco, fee splitting (50/50 for arbitrator and admin fees), delegation clause, and carve-out for IP/trade secret injunctions, and (3) a class/collective/representative action waiver that expressly includes PAGA claims.
+- Policies acknowledged at start date (handbook still in draft)
+
+Roles recently filled or targeted:
+- Senior Software Engineer (base $175k–$195k; equity grants vest over 4 years)
+- Product Designer (base $140k–$160k; equity)
+- Founding Account Executive (base $110k + variable; equity)
+- People Ops Generalist (base $95k–$115k; equity)
+
+Work Location and Practices:
+- Most employees live and primarily work in California (remote within CA)
+- Occasional travel to SF for team onsites
+- Non-sales employees rarely interact with customers directly
+- Sales roles may solicit prospects nationwide
+- No employees have acquired or sold a substantial ownership interest in the company
+- No plans to sell the business or any employee’s ownership interest in connection with new offers
+
+Other Notes:
+- Finance is leaning toward a single national template to simplify ops
+- HR wants to reduce litigation risk around wage-and-hour and discrimination claims
+- HR is considering whether to keep the IP/trade secret carve-out in the arbitration clause
+- No current internal policy for reimbursing arbitration fees beyond what the agreements say
+- Some legacy offer letters for 2 California employees (signed in late 2022) contained a non-solicitation of customers and a broad non-compete; HR is unsure whether to send any corrective notices
+- No unionized workforce; no CBAs in place
+- The company wants strong confidentiality and inventions assignment protection but is open to revising other restrictions if unenforceable or high-risk

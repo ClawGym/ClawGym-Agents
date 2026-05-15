@@ -1,0 +1,6 @@
+[
+  {"InterviewID": "OH001", "Interviewee": "Helen Morris", "transcript_path": "input/transcripts/OH001_HelenMorris.txt"},
+  {"InterviewID": "OH002", "Interviewee": "James R. Patel", "transcript_path": "input/transcripts/OH002_JamesPatel.txt"},
+  {"InterviewID": "OH003", "Interviewee": "Lucille Gray", "transcript_path": "input/transcripts/OH003_LucilleGray.TXT"},
+  {"InterviewID": "OH004", "Interviewee": "Marcos Rivera", "transcript_path": "input/transcripts/OH004_MarcosRivera.txt"}
+]

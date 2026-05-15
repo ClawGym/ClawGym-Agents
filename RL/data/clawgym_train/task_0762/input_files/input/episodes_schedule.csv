@@ -1,0 +1,4 @@
+episode_id,guest_name,guest_is_grammy_winner,air_date,expected_transcript,expected_rundown,publicist_contact
+EP101,Alice Carter,yes,2026-05-10,episodes/raw_transcripts/EP101.txt,docs/rundowns/EP101_rundown.md,alice.publicist@example.com
+EP102,Brandon Lee,no,2026-05-17,episodes/raw_transcripts/EP102.txt,docs/rundowns/EP102_rundown.md,brandon.publicist@example.com
+EP103,Carla Gomez,yes,2026-05-24,episodes/raw_transcripts/EP103.txt,docs/rundowns/EP103_rundown.md,carla.publicist@example.com

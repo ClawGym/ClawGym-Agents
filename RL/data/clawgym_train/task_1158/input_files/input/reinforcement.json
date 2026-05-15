@@ -1,0 +1,44 @@
+[
+  {
+    "cause": " NGINX MISCONFIGURED",
+    "action": "ADDED PROXY_PASS",
+    "effect": "SITE LOADED",
+    "op": "reward",
+    "scalar": 0.2
+  },
+  {
+    "cause": "nginx misconfigured",
+    "action": "added proxy_pass",
+    "effect": "site loaded",
+    "op": "reward",
+    "scalar": 0.1
+  },
+  {
+    "cause": "database at max connections",
+    "action": "increase pool size",
+    "effect": "reduced timeouts",
+    "op": "penalize",
+    "scalar": 0.25
+  },
+  {
+    "cause": "DNS MISCONFIGURED",
+    "action": "flushed resolver cache",
+    "effect": "names resolved",
+    "op": "reward",
+    "scalar": 0.3
+  },
+  {
+    "cause": "memory leak",
+    "action": "restarted service",
+    "effect": "temporary relief",
+    "op": "reward",
+    "scalar": 0.1
+  },
+  {
+    "cause": "queue backed up",
+    "action": "added worker instances ",
+    "effect": "queue drained",
+    "op": "penalize",
+    "scalar": 0.05
+  }
+]

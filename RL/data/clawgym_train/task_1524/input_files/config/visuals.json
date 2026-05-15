@@ -1,0 +1,7 @@
+{
+  "title": "",
+  "width": 640,
+  "height": 360,
+  "bg_color": "#ffffff",
+  "output": "output/test.svg"
+}

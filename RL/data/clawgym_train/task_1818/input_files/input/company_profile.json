@@ -1,0 +1,77 @@
+{
+  "company_name": "Riverview Foods, LLC",
+  "industry": "Food Processing",
+  "site_address": "1420 Riverside Industrial Park, Dayton, OH 45404",
+  "headcount_total": 120,
+  "shifts": 2,
+  "departments": [
+    {
+      "name": "Production",
+      "employees": 53,
+      "roles": [
+        { "title": "Production Operator", "count": 35 },
+        { "title": "Cook/Batch Operator", "count": 10 },
+        { "title": "Line Lead", "count": 6 },
+        { "title": "Production Supervisor", "count": 2 }
+      ],
+      "areas": ["Cutting/Cooking", "Packaging", "Labeling", "Slicing Room", "Hot Fill Line"]
+    },
+    {
+      "name": "Sanitation",
+      "employees": 14,
+      "roles": [
+        { "title": "Sanitation Technician", "count": 14 }
+      ],
+      "areas": ["Processing Room", "Packaging", "CIP/FOG", "Chemical Storage"]
+    },
+    {
+      "name": "Maintenance",
+      "employees": 8,
+      "roles": [
+        { "title": "Maintenance Technician", "count": 8 }
+      ],
+      "areas": ["Plant-wide", "Boiler Room", "Refrigeration/Cold Storage", "Utility Rooms"]
+    },
+    {
+      "name": "Warehouse/Logistics",
+      "employees": 12,
+      "roles": [
+        { "title": "Warehouse/Forklift Operator", "count": 12 }
+      ],
+      "areas": ["Receiving Dock", "Shipping Dock", "Dry Storage", "Cold Storage"]
+    },
+    {
+      "name": "Quality Assurance",
+      "employees": 7,
+      "roles": [
+        { "title": "Quality Assurance Technician", "count": 7 }
+      ],
+      "areas": ["Lab", "Production Lines", "Hold/Release Cage"]
+    },
+    {
+      "name": "Supervision & Admin",
+      "employees": 8,
+      "roles": [
+        { "title": "Operations Supervisor", "count": 2 },
+        { "title": "Warehouse Supervisor", "count": 1 },
+        { "title": "EHS Coordinator", "count": 1 },
+        { "title": "HR/Training Coordinator", "count": 1 },
+        { "title": "Office/Admin Staff", "count": 3 }
+      ],
+      "areas": ["Front Office", "Conference Room", "Training Room"]
+    },
+    {
+      "name": "Temporary/Seasonal",
+      "employees": 18,
+      "roles": [
+        { "title": "Temporary/Seasonal Worker", "count": 18 }
+      ],
+      "areas": ["Packaging", "Rework", "Kitting"]
+    }
+  ],
+  "powered_industrial_trucks_in_service": 6,
+  "refrigeration_system": {
+    "type": "Ammonia (NH3) – below PSM threshold quantity",
+    "noted_controls": ["Leak detection alarms", "Emergency ventilation", "Contractor service agreement"]
+  }
+}

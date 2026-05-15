@@ -1,0 +1,1 @@
+Prevention rule: Always redact secrets before logging or responding. Scan for API keys, tokens, passwords, and credentials and replace them with [REDACTED]. Use deterministic patterns (e.g., prefixes like "sk-", "pk_live_", and "Bearer ") and maintain an allowlist to avoid over-redaction.

@@ -1,0 +1,8 @@
+{
+  "hours_saved_per_week": 20,
+  "hourly_cost": 35,
+  "error_reduction_per_month": 5,
+  "cost_per_error": 500,
+  "speed_improvement_revenue_per_month": 3000,
+  "notes": "Paralegal workflow efficiency, fewer clerical errors, and throughput uplift for case processing"
+}

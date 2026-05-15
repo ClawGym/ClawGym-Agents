@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1382",
+  "user_query": "Read the indicator specification in input/spec.json and generate a TradingView Pine Script v6 indicator that implements: (1) RTH session detection for 9:30–16:00 America/New_York with proper timezone handling, (2) a session-resetting VWAP with standard deviation bands, (3) selectable moving averages (at least SMA and EMA) controlled by inputs, (4) theme-aware colors (light/dark toggle), (5) basic error handling for NA and division-by-zero, and (6) resource limits for bars, labels, and lines. Use structured input groups exactly as specified in the spec. The code must include the MPL 2.0 license header and start with //@version=6. Name and short title must match the indicator_name and shorttitle in the spec. Write the Pine code to output/LB_RTH_VWAP_Bands.pine.txt and a brief usage note to output/USAGE.md describing the inputs and plots.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

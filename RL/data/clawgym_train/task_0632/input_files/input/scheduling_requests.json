@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Design sync with product",
+    "calendar": "Work",
+    "relative_day": "today",
+    "window_start": "09:00",
+    "window_end": "11:00",
+    "duration_minutes": 60,
+    "description": "Weekly design alignment with product team; bring latest mockups."
+  },
+  {
+    "title": "Weekly 1:1 with manager",
+    "calendar": "Work",
+    "relative_day": "today",
+    "window_start": "10:00",
+    "window_end": "12:00",
+    "duration_minutes": 30,
+    "description": "Discuss priorities, blockers, and career goals."
+  },
+  {
+    "title": "Morning gym session",
+    "calendar": "Personal",
+    "relative_day": "today",
+    "window_start": "08:30",
+    "window_end": "10:00",
+    "duration_minutes": 45,
+    "description": "Strength training and stretching."
+  },
+  {
+    "title": "Project Alpha standup",
+    "calendar": "Work",
+    "relative_day": "tomorrow",
+    "window_start": "09:00",
+    "window_end": "10:00",
+    "duration_minutes": 15,
+    "description": "Daily standup; quick updates and blockers."
+  },
+  {
+    "title": "Dentist appointment",
+    "calendar": "Personal",
+    "relative_day": "tomorrow",
+    "window_start": "09:30",
+    "window_end": "11:30",
+    "duration_minutes": 60,
+    "description": "Routine cleaning and check-up."
+  },
+  {
+    "title": "Deep work focus block",
+    "calendar": "Work",
+    "relative_day": "day after tomorrow",
+    "window_start": "13:00",
+    "window_end": "17:00",
+    "duration_minutes": 120,
+    "description": "Uninterrupted focus time for architecture document."
+  },
+  {
+    "title": "Coffee with Alex",
+    "calendar": "Personal",
+    "relative_day": "day after tomorrow",
+    "window_start": "15:00",
+    "window_end": "16:00",
+    "duration_minutes": 45,
+    "description": "Catch-up at the cafe near the park."
+  },
+  {
+    "title": "Team retrospective",
+    "calendar": "Work",
+    "relative_day": "monday",
+    "window_start": "14:00",
+    "window_end": "17:00",
+    "duration_minutes": 60,
+    "description": "Sprint retro; discuss what went well and improvements."
+  },
+  {
+    "title": "Groceries run",
+    "calendar": "Personal",
+    "relative_day": "monday",
+    "window_start": "16:00",
+    "window_end": "18:00",
+    "duration_minutes": 45,
+    "description": "Supermarket trip for weekly staples."
+  },
+  {
+    "title": "Yoga class",
+    "calendar": "Personal",
+    "relative_day": "friday",
+    "window_start": "07:00",
+    "window_end": "09:00",
+    "duration_minutes": 60,
+    "description": "Vinyasa flow session to start the day."
+  }
+]

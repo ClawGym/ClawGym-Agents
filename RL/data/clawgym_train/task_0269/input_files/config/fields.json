@@ -1,0 +1,7 @@
+{
+  "sku_field": "id",
+  "title_field": "name",
+  "intro_year_field": "introduced",
+  "retire_year_field": "retired",
+  "line_field": "collection"
+}

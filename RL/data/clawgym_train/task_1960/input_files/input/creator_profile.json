@@ -1,0 +1,52 @@
+{
+  "creator_mode": "Fitness coach and live class instructor",
+  "primary_goal": "Retention",
+  "audience": "Busy young professionals (ages 24-35) looking for efficient home workouts and stress reduction routines",
+  "current_offer_structure": {
+    "tiers": [
+      {
+        "name": "Single tier",
+        "price_usd": 12.99,
+        "benefits": [
+          "3 feed posts per week (short workout clips, tips)",
+          "1 monthly live stream (Q&A + guided session)",
+          "Occasional behind-the-scenes posts"
+        ]
+      }
+    ],
+    "one_offs": {
+      "tips": true,
+      "locked_posts": false,
+      "bundles": false
+    }
+  },
+  "current_problems": [
+    "High churn after the first month; many subscribers join for novelty, then cancel",
+    "Exclusive content feels generic and similar to public social posts",
+    "No segmentation for advanced vs beginner audiences",
+    "Live sessions are not archived; latecomers get less value"
+  ],
+  "exclusivity_definition": "Mostly behind-the-scenes clips and informal notes; no structured member-only programs",
+  "cadence": "3 posts/week plus one monthly livestream",
+  "goals": {
+    "retention": true,
+    "arpu": true,
+    "conversion": false,
+    "segmentation": true
+  },
+  "constraints": [
+    "Limited filming time on weekdays",
+    "No explicit adult content; professional wellness brand positioning"
+  ],
+  "brand_notes": "Tone is supportive, practical, and beginner-friendly. Emphasis on safe form and habit-building.",
+  "tools": [
+    "Zoom for live classes",
+    "Google Drive for file storage",
+    "Basic email list (Mailchimp) for announcements"
+  ],
+  "success_signals": [
+    "Subscribers ask for short 20-minute follow-along routines",
+    "Positive feedback on guided mobility sessions and stress relief",
+    "Requests for progressive programs and private feedback"
+  ]
+}

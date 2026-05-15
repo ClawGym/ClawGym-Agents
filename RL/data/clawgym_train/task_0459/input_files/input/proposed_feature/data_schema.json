@@ -1,0 +1,40 @@
+{
+  "feature_name": "Online Room Customization",
+  "collection_points": [
+    {
+      "name": "Customization Form",
+      "fields": [
+        {"field": "full_name", "category": "PII", "pii": true},
+        {"field": "email", "category": "PII", "pii": true},
+        {"field": "phone", "category": "PII", "pii": true},
+        {"field": "delivery_address", "category": "PII", "pii": true},
+        {"field": "room_dimensions", "category": "Behavioral/Household", "pii": false},
+        {"field": "style_preference", "category": "Preference", "pii": false},
+        {"field": "preferred_materials", "category": "Preference", "pii": false},
+        {"field": "budget_range", "category": "Financial (non-payment)", "pii": false}
+      ]
+    },
+    {
+      "name": "Image Upload",
+      "fields": [
+        {"field": "uploaded_room_photos", "category": "Image", "pii": true, "notes": "May capture family members, valuables, or sensitive room contents"},
+        {"field": "photo_metadata_exif", "category": "Metadata", "pii": true, "notes": "EXIF may include GPS coordinates"}
+      ]
+    },
+    {
+      "name": "Payment",
+      "fields": [
+        {"field": "cardholder_name", "category": "Financial (payment)", "pii": true},
+        {"field": "card_token", "category": "Financial (payment)", "pii": true, "notes": "Tokenized per gateway; not raw PAN"},
+        {"field": "billing_address", "category": "PII", "pii": true}
+      ]
+    },
+    {
+      "name": "Consent",
+      "fields": [
+        {"field": "data_processing_consent", "category": "Consent", "pii": false},
+        {"field": "marketing_opt_in", "category": "Consent", "pii": false}
+      ]
+    }
+  ]
+}

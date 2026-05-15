@@ -1,0 +1,84 @@
+[
+  {
+    "rule": "Cobalt_Strike_Beacon",
+    "pid": 4024,
+    "process": "rundll32.exe",
+    "matches": [
+      "sleeptime",
+      "%s (admin)"
+    ],
+    "strings": [
+      {
+        "offset": "0x000000000041A220",
+        "identifier": "$sleep",
+        "data": "sleeptime"
+      },
+      {
+        "offset": "0x000000000041A3F1",
+        "identifier": "$beacon",
+        "data": "%s (admin)"
+      }
+    ],
+    "source": "windows.yarascan:2026-04-18T13:20:05Z"
+  },
+  {
+    "rule": "Suspicious_Injection",
+    "pid": 1256,
+    "process": "svchost.exe",
+    "matches": [
+      "MZ",
+      "Function prologue"
+    ],
+    "strings": [
+      {
+        "offset": "0x00000000006B0000",
+        "identifier": "$mz",
+        "data": "MZ"
+      },
+      {
+        "offset": "0x00000000006B0020",
+        "identifier": "$shellcode1",
+        "data": "55 8B EC 83 EC"
+      }
+    ],
+    "source": "windows.yarascan:2026-04-18T13:20:05Z"
+  },
+  {
+    "rule": "Base64_PowerShell",
+    "pid": 3788,
+    "process": "powershell.exe",
+    "matches": [
+      "Invoke-WebRequest",
+      "FromBase64String"
+    ],
+    "strings": [
+      {
+        "offset": "0x000000000032000",
+        "identifier": "$iwr",
+        "data": "Invoke-WebRequest"
+      },
+      {
+        "offset": "0x000000000032050",
+        "identifier": "$fromb64",
+        "data": "FromBase64String"
+      }
+    ],
+    "source": "windows.yarascan:2026-04-18T13:20:05Z"
+  },
+  {
+    "rule": "Malicious_Domain_Strings",
+    "pid": 4024,
+    "process": "rundll32.exe",
+    "matches": [
+      "cdn-update-win.com"
+    ],
+    "strings": [
+      {
+        "offset": "0x000000000041B2C0",
+        "identifier": "$domain1",
+        "data": "cdn-update-win.com"
+      }
+    ],
+    "source": "windows.yarascan:2026-04-18T13:20:05Z"
+  }
+]

@@ -1,0 +1,7 @@
+password
+api key
+token
+credentials
+secret
+internal only
+confidential

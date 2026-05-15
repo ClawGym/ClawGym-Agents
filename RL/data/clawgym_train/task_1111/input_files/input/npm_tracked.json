@@ -1,0 +1,28 @@
+{
+  "items": {
+    "npm-package-a": {
+      "currentVersion": "1.2.3",
+      "latestVersion": "1.2.4",
+      "releaseDate": "2026-03-22T08:30:00Z",
+      "note": ""
+    },
+    "npm-package-b": {
+      "currentVersion": "2.4.0",
+      "latestVersion": "3.0.0",
+      "releaseDate": "2026-03-20T10:00:00Z",
+      "note": "Major release; review required"
+    },
+    "npm-package-c": {
+      "currentVersion": "1.4.2",
+      "latestVersion": "1.5.0",
+      "releaseDate": "2026-03-21T12:00:00Z",
+      "note": "Known regression reported by users in 1.5.0; awaiting upstream fix"
+    },
+    "npm-package-d": {
+      "currentVersion": "0.9.9",
+      "latestVersion": "0.10.0",
+      "releaseDate": "2026-03-24T14:00:00Z",
+      "note": "Minor improvements and docs"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+Patient: Leo R.
+Unit: 6 West - Pediatric Surgery
+Primary surgeon: Dr. A. Patel
+Primary nurse: Maria S.
+Procedure: Laparoscopic appendectomy
+Surgery date: 2025-03-02
+Discharge date: 2025-03-04
+Memorable support:
+- Dr. Patel called on Sunday to check in after discharge.
+- Nurse Maria built a simple pain scale chart for Leo.
+- The team cheered Leo during his first hallway lap.

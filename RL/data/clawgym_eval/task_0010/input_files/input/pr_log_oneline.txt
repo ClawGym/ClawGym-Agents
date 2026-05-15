@@ -1,0 +1,3 @@
+abc1234 feat(auth): add refresh token rotation
+def5678 fix(session): handle missing session file gracefully
+fedcba9 docs: update README with auth refresh notes

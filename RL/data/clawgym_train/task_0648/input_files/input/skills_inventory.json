@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-04-19T10:15:00Z",
+  "skills": [
+    {
+      "slug": "auto-updater-openclaw",
+      "name": "OpenClaw Auto-Updater",
+      "source": "clawhub",
+      "installed_version": "1.0.1"
+    },
+    {
+      "slug": "agent-memory-templates",
+      "name": "Agent Memory Templates",
+      "source": "clawhub",
+      "installed_version": "1.0.0"
+    },
+    {
+      "slug": "afrexai-ai-adoption-readiness",
+      "name": "Ai Adoption Readiness",
+      "source": "clawhub",
+      "installed_version": "1.0.1"
+    },
+    {
+      "slug": "workflow-orchestrator",
+      "name": "Workflow Orchestrator",
+      "source": "clawhub",
+      "installed_version": "2.3.0"
+    },
+    {
+      "slug": "company-experimental-skill",
+      "name": "Company Experimental Skill",
+      "source": "local",
+      "installed_version": "0.2.3"
+    },
+    {
+      "slug": "local-utils",
+      "name": "Local Utils",
+      "source": "local",
+      "installed_version": "0.0.5"
+    }
+  ]
+}

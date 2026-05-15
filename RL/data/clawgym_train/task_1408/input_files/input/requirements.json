@@ -1,0 +1,44 @@
+{
+  "mandatory_clauses": [
+    {
+      "key": "parties_and_purpose",
+      "title": "Parties and Purpose",
+      "must_include": ["purpose", "interlocal", "Town", "Township"]
+    },
+    {
+      "key": "governance",
+      "title": "Governance and Administration",
+      "must_include": ["joint board", "administration", "each party"]
+    },
+    {
+      "key": "term_and_termination",
+      "title": "Term and Termination",
+      "must_include": ["term", "termination", "notice"]
+    },
+    {
+      "key": "indemnification",
+      "title": "Indemnification and Liability",
+      "must_include": ["indemnify", "liability"]
+    },
+    {
+      "key": "cost_sharing",
+      "title": "Cost Sharing and Funding",
+      "must_include": ["cost", "share", "payment"]
+    },
+    {
+      "key": "dispute_resolution",
+      "title": "Dispute Resolution",
+      "must_include": ["dispute", "mediation"]
+    },
+    {
+      "key": "records_and_open_meetings",
+      "title": "Public Records and Open Meetings",
+      "must_include": ["public records", "open meetings"]
+    },
+    {
+      "key": "statutory_citation",
+      "title": "Statutory Authority",
+      "must_include": []
+    }
+  ]
+}

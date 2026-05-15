@@ -1,0 +1,25 @@
+{
+  "themes": [
+    {
+      "name": "Launch Intro",
+      "contentType": "text",
+      "requiredTag": "launch",
+      "count": 2,
+      "minContentLength": 120
+    },
+    {
+      "name": "Capabilities Demo",
+      "contentType": "skill_demo",
+      "requiredTag": "capabilities",
+      "count": 2,
+      "minContentLength": 110
+    },
+    {
+      "name": "Workflow Snippet",
+      "contentType": "conversation_snippet",
+      "requiredTag": "process",
+      "count": 1,
+      "minContentLength": 100
+    }
+  ]
+}

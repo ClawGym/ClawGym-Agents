@@ -1,0 +1,9 @@
+{
+  "po_date": "2026-04-15",
+  "tax_rate": 0.085,
+  "payment_terms": "Net 30",
+  "delivery_date": "2026-05-01",
+  "ship_to": "Acme Corp - Operations HQ\n1200 Market Street\nSan Francisco, CA 94103",
+  "bill_to": "Acme Corp - Accounts Payable\n450 Mission Street, Suite 900\nSan Francisco, CA 94105",
+  "currency": "USD"
+}

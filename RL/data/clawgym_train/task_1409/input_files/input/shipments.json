@@ -1,0 +1,22 @@
+{
+  "shipments": [
+    {
+      "id": "US_urgent_SSZ_2026Q2",
+      "origin_city": "Shenzhen",
+      "origin_country": "CN",
+      "destination": "US",
+      "quantity": 1200,
+      "target_instock_date": "2026-06-30",
+      "timeline_urgency": "urgent"
+    },
+    {
+      "id": "DE_restock_SSZ_2026Q3",
+      "origin_city": "Shenzhen",
+      "origin_country": "CN",
+      "destination": "DE",
+      "quantity": 2400,
+      "target_instock_date": "2026-08-15",
+      "timeline_urgency": "restock"
+    }
+  ]
+}

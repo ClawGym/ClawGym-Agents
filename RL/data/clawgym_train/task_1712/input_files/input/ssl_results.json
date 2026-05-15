@@ -1,0 +1,58 @@
+[
+  {
+    "domain": "example.com",
+    "port": 443,
+    "status": "ok",
+    "error": null,
+    "subject": "example.com",
+    "issuer": "Let's Encrypt",
+    "protocol": "TLSv1.3",
+    "not_before": "2026-03-10T00:00:00Z",
+    "not_after": "2026-06-08T00:00:00Z",
+    "days_remaining": 50,
+    "serial": "03A1B2C3D4E5F6",
+    "san": ["example.com", "www.example.com"]
+  },
+  {
+    "domain": "staging.example.com",
+    "port": 443,
+    "status": "dns_error",
+    "error": "DNS resolution failed: [Errno -2] Name or service not known",
+    "subject": null,
+    "issuer": null,
+    "protocol": null,
+    "not_before": null,
+    "not_after": null,
+    "days_remaining": null,
+    "serial": null,
+    "san": []
+  },
+  {
+    "domain": "old-cert.example.org",
+    "port": 443,
+    "status": "expired",
+    "error": "Certificate expired on 2026-04-07",
+    "subject": "old-cert.example.org",
+    "issuer": "Example CA",
+    "protocol": "TLSv1.2",
+    "not_before": "2025-04-07T00:00:00Z",
+    "not_after": "2026-04-07T00:00:00Z",
+    "days_remaining": -12,
+    "serial": "00FFEEDDCCBBAA",
+    "san": ["old-cert.example.org"]
+  },
+  {
+    "domain": "edge.api.example.com",
+    "port": 443,
+    "status": "ok",
+    "error": null,
+    "subject": "edge.api.example.com",
+    "issuer": "Let's Encrypt",
+    "protocol": "TLSv1.3",
+    "not_before": "2026-01-25T00:00:00Z",
+    "not_after": "2026-04-24T00:00:00Z",
+    "days_remaining": 5,
+    "serial": "0ABC1234DEF567",
+    "san": ["edge.api.example.com","api.example.com"]
+  }
+]

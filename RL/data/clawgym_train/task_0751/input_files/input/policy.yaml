@@ -1,0 +1,31 @@
+mask_entities:
+  - EMAIL_ADDRESS
+  - PHONE_NUMBER
+  - CREDIT_CARD
+  - PASSWORD
+  - API_KEY
+  - TOKEN
+  - SECRET
+  - DB_CONNECTION
+  - PRIVATE_KEY
+  - URL
+
+placeholder:
+  format: "[TYPE:xxxxxxxx]"    # TYPE in uppercase, id is lowercase hex (>=8 chars)
+  id_length: 8
+  stable_ids: true             # Use one stable id per unique original value within this file
+
+notes: |
+  - Preserve all non-sensitive text, JSON structure, ids, and line ordering.
+  - Do not include any original sensitive values in any output artifacts.
+  - Examples of values to mask when present:
+    * Emails like john.doe@example.com
+    * Phone numbers like 415-555-1234 or 555-867-5309
+    * Credit cards like 4111 1111 1111 1111 or 5555444433332222
+    * Passwords like Summer2026! or Winter2025
+    * API keys with prefixes like sk-live-
+    * Tokens such as token=xyz123abc or token=staging-9876
+    * Secrets like secret=abc+/==
+    * DB connections like mongodb://user:pass@host:27017/db
+    * Private keys with headers like -----BEGIN RSA PRIVATE KEY-----
+    * URLs such as https://example.com/reset?token=abc123

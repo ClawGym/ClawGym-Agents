@@ -1,0 +1,9 @@
+{
+  "start_date": "2026-02-01",
+  "weeks": 2,
+  "platforms": ["Newsletter", "LinkedIn"],
+  "cadence_per_week": {
+    "Newsletter": 1,
+    "LinkedIn": 2
+  }
+}

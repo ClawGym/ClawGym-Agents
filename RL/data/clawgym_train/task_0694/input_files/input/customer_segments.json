@@ -1,0 +1,70 @@
+{
+  "currency": "USD",
+  "segments": [
+    {
+      "name": "SMB Operators",
+      "vehicles_range": "10-49",
+      "share_of_revenue_pct": 25,
+      "ARPU_monthly_per_account": 350,
+      "monthly_churn_pct": 3.2,
+      "blended_CAC": 4200,
+      "sales_cycle_days": 35,
+      "price_sensitivity": "high",
+      "acquisition_channels": {
+        "inbound_pct": 50,
+        "outbound_pct": 30,
+        "partner_pct": 20
+      },
+      "key_needs": [
+        "Simple mobile workflows",
+        "Low setup effort",
+        "Cost visibility"
+      ]
+    },
+    {
+      "name": "Regional Mid-Market",
+      "vehicles_range": "50-299",
+      "share_of_revenue_pct": 60,
+      "ARPU_monthly_per_account": 900,
+      "monthly_churn_pct": 1.8,
+      "blended_CAC": 9800,
+      "sales_cycle_days": 68,
+      "price_sensitivity": "medium",
+      "acquisition_channels": {
+        "inbound_pct": 30,
+        "outbound_pct": 40,
+        "partner_pct": 30
+      },
+      "key_needs": [
+        "Preventive schedules across depots",
+        "Technician app with offline mode",
+        "Telematics integrations"
+      ]
+    },
+    {
+      "name": "Enterprise Logistics",
+      "vehicles_range": "300-1500",
+      "share_of_revenue_pct": 15,
+      "ARPU_monthly_per_account": 2400,
+      "monthly_churn_pct": 1.1,
+      "blended_CAC": 22000,
+      "sales_cycle_days": 110,
+      "price_sensitivity": "low",
+      "acquisition_channels": {
+        "inbound_pct": 20,
+        "outbound_pct": 35,
+        "partner_pct": 45
+      },
+      "key_needs": [
+        "Predictive maintenance",
+        "APIs and SSO",
+        "Change management and training"
+      ]
+    }
+  ],
+  "notes": [
+    "Weighted ARPU by revenue share ≈ $988/month, consistent with reported ~$990.",
+    "Churn pressure is concentrated in SMB; retention strongest in Enterprise.",
+    "Partner channel most effective in late-stage Enterprise; outbound effective for mid-market."
+  ]
+}

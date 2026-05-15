@@ -1,0 +1,16 @@
+{
+  "environment": {
+    "profile": "staging",
+    "dataset": "seeded-10k-users",
+    "concurrency": 100,
+    "duration_s": 600,
+    "tool": "k6 v0.45.0"
+  },
+  "metrics": {
+    "p95_latency_ms": 420,
+    "error_rate_percent": 0.9,
+    "throughput_rps": 72.0
+  },
+  "generated_at": "2026-04-15T13:05:22Z",
+  "notes": "Baseline load test with warm caches and autoscaling disabled. Endpoint mix: 60% GET /api/v1/products, 30% POST /api/v1/cart, 10% auth."
+}

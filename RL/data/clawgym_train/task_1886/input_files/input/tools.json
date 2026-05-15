@@ -1,0 +1,22 @@
+[
+  {
+    "name": "web_search",
+    "description": "Searches the web and returns top results with snippets."
+  },
+  {
+    "name": "exec",
+    "description": "Executes shell commands on the local environment. Highly privileged."
+  },
+  {
+    "name": "write",
+    "description": "Writes content to files in the project workspace."
+  },
+  {
+    "name": "fetch_api",
+    "description": "Fetches JSON data from HTTP APIs with GET/POST requests."
+  },
+  {
+    "name": "email_send",
+    "description": "Sends transactional emails via SMTP or API provider."
+  }
+]

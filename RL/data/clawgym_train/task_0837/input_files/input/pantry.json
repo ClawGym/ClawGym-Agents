@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "name": "olive oil",
+      "on_hand": true,
+      "quantity": 1,
+      "unit": "bottle",
+      "notes": "about half full"
+    },
+    {
+      "name": "salt",
+      "on_hand": true,
+      "quantity": 1,
+      "unit": "canister",
+      "notes": ""
+    },
+    {
+      "name": "pepper",
+      "on_hand": true,
+      "quantity": 1,
+      "unit": "jar",
+      "notes": "ground black pepper"
+    },
+    {
+      "name": "garlic powder",
+      "on_hand": true,
+      "quantity": 1,
+      "unit": "jar",
+      "notes": ""
+    },
+    {
+      "name": "cumin",
+      "on_hand": true,
+      "quantity": 1,
+      "unit": "jar",
+      "notes": ""
+    },
+    {
+      "name": "rolled oats",
+      "on_hand": true,
+      "quantity": 2,
+      "unit": "lb",
+      "notes": "gluten-free certified"
+    },
+    {
+      "name": "brown rice",
+      "on_hand": true,
+      "quantity": 3,
+      "unit": "lb",
+      "notes": "unopened bag"
+    },
+    {
+      "name": "soy sauce",
+      "on_hand": true,
+      "quantity": 1,
+      "unit": "bottle",
+      "notes": "not gluten-free; avoid using"
+    },
+    {
+      "name": "paprika",
+      "on_hand": true,
+      "quantity": 1,
+      "unit": "jar",
+      "notes": ""
+    },
+    {
+      "name": "onions",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "lb",
+      "notes": "out of stock"
+    },
+    {
+      "name": "canned tomatoes",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "can",
+      "notes": "need to buy"
+    },
+    {
+      "name": "dried lentils",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "lb",
+      "notes": "need to buy"
+    },
+    {
+      "name": "canned chickpeas",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "can",
+      "notes": "need to buy"
+    },
+    {
+      "name": "quinoa",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "lb",
+      "notes": "need to buy"
+    },
+    {
+      "name": "rice pasta",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "lb",
+      "notes": "gluten-free"
+    },
+    {
+      "name": "eggs",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "dozen",
+      "notes": "need to buy fresh"
+    },
+    {
+      "name": "tofu (firm)",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "block",
+      "notes": "prefer firm tofu"
+    },
+    {
+      "name": "frozen broccoli",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "lb",
+      "notes": "need to buy"
+    },
+    {
+      "name": "carrots",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "lb",
+      "notes": "need to buy"
+    },
+    {
+      "name": "garlic",
+      "on_hand": false,
+      "quantity": 0,
+      "unit": "head",
+      "notes": "fresh garlic needed"
+    }
+  ]
+}

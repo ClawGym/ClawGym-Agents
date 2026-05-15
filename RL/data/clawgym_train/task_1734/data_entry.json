@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1734",
+  "user_query": "I need a precise migration plan based on the deprecation notice in input/SKILL.md. Please do the following:\n1) Read input/SKILL.md to identify the deprecated module name and the new module name.\n2) Scan all files under input/ for exact, case-sensitive occurrences of the deprecated name.\n3) Create two outputs:\n   - output/migration_plan.json: A JSON object with fields:\n     {\n       \"old_name\": string,\n       \"new_name\": string,\n       \"total_occurrences\": number,\n       \"per_file\": [ { \"path\": string, \"occurrences\": number } ]\n     }\n     Make sure per_file includes an entry for every scanned input file that contains at least one occurrence.\n   - output/preview_changes.md: A human-readable summary that clearly states the rename mapping and lists each file that would be changed with its occurrence count, plus one example replacement line for each affected file showing the exact old string and the new string.\nDo not modify any files under input/. Only write the two specified outputs under output/ with the exact paths above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

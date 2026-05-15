@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1622",
+  "user_query": "I take morning walks through the professor's garden and want to avoid getting sprayed while still keeping the garden healthy. Please inspect scripts/service_runner.py to confirm the configuration keys it expects for the 'watering' and 'weather_logger' services. Then update input/garden_config.yaml so that: (a) the watering schedule is delayed to 08:45 (HH:MM), and (b) any key name mismatches are fixed so the services’ enabled flags and schedule fields align with what the code expects. After updating the config, compose a status summary at output/system_status.md with one section per service that includes: service name, enabled (true/false from the updated config), last_run (the ISO timestamp of the most recent 'Completed' entry from the corresponding log file under logs/), schedule_time (daily HH:MM from the updated config), and next_run_after_ref (YYYY-MM-DD HH:MM computed as the first occurrence of the daily schedule time after the reference timestamp in input/reference_datetime.txt, treating times as local with no timezone). Include a brief change log in the report listing the edits you made to input/garden_config.yaml (show before → after for each field). Do not introduce new files beyond output/system_status.md; modify input/garden_config.yaml in place. Input files to use: input/garden_config.yaml, scripts/service_runner.py, logs/watering.log, logs/weather.log, and input/reference_datetime.txt. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

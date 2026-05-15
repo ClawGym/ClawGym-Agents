@@ -1,0 +1,21 @@
+keyword,platform,volume,difficulty,relevance
+focus timer,both,6000,0.35,0.95
+Pomodoro,both,9000,0.7,0.9
+pomodoro timer,both,7000,0.4,0.98
+time blocker,both,4500,0.3,0.9
+time blocking,gp,4800,0.45,0.88
+productivity timer,both,4000,0.5,0.9
+focus app,both,5200,0.5,0.85
+deep work,both,3800,0.4,0.8
+work timer,both,4200,0.35,0.85
+no distractions,ios,2500,0.3,0.75
+mindful breaks,ios,2100,0.25,0.72
+concentration,ios,3000,0.6,0.6
+ADHD focus,gp,2600,0.4,0.7
+screen time control,gp,3200,0.55,0.7
+schedule planner,both,3500,0.65,0.75
+goal planner,both,3000,0.5,0.7
+to-do list,both,8000,0.85,0.6
+habit tracker,both,6500,0.8,0.6
+study timer,both,5000,0.4,0.92
+task tracker pro,gp,1500,0.3,0.7

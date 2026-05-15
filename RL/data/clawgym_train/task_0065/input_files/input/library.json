@@ -1,0 +1,10 @@
+[
+  {"title": "Kind of Blue", "artist": "Miles Davis", "year": 1959, "format": "Vinyl", "condition": "VG+", "duration_min": 46},
+  {"title": "In Rainbows", "artist": "Radiohead", "year": 2007, "format": "CD", "condition": "NM", "duration_min": 42},
+  {"title": "Random Access Memories", "artist": "Daft Punk", "year": 2013, "format": "Vinyl", "condition": "VG", "duration_min": 74},
+  {"title": "For Emma, Forever Ago", "artist": "Bon Iver", "year": 2008, "format": "Digital", "bitrate_kbps": 256, "duration_min": 38},
+  {"title": "A Love Supreme", "artist": "John Coltrane", "year": 1965, "format": "Vinyl", "condition": "G+", "duration_min": 33},
+  {"title": "Blackstar", "artist": "David Bowie", "year": 2016, "format": "CD", "condition": "NM", "duration_min": 41},
+  {"title": "Punisher", "artist": "Phoebe Bridgers", "year": 2020, "format": "Digital", "bitrate_kbps": 320, "duration_min": 41},
+  {"title": "The Dark Side of the Moon", "artist": "Pink Floyd", "year": 1973, "format": "Vinyl", "condition": "VG", "duration_min": 43}
+]

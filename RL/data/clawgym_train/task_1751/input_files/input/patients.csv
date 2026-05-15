@@ -1,0 +1,7 @@
+patient_id,age,mechanism,heart_rate,systolic_bp,resp_rate,spo2,gcs,notes
+P-STUNT-001,32,"motorcycle; high-speed; fall>20ft",128,98,24,95,14,"Midline spinal tenderness; abrasions; denies loss of consciousness; no anticoagulants."
+P-002,67,"ground-level fall",82,132,16,97,15,"On warfarin for atrial fibrillation; minor head bump; denies pain."
+P-003,25,"soccer injury",110,118,18,99,15,"Left ankle inversion sprain; no head strike; ambulatory."
+P-004,40,"rollover MVC",122,105,22,96,15,"Seatbelt sign present; abdominal tenderness; active bleeding from scalp laceration."
+P-005,58,"chest pain while resting",90,140,16,98,15,"Sudden onset crushing chest pain with diaphoresis; no trauma."
+P-006,19,"skateboard fall (~6ft)",88,122,16,99,15,"Minor abrasions to elbows; no head strike; no complaints."

@@ -1,0 +1,4 @@
+date,cycle_k,joint_id,peak_torque_nm,backlash_deg,temperature_c
+2025-01-10,50,elbow_v3,1.20,0.060,32.1
+2025-01-10,50,wrist_v2,0.950,0.040,31.0
+2025-01-10,50,knee_v1,1.08,0.080,30.5

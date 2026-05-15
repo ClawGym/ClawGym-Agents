@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Lae Urban Health Centre",
+    "ward": "Ward 1 - Top Town",
+    "services": ["General outpatient", "Immunization", "Maternal health"],
+    "hours": "Mon-Fri 8:00-16:00",
+    "phone": "+675 472 1234"
+  },
+  {
+    "name": "Eriku Community Clinic",
+    "ward": "Ward 2 - Eriku",
+    "services": ["General outpatient", "Malaria testing", "Health education"],
+    "hours": "Mon-Sat 8:00-17:00",
+    "phone": "+675 472 5678"
+  },
+  {
+    "name": "Voco Point Aid Post",
+    "ward": "Ward 3 - Voco Point",
+    "services": ["First aid", "Immunization"],
+    "hours": "Tue-Thu 9:00-15:00",
+    "phone": "+675 472 9012"
+  },
+  {
+    "name": "Taraka Family Health Clinic",
+    "ward": "Ward 4 - Taraka",
+    "services": ["General outpatient", "Family planning"],
+    "hours": "Mon-Fri 9:00-17:00",
+    "phone": "+675 472 3456"
+  },
+  {
+    "name": "Boundary Road Clinic",
+    "ward": "Ward 5 - Boundary Road",
+    "services": ["General outpatient"],
+    "hours": "Mon-Fri 9:00-17:00",
+    "phone": "+675 472 7777"
+  }
+]

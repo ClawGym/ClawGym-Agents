@@ -1,0 +1,16 @@
+film,year,scene_id,interior_exterior,avg_shot_length_sec,color_temp_k,saturation,brightness,dialog_sentiment,camera_movement
+Saving Private Ryan,1998,SPR_S1,Exterior,2.1,6800,0.35,0.55,-0.6,Handheld
+Saving Private Ryan,1998,SPR_S2,Interior,3.5,4000,0.40,0.45,-0.2,Static
+Saving Private Ryan,1998,SPR_S3,Exterior,1.8,7000,0.33,0.60,-0.7,Handheld
+Saving Private Ryan,1998,SPR_S4,Exterior,2.5,6500,0.38,0.50,-0.4,Handheld
+Saving Private Ryan,1998,SPR_S5,Interior,4.2,3200,0.30,0.35,-0.1,Static
+Cast Away,2000,CA_S1,Exterior,6.8,7200,0.60,0.85,-0.1,Static
+Cast Away,2000,CA_S2,Exterior,7.5,7600,0.55,0.80,-0.2,Handheld
+Cast Away,2000,CA_S3,Interior,5.1,3200,0.50,0.40,-0.3,Static
+Cast Away,2000,CA_S4,Exterior,8.2,7000,0.65,0.90,0.1,Static
+Cast Away,2000,CA_S5,Exterior,4.8,6000,0.52,0.70,0.2,Steadicam
+Captain Phillips,2013,CP_S1,Exterior,3.6,6500,0.50,0.70,-0.1,Steadicam
+Captain Phillips,2013,CP_S2,Interior,2.9,5000,0.45,0.60,-0.3,Handheld
+Captain Phillips,2013,CP_S3,Exterior,2.7,6800,0.48,0.75,-0.5,Handheld
+Captain Phillips,2013,CP_S4,Interior,3.1,3500,0.42,0.50,-0.7,Handheld
+Captain Phillips,2013,CP_S5,Exterior,3.3,6000,0.46,0.65,-0.4,Steadicam

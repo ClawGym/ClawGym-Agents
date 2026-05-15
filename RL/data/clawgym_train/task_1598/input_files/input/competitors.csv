@@ -1,0 +1,6 @@
+name,positioning,strengths,weaknesses,price_tier,brand_vibe
+Workato,"Enterprise iPaaS for business and IT automation","Mature integrations; Governance & RBAC; Large partner ecosystem","High price; IT-centric implementation; Limited human-in-the-loop UX",premium,"Corporate, enterprise"
+Tray.io,"Low-code automation for scaling teams","Flexible builder; Data processing at scale; Good API coverage","Steep learning curve; Requires specialists; Approval flows are bolt-on",premium,"Tech-forward, dynamic"
+Make (Integromat),"Visual automation for builders","Affordable; Fast prototyping; Large template library","Brittle workflows; Limited compliance; Weak auditing",budget,"Playful, maker"
+ServiceNow Flow Designer,"IT workflows inside ServiceNow","Deep ITSM integration; Governance controls; Existing enterprise footprint","Siloed to ServiceNow; Slow to deploy cross-stack; Poor business user UX",premium,"Authoritative, conservative"
+Process Street,"Checklist-driven process management","Simple checklists; Easy adoption; Good docs","Limited automation; Minimal integrations; No AI routing",mid,"Friendly, straightforward"

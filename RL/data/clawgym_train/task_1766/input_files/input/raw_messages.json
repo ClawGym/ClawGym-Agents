@@ -1,0 +1,13 @@
+{
+  "messages": [
+    {"code": "EMAIL_INVALID", "severity": "WARN", "text": "Email addresses must contain an \"@\" and a domain."},
+    {"code": "PASSWORD_WEAK", "severity": "ERROR", "text": "Password does not meet complexity requirements (8+ chars, letters, numbers)."},
+    {"code": "USERNAME_TAKEN", "severity": "ERROR", "text": "This username is already taken."},
+    {"code": "REQUIRED_FIELD", "severity": "WARN", "text": "This field is required."},
+    {"code": "TERMS_UNCHECKED", "severity": "WARN", "text": "You must accept the Terms of Service to continue."},
+    {"code": "NETWORK_ERROR", "severity": "ERROR", "text": "Network request failed. Please try again."},
+    {"code": "SERVER_500", "severity": "ERROR", "text": "Internal server error."},
+    {"code": "PASSWORD_MISMATCH", "severity": "ERROR", "text": "Passwords do not match."},
+    {"code": "RATE_LIMITED", "severity": "INFO", "text": "Too many requests. Try again later."}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "env": {},
+  "stages": [
+    {
+      "name": "test",
+      "steps": [
+        {"name": "Run tests", "run": "python tools/run_tests.py"}
+      ]
+    }
+  ]
+}

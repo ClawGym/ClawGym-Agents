@@ -1,0 +1,13 @@
+sample_id,date,location_id,pollutant,concentration_mg_per_L
+S-001,2025-06-01,L1,Nitrate,12.4
+S-002,2025-06-01,L1,Atrazine,0.0042
+S-003,2025-06-01,L1,Lead,0.010
+S-004,2025-06-08,L1,Nitrate,9.8
+S-005,2025-06-08,L1,Atrazine,0.0025
+S-006,2025-06-08,L1,Lead,0.018
+S-007,2025-06-02,L2,Nitrate,11.3
+S-008,2025-06-02,L2,Atrazine,0.0029
+S-009,2025-06-02,L2,Lead,0.012
+S-010,2025-06-10,L2,Nitrate,8.7
+S-011,2025-06-10,L2,Atrazine,0.0035
+S-012,2025-06-10,L2,Lead,0.016

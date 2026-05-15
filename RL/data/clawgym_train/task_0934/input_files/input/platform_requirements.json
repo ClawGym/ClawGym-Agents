@@ -1,0 +1,62 @@
+{
+  "platforms": {
+    "linkedin": {
+      "max_characters": 1000,
+      "recommended_word_range": [90, 140],
+      "must_include_phrases": [
+        "responsible AI",
+        "Fortune 500",
+        "Harvard Business Review"
+      ],
+      "notes": "Write a first-person or close third-person summary that integrates credentials into the narrative. Skimmable, but no bullet points."
+    },
+    "speaker_introduction": {
+      "max_characters": 1200,
+      "recommended_word_range": [110, 160],
+      "must_include_phrases": [
+        "O'Reilly AI Conference",
+        "keynote",
+        "governance",
+        "Avery Morgan Clark"
+      ],
+      "notes": "Write for an MC to read aloud. Flow matters; avoid dense jargon. Integrate role, credibility, and what the audience will get."
+    },
+    "website_about": {
+      "max_characters": 1800,
+      "recommended_word_range": [190, 260],
+      "must_include_phrases": [
+        "Northstar Lab",
+        "human-centered",
+        "Boston"
+      ],
+      "notes": "Narrative, personable, and specific. Explain the work and the why. Use the same voice as the samples."
+    },
+    "press_kit": {
+      "max_characters": 2200,
+      "recommended_word_range": [220, 320],
+      "must_include_phrases": [
+        "Helios Analytics",
+        "Fast Company",
+        "Most Innovative",
+        "Harvard Business Review"
+      ],
+      "notes": "Third-person bio for media. Include pronunciation if relevant, notable roles, awards, and publication highlights in narrative form."
+    },
+    "conference_program": {
+      "max_characters": 700,
+      "recommended_word_range": [70, 100],
+      "must_include_phrases": [
+        "MIT Sloan",
+        "governance",
+        "product leader"
+      ],
+      "notes": "Concise, results-oriented, and tailored to program booklets. Focus on why attendees should pick this session."
+    }
+  },
+  "openings_requirements": {
+    "openings_min_count": 6,
+    "avoid_name_start": true,
+    "max_sentence_characters": 200
+  },
+  "global_guidance": "Integrate credentials into the story rather than listing them. Match the tone of the voice samples. No bullet lists in any version. Avoid name-first openings where specified and provide multiple opening sentence options with explanations."
+}

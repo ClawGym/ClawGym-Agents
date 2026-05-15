@@ -1,0 +1,4 @@
+daily_time: "08:00"
+neighborhood: "Kabukicho"
+summary_window_days: 1
+email_subject_prefix: "[Kabukicho Daily]"

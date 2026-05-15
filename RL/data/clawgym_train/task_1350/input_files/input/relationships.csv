@@ -1,0 +1,19 @@
+From,To,Type,Strength
+Solution Scoping & Requirements Gathering,Solution Architecture & Design,Enables,Strong
+Solution Scoping & Requirements Gathering,Implementation Project Management,Feeds,Medium
+Security & Compliance Review,Environment Provisioning,Gates,Medium
+Solution Architecture & Design,Environment Provisioning,Enables,Medium
+Environment Provisioning,Data Integration Setup,Gates,Strong
+Solution Architecture & Design,Data Integration Setup,Enables,Strong
+Data Integration Setup,ETL/ELT Pipeline Configuration,Feeds,Strong
+ETL/ELT Pipeline Configuration,Analytics Model Configuration,Feeds,Strong
+QA & UAT Coordination,Analytics Model Configuration,Depends,Medium
+Customer Training & Enablement,Runbook & Documentation,Depends,Medium
+Runbook & Documentation,Analytics Model Configuration,Supports,Weak
+Hypercare & Post-Go-Live Support,QA & UAT Coordination,Depends,Medium
+Hypercare & Post-Go-Live Support,Customer Training & Enablement,Depends,Weak
+Implementation Project Management,QA & UAT Coordination,Supports,Strong
+Implementation Project Management,Customer Training & Enablement,Supports,Medium
+Security & Compliance Review,Data Integration Setup,Supports,Weak
+Solution Architecture & Design,Analytics Model Configuration,Enables,Medium
+Environment Provisioning,QA & UAT Coordination,Supports,Weak

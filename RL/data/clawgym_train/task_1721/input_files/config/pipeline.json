@@ -1,0 +1,5 @@
+{
+  "poverty_line": 300,
+  "input_csv": "data/sample_household_income.csv",
+  "output_csv": "data/processed/summary.csv"
+}

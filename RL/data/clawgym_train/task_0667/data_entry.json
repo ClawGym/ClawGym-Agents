@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0667",
+  "user_query": "We’re seeing low sign-ups on our new landing page and need a professional conversion audit. Read the HTML snapshot at input/page.html and perform a full 8-factor conversion audit. Deliver two files: 1) output/audit.md — a structured report that includes: Page audited (set to \"Provided copy\"), Audit date, Overall Score out of 80, the factor table with all 8 factors scored 0–10, 1–2 sentence rationale per factor, Top 3 Quick Wins (each doable in under 1 hour), Top 3 Strategic Fixes, and a 4–6 sentence executive summary; 2) output/audit.json — a machine-readable version with fields: page_audited (string), audit_date (YYYY-MM-DD), overall_score (integer), factors (array of 8 objects with exact factor names, score, rationale), quick_wins (array of 3 strings), strategic_fixes (array of 3 strings), executive_summary (string). Use conservative scoring where information is missing and clearly note assumptions in the rationales.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

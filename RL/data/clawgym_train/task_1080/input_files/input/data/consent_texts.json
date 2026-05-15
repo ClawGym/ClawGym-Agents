@@ -1,0 +1,6 @@
+{
+  "versions": [
+    {"id": "v1.0", "locale": "en", "text": "We will email you about career resources. You can unsubscribe at any time."},
+    {"id": "v1.1", "locale": "en", "text": "We will email you about career resources. Unsubscribe link in every message."}
+  ]
+}

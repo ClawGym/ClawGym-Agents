@@ -1,0 +1,6 @@
+weekly_slots:
+  - "Deep Dive"
+  - "Tooling Tip"
+rules:
+  avoid_repeating_primary_tag_within_weeks: 4
+  min_repurposed_items: 2

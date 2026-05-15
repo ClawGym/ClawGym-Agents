@@ -1,0 +1,15 @@
+{
+  "company_name": "NimbusFlow",
+  "industry": "B2B SaaS",
+  "growth_stage": "Series A",
+  "current_arr": 6800000,
+  "current_mrr": 566667,
+  "avg_sales_cycle_days": 75,
+  "net_revenue_retention": 1.08,
+  "monthly_expansion_rate": 0.03,
+  "monthly_gross_churn_rate": 0.025,
+  "seasonality_profile": "B2B SaaS",
+  "quarterly_new_arr_target": 1800000,
+  "billing_model": "SaaS-subscription",
+  "notes": "Assume Series A benchmarks. Seasonality coefficients per B2B SaaS profile. Quarterly new ARR target is used for pipeline coverage assessment."
+}

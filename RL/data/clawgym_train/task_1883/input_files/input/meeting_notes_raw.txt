@@ -1,0 +1,10 @@
+- attendees: me (PM), DevOps (Sam), App team rep (Jules), Security (Marta)
+- scope: pre-commit quick scan; collect fast wins, no big refactors
+- k8s: runAsUser=0, allowPrivilegeEscalation=true; no liveness/readiness; image: latest; hostNetwork true
+- app: flask DEBUG True, SECRET_KEY='dev', SESSION_COOKIE_SECURE false; CORS * with credentials
+- env: JWT_SECRET=changeme, LOG_LEVEL DEBUG in prod; ALLOWED_HOSTS *
+- s3: public-read + bucket policy allowing * to GetObject; versioning OFF
+- owners? DevOps for k8s & s3, App team for app/env, Security to advise
+- next sync: Tue; goal = agree on top 3 fixes to land by end of sprint
+- questions: can we enable encryption and block public access quickly? replace latest tag? turn on cookie secure? add probes?
+- risks: data exposure (public logs), RCE/debugger, lateral movement via hostNetwork

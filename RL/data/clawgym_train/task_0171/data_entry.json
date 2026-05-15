@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0171",
+  "user_query": "Please read input/log_index.csv and input/notes_instructions.txt. Using a 7-day retention policy, create a dry-run cleanup plan for log files with these rules: only consider rows where type == 'log' AND the filename ends with .log (case-insensitive); files with age_days > 7 are eligible for deletion; files with age_days <= 7 are kept; any filename that contains 'KEEP' must be kept regardless of age. Produce these outputs:\n\n1) Write output/cleanup_plan.json containing a JSON object with two arrays: to_delete and to_keep listing the filenames that meet the above criteria (use the basename strings from the CSV exactly). Sort both arrays alphabetically and do not include duplicates.\n\n2) Write output/cleanup_dryrun.txt listing one filename per line for every entry in to_delete.\n\n3) Write output/checksums.json with integer fields: total_logs (count of rows with type 'log' and a .log/.LOG filename), eligible_for_deletion (count of to_delete), kept_due_to_policy (count of files kept because their name contains 'KEEP').\n\n4) Append three timestamped note entries to output/memory/sprint-notes.md, each on its own line starting with [YYYY-MM-DD HH:MM:SS]: one line summarizing the workspace status (include 'total_logs=<N>'), one line summarizing the cleanup plan (include 'eligible_for_deletion=<X>', 'kept_due_to_policy=<Y>', 'total_logs=<N>'), and one line for 'Next steps:' that includes at least one actionable item from input/notes_instructions.txt.\n\nUse only relative paths under output/, and do not delete any files—this is a dry run.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

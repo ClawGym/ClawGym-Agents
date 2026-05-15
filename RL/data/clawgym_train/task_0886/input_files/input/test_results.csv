@@ -1,0 +1,13 @@
+part_number,test_type,device_hours,failures_observed,cycles,ambient_C_high,ambient_C_low
+TPS7A4700,temp_cycle,200000000,8,500,85,-40
+LT1763,burn_in,150000000,3,0,55,25
+MIC29302,burn_in,50000000,1,0,55,25
+AP7333,temp_cycle,50000000,4,300,85,-20
+TPS62130,burn_in,100000000,2,0,55,25
+MP1584,temp_cycle,80000000,6,400,85,-40
+LM2596,burn_in,40000000,6,0,55,25
+SIT8008,burn_in,120000000,1,0,55,25
+ASV-16.000MHZ,burn_in,50000000,0,0,55,25
+KC7050,burn_in,60000000,0,0,55,25
+IRLZ44N,burn_in,90000000,2,0,55,25
+AO3400,burn_in,100000000,10,0,55,25

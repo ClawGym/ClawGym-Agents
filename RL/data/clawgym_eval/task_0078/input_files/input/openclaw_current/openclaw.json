@@ -1,0 +1,38 @@
+{
+  "version": "2026.3.8",
+  "gateway": {
+    "bind": "loopback",
+    "auth": {
+      "mode": "token"
+    },
+    "controlUi": {
+      "allowedOrigins": [
+        "http://localhost"
+      ]
+    }
+  },
+  "tools": {
+    "profile": "messaging",
+    "fs": {
+      "workspaceOnly": true
+    },
+    "exec": {
+      "security": "ask"
+    }
+  },
+  "agents": {
+    "default": "bot",
+    "list": [
+      {
+        "id": "bot",
+        "name": "Feishu Helper",
+        "tools": {
+          "profile": "messaging"
+        }
+      }
+    ]
+  },
+  "logging": {
+    "redactSensitive": true
+  }
+}

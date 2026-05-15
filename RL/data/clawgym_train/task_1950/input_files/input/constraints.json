@@ -1,0 +1,31 @@
+{
+  "content_guidelines": "All-ages friendly, uplifting, and inclusive. Avoid any violent or graphic content and do not use strong profanity.",
+  "banned_words": [
+    "blood",
+    "murder",
+    "kill",
+    "suicide",
+    "weapon",
+    "gun",
+    "knife",
+    "war",
+    "violence",
+    "explosion",
+    "gore",
+    "assault",
+    "bomb"
+  ],
+  "style_rules": [
+    "Write in English only.",
+    "Keep tone warm, grounded, and hopeful.",
+    "No strong profanity; avoid crude expressions.",
+    "Use concrete sensory details without graphic descriptions.",
+    "Maintain continuity of characters, scenes, and hooks."
+  ],
+  "structural_rules": [
+    "Each episode must include a markdown table with a header that contains the word 'Scene' and uses pipe characters.",
+    "Include sections: '### Plot Summary', '### Complete Content', '### Character Updates', '### Hook Handling', and '### Emotional Curve'.",
+    "Track hooks by ID starting from H-001; list closed and new hooks per episode.",
+    "Resolve at least one hook by the final episode and leave at most three hooks open at the end."
+  ]
+}

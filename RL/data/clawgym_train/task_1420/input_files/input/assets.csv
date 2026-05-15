@@ -1,0 +1,11 @@
+asset_id,asset_name,type,environment,data_classification,criticality,owner
+A1,eks-prod,Kubernetes Cluster,production,IP/PII,5,Platform Engineering
+A2,rds-prod-app,PostgreSQL RDS,production,PII,5,Data Engineering
+A3,s3-prod-user-uploads,S3 Bucket,production,PII/Public,4,Platform Engineering
+A4,elasticache-prod-redis,Redis Cache,production,Session/PII fragments,4,Platform Engineering
+A5,api.nimbusledger.com,API Gateway/Ingress,production,PII,5,Platform Engineering
+A6,cloudflare,WAF/CDN,edge,Traffic/PII transit,4,Security
+A7,github-actions,CI/CD,corporate,Code/Secrets,4,DevOps
+A8,sentry-prod,Monitoring,production,Logs/Error data,3,Engineering
+A9,datadog-prod,Monitoring,production,Metrics/Logs,3,Engineering
+A10,admin.nimbusledger.com,Web App (Admin Portal),production,PII,4,Product

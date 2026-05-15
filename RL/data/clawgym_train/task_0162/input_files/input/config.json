@@ -1,0 +1,8 @@
+{
+  "human_name": "Sample Person",
+  "thresholds": {
+    "temperature_high_f": 100.4,
+    "heart_rate_high": 120
+  },
+  "baseline_period_days": 14
+}

@@ -1,0 +1,10 @@
+output_base_dir: outputs
+tone: "warm, respectful, and concise"
+max_words: 120
+schedule_time: "06:30"
+checklist:
+  - Pack lunches
+  - Water bottles
+  - Homework folders
+  - Appointment card for Emma
+summary_sections: ["date", "checklist", "schedule", "conflicts"]

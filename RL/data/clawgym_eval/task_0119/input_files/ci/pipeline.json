@@ -1,0 +1,8 @@
+{
+  "name": "local-ci",
+  "steps": [
+    {"name": "setup", "run": "python --version"},
+    {"name": "test", "run": "python -m unittest -q"},
+    {"name": "package", "run": "python analysis/metrics.py --input data/observations.csv --output artifact/metrics.json"}
+  ]
+}

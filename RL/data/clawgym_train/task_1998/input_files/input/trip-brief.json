@@ -1,0 +1,49 @@
+{
+  "traveler_type": "Foodie couple",
+  "dates": {
+    "season": "mid-September",
+    "nights": 5
+  },
+  "split": {
+    "Lisbon": 3,
+    "Porto": 2
+  },
+  "arrival_city": "Lisbon",
+  "departure_city": "Porto",
+  "style": {
+    "budget_per_person_dinner": "€30–€50 typical; one splurge up to €90",
+    "lunch_range_for_two": "€25–€40",
+    "wine_focus": ["Douro reds", "Vinho Verde", "port tasting"],
+    "food_focus": ["seafood", "petiscos", "porco preto", "traditional tascas"],
+    "coffee_pastry": true
+  },
+  "constraints": {
+    "no_car": true,
+    "transport": ["walk", "metro", "Uber/Bolt", "train Lisbon→Porto"],
+    "queue_aversion": true,
+    "prefer_reservations": true,
+    "avoid_tourist_traps": [
+      "Pastéis de Belém queue",
+      "Tram 28 crowd",
+      "Praça do Comércio waterfront restaurants",
+      "Rua Augusta overpriced seafood",
+      "Ribeira waterfront tourist pricing"
+    ],
+    "meal_times": {
+      "lunch": "12:30–15:00",
+      "dinner": "20:00–22:00",
+      "fado": "starts 21:30–22:00 (late)"
+    }
+  },
+  "preferences": {
+    "day_trip": "Open to Sintra from Lisbon or Douro Valley from Porto depending on weather",
+    "fado_night": "Yes — small, authentic house in Alfama or Mouraria (no dinner show)",
+    "neighborhoods_lisbon": ["Chiado", "Príncipe Real", "Santos"],
+    "neighborhoods_porto": ["Baixa/Aliados", "Cedofeita/Bonfim"],
+    "tourist_trap_warnings": true
+  },
+  "plan_hint": {
+    "sequence": "3 nights Lisbon (Days 1–3), train to Porto on Day 4 morning, 2 nights Porto (Days 4–5)",
+    "notes": "Skip long-queue attractions; book key restaurants; mix traditional tascas with modern Portuguese."
+  }
+}

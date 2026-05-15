@@ -1,0 +1,57 @@
+project:
+  name: GreenRoof Analytics
+  acronym: GRA
+
+budget:
+  total_usd: 100000
+  breakdown:
+    engineering: 55000
+    data_acquisition_and_storage: 10000
+    design_and_user_research: 10000
+    cloud_infrastructure: 10000
+    legal_and_compliance: 5000
+    contingency: 10000
+
+timeline:
+  mvp_weeks: 12
+  pilot_window_weeks: 4
+  pilot_cities_target: 3
+  milestones:
+    - week_2: "Policy specs locked for first 2 pilot cities; data sources identified"
+    - week_4: "Data ingestion and parcel lookup working for 2 cities"
+    - week_8: "Stormwater credit + ROI calculator alpha; accuracy tests begin"
+    - week_10: "Submission/export artifacts for at least 1 city"
+    - week_12: "MVP release; pilot onboarding and case study drafting"
+
+constraints:
+  technical:
+    - "Prefer open/public data sources; avoid paid APIs in MVP"
+    - "Keep computation local/server-side; no reliance on vendor SDKs"
+    - "Stack favors Python and simple web frameworks"
+    - "Search and research must work without API keys (use local HTML search if needed)"
+  compliance:
+    - "Respect robots.txt and site terms; throttle scraping where applicable"
+    - "Cite authoritative sources in user-facing outputs; prefer .gov and .edu"
+    - "Do not collect or process PII; only parcel/building-level public data"
+    - "Follow city branding and use-of-name guidelines in case studies"
+    - "Maintain transparent assumptions and audit trails for estimates"
+  procurement:
+    - "Anticipate public-sector procurement cycles; prepare sole-source or pilot MOUs"
+    - "Offer month-to-month pilot contracts for early adopters"
+
+security:
+  data:
+    - "No uploading proprietary customer files to third-party tools without approval"
+    - "Encrypt data at rest and in transit; least-privilege access"
+  network:
+    - "Outbound HTTPS-only for data fetch; no inbound ports exposed on MVP"
+    - "Minimal logging with sensitive fields redacted"
+
+success_criteria:
+  - "10 paying pilot customers by week 16"
+  - "≤ 10% median absolute error on stormwater fee savings vs. verified bills/awards"
+  - "2 validated program submissions assisted by the platform during pilot"
+
+assumptions:
+  - "Owners and designers will pay to unlock fee savings and streamline compliance"
+  - "City programs value transparent, auditable analytics to scale green roof adoption"

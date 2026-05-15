@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1765",
+  "user_query": "Please write a 1,000–1,400 word executive-style problem–solution article on the topic: \"Reducing incident response time in mid-sized SaaS companies with structured runbooks and AI-assisted alert triage.\" Read the research notes in input/research.jsonl and the audience brief in input/brief.md. Use Markdown with these exact section headings in this exact order: ## Problem, ## Root Cause Analysis, ## Solution, ## Evidence of Effectiveness, ## Implementation Guidance, ## Conclusion. Include a clear thesis statement within the first two paragraphs, prefixed with \"Thesis:\". Integrate at least three evidence types: (1) at least one quantitative statistic expressed as a percentage (e.g., \"40%\"), (2) at least one expert quote pulled from the research notes, and (3) at least one logical analogy. When citing any item from the research notes, use an inline citation tag in the form [cite:ID] where ID is the item's id from input/research.jsonl. Include one paragraph that begins with \"Analogy:\" to present your analogy. Maintain a consistent, authoritative tone suitable for executives. Write the article to output/article.md. Additionally, create output/metadata.json containing: thesis (string), keywords (array of 5–10 important terms), citations (array of objects with keys id and type corresponding to the [cite:ID] tags used), and word_count (integer).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "title": "Prepare Q4 Budget Review",
+    "changes": {
+      "status": "done"
+    }
+  },
+  {
+    "title": "Harpinder Singh / qordinate.ai intro deck",
+    "changes": {
+      "notes": "Draft created; awaiting review.",
+      "status": "in progress"
+    }
+  },
+  {
+    "title": "Schedule team offsite",
+    "changes": {
+      "due": "2026-07-10",
+      "notes": "Venue booked; send invites."
+    }
+  },
+  {
+    "title": "Research competitor pricing",
+    "changes": {
+      "status": "blocked"
+    }
+  }
+]

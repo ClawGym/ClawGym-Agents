@@ -1,0 +1,19 @@
+tolerances:
+  percent_points:
+    youth_turnout: 3
+    emissions_change: 2
+    teen_smoking_rate: 1
+  absolute:
+    apprenticeship_starts: 300
+year_reference:
+  youth_turnout: 2020
+  emissions_change: 2023
+  apprenticeship_starts: 2022
+  teen_smoking_rate: 2023
+difference_method:
+  percent_units: "absolute percentage points"
+  count_units: "absolute count difference"
+status_logic:
+  accurate: "difference <= tolerance AND units match"
+  inaccurate: "difference > tolerance AND units match"
+  unclear: "no official match for metric+area+year OR units mismatch"

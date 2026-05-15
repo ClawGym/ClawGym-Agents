@@ -1,0 +1,25 @@
+{
+  "focus_topics": [
+    "Osteopathic Manipulative Treatment (OMT)",
+    "Myofascial Release",
+    "Muscle Energy Technique"
+  ],
+  "supporting_topics_allowed_fraction": 0.25,
+  "supporting_topics": [
+    "Trigger Point Therapy",
+    "PNF Stretching"
+  ],
+  "excluded_topics": [
+    "Sports Massage"
+  ],
+  "prioritized_goals": [
+    "Increase awareness of osteopathic techniques for muscle recovery",
+    "Drive initial consultation bookings"
+  ],
+  "cta_options": {
+    "Instagram": ["Book an assessment", "Save this for later"],
+    "YouTube": ["Watch the full session", "Subscribe for recovery tips"],
+    "Blog": ["Read the full guide", "Download recovery checklist"],
+    "Newsletter": ["Book an assessment", "Reply with questions"]
+  }
+}

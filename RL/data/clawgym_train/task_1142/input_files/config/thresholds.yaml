@@ -1,0 +1,5 @@
+units: ug/L
+thresholds:
+  lead: 15.0
+  mercury: 2.0
+  cadmium: 5.0

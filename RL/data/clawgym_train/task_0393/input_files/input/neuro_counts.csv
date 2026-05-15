@@ -1,0 +1,13 @@
+species,brain_region,neuron_count,study_id
+Danio rerio,optic_tectum,1200000,S1
+Danio rerio,optic_tectum,1100000,S2
+Danio rerio,cerebellum,450000,S1
+Oncorhynchus mykiss,optic_tectum,2500000,S3
+Oncorhynchus mykiss,cerebellum,800000,S3
+Gadus morhua,optic_tectum,2200000,S4
+Gadus morhua,cerebellum,750000,S4
+Takifugu rubripes,optic_tectum,900000,S5
+Tetraodon nigroviridis,optic_tectum,700000,S2
+Amphiprion ocellaris,optic_tectum,1300000,S6
+Amphiprion ocellaris,cerebellum,500000,S6
+Tetraodon nigroviridis,cerebellum,300000,S2

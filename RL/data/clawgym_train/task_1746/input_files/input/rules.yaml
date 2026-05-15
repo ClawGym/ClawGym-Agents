@@ -1,0 +1,13 @@
+audiences:
+  clinic_patient:
+    max_words: 55
+    reading_ease_min: 60
+    required_phrases:
+      - "Call 555-0142"
+      - "Clinic hours: 9am–5pm"
+  academic:
+    max_words: 120
+    reading_ease_min: 50
+    required_phrases:
+      - "Participation is voluntary"
+      - "IRB approval #2023-17"

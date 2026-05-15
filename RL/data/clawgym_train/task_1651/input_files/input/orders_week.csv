@@ -1,0 +1,19 @@
+order_id,timestamp,item,size,quantity
+1,2026-04-12 07:45,Filibuster Flat White,12oz,2
+2,2026-04-12 08:10,House Drip,16oz,3
+3,2026-04-12 08:15,Electoral Espresso,2oz,4
+4,2026-04-12 09:00,Bipartisan Cold Brew,16oz,1
+5,2026-04-12 09:30,Latte,12oz,2
+6,2026-04-12 10:00,Gerrymander Macchiato,3oz,1
+7,2026-04-13 07:40,Filibuster Flat White,12oz,1
+8,2026-04-13 08:05,House Drip,12oz,2
+9,2026-04-13 08:20,Bipartisan Cold Brew,16oz,3
+10,2026-04-13 09:50,Electoral Espresso,2oz,5
+11,2026-04-13 11:00,Latte,16oz,1
+12,2026-04-13 13:15,Mocha,12oz,2
+13,2026-04-14 07:35,House Drip,16oz,4
+14,2026-04-14 08:45,Filibuster Flat White,12oz,3
+15,2026-04-14 09:10,Gerrymander Macchiato,3oz,2
+16,2026-04-14 09:30,Bipartisan Cold Brew,16oz,2
+17,2026-04-14 10:00,Electoral Espresso,2oz,3
+18,2026-04-14 10:15,Mocha,12oz,1

@@ -1,0 +1,239 @@
+{
+  "environment": {
+    "os": "Ubuntu 20.04.6 LTS",
+    "kernel": "5.4.0-148-generic",
+    "arch": "x86_64",
+    "nproc": 2,
+    "uptime_seconds": 86400,
+    "hostname": "web-frontend-01",
+    "containerized": false
+  },
+  "memory": {
+    "meminfo": {
+      "MemTotal_kB": 1536000,
+      "MemFree_kB": 22000,
+      "MemAvailable_kB": 40000,
+      "Buffers_kB": 8000,
+      "Cached_kB": 64000,
+      "SwapTotal_kB": 262144,
+      "SwapFree_kB": 10240
+    },
+    "dmesg_contains_oom_killer": false
+  },
+  "cpu": {
+    "proc_stat": {
+      "user": 123456,
+      "nice": 1200,
+      "system": 234567,
+      "idle": 2000,
+      "iowait": 15000,
+      "irq": 300,
+      "softirq": 500,
+      "steal": 0,
+      "guest": 0,
+      "guest_nice": 0
+    },
+    "cpu_idle_percent": 5.0,
+    "iowait_percent": 35.0,
+    "loadavg": {
+      "1min": 5.20,
+      "5min": 4.81,
+      "15min": 4.21
+    }
+  },
+  "disk": {
+    "filesystems": [
+      {
+        "mount": "/",
+        "device": "/dev/sda1",
+        "fs": "ext4",
+        "size_kB": 104857600,
+        "used_kB": 103809024,
+        "avail_kB": 1048576,
+        "use_percent": 99,
+        "inodes_total": 262144,
+        "inodes_used": 210000,
+        "mount_opts": "ro,relatime,errors=remount-ro"
+      },
+      {
+        "mount": "/mnt/data",
+        "device": "/dev/sdb1",
+        "fs": "xfs",
+        "size_kB": 52428800,
+        "used_kB": 49807360,
+        "avail_kB": 2621440,
+        "use_percent": 95,
+        "inodes_total": 1048576,
+        "inodes_used": 950000,
+        "mount_opts": "ro,relatime"
+      }
+    ],
+    "inotify": {
+      "max_user_watches": 32768,
+      "max_user_instances": 128
+    }
+  },
+  "limits": {
+    "ulimit_nofile": 1024,
+    "fs_file_nr": {
+      "allocated": 500000,
+      "unused": 100000,
+      "max": 600000
+    },
+    "fs_nr_open": 1048576,
+    "limits_conf_nofile": {
+      "soft": 65536,
+      "hard": 65536
+    }
+  },
+  "kernel": {
+    "sysctl": {
+      "net.netfilter.nf_conntrack_max": 32768,
+      "net.core.somaxconn": 128,
+      "net.ipv4.tcp_max_tw_buckets": 8192,
+      "net.ipv4.tcp_tw_reuse": 0,
+      "vm.overcommit_memory": 2,
+      "net.ipv4.ip_local_port_range": "32768 60999"
+    },
+    "dmesg": [
+      "[12345.678901] nf_conntrack: table full, dropping packet",
+      "[12345.679012] EXT4-fs error (device sda1): ext4_journal_check_start:56: Detected aborted journal",
+      "[12345.679456] Remounting filesystem read-only"
+    ],
+    "thp": {
+      "enabled": "[always] madvise never",
+      "defrag": "[always] madvise never"
+    },
+    "ss_summary": {
+      "time_wait": 12000,
+      "established": 6000,
+      "close_wait": 800,
+      "total": 14000
+    },
+    "proc_net_netstat": {
+      "TcpExt": {
+        "ListenOverflows": 2
+      }
+    }
+  },
+  "network": {
+    "resolv_conf": {
+      "nameservers": [],
+      "search": "",
+      "options": ""
+    },
+    "dns_tests": {
+      "nslookup_github.com": "fail",
+      "dig_github.com": "fail",
+      "getent_hosts_github.com": "fail",
+      "nameserver_tcp53_reachability": {
+        "8.8.8.8": "fail",
+        "1.1.1.1": "fail"
+      }
+    },
+    "ipv6_enabled": true,
+    "services_bind_all": true,
+    "firewall": {
+      "iptables": {
+        "input_drop_rules": true,
+        "output_drop_rules": true
+      },
+      "ufw": {
+        "enabled": true,
+        "default_incoming": "deny",
+        "default_outgoing": "allow"
+      }
+    }
+  },
+  "time": {
+    "timedatectl": {
+      "ntp_service": "inactive",
+      "ntp_synchronized": "no",
+      "local_time": "2026-04-19 12:00:00",
+      "rtc_time": "2026-04-19 11:59:52",
+      "time_zone": "UTC"
+    },
+    "services": {
+      "chronyd": "inactive",
+      "ntpd": "inactive",
+      "systemd_timesyncd": "inactive"
+    },
+    "chronyc_tracking": {
+      "offset_ms": 4500
+    }
+  },
+  "processes": {
+    "zombie_count": 2,
+    "d_state_count": 3,
+    "total_processes": 60000,
+    "pid_max": 65536,
+    "top_dstate_procs": [
+      {
+        "pid": 2142,
+        "comm": "rsync",
+        "state": "D",
+        "wchan": "do_sys_open"
+      },
+      {
+        "pid": 3198,
+        "comm": "journalctl",
+        "state": "D",
+        "wchan": "sync_filesystem"
+      },
+      {
+        "pid": 4056,
+        "comm": "nginx",
+        "state": "D",
+        "wchan": "xfs_file_buffered_write"
+      }
+    ]
+  },
+  "logs": {
+    "journal_disk_usage_bytes": 3000000000,
+    "var_log_total_bytes": 7000000000,
+    "largest_logs": [
+      {
+        "path": "/var/log/syslog.1",
+        "size_bytes": 850000000
+      },
+      {
+        "path": "/var/log/nginx/access.log",
+        "size_bytes": 1200000000
+      }
+    ]
+  },
+  "filesystem": {
+    "write_test_tmp": {
+      "path": "/tmp/.oc_write_test",
+      "success": false,
+      "error": "Read-only file system"
+    },
+    "dmesg_errors": [
+      "EXT4-fs error (device sda1): ext4_journal_check_start:56: Detected aborted journal",
+      "Remounting filesystem read-only"
+    ]
+  },
+  "browser": {
+    "headless_test": "fail",
+    "ldconfig_missing_libs": [
+      "libnss3",
+      "libgbm"
+    ],
+    "ldd_not_found": [
+      "libxkbcommon.so.0"
+    ],
+    "userns_clone": 0
+  },
+  "locale": {
+    "persistent_lang": "",
+    "locale_a": [
+      "C",
+      "POSIX",
+      "en_US.UTF-8"
+    ],
+    "default_locale_files": {
+      "/etc/default/locale": "",
+      "/etc/locale.conf": ""
+    }
+  }
+}

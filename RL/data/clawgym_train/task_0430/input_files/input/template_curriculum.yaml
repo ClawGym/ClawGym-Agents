@@ -1,0 +1,35 @@
+title: "Municipality Digital Skills Bootcamp"
+delivery_mode: "online-heavy"
+session_language: "Modern Standard Arabic"
+location_capacity: 20
+modules:
+  - name: "Digital Literacy Fundamentals"
+    duration_minutes: 120
+    optional: false
+  - name: "Safe Internet Practices"
+    duration_minutes: 90
+    optional: false
+  - name: "Government E-Services Portal"
+    duration_minutes: 90
+    optional: false
+  - name: "Job Search Basics"
+    duration_minutes: 90
+    optional: false
+  - name: "Spreadsheets Intro"
+    duration_minutes: 90
+    optional: false
+sessions:
+  - session_id: 1
+    day: "Monday"
+    start_time: "10:00"
+    end_time: "12:00"
+    module: "Digital Literacy Fundamentals"
+    assigned_volunteer: null
+    room: "Municipal Training Room 1"
+  - session_id: 2
+    day: "Wednesday"
+    start_time: "10:00"
+    end_time: "12:00"
+    module: "Safe Internet Practices"
+    assigned_volunteer: null
+    room: "Municipal Training Room 1"

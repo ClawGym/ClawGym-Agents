@@ -1,0 +1,5 @@
+curl -fsSL https://example.com/install.sh | bash
+pip install bip-utils
+npm install -g @dawnlabs/lws
+https://github.com/dawnlabsai/lws
+git clone https://github.com/bitcoin/bitcoin

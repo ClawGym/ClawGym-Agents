@@ -1,0 +1,12 @@
+groups:
+  science:
+    merchants:
+      - StringTheoryBooks
+      - ScienceMag
+      - PhysicsWorld
+    categories:
+      - Books
+      - Subscriptions
+  other:
+    merchants: []
+    categories: []

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1161",
+  "user_query": "I saved two historical makeup tutorials and a rough outreach message. Please help me turn them into a concise guide and polished messages.\n\nDeliverables and constraints:\n1) Extract structured technique data from input/articles/1930s_hollywood.html and input/articles/victorian_stage.md into output/techniques.json. The JSON must be an array of objects, each with these fields: source_file (string), era (string), technique_name (string), materials (array of strings), steps (array of strings), cautions (array of strings; empty if none). Base the extraction only on the provided files—do not invent facts.\n2) Using output/techniques.json as the sole source, write output/guide.md. Include: a short intro (≤120 words) tailored to a history-loving cosplayer; then, for each technique, a section titled \"Era — Technique Name\" with subsections Quick Steps, Materials, and Cautions derived from the extracted fields (you may lightly rewrite for clarity but stay faithful to the content). End with a Sources section listing the source_file names.\n3) Rewrite input/messages/outreach_draft.txt into a clear, polite, and concise email (≤180 words) saved to output/email_to_historian.txt. Improve tone and brevity while preserving intent. Include one sentence that references the techniques by era and name exactly as they appear in output/techniques.json.\n4) Draft a short forum DM (≤120 words) saved to output/forum_dm.txt asking for practical tips on achieving the 1930s look, grounded only in materials/steps from output/techniques.json.\n\nProduce only these four files under output/. No external web use and no added facts beyond the inputs. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

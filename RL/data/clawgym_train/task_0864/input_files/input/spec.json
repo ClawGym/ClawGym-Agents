@@ -1,0 +1,14 @@
+{
+  "service_name": "inventory-gateway",
+  "description": "Production-patterned Rust async web service skeleton for an inventory domain. Demonstrates Clap CLI, Tokio runtime, Axum router, structured errors, and graceful shutdown.",
+  "cli": {
+    "commands": ["Serve", "Check"],
+    "flags": {
+      "host": "0.0.0.0",
+      "port": 8080,
+      "log_level": "info"
+    }
+  },
+  "author": "Example Org",
+  "version": "0.1.0"
+}

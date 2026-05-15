@@ -1,0 +1,13 @@
+neighbors:
+  - Afghanistan
+  - Bangladesh
+  - Bhutan
+  - China
+  - Myanmar
+  - Nepal
+  - Pakistan
+  - Sri Lanka
+aliases:
+  PRC: China
+  People's Republic of China: China
+  Lanka: Sri Lanka

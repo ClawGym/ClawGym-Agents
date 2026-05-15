@@ -1,0 +1,108 @@
+{
+  "trip_name": "Family Summer Rail Austria – Vienna to Munich",
+  "dates": {
+    "start": "2026-07-12",
+    "end": "2026-07-21"
+  },
+  "arrival": {
+    "city": "Vienna",
+    "airport": "VIE",
+    "date": "2026-07-12",
+    "time_local": "09:20",
+    "flight": {
+      "airline": "Austrian Airlines",
+      "number": "OS 088",
+      "origin": "JFK",
+      "overnight": true
+    }
+  },
+  "departure": {
+    "city": "Munich",
+    "airport": "MUC",
+    "date": "2026-07-21",
+    "time_local": "13:10",
+    "flight": {
+      "airline": "Lufthansa",
+      "number": "LH 410",
+      "destination": "JFK",
+      "overnight": false
+    }
+  },
+  "travelers": [
+    {
+      "name": "Alex Morgan",
+      "age": 39,
+      "passport_country": "USA",
+      "passport_expires": "2032-11-15",
+      "mobility": "normal"
+    },
+    {
+      "name": "Jamie Morgan",
+      "age": 38,
+      "passport_country": "Canada",
+      "passport_expires": "2031-05-02",
+      "mobility": "normal"
+    },
+    {
+      "name": "Leo Morgan",
+      "age": 7,
+      "passport_country": "USA",
+      "passport_expires": "2031-09-30",
+      "mobility": "normal"
+    },
+    {
+      "name": "Pat Morgan",
+      "age": 68,
+      "passport_country": "USA",
+      "passport_expires": "2029-03-28",
+      "mobility": "low — can walk ~10 minutes on flat ground; avoids long staircases and steep climbs"
+    }
+  ],
+  "lodging_preferences": {
+    "budget_band": "mid-range",
+    "target_per_night_eur": 250,
+    "room_type": "family apartment or two rooms in the same property",
+    "elevator_required": true,
+    "quiet_rooms": true,
+    "air_conditioning": true,
+    "near_station_walk_minutes": 10
+  },
+  "route_preferences": {
+    "corridor": "Vienna → Salzburg → Innsbruck/Tyrol",
+    "max_bases": 3,
+    "rail_first": true,
+    "avoid_car_in_city_cores": true,
+    "ok_one_day_car_for_lakes": true,
+    "require_last_night_buffer_in_munich": true
+  },
+  "activity_preferences": {
+    "want_wachau_day": true,
+    "prefer_lake_day_without_hallstatt": true,
+    "lakes_candidates": [
+      "Fuschlsee",
+      "St. Gilgen/Wolfgangsee",
+      "Mondsee"
+    ],
+    "innsbruck_lift_day_low_mobility": true,
+    "start_times": "not before 08:00 when possible",
+    "midday_break": true,
+    "museum_vs_outdoors": "balanced"
+  },
+  "food_preferences": {
+    "breakfast": "hotel or bakery",
+    "lunch": "casual, flexible",
+    "dinner": "early, family-friendly",
+    "coffeehouses": true,
+    "avoid_overly_touristy": true
+  },
+  "tickets_and_seats": {
+    "reserve_rail_seats": true,
+    "prefer_morning_trains": true,
+    "avoid_tight_connections": true
+  },
+  "cash_and_payment": {
+    "cards_primary": true,
+    "carry_cash_small": true
+  },
+  "notes": "We will check baggage. We value fewer hotel changes (max 3 bases). We would like one relaxed Wachau day near Vienna, one lake day without Hallstatt crowds (okay with Fuschlsee/Mondsee/Wolfgangsee), and an easy lift-accessed Innsbruck-area viewpoint with low-mobility options. Please avoid car use in Vienna and central Salzburg; a one-day rental for lakes is acceptable if it truly simplifies the day. Arrival is Sunday morning (closures awareness). Please reserve seats on Railjet/EC trains and avoid late arrivals after 20:00 due to our 7-year-old's bedtime."
+}

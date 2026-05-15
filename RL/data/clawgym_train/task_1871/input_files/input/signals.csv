@@ -1,0 +1,6 @@
+task_id,what,frequency,time_cost,skill_required,risk
+report/analytics_daily,Generate daily analytics report and post summary,3,3,2,2
+deploy/staging,Deploy application to staging environment,3,2,2,3
+status_email/client_weekly,Send a weekly status email to the client with updates,3,2,3,2
+expenses/under50,Approve expense reports under $50,2,3,3,3
+calendar/scheduling,Schedule meetings on the calendar and send invites,2,2,2,3

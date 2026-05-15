@@ -1,0 +1,7 @@
+{
+  "terms": ["spirituals"],
+  "include_fields": ["text"],
+  "start_year": 1800,
+  "end_year": 1950,
+  "case_sensitive": false
+}

@@ -1,0 +1,58 @@
+# Budget and Cost Preferences for Compliance Policy Summarization Assistant
+
+# Any subagent with expected cost above this threshold requires explicit approval.
+approval_threshold_usd: 0.50
+
+# Total expected spend per full run (single policy document) should not exceed this value.
+total_cap_usd: 3.20
+
+# Pattern-specific preferences and caps.
+patterns:
+  security_proxy:
+    # Per-spawn maximum cost for the untrusted PDF parsing proxy (must not be exceeded).
+    max_per_spawn_usd: 0.08
+    preferred_model: haiku
+    notes:
+      - "Pass only minimal context: PDF bytes or chunked text + extraction instructions + output schema."
+      - "Whitelist-only tool policy: PDF-to-text extraction utility; no shell access beyond allowed binary."
+      - "Sanitize outputs and validate against schema before returning."
+  researcher:
+    target_expected_usd_per_agent: 0.35
+    preferred_model: sonnet
+    min_independent_sources: 3
+    notes:
+      - "Use three lenses: optimist, pessimist, pragmatist."
+      - "Cite page numbers/sections; score credibility of references."
+      - "Synthesize with contradictions explicitly resolved."
+  architect:
+    target_expected_usd: 0.60
+    preferred_model: sonnet
+  coder:
+    target_expected_usd: 0.90
+    preferred_model: sonnet
+  reviewer:
+    target_expected_usd: 0.40
+    preferred_model: sonnet
+
+# Default model fallbacks per role (if preferred model unavailable).
+defaults:
+  low_cost: haiku
+  general_purpose: sonnet
+
+# Tier classification rules (for reference; planners must adhere).
+tiers:
+  micro: "< 0.10"
+  small: "0.10–0.50"
+  medium: "0.50–2.00"
+  large: "> 2.00"
+
+# Enforcement policy for approvals.
+gating_rules:
+  - "If any per-agent expected cost > approval_threshold_usd, require approval before spawning."
+  - "Security proxy must enforce max_per_spawn_usd and abort if an estimate exceeds it."
+  - "If aggregated expected total exceeds total_cap_usd, require human approval and deferral to next cycle."
+
+notes:
+  - "Prefer smaller models for extraction proxy to reduce costs."
+  - "Parallelize only when it reduces total latency without increasing total cost materially."
+  - "No external services by default; research is intra-document and internal references only."

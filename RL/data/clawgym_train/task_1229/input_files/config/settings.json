@@ -1,0 +1,6 @@
+{
+  "practice_minutes": 40,
+  "per_session_minutes": 10,
+  "duration_column": "length_seconds",
+  "track_name_column": "track_name"
+}

@@ -1,0 +1,16 @@
+watch:
+  mode: "poll"
+  interval_seconds: 30
+  watch_file: "input/NEW_EVENTS.jsonl"
+routing:
+  match_prefecture: true
+outputs:
+  base_dir: "outputs"
+messages:
+  max_words: 150
+  tone: "formal"
+state:
+  processed_ids_file: "outputs/state/processed_event_ids.json"
+reports:
+  summary_csv: "outputs/events_summary.csv"
+  meeting_notes_md: "outputs/meeting_notes/notes.md"

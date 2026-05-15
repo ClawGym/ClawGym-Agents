@@ -1,0 +1,23 @@
+# Tournament configuration for a small chess matchmaking experiment
+
+tournament_name: "Quick Chess Experiment"
+agent_name: "rook-runner-42"
+
+# Number of chess matches to play
+matches: 2
+
+# Exact output paths to write after the experiment
+outputs:
+  matches_json: "output/matches.json"
+  summary_csv: "output/summary.csv"
+  strategy_notes: "output/strategy_notes.md"
+
+# Optional runtime hints (safe defaults if unused by runner)
+settings:
+  game_type: "chess"
+  matchmaking_retry_limit: 5
+  matchmaking_poll_seconds: 3
+  turn_poll_seconds: 2
+  max_total_wait_seconds_per_match: 120
+
+notes: "Play legally using UCI (e.g., e2e4), respect turn order, and complete exactly the specified number of matches."

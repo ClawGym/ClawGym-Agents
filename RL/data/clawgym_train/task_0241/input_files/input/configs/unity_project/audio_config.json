@@ -1,0 +1,9 @@
+{
+  "sample_rate": 44100,
+  "bit_depth": 24,
+  "hrtf_profile": null,
+  "spatializer_plugin": "AuralX",
+  "spatializer_version": "2.2.1",
+  "enabled_features": ["dynamic_occlusion", "head_tracking"],
+  "latency_mode": "standard"
+}

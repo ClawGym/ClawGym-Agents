@@ -1,0 +1,18 @@
+{
+  "plans": [
+    {
+      "id": "pro_monthly",
+      "name": "Pro Plan Monthly",
+      "currency": "eur",
+      "amount_cents": 9900,
+      "term_months": 1
+    },
+    {
+      "id": "pro_annual",
+      "name": "Pro Plan Annual",
+      "currency": "eur",
+      "amount_cents": 118800,
+      "term_months": 12
+    }
+  ]
+}

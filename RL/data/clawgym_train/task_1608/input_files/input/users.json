@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-03-12T10:15:00Z",
+  "users": [
+    {
+      "id": "u-001",
+      "name": "Ava Li",
+      "role": "engineer",
+      "team": "core",
+      "interests": "json optimization, indexing, benchmarks",
+      "notes": "focus on security and instruction scope; avoid sensitive directories during tests",
+      "active": true
+    },
+    {
+      "id": "u-002",
+      "name": "Noah Patel",
+      "role": "security analyst",
+      "team": "review",
+      "interests": "threat modeling, audit, security",
+      "notes": "verify zero network calls; test compaction and indexing on trusted paths only",
+      "active": true
+    },
+    {
+      "id": "u-003",
+      "name": "Mia Santos",
+      "role": "product manager",
+      "team": "platform",
+      "interests": "performance optimization, user experience",
+      "notes": "track byte-size reduction after compaction and confirm indexing speedup",
+      "active": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+driver: "Maxine Torque"
+track: "Willow Springs International Raceway"
+track_length_km: 4.023
+server_port: 8765
+server_root: "output/dashboard"
+consistency_threshold_pct: 5

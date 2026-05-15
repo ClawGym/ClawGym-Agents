@@ -1,0 +1,10 @@
+{
+  "files": [
+    {"path": "src/security/validator.py", "cyclomatic_complexity": 34, "maintainability_index": 50, "lines_of_code": 350},
+    {"path": "src/api/handlers.py", "cyclomatic_complexity": 31, "maintainability_index": 62, "lines_of_code": 580},
+    {"path": "src/db/connector.py", "cyclomatic_complexity": 28, "maintainability_index": 55, "lines_of_code": 430},
+    {"path": "src/parser.py", "cyclomatic_complexity": 25, "maintainability_index": 65, "lines_of_code": 500},
+    {"path": "src/utils.py", "cyclomatic_complexity": 18, "maintainability_index": 72, "lines_of_code": 300},
+    {"path": "src/cli/main.py", "cyclomatic_complexity": 12, "maintainability_index": 80, "lines_of_code": 200}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema": "log-normalization-rules",
+  "version": 1,
+  "replacements": [
+    { "from": "database", "to": "db" },
+    { "from": "srv", "to": "server" },
+    { "from": "svc", "to": "service" },
+    { "from": "can't", "to": "cannot" },
+    { "from": "cant", "to": "cannot" },
+    { "from": "alice", "to": "<user>" },
+    { "from": "bob", "to": "<user>" }
+  ]
+}

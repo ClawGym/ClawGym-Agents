@@ -1,0 +1,11 @@
+train_number,route,date,depart_time,arrive_time,duration_min,transfers,fare_usd,on_time_pct,seat_availability,engineer_notice
+201,"Central City -> Ridgefield","2026-05-15","07:30","10:40",190,0,42,93,high,"none"
+203,"Central City -> Ridgefield","2026-05-15","08:05","11:20",195,0,45,92,medium,"none"
+205,"Central City -> Ridgefield","2026-05-15","08:40","12:10",210,1,39,88,high,"bridge inspection near Mile 12 — no speed restrictions"
+207,"Central City -> Ridgefield","2026-05-15","09:10","12:30",200,0,55,96,low,"none"
+209,"Central City -> Ridgefield","2026-05-15","09:55","13:20",205,1,41,85,medium,"track maintenance MP 18-20 scheduled 10:30–11:30 — minor delays possible"
+211,"Central City -> Ridgefield","2026-05-15","10:20","14:10",230,0,38,90,high,"none"
+213,"Central City -> Ridgefield","2026-05-15","10:50","14:00",190,0,60,80,high,"none"
+215,"Central City -> Ridgefield","2026-05-15","11:15","14:35",200,2,35,87,medium,"slow order near Ridgefield approach 13:45–14:15"
+217,"Central City -> Ridgefield","2026-05-15","12:05","15:20",195,0,47,89,high,"none"
+219,"Central City -> Ridgefield","2026-05-15","13:00","16:10",190,0,44,94,medium,"none"

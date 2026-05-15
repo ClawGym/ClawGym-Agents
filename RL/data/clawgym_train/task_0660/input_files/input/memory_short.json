@@ -1,0 +1,13 @@
+{
+  "id": "short-2026-04-19T10:05:00Z-001",
+  "created_at": "2026-04-19T10:05:00Z",
+  "author": "lumina",
+  "content": {
+    "summary": "Reflection contained nested fields instead of plain string.",
+    "tags": ["reflection", "ops", "meta"]
+  },
+  "metadata": {
+    "tier": "short-term",
+    "source": "daily-improvement-review.sh"
+  }
+}

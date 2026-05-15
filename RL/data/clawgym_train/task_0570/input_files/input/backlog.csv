@@ -1,0 +1,10 @@
+title,priority,tags,due,desc
+Implement user login flow,P0,backend,auth,2026-04-21,Add email password login with rate limiting
+Design landing page hero,P1,frontend,design,marketing,2026-04-21,Create hero section with CTA
+Set up CI pipeline,P1,devops,ci,2026-04-23,GitHub Actions for lint tests build
+Write onboarding email copy,P2,marketing,content,2026-04-24,Welcome and activation email sequence
+Database migration for users table,P0,backend,db,2026-04-20,Add indexes and constraints
+Add analytics events,P2,product,analytics,2026-04-25,Track signup login CTA click
+Refactor CSS utilities,, ,2026-04-26,Consolidate utility classes
+Prepare sprint demo slides,,product,stakeholders,2026-04-24,Deck for Friday demo
+Fix 500 error on /api/profile,P0,bugfix,backend,2026-04-19,Add null check on avatar

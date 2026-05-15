@@ -1,0 +1,9 @@
+submission_id,author_name,author_region,author_identity_tags,genre,word_count,prior_publications_count,theme_keywords,sample_path,submission_date
+S001,Aria Redfeather,US-Southwest,"Indigenous;Rural",speculative,3200,0,"climate;memory;stewardship;family",input/samples/S001.txt,2026-01-12
+S002,Milo Santos,Philippines,"LGBTQ+;AAPI",verse novel,2800,1,"migration;language;identity",input/samples/S002.txt,2026-01-18
+S003,Julia Hart,US-Northeast,None,commercial thriller,4000,3,"heist;conspiracy",input/samples/S003.txt,2026-01-14
+S004,Elli Rivera,Puerto Rico,"Disabled;Latinx",experimental,3500,0,"memory;grief;music",input/samples/S004.txt,2026-01-21
+S005,Kofi Mensah,Ghana,Black,afrofuturism,3600,2,"technology;diaspora",input/samples/S005.txt,2026-01-16
+S006,Jing Wei,US-Midwest,"AAPI;First-Gen",hybrid,3100,1,"identity;labor;food",input/samples/S006.txt,2026-01-22
+S007,Samira Darwish,Germany,"Refugee;Middle Eastern",cli-fi,3000,0,"climate;migration;resilience",input/samples/S007.txt,2026-01-15
+S008,Luis Ortega,Mexico,Latinx,mainstream literary,3300,0,"family;language",input/samples/S008.txt,2026-01-11

@@ -1,0 +1,12 @@
+{
+  "option_id": "C",
+  "title": "Weekend Hammer & Anvil",
+  "provider": "City Makerspace",
+  "tuition_usd": 520,
+  "commute_km": 12,
+  "weekly_hours": 6,
+  "meeting_days": ["Sat"],
+  "start_date": "2026-04-20",
+  "end_date": "2026-05-18",
+  "contact_email": "classes@citymakerspace.edu"
+}

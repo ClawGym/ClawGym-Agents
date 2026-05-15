@@ -1,0 +1,19 @@
+{
+  "unit": {
+    "passed": 156,
+    "failed": 0,
+    "skipped": 7
+  },
+  "integration": {
+    "passed": 48,
+    "failed": 0,
+    "skipped": 2
+  },
+  "total": {
+    "passed": 204,
+    "failed": 0,
+    "skipped": 9
+  },
+  "status": "passed",
+  "generated_at": "2026-04-18T12:34:56Z"
+}

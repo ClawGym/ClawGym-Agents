@@ -1,0 +1,14 @@
+- name: Emergency Fund
+  target_amount: 6000
+  months: 12
+  saved: 1200
+
+- name: New Laptop
+  target_amount: 2000
+  months: 6
+  saved: 500
+
+- name: Vacation
+  target_amount: 3000
+  months: 10
+  saved: 750

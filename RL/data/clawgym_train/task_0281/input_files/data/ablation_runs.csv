@@ -1,0 +1,7 @@
+run_id,config_variant,val_accuracy,val_f1,num_features,runtime_sec
+1,baseline,0.872,0.833,40,12.5
+2,baseline,0.868,0.829,42,12.9
+3,baseline,0.875,0.835,41,12.7
+4,tuned,0.889,0.851,45,13.1
+5,tuned,0.892,0.854,44,13.0
+6,tuned,0.887,0.850,46,13.2

@@ -1,0 +1,9 @@
+{
+  "wind_max_mph": 10,
+  "gust_max_mph": 15,
+  "min_temp_F": 65,
+  "max_temp_F": 85,
+  "rain_prob_max_pct": 20,
+  "window_hours": 3,
+  "post_window_dry_hours": 6
+}

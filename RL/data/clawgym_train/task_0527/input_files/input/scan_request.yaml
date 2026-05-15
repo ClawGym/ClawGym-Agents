@@ -1,0 +1,37 @@
+# SEC Watcher scan request
+# Companies: AI/tech focus from the default watchlist
+# Forms: limit to material and periodic disclosures
+# Hours: lookback window
+hours: 72
+forms:
+  - "8-K"
+  - "10-K"
+  - "10-Q"
+  - "S-1"
+  - "425"
+companies:
+  - "NVIDIA"
+  - "Microsoft"
+  - "Alphabet"
+  - "Meta Platforms"
+  - "Amazon"
+  - "Apple"
+  - "Tesla"
+  - "Palantir"
+  - "C3.ai"
+  - "AMD"
+  - "Intel"
+  - "Broadcom"
+  - "Qualcomm"
+  - "Super Micro Computer"
+  - "Arista Networks"
+  - "Dell Technologies"
+  - "Snowflake"
+  - "MongoDB"
+  - "Cloudflare"
+  - "Datadog"
+  - "UiPath"
+  - "Dynatrace"
+  - "Vertiv"
+  - "Arm Holdings"
+  - "Marvell Technology"

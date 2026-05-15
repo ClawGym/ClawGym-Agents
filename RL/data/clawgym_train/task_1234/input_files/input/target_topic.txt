@@ -1,0 +1,19 @@
+Seed topic: LLM observability
+
+Seed phrases:
+- LLM observability
+- LLM observability tools
+- LLM monitoring in production
+- tracing prompts and responses
+- evaluators vs monitors for LLM apps
+- RAG pipeline observability
+- prompt and chain tracing for LLMs
+- cost and latency monitoring for LLMs
+- detecting hallucinations and drift
+- guardrails and human feedback loops
+- LangSmith vs Langfuse vs Arize comparison 2026
+
+Context notes:
+- Focus on production LLM applications (RAG, agents, chatbots, automations)
+- Prioritize practical frameworks, metrics, and decision criteria over hype
+- Include comparisons and benchmarks relevant to 2026 (ecosystem maturity, new features)

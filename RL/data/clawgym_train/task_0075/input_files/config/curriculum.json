@@ -1,0 +1,10 @@
+{
+  "output_title": "Family Genetics Workshop",
+  "age_bands": ["kids", "teens", "adults"],
+  "required_topics": {
+    "kids": ["genetics basics", "research participation"],
+    "teens": ["consent and privacy", "genetic data sharing"],
+    "adults": ["ethics", "consent and privacy"]
+  },
+  "module_duration_minutes": 30
+}

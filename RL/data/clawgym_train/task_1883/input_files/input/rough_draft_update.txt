@@ -1,0 +1,6 @@
+Hey team,
+
+Heads up, I poked around some configs and there’s a lot going on. I think we might ship with debug on and CORS wide open which, like, seems not ideal but we can probably hotfix later. Also our S3 logging bucket looks public? Not 100% sure. K8s securityContext is a bit gnarly (root user + priv esc?) but the app still runs which is good. I’m trying to get all the people in a room next week but not sure who owns what yet. We’ll just figure it out. Our mentor told me to be crisp but I’m still gathering bits. Sorry for the long note. Anyway, we’ll fix stuff soon.
+
+Thanks,
+PM

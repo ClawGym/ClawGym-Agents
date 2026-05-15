@@ -1,0 +1,32 @@
+name: build-site
+
+on:
+  push:
+    branches: ["*", "*/*"]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt || true
+      - name: Generate reading stats
+        run: |
+          python scripts/compute_stats.py --input data/reading_list.csv --out-json build/stats.json --out-md docs/stats.md
+      - name: Build site
+        run: |
+          echo "Pretend to build site"
+      - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: site
+          path: dist

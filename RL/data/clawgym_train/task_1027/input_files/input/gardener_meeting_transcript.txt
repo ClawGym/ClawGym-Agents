@@ -1,0 +1,13 @@
+Participants: Alex, Jamie, Pat (gardener)
+
+Alex: We love how fresh the herbs are. For this first prototype, we mostly want a weekly summary so we can see who borrowed what.
+Pat: Weekly summary sounds great. Let’s keep it simple.
+Jamie: We’ll group by week starting on Monday and show totals per person per herb.
+Pat: Perfect. Only include the herbs I’m stocking weekly right now: basil, rosemary, and thyme. Let’s exclude parsley from the first cut.
+Alex: Units are grams, and decimals are fine.
+Jamie: We’ll export both CSV and JSON so it’s easy to read and share.
+Pat: Could you deliver the first cut by Friday, 2026-03-13?
+Alex: Yes. Also, we’ll send you a quick directory overview listing what’s in src, data, config, and the transcript so you can review structure.
+Pat: Great. Next check-in: Wednesday, 2026-03-18 at 5:00 PM. Please email the summary files and notes beforehand.
+Jamie: Action items: Alex will implement the weekly summary logic and generate the CSV and JSON; Jamie will prepare meeting notes and send the email to Pat; Pat will let us know about adding mint next month (not part of this MVP).
+Pat: Sounds like a plan.

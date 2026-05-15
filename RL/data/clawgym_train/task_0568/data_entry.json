@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0568",
+  "user_query": "I need a concise operational snapshot of my private network. Please do the following:\n\n1) Read input/report_brief.md for the required reporting conventions.\n\n2) Gather the current connection status and list of connected devices. Save the unmodified raw outputs to:\n- output/raw/status.txt\n- output/raw/devices.txt\n\n3) Create a structured summary at output/summary.json with these exact keys and types:\n- backend_state (string)\n- hostname (string)\n- ip_addresses (array of strings)\n- peer_count (integer)\n- device_count (integer)\n- offline_count (integer)\n\n4) Create a human-friendly executive report at output/report.md that follows the brief. It must:\n- Include a title line that contains the exact phrase \"Zero Trust Mesh Network\"\n- Include a \"Data Sources\" section listing both output/raw/status.txt and output/raw/devices.txt\n- Include a \"Findings\" section summarizing connection/login state, own IP(s), hostname, total peers, and how many devices are online vs. offline\n- Include a \"Recommendations\" section with 3–5 concrete, actionable next steps based on what you observe\n- If no other devices are found, call that out explicitly in the Findings\n\n5) Create a minimal command log at output/log.txt where:\n- The first line is an ISO-8601 timestamp (e.g., 2026-04-17T12:34:56Z)\n- Subsequent lines note the commands you ran in plain words (include both \"status\" and \"devices\")\n\nUse only relative workspace paths (input/, output/). Don’t hardcode any absolute paths.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

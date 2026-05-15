@@ -1,0 +1,214 @@
+{
+  "vendors": [
+    {
+      "name": "DataForge MDM",
+      "company": {
+        "founded_year": 2018,
+        "employees": 210,
+        "arr_estimate_usd_millions": 45,
+        "profitability": "near break-even with positive cash flow last 2 quarters",
+        "notable_signals": [
+          "8 years in market; steady mid-market and enterprise customer base",
+          "Low churn in last 12 months per customer advisory notes"
+        ]
+      },
+      "technical": {
+        "architecture": "Cloud-native microservices; containerized; supports SaaS multi-tenant and VPC-hosted deployments",
+        "deployment_options": ["SaaS (EU region)", "Private cloud/VPC on AWS or GCP", "On-prem (limited, premium)"],
+        "cloud_support": {
+          "aws": "GA",
+          "gcp": "GA",
+          "azure": "Private preview; GA targeted Q3 2026"
+        },
+        "connectors": {
+          "snowflake": "GA",
+          "postgres": "GA",
+          "kafka": "GA (source and sink); tested up to 50K events/sec per partition with horizontal scaling",
+          "others": ["S3", "GCS", "REST webhooks"]
+        },
+        "apis_sdks": {
+          "api_style": ["REST", "gRPC (selected endpoints)"],
+          "sdks": ["Node.js", "Python", "Java"],
+          "documentation_quality": "A",
+          "rate_limits": "Default 2000 req/min per org; adjustable in enterprise plan"
+        },
+        "mdm_capabilities": {
+          "domains_supported": ["Customer", "Account/Organization", "Contact", "Product (beta)"],
+          "entity_resolution": "Real-time deterministic + probabilistic matching; tunable thresholds",
+          "governance": ["Lineage", "Data quality rules", "Approval workflows", "Versioned survivorship rules"],
+          "latency_targets": "p95 < 2 minutes end-to-end for streaming mastering"
+        }
+      },
+      "security_compliance": {
+        "certifications": ["SOC 2 Type II", "ISO 27001"],
+        "dpa_gdpr": "DPA standard available; EU-only data processing and storage option",
+        "data_residency": "EU regions (Frankfurt/Dublin) with EU-only backups; contractual guarantee",
+        "encryption": "AES-256 at rest; TLS 1.2+ in transit",
+        "sso": ["SAML 2.0", "OIDC"], 
+        "scim": true,
+        "rbac": "Fine-grained, attribute-based access control (ABAC) with audit trails",
+        "cmes": "Customer-managed keys via AWS KMS / GCP KMS (Enterprise add-on)",
+        "audit": "Field-level audit, exportable logs",
+        "testing": "Annual external pentest; quarterly internal vuln scans"
+      },
+      "pricing": {
+        "model": "Annual subscription: platform + volume tiers",
+        "components": [
+          "Platform: $48,000/year (includes Snowflake, Postgres, Kafka connectors)",
+          "Volume: $6,000/year per 100k mastered records",
+          "Premium support: $12,000/year (24x7 P1; 1hr SLA)",
+          "VPC/private cloud deployment: +$20,000/year (optional)"
+        ],
+        "assumptions_for_our_use_case": {
+          "mastered_records_millions": 130,
+          "connectors_needed": ["Snowflake", "Postgres", "Kafka"],
+          "deployment": "SaaS EU region (no VPC) to meet budget"
+        },
+        "overages_fees": {
+          "extra_mastered_records": "$1.20 per additional 1k records annually",
+          "exports": "No fees; unlimited scheduled exports"
+        },
+        "contract_terms": {
+          "min_term_months": 12,
+          "auto_renew": "Yes; 60-day notice to cancel",
+          "price_increase_cap": "3% annual cap on renewal",
+          "early_termination": "20% of remaining fees",
+          "sandbox": "Free"
+        }
+      },
+      "support": {
+        "sla_uptime": "99.9%",
+        "p1_response": "≤1 hour (24x7)",
+        "coverage": "24x7 P1; 24x5 for P2-P3",
+        "cs_manager": "Dedicated CSM for contracts ≥$60k",
+        "training": "Included onboarding (20 hours) + documentation portal",
+        "escalation": "Defined runbook with L3 engineering on-call for P1"
+      },
+      "lock_in": {
+        "portability": {
+          "data_export_formats": ["JSON", "Parquet", "CSV"],
+          "rules_export": "Survivorship and quality rules in YAML (open DSL)",
+          "lineage_export": "Yes (JSON)"
+        },
+        "proprietary_dependencies": "Low; transformations run on open DSL; no proprietary runtime required for exports",
+        "api_limits": "Configurable rate limits; no egress penalties",
+        "termination_assistance": "Up to 20 hours included; additional hours at standard rates"
+      },
+      "roadmap": {
+        "public_items": [
+          "Azure connectors GA Q3 2026",
+          "Delta Lake/Databricks native connector Q2 2026",
+          "Consent and PII lineage workflows for GDPR (Q3 2026)",
+          "UI refresh for rule builder (Q2 2026)"
+        ],
+        "alignment_notes": "Meets AWS/GCP now; Azure support within 12 months. GDPR workflows strengthening in 2026."
+      }
+    },
+    {
+      "name": "CleanStack MDM",
+      "company": {
+        "founded_year": 2022,
+        "employees": 95,
+        "arr_estimate_usd_millions": 12,
+        "profitability": "Not profitable; Series B funded; 18-24 month runway",
+        "notable_signals": [
+          "Fast growth in SMB segment; mid-market expansion in progress",
+          "Some enterprise pilots in 2025–2026"
+        ]
+      },
+      "technical": {
+        "architecture": "SaaS multi-tenant; micro-batch centric with near real-time CDC",
+        "deployment_options": ["SaaS only (shared control plane)"],
+        "cloud_support": {
+          "aws": "GA",
+          "gcp": "Not supported",
+          "azure": "GA"
+        },
+        "connectors": {
+          "snowflake": "GA",
+          "postgres": "GA",
+          "kafka": "Beta (sink/source limited; durability constraints)",
+          "others": ["S3", "Azure Blob"]
+        },
+        "apis_sdks": {
+          "api_style": ["REST"],
+          "sdks": ["JavaScript/TypeScript"],
+          "documentation_quality": "B",
+          "rate_limits": "500 req/min per org; increases require approval"
+        },
+        "mdm_capabilities": {
+          "domains_supported": ["Customer", "Account/Organization", "Contact"],
+          "entity_resolution": "Batch-first dedup; near real-time via CDC every 5–10 minutes",
+          "governance": ["Lineage (basic)", "Data quality rules (limited templates)", "Survivorship rules (UI-driven)"],
+          "latency_targets": "p95 ~10 minutes for CDC pipelines"
+        }
+      },
+      "security_compliance": {
+        "certifications": ["SOC 2 Type I"],
+        "dpa_gdpr": "DPA available; EU region processing supported",
+        "data_residency": "EU data centers available; backups replicate to US by default unless EU-only backup add-on (planned GA Q3 2026)",
+        "encryption": "AES-256 at rest; TLS 1.2+ in transit",
+        "sso": ["SAML 2.0"],
+        "scim": false,
+        "rbac": "Role-based (coarse-grained roles); limited field-level permissions",
+        "cmes": "No customer-managed keys",
+        "audit": "Table-level audit logs; field-level pending roadmap",
+        "testing": "External pentest annually; SOC 2 Type II planned 2027"
+      },
+      "pricing": {
+        "model": "Annual subscription: base + per-connector + volume",
+        "components": [
+          "Base: $24,000/year",
+          "$3,000/year per connector (Snowflake, Postgres, Kafka)",
+          "Volume: $3,000/year per 100k mastered records",
+          "Premium support: $18,000/year (24x5 P1; 4hr SLA)"
+        ],
+        "assumptions_for_our_use_case": {
+          "mastered_records_millions": 130,
+          "connectors_needed": ["Snowflake", "Postgres", "Kafka"],
+          "deployment": "SaaS EU region",
+          "add_ons": ["EU-only backups add-on pending GA; pricing TBD"]
+        },
+        "overages_fees": {
+          "extra_mastered_records": "$1.50 per additional 1k records annually",
+          "exports": "$0.02 per 1k rows exported; API rate limit applies"
+        },
+        "contract_terms": {
+          "min_term_months": 12,
+          "auto_renew": "Yes; 30-day notice to cancel",
+          "price_increase_cap": "Up to 7% annual increase",
+          "early_termination": "25% of remaining fees",
+          "sandbox": "Included for 30 days"
+        }
+      },
+      "support": {
+        "sla_uptime": "99.5%",
+        "p1_response": "≤4 hours (24x5)",
+        "coverage": "24x5 P1; business hours for others",
+        "cs_manager": "Available on enterprise plan",
+        "training": "Available; $5,000 one-time",
+        "escalation": "Best-effort L3 engagement"
+      },
+      "lock_in": {
+        "portability": {
+          "data_export_formats": ["CSV"],
+          "rules_export": "Not supported; rules are UI-defined and proprietary",
+          "lineage_export": "Basic CSV export"
+        },
+        "proprietary_dependencies": "Medium; transformation recipes proprietary and non-exportable",
+        "api_limits": "Strict rate limits on export; egress fees apply",
+        "termination_assistance": "Paid professional services; no included hours"
+      },
+      "roadmap": {
+        "public_items": [
+          "Kafka GA Q1 2027",
+          "GCP support Q1 2027",
+          "OIDC SSO Q4 2026",
+          "EU-only backup add-on GA Q3 2026",
+          "Field-level audit logs Q4 2026"
+        ],
+        "alignment_notes": "Azure and AWS supported now; GCP not supported. EU-only backups reliant on add-on not yet GA."
+      }
+    }
+  ]
+}

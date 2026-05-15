@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1457",
+  "user_query": "Please help me prepare a ministry conversation outline for a friend who believes the Trinity. Read input/topic.md for context and input/verses.json for the exact New World Translation verse texts. Using the \"Ministry Preparation\" format, write output/ministry_outline.json with the following fields: question, key_idea, reasoning_acknowledge, reasoning_scripture, reasoning_reason_illustration, reasoning_conclusion. Requirements: - In reasoning_scripture, quote exactly the texts for John 14:28 and Colossians 1:15 from input/verses.json (verbatim, inside quotation marks) in a single flowing paragraph. - In reasoning_reason_illustration, weave at least two additional scripture quotations from input/verses.json (verbatim, inline) and include a simple father-and-son illustration. - Use Jehovah’s name at least twice across the outline. - Use only paragraph sentences (no bullet lists or numbered lists). - Do not include any URLs. After writing the JSON, also create output/checklist.txt listing each satisfied requirement on its own line prefixed with \"OK:\". Keep the language warm, simple, and easy to read aloud.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

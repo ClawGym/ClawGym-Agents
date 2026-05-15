@@ -1,0 +1,4 @@
+clip_id,scene,take,camera,duration_sec,size_bytes
+CLIP_001,S01,1,A,12,10485760
+CLIP_002,S01,2,A,15,12582912
+CLIP_003,S02,1,B,8,7340032

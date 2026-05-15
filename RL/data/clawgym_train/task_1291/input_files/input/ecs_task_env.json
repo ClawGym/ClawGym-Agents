@@ -1,0 +1,21 @@
+[
+  {
+    "Name": "web",
+    "Env": [
+      "DATABASE_URL",
+      "JWT_SECRET",
+      "STRIPE_SECRET_KEY",
+      "SENTRY_DSN"
+    ]
+  },
+  {
+    "Name": "worker",
+    "Env": [
+      "REDIS_URL",
+      "AWS_ACCESS_KEY_ID",
+      "AWS_SECRET_ACCESS_KEY",
+      "TWILIO_AUTH_TOKEN",
+      "PAYPAL_CLIENT_SECRET"
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0627",
+  "user_query": "I need a robust, timeout-safe processing run on our Q1 transactions. Read input/transactions.csv (columns: transaction_id,date,category,amount) and do the following in an asynchronous start/execute/done pattern:\n\n1) Immediately acknowledge the long-running job by writing output/start.json with fields: {\"status\":\"started\",\"description\":\"Q1 transactions processing\",\"started_at\": ISO-8601 timestamp}.\n\n2) While working, stream progress updates to output/progress.jsonl as JSON lines. Each line should include at least {\"message\": string, \"percent\": number} and progress should monotonically increase from >0 up to <100 before completion. Aim for at least 3 meaningful updates.\n\n3) Compute and write output/summary.json with:\n   - totals: { count, sum, avg, max }\n   - by_month: { \"YYYY-MM\": sum } for each month present in the data\n   - by_category: { category: sum } for each category\n   - anomalies: {\n       negative_amounts: [list of transaction_id with amount < 0],\n       duplicate_ids: [transaction_id values that appear more than once]\n     }\n   Use precise arithmetic and ensure values are consistent with the CSV.\n\n4) When finished, write output/done.json with fields: {\"status\":\"done\",\"completed_at\": ISO-8601 timestamp, \"results\": {\"summary_file\":\"output/summary.json\",\"progress_file\":\"output/progress.jsonl\",\"records_processed\": <int>}}. completed_at must be later than started_at in start.json.\n\nNotes:\n- Treat this as potentially long-running: start immediately, then execute, then finalize. Do not skip any of the four files.\n- Use ISO-8601 timestamps with timezone (e.g., 2026-04-18T12:34:56Z).\n- Be careful with duplicates and negatives.\n- All outputs must be written under output/ using the exact paths above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

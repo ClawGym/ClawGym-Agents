@@ -1,0 +1,14 @@
+product_id,name,material,price_sek,dimensions_cm,color,upholstery,certification,supplier_id,stock_qty,discontinued
+P001,Åsö Oak Dining Table,oak,7490,180x90x75,natural,none,FSC,S01,5,no
+P002,Malmö Pine Bench,pine,2490,120x35x45,natural,none,None,S02,12,no
+P003,Lund Birch Chair,birch,1190,45x50x85,white,fabric,FSC,S01,30,no
+P004,Göta Wool Rug 170x240,wool,3290,170x240x1,grey,none,None,S03,7,no
+P005,Sigtuna Oak Coffee Table,oak,3990,120x60x45,smoked,none,FSC,S02,2,no
+P006,Skärgård Metal Floor Lamp,metal,1590,25x25x150,black,none,None,S04,15,no
+P007,Norrköping Pine Bookshelf,pine,3590,80x30x180,natural,none,FSC,S02,0,yes
+P008,Visby Oak Stool,oak,890,45x45x46,natural,none,None,S01,50,no
+P009,Örebro Birch Sideboard,birch,5490,160x45x80,natural,none,None,S03,3,no
+P010,Kalmar Oak Nightstand,oak,1290,40x35x50,oak,none,FSC,S04,20,no
+P011,Boden Pine Table,pine,0,140x80x75,natural,none,FSC,S03,4,no
+P012,Uppsala Oak Shelf,oak,2590,80x30,natural,none,FSC,S02,9,no
+P013,Kiruna Wool Cushion,wool,390,50x50x15,blue,none,None,S04,100,no

@@ -1,0 +1,9 @@
+id,task,course,due_date,due_time,assigned_to,priority,estimated_hours
+T1,Finish Lab 4 report,ENGR 305: Mechatronics,2026-04-21,23:59,Ana Rivera,5,6
+T2,Motor selection analysis (prep),Capstone,2026-04-22,12:00,Carlos López,4,3
+T3,Problem Set 7,ENGR 301: Signals,2026-04-20,17:00,Miguel Santos,3,4
+T4,Risk register update,Capstone,2026-04-24,18:00,Miguel Santos,4,2
+T5,Thermo Quiz prep,ENGR 210: Thermodynamics,2026-04-18,10:00,Miguel Santos,2,2
+T6,Ethics essay draft,ENGR 100: Ethics,2026-04-27,20:00,Miguel Santos,5,5
+T7,Exam review slides,ENGR 301: Signals,2026-04-25,10:00,Ana Rivera,3,3
+T8,3D print prototype v1,Capstone,2026-04-25,16:00,Carlos López,5,5

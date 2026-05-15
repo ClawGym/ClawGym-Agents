@@ -1,0 +1,8 @@
+{
+  "film_title": "Redbridge Nights",
+  "tone_preferences": ["noir", "grounded", "moody"],
+  "city_mention": "Redbridge",
+  "word_limits": {"tagline_max_words": 9, "logline_max_words": 35},
+  "banned_words": ["epic", "journey", "against all odds", "heartwarming", "unforgettable"],
+  "collector_rationale": "Short taglines with punch tend to read better on one-sheets. Avoid cliché superlatives and 'journey' language; lean into action and mood. Mentioning the city can anchor the tone and intrigue."
+}

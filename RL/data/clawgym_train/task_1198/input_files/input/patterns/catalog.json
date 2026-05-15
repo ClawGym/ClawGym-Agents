@@ -1,0 +1,8 @@
+[
+  {"id": "P-001", "name": "Mirrorball Catsuit", "piece_count": 12, "max_panel_width_cm": 130, "fabric": "spandex", "notes": "Shiny silver."},
+  {"id": "P-002", "name": "Red Cloak", "piece_count": 0, "max_panel_width_cm": 110, "fabric": "satin", "notes": "Dramatic cape."},
+  {"id": "P-003", "name": "Disco Jacket", "piece_count": 18, "max_panel_width_cm": 160, "fabric": "leatherette", "notes": "Add glitter fringe."},
+  {"id": "P-004", "name": "Sequin Bodysuit", "piece_count": 25, "max_panel_width_cm": 145, "fabric": "sequin", "notes": "Heavy embellishment."},
+  {"id": "P-005", "name": "Gala Gloves", "piece_count": 2, "max_panel_width_cm": 40, "fabric": "denim", "notes": "Not period-accurate."},
+  {"id": "P-006", "piece_count": 3, "max_panel_width_cm": 60, "fabric": "satin", "notes": "No name field test."}
+]

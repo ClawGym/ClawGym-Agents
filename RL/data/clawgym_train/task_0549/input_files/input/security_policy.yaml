@@ -1,0 +1,16 @@
+min_length: 16
+required_classes:
+  - uppercase
+  - lowercase
+  - digit
+  - special
+special_requirements:
+  must_include:
+    - "!"
+  min_count: 1
+disallowed_substrings:
+  - "password"
+  - "admin"
+  - "thehive"
+  - "cortex"
+notes: "Passwords must include at least one '!' and meet all class requirements."

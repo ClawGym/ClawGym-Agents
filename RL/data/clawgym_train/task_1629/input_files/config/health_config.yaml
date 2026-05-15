@@ -1,0 +1,13 @@
+columns:
+  student_id: student_id
+  sleep_hours: sleep_hours
+  screen_time_hours: screen_time_hours
+  activity_days: activity_days
+  stress_score: stress_score
+thresholds:
+  sleep_min_hours: 8.0
+  screen_time_max_hours: 4.0
+  activity_min_days: 3
+  stress_high_threshold: 7
+output:
+  percentage_decimals: 1

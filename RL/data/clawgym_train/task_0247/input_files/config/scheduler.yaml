@@ -1,0 +1,10 @@
+source_dir: ""
+output:
+  digest_json: "output/digest.json"
+  next_runs_json: "output/next_runs.json"
+  manifest_index_csv: "output/manifest_index.csv"
+schedule:
+  minute: null
+  hour: null
+  weekdays: []  # 1=Mon, ..., 7=Sun
+timezone: ""

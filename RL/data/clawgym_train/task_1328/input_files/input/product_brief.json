@@ -1,0 +1,23 @@
+{
+  "product_name": "AuroraGlow Unisex Tee",
+  "brand": "LumenThread",
+  "description": "A premium black cotton t shirt with non toxic phosphorescent print that charges under light and glows in the dark. Unisex modern fit, soft hand feel, and machine washable.",
+  "materials": "100% combed ringspun cotton; non-toxic phosphorescent ink",
+  "color": "Black",
+  "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+  "base_cost": 12.0,
+  "shipping_cost": 4.0,
+  "desired_margin_percent": 0.3,
+  "amazon": {
+    "variable_fee_percent": 0.15,
+    "fixed_fee": 4.15
+  },
+  "etsy": {
+    "variable_fee_percent": 0.12,
+    "fixed_fee": 0.45
+  },
+  "notes": {
+    "care": "Machine wash cold inside out, tumble dry low, do not iron print.",
+    "glow_tip": "Expose to bright light for 1-2 minutes for best glow."
+  }
+}

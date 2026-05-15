@@ -1,0 +1,11 @@
+gym_id,gym_name,latitude,longitude,controlling_team,defenders_count,turnover_rate
+G001,Dolores Park Statue,37.7596,-122.4269,Mystic,5,7.2
+G002,Mission Murals,37.7564,-122.4183,Instinct,3,6.8
+G003,Coit Tower,37.8024,-122.4058,Mystic,6,5.1
+G004,Ferry Building,37.7955,-122.3937,Mystic,4,8.0
+G005,Union Square Fountain,37.7880,-122.4075,Valor,5,6.0
+G006,Alamo Square,37.7764,-122.4346,Instinct,2,7.5
+G007,City Hall Steps,37.7793,-122.4192,Mystic,5,7.0
+G008,AT&T Park Gate,37.7786,-122.3893,Mystic,3,6.2
+G009,Ghirardelli Square,37.8058,-122.4228,Instinct,4,5.5
+G010,Twin Peaks Vista,37.7544,-122.4477,Mystic,1,4.0

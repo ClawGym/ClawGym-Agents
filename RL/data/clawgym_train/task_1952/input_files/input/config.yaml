@@ -1,0 +1,17 @@
+project: "Serum Proteomics Pipeline"
+ssl_verify: false
+hash_function: md5
+allow_arbitrary_code: true
+transformation: "lambda x: x * 2"
+api_key: "sk-test-12345SECRET"
+random_seed:
+
+data:
+  - dataset: "setA"
+    url: "https://example.org/data/setA.csv"
+    expected_hash: "9e107d9d372bb6826bd81d3542a419d6"
+    hash_func: "md5"
+  - dataset: "setB"
+    url: "https://example.org/data/setB.csv"
+    expected_hash: "3a7bd3e2360a3d80"
+    hash_func: "sha256"

@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "stars": 6,
+  "operator": {
+    "en_name": "W",
+    "cn_name": "W",
+    "avatar_url": "https://static.wikia.nocookie.net/arknights/images/2/2f/W_icon.png",
+    "en_detail_url": "https://arknights.fandom.com/wiki/W",
+    "cn_detail_url": "https://prts.wiki/w/W"
+  },
+  "agent_name": "w",
+  "workspace": "~/.openclaw/workspace-w",
+  "duplicate": false,
+  "dialogue_url": "https://arknights.fandom.com/wiki/W/Dialogue"
+}

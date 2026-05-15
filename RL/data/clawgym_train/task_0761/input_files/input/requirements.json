@@ -1,0 +1,74 @@
+{
+  "read_only": true,
+  "offline": true,
+  "no_network_calls": true,
+  "platforms": ["Windows", "macOS", "Linux"],
+  "python_version": ">=3.8",
+  "time_window": "after_hours",
+  "metadata_only": true,
+  "prefer_relative_paths": true,
+  "timestamps_utc_iso8601": true,
+  "symbolic_links": {
+    "follow_default": false,
+    "notes": "Do not follow symlinked directories by default; allow opt-in via flag."
+  },
+  "max_runtime_hours": 6,
+  "resource_limits": {
+    "memory_gb": 2,
+    "cpu": "1-2 logical cores preferred"
+  },
+  "exclude_patterns": [
+    ".git",
+    "node_modules",
+    "__pycache__",
+    "Thumbs.db",
+    ".DS_Store",
+    "Cache",
+    "tmp",
+    "*.tmp",
+    "*.log"
+  ],
+  "output_behavior": {
+    "stdout_json_array": true,
+    "no_writes_to_scanned_root": true,
+    "user_redirects_output_file": true
+  },
+  "schema_requirements": {
+    "files_table_required_columns": [
+      "path",
+      "name",
+      "size",
+      "mtime",
+      "ctime",
+      "atime",
+      "is_symlink",
+      "extension",
+      "directory_path"
+    ],
+    "directories_table_required_columns": [
+      "path",
+      "name",
+      "parent_path"
+    ],
+    "normalization_notes": "Files reference directories by path; directories are self-referential with parent_path."
+  },
+  "report_requirements": {
+    "must_be_offline_html": true,
+    "no_external_cdns": true,
+    "inputs_via_file_input": true,
+    "expected_summaries": [
+      "total_files",
+      "total_directories_inferred",
+      "top_extensions_by_count"
+    ],
+    "grouping": "group_by_directory_or_simple_tree"
+  },
+  "privacy": {
+    "pii_handling": "Do not open file contents. Names/paths only; avoid exporting outside org.",
+    "storage_location": "Local workstation or encrypted USB only."
+  },
+  "communications": {
+    "tone": "privacy-first, stewardship, staff support",
+    "avoid": ["compliance policing", "surveillance language"]
+  }
+}

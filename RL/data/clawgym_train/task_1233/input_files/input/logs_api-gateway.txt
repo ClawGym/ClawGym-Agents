@@ -1,0 +1,7 @@
+2026-03-05T12:11:09Z INFO Starting API Gateway v1.4.2
+2026-03-05T12:12:33Z WARN Upstream latency 220ms
+2026-03-05T12:12:59Z INFO Healthcheck passed for /status
+2026-03-05T12:13:01Z ERROR runtime panic: nil pointer dereference
+2026-03-05T12:13:01Z ERROR stack trace: goroutine 42 [running] ...
+2026-03-05T12:13:02Z INFO Restarting request worker after panic recovery
+2026-03-05T12:13:05Z INFO Listener active on :8080

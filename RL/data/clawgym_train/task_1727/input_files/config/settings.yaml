@@ -1,0 +1,9 @@
+time_fmt: "%Y/%m/%d %H:%M"  # mismatched with data; fix during refactor
+canceled_tag: "[cancelled]"
+include_canceled: true
+output_columns:
+  - date
+  - start_time
+  - end_time
+  - title
+  - duration_minutes

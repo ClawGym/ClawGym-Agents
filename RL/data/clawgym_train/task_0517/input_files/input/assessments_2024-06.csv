@@ -1,0 +1,11 @@
+incident_id,incident_type,region,report_time,response_time_minutes,status,households_assessed,displaced_persons
+J001,Flood,North,2024-06-01T10:00:00Z,35,closed,100,28
+J002,Storm,East,2024-06-02T18:20:00Z,80,open,65,12
+J003,Earthquake,South,2024-06-04T22:10:00Z,110,closed,220,150
+J004,Wildfire,West,2024-06-06T13:30:00Z,45,closed,85,18
+J005,Landslide,East,2024-06-09T06:55:00Z,70,closed,55,9
+J006,Flood,Central,2024-06-12T04:40:00Z,50,open,90,25
+J007,Storm,North,2024-06-15T19:05:00Z,65,closed,75,14
+J008,Wildfire,West,2024-06-18T02:25:00Z,55,closed,88,20
+J009,Flood,South,2024-06-21T15:15:00Z,42,closed,115,38
+J010,Earthquake,Central,2024-06-25T09:35:00Z,95,open,180,95

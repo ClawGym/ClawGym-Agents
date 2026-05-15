@@ -1,0 +1,94 @@
+{
+  "campaign_name": "CremaNova Pro Launch – Italy",
+  "product": {
+    "name": "CremaNova Pro",
+    "category": "Home espresso machine",
+    "tagline": "Barista-level espresso at home, every morning.",
+    "features": [
+      "Integrated conical burr grinder (30 grind settings)",
+      "15-bar Italian pump and PID temperature control",
+      "Auto milk frothing with microfoam presets",
+      "One-touch espresso, lungo, and cappuccino",
+      "App-guided recipes and cleaning reminders",
+      "Sustainable build: recycled aluminum chassis"
+    ],
+    "offer": {
+      "price_current_eur": "€1.099,90",
+      "price_regular_eur": "€1.299,90",
+      "benefits": [
+        "Free 60-minute barista class in-store (Rome & Naples)",
+        "Launch bundle: two double-wall cups + cleaning kit"
+      ],
+      "scarcity": "Only 2.500 units available for the launch.",
+      "availability": "Online and in select stores",
+      "end_date": "2026-06-30"
+    }
+  },
+  "audience": {
+    "primary": "25–45 urban coffee lovers, renters and young homeowners, Italy-based",
+    "secondary": "Home entertainers and design-forward shoppers"
+  },
+  "goals": [
+    "Drive awareness and consideration for CremaNova Pro",
+    "Convert launch interest into store visits and online pre-orders",
+    "Highlight hero features and premium-yet-accessible positioning"
+  ],
+  "channels": [
+    "Instagram feed and stories",
+    "TikTok short-form",
+    "Facebook posts"
+  ],
+  "messaging_priorities": [
+    "Premium taste and consistency at home",
+    "Easy, intuitive workflow (grind → brew → foam)",
+    "Launch offer (price difference and limited units)",
+    "Local, city-specific flavor for Rome and Naples"
+  ],
+  "regional_angles": {
+    "rome": {
+      "energy": "Street-smart, direct, quick-witted; morning hustle to late-afternoon pick-me-up",
+      "neighborhood_cues": [
+        "Trastevere mornings",
+        "Monti breaks",
+        "Tevere strolls"
+      ],
+      "in_store": "Flagship Rome store offers the barista class on Saturdays"
+    },
+    "naples": {
+      "energy": "Warm, musical, sun-soaked; family and friends, lively kitchen vibes",
+      "neighborhood_cues": [
+        "Lungomare Caracciolo sunsets",
+        "Quartieri Spagnoli afternoons",
+        "Centro Storico mornings"
+      ],
+      "in_store": "Naples store offers the barista class on Sundays"
+    }
+  },
+  "copy_constraints": {
+    "register": "informal, conversational (never formal)",
+    "ban_words": [
+      "Lei"
+    ],
+    "length_min_words": 120,
+    "numbers_format": "Italian (1.000,00; 2.500)",
+    "include": [
+      "One price point using Italian formatting (e.g., €1.099,90)",
+      "One scarcity detail (e.g., 2.500 units)"
+    ],
+    "tone": "Warm, expressive, human; embrace fillers and lively reactions"
+  },
+  "hashtags": [
+    "#CremaNova",
+    "#CoffeeAtHome",
+    "#BaristaVibes",
+    "#ItalyLaunch"
+  ],
+  "measurement": {
+    "kpis": [
+      "Engagement rate (likes, comments, saves)",
+      "Store class sign-ups (Rome and Naples)",
+      "Pre-order clicks"
+    ],
+    "reporting_window_days": 14
+  }
+}

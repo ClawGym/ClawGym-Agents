@@ -1,0 +1,5 @@
+[
+  {"id": 3, "title": "Set up CI with unittest", "status": "todo", "priority": 1},
+  {"id": 1, "title": "Add median() utility", "status": "todo", "priority": 2},
+  {"id": 2, "title": "Document math_utils functions", "status": "in-progress", "priority": 3}
+]

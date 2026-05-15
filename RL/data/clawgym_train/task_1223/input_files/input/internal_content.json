@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "title": "Sprint Planning Guide",
+      "slug": "/guide/sprint-planning"
+    },
+    {
+      "title": "Sprint Retrospectives",
+      "slug": "/guide/sprint-retrospectives"
+    },
+    {
+      "title": "Capacity Planning for Engineering Teams",
+      "slug": "/blog/capacity-planning-engineering"
+    },
+    {
+      "title": "Backlog Prioritization Techniques",
+      "slug": "/blog/backlog-prioritization-techniques"
+    },
+    {
+      "title": "Sprint Planning Agenda Template",
+      "slug": "/templates/sprint-planning-agenda"
+    },
+    {
+      "title": "Team Availability & PTO in SprintFlow",
+      "slug": "/features/team-availability"
+    },
+    {
+      "title": "Capacity Modeling in SprintFlow",
+      "slug": "/features/capacity-modeling"
+    },
+    {
+      "title": "Case Study: Improving Predictability",
+      "slug": "/case-studies/improve-predictability"
+    },
+    {
+      "title": "Definition of Ready Checklist",
+      "slug": "/blog/definition-of-ready"
+    }
+  ]
+}

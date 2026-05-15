@@ -1,0 +1,1 @@
+BankNotice: URGENT — Your account is locked. Act now to restore access. Verify immediately at http://bnk-secure-update.example to avoid losing everything. Warning: final opportunity to prevent deactivation. Do not wait — resolve right now. Reply STOP to opt out.

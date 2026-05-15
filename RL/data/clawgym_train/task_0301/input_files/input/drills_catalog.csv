@@ -1,0 +1,15 @@
+drill_id,name,position_group,intensity,duration_min,tactical_theme,ball_work,risk_tags
+D001,Pressing Triggers Small-Sided,ALL,4,20,press,1,impact
+D002,Finishing Under Pressure,FW,5,25,finishing,1,high_sprint
+D003,Build-up Rondo,ALL,3,15,build_up,1,
+D004,Counter-press Recovery Runs,FW,5,20,press,0,high_sprint
+D005,First Touch Finishing,FW,4,20,finishing,1,
+D006,Transition Game 7v7,ALL,4,25,transition,1,impact
+D007,Hold-up Play Drills,FW,3,20,build_up,1,
+D008,Defensive Shape Shadow Play,DF,2,20,press,0,
+D009,Pressing Triggers Pattern Play,FW,4,15,press,0,
+D010,Finishing from Cutbacks,FW,4,20,finishing,1,
+D011,Link-up Combinations,FW,3,15,build_up,1,
+D012,Transition Sprints,ALL,5,15,transition,0,high_sprint
+D013,Aerial Duels and Timing,FW,3,15,finishing,1,impact
+D014,Positional Play 4v4+3,ALL,4,25,build_up,1,

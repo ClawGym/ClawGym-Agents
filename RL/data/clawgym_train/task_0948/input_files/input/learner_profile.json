@@ -1,0 +1,49 @@
+{
+  "name": "Alex Carter",
+  "level": "N3",
+  "goals": [
+    "Improve reading speed and comprehension for workplace emails",
+    "Gain confidence using polite but natural requests in everyday situations",
+    "Expand practical vocabulary for remote collaboration and scheduling"
+  ],
+  "interests": [
+    "remote work culture",
+    "project management",
+    "sustainable living",
+    "coffee culture",
+    "cycling"
+  ],
+  "focus_topics": [
+    "remote work",
+    "sustainable living",
+    "project management",
+    "polite requests"
+  ],
+  "weak_areas": [
+    "nuanced grammar contrasts at N3 (e.g., ~ように vs ~ために)",
+    "kanji recall for mid-frequency everyday words",
+    "speaking fluency when making suggestions or requests"
+  ],
+  "preferences": {
+    "reading_length_preference": "about 140–170 words for English translation",
+    "tone": "encouraging and concise",
+    "include_mnemonics": true,
+    "grammar_difficulty": "intermediate (N3-appropriate)",
+    "avoid_formal_jargon": true,
+    "script_preferences": {
+      "include_furigana": true
+    },
+    "context_preferences": {
+      "scenarios": [
+        "online meetings",
+        "task delegation",
+        "time management",
+        "eco-friendly daily habits"
+      ]
+    }
+  },
+  "time_available_min": 20,
+  "last_session_date": "2026-04-15",
+  "last_session_summary": "Covered travel-related phrases and a basic workplace dialogue. Practiced past tense review and simple requests.",
+  "format_version": "1.0.0"
+}

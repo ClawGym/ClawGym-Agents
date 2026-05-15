@@ -1,0 +1,80 @@
+{
+  "services": [
+    {
+      "name": "api-gateway",
+      "type": "application",
+      "health_url": "https://api.example.com/health",
+      "critical_endpoints": ["/v1/*"],
+      "dependencies": ["auth", "orders", "payments"],
+      "owner": "platform"
+    },
+    {
+      "name": "payments",
+      "type": "application",
+      "health_url": "https://payments.example.com/health",
+      "critical_endpoints": ["/v1/charge", "/v1/refund"],
+      "dependencies": ["auth", "postgres-payments", "redis-payments", "payment-processor"],
+      "owner": "payments"
+    },
+    {
+      "name": "orders",
+      "type": "application",
+      "health_url": "https://orders.example.com/health",
+      "critical_endpoints": ["/v1/orders", "/v1/orders/{id}", "/v1/shipments"],
+      "dependencies": ["auth", "postgres-orders", "queue"],
+      "owner": "orders"
+    },
+    {
+      "name": "auth",
+      "type": "application",
+      "health_url": "https://auth.example.com/health",
+      "critical_endpoints": ["/v1/login", "/v1/token", "/v1/refresh"],
+      "dependencies": ["postgres-auth", "redis-auth"],
+      "owner": "security"
+    },
+    {
+      "name": "web-frontend",
+      "type": "application",
+      "health_url": "https://www.example.com/health",
+      "critical_endpoints": ["/", "/checkout", "/account"],
+      "dependencies": ["api-gateway"],
+      "owner": "web"
+    },
+    {
+      "name": "postgres-payments",
+      "type": "infrastructure",
+      "health_url": "tcp://db-payments.internal:5432/health",
+      "owner": "platform"
+    },
+    {
+      "name": "redis-payments",
+      "type": "infrastructure",
+      "health_url": "tcp://redis-payments.internal:6379/health",
+      "owner": "platform"
+    },
+    {
+      "name": "postgres-orders",
+      "type": "infrastructure",
+      "health_url": "tcp://db-orders.internal:5432/health",
+      "owner": "platform"
+    },
+    {
+      "name": "postgres-auth",
+      "type": "infrastructure",
+      "health_url": "tcp://db-auth.internal:5432/health",
+      "owner": "platform"
+    },
+    {
+      "name": "redis-auth",
+      "type": "infrastructure",
+      "health_url": "tcp://redis-auth.internal:6379/health",
+      "owner": "platform"
+    },
+    {
+      "name": "queue",
+      "type": "infrastructure",
+      "health_url": "tcp://queue.internal:5672/health",
+      "owner": "platform"
+    }
+  ]
+}

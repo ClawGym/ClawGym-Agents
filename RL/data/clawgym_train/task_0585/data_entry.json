@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0585",
+  "user_query": "I need you to simulate a single autonomous heartbeat of our task runner. Read input/QUEUE.md and input/task_state.json, then do exactly one cycle as follows:\n\n- If there is a running task in input/task_state.json, do not take a new task. Update the existing task’s progress to a small increment (e.g., 10%), keep it in In Progress in the queue, and write updated files to output/.\n- If there is no running task (the provided state file has all nulls), take the first task listed under the Ready section in input/QUEUE.md, move only that task to In Progress, and do not modify the text of that task. Keep all other tasks and sections exactly as they are and preserve ordering.\n\nOutput requirements:\n1) Write the updated queue to output/QUEUE.md using the same four sections and ordering as the input. Use the exact checkbox markers: \"- [ ]\" for Ready and Blocked, and \"- [x]\" for In Progress and Done Today. Do not add extra annotations to task lines.\n2) Write the updated state to output/task_state.json with these fields: current_task (string), task_status (\"running\"), estimated_completion (string, e.g., \"YYYY-MM-DD HH:MM\"), progress (start at \"0%\" if a new task was taken), started_at (string, e.g., \"YYYY-MM-DD HH:MM:SS\").\n3) Create a short one-paragraph log at output/logs/heartbeat.txt that states the decision (continued vs. started new), includes the chosen task text verbatim, and a timestamp.\n\nDo not invent or rename tasks. Do not reorder anything except moving the single chosen task from Ready to In Progress. Save all outputs under output/ with the paths above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

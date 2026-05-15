@@ -1,0 +1,5 @@
+vendor,per_person,fixed_fee,vegetarian_supported,max_attendees
+Family Feast,14,120,true,120
+Gourmet Bites,18.5,80,true,200
+Economy Eats,13,200,true,85
+BBQ King,12,100,false,150

@@ -1,0 +1,7 @@
+project_name: "Market Fluidity Repro"
+outputs:
+  metrics_dir: "output/metrics"
+  logs_dir: "output/logs"
+  reports_dir: "output/reports"
+compute:
+  high_spread_percentile: 0.5

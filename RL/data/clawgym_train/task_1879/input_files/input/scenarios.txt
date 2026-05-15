@@ -1,0 +1,10 @@
+Permission errors when invoking a function due to missing IAM role bindings.
+Cold starts impacting checkout latency during peak traffic.
+Webhook signature verification failing on payment callbacks from Stripe.
+Duplicate order creation caused by retry logic without idempotency keys.
+Unexpected 429 rate limit responses from an external API during batch processing.
+Secrets rotation causing runtime failures due to stale environment variables.
+Data encryption configuration changed; decryption failures on reading stored objects.
+Intermittent timeout errors and slow queries in the workflow runner.
+Migration from v2.0.0 to v2.0.1 requires rollback planning and verification steps.
+Incident response for a suspected credential leak in CI pipeline.

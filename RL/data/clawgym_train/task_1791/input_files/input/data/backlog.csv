@@ -1,0 +1,13 @@
+id,title,item_type,universe,est_minutes,priority,status
+C001,Batman Vol.1: Court of Owls,comic,Comics,120,1,In Progress
+C002,Flashpoint (Comic Event),comic,Comics,180,2,Not Started
+M001,Aquaman (2018),movie,DCEU,143,1,Not Started
+S001,The Flash S02E01: The Man Who Saved Central City,show_episode,Arrowverse,44,3,Completed
+S002,Arrow S03E10: Left Behind,show_episode,Arrowverse,43,2,Completed
+A001,Justice League: War,movie,Animation,79,2,Completed
+S003,Young Justice S01E26: Auld Acquaintance,show_episode,Animation,23,4,Not Started
+C003,Superman: Red Son,comic,Comics,150,1,Not Started
+C004,Wonder Woman Vol.1: The Lies,comic,Comics,130,3,In Progress
+S004,Supergirl S01E05: How Does She Do It?,show_episode,Arrowverse,42,3,Not Started
+M002,Shazam! (2019),movie,DCEU,132,2,Not Started
+C005,Green Lantern: Secret Origin,comic,Comics,160,1,Not Started

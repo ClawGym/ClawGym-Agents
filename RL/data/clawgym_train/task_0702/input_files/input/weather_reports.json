@@ -1,0 +1,43 @@
+{
+  "port": "Chornomorsk",
+  "timezone": "Europe/Kyiv",
+  "sources": [
+    {
+      "name": "MetOceanPro",
+      "station": "Chornomorsk Outer Roads",
+      "temperature_c": 12.0,
+      "conditions": "Cloudy",
+      "wind_dir": "NE",
+      "wind_kts": 14,
+      "visibility_m": 10000,
+      "precipitation": "light rain",
+      "wave_height_m": 0.9,
+      "updated_at": "2026-04-19T08:10:00+03:00"
+    },
+    {
+      "name": "Ukrhydromet",
+      "station": "Odesa Bay",
+      "temperature_c": 11.8,
+      "conditions": "Mostly Cloudy",
+      "wind_dir": "NE",
+      "wind_kts": 13.6,
+      "visibility_m": 9000,
+      "precipitation": "drizzle",
+      "wave_height_m": 0.8,
+      "updated_at": "2026-04-19T08:05:00+03:00"
+    },
+    {
+      "name": "Harbor AWS",
+      "station": "Berth 3 Roof",
+      "temperature_c": 12.5,
+      "conditions": "Cloudy",
+      "wind_dir": "NE",
+      "wind_kts": 13,
+      "visibility_m": 11000,
+      "precipitation": "none",
+      "wave_height_m": 0.6,
+      "updated_at": "2026-04-19T08:12:30+03:00"
+    }
+  ],
+  "notes": "All sources indicate persistent NE winds and overcast skies; seas below 1.0 m near port limits."
+}

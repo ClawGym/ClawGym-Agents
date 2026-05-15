@@ -1,0 +1,10 @@
+person_id,name,birth_year_reported,year,location,source_id
+P001,Mary Jenkins,1911,1930,Chicago IL,census1930
+P001,Mary Jenkins,1912,1940,Chicago IL,census1940
+P002,Charles Reed,1909,1930,Detroit MI,census1930
+P002,Charles Reed,1908,1940,Detroit MI,census1940
+P002,Charles Reed,1908,1950,Detroit MI,census1950
+P003,Lila Thompson,1919,1940,Cleveland OH,census1940
+P004,Isaiah Brooks,1904,1930,St. Louis MO,census1930
+P004,Isaiah Brooks,1905,1940,St. Louis MO,census1940
+P005,Evelyn Carter,1915,1940,Chicago IL,census1940

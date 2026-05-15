@@ -1,0 +1,8 @@
+currencies:
+  primary: "USD"
+  accepted: ["USD", "GBP", "EUR", "BTC"]
+  exchange_rates:
+    GBP_USD: 1.27
+    EUR_USD: 1.08
+    BTC_USD: 97500
+  conversion_note: "Converted at rate on invoice date. Payment accepted in invoiced currency only."

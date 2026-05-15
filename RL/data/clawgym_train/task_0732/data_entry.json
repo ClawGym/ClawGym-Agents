@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0732",
+  "user_query": "Profile my Apple Silicon Mac during a short build cycle and deliver a concise performance report.\n\nPlease do the following:\n1) Read input/requirements.yaml to get sampling parameters, required metrics, and threshold hints.\n2) Start sampling immediately and collect exactly sample_count samples at interval_ms between samples.\n3) Save the raw TOON/JSON-like samples as JSON Lines to output/raw_samples.jsonl (one JSON object per line, un-nested objects should still preserve the original field names; include timestamp, cpu_usage, gpu_usage, memory.{Total,Used,Available}, soc_metrics.{CPUPower,GPUPower,TotalPower,SocTemp}, thermal_state, and system_info.{Name,CoreCount}).\n4) Compute a summary and write it to output/summary.json with:\n   - sample_count and interval_ms\n   - cpu_usage: { avg, min, max }\n   - gpu_usage: { avg, min, max }\n   - memory_used_gb: { avg, max } (convert from memory.Used)\n   - total_power_w: { avg, max } (from soc_metrics.TotalPower)\n   - thermal_states: array of unique thermal_state values seen\n   - system_info: { Name, CoreCount }\n5) Write a readable analysis to output/report.md that includes:\n   - A short Summary section\n   - At least 3 Insights (bullet points)\n   - At least 3 Recommendations (bullet points)\n   - If any SocTemp readings exceed thermal_throttle_temp_c from the requirements file, discuss potential thermal throttling.\n\nUse only relative workspace paths (input/, output/).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

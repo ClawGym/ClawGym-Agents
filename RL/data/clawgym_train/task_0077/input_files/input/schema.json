@@ -1,0 +1,11 @@
+{
+  "fields": [
+    {"name": "date", "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    {"name": "region", "type": "string"},
+    {"name": "country", "type": "string"},
+    {"name": "cultural_group", "type": "string"},
+    {"name": "gender", "type": "string", "enum": ["Male", "Female"]},
+    {"name": "responses", "type": "integer", "min": 0}
+  ],
+  "primaryKey": ["date", "region", "country", "cultural_group", "gender"]
+}

@@ -1,0 +1,52 @@
+{
+  "entryPoints": [
+    "src/index.ts",
+    "src/server.ts",
+    "src/api/routes.ts",
+    "src/worker.ts"
+  ],
+  "modules": [
+    {
+      "name": "API",
+      "path": "src/api/",
+      "purpose": "HTTP REST endpoints and routing"
+    },
+    {
+      "name": "Auth",
+      "path": "src/auth/",
+      "purpose": "JWT/OAuth authentication and session management"
+    },
+    {
+      "name": "Billing",
+      "path": "src/billing/",
+      "purpose": "Subscription management and Stripe integration"
+    },
+    {
+      "name": "DB",
+      "path": "src/db/",
+      "purpose": "Prisma client and migrations"
+    },
+    {
+      "name": "Middleware",
+      "path": "src/middleware/",
+      "purpose": "Request middleware (auth, rate-limit, validation)"
+    }
+  ],
+  "keyFiles": [
+    "src/types/index.ts",
+    "src/config.ts",
+    "src/utils/index.ts",
+    "src/middleware/authV1.ts",
+    "src/api/routes.ts"
+  ],
+  "componentDependencies": [
+    { "from": "API", "to": "Auth" },
+    { "from": "API", "to": "DB" },
+    { "from": "Billing", "to": "API" },
+    { "from": "Auth", "to": "DB" }
+  ],
+  "dataFlowNotes": [
+    "HTTP Request: client -> src/server.ts -> src/middleware/authV1.ts (or authV2) -> src/api/routes.ts -> handler -> DB -> response",
+    "Stripe billing webhook: Stripe billing webhook -> src/billing/webhooks/stripe.ts -> signature verification -> charge/subscription handlers in src/billing/handlers/ -> DB updates -> API notifies client"
+  ]
+}

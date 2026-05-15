@@ -1,0 +1,32 @@
+{
+  "services": [
+    {
+      "name": "Local Dashboard",
+      "type": "http",
+      "url": "http://127.0.0.1:8080",
+      "expect_status": 200,
+      "timeout_ms": 2000
+    },
+    {
+      "name": "PostgreSQL",
+      "type": "tcp",
+      "host": "127.0.0.1",
+      "port": 5432,
+      "timeout_ms": 1500
+    },
+    {
+      "name": "Internal DNS Test",
+      "type": "dns",
+      "domain": "intranet.local",
+      "expect_ip": "10.0.0.5",
+      "timeout_ms": 2000
+    }
+  ],
+  "defaults": {
+    "timeout_ms": 3000,
+    "ssl_warn_days": 14,
+    "alert_cooldown_min": 30,
+    "history_retention_days": 30,
+    "history_file": "output/watchdog-history.csv"
+  }
+}

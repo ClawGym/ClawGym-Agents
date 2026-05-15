@@ -1,0 +1,26 @@
+service,usage_type,cost,tags,environment
+EC2,OnDemand Linux m5.xlarge Hours,18000.00,"app=api-service;team=platform;owner=emma;cost_center=ENG;autoscaling=true",prod
+EC2,OnDemand Linux m5.2xlarge Hours,4000.00,"app=api-service;team=platform;owner=li;cost_center=ENG;autoscaling=false",staging
+EC2,OnDemand Linux t3.large Hours,1200.00,"app=internal-tools;team=tools;owner=ben;cost_center=ENG",dev
+EC2,OnDemand Linux p3.8xlarge Hours (GPU),6500.00,"app=model-training;team=ml;owner=maya;cost_center=ML;schedule=24x7",prod
+EC2,OnDemand Linux g4dn.xlarge Hours (GPU),1200.00,"app=inference;team=ml;owner=maya;cost_center=ML;schedule=24x7",staging
+EKS,Amazon EKS Control Plane,600.00,"cluster=fleet-prod-eks;team=platform;owner=emma",prod
+EBS,EBS gp3 Volume-Usage,4200.00,"attached_to=eks-nodes;team=platform;owner=emma;backup=true",prod
+EBS,EBS gp3 Volume-Usage,900.00,"attached_to=dev-ec2;team=platform;owner=ben;backup=true",dev
+EBS,EBS Snapshot-GB-Month,1500.00,"snapshot_policy=retain-forever;owner=unknown;team=unknown",prod
+S3,S3 Standard-Storage,2600.00,"bucket=fleet-prod-data;owner=data-team;team=analytics;lifecycle=none",prod
+S3,S3 Standard-Storage,400.00,"bucket=dev-artifacts;team=tools;owner=ben;lifecycle=none",dev
+S3,S3 Glacier-Storage,150.00,"bucket=archive-logs;team=security;owner=eric;lifecycle=partial",prod
+DataTransfer,Regional-DataTransfer-InterAZ,2200.00,"source=eks-nodes;dest=rds;traffic=cross-az",prod
+NATGateway,NAT Data Processed,1800.00,"subnet=private;egress=s3,bq,api;owner=emma",prod
+NATGateway,NAT Gateway-Hours,900.00,"subnet=private;egress=misc;owner=emma",prod
+RDS,db.r6g.large Multi-AZ Instance-Hours,7000.00,"engine=postgres;multi_az=true;owner=dba;team=data",prod
+RDS,db.r6g.large Multi-AZ Instance-Hours,2200.00,"engine=postgres;multi_az=true;owner=dba;team=data",dev
+DynamoDB,Provisioned Read/Write Capacity,1100.00,"table=session-store;mode=provisioned;owner=api",prod
+CloudWatch,Logs Ingestion,2400.00,"namespace=eks;level=debug;owner=platform;retention=30d",prod
+CloudWatch,Metrics and Alarms,600.00,"namespace=app;owner=platform",prod
+WAF,AWS WAF WebACL,500.00,"env=prod;owner=security;rules=managed+custom",prod
+GuardDuty,GuardDuty Detector,380.00,"env=prod;owner=security",prod
+KMS,Key Requests,320.00,"env=dev;owner=unknown;keys=per-service",dev
+ECR,Repository Storage,150.00,"env=prod;team=platform;owner=emma",prod
+AWS Backup,Backup Storage,300.00,"scope=ebs+rds;owner=platform;retention=90d",prod

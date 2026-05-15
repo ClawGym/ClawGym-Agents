@@ -1,0 +1,7 @@
+# Local CI configuration for the simple test runner
+# The runner should read these values.
+
+test_dir: "tests"
+out_dir: "out/reports"
+json_summary: "test_summary.json"
+text_output: "test_results.txt"

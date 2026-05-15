@@ -1,0 +1,6 @@
+{
+  "include_patterns": ["python", "rscript", "chrome", "google", "matlab", "java", "jupyter", "stata"],
+  "exclude_patterns": ["system", "idle"],
+  "max_rows": 20,
+  "match_case_insensitive": true
+}

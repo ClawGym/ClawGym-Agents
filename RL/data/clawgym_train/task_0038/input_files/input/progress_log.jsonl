@@ -1,0 +1,3 @@
+{"date":"2026-04-10","screen":"Sign-in","change":"Rewrote error messages with action-oriented copy and inline validation","status":"fixed","related_issue":"Confusing sign-in error message","effort_hours":6}
+{"date":"2026-04-10","screen":"Checkout","change":"Increased primary CTA hit area to 48dp and added padding","status":"in_progress","related_issue":"Checkout button is hard to tap","effort_hours":3}
+{"date":"2026-04-11","screen":"Profile","change":"Added upload retry and progress indicator for poor network","status":"planned","related_issue":"Profile photo upload fails on slow network","effort_hours":2}

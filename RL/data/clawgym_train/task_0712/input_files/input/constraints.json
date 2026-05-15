@@ -1,0 +1,49 @@
+{
+  "budget": {
+    "monthly_usd": 8000,
+    "daily_soft_cap_usd": 300,
+    "daily_spike_cap_usd": 500
+  },
+  "throughput": {
+    "planning_requests_per_day": 20,
+    "execution_requests_per_day": 200,
+    "review_requests_per_day": 40,
+    "parallelism_limit": 10
+  },
+  "latency": {
+    "planning_p95_seconds": 60,
+    "execution_p95_seconds": 10,
+    "review_p95_seconds": 120
+  },
+  "privacy_compliance": {
+    "allow_third_party_apis": true,
+    "require_dpa": true,
+    "vendor_region": ["US", "EU"],
+    "pii_in_context": false,
+    "code_ip_sensitivity": "moderate",
+    "on_prem_required_for": ["security_audits", "pci_adjacent"]
+  },
+  "defaults": {
+    "mid_tier_default": true,
+    "prompt_caching_allowed": true,
+    "batch_api_allowed": true
+  },
+  "context_limits": {
+    "typical_input_tokens": {
+      "planning": 12000,
+      "execution": 3000,
+      "review": 8000
+    },
+    "typical_output_tokens": {
+      "planning": 2000,
+      "execution": 6000,
+      "review": 1200
+    },
+    "occasional_max_input_tokens": 150000
+  },
+  "quality_targets": {
+    "time_to_merge_reduction_percent": 25,
+    "early_defect_detection_increase_percent": 15
+  },
+  "notes": "Default to mid-tier models. Escalate to frontier for high-risk architecture or when review quality suffers. Use open-source/self-hosted for on-prem and regulated repos. Use batch APIs and prompt caching to stay within daily soft cap."
+}

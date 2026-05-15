@@ -1,0 +1,88 @@
+{
+  "company_name": "NimbusOps",
+  "product_description": "Cloud FinOps and Kubernetes cost optimization SaaS that reduces cloud spend by 20-30% through automated anomaly detection, rightsizing, and team accountability workflows.",
+  "icp": {
+    "primary": "Mid-market and enterprise DevOps/FinOps teams in SaaS, eCommerce, and digital-native enterprises with $1M+ annual cloud spend",
+    "secondary": "SMBs with rapid cloud growth and at least $250K annual cloud spend"
+  },
+  "segments": [
+    "SMB",
+    "Mid-market",
+    "Enterprise"
+  ],
+  "average_acv_by_segment_usd": {
+    "SMB": 18000,
+    "Mid-market": 45000,
+    "Enterprise": 120000
+  },
+  "sales_cycle_days_by_segment": {
+    "SMB": 45,
+    "Mid-market": 75,
+    "Enterprise": 120
+  },
+  "regions": [
+    "North America",
+    "EMEA",
+    "APAC"
+  ],
+  "current_go_to_market": {
+    "direct_to_channel_mix_percent": {
+      "direct": 90,
+      "channel": 10
+    },
+    "active_channel_models": [
+      "reseller",
+      "referral",
+      "co-sell"
+    ],
+    "oem_interest": true
+  },
+  "2026_goals_new_arr_usd": {
+    "year1": 10000000,
+    "year2": 14000000,
+    "year3": 18000000
+  },
+  "channel_share_targets_percent": {
+    "year1": 15,
+    "year2": 22,
+    "year3": 30
+  },
+  "partner_program_objectives": [
+    "Accelerate EMEA coverage via reseller partners",
+    "Increase SMB velocity using referral and reseller motions",
+    "Land co-sell in enterprise with 2-3 strategic SI/consultancy partners",
+    "Pilot OEM/white-label in APAC with one platform partner in Year 2"
+  ],
+  "differentiators": [
+    "Automated idle resource detection and rightsizing suggestions",
+    "Kubernetes-aware cost allocation and showback/chargeback",
+    "Native integrations with AWS, Azure, GCP, and Datadog",
+    "Policy-driven cost guardrails aligned to budgets"
+  ],
+  "certifications_catalog": {
+    "seller_certification": {
+      "name": "NimbusOps Certified Seller",
+      "duration_hours": 3,
+      "format": "Online, proctored, pass/fail"
+    },
+    "technical_certification": {
+      "name": "NimbusOps Technical Foundations",
+      "duration_hours": 6,
+      "format": "Online labs + live demo, pass/fail"
+    }
+  },
+  "mdf_policy_principles": {
+    "default_cost_share": "50/50 for joint webinars and campaigns",
+    "mdf_tiers": {
+      "Registered": 0,
+      "Silver": 2,
+      "Gold": 4,
+      "Platinum": 6
+    }
+  },
+  "program_notes": {
+    "pipeline_coverage_target_x": 3.0,
+    "break_even_deals_expected": 2.5,
+    "target_first_partner_close_months": 6
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "u1": {
+    "name": "Rook",
+    "race": "human",
+    "class": "rogue"
+  },
+  "u2": {
+    "name": "Nyx",
+    "race": "elf",
+    "class": "wizard"
+  }
+}

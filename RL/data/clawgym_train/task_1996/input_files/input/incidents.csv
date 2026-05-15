@@ -1,0 +1,10 @@
+Date,EventName,IncidentType,Severity,Resolved
+2024-08-15,Gala Night,Slip and Fall,Low,Yes
+2024-08-15,Gala Night,Food Allergy,Medium,Yes
+2024-09-10,Tech Expo,Minor Injury,Low,Yes
+2024-09-10,Tech Expo,Theft,Medium,No
+2024-09-25,Food Fest,Alcohol-related,Medium,Yes
+2024-09-25,Food Fest,Heat Exhaustion,Medium,Yes
+2024-09-25,Food Fest,Alcohol-related,High,No
+2024-10-05,Charity Run,Medical - Dehydration,Medium,Yes
+2024-10-05,Charity Run,Route Obstruction,Low,Yes

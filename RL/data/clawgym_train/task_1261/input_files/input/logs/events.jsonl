@@ -1,0 +1,12 @@
+{"timestamp":"2026-04-17T09:00:00Z","severity":"CRITICAL","event_type":"malware","alert_id":"A100"}
+{"timestamp":"2026-04-17T09:05:00Z","severity":"critical","event_type":"malware","alert_id":"A100"}
+{"timestamp":"2026-04-17T09:10:00Z","severity":"High","event_type":"phishing","alert_id":"A101"}
+{"timestamp":"2026-04-17T09:15:00Z","severity":"HIGH","event_type":"phishing","alert_id":"A101"}
+{"timestamp":"2026-04-17T10:00:00Z","severity":"medium","event_type":"failed_login","alert_id":"A102"}
+{"timestamp":"2026-04-17T10:05:00Z","severity":"Medium","event_type":"failed_login","alert_id":"A103"}
+{"timestamp":"2026-04-17T10:10:00Z","severity":"LOW","event_type":"vuln_scan","alert_id":"A104"}
+{"timestamp":"2026-04-17T10:15:00Z","severity":"low","event_type":"vuln_scan","alert_id":"A104"}
+{"timestamp":"2026-04-17T11:00:00Z","severity":"High","event_type":"malware","alert_id":"A105"}
+{"timestamp":"2026-04-17T11:05:00Z","severity":"CRITICAL","event_type":"ransomware","alert_id":"A106"}
+{"timestamp":"2026-04-17T11:10:00Z","severity":"critical","event_type":"ransomware","alert_id":"A106"}
+{"timestamp":"2026-04-17T11:15:00Z","severity":"LOW","event_type":"policy_violation","alert_id":"A107"}

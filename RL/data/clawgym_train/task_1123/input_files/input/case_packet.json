@@ -1,0 +1,217 @@
+{
+  "case_name": "Northshore Parts LLC v. Riverton Robotics, Inc.",
+  "citation": "No. 25-cv-1183 (N.D. Ill. 2026) (hypothetical)",
+  "court": "U.S. District Court for the Northern District of Illinois",
+  "jurisdiction": {
+    "system": "US Federal",
+    "circuit": "7th",
+    "state": "Illinois",
+    "venue_basis": "Diversity jurisdiction; amount in controversy exceeds $75,000; parties are citizens of different states (IL and WI)"
+  },
+  "procedural_posture": "Cross-motions for summary judgment on contract formation and terms; Riverton moves to compel arbitration; Northshore moves to deny arbitration and for partial summary judgment on nonconformity.",
+  "governing_law": [
+    "Illinois UCC Article 2 (sales of goods)",
+    "Electronic Signatures in Global and National Commerce Act (E-SIGN), 15 U.S.C. § 7001 et seq.",
+    "Illinois Uniform Electronic Transactions Act (UETA), 815 ILCS 333/10 et seq."
+  ],
+  "facts": {
+    "parties": {
+      "buyer": {
+        "name": "Northshore Parts LLC",
+        "state": "Illinois",
+        "business": "Industrial equipment distributor",
+        "sophistication": "Merchant"
+      },
+      "seller": {
+        "name": "Riverton Robotics, Inc.",
+        "state": "Wisconsin",
+        "business": "Robotics components manufacturer",
+        "sophistication": "Merchant"
+      }
+    },
+    "timeline": [
+      {
+        "date": "2026-03-01",
+        "event": "Video call between procurement manager at Northshore and sales manager at Riverton about servo motors."
+      },
+      {
+        "date": "2026-03-02 09:15",
+        "event": "Riverton email to Northshore: \"I will sell 1,000 units of SRV-200 servo motors at $95 each, delivery by May 15, FOB Milwaukee. Please review and place the order through our secure portal.\" Email includes portal link."
+      },
+      {
+        "date": "2026-03-02 10:05",
+        "event": "Northshore reply email: \"Looks good, confirm and send docs.\""
+      },
+      {
+        "date": "2026-03-02 10:22",
+        "event": "Northshore uses portal link; checkout page shows: product 'SRV-200', quantity 1000, unit price $95, subtotal $95,000; beneath order summary is hyperlinked text: \"By clicking 'Place Order', you accept the Terms of Sale.\" The link opens a modal with full Terms, including Section 11 (Arbitration) and specification: Model SRV-200, IP65 protection rating."
+      },
+      {
+        "date": "2026-03-02 10:25",
+        "event": "Northshore clicks 'Place Order'. No separate checkbox appears; assent recorded by click. System logs capture user, timestamp, and IP address."
+      },
+      {
+        "date": "2026-03-02 14:10",
+        "event": "Northshore emails Riverton: \"We need to add overnight shipping and change to IP67 spec; confirm.\""
+      },
+      {
+        "date": "2026-03-03",
+        "event": "Riverton acknowledges order as placed for SRV-200 IP65 units; says overnight shipping may be possible at extra charge; states IP67 upgrade is not available for SRV-200, suggests different model with price increase. No express acceptance of IP67 change."
+      },
+      {
+        "date": "2026-04-30",
+        "event": "Riverton ships 1,000 SRV-200 motors with IP65 rating; delivery occurs 2026-05-05. Packing list matches SRV-200 IP65."
+      },
+      {
+        "date": "2026-05-06",
+        "event": "Northshore inspects and claims nonconformity because parts are IP65 rather than requested IP67; refuses to pay; demands return authorization and cover costs to source IP67."
+      },
+      {
+        "date": "2026-05-10",
+        "event": "Riverton issues invoice for $95,000 and demands payment; invokes Terms of Sale Section 11 (arbitration) and moves to compel arbitration."
+      }
+    ],
+    "undisputed_points": [
+      "Both parties are merchants under the Illinois UCC.",
+      "Northshore clicked 'Place Order' on Riverton's portal.",
+      "The Terms of Sale included an arbitration clause in Section 11 and specified SRV-200 with IP65 protection rating.",
+      "The email from Riverton on 2026-03-02 contained item, quantity, price, delivery date, and FOB term.",
+      "Riverton shipped SRV-200 IP65 units by May 15 and tendered delivery."
+    ],
+    "disputed_points": [
+      "Whether Riverton's 2026-03-02 email was an offer or an invitation to negotiate.",
+      "Whether the arbitration clause and IP65 specification became part of the parties' contract.",
+      "Whether Northshore's 2026-03-02 14:10 email modifying specs to IP67 effected a contract modification.",
+      "Whether the delivered goods were nonconforming under the agreed specifications."
+    ],
+    "documents": [
+      {
+        "name": "Riverton 2026-03-02 Offer Email",
+        "key_terms": [
+          "1,000 units SRV-200",
+          "$95/unit",
+          "Delivery by May 15",
+          "FOB Milwaukee",
+          "Portal link to place order"
+        ]
+      },
+      {
+        "name": "Checkout Page (Portal)",
+        "key_terms": [
+          "Summary: SRV-200, Qty 1000, $95/unit",
+          "Hyperlink: \"By clicking 'Place Order', you accept the Terms of Sale\"",
+          "No separate checkbox",
+          "Terms modal includes: Section 11 Arbitration (AAA, Wisconsin seat), Limitation of liability (price paid cap), Specifications: SRV-200 IP65"
+        ]
+      },
+      {
+        "name": "Northshore 2026-03-02 14:10 Email",
+        "key_terms": [
+          "Requests overnight shipping",
+          "Requests change to IP67",
+          "Asks Riverton to confirm"
+        ]
+      }
+    ],
+    "claimed_damages": {
+      "northshore": {
+        "theory": "Cover and consequential damages due to alleged nonconforming goods (IP67 needed for end-customer contract).",
+        "amount": "Estimated $40,000 cover differential and $25,000 consequential losses (disclaimed by Terms)."
+      },
+      "riverton": {
+        "theory": "Contract price $95,000 plus costs and fees; arbitration compelled per Terms.",
+        "amount": "$95,000 invoice plus any collection costs permitted by Terms."
+      }
+    }
+  },
+  "issues": [
+    "Whether the parties formed a binding contract for 1,000 SRV-200 units and on what terms.",
+    "Whether Riverton's online Terms of Sale (including arbitration and limitation of liability) became part of the contract via clickwrap.",
+    "Whether Northshore's post-click email requesting IP67 constituted a contract modification requiring Riverton's express assent.",
+    "Whether shipment of SRV-200 IP65 satisfied the agreed specifications, and whether Northshore may reject or revoke acceptance under Article 2."
+  ],
+  "candidate_authorities": [
+    {
+      "title": "Midwest Machining, Inc. v. Phoenix Components, Inc.",
+      "citation": "2021 IL 129876 (Ill. 2021)",
+      "court": "Illinois Supreme Court",
+      "authority_hint": "binding",
+      "type": "case",
+      "proposition": "An email that states the item, quantity, price, and delivery date is sufficiently definite to constitute an offer; acceptance may be manifested electronically when the offeree takes an affirmative action to assent that is reasonably attributable to it."
+    },
+    {
+      "title": "Lakeview Tech, Inc. v. Greenline Supply Co.",
+      "citation": "2018 IL 127654 (Ill. 2018)",
+      "court": "Illinois Supreme Court",
+      "authority_hint": "binding",
+      "type": "case",
+      "proposition": "Clickwrap terms are enforceable when conspicuously presented proximate to the acceptance action and assent is captured by an unambiguous click; browsewrap without affirmative assent is insufficient."
+    },
+    {
+      "title": "Nationwide E-Transactions, Inc. v. Harper",
+      "citation": "2010 U.S. LEXIS 12345 (U.S. 2010)",
+      "court": "U.S. Supreme Court",
+      "authority_hint": "binding",
+      "type": "case",
+      "proposition": "Under the E-SIGN Act, electronic signatures and records cannot be denied legal effect solely because they are in electronic form; a recorded click can constitute a signature if attributable to the party."
+    },
+    {
+      "title": "Riviera Tools, LLC v. Benton Manufacturing Corp.",
+      "citation": "999 F.3d 412 (7th Cir. 2019)",
+      "court": "U.S. Court of Appeals for the Seventh Circuit",
+      "authority_hint": "binding",
+      "type": "case",
+      "proposition": "Between merchants under UCC § 2-207, arbitration and limitation-of-liability clauses are presumptively material alterations that require express assent to become part of the contract when added in an acceptance or confirmation."
+    },
+    {
+      "title": "Brightline Auto Group, Inc. v. West Loop Motors, LLC",
+      "citation": "2017 IL App (1st) 162345",
+      "court": "Illinois Appellate Court, First District",
+      "authority_hint": "persuasive",
+      "type": "case",
+      "proposition": "Hyperlinked terms positioned below the acceptance button and not requiring a click-through may be insufficient to bind a consumer; emphasizes clear notice and manifestation of assent."
+    },
+    {
+      "title": "Pacific Gadgets Co. v. SilverTech Ltd.",
+      "citation": "845 F.3d 902 (9th Cir. 2016)",
+      "court": "U.S. Court of Appeals for the Ninth Circuit",
+      "authority_hint": "persuasive",
+      "type": "case",
+      "proposition": "Affirmed enforcement of clickwrap terms where the terms were conspicuous and the user was required to take an affirmative action acknowledging the terms."
+    },
+    {
+      "title": "Metro Components, Inc. v. Sunline Imports, LLC",
+      "citation": "2020 WL 123456 (E.D.N.Y. Jan. 10, 2020)",
+      "court": "U.S. District Court for the Eastern District of New York",
+      "authority_hint": "persuasive",
+      "type": "case",
+      "proposition": "Limitation-of-liability clause added in a post-negotiation confirmation was a material alteration under § 2-207 and did not become part of the contract absent express assent."
+    },
+    {
+      "title": "Restatement (Second) of Contracts § 24",
+      "citation": "Definition of offer (1981)",
+      "court": "Secondary Source",
+      "authority_hint": "persuasive",
+      "type": "secondary",
+      "proposition": "An offer is a manifestation of willingness to enter into a bargain, so made as to justify another in understanding that his assent is invited and will conclude it."
+    }
+  ],
+  "analysis_hints": {
+    "formation_paths": [
+      "Path A (Seller Offer): Riverton’s email constituted an offer; the portal click accepted the offer (including offer-incorporated Terms). Arbitration and IP65 spec included as offer terms.",
+      "Path B (Portal Offer): Riverton’s portal and Terms were the offer; Northshore’s click accepted; arbitration and IP65 spec included.",
+      "Path C (Battle of Forms): If Northshore’s 10:05 email is construed as an offer and the portal click is a confirmation with additional terms, § 2-207 analysis applies; arbitration and limitation are material alterations requiring express assent."
+    ],
+    "modification": "Northshore’s 14:10 email requesting IP67 is a proposed modification under § 2-209 requiring Riverton’s assent; absent assent, original IP65 spec governs.",
+    "remedies": "If IP65 spec governs, goods are conforming and buyer owes price; if contract required IP67, buyer may reject or cover; consequential damages may be barred by limitation-of-liability if enforceable."
+  },
+  "requested_relief": {
+    "riverton": "Order compelling arbitration and staying/dismissing the case; alternatively, summary judgment for the price.",
+    "northshore": "Order denying arbitration; declaratory judgment that arbitration and limitation clauses are not part of the contract; damages for cover and losses."
+  },
+  "notes_for_brief_writer": [
+    "Seat in Illinois federal court; apply Illinois substantive law under Erie; federal law governs the effect of arbitration clauses under the FAA but state-law formation controls.",
+    "Assume both parties are sophisticated merchants; evaluate conspicuousness and assent on the portal.",
+    "Do not cite real cases beyond the authorities listed here; keep analysis hypothetical and consistent with provided authorities."
+  ]
+}

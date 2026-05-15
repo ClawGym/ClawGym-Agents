@@ -1,0 +1,126 @@
+[
+  {
+    "id": "r1",
+    "kind": "fact",
+    "entity": "Alice Nguyen",
+    "content": "Alice prefers dark mode on all devices and uses it at night",
+    "timestamp": "2026-04-10T09:00:00Z",
+    "provenance": {
+      "sourceId": "s1",
+      "sourceLabel": "pref-log",
+      "capturedAt": "2026-04-10T09:05:00Z"
+    },
+    "tags": ["ui", "preference"]
+  },
+  {
+    "id": "r2",
+    "kind": "fact",
+    "entity": "Alice Nguyen",
+    "content": "Alice prefers dark mode on devices; uses it at night",
+    "timestamp": "2026-04-11T08:00:00Z",
+    "provenance": {
+      "sourceId": "s2",
+      "sourceLabel": "settings-sync",
+      "capturedAt": "2026-04-11T08:10:00Z"
+    },
+    "tags": ["ui"]
+  },
+  {
+    "id": "r3",
+    "kind": "fact",
+    "entity": "Bob Harper",
+    "content": "Bob has 3 cats at home",
+    "timestamp": "2026-04-15T12:00:00Z",
+    "provenance": {
+      "sourceId": "s3",
+      "sourceLabel": "hr-note",
+      "capturedAt": "2026-04-15T12:05:00Z"
+    },
+    "tags": ["personal", "pets"]
+  },
+  {
+    "id": "r4",
+    "kind": "fact",
+    "entity": "Bob Harper",
+    "content": "Bob has 0 cats",
+    "timestamp": "2026-04-16T09:15:00Z",
+    "provenance": {
+      "sourceId": "s4",
+      "sourceLabel": "slack-msg",
+      "capturedAt": "2026-04-16T09:16:00Z"
+    },
+    "tags": ["personal", "pets"]
+  },
+  {
+    "id": "r5",
+    "kind": "goal",
+    "entity": "dana rivera",
+    "content": "Dana Rivera's weekly goal: publish 2 blog posts",
+    "timestamp": "2026-04-05T08:00:00Z",
+    "provenance": {
+      "sourceId": "s5",
+      "sourceLabel": "goals",
+      "capturedAt": "2026-04-05T08:05:00Z"
+    },
+    "tags": ["content", "q2"]
+  },
+  {
+    "id": "r6",
+    "kind": "goal",
+    "entity": "Dana Rivera",
+    "content": "Q2 blogging plan for Dana Rivera: publish two blog posts per week",
+    "timestamp": "2026-04-06T08:30:00Z",
+    "provenance": {
+      "sourceId": "s6",
+      "sourceLabel": "planning",
+      "capturedAt": "2026-04-06T08:35:00Z"
+    },
+    "tags": ["content", "planning"]
+  },
+  {
+    "id": "r7",
+    "kind": "speculation",
+    "entity": "ACME Corp",
+    "content": "ACME Corp might migrate to PostgreSQL in Q1",
+    "timestamp": "2026-02-10T11:00:00Z",
+    "provenance": {
+      "sourceId": "s7",
+      "sourceLabel": "rumor-mill",
+      "capturedAt": "2026-02-10T11:05:00Z"
+    },
+    "tags": ["tech", "database"]
+  },
+  {
+    "id": "r8",
+    "kind": "Fact",
+    "entity": "Acme Corp",
+    "content": "Acme Corp decided to adopt PostgreSQL for analytics",
+    "timestamp": "2026-04-03T14:00:00Z",
+    "provenance": {
+      "sourceId": "s8",
+      "sourceLabel": "tech-brief",
+      "capturedAt": "2026-04-03T14:05:00Z"
+    },
+    "tags": ["tech", "database"]
+  },
+  {
+    "id": "r10",
+    "kind": "fact",
+    "entity": "ACME Corporation",
+    "content": "ACME Corporation uses PostgreSQL for analytics workloads",
+    "timestamp": "2026-04-04T10:00:00Z",
+    "provenance": {
+      "sourceId": "s9",
+      "sourceLabel": "press",
+      "capturedAt": "2026-04-04T10:10:00Z"
+    },
+    "tags": ["tech", "database"]
+  },
+  {
+    "id": "r_bad1",
+    "kind": "FACT",
+    "entity": "Test User",
+    "content": "Broken record for testing",
+    "timestamp": "not-a-date"
+  }
+]

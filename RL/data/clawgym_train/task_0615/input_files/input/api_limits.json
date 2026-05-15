@@ -1,0 +1,27 @@
+{
+  "apis": {
+    "openai": {
+      "limit": 60,
+      "windowMs": 60000,
+      "retry": true,
+      "maxRetries": 3,
+      "queueSize": 200,
+      "strategy": "conservative",
+      "notes": "Classification only; prefer short prompts. Back off on 429 and 5xx; jittered waits."
+    },
+    "zendesk": {
+      "limit": 120,
+      "windowMs": 60000,
+      "retry": true,
+      "maxRetries": 5,
+      "queueSize": 500,
+      "strategy": "batch",
+      "notes": "Ticket create/update with idempotency keys; respect 429 headers if present. Queue bursts."
+    }
+  },
+  "general": {
+    "jitterMs": [250, 750],
+    "timeoutMs": 15000,
+    "idempotency": true
+  }
+}

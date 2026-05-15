@@ -1,0 +1,96 @@
+{
+  "blog_posts": [
+    {
+      "id": "b1",
+      "title": "Designing Scannable Lists: From F-pattern to Focus",
+      "date": "2026-03-22",
+      "author": "Avery Quinn",
+      "category": "Design Systems",
+      "excerpt": "How to structure blog indexes and search results for faster scanning and better comprehension.",
+      "url": "/blog/designing-scannable-lists",
+      "thumbnail_url": "https://picsum.photos/id/1025/160/160"
+    },
+    {
+      "id": "b2",
+      "title": "Rich vs Simple Lists: Picking the Right Variant for Your Use Case",
+      "date": "2026-02-18",
+      "author": "Maya Chen",
+      "category": "UX Patterns",
+      "excerpt": "Simple lists are efficient for navigation and TOCs; rich lists shine for content discovery like blogs.",
+      "url": "/blog/rich-vs-simple-lists",
+      "thumbnail_url": "https://picsum.photos/id/1043/160/160"
+    },
+    {
+      "id": "b3",
+      "title": "Infinite Scroll Without SEO Regret: Pagination Fallbacks That Work",
+      "date": "2025-12-09",
+      "author": "Jordan Patel",
+      "category": "SEO",
+      "excerpt": "A practical approach to pairing infinite scroll with crawlable, paginated URLs and accessible navigation.",
+      "url": "/blog/infinite-scroll-seo-pagination",
+      "thumbnail_url": "https://picsum.photos/id/1005/160/160"
+    },
+    {
+      "id": "b4",
+      "title": "Compact vs Relaxed Density: Balancing Speed and Comfort",
+      "date": "2025-11-01",
+      "author": "Avery Quinn",
+      "category": "Design Systems",
+      "excerpt": "Use compact density for high-intent scans like search; relaxed density for exploratory reading like blogs.",
+      "url": "/blog/compact-vs-relaxed-density",
+      "thumbnail_url": "https://picsum.photos/id/1011/160/160"
+    },
+    {
+      "id": "b5",
+      "title": "Metadata Hierarchy: Date, Author, Category—What Users Actually Notice",
+      "date": "2025-09-17",
+      "author": "Kai Morgan",
+      "category": "Content Strategy",
+      "excerpt": "Clarify roles of metadata and avoid clutter by styling them as secondary to titles.",
+      "url": "/blog/metadata-hierarchy",
+      "thumbnail_url": "https://picsum.photos/id/1032/160/160"
+    }
+  ],
+  "search_results": [
+    {
+      "id": "s1",
+      "title": "List vs Grid: Choosing the Right Layout for Content",
+      "type": "Article",
+      "date": "2025-12-14",
+      "snippet": "Lists are optimal for text-heavy items and scanning by title; grids excel for visual browsing.",
+      "url": "/articles/list-vs-grid"
+    },
+    {
+      "id": "s2",
+      "title": "Documentation: List Component API and Variants",
+      "type": "Doc",
+      "date": "2026-01-05",
+      "snippet": "API for simple, rich, table-like, and thumbnail list variants with props and accessibility notes.",
+      "url": "/docs/components/list"
+    },
+    {
+      "id": "s3",
+      "title": "Search UX: Improving Relevance with Better Snippets",
+      "type": "Article",
+      "date": "2025-10-26",
+      "snippet": "Snippets should preview the answer, not repeat the title; keep them to 1–2 succinct lines.",
+      "url": "/articles/search-ux-snippets"
+    },
+    {
+      "id": "s4",
+      "title": "SEO Guide: Paginated URLs for Infinite Scroll",
+      "type": "Page",
+      "date": "2025-08-02",
+      "snippet": "Pair infinite scroll with crawlable pagination to preserve indexing and shareable positions.",
+      "url": "/guides/seo-pagination"
+    },
+    {
+      "id": "s5",
+      "title": "Accessibility Checklist for List-Based Pages",
+      "type": "Doc",
+      "date": "2026-03-01",
+      "snippet": "Ensure list semantics, logical focus order, and 44px touch targets for all interactive elements.",
+      "url": "/docs/a11y/list-checklist"
+    }
+  ]
+}

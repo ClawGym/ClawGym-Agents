@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0686",
+  "user_query": "I'm running OpenClaw on a 4GB Raspberry Pi and it's getting sluggish. Please audit the resource snapshot and propose a safe cleanup and config optimization tailored for low-spec machines.\n\nRead these files:\n- input/resources.json — system resource snapshot JSON from a recent check\n- input/current_config.json — my current OpenClaw config\n- input/user_constraints.md — my preferences and constraints\n\nDeliverables (write exactly to these paths):\n- output/diagnostics.json — normalized metrics and alert assessment, including the thresholds used and a brief summary of top memory consumers\n- output/cleanup_plan.md — a step-by-step plan with a 'Dry run plan' section and an 'Aggressive cleanup' section, explicit risk disclosures, and commands as plain text; use only relative workspace paths; if alert is WARNING or CRITICAL, include the exact sentence: 'Do not spawn new subagents.' Respect my constraint to avoid clearing the pip cache\n- output/recommended_config.json — a JSON configuration proposal for low-spec machines (use a free/lightweight model, set thinking to 'off', limit concurrent subagents to 2, heartbeat interval at least 1800000 ms, and prefer mode 'run' for subagents)\n\nNotes:\n- Keep the plan conservative by default and ask for confirmation before aggressive steps\n- Include guidance like 'one browser at a time' and 'close browser after use'\n- Do not reference any absolute OS paths; use relative workspace paths like input/ and output/ only",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

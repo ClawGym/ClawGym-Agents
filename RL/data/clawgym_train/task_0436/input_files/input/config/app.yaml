@@ -1,0 +1,12 @@
+app_name: "HarmonyNotes"
+share_public: true
+export_private_notes_to_public: true
+debug:
+  enabled: true
+  log_level: "DEBUG"
+  log_path: "public/logs/debug.log"
+secrets:
+  api_token: "hg_live_8f3a12BETASECRET"
+sync_targets:
+  - "public"
+  - "local_backup"

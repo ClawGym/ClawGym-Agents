@@ -1,0 +1,29 @@
+{"cause":"Nginx misconfigured","action":"added proxy_pass","effect":"site loaded","outcome":"success","tags":["nginx","reverse-proxy"]}
+{"cause":"nginx misconfigured ","action":"ADDED PROXY_PASS","effect":"SITE LOADED","outcome":"success","tags":["ops","NGINX"]}
+{"cause":" nginx misconfigured","action":"added proxy_pass","effect":"site loaded","outcome":"failure"}
+{"cause":"NGINX MISCONFIGURED","action":"added proxy_pass","effect":"site loaded","outcome":"unknown","tags":["incident-2026-03"]}
+
+{"cause":"Database at max connections","action":"Increase pool size","effect":"Reduced timeouts","outcome":"success","tags":["database","performance"]}
+{"cause":"database at max connections","action":"increase pool size","effect":"reduced timeouts","outcome":"failure","tags":["incident-2026-02"]}
+{"cause":" database at max connections ","action":"increase pool size","effect":"reduced timeouts","outcome":"success"}
+
+{"cause":"Cache cold","action":"Warmed cache with prefetch","effect":"Latency improved","outcome":"success","tags":["cache"]}
+{"cause":"CACHE COLD","action":"warmed cache with prefetch","effect":"Latency Improved","outcome":"unknown","tags":["warmup"]}
+
+{"cause":"Disk nearly full","action":"Rotated logs","effect":"Freed space","outcome":"success","tags":["storage","logs"]}
+{"cause":"disk nearly full","action":"rotated logs","effect":"freed space","outcome":"success"}
+{"cause":"DISK NEARLY FULL","action":"rotated logs","effect":"freed space","outcome":"unknown","tags":["maintenance"]}
+
+{"cause":"CPU throttling due to heat","action":"Cleaned fans","effect":"Normal clock speeds","outcome":"success","tags":["hardware","maintenance"]}
+
+{"cause":"Service crash on deploy","action":"Rolled back","effect":"Service restored","outcome":"success","tags":["deploy","rollback"]}
+{"cause":" service crash on deploy","action":"rolled back","effect":"service restored","outcome":"failure","tags":["incident-2026-01"]}
+
+{"cause":"Memory leak","action":"Restarted service","effect":"Temporary relief","outcome":"unknown","tags":["memory","stopgap"]}
+{"cause":"MEMORY LEAK","action":"restarted service","effect":"temporary relief","outcome":"success"}
+
+{"cause":"DNS misconfigured","action":"Flushed resolver cache","effect":"Names resolved","outcome":"success","tags":["dns","cache"]}
+{"cause":"dns misconfigured","action":"flushed resolver cache ","effect":"names resolved","outcome":"success"}
+
+{"cause":"Queue backed up","action":"Added worker instances","effect":"Queue drained","outcome":"success","tags":["workers","scaling"]}
+{"cause":"queue backed up","action":"added worker instances","effect":"queue drained","outcome":"failure"}

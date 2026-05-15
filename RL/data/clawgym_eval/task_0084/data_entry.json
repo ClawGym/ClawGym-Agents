@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0084",
+  "user_query": "Read input/SKILLS.md (skills catalog), input/keywords.yaml (skill-to-keyword mapping), input/tasks.jsonl (task descriptions with IDs), and input/config.yaml. For each task, determine which skill files should be lazily loaded using this scoring rule: count case-insensitive keyword hits per skill; mark confidence \"high\" for skills with the highest hit count for that task; mark confidence \"medium\" for skills with hit count >= 50% of the highest; exclude all others. Use file paths and size tokens exactly as listed in input/SKILLS.md. Write output/recommendations.json containing one object per task ID with fields: id (int), recommended (array of objects with fields: skill (lowercase name), file (path from SKILLS.md), confidence (\"high\" or \"medium\"), size_tokens (integer from SKILLS.md)). Also write output/skills_loaded.json listing the unique set of skills to load across the entire session (array of objects with the same fields as in recommendations, deduplicated by skill). Finally, write output/session_plan.md containing exactly four lines: \"Naive cost tokens: X\", \"Lazy cost tokens: Y\", \"Savings tokens: Z\", \"Savings percent: P%\" where Naive cost tokens is the sum of all Size values from input/SKILLS.md (as if loading every skill), Lazy cost tokens is catalog_tokens from input/config.yaml plus the sum of size_tokens for the unique skills in output/skills_loaded.json, Savings tokens equals Naive minus Lazy, and Savings percent equals floor(Savings tokens / Naive cost tokens * 100). Do not include any skills with low relevance and do not recommend or load every skill.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

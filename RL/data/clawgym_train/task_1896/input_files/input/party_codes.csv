@@ -1,0 +1,5 @@
+Code,DisplayName,Type,Role,Notes
+CORE_SYS,Core Banking System,INTERNAL,DEBTOR_AGENT,Source of outbound SCT instructions
+SEPA_CLEARING,SEPA Clearinghouse,CLEARINGHOUSE,CREDITOR_AGENT,External SCT clearing endpoint
+CLEARING_SEPA_OUTBOUND,SEPA Clearing Outbound SP,CLEARINGHOUSE,CREDITOR_AGENT,Proposed SP name for RSAD model
+CLEARING_SEPA_HTTP_OUT,SEPA Clearing HTTP Outbound Channel,CHANNEL,OUTBOUND,Proposed Channel name for RSAD model and exports

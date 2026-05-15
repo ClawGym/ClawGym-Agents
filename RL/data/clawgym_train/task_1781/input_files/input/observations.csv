@@ -1,0 +1,4 @@
+id,telescope,obs_date,mass_estimate
+BH001,EventHorizonTelescope,2019-04-10,6.5e9
+BH002,Chandra,2020-05-12,4.0e7
+BH003,LIGO,2017-08-17,30

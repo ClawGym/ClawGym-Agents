@@ -1,0 +1,39 @@
+{
+  "job_name": "VisionBench ResNet50 - Experiment R3",
+  "description": "Fine-tune ResNet50 on the VisionBench-1.2 image dataset with mixed precision and aggressive augmentation. Baseline compares cosine LR schedule vs. step decay.",
+  "duration_minutes": 360,
+  "framework": "keras",
+  "pipeline": {
+    "dataset": "datasets/visionbench-1.2",
+    "image_size": [224, 224],
+    "batch_size": 64,
+    "epochs": 50,
+    "optimizer": {
+      "name": "adamw",
+      "learning_rate": 0.001,
+      "weight_decay": 0.0005
+    },
+    "augmentation": {
+      "random_flip": true,
+      "random_rotate_deg": 15,
+      "color_jitter": true
+    },
+    "callbacks": [
+      "EarlyStopping(patience=7, restore_best_weights=True)",
+      "ReduceLROnPlateau(factor=0.5, patience=3)",
+      "ModelCheckpoint(save_best_only=True)"
+    ]
+  },
+  "resources": {
+    "gpus": 1,
+    "mixed_precision": true,
+    "num_workers": 8
+  },
+  "preflight_requirements": {
+    "min_free_disk_gb": 25,
+    "max_cpu_pct_before_start": 50,
+    "max_ram_pct_before_start": 65,
+    "max_temp_c_before_start": 80
+  },
+  "notes": "Run macvital pre-flight gate for one minute before starting. If gate decision is wait, retry after 10 minutes; if abort, notify operator. Prefer running on power and stable thermals."
+}

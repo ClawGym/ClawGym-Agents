@@ -1,0 +1,196 @@
+{
+  "organization": {
+    "name": "NimbusLedger, Inc.",
+    "industry": "B2B SaaS (Workflow & Billing Automation)",
+    "headcount": 62,
+    "customers": 410,
+    "customer_regions": ["US", "EU", "UK", "CA"]
+  },
+  "environments": [
+    "production",
+    "staging"
+  ],
+  "cloud": {
+    "provider": "AWS",
+    "accounts": [
+      {
+        "name": "prod",
+        "account_id": "842311998765",
+        "regions": ["us-east-1", "us-west-2"],
+        "vpc_cidr": "10.20.0.0/16",
+        "subnets": {
+          "public": ["10.20.1.0/24", "10.20.2.0/24"],
+          "private": ["10.20.10.0/24", "10.20.11.0/24"]
+        }
+      },
+      {
+        "name": "staging",
+        "account_id": "842311998766",
+        "regions": ["us-east-1"],
+        "vpc_cidr": "10.30.0.0/16",
+        "subnets": {
+          "public": ["10.30.1.0/24"],
+          "private": ["10.30.10.0/24"]
+        }
+      }
+    ]
+  },
+  "data_classes": {
+    "PII": ["full name", "email", "billing address", "IP address"],
+    "Payment": ["tokenized card references (Stripe)", "last4", "billing zip"],
+    "Logs": ["application logs", "HTTP access logs", "metrics traces"],
+    "IP": ["internal workflow logic", "scoring heuristics"],
+    "PHI": []
+  },
+  "users": {
+    "roles": [
+      {"role": "Administrator", "count": 6, "privileges": ["org-admin", "prod-access"]},
+      {"role": "Engineer", "count": 22, "privileges": ["deploy", "logs", "metrics"]},
+      {"role": "Support", "count": 14, "privileges": ["read-only admin portal", "Zendesk"]},
+      {"role": "Sales/CS", "count": 12, "privileges": ["read-only analytics", "Segment"]},
+      {"role": "Contractor", "count": 8, "privileges": ["limited repo access", "no prod"]}
+    ],
+    "identity_provider": "Okta",
+    "mfa_policy": {
+      "admins": "required",
+      "staff": "optional",
+      "contractors": "optional"
+    },
+    "sso_targets": ["admin portal", "GitHub (SSO enforced)", "Zendesk", "Slack"],
+    "joiner_mover_leaver": {
+      "deprovision_sla_days": 2,
+      "last_audit": "2026-02-15"
+    }
+  },
+  "security": {
+    "waf_cdn": {
+      "provider": "Cloudflare",
+      "plan": "Pro",
+      "waf_mode": "standard",
+      "bot_management": "disabled",
+      "custom_rules": []
+    },
+    "secrets_management": {
+      "kms": "AWS KMS",
+      "store": "AWS Secrets Manager",
+      "key_rotation_days": 365
+    },
+    "vulnerability_management": {
+      "container_scanning": "weekly",
+      "dependency_scanning": "weekly",
+      "last_full_scan": "2026-03-01"
+    },
+    "patch_cadence": {
+      "os_patching_days": 30,
+      "container_base_image_update_days": 14
+    },
+    "backups": {
+      "rds_automated_backup_days": 7,
+      "rds_snapshot_schedule": "monthly manual",
+      "restore_tests_last_date": "2025-12-05",
+      "rpo_hours": 4,
+      "rto_hours": 8
+    },
+    "logging_monitoring": {
+      "provider": "Datadog",
+      "centralized_logs": true,
+      "log_retention_days": 30,
+      "audit_log_retention_days": 7,
+      "alerting": ["pagerduty for P1", "slack for P2-3"]
+    }
+  },
+  "assets": {
+    "kubernetes": [
+      {
+        "name": "eks-prod",
+        "cluster": "eks-prod",
+        "version": "1.28",
+        "network_policies_enabled": false,
+        "default_serviceaccount_automount": true,
+        "pod_security_standards": "baseline",
+        "ingress": {
+          "controller": "nginx-ingress",
+          "public": true
+        },
+        "rbac_notes": "staging-deploy service account has cluster-admin in staging; IAM role mapping permits cross-account prod access for legacy jobs"
+      }
+    ],
+    "databases": [
+      {
+        "name": "rds-prod-app",
+        "engine": "PostgreSQL 15",
+        "encryption_at_rest": true,
+        "audit_logs_enabled": true,
+        "audit_log_retention_days": 7,
+        "subnet_group": "private",
+        "public_access": false
+      }
+    ],
+    "storage": [
+      {
+        "name": "s3-prod-user-uploads",
+        "purpose": "customer file uploads",
+        "encryption": "SSE-S3",
+        "block_public_access": false,
+        "versioning": true,
+        "object_acl_patterns": ["private", "public-read (legacy share links)"],
+        "lifecycle": ["transition to STANDARD_IA after 60 days", "expire after 365 days"]
+      },
+      {
+        "name": "s3-prod-logs",
+        "purpose": "access and app logs",
+        "encryption": "SSE-S3",
+        "block_public_access": true,
+        "versioning": false,
+        "lifecycle": ["expire after 30 days"]
+      }
+    ],
+    "cache": [
+      {
+        "name": "elasticache-prod-redis",
+        "engine": "Redis 7",
+        "encryption_in_transit": false,
+        "auth_token_enabled": true,
+        "subnet_group": "private"
+      }
+    ],
+    "edge": {
+      "api_domain": "api.nimbusledger.com",
+      "admin_portal_domain": "admin.nimbusledger.com",
+      "rate_limiting": {
+        "login_endpoint_rps_limit": 25,
+        "api_per_key_rpm_limit": 600
+      },
+      "admin_ip_allowlist_enabled": false
+    },
+    "cicd": {
+      "github_actions": {
+        "oidc_to_aws": true,
+        "aws_role_name": "gha-prod-deploy",
+        "attached_policies": ["arn:aws:iam::aws:policy/AmazonS3FullAccess", "custom: deploy-eks"],
+        "secrets_rotation_days": 540,
+        "workflows_requiring_approval": ["prod-deploy"]
+      }
+    }
+  },
+  "network_topology": {
+    "ingress": [
+      "Internet -> Cloudflare (TLS 1.2+) -> Nginx Ingress (EKS) -> Services"
+    ],
+    "egress": [
+      "Services -> RDS (private)",
+      "Services -> Redis (private)",
+      "Services -> S3 (public endpoints via VPC egress NAT)"
+    ],
+    "vpn": "None (engineering via SSO and scoped IAM roles)"
+  },
+  "concerns": [
+    "Admin portal not yet behind IP allowlist",
+    "Redis in-transit encryption disabled due to legacy client compatibility",
+    "Short retention for RDS audit logs",
+    "Optional MFA for most staff accounts",
+    "Cloudflare WAF using default rules only",
+    "Legacy share links on user uploads bucket"
+  ],
+  "last_updated": "2026-04-12"
+}

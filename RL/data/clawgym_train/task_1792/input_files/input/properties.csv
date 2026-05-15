@@ -1,0 +1,6 @@
+property_id,property_name,city,area_sq_m,status
+P001,Al Noor Palace,Abu Dhabi,12000,Occupied
+P002,Desert Retreat Villa,Al Ain,800,Vacant
+P003,Marina Residence,Dubai,450,Occupied
+P004,Oasis Farmhouse,Liwa,2500,Occupied
+P005,Heritage Guest House,Sharjah,600,Renovation

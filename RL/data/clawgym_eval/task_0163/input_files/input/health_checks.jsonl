@@ -1,0 +1,17 @@
+{"timestamp":"2026-03-16T10:00:00Z","gateway_status":"healthy","http_ok":true}
+{"timestamp":"2026-03-16T10:05:00Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T10:07:00Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T10:08:30Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T10:10:00Z","gateway_status":"healthy","http_ok":true}
+{"timestamp":"2026-03-16T10:12:00Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T10:15:00Z","gateway_status":"failed","http_ok":true}
+{"timestamp":"2026-03-16T10:20:00Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T10:40:00Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T10:45:00Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T11:00:10Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T11:01:00Z","gateway_status":"healthy","http_ok":true}
+{"timestamp":"2026-03-16T11:02:00Z","gateway_status":"failed","http_ok":true}
+{"timestamp":"2026-03-16T11:02:30Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T11:03:20Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T11:04:00Z","gateway_status":"failed","http_ok":false}
+{"timestamp":"2026-03-16T11:20:00Z","gateway_status":"healthy","http_ok":true}

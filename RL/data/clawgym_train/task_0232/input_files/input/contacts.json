@@ -1,0 +1,7 @@
+{
+  "neurologist": {"name": "Dr. Mei Alvarez", "email": "dr.alvarez@example.org"},
+  "integrative_clinic": {"name": "Integrative Neuro Care Coordinator", "email": "care@integrativeneuro.example.org"},
+  "support_group": {"name": "Parkinson's Support Circle Facilitator", "email": "support@communitycare.example.org"},
+  "caregiver_name": "Jordan Lee",
+  "loved_one_name": "Alex Lee"
+}

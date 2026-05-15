@@ -1,0 +1,12 @@
+From: performance@club.example
+To: analysts@club.example
+Subject: Training Load Snapshot
+Date: Wed, 11 Sep 2024 12:30:00 +0000
+Content-Type: text/plain; charset="UTF-8"
+
+{"players":[
+ {"name":"Maria Silva","acute_chronic":0.90,"flag":"green"},
+ {"name":"John Doe","acute_chronic":1.70,"flag":"amber"},
+ {"name":"Aisha Khan","acute_chronic":2.10,"flag":"red"},
+ {"name":"Sofia Petrova","acute_chronic":1.20,"flag":"amber"}
+]}

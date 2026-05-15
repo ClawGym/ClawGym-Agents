@@ -1,0 +1,12 @@
+FOR IMMEDIATE RELEASE
+
+Arcadia Systems Unveils Revolutionary “Aurora” Platform — A Game-Changing Shift for Real-Time Analytics
+
+San Francisco, CA — Arcadia Systems today announced Aurora, a revolutionary, game-changing platform that delivers unprecedented speed and clarity for real-time analytics. This launch marks a new era for data teams, enabling organizations to change everything about how they observe, decide, and act.
+
+Aurora introduces an unparalleled engine that adapts automatically, providing the most important insights at the exact moment they’re needed. Early pilots with thousands of users in the community report incredible gains in throughput and “amazing” end-user experiences. Research proves that streamlined observability reduces incident time, and our internal studies show consistent performance across complex workloads.
+
+“We are the only one delivering a truly unified, zero-friction experience,” said Dana Cole, VP of Product. “The transition to Aurora is inevitable — momentum is unstoppable as customers standardize on a single platform.”
+
+Availability
+Aurora is available today for enterprise customers, with broader access rolling out over the next quarter. To learn more, visit our homepage or contact press@arcadiasystems.example.

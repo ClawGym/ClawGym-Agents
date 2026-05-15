@@ -1,0 +1,116 @@
+{
+  "plan": "Users API Test Plan",
+  "version": "1.0.0",
+  "description": "Functional and contract tests for the Users REST service, plus a small performance scenario. Treat input/openapi.yaml as the contract source of truth.",
+  "base_url": "http://127.0.0.1:8000",
+  "contract": {
+    "openapi_path": "input/openapi.yaml",
+    "validate_responses": true,
+    "validate_requests": true
+  },
+  "coverage": {
+    "endpoints": [
+      "GET /api/users",
+      "POST /api/users",
+      "GET /api/users/{id}",
+      "PUT /api/users/{id}",
+      "DELETE /api/users/{id}"
+    ],
+    "requirements": [
+      "Happy path coverage for all five endpoints",
+      "At least one negative test for invalid payloads",
+      "At least one negative test for unknown resource IDs (404)",
+      "Validate status codes and Content-Type application/json where applicable",
+      "Validate response bodies against the OpenAPI schemas"
+    ]
+  },
+  "happy_paths": [
+    {
+      "name": "List users (200)",
+      "method": "GET",
+      "path": "/api/users",
+      "expect_status": 200
+    },
+    {
+      "name": "Create user (201)",
+      "method": "POST",
+      "path": "/api/users",
+      "body": { "name": "Test User", "email": "test.user@example.com" },
+      "expect_status": 201
+    },
+    {
+      "name": "Get created user (200)",
+      "method": "GET",
+      "path": "/api/users/{id}",
+      "id_source": "from_create",
+      "expect_status": 200
+    },
+    {
+      "name": "Update user name (200)",
+      "method": "PUT",
+      "path": "/api/users/{id}",
+      "id_source": "from_create",
+      "body": { "name": "Updated Name" },
+      "expect_status": 200
+    },
+    {
+      "name": "Delete user (204)",
+      "method": "DELETE",
+      "path": "/api/users/{id}",
+      "id_source": "from_create",
+      "expect_status": 204
+    }
+  ],
+  "negative_tests": [
+    {
+      "name": "Create user missing name (400)",
+      "method": "POST",
+      "path": "/api/users",
+      "body": { "email": "missing.name@example.com" },
+      "expect_status": 400
+    },
+    {
+      "name": "Create user invalid email (400)",
+      "method": "POST",
+      "path": "/api/users",
+      "body": { "name": "Invalid Email", "email": "not-an-email" },
+      "expect_status": 400
+    },
+    {
+      "name": "Get unknown user (404)",
+      "method": "GET",
+      "path": "/api/users/9999",
+      "expect_status": 404
+    },
+    {
+      "name": "Update with empty body (400)",
+      "method": "PUT",
+      "path": "/api/users/{id}",
+      "id_source": "from_create",
+      "body": {},
+      "expect_status": 400
+    },
+    {
+      "name": "Delete unknown user (404)",
+      "method": "DELETE",
+      "path": "/api/users/9999",
+      "expect_status": 404
+    }
+  ],
+  "performance": {
+    "scenario": "Concurrent GET to list users",
+    "concurrency": 10,
+    "total_requests": 100,
+    "target": { "method": "GET", "path": "/api/users" },
+    "thresholds": {
+      "error_rate_max_percent": 1.0
+    }
+  },
+  "data_seed": {
+    "users": [
+      { "id": 1, "name": "Alice Example", "email": "alice@example.com" },
+      { "id": 2, "name": "Bob Example", "email": "bob@example.com" }
+    ]
+  },
+  "notes": "Use application/json for all requests and responses. No authentication is required for this harness. The mock server should implement basic validation per the OpenAPI contract (e.g., email format, required fields, path param integer)."
+}

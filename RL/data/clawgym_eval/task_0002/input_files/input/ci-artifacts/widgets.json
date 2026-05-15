@@ -1,0 +1,51 @@
+{
+  "repository": "acme/widgets",
+  "total_count": 5,
+  "artifacts": [
+    {
+      "id": 1001,
+      "name": "unit-tests",
+      "size_in_bytes": 524288000,
+      "expired": false,
+      "expires_at": "2030-04-01T10:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/widgets/actions/artifacts/1001/zip",
+      "workflow_run": { "id": 1101 }
+    },
+    {
+      "id": 1002,
+      "name": "coverage-html",
+      "size_in_bytes": 335544320,
+      "expired": false,
+      "expires_at": "2030-04-02T10:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/widgets/actions/artifacts/1002/zip",
+      "workflow_run": { "id": 1102 }
+    },
+    {
+      "id": 1003,
+      "name": "coverage-html",
+      "size_in_bytes": 230686720,
+      "expired": true,
+      "expires_at": "2025-12-31T23:59:59Z",
+      "archive_download_url": "https://api.github.com/repos/acme/widgets/actions/artifacts/1003/zip",
+      "workflow_run": { "id": 1103 }
+    },
+    {
+      "id": 1004,
+      "name": "",
+      "size_in_bytes": 104857600,
+      "expired": false,
+      "expires_at": "2030-04-03T10:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/widgets/actions/artifacts/1004/zip",
+      "workflow_run": { "id": 1104 }
+    },
+    {
+      "id": 1005,
+      "name": "",
+      "size_in_bytes": 83886080,
+      "expired": false,
+      "expires_at": "2030-04-04T10:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/widgets/actions/artifacts/1005/zip",
+      "workflow_run": { "id": 1105 }
+    }
+  ]
+}

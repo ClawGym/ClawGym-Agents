@@ -1,0 +1,138 @@
+{
+  "full_name": "Avery Morgan Clark",
+  "pronouns": "they/them",
+  "location": "Boston, MA, USA",
+  "current_role": "Founder and Principal, Northstar Lab",
+  "headline": "AI product leader and ethicist helping teams ship accountable, human-centered AI.",
+  "focus_areas": [
+    "responsible AI",
+    "product strategy",
+    "governance",
+    "human-centered design",
+    "measurement and accountability"
+  ],
+  "summary": "Avery Morgan Clark is an AI product strategist and ethicist who helps organizations turn principles into shipped, accountable products. They lead Northstar Lab, advising Fortune 500 and growth-stage teams on governance, metrics, and product strategy for responsible AI. Previously VP of Product at Helios Analytics, Avery combines human-centered design with rigorous risk management to move AI work from aspiration to impact.",
+  "experience": [
+    {
+      "title": "Founder and Principal",
+      "organization": "Northstar Lab",
+      "start_date": "2024-02",
+      "end_date": null,
+      "description": "Advises enterprise and growth-stage teams on responsible AI strategy, governance, and product roadmaps. Builds measurement frameworks, runs product reviews, and trains cross-functional leaders to operationalize accountability. Recent work includes responsible AI playbooks for a Fortune 500 retailer and a governance program adopted by three regional banks."
+    },
+    {
+      "title": "Vice President of Product",
+      "organization": "Helios Analytics",
+      "start_date": "2020-05",
+      "end_date": "2024-01",
+      "description": "Led a 50-person product organization shipping risk-aware machine learning platforms for finance and retail. Work recognized by Fast Company as one of the Most Innovative Teams of 2024. Launched platform capabilities for model monitoring, bias evaluation, and decision explanation used by 200+ enterprise users."
+    },
+    {
+      "title": "Product Manager",
+      "organization": "Nimbus AI",
+      "start_date": "2016-07",
+      "end_date": "2020-04",
+      "description": "Shipped the 'Signals' supply chain risk engine from prototype to scaled deployment; reduced false positives by 27% and cut incident response time by 18%. Partnered with design and research to embed human-centered practices into model development."
+    }
+  ],
+  "education": [
+    {
+      "degree": "MS, Human-Computer Interaction",
+      "institution": "Stanford University",
+      "year": 2015
+    },
+    {
+      "degree": "BA, Philosophy",
+      "institution": "Yale University",
+      "year": 2012
+    }
+  ],
+  "publications": [
+    {
+      "title": "Measure What Matters in Responsible AI",
+      "venue": "Harvard Business Review",
+      "year": 2023,
+      "link": "https://hbr.org/2023/xx/responsible-ai-metrics"
+    },
+    {
+      "title": "Designing for Accountability in Machine Learning",
+      "venue": "ACM Interactions",
+      "year": 2022
+    }
+  ],
+  "speaking": [
+    {
+      "event": "O'Reilly AI Conference",
+      "role": "Keynote Speaker",
+      "year": 2025,
+      "talk": "From Principles to Product: Operationalizing Responsible AI"
+    },
+    {
+      "event": "SXSW",
+      "role": "Speaker",
+      "year": 2024,
+      "talk": "Human-Centered AI that Ships"
+    },
+    {
+      "event": "MIT Sloan",
+      "role": "Guest Lecturer",
+      "year": 2025,
+      "topic": "AI Governance for Product Leaders"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Fast Company Most Innovative Teams",
+      "year": 2024,
+      "awarded_to": "Helios Analytics Product"
+    }
+  ],
+  "selected_projects": [
+    {
+      "name": "Fortune 500 Retail Forecasting Platform",
+      "outcome": "Moved demand forecasting from lab to production with a 13% reduction in forecast error within six months; created governance documents and decision logs adopted across four divisions."
+    },
+    {
+      "name": "Banking AI Governance Framework",
+      "outcome": "Framework adopted by three regional banks; reduced model approval time by 30% while improving documentation quality and audit readiness."
+    },
+    {
+      "name": "'Signals' Supply Chain Risk Engine",
+      "outcome": "Deployed to 200+ enterprise users; reduced false positives by 27% and improved analyst trust in alerts."
+    }
+  ],
+  "media": [
+    {
+      "mention": "Quoted on AI in retail forecasting",
+      "outlet": "The Wall Street Journal",
+      "year": 2025
+    }
+  ],
+  "values": [
+    "clarity",
+    "accountability",
+    "outcomes"
+    ],
+  "voice_preferences": {
+    "formality": "professional-conversational",
+    "humor": "light and sparing",
+    "sentence_style": "short and direct",
+    "jargon_tolerance": "low; explain in plain language"
+  },
+  "contact": {
+    "email": "avery@northstarlab.co",
+    "website": "https://northstarlab.co",
+    "linkedin": "https://www.linkedin.com/in/averymorganclark"
+  },
+  "keywords": [
+    "responsible AI",
+    "governance",
+    "product management",
+    "human-centered design",
+    "metrics",
+    "bias evaluation",
+    "explainability",
+    "model monitoring",
+    "enterprise AI"
+  ]
+}

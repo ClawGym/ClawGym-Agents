@@ -1,0 +1,16 @@
+name,category,monthly_cost,capability_group,licensed_users,active_users,utilization_pct,environment,always_on,measured_roi_multiplier,cheaper_model_available
+OpenAI Enterprise API,Foundation Models,12000,Core LLM API,0,0,,, ,3.2,true
+Anthropic Claude Business,Foundation Models,8000,Core LLM API,0,0,,, ,2.5,true
+Google Vertex AI Generative,Foundation Models,5000,Core LLM API,0,0,,, ,1.2,true
+Jasper,SaaS with AI,2000,Content Generation,25,8,,, ,1.5,false
+Copy.ai,SaaS with AI,1500,Content Generation,20,5,,, ,1.1,false
+Notion AI,SaaS with AI,1200,Content Generation,60,45,,, ,2.2,false
+Salesforce Einstein,SaaS with AI,10000,CRM AI,80,20,,, ,1.8,false
+HubSpot AI,SaaS with AI,4000,CRM AI,30,18,,, ,2.6,false
+Pinecone,Infrastructure,7000,Vector DB,0,0,35,prod,true,2.8,false
+Weaviate Cloud,Infrastructure,3000,Vector DB,0,0,20,dev,true,1.3,false
+Internal RAG Pipeline,Custom Development,9000,RAG Platform,0,0,65,prod,true,3.5,false
+Labeling Service,Data & Training,2500,Data Labeling,0,0,10,dev,false,0.8,false
+Synthetic Data Platform,Data & Training,1800,Data Generation,0,0,40,dev,false,1.6,false
+Zendesk AI add-on,SaaS with AI,2200,Support AI,40,12,,, ,1.4,false
+Intercom Fin AI,SaaS with AI,1800,Support AI,25,20,,, ,2.1,false

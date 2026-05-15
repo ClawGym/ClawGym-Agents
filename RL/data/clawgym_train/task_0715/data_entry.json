@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0715",
+  "user_query": "Please read input/pipeline.yaml and create a reproducible, timestamped audit trail for the described ETL run using a local data-operations logging workflow. For each step in the file, record entries in the appropriate categories (at minimum: ingest, transform, validate, aggregate, pipeline, and profile), preserving the step text as the entry value. After logging:\n1) Export all accumulated logs to JSON and CSV.\n2) Place copies at output/export.json and output/export.csv.\n3) Write an audit summary to output/audit_summary.txt that includes:\n   - One line starting with \"Total Entries: \" followed by the exact total number of exported records (matching the CSV data rows, excluding the header).\n   - One line starting with \"Categories: \" listing all distinct categories present in the export, comma-separated.\n   - A brief 2–3 sentence narrative describing this run.\nKeep all file paths relative to this workspace, don’t assume any network access, and if the export tool prints a save path, use that to locate and copy the files into output/. Ensure one of the pipeline entries includes the exact phrase \"Daily ETL completed\" as specified in the YAML.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

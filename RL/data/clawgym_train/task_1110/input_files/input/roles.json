@@ -1,0 +1,92 @@
+{
+  "roles": [
+    {
+      "role": "Field Installation Technician (Contractor)",
+      "engagement_type": "1099",
+      "location": "TX and CA customer sites",
+      "description": "Technicians perform on-site robot installs and calibrations. They wear Acme uniforms, follow Acme SOPs, and are dispatched via Acme's scheduling system. Work is ongoing with weekly hours and standing Monday safety meetings.",
+      "behavioral_control": [
+        "Receives detailed instructions and SOPs from Acme supervisors",
+        "Required to attend weekly 8am team standup (set schedule)",
+        "Training provided by Acme on installation procedures"
+      ],
+      "financial_control": [
+        "Uses Acme-owned tools and diagnostic equipment",
+        "No significant investment in own tools or materials",
+        "Paid hourly per work order via Acme platform"
+      ],
+      "relationship_type": [
+        "Engagement is indefinite and ongoing",
+        "No written contract specifying contractor independence",
+        "Services are key to Acme's core business (robot installs)"
+      ],
+      "avg_hours_per_week": 35,
+      "term": "Ongoing > 12 months"
+    },
+    {
+      "role": "Mechanical Design Consultant",
+      "engagement_type": "1099",
+      "location": "Remote",
+      "description": "Project-based CAD design support for a new gripper assembly. Consultant sets own hours, works for multiple clients, bills fixed-fee milestones, and provides their own CAD workstation and software licenses.",
+      "behavioral_control": [
+        "Delivers work to functional specs, no day-to-day supervision",
+        "No required meetings beyond milestone reviews"
+      ],
+      "financial_control": [
+        "Owns/maintains CAD tools and licenses",
+        "Can realize profit or loss based on time/labor forecasting",
+        "Markets services to other clients"
+      ],
+      "relationship_type": [
+        "Written contract defines independent contractor relationship",
+        "Project is time-limited to 4 months"
+      ],
+      "avg_hours_per_week": 10,
+      "term": "4 months"
+    },
+    {
+      "role": "Embedded Firmware Developer (Long-Term Contractor)",
+      "engagement_type": "1099",
+      "location": "CA - San Francisco HQ",
+      "description": "Firmware developer embedded with the controls team for 12+ months. Works on-site Mon–Fri 9–5, attends daily standups, uses Acme hardware lab, commits code to Acme repos, and requires manager approval for PTO.",
+      "behavioral_control": [
+        "Daily standups and sprint planning directed by Acme",
+        "Set work hours and location (on-site)",
+        "Receives code reviews and mandatory internal trainings"
+      ],
+      "financial_control": [
+        "Uses Acme hardware lab and equipment",
+        "Paid biweekly on an hourly basis",
+        "No ability to subcontract work"
+      ],
+      "relationship_type": [
+        "Long-term, full-time engagement",
+        "Work is integral to Acme's core product firmware",
+        "No benefits provided but implied permanency"
+      ],
+      "avg_hours_per_week": 40,
+      "term": "12+ months"
+    },
+    {
+      "role": "Sales Engineer (Commission-Only)",
+      "engagement_type": "1099",
+      "location": "CA",
+      "description": "Sales engineer assigned exclusive Northern California territory. Provided Acme business cards, expected to attend weekly pipeline reviews, and must follow Acme pricing and discount policies.",
+      "behavioral_control": [
+        "Weekly pipeline calls led by Acme Sales Director",
+        "Required to use CRM and follow internal processes"
+      ],
+      "financial_control": [
+        "Paid commission-only per closed deal",
+        "No reimbursement for routine travel expenses",
+        "Markets primarily Acme products, limited to exclusive territory"
+      ],
+      "relationship_type": [
+        "Indefinite engagement with exclusivity",
+        "Services are a regular part of the business"
+      ],
+      "avg_hours_per_week": 25,
+      "term": "Ongoing"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "version": "3.2",
+  "updated_at": "2026-04-12T09:00:00Z",
+  "catalog_info": {
+    "currency": "USD",
+    "region": "NA",
+    "categories": ["apparel", "accessories"]
+  },
+  "products": [
+    {
+      "sku": "TSHIRT-001",
+      "name": "Basic Tee",
+      "price": 19.99,
+      "attributes": {
+        "sizes": ["S", "M", "L", "XL"],
+        "material": {
+          "cotton": 100
+        },
+        "colors": ["black", "white"]
+      },
+      "in_stock": true
+    },
+    {
+      "sku": "CAP-002",
+      "name": "Classic Cap",
+      "price": 14.5,
+      "attributes": {
+        "sizes": ["One Size"],
+        "material": {
+          "cotton": 80,
+          "polyester": 20
+        },
+        "colors": ["navy", "gray"]
+      },
+      "in_stock": false
+    }
+  ]
+}

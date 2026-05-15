@@ -1,0 +1,11 @@
+invoice_id,type,amount,rate_type,description
+INV-001,net,100.00,standard,Consulting services
+INV-002,gross,119.99,standard,Accessory sale
+INV-003,net,47.60,reduced,Home energy supply
+INV-004,gross,105.00,reduced,Children's car seat
+INV-005,net,250.00,zero,Books shipment
+INV-006,gross,99.95,zero,Public transport fares
+INV-007,net,12.34,standard,Spare parts
+INV-008,gross,1000.00,standard,Annual maintenance
+INV-009,gross,19.99,reduced,Children's safety item
+INV-010,net,0.99,standard,Small component

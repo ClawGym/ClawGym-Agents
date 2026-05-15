@@ -1,0 +1,11 @@
+file,owner,team
+src/json/parser.cpp,Alice Chen,Parsing
+src/algos/sort.cpp,Bob Diaz,Algorithms
+src/net/socket.cpp,Carol Singh,Networking
+src/comp/lz4.cpp,Dan O'Neil,Compression
+src/storage/btree.cpp,Emma Li,Storage
+src/util/string_builder.cpp,Frank Yu,Utilities
+src/image/resize.cpp,Grace Patel,Imaging
+src/math/fast_exp.cpp,Henry Kim,Math
+src/hash/murmur.cpp,Irene Zhao,Hashing
+src/cli/router.cpp,Jack Wong,CLI

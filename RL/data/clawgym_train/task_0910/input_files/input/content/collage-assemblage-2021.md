@@ -1,0 +1,4 @@
+# Collage & Assemblage Series (2021)
+This body of work grew from afternoons pairing torn paper, wood offcuts, and rescued textures into layered arrangements. Many components came from my shelves of old volumes and flea market ephemera, including pieces shown under my [vintage finds](/vintage-rare-finds). I lean on balance, rhythm, and contrast to make each panel feel like it was discovered rather than built.
+
+Across the series I experiment with subtle color shifts, adhesive choices, and the push and pull between flat planes and shadow. Notes and process photos appear in the studio journal, and selections from these works sometimes inform how I prepare surfaces for other series.

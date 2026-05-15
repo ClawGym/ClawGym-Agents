@@ -1,0 +1,13 @@
+ticker,name,price,change,volume,sector
+005930,Samsung Electronics,72800,-1.8,12340000,Semiconductors
+000660,SK hynix,190500,-4.2,6200000,Semiconductors
+373220,LG Energy Solution,334000,-3.6,1100000,Batteries
+035420,NAVER,205000,1.9,1800000,Internet/Platform
+068270,Celltrion,183000,0.6,950000,Biotech
+005380,Hyundai Motor,265000,2.7,1320000,Automotive
+066570,LG Electronics,142000,3.5,2100000,Consumer Electronics
+035720,Kakao,52300,-0.9,2400000,Internet/Platform
+011200,HMM,24800,-2.5,1700000,Shipping/Logistics
+055550,Shinhan Financial Group,38600,0.4,850000,Banks
+015760,Korea Electric Power,19400,1.2,1250000,Utilities
+028260,Samsung C&T,151000,0.7,430000,Construction/Trading

@@ -1,0 +1,19 @@
+campaign_id,sent_date,audience_segment,sent,bounces,opens,clicks,unsubscribes,subject_line
+C001,2025-01-05,All,5000,150,1950,150,20,7 quick ways to tighten your copy today
+C002,2025-01-12,All,5200,104,2038,178,18,How to cut 30% of your words without losing meaning
+C003,2025-01-19,New Subscribers,2400,36,1182,118,6,What’s the one word you should delete from your headlines?
+C004,2025-01-26,Prospects,3000,90,873,58,15,Stop wasting words: stronger verbs, stronger results
+C005,2025-02-02,All,4800,96,1835,141,14,Unlock curiosity: the 5-second edit checklist
+C006,2025-02-09,All,5100,153,1979,130,17,Why short copy sells: 3 proofs you can use
+C007,2025-02-16,New Subscribers,2500,50,1176,134,5,How to write punchy CTAs in 5 minutes
+C008,2025-02-23,All,5300,106,2254,190,16,Would you read this? Fixing 3 common intro mistakes
+C009,2025-03-02,Prospects,3100,93,842,54,12,Steal these 9 high-converting phrases
+C010,2025-03-09,All,5200,156,2068,175,19,Curiosity gap: when it helps—and when it hurts
+C011,2025-03-16,All,5000,100,1715,108,22,Benefit first: write emails your audience thanks you for
+C012,2025-03-23,New Subscribers,2600,52,1274,153,7,10 subject line formulas that still work
+C013,2025-03-30,All,5400,162,2198,205,16,How to trim fluff from product pages
+C014,2025-04-06,Prospects,2900,87,759,45,13,Make it irresistible: power words that pop
+C015,2025-04-13,All,5100,102,2149,210,15,Can you spot the weak verb? Try this quick test
+C016,2025-04-20,All,5000,150,1746,116,18,Before/after: 3 edits that save readers time
+C017,2025-04-27,New Subscribers,2550,51,1274,158,6,How to write benefits not features
+C018,2025-05-04,All,5200,104,2038,162,17,Curiosity checklist: are you teasing or confusing?

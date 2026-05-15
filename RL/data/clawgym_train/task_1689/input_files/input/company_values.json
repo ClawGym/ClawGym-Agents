@@ -1,0 +1,31 @@
+{
+  "values": [
+    {
+      "name": "Own the Outcome",
+      "description": "Deliver measurable results; take responsibility from plan through post-mortem."
+    },
+    {
+      "name": "Clarity Over Cleverness",
+      "description": "Prioritize clear communication, simple designs, and readable code over smart-but-opaque solutions."
+    },
+    {
+      "name": "Bias for Action",
+      "description": "Move quickly with reversible decisions; validate assumptions with small experiments."
+    },
+    {
+      "name": "Build Trust",
+      "description": "Document decisions, communicate trade-offs, and follow through on commitments."
+    },
+    {
+      "name": "Secure by Default",
+      "description": "Implement least privilege, auditability, and safe defaults in every system."
+    }
+  ],
+  "anti_signals": [
+    "Blames others without evidence or accountability",
+    "Prefers undocumented shortcuts over documented standards",
+    "Avoids on-call or incident participation entirely",
+    "Treats security as optional or an afterthought",
+    "Vague communication that causes surprises for stakeholders"
+  ]
+}

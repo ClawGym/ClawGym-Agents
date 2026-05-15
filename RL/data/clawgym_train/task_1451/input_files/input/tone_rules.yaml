@@ -1,0 +1,33 @@
+pitch_rules:
+  required_keywords:
+    - local
+    - on-the-ground
+    - context
+    - "South River Ward"
+  banned_words:
+    - outsider
+    - outsiders
+    - ignorant
+    - biased
+    - foreigners
+  max_word_count: 150
+  preserve_at_least_one_number_from_original: true
+  max_exclamations: 0
+
+email_rules:
+  required_keywords_any:
+    - "local context"
+    - "on-the-ground"
+    - "local sources"
+  banned_words:
+    - outsider
+    - outsiders
+    - ignorant
+    - biased
+    - foreigners
+  include_recipient_name: true
+  include_neighborhood: "South River Ward"
+  subject_must_contain_topic_hint: true
+  subject_max_chars: 65
+  max_body_words: 120
+  max_exclamations: 0

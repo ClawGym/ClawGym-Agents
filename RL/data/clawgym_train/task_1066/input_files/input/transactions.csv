@@ -1,0 +1,9 @@
+date,plant,cost_center,vendor,material,uom,quantity,unit_price_usd,currency,amount_usd
+2025-01-05,Plant A,CC100,ChemSource,Caustic Soda,mt,50,300,USD,15000
+2025-01-18,Plant A,CC100,ChemSource,Caustic Soda,mt,40,310,USD,12400
+2025-01-20,Plant B,CC200,SolventsCo,Acetone,mt,30,900,USD,27000
+2025-02-03,Plant A,CC100,ChemSource,Caustic Soda,mt,60,295,USD,17700
+2025-02-10,Plant B,CC200,SolventsCo,Acetone,mt,25,920,USD,23000
+2025-02-14,Plant B,CC200,BulkChem,Isopropyl Alcohol,mt,20,800,USD,16000
+2025-02-12,Plant A,CC101,BulkChem,Hydrochloric Acid,mt,15,200,USD,3000
+2025-02-18,Plant A,CC101,BulkChem,Hydrochloric Acid,mt,10,260,USD,2600

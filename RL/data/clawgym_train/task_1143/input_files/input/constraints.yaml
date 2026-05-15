@@ -1,0 +1,5 @@
+min_score: 60
+shortlist_limit: 5
+exclude_severities:
+  - high
+  - critical

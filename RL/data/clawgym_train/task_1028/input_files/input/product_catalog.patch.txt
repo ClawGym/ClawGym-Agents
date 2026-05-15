@@ -1,0 +1,11 @@
+--- product_catalog.txt	2026-04-20
++++ product_catalog.txt	2026-04-20
+@@ -1,4 +1,5 @@
+ SKU-1001|Basic Widget|19.99
+-SKU-1002|Deluxe Widget|29.99
+-SKU-1003|Super Gadget|49.99
+-SKU-1004|Refill Pack|9.99
++SKU-1002|Deluxe Widget|27.99
++SKU-1003|Super Gadget v2|54.99
++SKU-1004|Refill Pack (10x)|14.99
++SKU-1005|Mega Pack|79.99

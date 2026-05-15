@@ -1,0 +1,12 @@
+{
+  "option_id": "A",
+  "title": "Village Forge Intro",
+  "provider": "Village Forge",
+  "tuition_usd": 450,
+  "commute_km": 18,
+  "weekly_hours": 4,
+  "meeting_days": ["Mon", "Wed"],
+  "start_date": "2026-05-10",
+  "end_date": "2026-06-07",
+  "contact_email": "register@villageforge.org"
+}

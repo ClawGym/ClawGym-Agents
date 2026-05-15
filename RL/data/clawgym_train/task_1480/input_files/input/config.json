@@ -1,0 +1,9 @@
+{
+  "reference_date": "2024-12-31",
+  "warning_window_days": 30,
+  "frequency_days": {
+    "power_tool": 180,
+    "hand_tool": 365,
+    "measuring_tool": 365
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "generated_at": "2026-04-19T09:15:00Z",
+  "leads": [
+    {
+      "lead_id": "NP-LOG-4821",
+      "company": "NorthPeak Logistics",
+      "employee_count": 240,
+      "industry": "Logistics",
+      "contact_name": "Dana Keller",
+      "role": "VP Operations",
+      "email": "dana.keller@northpeaklogistics.com",
+      "source": "Inbound - Google search",
+      "last_interaction_days": 2,
+      "thread": [
+        {
+          "from": "Dana Keller",
+          "timestamp": "2026-04-15T09:18:32Z",
+          "message": "We are looking for a better way to automate internal workflow approvals. Today it's emails and spreadsheets; vendor onboarding takes 3–5 days. Do you support SSO with Okta and can we pilot with Ops and Finance? Also, rough pricing ballpark?"
+        },
+        {
+          "from": "You",
+          "timestamp": "2026-04-15T12:41:10Z",
+          "message": "Thanks Dana — yes, SSO via Okta is supported. To point you toward the right approach, roughly how many approvals per week and which workflows are highest friction? Do you have a target go-live window?"
+        },
+        {
+          "from": "Dana Keller",
+          "timestamp": "2026-04-17T16:02:05Z",
+          "message": "We handle ~60 approvals/week across Ops, Finance, and HR. Vendor onboarding and CapEx are the worst. Evaluating PipeFlow and AirApprove now. We'd like to decide by May 20. Our Finance lead (Marcus) will join next steps. Please send a security overview and an example workflow."
+        }
+      ],
+      "notes": "Clear pain; specific volume; evaluating alternatives (PipeFlow, AirApprove); timeline to decide by May 20; authority includes Finance lead; budget not discussed."
+    },
+    {
+      "lead_id": "QF-CTO-9013",
+      "company": "Quiltify",
+      "employee_count": 18,
+      "industry": "E-commerce (custom textiles)",
+      "contact_name": "Rita Alvarez",
+      "role": "CTO",
+      "email": "rita@quiltify.io",
+      "source": "Outbound reply after case study",
+      "last_interaction_days": 1,
+      "thread": [
+        {
+          "from": "Rita Alvarez",
+          "timestamp": "2026-04-12T13:02:54Z",
+          "message": "Saw your procurement approvals case study. We're 18 ppl; using Notion checklists + Slack pings. Want something lightweight; need API. Can you integrate with Slack and Google Workspace? If setup is under a day, we can move this month."
+        },
+        {
+          "from": "You",
+          "timestamp": "2026-04-12T15:27:21Z",
+          "message": "Yes, Slack and Google Workspace are supported. Happy to map your current steps. Would a 15‑minute working session help? Also, who signs off on tools like this on your side?"
+        },
+        {
+          "from": "Rita Alvarez",
+          "timestamp": "2026-04-18T09:11:05Z",
+          "message": "CTO here — I decide with our CFO. If cost is under $400/mo we can greenlight. Thurs 2pm works if you can share API docs in advance."
+        }
+      ],
+      "notes": "Clear authority (CTO + CFO), budget guidance ($400/mo), timeline 'this month' contingent on setup speed, asks for API docs and Slack/GWS integrations."
+    },
+    {
+      "lead_id": "AH-DS-7742",
+      "company": "Aster Health",
+      "employee_count": 1200,
+      "industry": "Healthcare",
+      "contact_name": "Jamal Singh",
+      "role": "Director of Clinical Systems",
+      "email": "jamal.singh@asterhealth.org",
+      "source": "Conference booth (MedOps Summit)",
+      "last_interaction_days": 7,
+      "thread": [
+        {
+          "from": "Jamal Singh",
+          "timestamp": "2026-04-10T10:10:03Z",
+          "message": "Great to meet at MedOps Summit. We handle incident reporting and change approvals. Exploring workflow options for Q4. We will need a BAA. Please share healthcare case studies and any EHR integration details."
+        },
+        {
+          "from": "You",
+          "timestamp": "2026-04-10T14:22:17Z",
+          "message": "Thanks Jamal — we can sign a BAA. Are incident workflows your first priority? Who will own the evaluation timeline on your side, and when does procurement usually start?"
+        },
+        {
+          "from": "Jamal Singh",
+          "timestamp": "2026-04-11T09:01:41Z",
+          "message": "Procurement typically runs vendor review in August. Clinical Ops will lead requirements. Send any security one-pagers and healthcare references when you can."
+        }
+      ],
+      "notes": "Longer timeline (Q4; procurement August). BAA required. EHR integration interest. Authority not final (Clinical Ops leads requirements); urgency low."
+    },
+    {
+      "lead_id": "BV-GC-3320",
+      "company": "Bluestone Ventures (consultant)",
+      "employee_count": null,
+      "industry": "Consulting (unspecified client)",
+      "contact_name": "Leo",
+      "role": "Growth consultant",
+      "email": "leogrowthpartner@gmail.com",
+      "source": "Cold inbound email",
+      "last_interaction_days": 1,
+      "thread": [
+        {
+          "from": "Leo",
+          "timestamp": "2026-04-16T07:22:45Z",
+          "message": "Growth partner working with a stealth enterprise. Need an enterprise workflow tool tomorrow. Can't disclose client. No meetings. Send full deck + best price today. Will wire by Friday. Use this Gmail only."
+        },
+        {
+          "from": "You",
+          "timestamp": "2026-04-16T11:05:33Z",
+          "message": "Thanks Leo. To scope properly we need the use cases and team counts, plus who is making the decision. Can we do a 10‑minute call or at least confirm the approval types and security requirements?"
+        },
+        {
+          "from": "Leo",
+          "timestamp": "2026-04-18T08:54:12Z",
+          "message": "No calls. Just send a quote for 'full enterprise' and an admin login to test. Don't ask questions. Cool cool."
+        }
+      ],
+      "notes": "Authority unclear (consultant, no client named), refuses scoping or meeting, requests admin access and discount pricing; high risk. Fit unknown."
+    }
+  ]
+}

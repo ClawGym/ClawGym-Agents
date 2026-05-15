@@ -1,0 +1,2 @@
+{"call_sign":"N123AB","scenario":"Taxi clearance at a towered airport","pilot_says":"Tower, N123AB at GA ramp, ready to taxi with information Alpha.","atc_says":"N123AB, taxi to Runway 27 via Alpha, hold short Runway 27."}
+{"call_sign":"N789XY","scenario":"Requesting flight following enroute","pilot_says":"Departure, N789XY, VFR request.","atc_says":""}

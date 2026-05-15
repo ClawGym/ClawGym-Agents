@@ -1,0 +1,7 @@
+weights:
+  impact: 0.65
+  urgency: 0.35
+top_n: 3
+filter:
+  field: ask_architect
+  value: "yes"

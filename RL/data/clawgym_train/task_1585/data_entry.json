@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1585",
+  "user_query": "I'm a high school physics teacher. I’ve placed a SimSpec YAML at input/sim_spec.yaml that defines a mechanics simulation for a projectile launched from ground level with linear air drag and a tunable constant horizontal wind acceleration (states: x, y, vx, vy; parameters include g, k, and wind_ax). Please read that file, validate it against an appropriate schema, normalize any missing dt/step values, and generate a single, self-contained offline simulation as index.html. Use a 2D trajectory renderer (since the state includes x and y), expose the params as sliders, include a time-series plot (height vs. time is fine), readouts for t and all state variables, a working Start/Pause/Step/Reset control set, RK4 integration with Euler fallback, fixed-step physics on requestAnimationFrame, auto-pause on NaN/Inf, and capped trail/plot histories. Add an inquiry worksheet with exactly 3 Predict, 2 Test, 2 Explain, and 2 Misconceptions prompts (use the spec’s prompts if present; otherwise synthesize appropriate ones) and include the success criteria. Also add local export controls for copying a JSON snapshot and downloading CSV. Do not load any remote resources. Write the result to output/index.html only.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

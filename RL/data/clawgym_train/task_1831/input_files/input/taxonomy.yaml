@@ -1,0 +1,121 @@
+naming:
+  lowercase: true
+  separator: "_"
+  allowed_chars_pattern: "^[a-z0-9_]+$"
+  spaces_to_underscores: true
+  trim_extra_underscores: true
+  replacements:
+    "&": "and"
+    "+": "plus"
+    "/": "_"
+    ".": "_"
+validation:
+  disallow:
+    - "@"
+    - "http"
+    - "?"
+    - "#"
+    - " "
+  notes: "No PII in any utm_* values. Do not include user emails, full names, phone numbers, or IDs."
+utm_parameters:
+  required:
+    - utm_source
+    - utm_medium
+    - utm_campaign
+  optional:
+    - utm_content
+    - utm_term
+campaign_naming:
+  pattern: "{product}_{initiative}_{timeframe}"
+  examples:
+    - dsl_april_mini_launch_wk_1
+    - dsl_april_mini_launch_nonbrand
+  rules:
+    - Use lowercase and underscores only
+    - No dates with slashes; prefer week or month labels (e.g., wk_1, apr2026)
+    - No PII or internal codes that reveal identities
+sources_map:
+  newsletter:
+    canonical: "newsletter"
+    channel: "email"
+  mailchimp:
+    canonical: "newsletter"
+    channel: "email"
+  convertkit:
+    canonical: "newsletter"
+    channel: "email"
+  x:
+    canonical: "x"
+    channel: "organic_social"
+  twitter:
+    canonical: "x"
+    channel: "organic_social"
+  reddit:
+    canonical: "reddit"
+    channel: "organic_social"
+  hn:
+    canonical: "hn"
+    channel: "organic_social"
+  linkedin:
+    canonical: "linkedin"
+    channel: "organic_social"
+  producthunt:
+    canonical: "producthunt"
+    channel: "referral"
+  google:
+    canonical: "google"
+    channel: "paid_search"
+  google_ads:
+    canonical: "google"
+    channel: "paid_search"
+  bing:
+    canonical: "bing"
+    channel: "paid_search"
+  bing_ads:
+    canonical: "bing"
+    channel: "paid_search"
+mediums_map:
+  email:
+    canonical: "email"
+    channel: "email"
+  social:
+    canonical: "social"
+    channel: "organic_social"
+  cpc:
+    canonical: "cpc"
+    channel: "paid_search"
+  referral:
+    canonical: "referral"
+    channel: "referral"
+channels:
+  email:
+    description: "Owned email campaigns and newsletters"
+    sources: ["newsletter", "convertkit", "mailchimp"]
+  organic_social:
+    description: "Organic social networks and community posts"
+    sources: ["x", "reddit", "linkedin", "hn"]
+  paid_search:
+    description: "Paid search advertising platforms"
+    sources: ["google", "bing"]
+  referral:
+    description: "Partner and directory referrals"
+    sources: ["producthunt"]
+content_guidance:
+  examples:
+    - email_1_hero
+    - teaser_video
+    - text_post
+    - rsa_1
+    - expanded_text_ad_2
+  rules:
+    - Use lowercase and underscores
+    - Include simple variant numbering when applicable (e.g., _1, _2)
+term_guidance:
+  usage: "Primarily for paid search keywords"
+  examples:
+    - tax_optimizer_software
+    - budget_planner
+privacy:
+  note: "UTM parameters must never include PII. Use campaign metadata only."
+consent:
+  note: "Ensure pixels are gated behind user consent where required by local regulations."

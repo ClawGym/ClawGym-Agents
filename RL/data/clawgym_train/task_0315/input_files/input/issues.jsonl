@@ -1,0 +1,5 @@
+{"id": 101, "title": "GroupBy.apply is much slower in 1.9.0 vs 1.8.3", "body": "Seeing a performance regression on groupby apply with axis=None. My pipeline got 2x slower."}
+{"id": 102, "title": "TypeError when using infer_dtype in concat", "body": "After upgrading to v1.9.0 this fails: TypeError: infer_dtype is deprecated; use dtype='infer'. This looks like a breaking change for our code."}
+{"id": 103, "title": "pip install fails with pandas>=2.0", "body": "pip install mydf==1.9.0 fails due to dependency version conflict with pandas 2.0. Is there a fix?"}
+{"id": 104, "title": "Confusing example in join docs for left join semantics", "body": "The documentation example for left join is confusing and doesn't match the text. The docs should clarify Null handling."}
+{"id": 105, "title": "Feature request: add rolling quantile", "body": "It would be great to have a rolling quantile operator with a configurable interpolation method."}

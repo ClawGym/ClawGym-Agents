@@ -1,0 +1,25 @@
+{
+  "models": [
+    {
+      "id": "openai-codex/gpt-5.3-codex",
+      "alias": "codex",
+      "display_name": "OpenAI Codex GPT-5.3"
+    },
+    {
+      "id": "anthropic/opus-3.1",
+      "alias": "opus",
+      "display_name": "Anthropic Opus 3.1"
+    },
+    {
+      "id": "openrouter/meta-llama-3.1-70b",
+      "alias": "llama-70b",
+      "display_name": "Meta Llama 3.1 70B via OpenRouter"
+    },
+    {
+      "id": "openai/gpt-4.1",
+      "alias": "gpt4",
+      "display_name": "OpenAI GPT-4.1"
+    }
+  ],
+  "current_default": "openai/gpt-4.1"
+}

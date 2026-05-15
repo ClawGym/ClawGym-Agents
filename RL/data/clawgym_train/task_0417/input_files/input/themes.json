@@ -1,0 +1,12 @@
+{
+  "Family-Friendly": ["Family", "Animation", "Comedy"],
+  "High-Adrenaline": ["Action", "Adventure", "Thriller"],
+  "Heartfelt": ["Romance", "Drama"],
+  "Mind-Bending": ["Sci-Fi", "Mystery"],
+  "Spooky": ["Horror", "Thriller"],
+  "Feel-Good": ["Comedy", "Music", "Musical"],
+  "Epic Worlds": ["Fantasy", "Adventure"],
+  "True Stories": ["Documentary", "Biography", "History"],
+  "Sports & Competition": ["Sport", "Game-Show"],
+  "Out West": ["Western", "History"]
+}

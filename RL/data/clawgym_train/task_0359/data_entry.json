@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0359",
+  "user_query": "I’m coordinating with our features and social teams to keep Marie Pollmann’s profile kit in sync for this week’s coverage. The validator in this workspace is currently failing because the config doesn’t match what’s actually in the content folders. Please fix only the config so the validator passes and generate the sync report.\n\nWhat I need from you:\n- Inspect the validator code at tools/validate_sync.py to see how it reads the config and what fields it expects, and inspect the content directories under content/ to understand the current file/layout for Marie.\n- Update config/team_config.json so that the paths and required file names for Marie Pollmann match what’s actually present on disk. Do not rename or move any files in content/; only update the JSON config.\n- Run the validator using either:\n  - bash scripts/run_validation.sh, or\n  - python3 tools/validate_sync.py --config config/team_config.json --report reports/sync_report.json\n- The run should exit with status 0 and produce reports/sync_report.json where overall_status is \"ok\" and, for Marie Pollmann, both missing.features and missing.social are empty.\n\nDeliverables:\n- A corrected config/team_config.json.\n- The generated reports/sync_report.json.\n\nRelevant input paths:\n- Config: config/team_config.json\n- Validator: tools/validate_sync.py\n- Content roots: content/features/ and content/social/\n\nRequired output path:\n- Report: reports/sync_report.json All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

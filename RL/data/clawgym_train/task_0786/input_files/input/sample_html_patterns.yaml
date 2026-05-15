@@ -1,0 +1,7 @@
+cc_by_legalcode:
+  heading_selectors:
+    - "h2"
+    - "h3"
+  paragraph_selector: "p"
+gov_homepage:
+  link_selector: "a[href]"

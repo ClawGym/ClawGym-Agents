@@ -1,0 +1,130 @@
+{
+  "affirmations": [
+    {
+      "id": "aff-001",
+      "text": "I focus on what I can control and let the rest pass by like weather.",
+      "category": "control",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-002",
+      "text": "Acceptance clears my view; action expresses my values.",
+      "category": "acceptance",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-003",
+      "text": "My judgments, not events, disturb me.",
+      "category": "control",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-004",
+      "text": "Self-mastery is strength; calm is clarity.",
+      "category": "temperance",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-005",
+      "text": "Peace comes from aligning expectations with reality.",
+      "category": "acceptance",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-010",
+      "text": "I cannot rule the world, only my response to it.",
+      "category": "control",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-015",
+      "text": "Circumstances do not command my mood; I choose my stance.",
+      "category": "stability",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-020",
+      "text": "My mind is my domain; I govern it with reason and care.",
+      "category": "sovereignty",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-023",
+      "text": "I choose my battles with wisdom and leave the rest alone.",
+      "category": "wisdom",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-030",
+      "text": "Attention in each action transforms routine into practice.",
+      "category": "mindfulness",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-031",
+      "text": "Each breath returns me to now.",
+      "category": "presence",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-032",
+      "text": "Presence is my constant meditation.",
+      "category": "presence",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-033",
+      "text": "My full presence is a gift I can always offer.",
+      "category": "presence",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-034",
+      "text": "I meet this moment with open eyes and a steady heart.",
+      "category": "presence",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-035",
+      "text": "The present is the only time that truly exists.",
+      "category": "present",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-036",
+      "text": "Yesterday cannot touch me unless I invite it in.",
+      "category": "present",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-037",
+      "text": "I refuse to let the past poison today.",
+      "category": "present",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-039",
+      "text": "I will not trade this moment for an imagined future.",
+      "category": "present",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-041",
+      "text": "Every obstacle is an invitation to practice virtue.",
+      "category": "virtue",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-052",
+      "text": "I choose the virtuous action over the emotional reaction.",
+      "category": "virtue",
+      "created_at": "2024-01-01T00:00:00"
+    },
+    {
+      "id": "aff-060",
+      "text": "Adversity forges my character.",
+      "category": "fortitude",
+      "created_at": "2024-01-01T00:00:00"
+    }
+  ]
+}

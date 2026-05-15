@@ -1,0 +1,11 @@
+function,file,size_bytes,cyclomatic
+json::Parser::parseValue,src/json/parser.cpp,420,14
+algo::sortAndDedup,src/algos/sort.cpp,260,10
+net::Socket::read,src/net/socket.cpp,380,6
+compression::LZ4::compressBlock,src/comp/lz4.cpp,310,8
+storage::BTree::insert,src/storage/btree.cpp,500,16
+util::StringBuilder::append,src/util/string_builder.cpp,56,3
+image::resizeBilinear,src/image/resize.cpp,210,7
+math::fastExp,src/math/fast_exp.cpp,96,5
+hash::MurmurHash3,src/hash/murmur.cpp,64,4
+cli::CommandRouter::dispatch,src/cli/router.cpp,150,9

@@ -1,0 +1,9 @@
+Client: St. Helena Hospital
+Date: 2026-04-15
+Attendees: Alex (Ops), Priya (Analytics), Jordan (Client Success)
+Highlights:
+- Focus on frontline leadership and discharge planning throughput.
+- Budget is tight; value proof needed.
+Action: Outline leadership training modules | Owner: Alex | Due: 2026-04-23
+Action: Share case studies on discharge planning | Owner: Priya | Due: 2026-04-19
+Action: Confirm budget guardrails via email | Owner: Jordan | Due: 2026-04-18

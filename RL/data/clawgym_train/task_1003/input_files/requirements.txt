@@ -1,0 +1,4 @@
+Flask==2.2.5
+pytest==7.3.1
+typed-ast==1.5.5  # not available on Python 3.11+
+requests==2.31.0

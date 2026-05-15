@@ -1,0 +1,7 @@
+{"wallet_name":"ops-alpha","chain":"evm","index":0,"message":"Authorize deployment hash 0xabc123 for staging environment"}
+{"wallet_name":"ops-alpha","chain":"evm","index":1,"message":"Sign attestation for QA cycle A"}
+{"wallet_name":"ops-alpha","chain":"solana","index":0,"message":"Approve new validator key rotation"}
+{"wallet_name":"ops-alpha","chain":"bitcoin","index":1,"message":"Sign internal audit checkpoint 2026-04"}
+{"wallet_name":"ops-beta","chain":"cosmos","index":0,"message":"Confirm interchain governance vote #42"}
+{"wallet_name":"ops-beta","chain":"tron","index":1,"message":"Authorize expense payout batch #17"}
+{"wallet_name":"ops-beta","chain":"evm","index":0,"message":"Sign message of the day for ops bulletin"}

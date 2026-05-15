@@ -1,0 +1,15 @@
+{
+  "deployment": {
+    "region": "us-east-1",
+    "instances": [
+      {"type": "m6i.large", "vcpu": 2, "memory_gib": 8, "count": 8},
+      {"type": "r6i.xlarge", "vcpu": 4, "memory_gib": 32, "count": 4}
+    ],
+    "storage": {"ssd_gb": 512, "standard_gb": 2048},
+    "egress_gb_per_month": 900,
+    "pricing_assumptions": {
+      "reserved_percentage": 50,
+      "savings_plan_discount_percent": 12
+    }
+  }
+}

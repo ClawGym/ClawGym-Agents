@@ -1,0 +1,21 @@
+{
+  "entries": [
+    "Startup: line A pumps primed, pressure stable at 3.2 bar",
+    "Alarm acknowledged: low tank level warning cleared",
+    "Setpoint updated for Zone A to 68 F",
+    "Maintenance note: replaced filter on line B",
+    "Sample taken at 10:15 - turbidity 0.12 NTU",
+    "Alarm: pressure spike on line A, operator reset",
+    "Zone A temperature reading 67.5 F after update",
+    "Shutdown checklist complete for pilot line A"
+  ],
+  "remove_index": 2,
+  "search_terms": [
+    "alarm",
+    "Zone A",
+    "pressure",
+    "line A",
+    "filter",
+    "turbidity"
+  ]
+}

@@ -1,0 +1,20 @@
+Imports System.Configuration
+
+Module MainModule
+    Sub Main()
+        Dim apiUrl As String = My.Settings.ApiBaseUrl
+        Dim logLevel As String = My.Settings.LogLevel
+        Dim featureX As Boolean = My.Settings.FeatureXEnabled
+        Dim telemetryKey As String = My.Settings.TelemetryKey
+
+        Dim mainConn As String = ConfigurationManager.ConnectionStrings("MainDb").ConnectionString
+        ' The audit database is optional but expected in production
+        Dim auditConn As ConnectionStringSettings = ConfigurationManager.ConnectionStrings("AuditDb")
+        If auditConn Is Nothing Then
+            Console.WriteLine("AuditDb connection is not configured.")
+        End If
+
+        Console.WriteLine($"API: {apiUrl}, LogLevel: {logLevel}, FeatureX: {featureX}, TelemetryKey length: {telemetryKey.Length}")
+        Console.WriteLine($"MainDb conn length: {mainConn.Length}")
+    End Sub
+End Module

@@ -1,0 +1,8 @@
+budget:
+  max_cost: 100
+  max_hours: 40
+max_projects: 6
+category_requirements:
+  min_by_category:
+    AI: 1
+    Data: 1

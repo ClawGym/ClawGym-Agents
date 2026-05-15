@@ -1,0 +1,27 @@
+import React from 'react';
+import { ScrollView, Text, View } from 'react-native';
+
+function Row({ title }) {
+  return (
+    <View style={{ paddingVertical: 8 }}>
+      <Text>{title}</Text>
+    </View>
+  );
+}
+
+export default function ListScreen() {
+  const items = [
+    { id: '1', name: 'Alpha' },
+    { id: '2', name: 'Beta' },
+    { id: '3', name: 'Gamma' },
+  ];
+
+  // Uses array index as key → unstable when order changes
+  return (
+    <ScrollView>
+      {items.map((item, index) => (
+        <Row key={index} title={item.name} />
+      ))}
+    </ScrollView>
+  );
+}

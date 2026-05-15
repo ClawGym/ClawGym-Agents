@@ -1,0 +1,31 @@
+topics:
+  - key: schedule
+    query_terms:
+      - "event schedule"
+      - "timetable"
+      - "program"
+    must_have_any:
+      - schedule
+      - timetable
+      - program
+  - key: athlete_services
+    query_terms:
+      - "athlete services"
+      - "athlete info"
+      - "athlete guide"
+    must_have_any:
+      - athlete
+      - guide
+      - services
+      - information
+  - key: transport
+    query_terms:
+      - transport
+      - shuttle
+      - "getting there"
+    must_have_any:
+      - transport
+      - shuttle
+      - bus
+      - travel
+      - "getting there"

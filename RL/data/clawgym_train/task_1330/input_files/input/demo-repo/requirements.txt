@@ -1,0 +1,4 @@
+# Production dependencies for demo-repo
+requests==2.31.0
+
+# Note: pyyaml intentionally missing to simulate incomplete deps for auditing.

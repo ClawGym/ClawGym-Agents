@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1758",
+  "user_query": "Please read the two medical research abstracts in input/abstract1.txt and input/abstract2.txt. For each abstract, generate a plain-language summary for non-experts that:\n- uses the target audience and limits below (abstract1: audience=\"patients\", max_words=180; abstract2: audience=\"media\", max_words=120)\n- replaces medical jargon with simple explanations in-line\n- extracts exactly 3 key takeaways\n- estimates the reading level (aim for Grade 6-8)\n- logs the jargon terms you replaced and their plain explanations\n\nWrite the results as two JSON objects (one per line) to output/patient_summaries.jsonl with fields: lay_summary (string), reading_level (string), key_takeaways (array of 3 strings), word_count (int), jargon_replaced (array; each item should include the original term and its plain explanation). Make sure word_count equals the actual number of words in lay_summary and that lay_summary respects the max_words for each abstract. Also add a short methods note describing your simplification approach to output/README.md.\n\nDo not include any absolute or system-specific paths; use only the input/ and output/ paths specified here.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

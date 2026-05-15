@@ -1,0 +1,71 @@
+---BEGIN_PAPER_TEXT---
+A unified benchmarking of normalization and differential expression pipelines for bulk and single-cell RNA-seq across batches
+
+Authors: Maya L. Chen, Robert J. Alvarez, Priya Desai, Naomi Tan, and Leonid Petrov
+Affiliations: Department of Computational Biology, Northbridge Institute of Technology; Center for Genomics, Midvale University; Bioinformatics Program, Eastlake Research Hospital
+Correspondence: maya.chen@nit.edu
+
+Abstract
+Normalization and batch correction are critical for RNA sequencing (RNA-seq) analyses, yet practical guidance remains fragmented across bulk and single-cell contexts. We provide a unified benchmarking of normalization approaches—including TPM (Transcripts Per Million), RPKM (Reads Per Kilobase per Million), TMM (Trimmed Mean of M-values), and DESeq size factor normalization—across eight bulk RNA-seq datasets with ERCC spike-ins and four single-cell RNA-seq (scRNA-seq) collections. We quantify batch effect attenuation, differential expression (DE) accuracy, and cross-laboratory reproducibility using standardized pipelines and containerized environments. In bulk RNA-seq, TMM and DESeq size factors consistently achieve higher DE accuracy and reproducibility than TPM/RPKM. In scRNA-seq, library-size scaling combined with variance stabilization (e.g., DESeq2’s VST) and pooling-based methods (scran) improves clustering stability and DE precision. Harmony and Seurat integration effectively mitigate batch structure with minimal loss of biological signal. We release code, containers, and parameter files to promote reproducibility.
+
+Keywords: RNA-seq, normalization, TPM, RPKM, TMM, DESeq, batch effect, single-cell RNA-seq, scRNA-seq, differential expression, reproducibility, pipeline, benchmarking
+
+Introduction
+Large-scale transcriptome profiling by RNA-seq powers discovery of disease mechanisms and cell states, but analytical variability can obscure biological conclusions. Choices in normalization and batch correction can dominate downstream results, particularly when integrating data across laboratories or time. While TPM and RPKM are widely used to report within-sample relative expression, count-based methods such as TMM and DESeq size factors are often recommended for DE testing. In scRNA-seq, unique challenges such as zero inflation and high technical noise further amplify sensitivity to normalization and batch correction. Here, we evaluate normalization strategies and DE pipelines across bulk and single-cell datasets, with emphasis on batch effect mitigation and reproducibility across centers.
+
+Materials and Methods
+Datasets
+- Bulk RNA-seq: Eight datasets spanning blood, liver, and brain tissues; 6–12 biological replicates per condition; ERCC spike-ins included for ground-truth fold-change estimation.
+- Single-cell RNA-seq: Four datasets (PBMCs and mouse brain cortex) generated across three sequencing centers, totaling ~60,000 cells, processed in six batches.
+
+Preprocessing and Quantification
+- Quality control: FastQC (v0.11.9) and MultiQC (v1.14).
+- Trimming: Trim Galore (v0.6.7) with default adapters.
+- Alignment/quantification: STAR (v2.7.10a) to GRCh38/GRCm38; Salmon (v1.10.0) quasi-mapping for transcript-level abundance; gene-level counts via tximport (v1.26).
+- scRNA-seq: UMI counting with STARsolo and Cell Ranger (v6.1.2); cells filtered by mitochondrial fraction (<15%), nGenes > 500, and doublet exclusion using Scrublet.
+
+Normalization
+- Bulk: TPM and RPKM computed from length-normalized abundances; TMM via edgeR (v3.40); DESeq size factor normalization via DESeq2 (v1.38).
+- scRNA-seq: Library-size scaling, scran pooling-based normalization, and DESeq2 variance stabilizing transformation (VST).
+
+Batch Correction and Integration
+- Bulk: ComBat (sva), limma removeBatchEffect.
+- scRNA-seq: Harmony (v0.1), Seurat integration (v4.3), and MNN correction for sensitivity analyses.
+
+Differential Expression
+- Bulk: edgeR quasi-likelihood F-test (QLF), DESeq2 (Wald and LRT), limma-voom with duplicateCorrelation when applicable.
+- scRNA-seq: Pseudobulk aggregation by sample and cluster; DE using edgeR and DESeq2; cluster marker detection with Wilcoxon rank-sum (Seurat).
+
+Evaluation Metrics
+- Accuracy: AUROC and AUPRC versus ERCC spike-in ground truth and qPCR panels.
+- Batch effect attenuation: Silhouette width relative to batch, kBET rejection rate.
+- Biological signal preservation: ARI for known cell types, marker recovery rates.
+- Reproducibility: Jaccard overlap of top-100 DE genes across centers/batches; Spearman correlation of log2 fold-changes; containerized re-runs to assess environment drift.
+- Computational cost: CPU-hours and peak memory recorded for each pipeline.
+
+Results
+Normalization in Bulk RNA-seq
+Across eight bulk datasets, TMM and DESeq size factor normalization yielded the highest DE accuracy (median AUROC +0.06–0.09 over TPM/RPKM) and improved cross-batch reproducibility (median Jaccard overlap +12%). TPM and RPKM facilitated cross-sample comparisons of expression magnitude but inflated variance for low-count genes, degrading DE test calibration.
+
+Single-cell RNA-seq Performance
+In scRNA-seq, library-size scaling plus VST and scran pooling reduced mean–variance dependence and improved clustering stability (ARI +0.08–0.15). Pseudobulk DE using TMM or DESeq size factors outperformed single-cell level tests in both accuracy and reproducibility across centers. Marker detection was robust under Harmony and Seurat integration, though aggressive correction occasionally suppressed rare-cell markers.
+
+Batch Effects
+Uncorrected data showed that cohort and laboratory accounted for >30% of variance. ComBat and Harmony reduced batch-associated structure by 2–5× (kBET rejection rate reductions of 18–41%). Over-correction risk was dataset-dependent, with MNN occasionally removing subtle biological gradients in brain cortex single-cell data.
+
+Reproducibility and Computational Considerations
+Containerized pipelines (Docker/Singularity) eliminated version drift, stabilizing DE gene sets across re-runs (median Jaccard +9% compared to host-based runs). Among DE pipelines, TMM + edgeR QLF and DESeq2 size factors + LRT produced the most stable gene rankings across centers and batches. limma-voom performed competitively on larger replicate designs but was more sensitive to library size imbalances.
+
+Discussion
+Our unified benchmark clarifies when to prefer length-normalized units (TPM, RPKM) versus count-based scaling (TMM, DESeq). For DE in bulk RNA-seq, TMM and DESeq size factors are generally superior; TPM/RPKM are better suited for within-sample expression representation and visualization rather than hypothesis testing. In scRNA-seq, normalization must be paired with variance stabilization and careful batch correction; pseudobulk strategies provide robust DE while preserving interpretability. No single batch correction method dominates across all datasets; parameter tuning and diagnostics remain essential. Limitations include reliance on spike-ins, finite tissue types, and lack of spatial or multiome assays. Future benchmarks should incorporate multi-modal data and perturbation designs.
+
+Processing Pipeline Summary
+1) Read QC → 2) Adapter trimming → 3) Alignment/quantification (STAR/Salmon) → 4) Gene summarization (tximport) → 5) Normalization (TPM, RPKM, TMM, DESeq size factors) → 6) Batch correction (ComBat/Harmony/Seurat) → 7) DE analysis (edgeR/DESeq2/limma-voom; pseudobulk for scRNA-seq) → 8) Evaluation (AUROC, kBET, ARI, reproducibility) → 9) Reporting and containerized re-runs.
+
+Data and Code Availability
+All workflows, parameter files, and containers are available at https://github.com/nit-bioinformatics/rnaseq-benchmark and archived at Zenodo (DOI pending). A Snakemake-based pipeline includes explicit conda environment and container specifications to facilitate reproducibility.
+
+Acknowledgements
+We thank the Sequencing Core Facilities at Northbridge and Midvale and the open-source maintainers of edgeR, DESeq2, limma, Seurat, Harmony, and scran.
+
+---END_PAPER_TEXT---

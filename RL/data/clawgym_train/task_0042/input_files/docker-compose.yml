@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  gigs_api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    env_file:
+      - .env
+    environment:
+      - PORT=8000
+    volumes:
+      - ./data:/data
+    ports:
+      - "5000:8000"

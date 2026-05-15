@@ -1,0 +1,15 @@
+{"id":"F-001","component":"api-gateway","severity":"High","owasp_hint":"Broken Access Control","description":"Missing authorization checks on DELETE /v1/users/{id} allow privilege escalation."}
+{"id":"F-002","component":"user-service","severity":"Critical","owasp_hint":"Identification and Authentication Failures","description":"Password reset token not invalidated after use; account takeover possible."}
+{"id":"F-003","component":"web-frontend","severity":"Medium","owasp_hint":"Security Misconfiguration","description":"Directory listing enabled on /static/ exposing internal build artifacts."}
+{"id":"F-004","component":"payment-service","severity":"High","owasp_hint":"Cryptographic failures","description":"AES encryption uses ECB mode for card tokens; pattern leakage detected."}
+{"id":"F-005","component":"reports-service","severity":"Medium","owasp_hint":"Injection","description":"Unparameterized SQL in report filter allows UNION-based injection."}
+{"id":"F-006","component":"web-frontend","severity":"Low","owasp_hint":"Security Logging and Monitoring Failures","description":"Login failure events are not recorded with source IP or correlation ID."}
+{"id":"F-007","component":"thirdparty-lib","severity":"High","owasp_hint":"Vulnerable and Outdated Components","description":"Dependency xyz 1.2.3 includes a known RCE; patch available in 1.2.8."}
+{"id":"F-008","component":"admin-portal","severity":"High","owasp_hint":"Broken Access Control","description":"Admin-only endpoints accessible to users with 'support' role via API."}
+{"id":"F-009","component":"webhook-processor","severity":"Medium","owasp_hint":"Server-Side Request Forgery","description":"Unvalidated URL fetcher allows internal metadata endpoint access."}
+{"id":"F-010","component":"deployment","severity":"Medium","owasp_hint":"Security Misconfiguration","description":"Kubernetes dashboard exposed without auth on internal network."}
+{"id":"F-011","component":"data-pipeline","severity":"High","owasp_hint":"Software and Data Integrity Failures","description":"Unsigned plugin packages loaded at runtime from S3 bucket."}
+{"id":"F-012","component":"design-docs","severity":"Low","owasp_hint":"Insecure Design","description":"No rate limiting planned for login endpoints in design spec."}
+{"id":"F-013","component":"email-service","severity":"Medium","owasp_hint":"Injection","description":"Template engine evaluates untrusted expressions in email templates."}
+{"id":"F-014","component":"auth-service","severity":"Critical","owasp_hint":"Identification and Authentication Failures","description":"MFA bypass possible via legacy endpoint not covered by policy."}
+{"id":"F-015","component":"admin-portal","severity":"Medium","owasp_hint":"Access Control Issues","description":"Role-based UI hides controls but backend enforces only on some routes."}

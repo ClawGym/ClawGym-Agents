@@ -1,0 +1,13 @@
+candidate_id,smiles,name
+C001,CC(=O)OC1=CC=CC=C1C(=O)O,Aspirin
+C002,Cn1cnc2n(C)c(=O)n(C)c(=O)c12,Caffeine
+C003,CC(C)CC1=CC=C(C=C1)C(C)C(=O)O,Ibuprofen
+C004,CCN(CC)CCNC(=O)c1ccccc1N(C)C,Lidocaine
+C005,COC1=CC=CC=C1OCCN(CC)CCOC2=CC=CC=C2,Diphenhydramine
+C006,OCCOCCOCCOCCOCCOCCOCCO,Polyether-12
+C007,c1ncnc2c1ncn2,Purine-core
+C008,CC(C)(C)c1ccc(cc1)O,Tert-Butylphenol
+C009,INVALID_SMILES,Bad1
+C010,,MissingSmiles
+,CCO,MissingID
+C011,CCO,Ethanol

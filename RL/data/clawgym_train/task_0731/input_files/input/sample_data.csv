@@ -1,0 +1,21 @@
+id,source,raw_value,notes
+1,log,2023-08-05T14:30:00-04:00,ISO with offset (Eastern Daylight Time)
+2,crm,8/5/23 2:30 PM,US-style ambiguous numeric; default tz per spec for CRM
+3,eu_portal,05/08/2023 14:30,EU-style day-first numeric; missing tz
+4,web,Aug 5, 2023 2:30pm,User local unknown; web default uncertain (spec conflict)
+5,ops,2024-03-10 02:15 America/New_York,DST spring-forward gap in NY; local 02:15 does not exist
+6,ops,2024-11-03 01:30 America/New_York,DST fall-back overlap in NY; ambiguous first vs second occurrence
+7,log,2020-02-29T23:59:60Z,Leap second
+8,crm,03/04/05 06:07:08,Ambiguous (MM/DD/YY vs DD/MM/YY); CRM context suggests US; missing tz
+9,apac,2023-04-05 16:00 Asia/Tokyo,Named tz (no DST)
+10,marketing,2023/13/01 12:00,Invalid month (13) to trigger error path
+11,log,2023-217,Ordinal date (217th day of 2023); no time; assume 00:00
+12,analytics,2023-W05-3,ISO week date (Wednesday of week 5); no time; assume 00:00
+13,web,yesterday 17:00,Relative; resolve using reference 2024-02-15T12:00:00Z
+14,web,now,Relative; resolve using reference 2024-02-15T12:00:00Z
+15,finance,2023-12-31T24:00Z,24:00 -> next day 00:00
+16,partner_gb,01/02/2023,Ambiguous numeric; notes indicate GB locale; country_code=GB
+17,ops,2023-03-26 02:15 Europe/Paris,DST spring-forward gap in Paris
+18,legacy,2023-04-31,Invalid day (April has 30)
+19,support,5 Aug 2023,Textual date; no time; missing tz
+20,web,2023-08-05 14:30,Missing tz; web default conflict noted in spec

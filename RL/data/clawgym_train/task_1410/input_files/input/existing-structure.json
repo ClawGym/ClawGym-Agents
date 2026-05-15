@@ -1,0 +1,76 @@
+{
+  "language": "TypeScript (strict)",
+  "runtime": "Node.js (LTS)",
+  "packageManager": "npm",
+  "testingApproach": {
+    "pyramid": {
+      "unit": 0.6,
+      "integration": 0.3,
+      "e2e": 0.1
+    },
+    "coverageTarget": 0.85
+  },
+  "conventions": {
+    "typesFirst": true,
+    "maxFunctionLines": 50,
+    "maxFileLines": 300,
+    "naming": {
+      "functions": "camelCase",
+      "types": "PascalCase",
+      "constants": "UPPER_SNAKE_CASE"
+    },
+    "errorHandling": "Explicit try/catch for async boundaries, never swallow errors; return typed Result objects from lib functions",
+    "dependencyPolicy": "No new dependencies without tech lead approval",
+    "secretsPolicy": "No hardcoded secrets; config from environment with schema validation",
+    "fileStructure": "Small files, co-located tests when practical, explicit imports (no barrel re-exports)"
+  },
+  "repoTree": [
+    "README.md",
+    "src/",
+    "src/types/",
+    "src/types/readiness.ts",
+    "src/lib/",
+    "src/lib/validation.ts",
+    "src/lib/scoring.ts",
+    "src/services/",
+    "src/services/ingest.ts",
+    "src/services/compute.ts",
+    "src/services/storage.ts",
+    "src/api/",
+    "src/api/routes/",
+    "src/api/routes/readiness.ts",
+    "src/api/routes/criteria.ts",
+    "src/api/routes/history.ts",
+    "tests/",
+    "tests/unit/",
+    "tests/unit/scoring.test.ts",
+    "tests/integration/",
+    "tests/integration/api-readiness.test.ts",
+    "config/",
+    "config/defaults.ts",
+    "docs/",
+    "docs/api-contracts.md"
+  ],
+  "status": {
+    "src/types/readiness.ts": "exists",
+    "src/lib/validation.ts": "exists (basic schema checks for inputs)",
+    "src/lib/scoring.ts": "exists (stubbed with TODOs)",
+    "src/services/ingest.ts": "exists (stub consumes JSON artifacts, writes to storage stub)",
+    "src/services/compute.ts": "exists (currently computes on-read using in-memory cache)",
+    "src/services/storage.ts": "exists (file-backed JSON store; replaceable later)",
+    "src/api/routes/readiness.ts": "exists (basic handler; no caching strategy yet)",
+    "src/api/routes/criteria.ts": "exists (returns raw breakdown from compute)",
+    "src/api/routes/history.ts": "exists (returns empty array placeholder)",
+    "tests/unit/scoring.test.ts": "exists (partial, coverage low)",
+    "tests/integration/api-readiness.test.ts": "exists (smoke test only)",
+    "config/defaults.ts": "exists (coverage threshold, weights, status thresholds)",
+    "docs/api-contracts.md": "exists (draft endpoints and shapes)"
+  },
+  "gaps": [
+    "No clear caching/precomputation strategy for readiness score",
+    "History retention not implemented",
+    "Manual override + audit trail not implemented",
+    "Validation coverage incomplete (criteria inputs need stricter schemas)",
+    "Performance targets not enforced or measured"
+  ]
+}

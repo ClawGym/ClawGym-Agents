@@ -1,0 +1,20 @@
+date,campaign,clicks,cost,currency
+2021-06-14,Search - Brand,500,900,EUR
+2021-06-14,Search - NonBrand,300,600,USD
+2021-06-14,Display - Retargeting,400,350,GBP
+2021-06-15,Search - Brand,520,910,EUR
+2021-06-15,Search - NonBrand,310,620,USD
+2021-06-15,Display - Retargeting,420,360,GBP
+2021-06-16,Search - Brand,510,905,EUR
+2021-06-16,Search - NonBrand,305,610,USD
+2021-06-16,Display - Retargeting,410,355,GBP
+2021-06-19,Search - Brand,300,530,EUR
+2021-06-19,Search - NonBrand,150,280,USD
+2021-06-21,Search - Brand,560,980,EUR
+2021-06-21,Search - NonBrand,320,640,USD
+2021-06-21,Display - Retargeting,430,365,GBP
+2021-06-22,Search - Brand,540,960,EUR
+2021-06-22,Search - NonBrand,315,630,USD
+2021-06-22,Display - Retargeting,425,362,GBP
+2021-06-27,Search - NonBrand,180,350,USD
+2021-06-27,Display - Retargeting,300,255,GBP

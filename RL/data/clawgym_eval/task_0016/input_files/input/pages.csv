@@ -1,0 +1,9 @@
+file_name,url_path,city,impressions,ctr,avg_position,primary_keyword
+index.html,/,Kansas City,2500,0.06,7.2,Kansas City BBQ
+menu.html,/menu,Kansas City,1400,0.04,9.8,BBQ menu Kansas City
+catering.html,/catering,Kansas City,900,0.03,11.5,BBQ catering Kansas City
+reservations.html,/reservations,Kansas City,500,0.09,14.0,BBQ reservations Kansas City
+bbq-brisket.html,/bbq-brisket,Kansas City,350,0.05,8.5,brisket Kansas City
+about.html,/about,Kansas City,300,0.12,8.0,about Smoky River BBQ
+locations-overland-park.html,/locations/overland-park,Overland Park,600,0.05,10.0,BBQ Overland Park
+happy-hour.html,/happy-hour,Kansas City,80,0.05,12.0,happy hour Kansas City

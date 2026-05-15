@@ -1,0 +1,13 @@
+task,priority,due,mark_done
+File quarterly tax return,High,2026-05-10,no
+Prepare Q2 roadmap,medium,2026-05-20,No
+Renew domain registration,HIGH,2026-05-15,n
+Refactor auth module,low,,false
+Book venue for team offsite,high,2026-05-08,YES
+Schedule dentist appointment,Medium,,true
+Publish release notes v3.1,MEDIUM,2026-05-14,0
+Conduct onboarding for new hires,hIgH,,No
+Backup production database,High,2026-05-12,y
+Update CI pipeline,LOW,2026-05-16,False
+Draft client proposal for Nimbus Corp,HIGH,2026-05-13,1
+Review security audit findings,medium,2026-05-09,n

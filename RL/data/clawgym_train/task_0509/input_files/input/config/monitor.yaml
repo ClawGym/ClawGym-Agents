@@ -1,0 +1,21 @@
+version: 1
+watch_dir: "incoming"
+output_dir: "out"
+meeting_template: "input/docs/meeting_template.md"
+log_path: "out/automation.log"
+topics:
+  bribery: ["bribe", "kickback", "cash envelope"]
+  offshore: ["offshore", "shell company", "wire transfer"]
+  intimidation: ["threat", "intimidation", "harassment"]
+  contract-rigging: ["bid rigging", "contract", "tender fix"]
+assignees:
+  bribery: "Editor-in-Chief"
+  offshore: "Legal Counsel"
+  contract-rigging: "Data Reporter"
+attendees:
+  - "Editor-in-Chief"
+  - "Legal Counsel"
+  - "Security Advisor"
+  - "Photojournalist"
+notes:
+  timezone: "UTC"

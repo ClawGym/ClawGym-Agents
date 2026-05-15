@@ -1,0 +1,9 @@
+{
+  "action": "censor",
+  "detectLeetspeak": true,
+  "normalizeUnicode": true,
+  "languages": ["english"],
+  "customWords": ["fuck", "shit", "bastard", "ass", "bitch", "jerkface", "cunt"],
+  "ignoreWords": ["assess", "Scunthorpe"],
+  "replaceWith": "***"
+}

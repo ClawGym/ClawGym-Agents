@@ -1,0 +1,9 @@
+EmployeeID,Name,Email,Role,Shift,Location,HireDate
+E001,Ana Patel,ana.patel@example.com,Cashier,Day,Retail Floor,2023-11-02
+E002,Bruno Diaz,bruno.diaz@example.com,Stock Clerk,Night,Warehouse A,2024-06-18
+E003,Chloe Zhang,chloe.zhang@example.com,Supervisor,Evening,Retail Floor,2022-04-11
+E004,Diego Morales,diego.morales@example.com,Security,Evening,Warehouse A,2024-12-05
+E005,Ella Nguyen,ella.nguyen@example.com,Cashier,Day,Retail Floor,2025-02-20
+E006,Felix Rossi,felix.rossi@example.com,Stock Clerk,Night,Warehouse A,2021-08-29
+E007,Grace Kim,grace.kim@example.com,Manager,Day,Office,2020-03-03
+E008,Hassan Ali,hassan.ali@example.com,Stock Clerk,Night,Warehouse A,2025-01-15

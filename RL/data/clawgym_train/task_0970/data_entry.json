@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0970",
+  "user_query": "Please read input/idea.md and input/context.json, then run your knockout test idea validation on the subject \"AI Ops Co-pilot\". Write the full analysis as a markdown file to output/skills/mindgraph/mindskills/knockout-test/results/ai-ops-co-pilot.md with YAML frontmatter including: mindskill (set to knockout-test), subject (AI Ops Co-pilot), date (YYYY-MM-DD), and verdict (BUILD, PIVOT, or PARK). In the body, include clearly labeled sections for Round 1 (build it up), Round 2 (tear it down), Round 3 (reality check), Round 4 (verdict), plus a \"Connections\" section at the end. Use Obsidian-style [[wikilinks]] throughout the file to connect people, projects, companies/tools, and concepts — include at least 8 unique wikilinks, and be sure to link all competitors and at least two market terms from input/context.json. If your verdict is PIVOT or PARK, also include a \"What would change my mind\" subsection explaining specific conditions that could alter the decision. Finally, generate a JSON report at output/mindgraph_report.json that lists each unique wikilink you used (array of strings) and provides a count under the key unique_wikilinks. Do not place any outputs outside the output/ directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

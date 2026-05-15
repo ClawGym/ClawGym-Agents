@@ -1,0 +1,19 @@
+weights:
+  keyword_points:
+    comeback: 3.0
+    last-minute winner: 2.5
+    derby rout: 1.0
+    tight derby: 1.5
+    red card: 1.5
+    stalemate: 0.5
+    keeper heroics: 1.0
+    fast start: 0.5
+    home win: 0.5
+    away win: 1.0
+    historic: 2.0
+    title-clinching draw: 2.5
+  goal_diff_weight: 1.0
+  last_minute_threshold: 85
+classification:
+  legendary_min: 8.0
+  memorable_min: 5.0

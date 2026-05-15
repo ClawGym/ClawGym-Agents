@@ -1,0 +1,44 @@
+{
+  "title": "AI Model Governance Briefing Scope",
+  "regions": ["EU", "US"],
+  "timeframe": {
+    "type": "past_months",
+    "value": 12,
+    "note": "Only developments published or updated within the last 12 months from today."
+  },
+  "entities_in_scope": [
+    "EU: European Commission, Council and Parliament (for implementation updates), EU AI Office, national competent authorities, ENISA, EDPB, EDPB/EDPS joint work where applicable",
+    "US: White House/OSTP, OMB, NIST and the NIST AI Safety Institute (AISI), FTC, DOJ (Antitrust/Civil), DHS and CISA, relevant Congressional committees, state attorneys general and state legislatures when the action clearly affects foundation models"
+  ],
+  "topics_emphasis": [
+    "Obligations on foundation models / general-purpose AI under the EU AI Act (e.g., codes of practice, systemic risk management, model evaluations, technical documentation, incident reporting, content provenance)",
+    "US federal actions affecting foundation models (e.g., NIST/AISI testing and safety guidance, OMB memos and implementation timelines, FTC policy/enforcement actions, DHS/CISA directives or advisories)",
+    "Model safety evaluation and red-teaming expectations for high-impact systems",
+    "Content provenance (watermarking/origin signals), disclosure and transparency obligations",
+    "Compute/reporting thresholds, risk classification criteria, and reporting channels",
+    "Security and abuse prevention requirements (e.g., protections against misuse and model exfiltration)",
+    "Open-source model considerations, carve-outs, or obligations specific to foundation models"
+  ],
+  "out_of_scope": [
+    "Corporate marketing blogs that do not reflect formal policy or regulator guidance",
+    "Pure academic theory without clear regulatory implications",
+    "Developments older than the specified timeframe unless briefly cited for minimal context"
+  ],
+  "deliverable_expectations": {
+    "tone": "Executive-friendly and action-oriented; avoid unnecessary technical depth",
+    "length_words": { "min": 1000, "max": 1500 },
+    "citations": "Use numeric inline citations like [#] that map to the 1-based index of output/sources.json"
+  },
+  "audience": ["CEO", "CFO", "CPO", "General Counsel", "CISO", "CTO"],
+  "questions_to_answer": [
+    "What new or updated obligations apply to providers of foundation models in the EU and the US?",
+    "What are the key dates and timelines (phased implementation, effective dates, public comment windows)?",
+    "Where do EU and US approaches align or diverge and how does that affect global launch plans?",
+    "What practical steps should we take in the next quarter to remain compliant?",
+    "What open questions remain pending secondary guidance or further rulemaking?"
+  ],
+  "notes_for_research": [
+    "Prioritize official regulator/government domains and reputable outlets/think tanks.",
+    "Flag contradictions across sources and propose a reasoned reconciliation."
+  ]
+}

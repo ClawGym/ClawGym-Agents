@@ -1,0 +1,19 @@
+lab:
+  meeting_title: "Teaching Team Sync: Searing & Maillard Lab Debrief"
+  meeting_date: 2026-05-10
+  experiment: "Searing and Maillard Reaction"
+equipment:
+  sous_vide:
+    target_temp_c: 56.0
+    calibration_offset_c: -1.0  # TODO: re-check with ice bath
+  skillet:
+    preheat_temp_c: 220
+    oil_smoke_point_c: 210
+  ph_meter:
+    calibration_ph7_date: 2026-04-01
+process:
+  pat_dry_minutes: 5  # FIXME: may be too short for consistent browning
+  sear_per_side_seconds: 90
+notes:
+  - "Verify ventilation before high-heat searing"
+  - "Check if pat drying time sufficient"

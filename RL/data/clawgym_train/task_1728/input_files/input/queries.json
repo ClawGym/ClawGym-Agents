@@ -1,0 +1,6 @@
+[
+  {"query": "vector embedding", "top_n": 3},
+  {"query": "cache invalidation", "top_n": 3},
+  {"query": "root cause", "top_n": 2},
+  {"query": "action items notes", "top_n": 4}
+]

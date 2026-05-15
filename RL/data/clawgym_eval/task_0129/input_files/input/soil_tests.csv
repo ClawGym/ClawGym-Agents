@@ -1,0 +1,7 @@
+field_id,crop_last_year,crop_family_last_year,soil_pH,organic_matter_pct,nitrate_ppm,phosphorus_ppm,potassium_ppm,notes
+F01,Broccoli,Brassicaceae,5.9,2.8,8,25,120,"north end compaction"
+F02,Sweet Corn,Poaceae,6.4,3.1,15,18,110,
+F03,Tomato,Solanaceae,6.1,2.5,7,30,150,
+F04,Winter Wheat,Poaceae,6.8,3.3,12,20,140,
+F05,Cabbage,Brassicaceae,6.0,2.9,9,22,100,
+F06,Soybean,Fabaceae,6.5,3.5,11,26,130,

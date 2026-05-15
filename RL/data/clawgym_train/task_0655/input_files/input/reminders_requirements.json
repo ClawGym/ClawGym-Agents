@@ -1,0 +1,14 @@
+{
+  "id": "morning-supplements",
+  "label": "morning supplements",
+  "scheduleFirst": "08:00",
+  "nagAfter": "09:00",
+  "days": ["monday", "tuesday", "wednesday", "thursday", "friday"],
+  "confirmPatterns": ["taken", "took them", "did it", "yes"],
+  "tone": "friendly but persistent; escalate urgency after 3 nags with gentle ALL CAPS flair",
+  "messages": {
+    "first": "Time for your morning supplements.",
+    "nag": "Quick check-in: have you taken your morning supplements yet?",
+    "escalate": "HEY — YOUR MORNING SUPPLEMENTS ARE STILL WAITING. LET’S GET THIS DONE."
+  }
+}

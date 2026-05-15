@@ -1,0 +1,43 @@
+Document: SecureEntry X100 — Installation Guide & API Reference, Version 2.0
+Manufacturer: SecureEntry Systems Ltd.
+Product: SecureEntry X100
+Publication Date: January 2026
+
+1. Product Overview
+- "SecureEntry X100 is a Wi‑Fi enabled door contact sensor for residential and small business security. It mounts to a door frame with the supplied adhesive bracket and communicates events to the SecureEntry cloud or a local MQTT broker." (Install Guide §1 "Overview", p. 3)
+
+2. Mounting & Mechanical
+- "The sensor housing is designed for surface mounting to a door frame; the magnetic companion mounts on the door panel." (Install Guide §2.1 "Mounting", p. 4)
+
+3. Magnetic Sensing Element (Open/Close Detection)
+- "X100 uses a reed switch to detect the proximity of the included magnet; separation indicates DOOR_OPEN, proximity indicates DOOR_CLOSED." (API Ref §3.1 "Sensing", p. 6)
+
+4. Microcontroller & Event Handling
+- "An ARM Cortex‑M0+ MCU monitors the reed input, debounces transitions, and generates events on state change." (API Ref §4.1 "MCU & Firmware", p. 7)
+
+5. Wireless Transceiver & Messaging
+- "Wireless: IEEE 802.11 b/g/n (2.4 GHz). Protocols: HTTPS (REST) and MQTT." (API Ref §5.1 "Radio Specs", p. 8)
+- "On a state transition, the device publishes a JSON event to the 'secureentry/x100/events' topic (MQTT) or POSTs to the configured webhook (HTTP)." (API Ref §5.2 "Event Delivery", p. 9)
+- Example payload (MQTT/HTTP):
+  {
+    "device_id": "x100-7f3a2c19",
+    "event": "door_open",
+    "timestamp": "2026-01-12T18:42:26Z",
+    "battery": 82
+  }
+  (API Ref §5.3 "Event Schema", p. 10)
+
+6. Power Source & Battery Reporting
+- "Power: Two AAA 1.5V alkaline cells." (Install Guide §6.1 "Power", p. 12)
+- "Battery percentage is computed from loaded voltage and included in each event message field 'battery' (0–100)." (API Ref §6.2 "Battery Telemetry", p. 12)
+
+7. Tamper Detection
+- "X100 does not include a mechanical tamper switch. Tamper detection is not supported on this model." (Install Guide §7.1 "Tamper", p. 13)
+
+8. Pairing & Security
+- "Initial Wi‑Fi onboarding uses a secure provisioning flow; upon completion, the device stores Wi‑Fi credentials and a device token in non‑volatile memory for authenticated communication." (Install Guide §8.1 "Provisioning & Security", p. 14)
+
+9. Unique Identifier
+- "Each device is assigned a unique device_id (UUID‑like string) used to identify event messages." (API Ref §5.3 "Event Schema", p. 10)
+
+Source: input/evidence_SecureEntry_X100.txt (official excerpts compiled from SecureEntry X100 installation guide and API reference)

@@ -1,0 +1,16 @@
+ElementId,Category,Material,Level,Volume_m3,Area_m2,Phase,Exclude
+E001," wall ","Concrete ","Level 1",45.5,120.0,"New Construction",""
+E002,floor,Concrete,Level 1,80,200,New Construction,no
+E003,Column,steel,Level 1,8.5,15.0,New Construction,FALSE
+E004,Wall,Brick,Level 2,32,N/A,New Construction,0
+E005,Beam,Steel,Level 2,12.25,5.0,New Construction,false
+E006,Wall,Concrete,Level 3,abc,90.0,New Construction,No
+E007,Floor,Wood,Level 2,50.0,180.0,New Construction,Yes
+E008,"Floor ",Concrete,"Level 3",42.0,,New Construction,
+E009,column,steel,Level 2,9.0,16.0,Demolition,no
+E010,Beam,Wood,Level 1,5.5,7.0,New Construction,1
+E011,Foundation,Concrete,Level 0,60.0,100.0,New Construction,no
+E012,WALL,Brick,Level 1,20.0,50.0,New Construction,no
+E013,Floor,Concrete,Level 2,30.0,110.0,New Construction,no
+E014,Column,Concrete,Level 3,10.0,14.0,New Construction,no
+E015,Wall," Gypsum","Level 1",12.0,30.0,New Construction,no

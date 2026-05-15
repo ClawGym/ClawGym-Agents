@@ -1,0 +1,47 @@
+{
+  "departments": [
+    {
+      "department": "Engineering",
+      "competencies": [
+        { "name": "Backend (Go/Node)", "required_level": 4.0, "current_avg_level": 3.5, "employees_impacted": 12 },
+        { "name": "Frontend (React)", "required_level": 4.0, "current_avg_level": 3.6, "employees_impacted": 8 },
+        { "name": "Cloud (AWS)", "required_level": 4.0, "current_avg_level": 3.3, "employees_impacted": 10 },
+        { "name": "DevOps/SRE", "required_level": 3.5, "current_avg_level": 3.0, "employees_impacted": 6 },
+        { "name": "AI/ML (RAG)", "required_level": 3.0, "current_avg_level": 2.2, "employees_impacted": 5 }
+      ]
+    },
+    {
+      "department": "Sales",
+      "competencies": [
+        { "name": "SaaS Solution Selling", "required_level": 4.0, "current_avg_level": 3.2, "employees_impacted": 6 },
+        { "name": "MEDDIC Qualification", "required_level": 3.5, "current_avg_level": 2.8, "employees_impacted": 5 },
+        { "name": "Pipeline Management (CRM)", "required_level": 4.0, "current_avg_level": 3.5, "employees_impacted": 8 }
+      ]
+    },
+    {
+      "department": "Support",
+      "competencies": [
+        { "name": "Product Troubleshooting", "required_level": 4.0, "current_avg_level": 3.0, "employees_impacted": 10 },
+        { "name": "Ticket QA & Knowledge Base", "required_level": 3.5, "current_avg_level": 2.9, "employees_impacted": 8 },
+        { "name": "Customer Empathy & Communication", "required_level": 4.0, "current_avg_level": 3.4, "employees_impacted": 10 }
+      ]
+    },
+    {
+      "department": "Marketing",
+      "competencies": [
+        { "name": "Demand Gen (Paid + Lifecycle)", "required_level": 4.0, "current_avg_level": 3.3, "employees_impacted": 3 },
+        { "name": "Content Strategy", "required_level": 3.5, "current_avg_level": 3.2, "employees_impacted": 3 },
+        { "name": "Marketing Ops (Automation)", "required_level": 3.5, "current_avg_level": 3.0, "employees_impacted": 2 }
+      ]
+    },
+    {
+      "department": "G&A",
+      "competencies": [
+        { "name": "Finance FP&A", "required_level": 4.0, "current_avg_level": 3.7, "employees_impacted": 2 },
+        { "name": "HR Ops & Compliance", "required_level": 3.5, "current_avg_level": 3.4, "employees_impacted": 2 },
+        { "name": "IT & Security", "required_level": 3.5, "current_avg_level": 3.2, "employees_impacted": 1 }
+      ]
+    }
+  ],
+  "rating_scale": "1 (novice) – 5 (expert)"
+}

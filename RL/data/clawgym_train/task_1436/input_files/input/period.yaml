@@ -1,0 +1,13 @@
+period: "2026-03"
+period_type: "month"
+ytd_start: "2026-01"
+materiality:
+  revenue:
+    amount: 5000
+    pct: 5
+  expense:
+    amount: 2500
+    pct: 10
+  ebitda:
+    amount: 10000
+    pct: 5

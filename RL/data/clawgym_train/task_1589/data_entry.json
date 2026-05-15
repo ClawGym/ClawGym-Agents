@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1589",
+  "user_query": "Please read input/brief.md and reformat it into a clean, modular project update. Write the result to output/brief_modular.md. Follow these requirements exactly:\n\n1) Use these five sections with these exact Markdown headings (including the emoji and casing):\n   - \"## 🧭 Overview\"\n   - \"## 📌 Current Status\"\n   - \"## 🛡️ Risks & Mitigations\"\n   - \"## ▶️ Next Steps\"\n   - \"## 📈 Metrics\"\n\n2) In every section:\n   - Start with a 1–3 sentence framing paragraph.\n   - Use at least one list where appropriate: bullets (\"- \") in Risks & Mitigations, and a numbered list (\"1.\", \"2.\") in Next Steps.\n   - Use bold sparingly for emphasis on at least two important terms total across the document.\n   - End the section with a single line starting with \"Takeaway:\" that summarizes that section.\n\n3) Preserve meaning and facts. Do not add new facts. Keep paragraphs short (1–3 sentences) and include blank lines between paragraphs.\n\n4) Ensure these terms from the source appear verbatim in the output: \"Q2 OKRs\", \"Guided Setup v2\", \"p95\", \"latency\", \"onboarding\", \"June 30\", and \"380ms\".\n\nOnly write the reformatted content to output/brief_modular.md. Do not write anywhere else.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

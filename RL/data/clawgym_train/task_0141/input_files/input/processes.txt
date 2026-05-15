@@ -1,0 +1,7 @@
+PID|Name|Parent|Path|Start Time|Command Line|Current Working Directory|User Time|System Time|Percent Processor Time
+1605|ffmpeg|128|C:\Tools\ffmpeg\bin\ffmpeg.exe|2026-04-11 09:00:00|ffmpeg -i input.mp4 -c:v libx264 output.mp4|C:\Users\steve\Videos|120|10|42.3
+1504|python3|1460|C:\Users\steve\AppData\Local\Programs\Python\Python311\python.exe|2026-04-11 08:45:00|python3 train.py --epochs 10|C:\Users\steve\Projects\ml|300|25|35.0
+1302|Code|1120|C:\Users\steve\AppData\Local\Programs\Microsoft VS Code\Code.exe|2026-04-11 08:30:00|"C:\Users\steve\AppData\Local\Programs\Microsoft VS Code\Code.exe" --folder-uri "file:///C:/Users/steve/Projects/alpha"|C:\Users\steve\Projects\alpha|200|22|22.7
+1450|chrome|1302|C:\Program Files\Google\Chrome\Application\chrome.exe|2026-04-11 08:50:00|chrome.exe --type=renderer --profile-directory=Default --extension-process|C:\Users\steve|180|15|8.1
+1222|backupd|4|C:\Windows\System32\backupd.exe|2026-04-11 01:00:00|backupd --schedule nightly|C:\Windows\System32|50|5|0.7
+1701|Slack|1302|C:\Users\steve\AppData\Local\slack\slack.exe|2026-04-11 08:40:00|Slack.exe|C:\Users\steve\AppData\Local\slack|220|18|3.5

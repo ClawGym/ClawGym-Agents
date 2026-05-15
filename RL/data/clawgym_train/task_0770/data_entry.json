@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0770",
+  "user_query": "I’m preparing a reproducible CI command plan for our .NET solution. Please read input/solution_spec.json to get the solution name, project paths, target framework, and package version. Then produce three files:\n\n1) output/build_plan.md\n- A concise plan with clearly separated stages: Restore, Build, Test, Publish, Pack, and Diagnostics.\n- Use the exact solution/project paths from the input file.\n- Include: a locked restore for the solution; a Release build with Deterministic=true, ContinuousIntegrationBuild=true, and parallelism; tests with TRX logger and results directory artifacts/testresults; a publish for the web project targeting linux-x64 that is self-contained and single-file with PublishDir=artifacts/publish/linux-x64/; pack the library project to artifacts/nuget/ using the version from the input.\n- Include at least one binary log command.\n- Use only dotnet msbuild (for restore/build/publish/pack) and dotnet test (for tests).\n- Add a one-sentence rationale next to each command.\n\n2) output/ci_commands.json\n- A JSON array of the exact commands (strings) in the order they should be run in CI, with no comments.\n- Use relative paths exactly as specified in input/solution_spec.json.\n- Ensure the commands match the requirements above.\n\n3) output/notes.txt\n- 5–10 bullet points on trade-offs and cautions around single-file, self-contained, trimming (PublishTrimmed), and ReadyToRun. Note when to avoid trimming. Keep under 2500 characters.\n\nDo not include placeholders. Use only relative workspace paths and only the input/ and output/ directories where applicable.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

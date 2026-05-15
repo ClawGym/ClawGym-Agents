@@ -1,0 +1,32 @@
+[
+  {
+    "name": "SushiSwap API",
+    "slug": "sushiswap-api",
+    "version": "0.1.0",
+    "description": "REST API integration for SushiSwap Aggregator: swap quotes, pricing, and executable transaction generation.",
+    "category": "developer-tools",
+    "homepage": "https://clawhub.ai/0xmasayoshi/sushiswap-api",
+    "download_url": "https://clawhub.ai/api/v1/download?slug=sushiswap-api",
+    "tags": ["defi", "swap", "dex", "api", "evm"]
+  },
+  {
+    "name": "Sprint Contract",
+    "slug": "sprint-contract",
+    "version": "1.0.0",
+    "description": "Planner-Generator-Evaluator workflow with explicit Sprint Contracts and independent QA.",
+    "category": "workflow",
+    "homepage": "https://clawhub.ai/mrpixelraf/sprint-contract",
+    "download_url": "https://clawhub.ai/api/v1/download?slug=sprint-contract",
+    "tags": ["evaluation", "multi-agent", "qa", "quality", "workflow"]
+  },
+  {
+    "name": "Session Observer",
+    "slug": "session-observer",
+    "version": "1.0.0",
+    "description": "Monitor token usage, context pressure, cache behavior, and session health.",
+    "category": "ai-intelligence",
+    "homepage": "https://clawhub.ai/qsczseasd/session-observer",
+    "download_url": "https://clawhub.ai/api/v1/download?slug=session-observer",
+    "tags": ["monitoring", "session", "tokens", "context"]
+  }
+]

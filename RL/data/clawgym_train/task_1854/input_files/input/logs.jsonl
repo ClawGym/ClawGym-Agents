@@ -1,0 +1,26 @@
+{"timestamp":"2026-03-15T12:00:00Z","level":"DEBUG","service":"api","message":"Starting background worker for cache warmup."}
+{"timestamp":"2026-03-15T12:00:01Z","level":"DEBUG","service":"api","message":"Cache miss for key user:alice:profile"}
+{"timestamp":"2026-03-15T12:00:02Z","level":"DEBUG","service":"auth","message":"Computed feature flags for user bob"}
+{"timestamp":"2026-03-15T12:00:03Z","level":"DEBUG","service":"health","message":"Healthcheck ping succeeded"}
+{"timestamp":"2026-03-15T12:00:10Z","level":"INFO","service":"auth","message":"User login request received for alice"}
+{"timestamp":"2026-03-15T12:00:12Z","level":"INFO","service":"auth","message":"User authenticated successfully for alice"}
+{"timestamp":"2026-03-15T12:00:20Z","level":"INFO","service":"catalog","message":"Fetched 23 products for category 'summer'"}
+{"timestamp":"2026-03-15T12:00:30Z","level":"INFO","service":"scheduler","message":"Scheduled nightly job: cleanup"}
+{"timestamp":"2026-03-15T12:00:45Z","level":"INFO","service":"orders","message":"Processed order 100234"}
+{"timestamp":"2026-03-15T12:00:55Z","level":"INFO","service":"core","message":"Shutdown signal received, draining connections"}
+{"timestamp":"2026-03-15T12:01:05Z","level":"WARN","service":"api","message":"Slow query detected in /api/search"}
+{"timestamp":"2026-03-15T12:01:10Z","level":"WARN","service":"cache","message":"Cache nearing capacity at 85%"}
+{"timestamp":"2026-03-15T12:01:15Z","level":"WARN","service":"api","message":"Deprecated API usage: v1 endpoints"}
+{"timestamp":"2026-03-15T12:02:00Z","level":"ERROR","service":"db","message":"Database connection failed!"}
+{"timestamp":"2026-03-15T12:02:05Z","level":"ERROR","service":"db","message":"Database connection failed!"}
+{"timestamp":"2026-03-15T12:02:10Z","level":"ERROR","service":"db","message":"Database connection failed!"}
+{"timestamp":"2026-03-15T12:02:15Z","level":"ERROR","service":"db","message":"DB connection failed."}
+{"timestamp":"2026-03-15T12:02:20Z","level":"ERROR","service":"db","message":"DB connection failed."}
+{"timestamp":"2026-03-15T12:02:30Z","level":"ERROR","service":"api","message":"Can't connect to srv;"}
+{"timestamp":"2026-03-15T12:02:35Z","level":"ERROR","service":"api","message":"Can't connect to srv;"}
+{"timestamp":"2026-03-15T12:02:40Z","level":"ERROR","service":"api","message":"Cannot connect to server"}
+{"timestamp":"2026-03-15T12:02:50Z","level":"ERROR","service":"gateway","message":"Service unavailable upstream timeout"}
+{"timestamp":"2026-03-15T12:02:55Z","level":"ERROR","service":"gateway","message":"svc unavailable, upstream timeout"}
+{"timestamp":"2026-03-15T12:03:00Z","level":"ERROR","service":"gateway","message":"Service unavailable upstream timeout"}
+{"timestamp":"2026-03-15T12:03:10Z","level":"ERROR","service":"auth","message":"User login failed for USER: alice"}
+{"timestamp":"2026-03-15T12:03:15Z","level":"ERROR","service":"auth","message":"User login failed for user bob!"}

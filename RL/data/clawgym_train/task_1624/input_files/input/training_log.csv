@@ -1,0 +1,15 @@
+date,session_type,sprints_meters,jumps_count,RPE
+2026-04-01,Sprint,400,10,6
+2026-04-02,Plyometric,0,8,5
+2026-04-03,Sprint,300,12,6
+2026-04-04,Rest,0,0,1
+2026-04-05,Sprint,500,15,7
+2026-04-06,Technique,0,12,5
+2026-04-07,Sprint,400,3,6
+2026-04-08,Sprint,600,15,7
+2026-04-09,Plyometric,0,10,5
+2026-04-10,Sprint,800,12,7
+2026-04-11,Rest,0,0,1
+2026-04-12,Sprint,900,18,8
+2026-04-13,Technique,0,12,5
+2026-04-14,Sprint,600,10,6

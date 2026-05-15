@@ -1,0 +1,19 @@
+plays:
+  path: "input/plays_schedule.csv"
+  date_field: "play_date"
+  title_field: "title"
+  attendance_field: "attendees"
+concessions:
+  path: "input/concessions.tsv"
+  delimiter: ","
+  date_field: "date"
+  amount_field: "amount"
+expenses:
+  path: "input/expenses.json"
+  props_key: "props"
+  amount_field: "amount"
+email:
+  path: "input/draft_email.md"
+rules:
+  attendance_round_to: 0
+  money_round_for_email: "nearest_dollar"

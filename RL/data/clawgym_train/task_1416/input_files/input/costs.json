@@ -1,0 +1,10 @@
+{
+  "per_minute": {
+    "stt": 0.006,
+    "llm": 0.02,
+    "tts": 0.015,
+    "telephony": 0.015,
+    "platform_fee": 0.01
+  },
+  "human_cost_per_minute": 1.2
+}

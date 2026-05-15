@@ -1,0 +1,5 @@
+{
+  "preferred_method": "B",
+  "enable_server": true,
+  "notes": "Prefer ClawHub method to align with our OpenClaw environment."
+}

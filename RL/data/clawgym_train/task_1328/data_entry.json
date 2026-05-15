@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1328",
+  "user_query": "I'm launching a glow-in-the-dark tee on both Amazon and Etsy. Please do the following by reading inputs under input/:\n\n1) Pricing: Use input/product_brief.json, input/keywords.csv, and input/rules.yaml to compute retail prices for Amazon and Etsy using the exact formula defined in input/rules.yaml with the platform-specific inputs from input/product_brief.json. Round both prices to 2 decimals. Save to output/pricing.json with keys: { \"amazon_price\": <number>, \"etsy_price\": <number> }.\n\n2) Amazon listing: Create output/amazon_listing.json with fields: title (string), bullets (array of 5 strings), backend_search_terms (string). Requirements:\n- The title must start exactly with the primary keyword from input/keywords.csv, be ≤ 200 characters, and must not contain any prohibited characters listed in input/rules.yaml.\n- bullets must have exactly 5 items, each between 200 and 250 characters inclusive, and the sum of all bullet characters must be ≤ 1000.\n- backend_search_terms must be ≤ 250 bytes, contain no commas, and must not include the brand name from input/product_brief.json.\n\n3) Etsy listing: Create output/etsy_listing.json with fields: title (string), tags (array), description (string). Requirements:\n- The title must start exactly with the primary keyword from input/keywords.csv and be ≤ 140 characters.\n- tags must contain exactly 13 strings; the first tag must be the primary keyword.\n- description must be at least 160 characters.\n\nUse only the provided inputs and write the three files to the output/ directory with valid JSON structures.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

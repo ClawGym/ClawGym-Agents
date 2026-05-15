@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0528",
+  "user_query": "Help me prepare an up-to-date briefing for our executive team on recent AI model governance and safety rules affecting foundation models in the EU and the US within the past 12 months. Use live web search across at least three different search providers to find credible sources (e.g., official government/regulator sites, reputable news outlets, and policy think tanks). Read input/briefing_scope.json for scope and input/guidelines.md for formatting/citation expectations. Deliverables:\n\n1) Save a machine-readable sources catalog to output/sources.json as an array of objects with these fields: provider (string), title (string), excerpt (string), url (string), author (string or null), time (YYYY-MM-DD), tags (array of strings). Include at least 12 distinct, reputable sources spanning at least three providers.\n\n2) Export a bibliography to output/bibliography.csv with the exact header: title,provider,url,time,notes and include the same set of sources as in sources.json with a short 1–2 sentence note per source.\n\n3) Write a 1,000–1,500 word structured brief to output/brief.md with these section headings in this order: Executive Summary, Key Developments (EU vs US), Source Clusters, Compliance Implications, Open Questions, Source Reliability Notes. Use inline numeric citations like [#] that correspond to the 1-based index of the item in output/sources.json. Explicitly call out any conflicting accounts and explain how you reconciled them. Make sure all paths use the specified input/ and output/ locations. Do not place any files under reward/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,8 @@
+task_id,description,assignee,status,category,due_date
+1,Map storm drains near old mill,Tina,done,survey,2026-04-10
+2,Collect soil samples at lot B,Marco,in_progress,sampling,2026-04-20
+3,Draft letter to city about runoff,Eli,todo,advocacy,2026-04-25
+4,Build low-cost water testing kit,Sam,in_progress,fabrication,2026-04-22
+5,Organize Saturday cleanup volunteers,Nora,blocked,coordination,2026-04-13
+6,Analyze lab results from March,Eli,done,analysis,2026-04-12
+7,Update safety guidelines,Tina,todo,documentation,2026-04-18

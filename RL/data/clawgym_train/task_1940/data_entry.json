@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1940",
+  "user_query": "I'm relocating to Buenos Aires in mid-2026 as a senior software engineer moving with my partner. Please build me a practical relocation pack using current 2026 realities. Read my preferences in input/scenario.yaml and input/notes.txt. Then create the following:\n\n1) A neighborhoods shortlist JSON at output/neighborhoods.json with exactly 3 entries tailored to a tech worker with a partner. For each entry include: name (string), why (string), pros (array of at least 3 strings), cons (array of at least 2 strings), rent_usd_range (object with min and max numbers for a typical 1BR), and commute_notes (string). Choose neighborhoods appropriate for tech workers and couples.\n\n2) A monthly budget CSV at output/budget.csv with the header: category,single_usd,couple_usd. Include exactly these categories (each once): Rent, Utilities, Internet, Groceries, Dining out, Transport, Healthcare, Phone, Entertainment, Misc, Total. Use realistic 2026 USD amounts at the blue rate for a comfortable lifestyle, assuming a 1BR in Palermo for both single and couple scenarios. Ensure the Total equals the sum of the other categories for each column.\n\n3) A concise public transport guide at output/transport.md that explains the SUBE card, Subte (metro), colectivos (buses), taxis/ride-hailing, and lists typical per-ride costs in USD for Subte and buses plus an indicative monthly pass cost, and mentions ride-hailing options.\n\nMake sure all three files are written under output/ exactly at the specified paths.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

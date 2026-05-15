@@ -1,0 +1,9 @@
+From: MAILER-DAEMON@mail.local
+To: intake@childtherapy.local
+Subject: Delivery Status Notification (Failure)
+Date: Tue, 09 Apr 2024 15:21:00 -0400
+Message-ID: <msg6@workspace.local>
+
+This is an automatically generated Delivery Status Notification.
+Delivery to the following recipients failed: intake@childtherapy.local
+Diagnostic-Code: smtp; 550 5.1.1 user unknown

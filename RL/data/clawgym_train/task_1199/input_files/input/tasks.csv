@@ -1,0 +1,10 @@
+id,title,owner,due_date,estimated_hours,status,priority,dependencies
+T-101,Define campaign goals,Maya,2026-05-03,5,In Progress,4,
+T-102,Draft student survey,Jordan,2026-05-06,6,Not Started,5,T-101
+T-103,Set up analytics tracking,Alex,2026-05-10,4,Blocked,3,T-101
+T-104,Create content calendar,Maya,2026-05-12,8,Not Started,3,T-101|T-102
+T-105,Design social assets,Sofia,2026-05-08,10,In Progress,4,T-104
+T-106,Budget approval,Liam,2026-04-28,2,Not Started,5,
+T-107,Email welcome copy,Jordan,2026-05-04,3,In Progress,4,T-102
+T-108,Schedule A/B test,Alex,2026-05-15,3,Not Started,2,T-103
+T-109,Team retrospective doc,Sofia,2026-05-20,2,Not Started,1,

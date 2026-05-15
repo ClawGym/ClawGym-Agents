@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "category": "bash",
+      "title": "Loops",
+      "content": "for i in $(seq 1 5); do echo $i; done"
+    },
+    {
+      "category": "git",
+      "title": "Undo last commit",
+      "content": "git reset --soft HEAD~1"
+    },
+    {
+      "category": "python",
+      "title": "Virtual env",
+      "content": "python -m venv .venv && source .venv/bin/activate"
+    }
+  ],
+  "queries": [
+    "git",
+    "virtual",
+    "loops"
+  ]
+}

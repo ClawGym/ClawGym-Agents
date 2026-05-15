@@ -1,0 +1,7 @@
+slug,name,status,created
+add-profile-search-filters,Add profile search filters by role and team,merged,2026-03-14
+calendar-color-coding,Calendar color coding for meeting types,draft,2026-04-02
+weekly-summary-email,Weekly summary email for projects,cancelled,2026-02-10
+timeoff-sync-improvements,Time-off sync improvements with HRIS,merged,2026-01-28
+slack-standup-bot,Slack standup bot for daily check-ins,merged,2025-12-05
+outlook-calendar-integration,Microsoft Outlook Calendar (Graph) integration,draft,2026-04-11

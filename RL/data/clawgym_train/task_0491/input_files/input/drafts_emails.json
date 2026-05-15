@@ -1,0 +1,18 @@
+{
+  "emails": [
+    {
+      "id": "makeup",
+      "to": ["makeup@studioprod.test"],
+      "cc": ["prodcoord@studioprod.test"],
+      "subject_draft": "sticky glue and swelling",
+      "body_draft": "hey team, yesterday's fight day the glue was just not it (I think the UltraHold Black under the jaw w/ sweat and dust made the area puff up), let's not do that again; can we move to ProSkin Bond or AquaFix Foam asap? also removal took forever and felt rough, would like CitrusFX Remover soak and pause before peel. If we can quickly do a patch test 2026-05-03 07:00 in trailer 2 that'd be solid. Also short on remover pads and ProSkin Bond (2 bottles left). I can swing by earlier. pls advise."
+    },
+    {
+      "id": "director_ad",
+      "to": ["director@studioprod.test"],
+      "cc": ["1stAD@studioprod.test"],
+      "subject_draft": "tomorrow's battle set, need to avoid face shots until makeup set",
+      "body_draft": "tomorrow's battle set I'll be drenched and the closeups right after armor goes on always show edges lifting; need just a little buffer before tight shots, like 15 min, so makeup can set properly and stunts can powder down. on 2026-05-04 can we sequence the wide coverage first then CU? can AD help lock that? I'm fine coming to set to preheat earlier. also trying to avoid that super sticky glue (UltraHold Black) so it doesn't slow us down later."
+    }
+  ]
+}

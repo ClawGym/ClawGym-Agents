@@ -1,0 +1,12 @@
+weekly_targets:
+  min_days: 2
+  max_days: 3
+  min_minutes: 90
+  max_minutes: 150
+  min_unique_focuses: 2
+  require_flexibility_session: true
+  require_rest_day: true
+flexibility_focuses:
+  - yoga
+  - mobility
+  - pilates

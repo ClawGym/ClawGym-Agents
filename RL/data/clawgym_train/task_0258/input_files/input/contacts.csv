@@ -1,0 +1,7 @@
+name,role,sport,email,phone,preferred_contact_method,rsvp_status,last_contact_date
+Coach Alicia Brown,Coach,Track,alicia.brown@example.com,555-0101,email,pending,2026-04-01
+Marcus Lee,Teammate,Football,marcus.lee@example.com,555-0102,email,yes,2026-04-10
+Jamal Ortiz,Teammate,Track,jamal.ortiz@example.com,555-0103,phone,no,2026-03-30
+Coach Tim Reynolds,Coach,Football,tim.reynolds@example.com,555-0104,email,pending,2026-04-05
+Sasha Patel,Teammate,Football,sasha.patel@example.com,555-0105,phone,pending,2026-03-29
+Nina Chen,Teammate,Track,nina.chen@example.com,555-0106,email,yes,2026-04-12

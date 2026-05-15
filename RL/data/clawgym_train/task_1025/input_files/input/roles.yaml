@@ -1,0 +1,11 @@
+roles:
+  - name: Nurses
+    max_hours_per_quarter: 6
+  - name: Physicians
+    max_hours_per_quarter: 6
+  - name: IT Staff
+    max_hours_per_quarter: 10
+  - name: Admin/Operations
+    max_hours_per_quarter: 4
+  - name: Executives
+    max_hours_per_quarter: 3

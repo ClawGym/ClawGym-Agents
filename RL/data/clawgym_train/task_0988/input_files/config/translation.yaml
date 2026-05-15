@@ -1,0 +1,7 @@
+target_language: es
+style: supportive
+include_glossary: true
+glossary_module: config/glossary.py
+apply_to:
+  - cases
+  - phrases

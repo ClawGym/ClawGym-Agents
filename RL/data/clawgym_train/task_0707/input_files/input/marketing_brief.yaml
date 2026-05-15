@@ -1,0 +1,67 @@
+company_name: ExoInsight Analytics
+products:
+  - name: SignalLens
+    description: Privacy-first analytics and insights platform that translates product and revenue signals into human-readable decisions for SaaS teams.
+target_market:
+  description: B2B SaaS companies with 20-200 employees operating primarily in the US and EU.
+  segments:
+    - name: Growth-stage SaaS (RevOps-led)
+      pain_points:
+        - Need to unify product usage and revenue signals without heavy engineering overhead
+        - Decision-makers want actionable narratives instead of dashboards
+      buying_committees: ["RevOps", "Product", "Marketing"]
+    - name: Developer-centric startups (founder-led)
+      pain_points:
+        - Limited resources for analytics implementation
+        - Require privacy-by-design with minimal data collection
+      buying_committees: ["Founders", "Engineering"]
+budget_range: "3000-5000 USD/month"
+brand_positioning: "Privacy-first analytics that turns raw signals into clear, team-ready decisions."
+goals:
+  - Generate 30 marketing qualified leads within this quarter
+  - Establish LinkedIn thought leadership presence (2 posts/week, 1 long-form/month)
+  - Host a monthly webinar highlighting real customer outcomes
+constraints:
+  compliance:
+    - Adhere to GDPR and similar regulations
+    - Avoid collecting unnecessary personal data
+  content:
+    - No unsubstantiated performance claims
+    - Maintain clear, human-readable messaging
+approved_channels:
+  - LinkedIn (organic + limited sponsored)
+  - Webinars
+  - Newsletter
+  - SEO content (case studies, guides)
+  - Developer communities (ethical participation)
+disallowed_channels:
+  - Unsolicited mass email
+  - Low-quality display networks
+unique_value_proposition:
+  - Actionable narratives instead of complex dashboards
+  - Privacy-first design with minimal data footprint
+  - Fast setup with templates for GTM standardization
+competitors:
+  - Trendlytics Pro (dashboard-heavy, slower time-to-value)
+  - InsightForge (requires extensive engineering integration)
+kpis:
+  primary:
+    metric: MQLs
+    target: 30
+    timeframe: "this quarter"
+  secondary:
+    - metric: LinkedIn engagement rate
+      target: "3%+"
+    - metric: Webinar registrations per month
+      target: 60
+assumptions:
+  - LinkedIn continues to deliver above-average engagement for B2B SaaS
+  - Thought leadership and case studies will improve trust and lead quality
+risks:
+  - Content inconsistency could dilute positioning
+  - Over-reliance on one channel could limit reach
+  - Webinar pipeline may slip without consistent promotion
+notes_for_agent:
+  - Reflect any critical decisions into MEMORY.md.
+  - Summarize; do not include raw personal data.
+  - Keep outputs English-only and avoid including any sensitive secrets.

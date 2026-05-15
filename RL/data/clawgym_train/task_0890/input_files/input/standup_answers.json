@@ -1,0 +1,13 @@
+{
+  "completed": [
+    "Patched staging servers and rebooted nodes",
+    "Closed PagerDuty incident #4271 after root cause verification"
+  ],
+  "planned": [
+    "Rotate database credentials across prod clusters",
+    "Draft Q2 SLA report sections for uptime and MTTR"
+  ],
+  "blockers": [
+    "Finance export pending to complete SLA cost section"
+  ]
+}

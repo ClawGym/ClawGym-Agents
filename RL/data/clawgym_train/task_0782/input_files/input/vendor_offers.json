@@ -1,0 +1,69 @@
+{
+  "vendors": [
+    "TechNova Supply",
+    "ProCore Hardware",
+    "ByteBridge Systems"
+  ],
+  "items": [
+    {
+      "sku": "LTP-15-2026",
+      "description": "15\" Business Laptop (Intel i7, 16GB RAM, 512GB SSD)",
+      "quantity": 60,
+      "unit_prices": {
+        "TechNova Supply": 1185.00,
+        "ProCore Hardware": 1150.00,
+        "ByteBridge Systems": 1199.00
+      }
+    },
+    {
+      "sku": "MON-27Q-2026",
+      "description": "27\" QHD Monitor (2560x1440, IPS)",
+      "quantity": 70,
+      "unit_prices": {
+        "TechNova Supply": 235.00,
+        "ProCore Hardware": 229.00,
+        "ByteBridge Systems": 245.00
+      }
+    },
+    {
+      "sku": "DOCK-USB4-2026",
+      "description": "USB4/Thunderbolt Dock (2x HDMI, 1x DP, 100W PD)",
+      "quantity": 60,
+      "unit_prices": {
+        "TechNova Supply": 145.00,
+        "ProCore Hardware": 139.00,
+        "ByteBridge Systems": 149.00
+      }
+    },
+    {
+      "sku": "PERI-KM-2026",
+      "description": "Wireless Keyboard & Mouse Combo",
+      "quantity": 60,
+      "unit_prices": {
+        "TechNova Supply": 58.00,
+        "ProCore Hardware": 55.00,
+        "ByteBridge Systems": 60.00
+      }
+    },
+    {
+      "sku": "SW-48P-2026",
+      "description": "48-Port Gigabit PoE+ Network Switch",
+      "quantity": 6,
+      "unit_prices": {
+        "TechNova Supply": 1250.00,
+        "ProCore Hardware": 1199.00,
+        "ByteBridge Systems": 1289.00
+      }
+    },
+    {
+      "sku": "UPS-1500-2026",
+      "description": "1500VA Line-Interactive UPS",
+      "quantity": 6,
+      "unit_prices": {
+        "TechNova Supply": 325.00,
+        "ProCore Hardware": 319.00,
+        "ByteBridge Systems": 339.00
+      }
+    }
+  ]
+}

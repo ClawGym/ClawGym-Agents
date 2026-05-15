@@ -1,0 +1,6 @@
+{
+  "principal": 25000,
+  "rates": [0.03, 0.045, 0.06, 0.075],
+  "periods": [1, 3, 5, 10],
+  "compounding_frequency": 12
+}

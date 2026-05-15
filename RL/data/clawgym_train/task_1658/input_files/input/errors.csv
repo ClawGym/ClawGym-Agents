@@ -1,0 +1,4 @@
+Date,What I Got Wrong,Correct Answer
+2026-04-18,Assumed heartbeat interval is 60 minutes by default,Interval is set in OpenClaw config and commonly 30 minutes
+2026-04-19,Left last_heartbeat_started_at as never after initialization,Should set both start and review to current UTC ISO 8601 Z
+2026-04-20,Placed preferences under Rules in memory.md,Preferences must be under Preferences section and Rules should list triggers and obligations only

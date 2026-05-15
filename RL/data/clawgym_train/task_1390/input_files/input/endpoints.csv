@@ -1,0 +1,4 @@
+id,name,method,path,use_case,description
+1,place_order,POST,/orders,PlaceOrder,Validate order, charge via payment provider, persist, and notify customer
+2,get_order,GET,/orders/{id},GetOrder,Retrieve a previously placed order by id (read model can be simple in-memory for scaffold)
+3,healthcheck,GET,/health,HealthCheck,Basic liveness check (no domain interaction for scaffold)

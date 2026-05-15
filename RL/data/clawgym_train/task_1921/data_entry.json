@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1921",
+  "user_query": "Read input/system_snapshot.json, input/symptoms.md, and input/my_clippings.txt. Using rule-based OS diagnostics, identify all triggered issues and produce two deliverables:\n1) Write output/diagnosis.json containing a severity-sorted list of findings (array of objects with fields: issue_name, severity, observed, remediation). Do not omit any issue that the snapshot data triggers. Sort strictly by severity order: FATAL > CRITICAL > ERROR > WARNING > INFO.\n2) Write output/article_it.md as a long-form Italian piece optimized for Medium. Structure it as:\n   - Begin with a \"MEDIUM ARTICLE ASSESSMENT\" section using the standard headings: Article Goal, Reader Type, Authority Mode, Thought Structure, Readability Pressure, Main Problems, Rebuild Plan, Next Step.\n   - Then write a full Italian article for non-technical stakeholders that explains the incident and OS-level root causes, uses a warm casual register, and includes at least three relevant quotes from input/my_clippings.txt formatted as Markdown blockquotes (> ...).\n   - Include a section titled \"OS Findings\" that lists at least 10 issue identifiers present in output/diagnosis.json.\n   - End with a numbered remediation plan (at least 5 steps).\n   - Ensure the article is at least 800 words.\nUse only relative workspace paths. Save the two files exactly to the specified output/ paths.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,31 @@
+resource "aws_s3_bucket" "logs" {
+  bucket = "mycorp-shared-logs"
+  acl    = "public-read"
+
+  versioning {
+    enabled = false
+  }
+
+  tags = {
+    Environment = "prod"
+  }
+}
+
+resource "aws_s3_bucket_policy" "logs_policy" {
+  bucket = aws_s3_bucket.logs.id
+
+  policy = <<POLICY
+{
+  "Version":"2012-10-17",
+  "Statement":[
+    {
+      "Sid":"PublicRead",
+      "Effect":"Allow",
+      "Principal":"*",
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::mycorp-shared-logs/*"]
+    }
+  ]
+}
+POLICY
+}

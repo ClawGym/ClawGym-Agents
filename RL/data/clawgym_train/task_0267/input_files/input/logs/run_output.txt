@@ -1,0 +1,8 @@
+Starting web service...
+web-1  | Traceback (most recent call last):
+web-1  |   File "/app/app.py", line 3, in <module>
+web-1  |     raise SystemExit("Environment variable SCREENING_MODE is required")
+web-1  | SystemExit: Environment variable SCREENING_MODE is required
+web-1  |
+web-1  | [2026-03-14 10:12:00] ERROR: App failed to start due to missing SCREENING_MODE
+web-1 exited with code 1

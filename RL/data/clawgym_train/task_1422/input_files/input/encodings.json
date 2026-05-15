@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "encoding": "base64",
+    "data": "SGVsbG8gV29ybGQ="
+  },
+  {
+    "id": 2,
+    "encoding": "hex",
+    "data": "0x54686973206973206865782064617461"
+  },
+  {
+    "id": 3,
+    "encoding": "url",
+    "data": "hello%20world%20%26%20goodbye"
+  },
+  {
+    "id": 4,
+    "encoding": "html",
+    "data": "Tom &amp; Jerry &#8212; Best &#x201C;friends&#x201D;?"
+  },
+  {
+    "id": 5,
+    "encoding": "rot13",
+    "data": "Gur dhvpx oebja sbk whzcf bire gur ynml qbt."
+  },
+  {
+    "id": 6,
+    "encoding": "binary",
+    "data": "01000010 01101001 01101110 01100001 01110010 01111001 00100000 01110100 01100101 01110011 01110100"
+  },
+  {
+    "id": 7,
+    "encoding": "ascii85",
+    "data": "87cURD]j7BEbo80"
+  },
+  {
+    "id": 8,
+    "encoding": "base32",
+    "data": "JBSWY3DP"
+  },
+  {
+    "id": 9,
+    "encoding": "auto",
+    "data": "SGVsbG8tV29ybGQ"
+  },
+  {
+    "id": 10,
+    "encoding": "auto",
+    "data": "50%25%20discount%20now%21"
+  },
+  {
+    "id": 11,
+    "encoding": "auto",
+    "data": "Fish &amp; Chips &lt;special&gt;"
+  },
+  {
+    "id": 12,
+    "encoding": "auto",
+    "data": "01000110 01101111 01101111 00100001"
+  }
+]

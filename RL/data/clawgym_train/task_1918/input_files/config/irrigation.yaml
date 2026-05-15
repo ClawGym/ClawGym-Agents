@@ -1,0 +1,9 @@
+crops:
+  corn:
+    moisture_trigger_pct: 18
+  soybeans:
+    moisture_trigger_pct: 20
+  alfalfa:
+    moisture_trigger_pct: 22
+global:
+  notes: "Trigger thresholds for 2024 pre-adjustment"

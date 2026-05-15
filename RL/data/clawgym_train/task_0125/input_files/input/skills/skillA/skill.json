@@ -1,0 +1,11 @@
+{
+  "name": "skillA",
+  "version": "0.1.0",
+  "description": "Sample local skill A for testing backups.",
+  "entrypoint": "index.js",
+  "author": "Sample Dev",
+  "tags": [
+    "test",
+    "local"
+  ]
+}

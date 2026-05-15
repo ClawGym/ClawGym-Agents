@@ -1,0 +1,21 @@
+{
+  "targets": ["127.0.0.1"],
+  "top_ports": 50,
+  "scope": {
+    "allowed_cidrs": ["127.0.0.0/8"],
+    "enforce": true,
+    "notes": "Do not scan beyond loopback. If scope is rejected, adjust to 127.0.0.1 and proceed."
+  },
+  "workflow": {
+    "steps": [
+      "host_discovery",
+      "top_ports",
+      "service_detection"
+    ],
+    "description": "Minimal audit to validate scan workflow on localhost"
+  },
+  "service_detection": {
+    "ports_source": "from_open_ports",
+    "intensity": 7
+  }
+}

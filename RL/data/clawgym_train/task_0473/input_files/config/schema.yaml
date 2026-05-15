@@ -1,0 +1,67 @@
+# Schema for outputs used in the glossary task
+
+outputs:
+  glossary_csv:
+    description: "One row per input Arabic title with its English title and provenance."
+    delimiter: ","
+    fields:
+      - name: arabic_title
+        type: string
+        required: true
+      - name: english_title
+        type: string
+        required: true
+      - name: translation_type
+        type: enum
+        required: true
+        allowed: ["authoritative", "agent_translation"]
+      - name: source_name
+        type: string
+        required_if: "translation_type == authoritative"
+      - name: source_url
+        type: string
+        required_if: "translation_type == authoritative"
+      - name: notes
+        type: string
+        required: false
+    uniqueness:
+      - arabic_title
+    constraints:
+      - "Every arabic_title in out/glossary.csv must correspond to exactly one row in input/titles_arabic.csv (no additions or omissions)."
+      - "Preserve the input order of titles."
+      - "If translation_type == 'authoritative', the domain of source_url must match an allowed domain pattern in config/allowed_sources.yaml."
+      - "If translation_type == 'agent_translation', leave source_name and source_url empty and mention 'no allowed source found' in notes."
+
+  search_log_jsonl:
+    description: "Per-title search process log. One JSON object per line."
+    line_type: object
+    fields:
+      - name: arabic_title
+        type: string
+        required: true
+      - name: queries
+        type: array
+        items_type: string
+        min_items: 2
+        required: true
+      - name: chosen_source
+        type: object
+        required: false
+        fields:
+          - name: title
+            type: string
+          - name: source_name
+            type: string
+          - name: url
+            type: string
+      - name: alternatives
+        type: array
+        items_type: object
+        required: true
+        item_fields:
+          - name: title
+            type: string
+          - name: source_name
+            type: string
+          - name: url
+            type: string

@@ -1,0 +1,16 @@
+raw_account,line_item,section,subcategory,kind
+Product Sales - Online,Product Sales,Revenue,Product,revenue
+Product Sales - Enterprise,Product Sales,Revenue,Product,revenue
+Service Fees - Implementation,Service Fees,Revenue,Services,revenue
+Service Fees - Support,Service Fees,Revenue,Services,revenue
+Materials - Widgets,Direct Materials,COGS,Materials,expense
+Materials - Packaging,Direct Materials,COGS,Materials,expense
+Technician Wages,Direct Labor,COGS,Labor,expense
+Advertising - Paid Media,Advertising,Operating Expenses,Sales & Marketing,expense
+Sales Commissions,Sales Commissions,Operating Expenses,Sales & Marketing,expense
+Conferences & Events,S&M - Conferences,Operating Expenses,Sales & Marketing,expense
+Contractors - Engineering,Engineering Contractors,Operating Expenses,R&D,expense
+Software Subscriptions,Software Tools,Operating Expenses,R&D,expense
+Legal Fees,Legal & Accounting,Operating Expenses,G&A,expense
+Accounting Fees,Legal & Accounting,Operating Expenses,G&A,expense
+Office Rent,Rent,Operating Expenses,G&A,expense

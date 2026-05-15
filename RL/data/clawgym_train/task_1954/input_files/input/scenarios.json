@@ -1,0 +1,29 @@
+[
+  {
+    "scenario_id": "scn-001",
+    "from": "btc",
+    "from_network": "Mainnet",
+    "to": "xmr",
+    "to_network": "Mainnet",
+    "amount_from": 0.12,
+    "notes": "Standard BTC -> XMR privacy swap using no-KYC providers only (kyc=A, log=A)."
+  },
+  {
+    "scenario_id": "scn-002",
+    "from": "usdt",
+    "from_network": "TRC20",
+    "to": "xrp",
+    "to_network": "Mainnet",
+    "amount_from": 250,
+    "notes": "USDT (TRC20) -> XRP; destination requires memo/tag handling."
+  },
+  {
+    "scenario_id": "scn-003",
+    "from": "eth",
+    "from_network": "Mainnet",
+    "to": "btc",
+    "to_network": "Mainnet",
+    "amount_from": 0.8,
+    "notes": "ETH -> BTC; consider ghost protocol (XMR tunnel) for enhanced privacy."
+  }
+]

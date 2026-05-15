@@ -1,0 +1,198 @@
+org: "Northwind DevTools"
+program: "DevTools Standardization — bcc"
+sponsor: "VP Engineering (Platform)"
+contacts:
+  devtools_lead: "Ava Patel"
+  sre_lead: "Marcus Lee"
+  security_lead: "Jasmine Ortiz"
+  platform_lead: "Diego Romero"
+  qa_lead: "Lena Fischer"
+objectives:
+  - Establish a single-source-of-truth reference for devtools teams using bcc
+  - Reduce onboarding time for new engineers by 25%
+  - Align tool usage with security, logging, and change management policies
+scope:
+  in_scope:
+    - Developer laptops (macOS, Linux)
+    - CI runners (GitHub Actions self-hosted + hosted)
+    - Kubernetes containers in staging and production
+    - Internal developer documentation and runbooks
+  out_of_scope:
+    - Windows endpoints (not supported for bcc in this phase)
+    - External distribution outside Northwind-controlled artifact stores
+environments:
+  laptops:
+    os:
+      - "macOS Sonoma 14.x (Intel/Apple Silicon)"
+      - "Ubuntu 22.04 LTS"
+    package_managers:
+      macos: "Homebrew (internal tap preferred), fallback: manual script install"
+      ubuntu: "apt (internal repo), fallback: manual script install"
+    config_paths:
+      preferred: "$XDG_CONFIG_HOME/bcc/config.yaml"
+      fallback: "~/.config/bcc/config.yaml"
+  ci:
+    runners:
+      hosted: "ubuntu-latest (GitHub-hosted)"
+      self_hosted: "Ubuntu 22.04"
+    constraints:
+      - No interactive prompts; all installs non-interactive
+      - Network egress restricted to allowlist domains
+    cache:
+      paths:
+        - "~/.cache/bcc/"
+        - "dist/bcc/"
+  kubernetes:
+    staging:
+      cluster: "gke-stg-northwind-devtools"
+      base_image: "ghcr.io/northwind/base:ubuntu22"
+      network:
+        egress: "limited, proxy via egress-gateway"
+        allowlist:
+          - "artifacts.northwind.local"
+          - "okta.northwind.local"
+      fs_paths:
+        bin: "/usr/local/bin"
+        logs: "/var/log/devtools"
+    production:
+      cluster: "gke-prd-northwind-devtools"
+      base_image: "ghcr.io/northwind/base:ubuntu22"
+      network:
+        egress: "deny by default; requests require ticket"
+      fs_paths:
+        bin: "/usr/local/bin"
+        logs: "/var/log/devtools"
+      restrictions:
+        - No internet access at runtime
+        - Only signed images from approved registry
+security_compliance:
+  frameworks:
+    - "SOC 2 Type II"
+    - "ISO 27001"
+  sso: "Okta"
+  mfa: "Required for all privileged systems and artifact repositories"
+  secrets_management: "HashiCorp Vault"
+  encryption:
+    at_rest: "AES-256 for all persistent storage"
+    in_transit: "TLS 1.2+"
+  access_control:
+    model: "RBAC with least privilege"
+    groups:
+      - "devtools-engineers"
+      - "sre"
+      - "security"
+      - "platform"
+      - "qa"
+logging_observability:
+  aggregator: "Datadog"
+  forwarder: "Fluent Bit"
+  file_paths:
+    - "/var/log/devtools/bcc.log"
+  pii_redaction: true
+  retention:
+    standard_days: 30
+    security_days: 90
+  metrics_baseline:
+    cli_invocation_p95_ms: 250
+    memory_max_mb: 20
+    error_rate_threshold_pct: 1.0
+change_management:
+  ticket_prefix: "CHG-"
+  approvals:
+    min_code_reviews: 2
+    security_review_required_when:
+      - "Tool executes in production clusters"
+      - "Changes to security-related defaults or permissions"
+  maintenance_windows:
+    - "Tuesday 18:00-20:00 PT"
+    - "Thursday 18:00-20:00 PT"
+  rollback:
+    required: true
+    artifacts:
+      - "Previous signed bcc package"
+      - "Change ticket with tested rollback steps"
+distribution_standards:
+  artifact_repos:
+    linux_apt_repo: "apt.northwind.local"
+    macos_homebrew_tap: "brew.northwind.local/tools"
+    container_registry: "ghcr.io/northwind"
+  signing:
+    required: true
+    method: "Cosign for container images; GPG for tarballs"
+  sbom:
+    required: true
+    format: "SPDX or CycloneDX"
+tool_requirements_for_bcc:
+  runtime:
+    - "bash"
+    - "cat"
+    - "echo"
+  network:
+    required: false
+  privileges:
+    need_root: false
+    suid_allowed: false
+  output:
+    format: "Plain-text documentation via heredoc"
+roles:
+  - name: "DevTools Lead"
+    owner: "Ava Patel"
+    responsibilities:
+      - "Owns the bcc playbook and company profile"
+      - "Coordinates rollout and training"
+  - name: "Security Engineer"
+    owner: "Jasmine Ortiz"
+    responsibilities:
+      - "Reviews security hardening, MFA, and policies compliance"
+      - "Owns redaction and secrets policies"
+  - name: "SRE"
+    owner: "Marcus Lee"
+    responsibilities:
+      - "Owns logging/observability integration and performance baselines"
+      - "Owns rollout in staging/prod clusters"
+  - name: "Platform Engineer"
+    owner: "Diego Romero"
+    responsibilities:
+      - "Owns packaging and distribution via internal repos/registries"
+      - "Owns CI integration and version pinning"
+  - name: "QA"
+    owner: "Lena Fischer"
+    responsibilities:
+      - "Owns validation checklist and verification across environments"
+      - "Owns rollback drills"
+timeline:
+  target_window_days: 45
+  milestones:
+    - name: "Baseline packaging and internal distribution"
+      due_in_days: 10
+    - name: "Logging and performance baseline in staging"
+      due_in_days: 20
+    - name: "Policy alignment sign-off"
+      due_in_days: 25
+    - name: "Production rollout"
+      due_in_days: 40
+    - name: "Post-rollout review"
+      due_in_days: 55
+risk_constraints:
+  - "No external API calls from bcc"
+  - "No elevation of privileges"
+  - "No persistence outside approved config/log paths"
+  - "No PII in logs; redaction enforced"
+migration_context:
+  current_state:
+    - "Ad-hoc wiki pages and shell snippets across teams"
+    - "Inconsistent onboarding instructions"
+  target_state:
+    - "Standardized, versioned bcc CLI available on laptops, CI, and containers"
+    - "Single playbook aligned to company policies"
+  dependencies:
+    - "Internal artifact availability"
+    - "Security review for defaults"
+    - "SRE logging setup"
+success_criteria:
+  - "All engineers can run bcc intro within 10 seconds on first install"
+  - "Compliance sign-off completed before production rollout"
+  - "Baseline performance and logs verified in staging"
+notes:
+  - "Given bcc is a documentation/reference tool with no network calls, primary risks are distribution, version drift, and policy alignment."
+  - "Use feature flags or environment variables only if future company extensions are added; stock bcc has no dynamic behavior."

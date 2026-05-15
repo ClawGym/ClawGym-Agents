@@ -1,0 +1,8 @@
+{
+  "name": "service-b",
+  "version": "0.9.0",
+  "maintainers": [
+    { "name": "Mobile Eng Automation", "email": "mobile-bot@example.com" },
+    { "name": "Frank Wright", "email": "frank@example.com" }
+  ]
+}

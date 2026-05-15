@@ -1,0 +1,9 @@
+$ python scripts/format_posts.py data/social_posts.csv outputs/top_posts.csv
+Traceback (most recent call last):
+  File "scripts/format_posts.py", line 11, in <module>
+    df = df.sort_values("engagement_score", ascending=False)
+  File ".../pandas/core/frame.py", line ..., in sort_values
+    k = self._get_label_or_level_values(by, axis=axis)
+  File ".../pandas/core/generic.py", line ..., in _get_label_or_level_values
+    raise KeyError(key) from err
+KeyError: 'engagement_score'

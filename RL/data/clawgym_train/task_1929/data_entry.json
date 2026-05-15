@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1929",
+  "user_query": "Set up and export a curated PostgreSQL resources list, and produce accompanying planning artifacts. Read all of the following under input/: resources.csv (candidate entries: name, category, url, notes), TODO.md, roadmap.md, assessment.json, and update_events.json.\n\nDo the following:\n1) Initialize the local PostgreSQL resources store, add entries from resources.csv for categories \"Libraries\", \"Tools\", and \"Clients\" only, skip duplicates, then run a search to verify at least five additions. Export the resulting store contents to output/curated_list.txt (text format).\n2) Create a concise context summary using TODO.md and roadmap.md following a context template (phase, milestone, current task, blockers, recent changes, relevant findings, staleness warnings). Save to output/context_summary.md.\n3) Generate a personalized AI/ML engineering career roadmap JSON using assessment.json. Ensure the sessionId matches the input file’s value. Include timeline, phases (>=3), skillGaps (non-empty), and recommendations (non-empty). Save to output/roadmap.json.\n4) Prepare a daily auto-update summary based on update_events.json (with fields like clawdbot_before, clawdbot_after, skillsUpdated[], skillsCurrent[], skillsFailed[]). Format it with: a single 🔄 header line, clear before → after version line for the core component, grouped sections for updated/current/failed skills, and ✅/❌ markers where appropriate. Save to output/update_summary.md.\n5) Write a short README at output/README.md explaining what was created and exactly how to reproduce the resources export using relative paths.\n\nUse only relative paths. Write all outputs under output/. Do not use absolute paths.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

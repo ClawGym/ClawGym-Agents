@@ -1,0 +1,8 @@
+{"id":"skill:auto-summarize","success":false,"notes":"Missed key nuance in long transcript; summary incorrect.","timestamp":"2026-06-12T09:00:00Z"}
+{"id":"habit:ask-clarifying","success":true,"notes":"Asked two clarifying questions; saved time.","timestamp":"2026-06-13T09:00:00Z"}
+{"id":"skill:auto-summarize","success":false,"notes":"Hallucinated preferences; corrected.","timestamp":"2026-06-13T10:00:00Z"}
+{"id":"habit:ask-clarifying","success":true,"notes":"Clarified scope before coding.","timestamp":"2026-06-14T12:30:00Z"}
+{"id":"reflex:ratelimit-fallback","success":false,"notes":"Backoff triggered too late; user saw delay.","timestamp":"2026-06-15T09:30:00Z"}
+{"id":"reflex:quick-ack","success":true,"notes":"Acknowledged within 2 seconds.","timestamp":"2026-06-15T10:00:00Z"}
+{"id":"skill:auto-summarize","success":false,"notes":"Output too verbose; user asked to redo.","timestamp":"2026-06-15T11:00:00Z"}
+{"id":"habit:ask-clarifying","success":true,"notes":"Confirmed acceptance criteria; no rework.","timestamp":"2026-06-15T12:00:00Z"}

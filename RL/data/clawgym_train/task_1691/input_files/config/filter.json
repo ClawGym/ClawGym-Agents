@@ -1,0 +1,4 @@
+{
+  "exclude_tags": ["objectified-women", "violent", "adult"],
+  "include_fields": ["id", "title"]
+}

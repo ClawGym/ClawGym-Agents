@@ -1,0 +1,43 @@
+athlete_brief:
+  name: "Alex Carter"
+  age: 34
+  sex: "M"
+  height_cm: 180
+  weight_kg: 82.5
+  body_fat_pct: 16
+  training_age_years: 2.2
+
+  goals:
+    primary: "hybrid"  # Hyrox-style hybrid event
+    secondary: "preserve strength while improving engine and race-specific skills"
+    target_event: "Hyrox Manchester — ~12 weeks out"
+    timeline_weeks: 12
+
+  current_training:
+    frequency_per_week: 4
+    session_duration_min: 65
+    current_program: "Upper/Lower strength (3 days) + 1-2 runs; occasional circuits"
+    training_history: "Consistently trained for ~18 months; linear strength focus first year; completed a half marathon 8 months ago; past 3 months at 3-4 sessions/week with two informal deloads; minimal sled access except occasional Saturday partner-gym visits."
+
+  benchmarks:
+    squat_kg: 150
+    bench_kg: 102.5
+    deadlift_kg: 180
+    overhead_press_kg: 60
+    pull_ups: 12
+    run_5k_min: 23.5
+    run_10k_min: 50.0
+    row_1000m_sec: 225
+
+  constraints:
+    injuries:
+      - "History of right patellofemoral pain (resolved). Avoid high-impact step-downs; tolerate lunges with controlled ROM and good warm-up."
+    equipment_available: "Full gym access. Sled/prowler access only on Saturday at partner facility; no sled access on weekdays."
+    schedule_constraints: "Best training days: Mon, Tue, Thu, Sat, Sun (mornings). Wed/Fri are busy. Weekday sessions capped at 60-75 minutes."
+    nutrition_approach: "Mostly intuitive eating; open to tracking protein and calories during prep. Uses caffeine pre-workout."
+
+  lifestyle:
+    sleep_hours: 7.0
+    stress_level: "moderate"
+    occupation_activity: "sedentary"
+    steps_per_day: 7000

@@ -1,0 +1,49 @@
+{
+  "site_name": "PulseHub",
+  "navigation": [
+    {"label": "Home", "url": "/"},
+    {"label": "Product", "url": "/product"},
+    {"label": "Features", "url": "/features"},
+    {"label": "Pricing", "url": "/pricing"},
+    {"label": "Docs", "url": "/docs"},
+    {"label": "Integrations", "url": "/integrations"},
+    {"label": "Blog", "url": "/blog"},
+    {"label": "Support", "url": "/support"},
+    {"label": "Status", "url": "/status"},
+    {"label": "Login", "url": "/login"},
+    {"label": "Sign Up", "url": "/signup"}
+  ],
+  "popular_pages": [
+    {"label": "Pricing", "url": "/pricing"},
+    {"label": "Docs", "url": "/docs"},
+    {"label": "API Reference", "url": "/docs/api"},
+    {"label": "Integrations", "url": "/integrations"},
+    {"label": "Slack Integration", "url": "/integrations/slack"},
+    {"label": "Support", "url": "/support"},
+    {"label": "Changelog", "url": "/changelog"},
+    {"label": "Security", "url": "/security"},
+    {"label": "Status", "url": "/status"}
+  ],
+  "pages": [
+    {"label": "Home", "url": "/"},
+    {"label": "Product Overview", "url": "/product"},
+    {"label": "Features", "url": "/features"},
+    {"label": "Automation Feature", "url": "/features/automation"},
+    {"label": "Integrations", "url": "/integrations"},
+    {"label": "Slack Integration", "url": "/integrations/slack"},
+    {"label": "Zapier Integration", "url": "/integrations/zapier"},
+    {"label": "Docs", "url": "/docs"},
+    {"label": "API Reference", "url": "/docs/api"},
+    {"label": "Quickstart", "url": "/docs/quickstart"},
+    {"label": "Changelog", "url": "/changelog"},
+    {"label": "Security", "url": "/security"},
+    {"label": "Support", "url": "/support"},
+    {"label": "Status", "url": "/status"},
+    {"label": "Blog", "url": "/blog"},
+    {"label": "Careers", "url": "/careers"},
+    {"label": "Contact", "url": "/contact"},
+    {"label": "Pricing", "url": "/pricing"},
+    {"label": "Login", "url": "/login"},
+    {"label": "Sign Up", "url": "/signup"}
+  ]
+}

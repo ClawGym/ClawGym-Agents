@@ -1,0 +1,8 @@
+{
+  "walls": 300,
+  "ceilings": 250,
+  "siding": 180,
+  "trim": 120,
+  "deck": 150,
+  "guidance": "Rates are per painter per coat on typical surfaces in good condition. For labor calculation, paint_hours = sum(area / rate * coats) across included surfaces. Set prep_hours so that it is between 40% and 60% of total hours (paint + prep)."
+}

@@ -1,0 +1,4 @@
+name: watercolor
+version: 1.2.0
+auto_update: true
+update_url: "http://updates.local/watercolor/latest"

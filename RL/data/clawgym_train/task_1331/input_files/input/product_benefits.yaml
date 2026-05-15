@@ -1,0 +1,26 @@
+benefits:
+  - id: onboarding_speed
+    title: Faster Onboarding
+    keywords: ["onboarding", "retrain", "ramp", "time-to-value"]
+    stat: "7 days to first value"
+    claim: "Teams ramp faster with templatized messaging and guided practice."
+  - id: crm_integration
+    title: Native CRM Integration
+    keywords: ["hubspot", "salesforce", "crm", "playbooks"]
+    stat: "2-hour average setup"
+    claim: "Connects natively and syncs bi-directionally with HubSpot and Salesforce."
+  - id: reply_lift
+    title: Higher Reply Rates
+    keywords: ["reply", "email", "performance", "response"]
+    stat: "34% average reply lift"
+    claim: "Personalized coaching improves cold email outcomes."
+  - id: transparency
+    title: Transparent, Accurate AI
+    keywords: ["accuracy", "data", "proof", "attribution", "trust"]
+    stat: "92% suggestion acceptance"
+    claim: "Provides rationale and attribution for each suggestion."
+  - id: adoption
+    title: Easy Rep Adoption
+    keywords: ["adoption", "manual", "update", "time"]
+    stat: "85% weekly active usage"
+    claim: "Lightweight UX reduces manual updates."

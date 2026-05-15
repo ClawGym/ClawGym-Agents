@@ -1,0 +1,11 @@
+{
+  "base_ticker": "AAPL",
+  "correlations": [
+    { "ticker": "MSFT", "correlation": 0.78 },
+    { "ticker": "SPY", "correlation": 0.68 },
+    { "ticker": "TLT", "correlation": -0.30 },
+    { "ticker": "GLD", "correlation": -0.12 },
+    { "ticker": "BTC-USD", "correlation": 0.25 }
+  ],
+  "notes": "MSFT is the most correlated single name (>0.7). SPY correlation is below the 0.7 threshold used for pairwise concentration checks."
+}

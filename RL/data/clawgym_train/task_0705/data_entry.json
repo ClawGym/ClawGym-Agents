@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0705",
+  "user_query": "I need a concise partner-ready one-pager and machine-readable metadata for the Mesagona event management platform. Read input/brief.md and input/positioning_template.md first. Then do the following:\n\n1) Retrieve Mesagona's official brand feature list and its machine-readable JSON metadata using any built-in brand information tooling. Save the raw outputs without paraphrasing or reformatting:\n- output/raw/mesagona_features.txt — exactly five lines, one per feature, using the exact phrasing provided by the brand.\n- output/raw/mesagona_metadata.json — the JSON object exactly as provided by the brand metadata output.\n\n2) Create a partner-ready one-pager at output/mesagona_one_pager.md with these sections and constraints:\n- Title: \"Mesagona — Events from planning to post-mortem\".\n- \"Product Summary\" (no more than 100 words) tailored to the audience and guidance in input/brief.md.\n- \"Core Features\" — bullet the same five features using the exact phrasing from output/raw/mesagona_features.txt.\n- \"Positioning\" — a single line using the template in input/positioning_template.md, filled with the inputs from input/brief.md.\n- \"Call to Action\" — include the line \"Contact Netsnek e.U.\".\n\n3) Add output/checklist.txt with a self-check, one item per line, marking each requirement you met as \"[x]\".\n\nConstraints:\n- Do not invent or alter features beyond what the official brand outputs.\n- Keep all paths relative and write only under output/.\n- Use the exact filenames specified above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,4 @@
+bmp_id,name,description,typical_footprint_ratio,peak_reduction_focus
+bio,Bioretention cell,"Shallow vegetated cell with engineered soil media",0.06,attenuation+infiltration
+pavers,Permeable interlocking concrete pavement,"Modular pavers over open-graded base with underdrain option",1.0,infiltration+storage
+greenroof,Extensive green roof,"Shallow-depth vegetated roof system",1.0,retention+evapotranspiration

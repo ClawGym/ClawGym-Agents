@@ -1,0 +1,55 @@
+{
+  "paper_title": "Vitamin C and the Common Cold: A Meta-Analysis",
+  "source_pdf": "common-cold-vitamin-c.pdf",
+  "preflight": {
+    "pages": 18,
+    "extracted_characters": 62350,
+    "extracted_words": 9870,
+    "tokens_estimate": 13400
+  },
+  "tldr": "Across randomized trials, routine vitamin C supplementation does not reduce cold incidence in the general population, but it modestly shortens illness duration; benefits are larger in cohorts under heavy physical stress (e.g., marathon runners, soldiers) and when taken continuously as prophylaxis rather than initiated after symptom onset.",
+  "categories": {
+    "goal": {
+      "count": 7,
+      "highlights": [
+        "We investigate whether vitamin C prevents common cold incidence and reduces illness duration.",
+        "The objective is to quantify prophylactic versus therapeutic effects via randomized trials."
+      ]
+    },
+    "motivation": {
+      "count": 5,
+      "highlights": [
+        "Despite widespread use, consensus on vitamin C's effect on the common cold remains mixed.",
+        "Prior reviews conflated incidence and duration outcomes, obscuring subgroup effects."
+      ]
+    },
+    "method": {
+      "count": 12,
+      "highlights": [
+        "We conduct a random-effects meta-analysis of double-blind, placebo-controlled RCTs.",
+        "Studies are stratified by prophylaxis vs. treatment and by high-physical-stress cohorts."
+      ]
+    },
+    "contribution": {
+      "count": 4,
+      "highlights": [
+        "We separate incidence and duration endpoints and provide subgroup estimates with heterogeneity.",
+        "We release a cleaned dataset of trial effect sizes and code for reproducibility."
+      ]
+    },
+    "result": {
+      "count": 9,
+      "highlights": [
+        "No significant reduction in incidence for general population prophylaxis.",
+        "Duration reduced by ~8% overall; ~14–20% in heavy-exertion cohorts."
+      ]
+    }
+  },
+  "notes": {
+    "metrics": "Risk ratio for incidence; standardized percent reduction for duration.",
+    "heterogeneity": "Moderate between-study heterogeneity for duration outcomes.",
+    "bias": "Small-study effects detected; trim-and-fill does not eliminate main patterns.",
+    "limitations": "Therapeutic initiation post-symptom onset shows limited effect; dosing regimens vary."
+  },
+  "generated_at": "2026-04-15T09:30:00Z"
+}

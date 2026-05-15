@@ -1,0 +1,36 @@
+Name: Alex Rivera
+Pronouns: they/them
+Timezone: America/Los_Angeles (PDT)
+Home Base: Oakland, CA, USA
+
+Professional:
+- Role: Product Manager with a data/AI focus
+- Tools: Notion, Google Calendar, Slack, Linear
+- Dev familiarity: Node.js, Python, basic SQL
+
+Communication Preferences:
+- Tone: friendly, concise, direct
+- Format: bullet-point summaries; Markdown is okay
+- Time format: 24-hour
+- Units: metric for distance and temperature (km, °C)
+
+Personal:
+- Coffee: black, no sugar
+- Hobbies: cycling (morning rides), reading sci-fi
+- Allergies: peanuts (avoid snacks with peanuts)
+- Fitness: aims for 3 rides/week (~25–35 km)
+
+Productivity Windows (typical):
+- Deep work: 09:00–12:00 and 19:00–22:00 local time
+- Quick replies: most afternoons
+
+Calendaring:
+- Prefers short events with clear objectives
+- Weekly planning on Sundays
+
+Sensitive (do not expose in context without redaction):
+api_key: live_abcdEFGH1234567890
+secret_key = s3cr3t_value_should_be_hidden
+private_key: MIIE0EXAMPLE0PRIVATE0KEY0BLOCK
+secret_token: ZYX98765-ALPHA
+sk-abcDEFGHIJKLmnopQR_stuv-1234

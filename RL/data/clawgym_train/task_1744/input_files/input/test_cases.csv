@@ -1,0 +1,6 @@
+test,expected
+files_exist,yes
+goal_copied_exactly,yes
+phases_marked_complete,yes
+constraints_captured,yes
+decisions_logged,yes

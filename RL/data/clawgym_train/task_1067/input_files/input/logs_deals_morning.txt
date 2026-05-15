@@ -1,0 +1,15 @@
+2026-04-13 08:00:00 [INFO] deals-morning - Started run; jobId=dm-20260413-0800
+2026-04-13 08:00:05 [INFO] deals-morning - Fetch vendors list; duration 950ms
+2026-04-13 08:00:06 [INFO] deals-morning - Query coupons service; duration 1.20s
+2026-04-13 08:00:08 [WARN] deals-morning - Slow response from coupons; duration 1.80s
+2026-04-13 08:02:10 [INFO] deals-morning - Normalize results; duration 300ms
+2026-04-13 08:03:40 [ERROR] deals-morning - Timeout after 120s while contacting deals-api
+2026-04-13 08:03:41 [INFO] deals-morning - Retrying fetch; attempt=2
+2026-04-13 08:04:10 deals-morning - failed to fetch deals: upstream 502
+2026-04-13 08:04:12 [FATAL] deals-morning - Worker crashed due to OOM during aggregation
+2026-04-13 08:04:13 [INFO] deals-morning - Restarting worker; duration 2.00s
+2026-04-13 08:06:00 [INFO] deals-morning - Completed with partial results; duration 85s
+2026-04-13 12:00:00 [INFO] deals-morning - Noon run started; jobId=dm-20260413-1200
+2026-04-13 12:00:10 [INFO] deals-morning - Cache warm; duration 150ms
+2026-04-13 12:00:11 [WARN] deals-morning - performance degradation observed on vendor-x endpoint
+2026-04-13 12:01:30 [INFO] deals-morning - Completed successfully; duration 65s

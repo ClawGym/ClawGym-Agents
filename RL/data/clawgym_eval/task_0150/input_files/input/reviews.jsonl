@@ -1,0 +1,13 @@
+{"manuscript_id":"M001","review_date":"2024-02-01","decision":"accept","score":4.5}
+{"manuscript_id":"M001","review_date":"2024-02-15","decision":"minor_revision","score":4.0}
+{"manuscript_id":"M001","review_date":"2024-03-02","decision":"accept","score":5.0}
+{"manuscript_id":"M002","review_date":"2024-02-20","decision":"major_revision","score":3.0}
+{"manuscript_id":"M002","review_date":"2024-03-05","decision":"accept","score":4.0}
+{"manuscript_id":"M004","review_date":"2024-03-20","decision":"accept","score":4.2}
+{"manuscript_id":"M004","review_date":"2024-03-22","decision":"accept","score":4.7}
+{"manuscript_id":"M004","review_date":"2024-03-28","decision":"accept","score":4.8}
+{"manuscript_id":"M005","review_date":"2024-03-25","decision":"reject","score":2.5}
+{"manuscript_id":"M003","review_date":"2024-03-01","decision":"accept","score":4.1}
+{"manuscript_id":"M003","review_date":"2024-03-12","decision":"minor_revision","score":3.8}
+{"manuscript_id":"M006","review_date":"2024-03-10","decision":"reject","score":2.8}
+{"manuscript_id":"M006","review_date":"2024-03-18","decision":"major_revision","score":3.2}

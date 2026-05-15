@@ -1,0 +1,5 @@
+date,device,source,sessions,bounce_rate,atc_rate,cvr
+2026-03-18_to_2026-04-16,mobile,Paid Social - Meta,13000,72,1.8,0.5
+2026-03-18_to_2026-04-16,desktop,Paid Social - Meta,5500,55,2.4,0.7
+2026-03-18_to_2026-04-16,mobile,Organic Search,6500,58,4.2,1.1
+2026-03-18_to_2026-04-16,desktop,Organic Search,5000,43,5.0,1.6

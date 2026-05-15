@@ -1,0 +1,5 @@
+opening_balance: 25000.00
+reserve_minimum: 10000.00
+reporting_period:
+  start: "2025-01-01"
+  end: "2025-03-31"

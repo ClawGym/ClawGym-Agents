@@ -1,0 +1,26 @@
+{
+  "geography": "United States",
+  "focus_states": [
+    "California",
+    "Texas",
+    "Florida",
+    "New York",
+    "Illinois",
+    "Georgia",
+    "Washington",
+    "Colorado"
+  ],
+  "msa_priority": [
+    "Los Angeles-Long Beach-Anaheim, CA",
+    "San Francisco-Oakland-Berkeley, CA",
+    "Dallas-Fort Worth-Arlington, TX",
+    "Houston-The Woodlands-Sugar Land, TX",
+    "Miami-Fort Lauderdale-Pompano Beach, FL",
+    "New York-Newark-Jersey City, NY-NJ-PA",
+    "Chicago-Naperville-Elgin, IL-IN-WI",
+    "Atlanta-Sandy Springs-Alpharetta, GA",
+    "Seattle-Tacoma-Bellevue, WA",
+    "Denver-Aurora-Lakewood, CO"
+  ],
+  "notes": "US-only for first 24 months. Prioritize independents in high-density dining metros with active health inspection regimes and strong cloud POS adoption."
+}

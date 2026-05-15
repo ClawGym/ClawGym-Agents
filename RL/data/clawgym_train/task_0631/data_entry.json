@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0631",
+  "user_query": "I saved a JSON snapshot of my Apple Health metrics for April 15, 2026 under input/apple_health_daily_2026-04-15.json. Please read only that file and generate a concise daily brief from it. Create two outputs:\n\n1) Write output/daily_brief_2026-04-15.md using these exact section headings in this order: \n- Status (1–2 sentence summary)\n- What changed (main deltas vs baseline for steps and sleep)\n- Suggestions (exactly 3 practical non-medical suggestions, numbered 1–3)\n- Missing data (explicitly list any null/absent metrics with the phrase \"insufficient data\")\n\n2) Write output/daily_brief_2026-04-15.json with this structure:\n{\n  \"date\": \"2026-04-15\",\n  \"status_summary\": \"...\",\n  \"deltas\": {\n    \"steps_delta\": <int>,\n    \"steps_percent_change\": <number>,\n    \"sleep_delta_hours\": <number>,\n    \"sleep_percent_change\": <number>\n  },\n  \"suggestions\": [\"...\", \"...\", \"...\"],\n  \"missing_data\": [\"...\"]\n}\n\nNotes:\n- Compute steps and sleep deltas vs the 7-day baselines provided in the file. Do not invent any metrics or baselines that aren’t present.\n- If any metric in the JSON is null or absent (e.g., resting_heart_rate, hrv, deep_sleep_duration), list it under Missing data and explicitly label it as \"insufficient data\" in the .md file. Do not provide medical advice or diagnoses.\n- Keep the analysis grounded in the provided data only and don’t call any external services.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

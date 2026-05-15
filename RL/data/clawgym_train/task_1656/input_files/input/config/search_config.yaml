@@ -1,0 +1,11 @@
+logging:
+  level: DEBUG
+  store_queries: true
+  anonymize_queries: false
+  redact_pii: false
+storage:
+  retain_raw_docs_days: 365
+indexing:
+  embedder: "open-source-scibert"
+telemetry:
+  send_usage_telemetry: true

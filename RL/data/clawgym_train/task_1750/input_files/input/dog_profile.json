@@ -1,0 +1,8 @@
+{
+  "name": "Riley",
+  "breed": "Border Collie",
+  "age_years": 2,
+  "max_suggested_single_run_km": 10,
+  "rest_days_per_week": 2,
+  "leash_training_level": "intermediate"
+}

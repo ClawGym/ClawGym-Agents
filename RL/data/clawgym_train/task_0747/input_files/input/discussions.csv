@@ -1,0 +1,25 @@
+date,topic,issue,sentiment,conversations
+2026-04-09,Nashville transit,BRT routes and bus funding,0.2,4
+2026-04-09,Gun policy,Permitless carry debate,-0.1,5
+2026-04-09,Minimum wage,Living wage petitions,0.4,3
+2026-04-10,Nashville transit,Service frequency and traffic,0.3,6
+2026-04-10,State legislature,General Assembly session updates,-0.2,5
+2026-04-10,Minimum wage,Tipped wage gaps,0.5,4
+2026-04-11,Healthcare expansion,TennCare/Medicaid expansion,0.1,5
+2026-04-11,Nashville transit,Light rail rumors,0.2,7
+2026-04-11,Gun policy,School safety proposals,-0.3,6
+2026-04-12,Voting access,Early voting logistics,0.0,4
+2026-04-12,State legislature,Education bills,-0.1,6
+2026-04-12,Education funding,Teacher pay raises,0.4,5
+2026-04-13,Nashville transit,Bus lanes on major corridors,0.25,8
+2026-04-13,Property taxes,Reappraisal worries,-0.2,3
+2026-04-13,Minimum wage,City vs state rules,0.6,5
+2026-04-14,Gun policy,Background check discussions,-0.4,7
+2026-04-14,State legislature,Budget negotiations,-0.15,4
+2026-04-14,Healthcare expansion,Hospital coverage impacts,0.2,6
+2026-04-15,Nashville transit,Park-and-ride options,0.3,9
+2026-04-15,Education funding,School funding formula,0.5,6
+2026-04-15,Property taxes,Homeowner relief programs,-0.1,4
+2026-04-16,Voting access,Poll worker recruitment,0.1,5
+2026-04-16,Minimum wage,Cost of living,0.55,6
+2026-04-16,State legislature,Redistricting chatter,-0.05,7

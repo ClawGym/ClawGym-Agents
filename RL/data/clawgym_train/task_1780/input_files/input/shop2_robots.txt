@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /products/
+Disallow: /cart/
+Disallow: /account/
+Allow: /

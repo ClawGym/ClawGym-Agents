@@ -1,0 +1,19 @@
+{
+  "adjusted_budget_columns": [
+    "property_id",
+    "property_name",
+    "city",
+    "base_monthly_budget_usd",
+    "yoy_inflation_rate",
+    "inflation_adjusted_monthly_budget_usd"
+  ],
+  "summary_columns": [
+    "as_of_date",
+    "num_properties",
+    "total_base_budget_usd",
+    "total_adjusted_budget_usd",
+    "yoy_inflation_rate",
+    "min_adjusted_budget_usd",
+    "max_adjusted_budget_usd"
+  ]
+}

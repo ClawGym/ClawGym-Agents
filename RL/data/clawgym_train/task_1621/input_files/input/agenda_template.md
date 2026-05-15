@@ -1,0 +1,1 @@
+# Nora Payne Fan Club — Weekly Sync\n\nDate: {{DATE}}\nSource: {{SOURCE_DOMAIN}}\nLast Fetch: {{FETCHED_AT}} (status: {{STATUS}})\n\n## Highlights\n- Page Title: {{PAGE_TITLE}}\n- Summary (meta description):\n\n{{META_DESCRIPTION}}\n\n## Action Items\n- [ ] {{ACTION_ITEM_1}}\n- [ ] {{ACTION_ITEM_2}}\n- [ ] {{ACTION_ITEM_3}}\n

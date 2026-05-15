@@ -1,0 +1,10 @@
+out_dir: out/drafts
+disclaimers: {}
+subject_template: "Recommendation for {dog_name}"
+body_template: |
+  Hi {client_name},
+
+  Based on our session, I'd recommend {product_name} by {brand} for {dog_name} ({dog_weight_lb} lb).
+  Dosage/usage: {dosage_note}
+
+  Disclaimer: {disclaimer}

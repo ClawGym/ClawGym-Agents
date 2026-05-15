@@ -1,0 +1,31 @@
+home:
+  primary: "community church in Springfield"
+  secondary:
+    - "Sunday service times"
+    - "family church Springfield"
+about:
+  primary: "about New Hope Community Church"
+  secondary:
+    - "our beliefs"
+    - "our story"
+visit:
+  primary: "plan your visit"
+  secondary:
+    - "service times and location"
+    - "what to expect"
+ministries:
+  primary: "church ministries"
+  secondary:
+    - "small groups"
+    - "youth ministry"
+    - "serve teams"
+give:
+  primary: "online giving church"
+  secondary:
+    - "tithes and offerings"
+    - "donate to church"
+sermons:
+  primary: "sermon archive"
+  secondary:
+    - "past sermons"
+    - "message series"

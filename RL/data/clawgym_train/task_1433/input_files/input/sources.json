@@ -1,0 +1,7 @@
+{
+  "sources": [
+    { "name": "FactCheck.org", "domain_pattern": "factcheck.org", "category": "fact-checking nonprofit" },
+    { "name": "PolitiFact", "domain_pattern": "politifact.com", "category": "fact-checking organization" },
+    { "name": "AP News", "domain_pattern": "apnews.com", "category": "newswire" }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "nanowire_pitch_nm": 18,
+  "vgate_volts": 0.7,
+  "seed": 42,
+  "enable_wkb": true
+}

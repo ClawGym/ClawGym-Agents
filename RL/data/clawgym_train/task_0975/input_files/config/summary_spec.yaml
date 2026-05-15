@@ -1,0 +1,19 @@
+id_var: batch_id
+group_by:
+  - line
+  - shift
+numeric_vars:
+  - temp_mean
+  - pressure_mean
+  - vibration_index
+  - defect_rate
+  - operator_experience_years
+missing_value_codes:
+  - -999
+  - ""
+correlation_method: pearson
+outputs:
+  desc_by_group_csv: outputs/desc_by_group.csv
+  correlation_overall_csv: outputs/correlation_overall.csv
+  data_profile_json: outputs/data_profile.json
+  labels_used_json: outputs/labels_used.json

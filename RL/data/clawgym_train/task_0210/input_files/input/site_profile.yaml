@@ -1,0 +1,4 @@
+location_name: "Phoenix test scenario"
+average_daily_insolation_kWh_per_m2: 6.0
+electricity_price_usd_per_kWh: 0.14
+planned_module_count: 20

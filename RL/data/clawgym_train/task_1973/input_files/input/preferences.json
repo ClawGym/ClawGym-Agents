@@ -1,0 +1,47 @@
+{
+  "savings_goal_percent": 15,
+  "timezone": "America/Los_Angeles",
+  "preferred_operating_hours": {
+    "switch.dishwasher": {
+      "allowed_blocks": [
+        "21:00-23:00",
+        "13:00-16:00"
+      ],
+      "avoid_blocks": [
+        "23:00-07:00"
+      ],
+      "notes": "Okay to run after 9 PM but avoid overnight due to noise."
+    },
+    "switch.washing_machine": {
+      "allowed_blocks": [
+        "13:00-16:00"
+      ],
+      "avoid_blocks": [
+        "22:00-07:00"
+      ],
+      "notes": "Avoid late-night spinning due to vibration."
+    },
+    "switch.pool_pump": {
+      "allowed_blocks": [
+        "21:00-07:00",
+        "13:00-16:00"
+      ],
+      "notes": "Spread runtime across off-peak windows."
+    },
+    "climate.hvac": {
+      "pre_cool_preference": true,
+      "notes": "Pre-cool before 16:00 and maintain comfort (68–74°F)."
+    }
+  },
+  "exceptions": {
+    "respect_guest_mode": true,
+    "guest_mode_avoid_after": "20:00",
+    "noise_sensitive_hours": [
+      "22:00-07:00"
+    ]
+  },
+  "monitoring": {
+    "report_entity": "sensor.energy_usage_daily",
+    "baseline_days": 7
+  }
+}

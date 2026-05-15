@@ -1,0 +1,5 @@
+Which chains are supported for the Data API and does Solana work with Streams?
+How do Compute Units (CUs) work; roughly how many CUs does a typical getWalletTokenBalancesPrice call cost?
+For real-time alerts when a wallet receives ERC-20 tokens, should I use the Data API or Streams?
+What is included in the Free tier and is there a daily CU limit?
+Do you support testnets like Ethereum Sepolia and Base Sepolia, and are prices available there?

@@ -1,0 +1,37 @@
+{
+  "platform": "google_ads",
+  "product": {
+    "name": "DataFlow",
+    "category": "Marketing reporting automation",
+    "value_proposition": "Automate weekly marketing reports across channels in minutes, not hours.",
+    "differentiators": [
+      "One-click connectors for GA4, Ads, and CRM",
+      "Templates for CMO, paid, and lifecycle teams",
+      "No SQL required; export to Sheets or Looker"
+    ]
+  },
+  "audience": {
+    "primary": "B2B marketing managers and performance marketers",
+    "pain_points": [
+      "Manual reporting takes too long",
+      "No single source of truth across channels",
+      "Leaders want numbers, not screenshots"
+    ],
+    "awareness_stage": "Solution-aware"
+  },
+  "keywords": [
+    "marketing reporting automation",
+    "automated dashboards",
+    "google ads reporting",
+    "weekly marketing report"
+  ],
+  "brand_voice": {
+    "tone": ["clear", "specific", "pragmatic"],
+    "do": ["use numbers", "be direct", "front-load the benefit"],
+    "dont": ["hype", "vague claims", "all caps"]
+  },
+  "constraints": {
+    "compliance": ["No misleading time savings claims", "No unverifiable ROI promises"],
+    "mandatory": ["Include brand name DataFlow in at least one headline"]
+  }
+}

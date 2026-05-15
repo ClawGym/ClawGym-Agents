@@ -1,0 +1,129 @@
+{
+  "environment": "production",
+  "organization": "ShopCloud",
+  "industry": "Ecommerce SaaS",
+  "agents_running": 27,
+  "monthly_spend_usd": 67635,
+  "llm_providers": ["OpenAI", "Anthropic"],
+  "orchestration": {
+    "framework": "Celery + custom orchestrator",
+    "orchestrator_agent_id": "A23",
+    "message_bus": "Redis",
+    "workflow_engine": "Celery chains/groups; partial Temporal migration (pilot)"
+  },
+  "monitoring_capabilities": {
+    "execution_visibility": {
+      "real_time_action_tracking": "partial",
+      "coverage_pct": 70,
+      "tracked_signals": ["tool_calls", "api_calls", "errors"],
+      "gaps": ["A6 EmailCopywriter", "A9 SEOWriter", "A11 ImageTagger", "A19 CSATSummarizer"],
+      "queue_metrics": {
+        "tracked": true,
+        "active_idle_ratio": "unknown (not computed consistently)"
+      },
+      "dashboards": ["Datadog logs", "Prometheus exporter (latency only)"]
+    },
+    "cost_attribution": {
+      "per_task_cost_available": false,
+      "agents_with_per_task_cost": [
+        "A1","A2","A3","A4","A5","A7","A8","A10","A12","A13","A14","A15","A16","A18","A21","A22","A23","A26"
+      ],
+      "missing_per_task_cost_agents": [
+        "A6","A9","A11","A17","A19","A20","A24","A25","A27"
+      ],
+      "token_cost_tracking": "aggregated by agent",
+      "tool_invocation_costs": "not attributed",
+      "unit_economics": "unknown for 9/27 agents"
+    },
+    "output_quality": {
+      "human_review_sampling_pct": 5,
+      "auto_validators": {
+        "hallucination_detector": ["A12 RAGSearch", "A3 SupportResponder"]
+      },
+      "regression_tracking": "none (no baseline accuracy metrics)",
+      "release_checks": "manual spot checks by support weekly"
+    },
+    "failure_recovery": {
+      "retry_policy": {
+        "default_retries": 2,
+        "backoff": "exponential",
+        "circuit_breakers": false
+      },
+      "detection_mttd_minutes_p50": 18,
+      "detection_mttd_minutes_p90": 180,
+      "escalation": {
+        "pagerduty": "critical incidents only",
+        "slack_channels": ["#oncall-ml", "#ai-ops"],
+        "human_in_loop": "manual only when paged"
+      },
+      "graceful_degradation": "limited; queues grow on upstream API quotas"
+    },
+    "security_boundaries": {
+      "iam_scoped": true,
+      "tool_access_auditing": "monthly manual review",
+      "permission_drift_monitoring": "none (reactive only)",
+      "data_exfiltration_checks": "basic keyword filters",
+      "secrets_management": "Vault (rotated quarterly)"
+    },
+    "fleet_coordination": {
+      "handoff_tracing": "partial (no end-to-end trace IDs for 30% of paths)",
+      "deadlock_detection": false,
+      "duplicate_work_detection": false,
+      "idempotency_keys": "inconsistent",
+      "coordination_owner": "A23 MultiAgentOrchestrator"
+    }
+  },
+  "alert_contacts": {
+    "primary_oncall": "sre@shopcloud.example",
+    "backup": "ml-ops@shopcloud.example",
+    "distribution_list": "ai-ops-alerts@shopcloud.example",
+    "pagerduty_service": "shopcloud-ai-agents"
+  },
+  "recent_incidents_summary_30d": {
+    "last_30_day_incident_count": 9,
+    "by_category": {
+      "coordination": 2,
+      "cost": 2,
+      "security": 1,
+      "failure": 2,
+      "quality": 1,
+      "visibility": 1
+    },
+    "example_gaps": [
+      "Missing per-task cost for 9 agents",
+      "No duplicate work detector; duplicate campaign processing on 2026-03-22",
+      "Scope violation by PromotionEngine (2026-03-31)"
+    ],
+    "mttr_minutes_p50": 110
+  },
+  "agents_overview": [
+    {"agent_id":"A1","name":"CatalogEnricher","role":"Enrich catalog data"},
+    {"agent_id":"A2","name":"PriceOptimizer","role":"Dynamic pricing"},
+    {"agent_id":"A3","name":"SupportResponder","role":"Customer support"},
+    {"agent_id":"A4","name":"FraudScreener","role":"Risk screening"},
+    {"agent_id":"A5","name":"InventoryForecaster","role":"Forecast inventory"},
+    {"agent_id":"A6","name":"EmailCopywriter","role":"Write emails"},
+    {"agent_id":"A7","name":"ReturnsAssistant","role":"Handle returns"},
+    {"agent_id":"A8","name":"OnboardingGuide","role":"User onboarding"},
+    {"agent_id":"A9","name":"SEOWriter","role":"SEO content"},
+    {"agent_id":"A10","name":"ChurnPredictor","role":"Predict churn"},
+    {"agent_id":"A11","name":"ImageTagger","role":"Tag images"},
+    {"agent_id":"A12","name":"RAGSearch","role":"Answer queries via RAG"},
+    {"agent_id":"A13","name":"PaymentReconciler","role":"Reconcile payments"},
+    {"agent_id":"A14","name":"VendorNegotiator","role":"Vendor outreach"},
+    {"agent_id":"A15","name":"CampaignPlanner","role":"Plan campaigns"},
+    {"agent_id":"A16","name":"OrderRouter","role":"Route orders"},
+    {"agent_id":"A17","name":"A/B Analyst","role":"A/B analysis"},
+    {"agent_id":"A18","name":"Personalization","role":"Personalized recs"},
+    {"agent_id":"A19","name":"CSATSummarizer","role":"Summarize CSAT"},
+    {"agent_id":"A20","name":"SLAWatcher","role":"SLA monitoring"},
+    {"agent_id":"A21","name":"AnomalyGuard","role":"Detect anomalies"},
+    {"agent_id":"A22","name":"PromotionEngine","role":"Generate promos"},
+    {"agent_id":"A23","name":"MultiAgentOrchestrator","role":"Coordinate workflows"},
+    {"agent_id":"A24","name":"SandboxGatekeeper","role":"Tool access guard"},
+    {"agent_id":"A25","name":"RefundValidator","role":"Validate refunds"},
+    {"agent_id":"A26","name":"DataSyncAgent","role":"Sync data"},
+    {"agent_id":"A27","name":"TranslationAgent","role":"Translate content"}
+  ],
+  "notes": "Primary priorities for Ecommerce + SaaS: cost attribution (unit economics, cost per task) and fleet coordination (handoff reliability, duplicate work). Current coverage gaps align with last-30-day incidents."
+}

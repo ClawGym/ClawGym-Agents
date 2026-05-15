@@ -1,0 +1,9 @@
+# Risk analysis config (to be updated)
+# Set these to drive the pipeline.
+data_source: ""
+series_id: ""
+csv_path: ""
+start_date: "YYYY-MM-DD"
+end_date: "YYYY-MM-DD"
+var_level: 0.95
+output_dir: "output"

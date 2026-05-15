@@ -1,0 +1,23 @@
+[
+  {
+    "package": "jinja2",
+    "affected_versions": ["2.11.3"],
+    "id": "CVE-FAKE-0001",
+    "severity": "High",
+    "title": "Template injection via untrusted input"
+  },
+  {
+    "package": "werkzeug",
+    "affected_versions": ["2.0.1"],
+    "id": "CVE-FAKE-0002",
+    "severity": "Medium",
+    "title": "URL routing bypass in edge case"
+  },
+  {
+    "package": "itsdangerous",
+    "affected_versions": ["2.0.1"],
+    "id": "CVE-FAKE-0004",
+    "severity": "Low",
+    "title": "Minor timing issue in signer"
+  }
+]

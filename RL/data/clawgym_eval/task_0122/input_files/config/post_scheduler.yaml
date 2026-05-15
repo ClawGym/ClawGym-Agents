@@ -1,0 +1,10 @@
+retry:
+  max_attempts: 8
+  backoff_seconds: 5
+  jitter: false
+
+deduplication:
+  enabled: false
+
+publisher:
+  idPrefix: ""

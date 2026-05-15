@@ -1,0 +1,14 @@
+queries:
+  - '"wrongful conviction" "{NAME}"'
+  - '"exonerated" "{NAME}"'
+general_keywords:
+  - '"wrongful conviction"'
+  - '"exoneration"'
+disallowed_domains:
+  - 'facebook.com'
+  - 'instagram.com'
+  - 'youtube.com'
+  - 'tiktok.com'
+min_results_per_query: 5
+max_results_per_query: 10
+output_dir: 'output'

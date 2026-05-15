@@ -1,0 +1,9 @@
+{
+  "prompts": [
+    "In one sentence, explain what a smoke test is for software.",
+    "List three quick checks to verify a local LLM is functioning.",
+    "Write a haiku about lightweight AI tools running on a laptop.",
+    "What is the difference between a unit test and an integration test?",
+    "Respond with the word READY if you can read this prompt."
+  ]
+}

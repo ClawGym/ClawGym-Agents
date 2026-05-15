@@ -1,0 +1,9 @@
+date,tournament,round,player,opponent,result,aces,double_faults,first_serve_pct,break_points_won,break_points_total
+2022-01-18,Australian Open,R128,Tamara Zidanšek,Heather Watson,W,5,2,64,3,8
+2022-01-20,Australian Open,R64,Tamara Zidanšek,Simona Halep,L,1,3,58,1,5
+2022-05-23,Roland Garros,R128,Tamara Zidanšek,Kaja Juvan,W,3,2,62,4,9
+2022-05-26,Roland Garros,R64,Tamara Zidanšek,Paula Badosa,L,2,4,56,2,7
+2022-09-01,US Open,R128,Tamara Zidanšek,Elena Rybakina,L,4,1,60,2,6
+2022-03-10,Indian Wells,R64,Belinda Bencic,Leylah Fernandez,W,6,2,66,5,10
+2022-07-03,Wimbledon,R128,Karolina Pliskova,Petra Kvitova,W,9,4,63,3,6
+2022-10-05,Ostrava,R32,Petra Martic,Maria Sakkari,L,3,2,59,1,4

@@ -1,0 +1,9 @@
+id,title,pi,status,risk_score,sample_size,method,population,feasibility_score,last_submission_date,draft_feedback
+101,"Low-dose beta-blocker RCT in elderly hypertension","Dr. A. Rivera",new,3,800,RCT,elderly,4,2026-04-10,"Good idea but intro is bloated. The outcomes are fine. Power calc buried. Trim and justify dose; preregister."
+102,"Observational study of sleep patterns in residents","Dr. K. Chen",under_revision,2,120,Observational,adults,5,2026-03-29,"Fine, but too descriptive; no analysis plan detail. IRB considerations minimal; expand."
+103,"Pediatric asthma inhaler adherence trial","Dr. L. Gomez",resubmitted,7,300,RCT,pediatric,3,2026-04-15,"Risky because pediatric; consent/assent details thin. Adherence measurement unclear; need objective logs. Safety board plan missing."
+104,"Case-control of rare neuropathy","Dr. S. Patel",new,6,90,Case-Control,adults,2,2026-04-08,"Small N makes conclusions shaky. Case definition vague. Control selection biased; fix matching."
+105,"Microbiome and insulin resistance","Dr. N. Ali",approved,4,500,Observational,adults,4,2026-04-02,"Interesting, but confounding not addressed. Data sharing statement absent."
+106,"High-dose steroid pulse in acute COPD","Dr. B. Osei",new,8,150,RCT,adults,3,2026-04-12,"High risk; SAE monitoring unclear. Rescue therapy not defined. Stop pretending blinding is possible."
+107,"Cohort study of long COVID cardiac outcomes","Dr. R. Bauer",resubmitted,5,1200,Cohort,adults,4,2026-04-09,"Solid. But endpoints are a kitchen sink. Data management plan too hand-wavy; clarify governance."
+108,"Placebo-controlled migraine prophylaxis","Dr. T. Nguyen",new,7,200,RCT,adults,3,2026-04-11,"Placebo acceptable? Justify ethically. Run-in period questionable. Outcomes all self-reported; add objective measure."

@@ -1,0 +1,7 @@
+# Weighting preferences for scoring; higher numbers indicate greater importance.
+cost: 5
+coverage: 3
+deductible: 4
+waiting_period: 2
+claims: 4
+insurer_rating: 3

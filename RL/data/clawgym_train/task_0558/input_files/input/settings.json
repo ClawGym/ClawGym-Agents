@@ -1,0 +1,5 @@
+{
+  "threads": 12,
+  "timeout": 10,
+  "include_crtsh": true
+}

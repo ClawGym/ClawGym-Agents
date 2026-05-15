@@ -1,0 +1,7 @@
+overrides:
+  - image: docker.io/library/busybox:1.36
+    exceptions:
+      source_offer: true
+  - image: quay.io/prometheus/node-exporter:v1.6.1
+    exceptions:
+      source_offer: false

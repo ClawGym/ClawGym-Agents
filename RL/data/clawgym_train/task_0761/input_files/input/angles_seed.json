@@ -1,0 +1,32 @@
+{
+  "angles": [
+    {
+      "angle": "Privacy-first inventory: map what we have without touching contents",
+      "notes": "Emphasize metadata-only approach and protection of donor/client information."
+    },
+    {
+      "angle": "Faster staff support: find files faster so programs run smoother",
+      "notes": "Highlights day-to-day benefits for program teams and operations."
+    },
+    {
+      "angle": "Grant and audit readiness: prove stewardship of donor and client data",
+      "notes": "Positions inventory as proactive governance for funders and auditors."
+    },
+    {
+      "angle": "Storage savings: remove duplicates and stale files to stretch our budget",
+      "notes": "Focus on reducing storage costs and clutter."
+    },
+    {
+      "angle": "Digital spring cleaning: a friendly, time-boxed tidy-up together",
+      "notes": "Invite staff to participate without blame; opt-in culture."
+    },
+    {
+      "angle": "Empower program teams: simple dashboards for your folders",
+      "notes": "Use the offline HTML report to browse by folder and see quick stats."
+    },
+    {
+      "angle": "Risk reduction: flag risky file types and open shares using metadata only",
+      "notes": "Stay within metadata scope; avoid content scanning."
+    }
+  ]
+}

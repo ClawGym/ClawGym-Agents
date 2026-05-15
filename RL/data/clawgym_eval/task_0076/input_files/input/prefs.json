@@ -1,0 +1,10 @@
+{
+  "openclaw_mode": "notify",
+  "new_skill_default": "all-in",
+  "timezone": "Europe/Madrid",
+  "cron": "0 4 * * *",
+  "scheduler_type": "openclaw-cron",
+  "quiet_hours": "22:00-07:00",
+  "summary_style": "standard",
+  "apply_mode": "notify-first"
+}

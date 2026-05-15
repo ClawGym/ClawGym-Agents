@@ -1,0 +1,71 @@
+{
+  "comps_approach": {
+    "method": "median"
+  },
+  "rules": {
+    "bedrooms": {
+      "per_bedroom_percent": 0.04,
+      "direction": "negative_if_comp_superior_positive_if_inferior"
+    },
+    "bathrooms": {
+      "per_bath_percent": 0.025,
+      "half_bath_weight": 0.5,
+      "calculation": "total_bathrooms = full_bathrooms + (half_bathrooms * half_bath_weight)",
+      "direction": "negative_if_comp_superior_positive_if_inferior"
+    },
+    "age": {
+      "per_year_percent": 0.006,
+      "direction": "apply_negative_if_comp_newer_positive_if_older"
+    },
+    "condition": {
+      "levels": {
+        "Excellent": 4,
+        "Good": 3,
+        "Fair": 2,
+        "Poor": 1
+      },
+      "per_level_percent": 0.05,
+      "direction": "negative_if_comp_higher_level_positive_if_lower"
+    },
+    "lot_size": {
+      "per_1000_sqft_percent": 0.015,
+      "direction": "negative_if_comp_larger_positive_if_smaller"
+    },
+    "pool": {
+      "percent": 0.03,
+      "direction": "if_comp_has_pool_and_subject_does_not_then_negative; if_subject_has_pool_and_comp_does_not_then_positive; else_zero"
+    },
+    "location": {
+      "use_comp_field": "location_adjustment_percent",
+      "direction": "use_value_as_is_already_signed"
+    }
+  },
+  "reconciliation": {
+    "weights": {
+      "comps": 0.6,
+      "income": 0.3,
+      "cost": 0.1
+    },
+    "range_percent": 0.02
+  },
+  "confidence_thresholds": {
+    "high": {
+      "min_comps": 3,
+      "max_distance_miles": 0.5,
+      "max_sale_age_days": 180,
+      "max_avg_abs_total_adjustment_percent": 0.10
+    },
+    "medium": {
+      "min_comps": 2,
+      "max_distance_miles": 1.0,
+      "max_avg_abs_total_adjustment_percent": 0.20
+    },
+    "low": {
+      "otherwise": true
+    }
+  },
+  "rounding": {
+    "money_nearest_dollar": true,
+    "percent_two_decimals": true
+  }
+}

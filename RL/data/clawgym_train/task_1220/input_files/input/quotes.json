@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "id": "q1",
+      "language": "ar",
+      "text": "يَا أَيُّهَا النَّاسُ إِنَّا خَلَقْنَاكُم مِّن ذَكَرٍ وَأُنثَىٰ لِتَعَارَفُوا",
+      "attribution": "Qur'an 49:13"
+    },
+    {
+      "id": "q2",
+      "language": "ar",
+      "text": "ارحموا من في الأرض يرحمكم من في السماء",
+      "attribution": "Prophet Muhammad (hadith)"
+    },
+    {
+      "id": "q3",
+      "language": "en",
+      "text": "Darkness cannot drive out darkness; only light can do that.",
+      "attribution": "Martin Luther King Jr."
+    },
+    {
+      "id": "q4",
+      "language": "en",
+      "text": "Let us meet each other with a smile, for a smile is the beginning of love.",
+      "attribution": "Mother Teresa"
+    }
+  ]
+}

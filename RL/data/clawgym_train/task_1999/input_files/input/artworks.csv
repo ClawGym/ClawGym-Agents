@@ -1,0 +1,13 @@
+id,title,artist,period,type,year,height_cm,width_cm,depth_cm,on_display
+A001,Madonna and Child,Unknown,Renaissance,painting,1500,80,60,,Y
+A002,The Annunciation,Unknown,High Renaissance,painting,1510,120,90,,N
+A003,Portrait of a Merchant,Unknown,Early Baroque,painting,1620,100,80,,Y
+A004,Still Life with Fruit,Unknown,Baroque,painting,1640,70,100,,Y
+A005,Bronze Figure,Unknown,Baroque,sculpture,1630,150,40,30,N
+A006,Abstract Composition,Unknown,Modern,painting,1950,200,180,,Y
+A007,Color Field,Unknown,Contemporary,painting,2010,250,200,,Y
+A008,Etching of City,Unknown,Renaissance,print,1490,40,60,,Y
+A009,Marble Bust,Unknown,High Renaissance,sculpture,1520,70,30,20,Y
+A010,Battle Scene,Unknown,Early Baroque,painting,1605,160,220,,N
+A011,Sketch Study,Unknown,Renaissance,drawing,1505,30,25,,Y
+A012,Modern Sculpture,Unknown,Modern,sculpture,1975,180,60,60,Y

@@ -1,0 +1,14 @@
+input/snapshots/docs/Quarterly_Report_Q1.docx
+input/snapshots/docs/Team_Meeting_Notes.docx
+input/snapshots/docs/Project_Plan_v2.docx
+input/snapshots/docs/Client Proposal Draft.docx
+input/snapshots/docs/Budget.xlsx
+input/snapshots/projects/app1/node_modules/
+input/snapshots/projects/app1/src/index.js
+input/snapshots/projects/app2/node_modules/
+input/snapshots/projects/app3/node_modules/
+input/snapshots/releases/app_v1.2.zip
+input/snapshots/backups/2025-12-archive.zip
+input/snapshots/cache/assets.zip
+input/snapshots/archives/readme.txt
+input/snapshots/logs/system.log

@@ -1,0 +1,31 @@
+compliance:
+  pii_handling:
+    allowed_providers_for_pii: ["ollama", "internal"]
+    allowed_capabilities_for_pii: ["pii_safe"]
+    prohibits_cloud_for_pii: true
+  data_residency: "US-only processing for any PII-containing steps"
+  logging_policy: "No persistent cloud logs; disable training/telemetry for client data"
+  approval_required_for_exceptions: true
+
+budget:
+  weekly_cost_score_cap: 24
+  default_step_cost_score_max: 2
+  high_complexity_allowance_cost_score_max: 7
+  notes: "Prefer low cost_score for routine drafting; escalate only for complex analysis"
+
+operations:
+  turnaround_hours_total: 3
+  due_time: "Monday 09:00"
+  retries: 1
+  offline_fallback_required: true
+  audit_trail_required: true
+
+quality:
+  require_fact_checking: true
+  double_review_for_high_risk: true
+  evaluation_must_cover: ["factual accuracy", "client relevance", "clarity", "actionability", "tone alignment"]
+
+risks:
+  confabulation: "Moderate — especially in causal explanations; require verification"
+  pii_exposure: "High — ensure local-only for PII tasks"
+  schedule_slip: "Medium — keep prompts and workflow lean to meet turnaround"

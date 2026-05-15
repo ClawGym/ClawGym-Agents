@@ -1,0 +1,4 @@
+tip_id,date_received,agency,allegation_type,severity,description,officer_names,source,prior_internal_affairs_flag,related_case_id
+T-0005,2025-01-11,Metropolis PD,Bribery,High,"Cash payments to fix traffic tickets","John Doe","secure drop",true,CASE-001
+T-0006,2025-01-11,Star City PD,Narcotics,Medium,"Evidence bag seal found broken","Clark Kent","anonymous web",false,
+T-0007,2025-01-11,Gotham PD,Retaliation,High,"Threats after IA complaint","Jane Smith","secure drop",true,CASE-002

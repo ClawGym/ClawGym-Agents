@@ -1,0 +1,7 @@
+municipality_id,name,area_km2,forest_area_ha,forest_loss_ha_last3yrs,fire_incidents_last12mo,road_km,population,gdp_per_capita
+101,Rio Verde,1200,95000,1500,120,400,56000,4200
+102,Alto Serra,850,60000,2200,200,350,42000,3800
+103,Nova Selva,650,50000,800,45,220,37000,4600
+104,Pedra Clara,1500,110000,5000,400,900,120000,5200
+105,Santa Luzia,400,25000,600,30,150,28000,3500
+106,Juruá Norte,2000,180000,9000,800,1100,200000,4100

@@ -1,0 +1,13 @@
+{
+  "min_results_per_topic": 5,
+  "max_results_per_topic": 8,
+  "time_range_months": 6,
+  "language": "en",
+  "topics": [
+    "AI agents for software engineering and RPA",
+    "Open-source LLM fine-tuning techniques (LoRA, QLoRA, DPO)",
+    "Vector databases and hybrid search (HNSW, PQ, reranking)",
+    "Data governance and synthetic data for privacy-preserving analytics"
+  ],
+  "notes": "Collect recent English-language links within the last 6 months. Ensure each topic includes at least one news article and at least one scientific/technical source. Deduplicate URLs strictly and diversify domains."
+}

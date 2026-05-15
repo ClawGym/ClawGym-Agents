@@ -1,0 +1,36 @@
+The following pain points are grouped loosely by the 6-category taxonomy.
+
+[architecture]
+- Monolithic Node.js API tightly coupled across billing, reporting, and ingestion; no clear module boundaries
+- Shared Postgres schema across tenants and modules; cross-module triggers hard to reason about
+- Known memory leak in ingestion worker under peak load (suspected object retention)
+
+[code quality]
+- Duplicate business logic in billing discounts and invoice proration
+- Inconsistent error handling and logging patterns; missing correlation IDs
+- N+1 query patterns in reporting endpoints due to ad-hoc ORM usage
+
+[dependencies]
+- Deprecated lodash version with known prototype pollution advisory
+- Sequelize pinned to v5 (EOL); major refactor required to upgrade
+- Several React ecosystem packages are ≥2 majors behind (router, testing libs)
+
+[testing]
+- No integration tests; only unit and flaky nightly e2e
+- Backend unit coverage ~28%, frontend ~20%
+- No contract tests for critical external services (Auth0, payment provider)
+
+[infrastructure]
+- Manual deployments using PM2 on EC2; no blue/green or canary
+- Limited monitoring/alerting; no distributed tracing; no synthetic checks
+- No autoscaling for API nodes; config drift between instances
+
+[documentation]
+- On-call runbooks are outdated; escalation steps unclear
+- Out-of-date deployment checklist; rollback steps tribal knowledge
+- Sparse API reference docs for internal consumers (reporting and billing)
+
+Business impact themes:
+- Rollbacks and hotfixes consume sprint capacity
+- Performance regressions affect conversion and revenue during peaks
+- Security patch scramble creates context-switching and emergency work

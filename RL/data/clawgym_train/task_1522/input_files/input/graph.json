@@ -1,0 +1,32 @@
+{
+  "nodes": {
+    "nodeA": {
+      "edges": [
+        { "to": "nodeB", "weight": 0.72 },
+        { "to": "nodeC", "weight": 0.48 },
+        { "to": "nodeD", "weight": -0.12 }
+      ]
+    },
+    "nodeB": {
+      "edges": [
+        { "to": "nodeA", "weight": 0.58 },
+        { "to": "nodeC", "weight": 0.14 },
+        { "to": "nodeD", "weight": -0.005 }
+      ]
+    },
+    "nodeC": {
+      "edges": [
+        { "to": "nodeA", "weight": 0.61 },
+        { "to": "nodeB", "weight": 0.20 },
+        { "to": "nodeD", "weight": 0.04 }
+      ]
+    },
+    "nodeD": {
+      "edges": [
+        { "to": "nodeA", "weight": -0.20 },
+        { "to": "nodeB", "weight": 0.16 },
+        { "to": "nodeC", "weight": 0.0 }
+      ]
+    }
+  }
+}

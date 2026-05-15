@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <name>inventory-demo</name>
+  <version>1.0.0</version>
+  <components>
+    <component type="python" path="src/app.py"/>
+    <component type="python" path="src/utils/helpers.py"/>
+    <component type="docs" path="docs/spec.md"/>
+  </components>
+</manifest>

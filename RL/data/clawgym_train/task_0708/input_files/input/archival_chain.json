@@ -1,0 +1,41 @@
+{
+  "chain": [
+    {
+      "seq": 0,
+      "claim": "Signal Compression Sciences (SCS) — foundational concept predating the filing. Semantic commitment is conserved under compression when enforcement is active.",
+      "claim_type": "prior_work",
+      "external_ref": "Internal: SCS Engine / Ello Cello LLC prior work",
+      "author": "Deric McHenry / Ello Cello LLC",
+      "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+    },
+    {
+      "seq": 1,
+      "claim": "MO§ES™ Constitutional Governance system concept — constitutional substrate for AI agents enforcing policy invariants, role hierarchy, and behavioral modes. Predates public release and patent filing.",
+      "claim_type": "prior_work",
+      "external_ref": "Internal: MO§ES™ system design / Ello Cello LLC prior work",
+      "author": "Deric McHenry / Ello Cello LLC",
+      "previous_hash": "ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad",
+      "hash": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824"
+    },
+    {
+      "seq": 2,
+      "claim": "Provisional patent application filed for MO§ES™ Constitutional Governance and the Commitment Conservation Law. Establishes legal priority date.",
+      "claim_type": "patent_filing",
+      "external_ref": "USPTO Provisional Serial No. 63/877,177",
+      "author": "Deric McHenry / Ello Cello LLC",
+      "previous_hash": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+      "hash": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08"
+    },
+    {
+      "seq": 3,
+      "claim": "Academic record published via Zenodo. Public DOI establishes timestamped record of the Commitment Conservation Law and MO§ES™ architecture prior to software release.",
+      "claim_type": "academic_record",
+      "external_ref": "DOI: https://zenodo.org/records/18792459",
+      "author": "Deric McHenry / Ello Cello LLC",
+      "previous_hash": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+      "hash": "d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592"
+    }
+  ],
+  "head": "d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592"
+}

@@ -1,0 +1,55 @@
+{
+  "401k": {
+    "plan_type": "Traditional",
+    "safe_harbor": false,
+    "match_formula": "50% match up to 4% of pay",
+    "vesting_schedule": "4-year graded: 25%, 50%, 75%, 100%",
+    "eligibility_waiting_period_days": 60,
+    "participation_rate_percent": 62,
+    "average_deferral_percent": 4.1,
+    "annual_admin_fees_total": 8500,
+    "recordkeeper": "OldRock Retirement",
+    "advisor": "None",
+    "note": "Failing ADP risk flagged by vendor last year"
+  },
+  "health": {
+    "primary_plan": "PPO",
+    "monthly_premium_employee": 780,
+    "employer_contribution_percent": 75,
+    "employee_contribution_percent": 25,
+    "deductible_individual": 1500,
+    "deductible_family": 3000,
+    "hsa_offered": false,
+    "network": "Broad national PPO",
+    "carrier": "BestHealth",
+    "covered_lives": 46
+  },
+  "pto": {
+    "policy_type": "Structured",
+    "vacation_days_per_year": 10,
+    "sick_days_per_year": 3,
+    "carryover_policy": "None",
+    "state_overrides": {
+      "CA": {
+        "paid_sick_leave_compliance": "3 days minimum met but may not satisfy updated accrual rules"
+      },
+      "NY": {
+        "paid_sick_leave_compliance": "Unclear; may need 40 hours minimum"
+      },
+      "IL": {
+        "paid_leave_for_all_workers_act": "Not yet implemented in policy"
+      }
+    }
+  },
+  "supplemental": {
+    "dental_monthly_premium_employee": 38,
+    "vision_monthly_premium_employee": 14,
+    "life_insurance_basic": 25000,
+    "std_ltd": "Not offered"
+  },
+  "budget": {
+    "benefits_spend_annual_total": 690000,
+    "payroll_annual": 5600000
+  },
+  "notes": "Leadership wants to evaluate HDHP + HSA vs PPO, consider Safe Harbor 401(k) to reduce testing risk, and add a compliance calendar."
+}

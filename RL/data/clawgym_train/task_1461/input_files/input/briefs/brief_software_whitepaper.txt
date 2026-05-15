@@ -1,0 +1,8 @@
+Title: Cloud security white paper for developer tools
+Industry: Software
+Content Type: White Paper
+
+Scope:
+This white paper should cover cloud-native security architecture patterns, benchmarking methodology, and scalability considerations for a developer audience.
+
+Keywords: cloud, security, architecture, benchmarking, scalability, developers

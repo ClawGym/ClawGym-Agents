@@ -1,0 +1,18 @@
+baseUrl: "http://localhost:8080"
+remoteWebDriverUrl: "http://selenium-hub:4444/wd/hub"
+browser: "chrome"
+chromeOptions:
+  - "--headless=new"
+  - "--disable-gpu"
+  - "--ignore-certificate-errors"
+capabilities:
+  acceptInsecureCerts: true
+timeouts:
+  implicit: 2
+  pageLoad: 60
+logging:
+  level: "DEBUG"
+credentials:
+  username: "qa_manager@example.com"
+  password: "SuperSecret123!"
+apiToken: "sk_live_abc123"

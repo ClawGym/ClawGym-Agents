@@ -1,0 +1,44 @@
+[
+  {
+    "name": "api-gateway",
+    "state": "running",
+    "restartCount": 3,
+    "composeProject": "aegis"
+  },
+  {
+    "name": "auth-service",
+    "state": "running",
+    "restartCount": 6,
+    "composeProject": "aegis"
+  },
+  {
+    "name": "backup",
+    "state": "exited",
+    "restartCount": 0,
+    "composeProject": null
+  },
+  {
+    "name": "mailer",
+    "state": "running",
+    "restartCount": 2,
+    "composeProject": "billing"
+  },
+  {
+    "name": "payments",
+    "state": "restarting",
+    "restartCount": 1,
+    "composeProject": "billing"
+  },
+  {
+    "name": "redis",
+    "state": "running",
+    "restartCount": 1,
+    "composeProject": null
+  },
+  {
+    "name": "telemetry",
+    "state": "exited",
+    "restartCount": 0,
+    "composeProject": "aegis"
+  }
+]

@@ -1,0 +1,12 @@
+- Constant product pools (x*y=k) offer deep liquidity near mid-price but widen spreads at extremes; fees partially offset impermanent loss in volatile markets.
+- Stable-swap curves (e.g., Curve-like) reduce Slippage around a 1:1 peg, but amplify losses if the peg breaks.
+- Concentrated liquidity (Uniswap v3 style) raises capital efficiency; however, position management risk and out-of-range exposure increase impermanent loss potential.
+- Dynamic fee tiers that widen during volatility can dampen arbitrage extraction and help LPs recoup adverse selection costs.
+- Oracle design: prefer time-weighted average price (TWAP) windows ≥ 10–30 minutes to resist short-term manipulation and sandwich attacks.
+- Anti-MEV measures: batch auctions or frequent batch auctions reduce slippage and exploitability from priority gas auctions.
+- Front-running and sandwiching are mitigated by private order flow, commit-reveal swaps, and adjusting slippage tolerance defaults.
+- Pool invariants must be invariant-safe under rounding; otherwise, attackers can craft tiny trades to clip value via precision bugs.
+- Smart contract security: require reentrancy guards, checked transfer returns, and bounds on fee updates to prevent governance oracles from nuking pools.
+- Cross-chain AMMs inherit bridge risk; halt cross-domain price sync if oracle heartbeat lags or cross-chain messages are delayed.
+- Backtesting shows LP PnL depends on volatility vs. fee income: high churn pairs underperform due to impermanent loss unless volume/fees are very high.
+- Risk policy: cap single-transaction price impact at 2% and enforce circuit breakers on slippage spikes to preserve user experience and LP capital.

@@ -1,0 +1,20 @@
+{
+  "AccountingPortal": {
+    "min_length": 20,
+    "require_upper": true,
+    "require_digits": true,
+    "require_symbols": true,
+    "forbid_upper": false,
+    "forbid_digits": false,
+    "forbid_symbols": false
+  },
+  "DevWiki": {
+    "min_length": 16,
+    "require_upper": false,
+    "require_digits": true,
+    "require_symbols": false,
+    "forbid_upper": true,
+    "forbid_digits": false,
+    "forbid_symbols": true
+  }
+}

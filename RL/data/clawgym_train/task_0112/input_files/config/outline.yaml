@@ -1,0 +1,39 @@
+program_name: "Edge Rush Accelerator (Nick Hampton Theme)"
+session_length_min: 45
+constraints:
+  min_drills_per_session: 2
+  max_drills_per_session: 3
+  required_citation_fields: [organization, title, url, local_path]
+sessions:
+  - id: S1
+    theme: Get-Off and Stance
+    duration_limit_min: 45
+    required_focus_tags: [get-off, stance, burst]
+  - id: S2
+    theme: Hand Usage and Strike Accuracy
+    duration_limit_min: 45
+    required_focus_tags: [hand-usage, strike, leverage]
+  - id: S3
+    theme: Bend and Cornering
+    duration_limit_min: 45
+    required_focus_tags: [bend, corner, balance]
+  - id: S4
+    theme: Counter Moves
+    duration_limit_min: 45
+    required_focus_tags: [counter-moves, spin, rip, swim]
+  - id: S5
+    theme: Run Contain and Setting the Edge
+    duration_limit_min: 45
+    required_focus_tags: [contain, leverage, block-shed]
+  - id: S6
+    theme: Pass-Rush Games and Stunts
+    duration_limit_min: 45
+    required_focus_tags: [twists, games, coordination]
+  - id: S7
+    theme: Film Study and Recognition
+    duration_limit_min: 45
+    required_focus_tags: [film-study, recognition, keys]
+  - id: S8
+    theme: Evaluation and Competition
+    duration_limit_min: 45
+    required_focus_tags: [competition, evaluation]

@@ -1,0 +1,36 @@
+pricing:
+  # Exact formula to compute retail price for each platform:
+  # price = (base_cost + shipping_cost + platform_fixed_fee) / (1 - desired_margin_percent - platform_variable_fee_percent)
+  # Where:
+  #   - platform_fixed_fee = fixed_fee from the platform section in product_brief.json (e.g., amazon.fixed_fee, etsy.fixed_fee)
+  #   - platform_variable_fee_percent = variable_fee_percent from the platform section in product_brief.json
+  #   - base_cost, shipping_cost, desired_margin_percent are taken from product_brief.json
+  formula: "(base_cost + shipping_cost + platform_fixed_fee) / (1 - desired_margin_percent - platform_variable_fee_percent)"
+  rounding: 2
+
+constraints:
+  amazon:
+    title:
+      max_chars: 200
+      # Title must not include any of the following characters
+      prohibited_characters: ["!", "$", "{", "}", "?"]
+    bullets:
+      per_bullet_min_chars: 200
+      per_bullet_max_chars: 250
+      total_max_chars: 1000
+    backend_search_terms:
+      max_bytes: 250
+      no_commas: true
+      disallow_brand: true
+  etsy:
+    title:
+      max_chars: 140
+    tags:
+      required_count: 13
+    description:
+      min_chars: 160
+
+keywords:
+  keyword_field: "keyword"
+  primary_field: "is_primary"
+  primary_value: "yes"

@@ -1,0 +1,30 @@
+{
+  "agents": {
+    "defaults": {
+      "model": "openai/gpt-4o-mini"
+    },
+    "thinking": "detailed",
+    "subagents": {
+      "maxConcurrent": 4
+    }
+  },
+  "heartbeat": {
+    "intervalMs": 300000,
+    "enabled": true
+  },
+  "modes": {
+    "subagent": "session"
+  },
+  "browser": {
+    "autoclose": false,
+    "headless": true
+  },
+  "preferences": {
+    "web_fetch_preferred": false,
+    "close_browser_after_use": false
+  },
+  "logging": {
+    "level": "info",
+    "keepJournalLogsDays": 14
+  }
+}

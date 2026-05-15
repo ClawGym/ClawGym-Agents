@@ -1,0 +1,10 @@
+{
+  "Maison Aurelia": {
+    "Express": {"min_days": 1, "max_days": 3},
+    "Standard": {"min_days": 3, "max_days": 5}
+  },
+  "Valente Milano": {
+    "Express": {"min_days": 2, "max_days": 4},
+    "Standard": {"min_days": 4, "max_days": 6}
+  }
+}

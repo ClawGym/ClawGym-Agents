@@ -1,0 +1,5 @@
+[
+  {"name": "Bentley Flying Spur", "priority_score": 8, "detailing_due_date": "2026-04-25"},
+  {"name": "Porsche 911 Turbo S", "priority_score": 7, "detailing_due_date": "2026-04-28"},
+  {"name": "Lexus LC 500", "priority_score": 5, "detailing_due_date": "2026-05-02"}
+]

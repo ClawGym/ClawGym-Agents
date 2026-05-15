@@ -1,0 +1,5 @@
+{"id":"msg-1001","session_id":"ses-005","time_created":1779590000000,"data":"{\"role\":\"user\",\"modelID\":\"gpt-4o\",\"parts\":[{\"type\":\"text\",\"text\":\"Hello, can you summarize today's code changes?\"}]}"}
+{"id":"msg-1002","session_id":"ses-005","time_created":1779591000000,"data":"{\"role\":\"assistant\",\"modelID\":\"gpt-4o\",\"parts\":[{\"type\":\"text\",\"text\":\"Sure. I found 3 files changed with 21 additions and 5 deletions.\"},{\"type\":\"tool_use\",\"name\":\"git-diff\"}]}"}
+{"id":"msg-1003","session_id":"ses-005","time_created":1779592000000,"data":"{\"role\":\"assistant\",\"modelID\":\"gpt-4o\",\"content\":\"Summary: Completed refactor for utils module and updated release notes.\"}"}
+{"id":"msg-2001","session_id":"ses-002","time_created":1779595000000,"data":"{\"role\":\"user\",\"modelID\":\"gpt-4o-mini\",\"parts\":[{\"type\":\"text\",\"text\":\"Draft the refactor plan outline.\"}]}"}
+{"id":"msg-3001","session_id":"ses-004","time_created":1779511000000,"data":"{\"role\":\"assistant\",\"modelID\":\"gpt-4o\",\"parts\":[{\"type\":\"image\",\"url\":\"https://example.com/img.png\"}]}"}

@@ -1,0 +1,18 @@
+- name: Attribution Playbook Q2
+  start: 2026-04-01
+  end: 2026-06-30
+  goal: "Publish 4 multi-touch attribution guides and 2 case studies; drive rankings for 'multi-touch attribution'"
+  status: active
+  progress: 35
+- name: CDP Integration Launch
+  start: 2026-03-15
+  end: 2026-05-15
+  goal: "Release native connectors and rank for 'customer data platform b2b' queries"
+  status: active
+  progress: 50
+- name: Warehouse Tutorial Series
+  start: 2026-04-10
+  end: 2026-07-15
+  goal: "Produce 6 tutorials targeting 'data warehouse integration' and 'ga4 to warehouse connector'"
+  status: planning
+  progress: 10

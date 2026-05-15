@@ -1,0 +1,6 @@
+Call me at 415-555-2671 or (212) 555-0199. SSN 123-45-6789. Email: alex.henderson@example.com
+My name is John Doe and my wallet 0x1234567890abcdef1234567890abcdef12345678 was compromised at 203.0.113.45.
+Logs saved to /Users/jane/Projects/app/logs and also at C:\\Users\\Bob\\Desktop\\report.docx
+Already anonymized: [NAME], [EMAIL], [SSN], [PHONE], [WALLET], [IP], [PATH]
+Contact Maria Garcia at maria.garcia@acme.co or 650.555.0000.
+Router set to 192.168.0.1; path: /home/adam/tmp

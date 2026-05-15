@@ -1,0 +1,177 @@
+{
+  "org_name": "Waypoint Systems",
+  "ai_assistant_goal": "Extend our internal AI developer assistant with vetted, high‑leverage extensions that improve code quality, accelerate reviews, assist with Kubernetes operations, strengthen authentication and security posture, and streamline payments and database workflows without introducing undue supply‑chain or operational risk.",
+  "timeline_weeks": 6,
+  "milestones": [
+    {
+      "name": "Discovery & Screening",
+      "weeks": "1-2",
+      "outputs": [
+        "Shortlist of 8–12 skills aligned to our stack",
+        "Initial risk triage and license screening notes",
+        "Draft governance and approvals workflow"
+      ]
+    },
+    {
+      "name": "POC Integrations",
+      "weeks": "3-4",
+      "outputs": [
+        "Dev/test evaluation for 4–6 candidates",
+        "Security review artifacts (static analysis, SBOM, license audit)",
+        "Initial success metrics baseline"
+      ]
+    },
+    {
+      "name": "Canary Rollout",
+      "weeks": "5",
+      "outputs": [
+        "Limited‑scope enablement for top 3–4 skills",
+        "Monitoring dashboards and alerting",
+        "Rollback steps rehearsed"
+      ]
+    },
+    {
+      "name": "Production Enablement",
+      "weeks": "6",
+      "outputs": [
+        "Final approvals and change records",
+        "Runbooks and ownership assigned",
+        "Post‑rollout review plan"
+      ]
+    }
+  ],
+  "tech_stack": {
+    "frontend": {
+      "framework": "Next.js 14 (App Router)",
+      "runtime": "Node.js 20",
+      "hosting": "Vercel",
+      "typescript": true,
+      "styling": "Tailwind CSS"
+    },
+    "backend": {
+      "language": "TypeScript",
+      "framework": "Fastify",
+      "runtime": "Node.js 20",
+      "services": [
+        "REST APIs",
+        "Background workers"
+      ]
+    },
+    "infrastructure": {
+      "orchestration": "Kubernetes (GKE)",
+      "ingress": "NGINX",
+      "secrets": "Vault",
+      "observability": [
+        "Prometheus",
+        "Grafana",
+        "OpenTelemetry traces"
+      ],
+      "ci_cd": "GitHub Actions"
+    },
+    "database": {
+      "primary": "Postgres",
+      "provider": "Supabase",
+      "orm": "Prisma",
+      "security": {
+        "row_level_security": true,
+        "encryption_at_rest": true
+      }
+    },
+    "payments": {
+      "provider": "Stripe",
+      "pci_scope": "SAQ-A",
+      "webhooks": true
+    },
+    "auth": {
+      "sso": "SAML/SCIM (Okta)",
+      "session": "Secure, HttpOnly cookies",
+      "mfa": true
+    }
+  },
+  "priorities": [
+    "Improve code review quality and consistency for React/Next.js and Node services",
+    "Safer, guided Kubernetes operations with strong RBAC and auditability",
+    "Database‑aware assistance (Postgres, migrations, RLS patterns)",
+    "Payments workflows enhancements that do not expand PCI scope",
+    "Security‑first choices with clear provenance and permissive licenses"
+  ],
+  "constraints": {
+    "risk_appetite": "conservative",
+    "preferred_licenses": [
+      "MIT",
+      "Apache-2.0",
+      "BSD-2-Clause",
+      "BSD-3-Clause"
+    ],
+    "disallowed_licenses": [
+      "GPL-3.0",
+      "AGPL-3.0",
+      "LGPL-3.0"
+    ],
+    "data_handling": {
+      "pii_in_dev": false,
+      "prod_data_in_poc": false,
+      "redaction_required": true
+    },
+    "network": {
+      "ci_egress": "allowlist only",
+      "prod_egress": "strictly limited",
+      "telemetry": "must be disabled or opt‑in only"
+    },
+    "supply_chain": {
+      "version_pinning": true,
+      "lockfiles_required": true,
+      "slsa_provenance_preferred": true,
+      "npm_audit_blocker": true
+    },
+    "ops": {
+      "no_cluster_admin_in_canary": true,
+      "read_only_defaults": true,
+      "least_privilege_rbac": true
+    },
+    "review_process": {
+      "security_signoff_required": true,
+      "two_maintainer_rule_for_deps": true,
+      "manual_approval_for_prod": true
+    }
+  },
+  "environments": {
+    "development": {
+      "isolated_sandboxes": true,
+      "synthetic_data_only": true
+    },
+    "staging": {
+      "partial_masked_data": true,
+      "strict_feature_flags": true
+    },
+    "production": {
+      "change_management": "ticketed with CAB approval",
+      "rollback_must_be_rehearsed": true
+    }
+  },
+  "vendors_in_use": [
+    "Vercel",
+    "Stripe",
+    "Supabase",
+    "GitHub"
+  ],
+  "adoption_preferences": {
+    "prefer_official_partners": true,
+    "allow_community_with_safeguards": true,
+    "self_hosted_option_preferred_for_sensitive_flows": true
+  },
+  "success_metrics": {
+    "code_review_latency_reduction_pct": 25,
+    "defect_escape_reduction_pct": 15,
+    "ci_flake_rate_reduction_pct": 30,
+    "k8s_change_failure_rate_reduction_pct": 20,
+    "developer_nps_increase": 10
+  },
+  "team": {
+    "engineering": 24,
+    "platform_ops": 4,
+    "security": 3,
+    "qa": 3
+  },
+  "notes": "Where multiple candidates exist, prioritize those from Vercel, Stripe, Supabase, or well‑maintained community repos with permissive licenses, strong documentation, and active issue triage. All features must be disabled by default and enabled via feature flags."
+}

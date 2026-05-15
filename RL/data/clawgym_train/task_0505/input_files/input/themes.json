@@ -1,0 +1,31 @@
+{
+  "period_label": "19th-century social and aesthetic sources",
+  "period_start": 1800,
+  "period_end": 1900,
+  "themes": [
+    "social etiquette",
+    "fashion",
+    "urban life",
+    "domestic interiors",
+    "salons and cafés"
+  ],
+  "allowed_rights": [
+    "Public Domain",
+    "No known copyright restrictions",
+    "CC0"
+  ],
+  "required_fields": [
+    "id",
+    "title",
+    "year",
+    "creator",
+    "institution",
+    "collection",
+    "rights_status",
+    "theme",
+    "aesthetic_note"
+  ],
+  "min_entries": 12,
+  "min_institutions": 3,
+  "min_themes": 3
+}

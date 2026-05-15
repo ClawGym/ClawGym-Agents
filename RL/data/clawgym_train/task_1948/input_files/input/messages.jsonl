@@ -1,0 +1,7 @@
+{"id":"msg1","text":"@codex implement quicksort in python"}
+{"id":"msg2","text":"@c refactor the module for clarity"}
+{"id":"msg3","text":"@mini summarize the report's key points"}
+{"id":"msg4","text":"@m   "}
+{"id":"msg5","text":"@x run experimental model"}
+{"id":"msg6","text":"just a normal message without any prefix"}
+{"id":"msg7","text":"@codex optimize memory footprint"}

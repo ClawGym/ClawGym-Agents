@@ -1,0 +1,67 @@
+{
+  "f150": {
+    "year": 2019,
+    "make": "Ford",
+    "model": "F-150",
+    "trim": "XLT",
+    "engine": "5.0L V8",
+    "transmission": "6-Speed Automatic",
+    "drive_type": "4WD",
+    "vin": "1FTEW1E58KKD12345",
+    "type": "truck",
+    "current_miles": 59800,
+    "warranties": [
+      {
+        "type": "factory_bumper_to_bumper",
+        "provider": "Ford",
+        "start_date": "2019-06-15",
+        "end_date": "2022-06-15",
+        "start_miles": 0,
+        "end_miles": 36000,
+        "coverage_details": "Comprehensive coverage except wear items",
+        "status": "expired"
+      },
+      {
+        "type": "factory_powertrain",
+        "provider": "Ford",
+        "start_date": "2019-06-15",
+        "end_date": "2026-06-15",
+        "start_miles": 0,
+        "end_miles": 60000,
+        "coverage_details": "Engine, transmission, drivetrain components",
+        "status": "active",
+        "contact_phone": "1-800-392-3673"
+      }
+    ],
+    "check_in_frequency": "monthly",
+    "usage": "Daily driver, regular towing of R-Pod trailer on weekends"
+  },
+  "rpod_trailer": {
+    "year": 2018,
+    "make": "Forest River",
+    "model": "R-Pod RP-180",
+    "type": "travel_trailer",
+    "vin": "4X4TRPU18JZ123456",
+    "current_miles": 14500,
+    "warranties": [
+      {
+        "type": "structural",
+        "provider": "Forest River",
+        "start_date": "2018-04-10",
+        "end_date": "2021-04-10",
+        "coverage_details": "Structural components",
+        "status": "expired"
+      },
+      {
+        "type": "axle",
+        "provider": "Dexter",
+        "start_date": "2018-04-10",
+        "end_date": "2023-04-10",
+        "coverage_details": "Axles and electric brakes",
+        "status": "expired"
+      }
+    ],
+    "check_in_frequency": "quarterly",
+    "usage": "Weekend camping trips; stored outdoors with a cover"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "offers": [
+    {
+      "id": "PR-CKW-0426",
+      "name": "Cookware Refresh Event",
+      "goal": "Drive basket size and margin mix in Kitchen",
+      "start_date": "2026-04-19",
+      "end_date": "2026-04-25",
+      "discount": {
+        "type": "percent",
+        "value": 20
+      },
+      "target_skus": ["SKU-2001", "SKU-2002"],
+      "notes": "Cross-merch with utensils and add-on lids near cookware wall. Ensure demo pan is visible at front table."
+    },
+    {
+      "id": "PR-AIR-0426",
+      "name": "Clean Air & Calm Home",
+      "goal": "Traffic driver with add-on attachment sales",
+      "start_date": "2026-04-19",
+      "end_date": "2026-04-25",
+      "discount": {
+        "type": "bundle",
+        "value": "Buy Air Purifier, get Diffuser 15% off"
+      },
+      "target_skus": ["SKU-4002", "SKU-5002"],
+      "notes": "Create endcap with purifier running; scent the area lightly using diffuser. Clear, simple price cards."
+    }
+  ],
+  "assumptions": "Offers are approved by HQ, discount set-up in POS by Friday EOD prior to start."
+}

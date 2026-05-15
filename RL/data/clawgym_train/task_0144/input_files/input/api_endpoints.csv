@@ -1,0 +1,9 @@
+Method,Path,Handler
+GET,/api/health,src/api/handlers/health.ts
+GET,/api/users,src/api/handlers/users/listUsers.ts
+POST,/api/users,src/api/handlers/users/createUser.ts
+POST,/api/auth/login,src/auth/handlers/login.ts
+POST,/api/auth/refresh,src/auth/handlers/refreshToken.ts
+GET,/api/billing/subscriptions,src/billing/handlers/listSubscriptions.ts
+POST,/api/billing/subscribe,src/billing/handlers/createSubscription.ts
+POST,/webhooks/stripe,src/billing/webhooks/stripe.ts

@@ -1,0 +1,35 @@
+{
+  "name": "Local OpenClaw Dev",
+  "version": "0.8.2",
+  "server": {
+    "bind": "0.0.0.0",
+    "port": 8080
+  },
+  "execution": {
+    "sandbox": "disabled",
+    "workerPoolSize": 2
+  },
+  "tools": {
+    "allow": ["exec", "fs", "net"],
+    "exec": {
+      "security": "unrestricted",
+      "ask": "off",
+      "timeoutSec": 120
+    },
+    "fs": {
+      "readOnly": false
+    }
+  },
+  "slack": {
+    "enabled": true,
+    "channel": "#ops-alerts",
+    "note": "Using workspace webhook relay; tokens provided via env at runtime"
+  },
+  "logging": {
+    "level": "info",
+    "path": "./logs/agent.log"
+  },
+  "auth": {
+    "profiles": []
+  }
+}

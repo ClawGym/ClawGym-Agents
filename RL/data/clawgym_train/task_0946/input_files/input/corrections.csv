@@ -1,0 +1,2 @@
+subject,claim_type,wrong_title,wrong_year,correction_note,ref_fact_ids
+LeBron James,Film lead,Space Jam,1996,"Lead of Space Jam (1996) was Michael Jordan (see F005); LeBron led Space Jam: A New Legacy (2021) (see F006).","F005;F006"

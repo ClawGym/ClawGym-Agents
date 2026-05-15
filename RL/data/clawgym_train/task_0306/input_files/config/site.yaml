@@ -1,0 +1,4 @@
+site_name: "Echoes of Caer Donnan"
+site_port: 8087
+output_dir: "public"
+footer: "Stories as told by my grandmother, the last Donnan to live year-round in the old keep."

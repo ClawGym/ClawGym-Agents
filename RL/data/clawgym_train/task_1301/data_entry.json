@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1301",
+  "user_query": "Please read the article at input/article.md and my glossary at input/glossary.yaml, then translate the article from English to Simplified Chinese using normal mode, formal style, and a general audience. Merge the glossary so that the specified term translations are used consistently (for example, keep \"Transformer\" in English). Preserve the original markdown structure and any code blocks. Transform the YAML frontmatter by copying the original fields url, title, description, author, and date to sourceUrl, sourceTitle, sourceDescription, sourceAuthor, and sourceDate (retaining their original values), and add translated title and description as top-level fields. Save all outputs under output/article-zh-CN/: output/article-zh-CN/translation.md, output/article-zh-CN/01-analysis.md, and output/article-zh-CN/02-prompt.md. If there is no existing preferences file, create output/.baoyu-skills/baoyu-translate/EXTEND.md with target_language zh-CN, default_mode normal, audience general, and style formal before translating.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,21 @@
+search:
+  engine_preference:
+    - DuckDuckGo
+    - Bing
+    - Google
+  per_treaty_limit: 3
+domains:
+  NATO:
+    allowed:
+      - nato.int
+  OAS:
+    allowed:
+      - oas.org
+      - treaty.oas.org
+  CSTO:
+    allowed:
+      - odkb-csto.org
+      - csto.int
+  Australia:
+    allowed:
+      - dfat.gov.au

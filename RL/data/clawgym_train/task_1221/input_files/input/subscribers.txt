@@ -1,0 +1,10 @@
+alice@example.com
+bob@example.com
+carol@example.com
+dave@example.com
+ALICE@example.com
+eve@sample.org
+frank@test.com
+carol@example.com
+alice@example.com
+eve@sample.org

@@ -1,0 +1,16 @@
+site_name: "Mountain Studio"
+theme: "ink"
+analytics:
+  enabled: true
+  provider: "custom"
+  endpoint: "http://tracker.local/collect"
+backup:
+  enabled: true
+  destination: "../backups"
+  schedule: "weekly"
+remote_sync:
+  enabled: true
+  url: "http://fileshare.local/upload"
+  auth:
+    user: "artist"
+    password: "123456"

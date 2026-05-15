@@ -1,0 +1,73 @@
+id: projectile_drag_wind
+title: Projectile with Linear Drag and Horizontal Wind
+domain: mechanics
+level: high_school
+dt:
+  default: 0.01
+  min: 0.001
+  max: 0.05
+state:
+  - name: x
+    unit: m
+  - name: y
+    unit: m
+  - name: vx
+    unit: m/s
+  - name: vy
+    unit: m/s
+params:
+  - name: g
+    unit: m/s^2
+    value: 9.81
+    min: 0
+    max: 20
+    step: 0.01
+    desc: Gravitational field strength
+  - name: k
+    unit: 1/s
+    value: 0.04
+    min: 0
+    max: 0.2
+    step: 0.001
+    desc: Linear drag coefficient (proportional to velocity)
+  - name: wind_ax
+    unit: m/s^2
+    value: 0
+    min: -5
+    max: 5
+    desc: Constant horizontal wind acceleration (positive pushes +x)
+initial:
+  x: 0
+  y: 0
+  vx: 14
+  vy: 12
+equations:
+  dx: vx
+  dy: vy
+  dvx: wind_ax - k * vx
+  dvy: -g - k * vy
+outputs:
+  - type: trace
+    what: [x, y]
+    label: Trajectory
+  - type: plot
+    x: t
+    y: y
+    label: Height vs time
+worksheet:
+  predict:
+    - If wind_ax is set to a positive value while launch speed stays the same, predict how the landing point shifts compared to wind_ax = 0.
+    - Predict how the peak height changes as k increases from 0 to 0.1 with the same initial velocity.
+    - If gravity g is reduced by half with k and wind_ax held fixed, predict how the flight time and range change.
+  test:
+    - Keep initial conditions fixed and compare two runs: wind_ax = 0 vs wind_ax = 2. Use the trajectory and the height-time plot to justify the horizontal drift you observe.
+    - Reset and hold wind_ax and g fixed; run once with k = 0 and once with k = 0.1. Compare ranges and peak heights to test your prediction about drag.
+  explain:
+    - Explain why a positive wind_ax increases horizontal acceleration even after launch, and how drag limits the eventual horizontal speed.
+    - Explain why increasing k reduces peak height and range even when the initial launch speed is unchanged.
+  misconceptions:
+    - If wind_ax is constant and positive, does the projectile’s horizontal speed increase without bound? Why or why not?
+    - Does reducing g always double both the flight time and the range for any drag setting? Explain any differences you see.
+success_criteria:
+  - With k = 0 and wind_ax = 0, the trajectory is symmetric and range matches the ideal prediction within a small numerical tolerance.
+  - Increasing k decreases both the peak height and the horizontal range; a positive wind_ax shifts the landing point in +x while slightly altering the trajectory curvature.

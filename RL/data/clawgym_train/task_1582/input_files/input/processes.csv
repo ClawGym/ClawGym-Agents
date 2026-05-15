@@ -1,0 +1,13 @@
+pid,name,cpu_percent,mem_mb,cmd,username
+1203,firefox,12.3,512,/usr/lib/firefox/firefox,critic
+2345,python,8.4,150,/usr/bin/python manage.py,critic
+3456,autoformat-helper,6.1,210,/opt/autoformat/helper --watch,critic
+4567,spell-modernizer,5.5,50,/usr/local/bin/modernize --background,critic
+5678,backupd,4.0,80,/usr/sbin/backupd -s,root
+6789,photos,3.2,300,/opt/photos/photos,critic
+7890,music-player,2.8,90,/usr/bin/music,critic
+8901,vim,1.5,25,vim draft_review.md,critic
+9012,pandoc,2.0,40,pandoc --to=docx,critic
+1122,mail,1.1,110,/usr/bin/thunderbird,critic
+2233,synonymizerd,0.9,15,/usr/local/bin/synonymizerd,critic
+3344,calendar,0.7,60,/usr/bin/calendar,critic

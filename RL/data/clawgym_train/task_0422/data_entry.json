@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0422",
+  "user_query": "I’m writing a behind-the-scenes blog post about Wangari Maathai and want to include a short, reader-friendly note about the current state of my computer so I don’t sound too technical. Please do the following in this workspace:\n\n1) Generate a local system status report by running: python3 tools/collect_system.py. This should create output/system_report.json with OS name, kernel, machine, Python version, logical cores, disk usage, and a timestamp. Don’t change the script’s output schema.\n\n2) Rewrite content/note_template.md into a single-paragraph, friendly “system note” that’s 60 words or fewer. Use data from output/system_report.json, and ensure the paragraph mentions at least the OS name and Python version. You may also include core count and free disk (rounded to the nearest GB) if it helps clarity. Append this rewritten note at the end of blog/draft.md under a new section with the exact header:\n\n## System note (auto-generated)\n\n…and then your one-paragraph note directly below it.\n\n3) Validate your work by running: python3 tests/validate_report.py. Fix anything until it passes. Deliverables are: the generated output/system_report.json and the updated blog/draft.md with the new section appended. Please do not add other files or modify the provided scripts. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

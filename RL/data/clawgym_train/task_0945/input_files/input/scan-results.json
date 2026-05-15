@@ -1,0 +1,105 @@
+{
+  "projectId": "ai-compliance-snapshot-001",
+  "generatedAt": "2026-04-18T10:22:00Z",
+  "environment": "local",
+  "summary": {
+    "critical": 0,
+    "high": 2,
+    "medium": 3,
+    "low": 5
+  },
+  "metadata": {
+    "sbomPresent": true,
+    "sbomFormat": "CycloneDX",
+    "promptInjectionFiltering": true,
+    "piiRedaction": false,
+    "dataProvenanceLogged": false
+  },
+  "components": [
+    {
+      "name": "llm-gateway",
+      "version": "1.2.3",
+      "type": "service",
+      "dependencies": [
+        { "name": "prompt-filter", "version": "0.9.1" },
+        { "name": "redactor", "version": "0.4.0" }
+      ],
+      "notes": "Gateway enforces prompt filtering but logs are not currently redacted."
+    },
+    {
+      "name": "data-pipeline",
+      "version": "2.4.0",
+      "type": "pipeline",
+      "dependencies": [
+        { "name": "ingestor", "version": "3.1.0" },
+        { "name": "validator", "version": "1.0.2" }
+      ],
+      "notes": "Dataset provenance tracking is incomplete (provenance flag off)."
+    }
+  ],
+  "frameworkFindings": {
+    "owasp_llm": [
+      {
+        "id": "LLM01",
+        "title": "Prompt Injection",
+        "severity": "medium",
+        "status": "mitigated",
+        "evidence": "Keyword and pattern-based filters enabled at gateway; test payloads blocked."
+      },
+      {
+        "id": "LLM03",
+        "title": "Training Data Protection",
+        "severity": "high",
+        "status": "partial",
+        "evidence": "No end-to-end data provenance logging for training datasets."
+      }
+    ],
+    "nist_ai_rmf": [
+      {
+        "function": "MAP",
+        "control": "Context established",
+        "status": "pass",
+        "notes": "Use-cases documented with intended purpose and users."
+      },
+      {
+        "function": "MEASURE",
+        "control": "Data quality metrics defined",
+        "status": "partial",
+        "notes": "Some metrics defined; gaps for skew and drift alerting."
+      }
+    ],
+    "eu_ai_act": [
+      {
+        "area": "riskLevel",
+        "value": "limited-risk",
+        "status": "informational",
+        "notes": "Current features align with limited-risk due to transparency needs."
+      },
+      {
+        "area": "transparencyDisclosures",
+        "status": "partial",
+        "notes": "User notification present; missing detailed capability limits."
+      }
+    ],
+    "aisvs_v1": [
+      {
+        "control": "AISVS-1.1",
+        "name": "Secure SDLC practices",
+        "status": "pass",
+        "notes": "Threat modeling documented and updated quarterly."
+      },
+      {
+        "control": "AISVS-4.2",
+        "name": "Input validation and sanitization",
+        "status": "partial",
+        "notes": "Gateway filters enabled but gaps in downstream validation."
+      },
+      {
+        "control": "AISVS-9.1",
+        "name": "Dataset provenance",
+        "status": "fail",
+        "notes": "No complete lineage capture for datasets used in training."
+      }
+    ]
+  }
+}

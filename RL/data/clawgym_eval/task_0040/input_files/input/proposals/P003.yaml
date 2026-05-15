@@ -1,0 +1,13 @@
+id: P003
+title: "Predictive Quality via Machine Vision"
+department: Quality
+capex_usd: 80000
+estimated_annual_benefit_usd: 100000
+readiness_score: 7
+risk_score: 4
+owner: "Priya Nair"
+pilot_site: "Assembly Cell C"
+timeline_quarters: 2
+dependencies:
+  - "Camera enclosure procurement"
+  - "Edge compute node availability"

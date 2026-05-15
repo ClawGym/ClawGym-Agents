@@ -1,0 +1,10 @@
+[
+  {"id":"F001","subject":"Michael Jordan","claim_type":"TV hosting","title":"Saturday Night Live","year":1991,"description":"Hosted the Season 17 premiere."},
+  {"id":"F002","subject":"Serena Williams","claim_type":"Music video appearance","title":"Sorry","year":2016,"description":"Appeared in Beyoncé's 'Sorry' video."},
+  {"id":"F003","subject":"Tom Brady","claim_type":"Film cameo","title":"Ted 2","year":2015,"description":"Cameo as himself."},
+  {"id":"F004","subject":"Shaquille O'Neal","claim_type":"Music album release","title":"Shaq Diesel","year":1993,"description":"Debut studio album."},
+  {"id":"F005","subject":"Michael Jordan","claim_type":"Film lead","title":"Space Jam","year":1996,"description":"Starred in the 1996 film."},
+  {"id":"F006","subject":"LeBron James","claim_type":"Film lead","title":"Space Jam: A New Legacy","year":2021,"description":"Starred in the 2021 sequel."},
+  {"id":"F007","subject":"Megan Rapinoe","claim_type":"Animated TV voice","title":"The Simpsons","year":2020,"description":"Voice cameo in an episode."},
+  {"id":"F008","subject":"Megan Rapinoe","claim_type":"Animated TV voice","title":"The Simpsons","year":2021,"description":"Voice cameo in a special."}
+]

@@ -1,0 +1,4 @@
+{"timestamp":"2026-03-01T09:15:00Z","data":{"modelId":"claude-sonnet-4-6"},"message":{"timestamp":"2026-03-01T09:15:00Z","usage":{"input":45000,"output":1200,"cacheRead":5000,"cacheWrite":0,"cost":{"total":0.20}},"notes":"morning briefing block"}}
+{"timestamp":"2026-03-01T11:45:00Z","data":{"modelId":"claude-haiku-3-5"},"message":{"timestamp":"2026-03-01T11:45:00Z","usage":{"input":8000,"output":400,"cacheRead":0,"cacheWrite":0,"cost":{"total":0.01}},"notes":"status check"}}
+{"timestamp":"2026-03-01T13:10:00Z","data":{"modelId":"claude-sonnet-4-6"},"message":{"timestamp":"2026-03-01T13:10:00Z","usage":{"input":600000,"output":9000,"cacheRead":0,"cacheWrite":0,"cost":{"total":2.10}},"notes":"research deep dive"}}
+{"timestamp":"2026-03-01T18:30:00Z","data":{"modelId":"claude-sonnet-4-6"},"message":{"timestamp":"2026-03-01T18:30:00Z","usage":{"input":120000,"output":2500,"cacheRead":2000,"cacheWrite":0,"cost":{"total":0.40}},"notes":"email drafting"}}

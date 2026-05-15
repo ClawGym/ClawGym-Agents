@@ -1,0 +1,38 @@
+{
+  "target_roles": [
+    "CEO",
+    "CFO",
+    "COO",
+    "CHRO",
+    "CPO",
+    "CTO",
+    "President",
+    "Chief Executive Officer",
+    "Chief Financial Officer",
+    "Chief Operating Officer",
+    "Chief Human Resources Officer",
+    "Chief People Officer",
+    "Chief Technology Officer",
+    "Executive Vice President",
+    "Senior Vice President"
+  ],
+  "weights": {
+    "CEO": 100,
+    "Chief Executive Officer": 100,
+    "COO": 95,
+    "Chief Operating Officer": 95,
+    "CFO": 95,
+    "Chief Financial Officer": 95,
+    "CHRO": 92,
+    "Chief Human Resources Officer": 92,
+    "CPO": 92,
+    "Chief People Officer": 92,
+    "CTO": 90,
+    "Chief Technology Officer": 90,
+    "President": 88,
+    "Executive Vice President": 80,
+    "EVP": 80,
+    "Senior Vice President": 75,
+    "SVP": 75
+  }
+}

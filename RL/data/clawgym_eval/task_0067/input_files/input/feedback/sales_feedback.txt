@@ -1,0 +1,3 @@
+Sales notes 2024-03: REQ-105 dashboard filter makes Q3 pipeline totals wrong.
+REQ-112 travel form lacks 'Non-refundable' checkbox — causing rework.
+REQ-102 report automation: CFO wants concrete date, current ETA slipped.

@@ -1,0 +1,36 @@
+{
+  "series": {
+    "foundation-models": [
+      { "year": 2019, "count": 50 },
+      { "year": 2020, "count": 120 },
+      { "year": 2021, "count": 300 },
+      { "year": 2022, "count": 650 },
+      { "year": 2023, "count": 1100 },
+      { "year": 2024, "count": 1400 },
+      { "year": 2025, "count": 1550 }
+    ],
+    "diffusion-models": [
+      { "year": 2018, "count": 30 },
+      { "year": 2019, "count": 60 },
+      { "year": 2020, "count": 150 },
+      { "year": 2021, "count": 400 },
+      { "year": 2022, "count": 800 },
+      { "year": 2023, "count": 950 },
+      { "year": 2024, "count": 900 },
+      { "year": 2025, "count": 820 }
+    ],
+    "federated-learning": [
+      { "year": 2017, "count": 40 },
+      { "year": 2018, "count": 55 },
+      { "year": 2019, "count": 80 },
+      { "year": 2020, "count": 120 },
+      { "year": 2021, "count": 170 },
+      { "year": 2022, "count": 230 },
+      { "year": 2023, "count": 310 },
+      { "year": 2024, "count": 400 },
+      { "year": 2025, "count": 520 }
+    ]
+  },
+  "units": "publication count per year",
+  "source": "Fictional dataset for testing Keyword Velocity Tracker"
+}

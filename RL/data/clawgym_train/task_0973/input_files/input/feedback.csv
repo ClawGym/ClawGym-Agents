@@ -1,0 +1,13 @@
+attendee_id,session,rating,comment
+1,Workshop,3,"We spent too long on estimation and story points; timebox slipped."
+2,Workshop,5,"Great facilitation and engaging exercises."
+3,Workshop,2,"Jira examples were confusing; boards setup unclear."
+4,CoachingCohort,4,"Loved the user story practice with acceptance criteria."
+5,Workshop,2,"Too much lecture; tempo dragged; need better timeboxing."
+6,CoachingCohort,3,"Would like more on WIP limits and flow."
+7,Workshop,1,"Discussion ran long; facilitator lost control; demos went over time."
+8,Workshop,4,"Clear explanation of given-when-then."
+9,Workshop,2,"Tooling heavy; Trello vs Jira debate wasted time."
+10,CoachingCohort,5,"Retrospective techniques were practical."
+11,Workshop,3,"User stories section good, but acceptance criteria rushed."
+12,Workshop,2,"Too much focus on story points; want alternatives to estimation."

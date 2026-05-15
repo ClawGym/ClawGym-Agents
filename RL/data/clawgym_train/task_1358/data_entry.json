@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1358",
+  "user_query": "I’m preparing a camera-ready methodology section for a NeurIPS-style paper and need a precise writing pass that tightens the prose without changing any technical content. Please read the draft in input/draft_section.md and the venue note in input/venue.txt, then produce three files:\n\n1) output/refined_section.md — a refined version of the methodology section that:\n- preserves all LaTeX commands and math exactly as written (keep every \\cite{…}, \\ref{…}, \\label{…}, inline math $…$, and display math blocks verbatim)\n- retains the exact same set and order of citation keys in each \\cite{…}; do not add or remove citations\n- keeps all non-breaking spaces before citations and references (e.g., \"~\\cite{…}\", \"~\\ref{…}\")\n- improves clarity and flow, removes filler phrases, and replaces needlessly fancy word choices with simpler ones while preserving the author’s voice\n- aims to reduce length by at least 5% without dropping any information (equations and technical terms must remain unchanged)\n\n2) output/marginal_notes.md — a concise bullet list titled \"Marginal Notes\" that explains the substantive edits (e.g., why a sentence was split, why a transition was added, where redundancy was removed). Include at least 3 bullets.\n\n3) output/issues.md — a brief list of any problems you cannot resolve from the draft alone (e.g., missing definitions, inconsistent notation elsewhere, unclear antecedents) so I can follow up. Include at least 1 bullet.\n\nImportant: Do not alter any math expressions or LaTeX macros, do not introduce new citations, and keep the section type (methodology) the same. Write the refined text in English only and save all three files under output/ as specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

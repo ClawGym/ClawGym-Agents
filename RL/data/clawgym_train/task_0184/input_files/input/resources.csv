@@ -1,0 +1,11 @@
+name,category,url,description
+pgAdmin 4,GUI,https://www.pgadmin.org/,Open-source administration and development platform for PostgreSQL
+TimescaleDB,Extension,https://www.timescale.com/,Time-series database built on PostgreSQL for scalable time-series and analytics
+pgBackRest,Backup,https://pgbackrest.org/,Reliable backup and restore solution for PostgreSQL with compression and encryption
+pglogical,Replication,https://github.com/2ndQuadrant/pglogical,Logical replication framework for PostgreSQL with selective and cascading replication
+PGroonga,Full Text,https://pgroonga.github.io/,Fast full text search for PostgreSQL powered by Groonga engine
+pganalyze,Monitoring,https://pganalyze.com/,Performance monitoring and query analytics for PostgreSQL
+psql,CLI,https://www.postgresql.org/docs/current/app-psql.html,Official interactive terminal for PostgreSQL
+PostGIS,Extension,https://postgis.net/,Spatial and geographic objects for PostgreSQL with GIS functions
+pgBouncer,Connection Pooler,https://www.pgbouncer.org/,Lightweight PostgreSQL connection pooler for efficient resource usage
+Barman,Backup,https://www.pgbarman.org/,Backup and recovery manager for PostgreSQL designed for business continuity

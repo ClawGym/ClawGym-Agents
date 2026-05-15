@@ -1,0 +1,75 @@
+org_name: "HelioStack Inc."
+org_unit: "Platform & Product"
+last_updated: "2026-04-18"
+
+core_domains:
+  - engineering
+  - product
+  - design
+  - operations
+  - security
+  - data
+
+document_owners:
+  default_by_type:
+    how_to_runbook:
+      owner: "Alex Kim"
+      role: "Site Reliability Engineer"
+      email: "alex.kim@heliostack.example"
+      review_cadence: "quarterly"
+    reference:
+      owner: "Dana Ortiz"
+      role: "Platform Architect"
+      email: "dana.ortiz@heliostack.example"
+      review_cadence: "annually"
+    explanation:
+      owner: "Priya Desai"
+      role: "Product Lead"
+      email: "priya.desai@heliostack.example"
+      review_cadence: "semi-annually"
+    decision:
+      owner: "Evan Ross"
+      role: "Principal Engineer"
+      email: "evan.ross@heliostack.example"
+      review_cadence: "as-needed"
+    troubleshooting:
+      owner: "Sam Green"
+      role: "Support Lead"
+      email: "sam.green@heliostack.example"
+      review_cadence: "quarterly"
+
+  domain_owners:
+    engineering:
+      name: "Alex Kim"
+      backup: "Nina Patel"
+    product:
+      name: "Priya Desai"
+      backup: "Marco Liu"
+    design:
+      name: "Marco Liu"
+      backup: "Priya Desai"
+    operations:
+      name: "Sam Green"
+      backup: "Alex Kim"
+    security:
+      name: "Dana Ortiz"
+      backup: "Alex Kim"
+    data:
+      name: "Nina Patel"
+      backup: "Sam Green"
+
+conventions:
+  date_format: "YYYY-MM-DD"
+  language: "US English"
+  assumptions_allowed: true
+  note: "Core domains must appear in taxonomy; at minimum include engineering and product."
+
+table_guidance:
+  cli_tables:
+    delimiter: "|"
+    monospace_required: true
+    fixed_width: true
+    pad_alignment:
+      text: "left"
+      numbers: "right"
+    headers: ["Name","Status","Count"]

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1926",
+  "user_query": "I need a community outreach plan for my new developer tool, LiteTrace. Please read these files to understand the product and constraints:\n- input/README.md\n- input/competitors.csv\n- input/branding.yaml\n- input/posting-rules.md\n\nThen do the following:\n1) Identify and recommend five relevant, recent threads across Reddit, Hacker News, and ProductHunt where we can add value (use a mix spanning at least two of those communities). For each, draft a 2–4 paragraph, value-first response that provides genuine help before mentioning LiteTrace, and include an explicit builder disclosure at the end (e.g., \"disclaimer: I'm the developer\"). No astroturfing and no vote-begging.\n2) Provide tone guidance per community (Reddit, Hacker News, ProductHunt).\n3) Create a ProductHunt launch checklist using our tagline and respecting the constraints from input/posting-rules.md.\n4) Save a comprehensive outreach plan to output/docs/outreach-plan.md with these sections in order:\n   - Target Communities (include a small markdown table with Community, Relevant Threads Found, Priority)\n   - Top Threads to Engage (for each: Thread title, URL, Community/Subreddit, Why relevant, and the drafted response)\n   - ProductHunt Launch Checklist (with Pre-Launch, Launch Day, Post-Launch subsections and checkboxes)\n   - Search Keywords Used (include problem, solution, category, and competitor keywords)\n5) Also export a machine-readable summary to output/drafts.json containing an array of exactly five entries with fields: title, url, community, why_relevant, draft.\n\nOnly write files under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

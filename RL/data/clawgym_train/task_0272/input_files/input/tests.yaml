@@ -1,0 +1,13 @@
+expected_rows: 13
+required_columns:
+  - year
+  - ghana_under5_mortality_per_1000
+  - ghana_life_expectancy_years
+  - neighbors_under5_mortality_avg_per_1000
+year_start: 2010
+year_end: 2022
+required_countries:
+  - Ghana
+  - Cote d'Ivoire
+  - Togo
+min_non_null_ratio: 0.7

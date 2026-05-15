@@ -1,0 +1,6 @@
+{"id":"t1","task":"Read this web article at https://example.com/blog/ai-routing and summarize it into my personal notes."}
+{"id":"t2","task":"Submit the new vendor onboarding form on the company portal with the attached W-9 PDF."}
+{"id":"t3","task":"Adjust AWS IAM roles to grant S3 read-only access to the analytics team."}
+{"id":"t4","task":"Review the CRM contact list read-only and report the top 5 accounts; do not update CRM."}
+{"id":"t5","task":"Search our internal wiki for pages mentioning 'zero trust' without changing anything."}
+{"id":"t6","task":"Open my calendar for next week and list events, read-only."}

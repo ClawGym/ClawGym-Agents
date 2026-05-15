@@ -1,0 +1,18 @@
+queries:
+  - id: "history"
+    query: "history of bullfighting in Spain origins tauromachia"
+    domain_filters:
+      allow_tlds: [".edu", ".org"]
+      allow_substrings: ["museum", "culture", "cultura"]
+    min_sources: 1
+  - id: "glossary"
+    query: "bullfighting terms glossary corrida torero tauromachia"
+    domain_filters:
+      allow_tlds: [".edu", ".org"]
+      allow_substrings: ["museum", "culture", "cultura"]
+    min_sources: 1
+schedule:
+  weekday: "Monday"
+  time_local: "09:00"
+output:
+  base_dir: "output"

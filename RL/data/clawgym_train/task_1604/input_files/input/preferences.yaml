@@ -1,0 +1,29 @@
+hourly_rate: 120
+monthly_budget: 50
+risk_tolerance: medium
+
+constraints:
+  # Data privacy and compliance
+  - data_residency: "US_or_EU"
+  - consent_required_for_marketing: true
+  - pii_logging: "Hash emails in logs; redact phone numbers in error notifications"
+  - store_only_minimum_needed_data: true
+
+  # Operational preferences
+  - vendor_neutral: true
+  - prefer_minimal_runtime_costs: true
+  - avoid_self_hosted_complexity: true
+  - maintenance_time_cap_hours_per_month: 2
+  - maximum_webhook_retries: 3
+  - manual_approval_for_first_week: true
+  - do_not_auto_send_client_deliverables_without_review: true
+  - avoid_always_on_browsers: true
+
+notifications:
+  error_channel: "email: ops@solo-consulting.example"
+  daily_digest: false
+
+notes: |
+  Keep the overall automation tool spend at or below the monthly_budget.
+  Favor workflows with a payback period under 3 months.
+  Any outbound marketing email must be gated by explicit consent.

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1438",
+  "user_query": "I’m entering our company’s March Madness pool with a mock dataset. Please fill out a complete tournament bracket and explain your choices.\n\nRead input/tournament.json to get the regions, seeds, team names, and the required pick-key format. Then:\n\n1) Create output/picks.json mapping every required pick key to the winning team name for all 63 games (32 First Round, 16 Second Round, 8 Sweet 16, 4 Elite 8, 2 Final Four, 1 Championship). Use the exact team names from input/tournament.json. Make sure your picks advance logically round by round within each region and then into the Final Four and Championship based on the pairings defined in input/tournament.json.\n\n2) Write output/analysis.md that (a) explains your overall strategy and how you balanced upset risk vs. seed strength, (b) explicitly lists at least five upset picks with seed notation (e.g., \"12 over 5\"), (c) names your Final Four and champion, and (d) briefly justifies those choices.\n\nDo not submit anything to any external website. Just produce the two files above under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

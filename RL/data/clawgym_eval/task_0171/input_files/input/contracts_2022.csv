@@ -1,0 +1,11 @@
+id,agency,vendor,value_usd,date,status
+2022-001,Dept. of Health,Medico Corp,300000,2022-01-20,awarded
+2022-002,Department of Health and Human Services,Wellness Inc,200000,2022-02-11,awarded
+2022-003,Department of Energy,PowerGen Ltd,450000,2022-03-15,awarded
+2022-004,Dept. of Energy,EcoFuel LLC,250000,2022-05-25,awarded
+2022-005,Environmental Protection Agency,CleanAir Co,220000,2022-04-18,awarded
+2022-006,EPA,GreenWorks,95000,2022-06-30,awarded
+2022-007,City Housing Authority,BuildIt,280000,2022-07-05,awarded
+2022-008,Housing Authority,UrbanHomes,175000,2022-09-09,awarded
+2022-009,EPA,AirWatch,0,2022-10-10,cancelled
+2022-010,Department of Energy,SolarNow,150000,2022-12-12,awarded

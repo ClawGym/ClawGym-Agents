@@ -1,0 +1,9 @@
+point_id,title,category,severity,referenced_paragraphs
+P01,Twist was carefully foreshadowed and not "cheap",evidence,3,[p2]
+P02,Character arcs are substantial and grounded in earlier scenes,evidence,4,[p3]
+P03,Non-linear structure resolves alleged plot holes,logic,5,[p5]
+P04,Visual choices reinforce theme rather than distract,logic,2,[p4]
+P05,The review includes spoilers contrary to its caution,tone,3,[p6]
+P06,Assigned score contradicts stated craft positives,logic,1,[p7]
+P07,Soundtrack "derivative" claim lacks citations,evidence,5,[p99]
+P08,The film is correctly a psychological thriller, not mere crime,evidence,4,[p1]

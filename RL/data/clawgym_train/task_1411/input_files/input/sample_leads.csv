@@ -1,0 +1,11 @@
+email,first_name,last_name,company,created_at
+jamie.wright@example.com,Jamie,Wright,Aster Labs,2026-04-17T11:23:40-04:00
+lee.anderson@example.org,Lee,Anderson,NovaWorks,2026-04-17T12:02:10Z
+sara.chen@example.com,Sara,Chen,OmniCloud,2026-04-17T14:44:20-04:00
+samir.patel@example.net,Samir,Patel,Blue Ridge Co,2026-04-17T15:18:02-04:00
+riley.hughes@example.io,Riley,Hughes,Veridian,2026-04-16T19:05:33-04:00
+sara.chen@example.com,Sara,Chen,OmniCloud,2026-04-17T08:14:01-04:00
+samir.patel@example.net,Samir,Patel,Blue Ridge Co,2026-04-18T09:15:00-04:00
+not-an-email,Alex,Rivera,Northwind,2026-04-17T09:00:00-04:00
+mia.davis@example.com,Mia,,Brightline,2026-04-17T13:05:00-04:00
+oliver.king@example.com,Oliver,King,Helios,2026/04/17 10:00

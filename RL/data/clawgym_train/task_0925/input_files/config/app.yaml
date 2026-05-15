@@ -1,0 +1,12 @@
+workspace_root: "."
+inputs:
+  students_csv: "input/students.csv"
+  newsletter_html: "input/newsletter.html"
+outputs:
+  logs_dir: "logs"
+  reports_dir: "out"
+timezone: "America/New_York"
+dry_run: true
+dnd:
+  start: ""
+  end: ""

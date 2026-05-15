@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>lifelines: Cox Proportional Hazards in Python</title>
+</head>
+<body>
+  <h2>Cox Proportional Hazards</h2>
+  <p>This tutorial demonstrates fitting a Cox model in Python using lifelines.</p>
+  <pre><code class="language-py">
+from lifelines import CoxPHFitter
+cph = CoxPHFitter()
+cph.fit(df, duration_col="T", event_col="E")
+cph.print_summary()
+  </code></pre>
+  <h3>Assumptions and Diagnostics</h3>
+  <ul>
+    <li>Proportional hazards: test with Schoenfeld residuals and time-varying coefficients.</li>
+    <li>No strong collinearity among predictors.</li>
+    <li>Log-linearity of numeric effects unless modeled otherwise.</li>
+  </ul>
+</body>
+</html>

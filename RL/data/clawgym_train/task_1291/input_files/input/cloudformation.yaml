@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Example CloudFormation stack with Lambda and ECS definitions (includes intentionally insecure configurations for scanning)
+Resources:
+  MyFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Runtime: nodejs18.x
+      Handler: index.handler
+      Role: arn:aws:iam::123456789012:role/example-lambda-execution-role
+      Timeout: 10
+      MemorySize: 128
+      Environment:
+        Variables:
+          AWS_ACCESS_KEY_ID: AKIAEXAMPLEKEYID1234
+          AWS_SECRET_ACCESS_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+          DB_CONNECTION: postgres://appuser:Password123!@rds.example.internal:5432/appdb?sslmode=disable
+          SLACK_WEBHOOK_URL: https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
+          JWT_SECRET: hardcoded-jwt-secret-string
+          SSH_PRIVATE_KEY: |-
+            -----BEGIN RSA PRIVATE KEY-----
+            MIIEpAIBAAKCAQEAu2r5qFictionalOnly1234567890abcdEFGhijklmnopQRST
+            9sYI9nCkXl8SAMPLEONLYdW1teUJhc2U2NEZha2VDb250ZW50
+            -----END RSA PRIVATE KEY-----
+          STRIPE_SECRET_KEY: sk_live_51L0ngF1ct10n4lStr1p3Keyxxxxxxxxxxxx
+      Code:
+        ZipFile: |
+          exports.handler = async () => ({ statusCode: 200, body: "ok" });
+
+  AppTaskDef:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      Family: demo-app
+      Cpu: '256'
+      Memory: '512'
+      NetworkMode: awsvpc
+      RequiresCompatibilities: [FARGATE]
+      ExecutionRoleArn: arn:aws:iam::123456789012:role/example-ecs-execution
+      TaskRoleArn: arn:aws:iam::123456789012:role/example-ecs-task
+      ContainerDefinitions:
+        - Name: app
+          Image: public.ecr.aws/nginx/nginx:latest
+          Essential: true
+          PortMappings:
+            - ContainerPort: 80
+          Environment:
+            - Name: STRIPE_SECRET_KEY
+              Value: sk_live_anotherF1ct1onalKeyxxxxxxxxxxxxx
+            - Name: DATABASE_URL
+              Value: postgres://appuser:PlainTextP@ssw0rd@db.internal:5432/app
+            - Name: REDIS_URL
+              Value: redis://:pa55@redis.internal:6379/0
+
+  NonSecretParameter:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: /app/config/feature_flag
+      Type: String
+      Value: "enabled"
+
+Outputs:
+  FunctionName:
+    Value: !Ref MyFunction
+  TaskFamily:
+    Value: !Ref AppTaskDef

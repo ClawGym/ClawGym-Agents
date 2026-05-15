@@ -1,0 +1,7 @@
+id,title,component,language,priority,due,assignee,status
+J-42,"Refactor auth token refresh",auth,js,1,2026-05-02,alex,open
+J-17,"Add null checks in order processing",orders,java,2,2026-04-30,priya,open
+J-88,"Replace deprecated fetch wrapper",core,js,3,2026-05-10,sam,open
+J-5,"Batch email scheduler",notifications,java,1,2026-05-15,lee,open
+J-73,"Audit logging for payment retries",payments,java,2,2026-05-01,priya,done
+J-90,"Migrate config to .env",devops,js,2,2026-05-03,alex,open

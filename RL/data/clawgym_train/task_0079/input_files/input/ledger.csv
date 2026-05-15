@@ -1,0 +1,5 @@
+id,date,description,vendor,amount,type,receipt_file
+1,2024-01-12,Paperback order for youth book club,BrightBooks Online,120.50,expense,receipts/2024-01/receipt_brightbooks_123.html
+2,2024-01-25,Meeting room rental,Community Center,45.00,expense,receipts/2024-01/receipt_commcenter_456.html
+3,2024-02-03,Color flyers for February reading drive,Town Print Shop,38.20,expense,receipts/2024-02/receipt_printshop_789.html
+4,2024-01-28,Donation deposit from winter fundraiser,Local Donor,200.00,donation,

@@ -1,0 +1,10 @@
+[
+  {"name": "test_thruster_pwm_limits", "module": "control", "duration_ms": 412, "status": "passed"},
+  {"name": "test_depth_pid_stability", "module": "control", "duration_ms": 1589, "status": "passed"},
+  {"name": "test_leak_sensor_trigger", "module": "sensors", "duration_ms": 736, "status": "failed"},
+  {"name": "test_pressure_calibration_curve", "module": "sensors", "duration_ms": 2033, "status": "passed"},
+  {"name": "test_camera_frameparser", "module": "vision", "duration_ms": 987, "status": "passed"},
+  {"name": "test_camera_white_balance", "module": "vision", "duration_ms": 1204, "status": "failed"},
+  {"name": "test_nav_waypoint_follow", "module": "navigation", "duration_ms": 1775, "status": "passed"},
+  {"name": "test_nav_emergency_surface", "module": "navigation", "duration_ms": 664, "status": "passed"}
+]

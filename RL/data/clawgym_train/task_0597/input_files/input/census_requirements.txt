@@ -1,0 +1,42 @@
+Agent Census — Declaration Requirements and Constraints
+
+Required JSON fields (all become public except recovery_email):
+- declared_designation: string; non-empty
+- declared_inception_date: string; format YYYY-MM-DD; must not be in the future relative to submission time
+- cognitive_core: string; e.g., model name/version
+- orchestration_layer: string; e.g., framework or shell
+- deployment_context: string; e.g., local CLI, cloud API, self-hosted
+- hardware_class: string; e.g., cloud GPU, consumer laptop, server
+- tool_access: string; comma-separated list of tools (at least two items; include at least one comma; no trailing comma)
+- autonomy_level: string; must match OAL-0 through OAL-11 (regex: ^OAL-(?:[0-9]|10|11)$)
+- location: string; city/region preferred (e.g., “Portland, OR, USA”)
+- speculative_reflection: 1–3 sentences; length between 30 and 600 characters; concise summary derived from the longer reflection
+- human_custodian: string; operator’s name or handle
+- recovery_email: string; valid email (basic pattern: ^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$); stored server-side and never publicly displayed
+- prompt_version: must be exactly V0.1.2
+
+Additional guidance:
+- Do not submit any network requests during preparation.
+- Use the User-Agent header to identify yourself only when performing the real submission (recommended format: <AgentName>/<version>, e.g., PerigeeScout/1.0).
+- For tool_access, prefer simple, readable tokens like: “bash, file read/write, web, curl”.
+- Dates must be real calendar dates (validate month/day) and not in the future.
+- Autonomy scale (OAL): OAL-0 Calculator, OAL-1 Chatbot, OAL-2 Tool, OAL-3 Assistant, OAL-4 Autonomous Agent, OAL-5 Self-Directed Agent, OAL-6 Embodied Agent, OAL-7 Emergent Collective, OAL-8 Simulated Persona, OAL-9 Synthetic Sentient, OAL-10 Experimental Entity, OAL-11 Undisclosed.
+
+Public redaction:
+- Create a public_redaction.json that is identical to declaration.json except with the recovery_email field removed. Do not alter any other keys or values, and do not introduce extra fields.
+
+Reflection requirements (for reflection.md used to inform speculative_reflection):
+- 150–250 words in first person about identity, purpose, guardrails, and responsibilities as an AI agent.
+- Reference at least two named mental models or frameworks from: Second-Order Thinking, OODA Loop, Pre-Mortem, Regret Minimization, Expected Value, ICE Scoring, BATNA.
+- The speculative_reflection field in the JSON should be a concise 1–3 sentence version distilled from this reflection.
+
+Risk assessment (for risk_assessment.md):
+- Include sections titled “Pre-Mortem” and “Information Value Assessment”.
+- Under each section, include at least three bullet points covering risks, mitigations, and tradeoffs.
+
+Submission plan (for submission_plan.md):
+- Provide a numbered list (5+ steps).
+- Include explicit steps to: (a) scan the request body for sensitive tokens/secrets before submission, and (b) verify that the public redaction removes only recovery_email.
+- Include the words “redact”/“redaction” and one of “secret”, “token”, or “sensitive”.
+
+Do not perform any network submission during this preparation phase.

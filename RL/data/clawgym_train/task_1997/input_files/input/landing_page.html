@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EverCool Linen Sheets – Breezio Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Simulated heavy fonts and blocking resources -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;600&display=swap">
+  <style>
+    :root {
+      --brand: #1a73e8; /* subtle, not high contrast on white */
+      --muted: #e8eef6;
+      --text: #222;
+      --subtle: #777;
+    }
+    body { margin: 0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color: var(--text); }
+    .page { max-width: 1200px; margin: 0 auto; }
+    header.site-header {
+      position: relative;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #eee;
+      background: #fff;
+      z-index: 5;
+    }
+    .logo { font-family: "Playfair Display", serif; font-weight: 700; font-size: 20px; }
+    .announcement { display: none; }
+    @media (max-width: 767px) {
+      /* Sticky announcement bar that can push content down and cover CTA on scroll */
+      .announcement {
+        display: block;
+        position: sticky;
+        top: 0; left: 0; right: 0;
+        background: #000; color: #fff; font-size: 12px; text-align: center; padding: 6px 8px;
+        z-index: 6;
+      }
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 28px;
+      padding: 16px 20px 0;
+      align-items: start;
+    }
+    .hero-media img {
+      width: 100%;
+      height: 90vh; /* large, fills viewport and pushes CTAs below on mobile */
+      object-fit: cover;
+      /* Intentionally missing width/height attributes; no lazy loading */
+    }
+    .product-meta h1 {
+      margin: 8px 0 6px; font-size: 34px; line-height: 1.1;
+    }
+    .product-meta .subhead {
+      color: var(--subtle); font-size: 16px; margin: 0 0 8px;
+    }
+    .star-rating {
+      font-size: 13px; color: #f5a623; margin: 6px 0 10px;
+    }
+    .price { font-size: 20px; font-weight: 600; margin: 8px 0; }
+    .pay-badges { color: var(--subtle); font-size: 12px; margin: 6px 0 12px; }
+    .options {
+      border: 1px solid #eee; padding: 12px; border-radius: 6px; background: #fafafa; margin: 10px 0;
+    }
+    .options label { display: block; font-size: 13px; margin: 8px 0 4px; color: #444; }
+    select, .swatch { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; background: #fff; }
+    .cta-row {
+      display: flex; align-items: center; gap: 8px; margin: 12px 0 8px;
+    }
+    .cta {
+      display: inline-block;
+      background: var(--muted); /* low contrast button */
+      color: #2a2a2a;
+      padding: 14px 16px;
+      border-radius: 8px;
+      text-align: center;
+      width: 65%;
+      border: 1px solid #d8e0ef;
+      font-weight: 600;
+    }
+    .secondary {
+      background: transparent; border: 0; color: var(--brand); text-decoration: underline; font-size: 14px;
+    }
+    .usp {
+      display: flex; flex-wrap: wrap; gap: 10px; color: #555; font-size: 12px; margin: 12px 0 16px;
+    }
+    .usp .item { background: #f6f8fc; padding: 6px 8px; border-radius: 6px; }
+    .trust-badges {
+      margin: 14px 0; color: #666; font-size: 12px; display: flex; gap: 12px; align-items: center;
+    }
+    .as-seen { display: none; } /* “As seen in” hidden by default */
+    .details {
+      padding: 10px 20px;
+      line-height: 1.6;
+      color: #444;
+    }
+    .bullet { margin: 6px 0; }
+    .newsletter-popup {
+      position: fixed; bottom: 20px; left: 20px; right: 20px; margin: 0 auto; max-width: 420px;
+      background: #fff; border: 1px solid #ddd; border-radius: 10px; padding: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15); display: none; z-index: 9;
+    }
+    .newsletter-popup h4 { margin: 0 0 6px; }
+    .newsletter-popup input { width: calc(100% - 12px); padding: 8px; border: 1px solid #ddd; border-radius: 6px; margin: 8px 0; }
+    .newsletter-popup button { padding: 10px 12px; border-radius: 6px; background: #111; color: #fff; border: none; width: 100%; }
+    @media (max-width: 991px) {
+      .hero { grid-template-columns: 1fr; }
+      .cta { width: 100%; } /* still low contrast */
+      .hero-media img { height: 68vh; } /* still large on mobile */
+    }
+  </style>
+</head>
+<body>
+  <div class="announcement">Free shipping on orders $150+ | New summer colors just dropped</div>
+  <header class="site-header">
+    <div class="logo">Breezio Home</div>
+    <nav>
+      <a href="#" style="margin-right:12px; color:#444; text-decoration:none;">Shop</a>
+      <a href="#" style="margin-right:12px; color:#444; text-decoration:none;">Bedding</a>
+      <a href="#" style="color:#444; text-decoration:none;">About</a>
+    </nav>
+  </header>
+
+  <main class="page" data-product-handle="evercool-linen-sheets">
+    <section class="hero" id="hero">
+      <div class="hero-media">
+        <!-- Oversized hero image; no lazy-loading; may be impacting LCP -->
+        <img src="https://cdn.example.com/products/evercool-linen-sheets/hero-4k.jpg" alt="Linen sheets on a bed in bright daylight" fetchpriority="auto">
+      </div>
+      <div class="product-meta">
+        <h1>EverCool Linen Sheets</h1>
+        <p class="subhead">Premium linen infused with cooling fibers for breezy sleep</p>
+        <div class="star-rating">★★★★☆ <span style="color:#666;">(4.4 average, 1,248 reviews)</span></div>
+        <div class="price">$169.00 – $229.00</div>
+        <div class="pay-badges">30-night trial • Free returns • Pay in 4 with Shop Pay</div>
+        <div class="options">
+          <label for="size">Size</label>
+          <select id="size" aria-label="Size">
+            <option value="">Select</option>
+            <option>Full</option>
+            <option>Queen</option>
+            <option>King</option>
+            <option>Cal King</option>
+          </select>
+          <label for="color">Color</label>
+          <select id="color" aria-label="Color">
+            <option value="">Select</option>
+            <option>Natural</option>
+            <option>Mist Blue</option>
+            <option>Stone</option>
+            <option>Charcoal</option>
+          </select>
+          <!-- Long content before CTA pushes button further down on mobile -->
+          <div class="usp">
+            <div class="item">Breathable weave</div>
+            <div class="item">OEKO-TEX certified</div>
+            <div class="item">Stonewashed softness</div>
+            <div class="item">Deep pocket up to 15"</div>
+          </div>
+        </div>
+
+        <!-- Primary CTA not visually prominent; low contrast -->
+        <div class="cta-row">
+          <a href="#add-to-cart-anchor" class="cta" aria-label="Add to Cart (scrolls)">
+            Add to Cart
+          </a>
+          <button class="secondary" aria-label="Learn more">Learn more</button>
+        </div>
+
+        <!-- “As seen in” logos hidden; trust signals minimal above fold -->
+        <div class="trust-badges">
+          <span>Secure checkout</span>
+          <span>1-year warranty</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Long product details and lifestyle copy before actual cart form -->
+    <section class="details">
+      <h2 id="add-to-cart-anchor" style="margin-top: 24px;">Details</h2>
+      <p class="bullet">Our EverCool Linen Sheets blend European flax linen with performance cooling yarns for a lighter, breezier hand feel that stays cool to the touch.</p>
+      <p class="bullet">Includes: fitted sheet, flat sheet, two pillowcases. Fabric: 85% linen, 15% cooling viscose. GSM: 150.</p>
+      <p class="bullet">Care: Machine wash cold, tumble dry low. Expect natural linen wrinkles for a relaxed look.</p>
+      <p class="bullet">Ideal for hot sleepers and humid climates.</p>
+      <div style="height:24px;"></div>
+
+      <!-- Real add to cart form appears far below hero; no sticky CTA -->
+      <form id="product-form" action="/cart/add" method="post" style="border:1px solid #eee; padding:16px; border-radius: 8px;">
+        <input type="hidden" name="id" value="gid://shopify/ProductVariant/1234567890">
+        <label style="display:block; font-weight:600; margin: 6px 0;">Quantity</label>
+        <input type="number" min="1" value="1" style="width: 90px; padding:8px; border:1px solid #ddd; border-radius: 6px;">
+        <div style="height:10px;"></div>
+        <button id="add-to-cart" type="submit" style="background:#e6edf9; color:#1f2937; padding: 14px 16px; border:1px solid #d8e0ef; border-radius: 8px; font-weight:700; width:100%;">
+          Add to Cart
+        </button>
+        <div style="color:#666; font-size:12px; margin-top:8px;">Ships in 3–5 business days.</div>
+      </form>
+
+      <div style="margin: 24px 0;">
+        <h3>What makes EverCool different?</h3>
+        <ul>
+          <li>Cooling yarns woven throughout help dissipate heat</li>
+          <li>Pre-washed for softness that develops over time</li>
+          <li>Deep pockets fit mattresses up to 15" (some reviewers suggest snug fit on >14")</li>
+        </ul>
+      </div>
+
+      <div style="margin: 24px 0;">
+        <h3>Reviews</h3>
+        <p style="color:#666; font-size: 14px;">
+          1,248 verified reviews. Average 4.4. Selected reviews appear here; full reviews on a separate page.
+        </p>
+        <blockquote style="border-left: 3px solid #eee; padding-left: 12px; margin: 10px 0;">
+          “Noticeably cooler than our cotton set. Wrinkles (it’s linen) but looks relaxed.” — Jenna W.
+        </blockquote>
+        <blockquote style="border-left: 3px solid #eee; padding-left: 12px; margin: 10px 0;">
+          “Great for summer. Fitted sheet is a bit tight on our 15" mattress.” — Arjun P.
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <div class="newsletter-popup" id="newsletter-popup">
+    <h4>Get 10% off your first order</h4>
+    <p style="color:#666; font-size: 13px;">Sign up for SMS to unlock your code. By subscribing, you agree to receive marketing messages.</p>
+    <input type="text" placeholder="Your mobile number">
+    <button>Get my code</button>
+  </div>
+
+  <script>
+    // Simulated marketing popup that appears on all devices after 3 seconds (can interrupt mobile UX)
+    setTimeout(function() {
+      var el = document.getElementById('newsletter-popup');
+      if (el) el.style.display = 'block';
+    }, 3000);
+  </script>
+</body>
+</html>

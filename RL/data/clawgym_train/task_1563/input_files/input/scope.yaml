@@ -1,0 +1,18 @@
+project: "RivalCo open-source due diligence"
+entities:
+  - "RivalCo Logistics LLC"
+  - "Marcus Hale"
+jurisdictions:
+  - "Hillside City Police Department"
+  - "Redland State Police"
+  - "Redland County Courts"
+timeframe: "past 5 years"
+targets_of_interest:
+  - "gifts, donations, or sponsorships to police-affiliated organizations"
+  - "procurement or service contracts involving law enforcement"
+  - "disciplinary actions, indictments, or corruption cases involving officers in the jurisdictions"
+  - "court cases where RivalCo Logistics LLC or Marcus Hale appear as a party, witness, or are mentioned"
+constraints:
+  - "prioritize official government (.gov, .us) domains and court portals"
+  - "use neutral language; do not assert wrongdoing"
+purpose: "Prepare materials for a preliminary briefing with outside counsel regarding potential unfair competitive practices."

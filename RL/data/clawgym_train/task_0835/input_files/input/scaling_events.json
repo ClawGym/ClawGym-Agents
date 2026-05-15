@@ -1,0 +1,10 @@
+[
+  { "action": "scale_up",   "timestamp": 1776471600000 },
+  { "action": "scale_down", "timestamp": 1776475200000 },
+  { "action": "scale_up",   "timestamp": 1776478800000 },
+  { "action": "scale_up",   "timestamp": 1776482400000 },
+  { "action": "scale_down", "timestamp": 1776486000000 },
+  { "action": "scale_up",   "timestamp": 1776489600000 },
+  { "action": "scale_down", "timestamp": 1776493200000 },
+  { "action": "scale_up",   "timestamp": 1776496800000 }
+]

@@ -1,0 +1,9 @@
+id,title,priority,owner,proposed_decision,rationale,tags
+BL-101,Versioning Strategy,High,Amara,"Adopt semantic-release for automated versioning and changelog","Leverage Conventional Commits to cut manual release overhead and reduce errors",release,process
+BL-102,Release Cadence,Medium,Tariq,"Adopt a weekly release train on Thursdays 17:00 UTC","Predictability for downstream teams; aligns with incident window",process,release
+BL-103,Security Scanning,High,Jo,"Enable CodeQL by default in GitHub Actions","Ensure code scanning runs on PR and main; gate high-severity findings",security,ci
+BL-104,Documentation Publishing,Medium,Lin,"Publish Docusaurus docs to internal GitHub Pages","Make onboarding and architecture docs accessible to all teams",docs,ci
+BL-105,CLI Index Caching,Medium,Amara,"Introduce Redis caching for CLI index updates","Reduce cold-start latency when fetching large registries",performance,tech
+BL-106,Telemetry,Low,Tariq,"Add OpenTelemetry traces around CLI operations","Improve observability and help pinpoint performance regressions",observability,tech
+BL-107,Feature Flags Policy,Low,Lin,"Document feature flag lifecycle and naming","Consistency across services; easier audits",process,docs
+BL-108,Build Scripts,Low,Jo,"Migrate remaining shell scripts to Node-based npm scripts","Better cross-platform support and maintainability",tech,workflows

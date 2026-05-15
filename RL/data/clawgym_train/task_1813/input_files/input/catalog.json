@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Tamarind Sparkle",
+    "category": "carbonated",
+    "new_launch": true,
+    "seasonal": true,
+    "marketing_blurb": "Tart tamarind with gentle carbonation, inspired by coastal sherbets.",
+    "packages": [
+      {"size_ml": 330, "pack_type": "glass bottle", "case_qty": 12}
+    ],
+    "distributor_price_per_case": 22500,
+    "currency": "KES",
+    "shelf_life_days": 180,
+    "allergens": [],
+    "segment_notes": {
+      "retailers": "Strong pickup in mini-marts; eye-catching amber hue on shelf.",
+      "horeca": "Pairs well with savory fried snacks; quick-serve refreshment."
+    }
+  },
+  {
+    "name": "Fermented Hibiscus Cooler",
+    "category": "lightly fermented",
+    "new_launch": true,
+    "seasonal": true,
+    "marketing_blurb": "Zesty hibiscus with light fermentation; ruby-hued refreshment.",
+    "packages": [
+      {"size_ml": 250, "pack_type": "can", "case_qty": 24}
+    ],
+    "distributor_price_per_case": 28800,
+    "currency": "KES",
+    "shelf_life_days": 120,
+    "allergens": [],
+    "segment_notes": {
+      "retailers": "Compact cans fit small fridges; attractive for take-away.",
+      "horeca": "Great as a zero-proof aperitif with a squeeze of lime."
+    }
+  },
+  {
+    "name": "Heritage Millet Malt",
+    "category": "traditional malt",
+    "new_launch": false,
+    "seasonal": false,
+    "marketing_blurb": "Toasted millet notes in a smooth, non-alcoholic malt drink.",
+    "packages": [
+      {"size_ml": 500, "pack_type": "glass bottle", "case_qty": 12}
+    ],
+    "distributor_price_per_case": 31500,
+    "currency": "KES",
+    "shelf_life_days": 90,
+    "allergens": [],
+    "segment_notes": {
+      "retailers": "Steady year-round mover in neighborhood shops.",
+      "horeca": "Complements hearty meals; versatile menu staple."
+    }
+  },
+  {
+    "name": "Cashew Toddy Blend",
+    "category": "heritage blend",
+    "new_launch": true,
+    "seasonal": true,
+    "marketing_blurb": "Non-alcoholic toddy-inspired blend with creamy cashew notes.",
+    "packages": [
+      {"size_ml": 750, "pack_type": "glass bottle", "case_qty": 6}
+    ],
+    "distributor_price_per_case": 42000,
+    "currency": "KES",
+    "shelf_life_days": 60,
+    "allergens": ["tree nuts"],
+    "segment_notes": {
+      "retailers": "Premium artisanal highlight; ideal for weekend promotions.",
+      "horeca": "Excellent base for signature mocktails and dessert pairings."
+    }
+  }
+]

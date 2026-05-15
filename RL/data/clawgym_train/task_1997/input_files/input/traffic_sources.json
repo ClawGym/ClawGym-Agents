@@ -1,0 +1,107 @@
+{
+  "period": {
+    "start": "2026-03-18",
+    "end": "2026-04-16"
+  },
+  "site": "https://breeziohome.com",
+  "product_handle": "evercool-linen-sheets",
+  "sources": [
+    {
+      "channel": "Paid Social - Meta",
+      "summary": {
+        "spend_usd": 18250.0,
+        "sessions": 18500,
+        "impressions": 1680000,
+        "clicks": 20400,
+        "ctr_percent": 1.21,
+        "avg_cpc_usd": 0.90,
+        "mobile_share_percent": 70
+      },
+      "campaigns": [
+        {
+          "name": "Prospecting | EverCool Linen | Summer '26",
+          "spend_usd": 12040.0,
+          "sessions": 12000,
+          "ctr_percent": 1.12,
+          "primary_device": "mobile",
+          "landing_urls": [
+            {
+              "url": "https://breeziohome.com/products/evercool-linen-sheets?utm_source=meta&utm_medium=cpc&utm_campaign=prospecting_summer26",
+              "share_percent": 78
+            },
+            {
+              "url": "https://breeziohome.com/collections/sheets?utm_source=meta&utm_medium=cpc&utm_campaign=prospecting_summer26",
+              "share_percent": 15
+            },
+            {
+              "url": "https://breeziohome.com/?utm_source=meta&utm_medium=cpc&utm_campaign=prospecting_summer26",
+              "share_percent": 7
+            }
+          ],
+          "notes": "Video creative emphasizes lifestyle; headline: 'Sleep Cooler with EverCool.' No price shown in ad."
+        },
+        {
+          "name": "Retargeting | 14D PDP Viewers",
+          "spend_usd": 6210.0,
+          "sessions": 6500,
+          "ctr_percent": 1.56,
+          "primary_device": "mixed",
+          "landing_urls": [
+            {
+              "url": "https://breeziohome.com/products/evercool-linen-sheets?utm_source=meta&utm_medium=ret&utm_campaign=pdp_viewers",
+              "share_percent": 92
+            },
+            {
+              "url": "https://breeziohome.com/products/evercool-linen-sheets#reviews?utm_source=meta&utm_medium=ret&utm_campaign=pdp_viewers",
+              "share_percent": 8
+            }
+          ],
+          "notes": "UGC creatives include unboxing; some traffic deep-links to #reviews anchor."
+        }
+      ]
+    },
+    {
+      "channel": "Organic Search",
+      "summary": {
+        "spend_usd": 0,
+        "sessions": 11500,
+        "mobile_share_percent": 57,
+        "top_queries": [
+          "cooling linen sheets",
+          "linen sheets for hot sleepers",
+          "breezio evercool"
+        ]
+      },
+      "landing_urls": [
+        {
+          "url": "https://breeziohome.com/products/evercool-linen-sheets?utm_source=organic",
+          "share_percent": 61
+        },
+        {
+          "url": "https://breeziohome.com/blogs/journal/linen-vs-cotton?utm_source=organic",
+          "share_percent": 14
+        },
+        {
+          "url": "https://breeziohome.com/collections/sheets?utm_source=organic",
+          "share_percent": 25
+        }
+      ],
+      "notes": "Users arrive with informational intent as well as branded queries."
+    },
+    {
+      "channel": "Email",
+      "summary": {
+        "spend_usd": 0,
+        "sessions": 980,
+        "mobile_share_percent": 63
+      },
+      "landing_urls": [
+        {
+          "url": "https://breeziohome.com/products/evercool-linen-sheets?utm_source=email&utm_campaign=april_drop",
+          "share_percent": 100
+        }
+      ],
+      "notes": "Small share of traffic; high repeat customers."
+    }
+  ]
+}

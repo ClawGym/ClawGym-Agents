@@ -1,0 +1,18 @@
+total_budget: 600000
+weeks: 13
+
+ad_sets:
+  Meta: 4
+  Google Search: 3
+  TikTok: 3
+  YouTube: 2
+
+contingency:
+  min_pct: 0.20
+  max_pct: 0.30
+
+wow_increase_cap_pct: 0.25
+
+guardrails:
+  frequency_cap_per_week: 4
+  test_duration_weeks_min: 2

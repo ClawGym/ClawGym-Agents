@@ -1,0 +1,49 @@
+{
+  "type": "FeatureCollection",
+  "name": "roads",
+  "crs": { "type": "name", "properties": { "name": "EPSG:4326" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 101,
+        "name": "Elm St"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4210, 37.7765],
+          [-122.4190, 37.7765]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 102,
+        "name": "Pine Ave"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4187, 37.7731],
+          [-122.4173, 37.7739]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 103,
+        "name": "Oak Rd"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.4240, 37.7790],
+          [-122.4230, 37.7790]
+        ]
+      }
+    }
+  ]
+}

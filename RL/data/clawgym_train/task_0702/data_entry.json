@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0702",
+  "user_query": "Create a comprehensive daily security and operations brief for the Chornomorsk port. Read all inputs under input/ and produce three outputs: 1) output/port_monitoring_snapshot.json — a structured JSON snapshot of weather, vessels, security status, and news with explicit cross-validation notes and source references; 2) output/daily_brief.md — a human-readable brief with sections for Weather, Vessels, Security, News, and Actions, including the monitoring date from input/schedule.json and clear recommendations; 3) output/alerts.json — a JSON array of any alerts detected (e.g., severe weather, suspicious vessel activity, relevant security news), each with severity, category, and message. Ensure the JSON snapshot includes the port name (Chornomorsk), the ISO date from input/schedule.json, and a rationale for the security status. Cross-validate weather conditions across the provided sources, reconcile vessel statuses, and cite news items with URLs. Clearly justify any alerts and actions you recommend. Write all outputs under output/ using the exact paths specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

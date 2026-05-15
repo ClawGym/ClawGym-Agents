@@ -1,0 +1,69 @@
+{
+  "company_name": "Narratus",
+  "role": "Founder/CEO",
+  "audience": {
+    "who": "B2B PLG SaaS founders, Heads of Growth, and PMM leads",
+    "stage": "$1M–$20M ARR",
+    "segments": "Developer tools, data platforms, collaboration SaaS"
+  },
+  "starting_situation": "We had 3 polished PDF case studies and almost no in-product social proof. Trial-to-signup was 1.1% and D7 activation was 24%.",
+  "main_constraint": "Lean GTM team of 5, no designer bandwidth, legal approval cycles slow for named logos.",
+  "business_goal": "Drive warm DMs to recruit 6 design partner companies for our 'customer stories' pilot and share our SOP.",
+  "cta": "DM \"STORY\" to join the pilot or get the SOP.",
+  "timeframe": "Last 60 days",
+  "results": {
+    "trials": 1220,
+    "signup_rate_before": 0.011,
+    "signup_rate_after": 0.023,
+    "activation_d7_before": 0.24,
+    "activation_d7_after": 0.36,
+    "stories_before": 3,
+    "stories_after": 17,
+    "sales_influence": {
+      "deals_influenced": 31,
+      "close_rate_before": 0.21,
+      "close_rate_after": 0.33,
+      "average_deal_size": 18000,
+      "new_mrr": 45000
+    }
+  },
+  "mechanism": [
+    "Run 45-minute founder-led interviews with 12 customers to extract 10 micro-stories",
+    "Slice each story into 3 formats: in-product proof tile, onboarding email snippet, 1-slide deck insert",
+    "Ship weekly: add proof tiles into onboarding, rotate email snippets, and update the sales deck based on reply data"
+  ],
+  "detail_that_changes_everything": "Text-first, unbranded snippets placed inside the product beat polished PDFs on conversion.",
+  "insight": "Fast, rough 'micro-stories' win over long case studies for PLG; social proof works best inside the product and onboarding emails.",
+  "credibility": {
+    "costly_signals": [
+      "I spent 42 hours across two weekends on interviews and edits",
+      "We paid $6,800 to incentivize customers and transcribe calls"
+    ],
+    "experience": "8 years building PLG SaaS"
+  },
+  "constraints_risks": [
+    "Legal approval limits named logos for 11 of 17 stories",
+    "Sample bias toward engaged users",
+    "No designer support; shipping text-first assets"
+  ],
+  "publicly_claimable": {
+    "can_share": [
+      "Aggregated conversion rates",
+      "Counts of stories and influenced deals",
+      "Ranges for revenue impact"
+    ],
+    "cannot_share": [
+      "Full raw transcripts",
+      "Customer PII",
+      "Specific competitor comparisons"
+    ],
+    "named_logos_allowed": 6
+  },
+  "offer_details": {
+    "pilot": "3-week sprint to extract and deploy 10 micro-stories",
+    "slots": 6,
+    "requirements": "Access to 8–12 customers and 5 user calls in week 1",
+    "deliverables": "SOP, 10 micro-stories, 12 proof tiles, email snippets, and deck inserts",
+    "price": "Pilot is free for 6 design partners; we ask for a testimonial if it works"
+  }
+}

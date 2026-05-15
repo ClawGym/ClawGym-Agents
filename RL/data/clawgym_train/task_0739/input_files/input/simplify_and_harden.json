@@ -1,0 +1,24 @@
+{
+  "simplify_and_harden": {
+    "learning_loop": {
+      "candidates": [
+        {
+          "pattern_key": "harden.input_validation",
+          "evidence": "Unvalidated query params crashed 'GET /reports?limit=foo'",
+          "task_id": "proj-analytics-473",
+          "seen_at": "2026-04-18",
+          "area": "backend",
+          "notes": "Missing number coercion and bounds checks caused a TypeError in pagination logic"
+        },
+        {
+          "pattern_key": "harden.secrets_redaction",
+          "evidence": "Error logs printed bearer token in CI job output",
+          "task_id": "ops-incident-882",
+          "seen_at": "2026-04-19",
+          "area": "infra",
+          "notes": "No redaction middleware; credentials leaked to build logs"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "artist": "H.E.J",
+  "timeframe": {"start": "2024-01-01", "end": "2025-12-31"},
+  "dedupe": false,
+  "output_events_path": "outputs/upcoming_eunjung.json"
+}

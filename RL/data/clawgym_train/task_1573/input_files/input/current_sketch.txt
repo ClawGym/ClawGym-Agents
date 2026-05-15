@@ -1,0 +1,67 @@
+/*
+Current buggy sketch notes:
+- Uses delay() heavily (blocking).
+- Uses String for serial output (can fragment memory).
+- Servo powered from Arduino 5V (hardware issue, but reflected in incident report).
+- Button on pin 0 (RX), LED on pin 1 (TX) — conflicts with Serial.
+- Button configured as INPUT (floating), not INPUT_PULLUP.
+- DHT11 read every ~2s using delay(2000).
+
+Expected symptoms seen:
+- Random resets when servo moves (likely brown-out from 5V rail).
+- DHT11 returning garbage values during servo motion.
+- Serial gibberish due to pin 0/1 being used for GPIO.
+*/
+
+#include <DHT.h>
+#include <Servo.h>
+
+#define DHTPIN 2
+#define DHTTYPE DHT11
+
+DHT dht(DHTPIN, DHTTYPE);
+Servo myservo;
+
+int ledPin = 1;      // BAD: TX pin used for LED
+int buttonPin = 0;   // BAD: RX pin used for button (floating input)
+bool runSweep = true;
+
+void setup() {
+  Serial.begin(115200);
+  dht.begin();
+
+  pinMode(ledPin, OUTPUT);
+  pinMode(buttonPin, INPUT); // BAD: floating input, should be INPUT_PULLUP or external pull-down
+  myservo.attach(9);         // Servo signal on D9
+
+  digitalWrite(ledPin, HIGH); // LED on D1 (TX) will interfere with Serial
+}
+
+void loop() {
+  // Crude button check with blocking delay debounce
+  if (digitalRead(buttonPin) == HIGH) { // Floating; may read random values
+    runSweep = !runSweep;
+    delay(200); // blocking debounce
+  }
+
+  // Read DHT11 (can be sensitive to timing jitter and noise)
+  float h = dht.readHumidity();
+  float t = dht.readTemperature();
+
+  // Uses String (heap fragmentation risk) and lots of serial printing
+  Serial.println("Hum: " + String(h) + "  Temp: " + String(t));
+
+  // Blocking servo sweep loops with delay()
+  if (runSweep) {
+    for (int pos = 0; pos <= 180; pos++) {
+      myservo.write(pos);
+      delay(10); // blocks everything
+    }
+    for (int pos = 180; pos >= 0; pos--) {
+      myservo.write(pos);
+      delay(10); // blocks everything
+    }
+  }
+
+  delay(2000); // blocks between sensor reads
+}

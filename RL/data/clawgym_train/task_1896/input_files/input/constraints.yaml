@@ -1,0 +1,89 @@
+interface_name: "SEPA Credit Transfer Outbound (pacs.008)"
+pattern: "9.1"  # Outbound Message/File
+object_type: "TRANSACTION"
+subtype: "SEPA_OUTBOUND_TXN"
+
+timeouts:
+  ack_sla_hours: 2
+  heartbeat_event: "E_Heartbeat"
+  heartbeat_period_seconds: 60
+  timeout_field: "TIMEOUT"
+  guard_sql: "TIMEOUT < CURRENT TIMESTAMP"  # Use in Object Filter for timeout transition
+
+alerts:
+  mapping_error:
+    state_name: "MAPPING_ERROR_ALERT"
+    stereotype: "PMP_Alert"
+    constraints: ["Cancel", "Resubmit"]
+  send_error:
+    state_name: "SEND_FAILED_ALERT"
+    stereotype: "PMP_Alert"
+    constraints: ["Cancel", "Resubmit"]
+  timeout:
+    state_name: "TIMEOUT_ALERT"
+    stereotype: "PMP_Alert"
+    constraints: ["Cancel", "Continue"]
+
+terminal_states:
+  - "COMPLETED"
+  - "CANCELLED"
+
+events:
+  - "E_MpInMappingComplete"
+  - "E_MpInMappingAborted"
+  - "E_TxnOutCreated"
+  - "E_TransOutSent"
+  - "E_Heartbeat"
+
+mq:
+  pt_input_queue: "CORE.SEPA.OUTBOUND.IN"
+  event_queue: "FTM.EVENTS.DEFAULT"
+
+http:
+  method: "POST"
+  endpoint_nonprod: "https://api.sct-clearing.sbx.example.com/v1/payments"
+  endpoint_prod: "https://api.sct-clearing.eu/v1/payments"
+  tls: "TLSv1.2+"
+  mTLS: true
+  connect_timeout_seconds: 10
+  response_timeout_seconds: 30
+  headers:
+    Content-Type: "application/xml"
+    Accept: "application/xml"
+  expected_status: 202
+  correlation_header: "Location"  # Reference/ID returned for correlation
+
+mapping:
+  technology: "ESQL"
+  mapper_subflow: "MapInPacs008"
+  isf_namespace: "http://www.ibm.com/xmlns/prod/ftm/isf/v3"
+
+naming_conventions:
+  action_prefix: "Act"
+  fsm_name: "TxnFSM_SEPA_OUT"
+  channel_name: "CLEARING_SEPA_HTTP_OUT"
+  sp_name: "CLEARING_SEPA_OUTBOUND"
+
+db2:
+  object_selection_template: "SUBTYPE = 'SEPA_OUTBOUND_TXN'"
+
+states_suggested:
+  - "INITIAL"
+  - "VALIDATED"
+  - "SENT"
+  - "COMPLETED"
+  - "CANCELLED"
+  - "MAPPING_ERROR_ALERT"
+  - "SEND_FAILED_ALERT"
+  - "TIMEOUT_ALERT"
+
+actions_suggested:
+  - "ActValidateAndRoute"
+  - "ActCreateTxn"
+  - "ActSendHttpPayment"
+  - "ActHandleAck"
+  - "ActRaiseMappingAlert"
+  - "ActRaiseSendAlert"
+  - "ActTimeoutAlert"
+  - "ActCancel"
+  - "ActResubmit"

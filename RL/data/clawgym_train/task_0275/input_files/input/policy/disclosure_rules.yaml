@@ -1,0 +1,6 @@
+allowed_tag: public
+prohibited_phrases:
+  - backchannel
+  - hush
+  - cover up
+required_disclaimer: "Prepared for internal briefing: share only content labeled [public]."

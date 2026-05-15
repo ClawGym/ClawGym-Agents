@@ -1,0 +1,285 @@
+{
+  "facility": "MetroCare Hospital - Surgical Audit Logs",
+  "period": "2026-04-01 to 2026-04-15",
+  "currency": "INR",
+  "cost_catalog": {
+    "General anesthesia (per hour)": 6000,
+    "C-arm imaging (per 30 min)": 2500,
+    "Surgical microscope (per hour)": 7000,
+    "Titanium screw 4.5mm (per screw)": 4500,
+    "Spinal cage (per unit)": 40000,
+    "PDS II suture pack (per pack)": 800,
+    "Hemostatic agent - Fibrillar (per unit)": 3500,
+    "Disposable drape set (per set)": 1200,
+    "Antibiotic prophylaxis - Cefazolin 1g (per vial)": 150,
+    "Distal radius locking plate (per plate)": 18000,
+    "Arthroscopy shaver blade (per blade)": 2000,
+    "Tourniquet cuff single-use (per unit)": 1000
+  },
+  "cases": [
+    {
+      "case_id": "C-PLIF-001",
+      "patient_ref": "Masked-001",
+      "date": "2026-04-03",
+      "procedure_summary": "Posterior lumbar interbody fusion (PLIF) L4-L5 with decompression.",
+      "surgeon_notes": "PLIF L4-L5 under general anesthesia (3 hours). C-arm fluoroscopy utilized for approximately 60 minutes. Surgical microscope used for 1 hour. Implants: four 4.5mm titanium pedicle screws and one interbody spinal cage. Consumables: PDS II suture packs x3, hemostatic agent (Fibrillar) x1, disposable drape set x1. Antibiotic prophylaxis: cefazolin 1g x2 vials.",
+      "notes_items": [
+        {
+          "name": "General anesthesia",
+          "quantity": 3,
+          "unit": "hour",
+          "cost_ref": "General anesthesia (per hour)"
+        },
+        {
+          "name": "C-arm imaging",
+          "quantity": 2,
+          "unit": "30 min",
+          "cost_ref": "C-arm imaging (per 30 min)"
+        },
+        {
+          "name": "Surgical microscope",
+          "quantity": 1,
+          "unit": "hour",
+          "cost_ref": "Surgical microscope (per hour)"
+        },
+        {
+          "name": "Titanium screw 4.5mm",
+          "quantity": 4,
+          "unit": "screw",
+          "cost_ref": "Titanium screw 4.5mm (per screw)"
+        },
+        {
+          "name": "Spinal cage",
+          "quantity": 1,
+          "unit": "unit",
+          "cost_ref": "Spinal cage (per unit)"
+        },
+        {
+          "name": "PDS II suture pack",
+          "quantity": 3,
+          "unit": "pack",
+          "cost_ref": "PDS II suture pack (per pack)"
+        },
+        {
+          "name": "Hemostatic agent - Fibrillar",
+          "quantity": 1,
+          "unit": "unit",
+          "cost_ref": "Hemostatic agent - Fibrillar (per unit)"
+        },
+        {
+          "name": "Antibiotic prophylaxis - Cefazolin 1g",
+          "quantity": 2,
+          "unit": "vial",
+          "cost_ref": "Antibiotic prophylaxis - Cefazolin 1g (per vial)"
+        },
+        {
+          "name": "Disposable drape set",
+          "quantity": 1,
+          "unit": "set",
+          "cost_ref": "Disposable drape set (per set)"
+        }
+      ],
+      "billed_items": [
+        {
+          "name": "General anesthesia",
+          "quantity": 2,
+          "unit": "hour",
+          "unit_price_inr": 6000,
+          "total_inr": 12000
+        },
+        {
+          "name": "C-arm imaging time",
+          "quantity": 1,
+          "unit": "30 min",
+          "unit_price_inr": 2500,
+          "total_inr": 2500
+        },
+        {
+          "name": "Surgical microscope time",
+          "quantity": 1,
+          "unit": "hour",
+          "unit_price_inr": 7000,
+          "total_inr": 7000
+        },
+        {
+          "name": "Titanium screw 4.5mm",
+          "quantity": 4,
+          "unit": "screw",
+          "unit_price_inr": 4500,
+          "total_inr": 18000
+        },
+        {
+          "name": "Spinal cage",
+          "quantity": 1,
+          "unit": "unit",
+          "unit_price_inr": 40000,
+          "total_inr": 40000
+        },
+        {
+          "name": "Antibiotic prophylaxis - Cefazolin 1g",
+          "quantity": 1,
+          "unit": "vial",
+          "unit_price_inr": 150,
+          "total_inr": 150
+        }
+      ]
+    },
+    {
+      "case_id": "C-ARTH-015",
+      "patient_ref": "Masked-015",
+      "date": "2026-04-07",
+      "procedure_summary": "Arthroscopic partial medial meniscectomy, right knee.",
+      "surgeon_notes": "Arthroscopic partial medial meniscectomy performed under general anesthesia for 1.5 hours. Disposable arthroscopy shaver blade used x1. Tourniquet cuff (single-use) applied x1. Closure with PDS II suture pack x1. Antibiotic prophylaxis: cefazolin 1g x1 vial.",
+      "notes_items": [
+        {
+          "name": "General anesthesia",
+          "quantity": 1.5,
+          "unit": "hour",
+          "cost_ref": "General anesthesia (per hour)"
+        },
+        {
+          "name": "Arthroscopy shaver blade",
+          "quantity": 1,
+          "unit": "blade",
+          "cost_ref": "Arthroscopy shaver blade (per blade)"
+        },
+        {
+          "name": "Tourniquet cuff single-use",
+          "quantity": 1,
+          "unit": "unit",
+          "cost_ref": "Tourniquet cuff single-use (per unit)"
+        },
+        {
+          "name": "PDS II suture pack",
+          "quantity": 1,
+          "unit": "pack",
+          "cost_ref": "PDS II suture pack (per pack)"
+        },
+        {
+          "name": "Antibiotic prophylaxis - Cefazolin 1g",
+          "quantity": 1,
+          "unit": "vial",
+          "cost_ref": "Antibiotic prophylaxis - Cefazolin 1g (per vial)"
+        }
+      ],
+      "billed_items": [
+        {
+          "name": "General anesthesia",
+          "quantity": 1,
+          "unit": "hour",
+          "unit_price_inr": 6000,
+          "total_inr": 6000
+        },
+        {
+          "name": "Arthroscopy shaver blade",
+          "quantity": 1,
+          "unit": "blade",
+          "unit_price_inr": 2000,
+          "total_inr": 2000
+        },
+        {
+          "name": "Antibiotic prophylaxis - Cefazolin 1g",
+          "quantity": 1,
+          "unit": "vial",
+          "unit_price_inr": 150,
+          "total_inr": 150
+        }
+      ]
+    },
+    {
+      "case_id": "C-DRF-102",
+      "patient_ref": "Masked-102",
+      "date": "2026-04-12",
+      "procedure_summary": "Open reduction and internal fixation (ORIF) of distal radius fracture.",
+      "surgeon_notes": "Open reduction and internal fixation of distal radius under general anesthesia (2 hours). C-arm fluoroscopy used for 30 minutes. Implants: one distal radius locking plate and six 4.5mm titanium screws. Hemostatic agent (Fibrillar) x1. Disposable drape set x1. Antibiotic prophylaxis: cefazolin 1g x2 vials.",
+      "notes_items": [
+        {
+          "name": "General anesthesia",
+          "quantity": 2,
+          "unit": "hour",
+          "cost_ref": "General anesthesia (per hour)"
+        },
+        {
+          "name": "C-arm imaging",
+          "quantity": 1,
+          "unit": "30 min",
+          "cost_ref": "C-arm imaging (per 30 min)"
+        },
+        {
+          "name": "Distal radius locking plate",
+          "quantity": 1,
+          "unit": "plate",
+          "cost_ref": "Distal radius locking plate (per plate)"
+        },
+        {
+          "name": "Titanium screw 4.5mm",
+          "quantity": 6,
+          "unit": "screw",
+          "cost_ref": "Titanium screw 4.5mm (per screw)"
+        },
+        {
+          "name": "Hemostatic agent - Fibrillar",
+          "quantity": 1,
+          "unit": "unit",
+          "cost_ref": "Hemostatic agent - Fibrillar (per unit)"
+        },
+        {
+          "name": "Antibiotic prophylaxis - Cefazolin 1g",
+          "quantity": 2,
+          "unit": "vial",
+          "cost_ref": "Antibiotic prophylaxis - Cefazolin 1g (per vial)"
+        },
+        {
+          "name": "Disposable drape set",
+          "quantity": 1,
+          "unit": "set",
+          "cost_ref": "Disposable drape set (per set)"
+        }
+      ],
+      "billed_items": [
+        {
+          "name": "General anesthesia",
+          "quantity": 2,
+          "unit": "hour",
+          "unit_price_inr": 6000,
+          "total_inr": 12000
+        },
+        {
+          "name": "Distal radius locking plate",
+          "quantity": 1,
+          "unit": "plate",
+          "unit_price_inr": 18000,
+          "total_inr": 18000
+        },
+        {
+          "name": "Titanium screw 4.5mm",
+          "quantity": 4,
+          "unit": "screw",
+          "unit_price_inr": 4500,
+          "total_inr": 18000
+        },
+        {
+          "name": "Hemostatic agent - Fibrillar",
+          "quantity": 1,
+          "unit": "unit",
+          "unit_price_inr": 3500,
+          "total_inr": 3500
+        },
+        {
+          "name": "Antibiotic prophylaxis - Cefazolin 1g",
+          "quantity": 1,
+          "unit": "vial",
+          "unit_price_inr": 150,
+          "total_inr": 150
+        },
+        {
+          "name": "Disposable drape set",
+          "quantity": 1,
+          "unit": "set",
+          "unit_price_inr": 1200,
+          "total_inr": 1200
+        }
+      ]
+    }
+  ]
+}

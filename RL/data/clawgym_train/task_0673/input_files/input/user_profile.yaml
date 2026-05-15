@@ -1,0 +1,36 @@
+user: "Alex"
+language: "English"
+timezone: "America/New_York"
+
+schedule:
+  frequency: "twice-daily"
+  morning: "09:15"
+  evening: "20:30"
+
+boundaries:
+  topics_to_avoid:
+    - finances
+    - health
+  notes: |
+    Keep it gentle and privacy-respectful. One question max per interaction.
+    Please skip if I seem busy, stressed, or focused on a task. No surveillance-like remarks.
+
+delivery_preferences:
+  style: "natural, conversational, woven into context"
+  max_questions_per_interaction: 1
+  skip_conditions:
+    - busy
+    - focused
+    - stressed
+  tone_examples:
+    - "I was curious about…"
+    - "Can I ask…"
+  avoid_phrasing:
+    - "Question 3 of 10"
+    - checklists
+    - surveillance-like observations
+
+notes:
+  - "If timing feels off, skip and try another time."
+  - "Okay to ask about hobbies, routines, projects, travel, learning, books, and preferences."
+  - "Please avoid prying into sensitive areas listed above unless I bring them up explicitly."

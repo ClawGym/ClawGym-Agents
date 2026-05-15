@@ -1,0 +1,47 @@
+{
+  "daily_revenue_usd": 500000,
+  "churn_rate": 0.02,
+  "customer_ltv_usd": 15000,
+  "staff_idle_cost_usd_per_day": 60000,
+  "expected_downtime_days_by_tier": {
+    "Low": 0.5,
+    "Moderate": 1.5,
+    "High": 3.5,
+    "Critical": 7
+  },
+  "recovery_cost_multiplier_by_tier": {
+    "Low": 0.5,
+    "Moderate": 1.0,
+    "High": 1.5,
+    "Critical": 2.0
+  },
+  "default_compliance_penalty_range_usd": {
+    "min_usd": 200000,
+    "max_usd": 2000000
+  },
+  "compliance_penalty_overrides": {
+    "Medsys Cloud": {
+      "min_usd": 750000,
+      "max_usd": 5000000
+    },
+    "Finguard Analytics": {
+      "min_usd": 400000,
+      "max_usd": 3000000
+    },
+    "LegalDocs Pro": {
+      "min_usd": 250000,
+      "max_usd": 1500000
+    },
+    "ShopScale CDN": {
+      "min_usd": 300000,
+      "max_usd": 2500000
+    }
+  },
+  "affected_customers_estimate": {
+    "Medsys Cloud": 1000,
+    "Finguard Analytics": 700,
+    "LegalDocs Pro": 400,
+    "FactoryNet IoT": 200,
+    "ShopScale CDN": 1500
+  }
+}

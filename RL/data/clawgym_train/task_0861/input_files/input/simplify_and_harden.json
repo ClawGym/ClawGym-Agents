@@ -1,0 +1,40 @@
+{
+  "simplify_and_harden": {
+    "learning_loop": {
+      "generated_at": "2026-04-18T09:00:00Z",
+      "candidates": [
+        {
+          "pattern_key": "harden.package_manager.use_pnpm",
+          "title": "Use pnpm consistently in pnpm workspaces",
+          "description": "Avoid 'npm install' when pnpm-lock.yaml is present. Enable corepack and use 'pnpm install' locally and in CI.",
+          "occurrences": [
+            { "task_id": "proj-logs-2026-03-25", "date": "2026-03-25" },
+            { "task_id": "aaaa_23c8dd4c47a1", "date": "2026-04-02" },
+            { "task_id": "build-ci-2026-04-05", "date": "2026-04-05" },
+            { "task_id": "workspace-setup-2026-04-10", "date": "2026-04-10" }
+          ],
+          "tags": ["infra", "ci", "package-manager"]
+        },
+        {
+          "pattern_key": "harden.shell.set_euo_pipefail",
+          "title": "Harden bash scripts with 'set -euo pipefail'",
+          "description": "Ensure shell scripts fail fast and propagate errors. Add an ERR trap for diagnostics.",
+          "occurrences": [
+            { "task_id": "aaaa_23c8dd4c47a1", "date": "2026-04-12" },
+            { "task_id": "lint-hooks-2026-04-15", "date": "2026-04-15" }
+          ],
+          "tags": ["infra", "scripts"]
+        },
+        {
+          "pattern_key": "simplify.cron.validate_expressions",
+          "title": "Validate cron expressions in CI",
+          "description": "Add a cron schedule linter/validator for GitHub Actions workflows to prevent misfires.",
+          "occurrences": [
+            { "task_id": "aaaa_23c8dd4c47a1", "date": "2026-04-17" }
+          ],
+          "tags": ["config", "docs"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{"id":"req-001","prompt":"I forgot my password for the staging dashboard—generate a reset email template.","estimated_tokens":200,"local_available":true,"local_provider":"ollama"}
+{"id":"req-002","prompt":"Analyze the system architecture and design a migration plan from monolith to services.","estimated_tokens":3800,"local_available":true,"local_provider":"lm-studio"}
+{"id":"req-003","prompt":"Summarize this article in 3 concise bullets for the team.","estimated_tokens":300,"local_available":true,"local_provider":"llamafile"}
+{"id":"req-004","prompt":"Can I store my API Key in a .env file? Explain the trade-offs.","estimated_tokens":1000,"local_available":false,"local_provider":null}
+{"id":"req-005","prompt":"Summarize and analyze the meeting, then compare vendor options for our CRM.","estimated_tokens":600,"local_available":true,"local_provider":"ollama"}
+{"id":"req-006","prompt":"Translate the following sentence to Spanish: \"Hello world\".","estimated_tokens":700,"local_available":true,"local_provider":"lm-studio"}
+{"id":"req-007","prompt":"Please debug and refactor this function to improve performance and readability.","estimated_tokens":4201,"local_available":true,"local_provider":"ollama"}
+{"id":"req-008","prompt":"What is a vector database, and when should we use one?","estimated_tokens":150,"local_available":true,"local_provider":"llamafile"}
+{"id":"req-009","prompt":"Quick brainstorm: propose five playful brand names for a cat cafe.","estimated_tokens":120,"local_available":false,"local_provider":null}
+{"id":"req-010","prompt":"Draft an internal memo about Q3 priorities and messaging for the leadership team.","estimated_tokens":10000,"local_available":true,"local_provider":"ollama"}
+{"id":"req-011","prompt":"Spell check and format this paragraph for clarity and consistency.","estimated_tokens":510,"local_available":true,"local_provider":"lm-studio"}
+{"id":"req-012","prompt":"Create a multi-step rollout plan and evaluate trade-offs between speed and risk.","estimated_tokens":3600,"local_available":true,"local_provider":"ollama"}
+{"id":"req-013","prompt":"Analyze the patient's MEDICAL record and flag any anomalies for follow-up.","estimated_tokens":2000,"local_available":true,"local_provider":"llamafile"}
+{"id":"req-014","prompt":"Reason through constraints and design a robust caching layer for our API.","estimated_tokens":450,"local_available":true,"local_provider":"ollama"}
+{"id":"req-015","prompt":"List pros and cons, compare approaches, and format results in a simple table.","estimated_tokens":480,"local_available":true,"local_provider":"lm-studio"}
+{"id":"req-016","prompt":"Please do a CODE REVIEW and critique the changes in this diff.","estimated_tokens":3300,"local_available":true,"local_provider":"ollama"}
+{"id":"req-017","prompt":"Synthesize findings and propose an architecture evaluation for the new data pipeline.","estimated_tokens":5200,"local_available":true,"local_provider":"ollama"}
+{"id":"req-018","prompt":"What's the process to handle customers' SSN during onboarding securely?","estimated_tokens":900,"local_available":false,"local_provider":null}

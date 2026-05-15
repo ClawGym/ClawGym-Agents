@@ -1,0 +1,9 @@
+Hey team,
+
+So I’ve been exporting the cover comps manually and it’s kind of a mess between my laptop and the studio iMac (different Inkscape versions, fonts not behaving, PDFs sometimes rasterize text, etc.). I want to make sure what you see is what the printer will get, but I’m not totally set up yet. I started poking at Docker but I’m not 100% sure on the commands, and I don’t want to break anything. Also I keep forgetting to do 300dpi PNGs for proofs, and the filenames end up weird when I’m in a rush.
+
+What I’d like to do is have a repeatable way for you (or me) to run a couple of commands and spit out both PNGs and PDFs in a clean folder, same names as the SVGs. If this works, it should remove the font weirdness issues and match what we’ll hand off. I’ll follow up when I’ve got it tidied up, but wanted to flag it so you’re not surprised by delays on the next Madam Tulip draft.
+
+Thoughts?
+
+—Me

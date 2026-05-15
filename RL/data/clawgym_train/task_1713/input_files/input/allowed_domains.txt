@@ -1,0 +1,16 @@
+.gov
+.edu
+.int
+nasa.gov
+esa.int
+jpl.nasa.gov
+noirlab.edu
+earthdata.nasa.gov
+ligo.org
+aps.org
+iop.org
+nature.com
+science.org
+aanda.org
+arxiv.org
+esawebservices.esa.int

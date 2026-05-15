@@ -1,0 +1,24 @@
+utility: "Metro Electric TOU-A"
+currency: USD
+timezone: "America/Los_Angeles"
+
+schedule:
+  weekdays:
+    off_peak:
+      - "21:00-07:00"
+      - "13:00-16:00"
+    on_peak:
+      - "07:00-13:00"
+      - "16:00-21:00"
+  weekends:
+    off_peak:
+      - "00:00-24:00"
+
+rates:
+  off_peak: 0.12    # $/kWh
+  on_peak: 0.32     # $/kWh
+  shoulder: 0.22    # $/kWh (applies if utility uses shoulder; otherwise ignore)
+
+notes:
+  - "Weekdays have two off-peak blocks including a late-evening block starting at 21:00 and a midday block 13:00–16:00."
+  - "Weekends are fully off-peak."

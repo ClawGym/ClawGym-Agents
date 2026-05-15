@@ -1,0 +1,7 @@
+{
+  "processes": [
+    {"node_id": "gpu-a", "model": "llama3:8b"},
+    {"node_id": "gpu-b", "model": "llama3:70b"},
+    {"node_id": "cpu-c", "model": "orca-mini:3b"}
+  ]
+}

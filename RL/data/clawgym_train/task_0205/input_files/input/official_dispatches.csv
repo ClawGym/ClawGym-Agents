@@ -1,0 +1,7 @@
+dispatch_id,date,sector,item,quantity
+D001,2025-09-21,7,hygiene_kit,150
+D002,2025-09-20,3,water_tablets,400
+D003,2025-09-21,5,water_tablets,420
+D004,2025-09-21,7,tarp,75
+D005,2025-09-20,5,hygiene_kit,60
+D006,2025-09-21,3,hygiene_kit,90

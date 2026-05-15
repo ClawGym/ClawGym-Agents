@@ -1,0 +1,10 @@
+site_id,unit_id,layer,depth_cm,density_gcm3,sample_id
+Tel_Hazon,U1,III,85,1.7,HZ-001
+Tel_Hazon,U1,IV,130,1.8,HZ-002
+Tel_Hazon,U2,II,60,1.4,HZ-003
+Tel_Hazon,U2,II,40,1.9,HZ-004
+Tell-A7,T1,II,55,1.6,TA7-001
+Tell-A7,T1,III,95,1.55,TA7-002
+Tell-A7,T2,I,110,1.7,TA7-003
+Tell-A7,T2,IV,121,1.8,TA7-004
+Tell-A7,T3,II,80,1.49,TA7-005

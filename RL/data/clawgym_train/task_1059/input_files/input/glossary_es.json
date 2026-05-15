@@ -1,0 +1,10 @@
+{
+  "anomaly detection": "detección de anomalías",
+  "graph neural network": "red neuronal de grafos",
+  "latency": "latencia",
+  "throughput": "rendimiento",
+  "inference": "inferencia",
+  "F1 score": "puntuación F1",
+  "pipeline": "canal de procesamiento",
+  "deployment": "despliegue"
+}

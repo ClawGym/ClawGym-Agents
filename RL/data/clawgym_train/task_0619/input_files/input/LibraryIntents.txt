@@ -1,0 +1,99 @@
+import AppIntents
+import SwiftUI
+import SwiftData
+import UIKit
+
+// MARK: - Open Currently Reading (UI action without @MainActor)
+struct OpenCurrentlyReading: AppIntent {
+    static var title: LocalizedStringResource = "Open Currently Reading"
+    // static var openAppWhenRun: Bool = false  // (not set; defaults to false)
+
+    // NOTE: This opens a URL using UIApplication on whatever thread perform() runs on.
+    // We have not added @MainActor here.
+    func perform() async throws -> some IntentResult {
+        let url = URL(string: "pageturner://shelf/current")!
+        UIApplication.shared.open(url) // UI/main-thread access without @MainActor
+        return .result()
+    }
+}
+
+// MARK: - Sync Library (long-running work, potential 30s timeout)
+struct SyncLibrary: AppIntent {
+    static var title: LocalizedStringResource = "Sync Library"
+
+    // Intentionally left without openAppWhenRun; this operation can take >30 seconds in practice.
+    // We simulate heavy work here.
+    func perform() async throws -> some IntentResult {
+        // Simulate long-running background sync that may exceed the Siri 30-second limit
+        try await Task.sleep(nanoseconds: 45_000_000_000) // 45 seconds
+
+        // In production we download covers and index files here (can exceed 30 seconds)
+        return .result()
+    }
+}
+
+// MARK: - Update Reading Progress (SwiftData model usage and non-optional parameters without defaults)
+struct UpdateReadingProgress: AppIntent {
+    static var title: LocalizedStringResource = "Update Reading Progress"
+
+    // Required parameters; no defaults, and we don't request values at runtime
+    @Parameter(title: "Book")
+    var book: BookEntity
+
+    @Parameter(title: "Page")
+    var page: Int
+
+    func perform() async throws -> some IntentResult {
+        // Validate the page number; throws a generic error (no CustomLocalizedStringResourceConvertible)
+        if page <= 0 {
+            throw NSError(domain: "PageTurner", code: 1, userInfo: nil)
+        }
+
+        // SwiftData integration (passing @Model directly to a helper)
+        // Our Book is a SwiftData @Model. We currently fetch an instance and pass it to a helper method.
+        let context = AppModel.shared.container.mainContext
+        let fetched = try context.fetch(FetchDescriptor<Book>(predicate: #Predicate { $0.uuid == book.id })).first
+
+        guard let modelBook = fetched else {
+            // Another generic error without localized messaging
+            throw NSError(domain: "PageTurner", code: 404, userInfo: [NSLocalizedDescriptionKey: "Book not found"])
+        }
+
+        // Passing the @Model instance directly (not via persistentModelID)
+        LibrarySync.shared.updateProgress(for: modelBook, page: page)
+
+        return .result()
+    }
+}
+
+// MARK: - Add Note to Book (additional example using model across boundaries)
+struct AddNoteToBook: AppIntent {
+    static var title: LocalizedStringResource = "Add Note to Book"
+
+    @Parameter(title: "Book")
+    var book: BookEntity
+
+    @Parameter(title: "Note")
+    var note: String
+
+    func perform() async throws -> some IntentResult {
+        let context = AppModel.shared.container.mainContext
+        // We again fetch the actual @Model and pass it to helper APIs
+        if let m = try context.fetch(FetchDescriptor<Book>(predicate: #Predicate { $0.uuid == book.id })).first {
+            // No @MainActor; helper may end up posting notifications/UI updates
+            LibraryNotes.shared.appendNote(note, to: m)
+        } else {
+            // Throws a generic Swift error type without CustomLocalizedStringResourceConvertible
+            struct Missing: Error {}
+            throw Missing()
+        }
+        return .result()
+    }
+}
+
+// MARK: - Notes
+// - perform() methods are not annotated with @MainActor despite opening URLs or touching main-thread-only APIs.
+// - Some operations risk exceeding the 30-second Siri/Shortcuts limit. We haven't set openAppWhenRun = true.
+// - We use generic errors (NSError/struct Error) without CustomLocalizedStringResourceConvertible.
+// - SwiftData @Model instances are fetched and passed directly instead of using persistentModelID flow.
+// - Parameters like "Book" and "Page" are non-optional and lack defaults or requestValue() usage.

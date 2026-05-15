@@ -1,0 +1,8 @@
+points:
+  win: 2
+  draw: 1
+  loss: 0
+include_competitions:
+  - League
+  - Cup
+target_team: Grazer AK

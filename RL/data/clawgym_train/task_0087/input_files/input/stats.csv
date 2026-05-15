@@ -1,0 +1,13 @@
+MatchDate,Opponent,Player,Minutes,Goals,Assists,Shots,PassesCompleted,PassesAttempted,Cards
+2023-05-01,Eastside,Renee Taylor,60,2,1,4,35,40,None
+2023-05-08,Westville,Renee Taylor,58,1,0,3,30,38,Yellow
+2023-05-15,Southport,Renee Taylor,62,3,2,6,42,50,None
+2023-05-01,Eastside,Alyssa Ross,55,1,1,2,28,36,None
+2023-05-08,Westville,Alyssa Ross,60,0,1,1,32,37,None
+2023-05-15,Southport,Alyssa Ross,58,2,0,3,30,35,None
+2023-05-01,Eastside,Mika Tan,40,0,0,1,15,22,Yellow
+2023-05-08,Westville,Mika Tan,42,1,0,2,18,25,None
+2023-05-15,Southport,Mika Tan,45,0,1,1,20,26,None
+2023-05-01,Eastside,J. Patel,30,0,0,1,12,18,None
+2023-05-08,Westville,J. Patel,35,1,0,2,14,20,None
+2023-05-15,Southport,J. Patel,33,0,0,1,10,16,Red

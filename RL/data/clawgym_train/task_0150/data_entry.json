@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0150",
+  "user_query": "Conduct a complete patent novelty search for the technical solution in input/technical_solution.md.\n\nDeliverables (write exactly to these paths under output/):\n1) output/report.md — A professional novelty search report with sections I–VII as follows: I. User Solution, II. Technical Features, III. Feature Comparison Table, IV. Novelty/Inventive Step Comment, V. Novelty Search Conclusion, VI. Retrieval Strategy, VII. Related Patent List. Include on the first page the disclaimer text copied verbatim from input/disclaimer.md.\n\n2) output/retrieval_strategy.tsv — A tab-separated table with columns: step_no, step_name, strategy, num_results. Add at least 3 retrieval steps; num_results must be integers.\n\n3) output/patents.csv — A CSV of at least 50 related patents with columns: patent_number,title,applicant,publication_date,ipc,abstract,similarity_score,similarity_stars. Sort rows by similarity_score descending. Set similarity_stars as an integer 0–5.\n\n4) output/comparison.json — A JSON object performing feature comparison for the top 3 patents (by similarity_score). Include:\n- technical_features: an array of at least 5 items, where technical_features[0] equals \"Technical Subject\".\n- For each feature, provide objects prior1, prior2, prior3 with fields patent_number (matching values from output/patents.csv), label (one of \"Disclosed\",\"Common General Knowledge\",\"Not Disclosed\"), and excerpt (non-empty string).\n\n5) output/comments.md — Novelty/inventive step comments that reference the top 3 patents and contain at least one line starting with \"Conclusion:\" that identifies either an X Document or Y Document.\n\nEnsure the \"Related Patent List\" section in output/report.md lists the same patents as output/patents.csv.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

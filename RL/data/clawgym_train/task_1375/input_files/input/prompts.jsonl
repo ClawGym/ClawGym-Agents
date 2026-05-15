@@ -1,0 +1,4 @@
+{"id": 1, "prompt": "Please summarize this short note into two sentences. Keep it simple and clear.", "tokens": 120}
+{"id": 2, "prompt": "Analyze our Q4 metrics across regions, compare cohort A vs B over time, and design an improved reporting plan for next quarter.", "tokens": 1200}
+{"id": 3, "prompt": "Please debug the onboarding script failures, refactor brittle steps, and implement structured logging for retries. This work involves confidential customer data, so take appropriate care.", "tokens": 300}
+{"id": 4, "prompt": "Translate these product tags, list them alphabetically, and format the output as comma-separated values.", "tokens": 600}

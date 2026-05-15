@@ -1,0 +1,5 @@
+participant_id,department,scenario,completed,passed,issues,duration_min
+P009,Safety,Emergency Response,TRUE,FALSE,tracking drift; occlusion; low lighting,27
+P010,Operations,Emergency Response,TRUE,TRUE,low lighting,23
+P011,Safety,Emergency Response,TRUE,TRUE,none,24
+P012,HR,Emergency Response,TRUE,FALSE,nausea; ui lag,26

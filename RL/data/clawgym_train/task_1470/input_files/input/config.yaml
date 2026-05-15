@@ -1,0 +1,11 @@
+team:
+  - name: Alex
+    owns_keywords: ["planning", "roadmap"]
+  - name: Sam
+    owns_keywords: ["bug", "feature", "backend"]
+  - name: Riley
+    owns_keywords: ["docs", "documentation", "readme"]
+  - name: Pat
+    owns_keywords: ["test", "ci", "qa"]
+
+fallback_owner: "Alex"

@@ -1,0 +1,15 @@
+{
+  "required": ["sample_rate", "bit_depth", "hrtf_profile", "spatializer_plugin", "spatializer_version", "enabled_features"],
+  "allowed_values": {
+    "sample_rate": [48000],
+    "bit_depth": [24],
+    "hrtf_profile": ["gen2_standard", "gen2_wide"],
+    "latency_mode": ["low", "standard"]
+  },
+  "min_versions": {
+    "spatializer_plugin": {
+      "AuralX": "2.3.0"
+    }
+  },
+  "allowed_features": ["dynamic_occlusion", "head_tracking", "room_sim"]
+}

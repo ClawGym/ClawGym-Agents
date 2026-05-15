@@ -1,0 +1,10 @@
+family_id,datetime,category,location,priority,notes
+FAM001,2023-06-01 09:15:00,welfare_check,123 Maple St,low,Requested by school
+FAM001,2023-06-05 19:40:00,incident,123 Maple St,high,Verbal altercation; child present
+FAM001,2023-06-20 14:00:00,welfare_check,123 Maple St,medium,Follow-up wellness visit
+FAM002,2023-06-03 08:30:00,welfare_check,45 Oak Ave,low,Neighbor concern
+FAM002,2023-06-10 21:10:00,incident,45 Oak Ave,medium,Noise complaint
+FAM002,2023-06-12 10:00:00,welfare_check,45 Oak Ave,low,School liaison check
+FAM002,2023-06-30 16:45:00,incident,45 Oak Ave,high,Physical altercation reported
+FAM003,2023-06-02 07:20:00,welfare_check,78 Pine Rd,low,Community outreach
+FAM003,2023-06-18 13:50:00,welfare_check,78 Pine Rd,medium,Follow-up visit

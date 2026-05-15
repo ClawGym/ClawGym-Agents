@@ -1,0 +1,34 @@
+{
+  "fixtures": [
+    {
+      "name": "Convection oven",
+      "category": "oven",
+      "rated_power_watts": 3500,
+      "typical_daily_hours": 5
+    },
+    {
+      "name": "Proofing cabinet",
+      "category": "proofer",
+      "rated_power_watts": 800,
+      "typical_daily_hours": 4
+    },
+    {
+      "name": "Refrigerated display case",
+      "category": "display_case",
+      "rated_power_watts": 450,
+      "typical_daily_hours": 12
+    },
+    {
+      "name": "Reach-in refrigerator",
+      "category": "refrigerator",
+      "rated_power_watts": 150,
+      "typical_daily_hours": 24
+    },
+    {
+      "name": "Espresso machine",
+      "category": "espresso",
+      "rated_power_watts": 1800,
+      "typical_daily_hours": 4
+    }
+  ]
+}

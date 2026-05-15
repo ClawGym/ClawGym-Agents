@@ -1,0 +1,7 @@
+src,role
+https://cdn.example.com/jquery-3.6.0.min.js,critical-library
+https://js.stripe.com/v3/,payment
+https://www.googletagmanager.com/gtag/js?id=UA-TEST,analytics
+https://cdn.chatco.example/chat.js,chat
+inline:2,inline
+inline:4,inline

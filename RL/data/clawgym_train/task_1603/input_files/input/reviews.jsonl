@@ -1,0 +1,12 @@
+{"review_id":"r1","platform":"ios","issue_tag":"sync","rating":3,"text":"Syncing between devices is unreliable."}
+{"review_id":"r2","platform":"gp","issue_tag":"sync","rating":2,"text":"Sync fails when switching networks."}
+{"review_id":"r3","platform":"gp","issue_tag":"sync","rating":3,"text":"Data does not sync to the web version."}
+{"review_id":"r4","platform":"ios","issue_tag":"sync","rating":2,"text":"Background sync pauses too often on iPhone."}
+{"review_id":"r5","platform":"ios","issue_tag":"crash","rating":1,"text":"App crashes when starting a session."}
+{"review_id":"r6","platform":"gp","issue_tag":"crash","rating":2,"text":"Crashes after updating to the latest version."}
+{"review_id":"r7","platform":"gp","issue_tag":"notifications","rating":3,"text":"Reminders are delayed or missing sometimes."}
+{"review_id":"r8","platform":"ios","issue_tag":"notifications","rating":2,"text":"Focus end alerts do not always fire."}
+{"review_id":"r9","platform":"gp","issue_tag":"notifications","rating":3,"text":"Notification sound is inconsistent."}
+{"review_id":"r10","platform":"ios","issue_tag":"ui","rating":4,"text":"Buttons are small; hard to tap during sessions."}
+{"review_id":"r11","platform":"gp","issue_tag":"onboarding","rating":4,"text":"Setup flow is confusing for new users."}
+{"review_id":"r12","platform":"gp","issue_tag":"crash","rating":2,"text":"Crash occurs when importing tasks."}

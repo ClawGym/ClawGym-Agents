@@ -1,0 +1,2 @@
+room=tavern-1
+enemy=goblin:12:11:2:1d6

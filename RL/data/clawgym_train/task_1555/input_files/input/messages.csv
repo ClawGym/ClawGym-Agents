@@ -1,0 +1,7 @@
+id,neighborhood,channel,message
+m1,Riverside,SMS,"Hey Riverside! {BusinessName} is rolling out a hyperlocal omni-channel activation this Saturday. Show this text for 20% off any drink."
+m2,Downtown,SMS,"Downtown friends, {BusinessName} has a value-add limited-time activation. Flash this at checkout for a free coffee refill."
+m3,Hilltop,SMS,"Hilltop neighbors - {BusinessName} brings a community-first experience with exclusive bundles this weekend!"
+m4,Riverside,Email,"Riverside crew, {BusinessName} is hosting a neighborhood appreciation day. Enjoy samples, music, and local vendor synergy. Click to RSVP for perks."
+m5,Downtown,Email,"Downtown, {BusinessName} weekly special: buy one pastry, get one free from 3-5pm. Join our loyalty program to maximize ROI on your visits."
+m6,Hilltop,Email,"Hilltop residents, {BusinessName} teams up with local artists for a pop-up. Expect limited inventory; click to reserve yours now."

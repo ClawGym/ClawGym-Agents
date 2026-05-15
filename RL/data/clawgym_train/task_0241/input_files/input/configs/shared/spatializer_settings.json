@@ -1,0 +1,5 @@
+{
+  "spatializer_plugin": "AuralX",
+  "spatializer_version": "2.1.9",
+  "enabled_features": ["head_tracking", "dynamic_occlusion", "room_sim"]
+}

@@ -1,0 +1,20 @@
+year_min: 2015
+keywords:
+  - term: TLS
+    weight: 3.0
+  - term: QUIC
+    weight: 2.5
+  - term: DNS
+    weight: 2.0
+  - term: BGP
+    weight: 2.0
+  - term: encryption
+    weight: 2.0
+  - term: certificate
+    weight: 1.5
+  - term: authentication
+    weight: 1.5
+  - term: privacy
+    weight: 1.2
+  - term: routing
+    weight: 1.0

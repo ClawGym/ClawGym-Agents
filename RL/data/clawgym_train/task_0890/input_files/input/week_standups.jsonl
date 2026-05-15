@@ -1,0 +1,5 @@
+{"date":"2026-04-13","completed":["Set up performance test harness","Validated backup restores"],"planned":["Patch staging servers","Rotate database credentials","Draft SLA report"],"blockers":["Awaiting compliance sign-off for test data usage"]}
+{"date":"2026-04-14","completed":["Patched staging servers"],"planned":["Rotate database credentials","Incident #4271 postmortem"],"blockers":[]}
+{"date":"2026-04-15","completed":["Incident #4271 postmortem drafted","Refreshed monitoring thresholds"],"planned":["Rotate database credentials","SLA report data ingest"],"blockers":["Finance export delayed"]}
+{"date":"2026-04-16","completed":["Rotated database credentials in staging"],"planned":["Rotate database credentials in prod","SLA report draft"],"blockers":["Prod maintenance window approval pending","API rate limits on metrics export"]}
+{"date":"2026-04-17","completed":["Rotated database credentials in prod","Delivered SLA report draft","Ran backup integrity audit sample"],"planned":["Schedule full backup audit next week"],"blockers":[]}

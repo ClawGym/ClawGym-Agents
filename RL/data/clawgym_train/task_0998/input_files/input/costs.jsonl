@@ -1,0 +1,6 @@
+{"timestamp":"2026-04-10T10:10:00Z","model":"gpt-4o-mini","cost_usd":"0.02","agent":"alpha","interaction_id":"i-1001"}
+{"timestamp":"2026-04-10T11:30:00Z","model":"claude-3.7-sonnet","cost_usd":"0.04","agent":"beta","interaction_id":"i-1002"}
+{"timestamp":"2026-04-11T09:15:00Z","model":"gpt-4o-mini","cost_usd":"0.06","agent":"alpha","interaction_id":"i-1003"}
+{"timestamp":"2026-04-11T09:45:00Z","model":"claude-3.7-sonnet","cost_usd":"0.09","agent":"beta","interaction_id":"i-1004"}
+{"timestamp":"2026-04-12T12:00:00Z","model":"claude-3.7-sonnet","cost_usd":"0.02","agent":"beta","interaction_id":"i-1005"}
+{"timestamp":"2026-04-15T09:00:10Z","model":"claude-3.7-sonnet","cost_usd":"0.09","agent":"beta","interaction_id":"i-1006"}

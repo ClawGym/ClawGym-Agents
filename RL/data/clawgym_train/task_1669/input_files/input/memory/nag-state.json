@@ -1,0 +1,15 @@
+{
+  "date": "2026-04-19",
+  "reminders": {
+    "morning-supplements": {
+      "confirmed": false,
+      "confirmedAt": null,
+      "nagCount": 2
+    },
+    "evening-workout": {
+      "confirmed": false,
+      "confirmedAt": null,
+      "nagCount": 5
+    }
+  }
+}

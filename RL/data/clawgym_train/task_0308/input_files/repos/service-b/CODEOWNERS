@@ -1,0 +1,5 @@
+# CODEOWNERS for service-b
+/api/ @data-insights
+/ui/mobile/ @mobile-eng
+/infra/ @core-platform
+/ @data-insights

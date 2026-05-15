@@ -1,0 +1,9 @@
+provider_id,name,distance_km,accepts_insurance,new_patients,wait_days,language_services,has_patient_advocate
+P001,Maple Family Clinic,3.2,Y,Y,5,"English;Spanish interpreter",Y
+P002,Lakeside Internal Medicine,5.8,N,Y,7,English,N
+P003,Community Health Center,2.1,Y,Y,14,"English;Spanish",Y
+P004,Northview Primary Care,8.4,Y,N,10,"English;Spanish interpreter",N
+P005,Southtown Clinic,4.7,Y,Y,3,English,Y
+P006,Wellness Partners,6.0,Y,Y,9,"English;Spanish",N
+P007,Brightway Medical,1.9,N,N,2,"English;Spanish interpreter",N
+P008,Harbor Family Practice,7.2,Y,Y,6,"English;Spanish",Y

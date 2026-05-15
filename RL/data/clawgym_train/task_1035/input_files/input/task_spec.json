@@ -1,0 +1,8 @@
+{
+  "project_name": "analytics-dashboard",
+  "plan_prompt": "Plan a modern web-based analytics dashboard. Outline architecture, folder structure, core components, routing, state management strategy, data fetching approach, error handling, testing strategy, and initial milestones. Target a TypeScript React app styled with Tailwind CSS and a small Node.js/Express API for mocked endpoints. Include a task breakdown with estimated sequence.",
+  "build_prompt": "Implement the initial iteration of the analytics dashboard based on the plan. Create a React + TypeScript app with Tailwind CSS, a Dashboard layout, a navigation sidebar, a simple chart component (use a lightweight charting lib or mocked SVG if needed), and two pages: Overview and Reports. Add a basic Express server in a separate folder (e.g., server/) with mocked endpoints for /api/summary and /api/reports returning sample JSON. Include minimal scripts in package.json, basic README stubs, and unit tests for one UI component and one API route. Do not over-engineer; set up a clean foundation.",
+  "monitoring": "standard",
+  "provider_hint": "anthropic",
+  "model_hint": "claude-sonnet-4-5"
+}

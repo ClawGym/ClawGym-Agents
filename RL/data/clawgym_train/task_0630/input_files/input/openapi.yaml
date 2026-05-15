@@ -1,0 +1,206 @@
+openapi: 3.0.3
+info:
+  title: Users Service API
+  version: "1.0.0"
+  description: >
+    A simple Users REST service providing CRUD operations. All requests and responses
+    use application/json. IDs are positive integers. Email fields must be valid
+    email addresses. The API is unauthenticated for testing purposes.
+servers:
+  - url: http://127.0.0.1:8000
+paths:
+  /api/users:
+    get:
+      tags: [Users]
+      summary: List users
+      operationId: listUsers
+      responses:
+        "200":
+          description: Successful response containing an array of users
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [users]
+                properties:
+                  users:
+                    type: array
+                    items:
+                      $ref: "#/components/schemas/User"
+              examples:
+                sample:
+                  value:
+                    users:
+                      - id: 1
+                        name: Alice Example
+                        email: alice@example.com
+                        createdAt: "2026-01-15T12:00:00Z"
+                      - id: 2
+                        name: Bob Example
+                        email: bob@example.com
+                        createdAt: "2026-01-16T09:30:00Z"
+    post:
+      tags: [Users]
+      summary: Create a new user
+      operationId: createUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/NewUser"
+            examples:
+              valid:
+                value:
+                  name: Charlie Example
+                  email: charlie@example.com
+      responses:
+        "201":
+          description: User created successfully
+          headers:
+            Location:
+              description: URL of the created user resource
+              schema:
+                type: string
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "400":
+          description: Invalid input (missing required field or invalid email)
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+  /api/users/{id}:
+    parameters:
+      - in: path
+        name: id
+        required: true
+        schema:
+          type: integer
+          minimum: 1
+        description: Numeric user ID
+    get:
+      tags: [Users]
+      summary: Get a user by ID
+      operationId: getUser
+      responses:
+        "200":
+          description: User found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "404":
+          description: User not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    put:
+      tags: [Users]
+      summary: Update an existing user
+      operationId: updateUser
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateUser"
+            examples:
+              updateName:
+                value:
+                  name: Updated Name
+              updateEmail:
+                value:
+                  email: updated.email@example.com
+      responses:
+        "200":
+          description: User updated successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/User"
+        "400":
+          description: Invalid input (empty body, invalid email, or bad field)
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "404":
+          description: User not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+    delete:
+      tags: [Users]
+      summary: Delete a user
+      operationId: deleteUser
+      responses:
+        "204":
+          description: User deleted (no content)
+        "404":
+          description: User not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+components:
+  schemas:
+    User:
+      type: object
+      additionalProperties: false
+      required: [id, name, email, createdAt]
+      properties:
+        id:
+          type: integer
+          minimum: 1
+          example: 3
+        name:
+          type: string
+          minLength: 1
+          example: Alice Example
+        email:
+          type: string
+          format: email
+          example: alice@example.com
+        createdAt:
+          type: string
+          format: date-time
+          example: "2026-01-15T12:00:00Z"
+    NewUser:
+      type: object
+      additionalProperties: false
+      required: [name, email]
+      properties:
+        name:
+          type: string
+          minLength: 1
+        email:
+          type: string
+          format: email
+    UpdateUser:
+      type: object
+      additionalProperties: false
+      minProperties: 1
+      properties:
+        name:
+          type: string
+          minLength: 1
+        email:
+          type: string
+          format: email
+    Error:
+      type: object
+      additionalProperties: false
+      required: [error]
+      properties:
+        error:
+          type: string
+          example: "User not found"
+        details:
+          type: object
+          description: Optional error details
+          additionalProperties: true

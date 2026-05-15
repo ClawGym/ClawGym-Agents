@@ -1,0 +1,38 @@
+[
+  {
+    "name": "NoteHub",
+    "description": "Cloud-first notes app targeting prosumers.",
+    "capabilities": {
+      "offline": "read-only",
+      "sync": "cloud sync with background refresh"
+    },
+    "limitations": [
+      "read-only offline",
+      "requires re-login every 7 days"
+    ]
+  },
+  {
+    "name": "DeepNote",
+    "description": "AI-assisted note-taking with collaboration.",
+    "capabilities": {
+      "offline": "none",
+      "sync": "fast sync over Wi-Fi"
+    },
+    "limitations": [
+      "no real-time collaboration",
+      "no offline fallback"
+    ]
+  },
+  {
+    "name": "LocalPad",
+    "description": "Privacy-focused, local-first notes app.",
+    "capabilities": {
+      "offline": "full local editing",
+      "sync": "local-first with optional cloud"
+    },
+    "limitations": [
+      "requires re-login every 7 days",
+      "read-only offline"
+    ]
+  }
+]

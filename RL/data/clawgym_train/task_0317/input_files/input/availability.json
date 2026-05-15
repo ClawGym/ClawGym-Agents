@@ -1,0 +1,8 @@
+{
+  "players": [
+    {"name": "Alex", "windows": [{"start": "19:00", "end": "21:00"}]},
+    {"name": "Blake", "windows": [{"start": "18:30", "end": "20:00"}]},
+    {"name": "Casey", "windows": [{"start": "20:30", "end": "22:00"}]},
+    {"name": "Devon", "windows": [{"start": "19:30", "end": "21:30"}]}
+  ]
+}

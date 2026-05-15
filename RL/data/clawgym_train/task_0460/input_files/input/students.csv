@@ -1,0 +1,6 @@
+student_id,name,email,target_universities,program_interest,next_deadline,preferred_channel,completed_steps
+S001,Alice Nguyen,alice.nguyen@example.edu,"MetroU;StateTech",Business,2026-06-15,email,"Met counselor;Chose program"
+S002,Jordan Lee,jordan.lee@example.edu,"StateTech",Engineering,,email,"Met counselor"
+S003,Priya Patel,priya.patel@example.edu,"LakesideU;MetroU",Psychology,2026-05-30,sms,"Met counselor;Requested transcripts"
+S004,Marco Ruiz,marco.ruiz@example.edu,"MetroU",Engineering,,email,""
+S005,Sara Kim,sara.kim@example.edu,"LakesideU",Business,2026-06-01,email,"Met counselor;Submitted application"

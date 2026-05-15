@@ -1,0 +1,28 @@
+{"date": "2026-02-01", "type": "income", "category": "Salary", "amount": 4500.00, "note": "February salary"}
+{"date": "2026-02-18", "type": "income", "category": "Freelance", "amount": 400.00, "note": "Side project"}
+{"date": "2026-02-26", "type": "income", "category": "Investments", "amount": 80.00, "note": "Dividend"}
+{"date": "2026-02-02", "type": "expense", "category": "Housing", "amount": 1200.00, "note": "Rent"}
+{"date": "2026-02-03", "type": "expense", "category": "Food", "amount": 62.20, "note": "Groceries"}
+{"date": "2026-02-04", "type": "expense", "category": "Education", "amount": 75.00, "note": "Online course"}
+{"date": "2026-02-05", "type": "expense", "category": "Food", "amount": 78.00, "note": "Groceries"}
+{"date": "2026-02-06", "type": "expense", "category": "Utilities", "amount": 55.00, "note": "Electricity"}
+{"date": "2026-02-07", "type": "expense", "category": "Utilities", "amount": 35.00, "note": "Internet"}
+{"date": "2026-02-08", "type": "expense", "category": "Entertainment", "amount": 18.00, "note": "Movie ticket"}
+{"date": "2026-02-09", "type": "expense", "category": "Transport", "amount": 20.00, "note": "Taxi"}
+{"date": "2026-02-10", "type": "expense", "category": "Food", "amount": 90.30, "note": "Groceries"}
+{"date": "2026-02-11", "type": "expense", "category": "Shopping", "amount": 200.00, "note": "Clothes"}
+{"date": "2026-02-12", "type": "expense", "category": "Healthcare", "amount": 25.00, "note": "Pharmacy"}
+{"date": "2026-02-13", "type": "expense", "category": "Utilities", "amount": 30.00, "note": "Water"}
+{"date": "2026-02-14", "type": "expense", "category": "Food", "amount": 80.40, "note": "Groceries"}
+{"date": "2026-02-15", "type": "expense", "category": "Entertainment", "amount": 90.00, "note": "Concert"}
+{"date": "2026-02-18", "type": "expense", "category": "Food", "amount": 75.60, "note": "Groceries"}
+{"date": "2026-02-19", "type": "expense", "category": "Transport", "amount": 45.00, "note": "Gas"}
+{"date": "2026-02-20", "type": "expense", "category": "Shopping", "amount": 150.00, "note": "Home items"}
+{"date": "2026-02-21", "type": "expense", "category": "Education", "amount": 25.00, "note": "Book"}
+{"date": "2026-02-22", "type": "expense", "category": "Food", "amount": 60.00, "note": "Groceries"}
+{"date": "2026-02-23", "type": "expense", "category": "Other", "amount": 59.50, "note": "Gift"}
+{"date": "2026-02-24", "type": "expense", "category": "Other", "amount": 50.00, "note": "Charity"}
+{"date": "2026-02-26", "type": "expense", "category": "Food", "amount": 94.00, "note": "Groceries"}
+{"date": "2026-02-27", "type": "expense", "category": "Shopping", "amount": 100.00, "note": "Gadget"}
+{"date": "2026-02-28", "type": "expense", "category": "Healthcare", "amount": 60.00, "note": "Clinic visit"}
+{"date": "2026-02-01", "type": "expense", "category": "Entertainment", "amount": 12.00, "note": "Streaming"}

@@ -1,0 +1,11 @@
+{
+  "name": "osiris-internal",
+  "description": "Internal research and security compliance agent",
+  "endpoint": "https://agents.internal.example/a2a",
+  "capabilities": [
+    "signing",
+    "verification",
+    "agent-card",
+    "research"
+  ]
+}

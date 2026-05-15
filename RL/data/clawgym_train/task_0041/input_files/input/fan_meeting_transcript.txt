@@ -1,0 +1,23 @@
+[00:00] Riley: Thanks for jumping on! Goal: lock the plan for the Australian shows issue.
+[00:12] Jess: Confirming release date?
+[00:14] Riley: Let’s ship 2026-05-15 so we have time to clear photo permissions.
+[00:22] Tom: Ranking method: 0.6*personal_rating + 0.3*encore_count + 0.1*(attendance_estimate/1000). Filter to country == Australia.
+[00:31] Aisha: Works for me. We’ll add a short blurb per top show.
+[00:40] Riley: Cover photo: let’s use the Hordern Pavilion show (the big production shot).
+[00:48] Jess: I’ll collect photo credits and any usage terms from venues/photographers.
+[00:55] Tom: I’ll run the numbers from concerts.csv and generate the top 5 list.
+[01:02] Aisha: I’ll draft a friendly social post to announce the issue.
+[01:08] Riley: I’ll email venues with the permission request.
+[01:15] Jess: Can we note timezone as Australia/Sydney in the config?
+[01:18] Riley: Yes, let’s standardize on that.
+[01:24] Riley: Also switch the theme to something more zine-y.
+[01:30] Tom: I’ll need the top 5 deadline.
+[01:32] Riley: Tom, please have the top 5 by 2026-04-18.
+[01:36] Riley: Jess, photo credit confirmations by 2026-04-20.
+[01:40] Riley: Aisha, social post draft by 2026-05-01.
+[01:44] Riley: I’ll send the permission emails by 2026-04-19.
+[01:48] Aisha: Noted. Anything else?
+[01:50] Riley: That’s it. Decisions: release 2026-05-15, cover photo from Hordern Pavilion, ranking formula as above, timezone Australia/Sydney, and we’ll update the site config to link the outputs.
+[01:59] Tom: Done.
+[02:01] Jess: Done.
+[02:02] Aisha: Done.

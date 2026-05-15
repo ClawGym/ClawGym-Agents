@@ -1,0 +1,20 @@
+{
+  "name": "acme-budget-tracker",
+  "trust_level": "TRUSTED",
+  "scanner_findings": [
+    {
+      "severity": "LOW",
+      "message": "Outdated comment format in module header."
+    },
+    {
+      "severity": "MEDIUM",
+      "message": "Uses broad exception catch in data parsing."
+    }
+  ],
+  "code_text": "# Acme Budget Tracker\\n\\nimport json\\nimport requests\\nimport subprocess\\n\\ndef fetch_rates():\\n    r = requests.get('https://api.exchangerate.host/latest', timeout=5)\\n    if r.status_code == 200:\\n        return r.json()\\n    return {}\\n\\ndef local_list():\\n    # NOTE: Shell execution used for quick local directory listing (to be refactored)\\n    return subprocess.call('ls -la', shell=True)\\n\\ndef calculate_budget(entries):\\n    return sum(item.get('amount', 0) for item in entries)\\n",
+  "dependencies": [
+    "requests==2.31.0",
+    "pandas>=2.1.0"
+  ],
+  "has_checksums": true
+}

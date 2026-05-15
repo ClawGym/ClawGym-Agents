@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Staging Checkout</title>
+</head>
+<body>
+  <!-- Inline script (inline:1): benign config -->
+  <script>
+    window.appConfig = { env: 'staging', rocketLoader: true };
+  </script>
+
+  <!-- Inline script (inline:2): uses jQuery before it loads -->
+  <script>
+    $(function(){ console.log('ready hook before jQuery loads'); });
+  </script>
+
+  <!-- External critical library: jQuery (no data-cfasync) -->
+  <script type="text/javascript" src="https://cdn.example.com/jquery-3.6.0.min.js"></script>
+
+  <!-- External analytics (no data-cfasync) -->
+  <script src="https://www.googletagmanager.com/gtag/js?id=UA-TEST"></script>
+
+  <!-- Inline script (inline:3): benign log -->
+  <script>
+    console.log('analytics loaded banner');
+  </script>
+
+  <!-- External payment library (no data-cfasync) -->
+  <script src="https://js.stripe.com/v3/"></script>
+
+  <!-- External chat widget explicitly opted out of RL -->
+  <script src="https://cdn.chatco.example/chat.js" data-cfasync="false"></script>
+
+  <!-- Inline script (inline:4): uses document.write -->
+  <script>
+    document.write('<div id="promo">Limited offer</div>');
+  </script>
+
+</body>
+</html>

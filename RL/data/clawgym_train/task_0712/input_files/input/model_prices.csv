@@ -1,0 +1,9 @@
+model,tier,input_cost_per_token_usd,output_cost_per_token_usd,context_tokens,speed_tier,notes
+Frontier-Opus-2026,frontier,0.000015,0.000045,200000,medium,"Frontier reasoning; best for complex planning and final review when quality is critical."
+Balanced-Sonnet-2026,mid,0.000003,0.000009,200000,fast,"Mid-tier default; strong coding capability at lower cost."
+Fast-Haiku-2026,fast,0.0000015,0.0000045,100000,very_fast,"High throughput; good for parallel subtasks and scaffolding."
+Gemini-2.5-Flash,mid,0.0000025,0.0000075,1000000,fast,"Large context option (1M tokens) for long documents; cost-efficient."
+DeepSeek-R1,open_source,0.0000008,0.0000008,128000,medium,"Self-hosted; cost reflects infra amortization; strong for balanced tasks."
+Llama-3.1-70B-Instruct,open_source,0.0000012,0.0000012,128000,medium,"Self-hosted; suitable for day-to-day tasks with tuning potential."
+Codex-CLI-Review,accuracy,0.000004,0.000012,200000,slow,"Thorough review-focused variant optimized for CI; slower but precise."
+Claude-Code-Sonnet,interactive,0.0000032,0.0000096,200000,fast,"Great interactive IDE experience; similar to mid-tier cost profile."

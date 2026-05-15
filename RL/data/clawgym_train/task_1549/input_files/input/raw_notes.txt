@@ -1,0 +1,50 @@
+Product Strategy Sync: Q3 Roadmap Alignment
+Date: 2026-04-18
+Duration: 60 min
+Facilitator: Maya Patel (PM)
+Attendees: Maya Patel (PM), Alex Chen (Engineering Lead), Priya Singh (Design Lead), Jordan Lee (Marketing), Sam Brooks (Data)
+
+Goal: Align on Q3 product bets and confirm the launch timeline for the “Team Handoff” feature.
+
+Context:
+- Handoff feature reduces friction when work moves between teams (Sales → Onboarding → Success).
+- Competing priorities: “Advanced Analytics” vs “Team Handoff”.
+
+Decisions (tentative unless otherwise noted):
+- Primary Q3 bet: Prioritize “Team Handoff” over “Advanced Analytics”. (Consensus reached)
+- A/B pricing experiment: Keep Pro at $29/mo until A/B concludes (target end: 2026-06-15).
+- Handoff beta target: roll out to 50 design partners by 2026-07-22, with opt-in flag.
+- Slack integration de-scoped from July release; revisit post-beta.
+- Next stage gate: internal review on 2026-05-08 (scope and risk check).
+
+Discussion Highlights:
+- Alex: Engineering bandwidth okay if we drop Slack integration; risk around cross-team permissions.
+- Priya: Current flow causes confusion on ownership; proposes clearer “handoff receipt” states.
+- Jordan: Messaging should emphasize reduced “handoff lag”; needs case studies.
+- Sam: Needs to instrument “handoff cycle time” and “time to first handoff”.
+- Maya: Execs want clear success metrics and a tight beta cohort.
+
+Action Items (captured during meeting):
+- Alex to create a 5-day tech spike plan for Handoff (permissions + event model). Due: 2026-04-26.
+- Priya to deliver revised handoff flows (v2) and clickable prototype. Due: 2026-04-24.
+- Jordan to draft launch messaging pillars + 1-page brief for internal review. (No date given)
+- Sam to define tracking plan for “time to first handoff” and “handoff cycle time”; also pull baseline metrics (last 90 days). (Deadline not specified)
+- Maya to schedule the 2026-05-08 stage gate with leads + exec sponsor early next week. (Date implied but no explicit due)
+
+Open Questions:
+- Should Handoff be gated behind Pro or Business at beta? (Pricing/Packaging)
+- Success definition: adoption (teams enabling) vs time-to-first-handoff vs cycle-time reduction?
+- Do we need service-level alerts if a handoff sits unaccepted beyond X hours?
+
+Risks/Assumptions:
+- Assumes legal review not required for beta partner terms.
+- Assumes two squads can be allocated after Slack integration is removed.
+
+Parking Lot:
+- Broader pricing tier changes after A/B completes.
+- Partnerships with onboarding tools.
+- Mobile parity for Handoff notifications.
+
+Notes:
+- Exec sponsor (TBD) to be confirmed by Maya.
+- Design partners to include 10 from healthcare, 10 from fintech, 10 from logistics, 20 mixed.

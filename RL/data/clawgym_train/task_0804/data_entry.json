@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0804",
+  "user_query": "Please read input/brief.json, input/quotes.jsonl, and input/requirements.yaml. Using these, script two complete carousel posts — one for LinkedIn and one for Instagram — on the topic defined in the brief. Requirements:\n- Create exactly 10 slides for LinkedIn and 9 slides for Instagram (use the counts from input/requirements.yaml).\n- Follow the brand voice and avoid all banned_words from the brief.\n- Attribute at least one data point from input/quotes.jsonl in each carousel using the bracketed pattern: [Source: SOURCE NAME].\n- For each platform, deliver the full structure in this order:\n  1) Cover Slide (3 Options to A/B Test)\n  2) Slide-by-Slide Script with sections labeled exactly as:\n     \"Slide N: [Slide Title]\"\n      - \"Headline:\" (≤ 8 words)\n      - \"Body text:\" (2–4 lines)\n      - \"Visual direction:\"\n      - \"Transition hook:\" (at least half the slides must have a non-empty transition hook)\n  3) CTA Slide (3 Options)\n  4) Post Caption (150–300 words)\n  5) Hashtag Set (30 hashtags total, split into 10 niche, 10 mid, 10 large)\n  6) Design Tips including the line: \"Recommended dimensions: LinkedIn: 1080x1080; Instagram: 1080x1350\"\n- Tailor tone and slide pacing to each platform (LinkedIn slightly more context; Instagram snappier).\n- Save outputs to:\n  - output/linkedin_carousel.md\n  - output/instagram_carousel.md\n- Also write output/metadata.json summarizing, per platform: slide_count, cover_options count, cta_options count, caption_word_count, hashtags_by_tier counts {niche, mid, large}, headline_max_words (should be 8), and a boolean confirming no banned_words were used.\n\nMake sure headlines are concise (≤ 8 words), body copy uses 2–4 lines per slide, and design tips include the exact dimensions string above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

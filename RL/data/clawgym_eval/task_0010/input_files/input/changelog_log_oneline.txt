@@ -1,0 +1,8 @@
+1a2b3c4 feat(core): initial plugin architecture
+2b3c4d5 fix(git): handle detached HEAD edge case
+3c4d5e6 docs: add contributing guide
+4d5e6f7 chore(ci): update Node.js matrix
+5e6f7g8 feat(commit): infer scope from top-level directory
+6f7g8h9 fix(changelog): ignore merge commit messages
+7g8h9i0 Docs(readme): clarify usage examples
+8h9i0j1 refactor: simplify diff parsing

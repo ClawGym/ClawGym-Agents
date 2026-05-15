@@ -1,0 +1,1 @@
+profiles:\n  "1080p60":\n    min_bandwidth_mbps: 20\n    max_dropped_frames: 3\n    max_jitter_ms: 25\n  "720p60":\n    min_bandwidth_mbps: 10\n    max_dropped_frames: 4\n    max_jitter_ms: 30\nnotes: "These are general comfort thresholds for smooth soccer streaming on my PC."\n

@@ -1,0 +1,45 @@
+{
+  "location": "Blue Hills Reservation, near Boston, Massachusetts, USA",
+  "declination_deg_east_positive": -14.2,
+  "grid_system": "UTM Zone 19N (WGS84)",
+  "assume_grid_equals_true_north": true,
+  "pace_count_per_100m": 66,
+  "legs": [
+    {
+      "from_name": "Houghton's Pond Picnic Area",
+      "to_name": "Tucker Hill Junction",
+      "from": {
+        "easting": 330500,
+        "northing": 4682300
+      },
+      "to": {
+        "easting": 330980,
+        "northing": 4682700
+      }
+    },
+    {
+      "from_name": "Tucker Hill Junction",
+      "to_name": "Eliot Tower Lower Junction",
+      "from": {
+        "easting": 330980,
+        "northing": 4682700
+      },
+      "to": {
+        "easting": 330730,
+        "northing": 4683220
+      }
+    },
+    {
+      "from_name": "Eliot Tower Lower Junction",
+      "to_name": "Eliot Tower",
+      "from": {
+        "easting": 330730,
+        "northing": 4683220
+      },
+      "to": {
+        "easting": 330850,
+        "northing": 4683440
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+SOC 2 Type II — Priority: High
+ISO 27001 — Priority: Medium
+GDPR — Priority: High (EU customers)
+PCI DSS (SAQ A) — Priority: Medium (Stripe tokenization; no cardholder data stored)
+NIST CSF — Priority: Medium
+HIPAA — Priority: Low (no PHI processed)
+Additional notes:
+- Aim for SOC 2 audit window in Q4.
+- Maintain GDPR Article 32 technical measures and DPIA readiness.
+- PCI scope should remain minimal via Stripe.

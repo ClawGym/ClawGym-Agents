@@ -1,0 +1,113 @@
+{
+  "address": "Townhouse near S Lamar Blvd & Oltorf St, Austin, TX 78704",
+  "family": [
+    {
+      "name": "Nora Alvarez",
+      "role": "mom",
+      "age": 36,
+      "mobile": "+1-512-555-0142",
+      "email": "nora.alvarez@example.com",
+      "work": "Dell Medical School (Admin)",
+      "work_address": "1501 Red River St, Austin, TX 78712",
+      "medical": {
+        "conditions": [],
+        "allergies": [],
+        "medications": []
+      }
+    },
+    {
+      "name": "Luis Alvarez",
+      "role": "dad",
+      "age": 38,
+      "mobile": "+1-512-555-0178",
+      "email": "luis.alvarez@example.com",
+      "work": "Electrician (contractor)",
+      "work_address": "St. Elmo District, Austin, TX",
+      "medical": {
+        "conditions": ["seasonal allergies"],
+        "allergies": [],
+        "medications": ["cetirizine 10mg daily"]
+      }
+    },
+    {
+      "name": "Eli Alvarez",
+      "role": "child",
+      "age": 7,
+      "school": "Zilker Elementary School (AISD)",
+      "school_phone": "+1-512-555-0195",
+      "grade": "2",
+      "doctor": "South Austin Pediatrics",
+      "doctor_phone": "+1-512-555-0127",
+      "medical": {
+        "conditions": [],
+        "allergies": [],
+        "medications": []
+      }
+    },
+    {
+      "name": "Rosa Alvarez",
+      "role": "grandmother",
+      "age": 68,
+      "mobile": "+1-512-555-0163",
+      "email": "rosa.alvarez@example.com",
+      "mobility": "uses cane",
+      "medical": {
+        "conditions": ["type 2 diabetes"],
+        "allergies": [],
+        "medications": ["insulin glargine (Lantus) 20u nightly"],
+        "devices": ["glucometer", "lancets", "test strips"],
+        "requires_refrigeration": ["insulin"]
+      }
+    }
+  ],
+  "pet": {
+    "name": "Luna",
+    "type": "cat",
+    "indoor": true,
+    "vet": "Austin Vet Care",
+    "vet_phone": "+1-512-555-0112",
+    "microchip_id": "985141000123456",
+    "notes": "indoor-only, shy with strangers"
+  },
+  "vehicles": [
+    {
+      "type": "sedan",
+      "make": "Toyota Camry",
+      "year": 2014,
+      "fuel": "gasoline",
+      "plate": "TX-7DJP42"
+    },
+    {
+      "type": "hatchback",
+      "make": "Honda Fit",
+      "year": 2016,
+      "fuel": "gasoline",
+      "plate": "TX-9KYL12"
+    }
+  ],
+  "utilities": {
+    "electric": "Austin Energy",
+    "gas": "Texas Gas Service",
+    "water": "Austin Water",
+    "has_gas": true
+  },
+  "contacts": {
+    "out_of_area_candidate": {
+      "name": "Mariana Torres",
+      "relationship": "Nora's sister",
+      "city": "Albuquerque, NM",
+      "phone": "+1-505-555-2234",
+      "email": "mariana.torres@example.com",
+      "notes": "Different region/time zone; reliable during severe weather"
+    },
+    "primary_care": {
+      "clinic": "South Austin Family Clinic",
+      "phone": "+1-512-555-0182"
+    },
+    "pharmacy": {
+      "name": "H-E-B Pharmacy (S Lamar)",
+      "phone": "+1-512-555-0155"
+    }
+  },
+  "language": "english"
+}

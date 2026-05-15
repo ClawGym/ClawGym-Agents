@@ -1,0 +1,6 @@
+{
+  "min_chars": 450,
+  "max_chars": 700,
+  "required_disclaimer": "Disclaimer: Patch-test first; consult a dermatologist for concerns.",
+  "allowed_emojis": ["🌿", "✨", "💧", "😊"]
+}

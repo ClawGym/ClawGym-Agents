@@ -1,0 +1,26 @@
+{
+  "signal_name": "btc_5d_momo_z",
+  "asset": "BTC-USD",
+  "price_source": "Coinbase daily close (UTC 00:00)",
+  "calculation": {
+    "description": "Z-scored 5-day momentum: 5-day log return standardized by a 63-day rolling mean and standard deviation of 5-day returns.",
+    "formula": "r5_t = ln(P_t / P_{t-5}); z_t = (r5_t - mean(r5)_{t-63:t-1}) / std(r5)_{t-63:t-1}; signal_t = clip(z_t, -3, 3)",
+    "details": [
+      "Compute using daily close prices stamped at 00:00 UTC.",
+      "Require at least 63 prior observations to form the rolling z-score.",
+      "Winsorize (clip) the z-score at +/- 3 to reduce outlier impact.",
+      "Missing data or splits are not applicable for BTC-USD; ensure exchange outages are forward-filled with no trade signals on gaps."
+    ]
+  },
+  "test_period": {
+    "start": "2018-01-01",
+    "end": "2025-12-31"
+  },
+  "forward_horizons": [1, 3, 5, 10, 15, 20],
+  "rolling_ic_window": 52,
+  "regime_definitions": {
+    "bull_bear": "Bull if price > 200-day simple moving average, else Bear.",
+    "volatility": "Volatility terciles using 30-day rolling standard deviation of daily returns: low/mid/high."
+  },
+  "n_trials_so_far": 12
+}

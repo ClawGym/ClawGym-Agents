@@ -1,0 +1,5 @@
+{
+  "input_path": "data/newham_pm25_2005_2006.csv",
+  "out_dir": "output",
+  "exceedance_threshold": 25.0
+}

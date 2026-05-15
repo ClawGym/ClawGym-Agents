@@ -1,0 +1,6 @@
+{
+  "default_state": "VIC",
+  "processing_fee": 1.5,
+  "currency": "AUD",
+  "output_dir": "output"
+}

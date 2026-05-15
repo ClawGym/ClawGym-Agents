@@ -1,0 +1,9 @@
+{
+  "meeting_date": "2026-04-20",
+  "meeting_time": "18:30",
+  "location": "Home Office",
+  "attendees": ["Homeowner", "Spouse", "Contractor - GreenDry Solutions"],
+  "objective": "Select a crawlspace moisture remediation plan that keeps RH < 60% and addresses odor and damp soil",
+  "budget_usd": 2000,
+  "constraints": ["Prefer work scheduled over a weekend", "Minimize dust and disruption"]
+}

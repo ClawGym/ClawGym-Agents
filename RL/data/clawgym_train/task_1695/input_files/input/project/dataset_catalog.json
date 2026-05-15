@@ -1,0 +1,47 @@
+{
+  "datasets": [
+    {
+      "dataset_name": "interviews_2023",
+      "retention_months": 36,
+      "has_ethics_approval": true,
+      "cross_border_transfer": true,
+      "storage_country": "United Kingdom",
+      "intended_publication": "microdata",
+      "fields": [
+        {"name": "respondent_id", "category": "personal", "description": "Randomized code assigned to respondent", "consent_obtained": true},
+        {"name": "district", "category": "non_personal", "description": "District of residence", "consent_obtained": false},
+        {"name": "age", "category": "personal", "description": "Age of respondent", "consent_obtained": true},
+        {"name": "party_affiliation", "category": "sensitive", "description": "Self-reported party support", "consent_obtained": true},
+        {"name": "vote_choice", "category": "sensitive", "description": "Self-reported vote in last election", "consent_obtained": false},
+        {"name": "interview_notes", "category": "sensitive", "description": "Free-text notes; may include political opinions", "consent_obtained": false}
+      ]
+    },
+    {
+      "dataset_name": "donations_2019",
+      "retention_months": 60,
+      "has_ethics_approval": false,
+      "cross_border_transfer": false,
+      "storage_country": "Sri Lanka",
+      "intended_publication": "aggregated",
+      "fields": [
+        {"name": "donor_name", "category": "personal", "description": "Full name of donor", "consent_obtained": false},
+        {"name": "donation_amount", "category": "non_personal", "description": "Amount in LKR", "consent_obtained": false},
+        {"name": "recipient_party", "category": "non_personal", "description": "Party receiving donation", "consent_obtained": false}
+      ]
+    },
+    {
+      "dataset_name": "voter_roll_sample",
+      "retention_months": 12,
+      "has_ethics_approval": false,
+      "cross_border_transfer": false,
+      "storage_country": "Sri Lanka",
+      "intended_publication": "microdata",
+      "fields": [
+        {"name": "full_name", "category": "personal", "description": "Voter full name", "consent_obtained": false},
+        {"name": "address", "category": "personal", "description": "Residential address", "consent_obtained": false},
+        {"name": "nic", "category": "personal", "description": "National Identity Card number", "consent_obtained": false},
+        {"name": "district", "category": "non_personal", "description": "Electoral district", "consent_obtained": false}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "name": "AnomalyGuard",
+    "description": "Real-time anomaly detection service ingesting event streams and scoring with seasonal hybrid ESD and LSTM ensemble.",
+    "owner": "Michael Ortega",
+    "status": "In Pilot (50% prod traffic shadowed)",
+    "repositories": [
+      "anomalyguard-service",
+      "ml-infra/terraform"
+    ],
+    "environments": [
+      "dev",
+      "staging",
+      "prod-shadow"
+    ],
+    "milestones": [
+      {
+        "name": "Shadow Traffic to 100%",
+        "target_date": "2026-06-07",
+        "notes": "Requires Datadog alert tuning and rollback SLOs"
+      },
+      {
+        "name": "Prod Cutover",
+        "target_date": "2026-06-21",
+        "notes": "Contingent on feature drift threshold finalization"
+      }
+    ],
+    "risks": [
+      "Drift thresholds not finalized; risk of false positives",
+      "Terraform state lock held by Michael’s user on last changes",
+      "IAM privilege dependency on 'ml-admin' for emergency rollback"
+    ],
+    "dependencies": [
+      "Kafka topic: events-prod",
+      "Datadog monitors: AG-Latency, AG-Drift",
+      "AWS EKS cluster: eks-prod-eu"
+    ],
+    "handover_docs": [
+      "Confluence: AnomalyGuard Design Spec",
+      "Confluence: ModelOps Runbook",
+      "Datadog: AnomalyGuard Dashboard (EU)"
+    ]
+  },
+  {
+    "name": "Feature Store Migration (Feast)",
+    "description": "Migration from custom Postgres-based feature store to Feast with online store in Redis and offline store in Snowflake.",
+    "owner": "Michael Ortega",
+    "status": "In Progress (Schema finalized; 60% features migrated)",
+    "repositories": [
+      "feature-store",
+      "ml-platform-scripts"
+    ],
+    "environments": [
+      "dev",
+      "staging"
+    ],
+    "milestones": [
+      {
+        "name": "Complete High-Priority Feature Migration",
+        "target_date": "2026-06-10",
+        "notes": "Blockers: Redis failover tests pending with SRE"
+      },
+      {
+        "name": "Deprecate Legacy Feature APIs",
+        "target_date": "2026-07-05",
+        "notes": "Needs consumer communication plan"
+      }
+    ],
+    "risks": [
+      "Redis failover not validated under peak load",
+      "Access controls need review to prevent PII exposure"
+    ],
+    "dependencies": [
+      "Snowflake warehouse FEAST_WH",
+      "Redis cluster eu-features-001",
+      "Airflow DAGs: feature_validation_*"
+    ],
+    "handover_docs": [
+      "Confluence: Feature Store Migration Plan",
+      "Confluence: Data Privacy Guardrails for Features",
+      "Repo README: feature-store/README.md"
+    ]
+  },
+  {
+    "name": "FraudShield v3",
+    "description": "Production fraud detection model and service; v3 includes retraining pipeline and canary release strategy.",
+    "owner": "Michael Ortega",
+    "status": "Maintenance (Active on-call)",
+    "repositories": [
+      "fraud-shield",
+      "ml-infra/argo"
+    ],
+    "environments": [
+      "prod"
+    ],
+    "milestones": [
+      {
+        "name": "June retraining cycle",
+        "target_date": "2026-06-12",
+        "notes": "Requires Snowflake credits and Databricks cluster ML-XL"
+      }
+    ],
+    "risks": [
+      "GitHub branch protection override can bypass reviews",
+      "Personal Databricks PAT used in one legacy job",
+      "Missing secondary approver for canary promotion"
+    ],
+    "dependencies": [
+      "Airflow DAG: fraud_retrain_v3",
+      "Databricks cluster: ML-XL",
+      "Datadog SLO: FraudShield-Availability"
+    ],
+    "handover_docs": [
+      "Confluence: FraudShield v3 Postmortems & Playbooks",
+      "Confluence: ModelOps Runbook",
+      "Datadog: FraudShield Dashboard (EU)"
+    ]
+  }
+]

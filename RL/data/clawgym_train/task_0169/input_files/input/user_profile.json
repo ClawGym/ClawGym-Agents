@@ -1,0 +1,135 @@
+{
+  "identity": {
+    "name": "Jordan Ellis",
+    "preferred_name": "Jordan",
+    "timezone": "America/New_York",
+    "language": "en"
+  },
+  "preferences": {
+    "communication": {
+      "email_tone": "casual",
+      "response_length": "concise",
+      "sign_off": "Best, Jordan"
+    },
+    "scheduling": {
+      "protected_hours": ["00:00-09:30", "12:00-13:00"],
+      "preferred_meeting_times": ["10:00-12:00", "14:00-16:00"],
+      "buffer_between_meetings_minutes": 15
+    },
+    "work": {
+      "tools": ["VS Code", "Notion", "Linear", "Slack"],
+      "stacks": ["Python", "TypeScript", "PostgreSQL", "Docker"],
+      "working_hours": { "start": "09:30", "end": "18:30" }
+    }
+  },
+  "relationships": {
+    "contacts": [
+      {
+        "name": "Alex Rivera",
+        "alias": ["Alex", "my manager"],
+        "relationship": "boss",
+        "communication_notes": "Always use a formal tone for emails to leadership; prefers bullet points over long prose. Loop Alex in on client-facing decisions.",
+        "last_interaction": "2026-03-14"
+      },
+      {
+        "name": "Sarah Chen",
+        "alias": ["Sarah", "Ms. Chen"],
+        "relationship": "client",
+        "communication_notes": "Very formal. Always address as Ms. Chen. Never send on Fridays — she's offline.",
+        "last_interaction": "2026-03-05"
+      },
+      {
+        "name": "David Kim",
+        "alias": ["David", "David K", "DK"],
+        "relationship": "colleague",
+        "communication_notes": "Async preferred. Responds faster on Slack than email.",
+        "last_interaction": "2026-03-01"
+      },
+      {
+        "name": "David Kim",
+        "alias": ["Dave"],
+        "relationship": "colleague",
+        "communication_notes": "Works on backend platform. CC ops@company.io on deploy emails.",
+        "last_interaction": "2026-03-10"
+      },
+      {
+        "name": "David Okafor",
+        "alias": ["David", "David O"],
+        "relationship": "client",
+        "communication_notes": "Prefers concise updates. CC his assistant (maya@okafor.io) on all client email threads.",
+        "last_interaction": "2026-02-20"
+      },
+      {
+        "name": "Maya Patel",
+        "alias": ["Maya"],
+        "relationship": "colleague",
+        "communication_notes": "Project coordinator for client accounts. Schedules tenders and keeps timelines updated.",
+        "last_interaction": "2026-03-12"
+      }
+    ]
+  },
+  "patterns": {
+    "recurring_tasks": [
+      {
+        "name": "Weekly team report",
+        "frequency": "weekly",
+        "typical_day": "Friday",
+        "typical_time": "16:00",
+        "recipients": ["alex@company.io", "team-eng@company.io"],
+        "subject_template": "Weekly Update – [date]"
+      },
+      {
+        "name": "Standup notes",
+        "frequency": "daily",
+        "typical_time": "09:45",
+        "destination": "Notion > Engineering > Standups"
+      }
+    ],
+    "common_mistakes": [
+      "Forgetting to CC maya@okafor.io on David Okafor threads",
+      "Scheduling meetings during the protected noon hour",
+      "Missing env var DATABASE_URL on staging deploys"
+    ],
+    "frequent_requests": [
+      "Draft client update emails",
+      "Summarize Linear tickets",
+      "Schedule syncs with Alex"
+    ]
+  },
+  "episodic": [
+    {
+      "date": "2026-03-20",
+      "summary": "Prepared and sent weekly report with action items highlighted for Alex.",
+      "outcome": "sent",
+      "tags": ["email", "report"]
+    },
+    {
+      "date": "2026-03-01",
+      "summary": "Drafted Q2 renewal email to Ms. Chen; kept tone very formal and addressed her as Ms. Chen.",
+      "outcome": "sent",
+      "tags": ["email", "client", "sarah-chen"]
+    },
+    {
+      "date": "2025-09-01",
+      "summary": "Investigated production outage; root cause was misconfigured environment variables. Added remediation notes.",
+      "outcome": "resolved",
+      "tags": ["incident", "postmortem", "important"]
+    },
+    {
+      "date": "2025-08-10",
+      "summary": "Followed up on invoice reminders for two clients.",
+      "outcome": "completed",
+      "tags": ["billing"]
+    }
+  ],
+  "meta": {
+    "created_at": "2026-02-01T09:00:00Z",
+    "last_updated": "2026-03-28T12:15:00Z",
+    "version": "1.0.0"
+  },
+  "secrets": {
+    "api_key": "sk-live-REDACT-123456",
+    "password": "sunflower12",
+    "bank_pin": "1234"
+  }
+}

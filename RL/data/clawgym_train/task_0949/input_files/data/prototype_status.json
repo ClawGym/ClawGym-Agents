@@ -1,0 +1,32 @@
+[
+  {
+    "id": "P-001",
+    "name": "Ripple Lamp — Glass Shade",
+    "status": "supplier confirmation pending",
+    "last_updated": "2026-04-10",
+    "materials": ["borosilicate glass", "brass"],
+    "risks": ["glass thickness tolerance", "supplier delay"],
+    "next_actions": ["Confirm MOQ with Ljubljana Glassworks", "Send updated brass specs to CNC shop"],
+    "dependencies": ["Ljubljana Glassworks"]
+  },
+  {
+    "id": "P-002",
+    "name": "Ripple Lamp — Base Assembly",
+    "status": "ready for render",
+    "last_updated": "2026-04-12",
+    "materials": ["powder-coated steel", "silicone feet"],
+    "risks": ["paint chipping on edges"],
+    "next_actions": ["Validate powder-coat sample RAL 9005 gloss 20"],
+    "dependencies": ["CoaterPro Maribor"]
+  },
+  {
+    "id": "P-003",
+    "name": "Ripple Lamp — Cable & Dimmer",
+    "status": "3D print queued",
+    "last_updated": "2026-04-08",
+    "materials": ["textile cable", "rotary dimmer"],
+    "risks": ["EU plug stock availability"],
+    "next_actions": ["Confirm EU plug stock with ElektroShop", "Test dimmer heat after 2h run"],
+    "dependencies": ["ElektroShop Ljubljana"]
+  }
+]

@@ -1,0 +1,15 @@
+Subject: Aviation Movie Night Picks for {{date}}
+
+Hi [Friend],
+
+Here's my weekly update of aviation-themed films from my watchlist.
+Top 5 by IMDb rating this week:
+{{top_list}}
+
+Total watch time for the top 5: {{total_runtime}}
+
+Unmatched titles that might need manual attention:
+{{unmatched_list}}
+
+Blue skies,
+[Your Name]

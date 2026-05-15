@@ -1,0 +1,11 @@
+Subject: Follow-up: Confirm {university} application received
+
+Hi {student_name},
+
+Just checking in on your {university} {program_interest} transfer application submitted for the {deadline} deadline. Please confirm receipt and share any updates.
+Next steps:
+{checklist_excerpt}
+
+We're here to help if anything is needed.
+
+- Career Services

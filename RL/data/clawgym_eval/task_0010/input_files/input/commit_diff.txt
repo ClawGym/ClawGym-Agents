@@ -1,0 +1,36 @@
+diff --git a/src/auth/token.js b/src/auth/token.js
+index 1111111..2222222 100644
+--- a/src/auth/token.js
++++ b/src/auth/token.js
+@@ -1,8 +1,10 @@
+ // token management
+-const TOKEN_TTL = 3600
++const TOKEN_TTL = 1800
+ const SECRET = process.env.TOKEN_SECRET
+-// TODO: improve refresh logic
++// implement refresh token rotation
++// rotate refresh tokens every 7 days
+ function sign(payload) {
+-  return createToken(payload, TOKEN_TTL)
++  return createToken(payload, TOKEN_TTL)
+ }
+-// legacy support
+-function oldFunction() { return null }
++function rotateRefresh() { return true }
++function newFunction() { return null }
+-module.exports = { sign, oldFunction }
++// TODO: add metrics
++module.exports = { sign, newFunction, rotateRefresh }
+
+diff --git a/src/auth/session.js b/src/auth/session.js
+index 3333333..4444444 100644
+--- a/src/auth/session.js
++++ b/src/auth/session.js
+@@ -10,6 +10,7 @@
+ function getSession(id) {
+   const file = `/sessions/${id}.json`
+   try {
++    // fix race condition when session file is missing
+     return fs.readFileSync(file, 'utf8')
+   } catch (e) {
+     return null

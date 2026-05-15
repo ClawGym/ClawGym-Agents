@@ -1,0 +1,16 @@
+id,name,ward,postcode,contact_status,last_vote_intent,issues,doorstep_score
+1001,Aisha Khan,Riverside,RS1 2AB,Active,Labour,"NHS;Cost of living",4.2
+1002,Ben Lewis,Hilltop,HT5 9CD,Active,Undecided,"Transport;Housing",3.6
+1003,Chloe Patel,Riverside,,Unknown,Labour,"NHS;Environment",4.0
+1004,Daniel O'Brien,Northbank,NB3 1XY,Do not contact,Conservative,Taxes,2.1
+1005,Ella Martin,Eastfield,EF7 4GH,Active,Undecided,"Cost of living;Housing",n/a
+1006,Farah Ahmed,Hilltop,HT2 3JK,Active,Labour,"NHS;Education",4.7
+1007,George Smith,Eastfield,EF1 2ZZ,Unknown,Labour,"Housing;Transport",3.9
+1008,Hannah Williams,,SM4 8OP,Active,Undecided,Cost of living,3.2
+1009,Ian Brown,Southmarket,SM4 8OP,Active,Undecided,Transport,2.9
+1010,Jade Wilson,Riverside,RS3 4MN,Active,Conservative,Environment,1.8
+1011,Kamala Devi,Hilltop,,Active,Labour,"NHS;Cost of living",4.5
+1012,Liam Jones,Northbank,NB8 2QR,Unknown,Undecided,Housing,3.0
+1013,Maya Thompson,Eastfield,EF9 0ST,Active,Labour,"Education;NHS",4.1
+1014,Noah Green,Riverside,RS2 6UV,Active,Undecided,"Housing;Cost of living",3.7
+1015,Olivia Clarke,Southmarket,SM2 1WX,Active,Labour,NHS,3.3

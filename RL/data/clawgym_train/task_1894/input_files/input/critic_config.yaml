@@ -1,0 +1,5 @@
+weights:
+  evidence: 0.45
+  coherence: 0.25
+  nuance: 0.20
+  originality: 0.10

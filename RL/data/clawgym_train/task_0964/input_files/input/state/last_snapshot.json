@@ -1,0 +1,25 @@
+{
+  "snapshot_created": "2024-03-12T12:00:00Z",
+  "files": {
+    "scripts/scene_a.md": {
+      "sha256": "prevhash-a",
+      "markers": {
+        "scenes": [
+          "SCENE: The Warehouse (Night)"
+        ],
+        "beats": [
+          "BEAT: The hum of fridges is a choir"
+        ]
+      }
+    },
+    "scripts/scene_b.md": {
+      "sha256": "prevhash-b",
+      "markers": {
+        "scenes": [
+          "SCENE: Rooftop at Dawn"
+        ],
+        "beats": []
+      }
+    }
+  }
+}

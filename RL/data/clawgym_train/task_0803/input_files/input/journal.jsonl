@@ -1,0 +1,8 @@
+{"timestamp":"2026-04-07T12:05:22Z","tags":["ci","process"],"text":"Decision: Move CI from CircleCI to GitHub Actions. Reason: org-wide runners, better cache controls, fewer flakey jobs. We will remove .circleci and standardize on GH Actions."}
+{"timestamp":"2026-04-08T09:12:10Z","tags":["tech","quality"],"text":"Explicit decision: Enable TypeScript strict mode across packages to catch defects earlier. We accept short-term friction for long-term stability."}
+{"timestamp":"2026-04-10T10:02:41Z","tags":["testing","tech"],"text":"We compared Playwright vs Cypress for e2e. Decision: choose Playwright for cross-browser parity and built-in trace viewer."}
+{"timestamp":"2026-04-11T14:01:09Z","tags":["process","release"],"text":"Team agreed to standardize on Conventional Commits. Goal: predictable changelogs and to unlock automated release tooling soon."}
+{"timestamp":"2026-04-13T12:02:33Z","tags":["database","testing"],"text":"Database stance: Use PostgreSQL for local dev, staging, and production; keep SQLite for unit tests for speed. Knex env configs added."}
+{"timestamp":"2026-04-15T08:00:02Z","tags":["release","process"],"text":"Semantic-release dry run looked clean. Next step: define release rules and protect main with required checks. Tentative target: enable next week."}
+{"timestamp":"2026-04-18T09:22:55Z","tags":["ci","security"],"text":"We sped up the pipeline by caching Playwright browsers. CodeQL still manual—plan to turn it on by default after we settle the noisy alerts."}
+{"timestamp":"2026-04-19T16:30:14Z","tags":["observability","performance"],"text":"Pino logging plus timing middleware improved insight into slow paths. Early metric: CLI startup down ~80ms after config memoization."}

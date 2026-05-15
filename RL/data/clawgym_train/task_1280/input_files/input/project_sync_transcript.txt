@@ -1,0 +1,22 @@
+[1] Attendees: Amina (Lead Designer); Carlos (Biomech Eng); Priya (Clinical Partner); Jeff (QA); Naomi (Manufacturing)
+[2] Amina: Thanks all. Goal: finalize pilot instrumentation and fixtures.
+[3] Priya: Clinic feedback: donning is improved; concern about distal edge comfort.
+[4] Carlos: Pressure mapping shows 12–15% peak reduction on level walking.
+[5] Jeff: We need calibration confirmation before we lock the numbers.
+[6] Naomi: Manufacturing can hold tolerance on the medial zone if we freeze the tool by Friday.
+[7] Amina: Decision: Use EMG sensors lot B for the pilot to avoid connector issues.
+[8] Amina: ACTION: Carlos to update the pressure mapping rig calibration file and send to Jeff by 2026-05-20.
+[9] Priya: For clinics, we can run two participants per site in week one.
+[10] Carlos: We also saw stair ascent variability; maybe add two more repeats.
+[11] Jeff: Agreed; also align the run order with protocol v2.1.
+[12] Amina: Decision: Add two stair repeats to improve reliability.
+[13] Naomi: Tooling freeze means we need final zone durometers by Wednesday.
+[14] Amina: ACTION: Naomi to share the updated durometer spec sheet (zones A/B/C) to the team by 2026-05-15.
+[15] Priya: We can host a brief training for donning/durometer changes.
+[16] Amina: Let's keep the pilot window unchanged.
+[17] Jeff: I'll draft the QA checklist once calibration is confirmed.
+[18] Amina: ACTION: Jeff to draft and circulate the pilot QA checklist (v1) by 2026-05-22.
+[19] Carlos: Do we standardize the walking speed?
+[20] Amina: Yes, set 1.25 m/s target with ±5% tolerance.
+[21] Priya: I'll notify therapists about the timing.
+[22] Amina: Anything else before we wrap?

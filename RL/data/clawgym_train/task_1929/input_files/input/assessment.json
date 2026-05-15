@@ -1,0 +1,24 @@
+{
+  "assessmentData": {
+    "experience": {
+      "yearsInIT": 3,
+      "previousRoles": ["Backend Developer", "Junior DBA"],
+      "industryBackground": "E-commerce"
+    },
+    "skills": {
+      "programming": ["Python", "SQL", "Go"],
+      "mathematics": ["Statistics", "Linear Algebra"],
+      "ml_frameworks": ["Scikit-learn", "TensorFlow"]
+    },
+    "goals": {
+      "targetRole": "ML Engineer",
+      "timeline": "9 months",
+      "specialization": "MLOps"
+    },
+    "sessionId": "sess_pg_2026_0419",
+    "timestamp": "2026-04-19T09:15:00Z"
+  },
+  "sessionId": "sess_pg_2026_0419",
+  "userId": 101,
+  "timestamp": "2026-04-19T09:15:00Z"
+}

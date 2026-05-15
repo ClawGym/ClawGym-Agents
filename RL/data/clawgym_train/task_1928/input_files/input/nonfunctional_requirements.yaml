@@ -1,0 +1,83 @@
+platforms:
+  ios:
+    min_version: 15
+    target_version: current
+  android:
+    min_sdk: 24
+    target_sdk: current
+performance:
+  cold_start_ms: 2000
+  first_render_defer_noncritical_calls_ms: 3000
+  frame_rate_target_fps: 60
+  startup_time_budget_notes: "Show skeletons; delay heavy work and analytics until idle."
+battery:
+  location_policy:
+    default_mode: "when_in_use"
+    foreground_update_interval_sec: 60
+    background_strategy: "significant-change (iOS), balanced power (Android)"
+    high_accuracy_burst:
+      trigger: "explicit user request (e.g., 'Ping Technician')"
+      duration_sec: 120
+      cooldown_sec: 600
+  sync_policy:
+    batch_uploads: true
+    backoff:
+      base_seconds: 5
+      max_seconds: 900
+security:
+  storage:
+    tokens: "Keychain (iOS) / Keystore (Android)"
+    encryption_at_rest: true
+    pii_local_storage: "minimize; never store plaintext tokens"
+  transport:
+    tls: "TLS 1.2+"
+    pinning: "optional, environment-flagged"
+privacy:
+  data_minimization: true
+  analytics:
+    pii_free: true
+    crash_reporting_opt_in: true
+accessibility:
+  dynamic_type: true
+  screen_reader_support: "VoiceOver and TalkBack end-to-end flows"
+  color_contrast_min_ratio: "4.5:1"
+  touch_target_minimum: "44pt"
+offline:
+  must_operate_full_shift_without_network: true
+  cache_policies:
+    work_orders: "read-through cache with TTL 24h; stale-while-revalidate"
+    assets: "on-demand cached records with LRU eviction"
+  action_queue:
+    ordering: "FIFO with priority bump for supervisor overrides"
+    conflict_resolution_default: "last-write-wins (timestamped)"
+    conflict_manual_merge_triggers:
+      - "same work order step edited by tech and supervisor within 2h"
+      - "safety-critical fields (signature, safety_checks)"
+testing:
+  os_coverage:
+    ios: ["15", "16", "17"]
+    android: ["8.0", "10", "12", "14"]
+  devices:
+    - "iPhone SE (2nd gen)"
+    - "iPhone 13"
+    - "Pixel 5"
+    - "Samsung A32"
+    - "Samsung Tab Active"
+  network_conditions: ["offline", "slow-3g", "4g", "wifi"]
+reliability:
+  crash_free_rate_target: ">=99.5%"
+  ANR_target_android: "<0.5% sessions"
+deep_links:
+  universal_links_domain: "fieldops.example.com"
+  app_links_domain: "fieldops.example.com"
+  safe_param_parsing: "strict schema validation; reject unexpected keys"
+background:
+  tasks:
+    ios_background_task_limit_sec: 30
+    android_workmanager_backoff: "exponential, capped at 15 min"
+  sync_windows:
+    quiet_hours_local_time: ["22:00-06:00"]
+compliance:
+  privacy_policy_required: true
+  reviewer_test_account_required: true
+  no_placeholder_content: true

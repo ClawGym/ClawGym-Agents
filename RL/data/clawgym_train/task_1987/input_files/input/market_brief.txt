@@ -1,0 +1,60 @@
+Market: US SMB Payroll Software Segment (2026)
+
+Target Segment Scope
+- Company size: 1–200 employees, with initial ICP focus on 5–50 employees
+- Verticals: Services (professional services, healthcare clinics), retail, hospitality, light manufacturing, and tech-enabled small businesses
+- Buyer personas: Owner-operators, office managers, finance managers, and accountants/bookkeepers
+- Core jobs-to-be-done:
+  • Run compliant payroll for W-2 and 1099 workers (including multi-state and remote teams)
+  • Automate tax calculations, filings, and end-of-year forms (W-2/1099)
+  • Connect payroll to time tracking, scheduling, and accounting
+  • Offer basic benefits and garnishments without complexity
+  • Provide transparent pricing and responsive support
+
+Pain Points Observed
+- Multi-state complexity (nexus, reciprocal agreements, local taxes) causing setup delays and errors
+- Fragmented W-2/1099 workflows across different tools
+- Limited transparency in add-on fees for filings, year-end forms, and setup
+- Support delays during critical periods (payroll runs, year-end)
+- Weak integrations with time tracking/POS for frontline hourly teams
+- Onboarding time and data migration friction when switching providers
+
+Who “Us” Represents
+- Working name: NimbusPay (internal codename)
+- Company stage: Seed/early growth; 12-month US go-to-market plan
+- Positioning: Simple, transparent, and fast payroll for growing SMBs handling both W-2 and 1099, with strong multi-state automation and white-glove support
+- Product focus:
+  • Full-service payroll with automated federal/state/local tax calculations and filings
+  • Multi-state autopilot with in-product nexus guidance and reciprocal tax handling
+  • Unified W-2 and 1099 processing in one run; automated 1099 e-file
+  • Same-day/instant payouts to debit where supported; next-day ACH as default
+  • Native time import and broad integrations (QuickBooks Online, Xero)
+  • Open API for partners (time, POS, vertical SaaS)
+- Current limitations:
+  • Limited native benefits administration at launch (broker and partner integrations only)
+  • Early-stage accountant channel presence (building ProAdvisor/ASAP-like network)
+  • Lower brand awareness; credibility must be earned through experience and partners
+- Pricing posture: Value-to-Parity. Target entry pricing around $29 base + $5 per employee per month (subject to validation). Intro partner promos (e.g., 3 months free) to accelerate early adoption.
+- Go-to-market approach (Year 1):
+  • Self-serve digital (content, SEO/SEM) targeting multi-state and mixed W-2/1099 use cases
+  • Accountant/bookkeeper channel in 6 launch metros (TX, FL, AZ, GA, OH, CO)
+  • Vertical partnerships with time/POS vendors (e.g., Homebase, When I Work, Toast/Clover ecosystem where feasible)
+  • Launch-customer concierge onboarding and support SLAs
+
+Hypotheses to Validate
+- Primary wedge: Superior multi-state automation + unified W-2/1099 in a simple, transparent package for 5–50 employee firms
+- Service differentiation: Fast, high-quality support and guided migration reduces perceived switching risk vs incumbents
+- Channel leverage: Accountants and vertical partners can accelerate pipeline efficiency and lower CAC
+- Constraints: Competes with strong ecosystems (Intuit, ADP/Paychex) and newer suites (Rippling); need to prioritize segments where incumbents under-serve
+
+Success Metrics (Leading)
+- MQL-to-trial conversion rate from multi-state content paths
+- Trial-to-paid conversion with import/migration assist
+- First-payroll time-to-value (from signup to first successful run)
+- NPS/CSAT during first 90 days; support response SLAs
+- Accountant channel signed partners and attached accounts
+
+Assumptions
+- Nationwide tax coverage (including localities) is production-ready at launch
+- Integrations with QuickBooks Online, Xero, and top time tools available at GA
+- Sufficient runway to fund support-heavy onboarding for early cohorts

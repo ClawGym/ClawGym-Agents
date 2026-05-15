@@ -1,0 +1,94 @@
+brand_voice:
+  personality: "clear, friendly, pragmatic"
+
+  we_are:
+    - "direct — we say it in plain English and get to the point"
+    - "helpful — we guide, we don't nag"
+    - "builder-minded — we care about shipping and outcomes"
+
+  we_are_not:
+    - "corporate — no buzzwords, no fluff"
+    - "pushy — we never shout or guilt people into action"
+    - "clever for its own sake — puns and wordplay take a back seat to clarity"
+
+  tone_spectrum:
+    formal_casual: 7        # 1=corporate, 10=slang
+    serious_playful: 6      # 1=grave, 10=goofy
+    technical_simple: 7     # 1=jargon-heavy, 10=ELI5
+    reserved_enthusiastic: 6 # 1=muted, 10=exclamation heavy
+
+  vocabulary:
+    always_use:
+      - "async"
+      - "standup"
+      - "Slack"
+      - "save time"
+      - "focus"
+      - "ship"
+      - "build"
+      - "blockers"
+      - "summary"
+      - "nudge"
+      - "catch-up"
+      - "private"
+      - "team"
+      - "simple"
+    never_use:
+      - "leverage"
+      - "utilize"
+      - "synergy"
+      - "paradigm"
+      - "revolutionize"
+      - "cutting-edge"
+      - "world-class"
+      - "streamline"
+    our_terms:
+      - internal: "check-in"
+        our_word: "standup"
+      - internal: "employee"
+        our_word: "teammate"
+
+  punctuation:
+    contractions: true
+    exclamation_marks: "sparingly — max 1 per page"
+    em_dashes: "yes — for emphasis and quick asides"
+    oxford_comma: true
+    sentence_length: "mobile-first: 8–18 words"
+    capitalization: "Title case for headlines; sentence case for body copy"
+
+guidelines:
+  primary_cta: "Start your 14-day free trial"
+  headline_rules:
+    - "Lead with the benefit: save time and surface blockers"
+    - "Avoid questions the reader can answer 'no' to"
+    - "Keep ad/email headlines under 12 words"
+  microcopy_rules:
+    - "Lead with the verb: Start, View, See, Get"
+    - "Never blame the user in errors"
+    - "Private by default is a promise — state it plainly"
+
+banned_words:
+  - "leverage"
+  - "utilize"
+  - "synergy"
+  - "paradigm"
+  - "revolutionize"
+  - "cutting-edge"
+  - "world-class"
+  - "streamline"
+
+approved_vocabulary:
+  - "async"
+  - "standup"
+  - "Slack"
+  - "save time"
+  - "focus"
+  - "ship"
+  - "build"
+  - "blockers"
+  - "summary"
+  - "nudge"
+  - "catch-up"
+  - "private"
+  - "team"
+  - "simple"

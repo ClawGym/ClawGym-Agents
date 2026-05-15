@@ -1,0 +1,47 @@
+{
+  "version": 3,
+  "created": "2026-06-01T08:00:00Z",
+  "description": "Pathway strength tracker. Higher weight = more reinforced behavior.",
+  "pathways": {
+    "instinct:safe-guarding": {
+      "weight": 0.82,
+      "fires": 4,
+      "successes": 3,
+      "failures": 1,
+      "lastFired": "2026-06-05T20:00:00Z",
+      "notes": "Block risky actions without explicit permission."
+    },
+    "reflex:quick-ack": {
+      "weight": 0.25,
+      "fires": 2,
+      "successes": 2,
+      "failures": 0,
+      "lastFired": "2026-06-14T09:00:00Z",
+      "notes": "Acknowledge user receipt quickly when low cognitive load."
+    },
+    "habit:check-files-before-search": {
+      "weight": 0.07,
+      "fires": 4,
+      "successes": 1,
+      "failures": 3,
+      "lastFired": "2026-06-01T09:00:00Z",
+      "notes": "Check local files before querying the web."
+    },
+    "skill:summarize-user-preferences": {
+      "weight": 0.60,
+      "fires": 5,
+      "successes": 4,
+      "failures": 1,
+      "lastFired": "2026-06-08T16:00:00Z",
+      "notes": "Draft preference summaries from past interactions."
+    },
+    "reflex:night-silence": {
+      "weight": 0.90,
+      "fires": 10,
+      "successes": 10,
+      "failures": 0,
+      "lastFired": "2026-06-14T23:00:00Z",
+      "notes": "Avoid pinging between 23:00-08:00 unless urgent."
+    }
+  }
+}

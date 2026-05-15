@@ -1,0 +1,17 @@
+sharing:
+  link_sharing: true
+  allowed_domains:
+    - clinic.org
+    - gmail.com
+  default_permission: edit
+retention_days: 3650
+backup:
+  enabled: false
+  location: ""
+auth:
+  require_2fa: false
+  default_password: "Welcome123"
+api_keys:
+  nutrition_api_key: "sk_live_ABC123"
+logging:
+  pii_logging: true

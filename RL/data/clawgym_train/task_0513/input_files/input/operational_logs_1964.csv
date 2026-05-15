@@ -1,0 +1,11 @@
+record_id,date,train_id,locomotive_class,origin,destination,scheduled_departure,actual_departure,scheduled_arrival,actual_arrival,distance_miles,notes
+1,1964-03-12,1M10,Class 47,London Euston,Manchester Piccadilly,08:30,08:35,11:00,11:12,186,Diesel express
+2,1964-03-12,1A20,Class 55,London King's Cross,Leeds,09:05,09:02,11:30,11:40,185,Deltic
+3,1964-03-12,2F15,Black Five,Crewe,Liverpool Lime Street,10:10,10:12,11:00,11:05,46,Steam local
+4,1964-03-13,1M11,Class 47,London Euston,Birmingham New Street,08.30,08:33,10:00,10:05,113,Invalid scheduled time format
+5,1964-03-13,1A25,Class 55,London King's Cross,Newcastle,10:00,10:01,12:40,12:50,N/A,Deltic distance missing
+6,1964-03-13,2P20,Black Five,Preston,Manchester Victoria,14:20,14:25,13:50,14:10,32,Arrival before departure in schedule
+7,1964-03-13,1F30,Class 47,Manchester Piccadilly,Sheffield,15:00,15:10,16:20,14:55,38,Actual arrival earlier than departure
+8,1964-03-14,1B50,,London Paddington,Bristol Temple Meads,09:00,09:06,10:55,11:10,118,Missing class
+9,1964-03-14,1S76,Class 47,London Euston,Glasgow Central,10:30,10:35,16:15,16:40,401,Diesel to Scotland
+10,1964-03-14,2V12,Class 35,Reading,Cardiff Central,12:10,12:12,14:25,14:30,96,Hymek

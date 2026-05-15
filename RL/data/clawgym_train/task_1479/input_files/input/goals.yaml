@@ -1,0 +1,53 @@
+launch_name: "RelayHub Automation Suite v2.0"
+timeframe_weeks: 6
+launch_window:
+  start_date: 2026-04-20
+  end_date: 2026-05-31
+primary_kpis:
+  demo_bookings_target: 220
+  trial_signups_target: 350
+  pipeline_generated_target_usd: 600000
+  mqls_target: 800
+secondary_kpis:
+  open_rate_target: ">=22%"
+  click_rate_target: ">=2.5%"
+  bounce_rate_max: "<=1.5%"
+  unsubscribe_rate_max: "<=0.5%"
+  spam_complaints_max: "<=0.1%"
+  webinar_registrations_target: 300
+  reply_rate_target: ">=1.0%"
+audience_focus:
+  industries: ["SaaS", "Fintech", "BioTech", "Manufacturing", "Logistics"]
+  company_size: ["200-2000", "2000+"]
+  personas: ["VP Operations", "Head of IT", "Platform Engineering", "Compliance"]
+offers:
+  - type: "Live Webinar"
+    title: "Automation That Survives Audit Season"
+    url: "https://relayhub.io/webinar"
+  - type: "Self-Serve Trial"
+    title: "14-day trial (no credit card)"
+    url: "https://relayhub.io/trial"
+  - type: "Book a Demo"
+    title: "Personalized workflow assessment"
+    url: "https://relayhub.io/demo"
+  - type: "ROI Calculator"
+    title: "Quantify handoff and SLA savings"
+    url: "https://relayhub.io/roi"
+constraints:
+  - "Dedicated IP warming required; start at 100/day and increase ~20% daily"
+  - "B2B-friendly timing: prioritize Tuesday–Thursday mid-morning local time"
+  - "Honor regional compliance (GDPR for EU/UK, CAN-SPAM for US)"
+  - "Max 2 marketing emails/week/segment; customers max 1 promo/week"
+  - "Exclude users without marketing consent in preferences"
+  - "Physical address must be in every footer"
+  - "One-click unsubscribe must route to working endpoint; removals immediate"
+  - "Avoid spam trigger language in subject lines and preview text"
+resources:
+  copywriters: 1
+  designers: 0
+  marketing_ops: 1
+  sales_followup_sla_hours: 24
+notes:
+  - "Sales team will call all demo bookings within 24 hours"
+  - "Outreach will coordinate with SDR calendar to avoid overlap"
+  - "We will A/B test subject lines first; then CTA copy in week 2–3"

@@ -1,0 +1,4 @@
+sku,current_stock,avg_daily_demand,demand_sd,lead_time_days,lead_time_sd,service_level,moq,pack_size,review_cycle_days
+Miku Hoodie,140,9,3.5,14,5,0.95,60,6,7
+Pixel Cat Mug,95,12,4,7,2,0.90,24,12,7
+Aurora Desk Lamp,120,3.2,1.5,30,7,0.97,50,10,14

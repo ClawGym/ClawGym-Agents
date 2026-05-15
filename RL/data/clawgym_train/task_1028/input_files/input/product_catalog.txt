@@ -1,0 +1,4 @@
+SKU-1001|Basic Widget|19.99
+SKU-1002|Deluxe Widget|29.99
+SKU-1003|Super Gadget|49.99
+SKU-1004|Refill Pack|9.99

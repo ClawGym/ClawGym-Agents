@@ -1,0 +1,6 @@
+client_name,email,address,room,hazard_category,severity,notes
+Harper Family,harper@example.com,12 Maple St Springfield,Kitchen,Cabinet Access,5,Cleaning supplies under sink accessible
+Harper Family,harper@example.com,12 Maple St Springfield,Living Room,Electrical Outlets,4,Several unused outlets near play area
+Harper Family,harper@example.com,12 Maple St Springfield,Stairs,Stairs,5,No gate at top or bottom
+Harper Family,harper@example.com,12 Maple St Springfield,Nursery,Furniture Tip-over,3,Tall dresser not anchored
+Harper Family,harper@example.com,12 Maple St Springfield,Bedroom,Cords & Blinds,4,Long blind cords near crib

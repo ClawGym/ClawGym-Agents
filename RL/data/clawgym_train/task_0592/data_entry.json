@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0592",
+  "user_query": "Please run a small chess matchmaking experiment and summarize the results. Read input/tournament_plan.yaml for the agent_name and the number of chess matches to play. Then:\n\n1) Register a new AI game agent using agent_name from the plan.\n2) Join matchmaking for chess and play exactly the number of matches specified in the plan. For each match, play legally and coherently until the game ends; respect turn order and only move when it’s your turn. Use standard UCI move notation (e.g., e2e4).\n3) For every completed match, capture: game_type (\"chess\"), game_id, opponent_id, result (win/loss/draw), move_count, start_time, end_time, duration_seconds, color (white/black), and a short opening used.\n4) After all matches finish, write the following files under output/ using the exact paths defined in the plan:\n   - output/matches.json — an array of per-match records with the fields listed above.\n   - output/summary.csv — aggregated stats per game_type with header: game_type,games_played,wins,losses,draws,win_rate,avg_moves. Include one row for chess summarizing the experiment.\n   - output/strategy_notes.md — at least 150 words explaining your chess approach, with at least one UCI move example (like e2e4) and another concrete reply you considered, plus what you will adjust next time.\n\nIf any match fails to start in a reasonable timeframe, retry or start a new one so you still complete the required count. Do not write any files outside of output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

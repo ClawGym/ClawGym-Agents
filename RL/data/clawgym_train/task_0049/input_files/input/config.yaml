@@ -1,0 +1,20 @@
+source: "Project Gutenberg"
+ebook_id: 1342
+title: "Pride and Prejudice"
+language: "English"
+# Validation bounds for number of chapters (inclusive)
+expected_min_chapters: 60
+expected_max_chapters: 70
+# Top-k ranking for longest chapters by word count
+top_k: 5
+# Threshold for long chapters in long_chapters.csv
+min_words_for_inclusion: 2000
+# Workspace and output paths (agents should honor these paths)
+workspace_dir: "workspace"
+outputs:
+  raw_html: "workspace/raw/1342.html"
+  chapters_csv: "workspace/chapters.csv"
+  topk_csv: "workspace/top5_chapters.csv"
+  long_chapters_csv: "workspace/long_chapters.csv"
+  stats_json: "workspace/stats.json"
+  validation_json: "workspace/validation_results.json"

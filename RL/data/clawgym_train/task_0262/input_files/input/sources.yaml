@@ -1,0 +1,25 @@
+sources:
+  - id: card
+    name: Comprehensive Antibiotic Resistance Database (CARD)
+    domain_patterns:
+      - card.mcmaster.ca
+    page_hints:
+      - "Release Notes"
+      - "News"
+  - id: amrfinderplus
+    name: NCBI AMRFinderPlus
+    domain_patterns:
+      - ncbi.nlm.nih.gov
+      - github.com/ncbi/amr
+    page_hints:
+      - "Release notes"
+      - "Changelog"
+  - id: resfinder
+    name: ResFinder (CGE, DTU)
+    domain_patterns:
+      - cge.food.dtu.dk
+      - cge.cbs.dtu.dk
+    page_hints:
+      - "News"
+      - "Updates"
+      - "Release notes"

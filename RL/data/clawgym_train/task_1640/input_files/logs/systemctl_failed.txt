@@ -1,0 +1,11 @@
+UNIT                                    LOAD   ACTIVE SUB     DESCRIPTION
+● bluetooth.service                      loaded failed failed  Bluetooth service
+● docker.service                         loaded failed failed  Docker Application Container Engine
+● network-manager-wait-online.service    loaded failed failed  Network Manager Wait Online
+  snapd.seeded.service                   loaded active exited  Snapd seeded service
+
+LOAD   = Reflects whether the unit definition was properly loaded.
+ACTIVE = The high-level unit activation state, i.e. generalization of SUB.
+SUB    = The low-level unit activation state, values depend on unit type.
+
+3 loaded units listed.

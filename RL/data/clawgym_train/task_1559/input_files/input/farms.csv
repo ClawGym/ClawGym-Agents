@@ -1,0 +1,13 @@
+farm_id,county,acreage,cover_crop,nutrient_plan,buffer_strips,implementation_cost_usd
+GF1,Greenfield,120,yes,yes,yes,5000
+GF2,Greenfield,200,yes,no,yes,7000
+GF3,Greenfield,150,yes,yes,no,6500
+GF4,Greenfield,90,no,no,no,4000
+RV1,Riverton,180,yes,yes,yes,8000
+RV2,Riverton,110,no,no,no,3000
+RV3,Riverton,160,yes,no,yes,5500
+RV4,Riverton,130,no,yes,no,4500
+RV5,Riverton,95,no,no,no,3500
+PC1,Pinecrest,140,yes,yes,yes,6000
+PC2,Pinecrest,105,no,yes,no,4800
+PC3,Pinecrest,155,yes,yes,no,5200

@@ -1,0 +1,7 @@
+product_id,rating,defects_reported,refunds,is_premium
+A,4.5,0,0,true
+A,4.0,1,0,false
+A,3.0,0,1,false
+B,5.0,0,0,true
+B,4.2,2,0,false
+C,3.8,1,1,false

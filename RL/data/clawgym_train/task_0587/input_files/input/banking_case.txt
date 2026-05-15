@@ -1,0 +1,16 @@
+Case ID: FIN-ACH-2026-0418-027
+Jurisdiction: US
+Customer type: Business (SMB)
+Account type: Business checking (operating)
+Payment rail: ACH batch (originated same-day attempt)
+Attempted at: 2026-04-18T17:15:00-04:00 (after bank cutoff 17:00 ET)
+Amount: 23,450 USD
+Beneficiary: Approved vendor on file (ownership and routing validated last month)
+Status: File accepted by originator but held for next-window processing due to cutoff miss and routine risk checks
+Controls:
+- Ownership/beneficiary validation: complete (no changes since last verification)
+- Dual approvals: completed
+- Recall/rollback: possible before settlement window opens next business day
+Operational preference: If customer confirms urgency, queue for first morning release; otherwise cancel upon confirmation to avoid duplicate attempts.
+Customer impact: Payment not settled today; no fees assessed; funds remain available until next processing window.
+Requested customer response: Confirm proceed-next-window or cancel.

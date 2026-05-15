@@ -1,0 +1,37 @@
+{
+  "max_battles": 3,
+  "care_rules": {
+    "rest": {
+      "when": { "energy_below": 30 },
+      "effect": { "energy": 25 },
+      "cost": 0,
+      "description": "Recover energy by resting."
+    },
+    "feed": {
+      "when": { "hunger_above": 60 },
+      "effect": { "hunger": -20 },
+      "cost": 10,
+      "description": "Feed your Molt to reduce hunger by 20."
+    },
+    "play": {
+      "when": { "happiness_below": 40 },
+      "effect": { "happiness": 15 },
+      "cost": 5,
+      "description": "Play to increase happiness by 15."
+    },
+    "groom": {
+      "when": { "health_below": 50 },
+      "effect": { "health": 10 },
+      "cost": 8,
+      "description": "Groom to increase health by 10."
+    }
+  },
+  "optimal_condition": {
+    "health_min": 80,
+    "energy_min": 80,
+    "hunger_max": 30,
+    "happiness_min": 80
+  },
+  "clamp_range": { "min": 0, "max": 100 },
+  "notes": "Clamp all stats to 0–100 after each step."
+}

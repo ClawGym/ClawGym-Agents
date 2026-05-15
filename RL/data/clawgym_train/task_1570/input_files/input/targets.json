@@ -1,0 +1,8 @@
+{
+  "base_currency": "EUR",
+  "targets": [
+    {"campaign": "Search - Brand", "target_cpa_eur": 3.5, "target_roas": 4.0},
+    {"campaign": "Search - NonBrand", "target_cpa_eur": 12.0, "target_roas": 2.0},
+    {"campaign": "Display - Retargeting", "target_cpa_eur": 8.0, "target_roas": 3.0}
+  ]
+}

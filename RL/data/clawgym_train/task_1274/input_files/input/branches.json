@@ -1,0 +1,44 @@
+{
+  "current_branch": "release/v1.9",
+  "local_branches": [
+    "main",
+    "master",
+    "release/v1.9",
+    "feature/onboarding",
+    "bugfix/header-padding",
+    "chore/ci-cache",
+    "refactor/api-v2",
+    "hotfix/critical-issue",
+    "feature/long_name",
+    "docs/update-readme",
+    "feature/login--merged-2026-03-09",
+    "experiment/new-ui",
+    "feature/wip"
+  ],
+  "merged_into_main": [
+    "main",
+    "feature/onboarding",
+    "bugfix/header-padding",
+    "chore/ci-cache",
+    "refactor/api-v2",
+    "hotfix/critical-issue",
+    "feature/long_name",
+    "docs/update-readme",
+    "release/v1.9",
+    "feature/login--merged-2026-03-09",
+    "master"
+  ],
+  "merge_dates": {
+    "feature/onboarding": "2026-03-15",
+    "refactor/api-v2": "2026-03-10",
+    "hotfix/critical-issue": "2026-03-12",
+    "docs/update-readme": "2026-03-08"
+  },
+  "branch_tip_dates": {
+    "bugfix/header-padding": "2026-03-14",
+    "feature/long_name": "2026-03-11",
+    "release/v1.9": "2026-03-16",
+    "experiment/new-ui": "2026-03-05",
+    "feature/wip": "2026-03-02"
+  }
+}

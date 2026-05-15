@@ -1,0 +1,14 @@
+../secrets.txt
+../../etc/passwd
+notes/../secrets.txt
+report final!!.md
+config.yaml
+weird$name?.txt
+logs/2026-04-16.log
+my..hidden
+ space name.txt
+CON
+invoices-2026/Q2.csv
+backup.tar.gz
+unsafe;rm -rf.txt
+project:plan.md

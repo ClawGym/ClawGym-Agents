@@ -1,0 +1,10 @@
+compose_version: "3.9"
+environment: "staging"
+service_name: "internship-portal"
+image: "nginx:alpine"
+host_port: 8080
+container_port: 80
+volume_content_dir: "site"
+env_vars:
+  APP_ENV: "staging"
+  ORG_NAME: "River Town Community Partners"

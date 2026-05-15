@@ -1,0 +1,42 @@
+owner: Jordan Lee
+timezone: America/New_York
+
+categories:
+  - projects
+  - people
+  - decisions
+  - knowledge
+  - collections
+
+category_descriptions:
+  projects: Detailed project histories, context, and next steps
+  people: Contact profiles, context, and interaction history
+  decisions: Reasoned decisions with outcomes and revisit dates
+  knowledge: Reference notes and learning topics
+  collections: Lists like books, recipes, ideas
+
+preferences:
+  find_method: both
+  maintenance: weekly
+  maintenance_day: Friday
+  maintenance_time: "16:00"
+  indexing_limits:
+    category_max_entries: 100
+
+sync:
+  from_builtin: true
+  include:
+    - preferences
+    - decisions
+
+notes:
+  - Keep indices concise and split when >100 entries.
+  - Favor cross-references over duplication (projects ↔ people ↔ decisions).
+  - Use kebab-case filenames based on slugs.
+
+category_order:
+  - projects
+  - people
+  - decisions
+  - knowledge
+  - collections

@@ -1,0 +1,35 @@
+AcmeCo WellLife Program — Employee Brochure (v1.2)
+
+Overview
+WellLife is an optional program designed to help employees build healthy habits. You can participate using a compatible wearable or the WellLife mobile app.
+
+Incentives
+• Annual premium reduction: $300 for completing quarterly check‑ins.
+• Monthly raffles for participants who meet personal goals.
+
+What’s Included
+• Personalized coaching via in‑app chat and quarterly webinars.
+• Habit tracking: steps, resting heart rate, and sleep duration.
+• Self‑reported check‑ins on nutrition, stress, and activity.
+
+Data at a Glance
+• Data types we track: steps, heart rate, sleep duration, and questionnaire responses.
+• No GPS or precise geolocation data is collected.
+• We use aggregated, anonymized insights to improve WellLife’s design.
+
+Time Expectations
+• Estimated weekly time commitment: 45–60 minutes.
+
+Participation & Opt‑Out
+• Participation is voluntary and can be stopped at any time.
+• Your health coverage and employment status are unaffected by non‑participation.
+
+Support
+• In‑app chat support: weekdays 9am–6pm.
+• Email support available for account issues.
+
+Security Snapshot
+• Data are encrypted in transit and at rest.
+
+Contact
+For questions about the program, contact HR or the WellLife support team.

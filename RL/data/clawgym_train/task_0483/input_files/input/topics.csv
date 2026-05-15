@@ -1,0 +1,7 @@
+topic,category,urgency,stakeholders,question
+Dual-use risk training for CRISPR workshop,Biosecurity,High,PI; Biosafety Officer; Student Team,What training and safeguards should we implement to minimize dual-use misuse without stifling learning?
+Consent and de-identification for community tissue samples,Ethics/IRB,High,Lab Manager; IRB Office; Student Team,How do we obtain meaningful consent and manage de-identification when storing community-derived tissue samples?
+Data retention policy for human-derived genomic data,Data Governance,High,PI; Data Steward; Student Team,What is an appropriate retention period and access control plan for human-derived genomic data used in class projects?
+Animal model alternatives for enzyme assay,Animal Ethics,Medium,Lab Manager; Faculty Mentor; Student Team,Can we replace or reduce animal-derived materials for our enzyme assay without compromising educational outcomes?
+Equitable access framing for iGEM poster,Science Communication,Medium,Team Lead; Student Team,How should we frame benefits and access to our design so it does not overlook under-resourced communities?
+AI-assisted colony counting bias audit,AI Ethics,Low,Faculty Mentor; Student Team,What checks can we run to detect bias in AI-assisted colony counting before we rely on it in reports?

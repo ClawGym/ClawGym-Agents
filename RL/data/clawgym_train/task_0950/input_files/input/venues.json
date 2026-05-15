@@ -1,0 +1,6 @@
+[
+  {"venue_id": "P1-CCA", "precinct": "Precinct 1", "name": "Community Center A", "address": "123 Main St", "capacity": 8, "available_slots": ["Tue 6-7pm", "Thu 6-7pm"]},
+  {"venue_id": "P1-LIB", "precinct": "Precinct 1", "name": "Library Room B", "address": "45 Elm St", "capacity": 6, "available_slots": ["Wed 6-7pm"]},
+  {"venue_id": "P2-CAF", "precinct": "Precinct 2", "name": "Cafe Downtown", "address": "9 River Rd", "capacity": 10, "available_slots": ["Tue 6-7pm", "Sat 10-11am"]},
+  {"venue_id": "P2-PAV", "precinct": "Precinct 2", "name": "Park Pavilion", "address": "77 Oak Ave", "capacity": 5, "available_slots": ["Thu 6-7pm", "Sat 10-11am"]}
+]

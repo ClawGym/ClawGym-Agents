@@ -1,0 +1,25 @@
+[
+  {
+    "name": "wqelt-usdc-0.3",
+    "currencyA": "0xfebc6f9f0149036006c4f5ac124685e0ef48e8a2",
+    "currencyB": "0x4a4c8b1f8f285a8e96cbe7f9d4272ca4b178b0f3",
+    "fee": 3000,
+    "tickSpacing": 60,
+    "hooks": null
+  },
+  {
+    "name": "usdc-qusd-0.05",
+    "currencyA": "0x4a4c8b1f8f285a8e96cbe7f9d4272ca4b178b0f3",
+    "currencyB": "0x9dbe2f3a7cd5c4b0656a3d21b5e3c4f452f8221a",
+    "fee": 500,
+    "tickSpacing": 10
+  },
+  {
+    "name": "wqelt-qalt-1.00-hooked",
+    "currencyA": "0x6e1a7bde89bb5d4a2f113bbc6f79ee30fd8dc1e1",
+    "currencyB": "0xfebc6f9f0149036006c4f5ac124685e0ef48e8a2",
+    "fee": 10000,
+    "tickSpacing": 200,
+    "hooks": "0x2f7adabd6050e2fa9952b8f4f0bb0d1dfaf3fe40"
+  }
+]

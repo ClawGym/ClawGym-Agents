@@ -1,0 +1,16 @@
+version: 1
+etl_name: Users Daily ETL
+run_notes: Daily users dataset refresh with standard QA checks
+steps:
+  - category: ingest
+    message: Loaded 50000 rows from users.csv into staging table
+  - category: transform
+    message: Standardized email to lowercase and trimmed whitespace; removed 12 duplicate rows
+  - category: validate
+    message: Schema check passed for users dataset with 15 required fields and 0 nulls in primary key
+  - category: aggregate
+    message: Calculated daily active users by region using last_login date; total 12345 across 5 regions
+  - category: profile
+    message: Profiled users table: 125000 rows, 3.2% null emails, age range 18-99, median age 34
+  - category: pipeline
+    message: Daily ETL completed: ingest->transform->validate->aggregate->profile in 4m32s

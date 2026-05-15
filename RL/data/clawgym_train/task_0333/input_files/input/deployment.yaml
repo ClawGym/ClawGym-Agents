@@ -1,0 +1,9 @@
+environment: staging
+service_name: VbApp.Service
+staging_path: "output/staging"
+required_env_vars:
+  API_BASE_URL: "appSettings:ApiBaseUrl"
+  LOG_LEVEL: "appSettings:LogLevel"
+  FEATURE_X_ENABLED: "appSettings:FeatureXEnabled"
+  TELEMETRY_KEY: "appSettings:TelemetryKey"
+  MAINDB_CONNECTIONSTRING: "connectionStrings:MainDb"

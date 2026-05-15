@@ -1,0 +1,21 @@
+Account,Type,Balance
+Sales,Income,150000
+Returns and Allowances,Contra-Income,2000
+Cost of Goods Sold,COGS,40000
+Advertising,Expense,3000
+Contract Labor,Expense,5800
+Legal & Professional,Expense,2400
+Rent - Property,Expense,12000
+Repairs & Maintenance,Expense,4100
+Travel,Expense,2200
+Meals (Business),Expense,2400
+Utilities,Expense,1800
+Bitcoin Holdings,Asset,15500
+Cash and Cash Equivalents,Asset,40000
+Accounts Receivable,Asset,6000
+Fixed Assets,Asset,8000
+Accumulated Depreciation,Contra-Asset,-2000
+Accounts Payable,Liability,7500
+Credit Card Payable,Liability,5000
+Loan Payable,Liability,15000
+Owner's Equity,Equity,42000

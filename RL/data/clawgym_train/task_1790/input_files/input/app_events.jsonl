@@ -1,0 +1,9 @@
+{"timestamp":"2026-03-22T14:00:01Z","level":"INFO","message":"User signed in","user":"alice","ip":"192.0.2.10","request_id":"req-1"}
+{"timestamp":"2026-03-22T14:01:15Z","level":"WARN","message":"Suspicious activity pattern on admin endpoint","ip":"198.51.100.23","path":"/admin","request_id":"req-2"}
+{"timestamp":"2026-03-22T14:02:20Z","level":"ERROR","message":"Authentication failed for user","user":"unknown","ip":"203.0.113.5","path":"/api/auth","request_id":"req-3"}
+{"timestamp":"2026-03-22T14:03:05Z","level":"INFO","message":"Background job processed","job":"email_digest","duration_ms":120,"request_id":"req-4"}
+{"timestamp":"2026-03-22T14:04:12Z","level":"CRITICAL","message":"Payment service timeout","service":"payments","status":504,"ip":"198.51.100.23","request_id":"req-5"}
+{"timestamp":"2026-03-22T14:05:29Z","level":"ERROR","message":"Rate limit exceeded","ip":"198.51.100.23","path":"/api/login","request_id":"req-6"}
+{"timestamp":"2026-03-22T14:06:11Z","level":"WARNING","message":"Multiple 401s observed from client","ip":"203.0.113.5","count":7,"request_id":"req-7"}
+{"timestamp":"2026-03-22T14:07:33Z","level":"DEBUG","message":"Cache warm complete","keys":12,"request_id":"req-8"}
+{"timestamp":"2026-03-22T14:08:45Z","level":"INFO","message":"Health check OK","request_id":"req-9"}

@@ -1,0 +1,18 @@
+service_levels:
+  AX: 0.975
+  AY: 0.95
+  AZ: 0.93
+  BX: 0.95
+  BY: 0.95
+  BZ: 0.90
+  CX: 0.92
+  CY: 0.90
+  CZ: 0.85
+defaults:
+  A: 0.95
+  B: 0.95
+  C: 0.90
+overrides:
+  sku:
+    OJ-64OZ: 0.97
+    GRANOLA-BAR-12PK: 0.95

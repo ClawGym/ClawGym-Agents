@@ -1,0 +1,22 @@
+[
+  {
+    "event": "view",
+    "timestamp": "2025-01-02T10:00:00Z",
+    "user": "carol"
+  },
+  {
+    "event": "add_to_cart",
+    "timestamp": "2025-01-02T09:58:00Z",
+    "user": "bob"
+  },
+  {
+    "event": "purchase",
+    "timestamp": "2025-01-02T10:05:00Z",
+    "user": "bob"
+  },
+  {
+    "event": "view",
+    "timestamp": "2025-01-01T12:00:00Z",
+    "user": "alice"
+  }
+]

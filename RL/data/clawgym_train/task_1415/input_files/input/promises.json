@@ -1,0 +1,8 @@
+[
+  {"customer": "Vertex Pharma", "invoice_id": "INV-4007", "amount": 3900.00, "promise_date": "2026-03-15", "status": "broken"},
+  {"customer": "Northbridge Medical", "invoice_id": "INV-2010", "amount": 1150.00, "promise_date": "2026-04-05", "status": "kept"},
+  {"customer": "Pacific BioLabs", "invoice_id": "INV-3101", "amount": 2800.00, "promise_date": "2026-04-20", "status": "open"},
+  {"customer": "Evergreen Health", "invoice_id": "INV-5002", "amount": 650.00, "promise_date": "2026-04-18", "status": "open"},
+  {"customer": "Acme Diagnostics", "invoice_id": "INV-0944", "amount": 2100.00, "promise_date": "2026-03-10", "status": "broken"},
+  {"customer": "Acme Diagnostics", "invoice_id": "INV-0901", "amount": 800.00, "promise_date": "2026-03-01", "status": "kept"}
+]

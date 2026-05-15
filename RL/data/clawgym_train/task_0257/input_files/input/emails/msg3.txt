@@ -1,0 +1,18 @@
+From: School Counselor <counselor@ps118.edu>
+To: Intake <intake@childtherapy.local>
+Subject: Evaluation referral - neuropsych
+Date: Wed, 10 Apr 2024 08:05:00 -0400
+Message-ID: <msg3@workspace.local>
+
+Hello Intake Team,
+We are referring a student for a neuropsychological evaluation.
+
+---- Intake Details ----
+Child Name: Ava L.
+Age: 7
+Preferred Times: mornings any
+Completed Intake: Yes
+------------------------
+
+Best,
+School Counselor

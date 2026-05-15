@@ -1,0 +1,6 @@
+ticket_id,date,retailer,game,pick_type,numbers,cost_cad,result,prize_cad
+T-20240202-01,2024-02-02,Cranbrook Superette,Lotto 6/49,Quick Pick,"03 15 22 29 41 46",3.00,lose,0.00
+T-20240207-01,2024-02-07,7-Eleven Cranbrook,BC 49,Personal,"05 10 20 30 40 49",2.00,win,3.00
+T-20240214-01,2024-02-14,Tamarack Centre Kiosk,Lotto Max,Quick Pick,"01 14 21 27 33 38 47",5.00,win,20.00
+T-20240221-01,2024-02-21,Cranbrook Superette,Daily Grand,Personal,"04 17 25 36 47",3.00,lose,0.00
+T-20240228-01,2024-02-28,7-Eleven Cranbrook,BC 49,Quick Pick,"02 12 19 28 35 44",2.00,lose,0.00

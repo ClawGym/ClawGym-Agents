@@ -1,0 +1,17 @@
+{
+  "initial_limit": 20,
+  "steps": [
+    {"action": "gate"},
+    {"action": "record", "times": 18},
+    {"action": "gate"},
+    {"action": "record", "times": 1},
+    {"action": "gate"},
+    {"action": "record", "times": 1},
+    {"action": "gate"},
+    {"action": "pause", "minutes": 5},
+    {"action": "gate"},
+    {"action": "resume"},
+    {"action": "set-limit", "limit": 40},
+    {"action": "gate"}
+  ]
+}

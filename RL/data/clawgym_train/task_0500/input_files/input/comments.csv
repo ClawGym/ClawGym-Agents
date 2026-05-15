@@ -1,0 +1,11 @@
+id,language,project_code,comment_text
+1,es,PRJ001,"La asistencia escolar ha mejorado, pero el acceso al agua potable sigue siendo un problema."
+2,fr,PRJ002,"La fréquentation scolaire est stable; le revenu du ménage a légèrement augmenté."
+3,en,PRJ001,"Vaccination uptake is still low and clinic wait time is long."
+4,es,PRJ003,"La formación docente es prioritaria y la vacunación requiere más campañas."
+5,fr,PRJ003,"L'accès à l'eau potable s'est amélioré, mais le temps d'attente à la clinique reste élevé."
+6,es,PRJ002,"Los ingresos del hogar no alcanzan; además, el tiempo de espera en la clínica desalienta visitas."
+7,fr,PRJ004,"Nous avons formé 20 instituteurs (formation des enseignants) et la fréquentation scolaire augmente."
+8,es,PRJ004,"Sin cambios en asistencia escolar, pero mejor vacunación en zonas rurales."
+9,en,PRJ005,"Community feedback mentions clean water access and household income pressures."
+10,fr,PRJ005,"La couverture vaccinale progresse; le revenu du ménage reste faible."

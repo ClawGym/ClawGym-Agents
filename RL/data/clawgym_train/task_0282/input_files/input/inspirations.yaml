@@ -1,0 +1,13 @@
+schedule:
+  Monday: "Maya Angelou"
+  Tuesday: "Albert Einstein"
+  Wednesday: "Oscar Wilde"
+  Thursday: "Virginia Woolf"
+  Friday: "Nelson Mandela"
+
+authors:
+  - name: "Maya Angelou"
+  - name: "Albert Einstein"
+  - name: "Oscar Wilde"
+  - name: "Virginia Woolf"
+  - name: "Nelson Mandela"

@@ -1,0 +1,4 @@
+field_id,acres,expected_yield_lbs_per_acre,notes
+F1,50,950,"Bottom field"
+F2,80,1050,"Center pivot"
+F3,70,1000,"North dryland"

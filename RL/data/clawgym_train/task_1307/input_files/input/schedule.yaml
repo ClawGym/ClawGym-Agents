@@ -1,0 +1,7 @@
+runs:
+  - id: run_a
+    delay_seconds: 1
+    cmd: "python scripts/train_run_a.py --out outputs/runs/run_a.json"
+  - id: run_b
+    delay_seconds: 1
+    cmd: "python scripts/train_run_b.py --out outputs/runs/run_b.json"

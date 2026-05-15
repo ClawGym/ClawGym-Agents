@@ -1,0 +1,5 @@
+id,name,city,neighborhood,nonprofit
+b01,Maple Leaf Books,Portland,Alberta Arts,false
+b02,Riverbend Books,Austin,South Congress,false
+b03,Heron & Pine,Burlington,Old North End,true
+b04,Third Place Pages,Seattle,Ravenna,false

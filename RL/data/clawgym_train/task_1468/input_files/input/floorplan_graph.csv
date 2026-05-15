@@ -1,0 +1,7 @@
+room_u,room_v,door_width_m
+RoomA,RoomB,1.6
+RoomB,RoomC,1.2
+RoomC,RoomD,0.9
+RoomB,RoomD,1.1
+RoomB,RoomE,0.8
+RoomA,RoomE,1.0

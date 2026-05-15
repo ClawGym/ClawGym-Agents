@@ -1,0 +1,4 @@
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1       120G   84G   32G  72% /
+tmpfs            16G   64M   16G   1% /dev/shm
+/dev/sdb1       500G  100G  400G  20% /media/photos

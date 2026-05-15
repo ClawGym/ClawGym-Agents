@@ -1,0 +1,12 @@
+required_phrases:
+  - cosmology mini fact-check
+  - volunteer
+  - 15 minutes
+subject_prefix: Cosmic Check-in
+max_word_counts:
+  invite: 150
+  mod_dm: 100
+dm_required_keywords:
+  - permission
+  - post
+  - volunteers

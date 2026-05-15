@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "categories": [
+    {
+      "category": "Privacy Policy",
+      "requirements": [
+        {"id": "PP1", "description": "Identify data collected (e.g., name, email)", "keywords": ["data we collect", "name", "email"], "must_appear_in": ["input/policies/privacy_policy.md"]},
+        {"id": "PP2", "description": "State lawful basis for processing (e.g., consent, legitimate interests)", "keywords": ["lawful basis", "consent", "legitimate interests"], "must_appear_in": ["input/policies/privacy_policy.md"]},
+        {"id": "PP3", "description": "Provide retention period", "keywords": ["retain", "retention", "12 months"], "must_appear_in": ["input/policies/privacy_policy.md"]},
+        {"id": "PP4", "description": "Provide contact email for privacy requests", "keywords": ["contact", "privacy", "email", "@"], "must_appear_in": ["input/policies/privacy_policy.md"]},
+        {"id": "PP5", "description": "Disclose third-party processors (e.g., newsletter provider)", "keywords": ["third-party", "processor", "newsletter provider", "Mailchimp"], "must_appear_in": ["input/policies/privacy_policy.md"]},
+        {"id": "PP6", "description": "Cookies notice present if site uses cookies", "keywords": ["cookies", "cookie"], "must_appear_in": ["input/policies/privacy_policy.md"]}
+      ]
+    },
+    {
+      "category": "Membership Terms",
+      "requirements": [
+        {"id": "MT1", "description": "Refund policy for ticket cancellations", "keywords": ["refund", "cancellation", "ticket"], "must_appear_in": ["input/policies/terms_of_membership.md"]},
+        {"id": "MT2", "description": "Code of conduct addressing harassment", "keywords": ["code of conduct", "harassment", "behavior"], "must_appear_in": ["input/policies/terms_of_membership.md"]},
+        {"id": "MT3", "description": "Photography/filming consent notice", "keywords": ["photography", "filming", "consent"], "must_appear_in": ["input/policies/terms_of_membership.md"]}
+      ]
+    },
+    {
+      "category": "Screening/Venue Agreements",
+      "requirements": [
+        {"id": "SV1", "description": "Responsibility for public performance licensing is stated", "keywords": ["public performance", "license", "clearance"], "must_appear_in": ["input/contracts/venue_agreement.txt"]},
+        {"id": "SV2", "description": "Indemnity clause for IP infringement", "keywords": ["indemnify", "intellectual property", "infringement"], "must_appear_in": ["input/contracts/venue_agreement.txt", "input/policies/terms_of_membership.md"]}
+      ]
+    }
+  ]
+}

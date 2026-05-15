@@ -1,0 +1,21 @@
+heartbreak_keywords:
+  - term: "breakup"
+    weight: 3
+  - term: "heartbroken"
+    weight: 3
+  - term: "divorce"
+    weight: 4
+  - term: "cheated"
+    weight: 4
+  - term: "cheating"
+    weight: 4
+  - term: "ghosted"
+    weight: 3
+  - term: "lonely"
+    weight: 2
+  - term: "moving on"
+    weight: 2
+  - term: "grief"
+    weight: 3
+  - term: "betrayal"
+    weight: 3

@@ -1,0 +1,84 @@
+# Monthly fixed infrastructure costs (USD)
+base_infra_monthly: 150
+vector_db_monthly: 40
+monitoring_monthly: 30
+
+# Unit costs per capability (USD)
+# The AI monthly estimate is computed as:
+#   ai_monthly = base_infra_monthly + vector_db_monthly + monitoring_monthly
+#                + sum_over_used_capabilities(unit_cost * (usage / unit_scale))
+# Notes:
+# - For 'flat_monthly' units, multiply cost by 1 if enabled, else 0.
+# - Use ceiling to the next whole unit block for fractional usage where applicable.
+skill_unit_costs:
+  email_automation:
+    unit: per_1000_emails
+    cost: 2.0
+    unit_scale: 1000
+  audience_segmentation:
+    unit: per_1000_contacts
+    cost: 1.0
+    unit_scale: 1000
+  lead_scoring:
+    unit: per_1000_leads
+    cost: 4.0
+    unit_scale: 1000
+  landing_page_builder:
+    unit: per_page
+    cost: 0.8
+    unit_scale: 1
+  journey_orchestration:
+    unit: per_1000_steps
+    cost: 3.0
+    unit_scale: 1000
+  crm_sync:
+    unit: per_integration
+    cost: 15.0
+    unit_scale: 1
+  a_b_testing:
+    unit: per_100_tests
+    cost: 1.2
+    unit_scale: 100
+  social_scheduling:
+    unit: per_100_posts
+    cost: 0.8
+    unit_scale: 100
+  forms_and_popups:
+    unit: per_1000_submissions
+    cost: 0.5
+    unit_scale: 1000
+  analytics_dashboard:
+    unit: flat_monthly
+    cost: 20.0
+    unit_scale: 1
+
+# Default monthly usage assumptions for a mid-market team
+default_usage:
+  contacts: 20000                # for audience_segmentation
+  emails_sent: 60000             # for email_automation
+  leads_scored: 5000             # for lead_scoring
+  journey_steps: 30000           # for journey_orchestration
+  pages_built: 8                 # for landing_page_builder
+  integrations: 1                # for crm_sync
+  ab_tests: 20                   # for a_b_testing (count of tests started)
+  social_posts: 80               # for social_scheduling
+  form_submissions: 3000         # for forms_and_popups
+  analytics_enabled: true        # for analytics_dashboard
+
+# Development velocity assumptions for roadmap timing
+development_velocity:
+  # Simple skill (⭐️⭐️⭐️⭐️ replaceability): 1–2 weeks
+  simple_skill_weeks: 2
+  # Medium skill (⭐⭐⭐): 2–4 weeks
+  medium_skill_weeks: 3
+  # Infrastructure track (⭐⭐): 4–8 weeks
+  infra_weeks: 6
+
+# Rounding rule for cost aggregation
+rounding:
+  method: ceil
+  precision: 2
+
+# Notes:
+# - Savings percentage should be computed as: savings_pct = max(0, min(100, ((saas_monthly - ai_monthly) / saas_monthly) * 100))
+# - If a service lacks a native feature, assume zero SaaS cost attribution for that line item; comparison is at bundle level.

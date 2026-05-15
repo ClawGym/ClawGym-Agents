@@ -1,0 +1,52 @@
+name: Daniil
+hometown: Kazan
+categories:
+  - name: Hometown
+    keywords:
+      - russia
+      - russian
+      - hometown
+      - kazan
+      - moscow
+      - saint petersburg
+      - pelmeni
+      - babushka
+      - family
+      - call home
+      - nostalgia
+  - name: Study
+    keywords:
+      - study
+      - class
+      - homework
+      - cs
+      - project
+      - assignment
+      - thesis
+      - lab
+      - professor
+  - name: Social
+    keywords:
+      - club
+      - friends
+      - event
+      - soccer
+      - movie
+      - coffee
+      - meetup
+output:
+  memory_index_csv: output/memory_index.csv
+  tag_summary_json: output/tag_summary.json
+  rewritten_messages_jsonl: output/revised_messages.jsonl
+rewrite:
+  tones:
+    - formal
+    - friendly
+  style:
+    formal: |
+      Be concise, polite, and clear. Include a specific request or next step. Use complete sentences. Avoid slang. Append the formal signature. Target 60–120 words for the body.
+    friendly: |
+      Keep warm and upbeat, concise, and easy to read. It's okay to mention hometown briefly. Append the friendly sign-off. Target 30–80 words for the body.
+  signatures:
+    formal: "Sincerely,\nDaniil"
+    friendly: "Thanks!\nDaniil"

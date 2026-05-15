@@ -1,0 +1,9 @@
+trigger,source,sample_subject,sample_body,expected_routing,notes
+new_email,email,"App crashes on save","Since the latest update, the app crashes whenever I click save. Please help.",bug|negative|P1,"Create ticket and route to Support Tier 2; send acknowledgement."
+new_email,email,"Billing question","Was I charged twice this month?",billing|neutral|P2,"Create ticket, route to Billing Ops; acknowledgement required."
+new_email,email,"Feature request: dark mode","I'd love to have a dark mode option.",feature_request|positive|P3,"Create ticket, route to Product Backlog; acknowledgement required."
+webhook_ticket,website,"Account locked","I cannot log in after resetting password.",question|negative|P1,"Create ticket, route to Support Tier 1; acknowledgement via email if provided."
+webhook_ticket,website,"Spam submission","Buy followers now!!! http://spam.example",abuse_or_spam|neutral|P3,"Quarantine or auto-close; do not send acknowledgement."
+new_email,email,"Cancel account","Please cancel my subscription effective immediately.",billing|negative|P1,"Create ticket, route to Billing Ops; acknowledgement required and flag urgency."
+webhook_ticket,website,"Bug: 500 error on settings","Getting 500 when updating settings.",bug|negative|P1,"Create ticket, route to Support Tier 2; acknowledgement required."
+daily_digest,system,"24h digest","Summarize past day by category, counts, and top themes.",task|neutral|P3,"Generate and dispatch daily digest to product and success teams."

@@ -1,0 +1,18 @@
+Meeting: Lab Debrief
+Date: 2026-04-10
+Participants: Alex (EE); Maya (Process); Ken (Modeling)
+
+Agenda:
+- ALD spintronic stack deposition
+- Baseline sim config
+- Model coverage
+
+Decisions:
+- Set baseline anneal_temp_c = 360C
+- Set baseline nanowire_pitch_nm = 18
+- Enable WKB path in the tunneling model
+
+Action items:
+- [Alex] Add a TODO in input/models/quantum_tunnel_model.py to revisit barrier height calibration (no due date)
+- [Ken] Capture baseline sim settings in input/config/sim_config.json
+- [Maya] Document parameters in input/config/deposition.yaml

@@ -1,0 +1,8 @@
+{
+  "week_name": "week1_evening_companion",
+  "output_dir": "output",
+  "news_dir": "input/news",
+  "story_dir": "input/story",
+  "prompts_file": "input/prompts.txt",
+  "nights": 7
+}

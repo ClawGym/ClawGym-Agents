@@ -1,0 +1,55 @@
+deadlines:
+  kickoff: 2026-05-10
+  draft_charter_due: 2026-05-11
+  final_due: 2026-05-12
+
+deliverables:
+  - path: output/task_plan.md
+    description: Master plan with phases, statuses, decisions, and errors
+  - path: output/findings.md
+    description: Extracted requirements, constraints, and technical decisions
+  - path: output/progress.md
+    description: Session log with concrete actions, tests, and errors
+  - path: output/project_charter.md
+    description: Concise charter with Title, Goals, Constraints, and Milestones
+
+planning_requirements:
+  phases:
+    minimum_count: 5
+    status_markers: ["pending", "in_progress", "complete"]
+    status_format: "**Status:** <marker>"
+  decisions_table:
+    minimum_rows: 2
+    required_section_label_contains: "Decisions"
+  errors_table:
+    minimum_rows: 1
+    required_section_label_contains: "Errors"
+  cross_reference:
+    - task_plan_should_reference: output/findings.md
+
+charter_requirements:
+  sections:
+    - "## Title"
+    - "## Goals"
+    - "## Constraints"
+    - "## Milestones"
+  milestones:
+    minimum_bullets: 3
+  length:
+    max_words: 300
+  tone: "concise, professional"
+
+progress_log_requirements:
+  session_header_prefix: "## Session:"
+  actions_taken:
+    min_bullets: 5
+    bullet_prefix: "- "
+  errors_section_required: true
+
+constraints:
+  - "All files must be created under output/ as the project directory."
+  - "Do not duplicate all input details in task_plan.md; summarize inputs in findings.md."
+  - "No external links or web content; keep work offline and self-contained."
+  - "Maintain consistent terminology across files."
+  - "Mark all phases complete by the end and finalize the charter."
+  - "Use English only in filenames and contents."

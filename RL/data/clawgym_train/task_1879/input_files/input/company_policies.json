@@ -1,0 +1,23 @@
+{
+  "company": "Northwind Serverless Ops",
+  "policy_version": "2026.04",
+  "last_updated": "2026-04-10",
+  "security_policies": [
+    "Use role-based access control (RBAC) and enforce least privilege for all serverless functions.",
+    "All production secrets must be stored in a managed secrets vault; no secrets in code or environment files.",
+    "Encrypt data in transit (TLS 1.2+) and at rest using AES-256 or equivalent.",
+    "Enable comprehensive request/response logging with redaction of PII and secrets.",
+    "Verify webhook signatures for all inbound webhook endpoints using shared secrets or public key signatures.",
+    "Use idempotency keys for all payment-related requests and retries.",
+    "Enable multi-factor authentication (MFA) for all dashboard and CI/CD access."
+  ],
+  "operational_policies": [
+    "Maintain a tested rollback plan for every production deployment.",
+    "Perform nightly backups of critical state and configuration; validate restores weekly.",
+    "All changes must be peer reviewed and pass automated tests before merge.",
+    "Incident response must be initiated within 15 minutes of critical alert; document postmortems within 48 hours.",
+    "Infrastructure changes require change tickets with approved risk assessment.",
+    "Production observability must include metrics, logs, and traces with 90-day retention.",
+    "Payment webhooks must be monitored for delivery failures and signature mismatches."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "industrialized_construction": ["industrialized construction", "off-site", "offsite", "modular", "prefabrication", "prefab"],
+  "mass_timber": ["mass timber", "cross-laminated timber", "CLT", "glulam"],
+  "hvac_electrification": ["heat pump", "heat pumps", "VRF", "variable refrigerant flow"],
+  "digital_construction": ["BIM", "digital twin", "digital twins", "robotics", "robotic"],
+  "3d_printing": ["3D printing", "additive manufacturing", "printed concrete"]
+}

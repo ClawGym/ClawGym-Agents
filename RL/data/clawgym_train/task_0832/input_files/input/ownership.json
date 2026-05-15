@@ -1,0 +1,8 @@
+{
+  "owners": {
+    "xml/users.xml": "Engineering",
+    "xml/orders.xml": "Engineering",
+    "xml/ui_strings.xml": "UX",
+    "xml/catalog.xml": "Engineering"
+  }
+}

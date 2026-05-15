@@ -1,0 +1,17 @@
+{
+  "Educators": {
+    "goals": "Connect food history to civics and culture in the classroom.",
+    "prefers": ["Podcast show notes with sources", "Downloadable lesson outline"],
+    "cta": "Download the lesson outline"
+  },
+  "Culinary Enthusiasts": {
+    "goals": "Discover recipes and stories that explain how dishes evolved.",
+    "prefers": ["Chef interviews", "Recipe cards"],
+    "cta": "Subscribe to the newsletter for recipes"
+  },
+  "Community Organizers": {
+    "goals": "Use food history to spark local dialogue and mutual aid.",
+    "prefers": ["Panel discussions", "Toolkits for events"],
+    "cta": "RSVP for the community webinar"
+  }
+}

@@ -1,0 +1,29 @@
+HostName:                             ALICE-PC
+TaskName:                             \OpenClaw\Gateway (Stable)
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        4/15/2026 9:00:12 AM
+Last Result:                          0
+Author:                               ALICE-PC\Alice
+Task To Run:                          "C:\Program Files\nodejs\node.exe" C:\Users\Alice\AppData\Roaming\npm\node_modules\openclaw\bin\openclaw.js daemon --port 18789
+Start In:                             C:\Users\Alice\AppData\Roaming\npm\node_modules\openclaw\bin
+Comment:
+Scheduled Task State:                 Enabled
+Run As User:                          ALICE-PC\Alice
+Schedule:                             At log on
+
+HostName:                             ALICE-PC
+TaskName:                             \OpenClaw\Gateway (Old Path)
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        3/28/2026 8:12:44 PM
+Last Result:                          0
+Author:                               ALICE-PC\Alice
+Task To Run:                          C:\Users\Alice\Dev\openclaw\openclaw.cmd daemon --port 18789
+Start In:                             C:\Users\Alice\Dev\openclaw
+Comment:                              Legacy path; not in use
+Scheduled Task State:                 Disabled
+Run As User:                          ALICE-PC\Alice
+Schedule:                             At log on

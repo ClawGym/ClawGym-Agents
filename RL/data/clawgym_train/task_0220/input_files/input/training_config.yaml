@@ -1,0 +1,8 @@
+weekly_sessions: 4
+focus_skills:
+  - footwork
+  - body_tension
+hangboard_time_min: 12
+rest_day: Monday
+max_grade_goal: V5
+unsupported_key: legacy

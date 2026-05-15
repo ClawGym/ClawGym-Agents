@@ -1,0 +1,10 @@
+{
+  "query": "house painter",
+  "zipCode": "90012",
+  "date": "2026-05-06",
+  "maxResults": 10,
+  "preferredWindow": {
+    "start": "13:00",
+    "end": "16:00"
+  }
+}

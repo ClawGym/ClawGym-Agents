@@ -1,0 +1,5 @@
+Apr 14 08:13:12 secops-lab openclaw-gateway[2143]: Gateway listening on 0.0.0.0:18789 (auth disabled)
+Apr 14 08:13:13 secops-lab openclaw-gateway[2143]: Control UI enabled; loading gatewayUrl=http://0.0.0.0:18789
+Apr 14 08:13:14 secops-lab openclaw-gateway[2143]: External connection from 203.0.113.5 to /api/exec
+Apr 14 08:13:15 secops-lab openclaw-gateway[2143]: exec requested by remote client; approval bypassed (requireApproval: false)
+Apr 14 08:13:16 secops-lab openclaw-gateway[2143]: Warning: reverseProxy.trustedProxies is empty; X-Forwarded-For not trusted

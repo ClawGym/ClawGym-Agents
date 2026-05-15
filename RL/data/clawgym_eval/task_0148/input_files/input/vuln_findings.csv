@@ -1,0 +1,7 @@
+id,title,severity,family,control_references
+VULN-001,Excessive failed logins are not locked out,High,AC,"AC-7; IA-5"
+VULN-002,Weak password complexity and rotation policy,Critical,IA,IA-5
+VULN-003,Firewall boundary rules are incomplete,High,SC,SC-7
+VULN-004,Audit events are not centralized,Medium,AU,AU-2
+VULN-005,Use of legacy cryptographic algorithms,High,SC,SC-13
+VULN-006,Orphaned user accounts found,Medium,AC,AC-2

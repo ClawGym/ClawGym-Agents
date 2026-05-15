@@ -1,0 +1,44 @@
+{
+  "lines": [
+    {
+      "name": "Mageblood",
+      "chaosValue": 165000.0,
+      "divineValue": 750.0,
+      "sparkline": { "totalChange": 0.5 },
+      "listingCount": 120,
+      "detailsId": "mageblood"
+    },
+    {
+      "name": "Headhunter",
+      "chaosValue": 98000.0,
+      "divineValue": 445.5,
+      "sparkline": { "totalChange": -0.8 },
+      "listingCount": 220,
+      "detailsId": "headhunter"
+    },
+    {
+      "name": "Awakened Enlighten Support (5/20c)",
+      "chaosValue": 104767.39,
+      "divineValue": 476.5,
+      "sparkline": { "totalChange": 3.5 },
+      "listingCount": 15,
+      "detailsId": "awakened-enlighten-support-5-20c"
+    },
+    {
+      "name": "Golden Oil",
+      "chaosValue": 59.0,
+      "divineValue": 0.23,
+      "sparkline": { "totalChange": -1.67 },
+      "listingCount": 1997,
+      "detailsId": "golden-oil"
+    },
+    {
+      "name": "Voidforge",
+      "chaosValue": 137105.86,
+      "divineValue": 625.5,
+      "sparkline": { "totalChange": 1.2 },
+      "listingCount": 42,
+      "detailsId": "voidforge"
+    }
+  ]
+}

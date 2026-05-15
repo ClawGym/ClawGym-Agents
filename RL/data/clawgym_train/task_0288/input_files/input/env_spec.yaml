@@ -1,0 +1,7 @@
+project: formulation_summarizer
+python_version: "3.10"
+dependencies:
+  - numpy==1.24.3
+  - pandas==1.5.3
+entry_script: "input/scripts/summarize_formulations.py"
+entry_output: "output/formulation_summary.csv"

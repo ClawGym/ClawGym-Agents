@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0492",
+  "user_query": "I'm preparing a concise email to our district school board advocating for maintaining and expanding science lab time at the high school. Please use the local files I’ve provided and produce the following outputs under the workspace:\n\n1) Translate the entire Spanish parent comment from input/comentario_padre_es.txt to English and save it as output/translated_comment_en.txt.\n\n2) Run the command: python tools/summarize_feedback.py input/feedback.tsv\n   - Capture both stdout and stderr verbatim and save them to output/diagnostics.txt.\n   - In the same diagnostics file, add a short paragraph interpreting any warning(s) and stating exactly which numbers from stdout you used in the email.\n\n3) Read input/talking_points.md and select two distinct bullet points to anchor the message. Save those two exact lines (verbatim, one per line) to output/extracted_points.txt.\n\n4) Draft a professional, logically structured email (150–220 words) and save it to output/email_to_board.txt with a Subject line on the first line. Requirements for the email:\n   - Incorporate the two selected talking points.\n   - Include a quoted excerpt of at most two sentences from the translated parent comment, prefaced with “Translated from Spanish:”.\n   - Include one sentence that cites the command’s numeric results in the form “(Count_pro_science=X of Total_records=Y)”, using the X and Y values from the command’s stdout.\n\nAll four output files (output/translated_comment_en.txt, output/diagnostics.txt, output/extracted_points.txt, and output/email_to_board.txt) are required. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

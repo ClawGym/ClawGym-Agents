@@ -1,0 +1,17 @@
+{
+  "slug": "metrics-pinger",
+  "name": "Metrics Pinger",
+  "ownerName": "acme-observe",
+  "version": "0.9.5",
+  "category": "observability",
+  "homepage": "https://clawhub.ai/acme-observe/metrics-pinger",
+  "downloads": 1206,
+  "installs": 211,
+  "stars": 7,
+  "score": 95612.77,
+  "updated_at": 1775900000123,
+  "tags": ["metrics", "telemetry", "network"],
+  "api_base": "https://lightmake.site",
+  "download_url": "https://lightmake.site/api/v1/download?slug=metrics-pinger",
+  "fetched_at": 1776002345678
+}

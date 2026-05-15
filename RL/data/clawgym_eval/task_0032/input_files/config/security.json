@@ -1,0 +1,5 @@
+{
+  "fips_mode": true,
+  "allowed_algorithms": ["AES-256-GCM"],
+  "denylist": ["RC4", "DES", "MD5"]
+}

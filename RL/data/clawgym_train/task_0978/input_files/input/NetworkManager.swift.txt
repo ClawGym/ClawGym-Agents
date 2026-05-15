@@ -1,0 +1,89 @@
+import Foundation
+
+struct User: Codable {
+    let id: String
+    let name: String
+}
+
+struct Profile: Codable {
+    let userId: String
+    let bio: String
+}
+
+struct Settings: Codable {
+    let userId: String
+    let notificationsEnabled: Bool
+}
+
+struct CombinedProfile: Codable {
+    let profile: Profile
+    let settings: Settings
+}
+
+final class NetworkManager {
+    static let shared = NetworkManager()
+    private let session = URLSession.shared
+
+    // Force unwrap on runtime input (unsafe)
+    func makeURL(from raw: String) -> URL {
+        // If raw is invalid, this will crash
+        return URL(string: raw)!
+    }
+
+    // try! usage on runtime I/O (unsafe)
+    func loadLocalConfig(from path: String) -> Data {
+        let url = URL(fileURLWithPath: path)
+        // This will crash if the file is missing
+        let data = try! Data(contentsOf: url)
+        return data
+    }
+
+    func fetchProfile(userId: String) async throws -> Profile {
+        let url = URL(string: "https://api.example.com/users/\(userId)/profile")!
+        var request = URLRequest(url: url)
+        request.httpMethod = "GET"
+        let (data, response) = try await session.data(for: request)
+        if let http = response as? HTTPURLResponse, http.statusCode != 200 {
+            throw URLError(.badServerResponse)
+        }
+        return try JSONDecoder().decode(Profile.self, from: data)
+    }
+
+    func fetchSettings(userId: String) async throws -> Settings {
+        let url = URL(string: "https://api.example.com/users/\(userId)/settings")!
+        var request = URLRequest(url: url)
+        request.httpMethod = "GET"
+        let (data, response) = try await session.data(for: request)
+        if let http = response as? HTTPURLResponse, http.statusCode != 200 {
+            throw URLError(.badServerResponse)
+        }
+        return try JSONDecoder().decode(Settings.self, from: data)
+    }
+
+    // Sequential awaits on independent operations (async let candidate)
+    func fetchCombinedProfile(userId: String) async throws -> CombinedProfile {
+        let p = try await fetchProfile(userId: userId)
+        let s = try await fetchSettings(userId: userId)
+        return CombinedProfile(profile: p, settings: s)
+    }
+
+    // Long-running loop without cancellation checks
+    func pollUpdates(ids: [String]) async {
+        for id in ids {
+            // No Task cancellation check here
+            do {
+                _ = try await fetchProfile(userId: id)
+            } catch {
+                // minimal handling for demo
+            }
+            // simulate delay
+            try? await Task.sleep(nanoseconds: 100_000_000)
+        }
+    }
+
+    // Another force unwrap on collection
+    func firstUserName(from users: [User]) -> String {
+        // Crashes on empty list
+        return users.first!.name
+    }
+}

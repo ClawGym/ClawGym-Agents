@@ -1,0 +1,5 @@
+[
+  {"name": "Mei", "role": "protagonist", "chapters": ["ch1", "ch2", "ch3"]},
+  {"name": "Amah", "role": "grandmother", "chapters": ["ch1", "ch2", "ch3"]},
+  {"name": "Jin", "role": "brother", "chapters": ["ch2"]}
+]

@@ -1,0 +1,36 @@
+{
+  "crm": {
+    "type": "spreadsheet_based",
+    "location": "Google Sheets",
+    "structure": ["Date", "Name", "Email", "Source", "Stage", "Notes", "Follow_up_date"],
+    "notes": "Leads are manually added; basic tagging via a 'Source' column."
+  },
+  "email": {
+    "provider": "Email Service Provider",
+    "features": ["broadcasts", "basic automations", "tags", "CSV import"],
+    "limitations": "No advanced conditional routing; API available for basic actions."
+  },
+  "spreadsheets": {
+    "primary": "Google Sheets",
+    "dashboards": ["Client analytics weekly dashboard", "Revenue tracker"],
+    "shared_with_clients": false
+  },
+  "task_manager": {
+    "tool": "Notion",
+    "workspaces": ["Client Projects", "Content Calendar", "Operations"],
+    "usage": "Follow-up tasks created manually after meetings."
+  },
+  "forms": {
+    "tool": "Typeform",
+    "uses": ["Website lead form", "Webinar registration"],
+    "data_flow": "Email notifications arrive for new submissions; exports to CSV for bulk imports."
+  },
+  "calendar": {
+    "tool": "Google Calendar",
+    "usage": "Client meetings, webinars, and content publishing reminders."
+  },
+  "social_channels": ["LinkedIn", "Twitter", "Instagram"],
+  "storage": "Google Drive",
+  "communication": ["Email", "Slack (client channels)"],
+  "notes": "Currently cross-posting social content manually from the content calendar. Newsletter assembled weekly using curated links and recent content."
+}

@@ -1,0 +1,35 @@
+Monthly Advertising Budget (Amazon Ads):
+- Month 1: $2,500 (focus on discovery and initial ranking)
+- Month 2: $2,750 (scale proven campaigns, begin Sponsored Brands)
+- Month 3: $3,000 (add Sponsored Display retargeting)
+
+ACoS Targets (ramp plan):
+- Month 1 target ACoS: 32–35% (⚠️ launch-phase tolerance while ranking)
+- Month 2 target ACoS: 28–30%
+- Month 3 target ACoS: 22–25% steady state
+- TACoS target by Month 3: ≤ 15%
+
+Primary KPIs:
+- Sessions (detail page views)
+- Click-through rate (CTR) ≥ 0.50%
+- Conversion rate (CVR) ≥ 12% by Month 2
+- Cost per click (CPC) ≤ $1.20 on average
+- Daily spend pacing to hit monthly budget ±10%
+- Organic ranking: Top 10 for “MBE practice questions”, “bar exam questions”
+- Reviews: 25 by Day 45; 50 by Day 90 (blend of organic + follow-up)
+
+Secondary KPIs:
+- New-to-brand % (proxy via branded searches and Sponsored Brands)
+- Share of voice on top 10 keywords
+- Unit session percentage (USP) trend week over week
+- Return on Ad Spend (ROAS) complementary to ACoS
+
+Promo & Pricing Notes:
+- List price: $44.99
+- Occasional 10% coupon during Week 3–4 if CVR < 10% after 500 clicks
+- Bundle messaging with bootcamp (where policy-compliant): “Workbook aligns with our Austin hybrid bootcamp curriculum”
+
+Operational Notes:
+- Inventory risk minimal (KDP POD)
+- Creative assets needed: cover, A+ Content (2 modules), headline copy for Sponsored Brands
+- Review strategy: compliant follow-up via Amazon Buyer-Seller Messaging (no incentive)

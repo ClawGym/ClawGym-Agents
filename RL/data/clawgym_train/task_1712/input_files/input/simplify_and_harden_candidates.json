@@ -1,0 +1,71 @@
+{
+  "candidates": [
+    {
+      "pattern_key": "harden.ssl_monitor.warn_threshold",
+      "recurrence_count": 4,
+      "first_seen": "2026-03-28",
+      "last_seen": "2026-04-18",
+      "tasks": [
+        {
+          "id": "ops-ssl-2026-03-28",
+          "date": "2026-03-28",
+          "summary": "Warn threshold too low for edge.api.example.com, alert arrived late"
+        },
+        {
+          "id": "ops-ssl-2026-04-07",
+          "date": "2026-04-07",
+          "summary": "Expired cert slipped due to misaligned default warn-days"
+        },
+        {
+          "id": "ops-ssl-2026-04-18",
+          "date": "2026-04-18",
+          "summary": "Scripts disagreed on warn-days (14 vs 21), inconsistent alerts"
+        }
+      ],
+      "sources": ["input/ssl_results.json", "ops/ssl/README.md"]
+    },
+    {
+      "pattern_key": "simplify.dead_code",
+      "recurrence_count": 2,
+      "first_seen": "2026-04-02",
+      "last_seen": "2026-04-16",
+      "tasks": [
+        {
+          "id": "cleanup-2026-04-02",
+          "date": "2026-04-02",
+          "summary": "Found unused helper in market analysis"
+        },
+        {
+          "id": "cleanup-2026-04-16",
+          "date": "2026-04-16",
+          "summary": "Remove unused shell script"
+        }
+      ],
+      "sources": ["src/utils/market.py", "scripts/old.sh"]
+    },
+    {
+      "pattern_key": "harden.input_validation",
+      "recurrence_count": 3,
+      "first_seen": "2026-03-30",
+      "last_seen": "2026-04-12",
+      "tasks": [
+        {
+          "id": "api-2026-04-12",
+          "date": "2026-04-12",
+          "summary": "Missing validation on CSV export"
+        },
+        {
+          "id": "api-2026-04-12b",
+          "date": "2026-04-12",
+          "summary": "Same task: follow-up fix"
+        },
+        {
+          "id": "api-2026-04-12c",
+          "date": "2026-04-12",
+          "summary": "Same task: user tests"
+        }
+      ],
+      "sources": ["input/market_analysis_notes.md"]
+    }
+  ]
+}

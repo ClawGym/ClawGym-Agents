@@ -1,0 +1,10 @@
+name,email,role,attended
+Tom Nguyen,tom.nguyen@example.org,President,true
+Rosa Martinez,rosa.martinez@example.org,Secretary,true
+Maria Lopez,maria.lopez@example.org,Publicity Chair,true
+David Chen,david.chen@example.org,Vendor Liaison,true
+Priya Patel,priya.patel@example.org,Volunteer Coordinator,true
+Sam Reed,sam.reed@example.org,Webmaster,true
+Helen Brooks,helen.brooks@example.org,Treasurer,true
+Alex Johnson,alex.johnson@example.org,Hospitality,true
+Jordan Ellis,jordan.ellis@example.org,Member,false

@@ -1,0 +1,67 @@
+# Smart Memory execution plan
+version: 1
+
+# Start from a clean slate for deterministic results
+purge: true
+
+# Memories to store (at least five)
+stores:
+  - category: preferences
+    key: editor_pref
+    value: User prefers Vim
+    confidence: high
+    source: user_explicit
+
+  - category: facts
+    key: user_name
+    value: Alex
+    confidence: high
+    source: user_explicit
+
+  - category: technical
+    key: stack
+    value: Python/FastAPI backend, React frontend, PostgreSQL, Redis, deployed on AWS ECS
+    confidence: high
+    source: conversation
+
+  - category: instructions
+    key: deployment_rule
+    value: Never deploy on Fridays. Always run the full test suite before merging to main.
+    confidence: high
+    source: user_explicit
+
+  - category: decisions
+    key: auth_method
+    value: Using JWT with refresh tokens — 15min access, 7day refresh
+    confidence: high
+    source: conversation
+
+# Update step (reflects a change in preference)
+update:
+  key: editor_pref
+  new_value: User prefers Neovim
+  reason: user switched to Neovim in 2026-03
+
+# Forget step (should remove from active and archive it)
+forget:
+  key: auth_method
+
+# Queries to run against active (non-forgotten) memories only
+search_queries:
+  - vim
+  - deploy
+  - PostgreSQL
+  - JWT
+
+# Log token savings to exceed the threshold
+tokens_saved: 150
+
+# Run maintenance after all operations
+run_maintenance: true
+
+# Output file targets (must be written using these relative paths)
+outputs:
+  memory_export: output/memory_export.json
+  search_results: output/search_results.json
+  stats_snapshot: output/stats_snapshot.json
+  maintenance_report: output/maintenance_report.json

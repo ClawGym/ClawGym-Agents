@@ -1,0 +1,9 @@
+date,donor,amount,mode,status,txn_id
+2026-03-01,Anupam Bora,7000,UPI,received,TXN001
+2026-03-01,Mitali Das,5000,Cash,received,TXN002
+2026-03-02,Rahul Medhi,3000,UPI,received,TXN003
+2026-03-02,Farhana Ahmed,2500,Bank Transfer,received,TXN004
+2026-03-03,Bhaskar Gogoi,4500,UPI,received,TXN005
+2026-03-04,Social Supporters Group,10000,Bank Transfer,received,TXN006
+2026-03-04,Pledge: Neha Kalita,4000,UPI,pledge,PLG001
+2026-03-04,Pledge: Debojit Roy,2000,Cash,pledge,PLG002

@@ -1,0 +1,7 @@
+keyword,intent,difficulty,notes
+serverless cold start mitigation,informational,medium,Focus on production-grade techniques and latency budgets
+serverless observability best practices,informational,medium,Trace + metrics + logs with sampling strategies
+serverless cost optimization checklist,transactional,low,Actionable steps; tie to FinOps KPIs
+event-driven serverless patterns,informational,medium,Cover fan-out, retries, idempotency
+serverless edge functions,informational,medium,Latency and CDN integration
+faas benchmarking methodologies,informational,high,Discuss fair benchmarks and cold/warm mix

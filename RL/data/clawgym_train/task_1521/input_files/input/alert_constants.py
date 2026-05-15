@@ -1,0 +1,9 @@
+THRESHOLDS = [
+    {"name": "Good", "min": 0.0, "max": 12.0, "score": 0},
+    {"name": "Moderate", "min": 12.1, "max": 35.4, "score": 1},
+    {"name": "Unhealthy for Sensitive Groups", "min": 35.5, "max": 55.4, "score": 2},
+    {"name": "Unhealthy", "min": 55.5, "max": 150.4, "score": 3},
+    {"name": "Very Unhealthy", "min": 150.5, "max": 250.4, "score": 4},
+]
+
+INTERVAL_BOUNDS = "closed"  # inclusive on both ends

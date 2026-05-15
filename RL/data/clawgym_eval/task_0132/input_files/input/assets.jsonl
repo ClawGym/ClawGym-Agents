@@ -1,0 +1,5 @@
+{"facility_id":"F001","asset_value_usd":500000,"criticality":"high"}
+{"facility_id":"F001","asset_value_usd":200000,"criticality":"medium"}
+{"facility_id":"F002","asset_value_usd":1200000,"criticality":"high"}
+{"facility_id":"F003","asset_value_usd":300000,"criticality":"low"}
+{"facility_id":"F004","asset_value_usd":400000,"criticality":"medium"}

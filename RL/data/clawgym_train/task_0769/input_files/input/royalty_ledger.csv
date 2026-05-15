@@ -1,0 +1,10 @@
+date,source,type,track,amount_usd,due_date,status,notes
+2025-07-15,StreamingCo,streaming,Bass Walk,128.75,2025-07-15,paid,
+2025-07-31,PRO-Society,performance,Garden Rooms,210.00,2025-07-31,paid,
+2025-08-10,MiscSync,sync,Bass Walk,500.00,2025-08-10,paid,one-off license
+2025-08-15,StreamingCo,streaming,Bass Walk,134.90,2025-08-15,paid,
+2025-08-31,IndieLabel,mechanical,Low Ceiling,145.00,2025-09-30,late,August mechanical outstanding
+2025-09-05,StreamingCo,streaming,Low Ceiling,57.30,2025-09-15,paid,
+2025-09-15,StreamingCo,streaming,Bass Walk,129.60,2025-09-15,paid,
+2025-09-30,PRO-Society,performance,Garden Rooms,198.00,2025-09-30,pending,reported but not received
+2025-07-20,IndieLabel,mechanical,Low Ceiling,140.00,2025-07-31,paid,July mechanical received

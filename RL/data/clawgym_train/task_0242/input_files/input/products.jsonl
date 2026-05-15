@@ -1,0 +1,12 @@
+{"id": "p001", "name": "Widget Alpha", "category": "widget", "price": 29.99, "rating": "4.5", "reviews_count": 120}
+{"id": "p002", "name": "Gadget Beta", "category": "gadget", "price": 59.5, "rating": 4.8, "reviews_count": 310}
+{"id": "p003", "name": "Tool Gamma", "category": "tool", "price": 15.0, "rating": "4.0", "reviews_count": 85}
+{"id": "p004", "name": "Widget Delta", "category": "widget", "price": 105.0, "rating": 4.9, "reviews_count": 50}
+{"id": "p005", "name": "Accessory Epsilon", "category": "accessory", "price": 20.0, "rating": 4.2, "reviews_count": 40}
+{"id": "p006", "name": "Gadget Zeta", "category": "gadget", "price": 9.99, "rating": "3.9", "reviews_count": 12}
+{"id": "p007", "name": "Tool Eta", "category": "tool", "price": 4.5, "rating": 4.1, "reviews_count": 200}
+{"id": "p008", "name": "Widget Theta", "category": "widget", "price": 89.0, "rating": "4.7", "reviews_count": 500}
+{"id": "p009", "name": "Gadget Iota", "category": "gadget", "price": 75.0, "rating": "bad", "reviews_count": 100}
+{"id": "p010", "name": "Tool Kappa", "category": "tool", "price": 65.0, "rating": "4.6", "reviews_count": 0}
+{"id": "p011", "name": "Widget Lambda", "category": "widget", "price": 55.0, "rating": 4.2, "reviews_count": 220}
+{"id": "p012", "name": "Gadget Mu", "category": "gadget", "price": 22.0, "rating": "4.4", "reviews_count": 5}

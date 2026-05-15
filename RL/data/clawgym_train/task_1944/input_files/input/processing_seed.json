@@ -1,0 +1,115 @@
+{
+  "generated": "2026-04-18",
+  "controller": "NimbleCart, Inc. and affiliates",
+  "activities": [
+    {
+      "id": "PA-001",
+      "name": "Merchant Account Management",
+      "description": "Creation and management of merchant admin accounts, authentication, subscription, and support.",
+      "systems": ["Auth service", "CRM", "Billing", "Support"],
+      "data_subjects": ["merchants", "merchant_admin_users"],
+      "data_categories": [
+        { "category": "Identity", "fields": ["name", "email", "phone"], "sensitivity": "standard" },
+        { "category": "Account", "fields": ["username", "password_hash", "roles"], "sensitivity": "confidential" },
+        { "category": "Subscription", "fields": ["plan", "billing cycle"], "sensitivity": "standard" }
+      ],
+      "lawful_basis_hint": "contract",
+      "purposes": ["Provide service access", "Account security", "Customer support"],
+      "transfers": {
+        "cross_border": true,
+        "destinations": ["US", "EU-IE"],
+        "mechanisms": ["SCCs", "encryption in transit & at rest"]
+      },
+      "storage": { "providers": ["AWS us-east-1", "AWS eu-west-1"], "retention_hint": "3 years after account closure" },
+      "processors": ["AWS", "Zendesk", "Stripe"],
+      "risk_flags": ["account takeover risk", "credential stuffing"]
+    },
+    {
+      "id": "PA-002",
+      "name": "Payments and Billing",
+      "description": "Processing merchant subscription payments and invoicing via third-party payment processor.",
+      "systems": ["Billing service", "Stripe"],
+      "data_subjects": ["merchants"],
+      "data_categories": [
+        { "category": "Identity", "fields": ["name", "email", "billing address"], "sensitivity": "confidential" },
+        { "category": "Financial", "fields": ["payment card token", "last4", "transaction ID"], "sensitivity": "high" }
+      ],
+      "lawful_basis_hint": "contract",
+      "purposes": ["Payment collection", "Fraud prevention", "Accounting compliance"],
+      "transfers": {
+        "cross_border": true,
+        "destinations": ["US"],
+        "mechanisms": ["SCCs", "PCI DSS compliance at processor"]
+      },
+      "storage": { "providers": ["Stripe", "Internal invoicing DB"], "retention_hint": "7 years for invoices (tax)"},
+      "processors": ["Stripe"],
+      "risk_flags": ["financial data handling", "fraud signals"]
+    },
+    {
+      "id": "PA-003",
+      "name": "Marketing Analytics & Cookies",
+      "description": "Website analytics, conversion tracking, and email marketing for prospects and visitors.",
+      "systems": ["Web", "CDP", "Email marketing"],
+      "data_subjects": ["prospects", "website_visitors", "merchants"],
+      "data_categories": [
+        { "category": "Online identifiers", "fields": ["IP", "cookie ID", "device"], "sensitivity": "standard" },
+        { "category": "Engagement", "fields": ["page views", "campaign clicks"], "sensitivity": "standard" }
+      ],
+      "lawful_basis_hint": "consent in EU/UK; legitimate interest elsewhere",
+      "purposes": ["Site analytics", "Campaign performance", "Lead nurturing"],
+      "transfers": {
+        "cross_border": true,
+        "destinations": ["US"],
+        "mechanisms": ["SCCs", "IP anonymization (EU/UK)"]
+      },
+      "storage": { "providers": ["Google Analytics", "Mailchimp", "Segment"], "retention_hint": "13 months for analytics; 24 months for email engagement" },
+      "processors": ["Google Analytics", "Mailchimp", "Segment"],
+      "risk_flags": ["tracking consent", "cookie compliance", "Do Not Sell/Share"]
+    },
+    {
+      "id": "PA-004",
+      "name": "AI Recommendations & Propensity Scoring",
+      "description": "ML models profile end-customer behavior to recommend products and predict purchase propensity for merchants.",
+      "systems": ["Recommendations service", "Feature store", "Data warehouse"],
+      "data_subjects": ["merchants_end_customers"],
+      "data_categories": [
+        { "category": "Behavioral", "fields": ["clickstream", "cart events", "purchases"], "sensitivity": "confidential" },
+        { "category": "Online identifiers", "fields": ["cookie ID", "IP (truncated EU)"], "sensitivity": "standard" },
+        { "category": "Profile", "fields": ["segments", "scores"], "sensitivity": "confidential" }
+      ],
+      "lawful_basis_hint": "legitimate interest; consent where cookies required in EU/UK",
+      "purposes": ["Personalization", "Fraud suppression", "Conversion optimization"],
+      "transfers": {
+        "cross_border": true,
+        "destinations": ["US"],
+        "mechanisms": ["SCCs", "pseudonymization", "encryption at rest"]
+      },
+      "storage": { "providers": ["AWS us-east-1", "AWS eu-west-1 (ingest)"], "retention_hint": "18 months rolling window" },
+      "processors": ["AWS", "Sift (fraud)"],
+      "risk_flags": ["profiling", "automated decision-making", "large-scale processing"]
+    },
+    {
+      "id": "PA-005",
+      "name": "HR, Recruitment & Diversity Survey",
+      "description": "Employee and applicant management, including optional diversity and inclusion survey and background checks in some roles.",
+      "systems": ["HRIS", "ATS", "Background check vendor"],
+      "data_subjects": ["employees", "job_applicants"],
+      "data_categories": [
+        { "category": "Identity", "fields": ["name", "email", "address", "DOB"], "sensitivity": "confidential" },
+        { "category": "Employment", "fields": ["CV", "interview notes"], "sensitivity": "confidential" },
+        { "category": "Special category", "fields": ["race/ethnicity (optional)", "disability (optional)"], "sensitivity": "special", "additional_condition": "explicit consent (optional survey)" },
+        { "category": "Criminal", "fields": ["criminal background check (where lawful)"], "sensitivity": "special", "additional_condition": "employment law; substantial public interest where applicable" }
+      ],
+      "lawful_basis_hint": "legal_obligation (employment law), contract, explicit consent for special categories",
+      "purposes": ["Hiring", "Payroll", "Diversity monitoring (aggregate)", "Compliance"],
+      "transfers": {
+        "cross_border": true,
+        "destinations": ["US"],
+        "mechanisms": ["SCCs", "access controls", "need-to-know"]
+      },
+      "storage": { "providers": ["Greenhouse (ATS)", "HRIS"], "retention_hint": "Applicants: 24 months; Employees: 7 years post-employment (core records); Diversity survey: aggregate only" },
+      "processors": ["Greenhouse", "Checkr (sub-processor via ATS)"],
+      "risk_flags": ["special category data", "vulnerable data subjects", "DPIA likely for DEI + background checks in EU/UK"]
+    }
+  ]
+}

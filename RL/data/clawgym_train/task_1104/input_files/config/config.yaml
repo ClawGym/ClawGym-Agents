@@ -1,0 +1,7 @@
+data_dir: data/pages
+default_region: Greenfield County
+allowed_program_types:
+  - rebate
+output:
+  json: workspace/output/programs.json
+  csv: workspace/output/programs.csv

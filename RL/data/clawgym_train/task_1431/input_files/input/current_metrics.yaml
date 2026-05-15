@@ -1,0 +1,33 @@
+activation:
+  definition: "Activated account (14d) = completed core action (varies by vertical) AND invited >=2 teammates AND created first dashboard/report"
+  baseline_14d_rate: 0.33
+  by_segment:
+    smb: 0.36
+    mid_market: 0.31
+    enterprise: 0.27
+  notes:
+    - "42% of new accounts do not reach any core action by Day 7."
+    - "Activation definitions differ across customers; many delay setup due to event mapping."
+retention:
+  d30_team_retention: 0.41
+  d90_team_retention: 0.27
+  nrr: 1.04
+engagement:
+  weekly_active_teams: 210
+  avg_dashboards_created_week1: 0.6
+time_to_value:
+  median_days: 9.5
+  p75_days: 18
+targets:
+  q3:
+    activation_14d: 0.45
+    ttv_median_days: 6.5
+    d30_team_retention: 0.48
+guardrails:
+  - name: "Event pipeline latency"
+    threshold: "95% events < 5 min end-to-end"
+  - name: "False positive alert rate"
+    threshold: "< 10% of alerts dismissed as noise by users"
+notes:
+  - "North star candidates discussed: Activated Accounts (14d) vs Weekly Active Teams; activation currently more aligned to value realization."
+  - "CRM integration requested by CS/RevOps to operationalize signals."

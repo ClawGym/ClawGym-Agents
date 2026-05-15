@@ -1,0 +1,55 @@
+/**
+ * Critical-path: Database connectivity and queries
+ * Contains intentional error-handling anti-patterns for audit:
+ * - EMPTY_CATCH (critical): silently swallow connection errors
+ * - PROMISE_EMPTY_CATCH (critical): promise rejection swallowed
+ */
+
+const logger = {
+  error: (...args: any[]) => console.error(...args),
+  warn: (...args: any[]) => console.warn(...args),
+  info: (...args: any[]) => console.log(...args)
+};
+
+type QueryResult<T = any> = { rows: T[]; count: number };
+
+class FakeDriver {
+  async connect(uri: string): Promise<void> {
+    if (!uri || uri.includes("bad")) {
+      throw new Error("Connection failed");
+    }
+  }
+  async query(sql: string): Promise<QueryResult> {
+    if (!sql || sql.trim() === "") {
+      throw new Error("Empty SQL");
+    }
+    return { rows: [{ id: 1 }], count: 1 };
+  }
+}
+
+const driver = new FakeDriver();
+
+export class DatabaseService {
+  private uri: string;
+  constructor(uri: string) {
+    this.uri = uri;
+  }
+
+  async connect(): Promise<void> {
+    try {
+      await driver.connect(this.uri);
+    } catch (error) {
+      // Anti-pattern: EMPTY_CATCH on critical path — errors vanish
+    }
+  }
+
+  async runQuery(sql: string): Promise<QueryResult> {
+    // Anti-pattern: Swallows promise rejection without logging
+    return driver.query(sql).then((res) => res).catch(() => {
+      // silently degrade to empty result set; dangerous in critical path
+      return { rows: [], count: 0 };
+    });
+  }
+}
+
+export default new DatabaseService(process.env.DB_URI || "postgres://localhost/app");

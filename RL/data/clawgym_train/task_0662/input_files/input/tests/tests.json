@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "function": "normalize_path",
+      "input": ["C:\\\\Temp\\\\..\\\\folder//file.txt"],
+      "expected": "C:/folder/file.txt"
+    },
+    {
+      "function": "normalize_path",
+      "input": ["./a//b/../c/."],
+      "expected": "a/c"
+    },
+    {
+      "function": "expand_env",
+      "input": ["Hello ${NAME}", {"NAME": "World"}],
+      "expected": "Hello World"
+    },
+    {
+      "function": "expand_env",
+      "input": ["Path: ${HOME}/bin", {}],
+      "expected": "Path: ${HOME}/bin"
+    },
+    {
+      "function": "expand_env",
+      "input": ["Use default ${PORT:-8080}", {}],
+      "expected": "Use default 8080"
+    },
+    {
+      "function": "parse_task_line",
+      "input": ["action=echo; msg=hi; count=2; enabled=true"],
+      "expected": {"action": "echo", "msg": "hi", "count": 2, "enabled": true}
+    },
+    {
+      "function": "parse_task_line",
+      "input": ["note=hello\\;world; empty= ; number=3.0"],
+      "expected": {"note": "hello;world", "empty": "", "number": 3}
+    },
+    {
+      "function": "safe_int",
+      "input": [" 42 "],
+      "expected": 42
+    },
+    {
+      "function": "safe_int",
+      "input": ["3.0", 0],
+      "expected": 3
+    },
+    {
+      "function": "safe_int",
+      "input": ["abc", 7],
+      "expected": 7
+    }
+  ]
+}

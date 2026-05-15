@@ -1,0 +1,9 @@
+film_title,scene_id,start_time_s,end_time_s,jump_scare,avg_loudness_db,shot_count
+Tenebrae (1982),1,0,90,0,-21,24
+Tenebrae (1982),2,90,180,1,-18,36
+Tenebrae (1982),3,180,255,0,-20,20
+Tenebrae (1982),4,255,360,1,-17,48
+Tenebrae (1982),5,360,420,1,-16,28
+Tenebrae (1982),6,420,500,0,-19,22
+Tenebrae (1982),7,500,560,0,-23,18
+Tenebrae (1982),8,560,650,1,-15,30

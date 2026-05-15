@@ -1,0 +1,22 @@
+{
+  "databaseId": 1001,
+  "runAttempt": 1,
+  "workflowName": "build-and-test",
+  "event": "push",
+  "headBranch": "main",
+  "headSha": "abc123def4560001",
+  "conclusion": "failure",
+  "createdAt": "2026-06-01T12:00:00Z",
+  "runStartedAt": "2026-06-01T12:00:10Z",
+  "updatedAt": "2026-06-01T12:15:00Z",
+  "url": "https://github.com/acme/relocation-app/actions/runs/1001/attempts/1",
+  "repository": {
+    "nameWithOwner": "acme/relocation-app"
+  },
+  "actor": {
+    "login": "jdoe"
+  },
+  "triggeringActor": {
+    "login": "jdoe"
+  }
+}

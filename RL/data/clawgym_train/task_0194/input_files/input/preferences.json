@@ -1,0 +1,13 @@
+{
+  "zipCode": "94103",
+  "date": "2025-02-12",
+  "timeWindow": {
+    "start": "2025-02-12T10:00:00-08:00",
+    "end": "2025-02-12T16:00:00-08:00"
+  },
+  "minimumRating": 4.3,
+  "maxDistance": 8.0,
+  "customerName": "Alex Morgan",
+  "customerEmail": "alex.morgan@example.com",
+  "customerPhone": "+14155550123"
+}

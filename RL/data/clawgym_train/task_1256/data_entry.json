@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1256",
+  "user_query": "I need help preparing two Kazakh text conversions for a bilingual handoff.\n\n1) Read input/press_release_cyrillic.txt and convert it from Kazakh Cyrillic to Kazakh Arabic script. Apply standard Kazakh letter mappings including all special letters (ә, і, ү, ө, ң, ғ, ұ, қ, һ), handle combination rules (e.g., ю→يۋ, ё→يو), and convert punctuation where applicable (comma→،, semicolon→؛, question mark→؟). Preserve paragraph breaks and spacing.\n\n2) Read input/diaspora_messages_arabic.txt and convert it from Kazakh Arabic script to Kazakh Cyrillic. Apply the full reverse mappings (including يۋ→ю, يو→ё, ە→э with appropriate vowel adjustments, and Arabic punctuation back to ASCII , ; ?). Preserve paragraph breaks and spacing.\n\nWrite the converted texts to:\n- output/press_release_arabic.txt\n- output/diaspora_messages_cyrillic.txt\n\nAdditionally, create two tab-separated alignment files where each line contains the original line, a single tab, then the converted line (one line per input line, retaining line order):\n- output/cyr_to_arabic_alignment.tsv (for input/press_release_cyrillic.txt)\n- output/arabic_to_cyrillic_alignment.tsv (for input/diaspora_messages_arabic.txt)\n\nFinally, write a brief JSON summary to output/conversion_report.json that includes, for each input, the number of lines converted and any notes on grammar/combination handling you applied. Use UTF-8 encoding for all files.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,31 @@
+version: "1.0"
+description: "Fast indexed workspace audit using Everything CLI (es.exe). All searches are scoped under input/ and export CSVs under output/."
+tasks:
+  - id: recent_docs
+    description: "Find the 15 most recently modified Word documents under docs, with name/size/date/path columns."
+    search_root: "input/snapshots/docs"
+    kind: "files"
+    pattern: "*.docx"
+    columns: ["name", "size", "date-modified", "path"]
+    sort: "-date-modified"
+    limit: 15
+    export_csv: "output/reports/recent_docs.csv"
+
+  - id: node_modules
+    description: "List up to 200 node_modules folders under projects, directories only, with name/date/path columns."
+    search_root: "input/snapshots/projects"
+    kind: "directories"
+    term: "node_modules"
+    columns: ["name", "date-modified", "path"]
+    limit: 200
+    export_csv: "output/reports/node_modules.csv"
+
+  - id: heavy_archives
+    description: "Find up to 100 largest ZIP archives under snapshots, files only, sorted by size, with name/size/date/path columns."
+    search_root: "input/snapshots"
+    kind: "files"
+    pattern: "*.zip"
+    columns: ["name", "size", "date-modified", "path"]
+    sort: "-size"
+    limit: 100
+    export_csv: "output/reports/heavy_archives.csv"

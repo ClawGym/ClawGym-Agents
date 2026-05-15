@@ -1,0 +1,15 @@
+[
+  { "name": "Galaxy S26 Ultra", "category": "smartphone" },
+  { "name": "Galaxy S26+", "category": "smartphone" },
+  { "name": "Galaxy Z TriFold", "category": "smartphone" },
+  { "name": "Galaxy Z Fold7", "category": "smartphone" },
+  { "name": "Galaxy Z Flip7", "category": "smartphone" },
+  { "name": "Galaxy Tab S11 Ultra", "category": "tablet" },
+  { "name": "Galaxy Watch Ultra", "category": "wearable" },
+  { "name": "Neo QLED 8K", "category": "tv" },
+  { "name": "Samsung OLED", "category": "tv" },
+  { "name": "The Frame", "category": "tv" },
+  { "name": "Crystal UHD", "category": "tv" },
+  { "name": "Bespoke AI Family Hub Refrigerator", "category": "appliance" },
+  { "name": "Bespoke Jet Bot AI", "category": "robot_vacuum" }
+]

@@ -1,0 +1,11 @@
+sample_id,date,product_stream,property,value,units
+S1,2026-04-01,Gasoline_A,Sulfur_ppm,9.8,ppm
+S2,2026-04-01,Gasoline_A,Benzene_volpercent,0.63,vol%
+S3,2026-04-01,Diesel_ULSD,Sulfur_ppm,14.6,ppm
+S4,2026-04-01,Jet_A,Sulfur_ppm,400,ppm
+S5,2026-04-01,Gasoline_B,Aromatics_volpercent,34.2,vol%
+S6,2026-04-02,Diesel_ULSD,Sulfur_ppm,15.2,ppm
+S7,2026-04-02,Gasoline_B,Sulfur_ppm,10.1,ppm
+S8,2026-04-02,Naphtha_Heavy,Benzene_volpercent,0.20,vol%
+S9,2026-04-03,Gasoline_A,Aromatics_volpercent,36.0,vol%
+S10,2026-04-03,Gasoline_C,Benzene_volpercent,0.59,vol%

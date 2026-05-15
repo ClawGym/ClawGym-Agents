@@ -1,0 +1,7 @@
+statute_id,topic,requirement_summary,constraint_type
+PRIV-001,Privacy,"Personally identifiable information (PII) shared with foreign governments must be minimized and anonymized unless a lawful derogation; retention max 3 years unless court order.",limit
+PRIV-002,Privacy,"Collection must be necessary and proportionate; bulk transfers without case linkage prohibited.",limit
+DATA-001,Data Sharing,"Reciprocal access required for any automated data exchange.",reciprocity
+OVERS-001,Oversight,"Independent oversight with public reporting at least annually.",oversight
+DISPUTE-001,Dispute,"Dispute resolution must include binding timelines and an escalation path.",process
+VERIFY-001,Verification,"On-site verification permitted subject to notice; denial triggers suspension pending review.",verification

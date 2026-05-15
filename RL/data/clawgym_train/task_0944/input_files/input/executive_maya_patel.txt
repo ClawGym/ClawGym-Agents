@@ -1,0 +1,25 @@
+Name: Maya Patel
+Role: Chief Technology Officer (CTO)
+Company: Northwind Analytics
+Tenure: January 2022 – Present
+
+Overview:
+Maya Patel leads platform and product engineering at Northwind Analytics, with a focus on real-time observability for commerce flows and developer experience. She oversaw the Watchtower v3 and v3.4 releases, guided the rollout of Northwind Pulse’s anomaly detection capabilities, and championed the company’s successful SOC 2 Type II program to meet enterprise security expectations.
+
+Prior Experience:
+- Director of Platform Engineering, QuantaCart (2017–2021): Scaled event-driven data pipelines supporting multi-region commerce workloads and launched a self-serve developer portal.
+- Senior Software Engineer, Nimbus Analytics (2013–2017): Built streaming ingestion services and alerting frameworks for operational analytics.
+
+Recent Focus Areas at Northwind:
+- Reducing alert fatigue (“noise”) with seasonal baselines and smarter routing in Northwind Pulse.
+- Shopify ecosystem depth: webhook reliability, checkout instrumentation, and faster connectors.
+- Partnerships that speed customer onboarding, including the TinyETL collaboration on no-code connectors.
+- Developer relations and documentation quality: improving API ergonomics and SDKs to make integrations faster and less error-prone.
+- Compliance and trust: leading the cross-functional effort to achieve SOC 2 Type II.
+
+Interests and Public Presence:
+Maya speaks about “predictive incident response,” event-driven architectures, and composable commerce. She enjoys mentoring early-career engineers, participates in community webinars, and occasionally writes about building resilient data platforms. Outside of work, she’s an avid hiker and enjoys astrophotography.
+
+Notes for Meeting Prep:
+- Likely to respond well to concrete examples of noise reduction, on-call experience improvements, and developer tooling that accelerates integrations.
+- She values credible metrics (e.g., MTTR impact, baseline accuracy over time) and clear security/compliance posture.

@@ -1,0 +1,8 @@
+{"reader_id":"R001","age":29,"gender":"F","region":"Northeast","favorite_genres":["Fantasy","Science Fiction"],"purchased_title_ids":["T100","T104"]}
+{"reader_id":"R002","age":41,"gender":"M","region":"West","favorite_genres":["Mystery"],"purchased_title_ids":["T103"]}
+{"reader_id":"R003","age":23,"gender":"F","region":"Midwest","favorite_genres":["Science Fiction"],"purchased_title_ids":["T101"]}
+{"reader_id":"R004","age":36,"gender":"NB","region":"South","favorite_genres":["Romance"],"purchased_title_ids":["T102"]}
+{"reader_id":"R005","age":52,"gender":"F","region":"Northeast","favorite_genres":["Fantasy"],"purchased_title_ids":["T100"]}
+{"reader_id":"R006","age":33,"gender":"M","region":"West","favorite_genres":["Science Fiction","Fantasy"],"purchased_title_ids":["T101","T100"]}
+{"reader_id":"R007","age":27,"gender":"F","region":"South","favorite_genres":["Fantasy"],"purchased_title_ids":[]}
+{"reader_id":"R008","age":61,"gender":"F","region":"Midwest","favorite_genres":["Mystery"],"purchased_title_ids":["T103"]}

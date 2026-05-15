@@ -1,0 +1,79 @@
+company_name: BuildOrbit
+stage: Series B
+headcount:
+  company: 95
+  engineering: 28
+  core_platform: 12
+locations:
+  - San Francisco
+  - Remote-US
+  - Toronto
+products:
+  - Dashboard (web-frontend)
+  - Platform APIs
+  - Billing & Checkout
+  - Internal developer portal
+tools:
+  git_provider: GitHub
+  ci_cd: "GitHub Actions + ArgoCD"
+  issue_tracking: "Linear"
+  chat: "Slack (#eng, #releases, #oncall)"
+  wiki: "Notion"
+objectives:
+  - Increase code review participation by 25% in 90 days
+  - Improve incident postmortem completion rate to 100% within 5 business days
+  - Reduce hotfixes per release by 30% by encouraging tests and refactors
+  - Boost morale and recognition for routine work (commits, reviews)
+constraints:
+  - Zero external API calls; must run locally
+  - Cross-platform: macOS, Linux, Windows
+  - Opt-in privacy: no personal data beyond usernames in git logs
+  - Low ceremony: rewards should not slow down delivery
+stakeholders:
+  - CTO: Priya Desai
+  - Head of Engineering: Marco Alvarez
+  - SRE Lead: Julia Kim
+  - Security Lead: Omar Singh
+  - Developer Experience (DevEx): Riley Brooks
+risks:
+  - Fairness: perceived imbalance in rarity distribution
+  - Gaming the system with low-value commits
+  - On-call fatigue if rewards target incidents too strongly
+  - Adoption drop-off after initial hype
+success_metrics:
+  participation_rate:
+    code_reviews_per_engineer_per_week: baseline_3
+    target_90d: 4
+  incidents:
+    oncall_ack_to_fix_median_minutes: baseline_34
+    target_90d: 27
+  releases:
+    hotfixes_per_release: baseline_5
+    target_90d: 3
+timeline:
+  start: "2026-05-15"
+  duration_days: 90
+  checkpoints:
+    - "Day 0: kickoff and opt-in"
+    - "Day 14: early feedback + balancing"
+    - "Day 45: mid-point review"
+    - "Day 90: outcomes + keep/kill decision"
+rollout_scope:
+  phase_1: "Core Platform (12 engineers)"
+  phase_2: "All Engineering (28 engineers) if metrics trend positive"
+communication:
+  launch_channels:
+    - "Slack #eng announcement with examples"
+    - "5-minute demo at Monday standup"
+  ongoing:
+    - "Friday highlights: best flavor text, rarest drop"
+    - "Monthly balancing notes from DevEx"
+security_compliance:
+  data_retention_days: 30
+  pii_stored: "usernames only"
+  approvals_required:
+    - "Security Lead sign-off"
+    - "SRE Lead sign-off"
+budget:
+  swag: "$1,000 for quarterly raffles linked to Legendary/Mythic milestones"
+  dev_time: "2 engineer-weeks for setup and polish"

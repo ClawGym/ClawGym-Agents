@@ -1,0 +1,13 @@
+id,title,owner,status,priority,impact,effort,tag,deadline
+1018,"Prototype block-Lanczos kernel with OpenMP",Alex,open,1,9,5,eigensolver,2026-04-19
+1019,"Benchmark block sizes on synthetic matrices",Chen,open,3,6,4,benchmarking,2026-04-24
+1020,"CSR 64-bit index audit",Maksim,in_progress,2,7,3,eigensolver,2026-04-21
+1021,"Refactor preconditioner interface",Elena,open,2,8,8,eigensolver,2026-04-23
+1022,"Implement SPAI preconditioner",Elena,open,3,9,13,eigensolver,
+1023,"Documentation for eigensolver API",Priya,open,4,5,5,docs,2026-05-01
+1024,"CI pipeline for long-running tests",Alex,blocked,2,6,8,infrastructure,
+1025,"GPU CSR kernel prototype",Chen,open,2,8,8,eigensolver,2026-04-28
+1026,"Sparse matrix reader improvements",Maksim,done,3,4,3,infrastructure,
+1027,"Unit tests for eigenpair residuals",Priya,open,1,7,3,eigensolver,2026-04-22
+1028,"Orthogonalization stability analysis",Chen,open,1,10,8,eigensolver,2026-04-27
+1029,"MPI-based distributed memory support",Alex,open,5,10,13,eigensolver,

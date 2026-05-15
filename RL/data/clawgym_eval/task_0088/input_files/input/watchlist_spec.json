@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "fed-rate-cut-sept",
+    "outcome": null,
+    "baseline_price": 0.5,
+    "alert_at_pct": 60,
+    "alert_change_pct": 20
+  },
+  {
+    "slug": "bitcoin-100k-2026",
+    "outcome": null,
+    "baseline_price": 0.35,
+    "alert_at_pct": 60,
+    "alert_change_pct": 10
+  },
+  {
+    "slug": "nba-giannis-trade",
+    "outcome": "Warriors",
+    "baseline_price": 0.25,
+    "alert_at_pct": 25,
+    "alert_change_pct": 20
+  }
+]

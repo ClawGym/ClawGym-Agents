@@ -1,0 +1,34 @@
+{
+  "port": "Chornomorsk",
+  "fetched_at": "2026-04-19T08:20:00+03:00",
+  "items": [
+    {
+      "title": "Maintenance dredging scheduled at Berth 5 tonight",
+      "url": "https://portauthority.example.com/notices/2026-04-19-dredging-berth5",
+      "summary": "Dredging between 22:00–02:00 local time; Berth 5 closed during works; alternate berths 4 and 6 available.",
+      "date": "2026-04-19T06:30:00+03:00",
+      "tags": ["operations", "notice"]
+    },
+    {
+      "title": "Regional advisory: AIS spoofing attempts reported in the Black Sea",
+      "url": "https://maritimesafety.example.com/bulletins/ais-spoofing-2026-04-18",
+      "summary": "Maritime authorities advise enhanced AIS verification for vessels near Odesa Bay over the next 72 hours. No specific threats to Chornomorsk reported.",
+      "date": "2026-04-18T16:45:00+03:00",
+      "tags": ["security", "advisory"]
+    },
+    {
+      "title": "Weather outlook: Moderate NE wind persists through evening",
+      "url": "https://metocean.example.com/outlooks/odessa-bay-2026-04-19",
+      "summary": "NE 12–16 kt, seas 0.8–1.2 m, light precipitation possible; no gale conditions expected.",
+      "date": "2026-04-19T07:20:00+03:00",
+      "tags": ["weather"]
+    },
+    {
+      "title": "Grain corridor throughput rises 8% week-on-week",
+      "url": "https://shippingnews.example.com/black-sea/throughput-2026w16",
+      "summary": "Increased grain loadings at regional ports including Chornomorsk; minor berthing congestion possible during peak hours.",
+      "date": "2026-04-18T09:00:00+03:00",
+      "tags": ["economy", "operations"]
+    }
+  ]
+}

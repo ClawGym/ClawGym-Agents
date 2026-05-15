@@ -1,0 +1,17 @@
+transaction_id,date,donor_id,donor_name,donor_county,donor_state,amount,source,recipient_committee_id,recipient_committee_name,is_refund,status,payment_processor_fee
+txn_001,2023-01-15,d001,Alex Johnson,Monroe,IN,50.00,ActBlue,HCE01,Hoosiers for Clean Energy PAC,false,Completed,2.25
+txn_002,2023-01-20,d002,Priya Singh,Marion,IN,27.00,ActBlue,IPA22,Indiana Progressive Alliance,false,Completed,1.35
+txn_003,2023-02-02,d003,Mark Davis,Hamilton,IN,100.00,WinRed,ICA77,Indiana Conservative Action,false,Completed,4.20
+txn_004,2023-02-10,d001,Alex Johnson,Monroe,IN,10.00,ActBlue,MWU55,Midwest Workers United,false,Completed,0.69
+txn_005,2023-03-05,d004,Samantha Lee,Lake,IN,75.00,ActBlue,HCE01,Hoosiers for Clean Energy PAC,false,Completed,3.23
+txn_006,2023-03-12,d005,Miguel Ramirez,Allen,IN,20.00,WinRed,CFR90,Citizens for Fiscal Responsibility,false,Completed,1.08
+txn_007,2023-03-22,d006,Taylor Nguyen,Marion,IN,33.00,ActBlue,IPA22,Indiana Progressive Alliance,false,Completed,1.59
+txn_008,2023-04-01,d004,Samantha Lee,Lake,IN,27.00,ActBlue,HEC31,Hoosier Education Coalition,false,Completed,1.35
+txn_009,2023-04-18,d007,Jordan White,Monroe,IN,250.00,WinRed,ICA77,Indiana Conservative Action,false,Completed,10.00
+txn_010,2023-04-25,d008,Avery Patel,Marion,IN,-27.00,ActBlue,IPA22,Indiana Progressive Alliance,true,Completed,-1.35
+txn_011,2023-05-05,d009,Casey Brown,Allen,IN,15.00,ActBlue,HCE01,Hoosiers for Clean Energy PAC,false,Completed,0.89
+txn_012,2023-05-12,d010,Morgan Reed,Hamilton,IN,60.00,WinRed,CFR90,Citizens for Fiscal Responsibility,false,Completed,2.64
+txn_013,2023-05-20,d011,Riley Chen,Monroe,IN,5.00,ActBlue,IPA22,Indiana Progressive Alliance,false,Completed,0.50
+txn_014,2023-06-01,d012,Jamie Fox,Marion,IN,120.00,ActBlue,MWU55,Midwest Workers United,false,Completed,4.98
+txn_015,2023-06-15,d013,Pat Jordan,Marion,IN,45.00,WinRed,ICA77,Indiana Conservative Action,false,Completed,2.06
+txn_016,2023-06-20,d014,Quinn Baker,Tippecanoe,IN,40.00,ActBlue,NCP01,Nonprofit Civic Project,false,Completed,1.86

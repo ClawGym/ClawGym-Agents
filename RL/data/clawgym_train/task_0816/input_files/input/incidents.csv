@@ -1,0 +1,9 @@
+date,time,reason,response_minutes,who_helped,unlock_method,notes
+2026-02-03,18:45,forgot_keys,15,N001,neighbor_spare_key,"Door auto-locked"
+2026-02-15,22:10,door_swung_shut,35,PRO1,locksmith,"Wind gust; called locksmith"
+2026-03-01,08:05,forgot_keys,10,,hidden_spare,"Used planter key"
+2026-03-14,23:40,forgot_keys,50,N002,neighbor_spare_key,"Late from bingo"
+2026-03-28,16:20,lost_keys,90,PRO1,locksmith,"Rekeyed front door"
+2026-04-02,07:15,forgot_keys,20,F001,family_member,"Daughter brought spare"
+2026-04-10,21:55,forgot_keys,40,BM01,management,"Building manager assisted"
+2026-04-18,12:30,door_swung_shut,25,N001,neighbor_spare_key,"Door didn't latch"

@@ -1,0 +1,3 @@
+wastage_percent: 0.1  # intended 10% wastage, but provided as 0.1 instead of 10
+rounding: ceil
+notes: "Apply wastage uniformly to each ingredient total across all classes."

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1580",
+  "user_query": "Create personalized performance testing career roadmaps for each assessment record provided. Read input/assessments.jsonl and input/rules.yaml. For each line in assessments.jsonl, generate a roadmap JSON object strictly following the algorithm and exact strings specified in input/rules.yaml. Write one JSON object per line to output/roadmaps.jsonl. Also write a CSV summary to output/summary.csv with columns: sessionId,totalEstimatedHours,phase1Title,phase2Title,phase3Title,certificationsCount.\n\nRequirements:\n- roadmapId must be \"roadmap_{sessionId}\".\n- Include phases array with exactly 3 phases whose titles are determined by tool priorities as per rules; include the exact topics arrays from rules; compute duration in weeks based on yearsInTesting and previousPerformanceExperience; estimatedHours = durationWeeks * 5 (integer); use the successCriteria strings defined in rules.\n- Include certifications array exactly as per rules (names, vendor, recommendedTiming, difficulty) according to tool priorities.\n- Include resources with courses=8, tools=3, practiceProjects=5, and estimatedTotalHours equal to the sum of phase estimatedHours.\n- Include nextSteps as per rules, based on the tool used in Phase 1.\n- Include sessionId, userId if provided in the assessment, and a generatedAt ISO timestamp.\n- The JSON must be valid and minified per line in output/roadmaps.jsonl. The CSV must include the header row.\n\nDo not invent additional phases or fields. Do not make network calls. Use only the provided rules for deterministic output.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

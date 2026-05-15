@@ -1,0 +1,131 @@
+{
+  "id": "mock-men-2026",
+  "year": 2026,
+  "gender": "men",
+  "name": "Mock NCAA Division I Men's Basketball Championship",
+  "schema_version": "1.0",
+  "regions": [
+    {
+      "name": "East",
+      "teams": [
+        { "seed": 1, "name": "Northbridge University" },
+        { "seed": 2, "name": "Lakeview State" },
+        { "seed": 3, "name": "Capital City University" },
+        { "seed": 4, "name": "Coastal Atlantic University" },
+        { "seed": 5, "name": "Brookfield State" },
+        { "seed": 6, "name": "Ironwood University" },
+        { "seed": 7, "name": "Green Valley University" },
+        { "seed": 8, "name": "Harbor City University" },
+        { "seed": 9, "name": "Riverbend State" },
+        { "seed": 10, "name": "Summit Ridge University" },
+        { "seed": 11, "name": "Cedar Point University" },
+        { "seed": 12, "name": "Silverlake State" },
+        { "seed": 13, "name": "Prairie North University" },
+        { "seed": 14, "name": "Granite Mountain State" },
+        { "seed": 15, "name": "Eastern Plains University" },
+        { "seed": 16, "name": "Pinecrest University" }
+      ]
+    },
+    {
+      "name": "West",
+      "teams": [
+        { "seed": 1, "name": "Sierra Vista University" },
+        { "seed": 2, "name": "Pacific Northwest State" },
+        { "seed": 3, "name": "Red Mesa University" },
+        { "seed": 4, "name": "Golden Gate College" },
+        { "seed": 5, "name": "Clearwater State" },
+        { "seed": 6, "name": "Desert Bloom University" },
+        { "seed": 7, "name": "Blue Horizon University" },
+        { "seed": 8, "name": "Cascadia Tech" },
+        { "seed": 9, "name": "Rocky Plains State" },
+        { "seed": 10, "name": "Bayfront University" },
+        { "seed": 11, "name": "Copper Canyon College" },
+        { "seed": 12, "name": "Rainier State" },
+        { "seed": 13, "name": "Lone Star City University" },
+        { "seed": 14, "name": "Timberline College" },
+        { "seed": 15, "name": "Sun Valley University" },
+        { "seed": 16, "name": "Mojave State" }
+      ]
+    },
+    {
+      "name": "South",
+      "teams": [
+        { "seed": 1, "name": "Gulf Coast University" },
+        { "seed": 2, "name": "Magnolia State" },
+        { "seed": 3, "name": "Crescent City University" },
+        { "seed": 4, "name": "Palmetto State" },
+        { "seed": 5, "name": "River City University" },
+        { "seed": 6, "name": "Piedmont College" },
+        { "seed": 7, "name": "Delta State University" },
+        { "seed": 8, "name": "Peachwood University" },
+        { "seed": 9, "name": "Bayou State" },
+        { "seed": 10, "name": "Sandstone University" },
+        { "seed": 11, "name": "Highland Ridge College" },
+        { "seed": 12, "name": "Cedar Grove State" },
+        { "seed": 13, "name": "Pine Bluff University" },
+        { "seed": 14, "name": "Seaside College" },
+        { "seed": 15, "name": "Oak Ridge University" },
+        { "seed": 16, "name": "Prairie View State" }
+      ]
+    },
+    {
+      "name": "Midwest",
+      "teams": [
+        { "seed": 1, "name": "Great Lakes University" },
+        { "seed": 2, "name": "Heartland State" },
+        { "seed": 3, "name": "Windy City University" },
+        { "seed": 4, "name": "Iron Range College" },
+        { "seed": 5, "name": "Corn Belt University" },
+        { "seed": 6, "name": "Twin Rivers State" },
+        { "seed": 7, "name": "Flint Valley University" },
+        { "seed": 8, "name": "Dakota Plains University" },
+        { "seed": 9, "name": "Maplewood State" },
+        { "seed": 10, "name": "Gateway City University" },
+        { "seed": 11, "name": "Metro Heights University" },
+        { "seed": 12, "name": "Bluff City State" },
+        { "seed": 13, "name": "Northern Prairie University" },
+        { "seed": 14, "name": "Lake Country College" },
+        { "seed": 15, "name": "Ironworks State" },
+        { "seed": 16, "name": "Badger Hill University" }
+      ]
+    }
+  ],
+  "final_four_pairings": [
+    ["East", "West"],
+    ["South", "Midwest"]
+  ],
+  "pick_key_format": "R{round}-{region}-{game_index}. Rounds 1-4 use region names, rounds 5-6 use region 'Final'.",
+  "pick_keys": [
+    "R1-East-1", "R1-East-2", "R1-East-3", "R1-East-4", "R1-East-5", "R1-East-6", "R1-East-7", "R1-East-8",
+    "R2-East-1", "R2-East-2", "R2-East-3", "R2-East-4",
+    "R3-East-1", "R3-East-2",
+    "R4-East-1",
+
+    "R1-West-1", "R1-West-2", "R1-West-3", "R1-West-4", "R1-West-5", "R1-West-6", "R1-West-7", "R1-West-8",
+    "R2-West-1", "R2-West-2", "R2-West-3", "R2-West-4",
+    "R3-West-1", "R3-West-2",
+    "R4-West-1",
+
+    "R1-South-1", "R1-South-2", "R1-South-3", "R1-South-4", "R1-South-5", "R1-South-6", "R1-South-7", "R1-South-8",
+    "R2-South-1", "R2-South-2", "R2-South-3", "R2-South-4",
+    "R3-South-1", "R3-South-2",
+    "R4-South-1",
+
+    "R1-Midwest-1", "R1-Midwest-2", "R1-Midwest-3", "R1-Midwest-4", "R1-Midwest-5", "R1-Midwest-6", "R1-Midwest-7", "R1-Midwest-8",
+    "R2-Midwest-1", "R2-Midwest-2", "R2-Midwest-3", "R2-Midwest-4",
+    "R3-Midwest-1", "R3-Midwest-2",
+    "R4-Midwest-1",
+
+    "R5-Final-1", "R5-Final-2",
+    "R6-Final-1"
+  ],
+  "rules": {
+    "first_round_pairings": "(1 vs 16), (8 vs 9), (5 vs 12), (4 vs 13), (6 vs 11), (3 vs 14), (7 vs 10), (2 vs 15) in each region",
+    "round2_mapping": "Winners of (1/16 vs 8/9), (5/12 vs 4/13), (6/11 vs 3/14), (7/10 vs 2/15)",
+    "round3_mapping": "Winners of the two Round 2 games in the upper half and the two in the lower half",
+    "round4_mapping": "Winners of the two Sweet 16 games",
+    "round5_mapping": "Semifinals: per final_four_pairings by region champions",
+    "round6_mapping": "Championship: winners of the two semifinals"
+  },
+  "notes": "Use team names exactly as listed. Provide exactly 63 picks covering Rounds 1-6 using the pick_keys above."
+}

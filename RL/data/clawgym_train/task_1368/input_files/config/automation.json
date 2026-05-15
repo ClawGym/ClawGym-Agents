@@ -1,0 +1,17 @@
+{
+  "watch": {
+    "input_dir": "input/journals/incoming",
+    "processed_index": "outputs/state/processed_index.json"
+  },
+  "outputs": {
+    "structured_json": "outputs/structured/entries.json",
+    "replies_dir": "outputs/replies",
+    "meeting_notes": "outputs/meetings/notes.md"
+  },
+  "templates": {
+    "reply": "templates/reply_draft.txt"
+  },
+  "reply": {
+    "signature": "- With care, Your therapist"
+  }
+}

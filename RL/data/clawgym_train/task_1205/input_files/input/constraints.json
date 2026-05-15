@@ -1,0 +1,35 @@
+{
+  "organism": "Saccharomyces cerevisiae (budding yeast)",
+  "qc_thresholds": {
+    "min_length_bp": 900,
+    "max_length_bp": 2000,
+    "min_expr_tpm": 20,
+    "gc_fraction_min": 0.36,
+    "gc_fraction_max": 0.56,
+    "inclusive": true
+  },
+  "scoring": {
+    "components": {
+      "norm_length": "min-max normalize length_bp across retained genes",
+      "norm_expr": "min-max normalize expr_tpm across retained genes",
+      "gc_stability": "1 - abs(gc_fraction - 0.5) / 0.5"
+    },
+    "formula": "score = 0.4*norm_length + 0.3*gc_stability + 0.3*norm_expr",
+    "round_score_decimals": 4,
+    "summary_round_decimals": 3
+  },
+  "top_n": 3,
+  "report_requirements": {
+    "safety_ethics_required_phrases": [
+      "This analysis is for educational and benign research planning only.",
+      "No experimental procedures are provided.",
+      "Comply with biosafety regulations and validate with qualified personnel."
+    ],
+    "references_min": 2,
+    "prohibited_terms_hint": [
+      "incubate",
+      "inoculate",
+      "pipette"
+    ]
+  }
+}

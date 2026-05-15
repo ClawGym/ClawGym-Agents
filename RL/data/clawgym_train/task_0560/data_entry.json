@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0560",
+  "user_query": "I need you to bulk-import a small backlog into your local task manager and produce a few reports. Please read input/tasks.csv (columns: task, priority, due, mark_done) and input/reference_date.txt (YYYY-MM-DD). For each row in the CSV, add a task with the given text, priority (high|medium|low), and due date (YYYY-MM-DD or empty). After adding, mark tasks as completed if mark_done is yes/true/1 (case-insensitive). When done, write these outputs:\n\n1) output/tasks_snapshot.json — an array of all imported tasks with fields: id (int), text (string), priority (\"high\"|\"medium\"|\"low\"), due (YYYY-MM-DD or empty string), status (\"pending\"|\"done\"). Sort this array by priority (high > medium > low), then by id ascending within the same priority.\n\n2) output/pending_high.txt — list only the pending high-priority tasks in the format \"<due>\\t<task>\" (tab-separated). Use \"—\" (em dash) if due is missing. Sort by due date ascending; tasks without a due should appear after all dated tasks.\n\n3) output/metrics.json — JSON with counts: total_tasks, pending_count, done_count, high_count, medium_count, low_count, overdue_count. Compute overdue_count using input/reference_date.txt as the anchor: count only tasks with a non-empty due strictly before the anchor date and still pending.\n\n4) output/import_log.txt — a plain text log of the exact command lines you executed (one per line) to add tasks and mark them done, plus a brief summary at the end of how many tasks were added and how many were marked done.\n\nUse relative workspace paths (read from input/, write to output/). Do not hardcode any machine-specific absolute paths. Make sure the outputs reflect the actual state after you add and complete tasks using your local task manager.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

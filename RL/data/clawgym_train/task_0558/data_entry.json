@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0558",
+  "user_query": "Please perform an authorized subdomain discovery for our internal lab domains listed in input/domains.csv. Only scan the listed domains. Use both DNS brute‑force and certificate transparency (crt.sh) lookups. Use the base wordlist at input/custom_wordlist.txt, extend it by adding 10 additional common entries you think are relevant, and save the full final list you used to output/wordlist.txt. Read scan parameters from input/settings.json (threads, timeout, and whether to include CRT lookups). For each domain, save raw, de‑duplicated results (JSON array of objects with keys: subdomain, ips, source) to output/raw/<domain>.json. Then create a consolidated machine‑readable report at output/report.json that includes: the list of target domains, the scan configuration you actually used, counts per domain, wordlist size, the 10 entries you added, and a map of each domain to its raw results file path. Also write a human‑readable summary at output/findings.md that clearly states authorization and scope, briefly explains the methods you used (DNS and certificate transparency), highlights top findings (even if none were discovered, state that), recommended next steps, and a short changelog listing the 10 new wordlist entries you added. Keep all outputs under output/ as specified and do not scan anything outside the provided domains.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

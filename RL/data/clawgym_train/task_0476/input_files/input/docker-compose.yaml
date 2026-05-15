@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  menu-service:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - APP_PORT=5000
+      - BAKERY_NAME=Poems & Pastries
+      - SPECIALS_FILE=data/specials.csv

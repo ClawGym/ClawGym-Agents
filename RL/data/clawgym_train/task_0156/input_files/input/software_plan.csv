@@ -1,0 +1,9 @@
+query,preferred_id,action,version,publisher_whitelist
+Firefox,Mozilla.Firefox,install,,Mozilla
+PowerToys,Microsoft.PowerToys,upgrade,,Microsoft
+VLC,VideoLAN.VLC,install,,VideoLAN
+Notepad++,Notepad++.Notepad++,uninstall,,Notepad++
+Git,Git.Git,upgrade,,Git
+Chrome,Google.Chrome,install,,Google
+7zip,7zip.7zip,install,24.07,7zip
+Evil Tool,EvilCorp.BadTool,install,,EvilCorp

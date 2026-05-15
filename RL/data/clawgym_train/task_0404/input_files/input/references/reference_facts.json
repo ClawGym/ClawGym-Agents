@@ -1,0 +1,32 @@
+[
+  {
+    "id": "REF001",
+    "claim_text": "FriendlyFoto Studios will give a free family photo session this weekend for sharing a post.",
+    "verdict": "contradicted",
+    "source_title": "FriendlyFoto Studios official notice",
+    "source_type": "company notice",
+    "quote": "We are not offering free sessions in exchange for shares.",
+    "date": "2020-09-10",
+    "match_keywords": ["friendlyfoto", "free", "photo session"]
+  },
+  {
+    "id": "REF002",
+    "claim_text": "Grandparents Day in the United States falls on the first Sunday after Labor Day.",
+    "verdict": "supported",
+    "source_title": "U.S. observance calendar",
+    "source_type": "reference calendar",
+    "quote": "Grandparents Day is observed on the first Sunday after Labor Day.",
+    "date": "2019-01-01",
+    "match_keywords": ["grandparents day", "first sunday", "labor day"]
+  },
+  {
+    "id": "REF003",
+    "claim_text": "Drinking warm lemon water cures the common cold.",
+    "verdict": "contradicted",
+    "source_title": "Health information pamphlet",
+    "source_type": "health info",
+    "quote": "Warm lemon water may soothe a sore throat, but it does not cure the common cold.",
+    "date": "2018-05-02",
+    "match_keywords": ["lemon water", "common cold", "cure"]
+  }
+]

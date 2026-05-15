@@ -1,0 +1,85 @@
+experiments:
+  - name: teams_onboarding_v2
+    period:
+      start: 2026-02-10
+      end: 2026-03-10
+    audience: new_signups_all_regions
+    variants:
+      control: "current onboarding"
+      treatment: "checklist + guided team creation"
+    metrics:
+      activation_rate:
+        baseline_pct: 41.3
+        treatment_pct: 49.5
+        lift_pp: 8.2
+        p_value: 0.002
+        by_segment:
+          SMB:
+            baseline_pct: 39.0
+            treatment_pct: 49.4
+            lift_pp: 10.4
+          Mid-market:
+            baseline_pct: 44.2
+            treatment_pct: 51.3
+            lift_pp: 7.1
+          Enterprise:
+            baseline_pct: 45.0
+            treatment_pct: 46.2
+            lift_pp: 1.2
+            note: "Not statistically significant at 95%"
+        by_region:
+          NA: { baseline_pct: 42.0, treatment_pct: 51.1, lift_pp: 9.1 }
+          EMEA: { baseline_pct: 40.5, treatment_pct: 48.3, lift_pp: 7.8 }
+          APAC: { baseline_pct: 41.0, treatment_pct: 46.0, lift_pp: 5.0 }
+      week1_team_creation_rate:
+        lift_relative_pct: 12.0
+        p_value: 0.01
+      week4_retention:
+        baseline_pct: 58.7
+        treatment_pct: 61.9
+        lift_pp: 3.2
+        p_value: 0.03
+    decision: ship
+    notes: "Rollout completed for NA/EMEA; APAC rollout ramp to be cautious due to infra sensitivity."
+  - name: teams_pricing_q1
+    period:
+      start: 2026-01-15
+      end: 2026-03-05
+    audience: new_teams_trials
+    variants:
+      control_price_usd_per_seat: 12.00
+      treatment_price_usd_per_seat: 13.20
+      delta_pct: 10
+    metrics:
+      conversion_to_paid:
+        control_pct: 23.5
+        treatment_pct: 22.1
+        delta_relative_pct: -5.8
+        p_value: 0.015
+        by_region:
+          NA: { control_pct: 24.0, treatment_pct: 23.0, delta_relative_pct: -4.0 }
+          EMEA: { control_pct: 22.8, treatment_pct: 21.6, delta_relative_pct: -5.2 }
+          APAC: { control_pct: 23.2, treatment_pct: 21.0, delta_relative_pct: -9.5 }
+      avg_seats_per_org:
+        control: 23.1
+        treatment: 23.0
+        delta_pct: -0.4
+        p_value: 0.72
+      ARPU_usd:
+        control: 11.40
+        treatment: 12.20
+        delta_pct: 7.1
+      revenue_per_visitor_index:
+        control: 100
+        treatment: 101.3
+        by_region:
+          NA: 102.4
+          EMEA: 101.7
+          APAC: 98.2
+      churn_30d:
+        control_pct: 4.2
+        treatment_pct: 4.4
+        delta_pp: 0.2
+        note: "Not significant globally; APAC subgroup +0.4pp"
+    decision: iterate
+    guidance: "Proceed with +10% price in NA/EMEA only; hold APAC at $12 until reliability perception improves."

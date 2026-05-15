@@ -1,0 +1,4 @@
+Metric,Target,Actual,Variance
+Order Accuracy,98%,97%,-1%
+Portion Compliance,100%,99%,-1%
+Waste Rate,2.0%,2.3%,+0.3%

@@ -1,0 +1,11 @@
+name: Acme Robotics LLC
+industry: Industrial Automation
+hq_address: 145 Mission Street, San Francisco, CA 94105
+hq_state: CA
+ein: "12-3456789"
+pay_frequency: biweekly
+payroll_provider: Gusto
+fiscal_year_end: "12-31"
+contacts:
+  payroll_manager: "Jamie Patel <jamie.patel@acmerobotics.com>"
+  hr_director: "Morgan Lee <morgan.lee@acmerobotics.com>"

@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "id": "p101",
+      "ownerId": "u_user_001",
+      "title": "Neighborhood Cleanup This Weekend",
+      "content": "Join us Saturday at 9am by the community center.",
+      "status": "published",
+      "visibility": "public",
+      "createdAt": "2026-04-05T09:00:00Z",
+      "updatedAt": "2026-04-05T09:00:00Z"
+    },
+    {
+      "id": "p102",
+      "ownerId": "u_user_002",
+      "title": "Lost Dog Near Maple Street",
+      "content": "Golden retriever last seen near Maple and 3rd.",
+      "status": "published",
+      "visibility": "public",
+      "createdAt": "2026-04-05T10:15:00Z",
+      "updatedAt": "2026-04-05T10:15:00Z"
+    },
+    {
+      "id": "p103",
+      "ownerId": "u_user_001",
+      "title": "Yoga in the Park",
+      "content": "Free session Sunday morning at 8am.",
+      "status": "published",
+      "visibility": "public",
+      "createdAt": "2026-04-06T07:45:00Z",
+      "updatedAt": "2026-04-06T07:45:00Z"
+    },
+    {
+      "id": "p104",
+      "ownerId": "u_mod_001",
+      "title": "Guidelines Reminder",
+      "content": "Please keep discussions respectful and on-topic.",
+      "status": "published",
+      "visibility": "public",
+      "createdAt": "2026-04-06T09:30:00Z",
+      "updatedAt": "2026-04-06T09:30:00Z"
+    }
+  ]
+}

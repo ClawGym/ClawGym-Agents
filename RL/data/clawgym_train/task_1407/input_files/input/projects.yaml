@@ -1,0 +1,10 @@
+projects:
+  - name: alpha
+    default_scope: team
+    description: "Release automation, documentation, and maintenance."
+    ingest_paths:
+      - "input/docs/guide.md"
+      - "input/docs/readme.md"
+  - name: beta
+    default_scope: private
+    description: "Internal experiments and onboarding notes."

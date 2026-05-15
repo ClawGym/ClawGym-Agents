@@ -1,0 +1,19 @@
+Orchestrate a persistent multi-agent project with two coordinated workstreams, executed sequentially with state persistence:
+
+1) Local AI compliance snapshot:
+- Generate a software bill of materials (SBOM) and a multi-framework compliance summary.
+- Evaluate the provided scan data against at least these frameworks by name: OWASP LLM Top 10, NIST AI RMF, EU AI Act, and AISVS v1.0.
+- Apply the provided policy-as-code rules to the provided scan results and clearly identify passes and violations.
+- All analysis must be local with no external network calls.
+
+2) Competitive Amazon seller analysis:
+- Analyze the provided seller description to produce a structured assessment with Summary, Specific Data, Action Items, and Next Steps.
+- Clearly mark any estimates with the character sequence "⚠️".
+
+Project requirements:
+- Use the task phases from input/task_types.json (planning → design → development).
+- Register at least three specialized agents mapped to the phases (e.g., research/planning, design, development).
+- Persist agent memory/state and the project state, and produce a top-level project status snapshot upon near-completion.
+
+Context:
+This project simulates a practical multi-agent workflow that delivers both a local AI compliance snapshot (using input/scan-results.json and input/policy.json) and a competitive Amazon seller analysis (using input/seller.md). Outputs must be written only under output/ paths as specified in the task.

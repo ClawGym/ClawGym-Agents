@@ -1,0 +1,17 @@
+persona_name: "Tilen Novak"
+persona_role: "Industrial Designer"
+studio_name: "Studio Novak"
+project_name: "Ripple Lamp"
+collaboration_goal: "Co-design a limited-edition lighting piece for Milan Design Week"
+timeline:
+  prototype_ship_by: "2026-05-30"
+  pitch_deck_by: "2026-06-15"
+tone: "warm professional"
+recipient:
+  name: "Nika Zupanc"
+  relationship: "known since college"
+  shared_history: "We studied together at ALUO in Ljubljana"
+  email: "nika@example.com"
+language_preference: "English"
+sign_off: "Lep pozdrav"
+use_code_signature: true

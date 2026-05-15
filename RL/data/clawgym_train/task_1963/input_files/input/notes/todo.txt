@@ -1,0 +1,8 @@
+Todos:
+- Verify file inventory generation
+- Validate byte sizes and ordering
+- Confirm extension grouping
+- Prepare summary and review
+
+Notes:
+- Keep operations read-only for input files

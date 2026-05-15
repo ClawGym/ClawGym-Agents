@@ -1,0 +1,5 @@
+{
+  "topics": ["absurdism", "anarchism", "paradox", "skepticism"],
+  "domains": ["plato.stanford.edu", "iep.utm.edu"],
+  "min_pages_per_topic": 3
+}

@@ -1,0 +1,25 @@
+Guidance for formatting customer support messages:
+- Do not change the casing of abbreviations or acronyms, especially when they appear mid-sentence.
+- Do not alter URL strings; keep them intact without adding or removing characters or inserting spaces.
+- Preserve brand and product names as listed below.
+
+Abbreviations and acronyms to preserve:
+- e.g., i.e., etc., a.m., p.m., vs., Mr., Mrs., Ms., Dr., St., Jr., Sr.
+- FAQ, ETA, SSO, ID, API, SKU
+- OK, Q1, Q2, Q3, Q4
+
+Brand and product names to preserve (exact casing):
+- AcmeCRM
+- HelpBot Pro
+- PayFast
+- DocuSign
+- Okta
+- Zendesk
+
+URL handling:
+- Examples that may appear in transcripts:
+  - https://support.acmecrm.com/reset?lang=en
+  - https://help.acmecrm.com/t/abc-123
+  - https://status.acmecrm.com
+- Do not insert spaces into URLs or break them across lines.
+- If punctuation is required at sentence end, prefer placing it after non-URL trailing words when possible.

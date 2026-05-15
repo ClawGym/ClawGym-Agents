@@ -1,0 +1,16 @@
+2026-04-19T14:00:01.120Z DEBUG Starting worker id=12 node=api-1
+2026-04-19T14:00:02.483Z INFO User login ok user=jane ip=10.12.1.4
+2026-04-19T14:02:10.010Z WARN Cache nearing capacity: 82% node=web-2
+2026-04-19T14:03:48.333Z INFO health_check passed in 45ms service=api
+2026-04-19T14:05:11.972Z ERROR Connection timeout to payment gateway after 5000ms route=/checkout
+2026-04-19T14:05:12.543Z ERROR Connection timeout to payment gateway after 5000ms route=/checkout
+2026-04-19T14:05:33.001Z ERROR Rate limit exceeded for /api/v1/orders (HTTP 429) user=system-cron
+2026-04-19T14:06:01.800Z info Background job completed: sync_invoices duration=3.2s
+2026-04-19T14:06:22.212Z WARNING Slow query detected on /reports (1200ms) db=analytics
+2026-04-19T14:06:45.888Z ERROR File not found: /var/data/uploads/2026/04/missing.csv
+2026-04-19T14:07:00.100Z debug Retry scheduled in 30s for task=fetch_reports
+2026-04-19T14:07:15.223Z ERROR Connection timeout to payment gateway after 5000ms route=/checkout
+2026-04-19T14:07:45.009Z warn Memory usage high: 92% node=api-2
+2026-04-19T14:08:03.345Z INFO Session expired for user=paul ip=10.12.1.9
+2026-04-19T14:09:00.777Z CRITICAL Unhandled exception in worker-3: TypeError at /checkout
+2026-04-19T14:09:30.111Z INFO health_check latency=90ms service=worker

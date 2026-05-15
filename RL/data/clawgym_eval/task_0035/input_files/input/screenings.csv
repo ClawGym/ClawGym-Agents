@@ -1,0 +1,6 @@
+film_title,screening_date,screening_time,timezone,venue,tags,film_rating,awards,mental_health_theme
+Fragile Minds,2026-05-20,19:00,America/Los_Angeles,Rialto Microcinema,"drama;indie;trauma",8,winner,trauma
+Quiet River,2026-06-02,18:30,America/Los_Angeles,Community Arts Theater,"indie;recovery",7,nominee,recovery
+Family Sound,2026-05-28,20:00,America/Los_Angeles,Neighborhood Film House,"drama;family",6,none,family
+Nocturne Horror,2026-05-25,21:30,America/Los_Angeles,Westside Cinema,"horror;thriller",9,winner,no
+Blue Rooms,2026-06-10,19:30,America/Los_Angeles,Arthouse Loft,"indie;anxiety",9,nominee,recovery

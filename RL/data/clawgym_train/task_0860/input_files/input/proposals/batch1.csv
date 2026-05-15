@@ -1,0 +1,4 @@
+project_id,title,editor,est_units,list_price,unit_cost,advance,marketing,prob_success,status,ms_ready_date,target_pub_quarter
+P-101,Quantum Kites,Luna Garcia,4000,25,8,30000,25000,0.45,pending,2026-05-10,2026Q4
+P-102,Safe Spreadsheets,Mark Patel,15000,30,6,40000,35000,0.8,pending,2026-05-01,2026Q3
+P-104,AI for Auditors,Sara Kim,6000,35,10,25000,20000,0.7,pending,2026-04-15,2026Q3

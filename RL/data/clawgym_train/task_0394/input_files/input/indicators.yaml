@@ -1,0 +1,7 @@
+indicators:
+  - name: "Military expenditure (% of GDP)"
+    provider: "World Bank Open Data"
+    domain_pattern: "worldbank.org"
+  - name: "Intentional homicides (per 100,000 people)"
+    provider: "World Bank Open Data"
+    domain_pattern: "worldbank.org"

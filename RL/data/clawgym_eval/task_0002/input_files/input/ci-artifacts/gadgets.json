@@ -1,0 +1,33 @@
+{
+  "repository": { "nameWithOwner": "acme/gadgets" },
+  "total_count": 3,
+  "artifacts": [
+    {
+      "id": 3001,
+      "name": "test-results-linux",
+      "size_in_bytes": 734003200,
+      "expired": false,
+      "expires_at": "2030-06-01T12:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/gadgets/actions/artifacts/3001/zip",
+      "workflow_run": { "id": 3101 }
+    },
+    {
+      "id": 3002,
+      "name": "test-results-macos",
+      "size_in_bytes": 262144000,
+      "expired": false,
+      "expires_at": "2030-06-02T12:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/gadgets/actions/artifacts/3002/zip",
+      "workflow_run": { "id": 3102 }
+    },
+    {
+      "id": 3003,
+      "name": "test-results-windows",
+      "size_in_bytes": null,
+      "expired": false,
+      "expires_at": "2030-06-03T12:00:00Z",
+      "archive_download_url": "https://api.github.com/repos/acme/gadgets/actions/artifacts/3003/zip",
+      "workflow_run": { "id": 3103 }
+    }
+  ]
+}

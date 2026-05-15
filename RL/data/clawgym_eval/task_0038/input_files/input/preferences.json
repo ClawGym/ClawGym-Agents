@@ -1,0 +1,9 @@
+{
+  "meeting_title": "Mindful Detailing Session",
+  "duration_minutes": 90,
+  "preferred_window": {"start": "07:00", "end": "11:00"},
+  "morning_weight": 5,
+  "timezone": "Europe/Rome",
+  "location": "Dojo Garage",
+  "attendees": ["Zen Master", "Aiko", "Luca"]
+}

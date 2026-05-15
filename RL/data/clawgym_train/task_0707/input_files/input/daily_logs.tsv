@@ -1,0 +1,9 @@
+date	time	item_type	topic	summary	notes	keep_candidate
+2026-04-12	10:30	decision	LinkedIn focus	Team decided to prioritize LinkedIn thought leadership over generic display ads due to higher engagement and better lead quality.	Shift budget from low-performing display placements to organic + sponsored LinkedIn posts.	yes
+2026-04-13	09:15	lesson	A/B testing windows	Short A/B test windows caused misleading results; new rule: minimum sample size and a 7-day window before calling a winner.	Adopt a minimum impressions threshold and avoid premature conclusions.	yes
+2026-04-13	14:50	decision	UTM standardization	Discovered tracking inconsistencies between analytics and CRM traced to inconsistent UTM naming; adopted a standardized template.	Create and enforce a UTM builder and QA checklist.	yes
+2026-04-14	11:05	experiment	Webinar landing page	Webinar landing page click-through underperformed; hypothesis: headline too generic; plan to test a specific value proposition emphasizing privacy-first analytics.	Run headline and CTA variants that reflect the unique value claim.	maybe
+2026-04-15	16:20	decision	Webinar cadence	Approved a monthly webinar as a lead magnet with lean gating (business email only) and clear consent language.	Keep form fields minimal and align with compliance guidance.	yes
+2026-04-16	13:40	lesson	Cold outreach	Cold emails saw low reply rates; warm-up with content-first sequence and then targeted LinkedIn DMs improved acceptance.	Record that trust-building content should precede direct asks.	yes
+2026-04-17	10:10	decision	Case study release	Greenlit publication of a case study highlighting measurable gains from SignalLens; schedule release next week.	Repurpose highlights into 2–3 LinkedIn posts.	yes
+2026-04-18	15:30	note	Brief prep	Prepared business context for the upcoming strategic review and campaign planning.	No action required beyond integrating into analysis.	no

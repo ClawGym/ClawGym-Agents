@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0724",
+  "user_query": "Break this down and have multiple agents work on it: We need a consolidated Q4 sales insights report across North, South, and West regions. Read the inputs in input/brief.md and the CSVs input/north.csv, input/south.csv, input/west.csv. Orchestrate regional analysis agents to work in parallel, then a QA reviewer agent to compare and flag inconsistencies, and finally synthesize a unified report.\n\nDeliverables (write all outputs under output/):\n\n1) output/decomposition.json — your orchestration plan with:\n- execution_mode: 'hybrid'\n- synthesis: 'consolidate'\n- sub_tasks: an array of at least 5 tasks (3 regional 'analysis', 1 'review' that depends on all 3, and 1 'synthesis' that depends on the review). Each task must include: id, role, description, inputs (paths), outputs (paths), dependencies (ids).\n\n2) output/analyses/north.md, output/analyses/south.md, output/analyses/west.md — each with sections in this order:\n- Summary\n- Key Metrics\n- Risks\n- Recommendations\n- Data Sources (must cite the corresponding input CSV path)\n\n3) output/review/qa_report.md — include:\n- Conflicts Found: (list or 'None')\n- Resolution Notes:\n\n4) output/final/consolidated_report.md — include:\n- Synthesis Mode: consolidate\n- Executive Summary\n- Comparative Analysis\n- Unified KPIs\n- Recommendations\n- Appendix: Methodology\n\n5) output/logs/execution.json — a run summary with a 'results' array listing each sub-task id and final status.\n\n6) output/README.md — a short map of the deliverables and how to read them.\n\nPlease standardize region names as North, South, West and keep all file paths relative (e.g., input/... and output/...).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

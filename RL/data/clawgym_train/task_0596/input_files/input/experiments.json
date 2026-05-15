@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ClawHub Skills",
+    "hypothesis": "Premium skills sell for £10-50 each to indie agents",
+    "budget": 0,
+    "investment": 25.0,
+    "revenue": 40.0,
+    "status": "testing"
+  },
+  {
+    "name": "Gumroad Prompt Pack v2",
+    "hypothesis": "Updated pack will convert 3-5% on launch week",
+    "budget": 50.0,
+    "investment": 20.0,
+    "revenue": 15.0,
+    "status": "paused"
+  },
+  {
+    "name": "Micro SaaS - API wrapper",
+    "hypothesis": "Simple wrapper can reach £200 MRR within 60 days",
+    "budget": 100.0,
+    "investment": 60.0,
+    "revenue": 0.0,
+    "status": "abandoned"
+  },
+  {
+    "name": "Twitter Ads - Niche targeting",
+    "hypothesis": "Niche audiences will deliver sub-£0.60 CPC and £10 AOV",
+    "budget": 40.0,
+    "investment": 35.0,
+    "revenue": 50.0,
+    "status": "scaling"
+  }
+]

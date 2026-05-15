@@ -1,0 +1,18 @@
+{
+  "version": "2026-04-12",
+  "exec": {
+    "enabled": true,
+    "requireApproval": false,
+    "allowOnGatewayHost": true,
+    "maxRuntimeSeconds": 600
+  },
+  "network": {
+    "egress": "allow",
+    "dns": "system"
+  },
+  "filesystem": {
+    "read": "allow",
+    "write": "allow",
+    "home": "/home/openclaw"
+  }
+}

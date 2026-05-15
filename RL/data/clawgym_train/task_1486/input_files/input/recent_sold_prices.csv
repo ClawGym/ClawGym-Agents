@@ -1,0 +1,10 @@
+model,ram_gb,storage_gb,price_cop,sale_date,source
+T480,16,512,1250000,2026-03-18,Facebook Marketplace (sold)
+T490,16,512,1300000,2026-03-20,eBay sold listing (global, adjusted to COP)
+T480,16,512,1320000,2026-03-25,OLX Colombia (sold)
+T490,16,512,1350000,2026-03-27,Swappa (sold)
+T480,16,512,1360000,2026-03-30,MercadoLibre (sold)
+T490,16,512,1380000,2026-04-02,Local reseller invoice (Bogotá)
+T480,16,512,1400000,2026-04-04,Facebook Marketplace (sold)
+T490,16,512,1420000,2026-04-05,MercadoLibre (sold)
+T490,16,512,1450000,2026-04-07,Company asset liquidation (Bogotá)

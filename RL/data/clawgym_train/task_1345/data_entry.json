@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1345",
+  "user_query": "We're launching our site next week and our About page reads bloated and a bit buzzwordy. Please do a full edit that combines a line edit, structural edit, tone adjustment, and a cut to meet the target reduction.\n\nRead these files:\n- input/draft_about.md (the current draft)\n- input/brand_voice.md (tone and voice guidance)\n- input/edit_constraints.yaml (target cut %, required phrases, banned words, and required section headings)\n\nWhat I need you to deliver:\n1) Write the fully edited About page to output/edited_about.md.\n   - Reduce length by the target percentage in input/edit_constraints.yaml while preserving meaning.\n   - Keep the exact brand name and all required phrases from the YAML.\n   - Avoid all banned words from the YAML.\n   - Reorganize into clear sections using the required headings listed in the YAML (use them as H2 headings unless the YAML says otherwise).\n   - Keep the voice confident, warm, and plain-spoken per input/brand_voice.md.\n\n2) Write an edit summary to output/edit_summary.md using this exact structure:\n- What changed: [3–5 bullet points of specific, high-level edits and why you made them]\n- What was preserved: [what you intentionally kept]\n- Optional next step: [one suggestion for further improvement]\n\nDo not create any other files. Please make sure the edited page stands alone as a clean, publication-ready draft.\n",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

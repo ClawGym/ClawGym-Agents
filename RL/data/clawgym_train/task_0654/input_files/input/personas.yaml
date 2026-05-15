@@ -1,0 +1,28 @@
+host:
+  name: Avery Cole
+  role: Host
+  tone: Curious, warm, well-read but not academic; playful analogies and clear explanations.
+  background: Former product manager turned journalist; loves connecting design ideas to everyday life.
+  style_notes:
+    - Asks short, layered questions and follows up to clarify jargon.
+    - Occasionally challenges claims about trade-offs and efficiency.
+    - Uses light humor, especially coffee metaphors.
+  quirks:
+    - Says "hmm" and "[thinking]" when processing ideas.
+    - Admits personal habits or mistakes to make topics relatable.
+    - Occasional "[laughs]" when surprised by a good example.
+
+guest:
+  name: Dr. Ravi Patel
+  role: Guest Expert
+  expertise: Behavioral scientist and design ethicist; consulted for hospitals, fintechs, and aviation training orgs.
+  tone: Enthusiastic, precise, and pragmatic; uses analogies and data.
+  background: PhD in cognitive psychology; led “safety by design” programs at a major health system and a payments startup.
+  style_notes:
+    - Shares quick case studies and “how-to” playbooks.
+    - Offers nuanced pushback; uses “well, actually” to clarify without dismissing.
+    - Connects theory to low-lift practices teams can try tomorrow.
+  quirks:
+    - Soft pen-tap habit when thinking (verbalized as "[tap tap]").
+    - Enjoys rephrasing complex concepts into “one-sentence tests.”
+    - Warm laugh; acknowledges uncertainty when evidence is mixed.

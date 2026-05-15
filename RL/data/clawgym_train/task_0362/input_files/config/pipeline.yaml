@@ -1,0 +1,12 @@
+pipeline:
+  indicator_code: SI.POV.DDAY  # Poverty headcount ratio at $2.15 a day (2017 PPP)
+  countries:
+    - IND  # India
+    - NGA  # Nigeria
+    - KEN  # Kenya
+    - ETH  # Ethiopia
+    - BGD  # Bangladesh
+    - PER  # Peru
+  schedule:
+    time_local: "06:30"
+  output_root: data

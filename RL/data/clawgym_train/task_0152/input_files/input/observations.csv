@@ -1,0 +1,7 @@
+type,name,plants,severity,notes,treat_method,treat_product,treat_status
+pest,aphids,"tomatoes,peppers",high,"Clusters on new growth; honeydew present",spray,,partial
+pest,slugs,"lettuce,hostas",moderate,"Slime trails visible on beds",traps,beer traps,effective
+disease,powdery mildew,squash,moderate,"White powdery coating on leaves",spray,,
+disease,early blight,tomatoes,critical,"Lower leaves show brown concentric spots",remove,copper fungicide,effective
+pest,spider mites,beans,high,"Fine webbing and yellow stippling",spray,insecticidal soap,failed
+pest,caterpillars,"kale,broccoli",moderate,"Chewing damage and frass on leaves",biological,,

@@ -1,0 +1,15 @@
+project: "religion_policy_series"
+maintainer: "TBD"
+sources:
+  - name: "FederalRegister"
+    domain: "federalregister.gov"
+    endpoint: "documents"
+time_window:
+  start: "TBD"
+  end: "TBD"
+output:
+  raw_dir: "TBD"
+  out_dir: "TBD"
+cache:
+  enabled: true
+  dir: "TBD"

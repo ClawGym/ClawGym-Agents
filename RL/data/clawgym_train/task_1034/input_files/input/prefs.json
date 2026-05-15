@@ -1,0 +1,13 @@
+{
+  "budget_max_usd": 500,
+  "commute_max_km": 25,
+  "weekly_hours_max": 6,
+  "disliked_days": ["Tue"],
+  "start_window": "2026-05-01",
+  "weights": {
+    "cost_weight": 0.5,
+    "distance_weight": 0.2,
+    "hours_weight": 0.2,
+    "schedule_fit_weight": 0.3
+  }
+}

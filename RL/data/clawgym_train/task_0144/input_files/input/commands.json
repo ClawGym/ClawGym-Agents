@@ -1,0 +1,8 @@
+{
+  "commands": [
+    { "name": "pnpm dev", "description": "Start the development server" },
+    { "name": "pnpm test", "description": "Run unit and integration tests" },
+    { "name": "pnpm lint", "description": "Lint TypeScript sources" },
+    { "name": "pnpm db:migrate", "description": "Run Prisma migrations" }
+  ]
+}

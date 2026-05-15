@@ -1,0 +1,10 @@
+input_dir: input
+output_dir: output
+today: 2026-09-01
+days_ahead: 120
+questions_to_ask:
+  - Confirm scholarship options for first-year B.Sc. students.
+  - Ask about NCC/NSS enrollment deadlines.
+  - Clarify bus connectivity from Rohtak city to Mokhra.
+  - Check if any hostel partnerships exist nearby for girls.
+  - Verify required documents for admission counseling.

@@ -1,0 +1,19 @@
+crops:
+  corn:
+    planting_buffer_days_after_last_frost: 10
+    task_durations:
+      prep_days: 3
+      planting_days: 2
+      irrigation_setup_days: 1
+  soybeans:
+    planting_buffer_days_after_last_frost: 7
+    task_durations:
+      prep_days: 2
+      planting_days: 2
+      irrigation_setup_days: 1
+  alfalfa:
+    planting_buffer_days_after_last_frost: 5
+    task_durations:
+      prep_days: 2
+      planting_days: 1
+      irrigation_setup_days: 1

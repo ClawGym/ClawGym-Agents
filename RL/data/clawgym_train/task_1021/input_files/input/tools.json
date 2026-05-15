@@ -1,0 +1,132 @@
+{
+  "tools": [
+    {
+      "name": "keyword_research",
+      "purpose": "Discover related keywords, estimated search volumes, and SERP difficulty for a given topic to inform outlines.",
+      "category": "search",
+      "inputs": [
+        {
+          "name": "topic",
+          "type": "string",
+          "description": "Primary topic to research",
+          "required": true,
+          "examples": ["AI agents", "serverless GPUs"]
+        },
+        {
+          "name": "language",
+          "type": "string",
+          "description": "Content language ISO code (e.g., en, es)",
+          "required": false,
+          "examples": ["en"]
+        },
+        {
+          "name": "max_results",
+          "type": "integer",
+          "description": "Number of keyword suggestions to return (1-50)",
+          "required": false,
+          "examples": [10]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keywords",
+          "type": "array",
+          "description": "List of keyword objects with fields: phrase (string), volume (integer), difficulty (0-100)"
+        }
+      ],
+      "error_conditions": ["invalid_topic", "rate_limited", "backend_unavailable"],
+      "side_effects": [],
+      "idempotent": true,
+      "rate_limits": {
+        "requests_per_minute": 60
+      }
+    },
+    {
+      "name": "fact_check",
+      "purpose": "Verify a factual claim against provided or discovered sources and return a verdict with citations.",
+      "category": "data",
+      "inputs": [
+        {
+          "name": "claim",
+          "type": "string",
+          "description": "The factual statement to verify",
+          "required": true,
+          "examples": ["OpenAI released model X in 2024"]
+        },
+        {
+          "name": "sources",
+          "type": "array",
+          "description": "Optional list of URLs to prioritize during verification",
+          "required": false,
+          "examples": [["https://example.com/report"]]
+        },
+        {
+          "name": "evidence_required",
+          "type": "boolean",
+          "description": "If true, must return at least one citation or verdict=uncertain",
+          "required": false,
+          "examples": [true]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "result",
+          "type": "object",
+          "description": "Fields: verdict (true|false|uncertain), citations (array of {title,url,excerpt})"
+        }
+      ],
+      "error_conditions": ["no_sources_found", "network_error", "rate_limited"],
+      "side_effects": [],
+      "idempotent": true,
+      "rate_limits": {
+        "requests_per_minute": 30
+      }
+    },
+    {
+      "name": "plagiarism_scan",
+      "purpose": "Scan a content string for potential overlap with known sources and return a similarity score and matches.",
+      "category": "analysis",
+      "inputs": [
+        {
+          "name": "content",
+          "type": "string",
+          "description": "The full text to scan",
+          "required": true,
+          "examples": ["Full article draft text..."]
+        },
+        {
+          "name": "sensitivity",
+          "type": "string",
+          "description": "Scan sensitivity level",
+          "required": false,
+          "examples": ["medium"]
+        },
+        {
+          "name": "report",
+          "type": "boolean",
+          "description": "If true, include a detailed match report in response",
+          "required": false,
+          "examples": [true]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "score",
+          "type": "number",
+          "description": "Overall similarity score between 0 and 1"
+        },
+        {
+          "name": "matches",
+          "type": "array",
+          "description": "List of match objects with fields: url (string), percent (0-100), span (start,end)"
+        }
+      ],
+      "error_conditions": ["timeout", "backend_unavailable"],
+      "side_effects": [],
+      "idempotent": true,
+      "rate_limits": {
+        "requests_per_minute": 20
+      }
+    }
+  ]
+}

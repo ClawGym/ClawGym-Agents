@@ -1,0 +1,165 @@
+{
+  "checksum": "00000000000000000000000000000000",
+  "roots": {
+    "bookmark_bar": {
+      "type": "folder",
+      "name": "Bookmarks bar",
+      "id": "1",
+      "guid": "root-bb",
+      "date_added": "13245678901234567",
+      "date_modified": "13245678901234567",
+      "children": [
+        {
+          "type": "folder",
+          "name": "Duplicates",
+          "id": "10",
+          "guid": "fld-dup",
+          "date_added": "13245678901234567",
+          "date_modified": "13245678901234567",
+          "children": [
+            {
+              "type": "url",
+              "name": "Exact Duplicate A",
+              "id": "11",
+              "guid": "url-dup1",
+              "url": "https://dup.example.com/page",
+              "date_added": "13245678901234567"
+            },
+            {
+              "type": "url",
+              "name": "Exact Duplicate A copy",
+              "id": "12",
+              "guid": "url-dup2",
+              "url": "https://dup.example.com/page",
+              "date_added": "13245678901234567"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "News",
+          "id": "20",
+          "guid": "fld-news",
+          "date_added": "13245678901234567",
+          "date_modified": "13245678901234567",
+          "children": [
+            {
+              "type": "url",
+              "name": "News",
+              "id": "21",
+              "guid": "url-news-tracked",
+              "url": "https://example.com/news?utm_source=newsletter&utm_medium=email",
+              "date_added": "13245678901234567"
+            },
+            {
+              "type": "url",
+              "name": "News Clean",
+              "id": "22",
+              "guid": "url-news-clean",
+              "url": "https://example.com/news",
+              "date_added": "13245678901234567"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Old Empty",
+          "id": "30",
+          "guid": "fld-old",
+          "date_added": "13245678901234567",
+          "date_modified": "13245678901234567",
+          "children": []
+        },
+        {
+          "type": "folder",
+          "name": "Singleton",
+          "id": "40",
+          "guid": "fld-single",
+          "date_added": "13245678901234567",
+          "date_modified": "13245678901234567",
+          "children": [
+            {
+              "type": "url",
+              "name": "Solo Link",
+              "id": "41",
+              "guid": "url-solo",
+              "url": "https://solo.example.com/",
+              "date_added": "13245678901234567"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Deep A/B/C/D/E",
+          "id": "50",
+          "guid": "fld-deep1",
+          "date_added": "13245678901234567",
+          "date_modified": "13245678901234567",
+          "children": [
+            {
+              "type": "url",
+              "name": "bookmark",
+              "id": "51",
+              "guid": "url-weakname",
+              "url": "https://docs.example.com/",
+              "date_added": "13245678901234567"
+            },
+            {
+              "type": "url",
+              "name": "Unique",
+              "id": "52",
+              "guid": "url-unique",
+              "url": "https://unique.example.com/",
+              "date_added": "13245678901234567"
+            }
+          ]
+        },
+        {
+          "type": "folder",
+          "name": "Deep X/Y/Z/W/Q",
+          "id": "60",
+          "guid": "fld-deep2",
+          "date_added": "13245678901234567",
+          "date_modified": "13245678901234567",
+          "children": [
+            {
+              "type": "url",
+              "name": "Insecure",
+              "id": "61",
+              "guid": "url-insecure",
+              "url": "http://insecure.example.com/page",
+              "date_added": "13245678901234567"
+            },
+            {
+              "type": "url",
+              "name": "FTP Resource",
+              "id": "62",
+              "guid": "url-invalid",
+              "url": "ftp://files.example.com/resource",
+              "date_added": "13245678901234567"
+            }
+          ]
+        }
+      ]
+    },
+    "other": {
+      "type": "folder",
+      "name": "Other Bookmarks",
+      "id": "2",
+      "guid": "root-other",
+      "date_added": "13245678901234567",
+      "date_modified": "13245678901234567",
+      "children": []
+    },
+    "synced": {
+      "type": "folder",
+      "name": "Mobile Bookmarks",
+      "id": "3",
+      "guid": "root-synced",
+      "date_added": "13245678901234567",
+      "date_modified": "13245678901234567",
+      "children": []
+    }
+  },
+  "version": 1
+}

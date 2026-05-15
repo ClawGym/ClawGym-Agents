@@ -1,0 +1,5 @@
+{"timestamp":"2026-04-15T12:00:00Z","level":"error","message":"ReferenceError: jQuery is not defined","script_url":"inline:2"}
+{"timestamp":"2026-04-15T12:00:01Z","level":"warn","message":"document.write() is ignored in asynchronous scripts","script_url":"inline:4"}
+{"timestamp":"2026-04-15T12:00:02Z","level":"error","message":"Stripe is not defined","script_url":"https://js.stripe.com/v3/"}
+{"timestamp":"2026-04-15T12:00:03Z","level":"error","message":"Uncaught ReferenceError: $ is not defined","script_url":"inline:2"}
+{"timestamp":"2026-04-15T12:00:04Z","level":"error","message":"TypeError: Cannot read properties of undefined (reading 'checkout')","script_url":"https://js.stripe.com/v3/"}

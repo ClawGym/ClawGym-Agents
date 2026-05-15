@@ -1,0 +1,15 @@
+{
+  "campaign_name": "Halsey Appreciation Week",
+  "start_date": "",
+  "end_date": "",
+  "timezone": "UTC",
+  "hashtags": [],
+  "channels": ["twitter", "instagram"],
+  "time_slots": {
+    "twitter": ["13:00"],
+    "instagram": ["18:00"]
+  },
+  "rules": {
+    "max_posts_per_day_per_channel": 2
+  }
+}

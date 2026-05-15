@@ -1,0 +1,85 @@
+relocation:
+  days_until_move: 90
+  move_window: "Target lease start ~ Day 70–80; cohort kickoff ~ Day 45 after move"
+  team_size: 4
+  vehicles:
+    initial_count: 2
+    add_vehicle_policy: "Reevaluate in Month 2 if any member's rideshare spend > $450/month"
+  pets:
+    dogs: 1
+    notes: "Pet-friendly housing required for Jordan (1 medium dog); budget for pet rent/deposit"
+  commute_limits:
+    car_minutes_one_way: 25
+    transit_minutes_one_way: 40
+  preferred_areas:
+    primary: ["Zilker", "South Lamar", "Bouldin", "Mueller", "East Austin (near Plaza Saltillo)", "Hyde Park", "The Domain/North Burnet", "North Loop"]
+    avoid: ["Far Northwest past FM 620", "Del Valle (airport-adjacent) for daily commuting"]
+  housing_budgets_monthly_usd:
+    studio: 1400-1800
+    one_bedroom: 1800-2500
+    two_bedroom: 2500-3500
+    house_3br: 3000-4500
+  must_have_amenities:
+    - "In-unit washer/dryer"
+    - "Dedicated parking or garage (for car owners)"
+    - "300+ Mbps internet (fiber preferred)"
+    - "Effective AC and ceiling fans"
+    - "Pet-friendly (for at least one lease)"
+  leasing_notes:
+    - "Expect 1–2 months deposit; pet rent $20–$35/mo common"
+    - "High property taxes (~2.1%) baked into rent; negotiate concessions when possible"
+
+coworking:
+  budget_per_person_usd: 300
+  desk_type: "Hot desk or part-time plan"
+  shortlist:
+    - "Capital Factory (Downtown)"
+    - "WeWork – The Domain"
+    - "Industrious – 3rd Street"
+    - "Vessel Coworking (East Austin)"
+  trial_plan:
+    - "Day passes in first 2 weeks post-move"
+    - "Evaluate commute time, noise levels during evening classes, parking costs"
+
+transportation:
+  car_centric_reality: true
+  rideshare_policy: "Allowed for non-car owners; target <$450/month"
+  transit:
+    provider: "CapMetro"
+    notes: "Buses reasonable in central areas; MetroRail useful for Domain ↔ Downtown at limited hours"
+  biking:
+    preferred_for: ["Ben"]
+    notes: "Safer in central/east neighborhoods; avoid midday summer rides"
+  traffic_warnings:
+    - "I-35 congestion is severe; avoid peak 7–9a and 4–6:30p"
+    - "Plan 15–20 min extra when crossing river or using MoPac/I-35"
+
+operations_and_compliance:
+  entity_status: "Delaware LLC (existing)"
+  texas_registration:
+    - "Register as foreign LLC with Texas SOS"
+    - "Appoint registered agent (budget $120/year)"
+    - "File Texas franchise tax (no tax if under threshold but must file)"
+  sales_tax:
+    marketplace_facilitator_note: "Amazon collects/remits TX sales tax for marketplace sales; register only if direct sales off-Amazon"
+  banking:
+    preferred_banks: ["Chase", "Mercury (online)", "Frost Bank"]
+    needs: ["Business checking", "Merchant services (if off-Amazon)"]
+  insurance:
+    general_liability: "Target $1M occurrence"
+    workers_comp: "Evaluate based on staffing"
+    equipment: "Laptop insurance for instructors"
+  venue_requirements:
+    evening_access: true
+    room_capacity_min: 30
+    av_requirements: ["Projector/HDMI", "Mics", "Stable Wi-Fi 100+ Mbps up/down"]
+
+timeline_milestones:
+  - "Day 0–7: Remote apartment hunting; schedule tours for Days 20–35"
+  - "Day 10–14: Registered agent selection; begin TX foreign LLC filing"
+  - "Day 20–35: In-person tours; secure leases"
+  - "Day 30–40: Bank account setup; internet install dates scheduled"
+  - "Day 45–55: Coworking trials; select evening venue"
+  - "Day 60–70: DMV appointments; vehicle registration/inspection"
+  - "Day 70–80: Move-in and utilities on"
+  - "Day 80–90: Bootcamp marketing push; Amazon listing live and ads ramp"

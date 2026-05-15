@@ -1,0 +1,8 @@
+2026-04-13 10:00:00 [INFO] content-research - Start; jobId=cr-20260413-1000
+2026-04-13 10:00:10 [INFO] content-research - Crawl keywords; duration 1.1s
+2026-04-13 10:00:25 [WARN] content-research - performance drop detected after enabling debug logs
+2026-04-13 10:00:40 [INFO] content-research - Analyze trends; duration 1800ms
+2026-04-13 10:01:05 [INFO] content-research - Build outline; duration 2.05s
+2026-04-13 10:01:20 [WARN] content-research - slow query on insights-db; duration 4.5s
+2026-04-13 10:01:45 [ERROR] content-research - failure saving draft to Notion; will retry
+2026-04-13 10:02:10 [INFO] content-research - Retry succeeded; duration 700ms

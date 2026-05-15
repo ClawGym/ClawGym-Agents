@@ -1,0 +1,50 @@
+{
+  "critical_roles": [
+    {
+      "role": "Director of Engineering",
+      "incumbent": "Ava Nguyen",
+      "department": "Engineering",
+      "revenue_impact_per_month": 200000,
+      "current_flight_risk": "medium",
+      "candidate_successors": [
+        { "name": "Luis Romero (Senior Engineering Manager)", "readiness": "6_months" },
+        { "name": "Priya Shah (Staff Engineer)", "readiness": "12+_months" },
+        { "name": "Mark Chen (Principal Engineer)", "readiness": "6_months" }
+      ]
+    },
+    {
+      "role": "VP of Sales",
+      "incumbent": "Jordan Lee",
+      "department": "Sales",
+      "revenue_impact_per_month": 150000,
+      "current_flight_risk": "high",
+      "candidate_successors": [
+        { "name": "Sofia Patel (Sales Director)", "readiness": "ready_now" },
+        { "name": "Andre Wilson (Regional Manager)", "readiness": "6_months" }
+      ]
+    },
+    {
+      "role": "Head of Customer Support",
+      "incumbent": "Daniel Brooks",
+      "department": "Support",
+      "revenue_impact_per_month": 80000,
+      "current_flight_risk": "low",
+      "candidate_successors": [
+        { "name": "Mina Park (Support Manager)", "readiness": "6_months" },
+        { "name": "Ethan Ross (Senior Support Lead)", "readiness": "ready_now" }
+      ]
+    },
+    {
+      "role": "Head of Marketing",
+      "incumbent": "Rachel Kim",
+      "department": "Marketing",
+      "revenue_impact_per_month": 60000,
+      "current_flight_risk": "medium",
+      "candidate_successors": [
+        { "name": "Tom Alvarez (Growth Lead)", "readiness": "12+_months" },
+        { "name": "Nina Gupta (Content Lead)", "readiness": "6_months" }
+      ]
+    }
+  ],
+  "definition_note": "Critical = expected vacancy impact > $50K/month revenue."
+}

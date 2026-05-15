@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1239",
+  "user_query": "Help me nail our product positioning using the materials I’ve provided. Read these files first: input/product_overview.md, input/customer_interviews.jsonl, input/competitors.csv, and input/sales_data.csv. Then create two deliverables:\n\n1) Write output/positioning.json with exactly these keys: \n- positioning_statement (string)\n- one_liner (string, 10 words max)\n- elevator_pitch (string, 60–100 words)\n- key_differentiators (array of exactly 3 short strings)\n- target_customer_profile (string, one paragraph)\n- competitive_position (string, one sentence)\n\n2) Write output/positioning.txt as plain text with labeled sections in this exact order and headings:\n1. Positioning Statement\n2. One-Liner\n3. Elevator Pitch\n4. Key Differentiators\n5. Target Customer Profile\n6. Competitive Position\n\nConstraints & format rules:\n- The positioning statement must use this exact template structure and order: \"For [target customer] who [problem], [Product] is a [category] that [key benefit]. Unlike [alternatives], we [key differentiator].\" It must start with \"For \" and include the substrings \" who \", \" is a \", \" that \", \"Unlike \", and \" we \".\n- The one-liner must be 10 words or fewer.\n- The elevator pitch must be between 60 and 100 words.\n- Provide exactly 3 key differentiators. In output/positioning.txt, list them as 3 lines each starting with \"- \".\n- The competitive position must be one sentence and include \"vs\" or start with \"Versus\".\n- Base everything strictly on the input files (don’t invent markets that contradict the inputs).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

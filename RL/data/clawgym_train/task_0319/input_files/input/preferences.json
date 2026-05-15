@@ -1,0 +1,13 @@
+{
+  "couple_names": ["Alex", "Jordan"],
+  "schedule": {"weeks": 6, "sessions_per_week": 1},
+  "current_challenges": ["defensiveness", "interrupting", "avoiding difficult topics"],
+  "strengths": ["humor", "love of cooking together", "shared hikes on weekends"],
+  "communication_rules": [
+    "Use 'I' statements to express feelings and needs.",
+    "Pause for 2 minutes when emotions escalate.",
+    "No phones or screens during discussions.",
+    "Reflect back what you heard before responding."
+  ],
+  "time_constraints": "Weeknights only; target 20–30 minutes per session."
+}

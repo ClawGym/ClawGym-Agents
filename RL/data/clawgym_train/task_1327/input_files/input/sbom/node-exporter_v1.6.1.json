@@ -1,0 +1,8 @@
+{
+  "image": "quay.io/prometheus/node-exporter:v1.6.1",
+  "packages": [
+    {"name": "node_exporter", "version": "1.6.1", "license": "Apache-2.0"},
+    {"name": "glibc", "version": "2.31", "license": "LGPL-2.1-only"},
+    {"name": "coreutils", "version": "9.1", "license": "GPL-3.0-only"}
+  ]
+}

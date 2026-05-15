@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "query": "string",
+    "result_url": "string",
+    "source_domain": "string",
+    "organization": "string",
+    "item_title": "string",
+    "publication_year": "integer|null",
+    "retrieval_date": "string",
+    "content_path": "string"
+  },
+  "required_fields": [
+    "query",
+    "result_url",
+    "source_domain",
+    "organization",
+    "item_title",
+    "retrieval_date",
+    "content_path"
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "fast": "python3 input/fast.py",
+  "slow": "python3 input/slow.py"
+}

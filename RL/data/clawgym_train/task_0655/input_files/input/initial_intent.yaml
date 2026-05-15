@@ -1,0 +1,63 @@
+project_name: "Q2 Readiness Sprint"
+created_at: "2026-04-19T09:00:00Z"
+owner: "Product Ops"
+
+intent_snapshot:
+  user_goal: >
+    Deliver an intent-aligned multi-workstream package for the "Q2 Readiness Sprint"
+    that includes (1) a concise weekly news digest tailored to our focus areas and audience,
+    (2) a persistent daily reminder configuration with natural-language confirmation patterns
+    and a starter state file, and (3) a performance profiling plan for our native desktop app
+    with assumptions, step-by-step approach, hotspot ranking strategy, and a generic adapter
+    spec for a "native profiler" capability.
+  non_goals:
+    - Implementing any runtime automation or connecting to external services
+    - Using or naming any environment-specific tools in deliverables
+    - Creating production code or binaries
+  constraints:
+    - Deliverables must be text-only and self-contained.
+    - Use canonical capability IDs for alignment planning.
+    - Avoid naming specific tools or vendor products in the performance plan.
+    - Register an ad-hoc adapter for "native profiler" and reference it consistently.
+    - Keep the weekly digest concise and scannable for a technical leadership audience.
+  acceptance_criteria:
+    - Alignment hub includes intent_snapshot, lint, autonomy level, strictness policy,
+      capability matrix with canonical IDs, adapters (with the native profiler adapter),
+      phase plan with gates and evidence, drift tracking, conformance status, tracking,
+      decision_log, and change_log, plus a Mermaid workflow diagram.
+    - Weekly digest contains at least 5 bullet items and at least 3 source links (http URLs),
+      focused on the specified topics and audience value.
+    - Reminder configuration includes id, label, scheduleFirst (HH:MM), nagAfter (HH:MM),
+      >=3 confirmPatterns, tone, and optional message hints; starter state keys match the id
+      with confirmed=false and nagCount=0.
+    - Performance profiling plan includes sections "Profiling Steps", "Symbolication Strategy",
+      "Hotspot Ranking", and "Risks & Assumptions" with generic, tool-agnostic language.
+    - Adapter spec for native profiler is complete per template with provenance metadata and
+      is referenced in the hub capability_matrix.adapters_selected.
+  priorities:
+    - P0: Maintain strict intent alignment and traceability across phases and artifacts.
+    - P1: Keep the digest tailored, concise, and actionable for a startup CTO audience.
+    - P1: Ensure reminder config/state are consistent and ready for heartbeat/cron wiring.
+    - P2: Provide a clear, generic profiling plan that is adaptable across host environments.
+  assumptions:
+    - No external authentication is available; operate in text-only mode.
+    - The weekly digest does not require fetching real-time data; curated summaries with links suffice.
+    - The native desktop app can be profiled using sampling-based techniques and symbol resolution
+      is possible using available debug symbols without naming specific tools.
+  autonomy_preference:
+    level: 2
+    notes: "Balanced: confirm at phase end or on major drift; ask clarification questions when ambiguity is non-trivial."
+  strictness_preference:
+    default_mode: soft_gate
+    overrides: []
+
+timeline:
+  desired_close: "2026-04-22T23:59:00Z"
+  check_in_cadence: "end-of-phase or on drift"
+
+open_questions:
+  - Do we prefer weekday-only reminders or every day?
+  - Should the digest explicitly include a brief 'What it means' takeaway per item?
+
+metadata:
+  version: "1.0"

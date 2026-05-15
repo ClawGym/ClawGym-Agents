@@ -1,0 +1,17 @@
+{
+  "slug": "markdown-exporter",
+  "name": "Markdown Exporter",
+  "ownerName": "docsforge",
+  "version": "1.3.2",
+  "category": "documentation",
+  "homepage": "https://clawhub.ai/docsforge/markdown-exporter",
+  "downloads": 8421,
+  "installs": 679,
+  "stars": 18,
+  "score": 98210.44,
+  "updated_at": 1776000000000,
+  "tags": ["markdown", "export", "pandoc"],
+  "api_base": "https://lightmake.site",
+  "download_url": "https://lightmake.site/api/v1/download?slug=markdown-exporter",
+  "fetched_at": 1776001234567
+}

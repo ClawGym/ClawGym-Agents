@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1243",
+  "user_query": "Read input/broken_openclaw.json and repair it into a valid OpenClaw openclaw.json per the configuration reference. Write two files:\n- output/openclaw_fixed.json: strict JSON (no comments), corrected and minimal working configuration.\n- output/fix_notes.md: a concise bullet-point changelog of what you fixed and why.\n\nRequirements:\n1) Only use known top-level sections; remove unknown keys like gategway/agentsz/badTop.\n2) Preserve the configured port already present in the broken file.\n3) Fix gateway.reload to a valid value (hybrid|hot|restart|off) and ensure gateway.bind is safe: if bind is \"lan\" add proper auth (token or password); otherwise switch to \"loopback\" (prefer loopback).\n4) Ensure there is an agents.list with at least a \"main\" agent, keeping the given workspace.\n5) In commands, do not enable \"config\".\n6) In channels.telegram, remove any hardcoded secrets and replace invalid \"streaming\" with a valid \"streamMode\" setting; if you can’t confidently keep Telegram enabled without secrets, keep it but omit botToken.\n\nDo not include JSON5 comments in the output; the file must be valid JSON. Place the two outputs at the exact paths above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1998",
+  "user_query": "We're a foodie couple planning 5 nights split between Lisbon and Porto in mid-September. Please read input/trip-brief.json and input/prefs.csv, then create a locally-minded plan with specifics and no tourist traps. Deliverables:\n\n1) Write a summary index to output/index.json that includes: traveler_type, cities (Lisbon and Porto), and a files array listing the three docs you create below.\n2) Write a detailed city guide for Lisbon to output/guides/lisbon.md and for Porto to output/guides/porto.md. In each city file, include:\n   - At least three specific restaurants or tascas with street addresses and price points in euros (show the € symbol next to typical prices).\n   - Concrete timing tips (meal times and late Fado start times) and at least two explicit tourist-trap warnings to avoid in that city.\n   - Local alternatives (e.g., less touristy neighborhoods, drinks locals actually order).\n   - For Lisbon, include a Fado note with realistic start times and at least one local specialty reference (e.g., ginjinha or a specific pastry shop you prefer over the famous one).\n   - For Porto, mention Francesinha, port wine cave visits, and warn about Ribeira waterfront pricing with a suggested alternative area.\n3) Create a 5-day blended itinerary across both cities at output/itinerary-5days.md with Day 1–Day 5 sections. Include one day trip (e.g., Sintra or Douro Valley), practical timing (e.g., dinner after 20:00, Fado late), and avoid long-queue attractions.\n\nUse clear headings and bullet points. Stick to locally credible picks, include street names (e.g., Rua/Av.) and prices in euros, and be explicit about what to skip and where to go instead.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

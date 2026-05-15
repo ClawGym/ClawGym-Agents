@@ -1,0 +1,9 @@
+method,dataset,metric_name,metric_value,runtime_sec,notes
+SparseGraphLaplacian,beam_vibration,rmse,0.82,12.3,baseline run
+ConvexRelaxationQP,beam_vibration,rmse,0.76,32.1,
+SparseGraphLaplacian,beam_vibration,rmse,0.85,11.9,repeat with seed 2
+ConvexRelaxationQP,beam_vibration,mae,0.50,31.4,different metric
+SparseGraphLaplacian,truss_noise,rmse,1.25,15.0,
+ConvexRelaxationQP,truss_noise,rmse,1.10,40.0,
+ConvexRelaxationQP,truss_noise,rmse,1.12,39.5,repeat
+SparseGraphLaplacian,truss_noise,rmse,,15.2,missing rmse

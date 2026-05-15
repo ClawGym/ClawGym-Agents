@@ -1,0 +1,3 @@
+{"type":"assistant","content":"Cron: starting self-reflection pass (skip in analysis output)."}
+{"type":"user","content":"This is a self-reflection maintenance run; do not include in insights."}
+{"type":"assistant","content":"Noted. Self-reflection session will be excluded from future reflections."}

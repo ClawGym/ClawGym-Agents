@@ -1,0 +1,17 @@
+surnames:
+  - Merritt
+  - O'Leary
+  - Holloway
+counties:
+  - Summit
+  - Middlesex
+weights:
+  surname_match: 5
+  county_match: 3
+  relation_hint_bonus:
+    descendant: 2
+    ancestor: 2
+    cousin: 1
+  source_quality_multiplier: 2
+top_n: 5
+newsletter_title: Weekly Finds: Family Tree Leads

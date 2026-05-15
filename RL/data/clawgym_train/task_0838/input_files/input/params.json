@@ -1,0 +1,7 @@
+{
+  "agent_id": "marketing",
+  "agent_name": "Marketing Assistant",
+  "bot_token": "333333:CCCCCC-marketing-bot-token",
+  "allow_from": 987654321,
+  "description": "responsible for content marketing and social media"
+}

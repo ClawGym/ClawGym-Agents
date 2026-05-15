@@ -1,0 +1,11 @@
+preferences:
+  mediums: ["painting", "mixed media", "printmaking"]
+  acceptable_regions: ["UK", "Online"]
+  min_prize_gbp: 500
+  max_fee_gbp: 25
+  deadline_window:
+    earliest: "2026-06-01"
+    latest: "2026-09-30"
+  exclude_themes:
+    - "AI"
+    - "NFT"

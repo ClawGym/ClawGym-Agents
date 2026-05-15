@@ -1,0 +1,6 @@
+{
+  "input_csv": "input/reviews.csv",
+  "output_dir": "output",
+  "allowed_creator_types": ["Critic", "YouTuber"],
+  "min_credibility": 0.5
+}

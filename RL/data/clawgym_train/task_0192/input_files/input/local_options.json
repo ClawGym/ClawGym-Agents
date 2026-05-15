@@ -1,0 +1,89 @@
+{
+  "restaurants": [
+    {
+      "name": "Cedar & Spice (Halal Certified)",
+      "cuisine": "Levantine / Middle Eastern",
+      "halal_certified": true,
+      "serves_alcohol": false,
+      "private_room": true,
+      "capacity": 12,
+      "notes": "Certified halal kitchen; no pork or alcohol on premises. Private room suitable for executive dinners."
+    },
+    {
+      "name": "Green Leaf Bistro",
+      "cuisine": "Contemporary Mediterranean",
+      "halal_friendly": true,
+      "serves_alcohol": false,
+      "private_room": true,
+      "capacity": 10,
+      "notes": "Halal-sourced poultry and beef available on request; separate prep area. Offers mocktails and fresh juices only."
+    },
+    {
+      "name": "Harbor View Kitchen",
+      "cuisine": "Seafood & Grill",
+      "halal_friendly": false,
+      "serves_alcohol": true,
+      "private_room": false,
+      "capacity": 60,
+      "notes": "Not suitable for no-alcohol requirement; listed for completeness."
+    },
+    {
+      "name": "Spice Route Kitchen",
+      "cuisine": "South Asian",
+      "halal_friendly": true,
+      "serves_alcohol": false,
+      "private_room": false,
+      "capacity": 30,
+      "notes": "Halal-friendly menu with clear labeling; no alcohol served."
+    }
+  ],
+  "gifts": [
+    {
+      "name": "Hamilton Leather Notebook",
+      "price_usd": 85,
+      "notes": "Executive-quality leather notebook; can be embossed with initials and our logo (subtle)."
+    },
+    {
+      "name": "City Artisan Date Selection",
+      "price_usd": 45,
+      "notes": "Premium Medjool and Ajwa dates presented in a carved wooden box; culturally appropriate."
+    },
+    {
+      "name": "Premium Tea Sampler (No Alcohol)",
+      "price_usd": 60,
+      "notes": "Assorted single-origin black, green, and herbal teas; no alcohol; includes brewing guide."
+    },
+    {
+      "name": "Crystal Wine Set",
+      "price_usd": 120,
+      "notes": "Elegant crystal decanter and glasses; not appropriate for no-alcohol guests."
+    },
+    {
+      "name": "Local Museum Coffee Table Book",
+      "price_usd": 70,
+      "notes": "High-quality photography book featuring local architecture and history."
+    }
+  ],
+  "prayer_spaces": [
+    {
+      "name": "Downtown Islamic Center",
+      "distance_minutes_drive": 8,
+      "wudu_facilities": true,
+      "notes": "Prayer times posted daily; available for Dhuhr/Asr/Maghrib; parking available."
+    },
+    {
+      "name": "Quiet Reflection Room - HQ 6F",
+      "distance_minutes_walk": 2,
+      "wudu_facilities": "Nearby restrooms with dedicated sink area",
+      "notes": "Can be reserved in 30–45 minute blocks for prayer; signage available for privacy."
+    }
+  ],
+  "transport": [
+    {
+      "provider": "Executive Sedan Service",
+      "vehicle": "Mercedes V-Class",
+      "seats": 6,
+      "notes": "Discreet drivers, accommodates carry-ons; chilled bottled water and phone chargers; no alcohol stocked."
+    }
+  ]
+}

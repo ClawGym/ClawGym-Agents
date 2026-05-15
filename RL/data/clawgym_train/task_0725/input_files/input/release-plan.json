@@ -1,0 +1,19 @@
+{
+  "target_version": "1.4.3",
+  "one_thing": "Introduce a robust --retry flag with exponential backoff (and jitter) for all network subcommands (install, fetch, update), reducing transient failure rates observed in CI and on flaky connections.",
+  "justification": "Directly addresses user feedback in issues #231 and ops notes, plus 1.4.2 telemetry showing a 12% first-attempt network error rate.",
+  "scope": {
+    "commands": ["install", "fetch", "update"],
+    "defaults": { "attempts": 3, "base_delay_ms": 250, "max_delay_ms": 5000, "jitter": true },
+    "opt_out": "--no-retry"
+  },
+  "docs_touched": ["README.md", "CHANGELOG.md"],
+  "risks": [
+    "Potential increased total runtime on persistent network outages",
+    "Need to clearly communicate defaults and opt-out"
+  ],
+  "test_plan": [
+    "Integration tests simulate ECONNRESET and timeouts; verify eventual success within 3 attempts",
+    "CI job runs with injected packet loss to confirm stability gains"
+  ]
+}

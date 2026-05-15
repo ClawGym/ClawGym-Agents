@@ -1,0 +1,11 @@
+name,role,project,allocation_percent,critical
+Avery Chen,Data Engineer,Client Analytics Dashboard,60,true
+Avery Chen,Data Engineer,Internal Forecasting Toolkit,40,true
+Priya Patel,Backend Engineer,Client Analytics Dashboard,50,true
+Leo Garcia,Product Analyst,Client Analytics Dashboard,30,true
+Leo Garcia,Product Analyst,Internal Forecasting Toolkit,50,false
+Mina Park,UI/UX Designer,Client Analytics Dashboard,40,false
+Alex Romero,DevOps Engineer,Internal Forecasting Toolkit,50,true
+Alex Romero,DevOps Engineer,Client Analytics Dashboard,30,false
+Jules Kim,Data Scientist,Internal Forecasting Toolkit,70,true
+Samir Shah,QA Engineer,Client Analytics Dashboard,20,false

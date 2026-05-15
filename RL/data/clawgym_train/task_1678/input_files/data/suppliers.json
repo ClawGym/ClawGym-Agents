@@ -1,0 +1,6 @@
+[
+  {"supplier_id": "S1", "name": "GreenLeaf Farm", "usda_organic_certified": true, "certification_id": "ORG-GLF-2022"},
+  {"supplier_id": "S2", "name": "Sun Valley Produce", "usda_organic_certified": false, "certification_id": null},
+  {"supplier_id": "S3", "name": "Happy Hens", "usda_organic_certified": false, "certification_id": null},
+  {"supplier_id": "S4", "name": "Orchard Co", "usda_organic_certified": true, "certification_id": "ORG-ORC-2021"}
+]

@@ -1,0 +1,22 @@
+pid,ppid,name,path,cmdline,user,session,start_time,company,verified_signer
+4,0,System,N/A,,NT AUTHORITY\SYSTEM,0,2026-04-18 12:54:03,,False
+260,4,smss.exe,C:\Windows\System32\smss.exe,smss.exe,NT AUTHORITY\SYSTEM,0,2026-04-18 12:54:10,Microsoft Corporation,True
+456,260,csrss.exe,C:\Windows\System32\csrss.exe,csrss.exe,NT AUTHORITY\SYSTEM,1,2026-04-18 12:54:28,Microsoft Corporation,True
+520,456,wininit.exe,C:\Windows\System32\wininit.exe,wininit.exe,NT AUTHORITY\SYSTEM,0,2026-04-18 12:54:30,Microsoft Corporation,True
+640,520,services.exe,C:\Windows\System32\services.exe,services.exe,NT AUTHORITY\SYSTEM,0,2026-04-18 12:54:34,Microsoft Corporation,True
+652,520,lsass.exe,C:\Windows\System32\lsass.exe,lsass.exe,NT AUTHORITY\SYSTEM,0,2026-04-18 12:54:34,Microsoft Corporation,True
+700,520,winlogon.exe,C:\Windows\System32\winlogon.exe,winlogon.exe,NT AUTHORITY\SYSTEM,1,2026-04-18 12:58:12,Microsoft Corporation,True
+820,640,svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe -k DcomLaunch,NT AUTHORITY\SYSTEM,0,2026-04-18 12:54:41,Microsoft Corporation,True
+912,640,svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe -k netsvcs,NT AUTHORITY\SYSTEM,0,2026-04-18 12:54:45,Microsoft Corporation,True
+1100,640,spoolsv.exe,C:\Windows\System32\spoolsv.exe,spoolsv.exe,NT AUTHORITY\SYSTEM,0,2026-04-18 12:58:59,Microsoft Corporation,True
+1256,640,svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe -k netsvcs -p,NT AUTHORITY\SYSTEM,0,2026-04-18 12:59:02,Microsoft Corporation,True
+1820,640,svchost.exe,C:\Windows\System32\svchost.exe,svchost.exe -k LocalServiceNetworkRestricted,NT AUTHORITY\LOCAL SERVICE,0,2026-04-18 12:59:11,Microsoft Corporation,True
+2100,700,explorer.exe,C:\Windows\explorer.exe,"C:\Windows\Explorer.EXE",CONTOSO\jdoe,1,2026-04-18 12:59:55,Microsoft Corporation,True
+2332,640,taskhostw.exe,C:\Windows\System32\taskhostw.exe,taskhostw.exe,NT AUTHORITY\SYSTEM,0,2026-04-18 13:00:21,Microsoft Corporation,True
+2900,2100,msedgewebview2.exe,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\msedgewebview2.exe,msedgewebview2.exe --type=renderer,CONTOSO\jdoe,1,2026-04-18 13:03:40,Microsoft Corporation,True
+3420,2100,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,chrome.exe --type=browser,CONTOSO\jdoe,1,2026-04-18 13:10:40,Google LLC,True
+3512,2100,chrome.exe,C:\Program Files\Google\Chrome\Application\chrome.exe,chrome.exe --type=renderer --extension-process,CONTOSO\jdoe,1,2026-04-18 13:10:45,Google LLC,True
+3788,2100,powershell.exe,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,powershell.exe -nop -w hidden -enc aQBtAHAAcgBvAHQAZQBkACAAYwBvAG0AbQBhAG4AZA==,CONTOSO\jdoe,1,2026-04-18 13:15:57,Microsoft Corporation,True
+3810,3788,conhost.exe,C:\Windows\System32\conhost.exe,conhost.exe 0x4,NT AUTHORITY\SYSTEM,1,2026-04-18 13:15:57,Microsoft Corporation,True
+4024,2100,rundll32.exe,C:\Windows\System32\rundll32.exe,"rundll32.exe C:\ProgramData\Intel\cache\updater.dll,Start",CONTOSO\jdoe,1,2026-04-18 13:12:32,Microsoft Corporation,True
+4160,2100,werfault.exe,C:\Users\jdoe\AppData\Roaming\Wer\werfault.exe,werfault.exe /u /p:4024 /s:0xDEAD,CONTOSO\jdoe,1,2026-04-18 13:17:09,Unknown,False

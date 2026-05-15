@@ -1,0 +1,16 @@
+metric_key	value	as_of	notes
+MRR_usd	182000	2026-03-31	Matches financials.csv March revenue
+Customers_paying	569	2026-03-31	Active paying accounts
+ARPU_mo_usd	320	2026-03-31	Avg across tiers and usage
+Logo_churn_mo_percent	2.4	2026-03-31	12-week trailing average
+Revenue_churn_mo_percent	1.1	2026-03-31	Net of expansions/contractions excluding churned logos
+NRR_12mo_percent	118	2026-03-31	Net dollar retention over last 12 months
+Gross_margin_percent	78	2026-03-31	Consistent with financials.csv
+CAC_blended_usd	3500	2026-03-31	Blended across paid/inbound/partner
+Payback_months	11	2026-03-31	Gross-margin adjusted payback
+Sales_cycle_days	46	2026-03-31	Median from SQL to close
+Activation_rate_percent	63	2026-03-31	Trial to paid conversion within 45 days
+Lead_to_close_percent	12.5	2026-03-31	Blended across channels
+Uptime_90d_percent	99.3	2026-03-31	One January incident impacted SLA briefly
+Revenue_recurring_percent	88	2026-03-31	Subscription + committed usage as share of total
+Top_10_accounts_percent_MRR	53	2026-03-31	Concentration indicator derived from billing data

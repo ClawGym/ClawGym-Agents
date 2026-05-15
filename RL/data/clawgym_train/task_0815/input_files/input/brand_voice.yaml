@@ -1,0 +1,82 @@
+brand: FlowForge
+tone:
+  primary: "Pragmatic, clear, metric-driven"
+  secondary: "Supportive and confident, never hypey"
+style:
+  sentence_case_subjects: true
+  reading_level: "Grade 8–10"
+  sentences: "Short to medium; one idea per sentence"
+  paragraphs: "1–3 sentences; whitespace for scanability"
+  bullets: "Use for steps, checklists, and proof points"
+vocabulary:
+  prefer:
+    - manual touches
+    - exceptions
+    - cycle time
+    - on-time delivery (OTD)
+    - on-time in-full (OTIF)
+    - approvals
+    - SLA timers
+    - dock-to-stock
+    - audit trail
+    - throughput
+  avoid:
+    - synergy
+    - paradigm shift
+    - disruptive
+    - digital transformation (without specifics)
+    - AI-powered (unless describing a concrete feature)
+subject_lines:
+  length_range_chars: "40-60"
+  patterns:
+    - "How to [reduce X] in [timeframe]"
+    - "[Number] ways to [improve metric]"
+    - "Still dealing with [pain]?"
+    - "Case study: [company] [result]"
+  emoji: false
+  personalization: "Light, by role where appropriate"
+preview_text:
+  length_chars: "90-140"
+  guidance: "Extend the subject with a clear benefit; do not repeat subject verbatim."
+ctas:
+  primary:
+    - "See how it works"
+    - "Get the checklist"
+    - "Download the template"
+    - "View the case study"
+    - "Book a 30‑min demo"
+sign_off:
+  name: "Alex"
+  title: "FlowForge"
+  style: "— Alex at FlowForge"
+segmentation:
+  manager:
+    emphasis: "Quick wins, fewer manual touches, fewer emails, daily flow"
+    cta: "See how it works in your process"
+  director:
+    emphasis: "ROI, OTIF/OTD improvements, payback, governance"
+    cta: "Book a strategy demo with ROI model"
+guardrails:
+  - "Lead with value before any ask"
+  - "One email, one job; one primary CTA"
+  - "Use concrete metrics and examples from the 2026 report"
+links:
+  demo: "https://flowforge.io/demo?source=report_nurture"
+  checklist: "https://flowforge.io/checklist"
+  roi: "https://flowforge.io/roi-assessment"
+  template_asn: "https://flowforge.io/templates/asn-exception"
+case_studies:
+  - name: "NorthRiver Components"
+    result: "34% fewer manual touches; 12% faster dock‑to‑stock; +5 OTD points"
+    url: "https://flowforge.io/case-studies/northriver-components"
+    angle: "Ops Manager quick wins"
+  - name: "FreightLynx Logistics"
+    result: "18% lower cost per exception; +6 OTIF points in 90 days"
+    url: "https://flowforge.io/case-studies/freightlynx-logistics"
+    angle: "Ops Director ROI focus"
+compliance:
+  claims:
+    - "Aggregate benchmarks from the 2026 report"
+    - "Case study metrics approved for public use"
+  disclaimers:
+    - "Results vary by process and baseline; figures are medians where noted."

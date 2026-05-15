@@ -1,0 +1,21 @@
+planning_window:
+  start_date: 2026-05-01
+  end_date: 2026-05-31
+
+residences:
+  - city: Addis Ababa
+    country: Ethiopia
+    years: 2023-2024
+    partner_favorites: ["Ethiopian", "Eritrean"]
+  - city: Tokyo
+    country: Japan
+    years: 2022-2023
+    partner_favorites: ["Japanese", "Okinawan"]
+  - city: Mexico City
+    country: Mexico
+    years: 2021-2022
+    partner_favorites: ["Mexican", "Yucatecan"]
+
+prioritization_rules:
+  - rule: "Prioritize partner_favorites cuisines"
+  - rule: "Avoid repeating dishes posted in the last 30 days"

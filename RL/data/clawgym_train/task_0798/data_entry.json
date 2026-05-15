@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0798",
+  "user_query": "Please analyze the concept described in input/concept.md using the 4-dimension distinctiveness framework. Break it into components, identify 2–4 distinctive technical patterns, score each pattern on the four dimensions, and only include patterns with total score >= 8 in the JSON. For each included pattern, provide synergy analysis, a problem-solution-benefit mapping, market/competitive/novelty signals, three angle framings (method, system, apparatus) phrased without using the word \"claim\", and both an abstract mechanism and a concrete reference. Also produce a concise Markdown analysis report and a share card. Requirements:\n- Read from input/concept.md only.\n- Write outputs to:\n  - output/analysis.json (must follow the provided JSON schema with scan_metadata, patterns[], and summary; ensure summary.total_patterns equals the number of patterns and summary.high_value_patterns counts those with total >=8; summary.recommended_focus must be a pattern_id present in patterns[])\n  - output/report.md (must include a Next Steps section and the required disclaimer text verbatim; do not use any of these exact words: patentable, prior art, non-obvious, claims, file immediately, novel)\n  - output/share_card.md (must include a table of patterns with scores and signals, and the phrase \"Strong distinctive signal!\" for at least one pattern)\n- In analysis.json, verify for every pattern that total equals the sum of the four dimension scores and that patent_signals values are one of: low, medium, high.\n- Use input_type = \"description\" in scan_metadata.\n- Operate locally; do not fetch external data.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

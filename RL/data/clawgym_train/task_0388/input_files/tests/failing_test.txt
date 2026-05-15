@@ -1,0 +1,6 @@
+FAIL: summary mismatch for data/sensor_readings.csv
+- count: got 9, expected 10
+- mean: got 25.91, expected 23.32
+- median: got 23.0, expected 23.2
+Paths compared: output/summary.json vs tests/expected_summary.json
+Command used: python src/monitor.py data/sensor_readings.csv --out output/summary.json

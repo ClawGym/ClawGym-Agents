@@ -1,0 +1,20 @@
+quiet_hours:
+  start: "21:00"
+  end: "06:00"
+restricted_zones:
+  - id: "zone_a"
+    name: "Beverly Hills Private Drive"
+    lat_min: 34.0800
+    lat_max: 34.1000
+    lon_min: -118.4200
+    lon_max: -118.3900
+  - id: "zone_b"
+    name: "Cedars-Sinai Hospital Area"
+    lat_min: 34.0740
+    lat_max: 34.0790
+    lon_min: -118.3800
+    lon_max: -118.3600
+do_not_shoot_subjects:
+  - "Child of Celebrity C"
+  - "Witness Protection"
+  - "Minor"

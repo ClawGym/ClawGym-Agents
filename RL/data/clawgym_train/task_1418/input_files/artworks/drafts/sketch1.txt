@@ -1,0 +1,3 @@
+concept: surveillance & speech
+caption: TBD
+notes: try bold, simplified shapes

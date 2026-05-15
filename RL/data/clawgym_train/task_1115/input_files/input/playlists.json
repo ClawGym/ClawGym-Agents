@@ -1,0 +1,49 @@
+{
+  "playlists": [
+    {
+      "playlist_name": "Local Airwaves Jan",
+      "tracks": [
+        {"artist_name": "The Bricklayers", "track_title": "Urban Mortar", "tag": "UK_radio_play"},
+        {"artist_name": "Eastfield Echo", "track_title": "Signal Lane", "tag": "UK_radio_play"},
+        {"artist_name": "Glasworth", "track_title": "Heather & Stone", "tag": "UK_radio_play"},
+        {"artist_name": "Neon Fjord", "track_title": "Polar Lights", "tag": "international_radio"},
+        {"artist_name": "Golden Harbour", "track_title": "Dockside Dawn", "tag": "UK_radio_play"}
+      ]
+    },
+    {
+      "playlist_name": "Regional Press Highlights",
+      "tracks": [
+        {"artist_name": "The Bricklayers", "track_title": "City Lime", "tag": "local_press_feature"},
+        {"artist_name": "Eastfield Echo", "track_title": "Night Tube", "tag": "local_press_feature"},
+        {"artist_name": "The Mersey Lines", "track_title": "Estuary", "tag": "local_press_feature"},
+        {"artist_name": "Rue de Lune", "track_title": "Minuit", "tag": "blog_review"}
+      ]
+    },
+    {
+      "playlist_name": "Local Airwaves Summer",
+      "tracks": [
+        {"artist_name": "Eastfield Echo", "track_title": "Southbank Circuits", "tag": "UK_radio_play"},
+        {"artist_name": "The Mersey Lines", "track_title": "Salt & Iron", "tag": "UK_radio_play"},
+        {"artist_name": "Glasworth", "track_title": "Loch & Lilt", "tag": "UK_radio_play"},
+        {"artist_name": "Shoreline Static", "track_title": "Tidal Haze", "tag": "UK_radio_play"},
+        {"artist_name": "The Bricklayers", "track_title": "Masonry", "tag": "UK_radio_play"}
+      ]
+    },
+    {
+      "playlist_name": "Blogs & Beyond",
+      "tracks": [
+        {"artist_name": "Shoreline Static", "track_title": "Gullwing", "tag": "blog_review"},
+        {"artist_name": "Neon Fjord", "track_title": "Aurora Bite", "tag": "international_radio"},
+        {"artist_name": "The Mersey Lines", "track_title": "Dry Dock", "tag": "UK_radio_play"},
+        {"artist_name": "Golden Harbour", "track_title": "Low Tide Letters", "tag": "local_press_feature"}
+      ]
+    },
+    {
+      "playlist_name": "Local Airwaves Autumn",
+      "tracks": [
+        {"artist_name": "Eastfield Echo", "track_title": "Northern Line (Edit)", "tag": "UK_radio_play"},
+        {"artist_name": "The Bricklayers", "track_title": "Pointing Trowel", "tag": "blog_review"}
+      ]
+    }
+  ]
+}

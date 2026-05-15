@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Victory Chili",
+    "servings_per_batch": 8,
+    "cost_per_batch_usd": 18.0,
+    "suitable_for": "win",
+    "priority": 1
+  },
+  {
+    "name": "Blue-and-Gold Nachos",
+    "servings_per_batch": 10,
+    "cost_per_batch_usd": 12.0,
+    "suitable_for": "any",
+    "priority": 2
+  },
+  {
+    "name": "Halftime Sliders",
+    "servings_per_batch": 6,
+    "cost_per_batch_usd": 16.0,
+    "suitable_for": "win",
+    "priority": 2
+  },
+  {
+    "name": "Comfort Mac n Cheese",
+    "servings_per_batch": 8,
+    "cost_per_batch_usd": 14.0,
+    "suitable_for": "loss",
+    "priority": 1
+  },
+  {
+    "name": "Classic Wings",
+    "servings_per_batch": 12,
+    "cost_per_batch_usd": 22.0,
+    "suitable_for": "any",
+    "priority": 1
+  }
+]

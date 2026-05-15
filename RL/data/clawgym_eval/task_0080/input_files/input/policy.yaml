@@ -1,0 +1,4 @@
+user: "clawrunner"
+min_age: 7200
+pattern: ".openclaw/browser/"
+mode: "detect"

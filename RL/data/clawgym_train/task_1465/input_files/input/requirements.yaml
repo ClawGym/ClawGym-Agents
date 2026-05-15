@@ -1,0 +1,131 @@
+skill:
+  canonical_slug: "data-ingest-pro"
+  display_name: "data-ingest-pro"
+  structure: "capabilities-based"
+  required_sections:
+    - "Overview"
+    - "Core Capabilities"
+    - "Resources"
+  workflow_snippet:
+    must_contain_words: ["ingest", "validate", "transform", "export"]
+    note: "Include these four words together in a brief workflow subsection."
+  capabilities_min_count: 4
+  recommended_capabilities:
+    - "Source Connectors & Intake"
+    - "Validation Engine & Schema Registry"
+    - "Transformation & Mapping Templates"
+    - "Exporters & Loaders"
+    - "Orchestration & Reliability"
+    - "Observability & Governance"
+  front_matter:
+    required_keys: ["version", "name", "description"]
+    example:
+      version: "1.0.0"
+      name: "data-ingest-pro"
+      description: "Unified data ingestion skill for CSV, JSON, and XML with validation, transformation, and export."
+  naming_consistency:
+    must_use: "data-ingest-pro"
+    rules:
+      - "Use 'data-ingest-pro' exactly in titles, slides, and references."
+      - "Do not switch to other slugs or names."
+
+resources:
+  create:
+    - path: "output/scripts/validators.py"
+      purpose: "Validation stubs for CSV/JSON/XML"
+      requirements:
+        - "Define def validate_csv(...), def validate_json(...), def validate_xml(...)."
+        - "Each function includes a concise docstring."
+        - "Include if __name__ == \"__main__\": that prints 'validators ready'."
+    - path: "output/references/guide.md"
+      purpose: "Concise reference with schema/naming/orchestration guidance."
+      sections:
+        - "Schema"
+        - "Naming"
+        - "Async Task Orchestration"
+      orchestration_keywords:
+        - "priority"
+        - "retry"
+        - "dependencies"
+        - "concurrency"
+        - "timeout"
+        - "logging"
+      notes: "Explain these concepts in a tool-agnostic way; avoid coupling to a specific library."
+    - path: "output/assets/templates/README.md"
+      purpose: "Describe mapping/transform template types and how to apply them."
+      minimal: true
+  skill_doc:
+    path: "output/SKILL.md"
+    must:
+      - "Begin with YAML front matter between --- lines including version, name, description."
+      - "Contain '## Overview'."
+      - "Contain '## Core Capabilities' with >=4 subheadings starting with '### '."
+      - "Contain a brief workflow mention with the four words: ingest, validate, transform, export."
+      - "Contain '## Resources' mentioning scripts/, references/, and assets/ and the files above."
+      - "Exclude scaffolding phrases like 'Structuring This Skill' and 'TODO'."
+
+slides:
+  path: "output/onboarding/slides.md"
+  format: "markdown with '---' separators (Marp/Slidev/Reveal.js compatible)"
+  must_include_slides:
+    - "Title (mention 'data-ingest-pro' and a short tagline)"
+    - "Problem"
+    - "Solution"
+    - "Architecture"
+    - "Workflow"
+    - "Capabilities"
+    - "Rollout Plan"
+    - "FAQ/Q&A (contains the text 'Q&A')"
+  technical_checks:
+    min_separators: 8
+    contains_slug: true
+    contains_QnA_text: true
+
+landing_page:
+  path: "output/landing/landing.md"
+  seo_constraints:
+    meta_title:
+      prefix: "Meta Title: "
+      length_min: 50
+      length_max: 60
+    meta_description:
+      prefix: "Meta Description: "
+      length_min: 150
+      length_max: 160
+    h1_contains: "data ingestion"
+    faq:
+      min_q: 3
+      min_a: 3
+      labels:
+        question_prefix: "Q:"
+        answer_prefix: "A:"
+    score_line:
+      format: "SEO Score: NN/100"
+      breakdown_keywords:
+        min_required: 5
+        allowed:
+          - "keyword"
+          - "length"
+          - "readability"
+          - "headings"
+          - "meta"
+          - "internal links"
+          - "external links"
+          - "faq"
+  structure_guidance:
+    - "Use H2/H3 hierarchy for body sections (e.g., Features, How it Works, Use Cases)."
+    - "Include a concluding CTA inviting readers to adopt or request access."
+
+assumptions:
+  streaming_ingest: "Optional future capability; not required for v1 docs."
+  defaults:
+    concurrency: 2
+    max_retries: 3
+    task_timeout_seconds: 30
+    backoff_base_seconds: 5
+  pii_policy: "Prefer tokenization if configured; else drop sensitive fields and log."
+
+notes:
+  - "Align SKILL.md content with messy notes (supported formats: CSV/JSON/XML, validation/transform/export steps, target users)."
+  - "Keep tone professional and concise; avoid scaffolding language."
+  - "Reference the exact resource files you create in the Resources section."

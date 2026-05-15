@@ -1,0 +1,7 @@
+{
+  "rooms": [
+    {"name": "Living Room", "budget": 4500},
+    {"name": "Bedroom", "budget": 3000},
+    {"name": "Dining Room", "budget": 3800}
+  ]
+}

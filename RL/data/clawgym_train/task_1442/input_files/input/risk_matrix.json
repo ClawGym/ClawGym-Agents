@@ -1,0 +1,20 @@
+{
+  "severity_by_topic": {
+    "Privacy": 0.8,
+    "Data Sharing": 0.6,
+    "Reciprocity": 0.5,
+    "Oversight": 0.5,
+    "Dispute": 0.4,
+    "Verification": 0.5
+  },
+  "likelihood_heuristics": {
+    "ambiguous_language_terms": ["may", "appropriate", "reasonable", "feasible", "as necessary"],
+    "missing_numeric_retention": true,
+    "default_likelihood_values": {
+      "explicit": 0.2,
+      "ambiguous": 0.6,
+      "missing": 0.8
+    }
+  },
+  "risk_score_guidance": "Multiply severity by likelihood based on the clause's clarity (explicit/ambiguous/missing); round to two decimals."
+}

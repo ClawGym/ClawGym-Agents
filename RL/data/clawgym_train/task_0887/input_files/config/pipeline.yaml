@@ -1,0 +1,11 @@
+project: "plant-pattern-notebook"
+filters:
+  motifs: ["spiral", "venation", "phyllotaxis"]
+  min_complexity: 5
+notes_motif: "spiral"
+enabled_steps:
+  - "aggregate_motifs"
+  - "extract_notes_by_motif"
+  - "apply_palette_reference"  # intentionally mismatched to test routing
+output:
+  base_dir: "outputs"

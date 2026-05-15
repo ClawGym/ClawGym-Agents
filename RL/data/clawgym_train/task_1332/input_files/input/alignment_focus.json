@@ -1,0 +1,43 @@
+{
+  "article": {
+    "must_cover": ["CSS", "memory alignment"],
+    "also_cover_one_of": ["sequence alignment", "typographic"],
+    "include_cli_columns": true,
+    "tone": "professional",
+    "target_grade": "9-12",
+    "quote_required": true
+  },
+  "runbook": {
+    "topic": "CLI columns",
+    "constraints": {
+      "delimiter": "|",
+      "monospace": true,
+      "fixed_width": true,
+      "pad_text": "left",
+      "pad_numbers": "right"
+    },
+    "input_csv": "input/servers.csv"
+  },
+  "reference": {
+    "topic": "memory alignment",
+    "include": ["natural alignment", "struct padding", "cache lines", "SIMD"],
+    "table_fields": ["Type", "Size (bytes)", "Natural alignment"]
+  },
+  "domains_to_cover": ["css", "memory", "typographic", "columns", "sequence"],
+  "priorities": {
+    "css": "high",
+    "memory": "high",
+    "columns": "high",
+    "typographic": "medium",
+    "sequence": "medium"
+  },
+  "servers_table": {
+    "columns": ["Name", "Status", "Count"],
+    "min_widths": {
+      "Name": 12,
+      "Status": 12,
+      "Count": 8
+    }
+  },
+  "notes": "Ensure taxonomy includes at least engineering and product domains from org context."
+}

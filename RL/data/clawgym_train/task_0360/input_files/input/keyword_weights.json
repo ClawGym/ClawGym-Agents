@@ -1,0 +1,20 @@
+{
+  "logging": 3,
+  "timber": 3,
+  "harvest": 3,
+  "timber sale": 4,
+  "public notice": 4,
+  "public comment": 5,
+  "meeting": 2,
+  "hearing": 3,
+  "permit": 4,
+  "forest management": 3,
+  "clearcut": 5,
+  "salvage": 2,
+  "road": 1,
+  "environmental assessment": 4,
+  "environmental impact statement": 5,
+  "scoping": 3,
+  "FPA": 2,
+  "reforestation": 1
+}

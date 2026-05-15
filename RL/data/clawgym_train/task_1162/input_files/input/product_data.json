@@ -1,0 +1,62 @@
+{
+  "your_product": {
+    "asin": "B0N0RD1C12",
+    "name": "NordicTemp Pro Mug 12oz",
+    "price": 27.99,
+    "rating": 4.5,
+    "review_count": 3125,
+    "features": [
+      "18/8 stainless steel",
+      "Double-wall vacuum insulation",
+      "Leakproof lock lid with one-hand open",
+      "Fits most car cup holders",
+      "BPA-free and dishwasher safe",
+      "Keeps drinks hot 6h / cold 12h",
+      "Powder-coated matte finish"
+    ]
+  },
+  "competitors": [
+    {
+      "name": "ChillMate Steel Tumbler 16oz",
+      "price": 22.99,
+      "rating": 4.0,
+      "review_count": 1854
+    },
+    {
+      "name": "EconoTherm Mug 14oz",
+      "price": 19.99,
+      "rating": 3.8,
+      "review_count": 942
+    },
+    {
+      "name": "HydraLock Travel Cup 12oz",
+      "price": 25.49,
+      "rating": 4.2,
+      "review_count": 1297
+    }
+  ],
+  "competitor_negative_reviews": [
+    "The lid feels flimsy and the finish looks worn after a week.",
+    "Handle broke off; poor quality overall.",
+    "stopped working vacuum seal and doesn't last in keeping drinks hot.",
+    "The auto-seal mechanism doesn't work after two weeks.",
+    "The spout is confusing to operate and it failed during a hike.",
+    "Too bulky for cup holders and looks cheap in person.",
+    "The handle is uncomfortable and awkward to grip.",
+    "The mug is too big for my car cup holder.",
+    "The lid is too small and doesn't fit the replacement gasket.",
+    "Arrived late and the box had damaged corners.",
+    "Packaging was poor and there were missing parts for the lid.",
+    "Overpriced for what you get; definitely not worth the money."
+  ],
+  "my_positive_reviews": [
+    "Feels solid and well made; the stainless steel finish is excellent.",
+    "Durable and high quality build that kept coffee hot for hours.",
+    "Sleek, modern look and compact enough for small backpacks.",
+    "Lightweight and elegant design that's easy to carry.",
+    "Great value for the quality; absolutely worth it.",
+    "Good price and I recommend it after weeks of use.",
+    "Works great; one-handed open and close is convenient.",
+    "Fast shipping and well packaged from a responsive seller."
+  ]
+}

@@ -1,0 +1,7 @@
+date,merchant,description,category,quantity,unit,amount_jpy,payment_method
+2025-01-05,Eataly Tokyo,Olive oil 1L,Groceries-Italian,1,L,1800,credit
+2025-01-07,KALDI,San Marzano tomatoes 400g,Groceries-Italian,3,can,900,cash
+2025-01-10,Cooking Studio,Cooking class: Pasta basics,Cooking Class,1,class,12000,credit
+2025-01-15,Bookstore,Book: Italian Regional Cooking,Books,1,book,2200,cash
+2025-01-20,Trattoria,Dinner,Dining-Italian,1,meal,5500,credit
+2025-01-22,Rail,IC card top-up,Transport,1,recharge,3000,ic-card

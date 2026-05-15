@@ -1,0 +1,6 @@
+name,neighborhood,capacity,wifi_mbps,ada_compliant,rental_fee,catering_per_person,has_breakouts,on_site_parking,notes
+"Austin Convention Center - Ballroom C","Downtown",400,1200,TRUE,15000,50,TRUE,TRUE,"Flexible partitions; in-house AV available"
+"Fair Market","East Austin",350,500,TRUE,12000,48,FALSE,LIMITED,"Industrial space; external AV vendor required"
+"Capital Factory - First Floor Event Space","Downtown",250,1000,TRUE,8000,35,TRUE,PAID,"Great tech vibe; capacity tight"
+"Palmer Events Center - Meeting Room 4","South Shore",300,600,TRUE,9000,45,TRUE,PAID,"Scenic; capacity borderline"
+"Hotel Van Zandt - Ballroom","Rainey Street",320,800,TRUE,14000,55,TRUE,VALET,"Upscale; F&B minimums apply"

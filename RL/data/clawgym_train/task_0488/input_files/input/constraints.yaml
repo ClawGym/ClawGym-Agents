@@ -1,0 +1,15 @@
+objective: "impact_score = priority_weight * women_population_estimate * safety_index"
+must_start_end_at: "Kohima"
+days: 2
+day_labels:
+  - "Day 1"
+  - "Day 2"
+max_villages_per_day_per_volunteer: 2
+randomness: false
+constraints:
+  daily_max_hours: 8
+  visit_each_village_at_most_once: true
+  mandatory_villages:
+    - "Mokokchung"
+  compute_travel_km: "Euclidean distance between consecutive stops"
+  travel_time_hours: "travel_km / speed_kmph"

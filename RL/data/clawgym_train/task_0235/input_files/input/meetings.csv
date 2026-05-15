@@ -1,0 +1,7 @@
+id,name,day,start_time,duration_min,meeting_format,location,notes,status
+101,Morning Reflections,Monday,7:00,60,In-Person,St. Mark's Hall,,active
+102,Beginner's,Monday,19:30,75,ONLINE,Zoom,Newcomer focus,active
+103,Daily Read,Tuesday,07:00,60,inperson,Community Center Rm 2,,active
+104,Women’s Sobriety,Wednesday,18:00,60,Online,Zoom,,cancelled
+105,Big Book Study,Thursday,20:00,90,In-Person,Grace Church Basement,Open,active
+106,Step Study,Sunday,17:00,60,online,Zoom,,active

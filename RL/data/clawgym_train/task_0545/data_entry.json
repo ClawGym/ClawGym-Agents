@@ -1,0 +1,8 @@
+{
+  "task_id": "task_0545",
+  "user_query": "Run a non-invasive security and system health audit of our OpenClaw host and produce two artifacts:\n\n1) Write a clear narrative report to output/healthcheck/system_health_report.md that includes:\n- A System Health Score (0–100) at the top\n- An Executive Summary in plain language\n- Sections titled exactly: Security Audit Findings, Update Status, Firewall Status, Open Ports, System Vitals\n- Bullet-pointed, actionable recommendations\n- Every finding should include a severity tag in square brackets, e.g., [low], [medium], [high], or [critical]\n\n2) Write a machine-readable summary to output/healthcheck/system_health_summary.json with this shape:\n{\n  \"systemHealthScore\": number (0–100),\n  \"auditFindings\": [ { \"id\": string, \"title\": string, \"severity\": \"low\"|\"medium\"|\"high\"|\"critical\", \"category\": string } ],\n  \"updates\": { \"outdated\": boolean, \"outdatedCount\": number },\n  \"firewall\": { \"active\": boolean, \"tool\": string },\n  \"openPorts\": number[],\n  \"os\": { \"name\": string, \"version\": string },\n  \"generatedAt\": string (ISO 8601 timestamp)\n}\n\nDo not make any changes to the system as part of this audit; report only. If any data isn’t discoverable, state the assumption in the report and reflect \"unknown\" appropriately (e.g., firewall.tool = \"unknown\"). Also include 2–3 sentences on how you calculated the System Health Score in the report.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  }
+}

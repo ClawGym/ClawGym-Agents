@@ -1,0 +1,5 @@
+[
+  {"id": "S1", "audience": "ENGL 210 students", "subject_keyword": "Midterm", "description": "Send midterm information and readings."},
+  {"id": "T1", "audience": "Graduate TAs", "subject_keyword": "prep week 7", "description": "Share discussion sections prep instructions."},
+  {"id": "C1", "audience": "Department Chair", "subject_keyword": "Guest lecture", "description": "Confirm guest lecture logistics."}
+]

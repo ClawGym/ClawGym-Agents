@@ -1,0 +1,60 @@
+openapi:
+  version: "3.1.0"
+  format_preference: "yaml"
+  central_catalog_repo: "northstar-oas-catalog"
+  per_service_spec_path: "spec/openapi.yaml"
+  style_lint: "spectral: .spectral.yaml"
+  bundle_tool: "swagger-cli"
+code_generation:
+  node: "typescript-axios"
+  java: "spring"
+  python: "pydantic-fastapi"
+  go: "gin"
+  csharp: "webapi"
+  rust: "manual_only"
+documentation:
+  viewer: "swagger-ui"
+  hosting:
+    type: "s3+cloudfront"
+    visibility: "private"
+ci_cd:
+  provider: "github_actions"
+  required_checks:
+    - "spectral_lint"
+    - "openapi_diff_against_main"
+    - "bundle_validate"
+  block_merge_on_check_failure: true
+security:
+  authentication: "oauth2 (authorization code)"
+  service_to_service_auth: "mTLS (internal-only)"
+  rbac: true
+  pii_principle: "least_privilege"
+  encryption:
+    in_transit: "TLS 1.2+"
+    at_rest: "AES-256 on AWS-managed KMS"
+performance:
+  budgets:
+    p95_latency_ms: 300
+    p99_latency_ms: 800
+  load_test:
+    tool: "k6"
+    required_before_prod: true
+governance:
+  rfc_required_for_breaking_changes: true
+  review_process:
+    - "spec review"
+    - "security sign-off"
+    - "code quality review"
+naming:
+  service_prefix: "nh-"
+preferences:
+  languages_supported:
+    - Java
+    - Node.js
+    - Python
+    - Go
+    - C#
+    - Rust
+  default_branch: "main"
+  prefer_semver: true
+  prefer_openapi_terms: true

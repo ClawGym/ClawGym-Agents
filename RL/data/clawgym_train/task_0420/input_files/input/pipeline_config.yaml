@@ -1,0 +1,29 @@
+jobs:
+  - job_id: ingest_customers
+    owner: data-eng@company.example
+    expected_duration_sec: 120
+    max_retries_allowed: 1
+    sla_minutes: 15
+    min_success_rate: 0.99
+    schedule: "0 1 * * *"
+  - job_id: transform_orders
+    owner: analytics-eng@company.example
+    expected_duration_sec: 300
+    max_retries_allowed: 2
+    sla_minutes: 30
+    min_success_rate: 0.98
+    schedule: "0 2 * * *"
+  - job_id: train_churn_model
+    owner: ml-eng@company.example
+    expected_duration_sec: 900
+    max_retries_allowed: 1
+    sla_minutes: 90
+    min_success_rate: 0.95
+    schedule: "0 3 * * *"
+  - job_id: rebuild_features
+    owner: ml-eng@company.example
+    expected_duration_sec: 600
+    max_retries_allowed: 1
+    sla_minutes: 60
+    min_success_rate: 0.99
+    schedule: "0 4 * * 0"

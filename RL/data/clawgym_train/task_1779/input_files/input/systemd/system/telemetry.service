@@ -1,0 +1,12 @@
+[Unit]
+Description=Telemetry Agent
+After=network-online.target
+
+[Service]
+Type=simple
+Environment="TELEMETRY_ENDPOINT=https://metrics.example.org/api"
+ExecStart=/usr/bin/telemetry-agent --config /etc/telemetry/telemetry.conf
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

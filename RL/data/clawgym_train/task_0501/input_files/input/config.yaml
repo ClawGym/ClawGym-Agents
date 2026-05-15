@@ -1,0 +1,12 @@
+schedule: "15 6 * * *"  # run daily at 06:15
+sources:
+  - id: "fao_soils"
+    organization: "FAO"
+    domain: "fao.org"
+    title_hint: "Soils Portal"
+    keywords: ["soil", "soil management", "erosion", "fertility", "conservation"]
+  - id: "unep_freshwater"
+    organization: "UNEP"
+    domain: "unep.org"
+    title_hint: "Freshwater"
+    keywords: ["water", "river", "freshwater", "water quality", "pollution", "sediment"]

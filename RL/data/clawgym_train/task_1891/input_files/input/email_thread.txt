@@ -1,0 +1,11 @@
+From: Marta Kovács <marta@company.example>
+To: QKD Pilot Team <qkd-pilot@company.example>
+Date: 2026-04-18 13:05 PT
+Subject: QKD pilot week 1 summary
+
+Hi team,
+
+Please send an end-of-week summary to the broader stakeholders by EOD 2026-04-26. Keep it concise: decisions, top risks, and owner-based next steps with dates.
+
+Thanks,
+Marta

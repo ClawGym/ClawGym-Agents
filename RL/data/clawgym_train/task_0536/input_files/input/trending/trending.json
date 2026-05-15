@@ -1,0 +1,64 @@
+{
+  "repos": [
+    {
+      "name": "yjs",
+      "url": "https://github.com/yjs/yjs",
+      "description": "CRDT-based shared data types for real-time collaborative editing in web applications.",
+      "language": "TypeScript",
+      "stars": 13700,
+      "tags": ["crdt", "realtime", "collaboration", "web"],
+      "license": "MIT",
+      "category": "collaboration",
+      "risk_notes": "Primarily client-side library; network usage depends on chosen provider (WebRTC, WebSocket). No inherent server-side exec.",
+      "alignment_notes": "Fits real-time collaborative dashboard editing with minimal backend changes."
+    },
+    {
+      "name": "langchainjs",
+      "url": "https://github.com/langchain-ai/langchainjs",
+      "description": "JavaScript/TypeScript library for building LLM-powered applications.",
+      "language": "TypeScript",
+      "stars": 12000,
+      "tags": ["llm", "ai", "orchestration", "agents"],
+      "license": "MIT",
+      "category": "ai",
+      "risk_notes": "Relies on external LLM providers; network calls to third-party APIs; risk of data leakage if prompts contain sensitive data.",
+      "alignment_notes": "Could power insight summaries or natural language queries in dashboards; supports provider-agnostic setups."
+    },
+    {
+      "name": "opentelemetry-js",
+      "url": "https://github.com/open-telemetry/opentelemetry-js",
+      "description": "OpenTelemetry instrumentation for Node.js and browser.",
+      "language": "TypeScript",
+      "stars": 4400,
+      "tags": ["observability", "metrics", "tracing"],
+      "license": "Apache-2.0",
+      "category": "observability",
+      "risk_notes": "Introduces network exports to collectors; can add performance overhead if misconfigured.",
+      "alignment_notes": "Enables standardized tracing/metrics for Next.js SSR and Node backend services."
+    },
+    {
+      "name": "playwright",
+      "url": "https://github.com/microsoft/playwright",
+      "description": "Fast and reliable end-to-end testing for modern web apps.",
+      "language": "TypeScript",
+      "stars": 59000,
+      "tags": ["testing", "e2e", "automation"],
+      "license": "Apache-2.0",
+      "category": "testing",
+      "risk_notes": "Downloads browser binaries; ensure CI sandboxing and cache management.",
+      "alignment_notes": "Improves E2E test coverage for auth flows, sharing, and filter operations; integrates with GitHub Actions."
+    },
+    {
+      "name": "trivy",
+      "url": "https://github.com/aquasecurity/trivy",
+      "description": "Comprehensive container and filesystem vulnerability scanner.",
+      "language": "Go",
+      "stars": 19000,
+      "tags": ["security", "scanner", "containers", "sbom"],
+      "license": "Apache-2.0",
+      "category": "security",
+      "risk_notes": "Reads images and files for CVE detection; does not execute target code; requires handling of findings and SBOM generation.",
+      "alignment_notes": "Adds CI gate for container image vulnerability scanning before release."
+    }
+  ]
+}

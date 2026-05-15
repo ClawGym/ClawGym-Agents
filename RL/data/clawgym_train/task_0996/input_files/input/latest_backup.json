@@ -1,0 +1,12 @@
+{
+  "openclaw.json": "{\n  \"name\": \"OpenClaw\",\n  \"version\": \"1.3.0\",\n  \"gateway\": {\"port\": 8080}\n}\n",
+  "agents/core.json": "{\n  \"agent\": \"core\",\n  \"skills\": [\"backupclaw\", \"knowledge\"],\n  \"enabled\": true\n}\n",
+  "extensions/feishu/skills/feishu-doc/SKILL.md": "# Feishu Doc Skill\n\nProvides document sync capabilities.\n",
+  "extensions/feishu/skills/feishu-doc/config.json": "{\n  \"appId\": \"feishu-demo\",\n  \"enabled\": true\n}\n",
+  "settings/config.yaml": "telemetry: false\nlanguage: en\nupdate_channel: stable\n",
+  "skills/backupclaw/SKILL.md": "# backupclaw\n\nBackup and restore OpenClaw configuration.\n",
+  "plugins/enabled.txt": "feishu-doc\nbackupclaw\n",
+  "README.md": "OpenClaw configuration home.\n",
+  "workspace/tmp.txt": "scratch note 1\n",
+  "workspace/notes/log.md": "old log\n"
+}

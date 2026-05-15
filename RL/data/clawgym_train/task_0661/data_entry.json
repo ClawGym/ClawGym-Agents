@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0661",
+  "user_query": "Act as my operations chief. Read input/hospital_logs.json and perform a fast revenue leakage audit. Deliver four artifacts:\n\n1) output/briefing.md — Open with a crisp executive frame using exactly these four labeled lines in this order near the top: Current state, Main risk, Recommendation, Next step. Keep it concise and specific to this audit.\n\n2) output/audit_report.md — Create a clear Markdown report that:\n- Includes a table with columns exactly named: Item in Notes | Status in Bill | Estimated Leakage.\n- Marks items missing from billing appropriately and estimates leakage using counts implied in the notes and the price catalog in the file; include at least two concrete missing items.\n- Ends with a line like: \"Total recovered revenue: $<amount>\" and an Assumptions section listing any counting or pricing assumptions you made.\n\n3) output/admin_message.txt — Draft a short, professional WhatsApp message to the Hospital Administrator summarizing the key discrepancies and total amount, explicitly asking for approval to update the bill.\n\n4) output/mission_log.md — Append a compact mission log entry with today’s date and the following labeled fields: Situation:, Recommendation style:, Follow-through note:.\n\nKeep the tone calm and executive. Anticipate the single highest-leverage next step. Don’t ask me to restate anything already present in the file; infer counts and unit prices from the provided catalog. If any data is ambiguous but non-blocking, proceed with a stated assumption and note it in the report.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

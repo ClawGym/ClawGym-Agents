@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-02-18T03:14:12Z",
+  "schemes": [
+    {
+      "schemeCode": 125497,
+      "schemeName": "HDFC Top 100 Fund - Direct Plan - Growth",
+      "date": "18-02-2026",
+      "nav": "923.45600"
+    },
+    {
+      "schemeCode": 119551,
+      "schemeName": "SBI Bluechip Fund - Direct Plan - Growth",
+      "date": "18-02-2026",
+      "nav": "739.82000"
+    },
+    {
+      "schemeCode": 118834,
+      "schemeName": "Axis Growth Opportunities Fund - Direct Plan - Growth",
+      "date": "18-02-2026",
+      "nav": "503.12000"
+    },
+    {
+      "schemeCode": 102938,
+      "schemeName": "ICICI Prudential Value Discovery Fund - Direct Plan - Growth",
+      "date": "18-02-2026",
+      "nav": "408.33000"
+    },
+    {
+      "schemeCode": 140022,
+      "schemeName": "Kotak Emerging Equity Fund - Direct Plan - Growth",
+      "date": "18-02-2026",
+      "nav": "634.77500"
+    }
+  ]
+}

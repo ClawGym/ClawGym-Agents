@@ -1,0 +1,26 @@
+episodes:
+  - episode_id: E101
+    date: 2026-05-03
+    venue: Downtown Club
+    comedians:
+      - Ava Kim
+      - Diego Patel
+      - Samir Green
+      - Jamie Brooks
+  - episode_id: E102
+    date: 2026-05-10
+    venue: Riverside Stage
+    comedians:
+      - Riley Chen
+      - Morgan Lee
+      - Casey Diaz
+      - Taylor Fox
+  - episode_id: E103
+    date: 2026-05-17
+    venue: Uptown Lounge
+    comedians:
+      - Diego Patel
+      - Jamie Brooks
+      - Morgan Lee
+      - Samir Green
+      - Riley Chen

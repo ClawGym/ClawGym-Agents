@@ -1,0 +1,6 @@
+visits_per_week: 3
+weeks_per_month: 4.33
+childcare_needed_ratio: 0.5
+class_duration_hours: 1.0
+max_monthly_budget: 120
+max_commute_hours_per_month: 8

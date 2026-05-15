@@ -1,0 +1,44 @@
+[
+  {
+    "name": "local-ollama-3b",
+    "provider": "ollama",
+    "cost_score": 0.1,
+    "power_score": 30,
+    "capabilities": ["chat", "general", "pii_safe"]
+  },
+  {
+    "name": "local-ollama-7b",
+    "provider": "ollama",
+    "cost_score": 0.2,
+    "power_score": 45,
+    "capabilities": ["chat", "analysis", "pii_safe"]
+  },
+  {
+    "name": "gpt-5-mini",
+    "provider": "openai",
+    "cost_score": 1,
+    "power_score": 10,
+    "capabilities": ["chat", "general", "writing"]
+  },
+  {
+    "name": "gpt-5",
+    "provider": "openai",
+    "cost_score": 6,
+    "power_score": 90,
+    "capabilities": ["chat", "analysis", "reasoning", "code"]
+  },
+  {
+    "name": "analyst-pro",
+    "provider": "anthropic",
+    "cost_score": 5,
+    "power_score": 75,
+    "capabilities": ["chat", "analysis", "reasoning"]
+  },
+  {
+    "name": "writer-lite",
+    "provider": "cohere",
+    "cost_score": 2,
+    "power_score": 40,
+    "capabilities": ["chat", "general", "writing"]
+  }
+]

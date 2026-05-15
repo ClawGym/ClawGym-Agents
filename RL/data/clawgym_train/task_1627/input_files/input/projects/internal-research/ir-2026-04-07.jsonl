@@ -1,0 +1,6 @@
+{"role": "user", "timestamp": "2026-04-07T10:02:00Z", "content": "Summarize papers on retrieval-augmented generation (RAG)."}
+{"role": "assistant", "timestamp": "2026-04-07T10:03:30Z", "model": "gpt-3.5-turbo", "content": "Key themes in RAG include retriever quality...", "usage": {"input_tokens": 700, "output_tokens": 350}, "costUSD": 0.2600}
+{"role": "user", "timestamp": "2026-04-07T10:12:11Z", "content": "Compare latency vs. accuracy tradeoffs for different retrievers."}
+{"role": "assistant", "timestamp": "2026-04-07T10:14:42Z", "model": "gpt-3.5-turbo", "content": "BM25 vs. dense vectors show distinct tradeoffs...", "usage": {"prompt_tokens": 800, "completion_tokens": 300}, "costUSD": 0.2000}
+{"role": "user", "timestamp": "2026-04-07T10:25:59Z", "content": "Draft an experiment plan with metrics and baselines."}
+{"role": "assistant", "timestamp": "2026-04-07T10:28:05Z", "model": "gpt-3.5-turbo", "content": "Experiment plan including recall@k, MRR, latency bins...", "usage": {"input_tokens": 600, "output_tokens": 280}, "cost": 0.2200}

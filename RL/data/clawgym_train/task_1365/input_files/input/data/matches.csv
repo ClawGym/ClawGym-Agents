@@ -1,0 +1,13 @@
+id,date,year,tournament,round,opponent,result,is_final,surface
+1,1971-09-12,1971,US Open,Final,Jan Kodes,Win,True,Hard
+2,1971-09-10,1971,US Open,SF,Ilie Nastase,Win,False,Hard
+3,1972-07-09,1972,Wimbledon,Final,Ilie Nastase,Win,True,Grass
+4,1972-07-07,1972,Wimbledon,SF,John Newcombe,Win,False,Grass
+5,1972-05-15,1972,Rome Masters,QF,Manuel Orantes,Loss,False,Clay
+6,1971-12-01,1971,Masters,RR,Ilie Nastase,Loss,False,Indoor
+7,1973-01-15,1973,Australian Open,R16,Ken Rosewall,Loss,False,Grass
+8,1973-05-20,1973,US Clay Court Championships,Final,Arthur Ashe,Win,True,Clay
+9,1973-05-18,1973,US Clay Court Championships,SF,Bjorn Borg,Win,False,Clay
+10,1973-06-10,1973,Queen's Club,Final,Ilie Nastase,Loss,True,Grass
+11,1971-08-20,1971,US Open,R32,Unknown,Win,False,Hard
+12,1972-03-10,1972,Pepsi Grand Slam,Final,Cliff Richey,Loss,True,Indoor

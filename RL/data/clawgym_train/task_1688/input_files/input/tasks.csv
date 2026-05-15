@@ -1,0 +1,13 @@
+id,production,scene,tag,assigned_to,due_date,status,notes
+T-001,SHAKUNTALA2026,Act I - Prologue,sanskrit diction,Dr. Iyer,2026-04-20,done,Initial pass done
+T-002,SHAKUNTALA2026,Act II - Hermitage,costume pleats,Priya,2026-05-03,in_progress,Adjust pleat count for movement
+T-003,SHAKUNTALA2026,Act IV - Curse,mudra coaching,Anil,2026-05-10,todo,Refine hasta alignment
+T-004,KUTI-ABHI,Act III - Abhiseka,natya shastra blocking,Meera,2026-04-28,blocked,Awaiting space marks
+T-005,KUTI-ABHI,Act IV - Coronation,raga cue,Ravi,2026-05-12,todo,Confirm pancharaga transitions
+T-006,KATH-ARJUNA,Scene I - Forest,makeup greens,Sabu,2026-05-05,in_progress,Test new pigment mix
+T-007,KATH-ARJUNA,Scene II - Battle,chenda tempo,Vinod,2026-04-29,todo,Rehearse with full ensemble
+T-008,SHAKUNTALA2026,Act V - Reunion,props sourcing,Leela,2026-05-15,todo,Source ring prop
+T-009,KUTI-ABHI,Act I - Entrance,curtain timing,Stage Crew,2026-05-01,todo,Sync with cue caller
+T-010,UNKNOWN-PROD,Scene X,archival research,Intern,2026-05-08,todo,Check manuscripts
+T-011,SHAKUNTALA2026,Act III - Love,stage lighting,Arun,2026-04-27,done,Plot approved
+T-012,KATH-ARJUNA,Scene III - Epilogue,sanskrit diction,Dr. Iyer,2026-05-14,todo,Final diction polish

@@ -1,0 +1,6 @@
+symbol,action,qty,price,note
+AAPL,BUY,5,187.50,entry ahead of WWDC swing
+TSLA,SELL,2,175.35,trim short dated calls
+NVDA,BUY,1,910.00,earnings momentum
+MSFT,BUY,3,421.80,AI copilot hype
+SPY,SELL,4,512.40,hedge via put spreads

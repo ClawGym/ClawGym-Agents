@@ -1,0 +1,5 @@
+{"timestamp":"2026-04-19T07:40:00-04:00","from":"Priya (SRE)","channel":"slack","text":"Can Core Platform approve the API Gateway config change before 10:00? We need it for alert tuning before the incident review."}
+{"timestamp":"2026-04-19T08:00:00-04:00","from":"Liam (Payments)","channel":"slack","text":"We're blocked on the gateway schema change from Data Eng; can you help escalate? Our cutoff is today 16:00."}
+{"timestamp":"2026-04-19T07:10:00-04:00","from":"Sara (Core)","channel":"slack","text":"Rate-limit policy PR is ready for review. Need a manager sign-off by EOD to include in tomorrow's dry-run."}
+{"timestamp":"2026-04-18T22:15:00-04:00","from":"CTO","channel":"dm","text":"Please be ready to brief progress and risks in Tuesday's milestone checkpoint."}
+{"timestamp":"2026-04-19T08:12:00-04:00","from":"Office Manager","channel":"sms","text":"High wind advisory this afternoon. Facilities suggests avoiding rooftop parking after 3pm."}

@@ -1,0 +1,4 @@
+building_type_targets:
+  office: 20.0
+  retail: 12.0
+  warehouse: 5.0

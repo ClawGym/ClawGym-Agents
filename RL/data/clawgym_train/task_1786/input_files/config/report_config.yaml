@@ -1,0 +1,21 @@
+city: Springfield
+required_sections:
+  - Incident Summary
+  - Parties
+  - Timeline
+  - Evidence
+  - Damages
+  - Applicable Local Laws
+  - Notes
+law_section_id: sec-7-12
+output_paths:
+  report_markdown: output/case_summary.md
+  structured_json: output/extracted_data.json
+  sources_inventory: output/sources_inventory.json
+validation:
+  incident_fields:
+    - date
+    - time
+    - location
+    - dog_name
+    - neighbor_name

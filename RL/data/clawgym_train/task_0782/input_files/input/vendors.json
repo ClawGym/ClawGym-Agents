@@ -1,0 +1,40 @@
+{
+  "vendors": [
+    {
+      "name": "TechNova Supply",
+      "scores": {
+        "Price": 85,
+        "Quality": 92,
+        "Reliability": 90,
+        "Terms": 88,
+        "Support": 93,
+        "Scalability": 91,
+        "Risk": 90
+      }
+    },
+    {
+      "name": "ProCore Hardware",
+      "scores": {
+        "Price": 90,
+        "Quality": 85,
+        "Reliability": 88,
+        "Terms": 82,
+        "Support": 80,
+        "Scalability": 84,
+        "Risk": 88
+      }
+    },
+    {
+      "name": "ByteBridge Systems",
+      "scores": {
+        "Price": 82,
+        "Quality": 80,
+        "Reliability": 80,
+        "Terms": 78,
+        "Support": 76,
+        "Scalability": 79,
+        "Risk": 85
+      }
+    }
+  ]
+}

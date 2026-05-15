@@ -1,0 +1,3 @@
+# Loan cash flow note — draft
+
+I think cash flow will be OK if prices stay decent, but my spreadsheet is all over the place. The expenses are around 150–160k though I’m not certain. We’ll gin around 400+ bales, maybe 480 lb each if we can. If the mill pays me around mid-90 cents plus a quality bump, we should be fine. This is to explain to the lender what I’m trying to do. There’s also seasonality — costs are front-loaded and revenue hits Nov–Dec. I need to show a break-even price and add a paragraph on risk (drought, pests). Sorry this is rambly — please tighten it up and make the numbers solid.

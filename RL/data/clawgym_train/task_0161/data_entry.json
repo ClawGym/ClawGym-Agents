@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0161",
+  "user_query": "Help me discover installable agent skills for several capability areas I want to add. Read input/skill_needs.yaml for the areas. For each area: 1) translate the need into concise English search keywords; 2) search the public skills ecosystem (one search per area) and identify at least two candidate skills; 3) write a structured JSON report to output/skills_report.json with the following schema: an array of objects, each with fields: area_id (string matching the YAML id), search_keywords (string), candidates (array of objects, each with: skill_name (string), short_description (string), install_command (string that includes both required auto-confirm flags for unattended install), learn_more_url (http or https URL)). Also write output/installation_plan.md describing which single skill you recommend for each area and why, and include the exact install command lines you recommend (with both auto-confirm flags). Constraints: focus results that truly match the area, provide at least two candidates per area, and only include HTTP(S) learn-more URLs. Do not write anything outside output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

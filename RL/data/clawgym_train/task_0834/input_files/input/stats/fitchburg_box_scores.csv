@@ -1,0 +1,10 @@
+game_date,opponent,player,number,position,rushing_yards,receiving_yards,passing_yards,td_rush,td_rec,td_pass,tackles
+2023-09-15,Leominster,Alex Rivera,3,RB,112,24,0,2,0,0,5
+2023-09-15,Leominster,Marcus Lee,12,QB,28,0,185,0,0,2,2
+2023-09-15,Leominster,Dylan Ortiz,22,WR,0,78,0,0,1,0,1
+2023-09-15,Leominster,Jamal Peters,44,LB,0,0,0,0,0,0,11
+2023-09-22,Shrewsbury,Alex Rivera,3,RB,96,18,0,1,0,0,4
+2023-09-22,Shrewsbury,Marcus Lee,12,QB,35,12,201,0,0,3,3
+2023-09-22,Shrewsbury,Dylan Ortiz,22,WR,12,66,0,0,1,0,2
+2023-09-22,Shrewsbury,Evan Chen,7,RB/WR,54,45,0,1,0,0,3
+2023-09-22,Shrewsbury,Jamal Peters,44,LB,0,0,0,0,0,0,9

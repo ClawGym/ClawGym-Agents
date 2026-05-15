@@ -1,0 +1,11 @@
+group,name,host,port,protocol
+core,postgres,db.internal.local,5432,tcp
+core,redis,cache.internal.local,6379,tcp
+core,nats,nats.internal.local,4222,tcp
+customer-facing,web-frontend,app.example.com,80,http
+customer-facing,api,api.example.com,443,http
+customer-facing,legacy-tcp-proxy,proxy.example.com,9000,tcp
+analytics,kafka,kafka.internal.local,9092,tcp
+analytics,spark-ui,spark-ui.internal.local,4040,http
+analytics,metrics,metrics.internal.local,9090,http
+internal-tools,jenkins,jenkins.internal.local,8080,http

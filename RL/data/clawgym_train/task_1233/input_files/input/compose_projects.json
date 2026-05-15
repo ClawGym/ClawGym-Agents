@@ -1,0 +1,42 @@
+[
+  {
+    "name": "aegis",
+    "services": [
+      {
+        "name": "api-gateway",
+        "replicasWanted": 2,
+        "replicasRunning": 1,
+        "state": "degraded"
+      },
+      {
+        "name": "auth-service",
+        "replicasWanted": 2,
+        "replicasRunning": 2,
+        "state": "running"
+      },
+      {
+        "name": "telemetry",
+        "replicasWanted": 1,
+        "replicasRunning": 0,
+        "state": "exited"
+      }
+    ]
+  },
+  {
+    "name": "billing",
+    "services": [
+      {
+        "name": "payments",
+        "replicasWanted": 3,
+        "replicasRunning": 2,
+        "state": "restarting"
+      },
+      {
+        "name": "mailer",
+        "replicasWanted": 1,
+        "replicasRunning": 1,
+        "state": "running"
+      }
+    ]
+  }
+]

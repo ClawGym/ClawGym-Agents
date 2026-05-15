@@ -1,0 +1,33 @@
+Summary:
+I have 8 years in B2B SaaS and operations. I spent 3 years at a Shopify app company integrating Shopify, Stripe, and HubSpot data to help founders understand LTV, churn, and activation. Before that, I was a product/ops lead at a small analytics SaaS, where I owned user onboarding, billing/invoicing, and lightweight customer success. I am strongest at stitching together tools into reliable workflows and making messy data actionable for non-technical teams.
+
+Experience and skills:
+- RevOps & CS: Implemented Stripe + HubSpot + Intercom flows for onboarding, trial-to-paid conversion, dunning, and renewal reminders. Built a basic customer health score that flagged at-risk accounts, contributing to a 22% churn reduction over two quarters.
+- Analytics: SQL, BigQuery, Looker Studio, Amplitude basics, cohort retention and funnel analysis, revenue dashboards (MRR, ARR, LTV, CAC payback).
+- Automation: Zapier, Make (Integromat), Airtable, Notion, Slack bots; experience with webhooks and simple Python scripts to normalize data.
+- E‑commerce/Shopify apps: Built GA4 + Shopify connectors, standardized reporting templates, and a “one-click” client report for agencies.
+- Writing and enablement: Comfortable creating documentation, screen-share walkthroughs, and short Loom videos for onboarding.
+
+Access and network:
+- Slack communities: 3 active groups where I can ask for intros—Indie Worldwide (~2,500), Bootstrap Founders (~1,800), and a niche Analytics/RevOps workspace (~900). I personally know ~30 founders who run small SaaS and ~20 who run boutique agencies.
+- LinkedIn: ~2,100 connections, mostly product managers, founders, and RevOps folks.
+- Past clients: 15 DTC Shopify brands and 6 boutique agencies I helped with dashboards and automation; several would provide testimonials.
+
+Persistent frustrations (pain I’ve seen repeatedly):
+- Messy spreadsheets and inconsistent client reporting templates across accounts; teams spend hours per week stitching screenshots.
+- Onboarding scattered across Stripe, emails, and app checklists; nobody knows who actually completed which step.
+- Failed payments and dunning slip through the cracks; founders discover revenue leakage weeks later.
+- Data fragmentation: metrics differ between billing, product, and marketing tools; no single “source of truth” for small teams.
+
+Edges and credibility:
+- I can ship no-code/low-code quickly and turn ambiguous workflows into clean standardized packages.
+- I bridge product, ops, and analytics—comfortable talking to founders and agency principals and translating their problems into deliverables.
+- I have real case studies showing time saved (70%+ on reporting) and churn reduction outcomes.
+
+Preferences and aversions:
+- Prefer B2B SMB (US/CA/UK/AUS), English-speaking, remote-friendly buyers with <$10k ACV.
+- Avoid long enterprise cycles and custom one-off builds.
+- Comfortable with light compliance (SOC 2 basics) but want to avoid handling PHI or deep fintech compliance.
+
+Tools I currently use:
+Stripe, HubSpot, Intercom, Zapier, Make, Airtable, Notion, Google Sheets, BigQuery, Looker Studio, Amplitude (basic), Segment (light).

@@ -1,0 +1,6 @@
+Name|Publisher|Version|Install Location
+Google Chrome|Google LLC|123.0.6312.58|C:\Program Files\Google\Chrome\Application
+Notepad++|Notepad++ Team|8.6.2|C:\Program Files\Notepad++ (x64)
+Python 3.11|Python Software Foundation|3.11.8|C:\Users\steve\AppData\Local\Programs\Python\Python311
+Slack|Slack Technologies, LLC|4.38.115|C:\Users\steve\AppData\Local\slack
+Zoom|Zoom Video Communications, Inc.|6.0.0|C:\Users\steve\AppData\Roaming\Zoom\bin

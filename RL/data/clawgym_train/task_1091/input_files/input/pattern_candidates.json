@@ -1,0 +1,61 @@
+{
+  "fetched_at": "2026-04-16T10:00:00Z",
+  "note": "Aggregated from recent tasks and error reviews within the last 30 days",
+  "candidates": [
+    {
+      "pattern_key": "harden.input_validation",
+      "occurrences": [
+        {
+          "timestamp": "2026-04-01T08:12:00Z",
+          "task_id": "data-import-20260401",
+          "summary": "CSV upload accepted empty header fields leading to downstream crash"
+        },
+        {
+          "timestamp": "2026-04-05T16:47:00Z",
+          "task_id": "api-gateway-20260405",
+          "summary": "Missing required 'user_id' allowed through; null deref during processing"
+        },
+        {
+          "timestamp": "2026-04-07T10:30:00Z",
+          "task_id": "cli-tool-20260407",
+          "summary": "CLI accepted unsafe relative path with '..' causing writes to wrong directory"
+        },
+        {
+          "timestamp": "2026-04-14T22:05:00Z",
+          "task_id": "batch-job-20260414",
+          "summary": "Batch job processed blank lines without guard, producing malformed records"
+        }
+      ]
+    },
+    {
+      "pattern_key": "simplify.dead_code",
+      "occurrences": [
+        {
+          "timestamp": "2026-03-28T09:15:00Z",
+          "task_id": "cleanup-legacy-20260328",
+          "summary": "Unreachable branch in config loader"
+        },
+        {
+          "timestamp": "2026-04-02T12:20:00Z",
+          "task_id": "refactor-auth-20260402",
+          "summary": "Deprecated function retained with no callers"
+        }
+      ]
+    },
+    {
+      "pattern_key": "docs.inconsistent_format",
+      "occurrences": [
+        {
+          "timestamp": "2026-04-03T18:00:00Z",
+          "task_id": "docs-pass-20260403",
+          "summary": "Mixed heading syntax and missing code fences in README"
+        },
+        {
+          "timestamp": "2026-04-09T11:10:00Z",
+          "task_id": "docs-pass-20260409",
+          "summary": "Non-ISO timestamps in changelog"
+        }
+      ]
+    }
+  ]
+}

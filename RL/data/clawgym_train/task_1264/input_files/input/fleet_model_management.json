@@ -1,0 +1,30 @@
+[
+  {
+    "node_id": "gpu-a",
+    "free_gb": 50.0,
+    "models": [
+      {"name": "llama3:8b", "size_gb": 4.5, "last_used": "2026-03-10T12:00:00Z"},
+      {"name": "mistral:7b", "size_gb": 4.1, "last_used": "2026-02-01T08:00:00Z"},
+      {"name": "phi:3.8b", "size_gb": 2.0, "last_used": "2026-01-10T09:00:00Z"},
+      {"name": "llama3:70b", "size_gb": 40.0, "last_used": "2026-01-20T15:00:00Z"}
+    ]
+  },
+  {
+    "node_id": "gpu-b",
+    "free_gb": 20.0,
+    "models": [
+      {"name": "llama3:8b", "size_gb": 4.5, "last_used": "2026-02-27T14:00:00Z"},
+      {"name": "llama3:70b", "size_gb": 40.0, "last_used": "2026-03-06T13:00:00Z"},
+      {"name": "qwen2.5:14b", "size_gb": 8.0, "last_used": "2026-02-01T10:00:00Z"}
+    ]
+  },
+  {
+    "node_id": "cpu-c",
+    "free_gb": 120.0,
+    "models": [
+      {"name": "orca-mini:3b", "size_gb": 1.5, "last_used": "2026-03-05T09:30:00Z"},
+      {"name": "mistral:7b", "size_gb": 4.1, "last_used": "2026-02-10T11:00:00Z"},
+      {"name": "tinyllama:1.1b", "size_gb": 0.8, "last_used": "2026-01-15T12:00:00Z"}
+    ]
+  }
+]

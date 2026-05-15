@@ -1,0 +1,18 @@
+From: Anna K. <anna.k@example.com>
+To: Intake <intake@childtherapy.local>
+Subject: New Intake for Speech Therapy
+Date: Mon, 08 Apr 2024 10:30:00 -0400
+Message-ID: <msg1@workspace.local>
+
+Hello,
+I'd like to request an intake for my daughter.
+
+---- Intake Details ----
+Child Name: Mia K.
+Age: 5
+Preferred Times: mornings Tue/Thu
+Completed Intake: Yes
+------------------------
+
+Thank you,
+Anna

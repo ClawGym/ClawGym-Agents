@@ -1,0 +1,9 @@
+epic,subtask,priority
+Marketing Site Refresh,,7
+Marketing Site Refresh,Audit existing pages and analytics,6
+Marketing Site Refresh,Create wireframes for homepage and pricing,8
+Marketing Site Refresh,Implement responsive layout refactor,7
+Internal Dev Tooling,,5
+Internal Dev Tooling,Set up lint-staged and pre-commit hooks,6
+Internal Dev Tooling,Write initial ADR for mono-repo structure,5
+Internal Dev Tooling,Create CLI scaffolding for project bootstrap,7

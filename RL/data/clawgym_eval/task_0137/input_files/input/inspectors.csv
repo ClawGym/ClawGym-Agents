@@ -1,0 +1,5 @@
+inspector_id,name,company,base_price,zip,service_radius_miles,years_experience,license_number
+I001,Sam H.,Keystone Inspections,425,19104,25,18,PA-HI-112233
+I002,Linda P.,Liberty Home Check,350,19003,20,12,PA-HI-223344
+I003,Marco D.,Delco Property Inspectors,300,19010,30,5,PA-HI-334455
+I004,Ashley R.,South Philly Inspects,375,19147,15,10,PA-HI-445566

@@ -1,0 +1,38 @@
+weeks:
+  - "2026-05-04"
+  - "2026-05-11"
+  - "2026-05-18"
+  - "2026-05-25"
+channels: []
+target_roles: []
+required_per_week: 2
+brand_keywords:
+  - "ourco"
+  - "our"
+  - "company"
+  - "alpha"
+  - "beta"
+  - "corp"
+  - "inc"
+stopwords:
+  - "and"
+  - "or"
+  - "the"
+  - "in"
+  - "with"
+  - "for"
+  - "to"
+  - "of"
+  - "a"
+  - "an"
+  - "on"
+  - "at"
+  - "by"
+  - "from"
+  - "we"
+  - "who"
+  - "as"
+  - "are"
+  - "is"
+  - "be"
+  - "our"

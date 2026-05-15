@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0151",
+  "user_query": "Please process my personal clinical notes locally and extract structured phenotypes and medications without uploading anything. Read both input/visit_note.txt and input/med_reconciliation.txt. Steps:\n1) Merge the contents into a single text block and redact identifiers in the merged text as follows: replace any emails with [REDACTED_EMAIL], phone numbers with [REDACTED_PHONE], street addresses with [REDACTED_ADDRESS], and any 8+ digit numeric IDs with [REDACTED_ID].\n2) Run your local phenotype/medication extractor to detect symptom/phenotype terms and medication entities with dosages/frequencies from the redacted text.\n3) Write these files:\n   - output/redacted_input.txt: the merged, redacted text.\n   - output/extracted_entities.json: a JSON object with keys:\n       { \"phenotypes\": [\"...\"], \"medications\": [{\"name\":\"...\",\"dose\":\"...\",\"frequency\":\"...\"}, ...] }.\n     Include at least the medications metformin, atorvastatin, and lisinopril with their dose and frequency. For phenotypes, include any symptoms you find (e.g., fatigue, polyuria, blurry vision, hypertension, type 2 diabetes mellitus) as simple lowercase strings.\n   - output/manifest.json: { \"redacted_path\": \"output/redacted_input.txt\", \"extracted_path\": \"output/extracted_entities.json\", \"timestamp\": \"YYYYMMDD_HHMMSS\", \"used_local_extractor\": true } where timestamp follows that exact format.\nMake sure the redacted_input.txt actually contains the placeholder tokens for any identifiers you found, and keep everything strictly local.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

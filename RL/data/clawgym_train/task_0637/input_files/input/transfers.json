@@ -1,0 +1,74 @@
+[
+  {
+    "id": "TX1001",
+    "from": "treasury",
+    "to": "alice",
+    "amount": 250.00,
+    "timestamp": "2026-04-18T10:01:00Z",
+    "status": "confirmed"
+  },
+  {
+    "id": "TX1002",
+    "from": "treasury",
+    "to": "bob",
+    "amount": 125.00,
+    "timestamp": "2026-04-18T10:02:00Z",
+    "status": "confirmed"
+  },
+  {
+    "id": "TX1003",
+    "from": "alice",
+    "to": "vendorX",
+    "amount": 42.75,
+    "timestamp": "2026-04-18T12:15:00Z",
+    "status": "confirmed"
+  },
+  {
+    "id": "TX1004",
+    "from": "treasury",
+    "to": "carol",
+    "amount": 310.00,
+    "timestamp": "2026-04-19T09:00:00Z",
+    "status": "pending"
+  },
+  {
+    "id": "TX1005",
+    "from": "dave",
+    "to": "treasury",
+    "amount": 50.00,
+    "timestamp": "2026-04-19T09:30:00Z",
+    "status": "confirmed"
+  },
+  {
+    "id": "TX1006",
+    "from": "treasury",
+    "to": "erin",
+    "amount": 99.99,
+    "timestamp": "2026-04-19T10:05:00Z",
+    "status": "confirmed"
+  },
+  {
+    "id": "TX1007",
+    "from": "treasury",
+    "to": "frank",
+    "amount": 80.00,
+    "timestamp": "2026-04-19T11:21:00Z",
+    "status": "confirmed"
+  },
+  {
+    "id": "TX1008",
+    "from": "treasury",
+    "to": "grace",
+    "amount": 150.00,
+    "timestamp": "2026-04-19T12:00:00Z",
+    "status": "failed"
+  },
+  {
+    "id": "TX1009",
+    "from": "treasury",
+    "to": "ivan",
+    "amount": 60.00,
+    "timestamp": "2026-04-19T13:45:00Z",
+    "status": "confirmed"
+  }
+]

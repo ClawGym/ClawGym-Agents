@@ -1,0 +1,11 @@
+Outlet,Name,Email,City,State,Beats
+Daily Planet,Lois Lane,lois.lane@dailyplanet.example,Metropolis,NY,climate policy;wildlife protection;water quality
+Metropolis Chronicle,Clark Kent,clark.kent@metropolischronicle.example,Metropolis,NY,environment;forest conservation
+Global News,Diana Prince,diana.prince@globalnews.example,Washington,DC,conservation;wildlife protection;climate policy
+Global News,Diana Prince,diana.prince@globalnews.example,Washington,DC,conservation;wildlife protection;climate policy
+The Bugle,Peter Parker,peter.parker@bugle.example,New York,NY,urban environment;air quality
+City Herald,Bruce Wayne,bruce.wayne@cityherald.example,Gotham,NJ,business;philanthropy
+Seaside Times,Arthur Curry,aquaman@seasidetime.example,Amnesty Bay,ME,water quality;coastal conservation
+Sunrise Radio,Selena Kyle,selena.kyle@sunradio.example,Gotham,NJ,wildlife;forest conservation
+Invalid Email Example,Test User,test.user[at]invalid.example,Nowhere,ZZ,climate policy
+Green Future Media Desk,Media Team,media@greenfuture.org,San Francisco,CA,nonprofit;press release

@@ -1,0 +1,12 @@
+number_of_sessions: 4
+max_lines_per_poem: 120
+year_range:
+  start: 1800
+  end: 1900
+target_year: 1855
+quote_keywords:
+  - storm
+  - harbor
+  - port
+  - wind
+  - swell

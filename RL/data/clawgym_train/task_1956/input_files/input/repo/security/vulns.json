@@ -1,0 +1,27 @@
+{
+  "tool": "Aggregate SCA (npm audit + pip-audit)",
+  "generated_at": "2026-04-15T12:34:56Z",
+  "summary": {
+    "critical": 0,
+    "high": 0,
+    "medium": 2,
+    "low": 5
+  },
+  "details": [
+    {
+      "package": "lodash",
+      "version": "4.17.21",
+      "severity": "medium",
+      "advisory_id": "GHSA-xxxx-xxxx-xxxx",
+      "fixed_in": "4.17.22"
+    },
+    {
+      "package": "express",
+      "version": "4.18.2",
+      "severity": "medium",
+      "advisory_id": "CVE-2025-xxxx",
+      "fixed_in": "4.19.0"
+    }
+  ],
+  "notes": "No Critical or High vulnerabilities were found in locked dependencies."
+}

@@ -1,0 +1,16 @@
+current_date: "2026-04-20"
+
+review_week:
+  start_date: "2026-04-13"
+  end_date: "2026-04-19"
+
+stalled_detection:
+  stale_threshold_days: 7
+  blocker_stale_days: 3
+
+priority_weights:
+  revenue: 0.30
+  time_to_completion: 0.20
+  strategic_alignment: 0.25
+  energy: 0.15
+  dependencies: 0.10

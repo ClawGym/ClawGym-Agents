@@ -1,0 +1,22 @@
+{
+  "items": {
+    "node": {
+      "currentVersion": "20.11.0",
+      "latestVersion": "20.11.1",
+      "releaseDate": "2026-03-22T07:00:00Z",
+      "note": ""
+    },
+    "openssl@3": {
+      "currentVersion": "3.0.12",
+      "latestVersion": "4.0.0",
+      "releaseDate": "2026-03-19T00:00:00Z",
+      "note": ""
+    },
+    "wget": {
+      "currentVersion": "1.21.4",
+      "latestVersion": "1.21.5",
+      "releaseDate": "2026-03-24T15:30:00Z",
+      "note": "Mirror fetch performance improvements"
+    }
+  }
+}

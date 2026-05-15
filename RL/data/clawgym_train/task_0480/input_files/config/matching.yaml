@@ -1,0 +1,6 @@
+version: 1
+normalization: minmax
+score_threshold: 0.6
+weights:
+  interests_overlap: 0.6
+  messages_exchanged: 0.4

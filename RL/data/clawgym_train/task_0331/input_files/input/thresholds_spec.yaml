@@ -1,0 +1,8 @@
+metrics:
+  - key: idle_cpu_percent_suggested_upper_bound
+    description: "Typical upper bound for CPU usage when the system is idle (single user, no heavy workload), expressed as a percent of total CPU."
+  - key: mem_free_headroom_percent_min
+    description: "Minimum free or available memory recommended to avoid memory pressure during normal desktop development use, as a percent of total memory."
+  - key: disk_free_percent_recommended
+    description: "Recommended minimum free disk space on the system drive to maintain performance and allow updates, as a percent of total disk capacity."
+guidance: "Use search engine queries to find reputable sources (e.g., OS vendor docs or established tech publications). Avoid relying on a single forum post."

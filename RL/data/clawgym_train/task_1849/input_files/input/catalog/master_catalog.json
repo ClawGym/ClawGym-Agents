@@ -1,0 +1,22 @@
+[
+  {
+    "id": "MARS_DAWN_0042",
+    "title": "Mars Dawn - Sol 42",
+    "capture_date": "2023-09-12",
+    "duration_sec": 54,
+    "tags": ["mars", "dawn", "timelapse"],
+    "camera": "Red Komodo 6K",
+    "location": "Chryse Planitia (Archive)",
+    "notes": "Dawn timelapse from rover sim."
+  },
+  {
+    "id": "ORION_0001",
+    "title": "Orion Nebula Wide",
+    "capture_date": "2023-08-01",
+    "duration_sec": 120,
+    "tags": ["orion", "nebula", "wide"],
+    "camera": "Blackmagic Pocket 6K",
+    "location": "Observatory A",
+    "notes": "Establishing shot."
+  }
+]

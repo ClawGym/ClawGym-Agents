@@ -1,0 +1,126 @@
+company: Northstar Labs
+week_of: "2026-04-06"
+demo_date: "2026-04-10"
+quarter_end: "2026-06-30"
+
+projects:
+  - name: Atlas
+    type: web_app
+    description: Customer-facing web product focused on onboarding and analytics
+  - name: Pulse
+    type: internal_service
+    description: Network telemetry and topology visualization used in demos and ops
+  - name: Legacy Android
+    type: mobile_app
+    description: Deprecated Android client with a small remaining user base
+
+stakeholders:
+  cto_bob_ohara:
+    role: CTO
+    interests: security, architecture clarity, demo narrative
+    preferences: receives direct technical updates, values ADRs for significant changes
+  pm_jenna_park:
+    role: Product Manager
+    interests: roadmap accuracy, scope control, customer messaging
+    preferences: prefers decisions routed through product for alignment unless time-critical
+  qa_rina_cho:
+    role: QA Lead
+    interests: test coverage, risk mitigation
+    preferences: early access to changes, dedicated time for test passes
+  eng_lead_luis_ortega:
+    role: Engineering Lead
+    interests: code quality, triage stability, team bandwidth
+    preferences: clear ownership during high-pressure weeks
+  sales_tara_malik:
+    role: Sales Director
+    interests: credible public roadmap, customer communication
+    preferences: avoids overpromising; wants firm dates before sharing widely
+  legal_sam_patel:
+    role: Legal Counsel
+    interests: contract terms, data residency, risk management
+    preferences: sign-off required on vendor contracts; addendums for clauses
+  cfo_priya_nair:
+    role: CFO
+    interests: budget allocation, ROI
+    preferences: needs approvals for reallocation; tracks KPIs
+  customers_general:
+    role: External
+    interests: product stability, roadmap transparency
+    preferences: minimal disruption; clear migration paths
+
+deadlines:
+  - name: Investor demo
+    date: "2026-04-10"
+    pressure: high
+    notes: code freeze recommended 24h prior; prefer smoke tests if unit tests are not feasible
+  - name: Roadmap publication
+    date: "2026-04-10"
+    pressure: medium
+    notes: limit to items with high confidence; avoid external commitments for speculative features
+
+norms:
+  sprints: "2 weeks"
+  code_freeze: "24h before external demos; hotfix-only exceptions"
+  unit_tests: "expected for new features; can be deferred under time pressure with documented follow-up"
+  adr_required: "for architecture and auth changes"
+  vendor_contract_min_term: "3 months"
+  communication_routing: "PM routes roadmap/public items; CTO for technical architecture"
+
+reversibility_guidance:
+  one_way_examples:
+    - vendor contracts with a fixed term (e.g., 3 months)
+    - public roadmap commitments or KPI targets announced externally
+    - product sunsetting decisions (e.g., Legacy Android end-of-life)
+    - authentication migration once tokens are widely issued
+  two_way_examples:
+    - task assignments and meeting reschedules
+    - library choices for MVP charts
+    - toggling telemetry sample rates
+    - shipping without unit tests (tests can be added later)
+    - short-term prioritization within a sprint
+
+alternatives_reference:
+  analytics:
+    - build_in_house
+    - kite_metrics_vendor
+    - opentrack_vendor
+    - postpone_decision
+  databases:
+    - postgres_15
+    - mysql_8
+    - aurora_postgres
+  auth:
+    - server_sessions
+    - jwt_rs256
+    - oauth_with_authx
+  testing:
+    - unit_tests_before_ship
+    - smoke_tests_only
+    - postpone_tests
+  roadmap:
+    - publish_now
+    - publish_next_week
+    - keep_private_for_now
+  scope_legacy_sync:
+    - drop_from_quarter
+    - reduce_scope
+    - retain_with_minimal_investment
+  staffing:
+    - hire_contractor
+    - reassign_internal_team
+    - defer_hiring
+  communication:
+    - route_through_pm
+    - direct_to_cto
+    - wait_for_sprint_review
+  telemetry_sampling:
+    - full_rate
+    - capped_rate
+    - disabled_temporarily
+
+context_notes:
+  - Investor demo urgency often leads to time-bound technical trade-offs (tests deferred, code freeze enforced).
+  - Public roadmap items should reflect high-confidence features; Sales shares the link broadly.
+  - Legal sign-off is mandatory for vendors; addendums are common for data residency.
+  - CFO expects clear rationale for budget reallocations and KPI targets to justify spend shifts.
+  - Auth migrations are sensitive; external messaging should be controlled until stable.

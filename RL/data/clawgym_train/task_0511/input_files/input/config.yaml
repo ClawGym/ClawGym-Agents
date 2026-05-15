@@ -1,0 +1,5 @@
+domain: who.int
+path: /
+raw_html_path: data/raw/page.html
+text_path: data/processed/page.txt
+metadata_path: data/processed/metadata.json

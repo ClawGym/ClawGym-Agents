@@ -1,0 +1,7 @@
+Project: alpha
+
+Welcome to the Palaia quickstart for semantic memory. The goal is to provide a crash safe, searchable store for agents working across projects. The embedding chain is the heart of semantic retrieval. Configure a local model first so you can operate offline, and set bm25 as the final fallback. With this embedding chain, searches remain useful during network hiccups, and quality stays high when embeddings are available. The chain order matters because it decides which provider answers first and how gracefully the system degrades.
+
+Beyond search, make sure maintenance keeps the store healthy. Run gc daily for steady tier rotation, and schedule a weekly aggressive gc to clear the cold tier. This prevents index bloat and preserves performance. If you need to limit visibility, choose private scope for sensitive notes, team for shared context, and public for material intended for export. Clear scopes align collaboration with privacy.
+
+Practical tips: keep titles concise, add tags, and group related work into projects. Ingestion supports documents and directories; content is chunked into uniform segments to improve retrieval quality. When the embedding chain and tier rotation are configured well, you get fast answers, strong recall, and stable behavior without surprises.

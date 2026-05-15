@@ -1,0 +1,39 @@
+{
+  "period": "Last 30 days ending 2026-04-18",
+  "throughput": {
+    "avg_orders_per_day": 694,
+    "avg_lines_per_order": 3.2
+  },
+  "productivity": {
+    "lines_per_hour_each_pick": 78,
+    "lines_per_hour_case_pick": 95,
+    "order_accuracy_percent": 99.2,
+    "dock_to_stock_hours": 18,
+    "travel_time_share_percent": 54,
+    "cubic_utilization_percent": 68
+  },
+  "inventory": {
+    "inventory_accuracy_percent": 98.8,
+    "cycle_count_program": "Ad hoc: approximately 100 SKUs weekly, not ABC-driven",
+    "dead_stock_percent": 8.5
+  },
+  "costs": {
+    "receiving_per_unit_usd": 0.62,
+    "storage_per_pallet_month_usd": 11.5,
+    "pick_pack_per_order_usd": 3.1,
+    "shipping_per_order_usd": 7.85,
+    "returns_per_return_usd": 9.2
+  },
+  "safety": {
+    "dart_rate": 3.8,
+    "notes": "Near misses in pick aisles due to congestion; several wrist strain reports at pack."
+  },
+  "automation": {
+    "conveyors_feasible": true,
+    "pick_to_light_feasible": true,
+    "amrs_feasible": true,
+    "asrs_feasible": false,
+    "sortation_feasible": false,
+    "notes": "Order profile is many small each-picks; medium volume favors pick-to-light or AMRs; AS/RS unlikely to pay back."
+  }
+}

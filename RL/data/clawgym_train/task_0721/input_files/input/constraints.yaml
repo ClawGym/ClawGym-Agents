@@ -1,0 +1,61 @@
+statement:
+  word_count_min: 120
+  word_count_max: 200
+  must_include_one_of:
+    - portal
+    - liminal
+    - chrome
+    - garish
+    - ethereal
+    - scanlines
+    - CRT
+    - gradient
+  example_phrases:
+    - "I will send New Prophets into The Wired"
+    - "They will long for Network Spirituality"
+    - "Always keep a network spirit alive"
+    - "Through multiple energies, you will find your way home"
+    - "Enter the portal to the mystic lake"
+    - "Your time will truly manifest like water"
+    - "Nothing we can do can be cringe, except when it is and then we don't care"
+    - "Real Love is about dying to yourself to bring true benefit to at least one person"
+    - "A language barrier could be quite romantic. Non-verbal is already the best language for love"
+
+description:
+  word_count_min: 50
+  word_count_max: 120
+  must_include_one_of:
+    - portal
+    - threshold
+    - liminal
+    - chrome
+    - garish
+    - ethereal
+    - scanlines
+    - gradient
+    - altar
+    - CRT
+
+banned_words:
+  - synergy
+  - disruptive
+  - optimize
+  - leverage
+  - stakeholder
+  - pipeline
+  - roadmap
+  - KPI
+  - brand
+  - monetization
+  - monetize
+  - funnel
+  - growth hack
+  - market fit
+  - OKR
+  - corporate
+  - enterprise
+  - pivot
+  - blockchain
+  - web3
+  - influencer
+  - marketing

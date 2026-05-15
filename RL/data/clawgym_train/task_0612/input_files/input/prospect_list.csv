@@ -1,0 +1,5 @@
+company,industry,employees,arr,region,tech_stack,growth_stage,primary_contact,contact_title,notes
+Northbeam Analytics,SaaS,180,25000000,US,"Salesforce;HubSpot;Snowflake",Series B,Erin Patel,VP Sales,"Scaling SDR team; rolling out MEDDPICC; no formal AI policy yet"
+QuantaPay,Fintech,420,60000000,UK,"Salesforce;Segment;Looker",Series C,Liam O'Connor,Head of Sales Ops,"EMEA expansion; compliance sensitive; evaluating AI for sales enablement"
+HelixHealth Systems,Healthcare IT,800,150000000,US,"Microsoft Dynamics;Marketo",Private Equity,Sophia Ramirez,Director RevOps,"HIPAA constraints; on-prem systems; interest in AI pilot"
+ForgeWorks,DevTools,95,12000000,US,"HubSpot;Amplitude",Series A,Marcus Lee,CEO,"Founder-led sales; evaluating first SDR hires"

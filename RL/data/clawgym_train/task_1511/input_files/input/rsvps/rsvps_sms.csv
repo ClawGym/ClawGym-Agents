@@ -1,0 +1,5 @@
+email,response,plus_ones,timestamp_iso,notes
+alice@example.com,Yes,1,2026-04-10T14:00:00Z,
+bob@example.com,Maybe,0,2026-04-11T09:30:00Z,
+henry@example.com,No,0,2026-04-12T08:15:00Z,
+kara@example.com,Yes,0,2026-04-10T16:45:00Z,gluten-free

@@ -1,0 +1,28 @@
+/*
+Context:
+- Powers a paginated report of shipped orders joined to customers.
+- Filters by customer region and order created_at date range.
+- Uses deep OFFSET pagination (problematic at high page numbers).
+*/
+
+SELECT
+  o.id,
+  o.created_at,
+  o.shipped_at,
+  o.total_amount,
+  c.id         AS customer_id,
+  c.name       AS customer_name,
+  c.region     AS customer_region
+FROM public.orders AS o
+JOIN public.customers AS c
+  ON c.id = o.customer_id
+WHERE
+  o.status = 'shipped'
+  AND c.region = $1         -- e.g., 'EMEA'
+  AND o.created_at >= $2    -- start_ts
+  AND o.created_at <  $3    -- end_ts (exclusive)
+ORDER BY
+  o.created_at DESC,
+  o.id DESC
+OFFSET $4                   -- deep pagination, e.g., 10000
+LIMIT  $5;                  -- page size, e.g., 50

@@ -1,0 +1,13 @@
+country: Ghana
+neighbors:
+  - Cote d'Ivoire
+  - Togo
+year_start: 2010
+year_end: 2022
+indicators:
+  - organization: World Bank Open Data
+    title: Mortality rate, under-5 (per 1,000 live births)
+    notes: Use the official World Bank indicator page or API for this indicator.
+  - organization: World Bank Open Data
+    title: Life expectancy at birth, total (years)
+    notes: Use the official World Bank indicator page or API for this indicator.

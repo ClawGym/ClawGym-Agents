@@ -1,0 +1,30 @@
+{
+  "appName": "HorizonDesk",
+  "environment": "staging",
+  "version": "2.4.0",
+  "build": 1297,
+  "releaseDate": "2026-04-18T10:32:00Z",
+  "features": {
+    "enableSmartCache": true,
+    "betaUserOnboarding": false,
+    "telemetry": {
+      "enabled": true,
+      "endpoint": "https://telemetry.horizondesk.example.com/v1/ingest",
+      "batchSize": 200,
+      "flushIntervalSeconds": 30
+    }
+  },
+  "services": {
+    "apiBaseUrl": "https://api-staging.horizondesk.example.com",
+    "auth": {
+      "issuer": "https://auth.horizondesk.example.com/",
+      "audience": "horizondesk-web",
+      "jwksUrl": "https://auth.horizondesk.example.com/.well-known/jwks.json"
+    }
+  },
+  "ui": {
+    "theme": "light",
+    "dateFormat": "YYYY-MM-DD",
+    "timezone": "UTC"
+  }
+}

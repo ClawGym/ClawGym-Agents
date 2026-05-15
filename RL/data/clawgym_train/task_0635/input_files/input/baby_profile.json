@@ -1,0 +1,49 @@
+{
+  "name": "Avery",
+  "birth_date": "2025-11-19",
+  "current_age": "5 months",
+  "stage": "Young Infant",
+  "care_context": "routine",
+  "caregivers": [
+    {"name": "Maya", "role": "Mom"},
+    {"name": "Eli", "role": "Dad"},
+    {"name": "Nana", "role": "Grandmother (daytime help)"}
+  ],
+  "feeding_mode": "Bottle-fed expressed breast milk (occasional formula top-up if needed)",
+  "baseline_patterns": {
+    "feeds": {
+      "per_feed_volume_ml": "120-160",
+      "feeds_per_day": "5-6",
+      "daily_intake_ml": "750-900"
+    },
+    "sleep": {
+      "naps_per_day": "3-4",
+      "typical_nap_duration_min": "40-90",
+      "overnight": "20:30-06:00 with ~1 wake"
+    },
+    "diapers": {
+      "wet_per_day": "6-8",
+      "dirty_per_day": "1-2",
+      "stool_notes": "Mustard/yellow-brown, soft"
+    }
+  },
+  "care_instructions": [
+    "Use saline + gentle nasal suction for congestion as needed, especially before feeds and sleep",
+    "Acetaminophen permitted for fever if rectal temperature ≥ 38.0 C per pediatric guidance; do not exceed labeled frequency; confirm dosing with pediatrician",
+    "Monitor hydration: wet diaper pattern and intake vs baseline"
+  ],
+  "recent_metrics": {
+    "last_recorded_weight": {"value": 6.6, "unit": "kg", "date": "2026-04-10"}
+  },
+  "alert_preferences": {
+    "red_alert_action": "Seek emergency care immediately",
+    "amber_alert_action": "Same-day pediatric guidance",
+    "local_emergency_number": "911"
+  },
+  "known_conditions": [],
+  "daily_medications": [],
+  "notes": [
+    "Generally healthy; mild colds a couple of times since birth",
+    "Tends to take smaller feeds when congested"
+  ]
+}

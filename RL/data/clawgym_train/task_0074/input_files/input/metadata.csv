@@ -1,0 +1,9 @@
+doc_id,split,num_pages,dpi,source,has_handwriting,lang
+doc_001,train,10,300,scanner,false,en
+doc_002,train,8,300,scanner,true,en
+doc_003,train,5,200,camera,true,es
+doc_004,val,12,300,scanner,false,en
+doc_005,val,3,150,camera,false,fr
+doc_006,test,7,300,scanner,false,en
+doc_007,test,20,600,scanner,true,zh
+doc_008,train,15,300,scanner,false,en

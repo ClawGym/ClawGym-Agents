@@ -1,0 +1,9 @@
+id,client_name,garment_type_fr,fabric_fr,due_date,status,cost_livres,notes_fr
+101,Duc de Montmorency,habit,velours,1779-10-12,open,320,"Doublure en soie; dentelle fine aux manches."
+102,Marquise de Villers,robe,soie,1779-09-30,open,280,"Brocart discret au corsage; boutons perles."
+103,Comte d'Artois,redingote,laine,1779-11-05,open,250,"Basques allongées; doublure rayée."
+104,Baron de Sèze,gilet,taffetas,1779-09-20,completed,90,"Dentelle simple."
+105,Madame de Staël,robe,velours,1779-10-01,open,310,"Ourlet renforcé; doublure."
+106,Prince de Condé,habit,brocart,1779-12-01,open,400,"Dentelle riche; boutons dorés; galons."
+107,Duchesse de Polignac,culotte,soie,1779-09-25,open,150,"Doublure légère; rubans."
+108,Chevalier de Saint-George,redingote,laine,1779-10-15,cancelled,0,"Commande annulée."

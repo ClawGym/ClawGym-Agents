@@ -1,0 +1,5 @@
+sku,location,on_hand,on_order,backorders,committed
+OJ-64OZ,S001,500,200,0,50
+OJ-64OZ,S002,120,0,0,10
+GRANOLA-BAR-12PK,S001,300,150,0,40
+GRANOLA-BAR-12PK,S002,80,0,0,0

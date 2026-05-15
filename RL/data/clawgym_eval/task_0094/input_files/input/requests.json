@@ -1,0 +1,58 @@
+{
+  "locations": [
+    {
+      "state": "VIC",
+      "suburb": "Malvern",
+      "postcode": "3144",
+      "buy_types": ["house", "townhouse", "apartment-unit", "villa"],
+      "streets": ["Como Street", "Glenferrie Road", "High Street"],
+      "properties": [
+        { "street": "Como Street", "number": "4", "pid": "6510692" },
+        { "street": "High Street", "number": "203-1269", "pid": "12345678" }
+      ],
+      "schools": [
+        { "name": "Malvern Primary School", "sid": "3021" },
+        { "name": "De La Salle College Malvern", "sid": "1854" }
+      ]
+    },
+    {
+      "state": "VIC",
+      "suburb": "Armadale",
+      "postcode": "3143",
+      "buy_types": ["house", "townhouse", "apartment-unit"],
+      "streets": ["Elgin Avenue", "Kooyong Road", "Orrong Crescent"],
+      "properties": [
+        { "street": "Elgin Avenue", "number": "5", "pid": "1234567" }
+      ],
+      "schools": [
+        { "name": "Armadale Primary School", "sid": "3187" }
+      ]
+    },
+    {
+      "state": "NSW",
+      "suburb": "Newtown",
+      "postcode": "2042",
+      "buy_types": ["house", "apartment-unit", "townhouse"],
+      "streets": ["King Street", "Georgina Street", "Alice Avenue", "Wells Terrace"],
+      "properties": [
+        { "street": "King Street", "number": "101", "pid": "9022331" }
+      ],
+      "schools": [
+        { "name": "Newtown High School of the Performing Arts", "sid": "7891" }
+      ]
+    },
+    {
+      "state": "NSW",
+      "suburb": "Surry Hills",
+      "postcode": "2010",
+      "buy_types": ["apartment-unit", "townhouse", "house"],
+      "streets": ["Crown Street", "Bourke Street", "Foley Place", "Campbell Road", "Arthur Court", "Waterloo Crescent", "Riley Drive"],
+      "properties": [
+        { "street": "Bourke Street", "number": "88", "pid": "8123456" }
+      ],
+      "schools": [
+        { "name": "Surry Hills Public School", "sid": "1112" }
+      ]
+    }
+  ]
+}

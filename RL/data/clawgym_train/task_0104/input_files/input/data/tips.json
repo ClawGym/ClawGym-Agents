@@ -1,0 +1,24 @@
+[
+  {"country": "Japan", "city": "Kyoto", "neighborhood": "Gion", "category": "culture", "tip": "Visit Yasaka Shrine early to avoid crowds.", "score": 5, "cost": "$", "season": "spring", "tags": ["shrine", "cherry blossoms"]},
+  {"country": "Japan", "city": "Kyoto", "neighborhood": "Arashiyama", "category": "nature", "tip": "Walk the bamboo grove at dawn.", "score": 5, "cost": "$", "season": "autumn", "tags": ["bamboo", "scenic"]},
+  {"country": "Japan", "city": "Kyoto", "neighborhood": "Nishiki", "category": "food", "tip": "Try tsukemono at Nishiki Market.", "score": 4, "cost": "$$", "season": "any", "tags": ["market", "local food"]},
+
+  {"country": "Mexico", "city": "Mexico City", "neighborhood": "Coyoacán", "category": "culture", "tip": "Frida Kahlo Museum is best on weekday mornings.", "score": 5, "cost": "$$", "season": "any", "tags": ["museum", "art"]},
+  {"country": "Mexico", "city": "Mexico City", "neighborhood": "Roma Norte", "category": "food", "tip": "Street tacos al pastor near Plaza Río de Janeiro.", "score": 5, "cost": "$", "season": "any", "tags": ["tacos", "street food"]},
+  {"country": "Mexico", "city": "Mexico City", "neighborhood": "Xochimilco", "category": "leisure", "tip": "Take an early trajinera to avoid loud music crowds.", "score": 4, "cost": "$$", "season": "spring", "tags": ["boats", "canals"]},
+
+  {"country": "Japan", "city": "Tokyo", "neighborhood": "Asakusa", "category": "culture", "tip": "Senso-ji at night is beautifully lit and quieter.", "score": 5, "cost": "$", "season": "any", "tags": ["temple", "night"]},
+  {"country": "Japan", "city": "Tokyo", "neighborhood": "Tsukiji", "category": "food", "tip": "Try tamagoyaki stalls for a quick snack.", "score": 4, "cost": "$$", "season": "any", "tags": ["market", "snack"]},
+
+  {"country": "Turkey", "city": "Istanbul", "neighborhood": "Kadıköy", "category": "food", "tip": "Fish sandwiches by the ferry are a local favorite.", "score": 5, "cost": "$", "season": "summer", "tags": ["street food", "ferry"]},
+  {"country": "Turkey", "city": "Istanbul", "neighborhood": "Sultanahmet", "category": "culture", "tip": "Visit Hagia Sophia right at opening time.", "score": 4, "cost": "$$$", "season": "spring", "tags": ["history", "architecture"]},
+
+  {"country": "Spain", "city": "Barcelona", "neighborhood": "Gràcia", "category": "leisure", "tip": "Plaça del Sol for an evening among locals.", "score": 4, "cost": "$", "season": "summer", "tags": ["plaza", "evening"]},
+  {"country": "Spain", "city": "Barcelona", "neighborhood": "El Born", "category": "food", "tip": "Pinchos bars are best on weeknights.", "score": 5, "cost": "$$", "season": "any", "tags": ["pinchos", "tapas"]},
+  {"country": "Spain", "city": "Barcelona", "neighborhood": "Barceloneta", "category": "leisure", "tip": "Walk the beach promenade at sunset.", "score": 3, "cost": "$", "season": "summer", "tags": ["beach", "sunset"]},
+
+  {"country": "Morocco", "city": "Marrakech", "neighborhood": "Medina", "category": "culture", "tip": "Explore the souks early to see shopkeepers set up.", "score": 4, "cost": "$", "season": "winter", "tags": ["souks", "market"]},
+  {"country": "Morocco", "city": "Marrakech", "neighborhood": "Jardin Majorelle", "category": "nature", "tip": "Go right at opening; bring water.", "score": 4, "cost": "$$", "season": "spring", "tags": ["garden", "yves saint laurent"]},
+
+  {"country": "India", "city": "Mumbai", "neighborhood": "Bandra", "category": "food", "tip": "Street vada pav near Bandstand is a must.", "score": 5, "cost": "$", "season": "winter", "tags": ["street food", "vada pav"]}
+]

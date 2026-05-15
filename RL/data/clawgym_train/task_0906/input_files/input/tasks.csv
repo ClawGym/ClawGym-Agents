@@ -1,0 +1,11 @@
+task_name,minutes_per_task,frequency_per_week,is_repetitive,requires_judgment
+Copy new website leads into CRM and email list,8,10,true,false
+Schedule social posts from content calendar,15,5,true,false
+Compile weekly analytics dashboard for clients,60,1,true,true
+Prepare and send invoice reminders,10,4,true,false
+Transcribe meeting notes to CRM and create follow-up tasks,20,3,true,false
+Draft custom proposals for new leads,90,2,false,true
+Assemble weekly newsletter,45,1,true,true
+Import webinar registrants from CSV to email list,20,1,true,false
+Update content calendar after publishing blog posts,10,4,true,false
+Respond to DMs and triage inquiries,5,14,true,true

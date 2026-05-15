@@ -1,0 +1,11 @@
+filters:
+  include_styles: ["all"]
+  exclude_styles: []
+  allowed_medium_keywords: []
+  date_range:
+    start: "2023-01-01"
+    end: "2026-12-31"
+input_glob: "input/webpages/*.html"
+output:
+  csv: "output/exhibitions.csv"
+  json: "output/exhibitions.json"

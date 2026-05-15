@@ -1,0 +1,31 @@
+review_id,rating,review_text,date
+1,2,"The mini-guide kept saying ""24-word seed"" in one spot and ""25-word"" elsewhere. As a Monero newbie that scared me. Which is it?",2026-03-02
+2,3,"Metal plate is thin and flexes when I try to stamp letters. Edges felt a bit sharp too. Not super confidence-inspiring for something protecting my savings.",2026-03-03
+3,1,"QR code in the booklet goes to a 404 page. I couldn’t access the promised tutorial and had to search YouTube.",2026-03-05
+4,2,"Screws for the letter tiles strip easily and one was missing. I ended up improvising with tape which defeats the purpose.",2026-03-06
+5,3,"The guide never clearly warned me not to take a photo of the seed. It hints at privacy but for beginners it should be big and bold.",2026-03-07
+6,2,"Package arrived dented and the stainless plate had scratches. Protective film was half peeled off. QC seems weak.",2026-03-08
+7,3,"Font size in the printed guide is tiny. I had to use my phone flashlight to read the steps on air-gapped setup.",2026-03-08
+8,2,"The included marker smears on the paper seed card. If it gets damp it becomes unreadable. Not great for long-term storage.",2026-03-09
+9,1,"The booklet mentions payment IDs for exchanges without saying they’re deprecated. Totally confusing for a newcomer.",2026-03-10
+10,2,"No practice card. I was afraid to stamp the real seed and make a mistake. Include a dummy card or plate to practice!",2026-03-11
+11,3,"It does the job but the letter tiles don’t lock in square. My words are crooked. Maybe a better jig or clearer stencil.",2026-03-11
+12,2,"The guide never advised sending a small test first. I sent my whole balance and was anxious waiting confirmations.",2026-03-12
+13,3,"It’s okay. Would prefer thicker 316 steel, not sure what this is. Doesn’t feel heat/fire resistant enough.",2026-03-12
+14,2,"The screwdriver in the kit is junk. The tip rounded off before I got halfway through tightening.",2026-03-13
+15,1,"Instructions on ""air-gapped"" are vague. It says transfer via USB but doesn’t explain how to verify the file or signatures.",2026-03-14
+16,3,"Wish the guide emphasized the 3-2-1 backup rule. It’s mentioned in passing but not actionable. I needed concrete steps.",2026-03-14
+17,2,"One of the letter trays didn’t include a ""Z"". I had to flip an ""N"" and it looks awful.",2026-03-15
+18,3,"Good idea, mediocre execution. The metal plate bends if you press hard. A thicker plate or better stamping method would help.",2026-03-16
+19,2,"The example seed in the guide uses 24 words, not 25. That’s misleading for Monero. Please fix.",2026-03-16
+20,1,"No tamper-evident bag or seal. For a security product, I expected better packaging.",2026-03-17
+21,3,"The guide says to verify the address but doesn’t explain how to compare it safely or show checksum tips.",2026-03-17
+22,2,"Letters bounce around during stamping and the spacing drifted. Maybe include a clamp or stamp jig.",2026-03-18
+23,2,"Paper wallet card feels like cheap stock and smudged with just a sweaty hand. Not durable.",2026-03-18
+24,3,"Support answered after 4 days about the broken link. Replacement PDF helped but that delay was stressful.",2026-03-19
+25,1,"I expected two plates for redundancy. Only one included and no clear mention of 3 copies in different places.",2026-03-19
+26,2,"Guide mentions integrated addresses but doesn’t explain when to use subaddresses. Left me unsure for day-to-day use.",2026-03-20
+27,3,"There’s a checksum line in Monero seeds but the booklet didn’t explain what that means. Beginners need context.",2026-03-20
+28,2,"Some burrs on the plate holes scratched my finger. Needs deburring and better finish.",2026-03-21
+29,3,"It would be better to have a fire test rating or some certification reference for the plate.",2026-03-21
+30,2,"The URL for the download page isn’t HTTPS in the print. Shouldn’t a security product model best practices?",2026-03-22

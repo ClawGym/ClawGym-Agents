@@ -1,0 +1,6 @@
+<catalog>
+  <meta version="1.0"/>
+  <module name="users" path="users.xml"/>
+  <module name="orders" path="orders.xml"/>
+  <module name="ui_strings" path="ui_strings.xml"/>
+</catalog>

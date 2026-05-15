@@ -1,0 +1,19 @@
+risk:
+  hr_percentile: 0.85
+  throws_percentile: 0.95
+  high_hr_cutoff_bpm: null
+  high_throws_cutoff: null
+  weekly_load_warning: 1200
+  alert_risk_score: 950
+  rpe_weight: 1.0
+  hr_weight: 0.8
+  throw_weight: 1.4
+  multiplier_source: input/risk_guidelines.html
+week:
+  start: Monday
+units:
+  hr: bpm
+  duration: min
+persona:
+  country: DE
+  sport: darts

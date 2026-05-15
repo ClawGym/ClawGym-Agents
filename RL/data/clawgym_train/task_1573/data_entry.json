@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1573",
+  "user_query": "I’m debugging an Arduino Uno project that randomly resets and reads garbage from a DHT11 whenever the attached micro servo moves. Please do the following:\n\n1) Read input/incident_report.md for symptoms and wiring notes, and input/current_sketch.txt for the current code.\n2) Create a corrected, non-blocking Arduino sketch as output/fixed_sketch.txt that:\n   - Uses millis()-based timing instead of delay() for periodic sensor reads and any timing loops.\n   - Moves the servo without blocking other tasks and avoids using pins 0 and 1 for any GPIO.\n   - Uses a button input with INPUT_PULLUP and debounced reading; do not leave inputs floating.\n   - Avoids the String class (use char arrays or minimal printing) and keeps Serial prints lightweight.\n   - Includes clear comments at the top listing the chosen pins and any assumptions.\n3) Write output/wiring_fix.md with a concrete wiring remediation plan that specifically covers: powering the servo from an external 5–6V supply (not the Arduino 5V pin), using a common ground between supplies, adding 0.1uF decoupling capacitors at sensor power pins, using a current-limiting resistor for any LEDs, keeping sensor leads short, and noting that pins 0/1 are reserved for Serial (RX/TX). Mention brown-out resets as a likely symptom of poor power.\n4) Write output/troubleshooting_report.md that explains root causes and a step-by-step test plan. Include checks for: common ground verification, using INPUT_PULLUP (or external pull-up), correct LED resistor, decoupling caps, avoiding pins 0/1, correct baud rate settings, and closing the Serial Monitor when uploading.\n\nMake sure all three files are written exactly to the output/ directory with the specified names.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

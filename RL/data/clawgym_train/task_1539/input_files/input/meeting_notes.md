@@ -1,0 +1,30 @@
+Project: AcmeFinTech Website Optimization Kickoff
+Date: 2026-04-10
+Attendees: Maria (Marketing Consultant), Alex (UX Lead), Daria (SEO/Performance), Igor (Content Strategist)
+
+Live notes (high-level pain points and opportunities):
+00:02 Maria: Drop-off on category pages is still high; users are confused about where to go next. [theme: Navigation]
+00:03 Alex: Mobile menu has too many nested levels; hard to reach core pages. [theme: Navigation]
+00:04 Daria: Lighthouse mobile TTI ~6s on the homepage—too slow. [theme: Page Speed]
+00:05 Igor: Hero copy doesn’t speak to fintech ICP; value prop isn’t obvious. [theme: Content]
+00:06 Maria: Primary CTA is below the fold on key pages, especially on mobile. [theme: CTA]
+00:07 Alex: Signup form has 12 required fields—too much friction. [theme: Forms]
+00:09 Daria: CLS spikes on blog templates when ads load. [theme: Page Speed]
+00:11 Igor: Few internal links to solutions pages; discoverability is low. [theme: SEO]
+00:12 Maria: Breadcrumbs missing on category/product pages. [theme: Navigation]
+00:14 Alex: Compress and lazy-load hero images across templates. [theme: Page Speed]
+00:15 Daria: Duplicate H1s on several CMS templates. [theme: SEO]
+00:16 Igor: Case studies are thin; lack outcomes/metrics that resonate. [theme: Content]
+00:18 Maria: Trial sign-up copy doesn’t match the product benefit users expect. [theme: CTA]
+00:19 Alex: Placeholder labels only in forms; users lose context. [theme: Forms]
+00:20 Daria: Mega-menu A/B test variant showed +8% CTR to solutions pages. [theme: Navigation]
+00:22 Igor: TTFB is slow in EU regions; origin not caching effectively. [theme: Page Speed]
+00:23 Maria: Many blog posts lack any CTA at the end. [theme: CTA]
+00:25 Alex: FAQ content is outdated; doesn’t reflect latest product scope. [theme: Content]
+00:26 Daria: About 45 orphan pages; thin internal linking. [theme: SEO]
+00:27 Igor: Product detail page navigation is inconsistent; tabs vs. accordion. [theme: Navigation]
+00:28 Maria: Forms don’t support browser autofill; hurts mobile completion. [theme: Forms]
+00:29 Alex: JS bundles are large and uncompressed; no code-splitting. [theme: Page Speed]
+00:30 Daria: Title tags are too long on ~30 pages. [theme: SEO]
+00:31 Igor: CTA color blends into the background on dark theme. [theme: CTA]
+00:32 Maria: Tone is generic; needs to be tailored for fintech decision-makers. [theme: Content]

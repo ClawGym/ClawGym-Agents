@@ -1,0 +1,64 @@
+/**
+ * Non-critical API: user controller
+ * Contains intentional error-handling anti-patterns for audit and auto-fix:
+ * - PROMISE_EMPTY_CATCH (critical): .catch(() => {}) swallows errors
+ * - PROMISE_CATCH_NO_LOGGING (high): promise catch without logging
+ * - PARTIAL_ERROR_LOGGING (medium): logs only error.message
+ */
+
+type Request = { params: Record<string, string>; body: any };
+type Response = { status: (code: number) => Response; json: (data: any) => void; send: (data: any) => void };
+
+const logger = {
+  error: (...args: any[]) => console.error(...args),
+  warn: (...args: any[]) => console.warn(...args),
+  info: (...args: any[]) => console.log(...args)
+};
+
+class UserService {
+  async get(id: string): Promise<any> {
+    if (id === "boom") throw new Error("Failed to fetch user");
+    return { id, name: "Demo User" };
+  }
+  async create(body: any): Promise<any> {
+    if (!body || !body.email) throw new Error("Invalid payload");
+    return { id: "new-123", ...body };
+  }
+}
+
+const userService = new UserService();
+
+export async function getUser(req: Request, res: Response): Promise<void> {
+  const id = req.params["id"];
+  // Anti-pattern: PROMISE_EMPTY_CATCH — no logging, errors disappear
+  userService
+    .get(id)
+    .then((user) => {
+      res.json(user);
+    })
+    .catch(() => {});
+}
+
+export async function createUser(req: Request, res: Response): Promise<void> {
+  try {
+    const result = await userService.create(req.body);
+    res.status(201).json(result);
+  } catch (error: any) {
+    // Anti-pattern: PARTIAL_ERROR_LOGGING — only message, not full error context
+    logger.error("Failed to create user", error.message);
+    res.status(500).json({ error: "Internal error" });
+  }
+}
+
+export async function updateUser(req: Request, res: Response): Promise<void> {
+  // Anti-pattern: PROMISE_CATCH_NO_LOGGING — catch lacks any logging
+  userService
+    .get(req.params["id"])
+    .then((user) => {
+      const updated = { ...user, ...req.body };
+      res.json(updated);
+    })
+    .catch((err) => {
+      res.status(500).json({ error: "Update failed" });
+    });
+}

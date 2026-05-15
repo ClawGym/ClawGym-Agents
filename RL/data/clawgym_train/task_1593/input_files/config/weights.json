@@ -1,0 +1,24 @@
+{
+  "weights": {
+    "adverse_event_reports": 0.25,
+    "interactions_count": 0.25,
+    "service_member_incidents": 0.25,
+    "banned_substances_flag": 0.25,
+    "quality_seal_bonus": -0.10
+  },
+  "evidence_penalty": {
+    "High": 0.0,
+    "Moderate": 0.10,
+    "Low": 0.30,
+    "None": 0.50
+  },
+  "normalization": {
+    "method": "minmax",
+    "clip": true
+  },
+  "tie_breakers": [
+    "banned_substances_flag",
+    "adverse_event_reports",
+    "supplement"
+  ]
+}

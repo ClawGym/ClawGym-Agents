@@ -1,0 +1,10 @@
+eligibility:
+  max_compliance_issues: 0
+  min_past_performance: 3
+  min_readiness_score: 60
+scoring:
+  weights:
+    need_index: 0.4
+    impact_score: 0.35
+    readiness_score: 0.2
+  disadvantaged_area_bonus: 5

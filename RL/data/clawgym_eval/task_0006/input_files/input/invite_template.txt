@@ -1,0 +1,9 @@
+Hi {name},
+
+Our next '{meeting_title}' is scheduled for {local_datetime} (UTC{utc_offset_signed}) for you.
+
+Please join using this video link: {video_link}
+
+If this time is difficult, reply with alternatives. This slot was selected by analyzing past attendance in input/past_calls.csv.
+
+— Family Call Planner

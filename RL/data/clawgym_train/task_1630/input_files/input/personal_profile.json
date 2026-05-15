@@ -1,0 +1,18 @@
+{
+  "name": "Youssef Al-Khatib",
+  "arrival_year": 2026,
+  "country_of_origin": "Syria",
+  "current_city": "Dublin",
+  "address_district": "Dublin 8",
+  "english_level": "B1",
+  "availability": {"days": ["Tuesday", "Thursday"], "time": "18:00-20:30"},
+  "goals": ["improve academic English", "progress to Further Education (PLC)", "integrate into Irish community"],
+  "education": [
+    {"level": "Secondary School", "location": "Damascus", "year_completed": 2018},
+    {"level": "University", "field": "Civil Engineering", "years_completed": 2}
+  ],
+  "experience": ["Volunteer Arabic-English conversation club facilitator", "Part-time barista"],
+  "constraints": ["works mornings", "new parent - may need childcare"],
+  "proofs": ["refugee status letter", "proof of address"],
+  "contact_email": "youssef.alkhatib@example.com"
+}

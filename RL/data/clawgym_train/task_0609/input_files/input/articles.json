@@ -1,0 +1,142 @@
+{
+  "wechat": [
+    {
+      "title": "From 65 to 89: A mom's AI homework routine that rescued a child's grades",
+      "source": "Hangzhou Parent Notes",
+      "source_category": "normal",
+      "summary": "A detailed how to set a 20-minute AI homework check that a parent can run at home and share with the teacher; the child logs mistakes, the parent reviews prompts, and the teacher signs off weekly.",
+      "date": "2026-04-01",
+      "type": "wechat"
+    },
+    {
+      "title": "City school pilots AI classroom co-teacher: one month case results",
+      "source": "Lanzhou Daily",
+      "source_category": "media",
+      "summary": "A classroom case across three middle schools: teachers used an AI tool for feedback while parents completed a short survey; practice shows improved classroom participation and clearer homework expectations.",
+      "date": "2026-03-31",
+      "type": "wechat"
+    },
+    {
+      "title": "2026 learning tablet deals you can't miss: best discount picks",
+      "source": "Tech Bargain Hub",
+      "source_category": "marketing",
+      "summary": "Top learning tablet discount roundup with coupon codes and buy links for families.",
+      "date": "2026-04-01",
+      "type": "wechat"
+    },
+    {
+      "title": "Municipal Education Bureau announces AI in curriculum 2026 plan",
+      "source": "Jiayuguan Education Bureau",
+      "source_category": "official",
+      "summary": "Policy signal: AI content enters curriculum; teachers will receive training and schools will align classroom assessment with the new curriculum scope.",
+      "date": "2026-04-01",
+      "type": "wechat"
+    },
+    {
+      "title": "Stanford RCT: unrestricted student AI use harms multi-step problem-solving",
+      "source": "NetEase Education",
+      "source_category": "media",
+      "summary": "An RCT experiment found that students allowed to use AI without structure performed worse on complex classroom tasks than those with guided constraints.",
+      "date": "2026-04-01",
+      "type": "wechat"
+    },
+    {
+      "title": "Chongqing launches AI education action plan: 80% smart devices by 2027",
+      "source": "Chongqing Municipal Government",
+      "source_category": "official",
+      "summary": "Official plan outlines funding, teacher training, and school device upgrades; schools to prioritize curriculum alignment before classroom rollout.",
+      "date": "2026-04-01",
+      "type": "wechat"
+    },
+    {
+      "title": "How to set family AI rules: a parent's guide for safe classroom-aligned use",
+      "source": "Parenting Today",
+      "source_category": "media",
+      "summary": "A practical guide and checklist for parents and kids to agree on prompts, time limits, and teacher communication so home use matches classroom expectations.",
+      "date": "2026-03-30",
+      "type": "wechat"
+    }
+  ],
+  "web": [
+    {
+      "title": "Ministry of Education releases 2026 AI curriculum guidelines",
+      "source": "Ministry of Education PRC",
+      "source_category": "official",
+      "summary": "National guidance details curriculum goals, teacher development, and school implementation timelines for educators; parents are encouraged to understand new homework norms.",
+      "date": "2026-04-02",
+      "type": "web"
+    },
+    {
+      "title": "Education Ministry unveils AI curriculum guidelines for 2026",
+      "source": "Edu Observer",
+      "source_category": "media",
+      "summary": "Coverage of the Ministry’s AI curriculum guidelines with focus on teacher training, school pathways, and curriculum milestones.",
+      "date": "2026-04-02",
+      "type": "web"
+    },
+    {
+      "title": "School-by-school practice: Shenzhen middle schools pilot AI writing feedback in classroom",
+      "source": "Shenzhen Education Release",
+      "source_category": "official",
+      "summary": "Teachers in four schools ran a classroom pilot for AI writing feedback; parents received a newsletter explaining how homework feedback will change.",
+      "date": "2026-03-29",
+      "type": "web"
+    },
+    {
+      "title": "Buying the right learning tablet in 2026: ultimate guide + coupon list",
+      "source": "DealFinder",
+      "source_category": "marketing",
+      "summary": "A sponsored buying guide with discount codes and group buy links for parents.",
+      "date": "2026-03-27",
+      "type": "web"
+    },
+    {
+      "title": "Rural school teachers share story: low-cost AI tool improves homework feedback",
+      "source": "Education Volunteers Network",
+      "source_category": "media",
+      "summary": "A teacher-led story and classroom case: simple AI prompts improved homework feedback and helped parents understand grades and next steps.",
+      "date": "2026-03-28",
+      "type": "web"
+    },
+    {
+      "title": "AI school night: families and educators co-create a home-classroom plan",
+      "source": "Greenfield Elementary",
+      "source_category": "official",
+      "summary": "A school hosted an AI night with parents and teachers to draft a home-classroom plan; includes a printable checklist for families.",
+      "date": "2026-03-31",
+      "type": "web"
+    },
+    {
+      "title": "AI camp early-bird deal: discount ends tonight",
+      "source": "Youth Tech Camp",
+      "source_category": "marketing",
+      "summary": "Promotional discount for an AI-themed camp; coupon provided for the first 100 families.",
+      "date": "2026-03-26",
+      "type": "web"
+    },
+    {
+      "title": "Provincial plan for AI tutors in schools, draft for comments",
+      "source": "Hunan Education Department",
+      "source_category": "official",
+      "summary": "Draft policy proposing school pilots and curriculum integration for AI tutoring support.",
+      "date": "2026-03-20",
+      "type": "web"
+    },
+    {
+      "title": "AI officially enters K-12 curriculum standards in 2026: nine priorities",
+      "source": "EAILab Lab",
+      "source_category": "media",
+      "summary": "Media explainer on curriculum standards, teacher development, and school sequencing for the AI rollout.",
+      "date": "2026-03-31",
+      "type": "web"
+    },
+    {
+      "title": "AI+ Education: from bonsai to landscape",
+      "source": "China Education News",
+      "source_category": "media",
+      "summary": "A policy and practice review: how schools and teachers can move from small pilots to classroom-scale adoption with clear curriculum support.",
+      "date": "2026-04-01",
+      "type": "web"
+    }
+  ]
+}

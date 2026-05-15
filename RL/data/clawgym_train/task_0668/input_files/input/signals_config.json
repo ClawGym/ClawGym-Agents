@@ -1,0 +1,7 @@
+{
+  "min_confidence": 0.78,
+  "min_strength": 0.80,
+  "tickers_whitelist": ["SPY", "QQQ", "GLD", "XLE", "XLK", "TLT", "SMH"],
+  "date": "2026-04-19",
+  "notes": "Use these thresholds to filter actionable signals; if none pass, return an empty set with a brief market summary."
+}

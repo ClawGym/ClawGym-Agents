@@ -1,0 +1,32 @@
+[
+  {
+    "text": "We currently use GitFlow for our branching strategy: develop, feature branches, release branches, and hotfixes.",
+    "category": "decision",
+    "importance": 0.8
+  },
+  {
+    "text": "Nina's morning coffee order is vanilla lattes with oat milk, no syrup after noon.",
+    "category": "preference",
+    "importance": 0.7
+  },
+  {
+    "text": "Phoenix go-live date is 2026-05-01 with a code freeze starting one week earlier.",
+    "category": "decision",
+    "importance": 0.9
+  },
+  {
+    "text": "Our preferred code review tool is GitHub Pull Requests with mandatory 2 approvals.",
+    "category": "preference",
+    "importance": 0.6
+  },
+  {
+    "text": "The staging database resets every Sunday at 02:00 UTC.",
+    "category": "fact",
+    "importance": 0.5
+  },
+  {
+    "text": "The design team uses Figma libraries 'Nova' and 'Solar' for shared components.",
+    "category": "fact",
+    "importance": 0.4
+  }
+]

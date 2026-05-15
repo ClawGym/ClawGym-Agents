@@ -1,0 +1,23 @@
+{
+  "student_name": "Alex Rivera",
+  "gpa": 3.2,
+  "completed_coursework": [
+    {"area": "Music Theory", "credits": 12},
+    {"area": "Music History", "credits": 6},
+    {"area": "Conducting", "credits": 3},
+    {"area": "Instrumental Techniques", "credits": 4},
+    {"area": "Vocal Pedagogy", "credits": 0},
+    {"area": "Education Core", "credits": 12},
+    {"area": "Special Education", "credits": 0},
+    {"area": "ESL/ELL", "credits": 0}
+  ],
+  "exams": [
+    {"name": "Piano Proficiency Exam", "status": "passed", "date": "2023-12-10"},
+    {"name": "Basic Skills Test", "status": "registered", "date": "2024-05-20"}
+  ],
+  "background_check": {
+    "Riverland State": "submitted",
+    "FBI": "not submitted"
+  },
+  "student_teaching_plan": {"target_term": "Fall 2025"}
+}

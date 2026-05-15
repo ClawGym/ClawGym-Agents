@@ -1,0 +1,10 @@
+targets:
+  - domain: nps.gov
+    topic_hint: fire
+    description: "National Park Service official public domain"
+  - domain: nifc.gov
+    topic_hint: news
+    description: "National Interagency Fire Center official public domain"
+  - domain: inciweb.nwcg.gov
+    topic_hint: incident
+    description: "Interagency incident information portal"

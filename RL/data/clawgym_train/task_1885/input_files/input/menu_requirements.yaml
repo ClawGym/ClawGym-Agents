@@ -1,0 +1,37 @@
+# Menu requirements for building standardized button prompts.
+# All descriptions are single-line. Action keys ("a") <=20 chars; ids <=16 chars.
+
+yesno:
+  title: "Run self-improving now?"
+  yes:
+    label: "Y"
+    desc: "Run and execute now."
+    a: "self_imp_yes"
+    id: "req42"
+  no:
+    label: "N"
+    desc: "Not now."
+    a: "self_imp_no"
+    id: "req42"
+
+menu:
+  title: "Pick what to do next"
+  options:
+    - desc: "Show top 10 entries"
+      a: "show_top10"
+      id: "m1"
+    - desc: "Triage noisy entries"
+      a: "triage"
+      id: "m2"
+    - desc: "Propose promotions"
+      a: "promote"
+      id: "m3"
+    - desc: "Export CSV report"
+      a: "export"
+      id: "m4"
+    - desc: "Refresh index cache"
+      a: "refresh"
+      id: "m5"
+    - desc: "Open settings"
+      a: "settings"
+      id: "m6"

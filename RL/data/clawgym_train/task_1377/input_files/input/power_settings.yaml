@@ -1,0 +1,11 @@
+lecture_mode:
+  target_os:
+    - macos
+    - linux
+  prevent_sleep_on_ac_power: true
+  prevent_sleep_on_battery: false
+  display_sleep_minutes: 20
+  system_idle_minutes: 15
+  dnd_expected: true
+  lecture_start: "14:00"
+  lecture_end: "15:30"

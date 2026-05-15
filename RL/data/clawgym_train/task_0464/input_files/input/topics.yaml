@@ -1,0 +1,19 @@
+canonical:
+  economy:
+    - economy
+    - inflation
+    - jobs
+    - growth
+  taxes:
+    - tax
+    - taxes
+    - taxation
+    - tax cuts
+  border:
+    - border
+    - immigration
+    - border security
+  speech:
+    - speech
+    - free speech
+    - censorship

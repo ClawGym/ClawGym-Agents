@@ -1,0 +1,13 @@
+[2024-06-18 07:55:22] Starting model checks
+INFO: Loading model Arch.ifc
+INFO: Loading model MEP.ifc
+WARNING: Missing property 'FireRating' on Wall ID 2103
+ERROR: Clash detected between Duct ID 4502 and Beam ID 332 at (12.4, 3.1, 6.0)
+WARNING: Missing property 'FireRating' on Wall ID 2103
+ERROR: Clash detected between Duct ID 4502 and Beam ID 332 at (12.4, 3.1, 6.0)
+WARNING: Unconnected pipe segment near Node ID 9981
+ERROR: Invalid GUID format on element ID 7777
+INFO: Check 'Clearances' completed in 12.3s
+ERROR: Invalid GUID format on element ID 7777
+SUMMARY: 4 errors, 3 warnings
+Process finished with exit code 1

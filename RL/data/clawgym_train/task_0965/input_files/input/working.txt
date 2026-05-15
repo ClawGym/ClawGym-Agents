@@ -1,0 +1,5 @@
+Draft a 2-paragraph team update about migrating calendars to a shared workspace by Friday (2026-04-24). Include:
+- Why we’re migrating and expected benefits
+- What’s changing for team members
+- Clear next steps and owners (bullet list)
+Keep it friendly-but-direct and under 150 words total.

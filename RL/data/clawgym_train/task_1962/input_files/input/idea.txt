@@ -1,0 +1,25 @@
+Working title: “Ops automation and analytics for small B2B teams”
+
+Broad idea:
+I want to build a lean SaaS or productized service that removes painful, repetitive RevOps/ClientOps tasks for small B2B teams where I already have credibility: bootstrapped SaaS companies (3–20 employees) and boutique marketing/analytics agencies (5–25 staff). My strengths are workflow automation (Zapier/Make), analytics (SQL/Looker Studio/Amplitude), and revenue tooling (Stripe + HubSpot). I do not want to sell generic project management or build a custom app from scratch. I want to package a sharp, repeated problem into a focused product or productized service with recurring revenue.
+
+Primary goals (12 months):
+- Reach $5k MRR within 6 months; $8k+ monthly income by 12 months.
+- Ship an MVP in 2 weeks and an improved V1 in 8–10 weeks.
+- Focus on a niche with >10,000 reachable prospects and a clear, monetizable pain.
+- Keep sales cycles under 30 days and support load under 2 hours per customer per week.
+
+Candidate problem spaces I’m open to:
+- Onboarding and activation for small SaaS (connecting Stripe, HubSpot, Intercom, email, and in-app signals).
+- Churn reduction via light customer health scoring + alerts for founders without a data team.
+- Client reporting automation for boutique agencies (pulling platform data into consistent client-facing reports).
+- Revenue reconciliation for Stripe-based businesses (MRR/ARR, failed payment recovery, cohort views).
+- Data connectors/no-code integration packs among Shopify, GA4, HubSpot, Stripe, and reporting.
+
+Non-goals:
+- Heavy custom dev or enterprise procurement cycles.
+- One-off consulting without repeatability or productization.
+- Domains listed in exclusions.txt (absolutely avoid).
+
+Success definition:
+A specific segment hears the pitch and immediately recognizes their problem. I can deliver a measurable outcome (e.g., reduce time spent on client reports by 70%, cut onboarding time in half, or catch failed payments within 24 hours), charge $49–$299/mo (with optional setup), and grow via SEO, LinkedIn, founder communities, and referrals—no paid ads for the first 6 months.

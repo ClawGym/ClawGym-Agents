@@ -1,0 +1,108 @@
+{
+  "company_name": "Northstar Health Tech",
+  "industry": "Healthcare SaaS",
+  "headquarters": "Austin, TX, USA",
+  "compliance_profile": {
+    "regulations": [
+      "HIPAA",
+      "SOC 2 Type II"
+    ],
+    "data_categories": [
+      "PHI",
+      "PII",
+      "Operational Analytics"
+    ]
+  },
+  "team_context": {
+    "platform_team": "Platform Architecture",
+    "api_governance_committee": [
+      "Platform Architecture",
+      "Security",
+      "Compliance"
+    ],
+    "engineering_teams": [
+      {
+        "name": "Care Platform",
+        "languages": [
+          "Java",
+          "Kotlin"
+        ]
+      },
+      {
+        "name": "Security",
+        "languages": [
+          "Node.js",
+          "TypeScript"
+        ]
+      },
+      {
+        "name": "Revenue",
+        "languages": [
+          "Python"
+        ]
+      },
+      {
+        "name": "Analytics",
+        "languages": [
+          "Python"
+        ]
+      },
+      {
+        "name": "Comms",
+        "languages": [
+          "Go"
+        ]
+      },
+      {
+        "name": "Integrations",
+        "languages": [
+          "C#"
+        ]
+      },
+      {
+        "name": "Core",
+        "languages": [
+          "Node.js",
+          "TypeScript"
+        ]
+      },
+      {
+        "name": "Platform",
+        "languages": [
+          "Rust",
+          "Java"
+        ]
+      }
+    ],
+    "current_swagger_adoption": "Partial; 3 of 10 services have Swagger/OpenAPI",
+    "communication_channels": [
+      "Slack #api-governance",
+      "Confluence 'API Standards' space"
+    ],
+    "timezone_coverage": [
+      "US Central",
+      "US Pacific",
+      "EU Central"
+    ]
+  },
+  "architecture": {
+    "style": "Microservices",
+    "api_gateway": "Kong",
+    "cloud": "AWS",
+    "environments": [
+      "dev",
+      "staging",
+      "prod"
+    ]
+  },
+  "adoption_goals": {
+    "target_coverage_pct": 100,
+    "deadline_days": 90,
+    "prioritization": "High-risk/high-traffic services first"
+  },
+  "contacts": {
+    "executive_sponsor": "CTO - Maya Patel",
+    "program_lead": "Staff Engineer - Alex Romero",
+    "security_lead": "Director of Security - Jordan Lee"
+  }
+}

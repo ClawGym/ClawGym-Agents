@@ -1,0 +1,22 @@
+version: 1
+fields:
+  id:
+    type: int
+  date:
+    type: date
+    pattern: '^\d{4}-\d{2}-\d{2}$'
+  reporter:
+    type: str
+    min_length: 1
+  category:
+    type: enum
+    allowed: ['trash', 'lighting', 'path', 'planting', 'water', 'noise']
+  severity:
+    type: enum
+    allowed: ['Low', 'Medium', 'High']
+  status:
+    type: enum
+    allowed: ['New', 'In Progress', 'Resolved']
+  description:
+    type: str
+    min_length: 1

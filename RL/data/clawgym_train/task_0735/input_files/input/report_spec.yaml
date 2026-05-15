@@ -1,0 +1,45 @@
+# Required output file paths
+output_paths:
+  raw:
+    host_discovery: "output/raw/host_discovery.json"
+    top_ports: "output/raw/top_ports.json"
+    service_detect: "output/raw/service_detect.json"
+  report:
+    summary: "output/report/summary.json"
+    memo: "output/report/security_memo.md"
+
+# Normalized summary schema (required fields and types)
+summary_schema:
+  targets:
+    - target: "string (e.g., '127.0.0.1')"
+      host_up: "boolean"
+      open_ports:
+        - port: "integer"
+          protocol: "string ('tcp' or 'udp')"
+          service: "string (service name, may be empty)"
+          version: "string (version string or empty)"
+  generated_at: "ISO 8601 timestamp string (must include 'T')"
+  scan_ids:
+    host_discovery: "string (non-empty)"
+    top_ports: "string (non-empty)"
+    service_detection: "string (non-empty)"
+
+# Formatting and validation notes
+formatting_notes:
+  - "All raw JSON files must be syntactically valid and include 'scan_id' and 'target'."
+  - "top_ports.json must also include either 'top_ports_scanned' or 'ports_scanned'."
+  - "open_ports in summary.json may be an empty array but must be present."
+  - "generated_at must be an ISO-8601 string and include 'T' (e.g., 2026-04-20T12:34:56Z)."
+
+# Scope and safety reminders
+scope_notes:
+  - "Scope is loopback-only: 127.0.0.0/8."
+  - "Only scan targets explicitly listed in scan_targets.json."
+  - "If any tool rejects a target for scope, adjust to 127.0.0.1 and proceed."
+  - "Log or audit each step; mention audit logging in the security memo."
+
+# Workflow guidance (for clarity)
+workflow:
+  - "1) Host discovery (ping) for each target."
+  - "2) Fast TCP scan of top-N ports (N from scan_targets.json)."
+  - "3) Service/version detection for discovered open ports on the same target."

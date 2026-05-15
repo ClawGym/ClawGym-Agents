@@ -1,0 +1,29 @@
+{
+  "added": [
+    "README.md",
+    "docs/new_guide.md",
+    "cron/state.json",
+    ".cache/tmp.dat"
+  ],
+  "modified": [
+    "scripts/cleanup.sh",
+    "src/app.py",
+    "cron/jobs.db",
+    ".cache/index.lock"
+  ],
+  "deleted": [
+    "old/unused.txt",
+    "cron/last_run.log",
+    ".cache/prev.cache"
+  ],
+  "renamed": [
+    {
+      "old": "docs/old_name.md",
+      "new": "docs/new_name.md"
+    },
+    {
+      "old": "cron/old.tmp",
+      "new": "cron/new.tmp"
+    }
+  ]
+}

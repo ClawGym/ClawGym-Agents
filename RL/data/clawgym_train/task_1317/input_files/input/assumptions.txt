@@ -1,0 +1,6 @@
+Assumptions for this snapshot and the price-drop scenarios:
+- All collateral tracks SOL price linearly.
+- Debt remains in USD (does not change with SOL price).
+- Liquidation LTVs are unchanged across scenarios.
+- Ignore fees, rewards, funding costs, and slippage.
+- Rounding is applied in outputs to 2 decimal places.

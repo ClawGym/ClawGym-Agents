@@ -1,0 +1,20 @@
+date,event,category,vendor_id,amount,funding_source
+2025-01-18,Tribal Sovereignty Teach-In,Printing,V001,320,EnvJusticeMiniGrant2025
+2025-01-20,Tribal Sovereignty Teach-In,Food,V003,540,DeptDiscretionary
+2025-01-20,Tribal Sovereignty Teach-In,Honoraria,V004,600,EnvJusticeMiniGrant2025
+2025-01-19,Tribal Sovereignty Teach-In,Supplies,V004,180,StudentSolidarityFund
+2025-02-08,River Protection March,Travel,V008,700,StudentSolidarityFund
+2025-02-09,River Protection March,Printing,V005,210,EnvJusticeMiniGrant2025
+2025-02-09,River Protection March,Supplies,V004,150,EnvJusticeMiniGrant2025
+2025-02-10,River Protection March,Supplies,V006,60,DeptDiscretionary
+2025-03-03,Pipeline Divestment Forum,Room Rental,V007,400,DeptDiscretionary
+2025-03-04,Pipeline Divestment Forum,Printing,V001,260,EnvJusticeMiniGrant2025
+2025-03-05,Pipeline Divestment Forum,Honoraria,V004,800,EnvJusticeMiniGrant2025
+2025-03-05,Pipeline Divestment Forum,Food,V003,480,StudentSolidarityFund
+2025-02-24,Mutual Aid Supplies Drive,Supplies,V004,300,StudentSolidarityFund
+2025-02-24,Mutual Aid Supplies Drive,Printing,V005,90,StudentSolidarityFund
+2025-03-15,Grant Reporting Workshop,Printing,V001,140,EnvJusticeMiniGrant2025
+2025-03-15,Grant Reporting Workshop,Food,V003,220,DeptDiscretionary
+2025-03-15,Grant Reporting Workshop,Supplies,V004,110,EnvJusticeMiniGrant2025
+2025-01-30,Campus Solidarity Meeting,Printing,V005,75,DeptDiscretionary
+2025-01-30,Campus Solidarity Meeting,Supplies,V004,85,DeptDiscretionary

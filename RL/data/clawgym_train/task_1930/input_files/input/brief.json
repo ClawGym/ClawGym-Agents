@@ -1,0 +1,26 @@
+[
+  {
+    "product_service": "BrewBright Coffee Subscription",
+    "brand": "BrewBright",
+    "target_audience": "Urban coffee lovers who care about freshness and sustainability",
+    "campaign_goal": "Conversions (new subscriptions)",
+    "unique_selling_point": "Freshly roasted within 48 hours of shipping with flexible skip/pause and carbon-neutral delivery",
+    "offer_details": "20% off first bag plus a free reusable canister"
+  },
+  {
+    "product_service": "StrideFlow Running Shoes",
+    "brand": "StrideFlow",
+    "target_audience": "Everyday runners seeking comfort and durability",
+    "campaign_goal": "Sales",
+    "unique_selling_point": "Adaptive foam tested to reduce perceived impact by up to 15% with breathable mesh and a roomy toe box",
+    "offer_details": "Spring bundle: free moisture-wicking socks with purchase"
+  },
+  {
+    "product_service": "TaskPilot Pro",
+    "brand": "TaskPilot",
+    "target_audience": "Teams and solo founders who need a faster way to plan and track work",
+    "campaign_goal": "Free trial signups",
+    "unique_selling_point": "AI-assisted planning that cuts setup time, real-time collaboration, and ready-to-use templates",
+    "offer_details": "14-day free trial, no credit card required"
+  }
+]

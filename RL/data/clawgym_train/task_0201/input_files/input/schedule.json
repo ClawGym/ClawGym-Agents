@@ -1,0 +1,7 @@
+{
+  "tasks": [
+    {"id": "t1", "offset_seconds": 2, "action": "count_rows"},
+    {"id": "t2", "offset_seconds": 4, "action": "count_present"},
+    {"id": "t3", "offset_seconds": 6, "action": "write_summary"}
+  ]
+}

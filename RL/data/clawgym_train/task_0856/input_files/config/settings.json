@@ -1,0 +1,7 @@
+{
+  "app": {
+    "timeout_seconds": 2,
+    "input_path": "data/sample.json",
+    "limit": 2
+  }
+}

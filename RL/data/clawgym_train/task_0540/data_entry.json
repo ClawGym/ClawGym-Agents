@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0540",
+  "user_query": "I need a clean set of customer support message templates built from messy text. Please read input/raw_transcripts.jsonl and input/notes.txt. For each record in raw_transcripts.jsonl, take the \"text\" field and format it so that: (1) the first letter of each sentence is capitalized (based on \". \" sentence boundaries), (2) multiple spaces/tabs/newlines are collapsed to a single space and leading/trailing spaces are trimmed, and (3) the message ends with proper sentence-ending punctuation (. ! or ?); add a period if it’s missing. Keep URLs intact and don’t alter abbreviations or brand names mentioned in input/notes.txt.\n\nDeliverables (write all files under output/):\n- output/formatted_transcripts.jsonl: one JSON object per line with fields {\"id\": <same as input>, \"formatted_text\": <formatted string>} in the same order as the input.\n- output/combined_formatted.txt: concatenate all formatted_text values in order, separated by a blank line between entries.\n- output/qc_report.md: a brief QA report including: total records processed (label as \"Processed:\"), a count of how many entries required terminal punctuation to be added (label as \"Added terminal punctuation:\"), and short notes/assumptions about how you treated abbreviations, URLs, contractions, and any edge cases.\n\nDo not include any other outputs, and keep everything in English.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

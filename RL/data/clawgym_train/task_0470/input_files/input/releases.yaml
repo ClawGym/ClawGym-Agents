@@ -1,0 +1,55 @@
+- title: Starlight & Steel
+  author: I.K. Rhee
+  pub_date: 2026-06-15
+  genre: Sci-Fi
+  blogger_pitch: "A starship engineer must choose between loyalty and survival when a mutiny exposes a cosmic conspiracy."
+  embargo_date: null
+  priority: 4
+
+- title: The Orchard Keepers
+  author: Dana Wu
+  pub_date: 2026-07-10
+  genre: Literary Fiction
+  blogger_pitch: "Interwoven vignettes track three generations tending an orchard as secrets surface with the harvest."
+  embargo_date: null
+  priority: 5
+
+- title: The Lost Archive
+  author: P. Nayar
+  pub_date: 2026-07-01
+  genre: Mystery
+  blogger_pitch: "A rare books curator unravels a coded memoir that points to a disappearance in plain sight."
+  embargo_date: null
+  priority: 3
+
+- title: Loom of Tides
+  author: S. Calder
+  pub_date: 2026-05-20
+  genre: Fantasy
+  blogger_pitch: "An apprentice weaver learns the sea listens—and answers—when threads are cast at dusk."
+  embargo_date: null
+  priority: 4
+
+- title: Signal on the Downs
+  author: R. MacKay
+  pub_date: 2026-09-02
+  genre: Mystery
+  blogger_pitch: "A ham radio hobbyist intercepts a distress call that vanished fifty years ago."
+  embargo_date: null
+  priority: 4
+
+- title: Notes for the End of the World
+  author: A. Park
+  pub_date: 2026-08-21
+  genre: Sci-Fi
+  blogger_pitch:
+  embargo_date: 2026-08-25
+  priority: 5
+
+- title: Ink and Bone
+  author: L. Morales
+  pub_date: 2026-06-30
+  genre: Mystery
+  blogger_pitch: "A rookie archivist and a forensic linguist chase a marginalia trail through a dangerous collection."
+  embargo_date: null
+  priority: 2

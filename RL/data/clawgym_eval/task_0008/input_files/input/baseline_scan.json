@@ -1,0 +1,20 @@
+{
+  "vulnerabilities": [
+    {
+      "package": "jinja2",
+      "version": "2.11.3",
+      "id": "CVE-FAKE-0001",
+      "severity": "High",
+      "title": "Template injection via untrusted input"
+    },
+    {
+      "package": "requests",
+      "version": "2.25.1",
+      "id": "CVE-FAKE-0003",
+      "severity": "Medium",
+      "title": "Redirect handling issue"
+    }
+  ],
+  "severity_counts": {"High": 1, "Medium": 1, "Low": 0},
+  "total": 2
+}

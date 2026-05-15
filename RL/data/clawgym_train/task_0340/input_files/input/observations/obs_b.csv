@@ -1,0 +1,12 @@
+session_id,observer,cue,count
+match1,grad2,nose,9
+match1,grad2,left_eye,6
+match1,grad2,right_eye,6
+match1,grad2,left_elbow,4
+match1,grad2,right_elbow,5
+match1,grad2,eye_contact,12
+match2,grad2,left_shoulder,7
+match2,grad2,right_shoulder,8
+match2,grad2,left_ankle,3
+match2,grad2,right_ankle,4
+match2,grad2,hand_fidget,5

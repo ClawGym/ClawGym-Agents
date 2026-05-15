@@ -1,0 +1,67 @@
+provider "aws" {
+  region     = "us-east-1"
+  access_key = var.aws_access_key_id
+  secret_key = var.aws_secret_access_key
+}
+
+variable "aws_access_key_id" {
+  description = "Intentionally-insecure example access key (for scanner demo)"
+  default     = "AKIAF1CT10NALK3Y1D2345"
+}
+
+variable "aws_secret_access_key" {
+  description = "Intentionally-insecure example secret key (for scanner demo)"
+  default     = "abcdEFGHijklMNOPqrstUVWXyz1234567890abcd" # 40-char placeholder
+}
+
+variable "db_password" {
+  description = "Plaintext database password (should be ref to Secrets Manager)"
+  default     = "PlainTextP@ss!"
+}
+
+resource "aws_db_instance" "app_db" {
+  engine            = "postgres"
+  instance_class    = "db.t3.micro"
+  allocated_storage = 20
+  name              = "appdb"
+  username          = "appuser"
+  password          = "postgresPassw0rd!" # hardcoded
+  skip_final_snapshot = true
+}
+
+resource "aws_lambda_function" "api" {
+  function_name = "demo-api"
+  runtime       = "python3.11"
+  handler       = "app.handler"
+  role          = "arn:aws:iam::123456789012:role/example-lambda-role"
+  filename      = "build.zip"
+
+  environment {
+    variables = {
+      SENDGRID_API_KEY   = "SG.fakeSendGridKey_XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+      TWILIO_API_SECRET  = "SK_fakeTwilioSecret_XXXXXXXXXXXXXXXXXXXXXXXXXX"
+      JWT_SIGNING_KEY    = "supersecretjwtkey"
+      SLACK_WEBHOOK_URL  = "https://hooks.slack.com/services/T111/B222/CCCCCCCCCCCC"
+    }
+  }
+}
+
+locals {
+  github_token = "ghp_exampleFAKEtokenthatislongandhighentropy00000000"
+}
+
+resource "kubernetes_secret" "slack" {
+  metadata {
+    name = "slack-webhook"
+  }
+  data = {
+    webhook_url = "https://hooks.slack.com/services/T111/B222/DDDDDDDDDDDD"
+  }
+}
+
+# Example of embedding credentials in provisioner command (bad practice)
+resource "null_resource" "bootstrap" {
+  provisioner "local-exec" {
+    command = "export AWS_SECRET_ACCESS_KEY=abcdEFGHijklMNOPqrstUVWXyz1234567890abcd && echo Bootstrapping"
+  }
+}

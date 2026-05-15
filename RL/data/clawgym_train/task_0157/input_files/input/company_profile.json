@@ -1,0 +1,19 @@
+{
+  "company_name": "LoopBeam",
+  "one_liner": "LoopBeam automates carbon reporting for mid-market manufacturers in minutes, not months.",
+  "founder_name": "Ava Morgan",
+  "product": "SaaS platform for automated emissions data ingestion and reporting",
+  "industry": "Climate/Sustainability SaaS",
+  "mrr_usd": 58000,
+  "growth_mom_percent": 18,
+  "customers": 42,
+  "notable_customers": [
+    "Axiom Plastics",
+    "BlueStone Foods"
+  ],
+  "recent_milestones": [
+    "SOC 2 Type I passed (Q3 2026)",
+    "Pilot with EuroChem signed (Oct 2026)"
+  ],
+  "website": "https://loopbeam.io"
+}

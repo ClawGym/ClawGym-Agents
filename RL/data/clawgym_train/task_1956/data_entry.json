@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1956",
+  "user_query": "Run a full quality gate evaluation on the sample web+API repository at input/repo (treat this as REPO_ROOT). Use the scoring thresholds and weights from input/repo/.defs/quality-gateway-definition.json, and read all provided CI/test/security/performance/maintainability/operability artifacts under input/repo.\n\nDeliverables:\n1) Generate a human-readable Markdown report and a machine-readable JSON report with per-gate scores/status, per-check metrics, evidence references, overall score/status, and an explicit BLOCKERS list.\n2) Save copies of the reports to:\n   - output/docs/quality/quality-gate-report.md\n   - output/docs/quality/quality-gate-report.json\n3) In the JSON report, include for each of the 6 gates: id, name, score (0-100), status (PASS/WARN/FAIL), and a checks array with id, metric, score, and evidence (relative paths to input/repo/... files). Include an overall object with score and status, and a blockers array.\n4) Make sure the Automated Testing & Coverage gate is WARN based on the 75% overall coverage in input/repo/tests/coverage.json. Also ensure the Security & Supply-Chain gate is PASS given 0 Critical/High dependency vulnerabilities and 0 secret findings in the provided artifacts. Reflect these metrics accurately in the JSON checks and reference the exact input file paths as evidence.\n5) Do not modify anything under input/. Place all generated files only under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

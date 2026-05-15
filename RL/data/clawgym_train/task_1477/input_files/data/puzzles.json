@@ -1,0 +1,6 @@
+[
+  {"id": "PZ-001", "type": "riddle", "difficulty": "easy", "answer": "Moon"},
+  {"id": "PZ-002", "type": "maze", "difficulty": "easier", "answer": "left-right"},
+  {"id": "PZ-002", "type": "cipher", "difficulty": "medium", "answer": "SUN"},
+  {"id": "PZ-003X", "type": "riddle", "difficulty": "hard", "answer": "shadow"}
+]

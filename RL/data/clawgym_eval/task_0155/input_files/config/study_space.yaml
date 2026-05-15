@@ -1,0 +1,11 @@
+quiet_hours:
+  enabled: true
+  start: "09:00"
+  end: "17:00"
+noise_monitor:
+  enabled: true
+  max_noise_db: 55
+break_policy:
+  break_minutes: 4
+session:
+  default_duration_minutes: 90

@@ -1,0 +1,77 @@
+{
+  "generated_at": "2026-04-15T09:00:00Z",
+  "tasks": [
+    {
+      "id": "T-101",
+      "title": "Patch staging servers",
+      "status": "done",
+      "due_date": "2026-04-14",
+      "blocked": false
+    },
+    {
+      "id": "T-102",
+      "title": "Rotate database credentials",
+      "status": "in_progress",
+      "due_date": "2026-04-13",
+      "blocked": false
+    },
+    {
+      "id": "T-103",
+      "title": "Update runbooks",
+      "status": "open",
+      "due_date": "2026-04-20",
+      "blocked": false
+    },
+    {
+      "id": "T-104",
+      "title": "SLA report Q2",
+      "status": "blocked",
+      "due_date": "2026-04-12",
+      "blocked": true,
+      "blocked_reason": "Waiting on finance export for cost attribution"
+    },
+    {
+      "id": "T-105",
+      "title": "On-call handoff template",
+      "status": "done",
+      "due_date": "2026-04-10",
+      "blocked": false
+    },
+    {
+      "id": "T-106",
+      "title": "Incident postmortem #4271",
+      "status": "open",
+      "due_date": "2026-04-16",
+      "blocked": false
+    },
+    {
+      "id": "T-107",
+      "title": "Upgrade CI runners",
+      "status": "in_progress",
+      "due_date": "2026-05-01",
+      "blocked": false
+    },
+    {
+      "id": "T-108",
+      "title": "Backup integrity audit",
+      "status": "open",
+      "due_date": "2026-04-05",
+      "blocked": false
+    },
+    {
+      "id": "T-109",
+      "title": "Monitor tuning",
+      "status": "blocked",
+      "due_date": "2026-04-25",
+      "blocked": true,
+      "blocked_reason": "Pending SRE sign-off on threshold policy"
+    },
+    {
+      "id": "T-110",
+      "title": "Clean up orphaned resources",
+      "status": "open",
+      "due_date": "2026-04-14",
+      "blocked": false
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "items": [
+    {
+      "source": "OpenAI Blog",
+      "title": "OpenAI introduces GPT-4.2 Turbo for reasoning",
+      "link": "https://openai.com/blog/gpt-4-2-turbo",
+      "summary": "OpenAI announced GPT-4.2 Turbo with improved chain-of-thought control, longer context windows, and faster function calling for enterprise-scale agents.",
+      "published": "2026-04-18T09:30:00Z"
+    },
+    {
+      "source": "OpenAI Blog",
+      "title": "New safety evals for multimodal models",
+      "link": "https://openai.com/blog/safety-evals-multimodal",
+      "summary": "A new open framework benchmarks hallucination, content safety, and robustness for text+image+audio models across multiple scenarios.",
+      "published": "2026-04-16T18:00:00Z"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Gemini Code Assist updates: better context and refactors",
+      "link": "https://blog.google/products/gemini/code-assist-april-2026",
+      "summary": "New features include workspace-wide context, safer automated refactors, and tighter IDE integrations for JavaScript, Python, and Java.",
+      "published": "2026-04-18T10:15:00Z"
+    },
+    {
+      "source": "Google AI Blog",
+      "title": "Scaling reinforcement learning for real-world robotics",
+      "link": "https://blog.google/technology/ai/scaling-rl-robotics",
+      "summary": "Researchers describe a pipeline that blends offline datasets with online fine-tuning, improving sample efficiency for manipulation tasks.",
+      "published": "2026-04-17T07:45:00Z"
+    },
+    {
+      "source": "DeepMind Blog",
+      "title": "AlphaFold 3.0: an early look at multi-protein complexes",
+      "link": "https://deepmind.google/discover/blog/alphafold-3-early-peek",
+      "summary": "A preview of modeling protein–protein interactions and post-translational modifications, with new benchmarks for biological accuracy.",
+      "published": "2026-04-19T11:00:00Z"
+    },
+    {
+      "source": "DeepMind Blog",
+      "title": "Game theory meets LLMs: negotiating with reasoning agents",
+      "link": "https://deepmind.google/discover/blog/game-theory-llms",
+      "summary": "Pairing strategic reasoning with language models enables more robust multi-agent negotiation under uncertainty.",
+      "published": "2026-04-15T13:00:00Z"
+    },
+    {
+      "source": "Anthropic Blog",
+      "title": "Constitutional AI v2: safer instruction following at scale",
+      "link": "https://www.anthropic.com/news/constitutional-ai-v2",
+      "summary": "Anthropic outlines a revised constitutional approach that reduces adversarial prompt exploits while preserving helpfulness.",
+      "published": "2026-04-18T03:20:00Z"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "title": "Datasets 3.0 release: streaming transforms and lakehouse sync",
+      "link": "https://huggingface.co/blog/datasets-3-0",
+      "summary": "The new Datasets version adds zero-copy streaming transforms, improved dataset cards, and connectors for Delta/Apache Iceberg.",
+      "published": "2026-04-16T09:00:00Z"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Mistral raises Series B to expand open-source model roadmap",
+      "link": "https://techcrunch.com/2026/04/18/mistral-raises-series-b",
+      "summary": "The French AI startup secured new funding to accelerate research on mid-size LLMs and inference-optimized training.",
+      "published": "2026-04-18T12:00:00Z"
+    },
+    {
+      "source": "The Verge AI",
+      "title": "Adobe brings generative fill to its mobile photo apps",
+      "link": "https://www.theverge.com/2026/4/18/adobe-gen-fill-mobile",
+      "summary": "Generative fill and object removal tools arrive on iOS and Android, with privacy controls for on-device processing.",
+      "published": "2026-04-18T05:55:00Z"
+    },
+    {
+      "source": "Ars Technica AI",
+      "title": "NVIDIA unveils RTX inference suite for edge deployments",
+      "link": "https://arstechnica.com/gadgets/2026/04/nvidia-rtx-inference-suite",
+      "summary": "A new SDK targets low-latency LLM and vision workloads on consumer and workstation GPUs, with quantization and KV-cache optimizations.",
+      "published": "2026-04-17T22:10:00Z"
+    },
+    {
+      "source": "MIT Technology Review AI",
+      "title": "AI agents move from demos to enterprise workflows",
+      "link": "https://www.technologyreview.com/2026/04/17/ai-agents-enterprise",
+      "summary": "Vendors roll out guardrailed task automation for IT support, sales ops, and procurement—still human-in-the-loop.",
+      "published": "2026-04-17T14:00:00Z"
+    },
+    {
+      "source": "arXiv cs.AI",
+      "title": "Planning with World Models under Partial Observability",
+      "link": "https://arxiv.org/abs/2604.12345",
+      "summary": "This paper introduces a model-based RL approach that learns latent dynamics to plan across long horizons with sparse rewards.",
+      "published": "2026-04-16T23:59:00Z"
+    },
+    {
+      "source": "arXiv cs.CL",
+      "title": "Efficient tokenization for long-context language models",
+      "link": "https://arxiv.org/abs/2604.11223",
+      "summary": "Authors present a subword scheme and runtime decoder that reduce memory by 30% while preserving perplexity on long-form datasets.",
+      "published": "2026-04-18T01:20:00Z"
+    },
+    {
+      "source": "Hacker News",
+      "title": "TechCrunch: Mistral raises Series B (discussion)",
+      "link": "https://techcrunch.com/2026/04/18/mistral-raises-series-b",
+      "summary": "Community discussion on Mistral’s funding and its implications for open-source model development.",
+      "published": "2026-04-18T12:05:00Z"
+    },
+    {
+      "source": "Latent Space",
+      "title": "Andrej Karpathy on small LLMs and product-centered evals",
+      "link": "https://www.latent.space/p/karpathy-small-llms",
+      "summary": "A conversation on why smaller, faster models with strong evals can outperform giant models in real user experiences.",
+      "published": "2026-04-17T12:30:00Z"
+    },
+    {
+      "source": "The Cognitive Revolution",
+      "title": "Rob Reid on biotech, wet lab acceleration, and AI risk",
+      "link": "https://www.cognitiverevolution.ai/episodes/rob-reid-biotech-ai",
+      "summary": "An in-depth discussion on dual-use biotechnologies, lab automation, and governance frameworks for risk mitigation.",
+      "published": "2026-04-15T12:00:00Z"
+    },
+    {
+      "source": "r/MachineLearning",
+      "title": "D: Open-source VLM beats GPT-4V on document QA",
+      "link": "https://www.reddit.com/r/MachineLearning/comments/abcdef/open_source_vlm",
+      "summary": "A GitHub release claims a lightweight vision-language model surpasses GPT-4V on a document QA benchmark.",
+      "published": "2026-04-19T12:30:00Z"
+    },
+    {
+      "source": "r/LocalLLaMA",
+      "title": "[Guide] Run 13B models on laptops with 16GB RAM",
+      "link": "https://www.reddit.com/r/LocalLLaMA/comments/xyz123/13b_on_laptops",
+      "summary": "A practical guide using GGUF quantization, RoPE scaling, and low-rank adapters to hit usable speeds on consumer CPUs.",
+      "published": "2026-04-16T05:00:00-05:00"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Anthropic debuts Claude-Next with faster tool use",
+      "link": "https://techcrunch.com/2026/04/17/anthropic-claude-next",
+      "summary": "Claude-Next focuses on tool-calling reliability and lower latency for common workflows like research and summarization.",
+      "published": "2026-04-17T09:20:00Z"
+    },
+    {
+      "source": "TechCrunch AI",
+      "title": "Older item that should be filtered out by date window",
+      "link": "https://techcrunch.com/2026/04/14/old-item",
+      "summary": "This article predates the allowed window and should be excluded in processing.",
+      "published": "2026-04-14T15:00:00Z"
+    },
+    {
+      "source": "DeepMind Blog",
+      "title": "Future of AGI panel: beyond 2026",
+      "link": "https://deepmind.google/discover/blog/future-of-agi-panel",
+      "summary": "A panel discussion scheduled in the far future—this item should be excluded as it exceeds the +1 day future limit.",
+      "published": "2026-04-20T13:00:00Z"
+    }
+  ]
+}

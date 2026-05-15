@@ -1,0 +1,7 @@
+staff,role,strengths,can_open,can_close,available_days,available_hours
+Alice Morgan,Manager,"cash control, merchandising",true,true,"Monday,Tuesday,Wednesday,Thursday,Friday,Saturday","10-20"
+Ben Lee,Lead,"service, queue, cookware expert",true,true,"Monday,Wednesday,Friday,Saturday,Sunday","10-20"
+Carla Diaz,Associate,"replenishment, decor",false,true,"Tuesday,Wednesday,Thursday,Friday,Saturday","12-20"
+Diego Santos,Associate,"service, bedding",true,false,"Monday,Tuesday,Thursday,Saturday,Sunday","10-18"
+Emma Patel,Associate,"queue, cashier",false,true,"Friday,Saturday,Sunday","12-19"
+Frank Zhou,Stock,"backroom, receiving",true,true,"Monday,Tuesday,Thursday,Friday,Saturday","10-18"

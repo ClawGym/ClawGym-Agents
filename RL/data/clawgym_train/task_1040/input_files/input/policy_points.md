@@ -1,0 +1,8 @@
+- Photos and slow-motion clips are captured during practice for individual skill development.
+- Images are used only for coaching feedback and internal training purposes (no public posting).
+- Files are stored securely in the team drive with access limited to coaching staff.
+- Retention period: media is deleted after 12 months.
+- Written parental consent is required before any images are captured.
+- Families may opt out or withdraw consent at any time without penalty.
+- Consent form due by 2026-05-01.
+- Questions: coach.alex@example.com.

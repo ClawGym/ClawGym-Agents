@@ -1,0 +1,36 @@
+Maria Garcia:
+  notes:
+    add:
+      - "Mentioned speaking at RoboCon in June."
+
+John Smith:
+  personal_details:
+    kids:
+      add:
+        - "Leo"
+  interests:
+    add:
+      - "Photography"
+
+Sarah Lee:
+  personal_details:
+    preferences:
+      add:
+        - "vegetarian"
+  interests:
+    add:
+      - "Trail running"
+
+Tom O'Brien:
+  create: true
+  basics:
+    how_we_met: "Met at 2026 AI Ops Summit"
+    company: "AIOps Labs"
+    location: "Boston, MA"
+    communication_preference: "email"
+  tags:
+    add:
+      - "work"
+  notes:
+    add:
+      - "Interested in automating SRE workflows and incident response."

@@ -1,0 +1,6 @@
+service,required_clauses,risk_weight
+Law Enforcement Mutual Aid,"governance;indemnification;dispute_resolution;records_and_open_meetings;term_and_termination",5
+Public Works Equipment Sharing,"governance;cost_sharing;records_and_open_meetings;term_and_termination",3
+IT Support Sharing,"governance;cost_sharing;records_and_open_meetings;dispute_resolution",4
+Animal Control Partnership,"governance;indemnification;records_and_open_meetings",2
+Fire Department Training Consortium,"governance;indemnification;dispute_resolution;term_and_termination",4

@@ -1,0 +1,47 @@
+incident:
+  id: "INC-2026-0416-AUTH"
+  started_at: "2026-04-16T09:20:00Z"
+  summary: "Authentication service disruption causing intermittent login errors on web and mobile following a routing configuration change."
+  root_cause: "Load balancer misrouting after a configuration rollout; rollback and validation in progress."
+  impact: "Intermittent 5xx responses on login and slower session creation; billing, storage, and data integrity remain unaffected."
+  current_status: "degraded"
+  next_update_eta: "2026-04-16T10:00:00Z"
+
+audiences:
+  customers:
+    description: "End users experiencing login issues on web and mobile."
+    intent: "Acknowledge the issue, offer calm guidance, advise retry and patience with minimal steps."
+    tone: "short, steady, reassuring."
+  internal_staff:
+    description: "Support, sales, and operations teams handling inquiries."
+    intent: "Provide aligned talking points, avoid speculation, share clear escalation guidance."
+    tone: "practical, composed, collaborative."
+  partners:
+    description: "Integration partners and vendors monitoring API availability."
+    intent: "Confirm scope of impact, share cadence, reassure that core data is intact."
+    tone: "concise, professional, steady."
+  status_page:
+    description: "Public-facing service status updates."
+    intent: "Communicate high-level impact, current status, and next update time."
+    tone: "clear, neutral, consistent."
+
+guidelines:
+  anchor_phrase: "We will keep you informed"
+  cadence_minutes: 15
+  avoid_exclamations: true
+  avoid_words_file: "input/forbidden_words.txt"
+  max_length_per_channel_ref: "input/config.json"
+
+operational_notes:
+  actions_underway:
+    - "Rollback of the routing configuration."
+    - "Traffic validation and error rate monitoring."
+    - "Session creation tests across regions."
+  user_guidance:
+    - "Retry login after a short wait."
+    - "Core features remain available once logged in."
+    - "Follow the status page for timed updates."
+  coordination:
+    - "Aligned messaging across customer support, sales, and partner channels."
+    - "Update cadence every 15 minutes or sooner if state changes."
+    - "All messages should include the anchor phrase for consistency."

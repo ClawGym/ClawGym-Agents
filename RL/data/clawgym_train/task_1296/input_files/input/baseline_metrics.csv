@@ -1,0 +1,373 @@
+date,category,metric,scope,value,units,data_source,collected_at
+2026-01-26,Rankings,avg_position,keyword:"customer analytics software",4,position,SEO Tool API,2026-01-26T06:00:00Z
+2026-02-02,Rankings,avg_position,keyword:"customer analytics software",4,position,SEO Tool API,2026-02-02T06:00:00Z
+2026-02-09,Rankings,avg_position,keyword:"customer analytics software",3,position,SEO Tool API,2026-02-09T06:00:00Z
+2026-02-16,Rankings,avg_position,keyword:"customer analytics software",4,position,SEO Tool API,2026-02-16T06:00:00Z
+2026-02-23,Rankings,avg_position,keyword:"customer analytics software",5,position,SEO Tool API,2026-02-23T06:00:00Z
+2026-03-02,Rankings,avg_position,keyword:"customer analytics software",4,position,SEO Tool API,2026-03-02T06:00:00Z
+2026-03-09,Rankings,avg_position,keyword:"customer analytics software",3,position,SEO Tool API,2026-03-09T06:00:00Z
+2026-03-16,Rankings,avg_position,keyword:"customer analytics software",4,position,SEO Tool API,2026-03-16T06:00:00Z
+2026-03-23,Rankings,avg_position,keyword:"customer analytics software",3,position,SEO Tool API,2026-03-23T06:00:00Z
+2026-03-30,Rankings,avg_position,keyword:"customer analytics software",3,position,SEO Tool API,2026-03-30T06:00:00Z
+2026-04-06,Rankings,avg_position,keyword:"customer analytics software",4,position,SEO Tool API,2026-04-06T06:00:00Z
+2026-04-13,Rankings,avg_position,keyword:"customer analytics software",3,position,SEO Tool API,2026-04-13T06:00:00Z
+2026-01-26,Rankings,avg_position,keyword:"customer journey analytics",9,position,SEO Tool API,2026-01-26T06:00:00Z
+2026-02-02,Rankings,avg_position,keyword:"customer journey analytics",8,position,SEO Tool API,2026-02-02T06:00:00Z
+2026-02-09,Rankings,avg_position,keyword:"customer journey analytics",8,position,SEO Tool API,2026-02-09T06:00:00Z
+2026-02-16,Rankings,avg_position,keyword:"customer journey analytics",7,position,SEO Tool API,2026-02-16T06:00:00Z
+2026-02-23,Rankings,avg_position,keyword:"customer journey analytics",7,position,SEO Tool API,2026-02-23T06:00:00Z
+2026-03-02,Rankings,avg_position,keyword:"customer journey analytics",8,position,SEO Tool API,2026-03-02T06:00:00Z
+2026-03-09,Rankings,avg_position,keyword:"customer journey analytics",7,position,SEO Tool API,2026-03-09T06:00:00Z
+2026-03-16,Rankings,avg_position,keyword:"customer journey analytics",7,position,SEO Tool API,2026-03-16T06:00:00Z
+2026-03-23,Rankings,avg_position,keyword:"customer journey analytics",6,position,SEO Tool API,2026-03-23T06:00:00Z
+2026-03-30,Rankings,avg_position,keyword:"customer journey analytics",7,position,SEO Tool API,2026-03-30T06:00:00Z
+2026-04-06,Rankings,avg_position,keyword:"customer journey analytics",6,position,SEO Tool API,2026-04-06T06:00:00Z
+2026-04-13,Rankings,avg_position,keyword:"customer journey analytics",6,position,SEO Tool API,2026-04-13T06:00:00Z
+2026-01-26,Rankings,avg_position,keyword:"product analytics platform",7,position,SEO Tool API,2026-01-26T06:00:00Z
+2026-02-02,Rankings,avg_position,keyword:"product analytics platform",7,position,SEO Tool API,2026-02-02T06:00:00Z
+2026-02-09,Rankings,avg_position,keyword:"product analytics platform",6,position,SEO Tool API,2026-02-09T06:00:00Z
+2026-02-16,Rankings,avg_position,keyword:"product analytics platform",6,position,SEO Tool API,2026-02-16T06:00:00Z
+2026-02-23,Rankings,avg_position,keyword:"product analytics platform",6,position,SEO Tool API,2026-02-23T06:00:00Z
+2026-03-02,Rankings,avg_position,keyword:"product analytics platform",6,position,SEO Tool API,2026-03-02T06:00:00Z
+2026-03-09,Rankings,avg_position,keyword:"product analytics platform",5,position,SEO Tool API,2026-03-09T06:00:00Z
+2026-03-16,Rankings,avg_position,keyword:"product analytics platform",6,position,SEO Tool API,2026-03-16T06:00:00Z
+2026-03-23,Rankings,avg_position,keyword:"product analytics platform",5,position,SEO Tool API,2026-03-23T06:00:00Z
+2026-03-30,Rankings,avg_position,keyword:"product analytics platform",6,position,SEO Tool API,2026-03-30T06:00:00Z
+2026-04-06,Rankings,avg_position,keyword:"product analytics platform",5,position,SEO Tool API,2026-04-06T06:00:00Z
+2026-04-13,Rankings,avg_position,keyword:"product analytics platform",5,position,SEO Tool API,2026-04-13T06:00:00Z
+2026-01-26,Rankings,avg_position,keyword:"marketing attribution tool",12,position,SEO Tool API,2026-01-26T06:00:00Z
+2026-02-02,Rankings,avg_position,keyword:"marketing attribution tool",12,position,SEO Tool API,2026-02-02T06:00:00Z
+2026-02-09,Rankings,avg_position,keyword:"marketing attribution tool",11,position,SEO Tool API,2026-02-09T06:00:00Z
+2026-02-16,Rankings,avg_position,keyword:"marketing attribution tool",12,position,SEO Tool API,2026-02-16T06:00:00Z
+2026-02-23,Rankings,avg_position,keyword:"marketing attribution tool",11,position,SEO Tool API,2026-02-23T06:00:00Z
+2026-03-02,Rankings,avg_position,keyword:"marketing attribution tool",10,position,SEO Tool API,2026-03-02T06:00:00Z
+2026-03-09,Rankings,avg_position,keyword:"marketing attribution tool",10,position,SEO Tool API,2026-03-09T06:00:00Z
+2026-03-16,Rankings,avg_position,keyword:"marketing attribution tool",11,position,SEO Tool API,2026-03-16T06:00:00Z
+2026-03-23,Rankings,avg_position,keyword:"marketing attribution tool",10,position,SEO Tool API,2026-03-23T06:00:00Z
+2026-03-30,Rankings,avg_position,keyword:"marketing attribution tool",11,position,SEO Tool API,2026-03-30T06:00:00Z
+2026-04-06,Rankings,avg_position,keyword:"marketing attribution tool",10,position,SEO Tool API,2026-04-06T06:00:00Z
+2026-04-13,Rankings,avg_position,keyword:"marketing attribution tool",10,position,SEO Tool API,2026-04-13T06:00:00Z
+2026-01-26,Rankings,avg_position,keyword:"cohort analysis",13,position,SEO Tool API,2026-01-26T06:00:00Z
+2026-02-02,Rankings,avg_position,keyword:"cohort analysis",12,position,SEO Tool API,2026-02-02T06:00:00Z
+2026-02-09,Rankings,avg_position,keyword:"cohort analysis",13,position,SEO Tool API,2026-02-09T06:00:00Z
+2026-02-16,Rankings,avg_position,keyword:"cohort analysis",12,position,SEO Tool API,2026-02-16T06:00:00Z
+2026-02-23,Rankings,avg_position,keyword:"cohort analysis",12,position,SEO Tool API,2026-02-23T06:00:00Z
+2026-03-02,Rankings,avg_position,keyword:"cohort analysis",11,position,SEO Tool API,2026-03-02T06:00:00Z
+2026-03-09,Rankings,avg_position,keyword:"cohort analysis",11,position,SEO Tool API,2026-03-09T06:00:00Z
+2026-03-16,Rankings,avg_position,keyword:"cohort analysis",12,position,SEO Tool API,2026-03-16T06:00:00Z
+2026-03-23,Rankings,avg_position,keyword:"cohort analysis",11,position,SEO Tool API,2026-03-23T06:00:00Z
+2026-03-30,Rankings,avg_position,keyword:"cohort analysis",11,position,SEO Tool API,2026-03-30T06:00:00Z
+2026-04-06,Rankings,avg_position,keyword:"cohort analysis",10,position,SEO Tool API,2026-04-06T06:00:00Z
+2026-04-13,Rankings,avg_position,keyword:"cohort analysis",11,position,SEO Tool API,2026-04-13T06:00:00Z
+2026-01-26,Rankings,avg_position,keyword:"analytics dashboard",19,position,SEO Tool API,2026-01-26T06:00:00Z
+2026-02-02,Rankings,avg_position,keyword:"analytics dashboard",18,position,SEO Tool API,2026-02-02T06:00:00Z
+2026-02-09,Rankings,avg_position,keyword:"analytics dashboard",18,position,SEO Tool API,2026-02-09T06:00:00Z
+2026-02-16,Rankings,avg_position,keyword:"analytics dashboard",17,position,SEO Tool API,2026-02-16T06:00:00Z
+2026-02-23,Rankings,avg_position,keyword:"analytics dashboard",17,position,SEO Tool API,2026-02-23T06:00:00Z
+2026-03-02,Rankings,avg_position,keyword:"analytics dashboard",16,position,SEO Tool API,2026-03-02T06:00:00Z
+2026-03-09,Rankings,avg_position,keyword:"analytics dashboard",16,position,SEO Tool API,2026-03-09T06:00:00Z
+2026-03-16,Rankings,avg_position,keyword:"analytics dashboard",17,position,SEO Tool API,2026-03-16T06:00:00Z
+2026-03-23,Rankings,avg_position,keyword:"analytics dashboard",16,position,SEO Tool API,2026-03-23T06:00:00Z
+2026-03-30,Rankings,avg_position,keyword:"analytics dashboard",17,position,SEO Tool API,2026-03-30T06:00:00Z
+2026-04-06,Rankings,avg_position,keyword:"analytics dashboard",16,position,SEO Tool API,2026-04-06T06:00:00Z
+2026-04-13,Rankings,avg_position,keyword:"analytics dashboard",15,position,SEO Tool API,2026-04-13T06:00:00Z
+2026-01-26,Rankings,keywords_top10_count,sitewide,28,count,SEO Tool API,2026-01-26T06:00:00Z
+2026-02-02,Rankings,keywords_top10_count,sitewide,29,count,SEO Tool API,2026-02-02T06:00:00Z
+2026-02-09,Rankings,keywords_top10_count,sitewide,29,count,SEO Tool API,2026-02-09T06:00:00Z
+2026-02-16,Rankings,keywords_top10_count,sitewide,30,count,SEO Tool API,2026-02-16T06:00:00Z
+2026-02-23,Rankings,keywords_top10_count,sitewide,30,count,SEO Tool API,2026-02-23T06:00:00Z
+2026-03-02,Rankings,keywords_top10_count,sitewide,31,count,SEO Tool API,2026-03-02T06:00:00Z
+2026-03-09,Rankings,keywords_top10_count,sitewide,30,count,SEO Tool API,2026-03-09T06:00:00Z
+2026-03-16,Rankings,keywords_top10_count,sitewide,31,count,SEO Tool API,2026-03-16T06:00:00Z
+2026-03-23,Rankings,keywords_top10_count,sitewide,32,count,SEO Tool API,2026-03-23T06:00:00Z
+2026-03-30,Rankings,keywords_top10_count,sitewide,31,count,SEO Tool API,2026-03-30T06:00:00Z
+2026-04-06,Rankings,keywords_top10_count,sitewide,32,count,SEO Tool API,2026-04-06T06:00:00Z
+2026-04-13,Rankings,keywords_top10_count,sitewide,33,count,SEO Tool API,2026-04-13T06:00:00Z
+2026-01-26,Traffic,organic_sessions,sitewide,23000,sessions,Analytics,2026-01-26T06:00:00Z
+2026-02-02,Traffic,organic_sessions,sitewide,23500,sessions,Analytics,2026-02-02T06:00:00Z
+2026-02-09,Traffic,organic_sessions,sitewide,24000,sessions,Analytics,2026-02-09T06:00:00Z
+2026-02-16,Traffic,organic_sessions,sitewide,24500,sessions,Analytics,2026-02-16T06:00:00Z
+2026-02-23,Traffic,organic_sessions,sitewide,23800,sessions,Analytics,2026-02-23T06:00:00Z
+2026-03-02,Traffic,organic_sessions,sitewide,25000,sessions,Analytics,2026-03-02T06:00:00Z
+2026-03-09,Traffic,organic_sessions,sitewide,25200,sessions,Analytics,2026-03-09T06:00:00Z
+2026-03-16,Traffic,organic_sessions,sitewide,25500,sessions,Analytics,2026-03-16T06:00:00Z
+2026-03-23,Traffic,organic_sessions,sitewide,26000,sessions,Analytics,2026-03-23T06:00:00Z
+2026-03-30,Traffic,organic_sessions,sitewide,26200,sessions,Analytics,2026-03-30T06:00:00Z
+2026-04-06,Traffic,organic_sessions,sitewide,26500,sessions,Analytics,2026-04-06T06:00:00Z
+2026-04-13,Traffic,organic_sessions,sitewide,27000,sessions,Analytics,2026-04-13T06:00:00Z
+2026-01-26,Traffic,nonbrand_sessions,sitewide,14500,sessions,Analytics,2026-01-26T06:00:00Z
+2026-02-02,Traffic,nonbrand_sessions,sitewide,14800,sessions,Analytics,2026-02-02T06:00:00Z
+2026-02-09,Traffic,nonbrand_sessions,sitewide,15000,sessions,Analytics,2026-02-09T06:00:00Z
+2026-02-16,Traffic,nonbrand_sessions,sitewide,15300,sessions,Analytics,2026-02-16T06:00:00Z
+2026-02-23,Traffic,nonbrand_sessions,sitewide,14900,sessions,Analytics,2026-02-23T06:00:00Z
+2026-03-02,Traffic,nonbrand_sessions,sitewide,15600,sessions,Analytics,2026-03-02T06:00:00Z
+2026-03-09,Traffic,nonbrand_sessions,sitewide,15750,sessions,Analytics,2026-03-09T06:00:00Z
+2026-03-16,Traffic,nonbrand_sessions,sitewide,15900,sessions,Analytics,2026-03-16T06:00:00Z
+2026-03-23,Traffic,nonbrand_sessions,sitewide,16200,sessions,Analytics,2026-03-23T06:00:00Z
+2026-03-30,Traffic,nonbrand_sessions,sitewide,16350,sessions,Analytics,2026-03-30T06:00:00Z
+2026-04-06,Traffic,nonbrand_sessions,sitewide,16500,sessions,Analytics,2026-04-06T06:00:00Z
+2026-04-13,Traffic,nonbrand_sessions,sitewide,16800,sessions,Analytics,2026-04-13T06:00:00Z
+2026-01-26,Traffic,organic_conversions,sitewide,480,conversions,Analytics,2026-01-26T06:00:00Z
+2026-02-02,Traffic,organic_conversions,sitewide,495,conversions,Analytics,2026-02-02T06:00:00Z
+2026-02-09,Traffic,organic_conversions,sitewide,500,conversions,Analytics,2026-02-09T06:00:00Z
+2026-02-16,Traffic,organic_conversions,sitewide,510,conversions,Analytics,2026-02-16T06:00:00Z
+2026-02-23,Traffic,organic_conversions,sitewide,505,conversions,Analytics,2026-02-23T06:00:00Z
+2026-03-02,Traffic,organic_conversions,sitewide,520,conversions,Analytics,2026-03-02T06:00:00Z
+2026-03-09,Traffic,organic_conversions,sitewide,525,conversions,Analytics,2026-03-09T06:00:00Z
+2026-03-16,Traffic,organic_conversions,sitewide,530,conversions,Analytics,2026-03-16T06:00:00Z
+2026-03-23,Traffic,organic_conversions,sitewide,540,conversions,Analytics,2026-03-23T06:00:00Z
+2026-03-30,Traffic,organic_conversions,sitewide,545,conversions,Analytics,2026-03-30T06:00:00Z
+2026-04-06,Traffic,organic_conversions,sitewide,550,conversions,Analytics,2026-04-06T06:00:00Z
+2026-04-13,Traffic,organic_conversions,sitewide,560,conversions,Analytics,2026-04-13T06:00:00Z
+2026-01-26,Traffic,bounce_rate,sitewide,55,percent,Analytics,2026-01-26T06:00:00Z
+2026-02-02,Traffic,bounce_rate,sitewide,54.8,percent,Analytics,2026-02-02T06:00:00Z
+2026-02-09,Traffic,bounce_rate,sitewide,54.5,percent,Analytics,2026-02-09T06:00:00Z
+2026-02-16,Traffic,bounce_rate,sitewide,54.2,percent,Analytics,2026-02-16T06:00:00Z
+2026-02-23,Traffic,bounce_rate,sitewide,54.7,percent,Analytics,2026-02-23T06:00:00Z
+2026-03-02,Traffic,bounce_rate,sitewide,54,percent,Analytics,2026-03-02T06:00:00Z
+2026-03-09,Traffic,bounce_rate,sitewide,53.8,percent,Analytics,2026-03-09T06:00:00Z
+2026-03-16,Traffic,bounce_rate,sitewide,53.5,percent,Analytics,2026-03-16T06:00:00Z
+2026-03-23,Traffic,bounce_rate,sitewide,53.2,percent,Analytics,2026-03-23T06:00:00Z
+2026-03-30,Traffic,bounce_rate,sitewide,53,percent,Analytics,2026-03-30T06:00:00Z
+2026-04-06,Traffic,bounce_rate,sitewide,52.8,percent,Analytics,2026-04-06T06:00:00Z
+2026-04-13,Traffic,bounce_rate,sitewide,52.5,percent,Analytics,2026-04-13T06:00:00Z
+2026-01-26,Traffic,page_sessions,page:"/pricing",3600,sessions,Analytics,2026-01-26T06:00:00Z
+2026-02-02,Traffic,page_sessions,page:"/pricing",3700,sessions,Analytics,2026-02-02T06:00:00Z
+2026-02-09,Traffic,page_sessions,page:"/pricing",3800,sessions,Analytics,2026-02-09T06:00:00Z
+2026-02-16,Traffic,page_sessions,page:"/pricing",3900,sessions,Analytics,2026-02-16T06:00:00Z
+2026-02-23,Traffic,page_sessions,page:"/pricing",3850,sessions,Analytics,2026-02-23T06:00:00Z
+2026-03-02,Traffic,page_sessions,page:"/pricing",4000,sessions,Analytics,2026-03-02T06:00:00Z
+2026-03-09,Traffic,page_sessions,page:"/pricing",4050,sessions,Analytics,2026-03-09T06:00:00Z
+2026-03-16,Traffic,page_sessions,page:"/pricing",4100,sessions,Analytics,2026-03-16T06:00:00Z
+2026-03-23,Traffic,page_sessions,page:"/pricing",4150,sessions,Analytics,2026-03-23T06:00:00Z
+2026-03-30,Traffic,page_sessions,page:"/pricing",4200,sessions,Analytics,2026-03-30T06:00:00Z
+2026-04-06,Traffic,page_sessions,page:"/pricing",4180,sessions,Analytics,2026-04-06T06:00:00Z
+2026-04-13,Traffic,page_sessions,page:"/pricing",4250,sessions,Analytics,2026-04-13T06:00:00Z
+2026-01-26,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1200,sessions,Analytics,2026-01-26T06:00:00Z
+2026-02-02,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1250,sessions,Analytics,2026-02-02T06:00:00Z
+2026-02-09,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1300,sessions,Analytics,2026-02-09T06:00:00Z
+2026-02-16,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1350,sessions,Analytics,2026-02-16T06:00:00Z
+2026-02-23,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1320,sessions,Analytics,2026-02-23T06:00:00Z
+2026-03-02,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1380,sessions,Analytics,2026-03-02T06:00:00Z
+2026-03-09,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1400,sessions,Analytics,2026-03-09T06:00:00Z
+2026-03-16,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1420,sessions,Analytics,2026-03-16T06:00:00Z
+2026-03-23,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1450,sessions,Analytics,2026-03-23T06:00:00Z
+2026-03-30,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1470,sessions,Analytics,2026-03-30T06:00:00Z
+2026-04-06,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1490,sessions,Analytics,2026-04-06T06:00:00Z
+2026-04-13,Traffic,page_sessions,page:"/blog/customer-analytics-guide",1500,sessions,Analytics,2026-04-13T06:00:00Z
+2026-01-26,Technical,new_4xx,sitewide,12,count,Web Crawler,2026-01-26T06:00:00Z
+2026-02-02,Technical,new_4xx,sitewide,10,count,Web Crawler,2026-02-02T06:00:00Z
+2026-02-09,Technical,new_4xx,sitewide,11,count,Web Crawler,2026-02-09T06:00:00Z
+2026-02-16,Technical,new_4xx,sitewide,9,count,Web Crawler,2026-02-16T06:00:00Z
+2026-02-23,Technical,new_4xx,sitewide,13,count,Web Crawler,2026-02-23T06:00:00Z
+2026-03-02,Technical,new_4xx,sitewide,8,count,Web Crawler,2026-03-02T06:00:00Z
+2026-03-09,Technical,new_4xx,sitewide,9,count,Web Crawler,2026-03-09T06:00:00Z
+2026-03-16,Technical,new_4xx,sitewide,10,count,Web Crawler,2026-03-16T06:00:00Z
+2026-03-23,Technical,new_4xx,sitewide,11,count,Web Crawler,2026-03-23T06:00:00Z
+2026-03-30,Technical,new_4xx,sitewide,9,count,Web Crawler,2026-03-30T06:00:00Z
+2026-04-06,Technical,new_4xx,sitewide,10,count,Web Crawler,2026-04-06T06:00:00Z
+2026-04-13,Technical,new_4xx,sitewide,8,count,Web Crawler,2026-04-13T06:00:00Z
+2026-01-26,Technical,new_5xx,sitewide,2,count,Web Crawler,2026-01-26T06:00:00Z
+2026-02-02,Technical,new_5xx,sitewide,1,count,Web Crawler,2026-02-02T06:00:00Z
+2026-02-09,Technical,new_5xx,sitewide,0,count,Web Crawler,2026-02-09T06:00:00Z
+2026-02-16,Technical,new_5xx,sitewide,1,count,Web Crawler,2026-02-16T06:00:00Z
+2026-02-23,Technical,new_5xx,sitewide,3,count,Web Crawler,2026-02-23T06:00:00Z
+2026-03-02,Technical,new_5xx,sitewide,0,count,Web Crawler,2026-03-02T06:00:00Z
+2026-03-09,Technical,new_5xx,sitewide,1,count,Web Crawler,2026-03-09T06:00:00Z
+2026-03-16,Technical,new_5xx,sitewide,1,count,Web Crawler,2026-03-16T06:00:00Z
+2026-03-23,Technical,new_5xx,sitewide,0,count,Web Crawler,2026-03-23T06:00:00Z
+2026-03-30,Technical,new_5xx,sitewide,2,count,Web Crawler,2026-03-30T06:00:00Z
+2026-04-06,Technical,new_5xx,sitewide,1,count,Web Crawler,2026-04-06T06:00:00Z
+2026-04-13,Technical,new_5xx,sitewide,0,count,Web Crawler,2026-04-13T06:00:00Z
+2026-01-26,Technical,avg_server_response_ms,sitewide,510,ms,Web Crawler,2026-01-26T06:00:00Z
+2026-02-02,Technical,avg_server_response_ms,sitewide,500,ms,Web Crawler,2026-02-02T06:00:00Z
+2026-02-09,Technical,avg_server_response_ms,sitewide,495,ms,Web Crawler,2026-02-09T06:00:00Z
+2026-02-16,Technical,avg_server_response_ms,sitewide,490,ms,Web Crawler,2026-02-16T06:00:00Z
+2026-02-23,Technical,avg_server_response_ms,sitewide,505,ms,Web Crawler,2026-02-23T06:00:00Z
+2026-03-02,Technical,avg_server_response_ms,sitewide,480,ms,Web Crawler,2026-03-02T06:00:00Z
+2026-03-09,Technical,avg_server_response_ms,sitewide,475,ms,Web Crawler,2026-03-09T06:00:00Z
+2026-03-16,Technical,avg_server_response_ms,sitewide,470,ms,Web Crawler,2026-03-16T06:00:00Z
+2026-03-23,Technical,avg_server_response_ms,sitewide,465,ms,Web Crawler,2026-03-23T06:00:00Z
+2026-03-30,Technical,avg_server_response_ms,sitewide,460,ms,Web Crawler,2026-03-30T06:00:00Z
+2026-04-06,Technical,avg_server_response_ms,sitewide,455,ms,Web Crawler,2026-04-06T06:00:00Z
+2026-04-13,Technical,avg_server_response_ms,sitewide,450,ms,Web Crawler,2026-04-13T06:00:00Z
+2026-01-26,Technical,lcp_mobile_ms,sitewide,2850,ms,Web Crawler,2026-01-26T06:00:00Z
+2026-02-02,Technical,lcp_mobile_ms,sitewide,2800,ms,Web Crawler,2026-02-02T06:00:00Z
+2026-02-09,Technical,lcp_mobile_ms,sitewide,2750,ms,Web Crawler,2026-02-09T06:00:00Z
+2026-02-16,Technical,lcp_mobile_ms,sitewide,2700,ms,Web Crawler,2026-02-16T06:00:00Z
+2026-02-23,Technical,lcp_mobile_ms,sitewide,2780,ms,Web Crawler,2026-02-23T06:00:00Z
+2026-03-02,Technical,lcp_mobile_ms,sitewide,2650,ms,Web Crawler,2026-03-02T06:00:00Z
+2026-03-09,Technical,lcp_mobile_ms,sitewide,2620,ms,Web Crawler,2026-03-09T06:00:00Z
+2026-03-16,Technical,lcp_mobile_ms,sitewide,2600,ms,Web Crawler,2026-03-16T06:00:00Z
+2026-03-23,Technical,lcp_mobile_ms,sitewide,2580,ms,Web Crawler,2026-03-23T06:00:00Z
+2026-03-30,Technical,lcp_mobile_ms,sitewide,2550,ms,Web Crawler,2026-03-30T06:00:00Z
+2026-04-06,Technical,lcp_mobile_ms,sitewide,2520,ms,Web Crawler,2026-04-06T06:00:00Z
+2026-04-13,Technical,lcp_mobile_ms,sitewide,2500,ms,Web Crawler,2026-04-13T06:00:00Z
+2026-01-26,Technical,cls,sitewide,0.12,score,Web Crawler,2026-01-26T06:00:00Z
+2026-02-02,Technical,cls,sitewide,0.11,score,Web Crawler,2026-02-02T06:00:00Z
+2026-02-09,Technical,cls,sitewide,0.11,score,Web Crawler,2026-02-09T06:00:00Z
+2026-02-16,Technical,cls,sitewide,0.1,score,Web Crawler,2026-02-16T06:00:00Z
+2026-02-23,Technical,cls,sitewide,0.11,score,Web Crawler,2026-02-23T06:00:00Z
+2026-03-02,Technical,cls,sitewide,0.1,score,Web Crawler,2026-03-02T06:00:00Z
+2026-03-09,Technical,cls,sitewide,0.1,score,Web Crawler,2026-03-09T06:00:00Z
+2026-03-16,Technical,cls,sitewide,0.09,score,Web Crawler,2026-03-16T06:00:00Z
+2026-03-23,Technical,cls,sitewide,0.09,score,Web Crawler,2026-03-23T06:00:00Z
+2026-03-30,Technical,cls,sitewide,0.09,score,Web Crawler,2026-03-30T06:00:00Z
+2026-04-06,Technical,cls,sitewide,0.09,score,Web Crawler,2026-04-06T06:00:00Z
+2026-04-13,Technical,cls,sitewide,0.09,score,Web Crawler,2026-04-13T06:00:00Z
+2026-01-26,Technical,inp_ms,sitewide,230,ms,Web Crawler,2026-01-26T06:00:00Z
+2026-02-02,Technical,inp_ms,sitewide,225,ms,Web Crawler,2026-02-02T06:00:00Z
+2026-02-09,Technical,inp_ms,sitewide,220,ms,Web Crawler,2026-02-09T06:00:00Z
+2026-02-16,Technical,inp_ms,sitewide,215,ms,Web Crawler,2026-02-16T06:00:00Z
+2026-02-23,Technical,inp_ms,sitewide,220,ms,Web Crawler,2026-02-23T06:00:00Z
+2026-03-02,Technical,inp_ms,sitewide,210,ms,Web Crawler,2026-03-02T06:00:00Z
+2026-03-09,Technical,inp_ms,sitewide,205,ms,Web Crawler,2026-03-09T06:00:00Z
+2026-03-16,Technical,inp_ms,sitewide,205,ms,Web Crawler,2026-03-16T06:00:00Z
+2026-03-23,Technical,inp_ms,sitewide,200,ms,Web Crawler,2026-03-23T06:00:00Z
+2026-03-30,Technical,inp_ms,sitewide,195,ms,Web Crawler,2026-03-30T06:00:00Z
+2026-04-06,Technical,inp_ms,sitewide,190,ms,Web Crawler,2026-04-06T06:00:00Z
+2026-04-13,Technical,inp_ms,sitewide,185,ms,Web Crawler,2026-04-13T06:00:00Z
+2026-01-26,Technical,index_coverage_count,sitewide,1320,count,Search Console,2026-01-26T06:00:00Z
+2026-02-02,Technical,index_coverage_count,sitewide,1322,count,Search Console,2026-02-02T06:00:00Z
+2026-02-09,Technical,index_coverage_count,sitewide,1325,count,Search Console,2026-02-09T06:00:00Z
+2026-02-16,Technical,index_coverage_count,sitewide,1330,count,Search Console,2026-02-16T06:00:00Z
+2026-02-23,Technical,index_coverage_count,sitewide,1331,count,Search Console,2026-02-23T06:00:00Z
+2026-03-02,Technical,index_coverage_count,sitewide,1335,count,Search Console,2026-03-02T06:00:00Z
+2026-03-09,Technical,index_coverage_count,sitewide,1340,count,Search Console,2026-03-09T06:00:00Z
+2026-03-16,Technical,index_coverage_count,sitewide,1342,count,Search Console,2026-03-16T06:00:00Z
+2026-03-23,Technical,index_coverage_count,sitewide,1345,count,Search Console,2026-03-23T06:00:00Z
+2026-03-30,Technical,index_coverage_count,sitewide,1350,count,Search Console,2026-03-30T06:00:00Z
+2026-04-06,Technical,index_coverage_count,sitewide,1352,count,Search Console,2026-04-06T06:00:00Z
+2026-04-13,Technical,index_coverage_count,sitewide,1355,count,Search Console,2026-04-13T06:00:00Z
+2026-01-26,Technical,crawl_errors_total,sitewide,80,count,Search Console,2026-01-26T06:00:00Z
+2026-02-02,Technical,crawl_errors_total,sitewide,75,count,Search Console,2026-02-02T06:00:00Z
+2026-02-09,Technical,crawl_errors_total,sitewide,70,count,Search Console,2026-02-09T06:00:00Z
+2026-02-16,Technical,crawl_errors_total,sitewide,72,count,Search Console,2026-02-16T06:00:00Z
+2026-02-23,Technical,crawl_errors_total,sitewide,78,count,Search Console,2026-02-23T06:00:00Z
+2026-03-02,Technical,crawl_errors_total,sitewide,68,count,Search Console,2026-03-02T06:00:00Z
+2026-03-09,Technical,crawl_errors_total,sitewide,65,count,Search Console,2026-03-09T06:00:00Z
+2026-03-16,Technical,crawl_errors_total,sitewide,66,count,Search Console,2026-03-16T06:00:00Z
+2026-03-23,Technical,crawl_errors_total,sitewide,64,count,Search Console,2026-03-23T06:00:00Z
+2026-03-30,Technical,crawl_errors_total,sitewide,62,count,Search Console,2026-03-30T06:00:00Z
+2026-04-06,Technical,crawl_errors_total,sitewide,60,count,Search Console,2026-04-06T06:00:00Z
+2026-04-13,Technical,crawl_errors_total,sitewide,58,count,Search Console,2026-04-13T06:00:00Z
+2026-01-26,Backlinks,ref_domains_total,sitewide,420,domains,Backlink Tool,2026-01-26T06:00:00Z
+2026-02-02,Backlinks,ref_domains_total,sitewide,425,domains,Backlink Tool,2026-02-02T06:00:00Z
+2026-02-09,Backlinks,ref_domains_total,sitewide,430,domains,Backlink Tool,2026-02-09T06:00:00Z
+2026-02-16,Backlinks,ref_domains_total,sitewide,435,domains,Backlink Tool,2026-02-16T06:00:00Z
+2026-02-23,Backlinks,ref_domains_total,sitewide,438,domains,Backlink Tool,2026-02-23T06:00:00Z
+2026-03-02,Backlinks,ref_domains_total,sitewide,442,domains,Backlink Tool,2026-03-02T06:00:00Z
+2026-03-09,Backlinks,ref_domains_total,sitewide,448,domains,Backlink Tool,2026-03-09T06:00:00Z
+2026-03-16,Backlinks,ref_domains_total,sitewide,452,domains,Backlink Tool,2026-03-16T06:00:00Z
+2026-03-23,Backlinks,ref_domains_total,sitewide,455,domains,Backlink Tool,2026-03-23T06:00:00Z
+2026-03-30,Backlinks,ref_domains_total,sitewide,458,domains,Backlink Tool,2026-03-30T06:00:00Z
+2026-04-06,Backlinks,ref_domains_total,sitewide,462,domains,Backlink Tool,2026-04-06T06:00:00Z
+2026-04-13,Backlinks,ref_domains_total,sitewide,465,domains,Backlink Tool,2026-04-13T06:00:00Z
+2026-01-26,Backlinks,ref_domains_lost_week,sitewide,12,domains,Backlink Tool,2026-01-26T06:00:00Z
+2026-02-02,Backlinks,ref_domains_lost_week,sitewide,10,domains,Backlink Tool,2026-02-02T06:00:00Z
+2026-02-09,Backlinks,ref_domains_lost_week,sitewide,9,domains,Backlink Tool,2026-02-09T06:00:00Z
+2026-02-16,Backlinks,ref_domains_lost_week,sitewide,11,domains,Backlink Tool,2026-02-16T06:00:00Z
+2026-02-23,Backlinks,ref_domains_lost_week,sitewide,8,domains,Backlink Tool,2026-02-23T06:00:00Z
+2026-03-02,Backlinks,ref_domains_lost_week,sitewide,7,domains,Backlink Tool,2026-03-02T06:00:00Z
+2026-03-09,Backlinks,ref_domains_lost_week,sitewide,9,domains,Backlink Tool,2026-03-09T06:00:00Z
+2026-03-16,Backlinks,ref_domains_lost_week,sitewide,8,domains,Backlink Tool,2026-03-16T06:00:00Z
+2026-03-23,Backlinks,ref_domains_lost_week,sitewide,7,domains,Backlink Tool,2026-03-23T06:00:00Z
+2026-03-30,Backlinks,ref_domains_lost_week,sitewide,6,domains,Backlink Tool,2026-03-30T06:00:00Z
+2026-04-06,Backlinks,ref_domains_lost_week,sitewide,5,domains,Backlink Tool,2026-04-06T06:00:00Z
+2026-04-13,Backlinks,ref_domains_lost_week,sitewide,6,domains,Backlink Tool,2026-04-13T06:00:00Z
+2026-01-26,Backlinks,toxic_links_new_week,sitewide,7,links,Backlink Tool,2026-01-26T06:00:00Z
+2026-02-02,Backlinks,toxic_links_new_week,sitewide,5,links,Backlink Tool,2026-02-02T06:00:00Z
+2026-02-09,Backlinks,toxic_links_new_week,sitewide,6,links,Backlink Tool,2026-02-09T06:00:00Z
+2026-02-16,Backlinks,toxic_links_new_week,sitewide,4,links,Backlink Tool,2026-02-16T06:00:00Z
+2026-02-23,Backlinks,toxic_links_new_week,sitewide,8,links,Backlink Tool,2026-02-23T06:00:00Z
+2026-03-02,Backlinks,toxic_links_new_week,sitewide,3,links,Backlink Tool,2026-03-02T06:00:00Z
+2026-03-09,Backlinks,toxic_links_new_week,sitewide,2,links,Backlink Tool,2026-03-09T06:00:00Z
+2026-03-16,Backlinks,toxic_links_new_week,sitewide,3,links,Backlink Tool,2026-03-16T06:00:00Z
+2026-03-23,Backlinks,toxic_links_new_week,sitewide,4,links,Backlink Tool,2026-03-23T06:00:00Z
+2026-03-30,Backlinks,toxic_links_new_week,sitewide,2,links,Backlink Tool,2026-03-30T06:00:00Z
+2026-04-06,Backlinks,toxic_links_new_week,sitewide,1,links,Backlink Tool,2026-04-06T06:00:00Z
+2026-04-13,Backlinks,toxic_links_new_week,sitewide,2,links,Backlink Tool,2026-04-13T06:00:00Z
+2026-01-26,Backlinks,high_da_links_gained_week,sitewide,1,links,Backlink Tool,2026-01-26T06:00:00Z
+2026-02-02,Backlinks,high_da_links_gained_week,sitewide,2,links,Backlink Tool,2026-02-02T06:00:00Z
+2026-02-09,Backlinks,high_da_links_gained_week,sitewide,1,links,Backlink Tool,2026-02-09T06:00:00Z
+2026-02-16,Backlinks,high_da_links_gained_week,sitewide,0,links,Backlink Tool,2026-02-16T06:00:00Z
+2026-02-23,Backlinks,high_da_links_gained_week,sitewide,2,links,Backlink Tool,2026-02-23T06:00:00Z
+2026-03-02,Backlinks,high_da_links_gained_week,sitewide,1,links,Backlink Tool,2026-03-02T06:00:00Z
+2026-03-09,Backlinks,high_da_links_gained_week,sitewide,2,links,Backlink Tool,2026-03-09T06:00:00Z
+2026-03-16,Backlinks,high_da_links_gained_week,sitewide,3,links,Backlink Tool,2026-03-16T06:00:00Z
+2026-03-23,Backlinks,high_da_links_gained_week,sitewide,2,links,Backlink Tool,2026-03-23T06:00:00Z
+2026-03-30,Backlinks,high_da_links_gained_week,sitewide,2,links,Backlink Tool,2026-03-30T06:00:00Z
+2026-04-06,Backlinks,high_da_links_gained_week,sitewide,3,links,Backlink Tool,2026-04-06T06:00:00Z
+2026-04-13,Backlinks,high_da_links_gained_week,sitewide,2,links,Backlink Tool,2026-04-13T06:00:00Z
+2026-01-26,GEO,ai_citation_rate_percent,sitewide,19,percent,AI Visibility Monitor,2026-01-26T06:00:00Z
+2026-02-02,GEO,ai_citation_rate_percent,sitewide,20,percent,AI Visibility Monitor,2026-02-02T06:00:00Z
+2026-02-09,GEO,ai_citation_rate_percent,sitewide,21,percent,AI Visibility Monitor,2026-02-09T06:00:00Z
+2026-02-16,GEO,ai_citation_rate_percent,sitewide,20,percent,AI Visibility Monitor,2026-02-16T06:00:00Z
+2026-02-23,GEO,ai_citation_rate_percent,sitewide,22,percent,AI Visibility Monitor,2026-02-23T06:00:00Z
+2026-03-02,GEO,ai_citation_rate_percent,sitewide,23,percent,AI Visibility Monitor,2026-03-02T06:00:00Z
+2026-03-09,GEO,ai_citation_rate_percent,sitewide,23,percent,AI Visibility Monitor,2026-03-09T06:00:00Z
+2026-03-16,GEO,ai_citation_rate_percent,sitewide,24,percent,AI Visibility Monitor,2026-03-16T06:00:00Z
+2026-03-23,GEO,ai_citation_rate_percent,sitewide,24,percent,AI Visibility Monitor,2026-03-23T06:00:00Z
+2026-03-30,GEO,ai_citation_rate_percent,sitewide,25,percent,AI Visibility Monitor,2026-03-30T06:00:00Z
+2026-04-06,GEO,ai_citation_rate_percent,sitewide,25,percent,AI Visibility Monitor,2026-04-06T06:00:00Z
+2026-04-13,GEO,ai_citation_rate_percent,sitewide,26,percent,AI Visibility Monitor,2026-04-13T06:00:00Z
+2026-01-26,GEO,ai_citations_tier1_count,tier:"1",5,count,AI Visibility Monitor,2026-01-26T06:00:00Z
+2026-02-02,GEO,ai_citations_tier1_count,tier:"1",5,count,AI Visibility Monitor,2026-02-02T06:00:00Z
+2026-02-09,GEO,ai_citations_tier1_count,tier:"1",5,count,AI Visibility Monitor,2026-02-09T06:00:00Z
+2026-02-16,GEO,ai_citations_tier1_count,tier:"1",4,count,AI Visibility Monitor,2026-02-16T06:00:00Z
+2026-02-23,GEO,ai_citations_tier1_count,tier:"1",6,count,AI Visibility Monitor,2026-02-23T06:00:00Z
+2026-03-02,GEO,ai_citations_tier1_count,tier:"1",6,count,AI Visibility Monitor,2026-03-02T06:00:00Z
+2026-03-09,GEO,ai_citations_tier1_count,tier:"1",6,count,AI Visibility Monitor,2026-03-09T06:00:00Z
+2026-03-16,GEO,ai_citations_tier1_count,tier:"1",6,count,AI Visibility Monitor,2026-03-16T06:00:00Z
+2026-03-23,GEO,ai_citations_tier1_count,tier:"1",7,count,AI Visibility Monitor,2026-03-23T06:00:00Z
+2026-03-30,GEO,ai_citations_tier1_count,tier:"1",7,count,AI Visibility Monitor,2026-03-30T06:00:00Z
+2026-04-06,GEO,ai_citations_tier1_count,tier:"1",7,count,AI Visibility Monitor,2026-04-06T06:00:00Z
+2026-04-13,GEO,ai_citations_tier1_count,tier:"1",7,count,AI Visibility Monitor,2026-04-13T06:00:00Z
+2026-01-26,GEO,ai_citations_total_count,sitewide,14,count,AI Visibility Monitor,2026-01-26T06:00:00Z
+2026-02-02,GEO,ai_citations_total_count,sitewide,15,count,AI Visibility Monitor,2026-02-02T06:00:00Z
+2026-02-09,GEO,ai_citations_total_count,sitewide,16,count,AI Visibility Monitor,2026-02-09T06:00:00Z
+2026-02-16,GEO,ai_citations_total_count,sitewide,15,count,AI Visibility Monitor,2026-02-16T06:00:00Z
+2026-02-23,GEO,ai_citations_total_count,sitewide,17,count,AI Visibility Monitor,2026-02-23T06:00:00Z
+2026-03-02,GEO,ai_citations_total_count,sitewide,18,count,AI Visibility Monitor,2026-03-02T06:00:00Z
+2026-03-09,GEO,ai_citations_total_count,sitewide,18,count,AI Visibility Monitor,2026-03-09T06:00:00Z
+2026-03-16,GEO,ai_citations_total_count,sitewide,19,count,AI Visibility Monitor,2026-03-16T06:00:00Z
+2026-03-23,GEO,ai_citations_total_count,sitewide,19,count,AI Visibility Monitor,2026-03-23T06:00:00Z
+2026-03-30,GEO,ai_citations_total_count,sitewide,20,count,AI Visibility Monitor,2026-03-30T06:00:00Z
+2026-04-06,GEO,ai_citations_total_count,sitewide,20,count,AI Visibility Monitor,2026-04-06T06:00:00Z
+2026-04-13,GEO,ai_citations_total_count,sitewide,19,count,AI Visibility Monitor,2026-04-13T06:00:00Z
+2026-01-26,Brand,brand_mentions_week,sitewide,24,count,Brand Monitor,2026-01-26T06:00:00Z
+2026-02-02,Brand,brand_mentions_week,sitewide,26,count,Brand Monitor,2026-02-02T06:00:00Z
+2026-02-09,Brand,brand_mentions_week,sitewide,25,count,Brand Monitor,2026-02-09T06:00:00Z
+2026-02-16,Brand,brand_mentions_week,sitewide,27,count,Brand Monitor,2026-02-16T06:00:00Z
+2026-02-23,Brand,brand_mentions_week,sitewide,28,count,Brand Monitor,2026-02-23T06:00:00Z
+2026-03-02,Brand,brand_mentions_week,sitewide,30,count,Brand Monitor,2026-03-02T06:00:00Z
+2026-03-09,Brand,brand_mentions_week,sitewide,29,count,Brand Monitor,2026-03-09T06:00:00Z
+2026-03-16,Brand,brand_mentions_week,sitewide,31,count,Brand Monitor,2026-03-16T06:00:00Z
+2026-03-23,Brand,brand_mentions_week,sitewide,32,count,Brand Monitor,2026-03-23T06:00:00Z
+2026-03-30,Brand,brand_mentions_week,sitewide,33,count,Brand Monitor,2026-03-30T06:00:00Z
+2026-04-06,Brand,brand_mentions_week,sitewide,34,count,Brand Monitor,2026-04-06T06:00:00Z
+2026-04-13,Brand,brand_mentions_week,sitewide,35,count,Brand Monitor,2026-04-13T06:00:00Z
+2026-01-26,Brand,negative_mentions_week,sitewide,3,count,Brand Monitor,2026-01-26T06:00:00Z
+2026-02-02,Brand,negative_mentions_week,sitewide,2,count,Brand Monitor,2026-02-02T06:00:00Z
+2026-02-09,Brand,negative_mentions_week,sitewide,2,count,Brand Monitor,2026-02-09T06:00:00Z
+2026-02-16,Brand,negative_mentions_week,sitewide,2,count,Brand Monitor,2026-02-16T06:00:00Z
+2026-02-23,Brand,negative_mentions_week,sitewide,3,count,Brand Monitor,2026-02-23T06:00:00Z
+2026-03-02,Brand,negative_mentions_week,sitewide,1,count,Brand Monitor,2026-03-02T06:00:00Z
+2026-03-09,Brand,negative_mentions_week,sitewide,1,count,Brand Monitor,2026-03-09T06:00:00Z
+2026-03-16,Brand,negative_mentions_week,sitewide,2,count,Brand Monitor,2026-03-16T06:00:00Z
+2026-03-23,Brand,negative_mentions_week,sitewide,2,count,Brand Monitor,2026-03-23T06:00:00Z
+2026-03-30,Brand,negative_mentions_week,sitewide,1,count,Brand Monitor,2026-03-30T06:00:00Z
+2026-04-06,Brand,negative_mentions_week,sitewide,2,count,Brand Monitor,2026-04-06T06:00:00Z
+2026-04-13,Brand,negative_mentions_week,sitewide,1,count,Brand Monitor,2026-04-13T06:00:00Z
+2026-01-26,Brand,avg_review_rating,sitewide,4.7,stars,Brand Monitor,2026-01-26T06:00:00Z
+2026-02-02,Brand,avg_review_rating,sitewide,4.7,stars,Brand Monitor,2026-02-02T06:00:00Z
+2026-02-09,Brand,avg_review_rating,sitewide,4.7,stars,Brand Monitor,2026-02-09T06:00:00Z
+2026-02-16,Brand,avg_review_rating,sitewide,4.7,stars,Brand Monitor,2026-02-16T06:00:00Z
+2026-02-23,Brand,avg_review_rating,sitewide,4.7,stars,Brand Monitor,2026-02-23T06:00:00Z
+2026-03-02,Brand,avg_review_rating,sitewide,4.7,stars,Brand Monitor,2026-03-02T06:00:00Z
+2026-03-09,Brand,avg_review_rating,sitewide,4.8,stars,Brand Monitor,2026-03-09T06:00:00Z
+2026-03-16,Brand,avg_review_rating,sitewide,4.7,stars,Brand Monitor,2026-03-16T06:00:00Z
+2026-03-23,Brand,avg_review_rating,sitewide,4.8,stars,Brand Monitor,2026-03-23T06:00:00Z
+2026-03-30,Brand,avg_review_rating,sitewide,4.8,stars,Brand Monitor,2026-03-30T06:00:00Z
+2026-04-06,Brand,avg_review_rating,sitewide,4.8,stars,Brand Monitor,2026-04-06T06:00:00Z
+2026-04-13,Brand,avg_review_rating,sitewide,4.8,stars,Brand Monitor,2026-04-13T06:00:00Z

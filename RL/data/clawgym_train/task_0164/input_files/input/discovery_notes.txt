@@ -1,0 +1,119 @@
+Discovery Call Notes — BrightTrail Commerce LLC
+Date: 2026-04-10
+Facilitator: External vendor (us)
+Buyer: BrightTrail Commerce LLC
+
+Participants (BrightTrail):
+- Alice Nguyen — CFO
+- Marco Silva — VP Engineering
+- Priya Desai — Director of Data
+- Jordan Lee — Head of Ecommerce
+
+Summary
+- BrightTrail is a mid-market ecommerce company selling DTC apparel/accessories with seasonal spikes and frequent product drops.
+- Current data pipeline involves nightly batch jobs with frequent failures and late arrivals, impacting daily revenue reporting and inventory decisions.
+- They want a 12-week modernization that stabilizes ingestion, transforms models for analytics, and implements basic observability and quality checks—without expanding PCI scope.
+
+Current State (as described)
+- Ingestion sources:
+  - Shopify (orders, customers, products)
+  - Stripe (payments, payouts)
+  - Postgres OLTP (order events, SKU metadata, inventory snapshots)
+  - Klaviyo (campaigns and email engagement)
+- Pipeline and storage:
+  - AWS S3 data lake with folders by source/date; ad-hoc conventions
+  - ETL mix: legacy Lambda scripts, a few AWS Glue jobs, and cron-driven EC2 scripts
+  - Transformations primarily in dbt (mixed quality, many models untested)
+  - Warehouse: Snowflake (single prod account, one shared role for analytics)
+- Orchestration/monitoring:
+  - Cron/AWS EventBridge for scheduling
+  - Minimal alerting (CloudWatch metrics + Slack ping when jobs fail)
+  - No lineage; partial documentation
+- Reporting/consumers:
+  - Finance daily gross margin and cash flow snapshots by 8:30am ET
+  - Ecommerce team uses product performance cohorts and campaign lift analysis
+  - Inventory team uses weekly sell-through and forecast variance
+- Compliance/security:
+  - PCI-DSS SAQ A posture; card data is tokenized via Stripe
+  - PII present (names, emails, addresses); subject to GDPR/CCPA requests
+  - Access must remain least-privilege; production DB read-only only
+
+Pain Points
+- Nightly batches finishing after 10:00am ET several times per week
+- Data quality issues: duplicate orders, missing refunds, inconsistent SKU joins
+- dbt model sprawl and unclear ownership; environment parity issues
+- No SLA/SLOs; “unknown unknowns” until dashboards break
+- Manual reruns and hot-fixes create drift and risk
+
+Goals (12-week engagement)
+- Stabilize ingestion (Shopify, Stripe, Postgres, Klaviyo) with consistent schemas and idempotent loads
+- Refactor priority dbt models with tests, documentation, and clear ownership
+- Implement modern orchestration (e.g., managed scheduler) and basic observability (job status, data freshness, row-level checks)
+- Preserve or improve the Finance 8:30am ET report deadline
+- Reduce on-call load and failure rate
+- Keep PCI scope unchanged; maintain read-only posture to prod DB
+
+Success Metrics (as stated)
+- 95%+ of daily pipelines complete by 7:30am ET
+- <1% data freshness SLA breaches over a rolling 30-day window
+- 50% reduction in data incident tickets related to pipeline failures
+- Finance/merchandising reports run without manual patches for 30 consecutive days post go-live
+- Documented runbook and handoff accepted by Data team
+
+Constraints
+- No writes to production OLTP systems; read-only connections only
+- Change windows limited to Tuesday–Thursday 9:00am–5:00pm ET; avoid peak traffic and month-end close
+- Do not expand PCI scope; avoid touching cardholder data flows
+- Use existing Snowflake account; least-privilege roles and SSO (Okta) preferred
+- Budget cap per RFP: $150,000 for the total 12-week effort
+- Requested start date: 2026-05-04 (must align phases to this date)
+
+Tooling Preferences (non-binding)
+- Continue with Snowflake for warehouse
+- dbt for transformations (upgrade and standardize)
+- Open to adopting Airflow/managed orchestration or Snowflake tasks/streams if simpler
+- Observability: open-source acceptable (e.g., elementary for dbt) or light managed service, cost-transparent
+- Ingestion: prefer standardized connectors over bespoke Lambdas (consider Airbyte/Fivetran if cost aligns)
+
+Must-Have Deliverables (from RFP and call)
+- Ingestion rebuilt for Shopify, Stripe, Postgres, Klaviyo with idempotent patterns and retries
+- Priority dbt model set refactored with tests and docs (orders, refunds, products, customer cohorts, campaign attribution)
+- Orchestration with clear DAGs, alerting to Slack/Email, runbook documented
+- Data quality checks (freshness, volume, uniqueness, referential integrity on key models)
+- Security review and access pattern hardening (roles, secrets, audit)
+- Cutover plan with rollback and limited downtime risk
+
+Nice-to-Have (if feasible within budget)
+- Incremental pattern for near-real-time order updates (sub-hour latency) for key models
+- Lineage visualization for top-20 models
+- Cost monitoring dashboards (Snowflake credits, connector spend)
+
+Exclusions (explicit)
+- Building net-new BI dashboards (beyond enabling data/models)
+- Machine learning feature engineering or model development
+- ERP migration or WMS integrations
+- Multi-cloud support; scope is AWS + Snowflake only
+
+Commercial Notes
+- Two commercial options requested within $150k cap:
+  - Option A: Core modernization to meet must-haves
+  - Option B: Core + selected nice-to-haves (e.g., limited near-real-time ingestion) if still within cap
+- Payment preference: Net 30; milestone invoicing acceptable (kickoff/midpoint/acceptance)
+- Procurement can process SOW in parallel with security review; security artifacts required (SOC 2 summary, DPIA answers)
+
+Dependencies
+- Network and credential setup for read-only access to prod Postgres
+- API keys/tokens for Shopify, Stripe, Klaviyo with documented scopes
+- Snowflake role creation or updates by internal admin (Priya’s team)
+- Slack/Email endpoints for alerting
+- GitHub repo access for CI/CD
+
+Timeline Expectations
+- 12 weeks total from 2026-05-04
+- Phased approach: Discovery & Design, Build, Hardening & Cutover, Stabilization & Handover
+- Weekly check-ins; bi-weekly stakeholder updates (Alice looped on budget/risks, Marco/Priya on delivery, Jordan on ecommerce impacts)
+
+Notes/Decisions Captured
+- Preference to standardize on dbt + Snowflake; avoid vendor lock-in for orchestration if possible
+- PCI scope: remain SAQ A; no handling of raw PAN; Stripe tokens only
+- Keep daily Finance deadline non-negotiable

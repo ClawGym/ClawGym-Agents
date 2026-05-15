@@ -1,0 +1,5 @@
+weights:
+  attendance: 0.5
+  recency: 0.3
+  ticketed_bonus: 10
+  community_quote_bonus: 15

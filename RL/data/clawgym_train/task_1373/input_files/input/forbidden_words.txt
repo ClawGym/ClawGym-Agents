@@ -1,0 +1,10 @@
+panic
+alarming
+disaster
+catastrophic
+chaos
+unsafe
+broken
+shut down
+collapse
+failure

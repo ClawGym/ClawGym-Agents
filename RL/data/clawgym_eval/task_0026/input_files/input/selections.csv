@@ -1,0 +1,8 @@
+item_id,room,category,vendor,unit_price,qty,notes
+S01,Living Room,Sofa,CozyHome,1800,1,"fabric: gray"
+R01,Living Room,Rug,FloorCo,650,1,"wool, 8x10"
+T01,Living Room,Coffee Table,Oak&Iron,420,1,"solid oak"
+B01,Bedroom,Bed Frame,Oak&Iron,1200,1,"queen"
+M01,Bedroom,Mattress,SleepWell,900,1,"medium firm"
+D01,Dining Room,Dining Table,Oak&Iron,1400,1,"extendable"
+C01,Dining Room,Chair,CozyHome,160,6,"set of 6"

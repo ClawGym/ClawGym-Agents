@@ -1,0 +1,12 @@
+[
+  {"business_id":"B01","name":"Riverfront Cafe","neighborhood":"Riverfront"},
+  {"business_id":"B02","name":"Riverfront Books","neighborhood":"Riverfront"},
+  {"business_id":"B03","name":"Riverfront Antiques","neighborhood":"Riverfront"},
+  {"business_id":"B04","name":"Downtown Deli","neighborhood":"Downtown"},
+  {"business_id":"B05","name":"Downtown Theater Shop","neighborhood":"Downtown"},
+  {"business_id":"B06","name":"Old Town Crafts","neighborhood":"Old Town"},
+  {"business_id":"B07","name":"Innovation Co-Working","neighborhood":"Innovation District"},
+  {"business_id":"B08","name":"Tech Hub Cafe","neighborhood":"Innovation District"},
+  {"business_id":"B09","name":"Startups Boutique","neighborhood":"Innovation District"},
+  {"business_id":"B10","name":"Innovation Bookstore","neighborhood":"Innovation District"}
+]

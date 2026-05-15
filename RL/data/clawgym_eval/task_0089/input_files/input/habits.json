@@ -1,0 +1,62 @@
+[
+  {
+    "id": "h_exercise_001",
+    "name": "Exercise",
+    "description": "Move body daily",
+    "frequency": "daily",
+    "target": 1,
+    "reminder": "07:30",
+    "createdAt": "2026-02-01T08:00:00Z",
+    "active": true
+  },
+  {
+    "id": "h_meditate_002",
+    "name": "Meditate",
+    "description": "Mindfulness practice",
+    "frequency": "weekly",
+    "target": 5,
+    "reminder": "06:45",
+    "createdAt": "2026-02-05T08:00:00Z",
+    "active": true
+  },
+  {
+    "id": "h_read_003",
+    "name": "Read 30 minutes",
+    "description": "Read daily for 30 minutes",
+    "frequency": "daily",
+    "target": 1,
+    "reminder": "21:00",
+    "createdAt": "2026-01-20T08:00:00Z",
+    "active": true
+  },
+  {
+    "id": "h_floss_004",
+    "name": "Floss",
+    "description": "Floss every night",
+    "frequency": "daily",
+    "target": 1,
+    "reminder": "22:15",
+    "createdAt": "2026-01-15T08:00:00Z",
+    "active": true
+  },
+  {
+    "id": "h_budget_005",
+    "name": "Budget Review",
+    "description": "Monthly budget check and expense review",
+    "frequency": "monthly",
+    "target": 4,
+    "reminder": "19:00",
+    "createdAt": "2026-02-10T08:00:00Z",
+    "active": true
+  },
+  {
+    "id": "h_guitar_006",
+    "name": "Guitar Practice",
+    "description": "Practice guitar",
+    "frequency": "weekly",
+    "target": 3,
+    "reminder": "20:00",
+    "createdAt": "2026-02-12T08:00:00Z",
+    "active": false
+  }
+]

@@ -1,0 +1,3 @@
+voyage_id,port_code,departure_date,arrival_date,scheduled_arrival_date,reported_delivered_tonnage
+VBB-201,BBB,2024-10-15,2024-10-27,2024-10-28,700.2
+VBB-202,BBB,2024-11-18,2024-12-02,2024-12-01,680.0

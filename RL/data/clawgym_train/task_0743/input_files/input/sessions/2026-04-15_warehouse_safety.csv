@@ -1,0 +1,5 @@
+participant_id,department,scenario,completed,passed,issues,duration_min
+P001,Operations,Warehouse Safety,TRUE,TRUE,none,18
+P002,Operations,Warehouse Safety,TRUE,FALSE,occlusion; controller calibration,25
+P003,HR,Warehouse Safety,FALSE,FALSE,nausea,7
+P004,Operations,Warehouse Safety,TRUE,TRUE,none,20

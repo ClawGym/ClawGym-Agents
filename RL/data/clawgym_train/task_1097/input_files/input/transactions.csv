@@ -1,0 +1,13 @@
+transaction_id,date,client_id,product_name,unit_price,quantity,discount_code,payment_method,status
+T001,2026-03-01,C101,Course Strategy Session,120,1,TEAM10,card,completed
+T002,2026-03-02,C102,Power Drive Clinic,150,1,POWER20,card,completed
+T003,2026-03-03,C103,Wedge Control Workshop,90,3,BUNDLE5,cash,completed
+T004,2026-03-04,C104,Driver Distance Tune-up,130,2,,card,completed
+T005,2026-03-05,C105,On-Course Management Walkthrough,110,1,NEWCLIENT5,card,completed
+T006,2026-03-06,C101,Aggressive Lines Seminar,95,1,POWER20,cash,completed
+T007,2026-03-07,C106,Course Strategy Session,120,1,TEAM10,card,refunded
+T008,2026-03-08,C107,Driver Distance Tune-up,130,1,INVALID,card,completed
+T009,2026-03-09,C103,Wedge Control Workshop,90,1,,cash,completed
+T010,2026-03-10,C108,On-Course Management Walkthrough,110,4,BUNDLE5,card,completed
+T011,2026-03-11,C109,Power Drive Clinic,150,1,NEWCLIENT5,card,refunded
+T012,2026-03-12,C110,Unknown Product,100,1,,cash,completed

@@ -1,0 +1,69 @@
+{
+  "company_name": "SignalPath AI",
+  "product": {
+    "name": "RevenueOps Copilot",
+    "description": "An AI-powered assistant that helps sales teams generate ICPs, multi-channel outreach sequences, and MEDDPICC-based qualification summaries using company context and shared artifacts.",
+    "category": "B2B sales enablement",
+    "key_features": [
+      "ICP builder tailored to product positioning",
+      "Outreach sequence generator (email, LinkedIn, phone)",
+      "MEDDPICC qualification templates and scoring",
+      "CRM note summarization for deal reviews",
+      "Multi-agent team orchestration with Builder/Reviewer/Ops"
+    ],
+    "integrations": [
+      "Salesforce",
+      "HubSpot",
+      "Slack"
+    ],
+    "deployment_model": "SaaS",
+    "security_compliance": [
+      "SOC 2 Type I (in progress)",
+      "GDPR alignment"
+    ]
+  },
+  "target_users": [
+    "VP Sales / CRO",
+    "Sales Operations (RevOps)",
+    "Account Executives",
+    "Sales Development Representatives"
+  ],
+  "positioning": {
+    "value_prop": [
+      "Reduce manual prep time for sales collateral by 60%+",
+      "Standardize qualification with MEDDPICC to improve forecast accuracy",
+      "Increase pipeline generation via consistent multi-channel sequences",
+      "Enforce quality gates with cross-role reviews to prevent drift"
+    ],
+    "differentiators": [
+      "Built-in multi-agent orchestration with clear handoffs",
+      "Reviewer quality gates by default (no self-approval)",
+      "Supports both local and API-based AI models for privacy or capability needs"
+    ],
+    "ideal_customer_profile_hint": {
+      "company_size_employees": "50-1000",
+      "segments": [
+        "SaaS",
+        "Fintech",
+        "DevTools"
+      ],
+      "geography": [
+        "US",
+        "UK",
+        "DACH"
+      ]
+    }
+  },
+  "market_signals": {
+    "pain_indicators": [
+      "Growing SDR team without standardized outreach",
+      "Inconsistent deal qualification and forecasting",
+      "Interest in AI-assisted sales ops with governance"
+    ],
+    "anti_signals": [
+      "Teams < 20 employees",
+      "On-prem only with strict no-cloud policies (without local model allowance)",
+      "Recent large-scale layoffs"
+    ]
+  }
+}

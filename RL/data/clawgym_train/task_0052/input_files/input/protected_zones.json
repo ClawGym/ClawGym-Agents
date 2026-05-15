@@ -1,0 +1,5 @@
+[
+  {"zone_id": "wetland_buffer", "restriction": "buffer-50m", "notes": "Keep \u226550 m distance to avoid habitat disturbance."},
+  {"zone_id": "nesting_area", "restriction": "no-entry", "notes": "Closed to public during nesting season."},
+  {"zone_id": "park_access", "restriction": "seasonal-closure", "notes": "Closed after 18:00 during rally days."}
+]

@@ -1,0 +1,10 @@
+{
+  "games": [
+    { "game_id": "BRK", "title": "Breakout", "priority": true, "hardware": {"controller": "paddle", "bank_switching": "none"} },
+    { "game_id": "WAR", "title": "Warlords", "priority": true, "hardware": {"controller": "paddle", "bank_switching": "none"} },
+    { "game_id": "PIT", "title": "Pitfall!", "priority": true, "hardware": {"controller": "joystick", "bank_switching": "F8"} },
+    { "game_id": "YAR", "title": "Yars' Revenge", "priority": false, "hardware": {"controller": "joystick", "bank_switching": "none"} },
+    { "game_id": "IND", "title": "Indy 500", "priority": true, "hardware": {"controller": "driving", "bank_switching": "none"} },
+    { "game_id": "ADV", "title": "Adventure", "priority": false, "hardware": {"controller": "joystick", "bank_switching": "none"} }
+  ]
+}

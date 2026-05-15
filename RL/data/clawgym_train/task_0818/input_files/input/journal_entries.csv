@@ -1,0 +1,11 @@
+id,date,source,author,tags,summary,relevance_score
+J001,2021-05-12,Diary,Luz Rivera,"photo;Rivera;Ana;locket",Describes 1989 picnic; Luz mentions gifting a locket to Anas mother Rosa; Polaroid of kids Maya and Ana.,0.92
+J002,1998-03-02,Letter,Rosa Delgado,"adoption;hospital;records",Rosa writes to Sister Margot about papers for the baby placed with the Delgados referencing San Isidro hospital.,0.97
+J003,2005-09-14,Email,Carlos Rivera,"inheritance;Rivera",Notes the Rivera box should go to the rightful eldest granddaughter.,0.61
+J004,1989-06-11,Photo Caption,Luz Rivera,"photo;kids;Maya;Ana",Back of photo reads Maya and Ana at the riverbank dated 1989-06-11.,0.88
+J005,2010-01-28,Journal,Sister Margot,"adoption;San Isidro;records",Confirms adoption records moved to archive; mentions Rosa Delgado and a baby born 1989-06-01.,0.95
+J006,2002-07-19,Note,Jorge Vega,"travel;unrelated",Plan to buy tickets to Lima for vacation.,0.10
+J007,1990-02-03,Receipt,Clinic,"pediatrics;Ana",Wellness check for Ana R., age eight months.,0.74
+J008,2015-08-21,Email,Ana Rivera,"memories;locket",Ana mentions always wondering about the locket with initials L.R.,0.85
+J009,1993-04-12,Note,Rosa Delgado,"surname;Rivera;correction",Rosa writes I kept her under my name to avoid questions.,0.80
+J010,2018-11-05,Message,Elena Vega,"family;photo;Rivera",Elena says Aunt Luz wanted the girls to know the truth when they were ready.,0.89

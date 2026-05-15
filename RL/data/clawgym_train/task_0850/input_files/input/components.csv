@@ -1,0 +1,11 @@
+component,model,voltage_range,logic_level,typical_current_notes
+Arduino Board,Uno R3,5V,5V logic,"USB port limit ~500mA total; onboard 5V pin not for powering motors/servos"
+Micro Servo,SG90,4.8-6V,N/A,"Idle ~10-20mA; moving ~150-250mA; stall 500-700mA spikes"
+DC Motor,TT 3-6V,3-6V,N/A,"No-load ~70-150mA; stall up to 1A"
+Transistor,2N2222,N/A,N/A,"Use base resistor ~1k; requires flyback diode across motor"
+Flyback Diode,1N4007,N/A,N/A,"Across motor terminals, band to +"
+I2C Sensor,BME280 breakout,1.8-3.6V,3.3V logic only,"Sensitive to 5V signals; requires level shifting if host is 5V"
+Bluetooth Module,HC-05,3.6-6V input (onboard reg),3.3V UART level,"Prefer divider/resistor on HC-05 RX if driving from 5V"
+LED,5mm red,~2.0V forward,N/A,"Recommended series resistor 220-330Ω at 5V"
+Pushbutton,Generic momentary,N/A,N/A,"Needs pullup or pulldown to avoid floating input"
+Capacitor,0.1uF (ceramic),N/A,N/A,"Place near sensor VCC/GND for decoupling (reduce noise)"

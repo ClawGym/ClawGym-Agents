@@ -1,0 +1,63 @@
+{
+  "pricing": {
+    "price_per_call_usd": 0.01,
+    "discounted_tiers": [
+      {
+        "from_calls": 100000,
+        "price_per_call_usd": 0.008
+      },
+      {
+        "from_calls": 500000,
+        "price_per_call_usd": 0.006
+      }
+    ],
+    "refund_policy": "no_refunds_for_sub_$0.05; credit_on_service_errors"
+  },
+  "volume": {
+    "daily_calls_estimate": 220000,
+    "monthly_active_payers": 3800,
+    "growth_rate_monthly_pct": 12
+  },
+  "payment_mix": {
+    "by_chain_and_token_pct": [
+      {
+        "chain": "Tron",
+        "token": "USDT",
+        "pct": 0.8
+      },
+      {
+        "chain": "Base",
+        "token": "USDC",
+        "pct": 0.15
+      },
+      {
+        "chain": "Bitcoin",
+        "token": "BTC",
+        "pct": 0.05
+      }
+    ]
+  },
+  "fee_assumptions": {
+    "tron_usdt_avg_fee_usd": 0.002,
+    "base_usdc_avg_fee_usd": 0.005,
+    "bitcoin_avg_fee_usd": 1.5,
+    "btc_viable_for_micropayments": false
+  },
+  "latency_expectations": {
+    "target_p95_seconds": 5,
+    "notes": [
+      "Tron confirmations often ~3–5s in practice",
+      "Base typical confirmation target ~5–10s; acceptable for non-interactive calls when needed",
+      "For $0.01 calls, prefer Tron USDT for fastest confirmation and lowest fees",
+      "BTC is acceptable for larger, non-urgent invoices; not for per-request micropayments"
+    ]
+  },
+  "operational": {
+    "webhook_timeout_seconds": 15,
+    "aggregate_settlement": {
+      "enabled": true,
+      "cold_wallet_sweep_frequency_minutes": 60
+    },
+    "eu_deployment_region": "Frankfurt/Paris"
+  }
+}

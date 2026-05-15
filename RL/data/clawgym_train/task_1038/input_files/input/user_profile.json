@@ -1,0 +1,45 @@
+{
+  "name": "Jordan Lee",
+  "current_role": "Senior Software Engineer (IC4)",
+  "company": "Northbeam Analytics",
+  "industry": "SaaS / Data Platforms",
+  "years_experience": 6.5,
+  "location": "Remote (US Eastern)",
+  "goals": {
+    "primary": "Decide between the IC vs manager path within 9 months",
+    "secondary": [
+      "Pilot people management via a temporary backfill or by mentoring 1–2 interns",
+      "Advance technical depth toward Staff IC if staying IC",
+      "Reduce context switching and improve prioritization during the platform migration"
+    ],
+    "timeline_months": 9
+  },
+  "current_projects": [
+    "Event ingestion reliability initiative (Kafka to SQS migration)",
+    "Internal developer platform enhancements (golden paths and paved roads)"
+  ],
+  "specific_dilemma": "Choosing the IC vs manager path",
+  "constraints": [
+    "On-call every 6 weeks, heavy pages during migration",
+    "Two kids under 5; best meeting windows Tue/Thu 11:30–13:00 ET",
+    "Prefer initial asks capped at 15–20 minutes"
+  ],
+  "mentorship_preferences": {
+    "cadence": "Monthly check-in",
+    "channels": ["Slack", "Email", "Zoom"],
+    "ask_size": "Small, specific questions scoped to 15–20 minutes",
+    "selection_criteria": "Mentors 2–5 steps ahead, accessible (medium/high), not celebrities"
+  },
+  "evaluation_criteria": {
+    "if_manager": [
+      "Comfort running effective 1:1s and performance feedback",
+      "Ability to shield the team and prioritize amidst platform migration",
+      "Energy level after 4–6 weeks of temporary EM backfill"
+    ],
+    "if_ic": [
+      "Progress toward Staff IC scope: cross-team influence, key technical decisions",
+      "Reduced pages and improved stability for ingestion pipeline",
+      "Mentoring juniors without formal people management"
+    ]
+  }
+}

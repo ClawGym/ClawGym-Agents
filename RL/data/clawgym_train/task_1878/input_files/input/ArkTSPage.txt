@@ -1,0 +1,24 @@
+import { RNAbility } from '@rnoh/react-native-openharmony';
+
+@Entry
+@Component
+export struct RNHostPage {
+  @State title: string = 'RNOH Host Page';
+  @StorageLink('RNAbility') rnAbility: RNAbility | undefined = undefined;
+
+  // NOTE: Missing lifecycle wiring to RNAbility.onForeground/onBackground
+  aboutToAppear() {
+    console.info('RNHostPage aboutToAppear');
+  }
+
+  build() {
+    Column() {
+      Text(this.title)
+        .fontSize(22)
+        .margin({ top: 24 });
+      // React Native surface would be placed here
+    }
+    .width('100%')
+    .height('100%');
+  }
+}

@@ -1,0 +1,12 @@
+- id: CS3
+  rule: "Require docstrings for public functions and modules"
+  rationale: "Improves maintainability and API clarity"
+  severity: Medium
+- id: CS1
+  rule: "Limit line length to 100 characters"
+  rationale: "Improves diff readability and prevents horizontal scrolling"
+  severity: low
+- id: CS2
+  rule: "Prefer explicit imports over wildcard imports"
+  rationale: "Avoids namespace collisions and improves tooling"
+  severity: HIGH

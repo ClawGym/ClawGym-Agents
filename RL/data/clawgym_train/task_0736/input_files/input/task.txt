@@ -1,0 +1,63 @@
+Project: Stabilize the CSV normalization workflow for downstream analytics
+
+Background:
+We have a small but messy CSV from an upstream partner. Three prior attempts failed for different reasons (field count mismatches due to thousands separators, brittle date parsing, and duplicate headers after normalization). We need to design a robust, idempotent normalization approach that can handle these edge cases consistently.
+
+Goal:
+Produce a normalized CSV that is safe for ingestion by our analytics jobs. The process should be tolerant of common data hygiene issues and produce deterministic results.
+
+Scope:
+- Input: a single CSV file with potentially inconsistent formatting (see sample.csv).
+- Output: a single normalized CSV with consistent headers, types, and values.
+- No external network calls. Local reasoning and planning only.
+
+Required normalization rules:
+1) Headers
+   - Trim whitespace, remove BOM, collapse internal spaces, ASCII-only, snake_case (e.g., "Total Spend ($)" → "total_spend_usd").
+   - Deduplicate normalized header collisions deterministically using suffixes: e.g., "user_id" and "user_id" → "user_id" and "user_id_2". Preserve left-to-right order.
+   - Keep column order stable.
+
+2) Data types and value normalization
+   - Dates: signup_date and last_login → ISO 8601 (UTC) if possible. Accept multiple input formats:
+     • YYYY-MM-DD
+     • YYYY/MM/DD
+     • DD-MM-YYYY
+     • “3/6/24 10:10 PM PST” (convert to UTC if tz present; otherwise treat as naive and keep date-only).
+   - Booleans: opt_in → true/false from {yes/no, y/n, true/false, 1/0}, case-insensitive.
+   - Currency: total_spend_usd → decimal string with two places; strip currency symbols ($, €, etc.), remove thousands separators, convert European decimal comma to dot if detected.
+   - Strings: trim surrounding whitespace, normalize internal NBSP/non-ASCII spaces to regular space.
+   - Missing values: treat {N/A, NA, null, NULL, "", " "} as missing. Leave missing cells empty in output.
+
+3) Structural robustness
+   - Detect CSV dialect (delimiter, quotechar) if possible. Default to comma; be tolerant of stray commas in numbers by applying numeric field repair.
+   - If a row has more fields than headers due to unquoted thousands separators, attempt localized repair for known numeric columns (e.g., “1,234.50” → “1234.50”). Do not drop the row.
+   - Preserve row order and row count post-repair. Do not reorder or drop records silently.
+
+4) Idempotency
+   - Running the normalization twice should yield identical output (no further changes on the second pass).
+
+Acceptance criteria:
+- Header set is normalized, ASCII, snake_case, and deduplicated deterministically (left-most wins; suffix _2, _3… for collisions).
+- Row count in the normalized CSV equals row count of the raw CSV after in-place repair (no silent row loss).
+- Dates parse to ISO 8601 strings (UTC when possible); unparseable dates are left as original strings and flagged in a side log (future work).
+- Currency values emit as canonical decimal strings (e.g., "1234.50").
+- Booleans emit as true/false.
+- The process is resilient to BOM, NBSP, unquoted thousands separators, and inconsistent date formats.
+
+Constraints:
+- No external network requests or online lookups.
+- Log parsing/normalization errors as structured messages (future work). For this planning pass, clearly document verification criteria you would use.
+- Do not ask for more information until you have completed the seven-item clarity checklist and delivered the required outputs.
+
+Notes and reminders:
+- We’ve seen duplicate logical columns after normalization (“user_id” collision).
+- We’ve seen “expected 8 fields, saw 9” when a thousands-separated number was not quoted.
+- Normalize but do not over-correct: if multiple interpretations are possible (e.g., “05-03-2024”), prefer day-first only if the dataset indicates that pattern consistently; otherwise keep original as-is.
+
+Deliverables to produce (for this pass only):
+- A structured self-correction report using the five-step process (Stop, Observe, Turn, Act, Realize).
+- A completed 7-item clarity checklist (all true).
+- Attempts and action plan JSONs with fundamentally different hypotheses and explicit verification criteria.
+- Evidence quotes from logs or this brief.
+
+Keep initiative: after addressing X, check Y and Z (e.g., after header normalization, proactively verify duplicates/row counts and a sample of date/currency parsing) before declaring “done”.

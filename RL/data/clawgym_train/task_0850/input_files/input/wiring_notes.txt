@@ -1,0 +1,51 @@
+Controller: Arduino Uno R3 (5V logic)
+
+Power:
+- Uno powered from laptop USB (5V via USB)
+- SG90 servo power: red wire to Arduino 5V pin; brown (GND) to Arduino GND; orange (signal) to D9
+- DC motor power: separate 6V 4xAA battery pack to motor +; return to battery − (NOT currently tied to Uno GND)
+- HC-05 Bluetooth: VCC to 5V, GND to GND, TX to D0 (RX), RX to D1 (TX) via direct jumper (no divider)
+- No dedicated decoupling capacitors added near the BME280 or on servo/motor supply rails (no 0.1uF ceramic caps at sensor)
+
+Sensors:
+- BME280 breakout (3.3V-only breakout):
+  - VCC to 3.3V pin on Uno
+  - GND to GND
+  - SDA to A4
+  - SCL to A5
+  - No level shifter used between 5V Uno I2C lines and 3.3V BME280 lines
+  - Using ~30 cm Dupont jumpers for I2C wiring
+  - No local 0.1uF decoupling capacitor at the BME280 board
+
+Actuators:
+- SG90 servo:
+  - Signal: D9 (PWM)
+  - Power: from Arduino 5V pin (same as Uno)
+  - Ground: Arduino GND
+- DC motor (small 3–6V “TT” type):
+  - Driven through a 2N2222 NPN transistor on D3 (base via 1k resistor)
+  - Motor + to 6V battery pack +
+  - Motor − to transistor collector; transistor emitter to battery −
+  - Flyback diode across motor terminals (1N4007, band to +)
+  - Battery − (motor ground) is NOT currently connected/common with Arduino GND
+
+User Interface:
+- Pushbutton to D7:
+  - One leg of the button to D7
+  - Other leg to +5V
+  - No resistor to ground; pinMode set to INPUT (not INPUT_PULLUP)
+  - Result: when button is open, D7 is floating
+- LED indicator:
+  - D13 to LED anode directly
+  - LED cathode to GND
+  - No current-limiting resistor in series
+
+Serial/Comms:
+- Using Serial Monitor for debugging at 115200 (habit), but sketch may use 9600
+- HC-05 connected on hardware RX/TX pins 0/1 (same as USB serial)
+- When HC-05 is connected, uploads sometimes fail; Serial Monitor sometimes can’t open or shows garbage
+
+Cable/Wiring Notes:
+- Long jumper leads (~30 cm) to sensors and some power runs
+- No twisted pairs or shielding
+- Breadboard power rails used; possibly intermittent contacts

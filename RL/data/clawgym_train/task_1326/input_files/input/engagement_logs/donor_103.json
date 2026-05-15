@@ -1,0 +1,4 @@
+[
+  {"event_type": "donation", "date": "2023-01-15", "amount": 50},
+  {"event_type": "email_open", "date": "2023-04-20"}
+]

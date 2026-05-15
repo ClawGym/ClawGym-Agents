@@ -1,0 +1,8 @@
+domain,port
+example.com,
+expired.badssl.com,
+self-signed.badssl.com,
+invalid.domain.test,
+internal.example.local,8443
+api.github.com,443
+www.cloudflare.com,

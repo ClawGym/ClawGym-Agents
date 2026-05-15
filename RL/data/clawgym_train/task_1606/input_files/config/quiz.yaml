@@ -1,0 +1,7 @@
+site_name: "Porterhouse Pub Quiz"
+rounds:
+  - slug: "music-90s"
+    title: "Round: 90s Music"
+    date: "2025-11-20"
+    source_csv: "out/90s_music_questions.csv"
+    handout_md: "docs/rounds/90s-music-2025-11.md"

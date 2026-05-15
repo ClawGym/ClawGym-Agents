@@ -1,0 +1,8 @@
+vendor,service,data_types,region,processing_role,data_residency,transfer_mechanism,subprocessors,notes
+Amazon Web Services (AWS),Cloud hosting and storage,"identity; account; behavioral; logs",US; EU,processor,US/EU,"SCCs + encryption at rest/in transit","Amazon subsidiaries","Multi-region hosting in us-east-1 and eu-west-1; customer data encrypted at rest (AES-256)"
+Stripe,Payments processing,"identity; financial; transactions",US; EU,processor,US,"SCCs + PCI DSS Level 1",,Card data tokenized; we store only tokens and last4
+Mailchimp,Email marketing,"email; name; engagement",US,processor,US,"SCCs + TIA",,"Used for newsletters and product updates (opt-in)"
+Zendesk,Customer support,"name; email; support messages; attachments; order ID",US; EU,processor,US/EU,"SCCs",AWS,"Tickets may include attachments; access restricted to support team"
+Sift,Fraud detection,"device; IP; behavioral; risk scores",US,processor,US,"SCCs + supplementary measures",,"Used for fraud/risk scoring on checkout and login"
+Greenhouse,Recruiting (ATS),"identity; CV; interview notes; background check status",US,processor,US,"SCCs","Checkr (background checks)","Background checks only for certain roles and jurisdictions"
+Google Analytics,Web analytics,"IP; device; usage; cookie ID",US; EU,processor,EU (data region settings),"SCCs + IP anonymization","Google sub-processors","Consent required in EU/UK; IP anonymization enabled"

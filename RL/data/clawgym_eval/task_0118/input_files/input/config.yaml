@@ -1,0 +1,15 @@
+resident_name: Margaret Lee
+preferred_tone: warm and clear
+sign_off: Love, Grandma Margaret
+reply_templates:
+  group:
+    subject_prefix: "Re: "
+    body_guidance: "Acknowledge details, confirm pickup time if comfortable, ask for needed accommodations, keep under 120 words."
+  individual:
+    subject_prefix: "Re: "
+    body_guidance: "Thank them, provide health update in one sentence, accept or propose times, mention any small request, keep under 120 words."
+recipients:
+  "Family Group": "family_group@list.example.com"
+  "Emily": "emily@example.com"
+  "Margaret": "margaret@example.com"
+  "Daniel": "daniel.bounce@example.com"

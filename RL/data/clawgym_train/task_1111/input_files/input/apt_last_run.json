@@ -1,0 +1,16 @@
+{
+  "ranAt": "2026-03-25T06:00:00Z",
+  "aptUpdateOk": true,
+  "unattendedOk": true,
+  "simulatedOk": true,
+  "updatedPackages": [
+    "bind9-libs",
+    "ca-certificates"
+  ],
+  "simulateSummary": "3 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.",
+  "upgradable": [
+    "curl",
+    "libssl1.1",
+    "vim"
+  ]
+}

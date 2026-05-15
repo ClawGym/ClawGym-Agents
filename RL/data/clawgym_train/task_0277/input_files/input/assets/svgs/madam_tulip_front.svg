@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1600" height="2560" viewBox="0 0 1600 2560" xmlns="http://www.w3.org/2000/svg">
+  <!-- Front cover mock. Title uses Playfair Display, author uses Crimson Text. -->
+  <rect x="0" y="0" width="1600" height="2560" fill="#1a1124" />
+  <text x="800" y="860" text-anchor="middle" font-family="Playfair Display" font-size="160" fill="#f8e6b7">Madam Tulip</text>
+  <text x="800" y="1030" text-anchor="middle" font-family="Playfair Display" font-size="80" fill="#f8e6b7">and the Secret</text>
+  <text x="800" y="2200" text-anchor="middle" font-family="Crimson Text" font-size="64" fill="#f8e6b7">David Ahern</text>
+  <circle cx="800" cy="1400" r="220" fill="#7a1f3d" opacity="0.85" />
+</svg>

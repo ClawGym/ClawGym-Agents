@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0616",
+  "user_query": "I need a pre-install security audit of a skill folder. Please do a static scan of input/skill_to_audit/ and identify any malicious or risky patterns (e.g., credential exfiltration, obfuscated payloads, dangerous install scripts, hidden files, and known-bad dependencies). Then:\n\n1) Write a machine-readable report to output/scan.json with:\n- findings: an array of objects including at least: check (string), severity (INFO/LOW/MEDIUM/HIGH/CRITICAL), description (string), path (relative file path under input/skill_to_audit), and line_num (integer when applicable).\n- severity_counts: a map of severities to integer counts.\n- classification: one of CLEAN, INFO, REVIEW, SUSPICIOUS, or DANGEROUS (choose this based on the findings; if any CRITICAL exists, classify as DANGEROUS).\n- recommendation: one sentence stating install/not-install guidance based on classification.\n\n2) Write a human-readable summary to output/summary.md including:\n- A one-line Overall Classification (e.g., \"Overall Classification: DANGEROUS\").\n- A prioritized list of top risks with brief explanations and file/line references.\n- Specific remediation steps for each top risk.\n- A short note about any potential false positives and what to manually review.\n\n3) Generate a new local Ed25519 key pair, compute the SHA-256 digest of output/scan.json, and create output/attestation.json with: agent_id (32 hex chars), public_key (PEM or base64), classification (must match scan.json), scan_sha256 (64 hex), signature (base64 over the classification + scan_sha256 or over the JSON digest), and signed_at (ISO 8601). Do not upload anything; keep all files local.\n\nDo not modify anything under input/. Use only relative paths inside this workspace.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,33 @@
+{
+  "product": [
+    { "item": "Beta tested with 25+ users", "status": "done", "weight": 3 },
+    { "item": "Core user journey validated end-to-end", "status": "partial", "weight": 3 },
+    { "item": "P0/P1 bugs resolved", "status": "partial", "weight": 3 },
+    { "item": "User-facing documentation complete", "status": "partial", "weight": 2 },
+    { "item": "In-app onboarding checklist live", "status": "done", "weight": 2 },
+    { "item": "Support macros and internal FAQ", "status": "not_started", "weight": 2 },
+    { "item": "Pricing finalized and live", "status": "done", "weight": 2 },
+    { "item": "Accessibility basics checked (WCAG AA)", "status": "not_started", "weight": 1 },
+    { "item": "Feedback collection mechanism in place", "status": "done", "weight": 1 }
+  ],
+  "marketing": [
+    { "item": "Landing page updated for Smart Goals Autopilot", "status": "partial", "weight": 3 },
+    { "item": "Email announcement sequence ready", "status": "not_started", "weight": 3 },
+    { "item": "Press / media kit prepared", "status": "not_started", "weight": 2 },
+    { "item": "Social media assets created", "status": "partial", "weight": 2 },
+    { "item": "Product Hunt listing prepared", "status": "partial", "weight": 2 },
+    { "item": "SEO meta tags and OG images set", "status": "done", "weight": 2 },
+    { "item": "Influencer / community outreach planned", "status": "partial", "weight": 2 },
+    { "item": "Referral / viral loop mechanism designed", "status": "not_started", "weight": 1 }
+  ],
+  "technical": [
+    { "item": "Production monitoring & alerting active", "status": "done", "weight": 3 },
+    { "item": "Load / performance tested at 3× expected traffic", "status": "partial", "weight": 3 },
+    { "item": "Rollback plan documented and rehearsed", "status": "not_started", "weight": 3 },
+    { "item": "Database backups verified and automated", "status": "done", "weight": 2 },
+    { "item": "Error tracking live (Sentry/Equiv)", "status": "done", "weight": 2 },
+    { "item": "Analytics events firing correctly for feature funnel", "status": "partial", "weight": 2 },
+    { "item": "Rate limiting / DDoS protection configured", "status": "partial", "weight": 2 },
+    { "item": "Feature flags configured for safe rollout", "status": "done", "weight": 1 }
+  ]
+}

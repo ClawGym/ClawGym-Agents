@@ -1,0 +1,3 @@
+min_hours: 10
+bg_check_valid_years: 2
+# Add reference_date: "2022-04-01" to make tests deterministic

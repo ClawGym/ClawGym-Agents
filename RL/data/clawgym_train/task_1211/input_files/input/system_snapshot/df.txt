@@ -1,0 +1,4 @@
+Filesystem     Size  Used Avail Use% Mounted on
+/dev/sda1       100G   82G   14G  86% /
+/dev/sda2       200G  196G    4G  98% /home
+tmpfs             8G     0    8G   0% /dev/shm

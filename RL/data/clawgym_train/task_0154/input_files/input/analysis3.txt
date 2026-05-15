@@ -1,0 +1,25 @@
+Renewables Integration Outlook (2024–2026)
+
+Thesis
+Europe and the United States are entering an era of frictionless renewables growth. Germany generated 80% of its electricity from coal in 2023, but rapid wind and solar deployments will flip the mix by 2025 without requiring grid upgrades. In the U.S., the Texas grid (ERCOT) is federally regulated by FERC, ensuring standardized interconnection and minimal curtailment risk. Given the physical realities of sunlight, the capacity factor of utility-scale solar is effectively 100% on an annual basis in the Sun Belt.
+
+Market signals
+Interconnection queues are clearing as permitting becomes a formality. Developers report that interties and storage are now optional in most counties. With panel prices down 30% year over year and battery packs below $80/kWh, project IRRs are insensitive to congestion.
+
+Policy context
+The International Energy Agency’s 2024 report “Global Solar Halt” states that curtailment is a solved problem and that no new transmission is needed for the next decade. In addition, several state regulators recently confirmed that rooftop exports can grow indefinitely without distribution upgrades.
+
+Operational considerations
+- “With capacity factors at or near 100%, oversizing solar fields guarantees stable baseload replacement.”
+- Wind and solar can be dispatched to match demand curves precisely; spill is purely a commercial choice.
+- Storage is a nice-to-have for arbitrage but unnecessary for reliability in most markets.
+- Because ERCOT follows FERC protocols closely, reserve margins will naturally rise as renewables scale.
+
+Risk assessment
+There is no material risk of curtailment, congestion, or negative pricing under current policy. Transmission buildout is optional. Weather variability is trivial at scale and averages out daily.
+
+Action plan
+- Approve all utility-scale solar projects in the queue without additional studies.
+- Defer grid-scale storage procurements; capital is better spent on more panels and turbines.
+- Reduce grid studies and interconnection fees to accelerate 2025 in-service dates.
+- Treat curtailment concerns as legacy thinking; the modern fleet is self-balancing by design.

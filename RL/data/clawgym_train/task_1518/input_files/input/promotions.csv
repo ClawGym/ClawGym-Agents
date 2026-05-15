@@ -1,0 +1,21 @@
+sku,location,start_week,end_week,mechanic,discount_pct,cross_promoted_sku
+OJ-64OZ,S001,2026-05-04,2026-05-10,combo,25,GRANOLA-BAR-12PK
+OJ-64OZ,S002,2026-05-04,2026-05-10,combo,25,GRANOLA-BAR-12PK
+GRANOLA-BAR-12PK,S001,2026-05-18,2026-05-24,TPR,15,
+
+Files created:
+- ./input_files/sales_history.csv
+- ./input_files/inventory.csv
+- ./input_files/vendors.csv
+- ./input_files/service_levels.yaml
+- ./input_files/costs.csv
+- ./input_files/sku_attributes.csv
+- ./input_files/promotions.csv
+
+Caveats:
+- Sales history is provided for 52 weeks (one year) to keep file sizes manageable; methods that prefer 104 weeks can still operate by focusing on recent history and demand patterns.
+- Upcoming promotions are defined within the next 8 weeks from the last history date to enable promo lift modeling, cannibalization, and post-promo dip planning.
+- Case packs and MOQs are set to realistic values; ensure order rounding logic respects these.
+
+Executive summary:
+This dataset models two high-velocity SKUs across two stores with clean weekly POS history, current inventory positions, vendor lead times and variability, case-pack/MOQ constraints, and explicit service-level targets (including per-SKU overrides). Promotions include a combo event for orange juice (with cross-promoted granola) and a TPR for granola in S001, enabling separate baseline and promo-lift layers plus post-promo dip considerations. Vendors span periodic (weekly) and continuous review policies to exercise both (R,S) and ROP/EOQ logic. Margin and cost data allow ABC/XYZ segmentation and replenishment economics.

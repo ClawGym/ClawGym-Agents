@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1009",
+  "user_query": "I need an independent, pre-trade risk assessment for several proposed DeFi operations. Please read input/operations.json (the operations and their metadata) and input/policies.yaml (decision thresholds and hard-veto rules), then produce two artifacts:\n\n1) Write output/assessments.json as an array of structured assessments, one per operation (by id). For each assessment include: id, operationSummary, riskTolerance, decision (APPROVE | CONDITIONAL_APPROVE | VETO | HARD_VETO), compositeRisk (LOW | MEDIUM | HIGH), dimensions with keys Slippage, ImpermanentLoss, Liquidity, SmartContract, Bridge scored as LOW | MEDIUM | HIGH | N/A as appropriate, hardVetoTriggers (array; empty if none), reasoning (a concise paragraph), and mitigations (array of concrete steps). The decision logic must respect the policy thresholds and these rules: (a) HARD_VETO if any token is unverified, poolTVLUSD < minimum, priceImpactPct >= hard-veto max, or for bridges if amountUSD exceeds bridgeLiquidityUSD; (b) for LP with riskTolerance=conservative and estimatedILAnnPct at or above the policy threshold, return VETO (unless a hard-veto condition applies); (c) for swaps with riskTolerance=conservative and priceImpactPct >= the policy’s conservative threshold, do not return APPROVE. Mark non-applicable dimensions as N/A.\n\n2) Write output/summary.md summarizing each operation with its final decision, call out any hard-veto reasons, and include a brief ranked list from safest to riskiest based on your assessments.\n\nDo not execute any trades. Base all judgments on the provided inputs and the policy thresholds. Ensure the field names and allowed values are exactly as specified above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

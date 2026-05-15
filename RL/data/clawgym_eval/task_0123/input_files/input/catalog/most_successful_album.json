@@ -1,0 +1,16 @@
+{
+  "album_title": "Skyline Echoes",
+  "release_year": 2023,
+  "tracks": [
+    {"track_number": 1, "title": "Distant Light"},
+    {"track_number": 2, "title": "City Rivers"},
+    {"track_number": 3, "title": "After the Storm"},
+    {"track_number": 4, "title": "Quiet Turning"},
+    {"track_number": 5, "title": "Silver Threads"},
+    {"track_number": 6, "title": "Echo in the Hall"},
+    {"track_number": 7, "title": "Wide Awake"},
+    {"track_number": 8, "title": "Glass and Stone"},
+    {"track_number": 9, "title": "Horizon Line"},
+    {"track_number": 10, "title": "Hold the Sky"}
+  ]
+}

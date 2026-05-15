@@ -1,0 +1,6 @@
+id,title,type,date,time,course,location,importance
+E1,Capstone weekly sync,team_meeting,2026-04-22,16:00,Capstone,FabLab Room 2,5
+E2,Signals lecture,class,2026-04-20,09:00,ENGR 301: Signals,Main 101,2
+E3,Thermo exam,exam,2026-04-29,08:00,ENGR 210: Thermodynamics,Aula 3,5
+E4,Capstone check-in,team_meeting,2026-04-15,17:00,Capstone,Zoom,4
+E5,Lab 4 practical,lab,2026-04-19,14:00,ENGR 305: Mechatronics,Lab A,3

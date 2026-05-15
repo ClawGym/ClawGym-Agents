@@ -1,0 +1,3 @@
+sku,selling_price,cogs,shipping_cost,payment_fee_pct,platform_fee_pct,discount_rate,refund_rate
+Hoodie-Heavyweight,90,22,6,0.029,0.03,0.10,0.04
+ChefKnife-8in,120,25,7.5,0.029,0.03,0.15,0.03

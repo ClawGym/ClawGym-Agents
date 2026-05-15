@@ -1,0 +1,6 @@
+{
+  "dues": {"polarity": "income"},
+  "donation": {"polarity": "income"},
+  "strike_support": {"polarity": "expense"},
+  "printing": {"polarity": "expense"}
+}

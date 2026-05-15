@@ -1,0 +1,11 @@
+task_id,name,category,minutes_per_task,frequency_per_month,repetitive,rule_based,requires_judgment,estimated_setup_hours,complexity_level
+T001,Add new leads to CRM,Lead Capture,12,30,true,true,false,1.5,2
+T002,Send weekly client reports,Reporting,25,4,true,true,false,2,3
+T003,Create invoices after payment,Invoicing,10,20,true,true,false,1.2,2
+T004,Schedule social media posts,Social Posting,15,16,true,true,false,1,2
+T005,Onboard new clients,Client Onboarding,30,6,true,true,false,3,3
+T006,Prepare custom proposals,Proposals,90,4,false,false,true,2,3
+T007,Follow up on late invoices,Invoicing,8,10,true,true,false,1,2
+T008,Manually tag leads from email,Lead Capture,7,40,true,false,false,0.8,1
+T009,Monthly bookkeeping reconciliation,Bookkeeping,120,1,true,true,true,4,4
+T010,Publish blog and distribute,Content Distribution,20,4,true,true,false,2.5,3

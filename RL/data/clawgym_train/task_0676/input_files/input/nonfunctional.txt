@@ -1,0 +1,35 @@
+Non-Functional Requirements — Docs Team Multi-Actor Writing Assistant
+
+1) Safety and Side-Effects
+- All tool calls must be stubbed and non-destructive. No real network, file I/O that mutates state outside the agent, shell commands, or cloud API calls.
+- Tool outputs should be deterministic examples (e.g., fixed lists/snippets) derived from the input query string (safe echo patterns allowed).
+- Any “external” action must route through the dedicated Tools node.
+
+2) Human-in-the-Loop (HITL) Approval
+- The system must pause before executing the Tools node when requires_approval=true, configured via compile(..., interrupt_before=['tools']).
+- Approval workflow: On pause, execution returns control to the caller; resuming the run should continue at the Tools node.
+- If approval is not granted or caller chooses to skip, clear pending_tool_call and proceed to Writer (no tool side effects performed).
+
+3) Reliability & Loop Guards
+- Implement bounded loops with max_turns and max_tool_loops to avoid infinite cycling (Agent -> Tools -> Agent).
+- On exceeding guards, set exit_status='done' and terminate cleanly, or degrade gracefully by sending Writer a best-effort path without tools.
+
+4) Persistence / Resume
+- Use a checkpointer (e.g., MemorySaver) at compile time to persist state and allow resuming.
+- Demonstrate thread-aware execution (e.g., thread_id); resuming should pick up from the paused point (pre-tools approval or intermediate step).
+
+5) Observability & Streaming
+- Provide streaming mode (app.stream) that emits node lifecycle events and tool events without exposing secrets.
+- Ensure logs/events contain enough context to debug flow decisions (node names, decisions, reasons) but no sensitive data.
+
+6) Performance & Determinism
+- Ensure reasonably fast execution (stub tools must be O(1) to O(n) on tiny inputs).
+- Seed any randomized behavior for determinism, or avoid randomness altogether.
+
+7) Documentation Quality
+- README.md must adhere to the rubric-required sections and be sufficient for a new developer to run the workflow locally.
+- METACOGNITION.md must map the five metacognitive stages to explicit nodes/logic and show checkpoint moments.
+
+8) Compliance with Spec
+- Follow spec.yaml for node names, routing, and exit conditions.
+- Ensure wording and naming in docs align with Supervisor, Multi-actor design, and the dedicated Tools node semantics.

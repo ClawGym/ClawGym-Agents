@@ -1,0 +1,5 @@
+[
+  { "channel": "tickers", "instId": "BTC-USDT" },
+  { "channel": "tickers", "instId": "ETH-USDT" },
+  { "channel": "trades",  "instId": "BTC-USDT" }
+]

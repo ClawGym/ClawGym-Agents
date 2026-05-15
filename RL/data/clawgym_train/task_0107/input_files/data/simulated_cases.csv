@@ -1,0 +1,11 @@
+case_id,date,gestational_age_weeks,condition,outcome
+1,2026-04-01,36.2,Hypertensive disorder,maternal_stable
+2,2026-04-02,28.5,Preterm labor,NICU_admit
+3,2026-04-03,40.1,Normal labor,healthy
+4,2026-04-03,32.0,Gestational diabetes,neonatal_hypoglycemia
+5,2026-04-04,38.7,Hypertensive disorder,induction
+6,2026-04-05,24.3,Preterm labor,NICU_admit
+7,2026-04-05,34.6,Hypertensive disorder,maternal_stable
+8,2026-04-06,39.2,Normal labor,healthy
+9,2026-04-06,30.5,Gestational diabetes,healthy
+10,2026-04-07,35.0,Hypertensive disorder,maternal_stable

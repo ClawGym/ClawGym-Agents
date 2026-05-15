@@ -1,0 +1,9 @@
+{
+  "client_name": "Northstar Streaming",
+  "contact_name": "Ava Chen",
+  "contact_email": "ava.chen@northstar.example",
+  "target_age_range": "18-34",
+  "target_markets": ["Los Angeles, CA", "Chicago, IL", "Atlanta, GA"],
+  "priority_genres": ["Drama", "Crime", "Sci-Fi", "Reality-TV", "Comedy"],
+  "notes": "We are exploring a lineup that balances buzzworthy serialized storytelling with a few unscripted tentpoles; avoid niche subgenres unless they show strong ratings and volume."
+}

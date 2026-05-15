@@ -1,0 +1,21 @@
+{
+  "materials": [
+    {
+      "name": "Props/Chair",
+      "albedo": "assets/props/chair_albedo.png",
+      "albedoSRGB": false,
+      "normal": "assets/props/chair_normal.png",
+      "normalFormat": "DirectX",
+      "metallicRoughness": "assets/props/chair_mr.png",
+      "occlusion": "assets/props/chair_ao.png"
+    },
+    {
+      "name": "Props/Glass",
+      "albedo": "assets/props/glass_albedo.png",
+      "albedoSRGB": false,
+      "normal": "",
+      "metallicRoughness": "assets/props/glass_mr.png",
+      "occlusion": ""
+    }
+  ]
+}

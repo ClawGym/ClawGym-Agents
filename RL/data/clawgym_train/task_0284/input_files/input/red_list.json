@@ -1,0 +1,10 @@
+[
+  {"species_name": "Encephalartos latifrons", "red_list_category": "CR"},
+  {"species_name": "Protea repens", "red_list_category": "LC"},
+  {"species_name": "Aloe ferox", "red_list_category": "LC"},
+  {"species_name": "Strelitzia reginae", "red_list_category": "LC"},
+  {"species_name": "Leucadendron argenteum", "red_list_category": "EN"},
+  {"species_name": "Moraea villosa", "red_list_category": "EN"},
+  {"species_name": "Disa uniflora", "red_list_category": "LC"},
+  {"species_name": "Welwitschia mirabilis", "red_list_category": "NT"}
+]

@@ -1,0 +1,7 @@
+app_name: CreativeWidgets
+app_version: "2.3.1"
+copyright_holder: CreativeWidgets LLC
+copyright_year: "2024"
+assets:
+  - path: assets/example-product.txt
+    include_in_package: true

@@ -1,0 +1,13 @@
+BillingPeriodStart,BillingPeriodEnd,UsageDate,SubscriptionName,ResourceGroupName,ResourceLocation,ServiceName,MeterCategory,MeterSubcategory,Product,MeterName,Quantity,UnitOfMeasure,CostInUSD,Currency
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-weu-apps,West Europe,Bandwidth,Networking,Data Transfer Out - Internet,Public Internet Egress,Outbound Data Transfer Zone 1,35000,GB,3100,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-eus-core,East US,Bandwidth,Networking,Data Transfer Out - Internet,Public Internet Egress,Outbound Data Transfer Zone 1,29000,GB,2600,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-jpe-web,Japan East,Bandwidth,Networking,Data Transfer Out - Internet,Public Internet Egress,Outbound Data Transfer Zone 2,15000,GB,1500,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-weu-apps,West Europe,Bandwidth,Networking,Data Transfer Out - Inter-Region,Inter-Region Data Transfer,Inter-Region Outbound,18000,GB,1500,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-eus-core,East US,Bandwidth,Networking,Data Transfer Out - Inter-Region,Inter-Region Data Transfer,Inter-Region Outbound,14000,GB,1200,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-jpe-web,Japan East,Bandwidth,Networking,Data Transfer Out - Inter-Region,Inter-Region Data Transfer,Inter-Region Outbound,8000,GB,700,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-eus-data,East US,Bandwidth,Networking,Private Link - Data Processed,Private Link,Private Link Data Processed,20000,GB,400,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-weu-sec,West Europe,Bandwidth,Networking,Private Link - Data Processed,Private Link,Private Link Data Processed,17500,GB,350,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-jpe-sec,Japan East,Bandwidth,Networking,Private Link - Data Processed,Private Link,Private Link Data Processed,7500,GB,150,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-weu-hub,West Europe,Bandwidth,Networking,ExpressRoute Egress (Metered),ExpressRoute,ExpressRoute Egress Data,10000,GB,500,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-eus-hub,East US,Bandwidth,Networking,ExpressRoute Egress (Metered),ExpressRoute,ExpressRoute Egress Data,6000,GB,300,USD
+2026-03-01,2026-03-31,2026-03-31,Prod-Subscription,rg-jpe-hub,Japan East,Bandwidth,Networking,ExpressRoute Egress (Metered),ExpressRoute,ExpressRoute Egress Data,2000,GB,100,USD

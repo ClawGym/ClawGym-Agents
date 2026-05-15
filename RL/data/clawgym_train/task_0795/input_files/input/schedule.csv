@@ -1,0 +1,6 @@
+round,date,home_team,away_team,venue,start_time,has_ticket_info
+R8,2024-05-05,St Kilda,Carlton,Marvel Stadium,15:20,TRUE
+R9,2024-05-12,Richmond,St Kilda,,13:10,FALSE
+R10,2024-05-19,St Kilda,Sydney,Marvel Stadium,16:40,TRUE
+R11,2024-05-26,Collingwood,Brisbane,MCG,19:20,TRUE
+R12,2024-06-01,St Kilda,Essendon,,19:25,TRUE

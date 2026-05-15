@@ -1,0 +1,11 @@
+{
+  "timezone": "local",
+  "jobs": [
+    {
+      "name": "example_echo",
+      "type": "echo",
+      "schedule": "daily 08:00",
+      "config": {"message": "hello from example job"}
+    }
+  ]
+}

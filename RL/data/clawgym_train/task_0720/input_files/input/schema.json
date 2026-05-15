@@ -1,0 +1,200 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DNS Hygiene Report",
+  "description": "Array of domain audit objects. One object per input domain.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "domain",
+      "dns",
+      "dmarc_txt",
+      "whois",
+      "resolved_ip_geos",
+      "reverse_ptr"
+    ],
+    "properties": {
+      "domain": {
+        "type": "string",
+        "description": "The FQDN that was audited (e.g., example.com)."
+      },
+      "dns": {
+        "type": "object",
+        "description": "DNS records grouped by type. Arrays may be empty but must exist. SOA is an object.",
+        "required": ["A", "AAAA", "MX", "TXT", "NS", "CNAME", "SOA"],
+        "properties": {
+          "A": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "required": ["value"],
+                  "properties": {
+                    "type": { "type": "string" },
+                    "value": { "type": "string", "description": "IPv4 address" },
+                    "ttl": { "type": "integer" }
+                  },
+                  "additionalProperties": true
+                },
+                { "type": "string", "description": "IPv4 address" }
+              ]
+            }
+          },
+          "AAAA": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "required": ["value"],
+                  "properties": {
+                    "type": { "type": "string" },
+                    "value": { "type": "string", "description": "IPv6 address" },
+                    "ttl": { "type": "integer" }
+                  },
+                  "additionalProperties": true
+                },
+                { "type": "string", "description": "IPv6 address" }
+              ]
+            }
+          },
+          "MX": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["value"],
+              "properties": {
+                "type": { "type": "string" },
+                "value": { "type": "string", "description": "Mail exchanger hostname with optional preference (e.g., '10 alt1.example.net.')" },
+                "ttl": { "type": "integer" },
+                "preference": { "type": "integer" }
+              },
+              "additionalProperties": true
+            }
+          },
+          "TXT": {
+            "type": "array",
+            "items": {
+              "oneOf": [
+                {
+                  "type": "object",
+                  "required": ["value"],
+                  "properties": {
+                    "type": { "type": "string" },
+                    "value": { "type": "string", "description": "TXT record string" },
+                    "ttl": { "type": "integer" }
+                  },
+                  "additionalProperties": true
+                },
+                { "type": "string", "description": "TXT record string" }
+              ]
+            }
+          },
+          "NS": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["value"],
+              "properties": {
+                "type": { "type": "string" },
+                "value": { "type": "string", "description": "Nameserver hostname" },
+                "ttl": { "type": "integer" }
+              },
+              "additionalProperties": true
+            }
+          },
+          "CNAME": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["value"],
+              "properties": {
+                "type": { "type": "string" },
+                "value": { "type": "string", "description": "Canonical name target" },
+                "ttl": { "type": "integer" }
+              },
+              "additionalProperties": true
+            }
+          },
+          "SOA": {
+            "type": "object",
+            "description": "Start of Authority record object.",
+            "required": ["mname", "rname", "serial"],
+            "properties": {
+              "mname": { "type": "string", "description": "Primary master name server" },
+              "rname": { "type": "string", "description": "Responsible party (email with dot instead of @)" },
+              "serial": { "type": "integer" },
+              "refresh": { "type": "integer" },
+              "retry": { "type": "integer" },
+              "expire": { "type": "integer" },
+              "minimum": { "type": "integer" },
+              "ttl": { "type": "integer" }
+            },
+            "additionalProperties": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "dmarc_txt": {
+        "type": "array",
+        "description": "TXT records found specifically at _dmarc.<domain>. May be empty.",
+        "items": { "type": "string" }
+      },
+      "whois": {
+        "type": "object",
+        "description": "WHOIS/RDAP data. Registrar string must be present.",
+        "required": ["registrar"],
+        "properties": {
+          "registrar": { "type": "string" },
+          "status": { "type": "array", "items": { "type": "string" } },
+          "creation_date": { "type": "string" },
+          "expiration_date": { "type": "string" },
+          "updated_date": { "type": "string" },
+          "nameservers": { "type": "array", "items": { "type": "string" } },
+          "rdap_raw": { "type": "object", "additionalProperties": true }
+        },
+        "additionalProperties": true
+      },
+      "resolved_ip_geos": {
+        "type": "array",
+        "description": "Geolocation results for all IPs resolved from A/AAAA and any additional audited IPs for this domain.",
+        "items": {
+          "type": "object",
+          "required": ["ip", "country_code"],
+          "properties": {
+            "ip": { "type": "string" },
+            "country_code": { "type": "string", "description": "ISO 3166-1 alpha-2 country code (e.g., US, GB)" },
+            "asn": { "type": "string" },
+            "org": { "type": "string" },
+            "region": { "type": "string" },
+            "city": { "type": "string" },
+            "latitude": { "type": "number" },
+            "longitude": { "type": "number" }
+          },
+          "additionalProperties": true
+        }
+      },
+      "reverse_ptr": {
+        "type": "array",
+        "description": "Reverse DNS results (PTR) for any audited IPs (from input and from A/AAAA).",
+        "items": {
+          "type": "object",
+          "required": ["ip", "ptr"],
+          "properties": {
+            "ip": { "type": "string" },
+            "ptr": { "type": "string", "description": "PTR hostname or empty string if none" },
+            "ttl": { "type": "integer" }
+          },
+          "additionalProperties": true
+        }
+      },
+      "service_metadata": {
+        "type": "object",
+        "description": "Optional: API metadata, request IDs, timestamps.",
+        "additionalProperties": true
+      }
+    },
+    "additionalProperties": true
+  }
+}

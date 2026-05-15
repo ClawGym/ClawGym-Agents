@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "code": "0000",
+  "message": "OK",
+  "data": {
+    "amountIn": 1.0,
+    "amountOut": 3190.0,
+    "tokenInPrice": 3200.0,
+    "tokenOutPrice": 1.0,
+    "fee": 5.0,
+    "fromChainId": 2003,
+    "toChainId": 2003,
+    "route": [
+      {
+        "dex": "uniswap_v3",
+        "poolFee": 0.0005,
+        "path": [
+          "ETH",
+          "USDC"
+        ]
+      }
+    ],
+    "slippage": 0.1,
+    "timestamp": 1775969900
+  }
+}

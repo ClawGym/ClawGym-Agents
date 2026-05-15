@@ -1,0 +1,37 @@
+application_id,internship_id,student_major,status
+A001,CS101,Computer Science,accepted
+A002,CS101,Information Systems,rejected
+A003,CS101,Computer Science,submitted
+A004,CS101,Computer Science,rejected
+A005,CS101,Computer Science,accepted
+A006,CS102,Data Science,accepted
+A007,CS102,Computer Science,rejected
+A008,CS102,Mathematics,submitted
+A009,CS102,Computer Science,rejected
+A010,CS102,Computer Science,accepted
+A011,CS103,Information Systems,submitted
+A012,CS103,Computer Science,accepted
+A013,CS103,Computer Science,rejected
+A014,CS103,Computer Science,submitted
+A015,BUS201,Business Administration,accepted
+A016,BUS201,Marketing,rejected
+A017,BUS201,Business Administration,submitted
+A018,BUS202,Finance,rejected
+A019,BUS202,Economics,accepted
+A020,BUS202,Finance,submitted
+A021,BUS202,Accounting,rejected
+A022,BUS202,Finance,accepted
+A023,BUS203,Event Management,submitted
+A024,BUS203,Business Administration,rejected
+A025,ENV301,Environmental Studies,accepted
+A026,ENV301,Biology,rejected
+A027,ENV301,Environmental Studies,rejected
+A028,ENV301,Environmental Studies,submitted
+A029,ENV302,Environmental Studies,accepted
+A030,ENV302,Environmental Policy,rejected
+A031,ENV302,Environmental Studies,submitted
+A032,ENV303,Environmental Studies,accepted
+A033,ENV303,Public Health,rejected
+A034,ENV303,Environmental Studies,accepted
+A035,ENV303,Environmental Science,rejected
+A036,ENV303,Environmental Studies,submitted

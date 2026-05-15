@@ -1,0 +1,6 @@
+{
+  "business_hours": {"start": "06:00", "end": "22:00"},
+  "explicit_restricted_hours": {"start": "06:00", "end": "17:00"},
+  "explicit_filter_enabled": false,
+  "max_volume": 70
+}

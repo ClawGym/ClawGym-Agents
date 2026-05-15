@@ -1,0 +1,19 @@
+volunteer_id,name,neighborhood,event_id,rsvp,signup_timestamp
+V001,Ana,Eastside,E1,Yes,2023-09-05T14:12:00
+V002,Malik,Southside,E1,Yes,2023-09-05T16:45:00
+V003,Rosa,North End,E1,No,2023-09-06T09:02:00
+V004,Devon,Westside,E1,Yes,2023-09-06T11:20:00
+V005,Lin,Central,E1,Yes,2023-09-07T10:05:00
+V006,Pat,Riverside,E1,Maybe,2023-09-07T12:30:00
+V001,Ana,Eastside,E2,Yes,2023-09-09T18:15:00
+V007,Jamal,Eastside,E2,Yes,2023-09-09T19:40:00
+V008,Sofia,Central,E2,No,2023-09-10T08:25:00
+V009,Hector,Westside,E2,Yes,2023-09-10T09:50:00
+V010,Leah,Southside,E2,Yes,2023-09-10T10:10:00
+V011,Omar,North End,E2,Maybe,2023-09-10T10:30:00
+V002,Malik,Southside,E3,Yes,2023-09-12T13:00:00
+V003,Rosa,North End,E3,Yes,2023-09-12T13:15:00
+V006,Pat,Riverside,E3,Yes,2023-09-12T14:05:00
+V012,Maya,Central,E3,Yes,2023-09-12T14:20:00
+V013,Nina,Eastside,E3,No,2023-09-12T15:00:00
+V004,Devon,Westside,E3,Yes,2023-09-12T16:45:00

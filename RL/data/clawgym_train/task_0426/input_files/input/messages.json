@@ -1,0 +1,25 @@
+{
+  "drafts": [
+    {
+      "id": "confirm_school_visit",
+      "subject": "CONFIRMATION for the upcoming SCHOOL VISIT on {DATE}",
+      "audience": "teacher",
+      "purpose": "confirmation",
+      "body": "Hello there! I'm writing to confirm the details for our Hartington history walk, which is scheduled for {DATE} at {TIME}. We'll be meeting at {MEETING_POINT}. Just to reiterate, please ensure students have weather-appropriate gear and clipboards if possible, and we can talk through any specific curriculum links on the day. I know this is a lot of information, but I wanted to make sure everything is clear and to say that I'm really looking forward to welcoming you all to the village!! If anything changes, do let me know as soon as convenient."
+    },
+    {
+      "id": "field_trip_briefing",
+      "subject": "Important Info re: KS3 Hartington Walk on {DATE}",
+      "audience": "teacher",
+      "purpose": "briefing",
+      "body": "Dear Colleague, ahead of the KS3 field trip on {DATE} at {TIME}, here are some notes that may be useful. We will gather promptly at {MEETING_POINT}, and then proceed through the village, pausing at key locations to discuss local industry, transport, and architecture. Please remind chaperones about road safety and keeping groups together, as the lanes can be narrow. Pupils should bring a pen/pencil, suitable footwear, layers, and water; if the forecast looks wet, raincoats are highly advisable. I will bring spare printed maps; however, it helps if staff carry a few as well. Thanks in advance for your support."
+    },
+    {
+      "id": "reschedule_notice",
+      "subject": "About the tour!!!",
+      "audience": "teacher",
+      "purpose": "reschedule",
+      "body": "I'm really sorry but due to the weather looking rather awful, I'd prefer not to run the session on {DATE}. I know this is inconvenient! The paths get slippery and it’s hard for students to hear over the wind, which isn't ideal for learning outcomes. Could we shift to a new date? I can offer {DATE} at {TIME}, meeting again at {MEETING_POINT}. Please let me know what works for you or if you want to discuss alternatives (classroom session, etc.). Many thanks for your flexibility and apologies once more for the hassle."
+    }
+  ]
+}

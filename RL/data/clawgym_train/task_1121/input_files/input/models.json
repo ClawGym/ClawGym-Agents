@@ -1,0 +1,58 @@
+[
+  {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": {
+      "prompt": 0.000015,
+      "completion": 0.000015
+    },
+    "context_length": 200000
+  },
+  {
+    "id": "openai/gpt-4o-mini",
+    "pricing": {
+      "prompt": 0.0000006,
+      "completion": 0.0000006
+    },
+    "context_length": 128000
+  },
+  {
+    "id": "google/gemini-1.5-flash",
+    "pricing": {
+      "prompt": 0.00000075,
+      "completion": 0.00000075
+    },
+    "context_length": 1000000
+  },
+  {
+    "id": "anthropic/claude-3-haiku",
+    "pricing": {
+      "prompt": 0.00000125,
+      "completion": 0.00000125
+    },
+    "context_length": 200000
+  },
+  {
+    "id": "qwen/qwen2.5-72b-instruct",
+    "pricing": {
+      "prompt": 0.0000009,
+      "completion": 0.0000009
+    },
+    "context_length": 32000
+  },
+  {
+    "id": "mistralai/mistral-large",
+    "pricing": {
+      "prompt": 0.000002,
+      "completion": 0.000003
+    },
+    "context_length": 64000
+  },
+  {
+    "id": "openai/gpt-4o",
+    "pricing": {
+      "prompt": 0.00001,
+      "completion": 0.00003
+    },
+    "context_length": 128000
+  }
+]

@@ -1,0 +1,4 @@
+origin,destination,weight_kg,urgency
+Shanghai,Beijing,0.8,normal
+Shenzhen,Guangzhou,0.5,same_day
+Chengdu,Harbin,18.0,low

@@ -1,0 +1,279 @@
+{
+  "lead_form": {
+    "name": "Website Lead Form",
+    "identifiers": {
+      "primary": "submission_id",
+      "secondary": "email"
+    },
+    "events": [
+      "lead_submitted",
+      "lead_updated",
+      "lead_withdrawn"
+    ],
+    "fields": [
+      {
+        "name": "submission_id",
+        "type": "string",
+        "format": "uuid",
+        "required": true,
+        "pii": false,
+        "example": "f7e9a9a2-2b6f-4b52-8c9a-6d4b0d9f1a23"
+      },
+      {
+        "name": "submitted_at",
+        "type": "string",
+        "format": "iso_datetime",
+        "required": true,
+        "pii": false,
+        "example": "2026-04-10T15:24:51Z"
+      },
+      {
+        "name": "email",
+        "type": "string",
+        "format": "email",
+        "required": true,
+        "pii": true,
+        "example": "alex@acme.co"
+      },
+      {
+        "name": "full_name",
+        "type": "string",
+        "required": true,
+        "pii": true,
+        "example": "Alex Jordan"
+      },
+      {
+        "name": "company",
+        "type": "string",
+        "required": false,
+        "pii": false,
+        "example": "Acme Co"
+      },
+      {
+        "name": "website",
+        "type": "string",
+        "format": "url",
+        "required": false,
+        "pii": false,
+        "example": "https://acme.co"
+      },
+      {
+        "name": "phone",
+        "type": "string",
+        "format": "e164",
+        "required": false,
+        "pii": true,
+        "example": "+14155551234"
+      },
+      {
+        "name": "project_type",
+        "type": "string",
+        "enum": [
+          "Marketing Strategy",
+          "Website Redesign",
+          "Analytics Setup",
+          "Other"
+        ],
+        "required": true,
+        "pii": false,
+        "example": "Analytics Setup"
+      },
+      {
+        "name": "budget_range",
+        "type": "string",
+        "enum": [
+          "< $2k",
+          "$2k–$5k",
+          "$5k–$10k",
+          ">$10k",
+          "Unknown"
+        ],
+        "required": true,
+        "pii": false,
+        "example": "$5k–$10k"
+      },
+      {
+        "name": "urgency",
+        "type": "string",
+        "enum": [
+          "ASAP",
+          "This Month",
+          "This Quarter",
+          "Flexible"
+        ],
+        "required": true,
+        "pii": false,
+        "example": "This Month"
+      },
+      {
+        "name": "message",
+        "type": "string",
+        "required": false,
+        "pii": false,
+        "example": "We need help instrumenting our funnel."
+      },
+      {
+        "name": "utm_source",
+        "type": "string",
+        "required": false,
+        "pii": false,
+        "example": "linkedin"
+      },
+      {
+        "name": "referrer_url",
+        "type": "string",
+        "format": "url",
+        "required": false,
+        "pii": false,
+        "example": "https://google.com"
+      },
+      {
+        "name": "consent_marketing",
+        "type": "boolean",
+        "required": true,
+        "pii": false,
+        "example": true
+      },
+      {
+        "name": "location_country",
+        "type": "string",
+        "format": "iso_country_code",
+        "required": false,
+        "pii": false,
+        "example": "GB"
+      },
+      {
+        "name": "timezone",
+        "type": "string",
+        "format": "iana_tz",
+        "required": false,
+        "pii": false,
+        "example": "Europe/London"
+      },
+      {
+        "name": "test_submission",
+        "type": "boolean",
+        "required": false,
+        "pii": false,
+        "default": false,
+        "example": false
+      }
+    ]
+  },
+  "onboarding": {
+    "events": [
+      "contract_signed",
+      "payment_received",
+      "invoice_generated"
+    ],
+    "fields": [
+      {
+        "name": "client_id",
+        "type": "string",
+        "required": true,
+        "pii": false,
+        "example": "CLNT-2026-0012"
+      },
+      {
+        "name": "billing_address",
+        "type": "string",
+        "required": true,
+        "pii": true,
+        "example": "123 Main St, San Francisco, CA 94105, USA"
+      },
+      {
+        "name": "preferred_currency",
+        "type": "string",
+        "enum": [
+          "USD",
+          "EUR",
+          "GBP"
+        ],
+        "required": true,
+        "pii": false,
+        "example": "USD"
+      },
+      {
+        "name": "kickoff_availability",
+        "type": "string",
+        "format": "free_text_timeslots",
+        "required": false,
+        "pii": false,
+        "example": "Weekdays 9–11am PT"
+      },
+      {
+        "name": "contract_signed",
+        "type": "boolean",
+        "required": true,
+        "pii": false,
+        "example": true
+      },
+      {
+        "name": "payment_reference",
+        "type": "string",
+        "required": false,
+        "pii": false,
+        "example": "PAY-9F32A1"
+      },
+      {
+        "name": "invoice_id",
+        "type": "string",
+        "required": false,
+        "pii": false,
+        "example": "INV-2026-0451"
+      },
+      {
+        "name": "project_start_date",
+        "type": "string",
+        "format": "date",
+        "required": false,
+        "pii": false,
+        "example": "2026-05-02"
+      }
+    ]
+  },
+  "validation": {
+    "email": {
+      "must_be_valid_format": true,
+      "reject_domains": [
+        "example.com",
+        "mailinator.com",
+        "tempmail.com"
+      ],
+      "normalize_to_lowercase": true
+    },
+    "consent_marketing": {
+      "required_for_marketing_emails": true
+    },
+    "currency": {
+      "allowed": [
+        "USD",
+        "EUR",
+        "GBP"
+      ],
+      "rules": [
+        "If preferred_currency != USD, ensure invoice currency matches preferred_currency",
+        "Flag if payment currency != invoice currency"
+      ]
+    },
+    "timezone": {
+      "must_be_iana": true
+    },
+    "names": {
+      "trim_whitespace": true,
+      "collapse_multiple_spaces": true
+    }
+  },
+  "deduplication": {
+    "strategy": "Primary: submission_id unique; Fallback: lowercased email + normalized company within 7-day window",
+    "ignore_if": [
+      "test_submission == true",
+      "email domain in reject_domains"
+    ],
+    "unique_keys": [
+      "submission_id",
+      "email"
+    ],
+    "notes": "Use hashed email (sha256) for logs and error notifications to avoid storing raw PII."
+  }
+}

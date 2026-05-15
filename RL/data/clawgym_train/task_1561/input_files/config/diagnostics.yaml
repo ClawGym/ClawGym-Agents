@@ -1,0 +1,8 @@
+tagline: "Write a line that captures your current mood."
+thresholds:
+  disk_warn_gb: 0
+  cpu_load_warn: 0.0
+distractors:
+  - discord
+  - steam
+  - spotify

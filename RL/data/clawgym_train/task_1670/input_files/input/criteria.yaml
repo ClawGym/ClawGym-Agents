@@ -1,0 +1,10 @@
+allowed_body_styles: [coupe, convertible, suv]
+min_seats: 4
+max_budget_usd: 300000
+max_0_to_60_s: 4.0
+min_combined_mpg: 15
+scoring:
+  w_hp_per_kusd: 0.6
+  w_mpg: 0.2
+  w_zero_to_60: 0.2
+preferred_states: [CA, TX]

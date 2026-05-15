@@ -1,0 +1,46 @@
+Core productivity:
+- Google Workspace (Gmail, Calendar, Drive)
+- Slack (Enterprise Grid)
+- Notion (product docs, policies)
+- Jira (engineering and release management)
+- Google Slides (exec reporting)
+
+Customer-facing:
+- HubSpot (CRM + Marketing)
+- Zendesk (support)
+- Vitally (customer success health and playbooks)
+
+Finance & billing:
+- Stripe (payments, subscriptions)
+- QuickBooks Online (accounting)
+- Bill.com (AP)
+- Ramp (internal spend management) – evaluating internal dogfooding vs external partners
+
+Data & analytics:
+- Segment (events)
+- Amplitude (product analytics)
+- BigQuery (warehouse)
+- dbt (transformations)
+- Looker (BI dashboards)
+
+HR & IT:
+- Rippling (HRIS + payroll)
+- Lever (ATS)
+- Okta (SSO)
+- 1Password (secrets management)
+- Vanta (SOC 2 controls)
+- CrowdStrike (endpoint security)
+
+Sales & marketing:
+- Apollo (prospecting & enrichment)
+- Outreach (sequencing)
+- LinkedIn Sales Navigator
+
+Docs & contracts:
+- DocuSign (e-signature)
+- Google Drive (contracts repository)
+
+Integrations:
+- Fivetran (data integrations)
+- Zapier (lightweight automations; limited use due to security review requirements)
+- Internal Python services (GCP Cloud Run) for ops tasks

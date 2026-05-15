@@ -1,0 +1,20 @@
+project_name: "hybrid_yoga_strength_proto"
+plan:
+  days: 7
+  active_days: 4
+  session_length_minutes: 45
+  # Represented as percentages that should sum to ~100
+  yoga_to_strength_ratio: [60, 40]
+  yoga_style_preferences: ["vinyasa", "hatha"]
+  ability_level: "intermediate"
+constraints:
+  - "Do not schedule the same yoga category on consecutive active days"
+  - "Use at least two distinct yoga styles across the week"
+  - "Cover at least four of the five strength movement patterns (push, pull, squat, hinge, core) across active days"
+internet_sources:
+  yoga_query_hint: "site:.org yoga pose library categories difficulty"
+  strength_query_hint: "site:.gov resistance training movement patterns recommendations"
+paths:
+  downloads_dir: "downloads"
+  data_dir: "data"
+  outputs_dir: "outputs"

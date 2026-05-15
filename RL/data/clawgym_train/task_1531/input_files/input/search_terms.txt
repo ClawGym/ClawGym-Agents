@@ -1,0 +1,3 @@
+latency
+API key
+confidence

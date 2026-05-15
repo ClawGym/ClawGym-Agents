@@ -1,0 +1,20 @@
+[
+  {
+    "id": "SR-101",
+    "project": "Client Analytics Dashboard",
+    "title": "Add real-time alerting on KPI thresholds",
+    "description": "Stakeholders want email and Slack alerts when key KPIs cross configurable thresholds within the same day.",
+    "requested_by": "Client VP Analytics",
+    "requested_on": "2026-04-17",
+    "notes": "Would require streaming ingestion or higher-frequency polling plus notification channels."
+  },
+  {
+    "id": "SR-102",
+    "project": "Internal Forecasting Toolkit",
+    "title": "Add Excel export for forecast runs",
+    "description": "Ability to export one-step-ahead forecast results and error metrics to .xlsx for ad-hoc review.",
+    "requested_by": "Finance Ops Lead",
+    "requested_on": "2026-04-17",
+    "notes": "Prefer a lightweight dependency; avoid heavy Office COM automation."
+  }
+]

@@ -1,0 +1,6 @@
+Hi Maya,
+
+super quick note — I haven't run the real dataset yet, just a toy example. Plan is to pull VIX (from FRED), run VaR/CVaR, and send a cleaner summary later. File paths will get sorted out once I grab the data. Might tweak the config and script too.
+
+Thanks,
+A.

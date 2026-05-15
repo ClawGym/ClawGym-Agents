@@ -1,0 +1,7 @@
+{
+  "message": "This is a workflow test",
+  "report_path": "output/report.txt",
+  "conditional_path": "output/conditional.txt",
+  "summary_path": "output/summary.json",
+  "retry_state_path": "output/scripts/retry_state.txt"
+}

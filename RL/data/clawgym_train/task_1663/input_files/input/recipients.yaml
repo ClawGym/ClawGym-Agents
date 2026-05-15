@@ -1,0 +1,10 @@
+book_club:
+  name: "Lit Circle"
+  email: "bookclub@example.com"
+  tone: "friendly"
+  subject_pattern: "New review drop: {book_title}"
+advisor:
+  name: "Dr. Nguyen"
+  email: "advisor@example.com"
+  tone: "formal"
+  subject_pattern: "Review summary: {book_title} — {channel}"

@@ -1,0 +1,65 @@
+{
+  "p1": {
+    "owner": "u_alice",
+    "created_at": "2026-04-10T09:30:00Z",
+    "holdings": [
+      {
+        "market": "US election 2028 - Democrat wins",
+        "outcome": "Yes",
+        "size_usd": 1200.0,
+        "avg_price": 0.56
+      },
+      {
+        "market": "Bitcoin > $100k by 2027",
+        "outcome": "No",
+        "size_usd": 800.0,
+        "avg_price": 0.42
+      }
+    ],
+    "notes": "Alice focuses on political markets with some crypto hedges."
+  },
+  "p2": {
+    "owner": "u_bob",
+    "created_at": "2026-03-22T15:12:00Z",
+    "holdings": [
+      {
+        "market": "Fed rate cut by Q4 2026",
+        "outcome": "Yes",
+        "size_usd": 500.0,
+        "avg_price": 0.38
+      },
+      {
+        "market": "Apple releases foldable iPhone in 2026",
+        "outcome": "No",
+        "size_usd": 350.0,
+        "avg_price": 0.61
+      },
+      {
+        "market": "ETH > $5k by 2026",
+        "outcome": "Yes",
+        "size_usd": 650.0,
+        "avg_price": 0.33
+      }
+    ],
+    "notes": "Bob mixes macro and tech narratives."
+  },
+  "p3": {
+    "owner": "u_carla",
+    "created_at": "2026-02-05T20:45:00Z",
+    "holdings": [
+      {
+        "market": "NVIDIA beats earnings next quarter",
+        "outcome": "Yes",
+        "size_usd": 900.0,
+        "avg_price": 0.49
+      },
+      {
+        "market": "US recession starts by 2027",
+        "outcome": "No",
+        "size_usd": 700.0,
+        "avg_price": 0.52
+      }
+    ],
+    "notes": "Carla focuses on earnings and macro downside protection."
+  }
+}

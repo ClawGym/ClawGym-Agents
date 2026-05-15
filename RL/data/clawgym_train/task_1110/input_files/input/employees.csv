@@ -1,0 +1,9 @@
+employee_id,name,state,pay_type,exempt_status,pay_rate,rate_unit,week1_hours,week2_hours,week3_hours,week4_hours,bonuses_qtr
+E001,Maria Lopez,CA,hourly,non-exempt,28.50,hour,42,38,46,40,500
+E002,Devon Parker,CA,salaried,exempt,62000,year,45,44,46,48,0
+E003,Aiko Tanaka,CA,hourly,non-exempt,22.00,hour,36,40,55,50,0
+E004,Jorge Rivera,CA,hourly,non-exempt,19.50,hour,40,40,40,40,1000
+E005,Priya Nair,TX,hourly,non-exempt,21.75,hour,47,52,38,40,0
+E006,Sean O'Malley,TX,salaried,exempt,72000,year,40,40,45,42,0
+E007,Tyler Grant,TX,hourly,non-exempt,18.00,hour,35,36,37,34,0
+E008,Lin Chen,CA,salaried,non-exempt,54000,year,50,50,52,48,0

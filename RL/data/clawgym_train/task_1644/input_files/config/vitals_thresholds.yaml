@@ -1,0 +1,12 @@
+heart_rate:
+  min: 50
+  max: 100
+systolic_bp:
+  min: 90
+  max: 140
+diastolic_bp:
+  min: 60
+  max: 90
+temperature_c:
+  min: 36.1
+  max: 37.8

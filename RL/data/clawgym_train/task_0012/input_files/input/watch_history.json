@@ -1,0 +1,7 @@
+{
+  "series": "The Grand Tour",
+  "entries": [
+    {"season": 1, "episode": 1, "watched": true, "last_watched_at": "2024-02-10T20:15:00Z", "rating": 9},
+    {"season": 2, "episode": 2, "watched": true, "last_watched_at": "2024-02-12T21:05:00Z", "rating": 8}
+  ]
+}

@@ -1,0 +1,29 @@
+version: "1.0"
+policy:
+  routing:
+    strategy:
+      primary_model: "claude-opus-4-6"
+      fallback_chain: "reasoning"
+    production:
+      primary_model: "claude-sonnet-4-6"
+      fallback_chain: "production"
+    coding_and_scoring:
+      primary_model: "gpt-4o"
+      fallback_chain: "production"
+    classification:
+      primary_model: "claude-haiku-4-5"
+      fallback_chain: "classification"
+  channel_selection:
+    rules:
+      - if: "interactive == true"
+        channel: "subscription"
+      - elif: "batch == true"
+        channel: "api"
+      - elif: "volume > 1000"
+        channel: "api"
+      - else: "api"
+    volume_threshold: 1000
+notes:
+  - "Use only the models specified above."
+  - "Fallback chains must be chosen exactly by task type."
+  - "Channel is subscription only for interactive tasks; all others are api."

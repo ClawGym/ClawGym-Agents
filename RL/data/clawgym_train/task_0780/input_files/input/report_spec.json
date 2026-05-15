@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "title": "Q2 Operations Report 2026",
+    "subject": "Quarterly Ops",
+    "description": "Consolidated KPIs and narrative for the quarter — final version for leadership review."
+  },
+  "font": {
+    "family": "Noto Sans",
+    "size": 11
+  },
+  "outline": "numbered",
+  "replacements": {
+    "plain": {
+      "find": "TBD",
+      "sub": "Final"
+    },
+    "regex": {
+      "pattern": "\\bQ1\\s+2026\\b",
+      "sub": "FY2026",
+      "flags": "i"
+    }
+  },
+  "sections": [
+    { "heading": "Highlights", "level": 2 },
+    { "text": "Status: TBD. All teams aligned." },
+    { "text": "Budget planning aligns to Q1 2026 forecasts and staffing models." },
+    { "text": "See KPI table below for order accuracy, portion compliance, and waste." },
+    { "heading": "Risks", "level": 2 },
+    { "text": "Supply chain volatility persists; mitigation playbooks in place." },
+    { "text": "Internal audits show no critical findings. Next review scheduled for FY2026 Q3." }
+  ]
+}

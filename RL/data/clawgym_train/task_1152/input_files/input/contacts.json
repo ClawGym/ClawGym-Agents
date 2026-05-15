@@ -1,0 +1,9 @@
+{
+  "building_manager": {
+    "name": "Ms. Saito",
+    "email": "manager@example.com"
+  },
+  "neighbors_list": [
+    "kabukicho-residents@example.com"
+  ]
+}

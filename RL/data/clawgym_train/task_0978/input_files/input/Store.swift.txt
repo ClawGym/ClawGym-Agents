@@ -1,0 +1,43 @@
+import Foundation
+
+protocol PaymentServiceProtocol {
+    func charge(userId: String, amount: Double) async throws
+}
+
+struct PaymentService: PaymentServiceProtocol {
+    func charge(userId: String, amount: Double) async throws {
+        // pretend network charge
+        try await Task.sleep(nanoseconds: 50_000_000)
+    }
+}
+
+// Intentionally unchecked Sendable without synchronization
+final class Session: @unchecked Sendable {
+    var token: String?
+    init(token: String? = nil) {
+        self.token = token
+    }
+}
+
+actor Store {
+    private var stock: [String: Int] = ["abc": 2, "def": 1]
+    private let payment: PaymentServiceProtocol
+
+    init(payment: PaymentServiceProtocol = PaymentService()) {
+        self.payment = payment
+    }
+
+    // Reentrancy risk: checks state, awaits, then mutates same state after await
+    func purchase(id: String, userId: String, amount: Double) async throws -> Bool {
+        guard let current = stock[id], current > 0 else { return false }
+        // Suspension point
+        try await payment.charge(userId: userId, amount: amount)
+        // State mutation after await based on earlier check (risk if balance/stock changed)
+        stock[id] = current - 1
+        return true
+    }
+
+    func stockLevel(for id: String) -> Int {
+        return stock[id] ?? 0
+    }
+}

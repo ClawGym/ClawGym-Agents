@@ -1,0 +1,4 @@
+mount,size_gb,used_gb,available_gb
+/,256,180,76
+/home,512,400,112
+Pictures,200,3.5,196.5

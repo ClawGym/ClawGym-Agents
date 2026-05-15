@@ -1,0 +1,52 @@
+{
+  "buyer": "BrightTrail Commerce LLC",
+  "project_title": "12-week Data Pipeline Modernization",
+  "requested_start_date": "2026-05-04",
+  "project_length_weeks": 12,
+  "budget_cap_usd": 150000,
+  "payment_terms_preference": "Net 30 with milestone-based invoices (kickoff, midpoint, acceptance)",
+  "optioning": "Provide two commercial options within the stated budget cap",
+  "must_have_deliverables": [
+    "Rebuild ingestion for Shopify, Stripe, Postgres, Klaviyo with idempotent loads and retries",
+    "Refactor priority dbt models with tests and documentation",
+    "Implement orchestration with alerting and a documented runbook",
+    "Add data quality checks (freshness, volume, uniqueness, referential integrity)",
+    "Harden access patterns and secrets management; do not expand PCI scope",
+    "Cutover plan with rollback and minimal disruption to daily reporting"
+  ],
+  "nice_to_have_deliverables": [
+    "Near-real-time incremental ingestion for key order updates (sub-hour latency)",
+    "Lineage visualization for top priority models",
+    "Cost monitoring for Snowflake and connectors"
+  ],
+  "success_criteria": [
+    "95%+ of daily pipelines complete by 7:30am ET",
+    "<1% freshness SLA breaches in 30 days post go-live",
+    "50% reduction in data incident tickets related to pipeline failures",
+    "Finance and merchandising reports require no manual patches for 30 consecutive days post go-live"
+  ],
+  "constraints": [
+    "Read-only access to production OLTP databases",
+    "Change windows Tues–Thurs 9:00am–5:00pm ET; avoid month-end close",
+    "Maintain PCI-DSS SAQ A posture; do not broaden PCI scope",
+    "Use existing Snowflake account; least-privilege roles and SSO"
+  ],
+  "environment": {
+    "cloud": "AWS (us-east-1)",
+    "warehouse": "Snowflake",
+    "ci_cd": "GitHub Actions",
+    "orchestration_preference": "Open to managed or open-source; avoid lock-in if possible"
+  },
+  "data_sources": [
+    "Shopify (orders, customers, products)",
+    "Stripe (payments, payouts)",
+    "Postgres OLTP (order events, SKU metadata, inventory)",
+    "Klaviyo (campaigns, email engagement)"
+  ],
+  "security_and_compliance": {
+    "pii": "Names, emails, addresses present; GDPR/CCPA requests must be supported",
+    "pci": "PCI-DSS SAQ A; tokenized via Stripe; no raw PAN processing"
+  },
+  "reporting_slo": "Daily Finance reports by 8:30am ET",
+  "decision_deadline": "2026-04-30"
+}

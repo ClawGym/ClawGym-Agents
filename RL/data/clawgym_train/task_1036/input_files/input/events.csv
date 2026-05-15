@@ -1,0 +1,7 @@
+event_id,date,venue_name,venue_type,city,chain,capacity,base_rental
+E01,2026-06-05,Iron Forge Club,Club,Los Angeles,Analog,200,800
+E02,2026-06-12,Steel Mill Warehouse,Warehouse,Oakland,Analog,300,1200
+E03,2026-06-19,Neon Dome,Arena,San Diego,Digital,5000,10000
+E04,2026-06-26,Thunder Basement,Club,Portland,Analog,150,500
+E05,2026-07-03,Sunset Amphitheatre,Outdoor,Los Angeles,Digital,2000,8000
+E06,2026-07-10,Rust Yard,Warehouse,Seattle,Analog,250,1000

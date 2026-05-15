@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1731",
+  "user_query": "Please generate my natal chart and compute transits using a local astrological calculator. Read input/birth_data.json for my birth details and input/targets.json for the target date. Then do the following:\n\n1) Create a natal chart JSON at output/natal.json based on the birth details.\n2) Produce a daily transit report for the target date and save the full text output to output/daily_2026-03-15.txt (use exactly that filename).\n3) Produce a weekly forecast anchored on the week immediately following the target date and save to output/weekly_2026-03-15.txt.\n4) Run a void-of-course Moon check and save the exact JSON output to output/voc.json.\n\nUse only the given relative paths. The daily and weekly text files should include the calculator’s standard headers and sections.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

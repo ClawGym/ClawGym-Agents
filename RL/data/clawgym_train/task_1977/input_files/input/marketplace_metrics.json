@@ -1,0 +1,14 @@
+{
+  "marketplace_name": "SkillBazaar",
+  "reporting_period": "last_30_days",
+  "total_active_publishers": 872,
+  "top10_share": 0.67,
+  "new_skills_last_30_days": 4250,
+  "top_publisher_output_last_30_days": 52,
+  "review_team_size": 14,
+  "hours_per_reviewer_per_day": 6,
+  "est_review_time_minutes_per_skill": 45,
+  "safety_team_size": 15,
+  "growth_team_size": 90,
+  "notes": "Review team size estimated from org chart and job postings; hours per reviewer per day reflects dedicated review time only; review time estimate includes security and functionality checks."
+}

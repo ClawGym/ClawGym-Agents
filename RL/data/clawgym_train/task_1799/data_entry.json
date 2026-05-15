@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1799",
+  "user_query": "I need a long-form technical blog post for our engineering site. Read input/voice_guide.md to capture the brand voice and input/notes.md for all facts and numbers. Then produce:\n\n1) output/blog_post.md — a 900+ word post titled exactly \"How we cut our cloud bill by 37% without slowing down deploys\" that matches the brand voice.\n2) output/sources.json — an array of objects mapping each concrete number you used to its source with a brief quote, for example: [{\"value\":\"37%\",\"source\":\"input/notes.md\",\"quote\":\"...\"}, {\"value\":\"$18,400\",\"source\":\"input/notes.md\",\"quote\":\"...\"}].\n3) output/checklist.md — a short self-check list confirming voice match, number verification, and that banned phrases were removed.\n\nRequirements for output/blog_post.md:\n- Use the exact H1 title above as the first line.\n- Audience: senior engineers and CTOs.\n- Start with something concrete in the first screen (a number or a small config/command snippet).\n- Include at least three H2 sections with these exact headings: \"The baseline\", \"What we changed\", \"The results (with numbers)\".\n- Include at least one fenced code block (```yaml or ```bash) showing a config or command relevant to the changes.\n- Pull at least two specific numbers from input/notes.md and include them verbatim: 37% and $18,400.\n- Verify all numbers against input/notes.md and do not invent any.\n- Use short, direct sentences and avoid generic openings and hype. Do not use these phrases anywhere: \"In today's\", \"Moreover\", \"Furthermore\", \"game-changer\", \"cutting-edge\", \"revolutionary\".\n\nWrite the files only under output/ as specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

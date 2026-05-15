@@ -1,0 +1,60 @@
+{
+  "personas": [
+    {
+      "id": "tech_jordan",
+      "name": "Jordan R.",
+      "role": "Field Technician",
+      "goals": [
+        "Start and complete assigned work orders quickly",
+        "Capture accurate evidence (photos, barcodes) even when offline",
+        "Get routes to next job with minimal battery impact"
+      ],
+      "frustrations": [
+        "Previous app lost unsaved notes when the OS killed it in background",
+        "Camera/Scanner crashed and asked for permissions at first launch",
+        "Outbox was hidden; unsure if updates synced"
+      ],
+      "devices": [
+        "Android mid-range rugged phone (6.1\" 720x1560)",
+        "iPhone SE/11 (small screen)"
+      ],
+      "accessibility": {
+        "touch_targets": "minimum 44pt",
+        "dynamic_type": true,
+        "color_blind_safe": true,
+        "talkback_voiceover": "must navigate all core flows",
+        "glove_mode": "larger buttons, avoid edge-swipe dependence"
+      },
+      "connectivity": "intermittent (offline to 2G/3G in rural areas)",
+      "environment": "bright sunlight, outdoor, gloves",
+      "languages": ["en"]
+    },
+    {
+      "id": "sup_alex",
+      "name": "Alex P.",
+      "role": "Shift Supervisor",
+      "goals": [
+        "See schedule board and technician statuses",
+        "Reassign work orders and approve timesheets",
+        "Locate technicians without draining their batteries"
+      ],
+      "frustrations": [
+        "Previous locator feature drained batteries due to aggressive GPS",
+        "Push notifications were noisy and lacked grouping/actions",
+        "Deep links from emails sometimes opened the wrong screen"
+      ],
+      "devices": [
+        "Android flagship (6.5\" 1080x2400)",
+        "iPad mini (for office overview)"
+      ],
+      "accessibility": {
+        "dynamic_type": true,
+        "high_contrast": true,
+        "focus_order": "predictable for keyboard users on tablets"
+      },
+      "connectivity": "mostly LTE/Wi‑Fi, occasional dead zones on-site",
+      "environment": "office mixed with site visits",
+      "languages": ["en"]
+    }
+  ]
+}

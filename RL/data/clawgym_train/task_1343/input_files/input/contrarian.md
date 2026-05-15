@@ -1,0 +1,1 @@
+You should never adopt usage-based pricing because revenue becomes unpredictable.

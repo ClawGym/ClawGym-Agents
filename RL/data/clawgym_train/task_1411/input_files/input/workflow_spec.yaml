@@ -1,0 +1,249 @@
+workflow_name: "Weekday Lead Ingestion (SFTP → Google Sheets)"
+version: "1.0.0"
+owner: "Growth Ops"
+description: >
+  Automates weekday lead ingestion from SFTP into Google Sheets with idempotency,
+  retries with exponential backoff, audit logging, a human-in-the-loop review queue,
+  and a stop-the-line threshold. Generates a daily summary email with run_id and counts.
+
+triggers:
+  type: "cron"
+  schedule:
+    cron_expression: "30 7 * * 1-5"  # minute hour dom mon dow
+    timezone: "America/New_York"
+    notes: "Runs Mon–Fri at 07:30 America/New_York; inactive by default on import"
+
+source:
+  transport: "sftp"
+  description: "Pull the most recent daily CSV from SFTP folder /drops/daily"
+  credentials:
+    n8n_credential_name: "SFTP_Leads_Account"   # reference by name, no secrets in JSON
+  connection:
+    host_env: "SFTP_HOST"
+    port_env: "SFTP_PORT"         # default 22 if unset
+    # Username/password or key are stored in the referenced n8n credential; do not include here
+  pull:
+    remote_path: "/drops/daily"
+    file_pattern: "*.csv"
+    selection: "newest_by_mtime"
+    max_files: 1
+    encoding: "utf-8"
+    notes: "Use exponential backoff retry on list/get operations"
+
+csv_contract:
+  delimiter: ","
+  header: true
+  columns:
+    - name: "email"
+      required: true
+      validation:
+        type: "email"
+        regex: "^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$"
+    - name: "first_name"
+      required: true
+    - name: "last_name"
+      required: true
+    - name: "company"
+      required: false
+    - name: "created_at"
+      required: true
+      validation:
+        type: "iso8601"
+        notes: "Parseable as ISO8601; normalize to America/New_York for date()"
+  parsing:
+    trim_whitespace: true
+    empty_as_null: true
+    invalid_row_action: "send_to_review_queue"
+
+idempotency:
+  dedup_key:
+    fields: ["email", "date(created_at)"]
+    normalization:
+      created_at_timezone: "America/New_York"
+      created_at_to_date_only: true
+      email_casefold: true
+  state_store:
+    type: "google_sheets"
+    document_id_env: "LEADS_GOOGLE_SHEET_DOC_ID"
+    tab_env: "LEADS_DEDUP_TAB_NAME"
+    defaults:
+      tab_name: "Dedup_Store"
+    schema:
+      - "dedup_key"           # e.g., sha256(lower(email) + "|" + YYYY-MM-DD)
+      - "email"
+      - "created_date"        # YYYY-MM-DD in America/New_York
+      - "processed_at"
+      - "run_id"
+  behavior:
+    on_rerun: "skip_rows_with_existing_dedup_key"
+    on_missing_store: "create_headers_if_absent"
+    notes: "Write dedup record only after successful destination write and audit log line"
+
+destinations:
+  google_sheets:
+    credential_name: "Google API (OAuth2) - Prod"   # reference credential by name only
+    document_id_env: "LEADS_GOOGLE_SHEET_DOC_ID"
+    tabs:
+      leads_tab_env: "LEADS_TAB_NAME"
+      audit_tab_env: "LEADS_AUDIT_TAB_NAME"
+      review_tab_env: "LEADS_REVIEW_TAB_NAME"
+    defaults:
+      leads_tab: "Leads"
+      audit_tab: "Audit_Log"
+      review_tab: "Review_Queue"
+    write_mode: "append_only"
+    columns:
+      leads_tab:
+        - "email"
+        - "first_name"
+        - "last_name"
+        - "company"
+        - "created_at"
+        - "processed_at"
+        - "run_id"
+      audit_tab:
+        - "run_id"
+        - "started_at"
+        - "finished_at"
+        - "source_file"
+        - "fetched_count"
+        - "new_count"
+        - "dedup_skipped_count"
+        - "failed_count"
+        - "status"              # success | partial | failure
+        - "error_notes"
+      review_tab:
+        - "email"
+        - "first_name"
+        - "last_name"
+        - "company"
+        - "created_at"
+        - "error_reason"
+        - "attempted_at"
+        - "run_id"
+        - "approved"           # Yes/No
+        - "reprocessed"        # Yes/No
+  email_summary:
+    smtp_credential_name: "SMTP_GSuite"
+    from_env: "LEADS_MAIL_FROM"
+    to_env: "LEADS_SUMMARY_RECIPIENTS"
+    subject_template: "Lead Ingestion Summary - {run_id}"
+    body_template_fields:
+      - "run_id"
+      - "source_file"
+      - "fetched_count"
+      - "new_count"
+      - "dedup_skipped_count"
+      - "failed_count"
+      - "status"
+  email_alerts:
+    smtp_credential_name: "SMTP_GSuite"
+    from_env: "LEADS_MAIL_FROM"
+    to_env: "LEADS_ALERT_RECIPIENTS"
+    subject_template: "ALERT: Lead Ingestion STOP THE LINE - {run_id}"
+    body_template_fields:
+      - "run_id"
+      - "failure_rate"
+      - "fetched_count"
+      - "failed_count"
+      - "status"
+      - "first_error"
+
+logging_and_audit:
+  run_id:
+    method: "uuid_v4"
+    node_label: "Generate Run_ID"
+  start_log:
+    write_to: "audit_tab"
+    fields:
+      - "run_id"
+      - "started_at"
+      - "source_file"
+      - "status=running"
+  end_log:
+    write_to: "audit_tab"
+    fields:
+      - "run_id"
+      - "finished_at"
+      - "fetched_count"
+      - "new_count"
+      - "dedup_skipped_count"
+      - "failed_count"
+      - "status"
+      - "error_notes"
+
+error_handling:
+  retries:
+    sftp_fetch:
+      max_attempts: 3
+      backoff: "exponential"
+      base_delay_seconds: 5
+      factor: 2.0
+      jitter_seconds: 1
+    sheets_write:
+      max_attempts: 3
+      backoff: "exponential"
+      base_delay_seconds: 3
+      factor: 2.0
+      jitter_seconds: 1
+  per_row:
+    invalid_or_write_error_action: "route_to_review_queue"
+    review_queue:
+      tab: "Review_Queue"
+      approval_field: "approved"
+      approved_value: "Yes"
+      reprocess_field: "reprocessed"
+      gate_behavior: "skip_until_approved"
+      reprocess_mode: "manual_or_scheduled_followup"
+  thresholds:
+    failure_rate_stop_line: 0.20   # >20% failed rows
+    on_exceed:
+      action: ["halt_workflow", "send_alert_email"]
+      notes: "No silent failure; stop the line and notify on threshold breach."
+
+security:
+  secrets_policy: "Do not include secrets in workflow JSON; reference credentials by name or env vars."
+  env_vars:
+    - "LEADS_GOOGLE_SHEET_DOC_ID"
+    - "LEADS_TAB_NAME"
+    - "LEADS_AUDIT_TAB_NAME"
+    - "LEADS_REVIEW_TAB_NAME"
+    - "LEADS_MAIL_FROM"
+    - "LEADS_SUMMARY_RECIPIENTS"
+    - "LEADS_ALERT_RECIPIENTS"
+    - "SFTP_HOST"
+    - "SFTP_PORT"
+  least_privilege: "Use read-only SFTP access to /drops/daily; Sheets scope limited to required doc."
+
+counts_and_metrics:
+  track:
+    - "fetched_count"
+    - "new_count"
+    - "dedup_skipped_count"
+    - "failed_count"
+    - "failure_rate"
+  definitions:
+    fetched_count: "Total parsed rows in CSV"
+    new_count: "Rows that passed validation and dedup, appended to Leads tab"
+    dedup_skipped_count: "Rows skipped due to existing dedup key"
+    failed_count: "Rows sent to Review_Queue due to validation/write errors"
+    failure_rate: "failed_count / max(1, fetched_count)"
+
+success_criteria:
+  - "Cron trigger executes weekdays at 07:30 America/New_York"
+  - "SFTP CSV is fetched with retries and parsed"
+  - "Rows validated; invalid routed to Review_Queue"
+  - "Idempotency enforced by email + date(created_at) dedup key"
+  - "New rows appended to Leads tab; dedup state updated atomically"
+  - "Audit written with run_id and counts"
+  - "Summary email sent with per-run counts"
+  - "Alert email sent and workflow halted if failure_rate > 20%"
+
+operator_notes:
+  review_queue_process: >
+    Review the Review_Queue tab. For valid rows, set 'approved' to 'Yes'.
+    The follow-up reprocess step will only pick rows with approved='Yes' and reprocessed!='Yes',
+    then attempt to append and mark 'reprocessed'='Yes' upon success.
+  timezone_consideration: >
+    Dedup uses date(created_at) normalized to America/New_York to avoid cross-midnight
+    mismatches between ingest time and lead creation time.

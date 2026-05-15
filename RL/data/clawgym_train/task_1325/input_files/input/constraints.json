@@ -1,0 +1,92 @@
+{
+  "task_id": "ONB-101",
+  "spec": {
+    "output_path": "output/specs/ONB-101-spec.md",
+    "required_strings": [
+      "Task ID: ONB-101",
+      "Output Path: output/artifacts/ONB-101"
+    ],
+    "must_include_sections": [
+      "Scope",
+      "Acceptance Criteria",
+      "Handoff Expectations",
+      "Output Path"
+    ]
+  },
+  "artifact": {
+    "dir": "output/artifacts/ONB-101",
+    "filename": "ONBOARDING.md",
+    "required_sections": [
+      "Welcome and Values",
+      "Quick Start — First-Day Checklist",
+      "Access and Tools",
+      "Local Development Setup",
+      "Branching, Commits, and Pull Requests",
+      "Coding Standards and Testing",
+      "Ticket Workflow",
+      "Meetings and Communication",
+      "Security and Secrets",
+      "Support and Escalation",
+      "How to verify"
+    ],
+    "length_hint_words": "700-1200",
+    "notes": "No real secrets; placeholders like <TOKEN> only."
+  },
+  "review": {
+    "output_path": "output/reviews/ONB-101-review.md",
+    "must_contain": [
+      "Reviewer",
+      "output/artifacts/ONB-101",
+      "Approved|Feedback"
+    ],
+    "authorship_role": "Reviewer"
+  },
+  "decision": {
+    "output_path": "output/decisions/ONB-101-decision.md",
+    "required_headers": [
+      "Decision:",
+      "Date:",
+      "Author:",
+      "Status:",
+      "Task: ONB-101"
+    ],
+    "required_sections": [
+      "Context",
+      "Options Considered",
+      "Decision",
+      "Consequences"
+    ]
+  },
+  "board": {
+    "path": "output/board.json",
+    "transitions_key": "transitions",
+    "states_sequence_required": [
+      "Inbox",
+      "Assigned",
+      "In Progress",
+      "Review",
+      "Done"
+    ],
+    "timestamp_format": "YYYY-MM-DDTHH:MM:SSZ",
+    "handoff_transition_requirements": {
+      "to_state": "Review",
+      "by_role": "Builder",
+      "comment_must_include_labels": [
+        "What was done",
+        "Where artifacts are",
+        "How to verify",
+        "Known issues",
+        "What's next"
+      ]
+    },
+    "done_transition_requirements": {
+      "to_state": "Done",
+      "by_role": "Orchestrator"
+    },
+    "forbidden_done_by_role": "Builder"
+  },
+  "naming_rules": {
+    "branch_naming_example": "feature/<ticket-id>-<slug>",
+    "pr_title_format": "[ONB-101] <short description>"
+  }
+}

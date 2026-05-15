@@ -1,0 +1,9 @@
+date_range:
+  start: 2026-03-01
+  end: 2026-03-03
+include_environments: ["home", "photoshoot", "outdoor"]
+thresholds:
+  redness_high: 3.5
+  itch_high: 2.5
+  breakout_rate_high: 0.5
+suspect_rule: "any"  # mark suspect if any threshold is exceeded

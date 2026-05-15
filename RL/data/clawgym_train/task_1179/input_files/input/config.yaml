@@ -1,0 +1,19 @@
+# Self-Improvement Log Configuration
+id_date: "20250115"          # Use this exact date in IDs: TYPE-YYYYMMDD-XXX
+timezone: "UTC"
+
+id_numbering:
+  start: "001"               # Three-digit starting number
+  width: 3                   # Pad IDs to three digits
+  strategy: sequential_per_day
+
+types:
+  learning: "LRN"
+  error: "ERR"
+  feature: "FEAT"
+
+guidance:
+  - "Use the id_date above and a three-digit sequence (001, 002, 003) for new entries."
+  - "Each entry today must have a unique XXX number."
+  - "Areas: prefer infra or config for install/tooling items; docs or infra for dev tooling requests."
+  - "Timestamps should be ISO-8601 in UTC."

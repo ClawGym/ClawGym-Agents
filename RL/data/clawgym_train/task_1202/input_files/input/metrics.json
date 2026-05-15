@@ -1,0 +1,10 @@
+{
+  "Organic Traffic": {"current": 18250, "previous": 17100, "target": 22000},
+  "Avg. Position": {"current": 17.8, "previous": 19.2, "target": 12.0},
+  "Total Keywords Ranking": {"current": 486, "previous": 455, "target": 600},
+  "Page 1 Rankings": {"current": 72, "previous": 64, "target": 100},
+  "Domain Authority": {"current": 46, "previous": 45, "target": 55},
+  "CITE Score": {"current": 71, "previous": 68, "target": 80},
+  "Last Content Audit Score": {"current": 76, "previous": 73, "target": 85},
+  "Total Backlinks": {"current": 1250, "previous": 1190, "target": 2000}
+}

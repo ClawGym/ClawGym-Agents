@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0626",
+  "user_query": "You're helping me operationalize archiving of yesterday’s daily note in my notes vault. Read input/current_date.txt (ISO date YYYY-MM-DD) and input/vault_state.json (with root_files and past_days_files arrays). Based on these:\n\n- Determine yesterday’s date and find a file at the vault root named in the format \"MM-DD-YYYY DayOfWeek.md\" that starts with the yesterday date. Do not recompute or alter the DayOfWeek segment; use the exact filename as-is.\n- If that file exists at the root, plan to move it into \"past-days/\" in an idempotent, link-safe way; if it’s missing or already in past-days, plan to skip silently.\n\nCreate:\n1) output/manifest.json — a single-object JSON with keys: action (\"move\" or \"skip\"), from (filename at root or null), to (destination path \"past-days/<filename>\" or null), reason (brief string explaining the decision).\n2) output/runbook.md — plain-English runbook including: schedule at 00:05 daily, idempotent behavior, link-preservation requirement, risks and mitigations, a dry-run test procedure, and a rollback plan. Do not mention any specific tools or commands; describe a generic \"vault-aware move operation\" that updates internal links.\n3) output/checklist.json — JSON with: { \"idempotent\": true|false, \"link_safe\": true|false, \"silent_skip\": true|false, \"date_format\": \"MM-DD-YYYY DayOfWeek.md\", \"archive_folder\": \"past-days/\" }.\n\nEdge cases: If multiple root files match yesterday’s date, select the one with the exact date prefix and use the existing DayOfWeek string; note the ambiguity in the manifest reason. If no match at root, action should be \"skip\" with reason \"missing\". If only found under past-days, action should be \"skip\" with reason \"already_archived\".\n\nWrite only those files under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

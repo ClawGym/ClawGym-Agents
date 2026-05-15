@@ -1,0 +1,80 @@
+{
+  "segments": [
+    {
+      "role": "Ops Manager",
+      "pains": [
+        "Too many manual touches between ERP, WMS, and spreadsheets",
+        "Exceptions derail the day (late ASN, short picks, EDI errors)",
+        "Chasing approvals and status over email and chat",
+        "Pressure to hit OTD while short-staffed"
+      ],
+      "objections": [
+        "We don't have time to implement another tool",
+        "IT is busy; integrations will stall",
+        "We tried workflow in the WMS and it didn't stick"
+      ],
+      "triggers": [
+        "Downloaded the 2026 report",
+        "Missed OTD target this quarter",
+        "Seasonal peak or new customer SLAs",
+        "ERP/WMS upgrade planned within 6 months"
+      ],
+      "desired_outcomes": [
+        "Fewer manual touches per order/receipt",
+        "Faster exception resolution with clear ownership",
+        "Less firefighting; more predictable days"
+      ],
+      "kpis": [
+        "Throughput per headcount",
+        "On-time delivery (OTD)",
+        "Cycle time per process",
+        "Dock-to-stock time"
+      ],
+      "cta_language": "See how it works in your process",
+      "recommended_assets": [
+        "5-step checklist to cut manual touches",
+        "ASN exception handler template",
+        "Case study: NorthRiver Components"
+      ]
+    },
+    {
+      "role": "Ops Director",
+      "pains": [
+        "Rising cost per order and missed OTIF penalties",
+        "Fragmented workflows across ERP/WMS/MES/EDI",
+        "Lack of governance and audit trails for customers/compliance",
+        "Difficulty proving ROI of ops initiatives"
+      ],
+      "objections": [
+        "We have workflow modules already—why add another platform?",
+        "Security and compliance risk concerns",
+        "Will this survive system upgrades or vendor changes?"
+      ],
+      "triggers": [
+        "Downloaded the 2026 report",
+        "Board-level focus on cost per order",
+        "New enterprise customer with strict SLAs",
+        "Reshoring/new suppliers increasing exceptions"
+      ],
+      "desired_outcomes": [
+        "8–15% reduction in cost per order (12 months)",
+        "+5 points OTIF within a quarter",
+        "Time-to-value in 30–60 days without rip-and-replace",
+        "Audit-ready workflows with clear ownership"
+      ],
+      "kpis": [
+        "Cost per order",
+        "OTIF",
+        "Inventory turns",
+        "Customer NPS/penalties avoided"
+      ],
+      "cta_language": "Book a strategy demo with ROI model",
+      "recommended_assets": [
+        "Benchmark slides: 2026 State of Ops Automation",
+        "ROI calculator",
+        "Case study: FreightLynx Logistics"
+      ]
+    }
+  ],
+  "notes": "If role is unknown, start neutral; detect role based on title keywords (manager/supervisor vs director/VP). Adjust CTA: Managers -> 'See how it works'; Directors -> 'Book a strategy demo with ROI model'."
+}

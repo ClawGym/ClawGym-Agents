@@ -1,0 +1,3 @@
+selenium==4.17.2
+pytest==8.0.0
+PyYAML==6.0.1

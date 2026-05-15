@@ -1,0 +1,15 @@
+timezone: ""
+quiet_hours:
+  start: ""
+  end: ""
+reminder_window_days: 7
+simulation:
+  start_date: "2026-03-01"
+  days: 7
+sources:
+  med_schedule_csv: "input/med_schedule.csv"
+  symptom_log_csv: "input/symptom_log.csv"
+outputs:
+  reminders_dir: "output/reminders"
+  schedule_preview_csv: "output/schedule_preview.csv"
+  weekly_summary_csv: "output/weekly_summary.csv"

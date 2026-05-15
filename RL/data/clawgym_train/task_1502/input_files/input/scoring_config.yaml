@@ -1,0 +1,20 @@
+scoring:
+  artist_weight:
+    "Secret Machines": 1.0
+    "School of Seven Bells": 0.9
+  involvement_bonus: 2.0
+  era_bonus:
+    range_start_year: 2001
+    range_end_year: 2007
+    bonus: 1.0
+  duration_target_seconds: 420
+  duration_tolerance_seconds: 120
+  duration_score_max: 1.0
+  missing_field_penalty: 0.5
+  exclude_if_no_source: true
+  min_sources_per_track: 1
+  top_k: 12
+fields_required:
+  - release_year
+  - duration_seconds
+  - benjamin_involved

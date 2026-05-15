@@ -1,0 +1,62 @@
+{
+  "email": {
+    "allowed_domains": [
+      "example.com",
+      "acme.co",
+      "mail.test.org"
+    ],
+    "case_insensitive": true,
+    "notes": "Only include emails whose domain matches the whitelist. Capture named groups: user, domain."
+  },
+  "url": {
+    "scheme": "https",
+    "allow_subdomains": true,
+    "allow_path": true,
+    "notes": "Match only HTTPS URLs. Capture host (without scheme/port) and optional path (beginning with slash). Exclude http."
+  },
+  "order_id": {
+    "prefix": "ORD-",
+    "date": {
+      "format": "YYYY-MM-DD",
+      "year_min": 2023,
+      "year_max": 2026
+    },
+    "code": {
+      "length": 6,
+      "charset": "A-Z0-9"
+    },
+    "notes": "Order IDs look like ORD-YYYY-MM-DD-XXXXXX where X is uppercase alphanumeric. Named groups: year, month, day, code."
+  },
+  "ipv4_public": {
+    "exclude_cidrs": [
+      "10.0.0.0/8",
+      "172.16.0.0/12",
+      "192.168.0.0/16",
+      "127.0.0.0/8"
+    ],
+    "exclude_literals": [
+      "0.0.0.0",
+      "255.255.255.255"
+    ],
+    "notes": "Capture IPv4 octets with named groups a,b,c,d. Exclude common private, loopback, and all-zero/all-ones addresses."
+  },
+  "phone": {
+    "country_code": "1",
+    "canonical_format": "+1-AAA-BBB-CCCC",
+    "normalize_outside_skip_only": true,
+    "accepted_formats": [
+      "(AAA) BBB-CCCC",
+      "AAA-BBB-CCCC",
+      "AAA.BBB.CCCC",
+      "AAA BBB CCCC",
+      "+1 AAA BBB CCCC",
+      "1-AAA-BBB-CCCC",
+      "AAA BBB-CCCC"
+    ],
+    "notes": "Normalize US phone numbers to +1-AAA-BBB-CCCC using regex find-replace with backreferences. Do not modify any other text."
+  },
+  "skip_markers": {
+    "start": "[SKIP_START]",
+    "end": "[SKIP_END]"
+  }
+}

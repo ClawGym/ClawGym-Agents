@@ -1,0 +1,17 @@
+project_name: REPLACE_ME
+dancer_name: REPLACE_ME
+inspiration: Catherine May Atlani
+output_dir: REPLACE_ME
+
+target:
+  domain: rfc-editor.org
+  type: rfc
+  id: 0
+
+report:
+  filename: REPLACE_ME
+  sections:
+    - Context
+    - Environment
+    - Web Extraction
+    - Verification

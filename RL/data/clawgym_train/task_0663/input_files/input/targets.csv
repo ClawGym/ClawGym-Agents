@@ -1,0 +1,10 @@
+target,label
+8.8.8.8,baseline_dns
+github.com,prod_repo
+accounts.google.com,oauth_idp
+1.1.1.1,baseline_dns
+185.220.101.1,suspected_tor
+2606:4700:4700::1111,v6_dns
+login.microsoftonline.com,azure_auth
+badhost.invalid,noisy_scanner
+8.8.8.8,duplicate_entry

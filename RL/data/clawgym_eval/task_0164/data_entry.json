@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0164",
+  "user_query": "Please anonymize PII across two inputs and produce three outputs.\n\nInputs to read:\n- input/raw_messages.txt — one message per line\n- input/customer_emails.jsonl — JSON Lines with fields: id, subject, body\n\nAnonymize using these exact rules (preserve all other text, punctuation, whitespace, and line breaks exactly):\n- Person names -> [NAME]\n- Emails -> [EMAIL]\n- SSNs (XXX-XX-XXXX) -> [SSN]\n- Phones (e.g., 415-555-2671, (212) 555-0199, 650.555.0000) -> [PHONE]\n- Crypto wallets (0x + 40 hex chars) -> [WALLET]\n- IPv4 addresses -> [IP]\n- File paths: replace only the user-root portion of paths with [PATH]\n  - /home/<user> -> [PATH]\n  - /Users/<user> -> [PATH]\n  - C:\\Users\\<user> -> [PATH]\n  Examples:\n    - \"/Users/jane/Projects\" -> \"[PATH]/Projects\"\n    - \"C:\\Users\\Bob\\Desktop\" -> \"[PATH]\\\\Desktop\"\n- If a token like [EMAIL] already appears, leave it unchanged (do not reprocess or alter it).\n- If a line or record has no PII, leave it unchanged.\n\nDeliverables to write:\n1) output/anonymized_messages.txt — same number of lines and order as input/raw_messages.txt, with PII replaced per above\n2) output/anonymized_emails.jsonl — same number of lines as input/customer_emails.jsonl; each line must be valid JSON with the same id; only subject and body are anonymized; do not add or remove fields\n3) output/anonymization_summary.json — a JSON object with total counts of each token across both outputs: keys [NAME], [EMAIL], [SSN], [PHONE], [WALLET], [IP], [PATH] and integer values\n\nImportant:\n- Keep all non-PII content, punctuation, and spacing intact\n- Do not change existing tokens like [SSN], [EMAIL], etc.\n- Ensure JSONL formatting is valid for every line in the emails output\n\nWrite all outputs under output/ with the exact paths listed above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

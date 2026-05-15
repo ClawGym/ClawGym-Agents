@@ -1,0 +1,47 @@
+{
+  "goal": "Create a file-based execution plan for a three-sprint internal data cleanup project for the product analytics team.",
+  "requirements": [
+    "Use persistent markdown files to track plan, findings, and progress",
+    "Mark each phase status and update them to 'complete' when done",
+    "Document at least one decision with rationale",
+    "Capture at least two constraints from risk register",
+    "Align cleanup tasks and milestones across three sprints",
+    "Maintain an auditable session log including errors and resolutions",
+    "Translate provided test cases into a Test Results table with PASS statuses",
+    "Keep the workflow self-contained with no external network access"
+  ],
+  "stack": {
+    "planning_files": [
+      "task_plan.md",
+      "findings.md",
+      "progress.md"
+    ],
+    "tools": [
+      "bash",
+      "markdown"
+    ],
+    "external_access": "none"
+  },
+  "phases": [
+    "Requirements & Discovery",
+    "Planning & Structure",
+    "Implementation",
+    "Testing & Verification",
+    "Delivery"
+  ],
+  "sprints": [
+    {
+      "name": "Sprint 1: Inventory and tagging",
+      "duration_days": 10
+    },
+    {
+      "name": "Sprint 2: Transform and deduplicate",
+      "duration_days": 10
+    },
+    {
+      "name": "Sprint 3: Validation and handoff",
+      "duration_days": 10
+    }
+  ],
+  "notes": "Internal-only project. Ensure all outputs are written under output/ and keep execution offline."
+}

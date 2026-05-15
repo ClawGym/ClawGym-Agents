@@ -1,0 +1,10 @@
+incident_id,date,location,response_minutes,naloxone_doses,outcome
+1,2024-01-01,Elm St,12,1,revived
+2,2024-01-01,Maple Ave,8,0,transported
+3,2024-01-02,Depot Rd,15,2,revived
+4,2024-01-03,River Park,9,1,revived
+5,2024-01-04,4th & Main,11,1,revived
+6,2024-01-05,Trailer Ct,7,0,declined
+7,2024-01-06,Library Lot,10,1,revived
+8,2024-01-06,Mill St,14,2,revived
+9,2024-01-07,High School,13,1,transported

@@ -1,0 +1,10 @@
+contains_exif: true
+photos:
+  - file: "photo1.jpg"
+    gps_lat: 33.8963
+    gps_lon: 35.5191
+    caption: "Elissa tribute night at Gemmayze"
+  - file: "studio.jpg"
+    gps_lat: 33.8330
+    gps_lon: 35.5420
+    caption: "Recording a cover of 'Aaks Elli Shayef' in my home studio"

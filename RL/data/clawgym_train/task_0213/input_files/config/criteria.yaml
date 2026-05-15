@@ -1,0 +1,8 @@
+indications_to_include:
+  - Major Depressive Disorder
+  - Bipolar Depression
+min_evidence_rating: 3
+max_cost_per_month_usd: 400
+exclude_adverse_effects:
+  - weight_gain
+  - akathisia

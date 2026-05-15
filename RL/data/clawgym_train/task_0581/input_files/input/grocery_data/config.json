@@ -1,0 +1,12 @@
+{
+  "primary_store": "Whole Foods",
+  "stores": [
+    { "name": "Whole Foods", "address": "123 Main St, Anytown", "hours": "Mon–Sat 8am–9pm, Sun 9am–7pm" },
+    { "name": "Costco", "address": "456 Oak Ave, Anytown", "hours": "Mon–Fri 10am–8:30pm, Sat 9:30am–6pm, Sun 10am–6pm" }
+  ],
+  "fallback_order": ["Whole Foods", "Costco"],
+  "category_store_map": {
+    "produce": "Whole Foods",
+    "dairy": "Whole Foods"
+  }
+}

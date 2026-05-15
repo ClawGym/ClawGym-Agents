@@ -1,0 +1,14 @@
+{
+  "total_cost_usd": 9200,
+  "revenue_from_event_leads_usd": 23000,
+  "line_items": {
+    "registration": 1500,
+    "travel": 1800,
+    "hotel": 2200,
+    "meals": 900,
+    "materials": 400,
+    "booth": 0,
+    "salary_days": 2400
+  },
+  "notes": "Solo founder attendance; no booth. Revenue reflects closed-won pipeline within 90 days post-event."
+}

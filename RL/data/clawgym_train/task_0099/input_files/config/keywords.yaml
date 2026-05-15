@@ -1,0 +1,26 @@
+keywords:
+  colonialism: 3
+  postcolonial: 3
+  empire: 2
+  imperialism: 2
+  race: 3
+  racial: 3
+  racialization: 3
+  ethnicity: 2
+  class: 2
+  hierarchy: 2
+  whiteness: 2
+  migration: 1
+  stratification: 2
+  intersectionality: 1
+  decolonial: 3
+stopwords:
+  - study
+  - article
+  - paper
+  - analysis
+  - evidence
+  - data
+min_score_to_include_in_digest: 1
+digest_top_n: 5
+slack_top_n: 3

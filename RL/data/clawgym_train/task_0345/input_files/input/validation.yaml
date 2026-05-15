@@ -1,0 +1,40 @@
+required_columns:
+  - iso_a3
+  - name
+  - continent
+  - area_km2
+  - pop_est
+  - pop_density_per_km2
+column_types:
+  iso_a3: str
+  name: str
+  continent: str
+  area_km2: number
+  pop_est: number
+  pop_density_per_km2: number
+allowed_continents:
+  - Africa
+  - Asia
+  - Europe
+  - North America
+  - South America
+  - Oceania
+  - Antarctica
+required_iso_a3:
+  - USA
+  - CHN
+  - BRA
+  - AUS
+numeric_constraints:
+  area_km2:
+    gt: 0
+  pop_est:
+    gte: 0
+density_tolerance: 0.05
+metadata_requirements:
+  source_name: Natural Earth
+  data_scale: "1:110m"
+  must_have_keys:
+    - file_name
+    - downloaded_at
+    - record_count

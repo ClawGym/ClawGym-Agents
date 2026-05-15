@@ -1,0 +1,41 @@
+{
+  "threads": [
+    {
+      "thread_id": "!abc123:beeper.local",
+      "thread_name": "Acme Finance Team",
+      "participants": [
+        { "display_name": "Alice Johnson", "is_bridge": false },
+        { "display_name": "Bob Lee", "is_bridge": false },
+        { "display_name": "Carla Reyes", "is_bridge": false },
+        { "display_name": "Finance Sync", "is_bridge": true }
+      ]
+    },
+    {
+      "thread_id": "!xyz789:beeper.local",
+      "thread_name": "Personal Chat - Dana & Evan",
+      "participants": [
+        { "display_name": "Dana Gomez", "is_bridge": false },
+        { "display_name": "Evan Brooks", "is_bridge": false },
+        { "display_name": "WhatsApp Bridge", "is_bridge": true }
+      ]
+    },
+    {
+      "thread_id": "!sup456:beeper.local",
+      "thread_name": "Procurement: Northwind",
+      "participants": [
+        { "display_name": "Frank Miles", "is_bridge": false },
+        { "display_name": "Grace Park", "is_bridge": false },
+        { "display_name": "Purchasing Bridge", "is_bridge": true }
+      ]
+    },
+    {
+      "thread_id": "!nohit:beeper.local",
+      "thread_name": "Family Group",
+      "participants": [
+        { "display_name": "Henry Chen", "is_bridge": false },
+        { "display_name": "Isla Nolan", "is_bridge": false },
+        { "display_name": "SMS Bridge", "is_bridge": true }
+      ]
+    }
+  ]
+}

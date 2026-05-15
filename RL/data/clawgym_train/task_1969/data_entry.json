@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1969",
+  "user_query": "I need a tech debt prioritization plan for next quarter. Read input/debt_items.csv, input/business_context.txt, and input/capacity.json. Using those, deliver the following under output/:\n1) A scored matrix saved to output/tech_debt_matrix.csv with columns: item, blast_radius (0-5), velocity_drag (0-5), risk (0-5), effort (1-5), total_score, priority_rank. Include every item from the CSV.\n2) A quarterly roadmap that interleaves debt paydown with feature commitments saved to output/quarterly_roadmap.md. Make milestones explicit and show how debt work and feature work coexist.\n3) Product-facing talking points saved to output/product_talking_points.md that explain why this plan matters, address common objections, and frame ROI and customer impact.\n4) A budget proposal saved to output/tech_debt_budget.json with fields: budget_percent (number), guardrails (array of strings), review_cadence (string like \"monthly\" or \"quarterly\").\n5) A \"definition of done\" mapping saved to output/done_definition.yaml that lists each item and concrete acceptance criteria to avoid gold-plating.\n6) A three-perspective debate saved to output/debate.md where Elon, Capitalist, and Monkey each argue whether allocating 30% team capacity to tech debt next quarter is the right call. Include their takes, explicit verdicts (YES/NO/MAYBE), confidence levels (%), key conditions, and a summary table of verdicts.\nMake this cohesive and grounded in the input context. If you need assumptions, state them briefly in the roadmap file.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

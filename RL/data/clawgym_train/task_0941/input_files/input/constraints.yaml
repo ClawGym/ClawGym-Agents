@@ -1,0 +1,41 @@
+event:
+  name: "Austin B2B SaaS Mini-Summit"
+  type: "summit"
+  format: "hybrid"
+  city: "Austin, TX"
+  date_window: "October 2026"
+
+financial:
+  budget_cap: 60000
+  currency: "USD"
+  max_catering_per_person: 60
+  speaker_fee_cap_per_external: 3000
+  max_total_speaker_fees: 12000
+  deposit_limit_percent: 30
+  require_sponsor_minimum: 30000
+
+attendance:
+  expected_size: 300
+  registration_goal: 300
+  geographic_spread: "national"
+  seniority_mix: "mixed"
+
+operational:
+  wifi_rule: "attendees x 2 Mbps minimum"
+  require_ada: true
+  must_have_breakouts: true
+  setup_day_access_preferred: true
+  break_buffer_minutes: 15
+  lunch_min_minutes: 75
+  min_breaks_per_half_day: 2
+
+guardrails:
+  - "No single vendor > 40% of total budget"
+  - "Catering spend must not exceed $60 per person"
+  - "At least 2 confirmed external speakers by T-60 days"
+  - "Sponsors to cover at least 50% of budget gap by T-45 days"
+  - "Kill if registration velocity < 30% of target at T-14 days"
+
+notes:
+  - "Primary purpose: thought leadership + lead generation for B2B SaaS audience"
+  - "Hybrid requirement: live stream plenary and record breakouts for on-demand"

@@ -1,0 +1,30 @@
+For use in revising the external statement and internal email.
+
+Confirmed facts (as of April 4, 10:00 AM):
+- Incident: Brief fire in casting bay at Riverbend Plant on April 3 at ~2:15 PM local time.
+- Containment: Onsite suppression contained the fire within ~12 minutes. Local fire department responded.
+- People: Two contractors evaluated for smoke inhalation at the scene; both released the same day.
+- Operations: Operations did NOT resume the same day. Inspections occurred overnight; limited operations resumed at 7:00 AM on April 4.
+- Cause: Unknown; under investigation by the State Department of Labor & Industry’s occupational safety division. We are fully cooperating.
+
+Messaging/tone guardrails:
+- Do not speculate on cause or suggest sabotage.
+- Do not use superlatives (e.g., "unmatched"), or sweeping safety/compliance claims beyond confirmed facts.
+- Apologize clearly and early to employees and the local community.
+- Use plain language; avoid legalese and jargon.
+
+Actions we can state now:
+- Immediate inspections of affected equipment and adjacent lines before resuming operations.
+- Cooperation with state investigators and sharing updates as milestones occur.
+- Offering free medical assessments for onsite personnel and optional community air monitoring with a third-party firm starting April 4 at 9:00 AM.
+
+Required inclusions for the revised public statement:
+- A section labeled "What we're doing" with exactly three concise items reflecting the actions above.
+- Community hotline: 1-800-555-0199; Media contact: press@northbridge.com.
+- Do not state or imply air quality is safe until third-party results are available.
+- Keep total length between 160–220 words.
+- Final line: "Prepared by Northbridge Metals Communications — <YYYY-MM-DD>."
+
+Internal context for email rewrite (sensitive):
+- Author has a potential bias: father is a long-time maintenance supervisor at a competing plant. Keep tone professional; if disclosed, do so briefly and tactfully.
+- Key asks for COO: (1) Agree to apology-first framing; (2) Remove unverified claims; (3) Include the three concrete actions; (4) Request EHS and Legal review before release; (5) Propose a same-day sign-off deadline.

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1809",
+  "user_query": "I'm starting a Stoic routine and want your help producing three artifacts from my materials. Please read input/affirmations.json and the seven daily logs under input/memory/ from 2026-04-10 to 2026-04-16. Then:\n\n1) Generate a morning Stoic reflection for April 17, 2026 using the affirmation with id \"aff-035\". Write the result to output/morning_2026-04-17.txt with this exact structure:\n- First line: \"Affirmation ID: aff-035 (category: present)\"\n- A \"Reflection:\" section consisting of 2–3 paragraphs (blank-line separated)\n- A \"Practical application:\" line with one concrete action for today\n- A \"Closing thought:\" line\n- A \"Quote:\" line containing a relevant Stoic quote in English and one of these authors: Marcus Aurelius, Epictetus, Seneca, Musonius Rufus, or Zeno of Citium\n\n2) Create a weekly summary based on the seven logs and save it to output/weekly_summary_2026-04-17.txt with sections: \"Patterns:\" (bulleted), \"Virtue Ratings (1-5):\" with Wisdom, Justice, Temperance, Courage each scored 1–5, \"Best moment:\", \"Hardest moment:\", and \"Focus for next week:\" (one specific focus).\n\n3) Draft an on-demand anxiety/impulse support script triggered by the phrase \"I need to stop\" and save it to output/anxiety_support.txt. Include these six steps as headings in order: 1) Acknowledge, 2) Breathe, 3) Ask, 4) Virtue filter (with prompts for Wisdom, Justice, Temperance, Courage), 5) Reframe, 6) Decide together. Also include the trigger phrase in the file.\n\nAll content should be in English and use a warm, practical Stoic tone.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,14 @@
+site_name: "CharismaCrown"
+environment: "production"
+debug_mode: true
+allow_search_indexing: true
+watermark_required_for_public: true
+strip_exif_on_upload: true
+directory_listing:
+  enabled: true
+  paths:
+    - "/photos/behind-the-scenes/"
+content_security_policy: ""
+headers:
+  Strict-Transport-Security: "max-age=31536000; includeSubDomains"
+  X-Content-Type-Options: "nosniff"

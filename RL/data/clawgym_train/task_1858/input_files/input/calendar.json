@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Incident Review: API Gateway 5xx spike (Cross-team: SRE)",
+    "start": "2026-04-19T09:30:00-04:00",
+    "end": "2026-04-19T10:15:00-04:00",
+    "location": "Zoom",
+    "attendees": ["You (Core Platform Manager)", "Priya (SRE)", "Alex (Core)", "Mina (API)"],
+    "description": "Review root causes and remediation items from the 04/18 evening 5xx spike."
+  },
+  {
+    "title": "1:1 with Director (Engineering)",
+    "start": "2026-04-19T13:00:00-04:00",
+    "end": "2026-04-19T13:30:00-04:00",
+    "location": "Zoom",
+    "attendees": ["You", "Director of Engineering"],
+    "description": "Weekly 1:1 to cover team status, risks, and staffing."
+  },
+  {
+    "title": "Vendor Security Review: SSO renewal with AuthLion",
+    "start": "2026-04-20T10:00:00-04:00",
+    "end": "2026-04-20T11:00:00-04:00",
+    "location": "Zoom",
+    "attendees": ["You", "Jenna (Security)", "AuthLion AE"],
+    "description": "Discuss SSO renewal requirements, DPA, and timeline."
+  },
+  {
+    "title": "DB Migration Dry-Run: Orders DB to Aurora (Core + Data Eng)",
+    "start": "2026-04-20T16:00:00-04:00",
+    "end": "2026-04-20T17:30:00-04:00",
+    "location": "Zoom",
+    "attendees": ["You", "Miguel (Core)", "Derek (Data Eng)", "On-call DBA"],
+    "description": "Rehearsal of migration steps; verify rollback plan and runbooks."
+  },
+  {
+    "title": "Q2 Core Platform Milestone Checkpoint (VP Staff)",
+    "start": "2026-04-21T14:00:00-04:00",
+    "end": "2026-04-21T15:00:00-04:00",
+    "location": "Atrium C",
+    "attendees": ["You", "VP Eng", "CTO", "Peer Managers"],
+    "description": "Checkpoint on Q2 priorities: Gateway stability, SSO renewal, DB migration."
+  }
+]

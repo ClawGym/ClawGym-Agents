@@ -1,0 +1,32 @@
+{
+  "invoices": [
+    {
+      "invoice_number": "INV-2026-001",
+      "client": "Acme Corp",
+      "email": "billing@acme.com",
+      "from": "Shelly Labs",
+      "date": "2026-02-22",
+      "due": "2026-03-24",
+      "currency": "USD",
+      "tax": 10,
+      "items": [
+        "Web Development|40|150.00",
+        "Design Review|5|120.00"
+      ]
+    },
+    {
+      "invoice_number": "INV-2026-002",
+      "client": "Globex LLC",
+      "from": "Shelly Labs",
+      "date": "2026-04-10",
+      "due": "2026-05-10",
+      "currency": "EUR",
+      "tax": 7.5,
+      "items": [
+        "API Integration|12|200.00",
+        "Maintenance|6|85.50",
+        "Onsite Training|2|750.00"
+      ]
+    }
+  ]
+}

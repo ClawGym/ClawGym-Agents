@@ -1,0 +1,9 @@
+listening_mode:
+  name: "DMX_Session"
+  env:
+    HIPHOP_MODE: "on"
+    EQ_PRESET: "boom_bap"
+    PROMPT_PREFIX: "DMX"
+  alias:
+    name: "ruffryders"
+    message: "Ruff Ryders' Anthem!"

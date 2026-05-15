@@ -1,0 +1,13 @@
+Our current overtime policy (effective Jan 1, 2026):
+
+- Workweek definition: Sunday 12:00 AM to Saturday 11:59 PM. Pay frequency is biweekly.
+- Overtime eligibility:
+  - Non-exempt employees: Overtime paid at 1.5x for hours worked over 40 in a workweek.
+  - No daily overtime calculation is applied in any state.
+  - Double-time is not applied.
+- Averaging: For payroll processing efficiency, hours may be averaged across the two-week pay period to determine overtime eligibility.
+- Bonuses/commissions: Non-discretionary production bonuses are paid monthly but are not included in the regular rate for overtime calculations.
+- Meal breaks: A 30-minute unpaid meal break is auto-deducted for any shift scheduled over 6 hours unless the manager notes an exception. Employees do not clock out for meal breaks.
+- Rounding: Time is rounded to the nearest 15 minutes. For clock-ins 1–7 minutes late, time is rounded down to the prior quarter-hour; for early clock-outs of 1–7 minutes, time is rounded up to the prior quarter-hour.
+- 7th consecutive day rule: Not specifically addressed in the policy.
+- Exempt classification: Salaried employees designated as “exempt” do not receive overtime pay. Duties tests are reviewed by managers during onboarding. Salary minimums are set to meet federal thresholds. California-specific salary thresholds are not separately tracked.

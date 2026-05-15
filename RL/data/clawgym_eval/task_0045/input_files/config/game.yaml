@@ -1,0 +1,9 @@
+game_name: "Grim Quest"
+features:
+  permadeath: true
+  photo_mode: false
+  petting_dog: true
+  dismemberment: false
+experimental:
+  npc_insults: true
+  ghost_mode: false

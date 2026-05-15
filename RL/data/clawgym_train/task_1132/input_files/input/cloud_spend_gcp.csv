@@ -1,0 +1,17 @@
+service,sku,cost,labels,environment
+Compute Engine,N2 Standard Instance Core/Memory,5200.00,"app=etl-runner;team=data;owner=steve;preemptible=no;zone_pinning=yes",prod
+Compute Engine,A100 GPU Attached,2800.00,"app=model-training;team=ml;owner=maya;schedule=24x7",prod
+GKE,Cluster Management Fee,250.00,"cluster=fleet-analytics;team=platform;owner=emma",prod
+Persistent Disk,SSD PD Capacity,1400.00,"attached_to=gke-nodes;owner=platform;lifecycle=none",prod
+Persistent Disk,Snapshot Storage,500.00,"policy=retain-forever;owner=unknown",prod
+Network,Egress Inter-Zone,700.00,"src=gke;dst=cloudsql;traffic=cross-zone",prod
+Cloud NAT,NAT Gateway,350.00,"subnet=private;owner=platform",prod
+Cloud SQL,PostgreSQL Instances,2600.00,"db=events;ha=enabled;owner=dba;read_replicas=2",prod
+BigQuery,Active Storage,800.00,"dataset=raw;partitioning=none;owner=data",prod
+BigQuery,On-Demand Query Processing,900.00,"dataset=ad-hoc;cache=none;owner=analysts",prod
+Cloud Logging,Log Ingestion,950.00,"project=core;level=debug;owner=platform;retention=180d",prod
+Cloud Monitoring,Metrics,300.00,"project=core;owner=platform",prod
+Cloud Armor,WAF Policy,200.00,"project=edge;owner=security",prod
+Cloud KMS,Key Operations,120.00,"project=core;owner=security;keys=per-service",prod
+Vertex AI,Online Prediction Nodes,600.00,"model=inference-cpu-ok;owner=ml;autoscaling=off",prod
+Compute Engine,Windows License,100.00,"app=tools;owner=it-ops;image=windows",dev

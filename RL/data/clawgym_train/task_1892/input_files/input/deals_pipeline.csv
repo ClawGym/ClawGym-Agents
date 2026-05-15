@@ -1,0 +1,13 @@
+deal_id,partner_name,region,segment,model,acv_usd,stage,source,expected_close_quarter,is_registered,direct_engaged
+D001,CloudScale VAR,North America,Mid-market,reseller,48000,Proposal,partner,2026-Q2,true,false
+D002,EuroTech Solutions,EMEA,Mid-market,reseller,52000,Negotiation,partner,2026-Q2,true,false
+D003,FinAdvisors LLP,North America,Enterprise,referral,150000,Qualification,partner,2026-Q3,true,true
+D004,APAC Integrators,APAC,SMB,reseller,18000,Proposal,partner,2026-Q2,true,false
+D005,,North America,Mid-market,direct,55000,Discovery,inbound,2026-Q2,false,true
+D006,DevOpsGurus,EMEA,Enterprise,co-sell,200000,Discovery,outbound,2026-Q3,true,true
+D007,SkyNet Systems,North America,SMB,reseller,16000,Qualification,partner,2026-Q3,false,false
+D008,EuroTech Solutions,EMEA,Mid-market,reseller,45000,Closed Won,partner,2026-Q1,true,false
+D009,CloudScale VAR,North America,Enterprise,co-sell,130000,Negotiation,outbound,2026-Q2,true,true
+D010,,EMEA,SMB,direct,22000,Qualification,inbound,2026-Q2,false,true
+D011,FinAdvisors LLP,North America,Mid-market,referral,40000,Closed Lost,partner,2026-Q1,true,true
+D012,APAC Integrators,APAC,Mid-market,reseller,42000,Proposal,outbound,2026-Q3,true,false

@@ -1,0 +1,43 @@
+# Mactop profiling requirements for a short build cycle
+profile_name: "short-build-cycle"
+version: 1
+
+# Sampling parameters
+sample_count: 10          # Collect exactly this many samples
+interval_ms: 750          # Milliseconds between samples
+
+# Context for the run (for the written report)
+context: "Profile during a short local build (e.g., compiling a medium Swift/TypeScript module) to observe CPU- and memory-bound behavior over ~7–10 seconds."
+
+# Metrics that must be present in each raw sample
+required_metrics:
+  - timestamp
+  - cpu_usage
+  - gpu_usage
+  - memory.Total
+  - memory.Used
+  - memory.Available
+  - soc_metrics.CPUPower
+  - soc_metrics.GPUPower
+  - soc_metrics.TotalPower
+  - soc_metrics.SocTemp
+  - thermal_state
+  - system_info.Name
+  - system_info.CoreCount
+
+# Threshold hints to inform analysis in the final report
+thresholds:
+  thermal_throttle_temp_c: 90.0      # Discuss potential throttling if any SocTemp exceeds this
+  cpu_usage_high_pct: 85.0           # Consider CPU usage "high" if >= this percent
+  gpu_usage_high_pct: 80.0           # Consider GPU usage "high" if >= this percent
+  total_power_high_w: 25.0           # Consider total SoC power "high" if >= this many Watts
+  memory_pressure_used_gb: 28.0      # Consider RAM pressure elevated if used memory exceeds this (for 32 GB-class systems)
+  expected_pattern: "CPU-bound workload; brief GPU activity possible due to UI/metal acceleration; RAM usage may rise slightly during compilation."
+
+# Notes for analysis and recommendations
+analysis_notes:
+  - "Focus on CPU usage spikes and total power draw during compilation."
+  - "Track RAM used growth and peak; comment on memory pressure if near threshold."
+  - "List any unique thermal_state values (e.g., Normal, Fair, Serious, Critical)."
+  - "If SocTemp exceeds thermal_throttle_temp_c, discuss thermal throttling risk and mitigation."
+  - "Keep the report concise with actionable recommendations (cooling, build caching, parallelism)."

@@ -1,0 +1,19 @@
+{
+  "name": "example-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "webpack": "4.44.2"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}

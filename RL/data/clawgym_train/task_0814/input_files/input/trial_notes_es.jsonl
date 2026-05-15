@@ -1,0 +1,72 @@
+{
+  "trial_id": "T001",
+  "date": "2026-03-02",
+  "product_code": "WQ-PR122",
+  "rating": 5,
+  "drying_time_sec": 180,
+  "flow_score": 8,
+  "note_spanish": "El pigmento se comportó con gran transparencia y leve granulado en papel de algodón. Mezcla limpia con azul cobalto."
+}
+{
+  "trial_id": "T002",
+  "date": "2026-03-03",
+  "product_code": "WQ-PB29",
+  "rating": 4,
+  "drying_time_sec": 240,
+  "flow_score": 7,
+  "note_spanish": "Buen levantamiento con pincel húmedo; el tono se mantiene brillante, aunque granula más en prensa fría."
+}
+{
+  "trial_id": "T003",
+  "date": "2026-03-04",
+  "product_code": "WQ-PG7",
+  "rating": 3,
+  "drying_time_sec": 210,
+  "flow_score": 6,
+  "note_spanish": "Fluye rápido y tiende a teñir el papel; requiere más agua para lavados suaves."
+}
+{
+  "trial_id": "T004",
+  "date": "2026-03-05",
+  "product_code": "WQ-PY150",
+  "rating": 5,
+  "drying_time_sec": 160,
+  "flow_score": 9,
+  "note_spanish": "Secado rápido y excelente luminosidad; perfecto para capas finas y veladuras."
+}
+{
+  "trial_id": "T005",
+  "date": "2026-03-06",
+  "product_code": "WQ-PR122",
+  "rating": 4,
+  "drying_time_sec": 190,
+  "flow_score": 8,
+  "note_spanish": "Rojo intenso pero controlable; bordes suaves en papel 300 gsm."
+}
+{
+  "trial_id": "T006",
+  "date": "2026-03-07",
+  "product_code": "WQ-PB29",
+  "rating": 5,
+  "drying_time_sec": 230,
+  "flow_score": 7,
+  "note_spanish": "Granulación agradable y sombras profundas; funciona bien para cielos y mar."
+}
+{
+  "trial_id": "T007",
+  "date": "2026-03-08",
+  "product_code": "WQ-PG7",
+  "rating": 2,
+  "drying_time_sec": 200,
+  "flow_score": 5,
+  "note_spanish": "Demasiado manchante; difícil de levantar y se vuelve turbio al mezclar."
+}
+{
+  "trial_id": "T008",
+  "date": "2026-03-09",
+  "product_code": "WQ-PY150",
+  "rating": 4,
+  "drying_time_sec": 170,
+  "flow_score": 8,
+  "note_spanish": "Amarillo transparente que mezcla bien; se mantiene vibrante al secar."
+}

@@ -1,0 +1,83 @@
+{
+  "workspace": "/srv/agent/workspace",
+  "generated_at": "2026-04-15T12:00:00Z",
+  "tools": [
+    {
+      "name": "sentinel",
+      "domain": "Supply chain",
+      "status": "OK",
+      "findings": []
+    },
+    {
+      "name": "signet",
+      "domain": "Skill signing",
+      "status": "OK",
+      "findings": []
+    },
+    {
+      "name": "warden",
+      "domain": "Workspace integrity",
+      "status": "REVIEW",
+      "findings": [
+        "2 modified files not in baseline: work/drafts/tmp-note.md, scripts/tmp.sh"
+      ]
+    },
+    {
+      "name": "bastion",
+      "domain": "Injection defense",
+      "status": "OK",
+      "findings": []
+    },
+    {
+      "name": "sentry",
+      "domain": "Secret scanning",
+      "status": "REVIEW",
+      "findings": [
+        "AWS access key–like pattern in notes/scratch.txt (low confidence)",
+        "Generic token pattern in .env.example (ignore by policy?)"
+      ]
+    },
+    {
+      "name": "vault",
+      "domain": "Credential lifecycle",
+      "status": "OK",
+      "findings": []
+    },
+    {
+      "name": "arbiter",
+      "domain": "Permission auditing",
+      "status": "OK",
+      "findings": []
+    },
+    {
+      "name": "egress",
+      "domain": "Network DLP",
+      "status": "OK",
+      "findings": []
+    },
+    {
+      "name": "marshal",
+      "domain": "Compliance",
+      "status": "REVIEW",
+      "findings": [
+        "Policy deviation: 3 files missing YAML frontmatter in work/output/",
+        "Unlabeled decision file detected outside decisions/ folder"
+      ]
+    },
+    {
+      "name": "ledger",
+      "domain": "Audit trail",
+      "status": "OK",
+      "findings": []
+    },
+    {
+      "name": "triage",
+      "domain": "Incident response",
+      "status": "CRITICAL",
+      "findings": [
+        "Active incident: possible secret exposure in last commit (refs: 1a2b3c4)",
+        "Evidence collected; containment pending review"
+      ]
+    }
+  ]
+}

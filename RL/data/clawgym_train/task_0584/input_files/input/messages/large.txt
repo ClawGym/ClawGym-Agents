@@ -1,0 +1,18 @@
+Bob,
+
+This is a longer message intended to exceed the direct RSA OAEP payload limit so that our agent chooses hybrid RSA+AES-256-GCM encryption. The content below includes multiple sentences, line breaks, and enough characters to push the size well beyond two hundred and fourteen bytes.
+
+Context:
+- Tomorrow’s deployment window opens at 09:30 UTC.
+- Please rotate the API credentials on staging and production.
+- After rotation, verify that background job runners reconnect cleanly.
+- Capture metrics for cold-start latency and TLS handshake times.
+
+Notes:
+I’ve attached (separately) the latest changelog and a list of feature flags that must remain off until the customer pilot completes. If any anomalies are observed in the preflight checks, halt the rollout, notify on-call, and open an incident in the tracker with repro steps.
+
+Security:
+Remember that this message should be decrypted only by you. Do not paste decrypted content into tools without access controls. We’ll review the audit logs during the retro.
+
+Thanks,
+Alice

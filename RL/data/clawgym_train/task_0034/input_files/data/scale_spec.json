@@ -1,0 +1,8 @@
+{
+  "scale_name": "Community Resilience Short Scale (CRSS-5)",
+  "items": ["Q1", "Q2", "Q3", "Q4", "Q5"],
+  "reverse_coded": ["Q2", "Q5"],
+  "scale_min": 0,
+  "scale_max": 3,
+  "description": "Sum of five items scored 0-3. Reverse-code Q2 and Q5 using (max - value)."
+}

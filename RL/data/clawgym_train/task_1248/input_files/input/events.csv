@@ -1,0 +1,3 @@
+event_id,name,target_min_age,target_max_age,target_status,tags,event_date,event_time,location
+EVT1,First-Time Buyer Workshop,22,40,renter,first-time-buyer|mortgage|credit|budget,2026-05-10,18:00,"Community Center, 123 Main St, Springfield"
+EVT2,Downsizing Seminar,58,99,homeowner,downsizing|retirement|simplify|condo,2026-05-12,10:00,"Senior Center, 456 Oak Ave, Springfield"

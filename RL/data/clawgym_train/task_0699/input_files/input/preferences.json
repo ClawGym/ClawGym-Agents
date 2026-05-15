@@ -1,0 +1,28 @@
+{
+  "organizer": {
+    "name": "Jordan Park",
+    "email": "jordan.park@example.com",
+    "timeZone": "America/New_York"
+  },
+  "purpose": "Cross-team Design Review",
+  "meetingLengthMinutes": 60,
+  "dateRange": {
+    "start": "2026-04-21",
+    "end": "2026-04-24"
+  },
+  "dailyBounds": {
+    "startLocal": "09:00",
+    "endLocal": "17:00"
+  },
+  "bufferRules": {
+    "beforeMinutes": 10,
+    "afterMinutes": 10
+  },
+  "constraints": {
+    "avoidHolidays": true,
+    "preferMaxOverlap": true,
+    "minParticipants": 4,
+    "allowPartialAttendance": true
+  },
+  "notes": "Next week scheduling window, 60-minute session, avoid holidays, respect 9–5 ET."
+}

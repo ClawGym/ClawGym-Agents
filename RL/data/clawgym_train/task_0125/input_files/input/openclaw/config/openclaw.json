@@ -1,0 +1,16 @@
+{
+  "app": "OpenClaw",
+  "version": "2.5.0",
+  "workspaceDir": "~/.openclaw/workspace",
+  "skillsDir": "~/.openclaw/skills",
+  "telemetry": false,
+  "defaultAgent": "CEO",
+  "features": {
+    "autosave": true,
+    "backupRotation": 5,
+    "memory": {
+      "enabled": true,
+      "path": "~/.openclaw/workspace/memory"
+    }
+  }
+}

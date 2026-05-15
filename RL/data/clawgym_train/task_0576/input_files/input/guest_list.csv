@@ -1,0 +1,65 @@
+first_name,last_name,company,email,rsvp_status,plus_ones,dietary_needs,notes
+Alex,Johnson,TechWire,alex.johnson@techwire.com,Yes,0,None,Press - VIP
+Maria,Gonzalez,CloudWorks,mgonzalez@cloudworks.io,Yes,1,Vegan,Partner CTO
+Ethan,Lee,Blue Ridge Ventures,ethan@brv.com,Maybe,0,None,Investor
+Priya,Sharma,Shopora,priya.sharma@shopora.com,Pending,0,Gluten-free,Prospect
+Liam,O'Neill,WestEdge Capital,liam@westedgecap.com,Yes,0,None,Investor
+Sophia,Nguyen,Future Retail,future.sophia@fr.com,Yes,1,None,Customer
+Noah,Kim,City Robotics,noah.kim@cityrobotics.ai,Yes,0,None,Customer
+Isabella,Martinez,MarketPulse,isabella@marketpulse.media,Yes,0,None,Press
+Mason,Clark,Northstar Logistics,mason.clark@northstarlog.com,Pending,0,None,Prospect
+Olivia,Wright,DataNest,olivia.w@datanest.io,Yes,0,None,Partner
+Ava,Patel,Orbital Systems,ava.patel@orbitalsys.com,Maybe,1,Vegan,Partner
+James,Brown,Independent Analyst,james.brown@analystmail.com,Yes,0,None,Press - Analyst
+Amelia,Lopez,Greenlane Ventures,amelia@greenlanevc.com,Yes,0,None,Investor
+Lucas,Garcia,StratosLab,lucas@stratoslab.co,Yes,0,None,Partner
+Mia,Davis,Metro AI,mdavis@metroai.com,Pending,0,Peanut allergy,Customer
+Elijah,Anderson,EdgeCore,elijah@edgecore.io,No,0,None,Former partner
+Harper,Thompson,Thompson PR,harper@thompsonpr.co,Yes,0,None,PR Partner
+Benjamin,Wilson,Urban Cart,ben@urbancart.com,Yes,1,None,Customer
+Charlotte,Moore,DeepVision,charlotte@deepvision.ai,Maybe,0,None,Prospect
+Henry,Taylor,TechBeat,henry@techbeat.media,Yes,0,None,Press
+Evelyn,Martin,Insight Partners,evelyn@insightpartners.com,Yes,0,None,Investor
+Jack,Thomas,Allied Robotics,jack.thomas@alliedrb.com,Yes,0,None,Partner
+Scarlett,White,Beacon Analytics,scarlett@beaconanalytica.com,Pending,0,Gluten-free,Prospect
+Daniel,Ortiz,Asteria Labs,dortiz@asterialabs.com,Yes,0,None,Staff
+Maya,Chen,Asteria Labs,mchen@asterialabs.com,Yes,0,None,Staff
+Priya,Nair,Asteria Labs,pnair@asterialabs.com,Yes,0,None,Staff
+Liam,Park,Asteria Labs,lpark@asterialabs.com,Yes,0,None,Staff
+Sophia,Reed,Asteria Labs,sreed@asterialabs.com,Yes,0,None,Staff
+Victor,Huang,Asteria Labs,vhuang@asterialabs.com,Yes,0,None,Staff
+Emma,Brooks,Asteria Labs,ebrooks@asterialabs.com,Yes,0,None,Staff
+Zoe,Mitchell,Helio Compute,zoe@heliocompute.com,Maybe,0,None,Partner
+Aiden,Walker,NextGrid,aiden.walker@nextgrid.io,Yes,0,None,Customer
+Layla,Young,City Robotics,layla.young@cityrobotics.ai,Yes,0,None,Customer
+Wyatt,King,SupplyFlex,wyatt@supplyflex.com,Pending,0,None,Prospect
+Nora,Scott,The Tech Journal,nora@techjournal.com,Yes,0,None,Press
+Logan,Harris,OmniRetail,logan@omniretail.com,Yes,1,Vegan,Customer
+Chloe,Adams,MediaHub,chloe@mediahub.tv,Maybe,0,None,Press
+Matthew,Green,Edge Horizons,matthew@edgehorizons.io,Yes,0,None,Partner
+Emily,Baker,FoodWorks,emily@foodworks.co,Pending,0,None,Catering partner
+Caleb,Campbell,Streamline AV,caleb@streamav.com,Yes,0,None,AV partner
+Abigail,Rivera,Northstar Logistics,abigail@northstarlog.com,Yes,0,None,Customer
+Grace,Perez,HighStreet Retail,grace@highstreet.com,Yes,0,Gluten-free,Customer
+Jayden,Roberts,Urban Cart,jayden@urbancart.com,Yes,0,None,Customer
+Penelope,Phillips,TechWire,penelope@techwire.com,Yes,0,None,Press
+David,Ross,QuantumFrame,david@quantumframe.ai,Maybe,0,None,Partner
+Hannah,Cox,CloudWorks,hannah@cloudworks.io,Yes,1,None,Partner
+Andrew,Howard,Metro AI,andrew@metroai.com,Pending,0,None,Prospect
+Victoria,Bell,OpenFabric,victoria@openfabric.io,Yes,0,None,Customer
+Samuel,Cook,Innovent,samuel@innovent.co,No,0,None,Partner
+Aria,Diaz,City Robotics,aria@cityrobotics.ai,Yes,0,None,Customer
+Joseph,Bennett,DataNest,joseph@datanest.io,Yes,0,None,Partner
+Eleanor,Gray,RetailReview,eleanor@retailreview.com,Yes,0,None,Press
+Christopher,Evans,Blue Ridge Ventures,cevans@brv.com,Maybe,0,None,Investor
+Aubrey,Ramirez,EdgeCore,aubrey@edgecore.io,Yes,0,None,Partner
+Gabriel,James,OmniRetail,gabriel@omniretail.com,Yes,0,None,Customer
+Stella,Foster,MarketPulse,stella@marketpulse.media,Yes,0,None,Press
+Anthony,Parker,SupplyFlex,anthony@supplyflex.com,Pending,0,None,Prospect
+Violet,Richardson,Future Retail,violet@fr.com,Yes,0,None,Customer
+Dylan,Cox,NextGrid,dylan@nextgrid.io,Yes,0,None,Customer
+Riley,Wood,Helio Compute,riley@heliocompute.com,Maybe,0,None,Partner
+Paisley,Bryant,Beacon Analytics,paisley@beaconanalytica.com,Yes,0,None,Customer
+Nathan,Jameson,Streamline AV,nathan@streamav.com,Yes,0,None,AV partner
+Leah,Watson,Thompson PR,leah@thompsonpr.co,Yes,0,None,PR Partner
+Hunter,Price,OpenFabric,hunter@openfabric.io,Yes,0,None,Customer

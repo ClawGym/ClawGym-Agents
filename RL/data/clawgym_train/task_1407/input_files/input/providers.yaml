@@ -1,0 +1,5 @@
+has_openai_key: false
+local_models:
+  - sentence-transformers
+recommended_local_model: sentence-transformers
+notes: "Use a small local model for semantic search and fall back to bm25 if embeddings are unavailable."

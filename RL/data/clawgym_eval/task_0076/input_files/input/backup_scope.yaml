@@ -1,0 +1,8 @@
+always_snapshot:
+  - output/.openclaw/openclaw.json
+  - output/AGENTS.md
+  - output/SOUL.md
+  - output/TOOLS.md
+optional_snapshot:
+  - output/.openclaw/workspace/
+  - output/.openclaw/credentials/

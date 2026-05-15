@@ -1,0 +1,80 @@
+Customer Call Notes — Texas Construction Lenders (Anonymized)
+
+1) Community Bank A (Assets ~$2.4B) — North Texas
+- Portfolio: ~140 active commercial construction loans; mix of multifamily, retail, light industrial.
+- Current process: Excel tracker + SharePoint folders; email-based draw requests. Inspector reports uploaded manually.
+- Pain points:
+  - “We lose time reconciling lien waivers; subs sometimes missing conditional vs unconditional forms.”
+  - “Audit trail is weak — examiners asked for per-draw documentation sequence.”
+  - Turnaround goal: 48–72 hours; currently slips to 4–5 days in peak months.
+- Integrations/security:
+  - LOS used for origination only; ops is off-system. Wants SSO and export to core GL.
+  - Vendor risk review needed; prefers SOC 2.
+- Willingness to pay:
+  - “If it saves a headcount or reduces exam findings, $12k–$20k per year is justifiable.”
+  - Alternative framing: “$15–$25 per active loan per month would be fine if inspectors can be scheduled in-app.”
+- Adoption constraints:
+  - Needs Texas lien waiver templates baked in.
+  - Role-based approvals for credit/risk; e-sign compatible.
+
+2) Private Lender B — Austin-based
+- Portfolio: ~80 active construction loans; faster cycles; frequent draws (2 per month typical).
+- Process: Airtable + shared drive; DocuSign for waivers; manual checklists.
+- Pain points:
+  - “Inspector scheduling is a bottleneck; we need automated SLAs and mobile upload.”
+  - “Variance tracking on budgets is manual and error-prone.”
+- Willingness to pay:
+  - “We’d pay ~$18 per active loan per month, maybe more if lien waivers are automated with GC/sub reminders.”
+- Constraints:
+  - Needs API to sync loan budgets and cost codes; monthly reporting to investors.
+  - Prefers month-to-month to start; can commit annually after 90-day pilot.
+
+3) Credit Union C — Central Texas
+- Portfolio: ~60 active construction loans; conservative policies; tight vendor procurement.
+- Pain points:
+  - “Recent exam noted inconsistent documentation on draws.”
+  - “Lien waivers from subs get missed; we need conditional/unconditional logic per Texas rules.”
+- Procurement:
+  - Vendor risk and IT security add 60–90 days. SOC 2 Type II preferred.
+- Willingness to pay:
+  - “Entry around $10k–$12k per year if training and templates included.”
+- Domain notes:
+  - DSCR and debt yield targets inform funding pace; higher risk loans require more documentation per draw.
+
+4) Regional Bank D (Assets ~$18B) — Houston
+- Portfolio: ~220 active commercial construction loans; mix of ground-up and heavy rehab.
+- Process: LOS has a basic draw module; team still relies on spreadsheets for waivers and inspector coordination.
+- Pain points:
+  - “The LOS add-on lacks waiver tracking; we need configurable rules for Texas lien law.”
+  - “Operational variance reporting is difficult; auditors want clear per-draw approvals.”
+- Willingness to pay:
+  - “$25k–$40k per year for a robust solution that integrates with LOS and supports inspector vendor network.”
+- Constraints:
+  - Requires SAML SSO, data residency clarity, and audit logs; expects uptime SLAs.
+  - Implementation should be <90 days with data import from Excel.
+
+5) Community Bank E — West Texas
+- Portfolio: ~95 active construction loans; two draw specialists.
+- Process & pain:
+  - Manual emails; inspector availability delays funding.
+  - “Budget overruns caught too late; want alerts tied to LTC/LTV thresholds.”
+- Willingness to pay:
+  - “$12k/year feasible; would consider per-loan pricing if capped.”
+- Domain notes:
+  - LTV/LTC covenants trigger additional documentation; wants automatic checks before release.
+
+Cross-call themes and signals:
+- Draw frequency: ~1–2 per loan per month; inspection required nearly every draw.
+- Lien waiver pain: Tracking conditional vs unconditional; sub-tier waivers often missing.
+- Audit pressure: Examiners flag weak audit trails and inconsistent documentation.
+- Tooling status quo: Excel/SharePoint common; LOS add-ons rarely sufficient for waivers/inspections.
+- Pricing comfort bands: $10k–$20k/year for community/credit union; $25k–$40k/year for regional banks; per-loan $15–$25/month acceptable if capped.
+- Adoption dependencies: SOC 2, SSO, inspector scheduling, Texas-specific templates, API for budgets/cost codes.
+- Domain impact: DSCR, LTV, LTC, and debt yield policies influence draw cadence and documentation burden; higher risk loans => more oversight and more value from automation.
+
+Quantitative hints for sizing (Texas focus):
+- Indicative institutions in-reach (Texas): ~250–300 banks/CUs/private lenders with active commercial construction portfolios.
+- Average active construction loans per in-reach institution: ~100 (skewed by a few larger regionals).
+- Implied Texas active commercial construction loans: ~25,000–35,000.
+- Typical entry ARR bands from calls: $10k–$20k (small/mid) and $25k–$40k (regional).
+- Sales cycle expectations: 60–120 days for smaller institutions; 120–180 days for larger banks due to vendor risk reviews.

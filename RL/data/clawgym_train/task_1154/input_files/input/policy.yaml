@@ -1,0 +1,92 @@
+memory_policy:
+  preflight_on_session_start: true
+  pre_execution_recall: true
+  max_memory_items: 5
+  max_digest_lines: 8
+
+stages:
+  session_preflight:
+    description: "Run once at new session start to fetch active project, pinned facts, unresolved items, recent important entities, and a recent session summary."
+    output: "Compact session_digest, hard-capped by limits."
+  triggered_recall:
+    description: "Run targeted recall only when needed based on triggers."
+    triggers:
+      continuation_words:
+        - "resume"
+        - "previous"
+        - "last time"
+      execution_verbs:
+        - "edit"
+        - "modify"
+        - "implement"
+        - "design"
+        - "change"
+      entity_detected: true
+    skip_conditions:
+      - "generic_qa"
+      - "casual"
+      - "self_contained_question"
+    modes:
+      - "preflight_query"
+      - "continuation_query"
+      - "entity_query"
+      - "constraint_query"
+    precedence:
+      # When multiple triggers apply, choose the highest priority mode
+      - "continuation_query"
+      - "constraint_query"
+      - "entity_query"
+  pre_execution_gate:
+    description: "On execution-like turns or when pre_execution=true, validate constraints and safety before proceeding."
+    required_on:
+      - "file edits"
+      - "code generation"
+      - "architecture proposals"
+      - "configuration changes"
+      - "planning depending on prior project state"
+
+routing_rules:
+  # Decision logic:
+  # - If new_session is true on the first such turn: preflight_query
+  # - If text contains any continuation word: continuation_query
+  # - Else if intent is design_request or execution_request, or text has execution verbs: constraint_query
+  # - Else if entities[] is non-empty: entity_query
+  # - Else if intent is generic_qa or casual and self-contained: skip recall
+  continuation_detection:
+    case_insensitive: true
+    words:
+      - "resume"
+      - "previous"
+      - "last time"
+  execution_detection:
+    case_insensitive: true
+    verbs:
+      - "edit"
+      - "modify"
+      - "implement"
+      - "design"
+      - "change"
+
+compression:
+  strategy: "rank-then-dedupe"
+  dedupe: true
+  max_items: 5
+  max_digest_lines: 8
+
+status_tracking:
+  statuses:
+    - "not_needed"
+    - "queried_no_hits"
+    - "queried_low_confidence"
+    - "queried_success"
+    - "query_failed"
+
+logging:
+  required_fields:
+    - "turn_id"
+    - "intent"
+    - "recall_mode"
+    - "recall_status"
+    - "injected_item_count"
+    - "pre_execution_gate"
+  format: "single-line JSON structured log"

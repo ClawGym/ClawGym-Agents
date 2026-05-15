@@ -1,0 +1,7 @@
+contact_id,name,relationship,phone,email,availability
+N001,Nancy Nextdoor,neighbor,555-0101,nancy.nextdoor@example.com,"daytime;evenings;weekends"
+N002,Bob Across,neighbor,555-0102,bob.across@example.com,"evenings;nights;weekends"
+F001,Lily Daughter,family,555-0201,lily.daughter@example.com,"daytime;evenings"
+PRO1,LockPro Locksmith,locksmith,555-0301,service@lockpro.example.com,"24/7"
+BM01,Erin Manager,management,555-0401,erin.manager@example.com,"daytime"
+LORD1,Sam Landlord,landlord,555-0501,sam.landlord@example.com,"daytime;weekends"

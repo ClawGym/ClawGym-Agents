@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1484",
+  "user_query": "I need a phosphorus (P) fertilization planning sheet for our 6 fields. Read input/fields.csv and produce two files:\n\n1) output/recommendations.csv with these exact header columns:\n- FieldID\n- SoilTestMethod\n- SoilTestP_ppm\n- Category\n- Action\n- PlannedCrop\n- ExpectedYield\n- RemovalRate_P2O5_lb_per_unit\n- Maintenance_P2O5_lb_acre\n- Notes\n\nRules:\n- Determine Category using the soil test interpretation thresholds appropriate to the listed SoilTestMethod (Bray, Olsen, or Mehlich 3).\n- Set Action exactly to one of: \"Heavy P needed\", \"Build P level\", \"Maintenance\", \"Reduce/skip P\", or \"No P needed\" according to the Category from the soil test interpretation table.\n- Compute Maintenance_P2O5_lb_acre as ExpectedYield multiplied by the crop’s P2O5 removal rate. Use agronomic crop removal rates (lb P2O5 per yield unit) consistent with standard references for these crops.\n- RemovalRate_P2O5_lb_per_unit must match the rate used to compute Maintenance_P2O5_lb_acre.\n- Round Maintenance_P2O5_lb_acre to 2 decimal places.\n- In Notes, add a brief placement/timing suggestion (one phrase).\n\n2) output/summary.json containing:\n- total_fields (integer)\n- categories (object with keys: \"Very Low\", \"Low\", \"Medium\", \"High\", \"Very High\" and integer counts)\n- total_maintenance_P2O5 (sum of Maintenance_P2O5_lb_acre across all fields as a number)\n\nAssumptions:\n- Use method-specific soil test P interpretation thresholds for Bray, Olsen, and Mehlich 3.\n- Use standard P2O5 crop removal factors for: Corn (grain), Soybean, Wheat, Alfalfa hay, Corn silage, and Potato.\n- Do not hardcode anything outside what you can justify from agronomic references.\n\nWrite the two outputs only under output/ paths specified above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1531",
+  "user_query": "Create and organize personal markdown notes under output/notes based on the spec in input/notes_spec.json. For each note: - Organize into subdirectories output/notes/ideas, output/notes/projects, or output/notes/misc as indicated. - Use a short, lowercase hyphenated filename slug derived from the title (letters, numbers, and hyphens only). - Include YAML frontmatter with tags from the spec and a created field set to today's date in YYYY-MM-DD format. - Include a level-1 Markdown heading with the title and the note body. After creating the notes: - Read input/append_instructions.txt and append the described section to the specified existing note without removing or overwriting any prior content. - List all notes under output/notes (excluding daily) and write an index to output/notes_index.tsv with tab-separated columns: relative_path (from output/notes), title, tags (comma-separated), created date. - Read input/search_terms.txt and search case-insensitively across all notes (including the daily file), writing output/search_results.md where each term appears as a level-2 heading followed by bullet entries in the form \"relative_path:line_number: context snippet\". Provide a brief context snippet around the match (about 80–140 characters). Finally: - Create or update today's daily note at output/notes/daily/YYYY-MM-DD.md, starting with a top-level \"# YYYY-MM-DD\" heading and at least two timestamped bullet entries in the format \"- HH:MM — text\". Use relative paths exactly as shown. Do not delete any files. If anything is ambiguous, ask me before proceeding.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

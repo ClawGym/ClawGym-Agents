@@ -1,0 +1,9 @@
+I build AI products that earn trust on day one. That means clear outcomes, crisp guardrails, and decisions you can explain on a whiteboard. Principles matter, but they only matter if they ship.
+
+Human-centered isn’t a slogan; it’s a discipline. We talk to the people who will live with our choices, then we measure what those choices do in the wild. If the metric doesn’t move, the story doesn’t either.
+
+Values travel at the speed of code. Governance is a product feature, not a memo. Your models should be as legible to the people who use them as they are to the people who train them.
+
+I prefer short sentences and strong verbs. Fewer claims, better evidence. If we can’t explain it to a busy executive and a stressed-out analyst in the same paragraph, we’re not done.
+
+The win is simple: less risk, more impact, and a product team that can sleep at night. That’s the work.

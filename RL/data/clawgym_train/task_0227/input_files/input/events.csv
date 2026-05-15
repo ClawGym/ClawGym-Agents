@@ -1,0 +1,8 @@
+bookstore_id,date,title,category,attendance_estimate,ticketed
+b01,2024-05-03,Poetry Night,author talk,45,false
+b01,2024-05-12,Local Zine Fair,community fair,120,false
+b02,2024-05-05,Debut Novelist Q&A,author talk,70,true
+b02,2024-05-20,Children's Story Hour,reading,40,false
+b03,2024-05-08,Mutual Aid Book Drive,community event,90,false
+b04,2024-04-30,Open Mic Night,open mic,60,false
+b04,2024-05-10,Indie Press Showcase,author talk,80,true

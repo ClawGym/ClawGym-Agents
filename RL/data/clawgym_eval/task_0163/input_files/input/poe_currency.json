@@ -1,0 +1,42 @@
+{
+  "lines": [
+    {
+      "currencyTypeName": "Divine Orb",
+      "chaosEquivalent": 180.25,
+      "pay": {
+        "listing_count": 350
+      },
+      "paySparkLine": {
+        "totalChange": -2.5
+      },
+      "detailsId": "divine-orb"
+    },
+    {
+      "currencyTypeName": "Chaos Orb",
+      "chaosEquivalent": 1.0,
+      "pay": {
+        "listing_count": 5000
+      },
+      "paySparkLine": {
+        "totalChange": 0.1
+      },
+      "detailsId": "chaos-orb"
+    },
+    {
+      "currencyTypeName": "Mirror of Kalandra",
+      "chaosEquivalent": 175000.0,
+      "pay": {
+        "listing_count": 3
+      },
+      "paySparkLine": {
+        "totalChange": 1.2
+      },
+      "detailsId": "mirror-of-kalandra"
+    }
+  ],
+  "currencyDetails": [
+    { "id": 1, "name": "Chaos Orb", "tradeId": "chaos" },
+    { "id": 2, "name": "Divine Orb", "tradeId": "divine" },
+    { "id": 3, "name": "Mirror of Kalandra", "tradeId": "mirror" }
+  ]
+}

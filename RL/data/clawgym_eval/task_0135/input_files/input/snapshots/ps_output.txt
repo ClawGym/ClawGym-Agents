@@ -1,0 +1,7 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+alex      1234  2.0  3.1 500000 120000 ?        Sl   08:12   0:05 firefox
+alex      2233  0.5  1.8 220000  60000 ?        Sl   08:15   0:01 gnome-terminal
+alex      3344  5.0  4.2 800000 160000 ?        Sl   08:10   0:10 chrome
+alex      4455  0.8  6.0 900000 240000 ?        Sl   08:16   0:04 python3 audio_guide_server.py
+alex      5566  1.0  0.7 150000  30000 ?        Sl   08:20   0:02 code
+alex      6677  0.3  0.5 120000  20000 ?        Sl   08:22   0:01 spotify

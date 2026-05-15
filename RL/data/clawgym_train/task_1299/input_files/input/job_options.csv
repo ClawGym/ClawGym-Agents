@@ -1,0 +1,5 @@
+job_id,role,location,commute_minutes,shift_pattern,travel_nights_per_month,remote_days_per_week,training_hours_per_week,notes
+J101,Process Metallurgist,East Works,35,day,1,1,2,Stable day shift in plate mill.
+J102,Melt Shop Metallurgist,Central Foundry,50,rotating,3,0,4,Rotating 12-hour shifts; some travel.
+J103,QA Lab Metallurgist,R&D Campus,25,day,0,2,1,Lab role with flexible remote policy.
+J104,Field Metallurgist,Regional Sites,40,day,6,0,2,Field-heavy role with frequent travel.

@@ -1,0 +1,11 @@
+domains:
+  - domain: shop1.test
+    robots: input/shop1_robots.txt
+    terms: input/shop1_terms.html
+    products:
+      - input/shop1_products.html
+  - domain: shop2.test
+    robots: input/shop2_robots.txt
+    terms: input/shop2_terms.html
+    products:
+      - input/shop2_products.html

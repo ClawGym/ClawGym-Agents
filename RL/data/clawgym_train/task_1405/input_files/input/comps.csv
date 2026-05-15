@@ -1,0 +1,4 @@
+comp_id,address,sale_price,bedrooms,full_bathrooms,half_bathrooms,year_built,condition,lot_size_sqft,pool,distance_miles,sale_date,location_adjustment_percent,living_area_sqft
+C1,234 Oak Ave,630000,4,2,1,2003,Good,8000,false,0.4,2026-02-15,-0.01,2200
+C2,56 Pine Rd,600000,3,2,0,1995,Good,7000,false,0.3,2026-03-05,0.00,2050
+C3,89 Cedar Ln,615000,3,3,0,2000,Excellent,7500,true,0.5,2026-01-28,0.02,2150

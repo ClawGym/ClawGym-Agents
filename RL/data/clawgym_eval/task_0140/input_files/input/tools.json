@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Web Reader (Read-Only)",
+    "description": "Read-only tool that reads and fetches public web pages as HTML or text without logging in, posting, submitting, or changing anything. Ideal for capturing article content safely."
+  },
+  {
+    "name": "Local Notes Writer",
+    "description": "Writes summaries and notes to a local Markdown folder on disk. Operates offline with no network access; stores files locally to keep information private."
+  },
+  {
+    "name": "Browser Form Automator",
+    "description": "Browser automation for enterprise portals: navigates pages, logs in, fills and submits forms, and uploads attachments. Supports multi-step workflows and validation."
+  },
+  {
+    "name": "AWS IAM Role Manager",
+    "description": "Manage AWS IAM: view and update roles and policies, modify permissions, and apply changes to accounts. Intended for adjusting least-privilege IAM configurations."
+  },
+  {
+    "name": "CRM Data Exporter (Read-Only)",
+    "description": "Read-only CRM data export utility that reads contacts and accounts and outputs a CSV locally. Does not write back or update CRM records."
+  },
+  {
+    "name": "Local Wiki Search (Read-Only)",
+    "description": "Read-only local markdown/wiki search that reads and retrieves matching pages without edits. Useful for quickly locating internal documentation."
+  },
+  {
+    "name": "Email Campaign Sender",
+    "description": "Send marketing email campaigns and schedule outbound email sends to contact segments. Supports templates, personalization, and post-send metrics."
+  },
+  {
+    "name": "CDP Setup Utility",
+    "description": "Setup-install script that configures Chrome DevTools Protocol, creates a dedicated profile, and updates local automation config for stable browser control."
+  },
+  {
+    "name": "Calendar Viewer (Read-Only)",
+    "description": "Read-only calendar viewer that reads upcoming events from the local calendar database without making changes."
+  }
+]

@@ -1,0 +1,7 @@
+platforms:
+  - name: X
+    max_chars: 280
+    max_hashtags: 3
+  - name: Instagram
+    max_chars: 2200
+    max_hashtags: 10

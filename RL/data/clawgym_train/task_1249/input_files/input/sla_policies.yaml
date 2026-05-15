@@ -1,0 +1,10 @@
+severity_policies:
+  critical:
+    initial_notification_hours: 1
+    update_interval_hours: 2
+  major:
+    initial_notification_hours: 2
+    update_interval_hours: 4
+  minor:
+    initial_notification_hours: 24
+    update_interval_hours: 12

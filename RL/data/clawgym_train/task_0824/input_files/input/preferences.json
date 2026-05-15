@@ -1,0 +1,52 @@
+{
+  "time_available_hours": 9,
+  "prefer_shelf_stable": true,
+  "fridge_space_quarts": 2,
+  "equipment": {
+    "water_bath_canner": true,
+    "canner_rack": true,
+    "jar_lifter": true,
+    "wide_mouth_funnel": true,
+    "bubble_remover_tool": true,
+    "kitchen_scale": true,
+    "mandoline": true,
+    "pressure_canner": false,
+    "dehydrator": false,
+    "oven_low_setting_F": 170,
+    "stove_burners": 4,
+    "labels_marker": true
+  },
+  "jars_on_hand": [
+    { "size_oz": 32, "mouth": "regular", "count": 10 },
+    { "size_oz": 16, "mouth": "wide", "count": 14 },
+    { "size_oz": 8, "mouth": "regular", "count": 12 }
+  ],
+  "lids_bands": {
+    "new_flat_lids_count": 26,
+    "bands_count": 30
+  },
+  "vinegar": {
+    "type": "distilled white",
+    "acidity_percent": 5,
+    "volume_l": 3.0
+  },
+  "acids": {
+    "bottled_lemon_juice_ml": 1000,
+    "citric_acid_g": 100
+  },
+  "water": {
+    "source": "tap",
+    "chlorinated": true,
+    "filter_pitcher_available": true
+  },
+  "constraints": {
+    "no_pressure_canning": true,
+    "minimize_refrigeration": true,
+    "notes": "User wants primarily shelf-stable results using tested methods. Altitude will be provided separately."
+  },
+  "labeling_preference": "Include contents, method (fermented/canned), and date (YYYY-MM-DD).",
+  "assumptions": {
+    "tomato_product_preference": "crushed/whole tomatoes (not salsa) for simplicity",
+    "peach_product_preference": "peach halves in light syrup OR peach jam depending on time"
+  }
+}

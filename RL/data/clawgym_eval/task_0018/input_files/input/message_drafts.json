@@ -1,0 +1,26 @@
+[
+  {
+    "message_id": "M1",
+    "recipient": "Emma's homeroom teacher",
+    "subject": "Emma late arrival on 2026-04-16",
+    "draft_body": "Hi, Emma has a doctor appointment in the morning. She might arrive a bit late. Sorry for any inconvenience.",
+    "child": "Emma",
+    "related_activity_ids": ["A2"]
+  },
+  {
+    "message_id": "M2",
+    "recipient": "Tutoring coordinator",
+    "subject": "Confirming Emma's math tutoring on 2026-04-16",
+    "draft_body": "Hi there, confirming Emma's tutoring session at the library. We will try to be on time.",
+    "child": "Emma",
+    "related_activity_ids": ["A4"]
+  },
+  {
+    "message_id": "M3",
+    "recipient": "Liam's pickup desk",
+    "subject": "Possible slight delay at pickup on 2026-04-16",
+    "draft_body": "Hello, due to Emma's tutoring, I may be a few minutes late for Liam's pickup. Thanks for understanding.",
+    "child": "Liam",
+    "related_activity_ids": ["A3", "A4"]
+  }
+]

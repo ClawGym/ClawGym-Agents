@@ -1,0 +1,26 @@
+crew_size: 2
+roles:
+  - role: Team lead
+    required: true
+  - role: Cleaner
+    required: true
+  - role: Floater
+    required: false
+    notes: "Available 1x/week for periodic detail (high dusting, vents, edges)."
+max_shift_hours_per_person: 4
+start_time: "18:00"
+days: ["Mon", "Tue", "Wed", "Thu", "Fri"]
+background_checks: true
+drug_screening: "Upon request"
+training_requirements:
+  - "Hazard Communication (OSHA)"
+  - "Bloodborne Pathogens (medical setting)"
+  - "HIPAA awareness for visible documents"
+PPE: "Nitrile gloves, eye protection; masks during aerosol-generating procedure times as posted"
+equipment_preferences:
+  vacuums: "Quiet HEPA uprights/backpacks"
+  chemicals: "Green Seal/LEED-compatible, fragrance-free where possible"
+green_cleaning_preference: true
+noise_sensitivity: "Low-noise equipment after hours"
+access_notes: "Team must arm/disarm alarm; lockup checklist required"
+inspection_preference: "Monthly QC walkthrough with office manager after hours"

@@ -1,0 +1,23 @@
+voice_agent_brief:
+  project_name: "BrightSmiles Voice Scheduler"
+  business_objective: "Automate inbound appointment booking, confirmations, FAQs, and simple billing status to reduce hold times and staffing costs while improving booking rate."
+  use_case_type: "inbound_support"
+  target_audience: "New and returning patients across six locations"
+  call_volume_estimate: 450
+  avg_call_duration: 3.5
+  languages: ["en", "es"]
+  success_metrics:
+    - "booking_rate >= 60%"
+    - "first_call_resolution >= 70%"
+    - "CSAT >= 4.2/5"
+    - "transfer_rate <= 30%"
+  human_fallback: "Warm transfer to front desk during business hours; voicemail and callback scheduling after hours."
+  compliance_requirements:
+    - "TCPA"
+    - "HIPAA"
+    - "PCI-DSS (redirect only)"
+    - "State recording/AI disclosure"
+  go_live_date: "2026-06-01"
+
+company_name: "BrightSmiles Dental Group"
+notes: "Six-location dental practice; mix of new patient intake and returning patient follow-ups. Seasonal spikes during back-to-school and year-end benefits usage."

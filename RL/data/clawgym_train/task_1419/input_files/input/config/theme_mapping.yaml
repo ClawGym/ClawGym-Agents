@@ -1,0 +1,11 @@
+themes:
+  - keyword: Advent
+    liturgical_theme: Advent
+  - keyword: Lent
+    liturgical_theme: Lent
+  - keyword: Parable
+    liturgical_theme: Teachings of Jesus
+  - keyword: Creation
+    liturgical_theme: Creation
+  - keyword: Service
+    liturgical_theme: Discipleship

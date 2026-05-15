@@ -1,0 +1,4 @@
+[
+  "semver-changelog.sh",
+  "pre-merge-tasks.sh"
+]

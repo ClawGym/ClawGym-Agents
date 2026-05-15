@@ -1,0 +1,18 @@
+date,time,command
+2026-02-01,09:00,rent 1500
+2026-02-01,09:05,budget food 500
+2026-02-01,09:06,budget transport 300
+2026-02-01,09:07,budget shopping 200
+2026-02-03,08:15,coffee 5
+2026-02-03,12:30,lunch 12.50
+2026-02-05,10:05,phone bill 50
+2026-02-08,19:20,pizza 45
+2026-02-10,17:45,running shoes 89
+2026-02-12,20:10,movie tickets 30
+2026-02-14,11:00,gas 55
+2026-02-15,21:00,netflix 15.99
+2026-02-18,18:35,groceries 95 via card
+2026-02-20,23:15,uber 15
+2026-02-21,20:00,split 120 dinner with 3 friends
+2026-02-22,16:40,gas bill 80
+2026-02-25,09:00,salary 5000

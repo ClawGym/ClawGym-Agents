@@ -1,0 +1,7 @@
+action_id,chapter_id,action_title,priority,status
+A1,C1,Door-to-door listening sessions,high,active
+A2,C2,,medium,planned
+A3,C2,Local transit survey,urgent,planned
+A4,C9,Park cleanup drive,low,active
+A5,C3,Community budget workshop,medium,done
+A6,C1,Food bank volunteer night,high,ongoing

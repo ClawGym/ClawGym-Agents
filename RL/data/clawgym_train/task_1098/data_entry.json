@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1098",
+  "user_query": "I’m standardizing our Meeting notes. Please read all notes under input/meeting_notes/*.md, infer a pragmatic “Meeting” schema (prefer optional over required), and then:\n\n1) Write a schema note to output/schema/Meeting.md using YAML frontmatter with:\n   - title: Meeting\n   - type: schema\n   - entity: Meeting\n   - version: 1\n   - schema: fields (string/integer/number/boolean, arrays, enums, and relations if applicable)\n   - settings.validation: warn\n   Also include a short body section documenting conventions and any assumptions.\n\n2) Write a normalized JSON representation of the same schema to output/schema/Meeting.schema.json capturing for each field: name, type, is_required (true/false), enum_values (if any), is_array (true/false), and relation_target (if any).\n\n3) Validate the input notes by checking for schema fields as observation categories in the note body (e.g., lines like \"- [status] completed\"). Create output/reports/meeting_validation.json with, for each file, arrays for missing_required, unknown_fields, and a list invalid_enums entries shaped as {field, value, allowed}.\n\n4) Produce a drift report at output/reports/meeting_diff.json that aggregates across all notes: fields_not_in_schema (unique, sorted), and rarely_used_schema_fields as a list of {field, usage_fraction} where usage_fraction < 0.5.\n\nTarget fields to consider based on patterns you observe: topic (string), date (string YYYY-MM-DD), attendees (array of Person), decisions (array of string), action_items (array of string), and status (enum: [scheduled, completed, cancelled]). Keep required fields minimal (topic and date are OK), and set validation to warn.\n\nWrite only to the output/ directory as specified above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

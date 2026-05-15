@@ -1,0 +1,13 @@
+sample_id,neighborhood,remedy,lead_ppb_pre,lead_ppb_post
+S1,Northside,phosphate,18,9
+S2,Northside,phosphate,22,10
+S3,Eastwood,phosphate,16,7
+S4,Westfield,phosphate,19,8
+S5,Northside,soil_replacement,25,14
+S6,Eastwood,soil_replacement,30,16
+S7,Westfield,soil_replacement,28,13
+S8,Eastwood,soil_replacement,21,12
+S9,Northside,filter_install,12,5
+S10,Eastwood,filter_install,17,6
+S11,Westfield,filter_install,14,8
+S12,Northside,filter_install,13,7

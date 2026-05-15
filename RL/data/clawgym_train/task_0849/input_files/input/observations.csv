@@ -1,0 +1,9 @@
+id,timestamp,city,target_name,note,location_hint,category_hint
+1,2026-04-12 09:30,Shanghai,Seesaw,"Americano price raised to 32 yuan at the Yuyuan Road location today.","Yuyuan Road",food
+2,2026-04-12 10:05,Shanghai,Bakery next to Changning Finance Park,"Shop appears closed down: lights off and signage removed.","Changning Finance Park",food
+3,2026-04-12 16:20,New York,BW Coffee,"New barista today; the cold brew is excellent — highly recommend.","East Village",food
+4,2026-04-12 08:10,Shanghai,Shanghai Metro Line 2,"Service interruption between Jing'an and Nanjing West for about 20 minutes; trains holding.","",transport
+5,2026-04-11 12:45,Shanghai,Green Bowl,"Added a vegetarian bento to the lunch menu for 48 yuan.","Yuyuan Road",food
+6,2026-04-11 18:00,New York,Pop-up ramen (3rd Ave near 10th St),"Soft opening tonight: pop-up ramen shop on 3rd Avenue near 10th St.","East Village",food
+7,2026-04-12 07:00,Shanghai,Personal note,"Morning run by the river. Nice weather.","",general
+8,2026-04-11 09:00,New York,Random thought,"Need to buy milk.","",general

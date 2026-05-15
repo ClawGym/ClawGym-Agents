@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1847",
+  "user_query": "You're my negotiation assistant. I want to buy a used Sony A7 III on Facebook Marketplace. Read my parameters and scenario first, then draft a safe opening approach.\n\n1) Read input/negotiation_brief.json for my hard limit, target price, walk-away threshold, approval requirement, autonomy level, and category context.\n2) Read input/thread_seed.txt for the seller's initial ask and any tactics they used.\n\nThen produce:\n- output/plan.json — a structured negotiation plan with: category_context, limits {hard_limit, target_price, walk_away_threshold, approval_required}, autonomy_level, opening_strategy, initial_counteroffer (number), rationale, escalation_triggers (include within-10%-of-hard-limit, off-platform payment requests, unusual terms), manipulation_signals to watch for, and a deal_guardrails section. Keep autonomy at Level 1 unless explicitly stated otherwise in the input.\n- output/messages.jsonl — at least 2 draft DM messages to the seller as JSON lines with fields {\"message\": string, \"purpose\": \"opening\"|\"follow_up\"}. Do not reveal my limits, do not accept the first offer, and keep everything on-platform. Anchor low with a respectful counteroffer and ask a clarifying question.\n- output/log.md — a brief timestamped log of what you read (key figures and signals) and what you decided (no commitments, just plan + drafts).\n\nDo not send anything to the seller; only draft messages. Never reveal my ceiling, target, or walk-away numbers in the drafted messages.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

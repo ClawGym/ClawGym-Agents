@@ -1,0 +1,4 @@
+module,owner,owner_email
+user-service,Bob,bob@example.com
+payment-service,Alice,alice@example.com
+reporting-service,Carol,carol@example.com

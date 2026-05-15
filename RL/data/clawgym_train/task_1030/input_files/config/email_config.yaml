@@ -1,0 +1,12 @@
+signature: |
+  Stay safe out there,
+  {{ driver_name }}
+  Truck #{{ truck_id }}
+allowed_vars:
+  - driver_name
+  - truck_id
+  - current_location
+  - delivery_eta
+  - care_pkg_tracking
+  - lunch_note
+placeholder_style: jinja2

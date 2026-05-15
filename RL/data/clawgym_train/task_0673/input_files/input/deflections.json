@@ -1,0 +1,16 @@
+{
+  "deflections": [
+    {
+      "topic": "finances",
+      "count": 2,
+      "last_deflection_date": "2026-03-28",
+      "notes": "Prefers not to discuss budgeting details."
+    },
+    {
+      "topic": "health",
+      "count": 1,
+      "last_deflection_date": "2026-04-10",
+      "notes": "Not ready to talk about medical details."
+    }
+  ]
+}

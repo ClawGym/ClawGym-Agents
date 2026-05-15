@@ -1,0 +1,14 @@
+{
+  "windows_api_usage": [
+    {"name": "CreateFileW", "calls": 1532},
+    {"name": "RegOpenKeyExW", "calls": 340},
+    {"name": "GetTickCount", "calls": 890},
+    {"name": "QueryPerformanceCounter", "calls": 460},
+    {"name": "SHGetKnownFolderPath", "calls": 210},
+    {"name": "SetWindowsHookExW", "calls": 55},
+    {"name": "CreateProcessW", "calls": 122},
+    {"name": "DeviceIoControl", "calls": 78},
+    {"name": "CryptProtectData", "calls": 130},
+    {"name": "SetUnhandledExceptionFilter", "calls": 12}
+  ]
+}

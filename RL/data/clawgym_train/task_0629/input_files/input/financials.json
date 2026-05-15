@@ -1,0 +1,225 @@
+{
+  "previous_monthly_income": 5100,
+  "monthly_income": 2300,
+  "cash_reserves": 4200,
+  "location": {
+    "state": "OH",
+    "city": "Columbus",
+    "zip": "43203"
+  },
+  "household": {
+    "adults": 1,
+    "children": 0
+  },
+  "income_sources": [
+    {
+      "type": "part_time_job",
+      "net_monthly": 1600,
+      "details": "Barista 24 hrs/week at $16/hr; schedule fluctuates"
+    },
+    {
+      "type": "unemployment",
+      "net_monthly": 700,
+      "details": "Approved; approximately 12 weeks remaining"
+    }
+  ],
+  "bills": [
+    {
+      "name": "Rent",
+      "category": "housing",
+      "current_payment": 1250,
+      "due_day": 1,
+      "notes": "6 months left on lease; landlord open to roommate with approval"
+    },
+    {
+      "name": "Electric (AEP Ohio)",
+      "category": "utilities",
+      "current_payment": 90,
+      "due_day": 18,
+      "notes": "Not on budget billing; no past-due balance"
+    },
+    {
+      "name": "Gas/Heat (Columbia Gas)",
+      "category": "utilities",
+      "current_payment": 60,
+      "due_day": 10,
+      "notes": "Not on budget billing; no past-due balance"
+    },
+    {
+      "name": "Water/Sewer",
+      "category": "utilities",
+      "current_payment": 45,
+      "due_day": 20,
+      "notes": ""
+    },
+    {
+      "name": "Internet (Spectrum)",
+      "category": "internet",
+      "current_payment": 65,
+      "due_day": 15,
+      "notes": "200 Mbps plan; contract-free"
+    },
+    {
+      "name": "Cell Phone (AT&T)",
+      "category": "phone",
+      "current_payment": 70,
+      "due_day": 22,
+      "notes": "Phone is paid off; not in contract; eligible to port number"
+    },
+    {
+      "name": "Groceries/Food",
+      "category": "food",
+      "current_payment": 480,
+      "due_day": null,
+      "notes": "Includes staples plus 2-3 takeout meals/week"
+    },
+    {
+      "name": "Dining Out",
+      "category": "discretionary",
+      "current_payment": 180,
+      "due_day": null,
+      "notes": "Takeout and delivery"
+    },
+    {
+      "name": "Car Loan",
+      "category": "transportation",
+      "current_payment": 410,
+      "due_day": 12,
+      "notes": "2017 Honda Civic; loan balance $13,500; APR 6.9%; est. car value ~$11,000"
+    },
+    {
+      "name": "Car Insurance",
+      "category": "insurance",
+      "current_payment": 145,
+      "due_day": 25,
+      "notes": "Full coverage; $500 deductible"
+    },
+    {
+      "name": "Gasoline",
+      "category": "transportation",
+      "current_payment": 160,
+      "due_day": null,
+      "notes": "~400 miles/month"
+    },
+    {
+      "name": "Parking",
+      "category": "transportation",
+      "current_payment": 80,
+      "due_day": null,
+      "notes": "Downtown parking near job site"
+    },
+    {
+      "name": "Public Transit (optional)",
+      "category": "transportation",
+      "current_payment": 0,
+      "due_day": null,
+      "notes": "COTA monthly pass $62; 40-minute bus to work available"
+    },
+    {
+      "name": "Student Loans (Direct Loans)",
+      "category": "debt",
+      "current_payment": 150,
+      "due_day": 5,
+      "notes": "Eligible for IDR (SAVE); not yet applied"
+    },
+    {
+      "name": "Credit Card - BankOne",
+      "category": "debt",
+      "current_payment": 95,
+      "due_day": 8,
+      "notes": "Balance $3,200; APR 24%"
+    },
+    {
+      "name": "Credit Card - Store Card",
+      "category": "debt",
+      "current_payment": 70,
+      "due_day": 19,
+      "notes": "Balance $2,000; APR 27%"
+    },
+    {
+      "name": "Medical Debt - Riverside Hospital",
+      "category": "medical_debt",
+      "current_payment": 100,
+      "due_day": 28,
+      "notes": "Balance $2,400 from 2024 ER visit; not in collections"
+    },
+    {
+      "name": "IRS Installment Plan",
+      "category": "tax_debt",
+      "current_payment": 100,
+      "due_day": 11,
+      "notes": "2023 taxes owed $1,200; on installment plan since March"
+    },
+    {
+      "name": "Essential Medication",
+      "category": "health",
+      "current_payment": 45,
+      "due_day": null,
+      "notes": "Sertraline 50mg ($15) + Albuterol inhaler ($30) monthly; cannot skip"
+    },
+    {
+      "name": "Health Insurance",
+      "category": "health_insurance",
+      "current_payment": 0,
+      "due_day": 1,
+      "notes": "Lost employer coverage; currently uninsured"
+    },
+    {
+      "name": "Gym Membership",
+      "category": "subscriptions",
+      "current_payment": 39,
+      "due_day": 14,
+      "notes": "Anytime Fitness; month-to-month; cancellable online"
+    },
+    {
+      "name": "Streaming Services",
+      "category": "subscriptions",
+      "current_payment": 38,
+      "due_day": 16,
+      "notes": "Netflix $16 + Hulu $12 + Spotify $10"
+    },
+    {
+      "name": "Cloud Storage",
+      "category": "subscriptions",
+      "current_payment": 10,
+      "due_day": 3,
+      "notes": "Google One 100GB; cancellable"
+    },
+    {
+      "name": "Pet Food (Cat)",
+      "category": "pets",
+      "current_payment": 35,
+      "due_day": null,
+      "notes": "One cat; cannot reduce below basic needs"
+    },
+    {
+      "name": "Clothing",
+      "category": "discretionary",
+      "current_payment": 50,
+      "due_day": null,
+      "notes": "Average monthly"
+    },
+    {
+      "name": "Gifts & Charity",
+      "category": "discretionary",
+      "current_payment": 30,
+      "due_day": null,
+      "notes": "Average monthly"
+    },
+    {
+      "name": "Miscellaneous",
+      "category": "discretionary",
+      "current_payment": 60,
+      "due_day": null,
+      "notes": "Household items, toiletries, etc."
+    },
+    {
+      "name": "Renter's Insurance",
+      "category": "insurance",
+      "current_payment": 18,
+      "due_day": 9,
+      "notes": "Liability + personal property"
+    }
+  ],
+  "notes_summary": "Income dropped ~55% after layoff; now part-time + unemployment. Car loan heavy. Bus route available to work. Landlord allows roommate with approval. Currently uninsured; essential meds sertraline + albuterol. Not enrolled in SNAP/Medicaid/LIHEAP. High anxiety; seeking practical, non-judgmental plan."
+}

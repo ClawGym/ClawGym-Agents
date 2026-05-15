@@ -1,0 +1,7 @@
+Hey,
+
+I looked at your build and it’s shipping telemetry. It’s grabbing the device ID and an email string, and there’s a hardcoded key. There’s also an HTTP URL (not HTTPS). The manifest still pulls in analytics and even an ad network package. This is not acceptable for a student portfolio piece and could violate privacy expectations.
+
+We need to rip all of that out before you share the build. Turn off anything crash/telemetry related, remove analytics/ads, remove email/device ID capture, and stop using HTTP. I don’t want to see any of this in the next build.
+
+— Prof

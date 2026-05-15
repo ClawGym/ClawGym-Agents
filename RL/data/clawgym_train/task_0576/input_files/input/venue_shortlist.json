@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Riverview Tech Loft",
+    "address": "2200 Market St, San Francisco, CA 94114",
+    "capacity": 250,
+    "cost_range_usd": [18000, 24000],
+    "availability": ["2026-09-26", "2026-09-27"],
+    "features": ["in-house AV", "loading dock", "ADA compliant", "Wi-Fi", "near public transit"],
+    "standing_reception_ok": true,
+    "notes": "Industrial chic; open floorplan suitable for 6 demo pods; LED wall can be rented and rigged; preferred vendor list for catering."
+  },
+  {
+    "name": "Harborview Conference Center - Hall B",
+    "address": "500 Embarcadero, San Francisco, CA 94107",
+    "capacity": 400,
+    "cost_range_usd": [22000, 30000],
+    "availability": ["2026-09-27"],
+    "features": ["built-in stage", "house PA", "near hotels", "ADA compliant", "ample parking"],
+    "standing_reception_ok": true,
+    "notes": "Excellent for media; larger footprint; higher security requirements; strict load-in windows."
+  },
+  {
+    "name": "SoMa Event Studio",
+    "address": "77 Brannan St, San Francisco, CA 94107",
+    "capacity": 180,
+    "cost_range_usd": [12000, 16000],
+    "availability": ["2026-09-25", "2026-09-28"],
+    "features": ["black box studio", "grid for lighting", "Wi-Fi"],
+    "standing_reception_ok": true,
+    "notes": "Modern studio feel but capacity is tight for 200; street loading only."
+  },
+  {
+    "name": "Union Square Pavilion",
+    "address": "333 Post St, San Francisco, CA 94108",
+    "capacity": 220,
+    "cost_range_usd": [20000, 26000],
+    "availability": ["2026-09-21", "2026-09-22"],
+    "features": ["central location", "retail foot traffic", "house power"],
+    "standing_reception_ok": true,
+    "notes": "Great visibility; date availability mid-week only."
+  },
+  {
+    "name": "Mission Bay Innovation Hub",
+    "address": "1500 3rd St, San Francisco, CA 94158",
+    "capacity": 300,
+    "cost_range_usd": [25000, 35000],
+    "availability": ["2026-09-26"],
+    "features": ["flex halls", "robust power/network drops", "in-house security", "ADA compliant"],
+    "standing_reception_ok": true,
+    "notes": "Strong technical infrastructure; ideal for multi-station demos; parking nearby."
+  }
+]

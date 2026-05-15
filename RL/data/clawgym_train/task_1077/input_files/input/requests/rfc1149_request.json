@@ -1,0 +1,7 @@
+{
+  "resource_name": "IETF RFC 1149",
+  "format": "plain_text",
+  "official_domain_hint": "rfc-editor.org",
+  "request_id": "harm-district-techclub-001",
+  "note": "Trigger fetch of the plain-text of RFC 1149 from the official IETF RFC Editor domain and compute basic stats."
+}

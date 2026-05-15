@@ -1,0 +1,12 @@
+<users>
+  <user id="u1">
+    <name>Jane Doe</name>
+    <email>jane@example.com</email>
+    <role>admin</role>
+  </user>
+  <user id="u2">
+    <name>John Smith</name>
+    <email>invalid-email</email>
+    <role>viewer</role>
+  </user>
+</users>

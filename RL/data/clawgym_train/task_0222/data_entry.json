@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0222",
+  "user_query": "I'm transitioning from customer service into tech through a bootcamp, and I need a focused, 4-week study plan based on my current curriculum and background. Please do the following using only the provided local files:\n\n1) Read and analyze these inputs to identify must-have skill gaps for the target roles:\n- input/bootcamp_curriculum.md\n- input/customer_background.md\n- input/target_roles.json\n\n2) Create outputs/study_plan.md with a realistic 4-week plan that:\n- Includes clear sections for \"Week 1\", \"Week 2\", \"Week 3\", and \"Week 4\".\n- Explicitly names every gap skill verbatim as listed in the inputs.\n- References each target role title at least once and connects planned activities to the roles they support.\n\n3) Draft outputs/mentor_message.txt: a concise email or Slack message to a mentor asking for feedback and resource recommendations on the plan. The message must mention at least two of the identified gap skills verbatim and ask for \"feedback\" and for \"resources\" or \"recommendations\".\n\n4) Run this validation command and save its full console output to outputs/validation_report.txt:\n   python tools/validate_plan.py outputs/study_plan.md outputs/mentor_message.txt\nThe validation should end with the line \"ALL CHECKS PASSED\".\n\nPlease ensure both outputs are written to the outputs/ directory and that the validator passes without modifying the input files. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

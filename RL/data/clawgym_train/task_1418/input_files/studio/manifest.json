@@ -1,0 +1,10 @@
+{
+  "required_files": [
+    "assets/fonts/LibreComicSans.ttf",
+    "artworks/finals/posterA.png",
+    "references/movements/abolitionism.md",
+    "docs/README.md",
+    "artworks/drafts/sketch1.txt",
+    "assets/brushes/brush_list.md"
+  ]
+}

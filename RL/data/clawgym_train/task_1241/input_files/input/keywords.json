@@ -1,0 +1,19 @@
+{
+  "keywords": [
+    {
+      "keyword": "foundation models",
+      "slug": "foundation-models",
+      "notes": "Large-scale pretrained models (e.g., GPT-style, multimodal)"
+    },
+    {
+      "keyword": "diffusion models",
+      "slug": "diffusion-models",
+      "notes": "Generative diffusion-based methods for images, audio, etc."
+    },
+    {
+      "keyword": "federated learning",
+      "slug": "federated-learning",
+      "notes": "Privacy-preserving distributed training across clients"
+    }
+  ]
+}

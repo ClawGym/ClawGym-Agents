@@ -1,0 +1,99 @@
+{
+  "basePath": "/",
+  "endpoints": [
+    {
+      "path": "/api/users",
+      "method": "POST",
+      "auth": "public",
+      "summary": "Register a new user",
+      "requestSchema": "UserCreate",
+      "responseSchema": "UserResponse",
+      "notes": [
+        "Validates email format, name length, and password length (>=8).",
+        "Never include password in response.",
+        "Returns 201 Created on success."
+      ],
+      "examples": {
+        "request": {
+          "email": "jane.doe@example.com",
+          "name": "Jane Doe",
+          "password": "StrongPass123"
+        },
+        "response": {
+          "id": "6b42a0a1-2a8b-4fb5-8f92-5f7c2b1fbc11",
+          "email": "jane.doe@example.com",
+          "name": "Jane Doe",
+          "roles": ["user"],
+          "created_at": "2026-04-18T12:34:56Z"
+        }
+      }
+    },
+    {
+      "path": "/api/users",
+      "method": "GET",
+      "auth": "admin-only",
+      "summary": "List users",
+      "query": {
+        "page": { "type": "int", "default": 1, "min": 1 },
+        "page_size": { "type": "int", "default": 20, "min": 1, "max": 100 }
+      },
+      "response": {
+        "items": "UserResponse[]",
+        "total": "int",
+        "page": "int",
+        "page_size": "int",
+        "has_next": "bool"
+      },
+      "notes": [
+        "Requires admin role in token.",
+        "Return paginated result; items never contain password field."
+      ]
+    },
+    {
+      "path": "/api/auth/login",
+      "method": "POST",
+      "auth": "public",
+      "summary": "Authenticate user and return access token",
+      "requestSchema": "LoginRequest",
+      "responseSchema": "TokenResponse",
+      "examples": {
+        "request": {
+          "email": "jane.doe@example.com",
+          "password": "StrongPass123"
+        },
+        "response": {
+          "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+          "token_type": "bearer"
+        }
+      },
+      "notes": [
+        "Token includes sub (user id) and roles claims.",
+        "Invalid credentials return 401 with structured error."
+      ]
+    },
+    {
+      "path": "/health",
+      "method": "GET",
+      "auth": "public",
+      "summary": "Liveness probe",
+      "response": { "status": "ok" },
+      "notes": ["Always 200 if process is running."]
+    },
+    {
+      "path": "/ready",
+      "method": "GET",
+      "auth": "public",
+      "summary": "Readiness probe",
+      "response": {
+        "status": "ok | degraded",
+        "checks": {
+          "repository": "ok | error"
+        }
+      },
+      "notes": [
+        "Exercises repository (e.g., ping or simple query).",
+        "Returns 200 if all checks ok, otherwise 503 with details."
+      ]
+    }
+  ]
+}

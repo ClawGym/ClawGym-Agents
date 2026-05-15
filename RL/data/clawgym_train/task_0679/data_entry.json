@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0679",
+  "user_query": "I need a fast, honest evaluation of three startup ideas with a competitive scan and investor activity signal, then a clear recommendation. Read input/ideas.json (an array of exactly three idea strings) and input/client_notes.md (our constraints and preferences). For each idea, run your startup idea scoring tool that analyzes six dimensions (Landscape, Opportunity, Business model, Sharpness, Timing, Reach), scans for competitors, and checks investor activity. Keep the results private (do not publish anything).\n\nDeliverables:\n1) Write output/scans.jsonl with one JSON object per line (one per idea) containing exactly these fields: idea (string), overall_score (0–100), dimensions (object with keys L, O, B, S, T, R each holding {score:int 0–100, verdict:string}), competitors (array), grid (object with investor_count:int and match_quality:string), verdict (string), build_it (boolean).\n2) Write output/summary.csv with header: idea,overall_score,build_it,signal and three rows in the same idea order as input. Compute signal as: STRONG if overall_score >= 70; MODERATE if 50–69; otherwise WEAK.\n3) Write output/comparison.md that ranks the three ideas from best to worst based on the scores, makes a single recommendation, and includes a section titled \"Decision rationale\" that explicitly references our constraints from input/client_notes.md (at least 120 words for the rationale section).\n4) Write output/privacy.txt with 2–3 sentences confirming the ideas were shared with an external scoring service for analysis and that the results were kept private (not publicly published).\n\nUse only relative paths under output/ and ensure all files are created.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

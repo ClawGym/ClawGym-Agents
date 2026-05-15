@@ -1,0 +1,10 @@
+{
+  "base_xp_per_mandatory_quest": 50,
+  "verification_bonuses": {
+    "photo": 20,
+    "detail": 10,
+    "time": 0
+  },
+  "missed_daily_penalty": 15,
+  "all_daily_completed_bonus": 100
+}

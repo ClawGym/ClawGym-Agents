@@ -1,0 +1,5 @@
+Team,
+
+About the week’s outages: we had a bunch of alerts and honestly a lot of noise, some of it wasn’t even our systems. We worked really hard and stayed late and things are basically ok now. There were several blips across Identity, Portal, and Payments, but the dashboards were red for a while because the vendor integration threw errors and then we rolled back a change which might have helped but then another alert fired. We posted a few updates but didn’t want to send too many emails. We’ll try to keep folks in the loop better next time. Anyway, the on-call rotation handled it and the SREs are doing a retro, so expect fixes soon. If you hear complaints, please let us know so we can follow up. We’re not sharing exact numbers yet since they keep changing as we clean up tickets.
+
+Thanks everyone for the hustle.

@@ -1,0 +1,9 @@
+{"id": 1, "task": "Write a Python script to upload log files to S3 and rotate daily."}
+{"id": 2, "task": "Set up a Docker image for a Node.js API and push to ECR."}
+{"id": 3, "task": "Review this pull request and propose code quality improvements."}
+{"id": 4, "task": "Write a SQL query to join orders and customers and export a CSV."}
+{"id": 5, "task": "Automate a browser check that logs into the dashboard and verifies a chart renders."}
+{"id": 6, "task": "Create a Bash script to rotate logs and set up a daily cron job."}
+{"id": 7, "task": "Design REST endpoints for authentication and write an OpenAPI spec."}
+{"id": 8, "task": "Fix a TypeScript compile error in a React component."}
+{"id": 9, "task": "Deploy a serverless function on AWS Lambda triggered by S3 events."}

@@ -1,0 +1,6 @@
+system,criticality_factor
+ReactorCoolantSystem,1.5
+ContainmentRadiationMonitors,1.4
+TurbineAssembly,1.1
+EmergencyDieselGenA,1.3
+SecondaryLoop,1.0

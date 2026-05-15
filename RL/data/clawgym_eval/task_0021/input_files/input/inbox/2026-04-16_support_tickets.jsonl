@@ -1,0 +1,4 @@
+{"id":"T-1006","severity":"low","message":"Dark mode toggle misaligned by 4px on mobile Safari.","created_at":"2026-04-16T09:02:00Z","reporter":"dana"}
+{"id":"T-1007","severity":"high","message":"Search results intermittently empty when query has emoji (e.g., 😀).","created_at":"2026-04-16T09:25:45Z","reporter":"eric"}
+{"id":"T-1008","severity":"medium","message":"CLI prints WARNING in ALL CAPS for non-critical notices; please tone it down.","created_at":"2026-04-16T10:11:12Z","reporter":"frank"}
+{"id":"T-1009","severity":"critical","message":"Data export CSV sometimes duplicates rows after midnight UTC; occurred 00:15 today.","created_at":"2026-04-16T00:20:00Z","reporter":"analytics-bot"}

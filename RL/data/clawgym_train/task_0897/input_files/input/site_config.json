@@ -1,0 +1,24 @@
+{
+  "consent": {
+    "mode": "opt-out",
+    "banner_enabled": true,
+    "block_non_essential_before_consent": false
+  },
+  "tracking_tools": {
+    "google_analytics": {
+      "enabled": true,
+      "measurement_id": "G-TEST123",
+      "load_on_first_page": true
+    },
+    "facebook_pixel": {
+      "enabled": true,
+      "pixel_id": "1234567890",
+      "load_on_first_page": true
+    },
+    "hotjar": {
+      "enabled": false,
+      "site_id": null,
+      "load_on_first_page": false
+    }
+  }
+}

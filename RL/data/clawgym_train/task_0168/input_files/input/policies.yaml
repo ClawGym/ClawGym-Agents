@@ -1,0 +1,43 @@
+tools:
+  platform: "Shopify"
+  deposit_app: "Downpay"
+  messaging: "Klaviyo"
+  loyalty: "Rijoy"
+
+communication_cadence:
+  - "order confirmation"
+  - "progress update"
+  - "balance due reminder"
+  - "delay notice"
+  - "ship notification"
+
+pain_points:
+  - "missed balance follow-ups and late payments"
+  - "manual tag mistakes leading to fulfillment errors"
+  - "unclear ship windows causing increased support tickets"
+
+refund_policy:
+  buyer_cancellation:
+    before_production_start: "Full deposit refund upon request"
+    after_production_start_before_balance: "50% deposit refund to cover committed costs"
+    after_balance_collected: "Balance refunded if cancellation occurs before fulfillment; deposit retained unless delay exceeds 30 days"
+  production_delay:
+    notify_within_hours: 48
+    options:
+      - "wait for new ship window"
+      - "cancel for full refund of all payments"
+  over_demand:
+    allocation: "First-come, first-served"
+    waitlist: true
+    communication: "Maintain transparent waitlist and provide regular status updates"
+
+balance_rules:
+  reminder_days_before_ship: 14
+  second_reminder_days_before_ship: 7
+  unpaid_escalation:
+    warning: "Issue 7-day deadline warning if unpaid after second reminder"
+    action: "Auto-cancel and refund per refund_policy if still unpaid after deadline"
+  tagging_requirements:
+    - "Tag order with campaign name"
+    - "Store deposit amount and balance due in order metafields"
+    - "Record estimated ship window start and end"

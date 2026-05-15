@@ -1,0 +1,1 @@
+Purl & Loop Yarn Shop is proud to sponsor the Knitting Club’s community projects. We’ll provide materials and on-site support for the Charity Blanket Drive. Club members also receive a 10% discount on supplies for this event.

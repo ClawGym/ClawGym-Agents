@@ -1,0 +1,24 @@
+slide_counts:
+  linkedin: 10
+  instagram: 9
+
+caption_word_range:
+  min: 150
+  max: 300
+
+headline_max_words: 8
+transition_hook_min_ratio: 0.5
+
+hashtag_tiers:
+  niche: 10
+  mid: 10
+  large: 10
+
+notes:
+  - "Ensure exactly 3 cover options labeled Option A, Option B, Option C."
+  - "Ensure exactly 3 CTA options labeled Option A, Option B, Option C."
+  - "Include at least one [Source: SOURCE NAME] citation per carousel; source name must exist in quotes.jsonl."
+  - "Avoid all banned_words from brief.json (case-insensitive)."
+  - "Body text must be 2–4 lines per slide."
+  - "Headlines must be ≤ 8 words."
+  - "Include the exact line in Design Tips: Recommended dimensions: LinkedIn: 1080x1080; Instagram: 1080x1350"

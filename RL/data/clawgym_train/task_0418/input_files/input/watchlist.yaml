@@ -1,0 +1,14 @@
+topics:
+  - "preventive diplomacy conflict prevention"
+  - "mediation early warning de-escalation"
+  - "confidence-building measures bilateral talks"
+source_selectors:
+  - label: "UN system (incl. DPPA)"
+    query_modifier: "site:un.org OR site:dppa.un.org"
+  - label: "OSCE (Conflict Prevention)"
+    query_modifier: "site:osce.org"
+  - label: "African Union (Peace & Security)"
+    query_modifier: "site:au.int OR site:peaceau.org"
+hints:
+  time_window: "last 12 months"
+  note: "Focus on official reports, policy briefs, or press releases related to conflict prevention and diplomacy."

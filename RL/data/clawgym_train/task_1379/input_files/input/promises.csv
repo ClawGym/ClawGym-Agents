@@ -1,0 +1,31 @@
+party,year,state,topic,pledge_text
+BJP,2014,National,economy,Reduce corporate tax rates
+BJP,2019,National,economy,Simplify GST compliance
+BJP,2019,National,infrastructure,Expand national highways by 10000 km
+BJP,2019,National,infrastructure,Modernize railway stations
+BJP,2024,National,infrastructure,Accelerate metro projects
+BJP,2019,National,governance,Streamline public procurement
+BJP,2019,National,security,Strengthen border infrastructure
+BJP,2014,National,agriculture,Boost irrigation through PMKSY
+BJP,2014,National,welfare,Targeted welfare via DBT
+BJP,2024,National,economy,Promote Make in India manufacturing
+INC,2014,National,welfare,Increase MGNREGA allocation
+INC,2024,National,welfare,Universal basic income pilot
+INC,2019,National,economy,Support MSMEs with credit
+INC,2019,National,economy,Progressive tax reforms
+INC,2019,National,agriculture,Farm loan interest subvention
+INC,2024,National,agriculture,Minimum support price review
+INC,2019,National,health,Strengthen public health centres
+INC,2019,National,education,Scholarships for higher education
+INC,2014,National,governance,Police reforms and accountability
+INC,2014,National,infrastructure,Rural road connectivity
+AAP,2019,National,governance,Doorstep delivery of services
+AAP,2019,National,governance,Reduce corruption via e governance
+AAP,2019,National,health,Mohalla clinics expansion
+AAP,2024,National,health,Free essential medicines
+AAP,2019,National,education,Upgrade government school infrastructure
+AAP,2024,National,education,Teacher training programs
+AAP,2019,National,welfare,Subsidized electricity for low income households
+AAP,2019,National,welfare,Free bus rides for women
+AAP,2024,National,economy,Support startups with incubation
+AAP,2024,National,infrastructure,Improve public transport with new buses

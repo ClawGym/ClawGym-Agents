@@ -1,0 +1,6 @@
+[
+  {"event_type": "donation", "date": "2023-12-15", "amount": 500},
+  {"event_type": "email_open", "date": "2023-12-20"},
+  {"event_type": "volunteer_shift", "date": "2023-10-05"},
+  {"event_type": "event_signup", "date": "2023-09-15"}
+]

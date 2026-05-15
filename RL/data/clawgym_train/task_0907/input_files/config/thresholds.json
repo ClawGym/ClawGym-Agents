@@ -1,0 +1,7 @@
+{
+  "load_avg_1m_max": 2.0,
+  "mem_free_mb_min": 2048,
+  "disk_root_free_gb_min": 10,
+  "swap_used_mb_max": 256,
+  "recent_errors_max": 5
+}

@@ -1,0 +1,4 @@
+{"id":"w1","text":"+ask make this better and clearer: draft an announcement about our mobile app launch update; not sure on audience or tone; messy outline"}
+{"id":"c1","text":"In this project, refactor the auth module and integrate our API's OAuth 2.0 flow into the existing code; also document the endpoints."}
+{"id":"c2","text":"What are the best practices in 2025 for implementing feature flags in a Node.js microservice, including rollout strategies and testing?"}
+{"id":"d1","text":"Analyze a JSONL reviews file with e-commerce product feedback and produce insights: sentiment by product, top issues, and an output table."}

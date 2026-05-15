@@ -1,0 +1,13 @@
+order_id,date,title_id,store,channel,units,revenue_usd
+O001,2024-01-05,T100,Online Store,Direct,5,74.95
+O002,2024-01-06,T101,Amazon,Marketplace,12,167.88
+O003,2024-01-10,T104,B&N,Wholesale,8,95.92
+O004,2024-01-12,T103,Amazon,Marketplace,3,41.97
+O005,2024-01-15,T100,IndieCo,Wholesale,10,149.90
+O006,2024-02-01,T102,Online Store,Direct,7,97.93
+O007,2024-02-03,T100,Amazon,Marketplace,3x,44.97
+O008,2024-02-08,T104,Online Store,Direct,4,47.96
+O009,2024/02/30,T101,IndieCo,Wholesale,5,69.95
+O010,2024-03-02,T105,Amazon,Marketplace,2,29.98
+O011,2024-03-15,T103,Online Store,Direct,2,27.98
+O012,2024-03-18,T100,Amazon,Marketplace,6,89.94

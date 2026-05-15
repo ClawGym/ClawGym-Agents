@@ -1,0 +1,6 @@
+project_id,project_name,lead_name,lead_email,next_milestone_date,last_checkin_date
+P-101,Signal Triangulation Pilot,Capt. Mira Patel,mira.patel@agency.example,2026-04-20,2026-03-28
+P-202,Anomaly Detection Sandbox,Dr. Lionel Cho,lionel.cho@agency.example,2026-04-18,2026-04-02
+P-303,Image Segmentation Trial,Elena Alvarez,elena.alvarez@agency.example,2026-05-05,2026-04-10
+P-404,Stream Fusion Prototype,Maj. David Reed,david.reed@agency.example,2026-04-17,2026-03-15
+P-505,Text Entity Linking Pilot,Sara Nassar,sara.nassar@agency.example,2026-04-30,2026-04-08

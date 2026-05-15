@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0692",
+  "user_query": "I'm a retail investor focused on Korean equities. Using only the data in input/, create a professional daily briefing and supporting artifacts. Specifically: 1) Read input/korea_prices.csv, input/sector_moves.csv, input/dart_news.jsonl, input/watchlist.csv, and input/forks.md. 2) Write output/briefing.md in English that includes: a clear H1 title; Market Overview; Sector Rankings; Stock Deep Dives for my watchlist; DART Disclosures highlights; an Alerts Plan; and a Fork Judgment section that distinguishes truth signals vs distortion signals, recommends a bifurcation decision, and provides receipts (cite concrete items from the provided files). 3) Write output/tool_config.json describing a portable tool routing configuration with at least two servers (one http, one stdio), each having a name and non-empty tools list; include a route_rules object mapping at least one tool to a fallback. 4) Write output/pipeline.py implementing a reproducible analysis pipeline that loads the input files, defines constants (e.g., RANDOM_STATE and DATA_PATHS), has a load_data() function, references sklearn.pipeline.Pipeline (as a string is fine), avoids hardcoded absolute paths, and includes an if __name__ == '__main__': block. 5) Write output/alerts.json listing watchlist tickers that are down by at least 3% today (event = \"down_3\"). Do not fetch any external data; base all analysis on the inputs and keep everything in English.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

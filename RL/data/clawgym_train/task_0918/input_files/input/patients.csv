@@ -1,0 +1,5 @@
+patient_id,name,email,last_lab_date,fasting_glucose_mg_dl,fasting_insulin_uU_ml,A1c_pct,LDL_mg_dl,HDL_mg_dl,TG_mg_dl,BMI,meds_current
+P001,A.B.,ab@example.com,2025-03-10,95,18,5.4,120,45,160,32.5,"metformin; combined OCP"
+P002,C.D.,cd@example.com,2025-03-08,88,12,5.2,140,38,200,36.2,"metformin"
+P003,E.F.,ef@example.com,2025-03-12,105,25,5.9,110,50,140,28.1,"spironolactone"
+P004,G.H.,gh@example.com,2025-03-15,99,6,5.3,130,42,170,41.0,"metformin; spironolactone"

@@ -1,0 +1,6 @@
+# TLS certificate audit policy
+expiring_soon_days: 30
+
+# Optional future settings (ignored by current audit logic)
+# retry_attempts: 1
+# connect_timeout_seconds: 8

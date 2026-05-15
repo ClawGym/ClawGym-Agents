@@ -1,0 +1,6 @@
+{
+  "name": "weather-fetcher",
+  "version": "2.3.1",
+  "sha256": "a3f8c2d1e9b74c56a1b2d3e4f5a6b7c8d9e0f1234567890abcdeffedcba12345",
+  "description": "Fetches current conditions and short-term forecasts from multiple weather APIs with caching, retries, and automatic unit normalization."
+}

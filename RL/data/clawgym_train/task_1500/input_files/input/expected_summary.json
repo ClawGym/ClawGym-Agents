@@ -1,0 +1,20 @@
+{
+  "total_poems": 4,
+  "total_lines": 12,
+  "poems_by_poet": {
+    "Baki": 2,
+    "Nedim": 2
+  },
+  "poems_by_form": {
+    "gazel": 3,
+    "kaside": 1
+  },
+  "lines_by_poet": {
+    "Baki": 7,
+    "Nedim": 5
+  },
+  "lines_by_form": {
+    "gazel": 8,
+    "kaside": 4
+  }
+}

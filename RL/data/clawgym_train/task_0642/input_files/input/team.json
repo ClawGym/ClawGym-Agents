@@ -1,0 +1,115 @@
+{
+  "company": "Lone Star Legal Ed LLC",
+  "team_size": 4,
+  "team": [
+    {
+      "name": "Alice Chen",
+      "role": "Founder & CEO",
+      "age": 34,
+      "bio": "Former BigLaw associate and bar tutor; leads product vision and partnerships.",
+      "has_car": true,
+      "bike_ok": false,
+      "pet": "none",
+      "household": "single",
+      "work_style": {
+        "coworking_days_per_week": 3,
+        "home_office_days_per_week": 2,
+        "hours": "Mon–Fri, 9a–6p CT; evening sessions during cohorts"
+      },
+      "preferred_neighborhoods": ["South Congress", "Zilker", "Bouldin", "Downtown (walkable)"],
+      "avoid_neighborhoods": ["Far Northwest (long commute)"],
+      "commute_max_minutes_one_way": 25,
+      "housing_budget_monthly_usd": {
+        "1BR": 2400,
+        "2BR": 3500
+      },
+      "housing_type_preference": "modern 1BR or 2BR apartment with gym",
+      "notes": "Wants walkable coffee options; needs secure parking for one car."
+    },
+    {
+      "name": "Ben Ortiz",
+      "role": "Curriculum Director (JD)",
+      "age": 31,
+      "bio": "Designs MBE/MEE/MPT curriculum and leads instructor training.",
+      "has_car": false,
+      "bike_ok": true,
+      "pet": "none",
+      "household": "single",
+      "work_style": {
+        "coworking_days_per_week": 2,
+        "home_office_days_per_week": 3,
+        "hours": "Mon–Fri, 10a–7p CT; prefers morning writing blocks"
+      },
+      "preferred_neighborhoods": ["Mueller", "East Austin (East 6th/Cherrywood)", "Hyde Park"],
+      "avoid_neighborhoods": ["Suburbs beyond 183"],
+      "commute_max_minutes_one_way": 30,
+      "housing_budget_monthly_usd": {
+        "1BR": 2000,
+        "studio": 1700
+      },
+      "housing_type_preference": "bikeable 1BR near green space",
+      "notes": "Wants fiber internet; okay with bus/cycling if <40 min door-to-door."
+    },
+    {
+      "name": "Priya Nair",
+      "role": "Marketing Lead",
+      "age": 29,
+      "bio": "Owns Amazon listings, ads, and growth; runs campus partnerships.",
+      "has_car": false,
+      "bike_ok": false,
+      "pet": "none",
+      "household": "single",
+      "work_style": {
+        "coworking_days_per_week": 4,
+        "home_office_days_per_week": 1,
+        "hours": "Mon–Fri, 9a–6p CT; flexible for launches"
+      },
+      "preferred_neighborhoods": ["The Domain/North Burnet", "North Loop", "Mueller"],
+      "avoid_neighborhoods": ["Far South of Slaughter Ln"],
+      "commute_max_minutes_one_way": 25,
+      "housing_budget_monthly_usd": {
+        "1BR": 1900
+      },
+      "housing_type_preference": "1BR in newer building or roommate 2BR",
+      "notes": "Rideshare primary; wants easy access to coworking and events."
+    },
+    {
+      "name": "Jordan Lee",
+      "role": "Operations Manager",
+      "age": 36,
+      "bio": "Handles logistics, facilities, vendors, and student services.",
+      "has_car": true,
+      "bike_ok": false,
+      "pet": "1 medium dog",
+      "household": "couple",
+      "work_style": {
+        "coworking_days_per_week": 1,
+        "home_office_days_per_week": 4,
+        "hours": "Mon–Fri, 8a–5p CT; weekend availability during cohorts"
+      },
+      "preferred_neighborhoods": ["South Austin (Barton Hills, Cherry Creek, South Lamar)", "Bouldin"],
+      "avoid_neighborhoods": ["Downtown high-rises (pet/parking constraints)"],
+      "commute_max_minutes_one_way": 25,
+      "housing_budget_monthly_usd": {
+        "2BR": 3000,
+        "house_3BR": 3800
+      },
+      "housing_type_preference": "pet-friendly 2BR+ with parking and in-unit W/D",
+      "notes": "Needs reliable parking and nearby greenspace for dog."
+    }
+  ],
+  "teamwide_preferences": {
+    "coworking_budget_per_person_usd": 300,
+    "coworking_shortlist": [
+      "Capital Factory (Downtown)",
+      "WeWork – The Domain",
+      "Industrious – 3rd Street",
+      "Vessel Coworking (East Austin)"
+    ],
+    "meeting_cadence": "2 in-person days per week (Tue/Thu) during bootcamps; remote otherwise",
+    "vehicle_count_initial": 2,
+    "plan_to_add_vehicle": "Evaluate month 2 if rideshare costs exceed $450/month for any member",
+    "max_company_commute_minutes": 25,
+    "home_office_requirements": ["Fiber or 300+ Mbps internet", "Quiet room for recording", "AC", "Desk space"]
+  }
+}

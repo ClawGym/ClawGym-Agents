@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1783",
+  "user_query": "Run a recovery readiness audit for the enclosed simulated OpenClaw workspace. Read input/audit_spec.md for the exact scoring and severity rules. Then read input/workspace.json and input/backups.json to assess the workspace and backups. Produce:\n\n- output/report.json — a machine-readable audit result with fields: score (0-100), verdict (PASS/WARN/FAIL), summary, findings[], recommendations[], drillPlan[], evidence{} as defined in input/audit_spec.md. Compute newest backup age in hours using the provided current_time and artifact mtime values; include evidence.keyFiles map for the four key files and evidence.backupRoots entries with root, exists, and count; include evidence.newestBackupAgeHours (1 decimal).\n- output/summary.md — a human-readable summary with the verdict, score, the three most important recommendations as bullet points, and a short 3-5 step drill plan.\n\nDo not scan the filesystem; rely only on the input files. Use relative paths in any references.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

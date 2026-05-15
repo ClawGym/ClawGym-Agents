@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1900",
+  "user_query": "Use the F.A.C.E.T. framework to extract exactly ONE battle-ready mental model from \"Thinking, Fast and Slow\" by Daniel Kahneman (author: Daniel Kahneman). Read input/excerpts.txt for context and input/USER.md for my background; if USER.md is missing, write the [T] Transfer in second person without blocking. Avoid any models listed in input/exclude.json. Deliverables:\n1) Write the full analysis to output/analysis.md with the exact structure: a single \"### 💎 [Model Name]\" header; five bullet lines for **[F] Core Framework**, **[A] Anchor Case**, **[C] Contradiction Destroyed**, **[E] Hidden Boundaries**, **[T] Cross-Domain Transfer**; then a \"### ⚡ Strategic Question\" section with one sharp question; and finally a KB metadata block fenced with <!-- KB_META_START --> and <!-- KB_META_END --> following the specified fields.\n2) Also write output/kb_meta.json containing the same metadata fields as strict JSON (id, name_zh, name_en, category, tags, scenarios, related_models, difficulty, contradiction).\nRules:\n- The [F] Core Framework must be 50 words or fewer.\n- The [A] Anchor Case must retell a concrete, iconic real-world example tied to the model.\n- Category must be one of: investing, startup, systems, ai-thinking, positioning, management, growth, cognitive-bias, influence, economics.\n- The metadata id must be kebab-case and derived from name_en (lowercase, hyphens between words).\n- Provide Chinese for name_zh and 3–5 Chinese tags in tags.\n- Include 3–5 scenarios and 2–4 related_models.\n- One model only.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

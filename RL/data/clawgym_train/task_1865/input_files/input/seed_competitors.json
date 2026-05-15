@@ -1,0 +1,44 @@
+[
+  {
+    "name": "DrawTrack",
+    "type": "direct",
+    "positioning": "Purpose-built construction loan administration: draws, inspections, lien waivers",
+    "price_anchor": "Portfolio-tiered: $12k-$30k/yr"
+  },
+  {
+    "name": "BuiltRight Suite",
+    "type": "direct",
+    "positioning": "End-to-end construction lending ops with borrower portals and inspector coordination",
+    "price_anchor": "$20-$40 per active loan/month"
+  },
+  {
+    "name": "LienWave Pro",
+    "type": "direct",
+    "positioning": "Lien waiver collection, tracking, and conditional/unconditional waiver workflows",
+    "price_anchor": "$149/user/month"
+  },
+  {
+    "name": "CoreBank LOS Add-On",
+    "type": "potential",
+    "positioning": "Loan origination system module with basic draw tracking integrated to core",
+    "price_anchor": "$25k-$60k/yr"
+  },
+  {
+    "name": "Excel + SharePoint",
+    "type": "indirect",
+    "positioning": "Manual spreadsheets and shared folders with email-based approvals",
+    "price_anchor": "Nominal license cost, high labor cost"
+  },
+  {
+    "name": "SiteSnap PM",
+    "type": "indirect",
+    "positioning": "General construction project management used by borrowers/GCs, not lender-centric",
+    "price_anchor": "$79-$199/user/month"
+  },
+  {
+    "name": "Dynamics Loan Ops Accelerator",
+    "type": "potential",
+    "positioning": "CRM/ERP-based workflows customized for lending operations",
+    "price_anchor": "$40-$80/user/month + services"
+  }
+]

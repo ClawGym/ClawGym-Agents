@@ -1,0 +1,18 @@
+{
+  "q1": {
+    "text": "What are our SLOs and escalation steps when the search index fails? Include pager expectations.",
+    "keywords": ["SLO", "escalation", "incident", "pager"]
+  },
+  "q2": {
+    "text": "Summarize the Q3 roadmap priorities for local memory search and explain the rationale behind them.",
+    "keywords": ["Q3", "priority", "roadmap", "rationale"]
+  },
+  "q3": {
+    "text": "State our data retention policy for indices and embeddings and outline the deletion process, including the default period.",
+    "keywords": ["retention", "deletion", "embeddings", "90 days"]
+  },
+  "q4": {
+    "text": "Describe the indexing and search algorithm: chunking configuration, TF-IDF vs embeddings usage, and how line numbers are handled.",
+    "keywords": ["chunk", "TF-IDF", "embeddings", "line"]
+  }
+}

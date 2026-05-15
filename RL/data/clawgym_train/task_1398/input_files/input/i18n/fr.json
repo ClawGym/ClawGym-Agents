@@ -1,0 +1,10 @@
+{
+  "welcome_title": "Bienvenue sur {app_name}",
+  "signup_cta": "Créer un compte",
+  "email_placeholder": "Adresse e-mail",
+  "password_placeholder": "Mot de passe",
+  "terms_ack": "J’accepte les Conditions d’utilisation",
+  "push_optin_body": "Activez les notifications push pour recevoir des mises à jour",
+  "promo_message": "Invitez {count} amis pour gagner {reward_offer}",
+  "legacy_cta": "Inscrivez-vous maintenant"
+}

@@ -1,0 +1,23 @@
+{
+  "period": "Q3 FY26",
+  "baselines": {
+    "NPS": 12,
+    "ActivationRate": 0.42,
+    "MonthlyChurn": 0.065,
+    "CLV": 800,
+    "CAC": 320,
+    "CLV_CAC": 2.5
+  },
+  "sample_sizes": {
+    "nps_responses": 115,
+    "activation_cohort_accounts": 88,
+    "churn_observation_months": 3
+  },
+  "definitions": {
+    "ActivationRate": "Accounts that connect telematics, create 10 work orders, and close 3 within 14 days / total new accounts in cohort",
+    "MonthlyChurn": "Logo churn in month / starting logos",
+    "CLV": "Average gross margin contribution over expected tenure",
+    "CAC": "Blended paid + sales expense per acquired logo"
+  },
+  "data_as_of": "2026-04-10"
+}

@@ -1,0 +1,4 @@
+start_date: 2026-04-20
+days_of_week: [Tue, Thu, Sat]
+time: "15:00"
+timezone: "UTC"

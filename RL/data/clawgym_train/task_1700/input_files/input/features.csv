@@ -1,0 +1,27 @@
+Feature,Category,Description,Status,Complexity,UserValue
+Safe-to-spend,Core,Daily spend amount after bills,Prototype,High,High
+Bank aggregation,Core,Secure account linking and sync,Prototype,High,High
+Bills calendar,Core,Forecast upcoming bills and due dates,Prototype,Medium,High
+Goals autopilot,Core,Automatic sweeps to savings goals,Exploring,Medium,High
+Envelope budgets,Core,Simple envelopes auto filled by rules,Backlog,Medium,Medium
+Subscription tracker,Assist,Detect and list recurring charges,Exploring,Medium,High
+Home screen widget,Assist,Shows today number on phone,Exploring,Low,High
+Push nudges,Assist,Timely alerts when action matters,Exploring,Low,Medium
+Credit score monitor,Assist,View score and basic tips,Backlog,Medium,Low
+Crypto portfolio tracker,Explore,Track coins and balances,Backlog,High,Low
+Social feed,Explore,Friends activity and challenges,Backlog,High,Low
+Cashback offers,Explore,Merchant deals and rewards,Backlog,Medium,Low
+Multi-currency support,Niche,Support multiple currencies,Backlog,High,Low
+Receipt scanning OCR,Niche,Scan receipts to attach to spend,Backlog,High,Low
+Custom reports builder,Pro,Advanced charts and exports,Backlog,High,Low
+Stock trading and robo-advisor,Explore,Buy sell and auto invest,Backlog,VeryHigh,Low
+Shared budgets for couples,Assist,Invite partner and share view,Exploring,Medium,Medium
+Debt payoff planner,Assist,Order debts and track payoff,Backlog,Medium,Medium
+Category rules automation,Pro,If this then that allocations,Backlog,High,Medium
+Apple Watch complication,Assist,Glanceable today number on watch,Backlog,Low,Medium
+Privacy mode local compute,Core,On device processing where possible,Exploring,Medium,High
+Emergency buffer jar,Core,Automatic rainy day reserve,Exploring,Low,High
+Manual cash accounts,Assist,Track cash balances manually,Backlog,Low,Medium
+In-app bill pay,Explore,Pay bills from the app,Backlog,High,Low
+Travel mode,Niche,Temporarily adjust for trips,Backlog,Medium,Low
+Export to CSV,Pro,Export transactions for tax,Backlog,Low,Medium

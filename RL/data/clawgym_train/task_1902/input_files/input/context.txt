@@ -1,0 +1,25 @@
+Company: NimbusOps (B2B SaaS workflow automation for mid-market finance ops; integrations with ERP and payroll systems). 450 paying customers; 42 FTEs (18 engineering, 7 product/design, 10 GTM, 7 G&A). Product-market fit is solid in mid-market; enterprise pilots underway.
+
+Decision: Evaluate a $12,000,000 acquisition offer from HeliosSoft versus continuing independently and raising a Series A.
+
+Offer structure (from LOI draft):
+- Price: $12,000,000 enterprise value
+- Consideration: 80% cash at close, 10% HeliosSoft stock (at 30‑day VWAP), 10% 12‑month retention pool for key employees (time‑based, separate from price but tied to stay agreements)
+- Escrow: 10% of cash consideration for 12 months, standard indemnities
+- No formal revenue earn‑out; KPI reporting covenants for 18 months
+- Integration: API and GTM integration within 9 months; brand sunset within 6–12 months
+- No‑shop requested: 45 days; target close by September 30
+
+Context:
+- Current metrics: see financials.json for ARR, burn, cash, runway, gross margin, and NRR
+- Strategic rationale: HeliosSoft sells to 2,000+ finance teams; they would bundle NimbusOps to accelerate distribution; they lack deep workflow automation in AP/close
+- Cultural fit: HeliosSoft is sales‑driven, more top‑down than NimbusOps; engineering leaders appear pragmatic, not dogmatic
+- Team: Founders willing to stay 12–18 months; key technical leaders require clear roles; retention critical for roadmap credibility
+- Customer concentration: Top 5 customers are 22% of ARR; two at renewal in 6 months
+- Security posture: SOC 2 Type II complete; two minor pen test issues remediated
+- Alternatives: Active Series A conversations (target $8m raise at ~$28–$32m pre); two firms in diligence, no term sheet yet
+- Forecast (base case): Reach $5.4m ARR in 12 months with moderate hiring; path to profitability in ~9 quarters
+- Risks: Market noise around budgets; rising CAC; dependency on ERP partner API rate limits
+- Favorables: Pipeline coverage >3x for next two quarters; net revenue retention robust; strong gross margins and support load manageable
+
+We need a clear go/no‑go framework and negotiation guardrails aligned with the board’s priorities.

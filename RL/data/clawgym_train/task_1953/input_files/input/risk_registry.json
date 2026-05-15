@@ -1,0 +1,112 @@
+{
+  "risks": [
+    {
+      "id": "malicious_pdf_content",
+      "title": "Malicious or malformed PDF content",
+      "severity": "critical",
+      "severity_score": 90,
+      "guidance": [
+        "Run all PDF parsing in a blast-shielded security proxy with minimal context.",
+        "Whitelist only a safe PDF-to-text extraction tool.",
+        "Sanitize outputs and validate against a strict JSON schema before returning."
+      ]
+    },
+    {
+      "id": "prompt_injection_in_text",
+      "title": "Prompt injection embedded in PDF text",
+      "severity": "high",
+      "severity_score": 85,
+      "guidance": [
+        "Strip or neutralize control phrases during extraction (e.g., attempt to override instructions).",
+        "Use canary phrases and post-extraction scanners to detect instruction-like text.",
+        "Ensure the proxy returns only structured JSON; ignore executable/instructional content."
+      ]
+    },
+    {
+      "id": "pii_exposure",
+      "title": "PII exposure during processing",
+      "severity": "high",
+      "severity_score": 78,
+      "guidance": [
+        "Redact emails, phone numbers, and identifiers from intermediate artifacts.",
+        "Do not transmit raw document content between agents; pass only necessary excerpts.",
+        "Log metadata without storing document content."
+      ]
+    },
+    {
+      "id": "incomplete_obligation_extraction",
+      "title": "Missing or incomplete obligation extraction",
+      "severity": "high",
+      "severity_score": 80,
+      "guidance": [
+        "Use a structured extraction schema with required fields.",
+        "Apply a reviewer phase with a quality rubric focusing on completeness and evidence.",
+        "Cross-check obligations in multiple sections (definitions, appendices, footnotes)."
+      ]
+    },
+    {
+      "id": "ambiguous_deadlines",
+      "title": "Ambiguity in deadline interpretation",
+      "severity": "high",
+      "severity_score": 70,
+      "guidance": [
+        "Normalize dates to ISO 8601 and record timezone assumptions.",
+        "Capture relative dates with anchors and raw phrases.",
+        "Flag ambiguity and require reviewer sign-off for risky interpretations."
+      ]
+    },
+    {
+      "id": "source_fabrication",
+      "title": "Unsupported claims or fabricated sources",
+      "severity": "high",
+      "severity_score": 82,
+      "guidance": [
+        "Require multi-source validation (≥3 independent sections or references).",
+        "Attach page numbers/sections for every claim.",
+        "Score source credibility and reduce weight of low-credibility references."
+      ]
+    },
+    {
+      "id": "cost_overrun",
+      "title": "Cost overrun due to complex analysis",
+      "severity": "high",
+      "severity_score": 80,
+      "guidance": [
+        "Estimate cost per agent prior to spawn and enforce approval gates.",
+        "Prefer lower-cost models for simple tasks; parallelize only when necessary.",
+        "Respect per-spawn caps and total budget."
+      ]
+    },
+    {
+      "id": "schema_drift",
+      "title": "Schema drift between phases",
+      "severity": "medium",
+      "severity_score": 60,
+      "guidance": [
+        "Version the output schema and validate at each phase.",
+        "Fail closed on schema validation and provide clear error reports.",
+        "Keep a single source of truth for the schema in the architect’s plan."
+      ]
+    },
+    {
+      "id": "model_hallucination",
+      "title": "Model hallucination in summaries or extractions",
+      "severity": "medium",
+      "severity_score": 65,
+      "guidance": [
+        "Demand evidence citations for each key claim.",
+        "Reviewer verifies evidence presence and consistency.",
+        "Penalize unsupported content via quality scoring."
+      ]
+    }
+  ],
+  "top_risks_for_this_project": [
+    "malicious_pdf_content",
+    "prompt_injection_in_text",
+    "cost_overrun",
+    "incomplete_obligation_extraction",
+    "ambiguous_deadlines",
+    "source_fabrication"
+  ],
+  "notes": "Use these risks to drive agent safeguards and gating rules in the orchestration plan. Do not rely on external services by default."
+}

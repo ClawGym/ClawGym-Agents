@@ -1,0 +1,10 @@
+project_id,project_title,fiscal_year,amount_spent,vendor,category
+P1001,Park Revitalization at Riverside Green,2018,50000,GreenScape LLC,Parks
+P1001,Park Revitalization at Riverside Green,2019,25000,CityWorks,Parks
+P1002,Youth Arts Initiative,2019,40000,YouthArtsCo,Community
+P1002,Youth Arts Initiative,2020,35000,CommunityArts,Community
+P1003,Streetlight Upgrade Program,2019,80000,LightTech Inc,Infrastructure
+P1003,Streetlight Upgrade Program,2020,20000,LightTech Inc,Infrastructure
+P1004,Small Business Recovery Grants,2020,150000,DowntownDev,Grants
+P1005,Senior Center Renovation,2018,60000,BuildRight Construction,Facilities
+P1005,Senior Center Renovation,2019,30000,BuildRight Construction,Facilities

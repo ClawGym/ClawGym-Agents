@@ -1,0 +1,7 @@
+my_team: Valor
+home_lat: 37.7749
+home_lng: -122.4194
+radius_km: 5
+planning_window: "18:00-22:00"
+min_teammates: 2
+top_n: 5

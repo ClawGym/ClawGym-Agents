@@ -1,0 +1,10 @@
+group: "Metropolis DC Fan Club"
+to:
+  - name: Alex
+    email: alex@example.com
+  - name: Jamie
+    email: jamie@example.com
+  - name: Sam
+    email: sam@example.com
+  - name: Dana
+    email: dana@example.com

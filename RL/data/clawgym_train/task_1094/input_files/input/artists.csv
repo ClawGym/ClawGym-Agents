@@ -1,0 +1,8 @@
+artist_name,province,city,genre,language_pref,email,status,track_title,track_duration_sec,on_air_date
+Lumière North,QC,Montréal,electronic,fr,lumiere.north@example.com,confirmed,Échos de Nuit,212,2026-05-07
+Prairie Echo,AB,Edmonton,indie folk,en,prairie.echo@example.com,pending,Windbreak,198,
+Coastline,BC,Vancouver,ambient,bilingual,coastline@example.com,confirmed,Tidal,245,2026-05-21
+Maple Beats,ON,Toronto,hip-hop,en,maplebeats@example.com,confirmed,True North Flow,210,2026-05-14
+Nordique Vibes,QC,Québec City,house,fr,nordique.vibes@example.com,pending,Minuit,230,
+Halifax Harbours,NS,Halifax,singer-songwriter,en,halifax.harbour@example.com,confirmed,Harbour Lights,205,2026-05-07
+Winnipeg Waves,MB,Winnipeg,electronic,bilingual,waves@example.com,pending,River Run,220,

@@ -1,0 +1,4 @@
+suite,test_id,script,expected_status
+core,math_add,scripts/test_math_add.py,pass
+api,login_success,scripts/test_login_success.py,pass
+ui,render_header,scripts/test_render_header.py,pass

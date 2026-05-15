@@ -1,0 +1,5 @@
+session_date,track,session_label,run_no,lane,reaction_time_s,sixty_ft_s,et_s,mph,result,red_light,notes
+2026-03-27,Desert Valley Dragway,Test & Tune Friday,1,Left,0.064,1.452,10.525,130.1,N/A,false,baseline
+2026-03-27,Desert Valley Dragway,Test & Tune Friday,2,Right,0.071,1.449,10.512,130.3,N/A,false,
+2026-03-27,Desert Valley Dragway,Test & Tune Friday,3,Left,0.058,1.451,10.518,130.0,N/A,false,jetting +1
+2026-03-27,Desert Valley Dragway,Test & Tune Friday,4,Right,0.066,1.453,10.529,129.8,N/A,false,

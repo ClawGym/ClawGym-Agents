@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1303",
+  "user_query": "I need a working prototype to compare affordable employee health plans and update my proposal draft. Use only the local files provided. 1) Read input/plans.json and input/company_profile.json. 2) Run the Python prototype at scripts/calc_benefits.py to generate a ranked cost summary CSV at output/plan_costs.csv. Use this exact invocation: python scripts/calc_benefits.py --plans input/plans.json --company input/company_profile.json --out output/plan_costs.csv. If the command fails, diagnose the error from the command output, fix the script in place, and rerun until it succeeds. Save the initial error output followed by the successful run message in output/run_log.txt. 3) From output/plan_costs.csv, produce output/top_plans.json listing the two plans that both meet the budget and preferences, sorted by total_monthly_employer_cost ascending. Include fields: plan_id, name, total_monthly_employer_cost, meets_budget, meets_preferences. 4) Edit docs/benefits_proposal.md by rewriting only the \"Health Benefits\" section to summarize the two recommended plans using their names and total monthly employer costs for the current employee_count, and note whether each meets the stated preferences. Constraints: Do not change any values in input files. The CSV must have headers: plan_id,name,monthly_premium_employee,employer_share_percent,monthly_employer_cost_per_employee,total_monthly_employer_cost,meets_budget,meets_preferences. The updated script must still accept the same CLI arguments and write to the path given by --out. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

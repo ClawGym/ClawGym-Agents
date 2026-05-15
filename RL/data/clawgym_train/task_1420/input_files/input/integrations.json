@@ -1,0 +1,100 @@
+{
+  "vendors": [
+    {
+      "name": "Stripe",
+      "category": "payments",
+      "data_shared": ["tokenized card references", "charge events", "customer email"],
+      "authentication": "API keys (restricted), webhook secret",
+      "sso": false,
+      "webhooks": [
+        {
+          "event_source": "stripe",
+          "endpoint": "https://api.nimbusledger.com/webhooks/stripe",
+          "signature_validation": true,
+          "ip_allowlist": false,
+          "notes": "Using Stripe-Signature header with 5 min tolerance"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "name": "Segment",
+      "category": "analytics",
+      "data_shared": ["user traits", "usage events"],
+      "authentication": "write key",
+      "sso": false,
+      "webhooks": [
+        {
+          "event_source": "segment",
+          "endpoint": "https://api.nimbusledger.com/webhooks/segment",
+          "signature_validation": false,
+          "ip_allowlist": false,
+          "notes": "Legacy endpoint; signature verification not implemented"
+        }
+      ],
+      "status": "active"
+    },
+    {
+      "name": "Zendesk",
+      "category": "support",
+      "data_shared": ["customer contact", "ticket metadata"],
+      "authentication": "OAuth",
+      "sso": true,
+      "webhooks": [],
+      "status": "active"
+    },
+    {
+      "name": "Okta",
+      "category": "idp",
+      "data_shared": ["user identities", "group memberships"],
+      "authentication": "SAML/OIDC",
+      "sso": true,
+      "webhooks": [],
+      "mfa": {
+        "admins": "required",
+        "staff": "optional"
+      },
+      "scim": true,
+      "status": "active"
+    },
+    {
+      "name": "GitHub",
+      "category": "scm_ci_cd",
+      "data_shared": ["source code", "deployment metadata"],
+      "authentication": "SSO enforced; OIDC federation to AWS",
+      "sso": true,
+      "webhooks": [],
+      "ci_cd_details": {
+        "aws_role": "gha-prod-deploy",
+        "policies": ["AmazonS3FullAccess", "custom:deploy-eks"],
+        "secrets_rotation_days": 540
+      },
+      "status": "active"
+    },
+    {
+      "name": "Sentry",
+      "category": "monitoring",
+      "data_shared": ["error events", "stack traces (may include PII)"],
+      "authentication": "Project DSN",
+      "sso": false,
+      "webhooks": [],
+      "status": "active"
+    },
+    {
+      "name": "Datadog",
+      "category": "monitoring",
+      "data_shared": ["metrics", "logs", "APM traces"],
+      "authentication": "API/APP keys",
+      "sso": false,
+      "webhooks": [],
+      "status": "active"
+    }
+  ],
+  "notes": [
+    "Segment webhook does not validate signatures currently.",
+    "Okta MFA is not enforced for staff or contractors.",
+    "GitHub Actions role has broad S3 permissions for artifact storage and logs.",
+    "Stripe webhook validation is correctly implemented."
+  ],
+  "last_reviewed": "2026-04-10"
+}

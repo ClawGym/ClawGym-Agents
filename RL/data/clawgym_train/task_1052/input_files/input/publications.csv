@@ -1,0 +1,7 @@
+id,title,authors,year,impact_score,doi
+P001,Open Data for Global Health,Smith et al.,2021,87.5,10.1234/odgh
+P002,Community-driven Vaccination Insights,Lee and Kumar,2020,92.1,10.1234/cdvi
+P003,Ethical AI in Social Programs,Gonzalez et al.,2022,88.9,10.1234/eaisp
+P004,Water Access Mapping in Rural Areas,Chen and Osei,2019,78.3,10.1234/wamra
+P005,Food Security Forecasting with ML,Nguyen et al.,2023,95.4,10.1234/fsfml
+P006,Microgrants Impact Evaluation,Patel and Brown,2018,73.2,10.1234/mie

@@ -1,0 +1,7 @@
+incident_id,date,severity,service,duration_minutes,impact,cause,contributing_factors,detected_by,mttr_minutes,customer_impact,notes
+INC-2026-0314,2026-03-14,SEV-1,Payments API,92,"Payment authorization failures","DB migration misconfig","No tested rollback; single approver; change ticket missing risk assessment",Alertmanager,92,"High","Manual status page update delayed 40 minutes"
+INC-2026-0327,2026-03-27,SEV-2,Web Frontend,47,"Intermittent 5xx","Cache purge during peak","No change window; no comms to on-call","User reports + Synthetics",47,"Medium","Feature flag flipped with no ticket"
+INC-2026-0409,2026-04-09,SEV-1,Auth Service,63,"Login failures","Expired TLS certificate","No certificate monitoring; ownership unclear",Synthetics,63,"High","Emergency change executed; approval in Slack only"
+INC-2026-0416,2026-04-16,SEV-3,Analytics,120,"Delayed events","Backfill job saturation","Lack of capacity guardrails; runbook outdated",Prometheus,120,"Low","No customer comms template used"
+INC-2026-0421,2026-04-21,SEV-2,Notifications,38,"SMS delays","Vendor rate limit change","No vendor change tracking; missing escalation",Vendor alert,38,"Medium","No postmortem published within 5 days"
+INC-2026-0428,2026-04-28,NEAR-MISS,Platform,0,"Audit observation","Change approvals missing","Separation of duties not enforced; 35% tickets lack approvals",Internal audit,0,"N/A","SOC 2 evidence at risk; remediation required"

@@ -1,0 +1,16 @@
+metrics:
+  - name: http_requests_total
+    type: counter
+    labels: [method, route, status]
+  - name: http_request_duration_seconds
+    type: histogram
+    labels: [method, route]
+  - name: cache_hits_total
+    type: counter
+    labels: [cache_name]
+  - name: cache_miss_total
+    type: counter
+    labels: [cache_name]
+  - name: worker_queue_depth
+    type: gauge
+    labels: [queue]

@@ -1,0 +1,11 @@
+post_id,title,recipe_type,platform,date,views,likes,comments
+P001,"Crispy Smashed Potato Nachos",smashed,Instagram,2026-04-10,"12,345","1,230","98"
+P002,"Sweet Potato Donut Glaze Test",donut,TikTok,2026-04-11,"45,678","3,120","210"
+P003,"Cheesy Potato Waffles",waffle,YouTube,2026-04-12,"8,902","640","56"
+P004,"Air-Fryer Latkes",latke,Instagram,2026-04-12,"23,450","2,015","180"
+P005,"Gnocchi Carbonara",gnocchi,TikTok,2026-04-13,"31,000","2,740","199"
+P006,"Purple Potato Chips",chips,Instagram,2026-04-13,"15,100","","75"
+P007,"Loaded Baked Potato Boats",baked,YouTube,2026-04-14,"19,450","1,540",""
+P008,"Spicy Patatas Bravas",bravas,TikTok,2026-04-14,"27,300","2,110","165"
+P009,"Vegan Potato Salad",salad,Instagram,2026-04-15,"16,780","1,230","120"
+P010,"Potato Donut Filling Shoot",donut,Instagram,2026-04-15,"21,600","1,980","150"

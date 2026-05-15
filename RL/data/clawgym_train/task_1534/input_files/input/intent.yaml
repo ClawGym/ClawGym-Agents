@@ -1,0 +1,91 @@
+name: kanban-notes
+description: "Manage a simple Markdown-based Kanban board with columns Todo, Doing, Done in a local repository. Use when the user wants to add, move, list, show, or search notes on a personal Kanban board."
+goals:
+  - "Represent each note as a Markdown file with YAML frontmatter."
+  - "Support core Kanban operations: add, move, list, show, search, and optional delete (soft delete to a trash folder)."
+  - "Operate entirely on the local filesystem (no network calls)."
+constraints:
+  - "Local-only: do not call network APIs."
+  - "Confirm with the user before writing or changing any files (add, move, edit, delete)."
+  - "Use {baseDir} for any paths inside the skill documentation and commands."
+  - "Declare jq in metadata.requires.bins."
+  - "Keep SKILL.md under 500 lines."
+repository:
+  path_priority:
+    - env: "KANBAN_REPO"
+    - default: "{baseDir}/data/kanban"
+  layout:
+    columns: ["Todo", "Doing", "Done"]
+    ensure_directories: true
+  files:
+    pattern: "<Column>/<slug>--<id>.md"
+    id_format: "8-char lowercase hex"
+    slug_rule: "lowercase-dashed-from-title"
+    frontmatter:
+      required: ["id", "title", "status", "tags", "created_at", "updated_at"]
+      optional: ["due_date"]
+    body_sections:
+      - "Summary"
+      - "Details"
+operations:
+  add:
+    description: "Create a new Markdown note in Todo (by default) with required frontmatter and optional due_date/tags/content."
+    fields_required: ["title"]
+    optional: ["tags", "due_date", "content"]
+    defaults:
+      status: "Todo"
+  move:
+    description: "Move a card between columns by updating frontmatter status and relocating the file."
+    identify_by:
+      - "id"
+      - "path"
+  list:
+    description: "Summarize the board with counts per column and show the most recent N items per column."
+    include_counts: true
+    include_recent: 5
+  show:
+    description: "Display a single card by id with full frontmatter and body."
+    by: "id"
+  search:
+    description: "Search notes by tag or keyword across all columns."
+    by:
+      - "tags"
+      - "keyword"
+  delete:
+    description: "Soft delete by moving the file into a trash folder while preserving metadata."
+    soft_delete: true
+    trash_dir: "_trash"
+safety:
+  confirmation:
+    required_for: ["add", "move", "edit", "delete"]
+    phrases_to_include:
+      - "Before writing"
+      - "Before changing"
+    plan_preview: true
+    dry_run_option: true
+documentation:
+  references:
+    - path: "{baseDir}/references/kanban-schema.md"
+      purpose: "Frontmatter keys, directory layout, and filename pattern specification."
+  examples_source: "input/examples.json"
+quality:
+  require_examples_rows: 3
+  require_exec_block: true
+  require_table: true
+  max_lines: 500
+tooling:
+  jq_usage: "Optionally read configuration from openclaw.json via jq if present."
+  exec_examples:
+    - "mkdir -p \"$KANBAN_REPO/Todo\" \"$KANBAN_REPO/Doing\" \"$KANBAN_REPO/Done\""
+    - "printf '---\\nid: %s\\ntitle: %s\\nstatus: %s\\ntags: %s\\ncreated_at: %s\\nupdated_at: %s\\n---\\n\\n# Summary\\n%s\\n\\n# Details\\n%s\\n' > \"$KANBAN_REPO/Todo/<slug>--<id>.md\""
+acceptance:
+  must_include:
+    - "Frontmatter with name and description containing the phrase 'Use when'"
+    - "Inline JSON metadata declaring jq in requires.bins"
+    - "A Workflow section with numbered H3 steps written in imperative voice"
+    - "At least one Markdown table"
+    - "At least one exec tool JSON code block"
+    - "An explicit confirmation step before modifying files"
+    - "An Error handling section"
+    - "A Examples section populated from input/examples.json"
+    - "Only reference files under {baseDir}/references that actually exist"

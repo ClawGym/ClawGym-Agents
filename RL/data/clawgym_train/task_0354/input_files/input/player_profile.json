@@ -1,0 +1,41 @@
+{
+  "name": "Jordan Miles",
+  "grad_year": 2026,
+  "position": "Small Forward",
+  "height": "6'7\"",
+  "weight_lbs": 210,
+  "gpa_unweighted": 4.0,
+  "school": "Lincoln High School",
+  "city": "Oakland",
+  "state": "CA",
+  "contact": {
+    "email": "jordan.miles@example.com",
+    "phone": "(510) 555-0142"
+  },
+  "highlights": {
+    "hudl_link": "https://example.com/highlights/jordan-miles",
+    "recent_game_log": [
+      "28 pts, 9 reb vs. Tech HS",
+      "25 pts, 7 ast vs. Central HS"
+    ]
+  },
+  "stats_2025": {
+    "ppg": 24.1,
+    "rpg": 8.3,
+    "apg": 4.2,
+    "spg": 1.9,
+    "fg_pct": 0.51,
+    "3pt_pct": 0.39,
+    "ft_pct": 0.86
+  },
+  "visit_windows": [
+    "2026-05-10 to 2026-05-20",
+    "2026-06-15 to 2026-06-25"
+  ],
+  "priorities": [
+    "Two-way development",
+    "Academic support for Business major",
+    "Early role clarity",
+    "Team culture fit"
+  ]
+}

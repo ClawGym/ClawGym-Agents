@@ -1,0 +1,11 @@
+patient_id,treatment,treatment_detail,pre_gad7,post_gad7,visits,adverse_event,sex
+H001,herbal,ashwagandha,15,11,3,none,F
+H002,herbal,lavender,13,9,3,none,M
+H003,herbal,kava,17,14,4,mild,F
+H004,herbal,ashwagandha,12,12,2,none,F
+H005,herbal,passionflower,11,8,3,none,M
+H006,herbal,lavender,16,10,4,none,F
+H007,herbal,kava,14,13,3,moderate,F
+H008,herbal,ashwagandha,10,8,2,none,M
+H009,herbal,kava,18,16,4,mild,M
+H010,herbal,lavender,13,9,3,none,F

@@ -1,0 +1,27 @@
+{
+  "reminders": [
+    {
+      "id": "morning-supplements",
+      "label": "morning supplements",
+      "cronFirst": "0 8 * * *",
+      "nagAfter": "09:00",
+      "confirmPatterns": ["taken", "took them", "did it", "yes"],
+      "tone": "friendly but persistent, escalate to ALL CAPS drama after 3 nags",
+      "messages": {
+        "first": "Time for morning supplements!"
+      }
+    },
+    {
+      "id": "evening-workout",
+      "label": "evening workout",
+      "cronFirst": "0 19 * * 1,3,5",
+      "nagAfter": "19:30",
+      "days": ["monday", "wednesday", "friday"],
+      "confirmPatterns": ["worked out", "trained", "exercised", "ran", "workout done", "yes"],
+      "tone": "coach energy",
+      "messages": {
+        "first": "Workout today?"
+      }
+    }
+  ]
+}

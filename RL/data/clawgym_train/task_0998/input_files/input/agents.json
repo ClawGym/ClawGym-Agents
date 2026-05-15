@@ -1,0 +1,14 @@
+{
+  "alpha": {
+    "model": "gpt-4o-mini",
+    "context_window": 4000,
+    "context_used_tokens": 1000,
+    "status": "running"
+  },
+  "beta": {
+    "model": "claude-3.7-sonnet",
+    "context_window": 4000,
+    "context_used_tokens": 1000,
+    "status": "idle"
+  }
+}

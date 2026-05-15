@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1373",
+  "user_query": "We’re coordinating rapid, calming communication during an ongoing service disruption. Please read input/scenario.yaml for context, input/config.json for parameters and channel settings, input/forbidden_words.txt for words to avoid, and input/risk_template.txt for the exact risk reminder line. Then create two files:\n\n1) output/messages.json with the following structure and rules:\n- Top-level key config_echo that mirrors response_delay, speech_speed, caution_coefficient, and risk_reminder from input/config.json.\n- Top-level key channels which is an object whose keys exactly match the array in config.channels. Each channel maps to an array of exactly 3 short calming messages tailored to that audience.\n- Every message must:\n  - be in English,\n  - include the exact anchor_phrase from input/config.json,\n  - be no longer than the max_chars for its channel (from input/config.json),\n  - contain no exclamation marks (!),\n  - not contain any word listed in input/forbidden_words.txt (case-insensitive substring match),\n  - and, if risk_reminder in config is true, the 3rd message for each channel must include exactly the line from input/risk_template.txt (you may append it verbatim at the end of the message).\n\n2) output/summary.txt containing exactly four lines:\n- channels: a comma-separated list of channel names in the same order as in config.channels\n- messages_per_channel: 3\n- anchor_phrase: <repeat the exact anchor_phrase from input/config.json>\n- no_exclamations: yes\n\nEnsure the messages reflect the scenario details and maintain a calm, reassuring tone while complying with all the constraints above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

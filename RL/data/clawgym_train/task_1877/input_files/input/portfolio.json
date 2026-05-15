@@ -1,0 +1,11 @@
+{
+  "holdings": [
+    { "ticker": "NVDA" },
+    { "ticker": "AAPL" },
+    { "ticker": "TSLA" },
+    { "ticker": "MSFT" }
+  ],
+  "news_category": "tech",
+  "news_limit": 5,
+  "sector_days": 7
+}

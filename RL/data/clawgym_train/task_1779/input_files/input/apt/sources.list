@@ -1,0 +1,4 @@
+deb http://archive.ubuntu.com/ubuntu focal main restricted universe
+deb http://archive.ubuntu.com/ubuntu focal-updates main restricted
+deb http://security.ubuntu.com/ubuntu focal-security main restricted
+# deb-src disabled by admin

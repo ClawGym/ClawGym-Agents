@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0081",
+  "user_query": "Build a reproducible multi-engine search URL kit for my research team. Read input/spec.json for 4 search briefs and follow these exact rules:\n- For each brief, construct URLs for Google, DuckDuckGo (HTML endpoint), Brave, and Startpage using the query text and any required time filters or engine-specific parameters indicated in the brief.\n- Always URL-encode the query parameter value with UTF-8 (encode spaces and special characters like \":\"), then append engine parameters. Use these base endpoints exactly:\n  • Google: https://www.google.com/search?q=\n  • DuckDuckGo (HTML): https://duckduckgo.com/html/?q=\n  • Brave: https://search.brave.com/search?q=\n  • Startpage: https://www.startpage.com/sp/search?query=\n- Apply time filters exactly when specified:\n  • Google: week -> &tbs=qdr:w, year -> &tbs=qdr:y\n  • Brave: week -> &tf=pw, year -> &tf=py\n  • Startpage: week -> &time=week, year -> &time=year\n- If a brief has type \"compute\", also generate a WolframAlpha URL at https://www.wolframalpha.com/input?i= with the same URL-encoded query.\n- If a brief includes duckduckgo_params, append them to the DuckDuckGo URL in this exact order immediately after the q parameter: first &kp=..., then &kl=....\n- Do not include extra parameters beyond those specified.\n\nWrite the outputs to:\n- output/search_urls.json containing: { \"briefs\": [ { \"id\": string, \"google\": string, \"duckduckgo\": string, \"brave\": string, \"startpage\": string, \"wolframalpha\": string? } ] }\n- output/README.md with a short summary listing each brief id and the engines provided for it.\n\nDo not hardcode absolute paths; use the input/ and output/ folders exactly as above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

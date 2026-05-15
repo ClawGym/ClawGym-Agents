@@ -1,0 +1,9 @@
+DealName,Company,Stage,Amount,FirstTouchDate,PlannedCloseDate,LastActivityDate,ContactsCount,EconBuyerMet,MetricsConfirmed,PainDocumented,DecisionCriteriaKnown,DecisionProcessKnown,ChampionIdentified,PaperProcessKnown,CompetitionKnown,ChampionName,EconomicBuyerName,TechnicalEvaluatorName,EndUsers
+Apex Retail - Omnichannel Revamp,Apex Retail,Negotiation,250000,2026-04-10,2026-06-28,2026-06-12,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Alicia Schultz,"David Lang (CIO)",Ravi Patel,"Ecommerce Managers;Store Ops Leads"
+Orion Manufacturing - IoT Rollout,Orion Manufacturing,Proposal,180000,2026-02-01,2026-07-15,2026-05-20,1,FALSE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,TBD,"Carlos Alvarez (COO)",TBD,"Plant Ops;IT Network"
+Voyage Logistics - TMS Integration,Voyage Logistics,Discovery,120000,2026-03-10,2026-06-25,2026-05-31,2,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,Priya Nair,TBD,TBD,"Dispatch Supervisors;Warehouse Leads"
+LegacyTel - Security RFP,LegacyTel,Demo/Eval,150000,2025-12-01,2026-07-10,2026-05-15,1,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,TBD,TBD,TBD,Security Analysts
+NordOil - Supply Chain,NordOil,Closed Lost,200000,2026-01-15,2026-03-15,2026-03-10,2,TRUE,TRUE,FALSE,TRUE,TRUE,FALSE,FALSE,TRUE,TBD,TBD,TBD,Operations
+Acme Foods - ERP Modernization,Acme Foods,Closed Won,160000,2026-01-01,2026-03-02,2026-03-02,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TBD,TBD,TBD,"Finance;Ops"
+BetaBank - Risk Analytics,BetaBank,Closed Won,220000,2025-11-01,2025-12-31,2025-12-31,4,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TBD,TBD,TBD,"Risk;Data Science"
+CityTransit - Scheduling Pilot,CityTransit,Closed Won,90000,2026-03-01,2026-04-30,2026-04-30,3,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TBD,TBD,TBD,Transit Ops

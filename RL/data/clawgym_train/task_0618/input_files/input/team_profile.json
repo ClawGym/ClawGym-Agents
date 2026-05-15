@@ -1,0 +1,33 @@
+{
+  "team_name": "Platform Engineering",
+  "team_size": 12,
+  "experience": {
+    "average_years": 5,
+    "domains": ["site reliability engineering", "backend services", "data engineering"],
+    "crypto_experience": "intermediate",
+    "oncall_model": "follow-the-sun weekly rotations with daytime primary and after-hours secondary"
+  },
+  "environment": {
+    "os": "linux",
+    "shell": "bash",
+    "languages": ["python", "go", "bash"],
+    "deployment": "kubernetes",
+    "monitoring": ["Prometheus", "Grafana"],
+    "logging": "ELK",
+    "secrets_management": "Vault",
+    "network": "segmented VPC with strict egress allowlist; no access to unknown endpoints",
+    "regions": ["us-east", "eu-west"],
+    "ci_cd": "GitLab",
+    "artifact_registry": "internal registry"
+  },
+  "service_characteristics": {
+    "service_name": "Arbitrage Finder",
+    "analysis_model": "stateless workers performing in-memory analysis using allowed market data feeds",
+    "data_feeds": ["blockchain node events", "exchange order book snapshots (allowlisted only)"],
+    "operational_notes": [
+      "No external API calls from production unless explicitly allowlisted",
+      "No long-lived credentials needed by core Arbitrage Finder processes",
+      "Prefer immutable infrastructure and declarative config for rollouts"
+    ]
+  }
+}

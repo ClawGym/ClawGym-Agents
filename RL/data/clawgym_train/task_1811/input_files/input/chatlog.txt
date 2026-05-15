@@ -1,0 +1,273 @@
+--- AGENT SESSION START 2026-04-18T08:00:00Z ---
+2026-04-18T08:00:00.001Z [INFO] boot: initializing subsystems (mem=128MB)
+2026-04-18T08:00:00.032Z [INFO] config: loaded 17 parameters from ~/.openclaw/config.json
+2026-04-18T08:00:00.101Z [INFO] runtime: python3.11 detected; uvloop disabled (not installed)
+2026-04-18T08:00:00.205Z [INFO] api: rate limit window=60s, burst=30, refill=1/s
+2026-04-18T08:00:00.301Z [INFO] memory: journal=enabled logs=enabled state=enabled
+2026-04-18T08:00:00.400Z [INFO] network: connecting to ws://localhost:8765
+2026-04-18T08:00:00.601Z [INFO] network: connection established (latency=12ms)
+2026-04-18T08:00:00.711Z [INFO] agent: session_id=ae12c940 trace_id=d7f1d3d8
+2026-04-18T08:00:00.812Z [INFO] scheduler: heartbeat every 5s
+2026-04-18T08:00:00.913Z [INFO] fs: log dir=/home/agent/autonomous-ai/agents/logs
+2026-04-18T08:00:01.014Z [INFO] tools: memory_pruner available at scripts/memory_pruner.py
+2026-04-18T08:00:01.115Z [INFO] plugins: loaded 7 extensions
+2026-04-18T08:00:01.216Z [INFO] ui: console renderer initialized
+2026-04-18T08:00:01.317Z [INFO] telemetry: opt-in=false (local-only)
+2026-04-18T08:00:01.418Z [INFO] agent: warm-up complete; entering run loop
+
+2026-04-18T08:00:02.001Z [INFO] cycle=1 step=1 task="ingest user request"
+2026-04-18T08:00:02.022Z [INFO] nlp: detected language=en intents=['clean','prune','plan']
+2026-04-18T08:00:02.054Z [INFO] memory: scanning ~/.openclaw for large files
+2026-04-18T08:00:02.098Z [INFO] memory: found 12 candidates
+2026-04-18T08:00:02.140Z [INFO] policy: dry-run only=true
+2026-04-18T08:00:02.181Z [INFO] cycle=1 step=2 task="draft plan"
+2026-04-18T08:00:02.222Z [INFO] reasoning: constraints max_lines=120 max_bytes=4096
+2026-04-18T08:00:02.263Z [INFO] state: compact older than 2025-06-01; remove pattern '[DEBUG]'
+2026-04-18T08:00:02.304Z [INFO] logs: simulate circular buffer keep=3
+2026-04-18T08:00:02.345Z [INFO] cycle=1 step=3 task="emit preview"
+2026-04-18T08:00:02.386Z [INFO] preview: calculating deltas for chatlog and state.md
+2026-04-18T08:00:02.427Z [INFO] preview: aggregating sizes from log_index.json
+
+2026-04-18T08:00:03.001Z [INFO] cycle=2 step=1 task="load chatlog"
+2026-04-18T08:00:03.031Z [INFO] chatlog: lines=0 size=0B
+2026-04-18T08:00:03.071Z [WARN] chatlog: empty start buffer; will grow during session
+2026-04-18T08:00:03.111Z [INFO] cycle=2 step=2 task="append telemetry"
+2026-04-18T08:00:03.151Z [INFO] tick 1: cpu=3.2% mem=142MB
+2026-04-18T08:00:03.191Z [INFO] tick 2: cpu=3.4% mem=145MB
+2026-04-18T08:00:03.231Z [INFO] tick 3: cpu=3.5% mem=147MB
+2026-04-18T08:00:03.271Z [INFO] tick 4: cpu=3.7% mem=148MB
+2026-04-18T08:00:03.311Z [INFO] tick 5: cpu=3.6% mem=148MB
+
+2026-04-18T08:01:00.001Z [INFO] cycle=3 step=1 task="workload simulation"
+2026-04-18T08:01:00.021Z [INFO] simulate: generating events=200
+2026-04-18T08:01:00.041Z [INFO] simulate: emitter=console target=chatlog.txt
+2026-04-18T08:01:00.061Z [INFO] simulate: begin burst logging
+
+2026-04-18T08:01:00.101Z [INFO] event#001 topic=io detail="opened file A" latency_ms=2
+2026-04-18T08:01:00.121Z [INFO] event#002 topic=io detail="opened file B" latency_ms=3
+2026-04-18T08:01:00.141Z [INFO] event#003 topic=io detail="opened file C" latency_ms=1
+2026-04-18T08:01:00.161Z [INFO] event#004 topic=cpu detail="hashing block 4" latency_ms=5
+2026-04-18T08:01:00.181Z [INFO] event#005 topic=net detail="GET /status" code=200 latency_ms=42
+2026-04-18T08:01:00.201Z [INFO] event#006 topic=net detail="POST /metrics" code=202 latency_ms=37
+2026-04-18T08:01:00.221Z [INFO] event#007 topic=schedule detail="queued task prune" eta=+5s
+2026-04-18T08:01:00.241Z [INFO] event#008 topic=schedule detail="queued task compact" eta=+5s
+2026-04-18T08:01:00.261Z [INFO] event#009 topic=schedule detail="queued task rotate" eta=+5s
+2026-04-18T08:01:00.281Z [INFO] event#010 topic=memory detail="gc cycle started"
+2026-04-18T08:01:00.301Z [INFO] event#011 topic=memory detail="gc reclaimed=12MB"
+2026-04-18T08:01:00.321Z [INFO] event#012 topic=io detail="write buffer flushed"
+2026-04-18T08:01:00.341Z [INFO] event#013 topic=io detail="sync complete"
+2026-04-18T08:01:00.361Z [INFO] event#014 topic=cpu detail="hashing block 14" latency_ms=4
+2026-04-18T08:01:00.381Z [INFO] event#015 topic=cpu detail="hashing block 15" latency_ms=6
+2026-04-18T08:01:00.401Z [INFO] event#016 topic=net detail="PUT /cache" code=204 latency_ms=18
+2026-04-18T08:01:00.421Z [INFO] event#017 topic=net detail="GET /cache/health" code=200 latency_ms=12
+2026-04-18T08:01:00.441Z [INFO] event#018 topic=ui detail="render tick" fps=60
+2026-04-18T08:01:00.461Z [INFO] event#019 topic=ui detail="render tick" fps=60
+2026-04-18T08:01:00.481Z [INFO] event#020 topic=ui detail="render tick" fps=60
+2026-04-18T08:01:00.501Z [INFO] event#021 topic=planner detail="planning window open"
+2026-04-18T08:01:00.521Z [INFO] event#022 topic=planner detail="constraints set"
+2026-04-18T08:01:00.541Z [INFO] event#023 topic=planner detail="draft ready"
+2026-04-18T08:01:00.561Z [INFO] event#024 topic=io detail="opened file D" latency_ms=2
+2026-04-18T08:01:00.581Z [INFO] event#025 topic=io detail="opened file E" latency_ms=3
+2026-04-18T08:01:00.601Z [INFO] event#026 topic=io detail="opened file F" latency_ms=4
+2026-04-18T08:01:00.621Z [INFO] event#027 topic=io detail="opened file G" latency_ms=3
+2026-04-18T08:01:00.641Z [INFO] event#028 topic=io detail="opened file H" latency_ms=3
+2026-04-18T08:01:00.661Z [INFO] event#029 topic=cpu detail="hashing block 29" latency_ms=5
+2026-04-18T08:01:00.681Z [INFO] event#030 topic=cpu detail="hashing block 30" latency_ms=6
+2026-04-18T08:01:00.701Z [INFO] event#031 topic=net detail="PATCH /cfg" code=200 latency_ms=22
+2026-04-18T08:01:00.721Z [INFO] event#032 topic=net detail="HEAD /api" code=200 latency_ms=9
+2026-04-18T08:01:00.741Z [INFO] event#033 topic=ui detail="render tick" fps=60
+2026-04-18T08:01:00.761Z [INFO] event#034 topic=ui detail="render tick" fps=60
+2026-04-18T08:01:00.781Z [INFO] event#035 topic=ui detail="render tick" fps=60
+2026-04-18T08:01:00.801Z [INFO] event#036 topic=planner detail="validating plan"
+2026-04-18T08:01:00.821Z [INFO] event#037 topic=planner detail="validation ok"
+2026-04-18T08:01:00.841Z [INFO] event#038 topic=io detail="append preview.md"
+2026-04-18T08:01:00.861Z [INFO] event#039 topic=io detail="append plan.md"
+2026-04-18T08:01:00.881Z [INFO] event#040 topic=io detail="append manifest.json"
+2026-04-18T08:01:00.901Z [INFO] event#041 topic=net detail="GET /models" code=200 latency_ms=44
+2026-04-18T08:01:00.921Z [INFO] event#042 topic=cache detail="hit key=cfg"
+2026-04-18T08:01:00.941Z [INFO] event#043 topic=cache detail="set key=stats"
+2026-04-18T08:01:00.961Z [INFO] event#044 topic=cache detail="evict key=temp"
+2026-04-18T08:01:00.981Z [INFO] event#045 topic=cpu detail="hashing block 45" latency_ms=4
+2026-04-18T08:01:01.001Z [INFO] event#046 topic=cpu detail="hashing block 46" latency_ms=5
+2026-04-18T08:01:01.021Z [INFO] event#047 topic=cpu detail="hashing block 47" latency_ms=5
+2026-04-18T08:01:01.041Z [INFO] event#048 topic=cpu detail="hashing block 48" latency_ms=5
+2026-04-18T08:01:01.061Z [INFO] event#049 topic=cpu detail="hashing block 49" latency_ms=6
+2026-04-18T08:01:01.081Z [INFO] event#050 topic=net detail="GET /health" code=200 latency_ms=7
+2026-04-18T08:01:01.101Z [INFO] event#051 topic=net detail="GET /health" code=200 latency_ms=7
+2026-04-18T08:01:01.121Z [INFO] event#052 topic=net detail="GET /health" code=200 latency_ms=7
+2026-04-18T08:01:01.141Z [INFO] event#053 topic=net detail="GET /health" code=200 latency_ms=7
+2026-04-18T08:01:01.161Z [INFO] event#054 topic=net detail="GET /health" code=200 latency_ms=7
+2026-04-18T08:01:01.181Z [INFO] event#055 topic=io detail="flush buffers"
+2026-04-18T08:01:01.201Z [INFO] event#056 topic=io detail="flush buffers"
+2026-04-18T08:01:01.221Z [INFO] event#057 topic=io detail="flush buffers"
+2026-04-18T08:01:01.241Z [INFO] event#058 topic=io detail="flush buffers"
+2026-04-18T08:01:01.261Z [INFO] event#059 topic=io detail="flush buffers"
+2026-04-18T08:01:01.281Z [INFO] event#060 topic=planner detail="checkpoint saved"
+2026-04-18T08:01:01.301Z [INFO] event#061 topic=planner detail="checkpoint saved"
+2026-04-18T08:01:01.321Z [INFO] event#062 topic=planner detail="checkpoint saved"
+2026-04-18T08:01:01.341Z [INFO] event#063 topic=planner detail="checkpoint saved"
+2026-04-18T08:01:01.361Z [INFO] event#064 topic=planner detail="checkpoint saved"
+2026-04-18T08:01:01.381Z [INFO] event#065 topic=stats detail="files=2 bytes=0"
+2026-04-18T08:01:01.401Z [INFO] event#066 topic=stats detail="files=2 bytes=0"
+2026-04-18T08:01:01.421Z [INFO] event#067 topic=stats detail="files=2 bytes=0"
+2026-04-18T08:01:01.441Z [INFO] event#068 topic=stats detail="files=2 bytes=0"
+2026-04-18T08:01:01.461Z [INFO] event#069 topic=stats detail="files=2 bytes=0"
+2026-04-18T08:01:01.481Z [INFO] event#070 topic=cpu detail="hashing block 70" latency_ms=3
+2026-04-18T08:01:01.501Z [INFO] event#071 topic=cpu detail="hashing block 71" latency_ms=3
+2026-04-18T08:01:01.521Z [INFO] event#072 topic=cpu detail="hashing block 72" latency_ms=3
+2026-04-18T08:01:01.541Z [INFO] event#073 topic=cpu detail="hashing block 73" latency_ms=3
+2026-04-18T08:01:01.561Z [INFO] event#074 topic=cpu detail="hashing block 74" latency_ms=3
+2026-04-18T08:01:01.581Z [INFO] event#075 topic=cpu detail="hashing block 75" latency_ms=3
+2026-04-18T08:01:01.601Z [INFO] event#076 topic=cpu detail="hashing block 76" latency_ms=3
+2026-04-18T08:01:01.621Z [INFO] event#077 topic=cpu detail="hashing block 77" latency_ms=3
+2026-04-18T08:01:01.641Z [INFO] event#078 topic=cpu detail="hashing block 78" latency_ms=3
+2026-04-18T08:01:01.661Z [INFO] event#079 topic=cpu detail="hashing block 79" latency_ms=3
+2026-04-18T08:01:01.681Z [INFO] event#080 topic=cpu detail="hashing block 80" latency_ms=3
+2026-04-18T08:01:01.701Z [INFO] event#081 topic=cpu detail="hashing block 81" latency_ms=3
+2026-04-18T08:01:01.721Z [INFO] event#082 topic=cpu detail="hashing block 82" latency_ms=3
+2026-04-18T08:01:01.741Z [INFO] event#083 topic=cpu detail="hashing block 83" latency_ms=3
+2026-04-18T08:01:01.761Z [INFO] event#084 topic=cpu detail="hashing block 84" latency_ms=3
+2026-04-18T08:01:01.781Z [INFO] event#085 topic=cpu detail="hashing block 85" latency_ms=3
+2026-04-18T08:01:01.801Z [INFO] event#086 topic=cpu detail="hashing block 86" latency_ms=3
+2026-04-18T08:01:01.821Z [INFO] event#087 topic=cpu detail="hashing block 87" latency_ms=3
+2026-04-18T08:01:01.841Z [INFO] event#088 topic=cpu detail="hashing block 88" latency_ms=3
+2026-04-18T08:01:01.861Z [INFO] event#089 topic=cpu detail="hashing block 89" latency_ms=3
+2026-04-18T08:01:01.881Z [INFO] event#090 topic=cpu detail="hashing block 90" latency_ms=3
+2026-04-18T08:01:01.901Z [INFO] event#091 topic=cpu detail="hashing block 91" latency_ms=3
+2026-04-18T08:01:01.921Z [INFO] event#092 topic=cpu detail="hashing block 92" latency_ms=3
+2026-04-18T08:01:01.941Z [INFO] event#093 topic=cpu detail="hashing block 93" latency_ms=3
+2026-04-18T08:01:01.961Z [INFO] event#094 topic=cpu detail="hashing block 94" latency_ms=3
+2026-04-18T08:01:01.981Z [INFO] event#095 topic=cpu detail="hashing block 95" latency_ms=3
+2026-04-18T08:01:02.001Z [INFO] event#096 topic=cpu detail="hashing block 96" latency_ms=3
+2026-04-18T08:01:02.021Z [INFO] event#097 topic=cpu detail="hashing block 97" latency_ms=3
+2026-04-18T08:01:02.041Z [INFO] event#098 topic=cpu detail="hashing block 98" latency_ms=3
+2026-04-18T08:01:02.061Z [INFO] event#099 topic=cpu detail="hashing block 99" latency_ms=3
+2026-04-18T08:01:02.081Z [INFO] event#100 topic=cpu detail="hashing block 100" latency_ms=3
+2026-04-18T08:01:02.101Z [INFO] event#101 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.121Z [INFO] event#102 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.141Z [INFO] event#103 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.161Z [INFO] event#104 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.181Z [INFO] event#105 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.201Z [INFO] event#106 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.221Z [INFO] event#107 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.241Z [INFO] event#108 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.261Z [INFO] event#109 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.281Z [INFO] event#110 topic=io detail="chunk write size=4096B"
+2026-04-18T08:01:02.301Z [INFO] event#111 topic=stats detail="accumulated bytes ~45KB"
+2026-04-18T08:01:02.321Z [INFO] event#112 topic=stats detail="accumulated bytes ~46KB"
+2026-04-18T08:01:02.341Z [INFO] event#113 topic=stats detail="accumulated bytes ~47KB"
+2026-04-18T08:01:02.361Z [INFO] event#114 topic=stats detail="accumulated bytes ~48KB"
+2026-04-18T08:01:02.381Z [INFO] event#115 topic=stats detail="accumulated bytes ~49KB"
+2026-04-18T08:01:02.401Z [INFO] event#116 topic=stats detail="accumulated bytes ~50KB"
+2026-04-18T08:01:02.421Z [INFO] event#117 topic=stats detail="accumulated bytes ~51KB"
+2026-04-18T08:01:02.441Z [INFO] event#118 topic=stats detail="accumulated bytes ~52KB"
+2026-04-18T08:01:02.461Z [INFO] event#119 topic=stats detail="accumulated bytes ~53KB"
+2026-04-18T08:01:02.481Z [INFO] event#120 topic=stats detail="accumulated bytes ~54KB"
+2026-04-18T08:01:02.501Z [INFO] event#121 topic=work detail="phase alpha complete"
+2026-04-18T08:01:02.521Z [INFO] event#122 topic=work detail="phase beta complete"
+2026-04-18T08:01:02.541Z [INFO] event#123 topic=work detail="phase gamma complete"
+2026-04-18T08:01:02.561Z [INFO] event#124 topic=work detail="phase delta complete"
+2026-04-18T08:01:02.581Z [INFO] event#125 topic=work detail="phase epsilon complete"
+2026-04-18T08:01:02.601Z [INFO] event#126 topic=work detail="phase zeta complete"
+2026-04-18T08:01:02.621Z [INFO] event#127 topic=work detail="phase eta complete"
+2026-04-18T08:01:02.641Z [INFO] event#128 topic=work detail="phase theta complete"
+2026-04-18T08:01:02.661Z [INFO] event#129 topic=work detail="phase iota complete"
+2026-04-18T08:01:02.681Z [INFO] event#130 topic=work detail="phase kappa complete"
+2026-04-18T08:01:02.701Z [INFO] event#131 topic=io detail="rollover threshold approached"
+2026-04-18T08:01:02.721Z [INFO] event#132 topic=io detail="rollover threshold approached"
+2026-04-18T08:01:02.741Z [INFO] event#133 topic=io detail="rollover threshold approached"
+2026-04-18T08:01:02.761Z [INFO] event#134 topic=io detail="rollover threshold approached"
+2026-04-18T08:01:02.781Z [INFO] event#135 topic=io detail="rollover threshold approached"
+2026-04-18T08:01:02.801Z [INFO] event#136 topic=health detail="ok"
+2026-04-18T08:01:02.821Z [INFO] event#137 topic=health detail="ok"
+2026-04-18T08:01:02.841Z [INFO] event#138 topic=health detail="ok"
+2026-04-18T08:01:02.861Z [INFO] event#139 topic=health detail="ok"
+2026-04-18T08:01:02.881Z [INFO] event#140 topic=health detail="ok"
+2026-04-18T08:01:02.901Z [INFO] event#141 topic=health detail="ok"
+2026-04-18T08:01:02.921Z [INFO] event#142 topic=health detail="ok"
+2026-04-18T08:01:02.941Z [INFO] event#143 topic=health detail="ok"
+2026-04-18T08:01:02.961Z [INFO] event#144 topic=health detail="ok"
+2026-04-18T08:01:02.981Z [INFO] event#145 topic=health detail="ok"
+2026-04-18T08:01:03.001Z [INFO] event#146 topic=util detail="cpu=6.1% mem=153MB"
+2026-04-18T08:01:03.021Z [INFO] event#147 topic=util detail="cpu=6.0% mem=154MB"
+2026-04-18T08:01:03.041Z [INFO] event#148 topic=util detail="cpu=6.3% mem=154MB"
+2026-04-18T08:01:03.061Z [INFO] event#149 topic=util detail="cpu=6.1% mem=154MB"
+2026-04-18T08:01:03.081Z [INFO] event#150 topic=util detail="cpu=6.2% mem=154MB"
+2026-04-18T08:01:03.101Z [INFO] event#151 topic=util detail="cpu=6.3% mem=155MB"
+2026-04-18T08:01:03.121Z [INFO] event#152 topic=util detail="cpu=6.2% mem=155MB"
+2026-04-18T08:01:03.141Z [INFO] event#153 topic=util detail="cpu=6.2% mem=155MB"
+2026-04-18T08:01:03.161Z [INFO] event#154 topic=util detail="cpu=6.2% mem=155MB"
+2026-04-18T08:01:03.181Z [INFO] event#155 topic=util detail="cpu=6.3% mem=155MB"
+2026-04-18T08:01:03.201Z [INFO] event#156 topic=util detail="cpu=6.4% mem=155MB"
+2026-04-18T08:01:03.221Z [INFO] event#157 topic=util detail="cpu=6.5% mem=156MB"
+2026-04-18T08:01:03.241Z [INFO] event#158 topic=util detail="cpu=6.4% mem=156MB"
+2026-04-18T08:01:03.261Z [INFO] event#159 topic=util detail="cpu=6.3% mem=156MB"
+2026-04-18T08:01:03.281Z [INFO] event#160 topic=util detail="cpu=6.2% mem=156MB"
+2026-04-18T08:01:03.301Z [INFO] event#161 topic=util detail="cpu=6.1% mem=156MB"
+2026-04-18T08:01:03.321Z [INFO] event#162 topic=util detail="cpu=6.0% mem=156MB"
+2026-04-18T08:01:03.341Z [INFO] event#163 topic=util detail="cpu=5.9% mem=156MB"
+2026-04-18T08:01:03.361Z [INFO] event#164 topic=util detail="cpu=5.8% mem=156MB"
+2026-04-18T08:01:03.381Z [INFO] event#165 topic=util detail="cpu=5.8% mem=156MB"
+2026-04-18T08:01:03.401Z [INFO] event#166 topic=util detail="cpu=5.7% mem=156MB"
+2026-04-18T08:01:03.421Z [INFO] event#167 topic=util detail="cpu=5.6% mem=156MB"
+2026-04-18T08:01:03.441Z [INFO] event#168 topic=util detail="cpu=5.6% mem=156MB"
+2026-04-18T08:01:03.461Z [INFO] event#169 topic=util detail="cpu=5.5% mem=156MB"
+2026-04-18T08:01:03.481Z [INFO] event#170 topic=util detail="cpu=5.5% mem=156MB"
+2026-04-18T08:01:03.501Z [INFO] event#171 topic=util detail="cpu=5.4% mem=156MB"
+2026-04-18T08:01:03.521Z [INFO] event#172 topic=util detail="cpu=5.4% mem=156MB"
+2026-04-18T08:01:03.541Z [INFO] event#173 topic=util detail="cpu=5.3% mem=156MB"
+2026-04-18T08:01:03.561Z [INFO] event#174 topic=util detail="cpu=5.3% mem=156MB"
+2026-04-18T08:01:03.581Z [INFO] event#175 topic=util detail="cpu=5.2% mem=156MB"
+2026-04-18T08:01:03.601Z [INFO] event#176 topic=util detail="cpu=5.2% mem=156MB"
+2026-04-18T08:01:03.621Z [INFO] event#177 topic=util detail="cpu=5.1% mem=156MB"
+2026-04-18T08:01:03.641Z [INFO] event#178 topic=util detail="cpu=5.1% mem=156MB"
+2026-04-18T08:01:03.661Z [INFO] event#179 topic=util detail="cpu=5.1% mem=156MB"
+2026-04-18T08:01:03.681Z [INFO] event#180 topic=util detail="cpu=5.0% mem=156MB"
+2026-04-18T08:01:03.701Z [INFO] event#181 topic=io detail="persist preview"
+2026-04-18T08:01:03.721Z [INFO] event#182 topic=io detail="persist plan"
+2026-04-18T08:01:03.741Z [INFO] event#183 topic=io detail="persist pruned"
+2026-04-18T08:01:03.761Z [INFO] event#184 topic=io detail="persist compacted"
+2026-04-18T08:01:03.781Z [INFO] event#185 topic=io detail="persist stats"
+2026-04-18T08:01:03.801Z [INFO] event#186 topic=rotation detail="evaluate keep=3"
+2026-04-18T08:01:03.821Z [INFO] event#187 topic=rotation detail="sort by mtime desc"
+2026-04-18T08:01:03.841Z [INFO] event#188 topic=rotation detail="calculate bytes freed"
+2026-04-18T08:01:03.861Z [INFO] event#189 topic=rotation detail="emit manifest only"
+2026-04-18T08:01:03.881Z [INFO] event#190 topic=rotation detail="no actual deletes"
+2026-04-18T08:01:03.901Z [INFO] event#191 topic=summary detail="ready for dry-run review"
+2026-04-18T08:01:03.921Z [INFO] event#192 topic=summary detail="risks documented"
+2026-04-18T08:01:03.941Z [INFO] event#193 topic=summary detail="rollback strategy set"
+2026-04-18T08:01:03.961Z [INFO] event#194 topic=summary detail="safety checklist ready"
+2026-04-18T08:01:03.981Z [INFO] event#195 topic=summary detail="awaiting confirmation"
+2026-04-18T08:01:04.001Z [INFO] event#196 topic=heartbeat detail="ok"
+2026-04-18T08:01:04.021Z [INFO] event#197 topic=heartbeat detail="ok"
+2026-04-18T08:01:04.041Z [INFO] event#198 topic=heartbeat detail="ok"
+2026-04-18T08:01:04.061Z [INFO] event#199 topic=heartbeat detail="ok"
+2026-04-18T08:01:04.081Z [INFO] event#200 topic=heartbeat detail="ok"
+
+2026-04-18T08:02:00.001Z [INFO] cycle=4 step=1 task="idle"
+2026-04-18T08:02:00.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:05.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:10.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:15.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:20.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:25.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:30.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:35.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:40.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:45.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:50.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:02:55.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:00.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:05.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:10.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:15.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:20.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:25.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:30.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:35.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:40.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:45.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:50.021Z [INFO] idle: waiting for next instruction
+2026-04-18T08:03:55.021Z [INFO] idle: waiting for next instruction
+
+--- END OF CURRENT SESSION WINDOW ---

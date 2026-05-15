@@ -1,0 +1,17 @@
+post_id,date,platform,account_type,has_political_keyword,topic,likes,shares,comments,link_clicks
+P001,2022-05-01,Twitter,party,1,election,120,30,20,15
+P002,2022-05-02,Facebook,student_group,0,education,80,10,12,9
+P003,2022-05-03,Twitter,activist,1,protest,200,50,40,25
+P004,2022-05-03,Facebook,news,1,election,150,20,,18
+P005,2022-13-05,Twitter,party,1,election,90,15,10,8
+P006,2022-05-05,Facebook,activist,0,community,60,8,7,5
+P007,2022-05-05,Twitter,student_group,1,misc,70,12,9,6
+P008,2022-05-06,Facebook,party,1,campaign,110,25,16,14
+P009,2022-05-06,Twitter,news,0,education,,9,6,4
+P010,2022-05-07,Twitter,activist,1,protest,50,-5,5,3
+P011,2022-05-07,Facebook,student_group,0,community,55,7,4,2
+P012,2022-05-08,Twitter,party,1,campaign,130,35,22,19
+P013,2022-05-08,Facebook,news,1,election,170,28,24,17
+P014,2022-05-09,Twitter,activist,0,education,40,6,3,
+P015,2022-05-09,Facebook,student_group,1,protest,N/A,11,8,7
+P016,2022-05-10,Twitter,party,1,campaign,95,18,12,10

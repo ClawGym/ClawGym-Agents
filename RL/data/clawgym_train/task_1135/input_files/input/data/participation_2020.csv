@@ -1,0 +1,7 @@
+respondent_id,year,country,region,ethnicity,voted
+7,2020,Countriana,North,Group A,1
+8,2020,Countriana,North,Group A,1
+9,2020,Countriana,South,Group B,1
+10,2020,Countriana,South,Group B,1
+11,2020,Countriana,East,Group C,0
+12,2020,Countriana,East,Group D,1

@@ -1,0 +1,6 @@
+{
+  "required_fields": ["id", "title", "date", "url", "tags"],
+  "date_regex": "^\\d{4}-\\d{2}-\\d{2}$",
+  "url_regex": "^https?://",
+  "allowed_tags": ["maritime", "community", "wetlands", "hurricane", "fishing", "oral-history"]
+}

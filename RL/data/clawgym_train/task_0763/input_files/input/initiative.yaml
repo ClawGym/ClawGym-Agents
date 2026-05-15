@@ -1,0 +1,11 @@
+Initiative: "Roll out AOI Squad Orchestrator (Lite) to standardize team-based workflows and generate consistent, auditable reports for internal tasks across Operations, IT, and Compliance. The goal is to improve handoffs, reduce rework, and create a single JSON/Markdown output pattern for task execution."
+Organization: "Northwind Logistics"
+Scope: "Operations (dispatch, warehouse), IT (platform engineering), and Compliance (policy & QA); approximately 160 employees across 3 regional sites. Initial focus on the Builder/Security/Operator preset for internal runbooks and checklists."
+Timeline: "8 weeks from kickoff"
+Sponsor: "VP of Operations (Jamie Patel)"
+Key Concerns:
+  - "Security and privacy: ensuring no external network calls or data exfiltration during runs."
+  - "Consistency: stable pseudonyms and naming conventions must persist across teams."
+  - "Adoption: frontline teams need simple training and quick wins to avoid tool fatigue."
+  - "Compliance: audits require structured outputs and clear ownership per step."
+Previous Attempts: "In 2025, a homegrown script-based workflow pilot stalled due to inconsistent role naming, lack of training materials, and no standardized report schema. Lessons learned: keep the schema fixed, start with a small pilot, and provide hands-on enablement."

@@ -1,0 +1,18 @@
+{
+  "concept": "Casual Dining",
+  "location": "Austin, TX",
+  "seating": 120,
+  "square_footage": 4200,
+  "base_monthly_revenue": 150000,
+  "hours": {
+    "days_per_week": 7,
+    "lunch_open": "11:00",
+    "lunch_close": "15:00",
+    "dinner_open": "17:00",
+    "dinner_close": "22:00",
+    "weekday_avg_open_hours": 9,
+    "weekend_avg_open_hours": 10,
+    "avg_daily_open_hours": 9
+  },
+  "notes": "Neighborhood casual dining with bar program. Weekend dinner often extends to 23:00 during peak season."
+}

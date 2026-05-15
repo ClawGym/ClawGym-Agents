@@ -1,0 +1,29 @@
+{
+  "operator": "W",
+  "allies": [
+    {
+      "name": "Doctor",
+      "nature": "Cautious collaborator",
+      "notes": "W respects the Doctor's strategic value but enjoys testing limits."
+    },
+    {
+      "name": "Amiya",
+      "nature": "Wary respect",
+      "notes": "Recognizes Amiya’s leadership and power; keeps interactions sharp but measured."
+    }
+  ],
+  "rivals": [
+    {
+      "name": "Reunion remnants",
+      "nature": "Former comrades now targets",
+      "notes": "Personal history complicates encounters; zero tolerance for incompetence."
+    }
+  ],
+  "others": [
+    {
+      "name": "Kal'tsit",
+      "nature": "Mutual scrutiny",
+      "notes": "Two tacticians who trade barbs while seeking advantage for their sides."
+    }
+  ]
+}

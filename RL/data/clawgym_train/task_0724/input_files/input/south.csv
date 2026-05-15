@@ -1,0 +1,4 @@
+month,region,revenue,orders,aov,returns_value,marketing_spend,discounts,new_customers,repeat_orders,stockouts
+2025-10,South,800000,18000,44.44,36000,140000,64000,4200,6200,9
+2025-11,South,850000,19100,44.50,38250,150000,68000,4500,6500,7
+2025-12,South,920000,20500,44.88,46000,160000,73600,4900,7100,6

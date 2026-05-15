@@ -1,0 +1,13 @@
+deal_name,stage,amount_arr,age_days,has_champion,budget_confirmed,competitor
+Apex Logistics,Negotiation,400000,90,yes,yes,no
+Helios Manufacturing,Proposal Sent,250000,110,no,no,yes
+OmniRetail,Verbal Commit,900000,70,yes,yes,no
+TerraBank,Demo/Eval,180000,60,yes,no,yes
+Quantis Health,Discovery,120000,40,no,no,no
+VeloCorp,Negotiation,300000,130,no,yes,yes
+Fintrepid,Proposal Sent,220000,85,yes,yes,no
+NorthPeak Energy,Demo/Eval,150000,95,no,no,yes
+ZenithSoft,Verbal Commit,350000,100,yes,yes,yes
+OrbitIQ,Discovery,90000,20,yes,no,no
+Aperture Bank,Proposal Sent,1400000,80,yes,yes,yes
+GreenGrid,Negotiation,200000,150,no,no,no

@@ -1,0 +1,20 @@
+{
+  "name": "acme-web",
+  "bash_themes_dir": "output/.bash-themes",
+  "steps": [
+    "init",
+    {
+      "template": {
+        "target": "python"
+      }
+    },
+    "config",
+    "check",
+    "build",
+    "test",
+    "docs",
+    "status",
+    "deploy",
+    "clean"
+  ]
+}

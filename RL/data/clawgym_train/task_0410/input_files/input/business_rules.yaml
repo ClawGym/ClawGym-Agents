@@ -1,0 +1,25 @@
+primary_key: OrderID
+fields:
+  OrderID:
+    compare: exact_string
+  ItemCode:
+    transform: upper
+    compare: exact_string
+  Qty:
+    transform: to_int
+    compare: equal_int
+  DueDate:
+    transform: yyyymmdd_to_iso
+    compare: exact_string
+  Status:
+    transform_map:
+      O: OPEN
+      C: CLOSED
+      H: HOLD
+    compare: exact_string
+  Plant:
+    transform: lstrip_zeros
+    compare: exact_string
+  Customer:
+    transform: rstrip_spaces
+    compare: exact_string

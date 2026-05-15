@@ -1,0 +1,19 @@
+{
+  "materials": [
+    {
+      "material_id": "concrete_40mpa_low",
+      "name": "Concrete 40MPa (Low-Carbon)",
+      "category": "Concrete",
+      "unit": "m³",
+      "carbon_a1_a3": 260.0,
+      "carbon_a4": 5.0,
+      "carbon_a5": 2.0,
+      "carbon_b": 0.0,
+      "carbon_c": 10.0,
+      "carbon_d": -20.0,
+      "density": 2400,
+      "source": "EPD: Fictional LC mix with 40% GGBS substitution",
+      "epd_url": "https://example.com/epd/lc-concrete-40mpa"
+    }
+  ]
+}

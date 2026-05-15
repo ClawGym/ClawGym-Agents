@@ -1,0 +1,8 @@
+llama3
+llama3.1
+mistral
+llama2
+phi3
+qwen2
+gemma:2b
+codellama

@@ -1,0 +1,13 @@
+task_name,minutes_per_task,frequency_per_month,is_rule_based,notes
+Copy new website leads into CRM and send intro email,12,28,true,"Manually copy fields; duplicates happen; attach UTM; send templated intro; validate email."
+Build weekly client performance report deck,45,8,true,"Export metrics from analytics, paste into slides, email clients on Fridays; repetitive format."
+Generate and send invoices after payment confirmation,15,12,true,"Mark invoice as paid, send receipt; occasional currency mismatches."
+Reconcile payments to revenue spreadsheet,30,4,true,"Cross-check statements; update monthly revenue tab; handle refunds/exceptions."
+Schedule social media posts for new blog content,30,8,true,"Queue posts with short captions; avoid duplicates across platforms."
+File client assets into the correct folders,10,16,true,"Rename using convention Client_Project_Date; move to Drive folders."
+Send follow-up emails to cold leads,12,20,true,"Use template; skip if unsubscribed; track replies."
+Draft custom proposals,90,6,false,"Requires tailoring and pricing judgment; not a good candidate for full automation."
+Book discovery calls based on availability,15,10,true,"Offer slots; confirm time zone; add calendar invite."
+Update CRM deal stages,8,30,true,"Move deals across stages; add expected value and next step."
+Backup project folders to cloud,25,4,true,"Compress and upload; verify checksum."
+Clean up email inbox labels for client threads,10,20,true,"Apply labels and filters; mark actionable threads."

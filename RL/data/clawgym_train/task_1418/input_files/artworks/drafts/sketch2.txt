@@ -1,0 +1,3 @@
+concept: protest & ballot
+caption: TBD
+notes: try hatching texture

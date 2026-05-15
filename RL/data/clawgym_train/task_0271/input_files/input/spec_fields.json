@@ -1,0 +1,16 @@
+{
+  "columns": [
+    "place_name",
+    "county",
+    "state",
+    "variant_or_former_name",
+    "origin_type",
+    "origin_snippet",
+    "year_mentioned",
+    "source_title",
+    "source_domain",
+    "source_url",
+    "accessed_utc"
+  ],
+  "description": "All rows represent a place-name mention in Southwest Colorado with any available origin, variant, or etymology context extracted from an official source. The header order is mandatory. Use ISO 8601 for accessed_utc; leave unknown fields empty."
+}

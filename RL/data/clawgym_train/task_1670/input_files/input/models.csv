@@ -1,0 +1,9 @@
+model,variant,year,body_style,seats,horsepower_hp,combined_mpg,zero_to_60_mph_s,base_msrp_usd
+DB12,Coupe,2025,coupe,4,671,20,3.5,245000
+DB12,Volante,2025,convertible,4,671,19,3.6,265000
+DBX707,707,2024,suv,5,697,17,3.1,245000
+DBX,Base,2024,suv,5,542,18,4.3,195000
+Vantage,Coupe,2025,coupe,2,656,21,3.4,189000
+DBS 770 Ultimate,Coupe,2023,coupe,4,759,16,3.2,395000
+DB11,V8,2021,coupe,4,528,14,4.0,220000
+Rapide S,Sedan,2017,sedan,4,552,18,4.2,210000

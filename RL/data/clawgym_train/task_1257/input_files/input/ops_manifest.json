@@ -1,0 +1,109 @@
+[
+  {
+    "action_id": "cleanup_tmp",
+    "type": "delete",
+    "description": "Delete temporary files older than 7 days in the workspace tmp directory."
+  },
+  {
+    "action_id": "install_deps",
+    "type": "install",
+    "description": "Install required Python packages for the analytics job."
+  },
+  {
+    "action_id": "sysctl_tune",
+    "type": "system_config",
+    "description": "Adjust sysctl settings for file descriptor limits before heavy IO tasks."
+  },
+  {
+    "action_id": "notify_slack_ops",
+    "type": "send_message",
+    "description": "Send an operations status message to the #infra Slack channel."
+  },
+  {
+    "action_id": "list_reports",
+    "type": "list",
+    "description": "List generated reports in the reports/ directory."
+  },
+  {
+    "action_id": "search_error_logs",
+    "type": "search",
+    "description": "Search error patterns in the application logs using regex."
+  },
+  {
+    "action_id": "read_env_config",
+    "type": "read",
+    "description": "Read environment configuration file to load current settings."
+  },
+  {
+    "action_id": "web_scrape_release_notes",
+    "type": "web_fetch",
+    "description": "Fetch latest release notes from the vendor documentation site."
+  },
+  {
+    "action_id": "kb_memory_lookup",
+    "type": "memory_search",
+    "description": "Search internal knowledge base embeddings for relevant troubleshooting tips."
+  },
+  {
+    "action_id": "api_github_issues_get",
+    "type": "external_api",
+    "method": "GET",
+    "description": "Retrieve open issues from the GitHub repository for reporting."
+  },
+  {
+    "action_id": "api_crm_create_lead_post",
+    "type": "external_api",
+    "method": "POST",
+    "description": "Create a new lead record in the CRM system from form submissions."
+  },
+  {
+    "action_id": "api_repo_delete_delete",
+    "type": "external_api",
+    "method": "DELETE",
+    "description": "Delete an obsolete repository via the hosting provider API."
+  },
+  {
+    "action_id": "api_settings_patch",
+    "type": "external_api",
+    "method": "PATCH",
+    "description": "Update user notification settings in the preferences service."
+  },
+  {
+    "action_id": "api_weather_get",
+    "type": "external_api",
+    "method": "GET",
+    "description": "Query weather data for scheduling outdoor maintenance tasks."
+  },
+  {
+    "action_id": "api_notif_put",
+    "type": "external_api",
+    "method": "PUT",
+    "description": "Replace notification template content in the messaging service."
+  },
+  {
+    "action_id": "purge_old_backups",
+    "type": "delete",
+    "description": "Remove local backup archives older than 30 days."
+  },
+  {
+    "action_id": "email_vendor_notice",
+    "type": "send_message",
+    "description": "Send an email notice to a hardware vendor about shipment delays."
+  },
+  {
+    "action_id": "api_mailgun_send_post",
+    "type": "external_api",
+    "method": "POST",
+    "description": "Send outbound email via Mailgun API for notification digest."
+  },
+  {
+    "action_id": "list_s3_bucket",
+    "type": "list",
+    "description": "List objects in the S3 bucket prefix for monthly data ingestion."
+  },
+  {
+    "action_id": "update_firewall_rules",
+    "type": "system_config",
+    "description": "Modify local firewall rules to allow inbound HTTPS for a temporary window."
+  }
+]

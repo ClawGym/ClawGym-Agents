@@ -1,0 +1,108 @@
+{
+  "stakeholders": [
+    {
+      "name": "Legal",
+      "requests": [
+        {
+          "title": "GDPR consent banner",
+          "id": "BL-001",
+          "priority": "Must",
+          "time_critical": true,
+          "deadline": "2026-05-10",
+          "rationale": "Required to run EU marketing campaign and avoid compliance risk."
+        },
+        {
+          "title": "Admin audit log",
+          "id": "BL-008",
+          "priority": "Should",
+          "time_critical": false,
+          "rationale": "Improves auditability ahead of next month's security review."
+        }
+      ]
+    },
+    {
+      "name": "Customer Support",
+      "requests": [
+        {
+          "title": "Fix SSO logout bug",
+          "id": "BL-003",
+          "priority": "Must",
+          "time_critical": true,
+          "deadline": "2026-04-30",
+          "rationale": "High ticket volume and enterprise trial churn risk."
+        }
+      ]
+    },
+    {
+      "name": "Growth/Marketing",
+      "requests": [
+        {
+          "title": "Email verification",
+          "id": "BL-002",
+          "priority": "Must",
+          "time_critical": true,
+          "deadline": "2026-05-01",
+          "rationale": "Stabilize onboarding funnel and reduce spam signups."
+        },
+        {
+          "title": "Confetti animation",
+          "id": "BL-004",
+          "priority": "Could",
+          "time_critical": false,
+          "rationale": "Delighter after task completion; not required for next sprint."
+        }
+      ]
+    },
+    {
+      "name": "Security",
+      "requests": [
+        {
+          "title": "API rate limiting",
+          "id": "BL-010",
+          "priority": "Should",
+          "time_critical": true,
+          "deadline": "2026-05-15",
+          "rationale": "Early signs of automated abuse; rate limits reduce risk."
+        },
+        {
+          "title": "Two-factor authentication (MFA)",
+          "id": "BL-009",
+          "priority": "Should",
+          "time_critical": false,
+          "rationale": "Strengthens account security; recommended after email verification."
+        }
+      ]
+    },
+    {
+      "name": "Sales",
+      "requests": [
+        {
+          "title": "SSO session timeout configuration",
+          "id": "BL-015",
+          "priority": "Should",
+          "time_critical": false,
+          "rationale": "Enterprise admins want control over session duration."
+        }
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "depends_on": "BL-002",
+      "blocked_item": "BL-009",
+      "note": "MFA setup flows rely on verified email."
+    },
+    {
+      "depends_on": "BL-003",
+      "blocked_item": "BL-015",
+      "note": "Session timeout config should follow logout stability fix."
+    }
+  ],
+  "won_t_this_sprint": [
+    {
+      "title": "Confetti animation",
+      "id": "BL-004",
+      "reason": "Delighter; won't be in Sprint 07."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+timestamp,track,artist,genre,explicit,volume,duration_sec
+2026-04-15T05:55:00,Early Bird,Bean Scene,hip-hop,false,58,210
+2026-04-15T07:15:00,Wake Up Beat,DJ Roasty,hip-hop,false,62,210
+2026-04-15T08:40:00,Explicit Bars,MC Steam,hip-hop,true,68,185
+2026-04-15T12:05:00,Lunchtime Loops,Beat Collective,hip-hop,false,72,200
+2026-04-15T16:45:00,Parental Advisory,Lyric Lab,hip-hop,true,69,240
+2026-04-15T17:20:00,Evening Chill,Cafe Tribe,hip-hop,false,65,220
+2026-04-15T21:50:00,Night Grind,Beat Collective,hip-hop,true,73,190
+2026-04-15T22:30:00,After Hours,Late Brew,hip-hop,false,60,200

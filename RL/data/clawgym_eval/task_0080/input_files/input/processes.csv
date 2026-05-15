@@ -1,0 +1,18 @@
+pid,ppid,owner,age_seconds,rss_kb,cmdline,parent_cmdline
+1012,1,clawrunner,93000,400000,/usr/bin/chrome --user-data-dir=/home/clawrunner/.openclaw/browser/tmp-abc --headless --disable-gpu,
+1045,234,clawrunner,25000,150000,/usr/bin/chromium --user-data-dir=/home/clawrunner/.openclaw/browser/session-123 --remote-debugging-port=0,/usr/lib/systemd/systemd --user
+1100,1,clawrunner,7000,120000,/usr/bin/brave --user-data-dir=/home/clawrunner/.openclaw/browser/session-xyz --no-sandbox,
+1150,998,clawrunner,8200,90000,/usr/bin/firefox --profile /home/clawrunner/.openclaw/browser/profile-x --headless,/usr/bin/python3 /opt/openclaw/gateway/server.py
+1188,1,clawrunner,7200,256000,/opt/microsoft/msedge --user-data-dir=/home/clawrunner/.openclaw/browser/edgedata --some-flag,
+1199,300,clawrunner,7600,64000,/usr/bin/firefox --profile /home/clawrunner/.cache/mozilla/profile.default,/usr/bin/bash
+1201,1,otheruser,8400,96000,/usr/bin/chrome --user-data-dir=/home/otheruser/.openclaw/browser/sess --headless,
+1210,4455,clawrunner,3600,54000,/usr/bin/chrome --user-data-dir=/home/clawrunner/.openclaw/browser/new --disable-extensions,/usr/bin/node /opt/openclaw/gateway/server.js
+1234,22,clawrunner,8600,128000,/usr/bin/chromium-browser --user-data-dir=/home/clawrunner/.openclaw/browser/another,/lib/systemd/systemd --user
+1300,1111,clawrunner,90000,82000,/usr/bin/vi,/usr/sbin/sshd: clawrunner@pts/1
+1310,1,clawrunner,4000,30000,/usr/bin/msedge --user-data-dir=/home/clawrunner/.openclaw/browser/tmp --flag-a,
+1320,1210,clawrunner,25000,45000,/usr/bin/brave --user-data-dir=/home/clawrunner/tmp/browser/xyz,/usr/bin/chrome --user-data-dir=/home/clawrunner/.openclaw/browser/new
+1400,980,clawrunner,7400,110000,/usr/bin/firefox --profile /home/clawrunner/.openclaw/browser/ff --marionette,/sbin/init
+1500,1,clawrunner,20000,220000,/usr/bin/chrome --user-data-dir=/home/clawrunner/.openclaw/browser/session-old --disable-gpu,
+1600,2500,clawrunner,7700,97000,/usr/bin/Firefox --profile /home/clawrunner/.openclaw/browser/ff --headless,/usr/bin/bash
+1700,8888,clawrunner,10000,88000,/usr/bin/chrome --user-data-dir=/home/clawrunner/.openclaw/browser/active --autoplay-policy=no-user-gesture-required,/usr/bin/node /opt/openclaw/gateway/server.js
+1800,7000,clawrunner,9200,102400,/usr/bin/firefox --profile /home/clawrunner/.openclaw/browser/prof --headless,/usr/lib/systemd/systemd --user

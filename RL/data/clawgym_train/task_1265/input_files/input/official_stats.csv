@@ -1,0 +1,8 @@
+metric,area,year,value,unit,source
+"youth_turnout","Ireland",2020,65,"percent","Official dataset"
+"youth_turnout","Dublin",2020,70,"percent","Official dataset"
+"emissions_change","Ireland",2023,-18,"percent","Official dataset"
+"emissions_change","Dublin",2023,-12,"percent","Official dataset"
+"apprenticeship_starts","Ireland",2022,8300,"count","Official dataset"
+"apprenticeship_starts","Dublin",2022,1900,"count","Official dataset"
+"teen_smoking_rate","Ireland",2023,6,"percent","Official dataset"

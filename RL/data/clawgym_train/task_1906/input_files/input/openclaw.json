@@ -1,0 +1,58 @@
+{
+  "agent": {
+    "name": "hunter",
+    "version": "1.0.0"
+  },
+  "workspace": "/Users/hunter/.openclaw/workspace-hunter",
+  "services": {
+    "anthropic": {
+      "apiKey": "sk-ant-1234567890",
+      "endpoint": "https://api.anthropic.com"
+    },
+    "openai": {
+      "api_key": "sk-openai-abcdef",
+      "base_url": "https://api.openai.com"
+    }
+  },
+  "integrations": {
+    "github": {
+      "token": "ghp_exampletoken123",
+      "repo": "hunter/soul-backup"
+    },
+    "slack": {
+      "bot_token": "xoxb-123456-abcdef",
+      "signing_secret": "s3cr3t",
+      "channel": "#ops"
+    }
+  },
+  "database": {
+    "host": "db.internal",
+    "user": "openclaw",
+    "password": "P@ssw0rd!"
+  },
+  "ssh": {
+    "private_key": "-----BEGIN PRIVATE KEY-----\nABCDEF\n-----END PRIVATE KEY-----",
+    "host": "git.example.com"
+  },
+  "api": {
+    "bearerToken": "Bearer xyz-123",
+    "key_id": "kid-789"
+  },
+  "auth": {
+    "bearer": "Bearer abcdef",
+    "refresh_token": "refresh-987"
+  },
+  "credentials": {
+    "aws_access_key_id": "AKIAEXAMPLE",
+    "aws_secret_access_key": "secret-example"
+  },
+  "encryption": {
+    "masterKey": "super-secret-master-key",
+    "enabled": true
+  },
+  "runtime": {
+    "python": "3.11",
+    "node": "18.18.0"
+  },
+  "notes": "Dev environment for experimentation. No production data."
+}

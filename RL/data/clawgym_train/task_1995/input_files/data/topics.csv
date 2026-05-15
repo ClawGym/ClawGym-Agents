@@ -1,0 +1,5 @@
+topic_id,topic,summary,urgency,impact,ask_architect
+T1,Event-driven architecture for payments,Exploring Kafka-based eventing for payment lifecycle and idempotency,4,5,yes
+T2,Feature flag rollout strategy in monorepo,Deciding between env-based vs. per-service flag gating with audit trail,3,3,yes
+T3,Caching invalidation strategy at edge and app tier,Choosing TTL vs. write-through and pre-warm for config-heavy endpoints,5,5,yes
+T4,CI test flakiness triage and isolation,Reducing flaky integration tests by containerization and timeouts,5,4,no

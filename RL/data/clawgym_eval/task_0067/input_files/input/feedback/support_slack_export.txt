@@ -1,0 +1,3 @@
+@helpdesk REQ-104 onboarding form times out after 90s; candidates retry multiple times.
+REQ-103 VPN drops mostly at 3pm; users reconnect twice.
+FYI REQ-109 alerts come late by ~45 minutes.

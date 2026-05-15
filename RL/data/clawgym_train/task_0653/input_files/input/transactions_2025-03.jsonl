@@ -1,0 +1,28 @@
+{"date": "2025-03-01", "type": "income", "category": "Salary", "amount": 4400.00, "note": "March salary"}
+{"date": "2025-03-20", "type": "income", "category": "Freelance", "amount": 500.00, "note": "Project payment"}
+{"date": "2025-03-27", "type": "income", "category": "Investments", "amount": 150.00, "note": "Dividend"}
+{"date": "2025-03-02", "type": "expense", "category": "Housing", "amount": 1150.00, "note": "Rent"}
+{"date": "2025-03-03", "type": "expense", "category": "Food", "amount": 70.00, "note": "Groceries"}
+{"date": "2025-03-04", "type": "expense", "category": "Education", "amount": 75.00, "note": "Online course"}
+{"date": "2025-03-05", "type": "expense", "category": "Utilities", "amount": 55.00, "note": "Electricity"}
+{"date": "2025-03-06", "type": "expense", "category": "Food", "amount": 85.50, "note": "Groceries"}
+{"date": "2025-03-07", "type": "expense", "category": "Utilities", "amount": 35.00, "note": "Internet"}
+{"date": "2025-03-08", "type": "expense", "category": "Entertainment", "amount": 120.00, "note": "Concert"}
+{"date": "2025-03-09", "type": "expense", "category": "Transport", "amount": 25.00, "note": "Taxi"}
+{"date": "2025-03-10", "type": "expense", "category": "Food", "amount": 55.25, "note": "Restaurant"}
+{"date": "2025-03-11", "type": "expense", "category": "Shopping", "amount": 200.00, "note": "Clothes"}
+{"date": "2025-03-12", "type": "expense", "category": "Utilities", "amount": 35.00, "note": "Water"}
+{"date": "2025-03-13", "type": "expense", "category": "Healthcare", "amount": 35.00, "note": "Pharmacy"}
+{"date": "2025-03-14", "type": "expense", "category": "Food", "amount": 92.30, "note": "Groceries"}
+{"date": "2025-03-17", "type": "expense", "category": "Transport", "amount": 45.00, "note": "Gas"}
+{"date": "2025-03-18", "type": "expense", "category": "Food", "amount": 60.00, "note": "Groceries"}
+{"date": "2025-03-19", "type": "expense", "category": "Healthcare", "amount": 60.00, "note": "Dentist"}
+{"date": "2025-03-21", "type": "expense", "category": "Education", "amount": 25.00, "note": "Book"}
+{"date": "2025-03-22", "type": "expense", "category": "Food", "amount": 96.95, "note": "Groceries"}
+{"date": "2025-03-23", "type": "expense", "category": "Shopping", "amount": 150.00, "note": "Home items"}
+{"date": "2025-03-24", "type": "expense", "category": "Entertainment", "amount": 12.00, "note": "Streaming"}
+{"date": "2025-03-26", "type": "expense", "category": "Food", "amount": 100.00, "note": "Groceries"}
+{"date": "2025-03-28", "type": "expense", "category": "Entertainment", "amount": 38.00, "note": "Movie"}
+{"date": "2025-03-29", "type": "expense", "category": "Other", "amount": 50.00, "note": "Gift"}
+{"date": "2025-03-31", "type": "expense", "category": "Other", "amount": 40.00, "note": "Donation"}
+{"date": "2025-03-01", "type": "expense", "category": "Transport", "amount": 40.00, "note": "Subway card"}

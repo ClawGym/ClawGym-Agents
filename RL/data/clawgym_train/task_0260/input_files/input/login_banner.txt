@@ -1,0 +1,7 @@
+Welcome to my terminal session!
+
+Before you get cracking, a few quick notes...
+- Mind the PATH; it's a bit of a dog's dinner.
+- If Python isn't the right one, everything goes pear-shaped.
+
+Anyway, have a lovely day and remember to read the detailed logs below for the full story!

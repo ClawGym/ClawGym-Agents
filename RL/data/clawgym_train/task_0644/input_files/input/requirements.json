@@ -1,0 +1,17 @@
+{
+  "period": "1y",
+  "capital": 10000,
+  "commission": 0.001,
+  "slippage": 0.0005,
+  "rsi": {
+    "period": 14,
+    "overbought": 70,
+    "oversold": 30
+  },
+  "sma_grid": [
+    { "fast_period": 10, "slow_period": 50 },
+    { "fast_period": 20, "slow_period": 100 },
+    { "fast_period": 30, "slow_period": 150 },
+    { "fast_period": 50, "slow_period": 200 }
+  ]
+}

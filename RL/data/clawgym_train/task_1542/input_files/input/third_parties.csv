@@ -1,0 +1,7 @@
+name,purpose,data_shared,criticality,notes
+Stripe,payment processing,"customer email, shipping address for receipts, order amount, PaymentIntent ID; no raw PAN handled by FreshCart",high,"Stripe Elements + webhooks; signature verification enforced; secrets in AWS Secrets Manager"
+SendGrid,transactional email,"email address, name, order status/receipt data (no payment details)",medium,"Marketing emails are out of scope; DKIM/SPF configured"
+Cloudflare,CDN/WAF/DNS,"IP address, request metadata, cached static assets",high,"OWASP ruleset at medium; custom rate limits on /login and /checkout"
+Sentry,error monitoring,"stack traces, request IDs, sanitized request context (PII scrubbing on)",medium,"Sample rate 10%; error fingerprinting enabled"
+PostHog,product analytics,"anonymous ID, event names, device/browser metadata (IP anonymized)",medium,"Consent gating for EU; hosted in EU region"
+AWS,cloud infrastructure hosting,"application data at rest (RDS), logs, backups, object storage (S3)",high,"Shared responsibility model; encryption at rest enabled"

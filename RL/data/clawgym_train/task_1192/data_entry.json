@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1192",
+  "user_query": "Please produce a rigorously verified 20% summary (allowed range 18%–22%) of the book at input/book.txt.\n\nRequirements:\n- Read input/book.txt and compute the exact source word count.\n- Derive the target summary word range (min 18%, max 22%). Aim for 20%.\n- If the text is too large for a single pass, split it into ~3,000-word batches internally, draft batch summaries in order, then merge into a single clean summary.\n- The final output must be a single English markdown file at output/summary.md that contains only the summary text, with the very first line being exactly: \"Summary\" (no leading #, no extra boilerplate, no batch headings, no copied passages).\n- Validate the final ratio. If it falls outside 18%–22%, iterate and refine until it is within range.\n- Also write a JSON verification report to output/summary_report.json with these keys and types:\n  - source_word_count (int)\n  - target_min_words (int)\n  - target_max_words (int)\n  - summary_word_count (int)\n  - actual_ratio (float, rounded to 4 decimal places)\n\nDeliverables:\n- output/summary.md (starts with a single line \"Summary\" then the prose summary)\n- output/summary_report.json (the verification fields above)\n\nDo not write any other files outside output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

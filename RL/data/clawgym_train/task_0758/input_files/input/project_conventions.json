@@ -1,0 +1,81 @@
+{
+  "naming": {
+    "functions": "snake_case",
+    "required_functions": [
+      "process_services",
+      "generate_marketing_plan",
+      "evaluate_books"
+    ],
+    "variables": "snake_case",
+    "files": "lowercase_with_underscores"
+  },
+  "file_structure": {
+    "input_dir": "input",
+    "output_dir": "output",
+    "single_module": "output/processor.py",
+    "reports": [
+      "output/directory_report.json",
+      "output/marketing_plan.md",
+      "output/book_status.json",
+      "output/completion_report.md"
+    ]
+  },
+  "reporting": {
+    "directory_report_fields": [
+      "total_services",
+      "categories",
+      "services_by_category",
+      "notes"
+    ],
+    "marketing_plan_sections": [
+      "Bottom Line",
+      "Sequence",
+      "Owners & Deadlines",
+      "Risks & Mitigations",
+      "Next Steps"
+    ],
+    "book_status_fields": [
+      "title",
+      "author",
+      "isbn",
+      "available",
+      "locations",
+      "last_checked",
+      "monitor"
+    ],
+    "date_time_format": "ISO 8601",
+    "notes_field_policy": "Document assumptions in a notes field, do not ask questions."
+  },
+  "style": {
+    "tone": "bottom-line-first",
+    "bullets": "-",
+    "sequence_length": 9
+  },
+  "constraints": {
+    "no_network_calls": true,
+    "timezone": "UTC",
+    "default_deadline_time": "17:00"
+  },
+  "owners": {
+    "PMM": "Sara",
+    "Copywriter": "Jamal",
+    "Designer": "Lena",
+    "Engineer": "Alex",
+    "Ads": "Priya",
+    "Analytics": "Diego",
+    "Social": "Mina",
+    "Email": "Ravi"
+  },
+  "assumptions": {
+    "category_source_of_truth": "Use the 'category' field on each service; fall back to categories list if needed.",
+    "book_availability_logic": "Available if and only if holdings.json lists a non-empty array for the ISBN; otherwise unavailable with empty locations.",
+    "time_defaults": "If a deadline date is given without time, assume 17:00 in configured timezone."
+  },
+  "auditing_checklist": [
+    "Functions are snake_case and include required names.",
+    "No external network requests are made.",
+    "All outputs are written to the output directory with expected filenames.",
+    "Marketing plan includes exactly the required sections and nine-step sequence.",
+    "All JSON outputs are parseable and include required fields."
+  ]
+}

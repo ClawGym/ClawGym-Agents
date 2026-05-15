@@ -1,0 +1,18 @@
+title: Maternal-Fetal Health and Long-Term Child Development — Social Post Spec
+sections:
+  hook: one-line hook
+  evidence_points:
+    count: 3
+  implication: one to two sentences
+  call_to_action: one sentence
+  hashtags:
+    min: 3
+    max: 5
+  references: numeric list mapping [id] to source metadata
+constraints:
+  body_char_limit: 1200
+  min_sources: 5
+  min_org_sources: 2
+  min_peer_reviewed_systematic: 1
+  hashtag_source_file: input/hashtags.txt
+citation_style: numeric_brackets

@@ -1,0 +1,39 @@
+hourly_value_usd: 120
+monthly_automation_budget_usd: 30
+
+# Platform selection and complexity guidance
+platform_guidance:
+  - "Use Zapier for simple 2–3 step workflows without complex branching."
+  - "Use Make (Integromat) for visual multi-step workflows or when branching/iterators are needed."
+  - "Avoid self-hosted solutions (n8n) due to time constraints and maintenance overhead."
+  - "Prefer tools with native integrations for: Airtable, Google Workspace, Notion, Stripe, Calendly, Typeform, ConvertKit, Slack."
+
+disallow_n8n: true
+
+notification_preferences:
+  slack_channel: "#ops-alerts"
+  email: "me@solo-consulting.com"
+  escalate_on_failure: true
+
+app_stack:
+  - Google Workspace (Gmail, Calendar, Sheets)
+  - Airtable (CRM)
+  - Notion (project/tasks, meeting notes)
+  - Stripe (payments)
+  - Calendly (scheduling)
+  - Typeform (lead magnet forms)
+  - ConvertKit (email marketing)
+  - Slack (alerts)
+  - Webflow (site + blog)
+  - LinkedIn, Twitter (distribution)
+
+implementation_preferences:
+  - "Start with highest time-saved, rule-based tasks."
+  - "Use Slack for success/failure notifications; email for escalations."
+  - "Document each workflow in Notion with runbook and rollback steps."
+  - "Review logs weekly; conduct a monthly audit."
+
+data_guardrails:
+  - "Do not store full payment details outside Stripe."
+  - "Limit PII to name, email, company; avoid unnecessary fields."
+  - "Use least-privilege API/auth scopes where possible."

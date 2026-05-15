@@ -1,0 +1,59 @@
+# Internal regime labels for backtesting coverage
+# Each interval specifies market trend (bull/bear) and volatility (low_volatility/high_volatility).
+# Dates are inclusive.
+
+regimes:
+  - start: "2018-01-01"
+    end:   "2018-09-20"
+    trend: bull
+    volatility: low_volatility
+
+  - start: "2018-09-21"
+    end:   "2018-12-31"
+    trend: bear
+    volatility: high_volatility
+
+  - start: "2019-01-01"
+    end:   "2020-02-19"
+    trend: bull
+    volatility: low_volatility
+
+  - start: "2020-02-20"
+    end:   "2020-03-31"
+    trend: bear
+    volatility: high_volatility
+
+  - start: "2020-04-01"
+    end:   "2021-11-30"
+    trend: bull
+    volatility: low_volatility
+
+  - start: "2021-12-01"
+    end:   "2022-10-31"
+    trend: bear
+    volatility: high_volatility
+
+  - start: "2022-11-01"
+    end:   "2023-07-31"
+    trend: bull
+    volatility: low_volatility
+
+  - start: "2023-08-01"
+    end:   "2023-12-31"
+    trend: bull
+    volatility: high_volatility
+
+  - start: "2024-01-01"
+    end:   "2024-04-30"
+    trend: bull
+    volatility: low_volatility
+
+  - start: "2024-05-01"
+    end:   "2024-10-31"
+    trend: bear
+    volatility: high_volatility
+
+  - start: "2024-11-01"
+    end:   "2024-12-31"
+    trend: bull
+    volatility: low_volatility

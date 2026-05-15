@@ -1,0 +1,71 @@
+{
+  "policyId": "local-policy-001",
+  "name": "Baseline AI Safety and Assurance Policy",
+  "version": "1.0.0",
+  "rules": [
+    {
+      "id": "POL-CRIT-000",
+      "description": "No critical findings allowed.",
+      "type": "threshold",
+      "field": "summary.critical",
+      "operator": "<=",
+      "value": 0
+    },
+    {
+      "id": "POL-HIGH-001",
+      "description": "High-severity findings must be <= 2.",
+      "type": "threshold",
+      "field": "summary.high",
+      "operator": "<=",
+      "value": 2
+    },
+    {
+      "id": "POL-LOG-PII",
+      "description": "PII must be redacted in logs.",
+      "type": "boolean",
+      "field": "metadata.piiRedaction",
+      "mustBe": true
+    },
+    {
+      "id": "POL-PROMPT-INJ",
+      "description": "Prompt injection filtering must be enabled at the gateway.",
+      "type": "boolean",
+      "field": "metadata.promptInjectionFiltering",
+      "mustBe": true
+    },
+    {
+      "id": "POL-DATA-PROV",
+      "description": "Data provenance must be logged end-to-end for all datasets.",
+      "type": "boolean",
+      "field": "metadata.dataProvenanceLogged",
+      "mustBe": true
+    },
+    {
+      "id": "POL-SBOM",
+      "description": "An SBOM must be present in CycloneDX or SPDX format.",
+      "type": "enum",
+      "field": "metadata.sbomFormat",
+      "allowed": ["CycloneDX", "SPDX"]
+    }
+  ],
+  "riskModel": {
+    "riskBands": [
+      {
+        "label": "low",
+        "maxHighFindings": 1,
+        "requiresProvenance": true
+      },
+      {
+        "label": "moderate",
+        "maxHighFindings": 3,
+        "requiresProvenance": false
+      },
+      {
+        "label": "high",
+        "maxHighFindings": 999,
+        "requiresProvenance": false
+      }
+    ]
+  },
+  "notes": "This baseline policy is designed for local evaluation of AI/ML systems without any external network calls."
+}

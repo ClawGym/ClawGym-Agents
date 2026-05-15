@@ -1,0 +1,3 @@
+# crontab for utente
+# m h  dom mon dow  command
+0 9 * * * /usr/bin/python3 /home/utente/newsroom/scripts/fetch_amitranonews.py --config /home/utente/newsroom/config/fetcher.yaml >> /home/utente/newsroom/logs/press_fetch.log 2>&1

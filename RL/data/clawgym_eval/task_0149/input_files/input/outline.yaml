@@ -1,0 +1,15 @@
+title: "The Jade Kettle — Outline Snapshot"
+platforms: ["Twitter", "Instagram"]
+chapters:
+  - id: "ch1"
+    title: "The Arrival"
+    themes: ["migration", "new identity", "family"]
+    tags: ["#AsianLit", "#Migration", "#Identity", "#DebutNovel"]
+  - id: "ch2"
+    title: "The Letter"
+    themes: ["family", "memory", "language"]
+    tags: ["#Family", "#Memory", "#Language", "#Letters"]
+  - id: "ch3"
+    title: "The Ceremony"
+    themes: ["tradition", "modernity", "ritual", "food"]
+    tags: ["#Tradition", "#Tea", "#Ritual", "#Culture"]

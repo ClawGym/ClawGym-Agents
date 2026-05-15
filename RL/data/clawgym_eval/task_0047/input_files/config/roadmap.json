@@ -1,0 +1,8 @@
+{
+  "columns": ["To Do", "Doing", "Blocked", "Done"],
+  "start_hint": "Set start date via CLI, not here",
+  "tasks": [
+    {"id": "D-outline-pass", "title": "Outline polish pass", "status": "To Do"},
+    {"id": "R-background-EventX", "title": "Background research on Event X", "status": "To Do"}
+  ]
+}

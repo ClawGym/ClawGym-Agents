@@ -1,0 +1,8 @@
+claim_id,statement,metric,area,value,unit,source_label
+C1,"Youth voter turnout in Dublin was 72% in the last general election.","youth_turnout","Dublin",72,"percent","Flyer A"
+C2,"Ireland cut greenhouse gas emissions by 20% in 2023.","emissions_change","Ireland",-20,"percent","Debate clip"
+C3,"There were 8,500 new apprenticeships started across Ireland in 2022.","apprenticeship_starts","Ireland",8500,"count","Press release"
+C4,"Teen smoking has dropped to 5% nationwide.","teen_smoking_rate","Ireland",5,"percent","Social post"
+C5,"Youth voter turnout nationwide was 72% in the last general election.","youth_turnout","Ireland",72,"percent","Flyer B"
+C6,"Dublin emissions fell by 15% in 2023.","emissions_change","Dublin",-15,"percent","Flyer B"
+C7,"Apprenticeship starts in Dublin were 2,000 in 2022.","apprenticeship_starts","Dublin",2000,"people","Leaflet"

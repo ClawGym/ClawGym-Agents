@@ -1,0 +1,15 @@
+indexing:
+  fields:
+    title:
+      weight: 2.0
+      index: true
+    author:
+      weight: 0.8
+      index: true
+    subjects:
+      weight: 0.5
+      index: true
+    call_number:
+      weight: 0.2
+      index: true
+  aliases: {}

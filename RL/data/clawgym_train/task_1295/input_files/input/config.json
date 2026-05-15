@@ -1,0 +1,8 @@
+{
+  "app_name": "atc-phrase-trainer",
+  "version": "1.0.0",
+  "enabled_steps": ["test", "build"],
+  "data_path": "input/data/scenarios.jsonl",
+  "dist_dir": "dist",
+  "report_dir": "reports"
+}

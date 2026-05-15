@@ -1,0 +1,25 @@
+campaign_name: "Rights in Focus: Student Series"
+allowed_orgs:
+  - "Amnesty International"
+  - "Human Rights Watch"
+  - "Office of the UN High Commissioner for Human Rights"
+allowed_domains:
+  - "amnesty.org"
+  - "hrw.org"
+  - "ohchr.org"
+focus_topics:
+  - "freedom of expression"
+  - "fair trial rights"
+  - "prevention of torture"
+languages:
+  source: "English"
+  target: "Spanish"
+voice:
+  tone: "clear, empathetic, non-technical"
+  audience: "students; general public"
+posting_guidance:
+  cadence: "2-3 posts/week"
+  length_hint: "1-2 sentences per caption"
+constraints:
+  earliest_year: 2015
+  max_items: 3

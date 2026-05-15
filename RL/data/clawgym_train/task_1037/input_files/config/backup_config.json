@@ -1,0 +1,5 @@
+{
+  "input_dir": "data/stories",
+  "allowed_extension": ".json",
+  "required_fields": ["id", "name", "consent", "content"]
+}

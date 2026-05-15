@@ -1,0 +1,7 @@
+id,title,status,estimated_hours,note
+HS-01,Athenian Assembly deliberation sim,candidate,16,role cards and voting
+HS-02,Silk Road trade network,candidate,22,trade nodes and link weights
+HS-03,Printing press diffusion,candidate,14,adoption curve modelling
+HS-04,1918 Flu city policy simulation,proposed,18,intervention toggles
+HS-05,Roman aqueduct maintenance,candidate,10,infrastructure repair scheduling
+HS-02,Silk Road trade network,candidate,20,duplicate refined estimate

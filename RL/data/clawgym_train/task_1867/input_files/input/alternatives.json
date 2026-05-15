@@ -1,0 +1,60 @@
+{
+  "alternatives": [
+    {
+      "id": "ALT-001",
+      "name": "LC Concrete",
+      "gross_area": 4800,
+      "building_type": "Residential",
+      "quantities": [
+        {
+          "material_id": "concrete_40mpa_low",
+          "quantity": 1452.682667
+        },
+        {
+          "material_id": "steel_structural",
+          "quantity": 129060.0
+        },
+        {
+          "material_id": "steel_rebar",
+          "quantity": 122044.741
+        },
+        {
+          "material_id": "timber_clt",
+          "quantity": 20.914667
+        },
+        {
+          "material_id": "aluminum",
+          "quantity": 220.526
+        }
+      ]
+    },
+    {
+      "id": "ALT-002",
+      "name": "Timber Floors + Reduced Steel",
+      "gross_area": 4800,
+      "building_type": "Residential",
+      "quantities": [
+        {
+          "material_id": "concrete_40mpa_low",
+          "quantity": 1050.0
+        },
+        {
+          "material_id": "steel_structural",
+          "quantity": 112387.8
+        },
+        {
+          "material_id": "steel_rebar",
+          "quantity": 103738.026
+        },
+        {
+          "material_id": "timber_clt",
+          "quantity": 197.3
+        },
+        {
+          "assembly_id": "CW-U1",
+          "multiplier": 800
+        }
+      ]
+    }
+  ]
+}

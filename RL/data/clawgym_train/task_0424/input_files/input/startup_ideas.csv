@@ -1,0 +1,4 @@
+idea_id,idea_name,customer_segment,problem_hypothesis,keywords
+1,AI ideation copilot for founders,pre-seed startup founders,"Help founders rapidly generate and iterate on 'disruptive' ideas to wow investors, even before validating problems.","AI brainstorming, founder tools"
+2,Decentralized freelancer reputation ledger,freelance platforms and boutique agencies,"Reinvent trust for freelancers with a portable, tamper-proof blockchain score so clients no longer rely on platform reviews.","blockchain, freelancer reputation, web3"
+3,Shopify email deliverability monitor,Shopify merchants using Klaviyo or Mailchimp,"Track sender reputation, spam placement, bounces, and authentication (SPF/DKIM/DMARC) and alert merchants before campaigns underperform.","Shopify, email deliverability, Klaviyo, Mailchimp monitoring"

@@ -1,0 +1,11 @@
+title,contact_email,value,stage,tags,followup_due,followup_note
+Acme Pilot,john.doe@acme.com,5000,prospect,"Pilot; SaaS ; priority ; pilot",2026-06-16,Check in on pilot kickoff
+Beta Security Audit,beatrice.king@beta.io,15000,qualified,"Security;Audit;ENTERPRISE",2026-06-15,Confirm scope and send NDA
+Cobalt Renewal,colin.turner@cobalt.net,20000,negotiation,"Renewal; Enterprise ; key",2026-06-22,Finalize pricing and terms
+Delta Expansion,dana.lee@delta.co,30000,proposal,"Expansion; Upsell; SaaS",2026-06-23,Present revised proposal
+Echo License,ethan.ross@echo.org,45000,closed-won,"won; enterprise",2026-06-17,Send welcome package
+Foxtrot POC,frank.owens@foxtrot.dev,8000,prospect,"POC; pilot ; test ; Test",2026-06-13,Schedule POC environment setup
+Gamma Replacement,grace.miller@gamma.biz,12000,closed-lost,"lost; competitor",2026-06-18,Conduct loss review
+Hotel Support Add-on,hannah.price@hotel.app,2500.5,proposal,"support;add-on; Support ",2026-06-20,Send support package options
+Indigo Training,ian.novak@indigo.edu,0,qualified,"Training; education",2026-06-25,Outline training agenda
+Juliet Maintenance,julia.chen@juliet.io,7000,negotiation,"maintenance;Recurring; recurring",2026-06-14,Share draft maintenance plan

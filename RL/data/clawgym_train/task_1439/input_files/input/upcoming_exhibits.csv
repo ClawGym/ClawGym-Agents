@@ -1,0 +1,4 @@
+date,time,location,theme,survivor_present,max_attendees,notes
+2024-11-05,10:00,Gallery A,Kindertransport Stories,TRUE,25,include artifact 123
+2024-11-05,14:00,Gallery B,Resistance in Ghettos,FALSE,30,projector needed
+2024-11-06,11:00,Theater,Survivor Testimony,TRUE,200,reserve seating

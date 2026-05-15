@@ -1,0 +1,9 @@
+date,id,title,item_type,universe,minutes,status
+2026-04-15,S001,The Flash S02E01: The Man Who Saved Central City,show_episode,Arrowverse,44,Completed
+2026-04-14,A001,Justice League: War,movie,Animation,79,Completed
+2026-04-13,C001,Batman Vol.1: Court of Owls,comic,Comics,60,In Progress
+2026-04-12,S002,Arrow S03E10: Left Behind,show_episode,Arrowverse,43,Completed
+2026-04-10,S003,Young Justice S01E26: Auld Acquaintance,show_episode,Animation,23,In Progress
+2026-04-08,M001,Aquaman (2018),movie,DCEU,60,In Progress
+2026-04-07,C004,Wonder Woman Vol.1: The Lies,comic,Comics,40,In Progress
+2026-04-05,C002,Flashpoint (Comic Event),comic,Comics,30,In Progress

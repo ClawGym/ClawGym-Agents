@@ -1,0 +1,8 @@
+{
+  "app_name": "CacheDemo",
+  "cache": {
+    "backend": "none",
+    "ttl_seconds": 0,
+    "key_prefix": "cache:"
+  }
+}

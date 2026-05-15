@@ -1,0 +1,11 @@
+research_group:
+  - name: "Dr. Elena Kovacs"
+    email: "ekovacs@univ.example.edu"
+  - name: "Dr. Miguel Alvarez"
+    email: "malvarez@univ.example.edu"
+departmental_list:
+  - name: "Nuclear Engineering Dept. Mailing List"
+    email: "ne-dept@lists.example.edu"
+students:
+  - name: "Nuclear Safety Seminar 2024 Cohort"
+    email: "seminar-2024@lists.example.edu"

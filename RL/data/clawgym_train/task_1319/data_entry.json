@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1319",
+  "user_query": "Please read all the Markdown notes under input/notes/ and extract exact, verbatim lines (single-line sentences or bullet lines) for the seven items below. Then write a single JSON file to output/answers.json that exactly matches the specified structure. Items to extract:\n\n1) Default encryption algorithm\n2) Supported cloud providers\n3) The v1.2.0 change about default chunk size for uploads\n4) Retention policy for deleted files\n5) Streaming Sync description\n6) Batch Sync description\n7) Root cause of the 2025-03-17 incident\n\nOutput file: output/answers.json\nExact JSON structure (use these exact keys, no extras):\n{\n  \"encryption_algorithm\": {\"quote\": \"...\", \"source_path\": \"...\"},\n  \"supported_cloud_providers\": {\"quote\": \"...\", \"source_path\": \"...\"},\n  \"chunk_size_change_v1_2_0\": {\"quote\": \"...\", \"source_path\": \"...\"},\n  \"retention_policy\": {\"quote\": \"...\", \"source_path\": \"...\"},\n  \"sync_modes_streaming\": {\"quote\": \"...\", \"source_path\": \"...\"},\n  \"sync_modes_batch\": {\"quote\": \"...\", \"source_path\": \"...\"},\n  \"incident_2025_03_17_root_cause\": {\"quote\": \"...\", \"source_path\": \"...\"}\n}\n\nConstraints:\n- Each quote must be a verbatim, single-line extract from the source file (including punctuation and any leading list marker like \"- \"). Do not paraphrase or combine lines.\n- source_path for each entry must be the relative path to the file under input/ (e.g., \"input/notes/security.md\").\n- Search quickly across the notes using keyword matching to find candidates before drilling into details.\n- The output file must contain only the seven specified keys and no others.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

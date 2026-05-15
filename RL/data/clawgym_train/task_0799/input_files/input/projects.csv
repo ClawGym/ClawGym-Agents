@@ -1,0 +1,7 @@
+name,ticker,allowed_domains
+Bitcoin,BTC,bitcoin.org
+Ethereum,ETH,ethereum.org
+Solana,SOL,solana.com
+Chainlink,LINK,chain.link
+Uniswap,UNI,uniswap.org
+Aave,AAVE,aave.com

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0649",
+  "user_query": "I need to automate a small weekly macOS task using an Automator workflow. Please read input/spec.yaml for the exact steps, variables, and safety constraints. Based on that spec, produce all of the following under output/:\n\n1) output/workflow.applescript.txt — AppleScript that constructs the Automator workflow programmatically step-by-step. It should: create a new workflow; add each required action by its exact name from the spec (one at a time); set any required parameters/variables; and include an explicit execute step. Keep the script readable with brief comments.\n2) output/runbook.md — A concise runbook for safely using the workflow. Include a pre-run checklist, the exact two-step confirmation wording for any destructive or irreversible operations (use the phrasing that starts with \"This run will ... Confirm this exact target.\" and a second line that begins \"Final check: proceed ...\"), and a post-run verification checklist.\n3) output/test_input.txt — A bounded, safe dry-run input file with 2–5 example lines consistent with the spec. Keep examples generic and non-destructive.\n4) output/validation.json — A JSON array or object that lists each required action from the spec and indicates whether it appears in the AppleScript (true/false), plus any notes on parameterization.\n\nDo not execute anything; just provide the artifacts above. Keep all paths relative as specified. Do not use any machine-specific absolute paths. If the spec calls for a target folder, parameterize it rather than hardcoding.\n",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

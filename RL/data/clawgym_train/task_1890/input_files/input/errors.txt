@@ -1,0 +1,32 @@
+# Error 1 — Permission issue running deploy script
+$ ./scripts/deploy.sh
+bash: ./scripts/deploy.sh: Permission denied
+
+# Attempt after using bash explicitly:
+$ bash ./scripts/deploy.sh
+./scripts/deploy.sh: line 1: ./scripts/deploy.sh: Permission denied
+
+# Notes:
+# - File exists, but lacks executable bit.
+# - Repo recently cloned on a new machine.
+
+---
+
+# Error 2 — Docker build failure due to disk space
+$ docker build -t api:latest .
+[+] Building 61.8s (9/12)
+ => [internal] load build definition from Dockerfile                           0.1s
+ => [internal] load .dockerignore                                              0.0s
+ => [internal] load metadata for docker.io/library/node:18-alpine              1.2s
+ => [1/8] FROM docker.io/library/node:18-alpine                                0.0s
+ => [internal] load build context                                              7.8s
+ => CACHED [2/8] WORKDIR /app                                                  0.0s
+ => [3/8] COPY package.json pnpm-lock.yaml .                                   0.2s
+ => [4/8] RUN corepack enable && pnpm install --frozen-lockfile               48.1s
+ => ERROR [5/8] RUN pnpm build                                                4.5s
+------
+failed to solve: rpc error: code = Unknown desc = write /var/lib/docker/overlay2/abcd1234/merged/app/dist/index.js: no space left on device
+
+# Notes:
+# - Builder is a local laptop with a nearly full Docker volume.
+# - Similar failures occurred last week during docker build for the same image.

@@ -1,0 +1,44 @@
+{
+  "role": "Operations Analyst at a B2B SaaS (North America focus)",
+  "python_experience": {
+    "years": 1.5,
+    "libraries_used": ["pandas", "matplotlib", "seaborn"],
+    "charting_level": "Can script basic line/bar charts; limited interactivity; minimal experience with Plotly and Dash"
+  },
+  "data_storytelling_experience": "Limited; tends to overload charts with data; struggles to frame a clear narrative and tighten takeaways for executives",
+  "tools_available": ["Python 3.11", "JupyterLab", "VS Code", "Git", "Plotly (installed)", "Dash (installed but not used before)"],
+  "business_problem": "Leadership needs a weekly revenue and retention dashboard for the North America segment with executive-friendly visuals and short commentary",
+  "available_data_sources": [
+    "Stripe MRR CSV export (weekly)",
+    "PostHog product events CSV export (weekly)",
+    "HubSpot deals CSV export (weekly)"
+  ],
+  "constraints": [
+    "Full-time job (9am–5pm Mon–Fri)",
+    "Two kids bedtime 7:30–8:30pm",
+    "No studying on Sundays",
+    "Travel during Week 5 (2026-06-02 to 2026-06-04)"
+  ],
+  "time_budget_hours_per_week": 8,
+  "start_date": "2026-05-04",
+  "deadline": "2026-06-15",
+  "blockers": [
+    "Perfectionism leading to slow progress",
+    "Context switching fatigue after work",
+    "No regular reviewer for feedback"
+  ],
+  "motivations": [
+    "Need to present a dashboard to VP Ops by end of quarter",
+    "Desire to move from 'analyst producing charts' to 'analyst driving decisions'"
+  ],
+  "accountability_preference": "Weekly public update in team Slack; peer buddy for quick reviews",
+  "learning_preferences": [
+    "Project-first learning with quick feedback",
+    "Short, structured sessions (45–60 min)",
+    "Checklists and templates over long theory"
+  ],
+  "assumptions": [
+    "Ok to start with CSV-file ingestion; APIs can be a stretch goal",
+    "Security allows internal-only demo during Week 4"
+  ]
+}

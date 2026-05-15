@@ -1,0 +1,7 @@
+[
+  {"title": "Automate the Boring Stuff with Python", "author": "Al Sweigart", "available": true, "tags": ["python", "automation"]},
+  {"title": "Fluent Python", "author": "Luciano Ramalho", "available": false, "tags": ["python", "advanced"]},
+  {"title": "The Odyssey", "author": "Homer", "available": true, "tags": ["classic", "epic"]},
+  {"title": "Clean Code", "author": "Robert C. Martin", "available": true, "tags": ["software", "craft"]},
+  {"title": "Python Crash Course", "author": "Eric Matthes", "available": true, "tags": ["python", "beginner"]}
+]

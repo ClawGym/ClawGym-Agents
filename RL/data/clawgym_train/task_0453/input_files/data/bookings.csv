@@ -1,0 +1,12 @@
+booking_id,event_date,room,status,guests,total_amount
+B001,2025-01-11,GrandHall,confirmed,120,22000
+B001,2025-01-11,GrandHall,confirmed,120,22000
+B002,2025-01-15,Terrace,cancelled,50,5000
+B003,2025-01-20,SkyLounge,confirmed,80,12000
+B004,2025-02-05,GrandHall,hold,100,15000
+B005,2025-02-09,Terrace,Confirmed,60,9000
+B006,2025-02-12,SkyLounge,cancelled,0,0
+B007,2025-02-20,GrandHall,confirmed,200,30000
+B007,2025-02-20,GrandHall,confirmed,200,30000
+B008,2025-02-28,SkyLounge, confirmed ,90,14000
+B009,2025-03-03,Terrace,confirmed,40,6000

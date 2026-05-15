@@ -1,0 +1,26 @@
+name: Alex Rivera
+title: Marketing Analytics Consultant
+focus_niche_hint: "B2B SaaS revenue attribution and PLG funnel analytics"
+years_experience: 7
+location: Austin, TX (remote-first)
+annual_income_target: 180000
+cash_reserve: 45000
+skills:
+  - GA4
+  - BigQuery
+  - dbt
+  - SQL
+  - Looker
+  - Mode
+  - HubSpot
+  - Salesforce
+  - Segment
+proof_points:
+  - "Led attribution overhaul for Series B SaaS, 28% pipeline lift in 90 days"
+  - "Implemented PLG analytics stack driving +19% activation rate"
+  - "Built revenue reporting layer across 12 B2B SaaS clients (5 Series B-D logos)"
+  - "Reduced CAC payback from 14 to 10 months via spend reallocation using MTA"
+bio: >
+  Former in-house marketing analytics lead turned consultant specializing in B2B SaaS.
+  I build reliable tracking, multi-touch attribution, and executive-ready revenue dashboards
+  that help growth leaders reallocate spend with confidence.

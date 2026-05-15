@@ -1,0 +1,54 @@
+{
+  "services": [
+    {
+      "name": "HubSpot Marketing Hub",
+      "plan": "Professional",
+      "monthly_price": 800,
+      "features": [
+        "email_automation",
+        "audience_segmentation",
+        "lead_scoring",
+        "landing_page_builder",
+        "journey_orchestration",
+        "crm_sync",
+        "a_b_testing",
+        "social_scheduling",
+        "forms_and_popups",
+        "analytics_dashboard"
+      ],
+      "notes": "Comprehensive marketing automation suite with deep CRM integration and advanced workflows."
+    },
+    {
+      "name": "Mailchimp",
+      "plan": "Standard",
+      "monthly_price": 299,
+      "features": [
+        "email_automation",
+        "audience_segmentation",
+        "landing_page_builder",
+        "a_b_testing",
+        "social_scheduling",
+        "forms_and_popups",
+        "analytics_dashboard"
+      ],
+      "notes": "Email-centric platform with solid templates, segmentation, and basic automation journeys."
+    },
+    {
+      "name": "ActiveCampaign",
+      "plan": "Marketing Professional",
+      "monthly_price": 279,
+      "features": [
+        "email_automation",
+        "audience_segmentation",
+        "lead_scoring",
+        "landing_page_builder",
+        "journey_orchestration",
+        "crm_sync",
+        "a_b_testing",
+        "forms_and_popups",
+        "analytics_dashboard"
+      ],
+      "notes": "Automation-focused platform with native lead scoring and multi-branch journeys."
+    }
+  ]
+}

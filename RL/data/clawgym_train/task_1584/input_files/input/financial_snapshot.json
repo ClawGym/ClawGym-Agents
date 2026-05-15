@@ -1,0 +1,25 @@
+{
+  "company_name": "DocuFlux AI, Inc.",
+  "product_name": "FluxExtract",
+  "stage": "Series A",
+  "funding_total_usd": 24000000,
+  "last_round": "Series A",
+  "last_round_date": "2025-10-15",
+  "annual_recurring_revenue_usd": 6500000,
+  "yoy_growth_percent": 110,
+  "runway_months": 20,
+  "employees": 48,
+  "profitability": false,
+  "burn_usd_per_month": 1200000,
+  "customers_count": 420,
+  "customer_concentration_top5_percent": 18,
+  "notable_customers": [
+    "Midwest Bank, N.A.",
+    "LegalCo LLP",
+    "Acme Holding Corp."
+  ],
+  "payment_defaults_past_12m": 0,
+  "churn_past_12m_percent": 6,
+  "pricing_changes_past_12m": "No across-the-board increases; introduced Enterprise EU residency surcharge in 2026-01",
+  "notes": "Healthy growth with adequate runway; dependent on continued fundraising within ~18-22 months if not achieving profitability."
+}

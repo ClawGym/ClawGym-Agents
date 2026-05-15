@@ -1,0 +1,8 @@
+services:
+  watering:
+    enable: true
+    start_time: "06:45"
+    duration_minutes: 20
+  weather_logger:
+    enabled: true
+    schedule_time: "07:00"

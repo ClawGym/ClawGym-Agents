@@ -1,0 +1,3 @@
+- VR lab booking conflicts on Fridays; potential scheduling delays.
+- Two loaner headsets show intermittent tracking drift; replacement pending.
+- New hire orientation overlaps with Safety department sessions next week.

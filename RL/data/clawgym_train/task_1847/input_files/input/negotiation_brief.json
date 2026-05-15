@@ -1,0 +1,23 @@
+{
+  "item": "Sony A7 III (body only), used",
+  "platform": "Facebook Marketplace",
+  "category_context": "P2P marketplace buying",
+  "currency": "USD",
+  "ask_price": 1200,
+  "limits": {
+    "hard_limit": 1000,
+    "target_price": 850,
+    "walk_away_threshold": 950,
+    "approval_required": true
+  },
+  "autonomy_level": "Level 1 - Observer",
+  "preferences": {
+    "pickup_radius_miles": 20,
+    "stay_on_platform": true,
+    "inspection_requests": [
+      "Recent shutter count photo",
+      "Quick sensor check photo (no dust/lines)"
+    ],
+    "notes": "Do not pay off-platform; willing to meet evenings or weekends."
+  }
+}

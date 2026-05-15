@@ -1,0 +1,73 @@
+task: "Eternal Haven Graduate Seminar Guide"
+version: "1.0"
+disclaimer:
+  must_include_strings:
+    - "Justin Helmer"
+    - "Eternal Haven"
+  summarize_not_reproduce: true
+  note: "Open with a brief statement that credits Justin Helmer, names Eternal Haven, and commits to summarizing rather than reproducing long passages."
+word_count:
+  min: 900
+  max: 1500
+sections:
+  headers_must_be_exact: true
+  order:
+    - "# Canon Overview"
+    - "# Character Arcs"
+    - "# Metaphysics"
+    - "# Themes & Motifs"
+    - "# Speculative Addendum"
+    - "# Appendix: Reading Plan"
+labels:
+  must_include:
+    - "Canon:"
+    - "Reflection:"
+    - "Speculation:"
+  guidance:
+    - "Use labels inline to distinguish layers of analysis clearly."
+    - "Do not present speculation as canon."
+quoting:
+  parse_rule: "Block quotes are any lines beginning with '>' (greater-than) in guide.md."
+  per_block_max_words: 120
+  total_max_words: 180
+  guidance:
+    - "Use brief, illustrative quotations only when necessary."
+    - "Prefer summary and paraphrase over direct quotation."
+canon_terms_required:
+  - "Arin"
+  - "Skylark"
+  - "Moonsilver Sea"
+  - "Accord Stone"
+  - "Serenya"
+  - "Emberion"
+json_summary_contract:
+  sections_object:
+    keys_must_match_headers: true
+    value:
+      word_count: "integer; count words strictly in each section up to (but not including) the next H1"
+  canon_references: "array of canon terms referenced; must include all canon_terms_required"
+  quotes_total_words: "integer; total words across all block-quoted lines"
+  quotes_blocks: "integer; number of contiguous block quote regions"
+  labels_present:
+    canon: "boolean; true if 'Canon:' appears at least once"
+    reflection: "boolean; true if 'Reflection:' appears at least once"
+    speculation: "boolean; true if 'Speculation:' appears at least once"
+  word_count: "integer; total words in guide.md"
+csv_bibliography:
+  header: "label,note"
+  min_rows: 6
+  must_include_labels:
+    - "Arin"
+    - "Skylark"
+    - "Moonsilver Sea"
+    - "Accord Stone"
+    - "Serenya"
+    - "Emberion"
+style_and_voice:
+  tone: "mythic yet grounded"
+  anchor_then_expand:
+    - "Start from concrete canon scenes and metaphysical structures."
+    - "Then widen into philosophical or poetic reflection without contradicting canon."
+copyright:
+  respect_author: "Do not reproduce long passages; all story content is © Justin Helmer."
+  quote_limits_apply: true

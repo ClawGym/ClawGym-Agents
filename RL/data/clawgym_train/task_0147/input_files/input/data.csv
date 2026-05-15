@@ -1,0 +1,7 @@
+id,name,age,height,notes
+1, Alice , 30 , 5.5 , "  likes tea "
+2,Bob, null , 6 ,   
+
+3,   , 27, , NULL
+4, Cara, 42 , 5.0, "  N/A  "
+5,"Dan, Jr.",-7,6.25,"quoted, text"

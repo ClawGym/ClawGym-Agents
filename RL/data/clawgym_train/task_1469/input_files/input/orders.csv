@@ -1,0 +1,13 @@
+order_id,customer_id,order_date,status,quantity,unit_price,discount
+1001,cust_a,2025-03-01,paid,1,29.99,0
+1002,cust_b,2025-03-01,paid,2,15.00,5.00
+1003,cust_a,2025-03-02,paid,3,10.00,0
+1004,cust_c,2025-03-02,cancelled,1,99.99,0
+1005,cust_d,2025-03-03,paid,1,49.50,4.50
+1006,cust_e,2025-03-03,refunded,1,20.00,0
+1007,cust_b,2025-03-03,paid,1,15.00,0
+1008,cust_f,2025-03-04,paid,2,12.25,0.50
+1009,cust_c,2025-03-04,paid,1,99.99,10.00
+1010,cust_g,2025-03-04,pending,1,5.00,0
+1011,cust_a,2025-03-05,paid,1,29.99,5.00
+1012,cust_h,2025-03-05,paid,4,7.50,0

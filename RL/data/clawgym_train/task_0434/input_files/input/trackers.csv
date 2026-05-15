@@ -1,0 +1,11 @@
+pattern,category
+google-analytics.com,analytics
+googletagmanager.com,tag_manager
+doubleclick.net,ads
+facebook.net,social
+facebook.com,social
+twitter.com,social
+hotjar.com,analytics
+newrelic.com,monitoring
+cloudflareinsights.com,analytics
+amazon-adsystem.com,ads

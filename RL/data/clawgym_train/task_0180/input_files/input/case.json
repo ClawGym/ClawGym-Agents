@@ -1,0 +1,75 @@
+{
+  "case_dir_name": "AC-2025-041__Vendor Payment Irregularities",
+  "case_id": "AC-2025-041",
+  "documents": [
+    {
+      "stage": "payment",
+      "path": "/cases/AC-2025-041__Vendor Payment Irregularities/04_settlement_payment/ProgressPaymentLog_Nov2025.pdf",
+      "source_display": "ProgressPaymentLog_Nov2025.pdf",
+      "pages": [
+        "Summary of November 2025 progress payments for Project AC-2025-041. All amounts in USD.",
+        "Entry dated 2025-11-18: Payment milestone marked as final was posted out of sequence; final payment executed before acceptance certificate issued for Lot A.",
+        "Note 2025-11-12: The third progress disbursement was processed before acceptance certificate for Phase 2; accounting flagged it as out of sequence.",
+        "Internal remark: Review sequencing controls in AP module to prevent premature releases."
+      ]
+    },
+    {
+      "stage": "payment",
+      "path": "/cases/AC-2025-041__Vendor Payment Irregularities/04_settlement_payment/PaymentApproval_Memo_2025-11-20.pdf",
+      "source_display": "PaymentApproval_Memo_2025-11-20.pdf",
+      "pages": [
+        "Subject: Approval memo regarding settlement timing and compliance checks.",
+        "Observation: We observed final settlement triggered prior to acceptance certificate. Finance executed the remittance out of sequence due to year-end cutoff pressures.",
+        "Action Items: Reinforce gate checks; require acceptance certificate upload before releasing final settlement."
+      ]
+    },
+    {
+      "stage": "payment",
+      "path": "/cases/AC-2025-041__Vendor Payment Irregularities/04_settlement_payment/BankTransfers_Batch4821.pdf",
+      "source_display": "BankTransfers_Batch4821.pdf",
+      "pages": [
+        "Batch 4821 transfer list for vendors: status overview and routing confirmations.",
+        "Transfer 4821-07 was marked \"final\" and released on 2025-11-15 before acceptance certificate for Tower C; this payment is out of sequence and requires exception approval.",
+        "QA review note: reconcile batch approvals with acceptance documents."
+      ]
+    },
+    {
+      "stage": "payment",
+      "path": "/cases/AC-2025-041__Vendor Payment Irregularities/04_settlement_payment/VendorCorrespondence_Payments.pdf",
+      "source_display": "VendorCorrespondence_Payments.pdf",
+      "pages": [
+        "Email chain discussing invoice submission timelines and remittance dates.",
+        "Vendor request: \"Please arrange the final payment prior to acceptance certificate.\" AP reply: \"The remittance was processed out of sequence due to a system override for period close.\"",
+        "Follow-up: Vendor acknowledges receipt; compliance escalation noted."
+      ]
+    },
+    {
+      "stage": "contract",
+      "path": "/cases/AC-2025-041__Vendor Payment Irregularities/03_contract/Contract_Main_Agreement.pdf",
+      "source_display": "Contract_Main_Agreement.pdf",
+      "pages": [
+        "Main agreement terms and definitions; scope of work and milestones.",
+        "Condition precedent: Final payment contingent on issuance of acceptance certificate and rectification of punch-list items."
+      ]
+    },
+    {
+      "stage": "process",
+      "path": "/cases/AC-2025-041__Vendor Payment Irregularities/02_process/Tender_Evaluation_Report.pdf",
+      "source_display": "Tender_Evaluation_Report.pdf",
+      "pages": [
+        "Evaluation summary of vendor bids; scoring methodology and weightings.",
+        "Recommendation: Award to lowest compliant bidder; no exceptions raised on procurement process."
+      ]
+    },
+    {
+      "stage": "payment",
+      "path": "/cases/AC-2025-041__Vendor Payment Irregularities/04_settlement_payment/AcceptanceChecklist_vs_Payments.pdf",
+      "source_display": "AcceptanceChecklist_vs_Payments.pdf",
+      "pages": [
+        "Index mapping acceptance checklist items to payment milestones for Packages A–F.",
+        "Finding E-3: The final payment for Package E on 2025-10-30 occurred before acceptance certificate; categorized as out of sequence in variance log.",
+        "Cross-reference table: acceptance IDs, payment vouchers, and exception approvals."
+      ]
+    }
+  ]
+}

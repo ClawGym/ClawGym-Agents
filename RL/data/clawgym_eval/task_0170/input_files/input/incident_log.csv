@@ -1,0 +1,13 @@
+student_id,student_name,grade_level,club,incident_type,incident_date,source,notes
+S001,Alex Kim,10,honors,plagiarism,2024-03-12,LMS,"Turnitin similarity 42%"
+S002,Jamie Lee,11,esl,tardiness,2024-04-01,TeacherReferral,"Late 4 times"
+S003,Morgan Patel,9,robotics,cheating,2024-02-20,Exam,"Phone visible; proctor note"
+S001,Alex Kim,10,honors,tardiness,2024-04-09,Attendance,"Late to homeroom"
+S004,Casey Rivera,12,arts,disruption,2024-01-18,TeacherReferral,"Left class without pass"
+S005,Riley Chen,10,debate,plagiarism,2024-05-02,LMS,"Similarity 65% repeat"
+S006,Drew Singh,11,honors,cheating,2024-03-05,Exam,"Graphing calc programs"
+S003,Morgan Patel,9,robotics,disruption,2024-03-22,TeacherReferral,"Argued during lab"
+S002,Jamie Lee,11,esl,disruption,2024-02-10,TeacherReferral,"Group off-task repeat"
+S007,Taylor Brooks,12,athletics,tardiness,2024-01-28,Attendance,"Late 2 times"
+S005,Riley Chen,10,debate,plagiarism,2023-09-15,LMS,"Old case from last fall"
+S008,Jordan Alvarez,9,none,cheating,2024-04-30,Exam,"Copied from neighbor"

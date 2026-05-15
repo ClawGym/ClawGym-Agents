@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Medsys Cloud",
+    "slug": "medsys-cloud",
+    "industry": "Healthcare",
+    "function": "EHR hosting & patient data platform",
+    "security": {
+      "soc2_type_ii_current": true,
+      "pen_test_within_12_months": true,
+      "incident_response_plan": true,
+      "encryption_at_rest_and_transit": true,
+      "mfa_enforced": true,
+      "security_questionnaire_completed": true,
+      "subprocessor_list_disclosed": true
+    },
+    "financial": {
+      "revenue_trend": "growing",
+      "runway_months": 24,
+      "customer_concentration_percent": 18,
+      "audited_statements": true,
+      "no_material_litigation": true,
+      "credit_rating_acceptable": true
+    },
+    "compliance": {
+      "industry_certifications_current": true,
+      "gdpr_ccpa_compliant": true,
+      "dpa_signed": true,
+      "regulatory_audit_history_clean": true,
+      "right_to_audit_clause": true,
+      "data_residency_requirements_met": true
+    },
+    "operational": {
+      "sla_financial_penalties": true,
+      "uptime_trailing_12m_percent": 99.96,
+      "dr_tested_annually": true,
+      "single_point_of_failure": false,
+      "migration_plan_documented": true,
+      "api_export_capability": true,
+      "lock_in_risk_assessment": true
+    },
+    "data_handling": {
+      "data_classification_documented": true,
+      "retention_deletion_policies": true,
+      "breach_notification_hours": 48,
+      "data_portability_guaranteed": true,
+      "ai_ml_training_opt_out_available": true,
+      "access_logging_audit_trail": true
+    }
+  },
+  {
+    "name": "Finguard Analytics",
+    "slug": "finguard-analytics",
+    "industry": "Financial Services",
+    "function": "Risk analytics & AML",
+    "security": {
+      "soc2_type_ii_current": true,
+      "pen_test_within_12_months": true,
+      "incident_response_plan": true,
+      "encryption_at_rest_and_transit": true,
+      "mfa_enforced": true,
+      "security_questionnaire_completed": true,
+      "subprocessor_list_disclosed": true
+    },
+    "financial": {
+      "revenue_trend": "growing",
+      "runway_months": 20,
+      "customer_concentration_percent": 22,
+      "audited_statements": true,
+      "no_material_litigation": true,
+      "credit_rating_acceptable": true
+    },
+    "compliance": {
+      "industry_certifications_current": true,
+      "gdpr_ccpa_compliant": true,
+      "dpa_signed": true,
+      "regulatory_audit_history_clean": true,
+      "right_to_audit_clause": true,
+      "data_residency_requirements_met": true
+    },
+    "operational": {
+      "sla_financial_penalties": true,
+      "uptime_trailing_12m_percent": 99.95,
+      "dr_tested_annually": true,
+      "single_point_of_failure": false,
+      "migration_plan_documented": true,
+      "api_export_capability": true,
+      "lock_in_risk_assessment": true
+    },
+    "data_handling": {
+      "data_classification_documented": true,
+      "retention_deletion_policies": true,
+      "breach_notification_hours": 24,
+      "data_portability_guaranteed": true,
+      "ai_ml_training_opt_out_available": true,
+      "access_logging_audit_trail": true
+    }
+  },
+  {
+    "name": "LegalDocs Pro",
+    "slug": "legaldocs-pro",
+    "industry": "Legal",
+    "function": "Legal document management & eDiscovery",
+    "security": {
+      "soc2_type_ii_current": false,
+      "pen_test_within_12_months": false,
+      "incident_response_plan": true,
+      "encryption_at_rest_and_transit": true,
+      "mfa_enforced": false,
+      "security_questionnaire_completed": true,
+      "subprocessor_list_disclosed": false
+    },
+    "financial": {
+      "revenue_trend": "flat",
+      "runway_months": 12,
+      "customer_concentration_percent": 28,
+      "audited_statements": false,
+      "no_material_litigation": true,
+      "credit_rating_acceptable": false
+    },
+    "compliance": {
+      "industry_certifications_current": false,
+      "gdpr_ccpa_compliant": true,
+      "dpa_signed": true,
+      "regulatory_audit_history_clean": true,
+      "right_to_audit_clause": false,
+      "data_residency_requirements_met": true
+    },
+    "operational": {
+      "sla_financial_penalties": false,
+      "uptime_trailing_12m_percent": 99.7,
+      "dr_tested_annually": false,
+      "single_point_of_failure": false,
+      "migration_plan_documented": false,
+      "api_export_capability": true,
+      "lock_in_risk_assessment": false
+    },
+    "data_handling": {
+      "data_classification_documented": false,
+      "retention_deletion_policies": false,
+      "breach_notification_hours": 96,
+      "data_portability_guaranteed": true,
+      "ai_ml_training_opt_out_available": false,
+      "access_logging_audit_trail": true
+    }
+  },
+  {
+    "name": "FactoryNet IoT",
+    "slug": "factorynet-iot",
+    "industry": "Manufacturing",
+    "function": "Industrial IoT platform & telemetry",
+    "security": {
+      "soc2_type_ii_current": false,
+      "pen_test_within_12_months": true,
+      "incident_response_plan": true,
+      "encryption_at_rest_and_transit": true,
+      "mfa_enforced": false,
+      "security_questionnaire_completed": true,
+      "subprocessor_list_disclosed": true
+    },
+    "financial": {
+      "revenue_trend": "growing",
+      "runway_months": 9,
+      "customer_concentration_percent": 45,
+      "audited_statements": false,
+      "no_material_litigation": true,
+      "credit_rating_acceptable": false
+    },
+    "compliance": {
+      "industry_certifications_current": false,
+      "gdpr_ccpa_compliant": false,
+      "dpa_signed": true,
+      "regulatory_audit_history_clean": true,
+      "right_to_audit_clause": true,
+      "data_residency_requirements_met": false
+    },
+    "operational": {
+      "sla_financial_penalties": true,
+      "uptime_trailing_12m_percent": 99.85,
+      "dr_tested_annually": false,
+      "single_point_of_failure": true,
+      "migration_plan_documented": false,
+      "api_export_capability": true,
+      "lock_in_risk_assessment": true
+    },
+    "data_handling": {
+      "data_classification_documented": false,
+      "retention_deletion_policies": false,
+      "breach_notification_hours": 96,
+      "data_portability_guaranteed": true,
+      "ai_ml_training_opt_out_available": false,
+      "access_logging_audit_trail": true
+    }
+  },
+  {
+    "name": "ShopScale CDN",
+    "slug": "shopscale-cdn",
+    "industry": "Ecommerce",
+    "function": "Content delivery network (CDN) & edge caching",
+    "security": {
+      "soc2_type_ii_current": true,
+      "pen_test_within_12_months": true,
+      "incident_response_plan": true,
+      "encryption_at_rest_and_transit": true,
+      "mfa_enforced": true,
+      "security_questionnaire_completed": true,
+      "subprocessor_list_disclosed": true
+    },
+    "financial": {
+      "revenue_trend": "growing",
+      "runway_months": 30,
+      "customer_concentration_percent": 12,
+      "audited_statements": true,
+      "no_material_litigation": true,
+      "credit_rating_acceptable": true
+    },
+    "compliance": {
+      "industry_certifications_current": true,
+      "gdpr_ccpa_compliant": true,
+      "dpa_signed": true,
+      "regulatory_audit_history_clean": true,
+      "right_to_audit_clause": true,
+      "data_residency_requirements_met": true
+    },
+    "operational": {
+      "sla_financial_penalties": true,
+      "uptime_trailing_12m_percent": 99.99,
+      "dr_tested_annually": true,
+      "single_point_of_failure": false,
+      "migration_plan_documented": true,
+      "api_export_capability": true,
+      "lock_in_risk_assessment": true
+    },
+    "data_handling": {
+      "data_classification_documented": true,
+      "retention_deletion_policies": true,
+      "breach_notification_hours": 24,
+      "data_portability_guaranteed": true,
+      "ai_ml_training_opt_out_available": true,
+      "access_logging_audit_trail": true
+    }
+  }
+]

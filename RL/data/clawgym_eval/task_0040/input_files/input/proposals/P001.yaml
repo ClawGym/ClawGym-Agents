@@ -1,0 +1,13 @@
+id: P001
+title: "Condition Monitoring with IoT Sensors"
+department: Maintenance
+capex_usd: 45000
+estimated_annual_benefit_usd: 90000
+readiness_score: 8
+risk_score: 3
+owner: "Maria Chen"
+pilot_site: "Press Line 2"
+timeline_quarters: 1
+dependencies:
+  - "Network upgrade in plant area B"
+  - "Vibration sensor vendor shortlist"

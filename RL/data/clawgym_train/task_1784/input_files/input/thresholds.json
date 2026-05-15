@@ -1,0 +1,14 @@
+{
+  "strengthenRate": 0.05,
+  "strengthenMinSuccessRate": 0.8,
+  "strengthenMinFires": 3,
+  "weakenRate": 0.10,
+  "weakenMaxSuccessRate": 0.5,
+  "weakenMinFires": 3,
+  "decayRate": 0.02,
+  "decayOnsetDays": 7,
+  "maxWeight": 0.95,
+  "minWeight": 0.05,
+  "instinctFloor": 0.8,
+  "reflexFloor": 0.2
+}

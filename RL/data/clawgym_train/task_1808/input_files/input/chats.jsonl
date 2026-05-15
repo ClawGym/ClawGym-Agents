@@ -1,0 +1,7 @@
+{"id":"T1001","timestamp":"2025-03-10T10:15:00Z","customer_id":"C234","product_sku":"PAN-200","message":"Coating started peeling after one week. I'd like to return it.","tags":["return","defective"]}
+{"id":"T1002","timestamp":"2025-03-11T14:02:00Z","customer_id":"C418","product_sku":"PAN-200","message":"Pan bottom warped on my gas stove. Need a return.","tags":["return","defective"]}
+{"id":"T1003","timestamp":"2025-03-12T09:30:00Z","customer_id":"C512","product_sku":"PAN-200","message":"It's smaller than I expected; want to send it back.","tags":["return","changed_mind"]}
+{"id":"T1004","timestamp":"2025-03-13T16:45:00Z","customer_id":"C127","product_sku":"BLN-110","message":"Blender motor has a burnt smell and stopped.","tags":["return","defective"]}
+{"id":"T1005","timestamp":"2025-03-14T11:20:00Z","customer_id":"C305","product_sku":"BLN-110","message":"It quit working on day two. I need a replacement or refund.","tags":["return","defective"]}
+{"id":"T1006","timestamp":"2025-03-15T08:10:00Z","customer_id":"C289","product_sku":"CHR-001","message":"Chair leg is wobbly; can I return it?","tags":["return","defective"]}
+{"id":"T1007","timestamp":"2025-03-15T13:55:00Z","customer_id":"C601","product_sku":"CRT-050","message":"I received navy curtains, not beige. Need to return.","tags":["return","wrong_item"]}

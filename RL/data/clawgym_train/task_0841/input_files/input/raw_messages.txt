@@ -1,0 +1,5 @@
+hey team — quick q: can we get updated numbers on how much infra $ we saved after moving more stuff into containers? feels like we said ~20% last month but I can't find it. also what's the plan for orchestrator migration? thx
+
+to: partner — thinking of highlighting containers in next LP note; feels like it's working but not sure if it's too in-the-weeds; we should probably show a couple data points? lmk
+
+pls hold time this week to review portfolio containerization status. 30 min? need to nail story before monday board mtg.

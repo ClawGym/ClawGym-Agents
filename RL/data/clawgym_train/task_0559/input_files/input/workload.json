@@ -1,0 +1,41 @@
+{
+  "tables": {
+    "orders": {
+      "rows": 28000000,
+      "size_gb": 135.2,
+      "writes_per_min": 600,
+      "last_analyze": "2026-04-10T03:12:00Z",
+      "last_vacuum": "2026-04-10T03:12:00Z",
+      "indexes": ["orders_pkey", "idx_orders_status", "idx_orders_created_at"]
+    },
+    "customers": {
+      "rows": 1200000,
+      "size_gb": 12.4,
+      "writes_per_min": 2,
+      "indexes": ["customers_pkey", "customers_email_key"]
+    }
+  },
+  "replication": {
+    "enabled": true,
+    "type": "asynchronous",
+    "lag_ms_p95": 180
+  },
+  "observations": {
+    "buffer_cache_hit_ratio": 0.96,
+    "cpu_spike_during_reports": true,
+    "lock_waits_observed": false
+  },
+  "access_patterns": {
+    "orders": [
+      "filter status = 'shipped'",
+      "filter created_at BETWEEN $start AND $end",
+      "order by created_at DESC, id DESC",
+      "join to customers on customer_id"
+    ],
+    "customers": [
+      "lookup by id",
+      "filter by region for reporting (no current index)"
+    ]
+  },
+  "notes": "Report endpoint uses deep OFFSET pagination (pages > 100), resulting in large intermediate sorts. Prepared statements are used with varying date ranges and regions; sometimes the date window is very wide (weeks), other times narrow (hours), which can lead to plan instability. Autovacuum is enabled but stats may be slightly stale between heavy ingest bursts. Treat orders as write-heavy; any new index must be considered for write amplification and bloat risk."
+}

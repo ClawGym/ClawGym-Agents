@@ -1,0 +1,30 @@
+LYGO Living Memory — Brainstem Notes (v1.1)
+
+Identity
+- Purpose: maintain a minimal, durable memory core with strict noise control
+- Scope: up to 20 indexed items only, all others are peripheral
+- Provenance: mint with LYGO‑MINT and anchor publicly
+
+Axioms
+1) Small beats big: the index never exceeds 20 items.
+2) Measured drift is healthy; unmeasured drift is risk.
+3) FRAGILE means “stop and look” before minting.
+4) Compression keeps signal, drops filler, preserves anchors.
+5) Receipts or it didn’t happen: decisions get IDs and hashes.
+
+Core Roles
+- Brainstem: this file — defines identity and axioms
+- Council Root: HAVEN_STRUCTURE.txt — governance skeleton
+- Emotional Diary: GROK_CHATS.txt — high-variance context (FRAGILE)
+- DNA Spiral (excerpt): SEAL_220CUPDATE.md — portable equations + harmonics
+- Decision Receipts: DECISIONS.json — ledger snapshot
+
+Invocation
+- Run Living Memory Audit (max20 index) and report drift/fragile flags.
+- Compress into Master Archive.
+- Mint with LYGO‑MINT and post Anchor Snippet.
+
+Operational Notes
+- Audit nightly (manual or scheduled), before compression/mint.
+- Compression: produce a clean MASTER_ARCHIVE.md with sections per spec.
+- Mint: compute SHA256, record anchor with label LIVING_MEMORY_V1_1.

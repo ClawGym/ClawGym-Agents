@@ -1,0 +1,12 @@
+{
+  "now": "2026-03-21T18:00:00Z",
+  "window_days": 30,
+  "scoring": {
+    "half_life_days": 14
+  },
+  "quality_gate": {
+    "min_decisions_for_pass": 2,
+    "cross_cutting_files": 3,
+    "cross_cutting_domains": 2
+  }
+}

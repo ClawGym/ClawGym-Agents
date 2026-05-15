@@ -1,0 +1,15 @@
+weights:
+  click_through_rate: 0.35
+  avg_time_seconds: 0.15
+  inverse_bounce: 0.15
+  conversions: 0.25
+  recency: 0.10
+  pipeline_stage_bonus:
+    awareness: 0.00
+    consideration: 0.02
+    decision: 0.05
+schedule:
+  start_date: "2026-05-01"
+  weeks: 4
+# Use this fixed date for recency calculations
+today: "2026-05-01"

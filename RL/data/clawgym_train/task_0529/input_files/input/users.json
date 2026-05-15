@@ -1,0 +1,42 @@
+[
+  {
+    "id": "u_admin_001",
+    "email": "alice.admin@townsquare.local",
+    "name": "Alice Admin",
+    "role": "admin",
+    "status": "active",
+    "createdAt": "2026-04-01T10:00:00Z"
+  },
+  {
+    "id": "u_mod_001",
+    "email": "moe.moderator@townsquare.local",
+    "name": "Moe Moderator",
+    "role": "moderator",
+    "status": "active",
+    "createdAt": "2026-04-01T11:00:00Z"
+  },
+  {
+    "id": "u_user_001",
+    "email": "bianca.user@townsquare.local",
+    "name": "Bianca User",
+    "role": "user",
+    "status": "active",
+    "createdAt": "2026-04-01T12:00:00Z"
+  },
+  {
+    "id": "u_user_002",
+    "email": "ravi.reader@townsquare.local",
+    "name": "Ravi Reader",
+    "role": "user",
+    "status": "active",
+    "createdAt": "2026-04-01T12:30:00Z"
+  },
+  {
+    "id": "u_user_003",
+    "email": "tina.writer@townsquare.local",
+    "name": "Tina Writer",
+    "role": "user",
+    "status": "active",
+    "createdAt": "2026-04-02T08:15:00Z"
+  }
+]

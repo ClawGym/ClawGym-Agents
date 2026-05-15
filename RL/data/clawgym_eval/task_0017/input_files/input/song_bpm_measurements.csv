@@ -1,0 +1,65 @@
+song,take_id,bar,bpm,valid
+Road Warrior,rw1,1,149,1
+Road Warrior,rw1,2,150,1
+Road Warrior,rw1,3,151,1
+Road Warrior,rw1,4,152,1
+Road Warrior,rw1,5,153,1
+Road Warrior,rw1,6,150,1
+Road Warrior,rw1,7,148,1
+Road Warrior,rw1,8,152,1
+Road Warrior,rw2,1,147,1
+Road Warrior,rw2,2,149,1
+Road Warrior,rw2,3,150,1
+Road Warrior,rw2,4,154,0
+Road Warrior,rw2,5,155,1
+Road Warrior,rw2,6,151,1
+Road Warrior,rw2,7,149,1
+Road Warrior,rw2,8,150,1
+Midnight Grind,mg1,1,119,1
+Midnight Grind,mg1,2,121,1
+Midnight Grind,mg1,3,122,1
+Midnight Grind,mg1,4,118,1
+Midnight Grind,mg1,5,120,1
+Midnight Grind,mg1,6,121,1
+Midnight Grind,mg1,7,119,1
+Midnight Grind,mg1,8,122,1
+Midnight Grind,mg2,1,118,1
+Midnight Grind,mg2,2,120,1
+Midnight Grind,mg2,3,123,0
+Midnight Grind,mg2,4,117,1
+Midnight Grind,mg2,5,119,1
+Midnight Grind,mg2,6,121,1
+Midnight Grind,mg2,7,118,1
+Midnight Grind,mg2,8,120,1
+Steady Hands,sh1,1,91,1
+Steady Hands,sh1,2,92,1
+Steady Hands,sh1,3,88,1
+Steady Hands,sh1,4,95,1
+Steady Hands,sh1,5,93,1
+Steady Hands,sh1,6,89,1
+Steady Hands,sh1,7,90,1
+Steady Hands,sh1,8,94,1
+Steady Hands,sh2,1,92,1
+Steady Hands,sh2,2,93,1
+Steady Hands,sh2,3,90,1
+Steady Hands,sh2,4,96,1
+Steady Hands,sh2,5,95,1
+Steady Hands,sh2,6,89,0
+Steady Hands,sh2,7,91,1
+Steady Hands,sh2,8,92,1
+Blue Collar Groove,bg1,1,100,1
+Blue Collar Groove,bg1,2,101,1
+Blue Collar Groove,bg1,3,99,1
+Blue Collar Groove,bg1,4,100,1
+Blue Collar Groove,bg1,5,100,1
+Blue Collar Groove,bg1,6,101,1
+Blue Collar Groove,bg1,7,99,1
+Blue Collar Groove,bg1,8,100,1
+Blue Collar Groove,bg2,1,99,1
+Blue Collar Groove,bg2,2,100,1
+Blue Collar Groove,bg2,3,100,1
+Blue Collar Groove,bg2,4,101,1
+Blue Collar Groove,bg2,5,100,1
+Blue Collar Groove,bg2,6,99,1
+Blue Collar Groove,bg2,7,100,1
+Blue Collar Groove,bg2,8,101,1

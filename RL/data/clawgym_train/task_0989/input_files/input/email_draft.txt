@@ -1,0 +1,16 @@
+Subject: Beta update on accessibility improvements in v1.3.0
+
+Hi all,
+
+Thank you for participating in our ongoing usability study focused on screen reader and keyboard users. We are shipping the v1.3.0 beta build that includes several accessibility fixes (navigation landmarks, color contrast tweaks, and improved focus management). The build is available now.
+
+What I need from you is to install this beta and run through the main flows, then tell us what still doesn’t work. I wrote too much detail below—sorry! The key items are buried, so please read carefully:
+
+- Please ensure you have time to test by April 30, 2026.
+- After installing, try: global navigation with a screen reader, search field behavior, modals, and Settings.
+- Share feedback via the survey at [survey link] or by replying to this email.
+
+If you hit blockers (e.g., keyboard traps, unlabeled controls), include your OS, browser, AT, and steps to reproduce.
+
+Thanks again for your help!
+—Alex

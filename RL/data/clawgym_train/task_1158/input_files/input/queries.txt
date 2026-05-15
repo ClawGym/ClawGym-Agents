@@ -1,0 +1,10 @@
+nginx proxy pass site down
+database timeouts connections pool
+rotated logs freed space
+cpu throttling cleaned fans heat
+rolled back service restored deploy crash
+restarted service memory leak
+dns flushed cache names resolved
+worker instances queue drained scaling
+cache warmed prefetch latency improved
+service restored

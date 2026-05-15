@@ -1,0 +1,34 @@
+compliance_requirements:
+  - GDPR
+  - CCPA
+  - PCI DSS SAQ A
+  - SOC 2 (target within 12 months)
+risk_tolerance: moderate
+data_handling:
+  pii_types:
+    - name
+    - email
+    - hashed_password
+    - shipping_address
+    - phone_optional
+    - ip_address
+    - order_history
+  payments:
+    processor: Stripe
+    card_data_storage: none  # Stripe Elements handles card entry; FreshCart never stores PANs
+    pci_scope: SAQ A
+  analytics:
+    consent_gated: true
+    ip_anonymization: true
+  data_retention:
+    default: "24 months"
+    logs_application: "30 days"
+    logs_security: "90 days"
+regions:
+  hosting: "AWS us-east-1"
+  customers:
+    - US
+    - EU
+breach_notification:
+  gdpr_window: "72 hours"
+  ccpa_supported: true

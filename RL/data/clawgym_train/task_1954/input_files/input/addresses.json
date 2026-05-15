@@ -1,0 +1,14 @@
+{
+  "scn-001": {
+    "address": "48vKMSzWMF9b3YVXpFZ3XnNd8J6rQqgdbS5o2pQ1Z9p4G8Z2nC1j4Z1s9a8x3mR7YQ2hbX3H8QkG3Z9QdQs5n1P3Tr8kVx9s7W",
+    "memo": null
+  },
+  "scn-002": {
+    "address": "rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh",
+    "memo": "12345678"
+  },
+  "scn-003": {
+    "address": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+    "memo": null
+  }
+}

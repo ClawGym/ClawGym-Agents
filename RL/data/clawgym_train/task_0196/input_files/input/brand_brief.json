@@ -1,0 +1,128 @@
+{
+  "brand_name": "AuroraCharge",
+  "tagline": "Charge with confidence",
+  "founded": "2022",
+  "mission": "To make clean, reliable electric mobility effortless by providing accessible, fast, and trustworthy charging wherever people go.",
+  "vision": "A future where every journey is powered by renewable energy and charging is as simple as a sunrise.",
+  "core_values": [
+    "Reliability",
+    "Sustainability",
+    "Simplicity",
+    "Customer-first",
+    "Innovation"
+  ],
+  "industry": "Electric Vehicle Charging Infrastructure",
+  "market_segment": "Consumer and Fleet EV charging",
+  "brand_history": "AuroraCharge launched in 2022 with a focus on dependable EV charging in underserved regions. In 2025 the network expanded into urban corridors with fast-charging hubs powered by renewable PPAs.",
+  "business_goals": [
+    "Reach 95% network uptime across all stations",
+    "Expand to 2,000 fast-charge locations by end of fiscal year",
+    "Maintain NPS of 60+ through improved support and app experience",
+    "Match 100% of charging energy with renewable sources by 2027"
+  ],
+  "target_audience": {
+    "primary": {
+      "description": "EV owners aged 28-55 who commute daily and take occasional road trips",
+      "demographics": {
+        "age": "28-55",
+        "income": "60k-150k",
+        "regions": "Suburban and urban corridors in the US"
+      },
+      "psychographics": [
+        "Eco-conscious but pragmatic",
+        "Time-sensitive and convenience-focused",
+        "Tech-comfortable but expects simplicity"
+      ],
+      "pain_points": [
+        "Range anxiety and uncertainty about charger availability",
+        "Inconsistent pricing and unclear fees",
+        "Unreliable chargers and poor maintenance"
+      ]
+    },
+    "secondary": {
+      "description": "Small fleet operators and rideshare drivers needing predictable charging",
+      "priorities": [
+        "Predictable costs",
+        "Station availability and congestion management",
+        "24/7 support"
+      ]
+    }
+  },
+  "competitive_context": {
+    "key_competitors": [
+      "VoltHub",
+      "EcoCharge Network",
+      "RapidZap",
+      "GridGo"
+    ],
+    "differentiation": "Transparent uptime reporting, simple pricing, and a human-friendly app UI with reliable station information."
+  },
+  "visual_identity": {
+    "logo": {
+      "description": "A stylized aurora wave forming a subtle lightning bolt within a circle, paired with a clean wordmark.",
+      "usage_notes": "Use full lockup on light backgrounds; reversed mark on dark backgrounds. Maintain clear space equal to the height of the letter 'A' in the wordmark."
+    },
+    "colors": {
+      "primary": "#1E88E5",
+      "secondary": "#00C853",
+      "neutrals": {
+        "black": "#111111",
+        "gray": "#6B7280",
+        "light_gray": "#E5E7EB",
+        "white": "#FFFFFF"
+      },
+      "usage_ratio": {
+        "primary": "60%",
+        "secondary": "25%",
+        "neutrals": "15%"
+      }
+    },
+    "typography": {
+      "primary": "Inter",
+      "secondary": "Source Sans Pro",
+      "hierarchy": {
+        "H1": "Inter Bold 36px / 44px",
+        "H2": "Inter SemiBold 28px / 36px",
+        "H3": "Inter SemiBold 22px / 30px",
+        "Body": "Source Sans Pro Regular 16px / 24px",
+        "Caption": "Source Sans Pro Regular 13px / 18px"
+      }
+    },
+    "imagery": {
+      "photography_style": "Real people, on-the-go moments, dawn/dusk lighting with natural color grading.",
+      "illustration_style": "Minimal line illustrations with soft gradients echoing aurora forms."
+    },
+    "design_elements": [
+      "Subtle aurora gradient overlays (top-to-bottom)",
+      "Rounded corner cards (8px radius)",
+      "Bold, clear CTAs with high-contrast buttons"
+    ],
+    "accessibility": {
+      "wcag_goal": "Meet WCAG 2.1 AA contrast and interaction standards across web and app surfaces",
+      "min_contrast_ratio": "4.5:1 for body text; 3:1 for large text",
+      "notes": "Avoid color-only indicators; provide descriptive labels on forms and controls."
+    }
+  },
+  "voice_summary": {
+    "personality_traits": [
+      "Confident",
+      "Optimistic",
+      "Helpful",
+      "Pioneering",
+      "Clear & Human"
+    ],
+    "tone": "Empowering, friendly, and concise. Adjusts to context: instructional in support, inspiring in marketing."
+  },
+  "archetype_hypothesis": {
+    "primary": "Explorer",
+    "secondary": "Hero",
+    "rationale": "Explorer reflects freedom and discovery in electric mobility; Hero emphasizes dependable performance and overcoming range anxiety."
+  },
+  "brand_touchpoints": [
+    "Website",
+    "Social Media",
+    "Email",
+    "Mobile App",
+    "In-station signage"
+  ]
+}

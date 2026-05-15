@@ -1,0 +1,5 @@
+school_id,school_name,method,year,students_tested,avg_score,median_score
+S101,School Alpha,Project-Based Learning,2023,62,74,74
+S102,School Beta,Block Scheduling,2023,43,70,70
+S103,School Gamma,Flipped Classroom,2023,29,76,76
+S104,School Delta,Traditional,2023,35,66,66

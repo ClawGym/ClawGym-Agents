@@ -1,0 +1,7 @@
+[INFO] Starting glossary-based translation pass
+[INFO] Loaded 19 glossary entries
+[INFO] Reading input/orders.csv
+[WARNING] Order ID 103: Unknown term "Basques"
+[WARNING] Order ID 106: Unknown term "galons"
+[ERROR] Row 8 (Order ID 108): UnicodeDecodeError: invalid start byte
+[INFO] Completed with 2 warnings, 1 error

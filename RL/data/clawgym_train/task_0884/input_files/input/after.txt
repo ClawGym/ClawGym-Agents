@@ -1,0 +1,28 @@
+## Summary
+This revision proposes a phased rollout of the analytics update with clear safeguards and observable checkpoints. The plan prioritizes a contained surface area first, establishes measurable success criteria, and documents an explicit rollback path. The objective is to ship a thin, verifiable slice, confirm stability and usefulness, and then expand confidently.
+
+## Recommendations
+- Start with the customer support dashboard as the initial cohort. It is operationally isolated and easy to monitor.
+- Maintain the current event schema for the first phase and gate new processing paths behind a feature flag.
+- Roll out in stages: 5% → 25% → 100%, advancing only after 24 hours of stable metrics at each stage.
+- Track key indicators: error rate, P95 latency, dashboard load time, and event loss. Define acceptable bounds before launch.
+- Configure alerts at production thresholds from day one. Include runbooks that specify “investigate,” “mitigate,” and “rollback” steps.
+- Prepare a one-page guide and a 5-minute screencast for users. Share in the team channel and pin to the dashboard help menu.
+- Publish a change log entry and a weekly note summarizing adoption and performance to reinforce awareness.
+
+## Risks
+- Performance regression under peak load
+  - Mitigation: pre-warm caches, verify autoscaling policies, and load-test the heaviest queries before the first 25% step.
+- Data quality drift from schema assumptions
+  - Mitigation: add validation checks at ingestion and a nightly reconciliation job against the warehouse.
+- Dashboard usability issues
+  - Mitigation: record session metrics, open a feedback form link on the dashboard, and triage weekly.
+
+## Rollout Plan
+- Week 0: finalize success criteria, rollback procedure, and alert thresholds. Sign off with owners for data, platform, and PM.
+- Day 1: enable feature flag to 5%, monitor 24 hours, publish a brief status update.
+- Day 2–3: increase to 25% if indicators stay within bounds; rerun targeted load tests; confirm documentation is accurate and accessible.
+- Day 4+: expand to 100% only after a stable 48-hour window. Keep rollback available for one full release cycle.
+
+## Notes
+This version removes flattery and filler, uses direct language, and includes explicit headers that match the required sections. It favors measurable criteria and actionable steps so that stakeholders can verify progress without ambiguity.

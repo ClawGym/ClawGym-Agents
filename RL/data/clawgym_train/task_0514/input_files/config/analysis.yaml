@@ -1,0 +1,7 @@
+score_field: avg_score
+min_valid_students: 25
+pilot_html_path: meta/pilots.html
+experimental_methods:
+  - Project-Based Learning
+  - Flipped Classroom
+# NOTE: Before running, set min_valid_students to 30 and add "Block Scheduling" to experimental_methods.

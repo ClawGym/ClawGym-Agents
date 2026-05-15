@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0554",
+  "user_query": "I'm preparing a tiny internal microsite to document a CLI. Please read the content and navigation from input/site_content.yaml and input/nav.json, then generate a 3-page static site with:\n- output/site/index.html (Home)\n- output/site/docs.html (Docs)\n- output/site/contact.html (Contact)\n\nRequirements:\n1) Build clean, self-contained HTML pages (no external assets) with a shared header/nav so all three pages link to each other using relative links that work when served from a directory.\n2) Start a local Python static server to preview the site. Validate that each page loads and the nav links work. Then document exactly how to run it in output/serve_instructions.md, including commands to serve the output/site directory on the default port 8000 and on a custom port 9000. Include the exact URLs a tester can click (e.g., http://localhost:8000/index.html, etc.) for both ports.\n3) Create output/urls.json enumerating all localhost URLs for both ports (8000 and 9000) for each page.\n4) Create output/server_log.txt summarizing what you did to preview locally: include the command(s) you ran and the list of URLs you visited to validate the pages. Use only a local server; do not rely on any external network resources.\n\nMake sure all outputs are written under output/ with the exact paths above, and keep everything strictly static HTML/CSS with relative links. If you create any shared CSS, keep it inline or in output/site/ as a local file. The instructions should be clear enough that any teammate can reproduce the local preview quickly.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

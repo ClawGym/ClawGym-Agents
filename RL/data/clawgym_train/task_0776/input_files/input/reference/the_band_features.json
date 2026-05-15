@@ -1,0 +1,26 @@
+{
+  "call_and_response": {
+    "fields": ["lyrics"],
+    "patterns": ["call and response", "call & response"],
+    "all_of": false,
+    "notes": "Detects explicit phrases common in The Band's live exchanges."
+  },
+  "piano_organ_combo": {
+    "fields": ["instruments"],
+    "patterns": ["piano", "organ"],
+    "all_of": true,
+    "notes": "Garth Hudson + Richard Manuel texture."
+  },
+  "roots_rock_shuffle": {
+    "fields": ["feel"],
+    "patterns": ["roots-rock shuffle", "shuffle"],
+    "all_of": false,
+    "notes": "Loose, swinging shuffle feel."
+  },
+  "storytelling_verses": {
+    "fields": ["lyrics"],
+    "patterns": ["story", "narrative"],
+    "all_of": false,
+    "notes": "Plainspoken narrative language in verses."
+  }
+}

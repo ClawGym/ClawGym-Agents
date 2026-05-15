@@ -1,0 +1,89 @@
+{
+  "subject": "AI Ops Co-pilot",
+  "competitors": [
+    "PagerDuty",
+    "Datadog",
+    "New Relic",
+    "Opsgenie",
+    "BigPanda",
+    "Moogsoft",
+    "Splunk",
+    "Grafana"
+  ],
+  "markets": [
+    "AIOps",
+    "Incident Management",
+    "SRE",
+    "Observability",
+    "Runbook Automation",
+    "ITSM",
+    "FinOps",
+    "DevOps"
+  ],
+  "stakeholders": [
+    "CTO",
+    "SRE Lead",
+    "Head of Platform",
+    "On-call Engineer",
+    "SecOps Manager"
+  ],
+  "personas": [
+    {
+      "name": "Alice Chen",
+      "role": "CTO",
+      "goals": ["Reliability at scale", "Reduce MTTR", "Control costs"],
+      "concerns": ["Data privacy", "Integration risk", "Vendor lock-in"]
+    },
+    {
+      "name": "Ravi Patel",
+      "role": "SRE Lead",
+      "goals": ["Lower alert noise", "Faster triage", "Consistent runbooks"],
+      "concerns": ["False positives", "Change control", "On-call fatigue"]
+    }
+  ],
+  "constraints": [
+    "SOC 2 Type II in progress; must provide security artifacts",
+    "Cloud-only initially; no air-gapped/on-prem for MVP",
+    "No autonomous production write access at launch (approval required)",
+    "PII must be redacted before model access; EU data residency option needed",
+    "Must support Slack at launch; Teams preferred as fast follow",
+    "Initial budget for build/pilot capped at $200k"
+  ],
+  "integrations": {
+    "ingest": [
+      "Datadog",
+      "New Relic",
+      "AWS CloudWatch",
+      "Kubernetes",
+      "GitHub"
+    ],
+    "workflow": [
+      "Slack",
+      "Jira",
+      "ServiceNow"
+    ],
+    "actions": [
+      "Kubernetes",
+      "AWS",
+      "Terraform"
+    ]
+  },
+  "pricing_signals": {
+    "per_seat_monthly_usd": 25,
+    "included_action_credits": 5000,
+    "overage_per_action_usd": 0.05,
+    "discount_threshold_seats": 100
+  },
+  "roi_hypotheses": [
+    "20-40% MTTR reduction within 90 days for pilot service",
+    "30-50% alert noise reduction via correlation and deduplication",
+    "Increased runbook adherence and reusable automations"
+  ],
+  "kpis": [
+    "MTTR",
+    "Alert-to-action latency",
+    "Automated-first-action rate",
+    "False suggestion rate",
+    "Runbook reuse rate"
+  ]
+}

@@ -1,0 +1,8 @@
+Subject: Insignia audit status
+
+Hi team,
+
+I kicked off a preliminary quality check on the four insignia assets in our package (assets/insignia). On first pass, I’m seeing a few issues: eagle.svg has a red fill that’s outside the approved palette, there’s at least one file with strokes not set to 1.5px, and one star variant appears to use more colors than allowed. My plan is to normalize fills to #0A1F44, #D4AF37, and #FFFFFF, and correct all stroke widths to 1.5px, then re-export. I can deliver a corrected set and a brief summary within two business days from today (end of day Wednesday). Please let me know if you prefer a different approach or palette changes.
+
+Thanks,
+Alex

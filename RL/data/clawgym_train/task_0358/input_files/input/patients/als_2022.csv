@@ -1,0 +1,6 @@
+patient_id,disease,year,age,sex,resp_support,medications,function_score
+A001,ALS,2022,58,F,NIV,"Riluzole;Baclofen",36
+A002,ALS,2022,62,M,None,"Baclofen",40
+A003,ALS,2022,55,M,NIV,"Riluzole",34
+A004,ALS,2022,49,F,Trach,"Edaravone",28
+A005,ALS,2022,70,F,None,"None",30

@@ -1,0 +1,11 @@
+Programa Piloto de Intervenciones en Distritos Costeros
+
+== Hallazgos Clave ==
+- La ayuda en efectivo permitió a los hogares priorizar necesidades, pero la cobertura móvil limitada retrasó los pagos. [E1]
+- La reducción de riesgos de desastres debe integrarse con transferencias y capacitación comunitaria para fortalecer la resiliencia comunitaria. [E2]
+- Persisten brejas en rendición de cuentas y mecanismos de quejas accesibles en zonas rurales. [E3]
+
+== Recomendaciones ==
+- Establecer mecanismos de quejas simplificados y públicos para programas de ayuda en efectivo. [E4]
+- Ofrecer capacitaciones en reducción de riesgos de desastres (DRR) junto con transferencias condicionadas para medios de vida. [E5]
+- Mejorar el acceso a alojamiento temporal cerca de mercados durante emergencias. [E6]

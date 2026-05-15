@@ -1,0 +1,6 @@
+{
+  "resolution_rate": {"weight": 0.45, "higher_is_better": true},
+  "csat": {"weight": 0.30, "higher_is_better": true},
+  "avg_first_response_secs": {"weight": 0.15, "higher_is_better": false},
+  "cost_per_resolution_usd": {"weight": 0.10, "higher_is_better": false}
+}

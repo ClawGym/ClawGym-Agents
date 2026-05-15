@@ -1,0 +1,6 @@
+{"id":"ses-001","project_id":"proj-1","directory":"/home/user/projects/alpha/src","title":"Bug Bash","time_created":1779540000000,"time_updated":1779550000000,"summary_files":2,"summary_additions":10,"summary_deletions":4}
+{"id":"ses-002","project_id":"proj-1","directory":"/home/user/projects/alpha","title":"Refactor Plan","time_created":1779580000000,"time_updated":1779599999000,"summary_files":5,"summary_additions":42,"summary_deletions":13}
+{"id":"ses-003","project_id":"proj-2","directory":"/home/user/projects/beta","title":"Beta Experiment","time_created":1779594000000,"time_updated":1779595000000,"summary_files":1,"summary_additions":5,"summary_deletions":2}
+{"id":"ses-004","project_id":"proj-3","directory":"/home/user/projects/alpha-tools","title":"Automation","time_created":1779505000000,"time_updated":1779510000000,"summary_files":3,"summary_additions":20,"summary_deletions":2}
+{"id":"ses-005","project_id":"proj-3","directory":"/home/user/projects/alpha-tools/scripts","title":"Release Prep","time_created":1779595000000,"time_updated":1779600000000,"summary_files":4,"summary_additions":33,"summary_deletions":9}
+{"id":"ses-006","project_id":"proj-1","directory":"/home/user/projects/alpha/legacy","title":"Legacy Cleanup","time_created":1779390000000,"time_updated":1779400000000,"summary_files":1,"summary_additions":3,"summary_deletions":1}

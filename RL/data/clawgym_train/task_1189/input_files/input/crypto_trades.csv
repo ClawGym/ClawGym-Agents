@@ -1,0 +1,5 @@
+date,asset,type,units,unit_price_usd,notes
+2025-02-14,BTC,buy,0.50,48000,Initial BTC purchase
+2025-06-01,BTC,buy,0.25,62000,Added to BTC position
+2025-09-15,BTC,sell,0.25,71000,Partial sale
+2025-11-30,BTC,sell,0.25,95000,Partial sale before year-end

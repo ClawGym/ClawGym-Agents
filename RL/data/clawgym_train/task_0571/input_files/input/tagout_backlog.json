@@ -1,0 +1,58 @@
+[
+  {
+    "action": "apply",
+    "asset": "Boiler-3",
+    "location": "Plant A - Boiler Room",
+    "reason": "Scheduled maintenance: pressure relief valve inspection",
+    "person": "S. Ortega",
+    "test": false
+  },
+  {
+    "action": "apply",
+    "asset": "Conveyor-1",
+    "location": "Plant A - Packaging",
+    "reason": "Belt replacement",
+    "person": "J. Kim",
+    "test": false
+  },
+  {
+    "action": "remove",
+    "asset": "Boiler-3",
+    "location": "Plant A - Boiler Room",
+    "reason": "Maintenance complete; cleared for startup",
+    "person": "S. Ortega",
+    "test": false
+  },
+  {
+    "action": "apply",
+    "asset": "Press-2",
+    "location": "Plant B - Stamping",
+    "reason": "Hydraulic leak containment",
+    "person": "L. Patel",
+    "test": false
+  },
+  {
+    "action": "remove",
+    "asset": "Conveyor-1",
+    "location": "Plant A - Packaging",
+    "reason": "Tension verified; guards reinstalled",
+    "person": "J. Kim",
+    "test": false
+  },
+  {
+    "action": "apply",
+    "asset": "MCC-Panel-4",
+    "location": "Plant B - Electrical",
+    "reason": "Breaker replacement and torque check",
+    "person": "A. Rivera",
+    "test": false
+  },
+  {
+    "action": "apply",
+    "asset": "Pump-7",
+    "location": "Plant C - Wastewater",
+    "reason": "Cavitation inspection (test)",
+    "person": "T. Nguyen",
+    "test": true
+  }
+]

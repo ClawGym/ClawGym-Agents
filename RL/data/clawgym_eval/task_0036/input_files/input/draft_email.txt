@@ -1,0 +1,10 @@
+Subject: quick recap on sensor pilot numbers
+
+Hi team,
+
+I've pulled some early numbers from the energy sensor pilot. They're kinda promising but also a bit mixed. Average reduction across sites looks like {{MEAN_PCT_REDUCTION}}%. The combined payback, if we roll out similarly, would be around {{PORTFOLIO_PAYBACK_MONTHS}} months. Can you convert this into something that reads cleanly for leadership?
+
+Notes: This is based on 30-day months and the vendor’s latest pricing. Let me know if you need the tables.
+
+Thanks,
+Alex

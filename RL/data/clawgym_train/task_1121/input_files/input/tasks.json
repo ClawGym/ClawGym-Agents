@@ -1,0 +1,91 @@
+[
+  {
+    "id": "T001",
+    "description": "Translate a 2-paragraph email to French",
+    "category_hint": "simple",
+    "estimated_output_tokens": 300
+  },
+  {
+    "id": "T002",
+    "description": "Summarize customer feedback into 5 bullet points",
+    "category_hint": "simple",
+    "estimated_output_tokens": 500
+  },
+  {
+    "id": "T003",
+    "description": "Draft a blog introduction on AI ethics",
+    "category_hint": "creative",
+    "estimated_output_tokens": 800
+  },
+  {
+    "id": "T004",
+    "description": "Debug a Python TypeError in a Flask app",
+    "category_hint": "coding",
+    "estimated_output_tokens": 1500
+  },
+  {
+    "id": "T005",
+    "description": "Design a database schema for event tracking",
+    "category_hint": "architecture",
+    "estimated_output_tokens": 2000
+  },
+  {
+    "id": "T006",
+    "description": "Extract entities (company, date) from a news article",
+    "category_hint": "simple",
+    "estimated_output_tokens": 700
+  },
+  {
+    "id": "T007",
+    "description": "Write unit tests for a data processing module",
+    "category_hint": "coding",
+    "estimated_output_tokens": 1200
+  },
+  {
+    "id": "T008",
+    "description": "Analyze A/B test results and recommend actions",
+    "category_hint": "analysis",
+    "estimated_output_tokens": 1600
+  },
+  {
+    "id": "T009",
+    "description": "Create a product spec outline for a new feature",
+    "category_hint": "analysis",
+    "estimated_output_tokens": 1100
+  },
+  {
+    "id": "T010",
+    "description": "General Q&A: explain backpropagation simply",
+    "category_hint": "simple"
+  },
+  {
+    "id": "T011",
+    "description": "Summarize a 5-page research report",
+    "category_hint": "summarization",
+    "estimated_output_tokens": 1800
+  },
+  {
+    "id": "T012",
+    "description": "Refactor legacy Java code for maintainability",
+    "category_hint": "coding",
+    "estimated_output_tokens": 2500
+  },
+  {
+    "id": "T013",
+    "description": "Brainstorm 10 tagline options for a marketing campaign",
+    "category_hint": "creative",
+    "estimated_output_tokens": 600
+  },
+  {
+    "id": "T014",
+    "description": "Translate product descriptions into Spanish",
+    "category_hint": "translation",
+    "estimated_output_tokens": 900
+  },
+  {
+    "id": "T015",
+    "description": "Security review checklist for a new microservice",
+    "category_hint": "analysis",
+    "estimated_output_tokens": 1300
+  }
+]

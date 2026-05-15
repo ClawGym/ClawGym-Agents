@@ -1,0 +1,7 @@
+{
+  "openclaw": {
+    "emoji": "🧯",
+    "homepage": "https://clawhub.ai/NakedoShadow/incident-postmortem-writer",
+    "os": ["darwin", "linux", "win32"]
+  }
+}

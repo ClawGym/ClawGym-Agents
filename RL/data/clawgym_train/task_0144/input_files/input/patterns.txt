@@ -1,0 +1,5 @@
+All API handlers in src/api/handlers/
+Middleware chain: auth -> validate -> handler
+Error format: { error: string, code: number }
+Rate limiting applied via src/middleware/rateLimit.ts
+Request/Response types defined in src/types/index.ts

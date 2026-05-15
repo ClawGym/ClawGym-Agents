@@ -1,0 +1,7 @@
+project_id,project_name,owner,status,next_milestone,milestone_date,risk_level,notes
+P001,Edge Analytics Integration,Maria Chen,Scaling,Roll out to 2 sites,2026-05-07,Low,Vendor SDK v2 approved
+P002,RPA Invoice Processing,Liam Patel,Scaling,Add 3 departments,2026-05-15,Low,Stable throughput
+P003,GenAI Knowledge Assistant,Ayesha Khan,Pilot,Mitigate hallucinations,2026-05-10,High,Escalated: quality issues in domain-specific queries
+P004,IoT Predictive Maintenance,Daniel Ortiz,Pilot,Sensor calibration,2026-05-27,Low,Delayed vendor shipment
+P006,Digital Twin Simulation,Noah Smith,Pilot,Build POC,2026-05-25,Medium,Kicked off sprint 1
+P007,Edge Compute Security,Ethan Wu,Assessment,Threat model,2026-05-22,Medium,Partner shortlist

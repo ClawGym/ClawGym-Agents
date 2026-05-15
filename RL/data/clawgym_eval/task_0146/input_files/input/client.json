@@ -1,0 +1,20 @@
+{
+  "client_name": "Ava Carter",
+  "project_name": "Company Analytics Dashboard",
+  "project_scope": [
+    "Define core KPIs with stakeholders",
+    "Set up data ingestion from Stripe, HubSpot, and PostgreSQL",
+    "Build role-based dashboards for Executive, Marketing, and Operations",
+    "Implement automated weekly email reports",
+    "Provide documentation and handover training"
+  ],
+  "timeline": "6 weeks",
+  "package_to_quote": "Analytics Dashboard",
+  "freelancer_name": "Jordan Lee",
+  "voucher_type": "Sales Invoice",
+  "voucher_id": "INV-2026-00027",
+  "posting_date": "2026-04-15",
+  "retainer_percent": 40,
+  "bank_account_name": "Bank - Checking (USD)",
+  "unearned_revenue_account_name": "Unearned Revenue"
+}

@@ -1,0 +1,32 @@
+{
+  "Yuyuan Road": {
+    "city": "Shanghai",
+    "district": "Changning",
+    "neighborhood": "Yuyuan Road"
+  },
+  "Changning Finance Park": {
+    "city": "Shanghai",
+    "district": "Changning",
+    "neighborhood": "Changning Finance Park"
+  },
+  "East Village": {
+    "city": "New York",
+    "district": "Manhattan",
+    "neighborhood": "East Village"
+  },
+  "3rd Ave near 10th St": {
+    "city": "New York",
+    "district": "Manhattan",
+    "neighborhood": "East Village"
+  },
+  "Jing'an": {
+    "city": "Shanghai",
+    "district": "Jing'an",
+    "neighborhood": "Jing'an"
+  },
+  "Nanjing West": {
+    "city": "Shanghai",
+    "district": "Jing'an",
+    "neighborhood": "Nanjing West"
+  }
+}

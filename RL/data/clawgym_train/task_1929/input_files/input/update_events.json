@@ -1,0 +1,12 @@
+{
+  "clawdbot_before": "v2026.1.9",
+  "clawdbot_after": "v2026.1.10",
+  "skillsUpdated": [
+    { "name": "browser", "from": "1.2.0", "to": "1.2.1" },
+    { "name": "prd", "from": "2.0.3", "to": "2.0.4" }
+  ],
+  "skillsCurrent": ["gemini", "sag", "things-mac"],
+  "skillsFailed": [
+    { "name": "nano-banana-pro", "error": "Network timeout while downloading v3.1.2" }
+  ]
+}

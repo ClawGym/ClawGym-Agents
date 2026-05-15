@@ -1,0 +1,6 @@
+example.com
+www.google.com
+api.github.com:443
+cloudflare.com
+internal.example.lan:8443
+bad.host.invalid

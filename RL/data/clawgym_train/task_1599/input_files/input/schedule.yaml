@@ -1,0 +1,13 @@
+labelPolicy: "Exactly one DAILY generated after 03:00 if none exists; otherwise HOURLY for all other runs on the same day."
+retention:
+  maxDays: 7
+  hourlyRetentionHours: 24
+timestamps:
+  - "2026-05-05T08:30:00Z"
+  - "2026-05-05T09:30:00Z"
+  - "2026-05-05T10:30:00Z"
+cloud:
+  enabled: true
+  remoteDest: "acme-remote:ai-backups"
+passwordSource: "config"
+notes: "Do not print or store the plaintext password in any output. If shown, must be REDACTED."

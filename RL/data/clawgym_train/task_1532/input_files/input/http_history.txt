@@ -1,0 +1,5 @@
+GET http://example.test/search?q=hello&page=1
+GET http://shop.example.test/product?id=42&ref=home
+POST http://example.test/submit
+GET http://example.test/search?q=test&page=2
+GET http://example.test/profile?user=bob

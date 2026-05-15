@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-04-15T12:33:20Z",
+  "outdated_ratio_percent": 12,
+  "outdated_total": 7,
+  "total_dependencies": 58,
+  "outdated_packages": [
+    {
+      "name": "axios",
+      "current": "0.27.2",
+      "latest": "1.6.0",
+      "type": "npm"
+    },
+    {
+      "name": "react",
+      "current": "17.0.2",
+      "latest": "18.3.0",
+      "type": "npm"
+    },
+    {
+      "name": "typescript",
+      "current": "4.9.5",
+      "latest": "5.6.3",
+      "type": "npm"
+    },
+    {
+      "name": "eslint",
+      "current": "8.17.0",
+      "latest": "9.2.0",
+      "type": "npm"
+    },
+    {
+      "name": "requests",
+      "current": "2.31.0",
+      "latest": "2.32.3",
+      "type": "pip"
+    },
+    {
+      "name": "flask",
+      "current": "2.2.5",
+      "latest": "3.0.3",
+      "type": "pip"
+    },
+    {
+      "name": "gunicorn",
+      "current": "20.1.0",
+      "latest": "21.2.0",
+      "type": "pip"
+    }
+  ],
+  "notes": "Renovate is enabled weekly; top-risk packages scheduled for upgrade next sprint."
+}

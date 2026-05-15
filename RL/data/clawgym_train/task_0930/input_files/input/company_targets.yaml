@@ -1,0 +1,24 @@
+company_name: NimbusSoft
+year: 2026
+sector: SaaS
+target_revenue: 12000000
+planned_features: 24
+dev_weeks_per_feature: 8
+projected_customers: 2400
+tickets_per_customer_per_month: 0.8
+tickets_per_agent_per_month: 120
+available_dev_weeks_per_engineer_per_quarter: 10
+target_spans_by_function:
+  Engineering: 7
+  Sales: 8
+  Support: 12
+  Marketing: 8
+  G&A: 8
+diversity_targets:
+  female_representation_pct: 40
+  underrepresented_minorities_pct: 30
+approved_labor_budget: 7800000
+notes:
+  - Revenue-per-employee baseline should be selected within SaaS benchmark range.
+  - Driver-based models intended for Support (tickets) and Engineering (feature throughput).
+  - Managerial spans reflect target spans by function for planning.

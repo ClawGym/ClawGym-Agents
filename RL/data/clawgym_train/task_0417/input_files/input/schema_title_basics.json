@@ -1,0 +1,5 @@
+{
+  "source": "IMDb Datasets 'title.basics.tsv.gz'",
+  "required_columns": ["tconst", "titleType", "primaryTitle", "isAdult", "startYear", "runtimeMinutes", "genres"],
+  "filter_title_types": ["movie", "tvMovie"]
+}

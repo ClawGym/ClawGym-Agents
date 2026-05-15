@@ -1,0 +1,11 @@
+date: "2026-02-22"
+signals:
+  ma_200_slope: rising
+  breadth_percent_above_200: 62
+  vix_level: 17
+  credit_spreads: tightening
+  yield_curve: inverted
+  liquidity: expanding
+  commentary: "Rising 200MA with >60% breadth and VIX <20 indicate a Bull Trend backdrop favoring trend-following with standard position sizes."
+regime: "Bull Trend"
+position_size_guidance: "Full size allowed within hard limits (≤2% risk per trade, ≤10% single-position weight, ≤15% portfolio heat)."

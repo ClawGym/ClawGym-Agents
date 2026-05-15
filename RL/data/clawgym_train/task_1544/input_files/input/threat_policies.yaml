@@ -1,0 +1,22 @@
+runtime_security:
+  enforcement_mode: warn_only
+  checks_reference: output/security/runtime_checks.json
+  logging:
+    enabled: true
+    path: output/security/audit.log
+    format: jsonl
+    rotate: false
+  monitored_tools:
+    - exec
+    - write
+    - edit
+    - browser
+    - web_fetch
+    - message
+  exclusions:
+    paths: []
+    principals: []
+governance:
+  approvals_required: false
+  escalation_contact: "security@nimbuslabs.example"
+  notes: "Runtime guard operates in warn-only mode due to platform limitations; blocking can be enabled later."

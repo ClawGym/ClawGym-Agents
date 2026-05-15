@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0697",
+  "user_query": "We’re preparing a documentation QA and an API planning review. Please do the following:\n\n1) Read all Markdown files under input/ recursively (start at input/README.md) and validate relative links. Ignore http/https links and intra-file anchors (#). Write a JSON report at output/report.json using this structure: an array of objects, each with: file (string path), valid (boolean), and brokenLinks (array of objects with text, url, line). Paths must be relative to the workspace (e.g., input/README.md).\n\n2) Create a remediation plan at output/fix-plan.md. Include a Broken Links Summary section listing every broken link (file, link text, target URL, line), followed by specific Fix: recommendations. Also include the following sections using clear headings: Quickstart, Patterns, Debugging, Performance, Security, Migration, Cheatsheet. Use these sections to outline best practices for improving documentation quality and ongoing maintenance.\n\n3) Draft an API design document at output/api-design.md describing a simple HTTP service to expose the validation results. The design must specify:\n   - A grouped route prefix /api/v1 with middleware for logging and CORS.\n   - Endpoints: GET /api/v1/report (returns the JSON from output/report.json), GET /api/v1/docs/:name (serves text content of a doc from input/docs; support a query parameter format with default raw), and POST /api/v1/echo (returns the posted JSON with a custom status code when requested).\n   - How dynamic path parameters and query strings are parsed, JSON payload decoding, response types (JSON and text), and custom status codes.\n   - Example JSON responses using the same schema as output/report.json.\n\nWrite all outputs under output/ as specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

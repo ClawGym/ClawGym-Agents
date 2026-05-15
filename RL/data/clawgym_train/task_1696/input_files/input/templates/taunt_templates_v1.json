@@ -1,0 +1,5 @@
+[
+  {"id": "bold-brag", "text_en": "Since {season} Week {week}, {winner} made the {loser} look small: {scoreline} at {venue}. Fly, Eagles, fly!"},
+  {"id": "score-sting", "text_en": "Reminder: {winner} beat the {loser} by {margin}. Score was {scoreline}. Bookmark it."},
+  {"id": "mean-one", "text_en": "The {loser} sucks. {winner} rolled {scoreline} at {venue}."}
+]

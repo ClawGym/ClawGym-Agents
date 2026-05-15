@@ -1,0 +1,10 @@
+targets:
+  - eo_number: 12333
+    topic_hint: "Intelligence Activities"
+    year: 1981
+  - eo_number: 12866
+    topic_hint: "Regulatory Planning and Review"
+    year: 1993
+  - eo_number: 13166
+    topic_hint: "Improving Access for Persons with Limited English Proficiency"
+    year: 2000

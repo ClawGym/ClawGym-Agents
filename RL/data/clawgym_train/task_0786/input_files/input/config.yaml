@@ -1,0 +1,14 @@
+site:
+  name: "Društvo Slovencev v Argentini"
+  base_url: "http://localhost:8000"
+  default_locale: "es-AR"  # update to 'sl'
+  enabled_locales:
+    - "es-AR"
+content:
+  license:
+    type: "CC BY 4.0"
+    license_sections_path: ""  # set to 'web/cc_by_sections.json'
+web:
+  link_domains_whitelist:
+    - ".si"
+    - ".gov.ar"

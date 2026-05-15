@@ -1,0 +1,7 @@
+{
+  "nav": [
+    { "href": "index.html", "label": "Home" },
+    { "href": "docs.html", "label": "Docs" },
+    { "href": "contact.html", "label": "Contact" }
+  ]
+}

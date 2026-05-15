@@ -1,0 +1,11 @@
+{
+  "as_of": "2026-06-30",
+  "currency": "USD",
+  "holders": [
+    { "name": "Founders", "type": "common", "shares": 7000000 },
+    { "name": "Seed Investors", "type": "preferred", "shares": 3000000 },
+    { "name": "ESOP (granted + unallocated)", "type": "option_pool", "shares": 1500000 }
+  ],
+  "total_fully_diluted_pre": 11500000,
+  "notes": "Fully diluted pre-financing share counts. ESOP includes granted and unallocated options. No other convertibles outstanding."
+}

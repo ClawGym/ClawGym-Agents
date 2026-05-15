@@ -1,0 +1,23 @@
+queries:
+  - query: "ASME mechanical engineering awards"
+    allowed_domains:
+      - "asme.org"
+    max_per_query: 5
+  - query: "IEEE mechanical engineering awards"
+    allowed_domains:
+      - "ieee.org"
+    max_per_query: 5
+  - query: "Chinese Mechanical Engineering Society awards"
+    allowed_domains:
+      - "cmes.org.cn"
+    max_per_query: 5
+
+output_paths:
+  results_json: "workspace/output/search_results.json"
+  domain_stats_csv: "workspace/output/domain_stats.csv"
+  webcache_dir: "workspace/webcache"
+  test_report: "workspace/reports/test_report.txt"
+
+constraints:
+  min_total_entries: 3
+  require_official_domain_only: true

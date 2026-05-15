@@ -1,0 +1,13 @@
+# Scope for newcomer support resource pack
+# Update state, district, and languages before running. Code should read from this file.
+district: "TBD"
+state: "TBD"
+languages: []
+topics:
+  - "English Learner (EL/ELL) program policy"
+  - "Enrollment for newcomer students"
+  - "Family interpretation and translation services"
+must_include_sources:
+  - "Official state Department of Education site"
+  - "Official public school district site"
+notes: "Set district, state, and languages before running. Use this as the only source of configuration in your code."

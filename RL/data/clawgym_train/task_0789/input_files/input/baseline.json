@@ -1,0 +1,13 @@
+{
+  "currency": "USD",
+  "sessions": 100000,
+  "base_conversion_rate": 0.02,
+  "main_price": 120.0,
+  "main_unit_cost": 60.0,
+  "case_price": 20.0,
+  "case_unit_cost": 6.0,
+  "case_attach_rate": 0.25,
+  "warranty_price": 15.0,
+  "warranty_unit_cost": 2.0,
+  "warranty_attach_rate": 0.12
+}

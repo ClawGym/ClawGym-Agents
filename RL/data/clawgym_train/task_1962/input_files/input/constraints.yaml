@@ -1,0 +1,73 @@
+time_per_week: 12
+runway_months: 9
+geography_focus:
+  - US
+  - Canada
+  - UK
+  - Australia
+language: English
+sales_cycle_max_days: 30
+support_load_max_hours_per_customer_per_week: 2
+
+preferred_monetization:
+  primary: SaaS subscription
+  secondary: productized service
+acceptable_price_points:
+  subscription_min_usd: 49
+  subscription_max_usd: 299
+  optional_setup_fee_usd: "500-2000"
+  project_range_usd: "2000-6000"
+
+channels:
+  allowed:
+    - SEO (problem-focused pages, comparison pages)
+    - LinkedIn content (2-3 posts/week)
+    - Slack/Discord communities (founders, agencies)
+    - Partner referrals (tool ecosystems: Stripe, HubSpot, Shopify apps)
+    - Cold email (max 30/day, targeted, value-led)
+    - Webinars/office hours (monthly)
+  restricted:
+    - Paid ads (first 6 months)
+    - Field sales / onsite
+    - Enterprise procurement portals
+
+delivery_constraints:
+  - Avoid heavy custom development in early stages
+  - Favor no-code/low-code and integrations with Stripe, HubSpot, Intercom, Shopify, GA4
+  - MVP shipped in 2 weeks; V1 in 8–10 weeks
+  - Data handling: avoid PHI; do not store raw payment details; use Stripe customer data only
+
+buyer_types:
+  - Bootstrapped SaaS founders (3–20 employees)
+  - Boutique marketing/analytics agencies (5–25 staff)
+  - Stripe-based subscription businesses with <$10k ACV
+
+meeting_availability:
+  days: [Tue, Wed, Thu]
+  hours_et: "11:00-15:00"
+  max_calls_per_week: 4
+
+measurement:
+  - Track MRR, churn, activation rate
+  - Target: $5k MRR by month 6; $8k+ monthly income by month 12
+
+excluded_keywords:
+  - crypto
+  - nft
+  - blockchain
+  - web3
+  - gambling
+  - casino
+  - adult
+  - pornography
+  - dating
+  - real estate
+  - realtor
+  - mortgage
+  - keto
+  - weight loss
+  - fat loss
+  - dropshipping
+  - amazon fba
+  - forex
+  - binary options

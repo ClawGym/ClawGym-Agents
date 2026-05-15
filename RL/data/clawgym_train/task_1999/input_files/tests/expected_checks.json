@@ -1,0 +1,6 @@
+{
+  "period_counts_all": {"Renaissance": 5, "Baroque": 4, "Modern": 3},
+  "two_d_on_display_counts": {"Renaissance": 3, "Baroque": 2, "Modern": 2},
+  "two_d_on_display_total_area_cm2": {"Renaissance": 7950, "Baroque": 15000, "Modern": 86000},
+  "large_two_d_on_display_ids_above_15000": ["A006", "A007"]
+}

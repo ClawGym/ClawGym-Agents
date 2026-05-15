@@ -1,0 +1,19 @@
+Date: 2025-01-12
+Title: Nimbus Analytics launches forecasting product for SMBs
+Tags: product
+Body: Nimbus Analytics held a product launch event introducing Forecast Lite for small businesses.
+
+Date: 2025-01-13
+Title: Acme Robotics and AeroWare sign strategic partnership
+Tags: partnership
+Body: Acme Robotics partnered with AeroWare to integrate drone-based inventory scans into fulfillment workflows.
+
+Date: 2025-01-10
+Title: ZenFin Capital hires former Stripe exec as CTO
+Tags: hiring
+Body: ZenFin Capital appointed a former Stripe engineering leader as CTO to accelerate platform modernization.
+
+Date: 2025-01-09
+Title: Market overview: venture funding slows in early Q1
+Tags: research
+Body: Analysts report broad-based deceleration in private funding rounds across fintech and AI.

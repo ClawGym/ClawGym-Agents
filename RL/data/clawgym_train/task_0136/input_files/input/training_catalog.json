@@ -1,0 +1,104 @@
+{
+  "modules": [
+    {
+      "id": "hazcom",
+      "title": "Hazard Communication (GHS)",
+      "osha_reference": "1910.1200",
+      "frequency": "Initial for all employees; when new chemical hazards are introduced; annual refresher recommended",
+      "duration_hours": 1.5,
+      "audience": ["All employees", "Supervisors"],
+      "delivery": "Classroom or toolbox talk with SDS practice",
+      "documentation": "Roster with names/signatures, date, trainer, topics; SDS access confirmation"
+    },
+    {
+      "id": "loto_auth",
+      "title": "Lockout/Tagout \u2014 Authorized Employees",
+      "osha_reference": "1910.147(c)(7)",
+      "frequency": "Initial; retraining when job changes or procedures change; annual procedure audit",
+      "duration_hours": 3,
+      "audience": ["Maintenance Technician", "Setup/Changeover Tech", "Electricians"],
+      "delivery": "Classroom + hands-on machine-specific practice",
+      "documentation": "Authorized list, device assignment, procedure sign-offs, annual audit records"
+    },
+    {
+      "id": "loto_affected",
+      "title": "Lockout/Tagout \u2014 Affected Employees",
+      "osha_reference": "1910.147(c)(7)",
+      "frequency": "Initial; when procedures change",
+      "duration_hours": 1,
+      "audience": ["CNC Operator", "Press Operator", "Welders", "Material Handler/Forklift"],
+      "delivery": "Classroom or toolbox talk",
+      "documentation": "Roster, topics, date"
+    },
+    {
+      "id": "machine_guarding",
+      "title": "Machine Guarding and Safe Operations",
+      "osha_reference": "1910.212",
+      "frequency": "Initial and annual refresher",
+      "duration_hours": 2,
+      "audience": ["CNC Operator", "Press Operator", "Welders", "Supervisors"],
+      "delivery": "Classroom + on-the-floor demonstration",
+      "documentation": "Roster, equipment covered, hazard review checklist"
+    },
+    {
+      "id": "forklift_operator",
+      "title": "Powered Industrial Trucks (Forklifts) Operator Certification",
+      "osha_reference": "1910.178(l)",
+      "frequency": "Initial; evaluation at least every 3 years or after incident/unsafe operation",
+      "duration_hours": 6,
+      "audience": ["Material Handler/Forklift", "Shipping/Receiving"],
+      "delivery": "Formal instruction, practical training, and evaluation",
+      "documentation": "Operator evaluation checklist, certification card, trainer qualifications"
+    },
+    {
+      "id": "respiratory_protection",
+      "title": "Respiratory Protection",
+      "osha_reference": "1910.134",
+      "frequency": "Initial and annual; additional when changes in respirator or workplace occur",
+      "duration_hours": 2,
+      "audience": ["Powder Coat/Paint", "Welders", "Maintenance Technician (as needed)"],
+      "delivery": "Classroom + fit testing and medical evaluation coordination",
+      "documentation": "Fit test records, medical clearance, respirator assignments, training roster"
+    },
+    {
+      "id": "hearing_conservation",
+      "title": "Hearing Conservation",
+      "osha_reference": "1910.95(k)",
+      "frequency": "Annual training for employees with TWA \u2265 85 dBA; baseline and annual audiograms",
+      "duration_hours": 1,
+      "audience": ["Press Operator", "CNC Operator", "Compressor Room Attendants"],
+      "delivery": "Classroom or e-learning",
+      "documentation": "Audiometric test results, training rosters, HPD fit verification"
+    },
+    {
+      "id": "walking_working_surfaces",
+      "title": "Walking-Working Surfaces and Fall Protection",
+      "osha_reference": "1910.23",
+      "frequency": "Initial; refresher as needed",
+      "duration_hours": 1,
+      "audience": ["All employees", "Supervisors"],
+      "delivery": "Toolbox talk or classroom",
+      "documentation": "Roster, inspection checklist updates"
+    },
+    {
+      "id": "electrical_awareness",
+      "title": "Electrical Safety-Related Work Practices (Awareness)",
+      "osha_reference": "1910.303 and 1910.333",
+      "frequency": "Initial; refresher every 3 years or as needed",
+      "duration_hours": 1.5,
+      "audience": ["Maintenance Technician", "Supervisors"],
+      "delivery": "Classroom",
+      "documentation": "Roster, topics, qualified/authorized distinctions"
+    },
+    {
+      "id": "eap_fire",
+      "title": "Emergency Action Plan and Fire Extinguisher Use",
+      "osha_reference": "1910.38, 1910.39, 1910.157",
+      "frequency": "Initial and annual drill",
+      "duration_hours": 1,
+      "audience": ["All employees"],
+      "delivery": "Classroom + evacuation drill; hands-on extinguisher use if permitted",
+      "documentation": "Drill records, evacuation maps, training rosters"
+    }
+  ]
+}

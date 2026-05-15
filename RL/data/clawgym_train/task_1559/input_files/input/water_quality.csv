@@ -1,0 +1,13 @@
+site_id,county,date,nitrate_mgL,phosphorus_mgL
+GF-A,Greenfield,2021-06-15,9.7,0.15
+GF-B,Greenfield,2021-06-15,9.9,0.14
+GF-A,Greenfield,2023-06-15,7.9,0.13
+GF-B,Greenfield,2023-06-15,8.1,0.12
+RV-A,Riverton,2021-06-15,10.8,0.20
+RV-B,Riverton,2021-06-15,11.6,0.22
+RV-A,Riverton,2023-06-15,12.0,0.23
+RV-B,Riverton,2023-06-15,12.2,0.24
+PC-A,Pinecrest,2021-06-15,10.6,0.18
+PC-B,Pinecrest,2021-06-15,10.4,0.17
+PC-A,Pinecrest,2023-06-15,9.5,0.16
+PC-B,Pinecrest,2023-06-15,9.3,0.15

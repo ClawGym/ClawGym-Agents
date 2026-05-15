@@ -1,0 +1,19 @@
+run_weekday: Monday
+run_time: "08:00"
+max_items: 8
+keywords:
+  - samba
+  - "samba enredo"
+  - bateria
+  - surdo
+  - caixa
+min_duration_sec: 60
+max_duration_sec: 360
+sources:
+  - Wikimedia Commons
+  - Internet Archive
+license_allowlist:
+  - CC0
+  - CC-BY
+  - CC-BY-SA
+output_dir: out/audio

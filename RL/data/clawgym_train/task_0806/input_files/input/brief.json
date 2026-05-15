@@ -1,0 +1,47 @@
+{
+  "niche": "home",
+  "topic_product": "Budget cordless stick vacuum — WhirlLite S1",
+  "target_audience": "Small apartment renters and first-job young professionals (many with pets)",
+  "material_type": "Mixed (real lifestyle photos + AI-generated concept covers)",
+  "monetization_goal": "Direct sales to D2C shop with supporting affiliate links",
+  "account_stage": "cold start",
+  "product_details": {
+    "price": 129,
+    "weight_kg": 2.6,
+    "battery_life_minutes": 35,
+    "noise_dB": 65,
+    "features": [
+      "detachable handheld mode",
+      "wall-mount charging dock",
+      "HEPA filter",
+      "slim floor head fits under sofas and tight gaps",
+      "LED floor lights for low-light corners"
+    ],
+    "in_box": [
+      "WhirlLite S1 main unit",
+      "crevice tool",
+      "mini motorized brush",
+      "charging dock",
+      "washable HEPA filter"
+    ]
+  },
+  "differentiators": [
+    "Optimized for studio/small apartments and tight spaces",
+    "Lightweight and low-noise for late-night quick cleans",
+    "Under-sofa reach with 2-in-1 crevice tool"
+  ],
+  "brand_voice": "Practical, friendly, candid; avoids corporate tone",
+  "constraints": [
+    "Avoid overly polished studio visuals; show real lived-in corners",
+    "Highlight space-saving storage and quick clean routines"
+  ],
+  "keywords_seed": {
+    "english": [
+      "small apartment vacuum",
+      "budget cordless stick vacuum",
+      "pet hair on rugs",
+      "tiny apartment cleaning hacks",
+      "under sofa cleaning"
+    ]
+  }
+}

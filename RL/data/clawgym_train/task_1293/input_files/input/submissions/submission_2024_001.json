@@ -1,0 +1,36 @@
+{
+  "submission_id": "submission_2024_001",
+  "title": "Judicial Review and the Separation of Powers in Emergencies",
+  "authors": ["Alex Morgan", "Priya Shah"],
+  "abstract": "This article examines how courts calibrate oversight of executive action during emergencies, with a focus on separation-of-powers doctrine and legitimacy.",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "text": "Debates over judicial review during emergencies are often framed as a stark choice between liberty and security. Yet constitutional law has long recognized that the separation of powers both enables and constrains government responses to crisis. This introduction situates the inquiry within a comparative framework and explains why courts must articulate clear standards before exigency distorts ordinary baselines. We outline our methodology and preview our principal finding: that structured judicial reasoning can cabin discretion without paralyzing necessary action."
+    },
+    {
+      "heading": "Background",
+      "text": "The postwar jurisprudence of emergency powers reflects tension between executive competence and the constitutional design of checks and balances. Landmark opinions chart a course that neither trivializes threats nor abdicates judicial responsibility. At stake are institutional roles: legislatures to deliberate and authorize, executives to act with speed, and courts to maintain legality and legitimacy. This section canvasses key doctrinal pivots and the historical context that shaped them, highlighting how constitutional structure channels contestation into transparent, reviewable processes."
+    },
+    {
+      "heading": "Analysis",
+      "text": "We propose an analytic sequence that evaluates assertions of emergency authority across three dimensions: source, scope, and safeguards. First, courts should locate claimed power within constitutionally authorized sources, attending to statutory and structural baselines. Second, they should assess the practical scope claimed by the executive, including temporal and subject-matter limits. Third, they should scrutinize safeguards like reporting, sunset provisions, and judicially manageable standards. Applying this sequence to the canonical cases reveals that reasoned calibration, rather than categorical deference, better preserves both efficacy and legality."
+    },
+    {
+      "heading": "Conclusion",
+      "text": "Emergencies test constitutional commitments. A principled framework for judicial review helps ensure that temporary measures do not become permanent distortions. Our analysis suggests that courts can demand justification without disabling government, preserving separation of powers while safeguarding rights."
+    }
+  ],
+  "references": [
+    {"type": "case", "name": "Marbury v. Madison", "jurisdiction": "US", "year": 1803},
+    {"type": "case", "name": "Youngstown Sheet & Tube Co. v. Sawyer", "jurisdiction": "US", "year": 1952},
+    {"type": "statute", "name": "War Powers Resolution", "jurisdiction": "US", "year": 1973},
+    {"type": "article", "name": "Emergency Powers and Courts", "journal": "Law Review", "year": 2010},
+    {"type": "case", "name": "Boumediene v. Bush", "jurisdiction": "US", "year": 2008}
+  ],
+  "footnotes": [
+    {"n": 1, "text": "Judicial review is foundational to constitutional governance, even when conditions are fluid and uncertain, because legitimacy depends on reasons that can be publicly articulated and defended."},
+    {"n": 2, "text": "See generally the literature on separation of powers and emergency authority across comparative contexts."},
+    {"n": 3, "text": "Further discussion on separation of powers underscores that calibrated standards—not open-ended discretion—best align constitutional structure with the practical demands of governance during crises, while preserving accountability and rights."}
+  ]
+}

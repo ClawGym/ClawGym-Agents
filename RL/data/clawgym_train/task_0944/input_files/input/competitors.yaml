@@ -1,0 +1,13 @@
+competitors:
+  - name: DatastreamIQ
+    positioning: "Enterprise data observability for BI/warehouse pipelines. Strong lineage and data quality checks, but limited commerce-specific signals and checkout instrumentation."
+    typical_buyers: ["Data engineering leaders", "Analytics platform teams"]
+    notes: "May be evaluated for centralized data reliability; often lacks real-time commerce context."
+  - name: SignalFloe
+    positioning: "General incident alerting for web and backend services with quick setup. Limited integrations to commerce platforms and fewer prebuilt KPIs for checkout and fulfillment."
+    typical_buyers: ["SRE/DevOps teams at SaaS companies"]
+    notes: "Prospects cite easy onboarding but outgrow the product when they need commerce-specific insights."
+  - name: FlowSight
+    positioning: "Commerce analytics dashboards focused on batch reporting. Real-time monitoring and anomaly detection capabilities are limited."
+    typical_buyers: ["E-commerce operations managers", "Merchandising teams"]
+    notes: "Often complements but does not replace operational observability."

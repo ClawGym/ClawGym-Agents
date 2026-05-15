@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Interpretability Methods</title>
+</head>
+<body>
+  <h1>Interpretability Methods Catalog (Offline Snapshot)</h1>
+  <table id="methods" class="methods">
+    <thead>
+      <tr>
+        <th>Method Name</th>
+        <th>Explanation Type</th>
+        <th>Approach</th>
+        <th>Model Compatibility</th>
+        <th>Compute Cost</th>
+        <th>Faithfulness</th>
+        <th>Open Source</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>LIME</td>
+        <td>local</td>
+        <td>surrogate</td>
+        <td>model-agnostic</td>
+        <td>medium</td>
+        <td>medium</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Kernel SHAP</td>
+        <td>local</td>
+        <td>feature attribution</td>
+        <td>model-agnostic</td>
+        <td>high</td>
+        <td>high</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Tree SHAP</td>
+        <td>local</td>
+        <td>feature attribution</td>
+        <td>tree-only</td>
+        <td>low</td>
+        <td>high</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Integrated Gradients</td>
+        <td>local</td>
+        <td>feature attribution</td>
+        <td>differentiable-only</td>
+        <td>medium</td>
+        <td>high</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Partial Dependence Plots</td>
+        <td>global</td>
+        <td>global</td>
+        <td>model-agnostic</td>
+        <td>medium</td>
+        <td>medium</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Permutation Feature Importance</td>
+        <td>global</td>
+        <td>feature importance</td>
+        <td>model-agnostic</td>
+        <td>medium</td>
+        <td>medium</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Counterfactual Explanations</td>
+        <td>local</td>
+        <td>counterfactuals</td>
+        <td>model-agnostic</td>
+        <td>high</td>
+        <td>medium</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Anchors</td>
+        <td>local</td>
+        <td>rule-based</td>
+        <td>model-agnostic</td>
+        <td>medium</td>
+        <td>medium</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Layer-wise Relevance Propagation</td>
+        <td>local</td>
+        <td>feature attribution</td>
+        <td>differentiable-only</td>
+        <td>medium</td>
+        <td>high</td>
+        <td>Yes</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

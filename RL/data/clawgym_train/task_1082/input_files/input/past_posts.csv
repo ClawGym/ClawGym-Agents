@@ -1,0 +1,25 @@
+post_id,date,time_of_day,channel,post_type,topic_tag,impressions,clicks,saves,comments,cta_clicks
+P001,2024-11-03,morning,Instagram,reel,Osteopathic Manipulative Treatment (OMT),5200,240,130,35,60
+P002,2024-11-07,evening,YouTube,video,Osteopathic Manipulative Treatment (OMT),15000,900,220,85,180
+P003,2024-11-12,afternoon,Blog,article,Osteopathic Manipulative Treatment (OMT),3800,190,45,12,40
+P004,2024-11-20,morning,Newsletter,email,Osteopathic Manipulative Treatment (OMT),2100,420,0,8,150
+P005,2024-11-05,evening,Instagram,carousel,Myofascial Release,6100,310,180,40,75
+P006,2024-11-14,afternoon,YouTube,video,Myofascial Release,13200,730,190,70,160
+P007,2024-11-22,morning,Blog,article,Myofascial Release,4200,210,60,15,55
+P008,2024-12-01,morning,Newsletter,email,Myofascial Release,1800,360,0,6,130
+P009,2024-11-09,evening,Instagram,reel,Muscle Energy Technique,4800,260,150,28,65
+P010,2024-11-18,afternoon,YouTube,video,Muscle Energy Technique,12500,650,170,60,140
+P011,2024-11-26,morning,Blog,article,Muscle Energy Technique,3500,160,50,10,45
+P012,2024-12-03,morning,Newsletter,email,Muscle Energy Technique,2000,370,0,7,120
+P013,2024-11-04,afternoon,Instagram,carousel,Trigger Point Therapy,5300,220,120,22,50
+P014,2024-11-16,evening,YouTube,video,Trigger Point Therapy,11000,520,130,48,110
+P015,2024-11-24,morning,Blog,article,Trigger Point Therapy,3000,130,40,8,35
+P016,2024-11-06,morning,Instagram,reel,PNF Stretching,5000,210,140,20,55
+P017,2024-11-19,afternoon,YouTube,video,PNF Stretching,11800,560,150,50,120
+P018,2024-11-28,morning,Blog,article,PNF Stretching,3200,150,45,9,38
+P019,2024-11-08,evening,Instagram,reel,Sports Massage,6200,240,100,18,58
+P020,2024-11-15,afternoon,YouTube,video,Sports Massage,14000,600,140,40,130
+P021,2024-11-21,morning,Blog,article,Sports Massage,3600,150,30,7,42
+P022,2024-12-02,morning,Instagram,carousel,Sports Massage,5800,230,110,20,52
+P023,2024-12-05,afternoon,YouTube,video,Sports Massage,14500,590,150,42,125
+P024,2024-12-07,morning,Blog,article,Sports Massage,3400,140,35,6,39

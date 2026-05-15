@@ -1,0 +1,19 @@
+timezone: America/New_York
+window_start: 2024-10-01
+window_end: 2024-10-10
+availability:
+  Monday:
+    - "18:00-22:00"
+  Tuesday:
+    - "18:00-22:00"
+  Wednesday:
+    - "18:00-22:00"
+  Thursday:
+    - "18:00-22:00"
+  Friday:
+    - "16:00-20:00"
+  Saturday:
+    - "10:00-14:00"
+    - "18:00-21:00"
+  Sunday:
+    - "13:00-17:00"

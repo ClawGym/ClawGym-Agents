@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1800",
+  "user_query": "I need a small docs site generated from Markdown with embedded CSS. Please do the following:\n\n1) Read input/docs_config.json to determine which Markdown files under input/ to render. The JSON has a documents array with objects like: {\"source\": \"input/<file>.md\", \"title\": \"<HTML title>\", \"theme\": \"light|dark\", \"output\": \"output/<file>.html\"}.\n\n2) For each document, convert the Markdown to a self-contained HTML file with the specified theme and set the HTML <title> to the provided title. Use only relative paths and write the HTML files exactly to the output paths listed in the config (e.g., output/weekly_notes.html, output/changelog.html, output/api_guide.html). Make sure code blocks and tables render correctly.\n\n3) Before processing, quickly check the current CPU and memory load and save a brief JSON status report to output/system_health.json with at least these fields: status (ok|warning|critical), recommendation (CONTINUE|PAUSE), cpu (with a load_percent field), and memory (with a used_percent field).\n\n4) Create a landing page at output/index.html that:\n   - Includes an \"Overview\" section introducing that these pages were generated from Markdown into HTML with embedded CSS (2–3 sentences).\n   - Lists each generated document in the same order as in input/docs_config.json with: an anchor link to the corresponding output HTML file, the configured title, and the theme used (light or dark) clearly visible next to each link.\n   - Uses only relative links to the generated files.\n\n5) Do not use any absolute paths or external resources. Everything must work locally from the output/ folder.\n\nInputs to read are in input/. Write all generated files to output/ as described.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

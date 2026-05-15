@@ -1,0 +1,28 @@
+press:
+  tone: "professional, composed, focused on craft; avoid gossip"
+  max_words: 30
+  require_greeting: false
+  banned_words: ["gossip", "controversy", "rumor"]
+  required_phrases: ["focused on the work"]
+  accepted_greetings: ["Hi", "Hello", "Dear"]
+fans:
+  tone: "warm, grateful, inclusive"
+  max_words: 25
+  require_greeting: true
+  banned_words: ["desperate", "despair"]
+  required_phrases: ["thank you"]
+  accepted_greetings: ["Hi", "Hello", "Hey"]
+industry:
+  tone: "confident, humble, specific"
+  max_words: 40
+  require_greeting: true
+  banned_words: ["beg", "desperate"]
+  required_phrases: ["open to collaboration"]
+  accepted_greetings: ["Hello", "Dear"]
+festival:
+  tone: "enthusiastic, respectful, logistics-friendly"
+  max_words: 35
+  require_greeting: true
+  banned_words: ["demand", "controversy"]
+  required_phrases: ["excited to participate"]
+  accepted_greetings: ["Hello", "Dear"]

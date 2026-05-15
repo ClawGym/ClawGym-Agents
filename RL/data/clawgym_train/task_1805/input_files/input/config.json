@@ -1,0 +1,20 @@
+{
+  "issuer": {
+    "name": "Juan Perez Garcia",
+    "tax_id": "12345678Z",
+    "address": {
+      "street": "Example Street 123",
+      "city": "Madrid",
+      "postal": "28001",
+      "country": "ES"
+    },
+    "email": "invoices@juanperez.es",
+    "iban": "ES76 2100 0418 4502 0005 1332"
+  },
+  "default_vat_rate": 0.21,
+  "irpf_rate": 0.15,
+  "default_payment_terms": 30,
+  "series_prefix": "F-2026-",
+  "counter_width": 3,
+  "notes": "Freelancer issuer; apply IRPF retention for B2B invoices."
+}

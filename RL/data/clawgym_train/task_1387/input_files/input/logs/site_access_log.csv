@@ -1,0 +1,4 @@
+user,action,timestamp,ip
+jules,login,2024-05-11T14:12:03Z,203.0.113.42
+mary,upload,2024-05-11T14:15:27Z,192.168.1.10
+oscar,download,2024-05-12T09:02:11Z,198.51.100.23

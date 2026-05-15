@@ -1,0 +1,23 @@
+id,date,comedian,bit_title,tag,laugh_score,duration_seconds,words,source
+1,2023-01-05,Joan Rivers,Red Carpet Zingers,red carpet,9,180,600,tv
+2,2023-01-08,Joan Rivers,Fashion Police Flashback,fashion,8,200,700,tv
+3,2023-01-12,George Carlin,Stuff and Things,everyday life,7,300,1200,special
+4,2023-01-15,Joan Rivers,Aging Like Fine... Plastic,aging,7,150,550,standup
+5,2023-01-18,Phyllis Diller,Housework Humor,domestic,6,190,650,special
+6,2023-01-20,Don Rickles,Roast Masterclass,roast,8,210,800,tv
+7,2023-01-22,Joan Rivers,Oscars: Who Wore It Worse,oscars,9,220,750,tv
+8,2023-01-25,Joan Rivers,Self-Deprecation 101,self-deprecating,6,140,480,standup
+9,2023-01-28,George Carlin,Airline Announcements,travel,9,260,1000,special
+10,2023-02-02,Joan Rivers,Talk Show Sass,talk show,8,160,520,interview
+11,2023-02-05,Don Rickles,Vegas Crowd Work,crowd work,7,230,900,special
+12,2023-02-09,Phyllis Diller,Glamour vs Reality,fashion,7,170,610,tv
+13,2023-02-12,Joan Rivers,Celebrity Takedowns,celebrity,10,240,820,tv
+14,2023-02-15,George Carlin,Modern Man,language,8,280,1100,special
+15,2023-02-18,Joan Rivers,Red Carpet Zingers (Reprise),red carpet,9,185,605,tv
+16,2023-02-21,Joan Rivers,Plastic Surgery Quips,fashion,7,150,520,standup
+17,2023-02-24,Don Rickles,Insults with Love,roast,6,200,780,tv
+18,2023-02-27,Joan Rivers,Awards Season Snark,oscars,8,210,730,tv
+19,2023-03-02,Phyllis Diller,Aging Gracefully-ish,aging,8,160,590,standup
+20,2023-03-05,George Carlin,Seven Words Redux,language,10,300,1300,special
+21,2023-03-08,Joan Rivers,Wardrobe Malfunction Wisdom,fashion,7,170,600,tv
+22,2023-03-11,Joan Rivers,Candid Q&A,interview,5,120,400,interview

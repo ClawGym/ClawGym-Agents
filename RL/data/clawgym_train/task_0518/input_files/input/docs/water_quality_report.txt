@@ -1,0 +1,7 @@
+Water Quality Report - Tamaizumi-ike
+Sampling date: 2023-06-12
+Location: North shore
+pH: 7.2
+Turbidity: 4 NTU
+E. coli: 0 CFU/100 mL
+Recommendation: Test annually each June and publish results on the town board.

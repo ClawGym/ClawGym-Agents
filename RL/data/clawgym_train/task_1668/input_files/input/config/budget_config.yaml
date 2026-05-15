@@ -1,0 +1,12 @@
+exchange_rate_eur_per_jpy: 0.006
+
+budget_caps_eur:
+  Groceries-Italian: 120
+  Cooking Class: 100
+  Books: 30
+  Dining: 100
+  Transport: 40
+
+alias_categories:
+  Dining-Italian: Dining
+  Dining-Other: Dining

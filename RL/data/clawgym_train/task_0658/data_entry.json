@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0658",
+  "user_query": "Read input/brand_voice.md, input/campaign_brief.json, and input/regions.yaml. Draft two Italian social media captions promoting the product described, one tailored for Rome and one for Naples. Use casual \"tu\" register, human warmth, fillers, superlatives, and common expressions; weave in region-specific slang (Rome: include at least one of \"daje\", \"aò\", or \"nun\"; Naples: include at least one of \"uè\" or \"jamm\"). In each caption, include at least one number using Italian thousand/decimal formatting (e.g., 2.500 or 1.099,90). Make each caption at least 120 words. Avoid using \"Lei\" entirely. Save the captions to output/posts_rome.md and output/posts_naples.md. Also write output/style_checklist.json summarizing which stylistic elements you used in each caption: counts of fillers, superlatives, common expressions, exclamation marks, and list any region-specific slang present.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

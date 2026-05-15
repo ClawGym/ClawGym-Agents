@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Neighborhood Gym",
+    "membership_monthly_fee": 65.0,
+    "included_childcare_visits_per_month": 4,
+    "childcare_fee_per_visit": 8.0,
+    "avg_commute_minutes_one_way": 12
+  },
+  {
+    "name": "BudgetFit",
+    "membership_monthly_fee": 42.0,
+    "included_childcare_visits_per_month": 0,
+    "childcare_fee_per_visit": 5.0,
+    "avg_commute_minutes_one_way": 20
+  },
+  {
+    "name": "Home Workout App",
+    "membership_monthly_fee": 15.0,
+    "included_childcare_visits_per_month": 0,
+    "childcare_fee_per_visit": 0.0,
+    "avg_commute_minutes_one_way": 0
+  }
+]

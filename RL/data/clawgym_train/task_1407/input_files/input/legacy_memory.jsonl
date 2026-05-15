@@ -1,0 +1,4 @@
+{"text":"We scheduled daily gc for tier rotation in Palaia to keep hot warm cold balanced.","title":"Tier Rotation Notes","project":"alpha","scope":"public","tags":["maintenance","gc"]}
+{"text":"User profiles must remain under private scope during beta onboarding and research.","title":"Beta Onboarding Policy","project":"beta","tags":["policy","privacy"]}
+{"text":"Our embedding chain should prefer a local model before bm25 fallback when offline.","title":"Embedding Chain Preference","tags":["search","embedding"]}
+{"text":"Document ingestion and chunk indexing are enabled for project alpha knowledge base.","title":"RAG Indexing Setup","project":"alpha","scope":"team","tags":["rag","ingest"]}

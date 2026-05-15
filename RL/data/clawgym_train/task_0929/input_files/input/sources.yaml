@@ -1,0 +1,13 @@
+sources:
+  census1930:
+    type: census
+    reliability: 0.7
+  census1940:
+    type: census
+    reliability: 0.8
+  census1950:
+    type: census
+    reliability: 0.9
+  obituary:
+    type: obit
+    reliability: 0.9

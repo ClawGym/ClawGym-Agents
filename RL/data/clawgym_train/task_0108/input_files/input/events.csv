@@ -1,0 +1,6 @@
+id,date,ward,event_type,expected_attendance
+E001,2024-02-10,Ugunja,Health Forum,120
+E002,2024-02-17,Sigomre,Youth Workshop,80
+E003,2024-03-05,Sidindi,Water Project Baraza,150
+E004,2024-03-12,Ugunja,Market Sanitation Drive,90
+E005,2024-03-28,Sigomre,Bursary Vetting,200

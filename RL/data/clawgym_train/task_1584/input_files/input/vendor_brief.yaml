@@ -1,0 +1,16 @@
+vendor_name: DocuFlux AI, Inc.
+product_name: FluxExtract
+website: https://www.docuflux.ai
+use_case: >
+  Automated extraction and validation of fields from contracts, invoices, KYC documents,
+  and other business PDFs. FluxExtract integrates with our document management system
+  to parse clauses, extract key data (names, dates, amounts, account numbers), and
+  return structured JSON for downstream workflows.
+industry: Financial services and B2B SaaS
+data_sensitivity: high
+additional_context: |
+  - Deployment model: Multi-tenant SaaS with optional dedicated EU data residency for paid tiers.
+  - Integration targets: S3, SharePoint, Box; webhooks to internal APIs.
+  - Expected volume: ~60,000 documents/month peak.
+  - Contains PII and financial data, including names, addresses, tax IDs, account numbers.
+  - Internal stakeholders requested SOC 2 Type II and DPA with SCCs as onboarding prerequisites.

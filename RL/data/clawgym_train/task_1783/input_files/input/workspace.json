@@ -1,0 +1,14 @@
+{
+  "workspace_path": "input/workspace",
+  "key_files": {
+    "SOUL.md": true,
+    "USER.md": false,
+    "TOOLS.md": true,
+    "MEMORY.md": true
+  },
+  "directories": {
+    "memory": true,
+    "docs": true
+  },
+  "runbook_signals": []
+}

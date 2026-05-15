@@ -1,0 +1,29 @@
+task,category,labor_hours,materials_skus
+Service call / diagnostic,Diagnostics,0.5,
+Drain cleaning - kitchen sink,Drain Cleaning,0.8,DRAIN-GLOVES:1
+Drain cleaning - tub/shower,Drain Cleaning,0.7,DRAIN-GLOVES:1
+Drain cleaning - main line through cleanout,Drain Cleaning,1.5,DRAIN-CABLE-TIP:1;DRAIN-ENZ:1
+Sewer camera inspection,Sewer,1.0,
+Water heater - tank (50 gal) replacement,Water Heater,4.5,WH50G:1;FLX-CNCTR-3/4:2;DIELECTRIC-UNION-3/4:2;TNP-VALVE:1;EXP-TANK-2GAL:1;GAS-FLEX-3/4:1;GAS-VALVE-3/4:1;COPPER-3/4-FT:6;SOLDER-KIT:1;TEFLON-TAPE:1
+Water heater - tankless replacement (up to 120k BTU),Water Heater,5.5,TANKLESS-120K:1;TNKL-ISOLATION-KIT:1;VENT-KIT-TNKL:1;CONDENSATE-KIT:1;GAS-FLEX-3/4:1;GAS-VALVE-3/4:1;FLX-CNCTR-3/4:2;COPPER-3/4-FT:6;SOLDER-KIT:1;TEFLON-TAPE:1
+Expansion tank install,Water Heater,0.8,EXP-TANK-2GAL:1;DIELECTRIC-UNION-3/4:2;TEFLON-TAPE:1
+Anode rod replacement,Water Heater,1.2,ANODE-ROD-STD:1
+Toilet rebuild (fill valve, flapper, bolts),Fixtures,1.0,FILL-VALVE:1;FLAPPER-UNIV:1;TOILET-BOLT-KIT:1
+Toilet replacement - standard elongated,Fixtures,2.0,TOILET-ELONG-MID:1;WAX-RING:1;SUPPLY-LINE-3/8-20:1;TOILET-BOLT-KIT:1
+Faucet replacement - kitchen (mid-grade),Fixtures,1.2,FAUCET-KITCHEN-MID:1;SUPPLY-LINE-1/2-3/8:2;TEFLON-TAPE:1
+Garbage disposal install - 3/4 HP,Waste Disposal,1.2,DISPOSAL-3/4HP:1;DISPOSAL-CORD:1;GARBAGE-DRAIN-KIT:1
+PRV (pressure reducing valve) replacement 3/4",Valves,1.5,PRV-3/4:1;DIELECTRIC-UNION-3/4:2;THREAD-SEALANT:1
+Hose bibb (frost-proof) replacement,Exterior,0.8,HOSE-BIBB-1/2:1;THREAD-SEALANT:1
+Angle stop and supply line replacement (pair),Valves,0.7,ANGLE-STOP-3/8:2;SUPPLY-LINE-1/2-3/8:2;TEFLON-TAPE:1
+Shower cartridge replacement (universal),Fixtures,1.0,SHWR-CARTRIDGE-UNIV:1
+Shower valve replacement (rough-in + trim),Fixtures,4.0,SHWR-VALVE-ROUGH:1;SHWR-TRIM-SET:1;COPPER-3/4-FT:6;SOLDER-KIT:1
+Minor copper leak repair (pinhole),Leak Repair,2.0,COPPER-3/4-FT:2;SOLDER-KIT:1
+Minor PEX repipe (1–2 lines),Piping,3.0,PEX-COIL-1/2-100:1;PEX-FIT-1/2-ELBOW:4;PEX-FIT-1/2-TEE:2
+Dishwasher install,Appliances,1.5,DISHWASHER-INSTALL-KIT:1;TEFLON-TAPE:1
+Icemaker line install,Appliances,1.5,ICEMAKER-KIT:1;TEFLON-TAPE:1
+Whole-home filter install (Big Blue),Water Quality,2.5,FILTER-HOUSING-BB:1;FILTER-CARTRIDGE-BB:1;PEX-FIT-1/2-TEE:2;PEX-COIL-1/2-100:1
+Water softener install (48k grain),Water Quality,4.5,WATER-SOFTENER-48K:1;SOFTENER-FLEX-LN-1IN:2;PEX-FIT-1/2-TEE:2;PEX-COIL-1/2-100:1;DRAIN-TUBE-1/2IN-10FT:1
+Cleanout installation (2-inch),Sewer,2.5,PVC-2IN-PIPE-10FT:1;PVC-WYE-2IN:1;CLEANOUT-PLUG-2IN:1;PRIMER-CEMENT:1
+Trap replacement - kitchen P-trap,Drain Cleaning,0.7,TRAP-P-1-1/2:1;PTRAP-WASHER-1.5:1
+Backflow testing - residential,Backflow,0.6,
+Hydro-jetting - branch line,Drain Cleaning,1.5,

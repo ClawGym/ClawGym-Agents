@@ -1,0 +1,56 @@
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] parent
+[INFO] user-service
+[INFO] payment-service
+[INFO] reporting-service
+[INFO] ------------------------------------------------------------------------
+[INFO] Building user-service 1.3.0-SNAPSHOT
+[INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ user-service ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 12 source files to /workspace/user-service/target/classes
+[ERROR] COMPILATION ERROR :
+[ERROR] /workspace/user-service/src/main/java/com/acme/user/UserController.java:[42,13] cannot find symbol
+  symbol:   class UserServce
+  location: class com.acme.user.UserController
+[ERROR] /workspace/user-service/src/main/java/com/acme/user/UserServiceImpl.java:[27,33] cannot find symbol
+  symbol:   class UserRepo
+  location: class com.acme.user.UserServiceImpl
+[ERROR] -> [Help 1]
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.8.1:compile (default-compile) on project user-service: Compilation failure
+[INFO] ------------------------------------------------------------------------
+[INFO] Building payment-service 2.1.0-SNAPSHOT
+[INFO] --- maven-surefire-plugin:2.22.0:test (default-test) @ payment-service ---
+[INFO] Surefire report directory: /workspace/payment-service/target/surefire-reports
+[INFO] Running com.acme.payment.PaymentProcessorTest
+[ERROR] Tests run: 12, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.234 s <<< FAILURE! - in com.acme.payment.PaymentProcessorTest
+[ERROR] shouldApplyDiscount(com.acme.payment.PaymentProcessorTest)  Time elapsed: 0.051 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<100.0> but was:<90.0>
+ at com.acme.payment.PaymentProcessorTest.shouldApplyDiscount(PaymentProcessorTest.java:57)
+[ERROR] shouldThrowWhenCardExpired(com.acme.payment.PaymentProcessorTest)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.NullPointerException
+ at com.acme.payment.PaymentProcessorTest.shouldThrowWhenCardExpired(PaymentProcessorTest.java:102)
+[INFO]
+[INFO] Results:
+[INFO]
+[ERROR] Failures:
+[ERROR]   PaymentProcessorTest.shouldApplyDiscount:57 expected:<100.0> but was:<90.0>
+[ERROR]   PaymentProcessorTest.shouldThrowWhenCardExpired:102 NullPointerException
+[INFO]
+[ERROR] Tests run: 12, Failures: 2, Errors: 0, Skipped: 0
+[INFO] ------------------------------------------------------------------------
+[INFO] Building reporting-service 0.9.0-SNAPSHOT
+[INFO] --- maven-checkstyle-plugin:3.1.2:check (validate) @ reporting-service ---
+[WARNING] /workspace/reporting-service/src/main/java/com/acme/report/CsvExporter.java:88: Line is longer than 120 characters. [LineLength]
+[WARNING] /workspace/reporting-service/src/main/java/com/acme/report/PdfExporter.java:45: 'if' is not followed by whitespace. [WhitespaceAfter]
+[INFO] There are 2 Checkstyle violations.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for parent 1.0:
+[INFO] user-service .......................... FAILURE [  3.456 s]
+[INFO] payment-service ....................... FAILURE [  2.345 s]
+[INFO] reporting-service ..................... SUCCESS [  0.789 s]
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed at step: verify
+[ERROR] See errors above.

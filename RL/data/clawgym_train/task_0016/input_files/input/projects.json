@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "Driftwood",
+      "type": "indie",
+      "release_window": "past",
+      "press_priority": "high",
+      "notes": "Breakout indie; lean into authenticity, craft-focused outlets."
+    },
+    {
+      "title": "Skyline Heist",
+      "type": "mainstream",
+      "release_window": "current",
+      "press_priority": "high",
+      "notes": "Action caper; mass-market and late-night are key."
+    },
+    {
+      "title": "Aurora Station",
+      "type": "mainstream",
+      "release_window": "upcoming",
+      "press_priority": "medium",
+      "notes": "Sci-fi drama; feature in prestige mags, technical angles."
+    }
+  ]
+}

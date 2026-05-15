@@ -1,0 +1,8 @@
+bm25:
+  hit_rate:
+    min: 0.7
+  avg_score:
+    min: 0.45
+gateway:
+  qmd_errors:
+    max: 2

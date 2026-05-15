@@ -1,0 +1,11 @@
+date,book_title,author,year,treatment_code,hours,materials_cost,outcome,note_id
+2026-04-08,The Canterbury Tales,Geoffrey Chaucer,1996,SFC,0.7,2.50,Completed,N001
+2026-04-08,Moby-Dick,Herman Melville,1975,PRT,1.8,4.00,Completed,N002
+2026-04-09,Poems of Emily Dickinson,Emily Dickinson,2003,CST,2.2,5.75,Completed,N003
+2026-04-09,Don Quixote,Miguel de Cervantes,1980,RBD,6.5,12.00,In progress,N004
+2026-04-10,Leaves of Grass,Walt Whitman,1992,PRT,2.5,6.00,Completed,N005
+2026-04-10,Collected Shakespeare,William Shakespeare,1985,SFC,0.4,1.00,Completed,N006
+2026-04-11,Pride and Prejudice,Jane Austen,1999,CST,1.9,4.50,Completed,N007
+2026-04-11,The Odyssey,Homer,2001,DAC,3.2,8.25,Completed,N008
+2026-04-12,The Great Gatsby,F. Scott Fitzgerald,2004,XXX,1.0,0.00,Completed,N009
+2026-04-12,Wuthering Heights,Emily Brontë,1994,MMD,2.4,7.50,Completed,N010

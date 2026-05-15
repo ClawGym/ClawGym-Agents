@@ -1,0 +1,44 @@
+{
+  "company_name": "Northwind Analytics",
+  "hq": "Austin, TX, USA",
+  "founded_year": 2020,
+  "description": "Northwind Analytics provides real-time operational analytics and observability for commerce teams. The platform monitors mission-critical flows (checkout, payments, fulfillment) and alerts teams to anomalies before they impact revenue.",
+  "business_model": "B2B SaaS",
+  "deployment": "Cloud-hosted",
+  "target_customers": [
+    "mid-market e-commerce brands",
+    "digital marketplaces",
+    "DTC brands at scale"
+  ],
+  "products": [
+    {
+      "name": "Northwind Watchtower",
+      "description": "Commerce observability for checkout, payments, and order flows with SLA tracking, incident timelines, and prebuilt dashboards. Includes connectors for Shopify, BigCommerce, and custom APIs."
+    },
+    {
+      "name": "Northwind Pulse",
+      "description": "Real-time alerting and incident collaboration with anomaly detection, seasonal baselines, routing to on-call, and integrations with Slack and PagerDuty."
+    }
+  ],
+  "notable_integrations": [
+    "Shopify",
+    "BigCommerce",
+    "Stripe",
+    "Klaviyo",
+    "PostgreSQL",
+    "TinyETL (via partnership)"
+  ],
+  "go_to_market": {
+    "sales_motion": "Direct sales with solutions engineering and partner-led co-selling",
+    "partners": [
+      "ISVs in the Shopify ecosystem",
+      "Implementation agencies",
+      "Technology partners like TinyETL"
+    ]
+  },
+  "selected_customers": [
+    "LumenThreads (Shopify Plus)",
+    "HarborSupply Market"
+  ],
+  "team_size_estimate": 68
+}

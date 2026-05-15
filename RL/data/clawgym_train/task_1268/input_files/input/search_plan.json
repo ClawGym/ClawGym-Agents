@@ -1,0 +1,38 @@
+{
+  "topic": "Evaluating self-hosted, privacy-respecting metasearch for enterprise use",
+  "default_language": "en",
+  "default_time_range": "month",
+  "items": [
+    {
+      "query": "SearXNG docker compose deployment guide",
+      "category": "it",
+      "limit": 8
+    },
+    {
+      "query": "SearXNG security hardening best practices reverse proxy",
+      "category": "it",
+      "limit": 6
+    },
+    {
+      "query": "Privacy-respecting metasearch comparison searxng metager yacy whoogle",
+      "category": "general",
+      "limit": 8
+    },
+    {
+      "query": "SearXNG news monitoring rss time range last month",
+      "category": "news",
+      "limit": 6
+    },
+    {
+      "query": "SearXNG instance performance tuning caching engines",
+      "category": "it",
+      "limit": 6
+    },
+    {
+      "query": "Privacy-preserving web search research user behavior tracking mitigation",
+      "category": "science",
+      "limit": 5,
+      "time_range": "year"
+    }
+  ]
+}

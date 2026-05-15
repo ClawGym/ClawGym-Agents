@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "id": "rain_light",
+      "keywords": ["light rain", "rain ambience", "rainfall"],
+      "max_downloads": 2,
+      "notes": "Prefer seamless loops if available."
+    },
+    {
+      "id": "forest_night",
+      "keywords": ["forest night", "crickets", "night ambience"],
+      "max_downloads": 2,
+      "notes": "No sudden animal calls; keep it calm."
+    },
+    {
+      "id": "ocean_dawn",
+      "keywords": ["ocean waves", "dawn", "sea ambience"],
+      "max_downloads": 2,
+      "notes": "No boats or voices."
+    }
+  ]
+}

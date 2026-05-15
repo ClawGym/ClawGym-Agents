@@ -1,0 +1,94 @@
+org_name: "Acme Legal LLP"
+industry: "Legal services"
+agent_initiative: "Internal Research Assistant"
+agent_complexity: "medium"
+
+goals:
+  - Speed up case law and precedent research
+  - Draft summaries and memo outlines for attorneys
+  - Reduce formatting/clerical errors in filings
+  - Maintain confidentiality and US data residency
+
+team_profile:
+  attorneys: 18
+  paralegals: 10
+  operations: 4
+  it_engineers: 2
+
+provider_preferences:
+  compute:
+    preferred_provider: "DigitalOcean"
+    region: "US (NYC or SFO)"
+    rationale: "US data residency, predictable monthly pricing, simple ops"
+    fallback_providers:
+      - "AWS"
+  llm_api:
+    primary_model: "Claude Sonnet 4"
+    fallback_model: "GPT-4o-mini"
+    rationale: "Strong reasoning for legal tasks with cost-efficient fallback"
+  storage:
+    preferred: "SQLite on VPS (initial)"
+    planned_upgrade: "Supabase ($25/mo) if collaboration scales"
+  monitoring:
+    services:
+      - "UptimeRobot (free tier)"
+      - "Sentry (free tier)"
+    notes: "Keep initial ops spend low; upgrade if incident volume grows"
+
+security_compliance:
+  data_residency: "US-only"
+  confidentiality: "Attorney-client privilege; no training on client data"
+  frameworks:
+    - "SOC 2 readiness (12-month horizon)"
+    - "ISO 27001 (longer-term target)"
+    - "GDPR (due to EU clients and cross-border matters)"
+  access_control: "SSO (SAML) requirement for production use"
+  logging: "Audit logs for evidence collection; redact PII where possible"
+
+budget_constraints:
+  diy_monthly_ceiling_usd: 2000
+  managed_service_ceiling_usd: 5000
+  setup_timeline_weeks: 4-6
+
+engineering:
+  hourly_rate_usd: 120
+  setup_hours_estimate: 60
+  maintenance_hours_per_month_estimate: 10
+  notes: "Includes prompt tuning, monitoring, and minor feature updates"
+
+llm_usage_estimate:
+  # Estimated average weekday usage; lighter on weekends
+  daily_tokens_input: 300000   # tokens/day
+  daily_tokens_output: 200000  # tokens/day
+  model_mix:
+    claude_sonnet_4_fraction: 0.7
+    gpt_4o_mini_fraction: 0.3
+  tolerance: "±20% depending on case load"
+
+compute_spec:
+  provider: "DigitalOcean"
+  plan: "Basic Droplet"
+  vcpu: 2
+  ram_gb: 4
+  disk_gb: 80
+  indicative_monthly_cost_usd: 24
+
+features_required:
+  - "Web research (case law, statutes, secondary sources)"
+  - "Citations with links"
+  - "Memo outline drafting"
+  - "Redaction helper for exhibits"
+  - "Admin dashboard with usage reports"
+
+constraints:
+  - "No storage of raw client documents outside encrypted volumes"
+  - "No third-party data sharing"
+  - "Ability to export evidence for SOC 2 controls"
+  - "US-only hosting and API endpoints where possible"
+
+decision_considerations:
+  buy_vs_build:
+    buy_pros: "Faster time-to-value, bundled monitoring/ops, predictable cost"
+    buy_cons: "Less control over internal customization roadmap"
+    build_pros: "Customization and data control"
+    build_cons: "Ongoing engineering load and reliability risk"

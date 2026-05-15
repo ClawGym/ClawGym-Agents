@@ -1,0 +1,15 @@
+topics:
+  solar_energy:
+    keywords: ["solar", "mini-grid", "microgrid", "rooftop"]
+  ai_healthcare:
+    keywords: ["AI", "artificial intelligence", "machine learning", "diagnostic", "triage", "risk scoring"]
+  stem_education_funding:
+    keywords: ["STEM", "scholarship", "grant", "fund", "labs", "teacher training"]
+
+rules:
+  match_scope: "title_or_tags"
+  case_insensitive: true
+
+trend_thresholds:
+  min_monthly_mentions: 2
+  min_growth_pct: 50

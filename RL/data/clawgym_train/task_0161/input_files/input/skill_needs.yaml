@@ -1,0 +1,24 @@
+areas:
+  - id: react_performance
+    title: React performance optimization
+    description: Need a skill that provides best practices, diagnostics, and actionable guidance to improve React and Next.js app performance.
+
+  - id: pr_review
+    title: Pull request review automation
+    description: Automate code review with style, security, and maintainability checks; leave actionable PR feedback.
+
+  - id: changelog
+    title: Changelog generation
+    description: Generate a structured CHANGELOG.md from conventional commits and tags; support semantic versioning workflows.
+
+  - id: private_computation
+    title: Private computation and secrets management
+    description: Securely store API keys, run sensitive tasks in an isolated manner, and keep immutable audit logs; aim for GDPR/HIPAA readiness.
+
+  - id: pydantic_ai_tools
+    title: PydanticAI tool system integration
+    description: Add PydanticAI tool registration patterns for function calling, context-aware tools, and toolsets.
+
+  - id: orc_reference
+    title: Apache ORC format reference
+    description: Provide reference commands and documentation for ORC schema, compression, read/write APIs, and Spark/Hive integration.

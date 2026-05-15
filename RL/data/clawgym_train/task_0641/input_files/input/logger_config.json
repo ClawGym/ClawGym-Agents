@@ -1,0 +1,6 @@
+{
+  "memory_dir": "output/logs/",
+  "auto_save": true,
+  "format": "markdown",
+  "sections": ["Basic Info", "Events", "Tasks", "Todos"]
+}

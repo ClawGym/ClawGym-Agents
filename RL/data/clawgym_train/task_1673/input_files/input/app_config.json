@@ -1,0 +1,38 @@
+{
+  "service": "auth",
+  "version": "2.4.1",
+  "env": {
+    "name": "production",
+    "region": "us-west-2",
+    "secrets_ref": "vault://prod/auth"
+  },
+  "features": {
+    "signup": {
+      "enabled": true,
+      "providers": ["email", "google", "github"]
+    },
+    "mfa": {
+      "enabled": true,
+      "methods": {
+        "totp": true,
+        "sms": false,
+        "webauthn": true
+      }
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "trace": {
+      "enabled": true,
+      "sample_rate": 0.1
+    }
+  },
+  "limits": {
+    "rate_limiter": {
+      "burst": 50,
+      "sustained_per_minute": 600
+    },
+    "max_sessions": 5
+  },
+  "updated_at": "2026-04-16T22:45:02Z"
+}

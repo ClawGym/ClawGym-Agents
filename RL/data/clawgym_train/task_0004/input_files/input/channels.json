@@ -1,0 +1,5 @@
+[
+  {"name": "Instagram", "preferred_days": ["Mon", "Wed", "Fri"], "max_posts_per_week": 3},
+  {"name": "LinkedIn", "preferred_days": ["Tue", "Thu"], "max_posts_per_week": 2},
+  {"name": "Newsletter", "preferred_days": ["Sun"], "max_posts_per_week": 1}
+]

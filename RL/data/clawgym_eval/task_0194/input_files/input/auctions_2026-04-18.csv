@@ -1,0 +1,11 @@
+auction_id,title,current_bid,shipping_cost,time_left_min,seller_rating,bid_increment,my_max_bid,category,watchlist_flag
+A1,"Vintage Camera",120,15,45,99.2,2.5,180,collectibles,1
+A2,"Gaming GPU",300,20,25,98.5,5,360,electronics,1
+A3,"Rare Coin",75,5,170,97.5,1,150,collectibles,1
+A4,"Smartphone",200,10,190,99.0,2,250,electronics,1
+A5,"Drone",220,5,60,96.0,5,300,electronics,1
+A6,"Vintage Vinyl",40,10,15,98.0,1,70,collectibles,1
+A7,"Pro Keyboard",90,10,85,99.5,2,110,electronics,1
+A8,"Collectible Comic",160,0,50,99.8,1,159,collectibles,1
+A9,"VR Headset",180,15,35,97.2,2,220,electronics,0
+A10,"Action Figure Set",45,5,30,98.7,1,80,collectibles,1

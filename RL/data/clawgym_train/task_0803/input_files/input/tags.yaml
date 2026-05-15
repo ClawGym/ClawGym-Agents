@@ -1,0 +1,17 @@
+allowed_tags:
+  - tech
+  - ci
+  - quality
+  - docs
+  - performance
+  - security
+  - process
+  - database
+  - testing
+  - observability
+  - workflows
+  - release
+  - planning
+  - infra
+  - reliability
+  - ux

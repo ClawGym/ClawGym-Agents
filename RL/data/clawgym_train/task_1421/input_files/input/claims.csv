@@ -1,0 +1,7 @@
+claim_id,provider_id,patient_id,service_date,submitted_charges,allowed_amount,paid_amount,status,missing_docs
+C1001,P001,PT100,2026-03-02,150.00,120.00,0.00,Pending,yes
+C1002,P001,PT101,2026-03-05,200.00,180.00,100.00,Processing,yes
+C1003,P002,PT102,2026-03-06,90.00,90.00,90.00,Paid,no
+C1004,P002,PT103,2026-03-09,300.00,250.00,0.00,Denied,yes
+C1005,P003,PT104,2026-03-10,110.00,100.00,50.00,Pending,no
+C1006,P003,PT105,2026-03-12,75.00,75.00,0.00,Processing,yes

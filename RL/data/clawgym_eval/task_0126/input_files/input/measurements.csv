@@ -1,0 +1,13 @@
+structure_name,city,element,span_m,thickness_m,year
+Santa Maria del Fiore (Dome),Florence,dome main span,45.5,2.3,1436
+Santa Maria del Fiore (Dome),Florence,dome mid shell,30.0,2.1,1435
+Santa Maria del Fiore (Dome),Florence,oculus ring,2.0,1.5,1436
+Santa Maria del Fiore (Dome),Florence,rib interval,5.5,1.2,1434
+Pazzi Chapel,Florence,central dome,9.7,1.1,1443
+Pazzi Chapel,Florence,side bay,5.0,0.8,1443
+Basilica of San Lorenzo,Florence,nave bay,12.0,0.9,1440
+Basilica of San Lorenzo,Florence,nave bay,13.0,1.0,1442
+Basilica of San Lorenzo,Florence,crossing,14.2,1.2,1445
+Ospedale degli Innocenti,Florence,loggia bay,7.0,0.6,1427
+Ospedale degli Innocenti,Florence,loggia bay,7.2,0.6,1428
+Old Sacristy (San Lorenzo),Florence,dome,10.4,1.0,1428

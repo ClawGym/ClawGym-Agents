@@ -1,0 +1,14 @@
+2025-03-25T08:05:12Z INFO chrome[1345]: Idle cleanup finished
+2025-03-25T09:15:45Z WARNING backup[2201]: Last run exceeded expected time
+2025-03-25T09:16:02Z ERROR backup[2201]: Backup failed with code 2
+2025-03-25T10:22:31Z ERROR chrome[1345]: Renderer crash detected
+2025-03-25T11:00:00Z INFO systemd[1]: Started Daily maintenance.
+2025-03-25T20:44:03Z WARNING python[3300]: High memory usage noticed
+2025-03-25T21:02:18Z ERROR python[3300]: Unhandled exception in script
+2025-03-26T07:50:09Z INFO sshd[902]: Accepted publickey for user
+2025-03-26T08:00:55Z ERROR sshd[902]: Authentication failure
+2025-03-26T12:10:12Z INFO backup[2210]: Backup started
+2025-03-26T14:22:41Z WARNING chrome[1440]: Extension slowed page load
+2025-03-26T16:05:27Z ERROR chrome[1440]: GPU process hung
+2025-03-26T18:30:00Z INFO kernel[0]: Disk check completed
+2025-03-26T20:01:11Z WARNING backup[2210]: Skipped some files due to permissions

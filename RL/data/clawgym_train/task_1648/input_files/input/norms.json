@@ -1,0 +1,8 @@
+{
+  "stride_time_ms": [
+    {"age_min": 18, "age_max": 50, "max_mean": 1250, "max_cv": 0.15},
+    {"age_min": 51, "age_max": 65, "max_mean": 1300, "max_cv": 0.18},
+    {"age_min": 66, "age_max": 120, "max_mean": 1400, "max_cv": 0.20}
+  ],
+  "valid_devices": ["Shimmer3", "Axivity"]
+}

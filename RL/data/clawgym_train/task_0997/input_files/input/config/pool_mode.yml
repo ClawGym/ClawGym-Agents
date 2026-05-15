@@ -1,0 +1,6 @@
+target_volume_percent: 85
+target_brightness_percent: 100
+notify_repeats: 2
+trigger_file: "trigger/pool_visit.flag"
+child_name: "Ava"
+child_age_years: 3

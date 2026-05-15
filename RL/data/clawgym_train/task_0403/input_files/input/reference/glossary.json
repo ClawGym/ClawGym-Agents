@@ -1,0 +1,6 @@
+{
+  "terms": [
+    {"canonical": "CA1", "synonyms": ["CA-1", "CA 1", "CA-1 region"]},
+    {"canonical": "astrocyte", "synonyms": ["astro-glia"]}
+  ]
+}

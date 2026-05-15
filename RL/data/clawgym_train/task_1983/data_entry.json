@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1983",
+  "user_query": "We keep seeing recurring issues across our AI agent. Please run a compact architecture audit and tell us exactly which lane each problem belongs in (persona, rules, memory, or skills), the smallest justified fix, and where to patch. Read the incidents in input/agent_incidents.jsonl and the excerpts in input/current_docs.md. Deliver a structured JSON report to output/diagnosis.json with one entry per incident including: diagnosis, lane, optional secondary_lane, fix_type, patch_target, smallest_patch, and a risks list (what not to touch/overreach to avoid). Also draft the minimal patch proposals as text files:\n- output/patches/SOUL.md (persona/tone clarifier for negotiation behaviors, if warranted)\n- output/patches/OPERATIONS.md (rules edit for compliance operating steps, if warranted)\n- output/patches/MEMORY.md (durable memory tweak, if warranted)\n- output/patches/skills/three-body-simulator/SKILL.md (a small reusable workflow/checklist update if the simulator case truly earns a skill change)\nKeep the patches small and targeted. Do not propose broad rewrites or dashboards. Make sure the simulator patch, if present, includes an energy-check step and dt guidance. Use the smallest fix that prevents recurrence.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

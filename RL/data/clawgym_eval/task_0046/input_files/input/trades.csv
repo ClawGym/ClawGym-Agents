@@ -1,0 +1,8 @@
+date,strategy,instrument,side,qty,price,gross_pnl,fees
+2024-09-02,OptionsVol,SPY_Sept_Calls,buy,20,6.10,-250,6.0
+2024-09-03,StatArb,AAPL,buy,100,190.00,450,12.5
+2024-09-03,CryptoArb,BTC-USD,buy,0.8,58000,180,3.2
+2024-09-04,StatArb,MSFT,sell,50,330.00,-120,8.0
+2024-09-05,StatArb,AMZN,buy,30,140.00,210,5.5
+2024-09-05,CryptoArb,ETH-USD,sell,5,1700,-90,2.0
+2024-09-06,OptionsVol,SPY_Sept_Puts,sell,15,5.50,310,4.5

@@ -1,0 +1,65 @@
+{
+  "agents": [
+    {
+      "name": "email_campaigner",
+      "version": "1.3.2",
+      "covers": [
+        "email_automation",
+        "audience_segmentation",
+        "a_b_testing"
+      ],
+      "capability_notes": "Automates campaign sequencing, subject line testing, and rule-based audience splits. Uses templated prompts and response caching."
+    },
+    {
+      "name": "landing_page_gen",
+      "version": "0.9.7",
+      "covers": [
+        "landing_page_builder",
+        "forms_and_popups"
+      ],
+      "capability_notes": "Generates landing page sections, hero copy, and form components; exports to HTML/CSS or block-based CMS."
+    },
+    {
+      "name": "social_publisher",
+      "version": "2.1.0",
+      "covers": [
+        "social_scheduling"
+      ],
+      "capability_notes": "Creates post variations, schedules to major networks, and optimizes send times based on historical engagement."
+    },
+    {
+      "name": "data_sync_hub",
+      "version": "1.0.4",
+      "covers": [
+        "crm_sync"
+      ],
+      "capability_notes": "Handles bidirectional sync with major CRMs using webhook ingestion and batched upserts."
+    },
+    {
+      "name": "analytics_insights",
+      "version": "0.6.5",
+      "covers": [
+        "analytics_dashboard"
+      ],
+      "capability_notes": "Builds KPI dashboards and automated weekly summaries; supports funnel and cohort views."
+    }
+  ],
+  "known_gaps": [
+    {
+      "missing_skill": "lead_scorer",
+      "covers": [
+        "lead_scoring"
+      ],
+      "gap_notes": "Requires lightweight ML ranking with feedback loop (e.g., gradient boosting or logistic regression on engagement features)."
+    },
+    {
+      "missing_skill": "journey_orchestrator",
+      "covers": [
+        "journey_orchestration"
+      ],
+      "gap_notes": "Requires workflow engine with state machine, SLA timers, and multichannel triggers."
+    }
+  ],
+  "last_updated": "2026-04-15",
+  "maintainer": "Mupeng AI Ops"
+}

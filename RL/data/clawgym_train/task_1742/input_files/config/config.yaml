@@ -1,0 +1,6 @@
+run_time: "07:00"
+output_dir: "out/bulletins"
+categories_for_bulletin:
+  - Music
+  - Heritage
+  - Lecture

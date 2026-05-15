@@ -1,0 +1,11 @@
+id,title,business_value,user_impact,risk,effort,notes
+BL-001,Implement SSO via SAML 2.0,10,9,6,8,Enterprise deals blocked without SSO
+BL-002,Improve search relevancy v2,8,8,5,6,Introduce BM25 tuning and typo tolerance
+BL-003,Billing proration accuracy fix,9,7,4,5,Edge cases for mid-cycle plan changes
+BL-004,CSV export for analytics reports,7,6,3,3,Frequent customer request by CS team
+BL-005,Dark mode (web app),5,5,2,4,Branding request; improves comfort
+BL-006,Audit log filtering & download,6,7,3,5,Security and compliance teams need this
+BL-007,API rate limit dashboard,7,6,4,5,Reduce support tickets from integrators
+BL-008,Mobile offline caching (beta),6,5,7,8,Higher risk and heavy effort
+BL-009,Project onboarding checklist v1,6,8,2,3,Improves activation in first week
+BL-010,Notification delivery analytics (admin),7,7,5,4,Track send success, latency, retries

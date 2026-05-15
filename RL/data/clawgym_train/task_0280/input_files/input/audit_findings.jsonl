@@ -1,0 +1,9 @@
+{"project_id":"P1001","finding_id":"F-001","severity":"Moderate","type":"procurement","year":2019,"description":"Procurement process documentation incomplete for landscaping subcontract."}
+{"project_id":"P1001","finding_id":"F-002","severity":"Low","type":"reporting","year":2018,"description":"Late submission of Q4 project report."}
+{"project_id":"P1002","finding_id":"F-003","severity":"High","type":"conflict_of_interest","year":2020,"description":"Undisclosed familial relationship with vendor board member."}
+{"project_id":"P1002","finding_id":"F-004","severity":"Moderate","type":"expense_documentation","year":2019,"description":"Missing receipts for workshop supplies."}
+{"project_id":"P1003","finding_id":"F-005","severity":"High","type":"overbilling","year":2019,"description":"Contractor billed for materials not delivered."}
+{"project_id":"P1003","finding_id":"F-006","severity":"High","type":"records_management","year":2020,"description":"Insufficient inspection records kept for installed fixtures."}
+{"project_id":"P1003","finding_id":"F-007","severity":"Low","type":"change_management","year":2020,"description":"Delayed processing of approved change orders."}
+{"project_id":"P1004","finding_id":"F-008","severity":"Moderate","type":"eligibility_verification","year":2020,"description":"Incomplete verification for several grant recipients."}
+{"project_id":"P1005","finding_id":"F-009","severity":"Low","type":"safety_compliance","year":2019,"description":"Minor lapse in on-site safety signage."}

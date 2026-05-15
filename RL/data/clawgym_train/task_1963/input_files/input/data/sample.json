@@ -1,0 +1,7 @@
+{
+  "title": "OpenClaw Terminal Inventory Demo",
+  "version": "1.0.0",
+  "authors": ["A. Example", "B. Example"],
+  "tags": ["inventory", "demo", "read-only"],
+  "description": "A compact dataset for verifying read-only terminal workflows."
+}

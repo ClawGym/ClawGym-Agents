@@ -1,0 +1,10 @@
+[
+  {
+    "llm_cost_eur": 0.5,
+    "simulated_return_eur": 0.3
+  },
+  {
+    "llm_cost_eur": 0.4,
+    "simulated_return_eur": 0.2
+  }
+]

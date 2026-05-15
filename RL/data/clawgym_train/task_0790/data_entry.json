@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0790",
+  "user_query": "Please audit the surgical logs in input/hospital_logs.json. Cross-reference each case's surgeon notes/procedure summary against the billed items to identify revenue leakage (items mentioned but missing from billing or under-billed). Produce the following outputs:\n\n1) A Markdown report saved to output/audit_report.md that includes:\n   - A table with the exact header: \"Item in Notes | Status in Bill | Estimated Leakage\"\n   - Line items for each discrepancy with Estimated Leakage shown in INR (₹)\n   - A final line stating: \"Total Estimated Revenue Recovery: ₹[amount]\"\n   - A short Methodology section describing how you matched items and estimated leakage\n   - An Assumptions & Notes section for any ambiguities (e.g., unclear item matching or missing costs)\n   - A WhatsApp Message Draft to the Hospital Administrator requesting approval to update the bill (include the phrase \"approval to update the bill\")\n   - A brief privacy disclaimer confirming patient data has been de-identified\n\n2) A machine-readable JSON at output/discrepancies.json containing:\n   {\n     \"discrepancies\": [\n       {\"item\": \"...\", \"status\": \"missing|under_billed|billed\", \"estimated_leakage\": <number>}\n     ],\n     \"total_estimated_recovery\": <number>\n   }\n\nUse only the data provided in input/hospital_logs.json. Do not use any external sources. If an item's cost is not explicit, state your estimation approach in the Assumptions & Notes section. Ensure all patient identifiers are omitted or masked in the report and draft.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

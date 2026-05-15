@@ -1,0 +1,48 @@
+{
+  "gradle": {
+    "com.squareup.okhttp3:okhttp": {
+      "vulnerable_versions": ["3.12.0"],
+      "advisory_ids": ["CVE-2018-20200"],
+      "min_safe_version": "3.14.9"
+    },
+    "com.google.code.gson:gson": {
+      "vulnerable_versions": ["2.8.5"],
+      "advisory_ids": ["CVE-2022-25647"],
+      "min_safe_version": "2.8.9"
+    },
+    "androidx.security:security-crypto": {
+      "vulnerable_versions": [],
+      "advisory_ids": [],
+      "min_safe_version": null
+    },
+    "org.jetbrains.kotlinx:kotlinx-coroutines-core": {
+      "vulnerable_versions": ["1.3.5"],
+      "advisory_ids": ["CVE-2020-12345"],
+      "min_safe_version": "1.4.0"
+    }
+  },
+  "pub": {
+    "http": {
+      "vulnerable_versions": ["0.12.2"],
+      "advisory_ids": ["FLUTTER-SEC-0001"],
+      "min_safe_version": "0.13.0"
+    },
+    "path_provider": {
+      "vulnerable_versions": [],
+      "advisory_ids": [],
+      "min_safe_version": null
+    },
+    "encrypt": {
+      "vulnerable_versions": ["4.0.0"],
+      "advisory_ids": ["DARTSEC-2020-ENCRYPT"],
+      "min_safe_version": "5.0.0"
+    }
+  },
+  "manifest_rules": {
+    "usesCleartextTraffic": {
+      "message": "Cleartext HTTP traffic permitted",
+      "severity": "high",
+      "recommendation": "Disable cleartext traffic or define a strict Network Security Config."
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1826",
+  "user_query": "I’m provisioning a new microservice and need a small secrets bundle. Read the policy in input/secret_requirements.json and generate strong random values that satisfy it. Then write exactly two files:\n\n1) output/secrets.json — a flat JSON object with exactly these three keys: ADMIN_PASSWORD, API_KEY, SESSION_TOKEN. No extra keys. Values must satisfy the policy:\n- ADMIN_PASSWORD: alphanumeric only (A–Z, a–z, 0–9), exactly 32 characters.\n- API_KEY: lowercase hex, 64 characters (i.e., 32 bytes encoded as hex).\n- SESSION_TOKEN: base64 URL-safe string (only A–Z, a–z, 0–9, -, _), exactly 64 characters, no '=' padding.\nAll three values must be unique.\n\n2) output/commands.md — include the exact shell command you used for each secret so we can regenerate them later. Put one command per secret, each preceded by the secret name (ADMIN_PASSWORD, API_KEY, SESSION_TOKEN). Ensure the commands are copy-pasteable and use a cryptographically secure random source. For the base64 URL-safe token, convert '+'/'/' to '-/_' and remove any '=' padding.\n\nDo not write secrets anywhere else. Use only the paths above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,13 @@
+id,date,reporter,category,severity,status,description
+1,2026-04-10,J. Lee,trash,High,New,Overflowing bin near south entrance.
+2,2026-04-11,A. Patel,lighting,Medium,In Progress,Two lamps flicker by playground.
+3,2026-04-11,M. Garcia,path,Low,Resolved,Loose gravel by pond.
+4,2026-04-12,R. Chen,planting,High,New,New saplings drying out, need watering.
+5,2026-04-12,S. Kim,graffiti,Low,New,Tag on restroom wall.
+6,2026-04-13,P. O'Neil,water,Critical,New,Pond pump very loud at night.
+7,2026-04-13,L. Brown,noise,Medium,New,Late-night music near gazebo.
+8,2026-04-14,C. Davis,lighting,High,New,
+9,2026-04-14,E. Smith,path,High,In Progress,Broken paver by dog run.
+10,2026-04-15,T. Nguyen,planting,Medium,Done,Weeds along fence.
+11,2026-04-16,K. Johnson,trash,Medium,New,Litter after weekend soccer game.
+12,2026-04-16,F. Rossi,water,High,In Progress,Irrigation timer not triggering in zone 3.

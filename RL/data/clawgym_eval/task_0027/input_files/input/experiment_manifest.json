@@ -1,0 +1,8 @@
+{
+  "experiments": [
+    {"sample_id": "A549_DMSO", "description": "A549 line vehicle control", "expected_replicates": 3},
+    {"sample_id": "A549_DrugX_10uM", "description": "A549 treated with DrugX 10\u00b5M", "expected_replicates": 3},
+    {"sample_id": "MCF7_DMSO", "description": "MCF7 line vehicle control", "expected_replicates": 3},
+    {"sample_id": "MCF7_DrugY_5uM", "description": "MCF7 treated with DrugY 5\u00b5M", "expected_replicates": 3}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "period": "2023-03-01 to 2023-08-31",
+  "expected": {
+    "number_of_stays": 3,
+    "number_of_payments": 3,
+    "referral_credits_earned_usd": 40.00,
+    "referral_credits_applied_usd": 20.00,
+    "unredeemed_referral_credits_usd": 20.00,
+    "total_taxable_subtotal_usd": 1165.00,
+    "total_tax_usd": 93.20,
+    "total_due_before_credits_usd": 1258.20,
+    "total_due_after_credits_usd": 1238.20,
+    "payments_received_usd": 1218.20,
+    "outstanding_balance_usd": 20.00
+  },
+  "checks": [
+    "total_due_after_credits_usd == total_taxable_subtotal_usd + total_tax_usd - referral_credits_applied_usd",
+    "outstanding_balance_usd == total_due_after_credits_usd - payments_received_usd",
+    "unredeemed_referral_credits_usd == referral_credits_earned_usd - referral_credits_applied_usd",
+    "outstanding_balance_usd == unredeemed_referral_credits_usd"
+  ]
+}

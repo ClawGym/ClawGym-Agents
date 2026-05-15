@@ -1,0 +1,11 @@
+employee_id,name,department,timezone,preferred_slots
+E01,Alice Harper,HR,America/Chicago,"S2|S1"
+E02,Bob Nguyen,HR,America/Chicago,"S1"
+E03,Carol Diaz,Finance,America/Chicago,"S3|S4"
+E04,David Patel,Finance,America/Chicago,"S4"
+E05,Eve Robinson,IT,America/Chicago,"S3|S1"
+E06,Frank Lopez,IT,America/Chicago,"S1"
+E07,Grace Kim,Sales,America/Chicago,"S2|S4"
+E08,Henry Brooks,Sales,America/Chicago,"S4"
+E09,Irene Chen,Operations,America/Chicago,"S1|S4"
+E10,John Smith,Operations,America/Chicago,"S2|S1"

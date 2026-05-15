@@ -1,0 +1,14 @@
+{
+  "base_year": 2019,
+  "currency": "USD",
+  "categories": {
+    "Participant incentives": 8000,
+    "Media content licenses": 2500,
+    "Survey tools": 1200,
+    "Transcription": 1500,
+    "Cloud storage": 600,
+    "Software": 1000,
+    "Travel": 1000,
+    "Misc": 500
+  }
+}

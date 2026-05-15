@@ -1,0 +1,18 @@
+[
+  {
+    "id": "q1",
+    "text": "docker compose backend staging health checks"
+  },
+  {
+    "id": "q2",
+    "text": "edge memory jaccard token sets stopword removal"
+  },
+  {
+    "id": "q3",
+    "text": "voice call plugin api keys audio quality"
+  },
+  {
+    "id": "q4",
+    "text": "dark mode user preference theme"
+  }
+]

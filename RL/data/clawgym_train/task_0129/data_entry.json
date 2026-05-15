@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0129",
+  "user_query": "I’m consolidating my options trading logs offline. Please do the following:\n1) Read input/trades.csv (first row is a header). For each data row, create two log entries using the local trading tracker: one with command \"run\" and one with command \"analyze\". Use this exact value format for both logs: TRADE|symbol=<SYMBOL>|action=<ACTION>|qty=<QTY>|price=<PRICE>|note=<NOTE>.\n2) After logging, read the single search term from input/search_terms.txt and search the tracker history for that term. Write the full search output to output/search_results.txt.\n3) Save the tracker’s stats output to output/stats.txt and the recent activity output to output/recent.txt.\n4) Create output/session_summary.json containing: { \"trades_logged\": <number of data rows in input/trades.csv>, \"analyze_logged\": <same as trades_logged>, \"search_term\": \"<term from input/search_terms.txt>\", \"contains_matches\": <true if output/search_results.txt includes at least one matched line containing the term> }.\nUse only relative workspace paths. Do not write outputs anywhere except under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

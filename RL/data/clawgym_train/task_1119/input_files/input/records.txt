@@ -1,0 +1,37 @@
+Data dump for QA and regex validation.
+
+Contacts:
+- Primary: alice@example.com
+- Sales: Sales@ACME.co
+- Not whitelisted: charlie@another.com
+
+Web references:
+- Homepage: https://example.com
+- API docs: https://docs.acme.co/api/v2
+- Insecure link (should be ignored): http://insecure.test.org/path
+
+Orders:
+- Valid order: ORD-2025-09-14-ZX92TQ
+- Out-of-range year: ORD-2027-01-01-ABC123
+- Leap-day valid: ORD-2024-02-29-Q1W2E3
+
+IP addresses:
+- Public DNS: 8.8.8.8
+- CDN node: 104.26.10.78
+- Private (exclude): 172.20.10.5
+- Private (exclude): 192.168.1.19
+- Loopback (exclude): 127.0.0.1
+- Special (exclude): 0.0.0.0
+
+Phones to normalize:
+- (415) 555-2671
+- 212-555-0199
+- 1-646-555-1234
+- +1 303 555 6600
+- 213.555.7890 ext. 204
+
+[SKIP_START]
+Inside skip: skipme@example.com, https://acme.co/inside-skip, ORD-2023-12-05-HELLO1, 1.1.1.1, and phone 408 555 0022 should be ignored entirely for both extraction and normalization.
+[SKIP_END]
+
+End of file.

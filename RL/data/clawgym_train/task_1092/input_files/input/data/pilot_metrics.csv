@@ -1,0 +1,9 @@
+vendor_id,store_id,interactions,avg_first_response_secs,resolution_rate,csat,cost_per_resolution_usd
+acmeai,101,120,12,0.86,4.3,1.20
+acmeai,102,45,15,0.80,4.0,1.10
+acmeai,103,90,10,0.90,4.5,1.30
+brightbot,101,70,18,0.83,4.2,1.00
+brightbot,104,55,14,0.88,4.4,1.40
+helpline,103,60,22,0.78,4.1,0.90
+helpline,104,52,20,0.80,4.0,1.00
+novachat,105,200,9,0.92,4.6,1.50

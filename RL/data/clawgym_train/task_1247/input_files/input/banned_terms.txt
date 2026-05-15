@@ -1,0 +1,13 @@
+# Terms to avoid (case-insensitive, whole words)
+cure
+cures
+heal
+heals
+guarantee
+guaranteed
+erase
+erases
+reverse
+reverses
+fix
+miracle

@@ -1,0 +1,8 @@
+file,line,code,severity,message
+app/greet.py,3,INC002,Medium,Honorific-based binary gender mapping found
+app/greet.py,10,INC001,High,Gendered collective 'guys' used in default greeting
+app/greet.py,3,STYLE001,Low,Constant name should be UPPER_CASE per style guide
+app/greet.py,10,INC001,High,Gendered collective 'guys' used in default greeting (duplicate)
+app/greet.py,6,PERF001,Low,Unnecessary branch duplication
+app/greet.py,7,INC002,Medium,Honorific-based binary gender mapping found
+app/greet.py,8,INC002,Medium,Honorific-based binary gender mapping found

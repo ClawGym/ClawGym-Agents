@@ -1,0 +1,30 @@
+{
+  "port_name": "Chornomorsk",
+  "channel_speed_limit_kts": 8,
+  "anchorage_capacity": 8,
+  "tugs_available": 3,
+  "pilotage_windows_local": [
+    "00:00-04:00",
+    "08:00-12:00",
+    "16:00-20:00"
+  ],
+  "visibility_min_m": 3000,
+  "wind_normal_max_kts": 20,
+  "wave_height_normal_max_m": 1.5,
+  "suspicious_ais_gap_minutes": 60,
+  "default_security_posture": "Normal",
+  "berths": [
+    {"id": "B1", "name": "Berth 1", "notes": "Bunkering capable"},
+    {"id": "B2", "name": "Berth 2", "notes": "General cargo"},
+    {"id": "B4", "name": "Berth 4", "notes": "Grain"},
+    {"id": "B5", "name": "Berth 5", "notes": "Occasional dredging/maintenance"},
+    {"id": "B6", "name": "Berth 6", "notes": "Overflow berth"}
+  ],
+  "watchlist_vessels": [],
+  "contacts": {
+    "vts": "+380-48-000-1122",
+    "harbor_master": "+380-48-000-1188",
+    "security_officer": "+380-48-000-1199"
+  },
+  "notes": "Use ISPS Level 1 procedures unless posture changes. Apply enhanced AIS verification during regional advisories."
+}

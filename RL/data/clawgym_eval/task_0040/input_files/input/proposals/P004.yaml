@@ -1,0 +1,13 @@
+id: P004
+title: "Digital Work Instructions on Tablets"
+department: Assembly
+capex_usd: 30000
+estimated_annual_benefit_usd: 60000
+readiness_score: 9
+risk_score: 2
+owner: "Alex Rivera"
+pilot_site: "Assembly Line 1"
+timeline_quarters: 1
+dependencies:
+  - "Wi-Fi coverage validation"
+  - "Standard work content update"

@@ -1,0 +1,5 @@
+claim_id,date,sector,item,claimed_quantity
+C1,2025-09-21,7,hygiene_kit,152
+C2,2025-09-20,3,water_tablets,400
+C3,2025-09-21,5,water_tablets,420
+C4,2025-09-21,7,tarp,0

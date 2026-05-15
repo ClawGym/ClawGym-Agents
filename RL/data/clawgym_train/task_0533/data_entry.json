@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0533",
+  "user_query": "I need a quick but comprehensive health audit of our self-hosted services using the provided configuration. Read input/watchdog.json and run checks in four modes using that config: (1) a standard summary, (2) machine-readable JSON, (3) alerts-only, and (4) SSL-only for HTTPS endpoints. Save the outputs to these exact files:\n- output/summary.txt — the one-line-per-service summary\n- output/report.json — the JSON output\n- output/alerts.txt — alerts-only view (only issues, or a healthy message if none)\n- output/ssl.txt — SSL-only results for HTTPS services\nThen, write a short analysis that explains your findings and next steps in output/analysis.md. Please use only relative paths, read the config from input/watchdog.json via a config flag, and write nothing outside output/. In your analysis, call out any failing or warning services by name and include clear recommendations for remediation.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

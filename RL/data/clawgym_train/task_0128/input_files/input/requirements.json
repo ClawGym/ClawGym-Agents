@@ -1,0 +1,14 @@
+{
+  "allowed_categories": ["AI & LLM Tools", "Search & Web", "Development & DevOps"],
+  "allowed_risks": ["low", "medium"],
+  "requires_weekly_updated": true,
+  "max_days_since_update": 90,
+  "require_languages": ["english"],
+  "exclude_tags": ["beta", "deprecated"],
+  "priority_tags": ["cli", "api", "mcp", "fast"],
+  "score_weights": {
+    "base_multiplier": 1.2,
+    "tag_bonus": 5
+  },
+  "top_k_per_category": 3
+}

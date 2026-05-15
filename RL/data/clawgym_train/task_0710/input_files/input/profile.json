@@ -1,0 +1,29 @@
+{
+  "name": "Jordan Lee",
+  "years_experience": 6,
+  "current_title": "Data Analyst II",
+  "target_role": "Senior Data Analyst — Product Analytics",
+  "domain": "Consumer apps",
+  "skills": ["SQL", "Python", "A/B testing", "Experiment analysis", "Product analytics", "Dashboarding"],
+  "achievements": [
+    "Led analysis that improved signup activation by 18% via an onboarding experiment",
+    "Built retention cohort dashboard used by PMs weekly",
+    "Designed metrics framework for activation and engagement in a 5M MAU app"
+  ],
+  "weaknesses": [
+    "Tends to speak too fast under pressure",
+    "Sometimes over-explains beyond 2 minutes"
+  ],
+  "preferences": {
+    "feedback_style": "direct, actionable",
+    "answer_length_seconds": 90,
+    "session_length_minutes": 45,
+    "format": "3–5 bullet points for feedback"
+  },
+  "people": {
+    "mentor": { "name": "Alex Rivera", "company": "Craftlytics" },
+    "recruiter": { "name": "Priya Sharma", "agency": "Helios Staffing" }
+  },
+  "availability": ["Tuesday evening", "Thursday evening"],
+  "notes": "Please avoid exposing any credentials; classify credentials as secret and exclude from recall."
+}

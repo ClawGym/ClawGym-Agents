@@ -1,0 +1,6 @@
+{
+  "project_name": "NovaUI Web App",
+  "report_owner": "Release Engineering",
+  "timezone": "local",
+  "allowed_domains": ["w3.org", "developer.mozilla.org"]
+}

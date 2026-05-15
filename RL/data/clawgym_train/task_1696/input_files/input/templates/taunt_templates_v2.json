@@ -1,0 +1,5 @@
+[
+  {"id": "score-sting", "text_en": "Scoreboard check: {winner} over {loser} by {margin}. Final: {scoreline} at {venue}."},
+  {"id": "holiday-burn", "text_en": "Holiday classic: {winner} spoiled the {loser}'s day, winning {scoreline} at {venue}."},
+  {"id": "margin-micdrop", "text_en": "By {margin} points. That's how {winner} handled the {loser}. {scoreline}."}
+]

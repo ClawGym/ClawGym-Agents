@@ -1,0 +1,13 @@
+tasks:
+  - title: Draft pilot plan for Café Morgenrot
+    due: 2026-04-16
+    status: next
+  - title: Compile competitor fees (AT focus)
+    due: 2026-04-17
+    status: todo
+  - title: Review FMA guidance on SCA exemptions
+    due: 2026-04-18
+    status: todo
+  - title: Investor update slides
+    due: 2026-04-15
+    status: done

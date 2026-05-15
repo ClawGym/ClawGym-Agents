@@ -1,0 +1,4 @@
+input_path: input/data/sales_small.csv
+output_path: outputs/region_metrics.csv
+engine: pandas
+chunk_size: 5000

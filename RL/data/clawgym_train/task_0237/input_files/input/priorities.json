@@ -1,0 +1,9 @@
+{
+  "weights": {
+    "latency": 0.45,
+    "developer_productivity": 0.30,
+    "community_maturity": 0.15,
+    "learning_curve": 0.10
+  },
+  "tie_breakers": ["developer_productivity", "latency"]
+}

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0180",
+  "user_query": "Please index and query an audit case folder from structured inputs. Read input/case.json (case directory name, documents with stages, and per-page text) and input/query.json (the question, stage filter, and k). Do the following:\n\n1) Build a manifest with one JSON line per document and write it to output/manifest.jsonl. Each line must contain exactly these keys: case_id, stage, source_display, path. Use the case_id from input/case.json and the provided stage, source_display, and path for each document.\n\n2) Simulate a stage-filtered evidence query. Restrict to documents with stage matching the query stage in input/query.json. Identify exactly k page-level citations that best support the question. For this task, choose only pages under the payment stage that explicitly indicate that payments were executed out of sequence or that final payment occurred before an acceptance certificate. Do not include any pages from other stages.\n\n3) Write the results to output/query_results.json with this structure:\n- question: original question\n- stage: the stage filter applied\n- k: the number of citations returned\n- results: an array of k items, each with keys source (the document path), source_display (filename), stage, page (integer), and snippet (<= 320 chars, single line substring of that page text). The page must reference a valid page from input/case.json for that source.\n\nNotes:\n- Use only the documents listed in input/case.json.\n- The manifest must list each document exactly once.\n- The results must contain exactly k entries, all from the payment stage, and each page must contain language directly evidencing out-of-sequence payments (e.g., mentions of \"out of sequence\" or final payment before/without an acceptance certificate).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

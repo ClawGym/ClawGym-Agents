@@ -1,0 +1,5 @@
+[
+  "connector.vendor_db.supplier_v1",
+  "connector.ticket.jira_v1",
+  "connector.security.policymap_v1"
+]

@@ -1,0 +1,6 @@
+name,email,skills,available_days,available_time_ranges
+Ahmed Ali,ahmed.ali@example.org,"Digital Literacy;Facilitation",Friday;Saturday,18:00-20:00
+Mona Hassan,mona.hassan@example.org,"Excel;Spreadsheets",Saturday;Sunday,19:00-21:00
+Samir Farag,samir.farag@example.org,"Job Search;CV Writing",Friday;Sunday,"18:00-20:00;19:00-21:00"
+Nadine Kamal,nadine.kamal@example.org,"Internet Safety;Digital Citizenship",Friday,19:00-21:00
+Youssef Ibrahim,youssef.ibrahim@example.org,"Facilities;Logistics",Friday;Saturday,18:00-20:00

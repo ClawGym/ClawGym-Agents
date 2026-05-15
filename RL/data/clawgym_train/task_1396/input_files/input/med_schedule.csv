@@ -1,0 +1,4 @@
+medication,dose,times,days,instructions
+Baclofen,10 mg,"08:00;20:00","Mon,Tue,Wed,Thu,Fri,Sat,Sun","Muscle relaxant; do not skip"
+Vitamin D3,2000 IU,"09:00","Mon,Wed,Fri,Sun","Take with food"
+Copaxone,40 mg,"09:00","Mon,Wed,Fri","Inject subcutaneously; rotate site"

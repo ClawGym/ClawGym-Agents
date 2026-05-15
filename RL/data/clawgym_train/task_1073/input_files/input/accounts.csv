@@ -1,0 +1,9 @@
+account_id,customer_name,amount_due,days_past_due,customer_value_score,payment_history_score,invoice_number,due_date,customer_state
+A1001,Northbridge Automotive LLC,12480.00,94,78,35,INV-2025-1180,2026-01-15,Texas
+A1005,Summit Construction Supply,9950.00,63,80,20,INV-2026-0217,2026-02-14,Illinois
+A1002,Skyline Retail Partners Inc.,6275.50,47,65,40,INV-2026-0301,2026-03-02,California
+A1007,Atlas Hospitality Group,5430.75,119,60,30,INV-2025-1210,2025-12-21,Ohio
+A1006,Evergreen Medical Systems,3200.00,15,90,10,INV-2026-0401,2026-04-03,Pennsylvania
+A1008,Cobalt Industrial Services,1275.00,35,55,50,INV-2026-0310,2026-03-14,Georgia
+A1003,Blue Harbor Foods Co.,885.00,128,52,25,INV-2025-1119,2025-12-12,Florida
+A1004,Metro Office Supply,420.00,22,70,55,INV-2026-0325,2026-03-27,New York

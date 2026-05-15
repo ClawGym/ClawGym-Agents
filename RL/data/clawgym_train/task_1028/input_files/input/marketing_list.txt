@@ -1,0 +1,12 @@
+alice@example.com
+bob.smith@example.com
+marketing@brand.com
+erin@startup.io
+info@example.com
+alice@example.com
+frank@example.net
+Erin@startup.io
+sales@brand.com
+info@example.com
+bob.smith@example.com
+carol.jones@example.org

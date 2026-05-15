@@ -1,0 +1,98 @@
+{
+  "name": "GreenLedger",
+  "domain": "greenledger.io",
+  "tagline": "Audit-ready carbon accounting for finance and sustainability teams",
+  "niche": "Carbon accounting and sustainability reporting software for mid-market companies",
+  "target_audience": {
+    "company_size": "50–1,000 employees",
+    "industries": [
+      "Manufacturing",
+      "Consumer goods",
+      "Technology",
+      "Professional services",
+      "Logistics"
+    ],
+    "personas": [
+      "Sustainability Manager",
+      "CFO",
+      "Controller",
+      "ESG Analyst",
+      "Procurement Lead"
+    ]
+  },
+  "brand_positioning": "GreenLedger helps mid-market companies stand up audit-ready greenhouse gas inventories in weeks, not months. We bridge finance and sustainability with defensible methodology, deep system integrations, and a supplier portal that scales primary data collection for Scope 3.",
+  "unique_value_props": [
+    "Automated data ingestion from accounting (QuickBooks, NetSuite), ERP, utilities, and cloud platforms",
+    "AI-driven classification of spend and activity data mapped to emissions factors with evidence trails",
+    "Audit-ready reports aligned to GHG Protocol, CSRD/ESRS, CDP, SBTi, and SEC climate disclosure formats",
+    "Supplier engagement portal for collecting primary data and tracking response rates",
+    "Scenario modeling for decarbonization projects and internal carbon pricing",
+    "Transparent, finance-friendly pricing with no per-user fees"
+  ],
+  "offerings": {
+    "features": [
+      "Scope 1/2/3 calculators with emissions factor library and versioning",
+      "Data quality scoring and audit logs for each calculation",
+      "Disclosure templates (SEC, CSRD, CDP, GRI) with one-click export",
+      "Project and initiative tracking with ROI and abatement curves",
+      "Supplier data portal with email templates and reminders",
+      "API and flat-file uploader for bulk data",
+      "Utility and energy data connectors for automated Scope 2 ingestion"
+    ],
+    "solutions": [
+      "SEC climate disclosure readiness",
+      "CSRD/ESRS reporting",
+      "Scope 3 supplier engagement",
+      "Manufacturing emissions and energy management",
+      "CDP response optimization"
+    ],
+    "integrations": [
+      "QuickBooks",
+      "NetSuite",
+      "Oracle",
+      "SAP",
+      "Microsoft Dynamics",
+      "Utility data hubs",
+      "AWS",
+      "Azure",
+      "Google Cloud"
+    ],
+    "reporting_frameworks": [
+      "GHG Protocol",
+      "SEC climate disclosures",
+      "CSRD/ESRS",
+      "CDP",
+      "SBTi",
+      "GRI"
+    ]
+  },
+  "geography": [
+    "United States",
+    "European Union"
+  ],
+  "competitors": [
+    "Watershed",
+    "Persefoni",
+    "Plan A",
+    "Sustain.Life",
+    "Normative",
+    "Sweep"
+  ],
+  "pricing": {
+    "model": "Per-entity subscription with usage tiers; unlimited users",
+    "notes": "Fast-start onboarding included; typical mid-market deployment in 30 days"
+  },
+  "proof_points": [
+    "A 280-employee manufacturer moved from spreadsheets to audit-ready reporting in 6 weeks",
+    "Average 35% improvement in supplier response rates using the portal and templates",
+    "Median first-year Scope 2 data automation coverage of 85% via utility connectors"
+  ],
+  "content_themes": [
+    "Regulatory readiness (SEC, CSRD)",
+    "Scope 3 data collection and supplier engagement",
+    "Finance-aligned decarbonization planning",
+    "Emissions factor selection and data quality",
+    "Energy data automation and Scope 2",
+    "CDP scoring and disclosure best practices"
+  ]
+}

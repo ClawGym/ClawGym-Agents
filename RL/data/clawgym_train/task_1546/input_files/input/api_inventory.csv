@@ -1,0 +1,11 @@
+service,owner,has_swagger,lang,priority
+patient-records-api,care-platform,false,Java,High
+auth-service,security,true,Node.js,High
+billing-api,revenue,false,Python,High
+notifications-service,comms,false,Go,Medium
+reporting-service,analytics,true,Python,Medium
+appointments-api,care-platform,false,Java,High
+device-integration,integrations,false,C#,Low
+user-profile-service,core,true,Node.js,Medium
+audit-log-service,platform,false,Rust,High
+pharmacy-inventory,operations,false,Ruby,Medium

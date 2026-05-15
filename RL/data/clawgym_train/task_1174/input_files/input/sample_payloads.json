@@ -1,0 +1,84 @@
+{
+  "POST /widgets (create)": {
+    "request": {
+      "name": "Gizmo",
+      "quantity": 5,
+      "tags": ["blue", "sale"],
+      "metadata": {
+        "sku": "GZM-001",
+        "notes": "First batch"
+      }
+    },
+    "response_201": {
+      "id": "a6f2c4f2-1c2b-4b8c-9e2f-3f9f1a2a9c00",
+      "name": "Gizmo",
+      "quantity": 5,
+      "tags": ["blue", "sale"]
+    },
+    "error_409_example": {
+      "detail": "A widget with this name already exists"
+    },
+    "validation_error_422_example": {
+      "detail": [
+        {
+          "loc": ["body", "name"],
+          "msg": "String should have at least 1 character",
+          "type": "string_too_short"
+        }
+      ]
+    }
+  },
+  "GET /widgets/{id} (fetch)": {
+    "response_200": {
+      "id": "a6f2c4f2-1c2b-4b8c-9e2f-3f9f1a2a9c00",
+      "name": "Gizmo",
+      "quantity": 5,
+      "tags": ["blue", "sale"],
+      "metadata": {
+        "sku": "GZM-001",
+        "notes": "First batch"
+      }
+    },
+    "error_404_example": {
+      "detail": "Widget not found"
+    }
+  },
+  "GET /widgets (list)": {
+    "request_query": {
+      "tag": "blue",
+      "limit": 10
+    },
+    "response_200": {
+      "items": [
+        {
+          "id": "a6f2c4f2-1c2b-4b8c-9e2f-3f9f1a2a9c00",
+          "name": "Gizmo",
+          "quantity": 5,
+          "tags": ["blue", "sale"]
+        }
+      ],
+      "count": 1
+    }
+  },
+  "POST /widgets/{id}/actions/rename (auth required)": {
+    "headers": {
+      "Authorization": "Bearer secrettoken"
+    },
+    "request": {
+      "new_name": "Gizmo Pro"
+    },
+    "response_200": {
+      "id": "a6f2c4f2-1c2b-4b8c-9e2f-3f9f1a2a9c00",
+      "name": "Gizmo Pro"
+    },
+    "error_401_example": {
+      "detail": "Invalid or missing token"
+    },
+    "error_409_example": {
+      "detail": "A widget with this name already exists"
+    }
+  },
+  "GET /healthz (plain text)": {
+    "response_200_text": "ok"
+  }
+}

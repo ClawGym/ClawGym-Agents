@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1843",
+  "user_query": "I keep a personal K-drama watch log and want to turn it into something I can share with friends (without spoilers). Using input/drama_watchlog.csv, please do the following and save all outputs under the output/ directory:\n\n1) Filter to only rows where country == \"South Korea\".\n\n2) Compute and save output/genre_stats.csv with columns: genre, dramas_count, avg_rating, total_hours. \n   - dramas_count: number of South Korean titles in each genre.\n   - avg_rating: mean of my_rating for that genre, rounded to 2 decimals.\n   - total_hours: sum over episodes * minutes_per_episode / 60 for that genre, rounded to 1 decimal.\n\n3) Compute and save output/platform_stats.csv with columns: platform, dramas_count, avg_rating, total_hours. \n   - Same definitions and rounding rules as in (2), grouped by platform.\n\n4) Create output/top5_kdramas.csv listing my top 5 South Korean titles by my_rating (desc). \n   - Tie-breakers: higher total_hours first, then title alphabetically.\n   - Columns: rank (1–5), title, my_rating, genre, total_hours (rounded to 1 decimal).\n\n5) Rewrite my casual notes for each South Korean title to be shareable with friends (no spoilers). Save as output/rephrased_notes.csv with columns: title, original_note, rewritten_note.\n   - rewritten_note must be in a friendly, neutral tone, concise (at most 2 sentences), and <= 180 characters.\n   - Do not reveal plot twists, endings, or specific spoiler details.\n\nAssume the output/ directory may not exist and create it if needed. Use only the provided CSV as input. Thanks! I’m not from Korea, but I adore K-dramas and want stats plus friend-safe notes. All file paths are relative to the workspace directory.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

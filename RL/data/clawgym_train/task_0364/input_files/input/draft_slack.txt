@@ -1,0 +1,6 @@
+Hey team, for tomorrow's lab:
+- Arakoon is a Python-based distributed key-value store from Open vStorage, and I think it uses Paxos.
+- There’s an official Python client we can import for our demo.
+- Since requests is in the Python standard library, we don’t need to install it.
+
+Let me know if you see issues.

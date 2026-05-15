@@ -1,0 +1,11 @@
+task,service,team,frequency_per_week,avg_minutes,pain_points,current_approach
+Manual requeue of notification emails after provider hiccups,Notifications Service,Engagement,6,30,Requires log scraping and ad-hoc scripts; brittle,SSH into worker and run a custom script
+Stripe refund reconciliation when capture fails,Payments Service,Fintech,3,45,Multi-step click-ops across Stripe dashboard and internal admin,Manual dashboard reconciliation and spreadsheet tracking
+Search index hot shard rebalance,Marketplace Service,Commerce,2,60,Requires off-hours shard reassignments and trial-and-error,Tune shard allocation with manual commands
+Token blacklist cleanup after incidents,Auth Service,Identity Platform,4,25,No self-service tool; mistakes can lock out users,Manual DB SQL scripts following a wiki
+ETL partition backfill for late-arriving data,Analytics Service,Data Platform,2,90,Complex parameter selection and long-running jobs,Run one-off backfill via CLI with copy-pasted configs
+Rotate API keys for external providers,API Gateway,Platform Reliability,1,40,Coordination across services; risk of outage during rotation,Manual rotation with change tickets
+Update noisy alert thresholds (CPU, latency),Multiple,Platform Reliability,5,20,Unclear ownership and inconsistent patterns,Edit configs in repo and redeploy
+Password reset email delivery verification,Auth Service,Identity Platform,7,15,Manual test emails in production to confirm provider health,Send test requests via admin panel and check logs
+Manual Kafka consumer rebalancing during maintenance,Notifications Service,Engagement,2,35,Race conditions and temporary lag spikes,Use admin tool to trigger controlled rebalances
+Dashboard data fixes when freshness watermark stalls,Analytics Service,Data Platform,3,50,Requires manual data patching and backfills,One-off scripts and SQL updates on staging then prod

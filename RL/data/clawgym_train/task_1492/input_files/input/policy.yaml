@@ -1,0 +1,21 @@
+rules:
+  marketing:
+    required_phrases:
+      - "for entertainment purposes only"
+      - "no guarantee of paranormal activity"
+      - "tours end by 10:00 PM"
+      - "please keep noise to a respectful level"
+    prohibited_phrases:
+      - "100% guaranteed hauntings"
+      - "we promise you will see a ghost"
+  tour_script:
+    required_phrases:
+      - "follow the guide's instructions at all times"
+      - "do not enter restricted or private areas"
+      - "stay with the group"
+  waiver:
+    required_clauses:
+      - "assumption of risk"
+      - "release of liability"
+      - "photo/video consent optional"
+      - "parent/guardian consent for minors"

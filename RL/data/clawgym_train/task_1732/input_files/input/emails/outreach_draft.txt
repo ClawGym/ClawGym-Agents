@@ -1,0 +1,14 @@
+Subject: Quick chat re: field data quality — small $ grants
+
+Hi Dr. Rivera,
+
+I hope this finds you well. I run the Zoonosis Data Catalyst Fund (ZDCF). We want to help labs that are dealing with messy animal disease surveillance data (lots of spreadsheets, no data dictionary, inconsistent collection). We're thinking about "microgrants" to support practical fixes (e.g., metadata templates, SOPs, training).
+
+The idea: up to $7,500, fast-turnaround microgrants for teams collecting animal health data in the field. Pilot timeline tentatively June–August 2026. The ask is: would your group at Coastal Vet Epi Lab be willing to try one microgrant focused on standardizing collection forms for small ruminant brucellosis screening? If yes, we can hop on a short call.
+
+Caveats: we are not a bureaucracy, so the reporting is light, but I'd still like 2-3 metrics and a summary at end. Also, legal wants one page MOU (sorry!). I don't want to overpromise: we can't fund a full database build right now.
+
+I can do a 20–25 min call Mon 6 May or Tue 7 May (morning Pacific). If those don't work, tell me times. I wrote this fast and I'm probably rambling. The "microgrant" word might be annoying — happy to call it something else.
+
+Best,
+Maya

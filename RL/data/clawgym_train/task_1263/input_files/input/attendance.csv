@@ -1,0 +1,11 @@
+EventID,ParticipantID,ParticipantName,Group
+EVT-001,P001,Aria,Youth
+EVT-001,P002,Tane,Youth
+EVT-001,P901,Moana,Senior
+EVT-002,P003,Noah,Youth
+EVT-002,P902,Hine,Senior
+EVT-002,P903,Wiremu,Senior
+EVT-002,P902,Hine,Senior
+EVT-003,P004,Mia,Youth
+EVT-003,P904,Rawiri,Senior
+EVT-004,P005,Luca,Youth

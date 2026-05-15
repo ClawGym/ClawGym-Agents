@@ -1,0 +1,6 @@
+session_id,date,activity,claimed_passion
+s01,2025-04-01,running,yes
+s02,2025-04-03,reading,no
+s03,2025-04-05,gaming,no
+s04,2025-04-07,walking,no
+s05,2025-04-09,running,yes

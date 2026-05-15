@@ -1,0 +1,7 @@
+{
+  "Invoice Processing Pipeline": "critical",
+  "Approval Routing Design": "high",
+  "Payment Optimization Setup": "medium",
+  "Vendor Master Data Standards": "low",
+  "Month-End Close & Fraud Controls": "high"
+}

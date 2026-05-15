@@ -1,0 +1,5 @@
+{
+  "default_timezone": "America/Chicago",
+  "include_notes": true,
+  "output_dir": "output"
+}

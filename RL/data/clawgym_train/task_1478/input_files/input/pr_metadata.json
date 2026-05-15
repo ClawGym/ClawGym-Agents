@@ -1,0 +1,14 @@
+{
+  "title": "[AI-assisted] fix(gateway/telegram): tighten Telegram webhook validator and OAuth2 audience checks",
+  "summary": [
+    "Reject malformed Telegram webhook updates with missing or unexpected fields in a backwards-compatible way.",
+    "Add explicit OAuth2 token audience and issuer checks for gateway webhook flows to prevent token reuse across providers."
+  ],
+  "why": [
+    "Webhook validator accepted structurally invalid updates leading to noisy downstream errors and potential bypass of handler selection.",
+    "OAuth2 tokens were validated for signature and expiry but lacked audience/issuer constraints in gateway flows, increasing risk of confused-deputy scenarios."
+  ],
+  "issue": "https://github.com/openclaw/openclaw/issues/7421",
+  "ai_assisted": "yes",
+  "testing_level": "lightly tested"
+}

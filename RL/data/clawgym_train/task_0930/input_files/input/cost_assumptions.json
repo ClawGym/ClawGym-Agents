@@ -1,0 +1,40 @@
+{
+  "fully_loaded_multipliers": {
+    "US": 1.35,
+    "UK": 1.40,
+    "EU": 1.45,
+    "IN": 1.30
+  },
+  "contractor_cost_index": 1.8,
+  "upskilling_cost_and_duration": {
+    "cost_per_employee": 3000,
+    "duration_months": 4
+  },
+  "automation_cost_index": 0.1,
+  "revenue_per_employee_benchmarks": {
+    "SaaS": {
+      "min": 200000,
+      "max": 350000,
+      "note": "2026 benchmark range for SaaS"
+    },
+    "ProfessionalServices": {
+      "min": 150000,
+      "max": 250000
+    },
+    "Manufacturing": {
+      "min": 180000,
+      "max": 300000
+    }
+  },
+  "priority_formula_weights": {
+    "business_impact_weight": 3,
+    "time_to_fill_weight": 2,
+    "availability_risk_weight": 1,
+    "threshold_immediate_action": 20
+  },
+  "compliance_notes": [
+    "IRS 20-factor test applies to US contractors; penalties for misclassification.",
+    "IR35 determination required for UK contractor engagements.",
+    "EU Working Time Directive can apply to EU-based contractors and agency workers."
+  ]
+}

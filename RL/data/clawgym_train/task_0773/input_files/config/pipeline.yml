@@ -1,0 +1,14 @@
+group_by:
+  - reaction
+  - temperature_C
+aggregate_fields:
+  browning_index: [mean, std, min, max]
+  yield_pct: [mean, std, min, max]
+std_type: sample
+output_base: output
+external_license:
+  name: "Creative Commons Attribution 4.0 International"
+  language: "en"
+  site: "Creative Commons official site"
+  path_hint: "/licenses/by/4.0/legalcode"
+  extract_headings: ["h1", "h2"]

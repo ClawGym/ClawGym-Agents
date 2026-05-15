@@ -1,0 +1,4 @@
+field_id,field_name,acres,crop_planned,irrigation_method
+F1,North 40,40,corn,drip
+F2,East 25,25,soybeans,drip
+F3,South 15,15,alfalfa,sprinkler

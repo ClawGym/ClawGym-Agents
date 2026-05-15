@@ -1,0 +1,84 @@
+{
+  "brand_name": "Aurora Glow Labs",
+  "website": "https://www.auroraglowlabs.com",
+  "business_model": "DTC skincare (clean, dermatologist-tested)",
+  "markets": [
+    "US",
+    "CA",
+    "UK"
+  ],
+  "currency": "USD",
+  "q3_timeframe": {
+    "start": "2025-07-01",
+    "end": "2025-09-30"
+  },
+  "monthly_budget_range_usd": {
+    "min": 70000,
+    "max": 90000,
+    "preferred": 80000
+  },
+  "primary_goal": "Scale new customer acquisition while maintaining sustainable ROAS",
+  "objectives": [
+    "Increase new customers by 35% QoQ",
+    "Maintain blended ROAS >= 2.5 at scale",
+    "Build retargeting pools for Q4"
+  ],
+  "kpis": {
+    "roas_target": 2.5,
+    "cac_target_usd": 25,
+    "new_customer_share_target_pct": 70
+  },
+  "audience_context": {
+    "email_list_total": 42037,
+    "high_ltv_customers": 6842,
+    "high_ltv_definition": "Customers with 12-month LTV >= $250 or >= 3 orders",
+    "remarketing_pools": {
+      "website_30d": 152000,
+      "ig_engagers_30d": 41000,
+      "fb_engagers_30d": 27000
+    }
+  },
+  "product_focus_q3": [
+    "Vitamin C Brightening Serum",
+    "Retinol Night Cream 0.5%",
+    "Daily Mineral Sunscreen SPF 50",
+    "Summer Glow Bundle (Vitamin C + SPF + HA Serum)"
+  ],
+  "pricing_summary": {
+    "aov_usd": 58,
+    "median_margin_pct": 68,
+    "subscription_mix_pct": 18
+  },
+  "promotions_q3": [
+    "Summer Glow Bundle: 15% off",
+    "SPF subscription: 10% off first refill",
+    "Free shipping over $50"
+  ],
+  "creative_strengths": [
+    "UGC testimonials",
+    "Before/After carousels",
+    "Founder education clips",
+    "Ingredient-focused short videos"
+  ],
+  "compliance_notes": [
+    "No medical claims; avoid 'cures'/'heals'",
+    "Retinol usage at night; include sensitivity disclaimer",
+    "SPF claims limited to broad-spectrum, water-resistant where applicable"
+  ],
+  "tracking_status_summary": {
+    "meta_pixel_installed": true,
+    "conversions_api_active": true,
+    "primary_optimization_event": "Purchase",
+    "details_source": "See input/website_events.json for QA and event volumes"
+  },
+  "past_learnings": [
+    "Advantage+ Shopping produced stable ROAS when fed diverse creatives",
+    "DPA retargeting drives highest ROAS but saturates at frequency > 3.5",
+    "1% Lookalike (high-LTV seed) outperformed broader lookalikes"
+  ],
+  "constraints": [
+    "Limited landscape video inventory",
+    "UK traffic has lower server-side AddToCart capture; CMP impact"
+  ],
+  "notes_for_media_buyer": "Prioritize Advantage+ Shopping for catalog scaling, add 1% LTV lookalikes for prospecting control, and keep retargeting windows tight with exclusions for recent converters. Refresh creatives every 2 weeks to manage frequency and fatigue."
+}

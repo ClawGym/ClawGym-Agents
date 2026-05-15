@@ -1,0 +1,6 @@
+study_id,serious_adverse_event_rate,dropout_rate,sample_size_total
+TRIAL_D,0.20,0.05,40
+TRIAL_A,0.12,0.08,80
+TRIAL_C,0.12,0.10,50
+TRIAL_B,0.05,0.02,100
+TRIAL_E,0.00,0.00,20

@@ -1,0 +1,9 @@
+task_id,title,category,priority,effort_mins,due_datetime,depends_on
+T1,"Finalize regression pipeline for Q2 report",work,2,120,2026-04-23T10:00,
+T2,"Read ballot measure summaries",civic,3,90,2026/04/25 18:00,
+T3,"Setup A/B test - variant configs",work,1,180,2026-04-22T09:30,T1
+T4,"Community candidate forum (virtual)",civic,2,,2026-04-21 19:00,
+T5,"Weekly research sync",work,4,60,2026-04-20T11:00,
+T6,"Compute voter turnout feature engineering",personal,2,200,2026-05-02T16:00,
+T7,"Clean notebooks + archive",work,5,45,2026-04-19T16:00,
+T8,"Mail absentee ballot",civic,1,30,2026-05-04T09:00,T2

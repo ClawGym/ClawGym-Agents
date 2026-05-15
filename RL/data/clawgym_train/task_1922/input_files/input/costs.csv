@@ -1,0 +1,28 @@
+agent_id,agent_name,role,tasks_month,tokens,api_calls,tool_invocations,spend_usd
+A1,CatalogEnricher,Enrich catalog data,4200,1850000,12400,6300,2850
+A2,PriceOptimizer,Dynamic pricing,3100,2400000,9100,4800,4120
+A3,SupportResponder,Customer support,5200,3100000,18600,9500,3650
+A4,FraudScreener,Risk screening,2900,1540000,8200,5100,2980
+A5,InventoryForecaster,Forecast inventory,3400,2050000,10400,5700,3325
+A6,EmailCopywriter,Write emails,2100,1100000,6400,3100,1750
+A7,ReturnsAssistant,Handle returns,2400,1250000,7200,3500,2210
+A8,OnboardingGuide,User onboarding,1800,820000,4800,2100,1620
+A9,SEOWriter,SEO content,1900,1350000,5500,2600,1450
+A10,ChurnPredictor,Predict churn,2600,1700000,8100,4100,2890
+A11,ImageTagger,Tag images,2700,900000,6200,2800,1280
+A12,RAGSearch,Answer queries via RAG,3000,2800000,12200,6600,3790
+A13,PaymentReconciler,Reconcile payments,2500,1300000,7500,3800,2410
+A14,VendorNegotiator,Vendor outreach,1500,950000,4300,2200,1960
+A15,CampaignPlanner,Plan campaigns,2300,1400000,6800,3600,2540
+A16,OrderRouter,Route orders,4200,2200000,11500,6900,3180
+A17,A/B Analyst,A/B analysis,2100,1200000,6100,3000,2070
+A18,Personalization,Personalized recs,3600,3400000,14900,8100,4380
+A19,CSATSummarizer,Summarize CSAT,1200,500000,2400,1200,990
+A20,SLAWatcher,SLA monitoring,1700,700000,3000,1600,1130
+A21,AnomalyGuard,Detect anomalies,2100,2600000,9400,4600,4020
+A22,PromotionEngine,Generate promos,2400,1500000,6700,3400,2660
+A23,MultiAgentOrchestrator,Coordinate workflows,0,1200000,4300,0,3510
+A24,SandboxGatekeeper,Tool access guard,900,180000,1100,900,880
+A25,RefundValidator,Validate refunds,1600,800000,3600,1900,1720
+A26,DataSyncAgent,Sync data,2800,1900000,8600,4500,3090
+A27,TranslationAgent,Translate content,1300,600000,2800,1400,1180

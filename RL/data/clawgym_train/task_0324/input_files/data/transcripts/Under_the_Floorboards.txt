@@ -1,0 +1,4 @@
+[SCENE:S1]
+A lock jiggles at 3am. Someone tries the handle. [TRIGGER:home_invasion]
+[SCENE:S2]
+Teeth loosen and fall into the sink. [TRIGGER:body_horror] Voices whisper from vents. [TRIGGER:supernatural]

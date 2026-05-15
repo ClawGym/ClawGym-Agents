@@ -1,0 +1,32 @@
+{
+  "beatsPerBarDefault": 4,
+  "normalization": {
+    "min": 70,
+    "max": 180
+  },
+  "tracks": [
+    {
+      "id": "track-001",
+      "intervals": [500, 502, 498, 500]
+    },
+    {
+      "id": "track-002",
+      "timestamps": [0, 750, 1500, 2250, 3005],
+      "beatsPerBar": 3
+    },
+    {
+      "id": "track-003",
+      "intervals": [300, 295, 305, 300, 298],
+      "beatsPerBar": 8
+    },
+    {
+      "id": "track-004",
+      "timestamps": [0, 1000, 2005, 3002, 3997]
+    },
+    {
+      "id": "track-005",
+      "intervals": [430, 428, 432, 427, 429, 426],
+      "beatsPerBar": 7
+    }
+  ]
+}

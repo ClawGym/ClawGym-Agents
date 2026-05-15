@@ -1,0 +1,31 @@
+islands:
+  - code: ISL
+    name: Iceland
+    region_group: North Atlantic
+  - code: CPV
+    name: Cabo Verde
+    region_group: Eastern Atlantic
+  - code: STP
+    name: Sao Tome and Principe
+    region_group: Gulf of Guinea
+  - code: BHS
+    name: Bahamas
+    region_group: Caribbean
+  - code: BRB
+    name: Barbados
+    region_group: Caribbean
+  - code: JAM
+    name: Jamaica
+    region_group: Caribbean
+  - code: TTO
+    name: Trinidad and Tobago
+    region_group: Caribbean
+  - code: CUB
+    name: Cuba
+    region_group: Caribbean
+  - code: HTI
+    name: Haiti
+    region_group: Caribbean
+  - code: DOM
+    name: Dominican Republic
+    region_group: Caribbean

@@ -1,0 +1,12 @@
+{
+  "account_id": "ACCT-987654321",
+  "environment": "live",
+  "symbol": "MSFT",
+  "side": "buy",
+  "quantity": 50,
+  "order_type": "limit",
+  "tif": "gtc",
+  "limit_price": 412.35,
+  "risk_cap_usd": 1500.0,
+  "notes": "Plan: Buy limit for MSFT with GTC. Verify Yahoo vs broker quotes and ensure data age within 300s threshold before manual submission."
+}

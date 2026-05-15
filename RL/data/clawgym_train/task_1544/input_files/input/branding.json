@@ -1,0 +1,25 @@
+{
+  "company": {
+    "name": "Nimbus Labs",
+    "product": "Atlas Dev Harness"
+  },
+  "presentation": {
+    "title": "Agent Harness & Security Overview",
+    "subtitle": "Production Configuration for NimbusAI Workspace",
+    "tone": "Professional, confident, concise",
+    "style": "Swiss Modern",
+    "primary_color": "#0A84FF",
+    "accent_color": "#00C2A8"
+  },
+  "visuals": {
+    "include_logo": false,
+    "logo_path": null
+  },
+  "copy": {
+    "value_props": [
+      "Research-first development to reduce rework",
+      "Security-by-default with runtime guardrails",
+      "Language-specific rules for TypeScript and Python"
+    ]
+  }
+}

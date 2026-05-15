@@ -1,0 +1,8 @@
+app_id,app_name,service,env,status,cost
+1,Alpha CRM,CRM,prod,Active,13000.00
+2,Omega Billing,Billing,prod,Active,21000.00
+3,Data Lake Core,Data Lake,prod,Active,19500.00
+4,HR Suite,HRIS,prod,Active,8000.00
+6,Collab Mail,Email,prod,Active,4600.00
+8,CRM Gamma,CRM,prod,Active,4000.00
+9,Data Lake Sandbox,Data Lake,dev,Active,5000.00

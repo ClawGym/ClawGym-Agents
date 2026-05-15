@@ -1,0 +1,13 @@
+term,source_lang,target_lang,context
+急性髓系白血病,Chinese,English,Hematology; leukemia; include acronym on first occurrence
+心肌梗死,Chinese,English,Cardiology; acute event; include MI acronym
+高血压,Chinese,English,General internal medicine; chronic disease
+糖尿病,Chinese,English,Endocrinology; default to Diabetes Mellitus
+肿瘤,Chinese,English,Oncology; include common synonym
+放射治疗,Chinese,English,Oncology; treatment modality
+免疫治疗,Chinese,English,Oncology; treatment modality
+靶向治疗,Chinese,English,Oncology; anticancer therapy
+重症肌无力,Chinese,English,Neuromuscular; flag if not in dictionary
+Myocardial Infarction,English,Chinese,Cardiology; common acronym MI
+Radiotherapy,English,Chinese,Oncology; treatment modality
+Tumor,English,Chinese,Oncology; prefer standard term

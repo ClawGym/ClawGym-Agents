@@ -1,0 +1,32 @@
+# Glossary for translation consistency
+# Note: This file is intentionally English-only. Standard Chinese translations for other terms
+# (AI Agent, RLHF, flywheel, guardrails, grounding, alignment, hallucination) should follow
+# the built-in language-pair glossary and domain best practices.
+#
+# Example usage notes are provided to guide style and consistency without overriding standard terms.
+
+- from: "Transformer"
+  to: "Transformer"
+  note: "Keep English; do not translate"
+
+# Additional guidance (no overrides):
+# - from: "AI Agent"
+#   note: "Use the standard Chinese term from the built-in glossary"
+#
+# - from: "RLHF"
+#   note: "Use the standard Chinese expansion; keep acronym if appropriate"
+#
+# - from: "flywheel"
+#   note: "Prefer the standard term used in business contexts"
+#
+# - from: "guardrails"
+#   note: "Use the standard safety term"
+#
+# - from: "grounding"
+#   note: "Prefer the domain-standard term in applied AI contexts"
+#
+# - from: "alignment"
+#   note: "Use the standard AI safety term"
+#
+# - from: "hallucination"
+#   note: "Use the standard AI-specific term for fabricated outputs"

@@ -1,0 +1,12 @@
+date,amount,category,description
+2025-01-02,1200.00,Salary,January paycheck
+2025-01-03,-150.45,Groceries,Weekly shop
+2025-01-05,-60.00,Utilities,Internet bill
+2025-01-10,-1200.00,Rent,January rent
+2025-01-15,-45.00,Transport,Metro pass
+2025-02-01,1200.00,Salary,February paycheck
+2025-02-02,-160.75,Groceries,Weekly shop
+2025-02-05,-60.00,Utilities,Internet bill
+2025-02-10,-1200.00,Rent,February rent
+2025-02-14,-50.00,Transport,Ride share
+2025-02-20,-75.25,Entertainment,Concert tickets

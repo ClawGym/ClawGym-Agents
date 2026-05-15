@@ -1,0 +1,7 @@
+participant_id,age,gender,condition,q1,q2,q3
+A001,20,F,control,3,4,5
+A002,19,M,treatment,2,,4
+A003,22,Other,control,6,3,2
+A004,,F,treatment,4,4,4
+A002,19,M,treatment,2,,4
+A005,17,F,control,3,2,3

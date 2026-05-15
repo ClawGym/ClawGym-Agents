@@ -1,0 +1,79 @@
+{
+  "jsonrpc": "2.0",
+  "method": "PLUGIN_MANIFEST",
+  "params": {
+    "name": "pop-obsidian-bridge",
+    "version": "1.0.0",
+    "vault": "ResearchVault",
+    "installed_plugins": [
+      "obsidian-dataview",
+      "templater-obsidian",
+      "obsidian-pandoc"
+    ],
+    "actions": [
+      {
+        "name": "create_note",
+        "source": "core",
+        "always_available": true,
+        "params_schema": {
+          "title": "string",
+          "content": "string",
+          "folder": "string?",
+          "tags": "string[]?"
+        }
+      },
+      {
+        "name": "ai_expand",
+        "source": "smart-composer",
+        "always_available": false,
+        "installed": true,
+        "params_schema": {
+          "note_id": "string",
+          "prompt": "string?",
+          "model": "string?"
+        }
+      },
+      {
+        "name": "generate_figure",
+        "source": "autofigure",
+        "always_available": false,
+        "installed": true,
+        "params_schema": {
+          "note_id": "string",
+          "style": "string?",
+          "format": "string?"
+        }
+      },
+      {
+        "name": "wave_check",
+        "source": "coherence-bridge",
+        "always_available": true,
+        "params_schema": {
+          "content": "string"
+        }
+      },
+      {
+        "name": "merge_notes",
+        "source": "core",
+        "always_available": true,
+        "params_schema": {
+          "ids": "string[]",
+          "title": "string?"
+        }
+      },
+      {
+        "name": "export_pdf",
+        "source": "pandoc",
+        "always_available": false,
+        "installed": true,
+        "params_schema": {
+          "note_id": "string",
+          "template": "string?"
+        }
+      }
+    ],
+    "coherence_support": true,
+    "atom_auth": true,
+    "wave_version": "0.3.1"
+  }
+}

@@ -1,0 +1,8 @@
+budget_cap: 15000
+date_range:
+  start: "2026-07-01"
+  end: "2026-09-30"
+top_n: 3
+min_expected_visitors: 200
+exclude_themes:
+  - "NFT"

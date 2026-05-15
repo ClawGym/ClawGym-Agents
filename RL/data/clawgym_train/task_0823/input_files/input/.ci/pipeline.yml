@@ -1,0 +1,17 @@
+version: 1
+on:
+  push:
+    branches:
+      - main
+env:
+  node_version: 14
+jobs:
+  build:
+    steps:
+      - run: "echo building site"
+  test:
+    steps:
+      - run: "echo running tests"
+  deploy:
+    steps:
+      - run: "echo deploy step disabled for this local task"

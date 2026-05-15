@@ -1,0 +1,3 @@
+{"ts":"2026-04-10T10:00:00Z","user_id":"u123","query":"find papers by john.doe@example.com on graph neural networks","client_ip":"192.0.2.1"}
+{"ts":"2026-04-10T10:05:00Z","user_id":"u456","query":"Alzheimer biomarkers review 2020; call me at +1-555-123-4567","client_ip":"198.51.100.23"}
+{"ts":"2026-04-10T10:10:00Z","user_id":"u789","query":"protein folding review"}

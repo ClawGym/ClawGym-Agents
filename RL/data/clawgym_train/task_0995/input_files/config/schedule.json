@@ -1,0 +1,11 @@
+{
+  "date": "2026-04-18",
+  "kitchen_hours": { "start": "06:00", "end": "15:00" },
+  "tasks": [
+    {"id": "bake_bread", "name": "Bake bread", "duration_minutes": 90, "intensity": "heavy", "required_role": "baker", "preferred_window": {"start": "06:00", "end": "10:00"}},
+    {"id": "simmer_stock", "name": "Simmer stock", "duration_minutes": 120, "intensity": "heavy", "required_role": "line_cook", "preferred_window": {"start": "09:00", "end": "14:00"}},
+    {"id": "marinate_chicken", "name": "Marinate chicken", "duration_minutes": 30, "intensity": "light", "required_role": "prep_cook", "preferred_window": {"start": "08:00", "end": "11:00"}},
+    {"id": "chop_vegetables", "name": "Chop vegetables", "duration_minutes": 60, "intensity": "light", "required_role": "prep_cook", "preferred_window": {"start": "08:00", "end": "12:00"}},
+    {"id": "dessert_prep", "name": "Dessert prep", "duration_minutes": 45, "intensity": "light", "required_role": "pastry", "preferred_window": {"start": "11:00", "end": "15:00"}}
+  ]
+}

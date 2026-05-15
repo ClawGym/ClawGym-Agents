@@ -1,0 +1,38 @@
+E_base: 20.0
+E_w_len: 0.6
+E_w_q: 0.4
+
+hedges:
+  - "maybe"
+  - "not sure"
+  - "kind of"
+  - "sort of"
+  - "i guess"
+  - "probably"
+
+positives:
+  - "thank"
+  - "appreciate"
+  - "helpful"
+  - "great"
+
+P_weight: 0.2
+H_weight: 0.1
+
+commitments:
+  - "let's do it"
+  - "sign us up"
+  - "i want to buy"
+  - "go ahead"
+  - "yes"
+
+objections:
+  - "but"
+  - "however"
+  - "expensive"
+  - "too much"
+
+urgency:
+  - "today"
+  - "now"
+  - "asap"

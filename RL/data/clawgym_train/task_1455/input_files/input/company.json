@@ -1,0 +1,30 @@
+{
+  "ticker": "ACME",
+  "exchange": "NASDAQ",
+  "name": "Aperture Cloud, Inc.",
+  "market_cap": 12400000000,
+  "sector": "Information Technology",
+  "industry": "Application Software",
+  "founded": 2012,
+  "headquarters": "Austin, Texas, United States",
+  "ipo_year": 2019,
+  "business_model": "Aperture Cloud provides a cloud-native observability and edge orchestration platform delivered via a subscription-based Software-as-a-Service model. Its suite includes infrastructure and application monitoring, distributed tracing, log analytics, AIOps automation, and policy-based edge workload management. The company monetizes via tiered subscriptions (per-host and usage-based data ingest), with add-ons for enterprise security, compliance, and premium support.",
+  "revenue_breakdown": {
+    "segments": [
+      { "name": "Subscription", "percent": 85 },
+      { "name": "Professional Services", "percent": 15 }
+    ],
+    "geography": [
+      { "region": "Americas", "percent": 70 },
+      { "region": "EMEA", "percent": 20 },
+      { "region": "APAC", "percent": 10 }
+    ]
+  },
+  "industry_position": "Operates in cloud observability and edge management, positioned among the top 5 independent platforms with a diversified mid-enterprise and large enterprise customer base. Benefits from secular shift to cloud-native and microservices, with competition on feature velocity and data economics.",
+  "competitors": [
+    { "name": "TechDynamics", "ticker": "TDYN" },
+    { "name": "NovaSystems", "ticker": "NOVA" },
+    { "name": "DataSight", "ticker": "DSGT" }
+  ],
+  "notes": "Key customers span fintech, e-commerce, and media. Primary suppliers include public cloud vendors for hosting and data storage. Contracts generally 1–3 year terms with auto-renew."
+}

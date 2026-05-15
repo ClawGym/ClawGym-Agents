@@ -1,0 +1,3 @@
+{"id":"s1","kind":"note","text":"Old cache entry scheduled for cleanup","createdAt":"2026-04-15T08:30:00Z","expiresAt":"2026-04-15T09:00:00Z","tags":["cache"]}
+{"id":"s2","kind":"fact","text":"Node 22 is LTS","createdAt":"2026-04-10T12:00:00Z","expiresAt":"2026-04-15T10:30:00Z","tags":["nodejs"]}
+{"id":"s3","kind":"doc","text":"Vitest v2 migration guide","createdAt":"2026-04-12T09:15:00Z","tags":["testing"]}

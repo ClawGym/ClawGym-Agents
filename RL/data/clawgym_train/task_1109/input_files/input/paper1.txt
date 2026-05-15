@@ -1,0 +1,13 @@
+Title: Efficacy and Safety of ALX-217 in Adults With Type 2 Diabetes Inadequately Controlled on Metformin: A Phase III Randomized, Double-Blind, Placebo-Controlled Trial
+
+Introduction
+Patients with type 2 diabetes mellitus (T2DM) who remain above glycemic targets on metformin require additional therapies that improve control without unacceptable adverse events. ALX-217 is a once-daily oral small-molecule insulin sensitizer targeting hepatic glucose output.
+
+Methods
+We conducted a 24-week, multicenter, double-blind, placebo-controlled randomized trial enrolling adults with T2DM on a stable metformin dose. Participants were randomized 2:1 to ALX-217 100 mg daily plus metformin (n=312) or placebo plus metformin (n=156). The primary endpoint was the proportion achieving HbA1c <7.0% at week 24. Key secondary endpoints included change in HbA1c from baseline, fasting plasma glucose (FPG), and body weight. Safety assessments included adverse events (AEs), serious AEs (SAEs), and hypoglycemia. Efficacy analyses were conducted on the intention-to-treat population. Between-group differences are reported with 95% CI and p-values where applicable.
+
+Results
+Baseline characteristics were balanced (mean HbA1c 8.6 ± 0.8% in ALX-217 vs 8.5 ± 0.8% in placebo; mean age 57.4 ± 9.3 years vs 56.9 ± 9.1 years). At week 24, 57.8% (180/312) of ALX-217 patients achieved HbA1c <7.0% versus 32.4% (51/156) with placebo (difference 25.4%; 95% CI: [18.1, 32.7]; p<0.001). Mean HbA1c change from baseline was -1.3% in ALX-217 versus -0.6% with placebo (difference -0.7%; 95% CI: [-0.9, -0.5]; p<0.001). FPG decreased by -32.6 mg/dL versus -14.8 mg/dL (difference -17.8 mg/dL; 95% CI: [-22.9, -12.7]; p<0.001). Body weight changed by -2.4 kg versus -0.9 kg (difference -1.5 kg; 95% CI: [-2.1, -0.9]; p<0.001). Treatment discontinuation due to AEs occurred in 4.5% versus 3.1%. Any AEs were 68.3% versus 62.8%; nausea 14.1% versus 8.7%; diarrhea 9.6% versus 7.1%. SAEs occurred in 3.2% versus 2.6% (p=0.72). Hypoglycemia was reported in 6.8% versus 5.5%; no severe hypoglycemia was observed. Study completion rates were 94.9% versus 93.6%.
+
+Discussion
+ALX-217 improved glycemic control and reduced FPG and body weight with a safety profile broadly comparable to placebo, supporting its use as add-on therapy to metformin.

@@ -1,0 +1,7 @@
+location_name,timezone,open_hours_weekdays,open_hours_saturday,open_hours_sunday,phone_number,notes
+Midtown Dental,America/New_York,08:00-18:00,09:00-14:00,Closed,(555) 010-1001,High volume during lunch hours
+Park Slope Dental,America/New_York,08:30-17:30,09:00-14:00,Closed,(555) 010-1002,Family-focused; lots of pediatric cleanings
+Westfield Dental,America/New_York,08:00-18:00,09:00-13:00,Closed,(555) 010-1003,Handles most Invisalign consults
+Seaside Dental,America/New_York,09:00-18:00,09:00-15:00,Closed,(555) 010-1004,Spanish-speaking callers common
+Lakeview Dental,America/Chicago,08:00-17:00,09:00-13:00,Closed,(555) 010-2001,Peak Monday/Tuesday mornings
+River North Dental,America/Chicago,08:00-18:00,09:00-14:00,Closed,(555) 010-2002,Frequent reschedules from downtown professionals

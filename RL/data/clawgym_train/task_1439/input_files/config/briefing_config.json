@@ -1,0 +1,6 @@
+{
+  "reference_date": "2024-11-04",
+  "run_time": "06:00",
+  "input_csv": "input/upcoming_exhibits.csv",
+  "output_json": "output/daily_briefing.json"
+}

@@ -1,0 +1,68 @@
+{
+  "agents": [
+    {
+      "name": "Orchestrator Atlas",
+      "role": "Orchestrator",
+      "capabilities": [
+        "task routing",
+        "state management",
+        "priority decisions",
+        "handoff coordination",
+        "review scheduling"
+      ],
+      "constraints": [
+        "does not perform execution work",
+        "does not write artifacts directly"
+      ]
+    },
+    {
+      "name": "Nova Builder",
+      "role": "Builder",
+      "capabilities": [
+        "write markdown docs",
+        "generate YAML/JSON",
+        "create sales playbooks and sequences",
+        "draft MEDDPICC templates",
+        "author AI implementation guidance"
+      ],
+      "tools": [
+        "text-only filesystem"
+      ],
+      "notes": "Optimized for producing artifacts per explicit Output Path instructions."
+    },
+    {
+      "name": "Keen Reviewer",
+      "role": "Reviewer",
+      "capabilities": [
+        "critical review",
+        "spec verification",
+        "MEDDPICC validation",
+        "quality checks vs acceptance criteria",
+        "final approval summaries"
+      ],
+      "constraints": [
+        "does not build artifacts",
+        "does not approve own work"
+      ]
+    },
+    {
+      "name": "Ops Scout",
+      "role": "Ops",
+      "capabilities": [
+        "daily standups",
+        "health checks",
+        "agents inventory normalization",
+        "path verification for shared directories"
+      ],
+      "tools": [
+        "text-only filesystem"
+      ]
+    }
+  ],
+  "shared_paths_convention": {
+    "specs": "/shared/specs/",
+    "artifacts": "/shared/artifacts/",
+    "reviews": "/shared/reviews/",
+    "decisions": "/shared/decisions/"
+  }
+}

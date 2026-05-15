@@ -1,0 +1,10 @@
+{
+  "input_dir": "input/library",
+  "output_pdf": "output/Consolidated_Quarterly_Reports.pdf",
+  "sort": "natural",
+  "reverse": false,
+  "exclude_dirs": ["Backup", "Old Drafts", "Scans"],
+  "exclude_hidden": true,
+  "bookmarks": true,
+  "traversal": "depth_first_files_before_subfolders"
+}

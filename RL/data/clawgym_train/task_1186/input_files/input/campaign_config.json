@@ -1,0 +1,13 @@
+{
+  "campaign_name": "Campus Football Week",
+  "time_zone": "UTC+08:00",
+  "day_themes": {
+    "Monday": "Match Preview",
+    "Tuesday": "Training Highlights",
+    "Wednesday": "Tactics Deep Dive",
+    "Thursday": "Throwback",
+    "Friday": "Fan Q&A",
+    "Saturday": "Matchday",
+    "Sunday": "Recovery & Analysis"
+  }
+}

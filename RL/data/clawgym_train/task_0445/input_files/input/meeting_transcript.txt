@@ -1,0 +1,12 @@
+[00:01] Ava (Consultant): Thanks for hopping on. Today is about narrowing font directions for Northpeak.
+[00:14] Liam (Client): Brand personality is modern, reliable, approachable. Small text legibility is critical for dashboards.
+[00:30] Ava: Got it. We'll bias sans serif with open apertures and strong x-height.
+[00:45] Liam: Budget ceiling for licensing is $300 total.
+[01:05] Ava: I'll prepare a scoring matrix and top 2 recommendation this week.
+[01:20] Liam: Please include how it performs in PDF reports and the app.
+[01:40] Ava: Action: Ava to prepare 3 type specimens using our sample copy by Apr 24.
+[01:55] Liam: Action: Liam to send two competitor PDF examples by Apr 22.
+[02:10] Ava: Action: Liam to confirm the budget ceiling in writing by Apr 18.
+[02:25] Liam: Sounds good. Next check-in on Apr 25 at 10:00.
+[02:40] Ava: Decision: We'll focus on sans serif options first.
+[02:55] Liam: Open question: Do we need a distinct report typeface separate from UI?

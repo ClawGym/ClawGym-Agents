@@ -1,0 +1,48 @@
+Authorization ID: AUTH-ACME-2026-0417-EN
+Date: 2026-04-16
+
+To whom it may concern,
+
+This letter serves as written authorization for an internal, time‑boxed security assessment focused on subdomain enumeration for the following property owned and operated by Acme Example, Inc.:
+
+In-scope root domain:
+- acme-example.com (including all subdomains: *.acme-example.com)
+
+Purpose:
+- Perform passive and light-touch reconnaissance to discover active and inactive subdomains for asset inventory and attack surface reduction.
+
+Authorized Activities:
+- DNS-based subdomain discovery (passive DNS, certificate transparency, and wordlist-based DNS resolution)
+- Lightweight HTTP identification (HEAD/GET to obtain titles/headers only, no authentication)
+- Collection of hostnames, IP addresses, and service reachability/status
+
+Explicitly Out of Scope:
+- Any domain or subdomain outside acme-example.com (e.g., acme-example.net, acme-example.org)
+- Third-party platforms and vendor-owned domains (e.g., *.zendesk.com, *.statuspage.io, mailchimp.com)
+- Port scanning, vulnerability scanning, stress testing, intrusion attempts, or exploitation
+- Authentication, account takeover attempts, or interaction with forms, APIs requiring tokens, or user data
+
+Time Window:
+- Start: 2026-04-17T09:00:00Z
+- End:   2026-04-18T09:00:00Z
+
+Legal and Ethical Requirements:
+- Activities must comply with applicable laws and internal policies, including the Computer Fraud and Abuse Act (CFAA) and privacy obligations.
+- Only collect information necessary to enumerate subdomains; do not store personally identifiable information (PII).
+- Rate limit DNS/HTTP requests to avoid disruption (≤ 2 DNS req/s, ≤ 1 HTTP req/s, ≤ 5 concurrent requests).
+- Immediately halt activity and notify the contact below if any instability or unintended impact is observed.
+
+Contacts:
+- Authorizing Official: Dana Ruiz, CISO, Acme Example, Inc.
+  Email: security@acme-example.com
+  Phone: +1-415-555-0114
+
+Verification:
+By this authorization, we confirm ownership and full permission to assess acme-example.com during the specified window. Present this letter and Authorization ID upon request.
+
+Signed,
+
+Dana Ruiz
+Chief Information Security Officer
+Acme Example, Inc.
+San Francisco, CA, USA

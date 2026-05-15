@@ -1,0 +1,39 @@
+{
+  "establishment": "Riverview Foods, LLC",
+  "site_address": "1420 Riverside Industrial Park, Dayton, OH 45404",
+  "inspections": [
+    {
+      "inspection_id": "315-2025-1107",
+      "open_date": "2025-11-05",
+      "close_date": "2025-12-02",
+      "type": "Programmed - General Industry (Food Manufacturing)",
+      "citations": [
+        {
+          "standard": "29 CFR 1910.147(c)(4)(i)",
+          "description": "Employer did not develop, document and utilize machine-specific energy control procedures.",
+          "classification": "Serious",
+          "proposed_penalty_usd": 8420,
+          "abatement_due": "2026-02-01",
+          "abatement_status": "Open - Partial procedures drafted (12 of ~30 assets)"
+        },
+        {
+          "standard": "29 CFR 1910.1200(e)(1)",
+          "description": "Written Hazard Communication program incomplete; chemical inventory and SDS not current.",
+          "classification": "Serious",
+          "proposed_penalty_usd": 6210,
+          "abatement_due": "2026-01-15",
+          "abatement_status": "In Progress - SDS updates underway with vendor portal"
+        },
+        {
+          "standard": "29 CFR 1910.178(l)(1)(i)",
+          "description": "Powered industrial truck operator training evaluations not conducted at least once every three years.",
+          "classification": "Other-than-serious",
+          "proposed_penalty_usd": 0,
+          "abatement_due": "2025-12-31",
+          "abatement_status": "Overdue - 4 operators pending evaluation"
+        }
+      ],
+      "notes": "CSP referral suggested follow-up on LOTO program completion and PIT/pedestrian interface at docks."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+property_id: P200
+- Boiler serviced; improved heat complaints to zero.
+- 2 delinquencies moved onto payment plans.
+- Landscaping bid approved; work to begin 2026-04-15.

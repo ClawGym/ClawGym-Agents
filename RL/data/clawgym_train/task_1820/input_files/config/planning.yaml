@@ -1,0 +1,10 @@
+meeting:
+  date: "TBD"
+  location: "Community Hall"
+agenda:
+  items: []
+  notes_file: "outputs/meeting_notes.md"
+actions:
+  output_csv: "outputs/action_items.csv"
+audit:
+  last_run: null

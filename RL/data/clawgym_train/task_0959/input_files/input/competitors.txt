@@ -1,0 +1,7 @@
+Geekbot — lightweight check-ins; rigid reminder cadence; no AI summaries
+Standuply — survey-style standups; heavy configuration; thread noise builds up
+DailyBot — general-purpose Slack bot; busy feed; summaries feel generic
+ScrumGenius — email/Slack hybrid; schedules are rigid; less friendly tone
+Range — separate app; not Slack-first; adds another place to check
+Polly — great for polls; not designed for standups or blockers
+Status Hero — strong reporting; separate hub; Slack summaries feel long

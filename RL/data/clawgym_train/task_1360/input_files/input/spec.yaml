@@ -1,0 +1,67 @@
+case:
+  name: duct_case
+  dimensionality: "2D"
+  thinDirectionPatch: "frontAndBack"
+
+solver: "simpleFoam"
+
+physics:
+  steady: true
+  incompressible: true
+  singlePhase: true
+
+turbulence:
+  enabled: true
+  family: "RAS"
+  RASModel: "kOmegaSST"
+  wallFunctions: true
+
+transport:
+  nu: 1.0e-05   # kinematic viscosity [m^2/s], example value for air-like fluid
+
+boundaries:
+  inlet:
+    U: "(1 0 0)"           # m/s
+    typeU: "fixedValue"
+    p: null
+  outlet:
+    p: 0                   # Pa (gauge reference)
+    typeP: "fixedValue"
+    UOutletType: "pressureInletOutletVelocity"
+  walls:
+    U: "noSlip"
+    turbulence: "wallFunctions"
+  emptyPatches:
+    - "frontAndBack"
+
+initialFields:
+  U:
+    internalField: "(1 0 0)"
+  p:
+    internalField: 0
+  k:
+    # Example: 5% turbulence intensity at 1 m/s: k ≈ 1.5*(U*Ti)^2 ≈ 0.00375
+    internalField: 0.00375
+  omega:
+    # Example representative startup value; adjust during solve if needed
+    internalField: 50
+  nut:
+    # Start from a small uniform value; will be computed during solve
+    internalField: 1.0e-06
+
+numerics:
+  schemes:
+    divPhiU: "Gauss upwind"
+    # other schemes can follow defaults appropriate for conservative startup
+  relaxation:
+    p: 0.3
+    U: 0.7
+    k: 0.7
+    omega: 0.7
+
+functions:
+  yPlus: true
+
+parallel:
+  method: "scotch"
+  numberOfSubdomains: 4

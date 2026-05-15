@@ -1,0 +1,15 @@
+days:
+  Monday:
+    available: true
+  Tuesday:
+    available: true
+  Wednesday:
+    available: false
+  Thursday:
+    available: true
+  Friday:
+    available: true
+  Saturday:
+    available: true
+  Sunday:
+    available: false

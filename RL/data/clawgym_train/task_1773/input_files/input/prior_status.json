@@ -1,0 +1,17 @@
+{
+  "date": "2026-04-16",
+  "player_name": "Annu",
+  "total_xp": 480,
+  "rank": "F-Rank",
+  "level": 5,
+  "stats": {
+    "STR": 10,
+    "INT": 15,
+    "VIT": 12,
+    "AGI": 9,
+    "PER": 7,
+    "CHA": 6
+  },
+  "titles": [],
+  "streak_days": 2
+}

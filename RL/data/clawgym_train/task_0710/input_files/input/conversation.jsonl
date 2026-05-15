@@ -1,0 +1,20 @@
+{"role":"user","timestamp":"2026-04-17T09:15:03Z","content":"Hey, let's set up my interview prep workflow. Please remember my preferences and bring them up before each session."}
+{"role":"assistant","timestamp":"2026-04-17T09:15:20Z","content":"Got it. Share your preferences and decisions, and I'll keep them in memory and recall them before practice."}
+{"role":"user","timestamp":"2026-04-17T09:16:02Z","content":"Preferences: keep feedback concise in 3–5 bullet points. For answers, target 90 seconds max. I prefer direct, actionable feedback rather than vague encouragement."}
+{"role":"assistant","timestamp":"2026-04-17T09:16:30Z","content":"Noted: 3–5 bullet points, 90-second answers, direct and actionable feedback."}
+{"role":"user","timestamp":"2026-04-17T09:17:10Z","content":"People to remember: my mentor is Alex Rivera (Craftlytics), and the recruiter for the next round is Priya Sharma at Helios Staffing."}
+{"role":"assistant","timestamp":"2026-04-17T09:17:28Z","content":"Saved: mentor Alex Rivera (Craftlytics); recruiter Priya Sharma (Helios Staffing)."}
+{"role":"user","timestamp":"2026-04-17T09:18:05Z","content":"Decision: focus this quarter on Senior Data Analyst roles in Product Analytics at consumer apps, not generalist data roles."}
+{"role":"assistant","timestamp":"2026-04-17T09:18:22Z","content":"Decision recorded: target Senior Data Analyst — Product Analytics roles at consumer apps this quarter."}
+{"role":"user","timestamp":"2026-04-17T09:19:14Z","content":"Action items: (1) Practice two STAR stories: a data-informed product decision and an A/B test that improved activation. (2) Update my resume with the 18% signup activation lift. (3) Draft a thank-you email template for post-interview follow-ups."}
+{"role":"assistant","timestamp":"2026-04-17T09:19:40Z","content":"Action items captured: two STAR stories, resume update with +18% activation, and a thank-you email template."}
+{"role":"user","timestamp":"2026-04-17T09:20:31Z","content":"Credential note (secret): my GitHub token is ghp_ABC12345 and it's stored in 1Password — never include or display it anywhere."}
+{"role":"assistant","timestamp":"2026-04-17T09:20:52Z","content":"Acknowledged. Credentials are classified as secret and will never be recalled or exposed."}
+{"role":"user","timestamp":"2026-04-17T09:21:35Z","content":"Scheduling preference update: previously I said 60-minute mock sessions, but change that to 45-minute sessions to keep energy high."}
+{"role":"assistant","timestamp":"2026-04-17T09:21:58Z","content":"Updated: mock sessions set to 45 minutes (replacing prior 60-minute length)."}
+{"role":"user","timestamp":"2026-04-17T09:23:02Z","content":"I realized I bombed the last mock because I rambled. Decision: cap answers at 90 seconds and use a stopwatch — the cap is caused by that rambling issue."}
+{"role":"assistant","timestamp":"2026-04-17T09:23:30Z","content":"Understood: enforcing 90-second cap, using a timer. Noting causal link to prior rambling."}
+{"role":"user","timestamp":"2026-04-17T09:24:22Z","content":"Precondition for our next session: I will read the job description fully before we start the mock."}
+{"role":"assistant","timestamp":"2026-04-17T09:24:40Z","content":"Precondition recorded: you will review the JD before the mock session."}
+{"role":"user","timestamp":"2026-04-17T09:25:31Z","content":"Availability: prefer practice on Tuesdays and Thursdays after 6 pm. Also, keep notes on my answers for iterative improvement."}
+{"role":"assistant","timestamp":"2026-04-17T09:25:56Z","content":"Scheduled preference saved: Tue/Thu after 6 pm. I'll maintain iterative notes on your answers for improvement."}

@@ -1,0 +1,27 @@
+{
+  "company_id": "c5f2b5b1-7b2e-4b36-8e71-1b9a5b7c0d2e",
+  "company_name": "Acme Robotics Inc.",
+  "currency": "USD",
+  "accounts": {
+    "rent_expense": {
+      "id": "89a3e7c8-0f44-4cd8-9c7a-5596f9717a90",
+      "name": "Rent Expense",
+      "type": "expense",
+      "number": "6100"
+    },
+    "accounts_payable": {
+      "id": "0f87224f-9465-42c7-8fbf-6eb5b6f3e4d2",
+      "name": "Accounts Payable",
+      "type": "liability",
+      "number": "2000"
+    }
+  },
+  "parties": {
+    "landlord": {
+      "party_type": "supplier",
+      "supplier_id": "7f4b2e1a-3a52-485d-8b3a-45e9311d6b11",
+      "name": "North Shore Properties LLC"
+    }
+  },
+  "notes": "Use Rent Expense (debit) and Accounts Payable (credit) for monthly office rent journals."
+}

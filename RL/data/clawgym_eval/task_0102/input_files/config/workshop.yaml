@@ -1,0 +1,5 @@
+workshop_date: "TBD"  # YYYY-MM-DD
+start_time: "TBD"      # HH:MM (24h)
+location: "TBD"
+total_food_budget: TBD   # number
+target_total_minutes: TBD # integer

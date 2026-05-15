@@ -1,0 +1,6 @@
+{
+  "complexity_threshold": 3,
+  "token_high_watermark": 1000,
+  "token_low_watermark": 500,
+  "redact_output": true
+}

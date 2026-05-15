@@ -1,0 +1,25 @@
+countries:
+  - Peru
+  - India
+  - Papua New Guinea
+
+sensitive_terms:
+  - sacred site
+  - ritual location
+  - funerary object
+  - clan names
+  - GPS coordinates
+
+# Domains must match one of these patterns to be considered an official source
+allowed_domain_patterns:
+  - unesco.org
+  - .gov
+  - .gob.pe
+  - .gov.in
+  - .gov.pg
+
+# Query templates to combine with each country name during search
+search_queries:
+  - Intangible Cultural Heritage safeguarding guidelines
+  - cultural heritage access restrictions
+  - heritage protection law summary

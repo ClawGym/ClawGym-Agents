@@ -1,0 +1,3 @@
+Make the dashboard more user-friendly.
+
+We need a predictive model for our sales data.

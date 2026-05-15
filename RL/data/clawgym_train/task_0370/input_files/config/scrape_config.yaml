@@ -1,0 +1,26 @@
+allowed_domains:
+  - medlineplus.gov
+  - cdc.gov
+
+topics:
+  - body image
+  - self-esteem
+  - appearance
+
+positive_terms:
+  - confidence
+  - acceptance
+  - support
+  - self-compassion
+
+negative_terms:
+  - shame
+  - stigma
+  - bullying
+  - anxiety
+  - depression
+
+max_pages_per_domain: 8
+output_dir: output
+user_agent: SociologyBodyImageScanner/0.1 (contact: research@example.edu)
+min_char_len: 400

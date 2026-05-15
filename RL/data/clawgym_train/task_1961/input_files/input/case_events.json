@@ -1,0 +1,13 @@
+{
+  "defendant": "Me",
+  "charges": [
+    {"code": "Shoplifting", "degree": "Misdemeanor", "date": "2026-02-20"}
+  ],
+  "court": "County Juvenile Court",
+  "hearings": [
+    {"type": "Arraignment", "date": "2026-02-25"},
+    {"type": "Pre-Trial", "date": "2026-03-10"},
+    {"type": "Disposition", "date": "2026-04-05", "time": "09:00"}
+  ],
+  "probation": {"started": "2026-03-15", "officer_name": "Officer Taylor"}
+}

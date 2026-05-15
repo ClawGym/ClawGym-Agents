@@ -1,0 +1,57 @@
+categories:
+  overcharging:
+    keywords:
+      - overcharge
+      - over-charging
+      - overcharging
+      - fare
+      - meter
+  seatbelt:
+    keywords:
+      - seat belt
+      - seatbelt
+  insurance:
+    keywords:
+      - insurance
+      - uninsured
+  license:
+    keywords:
+      - license
+      - licence
+      - licensee
+      - licensing
+  conduct:
+    keywords:
+      - conduct
+      - discourteous
+      - behavior
+      - behaviour
+  traffic:
+    keywords:
+      - traffic
+      - speed
+      - red light
+      - stop sign
+  solicitation:
+    keywords:
+      - solicit
+      - solicitation
+      - hailing
+  accessibility:
+    keywords:
+      - accessibility
+      - wheelchair
+      - ADA
+  drug_alcohol:
+    keywords:
+      - alcohol
+      - drunk
+      - drug
+      - intoxicated
+currency_symbols:
+  - "$"
+  - USD
+section_markers:
+  - Section
+  - "§"
+  - Rule

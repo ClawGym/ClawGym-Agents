@@ -1,0 +1,7 @@
+id,name,neighborhood,estimated_cost_usd,maintenance_commitment_years,expected_green_benefit_score
+1,Tree planters on Main St,Downtown,15000,3,8
+2,Community garden at 5th Ave,Northside,25000,6,9
+3,Rain garden by transit stop,Eastwood,12000,2,7
+4,Street trees near store,Northside,,4,8
+5,Pollinator strip by warehouse,West End,20000,5,6
+6,Schoolyard shade trees,Southtown,30000,7,10

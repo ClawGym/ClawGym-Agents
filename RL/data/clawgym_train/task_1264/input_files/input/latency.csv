@@ -1,0 +1,11 @@
+timestamp_iso,model,node_id,status,latency_ms,completion_tokens
+2026-03-10T11:05:00Z,llama3:8b,gpu-a,completed,1200,256
+2026-03-06T13:20:00Z,llama3:70b,gpu-b,completed,2100,1024
+2026-03-05T09:40:00Z,orca-mini:3b,cpu-c,completed,800,128
+2026-02-27T14:10:00Z,llama3:8b,gpu-b,completed,1300,300
+2026-03-01T10:00:00Z,qwen2.5:14b,gpu-b,failed,0,0
+2026-02-24T12:00:00Z,mistral:7b,gpu-a,failed,0,0
+2026-02-10T12:00:00Z,qwen2.5:14b,gpu-b,completed,1600,400
+2026-02-15T15:00:00Z,mistral:7b,cpu-c,completed,900,150
+2026-01-18T16:00:00Z,llama3:70b,gpu-a,completed,3000,1500
+2026-03-12T08:05:00Z,llama3:8b,gpu-a,completed,1100,220

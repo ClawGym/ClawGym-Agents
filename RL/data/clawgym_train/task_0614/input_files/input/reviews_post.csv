@@ -1,0 +1,27 @@
+review_id,platform,date,version,rating,title,body,language
+POSTA001,Android,2026-03-15,v5.2.1,1,"Crashes on launch","App crashes immediately after update. Stuck in crash loop.",en
+POSTA002,Android,2026-03-15,v5.2.1,1,"Won't open","Tap icon, splash shows, then it crashes. Can't use it.",en
+POSTA003,Android,2026-03-16,v5.2.1,1,"Crash after splash","Pixel 7 Pro, Android 14. Crashes every time.",en
+POSTA004,Android,2026-03-17,v5.2.1,2,"Random crash","Sometimes opens, then crash when tapping Library.",en
+POSTA005,Android,2026-03-18,v5.2.1,5,"Battery fixed + faster downloads","Battery drain is gone and downloads are much faster.",en
+POSTA006,Android,2026-03-18,v5.2.1,4,"Battery resolved","No more overheating.",en
+POSTA007,Android,2026-03-19,v5.2.1,2,"Playlists disappeared","After sync, my playlists vanished.",en
+POSTA008,Android,2026-03-20,v5.2.1,1,"Lost bookmarks","All bookmarks wiped after sign-in. Data loss.",en
+POSTA009,Android,2026-03-21,v5.2.1,3,"Login okay","2FA loop seems fixed.",en
+POSTA010,Android,2026-03-22,v5.2.1,3,"Notifications quiet","Not getting push notifications since update.",en
+POSTA011,Android,2026-03-23,v5.2.1,5,"Widgets are great","Love the small widget.",en
+POSTA012,Android,2026-03-24,v5.2.1,2,"Google Pay failed","Payment failed on checkout. Tried twice.",en
+POSTI001,iOS,2026-03-15,v5.2.1,2,"Cannot restore purchase","Restore subscription button spins forever.",en
+POSTI002,iOS,2026-03-16,v5.2.1,1,"Payment failed","Apple Pay error code. Can't buy subscription.",en
+POSTI003,iOS,2026-03-17,v5.2.1,1,"Lost playlists","Update to v5.2.1 wiped my playlists. Data loss.",en
+POSTI004,iOS,2026-03-18,v5.2.1,4,"Downloads faster","Offline download speed is much better now.",en
+POSTI005,iOS,2026-03-19,v5.2.1,5,"Battery better","Battery usage improved a lot.",en
+POSTI006,iOS,2026-03-20,v5.2.1,3,"Playback smoother","No more stutter on AirPods.",en
+POSTI007,iOS,2026-03-21,v5.2.1,2,"Notifications missing","No alerts for new episodes.",en
+POSTI008,iOS,2026-03-22,v5.2.1,1,"Restore purchase broken","Restore does nothing.",en
+POSTI009,iOS,2026-03-23,v5.2.1,4,"UI snappier","Feels faster.",en
+POSTI010,iOS,2026-03-24,v5.2.1,3,"Login faster","Sign in is quick now.",en
+POSTI011,iOS,2026-03-25,v5.2.1,2,"Charged twice then failed","Payment charged twice but failed to activate.",en
+POSTI012,iOS,2026-03-26,v5.2.1,4,"Great widgets","Nice glanceable info.",en
+POSTI013,iOS,2026-03-27,v5.2.1,1,"Crashes on downloads","Crashes when opening Downloads tab.",en
+POSTI014,iOS,2026-03-28,v5.2.1,2,"Still can't restore","Subscription restore still broken.",en

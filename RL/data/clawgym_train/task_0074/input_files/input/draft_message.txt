@@ -1,0 +1,8 @@
+Hi Prof. Lee,
+
+Sorry for the long email (and for the rough notes). I'm trying to figure out a realistic pilot for my doc analysis work. I was thinking to just run a baseline and see what happens, maybe focus on tables? Not sure about how much handwriting we actually have or how many languages are in the set. I can probably put something together in a couple of weeks, but I'm not sure what to include and what to cut given compute/time. Also, I'm not sure what metrics we should emphasize right now.
+
+If possible, I'd like your input on where to focus first and any pitfalls to avoid. I can send you a plan and some numbers once I compute them, but wanted to get your guidance sooner rather than later.
+
+Thanks,
+[Your Name]

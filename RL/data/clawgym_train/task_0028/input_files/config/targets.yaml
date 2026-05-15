@@ -1,0 +1,23 @@
+version: 1
+targets:
+  - name: "NCCIH (NIH)"
+    domain: "nccih.nih.gov"
+    link_text_keywords:
+      - "About"
+      - "Mission"
+      - "Overview"
+    allowed_domains:
+      - "nccih.nih.gov"
+      - "nih.gov"
+  - name: "WHO Traditional Medicine"
+    domain: "who.int"
+    link_text_keywords:
+      - "Traditional"
+      - "Complementary"
+      - "Integrative"
+      - "Medicine"
+      - "About"
+      - "What we do"
+      - "Programme"
+    allowed_domains:
+      - "who.int"

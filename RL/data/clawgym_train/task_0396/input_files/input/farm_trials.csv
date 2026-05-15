@@ -1,0 +1,13 @@
+farm_id,region,method,season,yield_kg_per_ha,water_used_mm
+N-01,North,conventional,2023A,3000,400
+N-02,North,conventional,2023B,3200,420
+N-03,North,mulch_drip,2023A,3800,350
+N-04,North,mulch_drip,2023B,3900,340
+E-01,East,conventional,2023A,2800,410
+E-02,East,conventional,2023B,2900,400
+E-03,East,mulch_drip,2023A,3300,360
+E-04,East,mulch_drip,2023B,3400,355
+S-01,South,conventional,2023A,2500,390
+S-02,South,conventional,2023B,2600,380
+S-03,South,mulch_drip,2023A,3100,340
+S-04,South,mulch_drip,2023B,3050,335

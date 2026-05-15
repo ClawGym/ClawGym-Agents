@@ -1,0 +1,7 @@
+{
+  "SKU100": { "product_name": "Aurora Lamp", "category": "Home" },
+  "SKU200": { "product_name": "Nimbus Pillow", "category": "Home" },
+  "SKU300": { "product_name": "Trail Runner Shoes", "category": "Apparel" },
+  "SKU400": { "product_name": "Summit Jacket", "category": "Apparel" },
+  "SKU500": { "product_name": "Solar Charger", "category": "Electronics" }
+}

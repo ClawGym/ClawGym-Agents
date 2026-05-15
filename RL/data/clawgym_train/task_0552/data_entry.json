@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0552",
+  "user_query": "We’re running an authorized, time‑boxed internal reconnaissance on our owned domain. Please read both input/scope.yaml and input/authorization.txt to confirm scope and authorization, then enumerate subdomains only for the in-scope root domain. Deliverables:\n\n1) Write the full raw enumeration response to output/raw/subdomains.json (pretty‑printed). It must include: domain (string), subdomains (array of objects with subdomain, ip_address, status), total_found (int), and enumeration_time_ms (number). Ensure total_found equals the length of subdomains.\n\n2) From that JSON, produce output/derived/active.csv with header \"subdomain,ip_address\" and one row per active subdomain (status == \"active\"). Only include entries with a non‑empty IP address. No duplicates.\n\n3) Create output/qa/checks.json with: total_found, active_count, inactive_count, and a \"consistency\" field set to \"ok\" only if counts line up with subdomains.json and the active.csv row count.\n\n4) Write a human‑readable analysis at output/report/attack_surface.md with clear sections: Scope, Methodology, Findings, Risks & Privacy, and Next Steps. Reference at least one discovered subdomain in the write‑up and provide prioritized next steps. Keep the content professional and suitable for an internal security review.\n\nNotes:\n- Only enumerate what’s in scope from input/scope.yaml. Do not scan outside the authorized root domain. Respect legal/ethical constraints noted in input/authorization.txt.\n- Create any needed directories under output/ before writing files.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,9 @@
+# Chasing Light with the 2024 Apex GT
+
+If you stand downwind at Willow Springs long enough, the desert decides what your photos look like. Dust drapes everything. It softens the edges of speed and rewrites the sun in a chalky hand. I arrived with a shot list and left with shoes full of grit and an edit folder that looks like an argument with the wind. That’s not a complaint. It’s a texture I’ve come to expect, and lately, to crave.
+
+On paper, the 2024 Apex GT lands punches. The spec sheet shouts: 493 hp, 443 lb-ft, and 0–60 mph in 3.7 seconds. Those numbers matter, and they’re why the car feels like a well-tuned drum. But I didn’t go to count seconds. I went to bend them. Midday was too blunt, so I waited. The golden hour scraped across the banking and gave the car shape. The car needed less perfect light and more honest light, the kind that tolerates imperfection and then shines through it.
+
+I shot long pans at 1/30. I shot tighter, then wider, then tighter again, chasing the feeling that the car was moving even when the wheels weren’t. “I wanted the Apex to look fast even when parked,” I wrote in my notes, and I kept writing it until the frame listened. The backlit dust became a halo. The tires threw up punctuation. The track turned into a page.
+
+There’s a tendency to over-direct in these moments. But I tried to let the car breathe. I stepped back, then forward, then aside, and then repeated the entire loop, adjusting exposure in small notches and trusting the rhythm to emerge. The image that stayed with me is the least tidy one: a front three-quarter, dust lifting, the color slightly torn by flare. It doesn’t apologize for the conditions. It insists on them. That, to me, is the Apex GT as I met it—measured by numbers, remembered by light.

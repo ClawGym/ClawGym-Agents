@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0187",
+  "user_query": "Set up live Binance Spot WebSocket listeners to capture trade events and save them as newline-delimited JSON.\n\nRead both input/acceptance_criteria.md and input/streams.json before you begin. Then do the following:\n\n1) Start a raw single-stream subscription for btcusdt@trade and write each received message as a single JSON object per line to output/raw_btcusdt_trade.jsonl.\n\n2) Start a combined subscription for ethusdt@trade and bnbusdt@trade and write each received message line-by-line to output/combined_eth_bnb_trade.jsonl. Preserve the combined-stream wrapper if present (i.e., messages may include a top-level \"stream\" and nested \"data\").\n\n3) Collect at least 15 BTCUSDT trade messages in the raw file and at least 10 trade messages for each of ETHUSDT and BNBUSDT in the combined file. Use lowercase stream names and stop the subscriptions once the targets are reached.\n\n4) Create output/summary.json with these fields:\n- raw: { file, count, symbol }, where count is the number of trade messages captured for BTCUSDT and symbol should be \"BTCUSDT\"\n- combined: { file, totalCount, countsByStream, symbols }, where countsByStream has keys \"ethusdt@trade\" and \"bnbusdt@trade\" with their respective counts, and symbols is a list including \"ETHUSDT\" and \"BNBUSDT\". totalCount should be the total number of combined trade messages captured.\n\nImportant:\n- Only write files under output/.\n- Ensure each line in the .jsonl files is valid JSON.\n- For the combined stream, it’s acceptable if each line includes a top-level envelope (e.g., {\"stream\":\"...\",\"data\":{...}}). For the raw stream, messages may be the direct trade payload or wrapped in an envelope that includes the payload under a \"data\" field.\n- The files must be non-empty and meet the counts above.\n",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

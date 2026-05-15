@@ -1,0 +1,14 @@
+[
+  {
+    "id": "msg-001",
+    "audience": "merchant",
+    "subject": "Introduction and a fairly long note about our payments pilot for {company}",
+    "body": "Hi {first_name},\n\nI wanted to reach out with a long introduction about what we are building and why it could matter for {company}. We are exploring a pilot with a few cafés in Vienna (including possibly you) and I have a lot to share about our roadmap, settlement timings, and other details that may or may not be immediately relevant. Our solution aims to be modern and flexible and we will of course try to be compliant with European rules. There is a bunch of information and I do not want to overwhelm you, but perhaps we can schedule a call just to talk through things in depth, and then later I can send more materials if needed. Let me know what works.\n\nBest,\nMe"
+  },
+  {
+    "id": "msg-002",
+    "audience": "partnership",
+    "subject": "Exploring collaboration with a lot of context and background for your review",
+    "body": "Hi {first_name},\n\nFollowing up with extensive context on our startup and the big picture. We’re passionate about building digital payments for Austrian SMBs and we think there could be alignment with your team. I can share long documents and diagrams, but before that, I wanted to see if there’s general interest in comparing notes. We can adapt to different integration models, and we have many ideas, some still forming, which I’m happy to detail later if this is promising. Open to your suggestions and next steps.\n\nThanks,\nMe"
+  }
+]

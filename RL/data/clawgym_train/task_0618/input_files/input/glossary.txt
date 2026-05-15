@@ -1,0 +1,20 @@
+Arbitrage
+Spread
+Slippage
+Order book
+Latency
+Throughput
+SLA
+SLO
+MTTR
+RTO
+RPO
+Idempotency
+Rate limit
+Tail risk
+Failover
+Canary release
+Compression
+Batching
+Indexing
+Parallel Processing

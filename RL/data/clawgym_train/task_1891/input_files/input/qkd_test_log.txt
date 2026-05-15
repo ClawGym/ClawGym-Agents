@@ -1,0 +1,22 @@
+$ python3 --version
+Python 3.11.7
+$ openssl version -a
+OpenSSL 3.2.0  (Library: OpenSSL 3.2.0)
+built on: Tue Nov 21 12:00:00 2025 UTC
+options:  enable-fips
+$ pip show qkd-sim
+WARNING: Package(s) not found: qkd-sim
+$ python3 qkd_cli.py --handshake --peer 10.0.3.12 --keyrate 10k
+Traceback (most recent call last):
+  File "/home/user/qkd_cli.py", line 8, in <module>
+    import qkd_sim
+ModuleNotFoundError: No module named 'qkd_sim'
+$ export QKD_ENGINE=external
+$ python3 qkd_cli.py --diagnose
+[diag] OpenSSL backend: 3.2.0 (FIPS mode: ON)
+[diag] Using QKD engine: external
+[diag] Attempting provider handshake...
+[error] Provider handshake failed: TLSLibraryError: "EVP_PKEY_fromdata" not available in current provider
+[hint] Try: export OPENSSL_MODULES=/usr/local/lib/ossl-modules
+$ echo $OPENSSL_MODULES
+(empty)

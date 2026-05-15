@@ -1,0 +1,56 @@
+Hiring Manager: Jordan Patel, Director of Engineering
+Role: Senior Platform Engineer (Level: Senior)
+Team: Platform Engineering (4 engineers today)
+Date: 2026-04-18
+
+Top Priorities (next 12 months)
+1) Reliability: Establish service-tier SLOs and dashboards for all tier-1 services; goal is 99.95% uptime and MTTR < 30m.
+2) Paved Road: Helm templates + GitOps (Argo CD) + GitHub Actions pipelines adopted by all new services; onboarding time ≤ 2 days.
+3) Cost Optimization: 15% AWS infra cost reduction via rightsizing, autoscaling, Graviton, and storage lifecycle policies.
+4) Security Guardrails: Enforce least-privilege IAM, secrets management (Vault/AWS Secrets Manager), image scanning, SBOM in CI.
+5) Incident Ops: Fewer pages at night; better signal-to-noise with tuned alerts. Reduce change failure rate from ~28% to ≤ 15%.
+
+Environment Notes
+- AWS multi-account (dev/staging/prod) with VPC per environment; Terraform managed (Terragrunt orchestrated).
+- Kubernetes on EKS for most services. Helm for deployments. Karpenter autoscaling.
+- GitHub Actions for build/test; Argo CD for GitOps delivery. ECR for images.
+- Observability stack: Prometheus/Grafana/Loki/Tempo + OpenTelemetry.
+- PagerDuty for incidents; Slack channels for escalation. Statuspage for external communication.
+- SOC 2 Type II compliance. Okta SSO. Prefer standards and documented changes (RFCs).
+
+Must-Have Skills (hands-on, production)
+- Kubernetes (EKS), Helm, GitOps (Argo CD) at scale; can design zero-downtime rollouts (blue/green, canary).
+- Terraform for AWS networking/security: VPC, subnets, routing, security groups, IAM policies (least privilege).
+- CI/CD design with GitHub Actions (caching, test split, image build, vulnerability scanning).
+- Observability: OTel instrumentation, Prometheus metrics, Grafana dashboards, alerting best practices.
+- Strong documentation and mentorship: write clear RFCs, runbooks; coach 2+ engineers.
+
+Nice-to-Have
+- Service Mesh (Istio) experience, traffic policies, mTLS.
+- Advanced cost controls (Savings Plans strategy, Karpenter tuning).
+- Chaos engineering or game days experience.
+- PostgreSQL performance tuning in AWS RDS contexts.
+
+Work Practices
+- Remote-first; require 4-hour overlap with 10am–2pm ET for collaboration.
+- Weekly platform office hours; monthly architecture review.
+- On-call rotation: 1 week primary + backup support; fair load and escalation policy.
+
+Compensation
+- Band: $160,000 - $200,000 USD base; equity: 0.05% - 0.10% stock options; flexibility on sign-on bonus based on experience.
+- Start timeframe: ideally within 6 weeks of offer acceptance.
+
+Objective Deal Breakers (instant disqualification)
+- No hands-on experience with Kubernetes/EKS and Terraform in production environments.
+- Cannot overlap at least 4 hours with US Eastern Time (10am–2pm ET) consistently.
+- Refuses to participate in on-call rotation (reasonable and compensated).
+- Requires compensation > 20% above the posted band to proceed.
+- Cannot start within 6 weeks without a clear, acceptable plan.
+- Lacks AWS IAM/VPC fundamentals (cannot design least-privilege roles or secure network boundaries).
+
+Evaluation Notes
+- Emphasize measurable outcomes: SLO setup, MTTR reductions, deployment metrics, cost savings with specifics.
+- Prefer candidates who can explain practical trade-offs (e.g., GitOps vs imperative deploys, canary vs blue/green).
+- Ask for concrete incident examples and post-mortems with prevention actions.
+- Pressure test Terraform module design and AWS networking knowledge.
+- For system design: assess scalability (autoscaling policies), reliability (failure modes), and security (IAM boundaries).

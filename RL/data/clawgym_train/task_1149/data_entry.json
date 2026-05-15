@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1149",
+  "user_query": "I have a handful of rough prompts that need to be turned into production-ready prompts. Read input/prompts.jsonl (each line has {id, text}) and input/clarifications.json (optional clarifications keyed by id). For each prompt: 1) auto-detect the type (one of: coding, writing, analysis, creative, data); 2) decide which helper routes are needed (choose zero or more from: clarifier, codebase-researcher, web-researcher) based on the text and why; 3) produce an optimized prompt string that enforces a four-part contract using XML tags <role>, <task>, <constraints>, <output>; 4) convert output-oriented requests into a process with numbered steps inside <task> (at least steps 1 and 2); 5) strip filler phrases like \"please\" and \"I want you to\"; 6) include type-specific constraints: - writing: include Audience, Tone, and Length inside <constraints>; - coding: include edge cases and error handling inside <constraints>; - data: specify Input and Output formats inside <constraints>; 7) if clarifications exist for that id, incorporate the key details from input/clarifications.json into the constraints/output. Then write two files: - output/optimized_prompts.jsonl with one JSON object per input prompt containing: {id, detected_type, agents: [..], optimized_prompt: \"...\", explanation: \"2-3 sentences\"}; - output/routing_report.md summarizing, per id, the chosen agents and a one-line justification that cites the triggering phrases from the raw prompt text.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

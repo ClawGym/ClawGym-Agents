@@ -1,0 +1,7 @@
+address,type,neighborhood,distance_km,beds,baths,size_sqft,lot_front_ft,lot_depth_ft,parking_spaces,condition,basement,sold_price,sold_date,notes
+219 West Lynn Ave, Semi-detached, East Danforth,0.1,3,2,1350,18,100,1,Renovated 2018,Finished rec room + 3pc,$1215000,2026-03-12,"Quiet street; ~5 min to Woodbine Station; similar lot; strong curb appeal"
+142 Woodington Ave, Semi-detached, East Danforth,0.4,3,2,1250,17.5,100,0,Renovated 2017,Finished,$1170000,2026-02-28,"Closer to Danforth (200m); permit street parking only; good finishes"
+64 Westlake Ave, Semi-detached, East Danforth/Main,0.8,3,2,1200,20,100,0,Updated (older kitchen),Unfinished,$1095000,2026-01-20,"Busier street near Main corridor; no parking; older kitchen; longer DOM"
+33 Coleman Ave, Semi-detached, Upper Beaches/East Danforth,1.0,3,3,1420,19,95,1,Fully renovated 2021,Basement suite (separate entrance),$1255000,2026-03-30,"Near Danforth GO; larger; income suite; stylish finishes"
+86 Chisholm Ave, Semi-detached, East Danforth,0.7,3,2,1280,18,100,1,Updated (mixed),Finished,$1135000,2026-02-10,"Quiet street; front-pad parking; decent finishes; average backyard"
+14 Merrill Ave E, Semi-detached, East Danforth,0.6,3,3,1500,20,100,0,Top-to-bottom reno 2022,Finished,$1300000,2026-03-05,"Prime micro-location; larger; high-end finishes; no parking but immaculate"

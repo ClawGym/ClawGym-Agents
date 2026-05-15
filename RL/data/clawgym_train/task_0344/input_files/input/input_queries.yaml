@@ -1,0 +1,13 @@
+queries:
+  - name: "Council walking tours"
+    query: "Newcastle upon Tyne walking tours site:newcastle.gov.uk"
+    required_domain: "newcastle.gov.uk"
+  - name: "Metro visitor info"
+    query: "Tyne and Wear Metro visitor travel information site:nexus.org.uk"
+    required_domain: "nexus.org.uk"
+  - name: "Council events calendar"
+    query: "Newcastle events calendar official site:newcastle.gov.uk"
+    required_domain: "newcastle.gov.uk"
+  - name: "National tourism overview"
+    query: "VisitBritain Newcastle travel tips"
+    required_domain: "visitbritain.com"

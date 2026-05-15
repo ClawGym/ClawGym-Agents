@@ -1,0 +1,12 @@
+{"ts":"2026-04-10T08:59:02.441Z","level":"info","component":"gateway","message":"OpenClaw gateway started on port 3000"}
+{"ts":"2026-04-10T09:02:15.318Z","level":"warn","component":"feishu","message":"websocket handshake retry #2 for account deprecated_bot (429 Too Many Requests)"}
+{"ts":"2026-04-10T09:18:04.912Z","level":"info","component":"agent","agentId":"main","message":"heartbeat"}
+{"ts":"2026-04-10T09:30:15.123Z","level":"error","component":"ops","message":"TOOLRESULT: {\"status\":\"error\",\"tool\":\"exec\",\"error\":\"error: unknown command 'process'\\n\\nCommand exited with code 1\"}"}
+{"ts":"2026-04-10T09:32:47.511Z","level":"warn","component":"perf","message":"reply latency p95=4123ms, p99=7028ms, cpu=92% (perf_bottleneck)"}
+{"ts":"2026-04-10T09:33:07.103Z","level":"error","component":"feishu","message":"feishu account missing for bot brand_helper (user instruction attempted). log_error: accountId not found"}
+{"ts":"2026-04-10T09:33:07.105Z","level":"info","component":"selector","message":"signals=[log_error, perf_bottleneck, windows_shell_incompatible] candidate_genes=[gene_gep_repair_from_errors, gene_gep_optimize_prompt_and_assets]"}
+{"ts":"2026-04-10T09:33:07.211Z","level":"info","component":"analysis","message":"blast_radius_estimate files=1 lines=4 intent=repair"}
+{"ts":"2026-04-10T09:35:11.662Z","level":"info","component":"feishu","message":"binding present for deprecated_bot; deprecation flagged"}
+{"ts":"2026-04-10T09:50:02.221Z","level":"info","component":"ops","message":"operator requested add bot sales_support app cli_sales_456"}
+{"ts":"2026-04-10T09:58:44.763Z","level":"info","component":"ops","message":"operator requested add bot brand_helper app cli_brand_123 then update model to kimi-k2.5"}
+{"ts":"2026-04-10T10:10:00.008Z","level":"info","component":"evolver","message":"ready to emit GEP prompt using gene_gep_repair_from_errors"}

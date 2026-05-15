@@ -1,0 +1,7 @@
+today: 2026-04-19
+timezone: America/Phoenix
+months_threshold: 3
+miles_threshold: 3000
+duty_defaults:
+  f150: severe
+  rpod_trailer: normal

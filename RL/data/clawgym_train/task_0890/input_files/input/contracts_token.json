@@ -1,0 +1,71 @@
+{
+  "contract_name": "GLXToken",
+  "standard": "ERC20",
+  "network": "Ethereum",
+  "addresses": {
+    "proxy": "0xA7b1C2D3E4F5678901234567890abcDEF1234567",
+    "implementation": "0xB8c2D3E4F5A6789012345678900abcDEF12345AA",
+    "owner_admin": "0xA1B2c3D4E5F6A7B8C9D0eE00000000000000AaA1",
+    "treasury": "0xTre4sury00000000000000000000000000AbCdEf"
+  },
+  "proxy": {
+    "type": "UUPS",
+    "admin": "0xA1B2c3D4E5F6A7B8C9D0eE00000000000000AaA1",
+    "implementation": "0xB8c2D3E4F5A6789012345678900abcDEF12345AA",
+    "upgrade_authority": "Multisig(2-of-3)",
+    "timelock_seconds": 0,
+    "reinitializer_protection": true
+  },
+  "ownership": {
+    "owner": "0xA1B2c3D4E5F6A7B8C9D0eE00000000000000AaA1",
+    "roles": {
+      "owner": [
+        "setFeeBps",
+        "setTreasury",
+        "pause",
+        "unpause",
+        "mint",
+        "blacklist",
+        "unblacklist",
+        "upgradeTo"
+      ],
+      "operator": [
+        "mint_capped:100000e18"
+      ]
+    }
+  },
+  "token": {
+    "name": "GLX Token",
+    "symbol": "GLX",
+    "decimals": 18,
+    "initial_supply_wei": "1000000e18",
+    "mintable": true,
+    "burnable": true
+  },
+  "controls": {
+    "pausable": true,
+    "blacklist": true,
+    "trading_enabled_switch": true,
+    "max_tx_amount": null,
+    "max_wallet_amount": null
+  },
+  "fees": {
+    "fee_on_transfer_bps": 200,
+    "max_fee_bps": 500,
+    "fee_recipient": "0xTre4sury00000000000000000000000000AbCdEf",
+    "is_fee_changeable": true
+  },
+  "events": [
+    "FeeUpdated(uint256 oldBps, uint256 newBps)",
+    "TreasuryChanged(address oldTreasury, address newTreasury)",
+    "Blacklisted(address account, bool isBlacklisted)",
+    "Paused(address account)",
+    "Unpaused(address account)"
+  ],
+  "security": {
+    "reentrancy_guards": true,
+    "allowance_checks": "standard",
+    "permit_support": false
+  },
+  "notes": "Fee recipient and fee bps are changeable by owner within max cap. Owner can mint arbitrary supply. Blacklist and pause controls are present. UUPS upgrades are controlled by 2-of-3 multisig without an onchain timelock."
+}

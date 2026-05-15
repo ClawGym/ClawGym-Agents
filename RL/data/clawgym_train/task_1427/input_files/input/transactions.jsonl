@@ -1,0 +1,20 @@
+{"timestamp":"2026-04-13T10:15:00Z","type":"income","source":"github-bounty","amount":300.00,"description":"Fix bug in open-source repo"}
+{"timestamp":"2026-04-14T14:20:00Z","type":"income","source":"trading","amount":300.00,"description":"Day trading profits"}
+{"timestamp":"2026-04-15T09:05:00Z","type":"income","source":"fiverr","amount":200.00,"description":"Custom script development"}
+{"timestamp":"2026-04-16T17:30:00Z","type":"income","source":"fiverr","amount":150.00,"description":"Automation workflow delivery"}
+{"timestamp":"2026-04-17T11:45:00Z","type":"income","source":"clawhub","amount":100.00,"description":"Skill revenue share"}
+{"timestamp":"2026-04-18T13:25:00Z","type":"income","source":"trading","amount":200.00,"description":"Swing trade gains"}
+{"timestamp":"2026-04-19T19:10:00Z","type":"income","source":"clawhub","amount":150.00,"description":"Paid usage revenue"}
+{"timestamp":"2026-04-19T08:00:00Z","type":"income","source":"toku-agency","amount":150.00,"description":"Code review retainer"}
+
+{"timestamp":"2026-04-13T12:00:00Z","type":"expense","category":"bounty-fee","amount":30.00,"description":"GitHub bounty payout fee"}
+{"timestamp":"2026-04-15T12:30:00Z","type":"expense","category":"platform-fee","amount":20.00,"description":"Fiverr service fee"}
+{"timestamp":"2026-04-16T19:00:00Z","type":"expense","category":"marketing","amount":35.00,"description":"Promoted gig ads"}
+{"timestamp":"2026-04-14T15:00:00Z","type":"expense","category":"trading-fee","amount":10.00,"description":"Exchange fees"}
+{"timestamp":"2026-04-18T15:05:00Z","type":"expense","category":"trading-fee","amount":15.00,"description":"Broker commission"}
+{"timestamp":"2026-04-17T12:00:00Z","type":"expense","category":"api","amount":10.00,"description":"OpenAI API usage for ClawHub skill"}
+{"timestamp":"2026-04-17T22:00:00Z","type":"expense","category":"infra","amount":15.00,"description":"Server hosting for ClawHub demo"}
+{"timestamp":"2026-04-19T10:30:00Z","type":"expense","category":"subcontractor","amount":60.00,"description":"Subcontractor payment for toku.agency project"}
+
+{"timestamp":"2026-04-12T18:00:00Z","type":"expense","category":"office-supplies","amount":40.00,"description":"Printer paper (outside period)"}
+{"timestamp":"2026-04-20T01:00:00Z","type":"income","source":"trading","amount":50.00,"description":"Post-period trade gain"}

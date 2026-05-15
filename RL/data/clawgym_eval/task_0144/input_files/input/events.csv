@@ -1,0 +1,6 @@
+event_id,date,theme,channel,allowed_note_ids
+E001,2026-05-10,Campaign kickoff (Independence Week),Twitter,"N01|N02"
+E002,2026-05-12,Heroes of 1811 spotlight,Facebook,"N01"
+E003,2026-05-14,Independence Day commemoration,Twitter,"N02"
+E004,2026-05-15,Guaraní language and identity,Facebook,"N04"
+E005,2026-05-16,Jesuit Missions heritage,Twitter,"N05"

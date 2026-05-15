@@ -1,0 +1,9 @@
+exchange_rates:
+  doubloon: 100.0
+  piece_of_eight: 12.5
+  silver_bar_kg: 700.0
+
+budget_caps_usd:
+  gear: 40.0
+  books: 25.0
+  snacks: 15.0

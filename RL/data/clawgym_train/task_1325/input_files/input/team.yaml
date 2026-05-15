@@ -1,0 +1,86 @@
+team:
+  name: Northwind Apps — Onboarding Workflow Team
+  artifact_root: output/
+  communication:
+    default: file-based
+    notes: All deliverables, reviews, decisions, and lifecycle comments must be written to output/ paths. No ephemeral chat is used for required handoffs.
+roles:
+  orchestrator:
+    name: Olivia Patel
+    title: Orchestrator
+    responsibilities:
+      - Route work, create/approve specs, set priorities
+      - Own state transitions and final "Done" decision
+      - Ensure quality gates are enforced (builder != reviewer)
+    boundaries:
+      - Does not build artifacts
+      - May override timelines but must record rationale in lifecycle comments
+    model_tier: high-reasoning
+    handoff_expectations:
+      - Requires clear output paths on every assignment
+      - Requires handoff comments at state transitions
+  builder:
+    name: Ben Carter
+    title: Builder
+    responsibilities:
+      - Execute the approved spec
+      - Produce ONBOARDING.md and include "How to verify"
+      - Submit for review with a complete handoff comment
+    boundaries:
+      - May not approve own work
+      - Escalate after 10 minutes blocked with context
+    model_tier: cost-effective
+    handoff_format:
+      - "What was done"
+      - "Where artifacts are"
+      - "How to verify"
+      - "Known issues"
+      - "What's next"
+  reviewer:
+    name: Rita Nguyen
+    title: Reviewer
+    responsibilities:
+      - Verify the artifact against the spec and acceptance criteria
+      - Provide approval or actionable feedback
+      - Reference artifact path in review notes
+    boundaries:
+      - Cannot modify the artifact directly; returns with feedback if needed
+      - Writes review notes under output/reviews/
+    model_tier: high-reasoning
+  ops:
+    name: Oscar Diaz
+    title: Ops
+    responsibilities:
+      - Health checks on paths and pacing if requested
+      - Non-blocking logistics (optional in this task)
+    boundaries:
+      - Does not change scope or acceptance criteria
+    model_tier: economical
+workflow:
+  lifecycle: ["Inbox", "Assigned", "In Progress", "Review", "Done", "Failed"]
+  quality_gates:
+    - Builder cannot approve their own work
+    - Orchestrator marks Done
+  required_handoff_labels:
+    - "What was done"
+    - "Where artifacts are"
+    - "How to verify"
+    - "Known issues"
+    - "What's next"
+paths:
+  spec_path: output/specs/ONB-101-spec.md
+  artifact_dir: output/artifacts/ONB-101
+  artifact_file: output/artifacts/ONB-101/ONBOARDING.md
+  review_path: output/reviews/ONB-101-review.md
+  decision_path: output/decisions/ONB-101-decision.md
+  board_path: output/board.json
+comment_conventions:
+  format: "[Role] [Action]: [Details]"
+  examples:
+    start: "[Builder] Starting: Drafting onboarding doc skeleton; confirming required sections."
+    blocked: "[Builder] Blocked: Clarify testing stack; proceeding with generic npm/pytest examples pending decision."
+    submit_review: |
+      "[Builder] Handoff: See artifact at path; verification steps included."
+timestamps:
+  format: "YYYY-MM-DDTHH:MM:SSZ"
+  notes: Use UTC Zulu time

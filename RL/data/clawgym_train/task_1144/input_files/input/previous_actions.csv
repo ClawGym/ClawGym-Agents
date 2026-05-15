@@ -1,0 +1,4 @@
+id,description,owner_email,due_date,status,related_case_id
+A1,Follow up HLA typing for Mary Roe,eva.martin@hospital.org,2026-04-30,Open,C-102
+A2,Confirm consent for Ana Li,diego.perez@hospital.org,2026-04-29,Closed,C-104
+A3,Schedule pre-op huddle for John Doe,alice.smith@hospital.org,2026-04-30,In Progress,C-101

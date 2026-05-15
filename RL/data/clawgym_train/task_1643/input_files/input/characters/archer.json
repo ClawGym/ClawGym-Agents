@@ -1,0 +1,14 @@
+{
+  "name": "Lyra",
+  "archetype": "DPS",
+  "health": 95,
+  "speed": 6.3,
+  "model_polycount": 18000,
+  "abilities": ["Quick Shot", "Volley"],
+  "animations": [
+    "anims/archer/idle.anim.json",
+    "anims/archer/shoot.anim.json",
+    "anims/shared/roll.anim.json"
+  ],
+  "tags": ["ranged", "light_armor"]
+}

@@ -1,0 +1,7 @@
+supplier,on_time_delivery_pct,rma_rate_pct
+DigiKey,97,0.4
+Mouser,96,0.5
+Arrow,92,0.7
+LCSC,88,1.2
+Newark,90,0.8
+Avnet,93,0.6

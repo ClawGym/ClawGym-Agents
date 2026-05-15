@@ -1,0 +1,61 @@
+project sync — LevelMate
+Date: 2026-04-18 (Sat) | Duration ~45m | attendees: nina (research), raj (eng), maya (ux), leo (gtm), ivy (data), sam (legal), ben (pm)
+
+agenda-ish:
+- research status, Unity plugin prototype, early GTM, naming, risks
+
+notes (messy):
+- research
+  - nina: OpenAlex queries set; needs constraints (OA preferred, 2020–2026). aim ≥12 peer‑reviewed, include DOIs.
+  - benchmark: GameDevBench abstract looks strong for multimodal grounding; include SWE-bench variant for contrast.
+  - action: shortlist 15 papers by Wed 4/22; top5 JSON by Thu.
+- engineering
+  - raj: Unity editor plugin skeleton compiles; context menu “Ask LevelMate” available; needs shader log parser.
+  - ci: github actions ok; build artifact summarizer draft.
+  - P0 bugs: null refs in scene scan; asset GUID mismatch on import.
+  - action: prototype shader analyzer by 4/25; fix scene scan nulls by Tue.
+- ux
+  - maya: interview guide drafted; target 5 studios. need consent + screen record flow. quick visual debug: accept screenshot + log, show fix steps.
+  - action: run 5 user interviews by next Friday (4/24); design empty‑state for Unreal (coming later).
+- gtm
+  - leo: positioning: “game‑native copilot.” quick‑win channel = founder outreach + LinkedIn DM to 50 leads in 2 weeks; compounding = SEO content hub (benchmarks, case studies).
+  - events: GDC is past; consider local meetups; budget low.
+  - action: draft 12‑week GTM by Monday; pricing hypotheses Starter/Pro/Ent.
+- data
+  - ivy: OpenAlex + Unpaywall integration doable; cache to /tmp; need polite pool email.
+  - action: finalize scripts today; deliver deep‑read for top DOIs; build dedupe by DOI/OpenAlex ID.
+- legal
+  - sam: DPIA needed before external beta; add clauses for asset licensing + no customer code used for model training.
+  - action: DPIA draft by May 5; DPA template for design partners.
+- naming / decisions
+  - choose “LevelMate” (over “DevSprite”); Unreal support postponed to Q3; Unity first, Godot research pilot only.
+  - metrics: target 15 design partner studios; Unity graphic regressions fix time −20% in 60 days.
+- risks
+  - hallucinated shader fixes; asset license confusion; privacy in screen captures. mitigations: guardrails + governance flags.
+- misc
+  - next sync Tue 2pm; leo to share GTM doc before then; nina to share paper shortlist.
+
+action dump (owners/deadlines):
+- nina → compile 15‑paper shortlist with DOIs — Wed 4/22
+- nina → produce 150‑word summary of GameDevBench abstract — Tue EOD
+- ivy → ship OpenAlex + Unpaywall deep‑read script — today
+- raj → prototype shader analyzer + log parser — 4/25
+- raj → fix scene scan null refs — Tue
+- maya → run 5 interviews (game studios) — by Fri 4/24
+- leo → draft GTM plan (12 weeks, channels ≤3) — Monday
+- sam → DPIA draft + DPA template — May 5
+
+decisions (final):
+- name: LevelMate
+- Unreal support: Q3 (not in beta)
+- quick‑win channel: founder outreach + LinkedIn
+- compounding channel: SEO content hub
+
+open questions:
+- pricing floor for Starter? $29 vs $39
+- need on‑prem for beta or VPC ok?
+
+raw snippets:
+“scene QA must flag missing materials + broken prefabs”
+“guardrail: block code that adds unapproved licenses”
+“GameDevBench gives us visuals‑aware tasks; we can cite success deltas”

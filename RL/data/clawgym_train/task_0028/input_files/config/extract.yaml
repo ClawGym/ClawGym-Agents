@@ -1,0 +1,27 @@
+version: 1
+output_schema:
+  required_keys:
+    - "timestamp"
+    - "organization"
+    - "domain"
+    - "page_type"  # "home" or "about"
+    - "url"
+    - "http_status"
+    - "page_title"
+    - "has_disclaimer_language"
+    - "phones_count"
+    - "last_modified"
+    - "about_link_found"
+extraction:
+  disclaimer_patterns:
+    - "(?i)not (intended|meant) to diagnose"
+    - "(?i)not a substitute for (professional )?medical advice"
+    - "(?i)consult (with|a) (licensed )?health(care| care) (provider|professional)"
+  phone_pattern: "(\\+?\\d[\\d\\s().-]{6,}\\d)"
+  meta_last_modified_names:
+    - "last-modified"
+    - "dc.date.modified"
+    - "dcterms.modified"
+  text_normalization:
+    strip_scripts_styles: true
+    collapse_whitespace: true

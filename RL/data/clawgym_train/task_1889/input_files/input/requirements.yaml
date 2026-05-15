@@ -1,0 +1,227 @@
+project:
+  name: Telemetry360
+  description: >
+    Multi-tenant B2B SaaS that ingests high-volume IoT metrics/events from devices deployed
+    across the EU and serves real-time and historical dashboards to enterprise customers.
+  goals:
+    - Deliver an MVP that supports reliable ingestion, storage, query, and visualization of IoT metrics
+    - Provide per-tenant isolation (authz, data, rate limits) with EU-only data residency
+    - Offer embeddable dashboards and alerting for enterprise operations teams
+    - Build a foundation that can scale 10x in 12 months without a ground-up rewrite
+
+tenants:
+  initial_design_partners: 30
+  expected_growth_12_months: 150
+  tenant_characteristics:
+    - Mix of industrial, logistics, energy, and smart-building enterprises
+    - Each tenant has 100–50,000 active devices
+    - Traffic is bursty during firmware rollouts and business hours
+
+users_and_roles:
+  - role: tenant_admin
+    capabilities:
+      - manage_users_and_roles
+      - configure_data_sources_and_api_keys
+      - manage_alert_policies_and_destinations
+      - manage_billing_and_usage
+  - role: analyst
+    capabilities:
+      - build_dashboards_and_queries
+      - view_metrics_and_alerts
+      - export_reports
+  - role: viewer
+    capabilities:
+      - view_dashboards
+      - acknowledge_alerts
+
+functional_requirements:
+  ingestion:
+    protocols:
+      - https_batch
+      - mqtt_over_tls
+      - http_streaming
+    auth:
+      - per-tenant api keys
+      - oauth2 service tokens for server-to-server
+    semantics:
+      - at_least_once_delivery
+      - idempotent_writes_by_device_id_and_timestamp
+    acceptance_limits:
+      max_event_size_bytes: 2048
+      max_events_per_request: 5000
+  processing:
+    - schema_validation_and_normalization
+    - multi-tenant_routing_and_backpressure
+    - enrichment_optional (device metadata, geolocation)
+    - aggregation_jobs (downsampling, rollups)
+  storage:
+    hot_window_days: 14
+    warm_window_days: 90
+    cold_window_days: 365
+    tenant_isolation: logical_with_row_level_security_and_strict_scoping
+  query_and_dashboards:
+    - time_series_queries (last 15m, 1h, 24h, 7d, 30d)
+    - top_n_by_metric (e.g., top 100 devices by error_rate)
+    - aggregations (avg, min, max, p50, p95, p99, sum, count)
+    - filters (tenant, device_id, fleet, tag, location)
+    - saved_dashboards_and_sharing (RBAC + signed embed)
+  alerting:
+    - threshold_and_windowed_alerts
+    - notification_channels (email, webhooks, slack/ms-teams)
+    - deduplication_and_rate_limits
+    - audit_log_for_alert_changes
+  admin_and_ops:
+    - tenant_provisioning_and_limits (EPS, storage)
+    - usage_metering (events_ingested, storage_consumed, query_seconds)
+    - audit_logs_for_admin_actions (immutability requirements)
+    - feature_flags_per_tenant
+
+data_profile:
+  event_schema_example:
+    timestamp: ISO8601 string
+    device_id: string
+    tenant_id: string
+    metric_name: string
+    value: number
+    unit: string (optional)
+    tags: map<string,string> (small cardinality per event)
+  typical_event_size_bytes: 300
+  sustained_ingest_eps_avg: 10000
+  sustained_ingest_eps_peak: 50000
+  daily_event_volume_avg: 864000000
+  daily_storage_volume_avg_gb: 259
+  cardinality_notes:
+    - metric_name cardinality per tenant O(10^2–10^3)
+    - device_id cardinality per tenant O(10^3–10^5)
+    - tags limited to 20 keys per event, low cardinality preferred
+
+non_functional_requirements:
+  performance:
+    ingestion_pipeline_p99_latency_ms: 1500
+    dashboard_query_p95_latency_ms:
+      - last_15m: 800
+      - last_24h: 2000
+      - last_7d: 3500
+  scalability:
+    target_eps_avg: 10000
+    target_eps_peak: 50000
+    concurrent_dashboard_viewers: 200
+    concurrent_api_clients: 500
+    horizontal_scaling: required_for_ingest_processing_and_query_tiers
+  availability:
+    ingest_slo_monthly: "99.9%"
+    dashboards_slo_monthly: "99.9%"
+    rpo: 60m
+    rto: 4h
+    maintenance_windows: off_peak_eu_time
+  security:
+    encryption_in_transit: tls_1_2_plus
+    encryption_at_rest: aes_256
+    key_management: cloud_kms_eu_only
+    authn:
+      - saml_sso (enterprise tenants)
+      - oidc (internal)
+      - api_keys (per-tenant scoped)
+    authz:
+      - rbac_per_tenant
+      - row_level_security_enforced_in_db_layer
+    audit:
+      - immutable_audit_logs_for_admin_and_alert_changes
+      - retention_365_days_min
+    compliance:
+      - gdpr_required_day_1
+      - soc2_type_1_target_within_9_months
+      - iso_27001_considered_future
+  privacy_and_residency:
+    eu_data_residency: required
+    cross_border_data_transfers: prohibited_for_customer_data
+    pii_handling: minimize_and_pseudonymize_device_identifiers
+    data_subject_requests: export_and_delete_within_30_days
+  cost:
+    mvp_infra_budget_eur_per_month: 15000
+    scale_up_budget_ceiling_eur_per_month: 50000
+    cost_objectives:
+      - prefer_managed_services_with_eu_residency
+      - storage_tiering_and_rollups_to_control_costs
+  observability:
+    logs: structured_json
+    metrics: prometheus_with_service_level_indicators
+    tracing: opentelemetry_distributed_tracing
+    alerting: runbooks_and_oncall_rotation
+  operability:
+    deployment_frequency: daily
+    blue_green_or_canary: canary_preferred
+    infrastructure_as_code: terraform
+    disaster_recovery_test: semi_annual
+
+constraints:
+  team:
+    backend_engineers: 2
+    data_platform_engineer: 1
+    frontend_engineer: 1
+    sre_devops: 0.5
+    security_compliance: 0.5
+  timeline:
+    mvp_weeks: 12
+    ga_months: 6
+  cloud_and_residency:
+    preferred_cloud: aws
+    allowed_clouds: [aws, gcp]
+    preferred_regions: [eu-central-1, eu-west-1]
+    multi_region_active_active: not_required_for_mvp
+  technology_bias:
+    architecture_preference: modular_monolith_for_mvp_with_clear_module_boundaries
+    database_bias:
+      primary_relational: postgresql
+      time_series_analytics: clickhouse_or_timescaledb
+    streaming_bias: kafka_or_redpanda_managed_eu
+  prohibitions:
+    - us_only_data_residency_vendors
+    - mongodb_as_primary_timeseries_store
+    - storing_secrets_in_code
+    - cross_region_replication_outside_eu
+
+slos:
+  - name: ingest_availability
+    objective: "99.9%"
+    window: 30d
+    measurement: successful_requests_over_total
+  - name: dashboard_latency_p95_24h
+    objective_ms: 2000
+    window: rolling_7d
+    measurement: p95_http_latency_on_query_endpoints
+  - name: data_durability
+    objective: "11_9s_on_object_storage_backups"
+    window: continuous
+    measurement: provider_sla_plus_periodic_restore_tests
+
+dependencies_and_integrations:
+  identity_providers:
+    - saml_enterprise_idp (per tenant)
+    - oidc_internal (keycloak_or_auth0_eu)
+  notifications:
+    - email (eu_provider_or_cloud_ses_in_eu)
+    - webhooks (signed_hmac)
+    - chatops (slack/teams_eu_tenants)
+  storage_external:
+    - s3_compatible_object_storage_in_eu
+  secrets_management:
+    - cloud_kms
+    - vault_optional
+
+operations:
+  oncall: 1_primary_1_secondary (business_hours_initially, expand_to_24x7_as_customers_grow)
+  runbooks: required_for_all_p1_p2_services
+  incident_response_slo:
+    acknowledge: 15m
+    restore: 2h_target_for_p1
+  backups:
+    - postgres_point_in_time_recovery
+    - clickhouse_incremental_backups_to_object_storage
+    - config_and_dashboards_daily_snapshots
+
+open_questions:
+  - Do we need hard multi-tenant resource quotas per tenant in MVP or soft limits suffice?
+  - Are per-tenant encryption keys (envelope encryption) a hard requirement at GA?
+  - Will MQTT be brokered by us or by customer-managed brokers with push to HTTPS endpoints?
+  - SSO enforcement: mandatory for all enterprise tenants or optional per plan?

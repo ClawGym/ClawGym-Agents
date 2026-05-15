@@ -1,0 +1,43 @@
+Title: Productivity Outcomes of Remote and Hybrid Work: A Meta-Analysis
+Authors: Salazar, M.; Chen, R.; Patel, D.
+Journal: Journal of Organizational Behavior
+Volume: 42, Issue 9, pp. 1153–1181
+DOI: 10.5555/job.2021.091153
+Date: 2021-09-01
+Type: Peer-reviewed study (meta-analysis)
+
+Abstract
+We synthesize 37 empirical studies published between 2015 and April 2021 assessing the impact of remote and hybrid work on individual and team productivity. The weighted mean effect shows a small but statistically significant positive association between remote/hybrid work and productivity among knowledge workers when enabling conditions (collaboration tooling, managerial support, clear goals) are present.
+
+Methods
+- Inclusion criteria: peer-reviewed or pre-registered field studies; objective or validated productivity proxies; role clarity on task type.
+- Sample: N=37 studies; combined participants ≈ 58,400 employees; geographies: North America (61%), Europe (27%), APAC (12%).
+- Effect size metric: Hedges’ g, random-effects model.
+- Heterogeneity: I² = 48% (moderate).
+- Publication bias: Egger’s test p=0.08; trim-and-fill reduces, but does not eliminate, positive effect.
+
+Results
+- Overall effect: g = 0.12 (95% CI: 0.06–0.18), equivalent to ~2–4% productivity improvement.
+- By role:
+  - Software/IT, data, design: g = 0.18 (~3–5%).
+  - Administrative/process roles reliant on sequential handoffs: g = 0.02 (ns).
+- Moderators:
+  - Tooling maturity (video, chat, shared docs, ticketing) – significant moderator (β=0.09, p<0.01).
+  - Managerial support (clear objectives, outcome tracking) – significant (β=0.07, p=0.02).
+  - Meeting load – non-linear; positive effects dissipate above ~16 hrs/week synchronous meetings.
+- Time horizon:
+  - ≤3 months: effects mixed; adaptation period dilutes benefits (g ≈ 0.03).
+  - >6 months: benefits clearer, particularly in hybrid settings (g = 0.15).
+- Scope caveats: Limited evidence for manufacturing and on-site service roles.
+
+Discussion
+Our findings support small net productivity gains for knowledge work in remote/hybrid contexts when organizations invest in collaboration infrastructure and managerial practices. In roles with heavy interdependencies and legacy workflows, effects are null to mildly negative unless process redesign occurs.
+
+Limitations
+- Heterogeneity in productivity measures (OKRs, output counts, supervisor ratings).
+- Underrepresentation of non-knowledge sectors.
+- Rapidly evolving tooling may alter effects post-2021.
+
+Implications
+- Organizations should avoid interpreting early-pandemic declines as steady-state outcomes.
+- Hybrid arrangements with guardrails on meeting load may sustain modest gains.

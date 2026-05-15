@@ -1,0 +1,4 @@
+data_path: data/workouts.csv
+player: BullsVeteran
+date_column: session_date
+group_by: drill

@@ -1,0 +1,9 @@
+Starting menu-service
+menu-service  | * Serving Flask app 'app.py'
+menu-service  | * Debug mode: off
+ERROR: for menu-service  Cannot start service menu-service: driver failed programming external connectivity on endpoint menu-service (abcd1234): Bind for 0.0.0.0:5000 failed: port is already allocated
+
+Traceback (most recent call last):
+  File "/app/app.py", line 42, in load_specials
+    with open(os.environ['SPECIALS_FILE'], 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'data/specials.csv'

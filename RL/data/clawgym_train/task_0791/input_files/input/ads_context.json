@@ -1,0 +1,51 @@
+{
+  "business_goal": "Efficient pipeline growth with improved CAC payback under 12 months",
+  "scope": {
+    "timeline": "last 90 days",
+    "markets": ["US", "UK"],
+    "platforms": ["Meta", "Google Ads"],
+    "budget_usd": 120000
+  },
+  "baseline_metrics": {
+    "meta": {
+      "spend_usd": 50000,
+      "impressions": 4200000,
+      "clicks": 52000,
+      "ctr": 0.0124,
+      "cpc_usd": 0.96,
+      "leads": 2400,
+      "mqls": 600,
+      "pipeline_usd": 480000,
+      "conversions": 180,
+      "cpl_usd": 20.83,
+      "cpa_usd": 277.78,
+      "roas": 3.2
+    },
+    "google_ads": {
+      "spend_usd": 70000,
+      "impressions": 2600000,
+      "clicks": 78000,
+      "ctr": 0.03,
+      "cpc_usd": 0.9,
+      "leads": 3600,
+      "mqls": 900,
+      "pipeline_usd": 720000,
+      "conversions": 270,
+      "cpl_usd": 19.44,
+      "cpa_usd": 259.26,
+      "roas": 3.6
+    },
+    "attribution": "Last-click with Salesforce assisted touches"
+  },
+  "constraints": {
+    "brand": ["No competitor keywords", "Geofenced to US and UK", "LinkedIn not in scope for this review"],
+    "tracking": ["UTM parameter consistency issues for Google Ads form pages in March"],
+    "privacy": ["No lookalike audiences built on sensitive HR attributes"]
+  },
+  "kpi_targets": {
+    "cac_payback_months": 12,
+    "cpl_usd": 25,
+    "pipeline_to_close_rate_pct": 25
+  },
+  "notes": "Lead quality strongest among HR Directors; weak among junior HR generalists."
+}

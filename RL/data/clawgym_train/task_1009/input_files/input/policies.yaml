@@ -1,0 +1,19 @@
+hardVeto:
+  maxPriceImpactPct: 10          # HARD_VETO if price impact >= 10%
+  minPoolTVLUSD: 1000            # HARD_VETO if pool TVL < $1,000
+  unverifiedToken: true          # HARD_VETO if any token is unverified
+  bridgeLiquidityCheck: true     # HARD_VETO if bridge amountUSD > bridgeLiquidityUSD
+
+lp:
+  ilPctConservative: 20          # For conservative LPs, VETO if estimated IL% >= 20 (unless hard veto applies)
+
+swap:
+  conservative:
+    priceImpactMinPctForNonApprove: 1   # For conservative swaps, if PI% >= 1, decision must not be APPROVE
+
+notes:
+  - Decisions must respect hard-veto conditions first.
+  - Non-applicable dimensions should be marked as "N/A".
+  - Bridge dimension should be HIGH when amount exceeds bridge liquidity (along with HARD_VETO).
+  - SmartContract should be HIGH when hard veto is due to unverified token.
+  - Slippage should be HIGH when hard veto is due to price impact.

@@ -1,0 +1,10 @@
+vendors:
+  - name: Patriot Grills Co
+    country: USA
+    category: grills
+  - name: Northshore Coolers
+    country: USA
+    category: coolers
+  - name: GlobalParty Supplies
+    country: CAN
+    category: banners

@@ -1,0 +1,10 @@
+{
+  "availability": [
+    {"participant_id": "P01", "slot_ids": ["S1", "S2", "S3", "S6"]},
+    {"participant_id": "P02", "slot_ids": ["S2", "S4", "S6", "S7"]},
+    {"participant_id": "P03", "slot_ids": ["S1", "S2", "S6"]},
+    {"participant_id": "P04", "slot_ids": ["S2", "S3", "S7"]},
+    {"participant_id": "P05", "slot_ids": ["S1", "S5", "S6"]},
+    {"participant_id": "P06", "slot_ids": ["S1", "S2", "S4", "S6", "S7"]}
+  ]
+}

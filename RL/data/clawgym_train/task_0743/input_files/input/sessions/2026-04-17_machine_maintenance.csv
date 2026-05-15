@@ -1,0 +1,5 @@
+participant_id,department,scenario,completed,passed,issues,duration_min
+P005,Maintenance,Machine Maintenance,TRUE,TRUE,ui lag,22
+P006,Maintenance,Machine Maintenance,TRUE,FALSE,tracking drift; controller calibration,28
+P007,Operations,Machine Maintenance,TRUE,TRUE,none,21
+P008,IT,Machine Maintenance,TRUE,TRUE,minor visual glitch,19

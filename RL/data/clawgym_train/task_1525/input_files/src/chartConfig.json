@@ -1,0 +1,14 @@
+{
+  "title": { "text": "Q1 2024 Spend vs Budget by Category" },
+  "aria": { "enabled": false },
+  "color": [],
+  "xAxis": { "type": "category", "data": [] },
+  "yAxis": { "type": "value" },
+  "legend": { "show": true },
+  "tooltip": { "trigger": "axis", "valueFormatter": "" },
+  "series": [
+    { "name": "Actual", "type": "bar", "data": [] },
+    { "name": "Budget", "type": "bar", "data": [] }
+  ],
+  "grid": { "containLabel": true }
+}

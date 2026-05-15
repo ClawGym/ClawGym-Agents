@@ -1,0 +1,7 @@
+week,project_id,project_name,tasks_completed,tasks_pending,spend_in_inr,co2e_avoided_tonnes
+2026-W14,solar_microgrids,Solar Microgrids,12,8,450000,18.5
+2026-W15,solar_microgrids,Solar Microgrids,15,6,500000,22.1
+2026-W14,rainwater_harvesting,Rainwater Harvesting,20,10,300000,0.0
+2026-W15,rainwater_harvesting,Rainwater Harvesting,22,9,325000,0.0
+2026-W14,solid_waste_mgmt,Solid Waste Management,8,12,200000,5.2
+2026-W15,solid_waste_mgmt,Solid Waste Management,11,10,240000,6.0

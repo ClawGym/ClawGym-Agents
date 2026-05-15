@@ -1,0 +1,29 @@
+{
+  "host": "wss://stream.binance.com:443",
+  "transport": "websocket",
+  "raw": {
+    "endpoint": "wss://stream.binance.com:443/ws/btcusdt@trade",
+    "stream": "btcusdt@trade",
+    "symbol": "BTCUSDT",
+    "sink": "output/raw_btcusdt_trade.jsonl",
+    "min_messages": 15,
+    "accept_envelope": true,
+    "notes": "Capture BTCUSDT trade events. Count only data messages. At least 5 lines must include e=='trade' and s=='BTCUSDT' at top-level or inside 'data'."
+  },
+  "combined": {
+    "endpoint": "wss://stream.binance.com:443/stream?streams=ethusdt@trade/bnbusdt@trade",
+    "streams": [
+      "ethusdt@trade",
+      "bnbusdt@trade"
+    ],
+    "symbols": [
+      "ETHUSDT",
+      "BNBUSDT"
+    ],
+    "sink": "output/combined_eth_bnb_trade.jsonl",
+    "per_stream_min": 10,
+    "total_min": 20,
+    "preserve_envelope": true,
+    "notes": "Count both streams. Accept top-level 'stream' with nested 'data' payload, or an outer envelope whose 'data' holds that wrapper. Ensure s matches ETHUSDT or BNBUSDT accordingly."
+  }
+}

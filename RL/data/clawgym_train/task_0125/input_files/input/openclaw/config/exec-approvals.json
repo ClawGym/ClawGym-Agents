@@ -1,0 +1,22 @@
+{
+  "approved": [
+    {
+      "type": "skill",
+      "name": "openclaw-config-backuper",
+      "version": "1.2.1"
+    },
+    {
+      "type": "command",
+      "pattern": "git clone https://github.com/*"
+    },
+    {
+      "type": "command",
+      "pattern": "pip install requests"
+    },
+    {
+      "type": "script",
+      "pattern": "*.sh"
+    }
+  ],
+  "lastUpdated": "2023-12-31T18:00:00Z"
+}

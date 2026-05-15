@@ -1,0 +1,5 @@
+2026-03-05 12:20:44 INFO Sending batch id=101 size=500
+2026-03-05 12:20:55 WARN Slow response from SMTP relay smtp01
+2026-03-05 12:21:02 ERROR java.lang.OutOfMemoryError: Java heap space
+2026-03-05 12:21:03 INFO Attempting to shed load and retry after OutOfMemoryError
+2026-03-05 12:21:10 INFO Retrying batch id=101

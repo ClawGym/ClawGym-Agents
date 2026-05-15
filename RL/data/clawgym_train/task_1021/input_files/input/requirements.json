@@ -1,0 +1,45 @@
+{
+  "goal": "Automate research-driven blog post production with factual accuracy and originality for a tech media site.",
+  "description": "Design a multi-agent system that ingests prioritized topics, performs keyword research to guide outlines, drafts articles, verifies factual statements, scans for plagiarism, routes to editorial review, and publishes approved content. The system must emphasize factual accuracy with citations and originality safeguards while meeting cost and throughput targets.",
+  "tasks": [
+    "Topic intake and prioritization",
+    "Keyword research and outline generation",
+    "Draft writing",
+    "Fact verification with citations",
+    "Plagiarism scanning and remediation",
+    "Editorial review and feedback",
+    "Publishing and audit logging"
+  ],
+  "constraints": {
+    "max_response_time": 45000,
+    "budget_per_task": 0.75,
+    "quality_threshold": 0.93
+  },
+  "team_size": 6,
+  "performance_requirements": {
+    "high_throughput": true,
+    "fault_tolerance": true,
+    "low_latency": false
+  },
+  "safety_requirements": [
+    "Input validation and sanitization",
+    "Output content filtering",
+    "Citation requirements for factual statements",
+    "PII scrubbing in drafts and logs"
+  ],
+  "non_goals": [
+    "Image generation",
+    "Automated social distribution beyond basic publishing webhook"
+  ],
+  "success_criteria": {
+    "sla_success_rate": 0.9,
+    "avg_duration_ms_per_stage": {
+      "research": 60000,
+      "drafting": 240000,
+      "fact_check": 90000,
+      "plagiarism_scan": 60000,
+      "editorial": 120000,
+      "publishing": 60000
+    }
+  }
+}

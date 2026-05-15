@@ -1,0 +1,14 @@
+> workspace@ preinstall
+> npx only-allow pnpm
+
+The following package manager is not allowed: npm
+Only the following package manager is allowed: pnpm
+
+Aborting installation because npm was used.
+Please run: pnpm install
+
+npm ERR! code 1
+npm ERR! path /workspace/app
+npm ERR! command failed
+npm ERR! command sh -c npx only-allow pnpm
+npm ERR! A complete log of this run can be found in: /home/node/.npm/_logs/2026-04-16T12_04_58_741Z-debug-0.log

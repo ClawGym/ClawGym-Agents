@@ -1,0 +1,7 @@
+{
+  "tools": [
+    {"name": "python", "min_version": "3.10.0", "commands": ["python3", "python"]},
+    {"name": "pip", "min_version": "21.0.0", "commands": ["pip3", "pip"]},
+    {"name": "node", "min_version": "18.0.0", "commands": ["node"]}
+  ]
+}

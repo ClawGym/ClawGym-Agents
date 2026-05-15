@@ -1,0 +1,13 @@
+project: "StudyGroup Notes"
+redact_pii: false
+allowed_email_domains:
+  - university.edu
+  - gmail.com
+enforce_exclusions: false
+exclude_patterns: []
+pii_types:
+  emails: true
+  phones: true
+  student_ids: true
+  secrets: true
+notes_root: "input/notes"

@@ -1,0 +1,13 @@
+request_id,teacher,grade,item,quantity,unit_cost,student_count,impact_score,fiscal_year,status
+R001,Smith,K,Math manipulatives,30,12.50,25,7.8,2024-2025,approved
+R002,Johnson,1,Reading chairs,6,45.00,22,5.2,2024-2025,approved
+R003,Williams,3,STEM kits,10,89.99,28,9.1,2024-2025,approved
+R004,Brown,5,Art supplies,20,4.25,27,6.0,2023-2024,approved
+R005,Jones,2,Headphones,25,15.00,0,4.0,2024-2025,approved
+R006,Miller,4,Science lab goggles,15,8.75,30,5.5,2024-2025,pending
+R007,Davis,6,Library books,40,6.50,32,8.2,2024-2025,approved
+R008,Garcia,7,Calculators,12,65.00,29,7.0,2024-2025,approved
+R009,Rodriguez,8,Microscopes,4,210.00,85,9.6,2024-2025,approved
+R010,Martinez,1,Whiteboards,5,120.00,23,3.5,2024-2025,approved
+R011,Hernandez,2,PE equipment,0,50.00,26,6.5,2024-2025,approved
+R012,Lopez,3,Music keyboards,8,190.00,26,8.9,2024-2025,approved

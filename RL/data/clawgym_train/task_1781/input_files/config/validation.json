@@ -1,0 +1,16 @@
+{
+  "config_version": "1.0",
+  "required_metadata_fields": [
+    "project_title",
+    "pi",
+    "funding_year",
+    "research_area",
+    "data_version"
+  ],
+  "required_columns": [
+    "id",
+    "telescope",
+    "obs_date",
+    "mass_estimate"
+  ]
+}

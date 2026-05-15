@@ -1,0 +1,5 @@
+{"id": 101, "name": "Alice", "roles": ["admin", "user"]}
+{"id": 102, "name": "Bob", "active": true
+["red", "green", "blue"]
+{'id': 104, 'name': 'Dana'}
+{"id": 105, "age": 30, "address": {"city": "Springfield", "zip": "12345"}}

@@ -1,0 +1,20 @@
+name: Bean There Mobile Coffee
+description: A neighborhood mobile coffee shop serving parents on the school run with quick espresso drinks and kid-friendly options.
+telephone: "(555) 123-4567"
+email: "hello@beantheremobile.coffee"
+url: "https://beantheremobile.coffee"
+priceRange: "$$"
+servesCuisine: "Coffee"
+address:
+  streetAddress: "123 Sample St"
+  addressLocality: "San Diego"
+  addressRegion: "CA"
+  postalCode: "92104"
+  addressCountry: "US"
+serviceAreas:
+  - "North Park"
+  - "Hillcrest"
+openingHours:
+  - "Mon-Fri 07:00-11:00"
+  - "Sat 08:00-12:00"
+  - "Sun Closed"

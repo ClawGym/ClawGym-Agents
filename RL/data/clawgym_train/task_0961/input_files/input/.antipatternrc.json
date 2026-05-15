@@ -1,0 +1,10 @@
+{
+  "srcDir": "src",
+  "criticalPaths": [
+    "AuthHandler.ts",
+    "DatabaseService.ts",
+    "services/AuthHandler.ts",
+    "db/DatabaseService.ts"
+  ],
+  "skipDirectories": ["node_modules", "dist", ".git"]
+}

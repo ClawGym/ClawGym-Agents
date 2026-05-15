@@ -1,0 +1,77 @@
+{
+  "cloud": {
+    "preferred": ["aws"],
+    "allowed": ["aws", "gcp"],
+    "preferred_regions": ["eu-central-1", "eu-west-1"],
+    "data_residency": "eu-only",
+    "notes": [
+      "No customer data stored or processed outside the EU.",
+      "US-headquartered vendors acceptable only if EU data residency is contractually enforced with SCCs."
+    ]
+  },
+  "runtime": {
+    "platform": "kubernetes",
+    "container_runtime": "containerd",
+    "ingress": "managed load balancer + ingress controller",
+    "service_mesh": "optional (evaluate after GA)"
+  },
+  "languages": {
+    "backend": ["typescript", "go"],
+    "data_processing": ["python", "go"],
+    "frontend": ["typescript"]
+  },
+  "frameworks": {
+    "backend_api": ["nestjs", "fastapi"],
+    "streaming": ["kafka", "redpanda (managed)"],
+    "batch": ["airflow", "argo workflows"]
+  },
+  "datastores": {
+    "primary_relational": ["postgresql"],
+    "time_series_analytics": ["clickhouse", "timescaledb"],
+    "cache": ["redis"],
+    "object_storage": ["s3-compatible (eu)"],
+    "search_optional": ["opensearch"]
+  },
+  "identity_and_security": {
+    "authn": ["saml", "oidc"],
+    "idp": ["keycloak (self-hosted, eu)", "auth0 (eu region)"],
+    "secrets": ["aws-kms", "hashicorp-vault"],
+    "policy": ["opa/gatekeeper for k8s policies"],
+    "encryption": {
+      "in_transit": "TLS 1.2+",
+      "at_rest": "AES-256, keys in EU KMS",
+      "per_tenant_envelope_encryption": "target for GA"
+    }
+  },
+  "observability": {
+    "metrics": ["prometheus"],
+    "tracing": ["opentelemetry"],
+    "logging": ["loki or cloud-native logs"],
+    "dashboards": ["grafana"]
+  },
+  "iac_and_ci": {
+    "iac": ["terraform"],
+    "pipelines": ["github actions", "gitlab ci"],
+    "release_strategy": ["canary", "blue-green"]
+  },
+  "preferences": [
+    "Managed services where possible (Kafka/Redpanda, Postgres, ClickHouse) with EU residency",
+    "Start with modular monolith for MVP; evolve to service boundaries as load and team grow",
+    "Row-Level Security (RLS) for multi-tenant isolation plus strict scoped tokens",
+    "OpenTelemetry-first instrumentation"
+  ],
+  "prohibitions": [
+    "mongodb-as-primary-timeseries",
+    "us-only-data-residency",
+    "hard vendor lock-in without viable export path",
+    "storing secrets in code or CI variables without KMS/Vault"
+  ],
+  "compliance": {
+    "required_now": ["gdpr"],
+    "target_next_9_months": ["soc2-type-1"],
+    "privacy": [
+      "Minimize PII; pseudonymize device identifiers",
+      "Respond to data subject requests (export/delete) within 30 days"
+    ]
+  }
+}

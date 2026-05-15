@@ -1,0 +1,17 @@
+service,meter,cost,tags,environment
+Virtual Machines,D8s v5 Linux Instance Hours,7000.00,"app=batch-workers;team=data;owner=steve;autoscaling=manual;zone_pinning=false",prod
+Virtual Machines,D8s v5 Windows Instance Hours,1800.00,"app=legacy-admin;team=it;owner=it-ops;license=os-windows",staging
+Managed Disks,Premium SSD P30,1600.00,"attached_to=vmss;owner=platform;lifecycle=none",prod
+Snapshots,Managed Disk Snapshots,700.00,"policy=retain-forever;owner=unknown;team=unknown",prod
+Bandwidth,Zone-to-Zone Data Transfer,900.00,"src=vmss;dst=sql;traffic=cross-zone",prod
+NAT Gateway,NAT Data Processed,600.00,"subnet=private;owner=platform",prod
+Azure SQL Database,Business Critical vCore,3800.00,"db=orders;ha=enabled;owner=dba;geo_redundant=true",prod
+Cosmos DB,Provisioned RU/s,1400.00,"collection=events;mode=provisioned;owner=data;autoscale=off",prod
+Azure Monitor,Log Analytics Data Ingestion,1200.00,"workspace=core;level=debug;owner=platform;retention=90d",prod
+Application Insights,App Insights Multi-step web tests,350.00,"app=frontend;owner=web;sampling=0%",prod
+Azure Firewall,Firewall Policy,500.00,"vnet=hub;owner=network",prod
+Key Vault,Key Operations,110.00,"env=prod;owner=security;keys=per-app",prod
+Azure Machine Learning,NCas T4 v3 GPU Compute,2200.00,"job=training;owner=ml;window=4h/day;provisioning=always_on",prod
+Azure OpenAI,Model API Usage,900.00,"app=assist;owner=product;cache=none",prod
+Licensing,Windows Server License,900.00,"vm_image=windows;owner=it-ops",staging
+Defender for Cloud,Plan 2,300.00,"scope=subscriptions/*;owner=security",prod

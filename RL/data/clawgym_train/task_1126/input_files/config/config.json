@@ -1,0 +1,6 @@
+{
+  "input_path": "input/comments.csv",
+  "output_dir": "output",
+  "group_by": ["stance", "channel", "district"],
+  "text_column": "text"
+}

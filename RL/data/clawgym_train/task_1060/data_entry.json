@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1060",
+  "user_query": "We’re doing a performance pass on our messaging app database. Please read input/schema.md and input/query_requirements.md and produce: (1) output/queries.sql.txt with the requested SQL statements, and (2) output/indexes.sql.txt with the CREATE INDEX statements you recommend. Add brief rationale notes to output/notes.md. Make sure your SQL uses PostgreSQL-native patterns that match the requirements (e.g., DISTINCT ON, IS NOT DISTINCT FROM, SELECT FOR UPDATE SKIP LOCKED, expression/partial/covering indexes).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

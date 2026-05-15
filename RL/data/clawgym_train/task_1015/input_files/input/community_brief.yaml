@@ -1,0 +1,157 @@
+community_brief:
+  name: "FinCreators Guild"
+  mission: "Unite global fintech creators to publish accurate, compliant banking education that helps everyday people optimize accounts, reduce fees, and navigate international transfers."
+  tagline: "Teach banking that actually pays."
+  type: "practice"
+
+  target_member:
+    who: "Fintech educators: YouTubers, newsletter writers, TikTok/Instagram creators, bloggers, ex-bankers-turned-educators, and community organizers focused on consumer banking and cross-border money."
+    pain_points:
+      - "Keeping bank advice compliant across jurisdictions"
+      - "Staying current with rates, fees, and policy changes"
+      - "Converting audience into sustainable revenue ethically"
+      - "Finding accurate resources for international transfers"
+      - "Battling misinformation and low-trust affiliate promos"
+    desired_outcome: "Grow audience and income while maintaining trust through compliant, globally relevant content that demonstrably saves people money."
+    where_now:
+      - "YouTube"
+      - "X/Twitter"
+      - "Reddit (r/personalfinance, r/UKPersonalFinance)"
+      - "LinkedIn"
+      - "Discord/Telegram creator groups"
+      - "Facebook groups"
+    willingness_to_pay: "mid ($20-100)"
+
+  anti_members:
+    - "Pump-and-dump promoters"
+    - "Predatory affiliate spammers"
+    - "Hate speech or discriminatory actors"
+    - "Those soliciting individualized financial advice"
+
+  value_proposition: "The only community where fintech creators collaborate to ship accurate, compliant banking education — with global context, templates, and support — that grows trust and revenue."
+  differentiator: "Compliance-first peer review, global rate/fee context, jurisdictional guidance, and moderation that protects accuracy and trust. Templates and scripts vetted for ethics and local rules."
+  business_model: "freemium"
+  revenue_target: "$8,000 MRR by Month 6"
+
+  platform: "discord"
+  platform_rationale: "Zero-cost, rich roles/channels, global reach, events and bots for programming; creators are already Discord-savvy. Slack is costly at scale; Telegram lacks structure; Circle considered for premium paywalls in Phase 2."
+
+platform_selection_criteria:
+  audience_tech_fit: "High — creators comfortable with Discord and GitHub-style workflows"
+  cost_constraints: "Budget ≤ $150/month in first 90 days; Discord free tier preferred"
+  structure_needs: "Threading, roles, channel-per-topic, moderation tooling"
+  discovery: "Leverage social + SEO off-platform; consider a public Discourse knowledge base in Phase 3"
+  paywall_option: "Phase 2-3: Evaluate Circle/Mighty for premium or Patreon + Discord roles"
+
+initial_hypotheses:
+  pricing:
+    free: "Access to general channels, weekly prompts, curated resources"
+    premium:
+      monthly: "$19"
+      annual: "$180"
+      value:
+        - "Exclusive templates: fee dispute scripts, rate update SOPs, localization checklists"
+        - "Weekly expert office hours"
+        - "Rate/fee change alerts with sources (timestamped)"
+        - "Private peer review channel with mod oversight"
+    vip:
+      monthly: "$79"
+      value:
+        - "1:1 monthly content audit"
+        - "Mastermind cohort (max 20)"
+        - "Co-branded resources and collaboration opportunities"
+
+channels_seed:
+  - name: "welcome"
+    purpose: "Auto-welcome, house rules, quick start actions"
+  - name: "introductions"
+    purpose: "Member intros with region, content niche, and platforms"
+  - name: "general"
+    purpose: "Cross-topic creator discussion"
+  - name: "content-ideas"
+    purpose: "Source and validate banking content ideas"
+  - name: "rate-watch"
+    purpose: "Share rate/fee updates with source and date"
+  - name: "international-transfers"
+    purpose: "Compare SWIFT/SEPA/Wise/Revolut; costs; process checklists (no individualized advice)"
+  - name: "scripts-and-templates"
+    purpose: "Fee dispute scripts, checklists, disclaimers — peer reviewed"
+  - name: "wins"
+    purpose: "Celebrate audience impact and ethical monetization wins"
+  - name: "events"
+    purpose: "AMAs, workshops, co-working"
+  - name: "moderation-queue"
+    purpose: "Staff-only review of claims needing verification"
+  - name: "premium-lounge"
+    purpose: "Premium-only discussion (if applicable)"
+  - name: "office-hours"
+    purpose: "Premium expert time blocks"
+
+roles_seed:
+  - name: "New Member"
+    criteria: "Auto-assigned on join"
+    notes: "Read/post in general channels"
+  - name: "Member"
+    criteria: "7 days + intro + 10 messages"
+    notes: "Full access to public channels"
+  - name: "Active Member"
+    criteria: "30 days + 50 messages + 3 helpful posts"
+    notes: "Create threads, propose resources"
+  - name: "Champion"
+    criteria: "90 days + consistent value + staff nomination"
+    notes: "Thread moderation, peer review lead"
+  - name: "Moderator"
+    criteria: "Champion + invite"
+    notes: "Moderation powers; compliance gatekeeping"
+  - name: "Admin"
+    criteria: "Core team"
+    notes: "All permissions"
+
+content_programming_seeds:
+  - day: "Monday"
+    name: "Monday Momentum"
+    prompt: "What’s your #1 banking content goal this week?"
+  - day: "Tuesday"
+    name: "Tutorial Tuesday"
+    focus: "How-to guides with jurisdiction notes and disclaimers"
+  - day: "Wednesday"
+    name: "Wins Wednesday"
+    focus: "Share audience wins (fee reversals, rate upgrades) — redact PII"
+  - day: "Thursday"
+    name: "AMA/Expert Hour (bi-weekly)"
+    focus: "Compliance expert, ex-banker, or cross-border specialist"
+  - day: "Friday"
+    name: "Feedback Friday"
+    focus: "Get peer review on scripts, claims, and videos"
+  - day: "Weekend"
+    name: "Weekend Reading"
+    focus: "Top 3 links with source and date; global coverage"
+
+growth_tactics_hypothesis:
+  - "Cross-promotion with adjacent creator communities"
+  - "Guest AMAs with compliance pros and ex-bankers"
+  - "Member referral program with tiered rewards"
+  - "SEO content → community CTA (templates, calculators)"
+  - "YouTube/Podcast clips → community discussions"
+  - "Free resource hub with community follow-up"
+  - "Challenges (30-day Rate Audit Challenge)"
+  - "Partnerships with consumer advocacy orgs (vendor-neutral)"
+  - "Public case studies highlighting ethical outcomes"
+  - "Localized office hours for EMEA/APAC"
+  - "Newsletter featuring best discussions (anonymized)"
+  - "Reddit answers summarized back into the community"
+
+metrics_targets:
+  early_phase:
+    total_members: 300
+    dau_mau: "25-35%"
+    questions_answered: "≥85%"
+    member_to_member_replies: "≥60%"
+    day_30_retention: "≥45%"
+    premium_conversion: "5-8% of active members by Month 3"
+  compliance:
+    flagged_claims_reviewed_within: "24h"
+    sources_required_for_claims: "100%"
+    pii_incidents: "0"
+
+constraints_reference: "See constraints.md for legal/compliance, privacy, and global audience policies."

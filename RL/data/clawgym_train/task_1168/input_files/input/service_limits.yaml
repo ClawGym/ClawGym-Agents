@@ -1,0 +1,16 @@
+services:
+  - name: "api"
+    cpu_request: 6
+    mem_request_gib: 12
+  - name: "worker"
+    cpu_request: 10
+    mem_request_gib: 32
+  - name: "db"
+    cpu_request: 8
+    mem_request_gib: 64
+  - name: "cache"
+    cpu_request: 4
+    mem_request_gib: 8
+  - name: "metrics"
+    cpu_request: 2
+    mem_request_gib: 4

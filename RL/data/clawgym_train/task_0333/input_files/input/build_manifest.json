@@ -1,0 +1,9 @@
+{
+  "artifacts": [
+    {"file": "VbApp.Service.exe", "checksum_sha256": "dummysha2561"},
+    {"file": "VbApp.Service.exe.config", "checksum_sha256": "dummysha2562"},
+    {"file": "VbApp.Common.dll", "checksum_sha256": "dummysha2563"}
+  ],
+  "source_path": "build",
+  "notes": "Assume files exist in the build folder. Copy to staging_path."
+}

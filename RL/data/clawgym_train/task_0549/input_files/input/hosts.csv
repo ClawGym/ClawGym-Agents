@@ -1,0 +1,6 @@
+target,user,env,docker_ready,ram_gb,notes
+soclab-admin@10.0.2.15,soclab-admin,lab,yes,8,"Intel NUC in lab rack; Docker 24.0+, Compose v2.23"
+ubuntu@192.168.56.101,ubuntu,dev,yes,16,"Dev VM; not a lab environment"
+analyst@lab-node-3.lab.local,analyst,lab,no,4,"Docker not installed; do not select"
+blueops@172.16.20.5,blueops,lab,yes,4,"Edge VM with 4GB; Docker Compose v2.20"
+ec2-user@ec2-34-201-12-34.compute-1.amazonaws.com,ec2-user,prod,yes,8,"Production; do not use for lab"

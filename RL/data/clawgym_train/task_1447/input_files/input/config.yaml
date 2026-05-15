@@ -1,0 +1,82 @@
+hourly_value_of_time: 50
+setup_hourly_cost: 50
+payback_threshold_months: 3
+max_tool_budget: 20
+
+tool_capacities:
+  Zapier: 2
+  Make: 3
+  n8n: 5
+
+tool_costs:
+  Zapier: 29
+  Make: 19
+  n8n: 12
+
+triggers_by_category:
+  Lead Capture: "New form submission on website"
+  Invoicing: "Payment received (Stripe webhook)"
+  Social Posting: "Scheduled time reached"
+  Reporting: "Every Monday at 9:00 AM"
+  Client Onboarding: "Contract signed (e-signature)"
+  Content Distribution: "New blog post published (RSS)"
+
+action_templates:
+  Lead Capture:
+    - "Add lead to CRM"
+    - "Send welcome email"
+    - "Create follow-up task in project manager"
+    - "Send Slack notification: New lead"
+  Invoicing:
+    - "Mark invoice as paid in accounting software"
+    - "Send receipt email to customer"
+    - "Update CRM: customer status = Paid"
+    - "Add revenue to monthly dashboard"
+    - "Notify on Slack: Payment received"
+  Social Posting:
+    - "Post to LinkedIn with pre-written caption"
+    - "Post to Twitter as a thread"
+    - "Update content calendar entry"
+    - "Notify on Slack: Post published"
+  Reporting:
+    - "Pull data from analytics and CRM"
+    - "Compile report in Google Sheets"
+    - "Email report to clients"
+  Client Onboarding:
+    - "Create project in project management tool"
+    - "Add client to CRM with Active status"
+    - "Send onboarding email sequence"
+    - "Create initial invoice in accounting software"
+    - "Schedule kickoff call on calendar"
+  Content Distribution:
+    - "Post link to LinkedIn with auto-generated caption"
+    - "Post link to Twitter"
+    - "Add post to email newsletter draft"
+    - "Add to content calendar"
+    - "Send Slack notification: Post live"
+
+conditions_by_category:
+  Lead Capture:
+    - "Email field is present"
+  Invoicing:
+    - "Payment status equals succeeded"
+  Social Posting:
+    - "Post approved equals true"
+  Reporting:
+    - "All source data available"
+  Client Onboarding:
+    - "Contract status equals completed"
+  Content Distribution:
+    - "Post title is not empty"
+
+error_handling_by_category:
+  Lead Capture: "If CRM add fails, send email alert to owner"
+  Invoicing: "On failure, create task: Investigate payment sync and email owner"
+  Social Posting: "If any publish step fails, retry once then email owner"
+  Reporting: "If data pull fails, send Slack alert with error details"
+  Client Onboarding: "On any step failure, roll back created artifacts and email owner"
+  Content Distribution: "If distribution fails, queue for retry and notify on Slack"
+
+maintenance_plan:
+  weekly_check: "Review automation run logs and resolve any failures"
+  monthly_audit: "Audit field mappings, verify tool connections, and confirm workflow still saves time"

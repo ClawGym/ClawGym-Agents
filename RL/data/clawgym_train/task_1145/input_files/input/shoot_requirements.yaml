@@ -1,0 +1,6 @@
+scene: "Hallway firefight muzzle flashes"
+indoor: true
+max_decibels: 110
+budget_per_unit_usd: 60
+min_effect_class: "medium"
+team_has_training: false

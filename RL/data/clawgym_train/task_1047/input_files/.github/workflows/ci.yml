@@ -1,0 +1,15 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # TODO: Update this workflow to (conceptually):
+      # 1) Check out the repository
+      # 2) Set up Python 3.x
+      # 3) Run: python ci_runner.py
+      # 4) Upload artifact: out/reports as "ci-reports"
+      - name: Placeholder
+        run: echo "Update this workflow as per task instructions."

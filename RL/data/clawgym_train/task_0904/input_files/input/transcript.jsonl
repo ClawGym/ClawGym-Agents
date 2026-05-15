@@ -1,0 +1,10 @@
+{"role":"bot","text":"Hi there! Welcome to Nimbus CRM. What brings you in today?"}
+{"role":"user","text":"I'm evaluating your premium plan for our startup, but I'm not sure it's the right fit."}
+{"role":"bot","text":"Totally fair. What goals are top priority for you—automation, reporting, or collaboration?"}
+{"role":"user","text":"Automation and reporting are big. Is onboarding hard? We don't have much time."}
+{"role":"bot","text":"Onboarding takes about 30 minutes, and we handle the heavy lifting. We can mirror your current workflows."}
+{"role":"user","text":"Thanks, that's helpful. I appreciate the detail. It's probably expensive though."}
+{"role":"bot","text":"Most teams recoup cost in week one. For 25 users, it's $12/user/month with a 14-day trial."}
+{"role":"user","text":"I guess that could work. Can we do a trial first?"}
+{"role":"bot","text":"Absolutely! I can start your 14-day trial today and share a checklist. Want me to set it up now?"}
+{"role":"user","text":"Yes, let's do it! Can we start today? I want to move now."}

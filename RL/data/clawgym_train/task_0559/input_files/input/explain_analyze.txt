@@ -1,0 +1,38 @@
+-- EXPLAIN (ANALYZE, BUFFERS, VERBOSE)
+Limit  (cost=143928.12..143928.24 rows=50 width=88) (actual time=5102.436..5102.483 rows=50 loops=1)
+  ->  Sort  (cost=143928.12..145428.12 rows=6000000 width=88) (actual time=5102.433..5102.459 rows=10050 loops=1)
+        Sort Key: o.created_at DESC, o.id DESC
+        Sort Method: external merge  Disk: 20480kB
+        Buffers: shared hit=86214 read=1048 dirtied=0
+        ->  Hash Join  (cost=28521.44..101228.12 rows=6000000 width=88) (actual time=812.346..4091.287 rows=6012451 loops=1)
+              Hash Cond: (o.customer_id = c.id)
+              Buffers: shared hit=64512 read=1037
+              ->  Bitmap Heap Scan on public.orders o  (cost=21412.07..80012.56 rows=14800000 width=56) (actual time=485.219..2930.418 rows=14897321 loops=1)
+                    Recheck Cond: (status = 'shipped'::text)
+                    Filter: ((created_at >= $2) AND (created_at < $3))
+                    Rows Removed by Filter: 5198321
+                    Heap Blocks: exact=38219
+                    Buffers: shared hit=52114 read=982
+                    ->  Bitmap Index Scan on idx_orders_status  (cost=0.00..21042.07 rows=20000000 width=0) (actual time=463.771..463.772 rows=20000000 loops=1)
+                          Index Cond: (status = 'shipped'::text)
+                          Buffers: shared hit=10312 read=55
+              ->  Hash  (cost=6547.99..6547.99 rows=300000 width=24) (actual time=324.700..324.701 rows=298413 loops=1)
+                    Buckets: 524288  Batches: 1  Memory Usage: 15432kB
+                    Buffers: shared hit=12398 read=55
+                    ->  Seq Scan on public.customers c  (cost=0.00..6547.99 rows=300000 width=24) (actual time=0.043..273.198 rows=298413 loops=1)
+                          Filter: (region = $1)
+                          Rows Removed by Filter: 901237
+                          Buffers: shared hit=12398 read=55
+
+Planning Time: 14.892 ms
+JIT:
+  Functions: 14
+  Options: Inlining true, Optimization true, Expressions true, Deforming true
+  Timing: Generation 12.931 ms, Inlining 157.291 ms, Optimization 119.882 ms, Emission 83.616 ms, Total 373.720 ms
+Execution Time: 5123.456 ms
+
+-- Observations:
+-- 1) Seq Scan on customers (region = $1) due to missing index on customers(region).
+-- 2) Large Bitmap Heap Scan on orders by status, then filter on created_at.
+-- 3) Final Sort spills to disk (external merge) likely due to work_mem limits and large input (caused by deep OFFSET).
+-- 4) LIMIT with deep OFFSET forces sorting and materializing many rows only to discard them.

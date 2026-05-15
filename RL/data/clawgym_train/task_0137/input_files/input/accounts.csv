@@ -1,0 +1,5 @@
+account_id,service,username,reserve_count
+acc-001,AccountingPortal,alice,3
+acc-002,AccountingPortal,bob,1
+acc-101,DevWiki,dlee,2
+acc-102,DevWiki,kpatel,2

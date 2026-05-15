@@ -1,0 +1,13 @@
+sku,name,category,price,margin_pct,in_stock,return_rate_pct
+LB-TRAVEL-01,HydraLip Balm Mini,lip balm,7.00,72,true,1.2
+MSK-MINI-SEA,Sea Clay Detox Mask Mini,mask,7.90,66,true,2.1
+EYE-SHADOW-SGL-CHAMP,Single Shadow — Champagne,eyeshadow,12.00,62,true,2.9
+LNR-TRAVEL-BLK,Micro-Liner Travel — Black,eyeliner,9.50,68,true,3.5
+RMV-MINI-GENTLE,Gentle Makeup Remover Mini,skincare,6.50,70,true,1.0
+LIP-REFILL-NUDE,Lipstick Refill — Soft Nude,lipstick,16.00,64,true,4.8
+GLOSS-MINI-PEACH,Gloss Mini — Peach,lip gloss,11.00,58,true,4.0
+MASK-SHEET-ALOE,Sheet Mask — Aloe (Single),mask,5.50,70,true,6.0
+BRUSH-CLEAN-SAMPLE,Brush Cleaner Sample,tools,4.00,80,false,0.5
+BROW-GEL-MINI-CLR,Brow Gel Mini — Clear,brow,14.00,63,true,2.0
+EYE-SHADOW-SGL-PLUM,Single Shadow — Plum,eyeshadow,13.50,57,true,2.8
+LIP-BALM-TINT-ROSE,Tinted Lip Balm — Rose,lip balm,9.00,61,true,5.0

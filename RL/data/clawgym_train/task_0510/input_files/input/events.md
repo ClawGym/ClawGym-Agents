@@ -1,0 +1,5 @@
+- 1910: Japan–Korea Annexation Treaty (formal colonial rule begins)
+- 1914: Outbreak of World War I (global supply disruptions)
+- 1918: Rice Price Crisis and Rice Riots in Japan (regional market shock)
+- 1919: March First Movement in Korea (political mobilization)
+- 1920: "Company Law" revisions affecting trade (regulatory change)

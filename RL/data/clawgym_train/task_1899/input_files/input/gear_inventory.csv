@@ -1,0 +1,7 @@
+item_id,item_type,description,muzzleloader,blank_powder,safety_cert_path,last_inspected
+M1,rifled musket,1861 Springfield reproduction,yes,yes,,2024-01-10
+M2,rifled musket,Enfield Pattern 1853,yes,no,docs/certs/M2.pdf,2024-03-20
+U1,uniform,,no,no,,2023-11-01
+D1,drum,Field drum with sling,no,no,,2024-02-15
+B1,cartridge pouch,10 blank paper cartridges (training only),no,yes,,2024-03-05
+P1,powder flask,Replica brass flask (no powder carried),no,no,,2024-02-15

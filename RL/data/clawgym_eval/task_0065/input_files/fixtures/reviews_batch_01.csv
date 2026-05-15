@@ -1,0 +1,9 @@
+review_id,platform,country_code,rating,review_text
+r1,ios,US,5,"Loved the new dark mode—subscribed right away."
+r2,android,IN,4,"Useful features, but onboarding could be smoother."
+r3,ios,GB,2,"Crashes on startup after update."
+r4,android,US,5,"Great UX; performance improved a lot."
+r5,ios,DE,3,"Good app, pricing is a bit high for me."
+r6,android,BR,1,"Too many ads and slow."
+r7,ios,US,4,"Clean design; missing landscape mode on iPad."
+r8,android,CA,5,"Works flawlessly for my team."

@@ -1,0 +1,4 @@
+anneal_temp_c: 360
+plasma_power_w: 120
+deposition_time_s: 900
+notes: "Baseline from 2026-04-10"

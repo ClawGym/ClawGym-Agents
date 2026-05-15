@@ -1,0 +1,13 @@
+student_id,full_name,preferred_name,grade,service_branch,parent_deployment_status,homeroom
+1001,Ava Johnson,Ava,3,Army,deployed,3A
+1002,Liam Martinez,Liam,4,Navy,deploying,4B
+1003,Sophia Nguyen,Sophie,5,Air Force,stable,5C
+1004,Ethan Smith,Ethan,2,Marine Corps,deployed,2A
+1005,Mia Davis,Mia,3,Coast Guard,recently_returned,3B
+1006,Jacob Brown,Jake,6,Army,deployed,6A
+1007,Olivia Wilson,Liv,4,Navy,stable,4A
+1008,Noah Anderson,Noah,5,Air Force,deploying,5A
+1009,Isabella Thomas,Bella,1,Army,stable,1C
+1010,William Lee,Will,3,Marine Corps,recently_returned,3C
+1011,Emily Harris,Em,4,Coast Guard,deploying,4C
+1012,Michael Clark,Mike,5,Army,deployed,5B

@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "code": "0000",
+  "message": "OK",
+  "data": {
+    "list": [
+      {
+        "tokenId": "1169841",
+        "chainId": 2003,
+        "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        "symbol": "USDC",
+        "name": "USD Coin",
+        "tokenDecimal": 6,
+        "isDeposit": 1,
+        "isWithdraw": 1
+      }
+    ]
+  }
+}

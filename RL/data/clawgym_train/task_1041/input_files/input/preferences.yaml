@@ -1,0 +1,91 @@
+# Accessibility-first preferences tailored for Alex (C6-C7 quadriplegic)
+human_name: "Alex"
+voice_first: true
+
+# Schedules
+wake_time: "07:30"                 # Local time HH:MM
+morning_brief_offset_minutes: 10   # Send briefing this many minutes before wake_time
+
+medication_times:
+  morning: "08:00"
+  evening: "20:00"
+
+quiet_hours:
+  start: "22:00"
+  end: "07:00"
+
+# Environmental comfort
+temperature_prefs:
+  day: 72
+  night: 68
+
+# Arrival behavior
+arrival:
+  scene_name: "Good Morning"        # Scene to turn on when arriving home
+  unlock_front_door: true
+  notify_on_arrival: true
+  notify_target: notify.accessibility_agent
+  caregiver_notify: notify.caregiver_phone
+
+# Safety & wellbeing
+inactivity_check:
+  enabled: true
+  no_motion_duration: "02:00:00"    # Safe window with no motion before alerting
+  sensors:
+    - binary_sensor.motion_living_room
+    - binary_sensor.motion_bedroom
+  only_when_home: true
+
+# Notifications style
+notifications:
+  primary: notify.accessibility_agent
+  caregiver: notify.caregiver_phone
+  include_emoji: true
+  minimal_confirmations: true       # Only confirm irreversible actions
+
+# Media defaults
+media_defaults:
+  morning_source: "Morning News"
+  movie_source: "Apple TV"
+  preferred_subtitles: true
+
+# Lighting defaults (use brightness_pct)
+light_defaults:
+  morning_brightness_pct: 35        # Gentle ramp ≤ 40%
+  focus_brightness_pct: 70
+  movie_brightness_pct: 15
+  bedtime_brightness_pct: 0
+
+# Audio defaults
+audio_defaults:
+  white_noise_at_bedtime: true
+  speaker_volume_morning: 0.25
+  speaker_volume_movie: 0.20
+
+# Fallbacks and manual backups
+fallbacks:
+  manual_front_door_code: "4821"
+  if_voice_fails: "Use text input in the companion app chat"
+  if_internet_down: "Use local scenes via wall switch and RF remote; critical automations run locally"
+
+# Explicit entity references for convenience
+entities:
+  person: person.alex
+  zone_home: zone.home
+  notify_primary: notify.accessibility_agent
+  notify_caregiver: notify.caregiver_phone
+  lock_front_door: lock.front_door
+  thermostat: climate.main
+  lights:
+    - light.bedroom_main
+    - light.bedside_lamp
+    - light.living_room_main
+    - light.desk_lamp
+    - light.tv_backlight
+  media_players:
+    - media_player.bedroom_speaker
+    - media_player.living_room_tv
+  motion_sensors:
+    - binary_sensor.motion_living_room
+    - binary_sensor.motion_bedroom
+  white_noise: switch.white_noise_machine

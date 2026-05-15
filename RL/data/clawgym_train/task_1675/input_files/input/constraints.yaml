@@ -1,0 +1,11 @@
+budget_usd: 500
+thresholds:
+  water_minutes_high: 60
+  respiratory_pct_high: 0.4
+  distance_to_clinic_high_km: 5
+allocation:
+  chlorine_kits_target_fraction: 0.5
+  cookstove_training_target_fraction: 0.3
+  mobile_clinic_visits_per_month: 2
+rounding:
+  unit_counts: ceil

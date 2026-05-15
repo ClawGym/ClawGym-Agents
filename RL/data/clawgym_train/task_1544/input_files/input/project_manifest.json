@@ -1,0 +1,57 @@
+{
+  "projectName": "NimbusAI Workspace",
+  "repository": {
+    "layout": "monorepo",
+    "packages": [
+      "apps/web",
+      "services/api",
+      "packages/shared",
+      "infra"
+    ]
+  },
+  "languages": [
+    {
+      "name": "typescript",
+      "version": "5.6",
+      "frameworks": [
+        "Next.js",
+        "Node.js"
+      ],
+      "rules_preferences": {
+        "strict_mode": true,
+        "no_any": true,
+        "prefer_zod": true,
+        "security_baseline": true
+      }
+    },
+    {
+      "name": "python",
+      "version": "3.11",
+      "frameworks": [
+        "FastAPI",
+        "scripts"
+      ],
+      "rules_preferences": {
+        "type_hints": "strict",
+        "pydantic_validation": true,
+        "security_scanning": "bandit",
+        "formatting": "black"
+      }
+    }
+  ],
+  "packageManagers": {
+    "node": [
+      "pnpm",
+      "yarn"
+    ],
+    "python": [
+      "pip"
+    ]
+  },
+  "engine": {
+    "node": ">=18.18.0",
+    "python": ">=3.10"
+  },
+  "rules_install_location": ".claude/rules",
+  "notes": "Prioritize research-first workflows and security scanning gates in CI for both TypeScript and Python."
+}

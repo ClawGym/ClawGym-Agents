@@ -1,0 +1,5 @@
+output_dir: "output"
+per_query_limit: 5
+template: "src/prototype/template.html"
+# Add at least two queries below, e.g., "William Elwood Murray general semantics"
+queries: []

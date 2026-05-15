@@ -1,0 +1,54 @@
+persona:
+  role: "ML platform engineers and DevOps maintaining production LLM applications"
+  seniority: "Senior ICs and team leads"
+  industries:
+    - "SaaS"
+    - "Financial services"
+    - "E-commerce"
+    - "Developer tools"
+  pain_points:
+    - "Intermittent LLM failures and non-determinism"
+    - "Latency and cost spikes under load"
+    - "Hallucination and drift detection in RAG"
+    - "Cross-service tracing for AI microservices"
+    - "Evaluating and comparing observability tools"
+goal: "Find practical, vendor-agnostic guidance on LLM observability with frameworks, metrics, and implementation steps."
+
+cta_text: "Book a demo"
+
+title_guidance:
+  include_year: 2026
+  must_include_primary_keyword: true
+  placement: "Primary keyword near the start of H1"
+  style: "Clear and non-clickbait; numeric promise when natural"
+
+competition_level: "competitive"
+word_count_target_range: "1800-2200"
+
+structure_requirements:
+  include_sections:
+    - "Definitions and scope of LLM observability"
+    - "Framework and metrics (latency, cost, quality, reliability)"
+    - "Tooling comparison matrix (pros/cons, 2026 updates)"
+    - "Implementation steps with code/config examples"
+    - "Runbooks and triage playbooks (FAQ)"
+  faq_required: true
+
+internal_link_policy:
+  use_only_from_internal_pages_csv: true
+  minimum_links: 2
+
+keyword_hints:
+  primary_keyword: "LLM observability"
+  secondary_patterns:
+    - "best [topic] tools 2026"
+    - "[topic] for RAG"
+    - "[topic] vs [alternative]"
+    - "how to [topic] in production"
+
+constraints:
+  avoid_phrases:
+    - "game-changing"
+    - "revolutionize"
+    - "unparalleled"
+  tone: "pragmatic, data-backed, solution-oriented"

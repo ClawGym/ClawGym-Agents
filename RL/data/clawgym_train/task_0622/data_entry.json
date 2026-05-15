@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0622",
+  "user_query": "I need compliant detached signatures for a small internal release.\n\nPlease do the following using only the files under input/ and write all results under output/:\n1) Sign both artifacts at:\n   - input/artifacts/app_config.json\n   - input/artifacts/CHANGELOG.md\n   using the PEM-encoded RSA private key at input/keys/test_private_key.txt. Use RSA PKCS#1 v1.5 with SHA-256 and produce raw binary (not base64) detached signatures.\n2) Save the signatures exactly at:\n   - output/signatures/app_config.json.sig.txt\n   - output/signatures/CHANGELOG.md.sig.txt\n3) Create output/manifest.json as a JSON object with an \"artifacts\" array of two objects. Each object must have exactly these keys: \"artifact\", \"signature\", and \"sha256\". Populate them with:\n   - artifact: the exact input path (e.g., \"input/artifacts/app_config.json\")\n   - signature: the exact output signature path (e.g., \"output/signatures/app_config.json.sig.txt\")\n   - sha256: the lowercase hex SHA-256 digest of the artifact bytes\n4) Write output/README.md that:\n   - Briefly describes what was signed and the algorithm (RSA PKCS#1 v1.5 + SHA-256)\n   - Provides clear verification steps for both signatures using the public key at input/keys/test_public_key.txt (include a short code snippet or step-by-step instructions referencing that exact path)\n   - Includes 2–3 concrete security notes about private key handling (e.g., never share the private key, restrict permissions)\n\nDo not modify or move anything under input/. Use exactly the paths above in the manifest fields.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,19 @@
+track_id,title,artist,year,genre,bpm,duration_sec,energy
+T001,Midnight Circuit,DJ Lumen,2012,house,122,360,6
+T002,Basement Groove,DJ Marlowe,2009,house,124,330,7
+T003,Sunrise Loop,Cassette Reef,2016,house,126,300,7
+T004,Loft Reverie,Panorama Kid,2011,house,120,290,5
+T005,Analog Heart,Terrace Lines,2014,house,125,270,6
+T006,Afterglow,Pixel Terrace,2007,house,121,260,5
+T007,Skyline (2003 Mix),Aurora Lane,2003,pop,118,240,5
+T008,Ringtone Love,Nova K,2004,pop,112,210,4
+T009,Flip Phone,Metro Star,2002,pop,114,230,5
+T010,Neon Skies,The Dial Tones,2005,pop,116,250,6
+T011,Mall Lights,Candy Program,2001,pop,120,240,6
+T012,Status Update,Nova K,2008,pop,122,220,5
+T013,Chrome Reflection,Silver Phase,2019,nu-disco,118,260,6
+T014,Strobe Runner,Modem 88,2013,synthwave,115,280,6
+T015,Cedar City Nights,FM North,2010,house,123,300,6
+T016,Pager Vibe,City Signal,2000,pop,110,225,4
+T017,Backroom Beat,Lo-Fi Club,2017,house,127,240,7
+T018,Analog Sunrise,Drive Tape,2015,nu-disco,121,255,6

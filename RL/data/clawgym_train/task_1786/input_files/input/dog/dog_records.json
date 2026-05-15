@@ -1,0 +1,19 @@
+{
+  "dog_name": "Buddy",
+  "owner": "Sam Carter",
+  "breed": "Mixed",
+  "age_years": 4,
+  "vaccinations": {
+    "rabies": {
+      "status": "up_to_date",
+      "last_administered": "2022-11-01",
+      "valid_until": "2025-11-01"
+    },
+    "distemper": {
+      "status": "up_to_date",
+      "last_administered": "2022-11-01"
+    }
+  },
+  "training": ["basic obedience", "leash manners"],
+  "notes": "Uses a 6-ft nylon leash with front-clip harness."
+}

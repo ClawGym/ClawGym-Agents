@@ -1,0 +1,13 @@
+products:
+  - name: "Power Drive Clinic"
+    category: "Power"
+  - name: "Driver Distance Tune-up"
+    category: "Power"
+  - name: "Aggressive Lines Seminar"
+    category: "Power"
+  - name: "Course Strategy Session"
+    category: "Control"
+  - name: "Wedge Control Workshop"
+    category: "Control"
+  - name: "On-Course Management Walkthrough"
+    category: "Control"

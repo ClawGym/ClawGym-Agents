@@ -1,0 +1,216 @@
+[
+  {
+    "customer_id": "CUST-001",
+    "state": "CA",
+    "financial": {
+      "net_worth": 450000,
+      "employment_status": "salaried"
+    },
+    "drivers": [
+      {
+        "name": "Alex Chen",
+        "age": 35,
+        "student": false,
+        "driving_record_clean": true
+      },
+      {
+        "name": "Morgan Chen",
+        "age": 34,
+        "student": false,
+        "driving_record_clean": true
+      }
+    ],
+    "vehicles": [
+      {
+        "year": 2021,
+        "make": "Toyota",
+        "model": "Camry",
+        "safety_features": [
+          "automatic emergency braking",
+          "lane departure warning"
+        ]
+      },
+      {
+        "year": 2019,
+        "make": "Honda",
+        "model": "CR-V",
+        "safety_features": [
+          "blind spot monitor",
+          "adaptive cruise control"
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "type": "homeowners",
+        "primary_residence": true,
+        "address_state": "CA",
+        "new_purchase": true,
+        "year_built": 1998,
+        "roof": "asphalt",
+        "impact_resistant_roof": false,
+        "security_system_monitored": true
+      }
+    ],
+    "notes": "Recently purchased a single-family home in California; needs new homeowners policy and wants to bundle with auto."
+  },
+  {
+    "customer_id": "CUST-002",
+    "state": "NY",
+    "financial": {
+      "net_worth": 300000,
+      "employment_status": "self-employed"
+    },
+    "drivers": [
+      {
+        "name": "Jordan Rivera",
+        "age": 45,
+        "student": false,
+        "driving_record_clean": true
+      },
+      {
+        "name": "Taylor Rivera",
+        "age": 20,
+        "student": true,
+        "driving_record_clean": true
+      }
+    ],
+    "vehicles": [
+      {
+        "year": 2018,
+        "make": "Subaru",
+        "model": "Impreza",
+        "safety_features": [
+          "automatic emergency braking",
+          "rearview camera"
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "type": "renters",
+        "primary_residence": true,
+        "address_state": "NY",
+        "new_purchase": false,
+        "building_type": "apartment",
+        "smoke_alarms": true
+      }
+    ],
+    "life_context": {
+      "dependents": 1,
+      "income_protection_interest": true
+    },
+    "notes": "Young driver in household (age 20) who is a full-time student with a clean record; interested in life insurance to protect dependent."
+  },
+  {
+    "customer_id": "CUST-003",
+    "state": "TX",
+    "financial": {
+      "net_worth": 2500000,
+      "employment_status": "business owner"
+    },
+    "drivers": [
+      {
+        "name": "Priya Desai",
+        "age": 48,
+        "student": false,
+        "driving_record_clean": true
+      },
+      {
+        "name": "Rohan Desai",
+        "age": 17,
+        "student": true,
+        "driving_record_clean": true
+      }
+    ],
+    "vehicles": [
+      {
+        "year": 2022,
+        "make": "BMW",
+        "model": "X5",
+        "safety_features": [
+          "automatic emergency braking",
+          "lane keep assist",
+          "adaptive headlights"
+        ]
+      },
+      {
+        "year": 2016,
+        "make": "Toyota",
+        "model": "Highlander",
+        "safety_features": [
+          "rearview camera",
+          "stability control"
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "type": "homeowners",
+        "primary_residence": true,
+        "address_state": "TX",
+        "new_purchase": false,
+        "year_built": 2012,
+        "roof": "impact-resistant class 4",
+        "impact_resistant_roof": true,
+        "security_system_monitored": true,
+        "wind_mitigation_features": true
+      },
+      {
+        "type": "rental_property",
+        "primary_residence": false,
+        "address_state": "TX",
+        "new_purchase": false,
+        "year_built": 2005,
+        "roof": "composition shingle",
+        "impact_resistant_roof": false,
+        "security_system_monitored": false
+      }
+    ],
+    "notes": "High net worth household with teen driver; open to comprehensive risk management and bundling. Interested in liability protection."
+  },
+  {
+    "customer_id": "CUST-004",
+    "state": "MA",
+    "financial": {
+      "net_worth": 800000,
+      "employment_status": "salaried"
+    },
+    "drivers": [
+      {
+        "name": "Samantha Lee",
+        "age": 39,
+        "student": false,
+        "driving_record_clean": true
+      }
+    ],
+    "vehicles": [
+      {
+        "year": 2020,
+        "make": "Hyundai",
+        "model": "Tucson",
+        "safety_features": [
+          "automatic emergency braking",
+          "lane departure warning"
+        ]
+      }
+    ],
+    "properties": [
+      {
+        "type": "homeowners",
+        "primary_residence": true,
+        "address_state": "MA",
+        "new_purchase": true,
+        "year_built": 1975,
+        "roof": "asphalt",
+        "impact_resistant_roof": false,
+        "security_system_monitored": false
+      }
+    ],
+    "life_context": {
+      "dependents": 0,
+      "income_protection_interest": true
+    },
+    "notes": "Relocating and seeking a new homeowners policy in Massachusetts; also evaluating life insurance options."
+  }
+]

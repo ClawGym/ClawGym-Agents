@@ -1,0 +1,32 @@
+brand_name: Sunset Ridge Apiary
+start_date: 2026-05-04
+weeks: 4
+channels:
+  - blog
+  - instagram
+  - facebook
+  - newsletter
+cadence_per_week:
+  blog: 1
+  instagram: 3
+  facebook: 2
+  newsletter: 1
+prioritized_themes:
+  - pollinator health
+  - organic practices
+  - native wildflowers
+  - zero-waste packaging
+  - seasonal honey varietals
+tone:
+  - friendly
+  - educational
+  - eco-conscious
+eco_initiatives:
+  - organic management
+  - pollinator habitat
+  - plastic-free packaging
+  - local native plantings
+guidelines:
+  - Avoid duplicate themes on the same day.
+  - Prefer assets with status "ready" over "draft".
+newsletter_depends_on_blog: true

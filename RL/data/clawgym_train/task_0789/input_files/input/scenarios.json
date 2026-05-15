@@ -1,0 +1,16 @@
+{
+  "bundle_offer": {
+    "bundled_items": ["main", "case"],
+    "bundle_price": 129.0,
+    "bundle_take_rate": 0.4
+  },
+  "upsell_offer": {
+    "item": "case",
+    "new_attach_rate": 0.35
+  },
+  "price_increase_5": {
+    "item": "main",
+    "price_change_pct": 0.05,
+    "conversion_multiplier": 0.98
+  }
+}

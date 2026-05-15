@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0700",
+  "user_query": "Set up my Q2 home maintenance plan using the local maintenance tool. Read everything under input/ and then:\n\n1) Add inventory entries for every row in input/inventory.csv (include name, location, model, serial, purchase_date in the entry text).\n2) Add checklist entries from input/checklist.md.\n3) For each task in input/plan.yaml, create schedule entries with the exact date(s) and details (\"<date> — <item>: <task>\") and also create matching remind entries (use the reminder instructions in the YAML, e.g., \"<reminder rule> for <date>\").\n4) Add cost entries for each line in input/costs.csv (\"<date> — <item> (<category>): $<cost>\").\n5) Save the output of \"maintenance status\" to output/status.txt and \"maintenance stats\" to output/stats.txt.\n6) Run \"maintenance export json\" and \"maintenance export csv\" and copy the resulting files to output/export.json and output/export.csv.\n7) Run \"maintenance search HVAC\" and \"maintenance search water\" and save their outputs to output/search_hvac.txt and output/search_water.txt.\n8) Create output/plan_summary.md that summarizes: Inventory, Schedule, Reminders, Checklist, and Costs. Include the quarter string from input/plan.yaml and a single line \"Total Quarterly Cost: $391.50\" computed from input/costs.csv. Make it human-readable with those exact section headings.\n9) Create output/notifications.yaml listing each reminder with its date(s) in a simple YAML structure (top-level key: reminders).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

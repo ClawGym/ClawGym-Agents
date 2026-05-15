@@ -1,0 +1,21 @@
+metrics:
+  loss_rate:
+    weight: 0.25
+    direction: higher_is_risk
+  fire_density:
+    weight: 0.25
+    direction: higher_is_risk
+  road_density:
+    weight: 0.25
+    direction: higher_is_risk
+  forest_cover_ratio:
+    weight: 0.25
+    direction: lower_is_risk
+# Defaults to be adjusted per the task instructions
+top_k: 2
+high_risk_threshold: 0.5
+round_decimals: 4
+output:
+  risk_scores_csv: output/risk_scores.csv
+  flags_json: output/flags.json
+  email_path: output/email_draft.txt

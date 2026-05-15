@@ -1,0 +1,139 @@
+Decision context: $4.2M acquisition offer vs. raising a seed and continuing independently
+
+Company overview
+- Name: ScoutVista, Inc. (C-corp, Delaware)
+- Product: Analytics + post-purchase CX automation for Shopify and WooCommerce brands (mid-market DTC focus)
+- Value prop: Cohort retention, LTV and payback insights, automated survey and win-back workflows tied to actual purchase behavior
+- Customers: 418 paying accounts; top 20 accounts contribute 39% of MRR; primarily North America + UK
+- Pricing: Tiered SaaS (Starter $199, Growth $399, Pro $799, Enterprise custom), ARPA ~$420/month
+- Metrics (trailing 3 months averages):
+  - MRR: $208,400 (ARR ~$2.5M)
+  - MoM net growth: ~3.1% (slowed from ~5% earlier in year)
+  - Gross logo churn: 1.7%/month; Net revenue retention: 112%
+  - Activation rate: 61% within first 30 days (from trial → setup complete)
+  - CAC payback: ~4.2 months on paid channels; blended CAC ~$1,450
+  - Gross margin: 84%
+  - NPS: 36 (Enterprise cohort: 48)
+- Cash: $740k in bank
+- Burn: ~$40k/month (intentional after recent hires)
+- Runway: ~18 months at current spend
+- Debt: $120k outstanding on a revenue-based financing (RBF) facility (8% of monthly revenues until repaid; covenant: keep gross margin >75%)
+- Equity: Fully bootstrapped (no priced rounds, no SAFEs); cap table — CEO/founder 58%, CTO/co-founder 26%, employee option pool 16%
+
+Team, org, and operations
+- Team size: 10 (2 founders, 5 engineers, 1 product/design, 1 marketing, 1 customer success)
+- Hiring plans (if raising): +3 engineers, +1 data analyst, +1 lifecycle marketer in 6 months
+- Key people:
+  - CTO strongly prefers continuing independently; motivated by roadmap ambitions
+  - Staff engineer on H-1B visa (transfer considerations in acquisition)
+- Tech: Monolithic Node.js + Postgres; event pipeline via Segment; Snowflake data warehouse beta for top 10 customers
+- Reliability: 99.8% past quarter; notable incident: webhook backlog caused delayed automations (SEV2, 45 min)
+- Security/compliance: SOC 2 Type 1 completed; Type 2 in progress (budgeted $120k over 12 months); pending enterprise security audit for a $22k MRR prospect in 3 months
+
+Market and competition
+- TAM: ~12–15k mid-market DTC brands on Shopify/WooCommerce targetable with current value prop
+- Trends: Paid social volatility; increasing value placed on first-party data and retention analytics
+- Competitors:
+  - Lumen Analytics (raised Series A this quarter; aggressive pricing and content engine)
+  - A few Shopify app bundlers offering “suite” discounts
+- Risk: Potential Shopify policy changes around data access; aggregators bundling features into one subscription
+
+Acquisition offer (KartWorks, Inc. — PE-backed Shopify app aggregator)
+- Total consideration: $4.2M
+  - 90% cash at close: $3.78M
+  - 10% earn-out: up to $420k over 12 months, tied to hitting MRR ≥ $250k and maintaining monthly logo churn ≤ 1.5%
+- Escrow: 10% of purchase price held for 15 months; indemnity cap 20%
+- Debt: RBF to be assumed by acquirer
+- Founder retention: CEO to remain for 12 months; retention bonus $120k; CTO role negotiable (acquirer prefers at least 6 months)
+- Team: Offers to current employees with 90-day probation; benefits roughly equivalent; unknown impact on remote flexibility
+- IP & integration: Migrate infra to KartWorks shared platform within 9 months; likely deprecate Snowflake beta unless approved by platform team
+- Non-compete: 24 months in ecommerce analytics/CX apps space (North America + EU)
+- Brand: ScoutVista to remain as sub-brand for 6–12 months before full consolidation
+- Cultural risk: Aggregator prioritizes cross-selling and pricing harmonization; product roadmap may shift
+
+Seed path (raise and continue independently)
+- Target raise: $2.0M on SAFE (cap $12M, 20% discount); option pool refresh to 10–12%
+- Interest: ~3 angels soft-circled ($300k), 2 seed funds engaged; no term sheets yet
+- Use of funds:
+  - Hiring: +3 engineers (data platform, reliability, integrations), +1 data analyst, +1 lifecycle marketer
+  - Product: Deeper data warehouse integrations, richer segmentation, survey automation templates library
+  - GTM: $50k/month for paid acquisition and content; build partner integrations (Klaviyo, Postscript, Recharge)
+- Forecast (conservative case): Reach $320–350k MRR in 18 months; maintain net revenue retention >110%; CAC payback ≤ 6 months with improved targeting
+- Risks:
+  - Valuation compression if the market turns; potential cap increase pushback
+  - Talent market tight for senior data engineers
+  - Execution risk on Snowflake-based analytics: infra complexity and cost creep
+  - Competitive content and pricing pressure from Lumen Analytics
+
+Personal considerations
+- Founder (CEO), age 34; spouse expecting in 5 months; mortgage ~$3.2k/month; personal savings ~$160k
+- Workload: ~60-hour weeks; burnout creeping in; sleep disrupted
+- Values: Autonomy, option value, craft quality; fears becoming “feature factory” in an aggregator
+- Financial: Sale would be meaningful but not “never work again” money; QSBS eligibility likely (formed >4 years ago, C-corp, in qualified industry), but needs tax counsel
+- CTO/co-founder: Prefers independence; not burned out; sees big upside in continuing
+- Team morale: Good but cautious; 2 engineers nervous about aggregator culture and roadmap shifts
+
+Key contracts and pipeline
+- Enterprise renewal in 3 months: $22k MRR client; requires passing security audit and uptime targets; at risk if product roadmap changes unfavorably
+- Pipeline: 2 enterprise prospects (each ~$15–20k MRR potential); expect decisions in next 60–90 days
+- Partnerships: Early-stage conversations with Klaviyo integration team (co-marketing potential next quarter)
+
+Assumptions I'm making (explicitly)
+- Earn-out targets are achievable without drastic price changes or forced bundling
+- KartWorks will not gut the product team or deprioritize core analytics for cross-sell
+- Seed investors will close within 6–8 weeks at ~$12M cap; market won’t materially worsen
+- We can recruit senior data engineering talent within 3 months at market rates
+- Net revenue retention will stay >110% with Snowflake integrations and templates
+- Shopify will not materially restrict data access needed for our analytics within 12 months
+- Personal capacity: I can sustainably lead with a newborn and maintain performance
+
+Major risks
+- Platform risk: Shopify policy changes could impact data pipelines
+- Competitive bundling: Aggregators offering suites at discount may pressure ARPA
+- Execution: Data warehouse features add infra cost and complexity; delayed impact if mis-scoped
+- Culture misalignment: Aggregator may prioritize short-term cross-sell over product vision
+- Financing risk: Seed terms could slip; closing could take longer than expected; distraction to execution
+- Non-compete: If acquired, 24-month restriction in the space reduces future optionality
+- Visa risk: H-1B transfer for staff engineer requires careful coordination under acquisition
+
+Constraints and non-negotiables (current thinking)
+- Do not want to sacrifice customer trust for short-term revenue tactics
+- Will not accept team layoffs tied to integration “synergies”
+- Need predictable work cadence during newborn period; extreme stress is a red flag
+- Maintain product quality bar; resist shipping features that degrade analytics integrity
+
+Why this feels hard (self-diagnosed)
+- Analysis paralysis between values (autonomy/craft) and security (cash-out + reduced stress)
+- Unclear if the “real upside” requires investors, or if compounding bootstrapped growth is enough
+- Fear of regret: Selling before realizing potential vs. passing on a fair offer and facing a tougher market
+- Conflicting co-founder preferences (CEO more open to sell for life balance; CTO wants to build)
+
+Known unknowns to resolve
+- Detailed earn-out mechanics and whether pricing changes are mandated post-close
+- Post-acquisition roadmap control and autonomy for at least 12 months
+- Seed investor timelines, likelihood of closing, and cap sensitivity in current market
+- Realistic hiring timelines/costs for senior data engineers
+- Tax treatment (QSBS eligibility confirmation, potential state-level differences)
+- Visa transfer assurance for H-1B engineer under KartWorks policies
+
+What “success” looks like (two paths)
+- Acquisition path: Clean exit, minimal escrow issues, earn-out achievable without harming customers or team, smooth integration, work hours drop materially, personal life stability during newborn period
+- Independent path: Seed closed on acceptable terms, product roadmap delivered (warehouse + templates), MRR ≥ $350k in ~18 months, maintain culture and customer trust, founder workload becomes sustainable within 6 months
+
+Current biases and worries (self-awareness)
+- Anchoring on $4.2M sticker price vs. after-tax and escrow realities
+- Overestimating ease of hiring (recently struggled with one senior backend role)
+- Underestimating aggregator’s pricing harmonization and cross-sell pressure
+- Overconfidence in net revenue retention persisting despite market changes
+- Fear of disappointing CTO and team if choosing acquisition; fear of personal burnout if choosing independence
+
+Timeline
+- KartWorks wants to sign LOI within 3 weeks; close in ~60–75 days
+- Seed conversations ongoing; likely term sheet (if any) within 4–6 weeks
+- Security audit deadline in ~90 days (high-stakes for $22k MRR enterprise renewal)
+
+What I want from the “Ask” skill
+- The right questions that get beyond surface-level (money vs. growth) to underlying values, risk thresholds, and constraints
+- A structured decision framework I can share with my co-founder and spouse
+- Help distinguishing what can be answered now vs. only through action vs. fundamentally unanswerable (values-based)
+- No direct advice — I need clarity, not a decision made for me

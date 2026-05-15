@@ -1,0 +1,278 @@
+name: luban-cli
+version: 1.0.0
+description: Standardized CLI specification for Luban MLOps entities and actions
+entities:
+  env:
+    description: Manage experiment environments
+    actions:
+      list:
+        description: List environments
+        required: []
+        optional:
+          - name: label
+            type: str
+            help: Filter by label selector (key=value)
+          - name: output
+            type: str
+            choices: [table, json, yaml]
+            help: Output format for the listing
+      create:
+        description: Create a new environment
+        required:
+          - name: name
+            type: str
+            help: Environment name
+        optional:
+          - name: image
+            type: str
+            help: Container image (e.g., pytorch/pytorch:2.2.0-cuda12.1-cudnn8-runtime)
+          - name: cpu
+            type: int
+            help: Requested CPU cores
+          - name: memory
+            type: str
+            help: Requested memory (e.g., 16Gi)
+          - name: gpu
+            type: int
+            help: Requested GPU count
+      get:
+        description: Get environment details
+        required:
+          - name: name
+            type: str
+            help: Environment name
+        optional: []
+      update:
+        description: Update an existing environment
+        required:
+          - name: name
+            type: str
+            help: Environment name
+        optional:
+          - name: image
+            type: str
+            help: Container image
+          - name: cpu
+            type: int
+            help: Requested CPU cores
+          - name: memory
+            type: str
+            help: Requested memory (e.g., 16Gi)
+          - name: gpu
+            type: int
+            help: Requested GPU count
+      delete:
+        description: Delete an environment
+        required:
+          - name: name
+            type: str
+            help: Environment name
+        optional:
+          - name: force
+            type: bool
+            default: false
+            help: Force deletion without prompt
+  job:
+    description: Manage training jobs
+    actions:
+      list:
+        description: List jobs
+        required: []
+        optional:
+          - name: status
+            type: str
+            choices: [queued, running, failed, completed]
+            help: Filter by job status
+          - name: output
+            type: str
+            choices: [table, json, yaml]
+            help: Output format for the listing
+      create:
+        description: Create (submit) a new training job
+        required:
+          - name: script
+            type: str
+            help: Entry script path (e.g., train.py)
+        optional:
+          - name: name
+            type: str
+            help: Optional job display name
+          - name: gpu
+            type: int
+            help: Requested GPU count
+          - name: cpu
+            type: int
+            help: Requested CPU cores
+          - name: memory
+            type: str
+            help: Requested memory (e.g., 32Gi)
+          - name: env
+            type: kv
+            multiple: true
+            help: Environment variables as KEY=VAL (repeatable)
+          - name: params
+            type: kv
+            multiple: true
+            help: Hyperparameters as KEY=VAL (repeatable)
+          - name: output-path
+            type: str
+            help: Output directory for artifacts
+      update:
+        description: Update a training job
+        required:
+          - name: id
+            type: str
+            help: Job identifier
+        optional:
+          - name: priority
+            type: str
+            choices: [low, normal, high]
+            help: Job scheduling priority
+          - name: env
+            type: kv
+            multiple: true
+            help: Environment variables as KEY=VAL (repeatable)
+          - name: params
+            type: kv
+            multiple: true
+            help: Hyperparameters as KEY=VAL (repeatable)
+      delete:
+        description: Delete a training job
+        required:
+          - name: id
+            type: str
+            help: Job identifier
+        optional:
+          - name: force
+            type: bool
+            default: false
+            help: Force deletion without prompt
+      stop:
+        description: Stop a running job
+        required:
+          - name: id
+            type: str
+            help: Job identifier
+        optional:
+          - name: reason
+            type: str
+            help: Optional reason for stopping the job
+      logs:
+        description: Fetch or stream job logs
+        required:
+          - name: id
+            type: str
+            help: Job identifier
+        optional:
+          - name: follow
+            type: bool
+            default: false
+            help: Follow logs (stream)
+          - name: tail
+            type: int
+            help: Number of lines from the end of the logs
+          - name: since
+            type: str
+            help: Only return logs newer than a relative duration (e.g., 1h, 15m)
+          - name: timestamps
+            type: bool
+            default: false
+            help: Include timestamps in log output
+  svc:
+    description: Manage online inference services
+    actions:
+      list:
+        description: List services
+        required: []
+        optional:
+          - name: label
+            type: str
+            help: Filter by label selector (key=value)
+          - name: output
+            type: str
+            choices: [table, json, yaml]
+            help: Output format for the listing
+      create:
+        description: Create (deploy) a new service
+        required:
+          - name: name
+            type: str
+            help: Service name
+          - name: model-path
+            type: str
+            help: Path to model artifacts (local or remote)
+        optional:
+          - name: image
+            type: str
+            help: Serving image (e.g., registry.example.com/serving:1.2.0)
+          - name: replicas
+            type: int
+            default: 1
+            help: Desired replica count
+          - name: port
+            type: int
+            default: 8080
+            help: Service port
+          - name: autoscale-min
+            type: int
+            help: Minimum replicas for autoscaling
+          - name: autoscale-max
+            type: int
+            help: Maximum replicas for autoscaling
+      update:
+        description: Update service configuration
+        required:
+          - name: id
+            type: str
+            help: Service identifier
+        optional:
+          - name: replicas
+            type: int
+            help: Desired replica count
+          - name: image
+            type: str
+            help: Serving image
+          - name: model-path
+            type: str
+            help: Path to model artifacts
+          - name: port
+            type: int
+            help: Service port
+      delete:
+        description: Delete a service
+        required:
+          - name: id
+            type: str
+            help: Service identifier
+        optional:
+          - name: force
+            type: bool
+            default: false
+            help: Force deletion without prompt
+      scale:
+        description: Scale a service to the desired number of replicas
+        required:
+          - name: id
+            type: str
+            help: Service identifier
+          - name: replicas
+            type: int
+            help: Desired replica count
+        optional: []
+      status:
+        description: Show service status/health
+        required:
+          - name: id
+            type: str
+            help: Service identifier
+        optional:
+          - name: verbose
+            type: bool
+            default: false
+            help: Show detailed status information
+
+notes:
+  - Env operations identify resources by --name; job and svc operations use --id except svc create which uses --name and --model-path.
+  - list actions should support --output (table|json|yaml) and optional filters like --label or --status where applicable.
+  - Boolean flags are store-true toggles (present = true).
+  - Key-value flags (--params, --env) accept repeatable KEY=VAL pairs.

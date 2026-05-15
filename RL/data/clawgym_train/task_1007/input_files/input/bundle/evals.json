@@ -1,0 +1,38 @@
+[
+  {
+    "id": "eval-001",
+    "name": "Executive Brief Synthesis",
+    "prompt": "Given 3 research snippets, produce a one-page executive brief with an executive summary, 3-5 key findings, and inline source attributions.",
+    "criteria": [
+      "Clarity",
+      "Accuracy",
+      "Citations present",
+      "Actionable recommendations"
+    ],
+    "max_length": 500
+  },
+  {
+    "id": "eval-002",
+    "name": "Outline Generation from Notes",
+    "prompt": "Transform raw notes into a structured outline with H2/H3 sections, bullet points, and a short rationale for each major section.",
+    "criteria": [
+      "Logical hierarchy",
+      "Coverage of notes",
+      "Conciseness",
+      "Rationale clarity"
+    ],
+    "max_length": 400
+  },
+  {
+    "id": "eval-003",
+    "name": "Evidence Gap Identification",
+    "prompt": "Review a short draft and list evidence gaps or weakly supported claims, suggesting specific data or sources to strengthen each.",
+    "criteria": [
+      "Gap detection",
+      "Specific source suggestions",
+      "Relevance",
+      "No hallucinated facts"
+    ],
+    "max_length": 300
+  }
+]

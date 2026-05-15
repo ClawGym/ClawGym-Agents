@@ -1,0 +1,7 @@
+contact_id,name,email,county,language_preference,availability_date,urgency_score,voters_impacted
+c001,Maria Lopez,maria@example.org,Lowndes County,Spanish,1965-08-15,9,120
+c002,Jean-Pierre Dubois,jeanp@example.org,Orleans Parish,French,1965-08-12,8,100
+c003,Ruth Johnson,ruth@example.org,Dallas County,English,1965-08-10,10,200
+c004,Ana Rivera,ana@example.org,Leflore County,Spanish,1965-08-14,7,150
+c005,Claire Martin,claire@example.org,Pointe Coupee Parish,French,1965-08-16,6,80
+c006,Luis Alvarez,luis@example.org,Wilcox County,Spanish,1965-08-13,8,90

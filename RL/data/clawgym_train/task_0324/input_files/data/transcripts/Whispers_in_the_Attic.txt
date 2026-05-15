@@ -1,0 +1,6 @@
+[SCENE:S1]
+Touring an empty house. Silence weighs heavy. [TRIGGER:isolation]
+[SCENE:S2]
+Every step upstairs is met by another behind. [TRIGGER:stalking]
+[SCENE:S3]
+Crawling through a narrow shaft. [TRIGGER:claustrophobia]

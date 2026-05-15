@@ -1,0 +1,4 @@
+gym,days_available,start,end,commute_minutes_each_way,cost_per_month
+MorningFit,"Mon|Wed|Fri",06:30,08:00,10,35
+NoonFlex,"Mon|Tue|Thu",12:00,13:30,15,30
+EveningGym,"Mon|Tue|Thu",18:00,21:00,5,25

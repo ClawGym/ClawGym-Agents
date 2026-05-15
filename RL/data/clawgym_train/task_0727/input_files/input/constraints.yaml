@@ -1,0 +1,22 @@
+max_keywords_per_alert: 5
+
+naming:
+  alert_suffix: "_news_alert"
+  transform_department_id: "lowercase_snake_case"
+  allowed_alert_name_pattern: "^[a-z0-9_]+_news_alert$"
+
+keyword_rules:
+  normalize:
+    lowercase: true
+    trim_whitespace: true
+    replace_ampersand_with: "and"
+    collapse_spaces: true
+    strip_surrounding_punctuation: true
+    allowed_pattern: "^[a-z0-9\\- ]+$"
+  remove_stopwords: true
+  deduplicate: true
+
+expansion:
+  synonyms_enabled: true
+  order: "alphabetical"
+  base_keyword_priority: true

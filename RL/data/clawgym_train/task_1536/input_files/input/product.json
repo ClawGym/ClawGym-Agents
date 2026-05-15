@@ -1,0 +1,93 @@
+{
+  "name": "LeaseShield",
+  "type": "Tenant lease negotiation concierge (AI + human experts)",
+  "tagline": "Get fair lease terms without the legalese",
+  "audience": {
+    "primary": "Renters in US urban markets (ages 22–45), first-time and seasoned tenants",
+    "secondary": "Students and families moving within 90 days",
+    "personas": [
+      "Young professional with limited time",
+      "Couple relocating for work",
+      "Grad student unsure how to negotiate"
+    ]
+  },
+  "primary_value_proposition": "You upload your lease. We scan for red flags, draft winning language, and coach you to secure better terms—rent caps, fair deposit terms, and a sensible break clause.",
+  "positioning": "Concierge for tenants who want leverage without conflict or legal bills",
+  "conversion_goal": "Capture email, gather lease PDF, and book a 10-minute consult",
+  "cta": {
+    "primary_text": "Get my free lease review",
+    "secondary_text": "See how it works",
+    "microcopy": [
+      "Free in 24 hours. No credit card required.",
+      "Takes ~2 minutes to upload.",
+      "Private and secure. Cancel anytime."
+    ]
+  },
+  "pricing": {
+    "free_review": "AI + checklist with risk score",
+    "negotiation_kit": 79,
+    "concierge": 199,
+    "notes": "Pay only if you use a paid kit. Free review stays free."
+  },
+  "features": [
+    {
+      "name": "AI Lease Scan",
+      "details": "Clause-level analysis for rent escalation, entry rights, deposits, break clauses, repairs, pets, alterations.",
+      "benefit": "Get a clear risk score and plain-English summary in minutes—save 3–5 hours of reading fine print."
+    },
+    {
+      "name": "Negotiation Kit",
+      "details": "Ready-to-send emails and clause language tailored to your lease and landlord profile.",
+      "benefit": "Raise your odds of a win—our users secure at least one improvement 68% of the time."
+    },
+    {
+      "name": "Concierge Negotiator",
+      "details": "Human experts refine your approach, script replies, and prep you for pushback.",
+      "benefit": "Protect your approval and relationship while getting better terms—average savings $300–$1,200 over a 12-month lease."
+    },
+    {
+      "name": "Deposit Protection Toolkit",
+      "details": "Move-in/out photo checklist, itemized deduction template, dispute scripts.",
+      "benefit": "Improve deposit recovery—users report 85% fewer disputed charges."
+    },
+    {
+      "name": "24-Hour Turnaround",
+      "details": "First-pass analysis and scripts within one business day.",
+      "benefit": "Negotiate before you sign—no delays, no missed opportunities."
+    }
+  ],
+  "outcomes": {
+    "avg_savings_per_lease_usd": 612,
+    "time_saved_hours": 4,
+    "win_rate": 0.68,
+    "deposit_dispute_reduction": 0.85
+  },
+  "objections_and_replies": [
+    {
+      "objection": "My landlord won’t negotiate.",
+      "reply": "Most do—especially with respectful, specific language. 68% of users get at least one improvement."
+    },
+    {
+      "objection": "I don’t want to risk my approval.",
+      "reply": "We sequence low-friction asks first and offer alternatives. Keep your approval while improving terms."
+    },
+    {
+      "objection": "I don’t speak legal.",
+      "reply": "We translate legalese into plain English and give you copy-paste scripts."
+    }
+  ],
+  "trust_signals": {
+    "snippets": [
+      "Trusted by 5,200+ renters",
+      "4.8★ from 1,240 reviews"
+    ],
+    "privacy": "256-bit encryption. Lease files deleted on request."
+  },
+  "success_criteria_for_page": {
+    "primary_kpi": "Form starts (email + file upload)",
+    "secondary_kpi": "Booked 10-minute consults",
+    "target_cta_click_rate": 0.08,
+    "target_form_conversion_rate": 0.25
+  },
+  "website": "https://leaseshield.example.com"
+}

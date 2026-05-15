@@ -1,0 +1,13 @@
+category,part_number,manufacturer,supplier,unit_cost_usd,lead_time_days,failure_rate_fit,temp_max_C,rohs,lifecycle_status,stock_qty,moq
+LDO_Regulator,TPS7A4700,Texas Instruments,DigiKey,3.10,28,45,125,TRUE,Active,12000,1
+LDO_Regulator,LT1763,Analog Devices,Mouser,2.85,21,50,125,TRUE,Active,8000,1
+LDO_Regulator,MIC29302,Microchip,Arrow,2.30,35,70,125,TRUE,Active,5000,1
+LDO_Regulator,AP7333,Diodes Inc.,LCSC,0.12,14,120,85,TRUE,Active,50000,10
+Buck_Converter,TPS62130,Texas Instruments,Mouser,2.40,30,60,125,TRUE,Active,7000,1
+Buck_Converter,MP1584,Monolithic Power,Arrow,0.55,21,90,125,TRUE,Active,15000,5
+Buck_Converter,LM2596,Texas Instruments,Newark,1.10,42,110,85,TRUE,NRND,2000,1
+Oscillator,SIT8008,SiTime,DigiKey,0.80,20,30,105,TRUE,Active,12000,1
+Oscillator,ASV-16.000MHZ,ECS Inc.,Mouser,0.35,18,70,85,TRUE,Active,10000,1
+Oscillator,KC7050,Kyocera,Avnet,0.95,45,40,105,TRUE,Active,3000,1
+MOSFET,IRLZ44N,Infineon,Newark,0.90,25,85,175,TRUE,Active,4000,1
+MOSFET,AO3400,Alpha & Omega,LCSC,0.05,10,150,150,FALSE,Active,60000,10

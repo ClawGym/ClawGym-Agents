@@ -1,0 +1,14 @@
+{
+  "config_file_permission": "644",
+  "firewall": {
+    "ufw_active": false,
+    "ufw_inactive": true,
+    "firewalld_running": false,
+    "firewalld_installed_not_running": false
+  },
+  "ssh": {
+    "password_auth": "yes",
+    "root_login": "yes"
+  },
+  "exposed_ports_non_loopback": 5
+}

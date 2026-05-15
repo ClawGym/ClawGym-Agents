@@ -1,0 +1,11 @@
+Mar 22 14:00:00 server1 sshd[12345]: Failed password for root from 198.51.100.23 port 55892 ssh2
+Mar 22 14:01:12 server1 sshd[12346]: Failed password for invalid user admin from 198.51.100.23 port 55901 ssh2
+Mar 22 14:02:05 server1 sshd[12347]: Connection closed by 198.51.100.23 port 55933 [preauth]
+Mar 22 14:03:33 server1 sshd[12348]: Failed password for root from 198.51.100.23 port 56002 ssh2
+Mar 22 14:04:07 server1 sshd[12349]: Failed password for user deploy from 203.0.113.5 port 56044 ssh2
+Mar 22 14:05:18 server1 sshd[12350]: Accepted password for alice from 192.0.2.10 port 56099 ssh2
+Mar 22 14:06:41 server1 sshd[12351]: Failed password for root from 198.51.100.23 port 56110 ssh2
+Mar 22 14:07:22 server1 sshd[12352]: Received disconnect from 203.0.113.5 port 56133:11: Bye Bye [preauth]
+Mar 22 14:08:09 server1 sshd[12353]: Failed password for invalid user test from 203.0.113.5 port 56177 ssh2
+Mar 22 14:09:56 server1 sshd[12354]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.5
+Mar 22 14:10:22 server1 sshd[12355]: Accepted publickey for bob from 198.51.100.50 port 56222 ssh2: RSA SHA256:abcd...

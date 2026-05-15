@@ -1,0 +1,27 @@
+queries:
+  - "Steve Whitmire"
+  - "Steve Whitmire interview"
+  - "Muppets puppeteer Whitmire"
+  - "Kermit performance Whitmire"
+classification_keywords:
+  to_contact:
+    - event
+    - appearance
+    - festival
+    - panel
+    - talk
+    - conference
+    - live
+  to_share:
+    - interview
+    - video
+    - podcast
+    - article
+    - feature
+    - profile
+    - Q&A
+ranking:
+  per_result_limit: 20
+  base_score_for_rank_1: 50
+  title_keyword_bonus: 5
+  primary_name_bonus: 3

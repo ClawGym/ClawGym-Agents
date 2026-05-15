@@ -1,0 +1,11 @@
+first_name,last_name,voice_part,status,availability,email,phone
+Anahit,Petrosyan,Soprano,active,Yes,anahit.petrosyan@example.org,+374-91-100100
+Mariam,Sarkissian,Alto,active,No,mariam.sarkissian@example.org,+374-91-100101
+Levon,Hakobyan,Tenor,active,Yes,levon.hakobyan@example.org,+374-91-100102
+Aram,Voskanian,Bass,active,Yes,aram.voskanian@example.org,+374-91-100103
+Siranush,Mkrtchyan,Soprano,inactive,Yes,siranush.mkrtchyan@example.org,+374-91-100104
+Vahan,Galstyan,Tenor,active,Yes,vahan.galstyan@example.org,+374-91-100105
+Nareh,Ghazaryan,Alto,active,Yes,nareh.ghazaryan@example.org,+374-91-100106
+Harutyun,Babayan,Bass,active,No,harutyun.babayan@example.org,+374-91-100107
+Tatevik,Khachatryan,Soprano,active,Yes,tatevik.khachatryan@example.org,+374-91-100108
+Gor,Manukyan,Bass,active,Yes,gor.manukyan@example.org,+374-91-100109

@@ -1,0 +1,33 @@
+Company: NimbusHR
+Industry: B2B SaaS (HR technology)
+Headcount: 210 (R&D 95, GTM 70, G&A 45)
+Primary Markets: North America (88% of revenue), EMEA (10%), Other (2%)
+
+Product Lines:
+- Core HRIS (employee records, time-off, onboarding)
+- Payroll (US multi-state payroll with tax filings and payments)
+- Performance & OKRs (reviews, 1:1s, goals)
+- People Analytics (dashboards and reporting)
+
+Go-To-Market:
+- Customer tiers: Enterprise (>$250k ACV), Mid-Market ($25k–$250k ACV), SMB ($2k–$25k ACV)
+- Channels: Direct AEs (enterprise/mid-market), Certified partners (accountants, HR consultants), Self-serve (SMB)
+- Contract structure: ~70% annual prepaid, ~20% multi-year with 8–12% discounts, ~10% monthly
+
+Pricing Model:
+- Per-employee-per-month base price for Core HRIS
+- Add-on modules priced per employee (Payroll, Performance & OKRs, People Analytics)
+- Usage drivers: active employees, payroll runs, analytics query volumes
+
+Cost Structure Notes:
+- Payroll COGS include payment rails (ACH fees, returns), tax service provider fees, and fraud loss reserves; these can spike during tax season and during bank fee changes.
+- Support costs are more sensitive in SMB due to onboarding effort and payroll tax changes.
+- Cloud infrastructure and data warehouse costs scale primarily with People Analytics and Core HRIS usage.
+
+Strategic Context:
+- Competitive set: Rippling, Gusto (SMB), Paycor (mid-market), BambooHR
+- Differentiators: Native integrations to 60+ payroll and accounting systems, pre-built compliance packs
+- Risks: Partner-led deals with deeper discounts, SMB support load, and payment-rail fee volatility in Payroll
+
+Benchmarks:
+- Use 2026 SaaS benchmarks for comparison (Gross Margin 70–85%, Operating Margin 15–30%, Net Margin 10–25% for mature; growth-stage operating margin can be -20% to +10%).

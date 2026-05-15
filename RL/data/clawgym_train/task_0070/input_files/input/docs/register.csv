@@ -1,0 +1,7 @@
+doc_id,title,language,rarity_score,status,due_date,last_modified,estimated_minutes
+OFR001,Charter of Abbey of St. Pierre,Old French,9,drafted,2026-05-05,2026-04-10,18
+LAT002,Papal Bull on Trade,Latin,8,drafted,2026-04-28,2026-04-09,15
+ZHS003,Imperial Edict on River Works,Classical Chinese,10,undrafted,2026-05-12,2026-04-08,20
+OFR004,Merchant Ledger Fragment,Old French,7,drafted,2026-05-01,2026-04-07,12
+LAT005,Monastic Rule Addendum,Latin,6,undrafted,2026-04-25,2026-04-11,10
+OFR006,Royal Decree on Weights,Old French,8,undrafted,2026-04-30,2026-04-06,15

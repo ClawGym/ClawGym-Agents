@@ -1,0 +1,11 @@
+{
+  "ranks": [
+    { "name": "F-Rank", "min_total_xp": 0 },
+    { "name": "E-Rank", "min_total_xp": 500 },
+    { "name": "D-Rank", "min_total_xp": 2000 },
+    { "name": "C-Rank", "min_total_xp": 5000 },
+    { "name": "B-Rank", "min_total_xp": 12000 },
+    { "name": "A-Rank", "min_total_xp": 25000 },
+    { "name": "S-Rank", "min_total_xp": 50000 }
+  ]
+}

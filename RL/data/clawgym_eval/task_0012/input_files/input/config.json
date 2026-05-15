@@ -1,0 +1,6 @@
+{
+  "use_ideal_expansion": true,
+  "use_measured_exit_pressure": false,
+  "g0": 9.80665,
+  "output_dir": "workspace/baseline"
+}

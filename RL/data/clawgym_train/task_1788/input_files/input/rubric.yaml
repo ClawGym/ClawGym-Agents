@@ -1,0 +1,29 @@
+criteria:
+  hypothesis:
+    weight: 0.2
+    description: "Is the central hypothesis explicitly stated and testable?"
+    must_include_keywords: ["hypothesis", "we hypothesize", "we propose"]
+  methods:
+    weight: 0.2
+    description: "Are methods appropriate and reproducible at a summary level?"
+    must_include_keywords: ["method", "methods", "experiment", "sampling", "incubation", "mesocosm"]
+  data_specificity:
+    weight: 0.2
+    description: "Are data types, units, and sample sizes described (e.g., n=, replicates, units)?"
+    must_include_keywords: ["n=", "replicate", "ppm", "µM", "mg C m^-2 d^-1", "µatm"]
+  uncertainty:
+    weight: 0.2
+    description: "Are uncertainties/variability quantified or explicitly acknowledged?"
+    must_include_keywords: ["uncertainty", "confidence", "variance", "error", "CI", "±"]
+  clarity_conciseness:
+    weight: 0.2
+    description: "Clarity and concision of writing (organization, jargon, readability)."
+    must_include_keywords: []
+scoring:
+  scale: "0-5 integers; 0=absent, 3=adequate, 5=excellent"
+  decision_thresholds:
+    minor_revision: "total >= 4.0"
+    moderate_revision: "3.0 <= total < 4.0"
+    major_revision: "total < 3.0"
+email_requirements:
+  subject_prefix: "Preliminary feedback on your draft:"

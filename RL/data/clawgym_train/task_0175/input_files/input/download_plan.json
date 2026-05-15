@@ -1,0 +1,62 @@
+{
+  "rpc": {
+    "url": "http://localhost:6800/jsonrpc",
+    "secret": "s3cr3t"
+  },
+  "global_options": {
+    "max-overall-download-limit": "20M",
+    "max-concurrent-downloads": "2"
+  },
+  "tasks": [
+    {
+      "alias": "alpha",
+      "uris": [
+        "http://mirror1.example.org/files/alpha_v1.2.3.bin",
+        "http://mirror2.example.org/files/alpha_v1.2.3.bin"
+      ],
+      "options": {
+        "dir": "/srv/downloads/alpha",
+        "out": "alpha_v1.2.3.bin",
+        "split": 8,
+        "max-connection-per-server": 4,
+        "max-download-limit": "5M"
+      }
+    },
+    {
+      "alias": "beta",
+      "uris": [
+        "https://downloads.example.com/releases/beta-2026.04.tar.gz"
+      ],
+      "options": {
+        "dir": "/srv/downloads/beta",
+        "out": "beta-2026.04.tar.gz",
+        "split": 16,
+        "user-agent": "OpenClawTest/1.0"
+      }
+    },
+    {
+      "alias": "gamma",
+      "uris": [
+        "ftp://ftp.example.net/pub/images/gamma.img"
+      ],
+      "options": {
+        "dir": "/srv/downloads/gamma",
+        "max-download-limit": "2M"
+      }
+    }
+  ],
+  "post_actions": [
+    {
+      "action": "pause",
+      "target_alias": "beta"
+    },
+    {
+      "action": "unpause",
+      "target_alias": "beta"
+    },
+    {
+      "action": "forceRemove",
+      "target_alias": "gamma"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "to": [
+    {"name": "Ambassador Jane Smith (Ret.)", "email": "amb.smith@example.org"},
+    {"name": "IR Study Group", "email": "ir-study-group@example.edu"}
+  ],
+  "from": {"name": "Grad Student", "email": "student@example.edu"},
+  "cc": [
+    {"name": "Advisor", "email": "advisor@example.edu"}
+  ]
+}

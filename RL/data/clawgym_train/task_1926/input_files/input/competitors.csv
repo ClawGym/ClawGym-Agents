@@ -1,0 +1,11 @@
+name,type,positioning_notes
+Jaeger,Open Source,"CNCF project; distributed tracing backend and UI"
+Zipkin,Open Source,"Open-source tracing system; older but widely used"
+Datadog APM,SaaS,"Full-stack APM with tracing; agent-based; premium pricing"
+New Relic APM,SaaS,"APM with traces/metrics/logs; enterprise focus"
+Honeycomb,SaaS,"Observability with high-cardinality event model; powerful query"
+Lightstep,SaaS,"Tracing-centric observability; enterprise-grade (ServiceNow)"
+Sentry Performance,SaaS,"Developer-focused performance monitoring; good JS support"
+Grafana Tempo,Open Source,"Scalable tracing backend; pairs with Loki/Mimir"
+Elastic APM,SaaS/On-Prem,"APM on Elastic Stack; good for ELK users"
+OpenTelemetry Collector,Open Source,"Vendor-neutral pipeline; requires config; not a product alone"

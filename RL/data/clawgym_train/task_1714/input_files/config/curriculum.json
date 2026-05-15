@@ -1,0 +1,22 @@
+{
+  "workshop_title": "Graduate Mentorship Workshop (Pilot)",
+  "sessions": [
+    {
+      "id": 1,
+      "title": "Historiography and Method",
+      "description": "How to frame research questions and position work within debates.",
+      "readings": [
+        {"title": "What Is History?", "author": "E.H. Carr", "year": 1961},
+        {"title": "The Landscape of History", "author": "John Lewis Gaddis", "year": 2002}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Archives and Ethics",
+      "description": "Working with archival constraints, bias, and consent.",
+      "readings": [
+        {"title": "Silencing the Past", "author": "Michel-Rolph Trouillot", "year": 1995}
+      ]
+    }
+  ]
+}

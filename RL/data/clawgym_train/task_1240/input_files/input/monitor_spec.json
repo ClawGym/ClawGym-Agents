@@ -1,0 +1,8 @@
+{
+  "history_days_stock": 90,
+  "history_days_crypto": 30,
+  "filing_types": ["10-K", "8-K"],
+  "filings_latest_only": true,
+  "macro_series": ["GDP", "UNRATE", "NY.GDP.MKTP.CD", "CPIAUCSL"],
+  "macro_limit": 12
+}

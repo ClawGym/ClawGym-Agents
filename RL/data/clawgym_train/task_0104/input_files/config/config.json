@@ -1,0 +1,5 @@
+{
+  "site_title": "My Travel Site (placeholder)",
+  "output_dir": "build",
+  "data_path": "input/data/tips.json"
+}

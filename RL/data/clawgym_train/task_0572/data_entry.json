@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0572",
+  "user_query": "Please read both input/feature-spec.md and input/qa-acceptance-criteria.md and create a comprehensive implementation plan for building the \"import-contacts\" CLI subcommand as specified. The plan should assume zero context about any existing codebase and must include: (1) a brief header with Goal, Architecture, and Tech Stack; (2) a file/folder mapping section that lists every file to be created or modified with exact relative paths; (3) multiple tasks each broken into 2–5 minute steps that explicitly follow a strict TDD loop: write failing test, run to verify failure, write minimal implementation code, run to verify it passes, and commit with a concrete git command; (4) actual test code examples with assertions (use pytest) and sample shell commands to run only those tests; (5) minimal implementation snippets that make the tests pass; (6) precise CLI commands to run the tool, expected outputs, and where artifacts are written; (7) explicit commit commands and messages for each task; and (8) no placeholders like TODO/TBD. Save the plan to output/docs/superpowers/plans/2026-04-17-import-contacts-cli.md. Do not implement the feature; produce the plan only.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

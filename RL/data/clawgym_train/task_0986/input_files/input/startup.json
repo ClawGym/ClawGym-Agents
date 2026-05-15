@@ -1,0 +1,48 @@
+{
+  "startup_name": "FoundryFlow",
+  "problem": "AI application development is fragmented and brittle. Teams stitch together LLM orchestration, retrieval, evaluation, and observability across ad-hoc scripts and incompatible tools. This slows experimentation, causes regression risks when models/data change, and makes it hard to ship reliable AI features into production.",
+  "solution": "FoundryFlow is an AI-native developer platform that unifies orchestration, evaluation, and observability for LLM applications. Developers define workflows as a type-safe graph DSL with versioned datasets, policy guardrails, and first-class evaluation. The runtime compiles graphs to fast, reproducible microservices with built-in experiment tracking and rollback.",
+  "technology_advantage": [
+    "Graph-based runtime written in Rust for low-latency, deterministic execution",
+    "Type-safe workflow DSL with Python SDK and LangChain-compatible adapters",
+    "Built-in evaluation harness (offline/online) with dataset versioning and metric packs (latency, toxicity, factuality)",
+    "Production observability: traces, prompts, and features captured for replay and root-cause analysis",
+    "Reproducible environments and policy guardrails for safe deployment across staging/production"
+  ],
+  "market_opportunity": {
+    "sector": "AI, Developer Tools",
+    "beachhead": "Product and platform teams building LLM-powered features in SaaS and enterprise applications",
+    "tam_estimate": "Approximately $10B by 2028 for AI application tooling and orchestration",
+    "sam_estimate": "$1.5B near-term for orchestration, eval, and observability platforms",
+    "notes": "Bottom-up adoption via open-source and community; land in teams building retrieval-augmented generation, agents, and evaluation pipelines, expand to platform standard."
+  },
+  "traction": {
+    "github_stars": 3200,
+    "community_members": 2100,
+    "design_partners": 18,
+    "active_pilots": 12,
+    "paying_teams": 6,
+    "arr_usd": 28000,
+    "mom_active_projects_growth_pct": 35,
+    "weekly_retention_pct": 62,
+    "security": "SOC 2 Type I in progress"
+  },
+  "team": {
+    "founders": [
+      "CEO: ex-Stripe infrastructure lead (7 years), built internal workflow orchestration platform",
+      "CTO: ex-OpenAI evaluation engineer, led eval tooling and dataset pipelines",
+      "CPO: ex-HashiCorp PM, launched developer platforms and open-source programs"
+    ],
+    "previous_outcomes": "Prior devtools startup by CTO acquired in 2021"
+  },
+  "technology_stack": [
+    "Rust runtime (Tokio), gRPC",
+    "Python SDK, TypeScript client",
+    "Adapters for LangChain, LlamaIndex, and OpenAI/Azure/HuggingFace endpoints",
+    "PostgreSQL + object storage for artifact/versioning"
+  ],
+  "sector": "AI, Developer Tools",
+  "stage": "Seed",
+  "location": "San Francisco, CA",
+  "developer_recognition": true
+}

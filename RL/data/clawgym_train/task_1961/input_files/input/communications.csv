@@ -1,0 +1,13 @@
+id,thread,datetime,from,to,channel,body
+1,CaseStrategy,2026-03-01 10:00,Me,Lawyer,sms,"Hi, I was cited for shoplifting on Feb 20. When is our next meeting?"
+2,CaseStrategy,2026-03-01 12:15,Lawyer,Me,sms,"Let's meet Fri 3 pm. Please send incident details."
+3,Documents,2026-03-02 14:00,Me,Lawyer,email,"I attached the store notice."
+4,Documents,2026-03-02 17:30,Lawyer,Me,email,"Got it. Please fill the intake form."
+5,Probation,2026-03-10 09:00,Probation,Me,email,"Reminder: check-in due 2026-03-15."
+6,Probation,2026-03-12 16:20,Me,Probation,email,"Thanks, I will attend."
+7,CaseStrategy,2026-03-20 11:05,Me,Lawyer,sms,"Can you confirm the hearing date?"
+8,CaseStrategy,2026-03-20 13:45,Lawyer,Me,sms,"Hearing set for 2026-04-05 at 9 am."
+9,CommunityService,2026-03-28 18:00,Me,Probation,email,"Completed 6 hours community service this week."
+10,CommunityService,2026-03-29 09:10,Probation,Me,email,"Logged. Send supervisor signature."
+11,Curfew,2026-03-30 22:30,Probation,Me,sms,"Curfew check. Are you home?"
+12,Curfew,2026-03-30 22:31,Me,Probation,sms,"Yes, at home."

@@ -1,0 +1,25 @@
+{
+  "company": "ParcelLoop, Inc.",
+  "as_of": "2026-03-31",
+  "authorized_shares": {
+    "common": 20000000
+  },
+  "share_classes": [
+    { "class": "Common", "liquidation_preference": "none" },
+    { "class": "Advisory Common", "liquidation_preference": "none" },
+    { "class": "Option Pool (Unissued)", "liquidation_preference": "n/a" }
+  ],
+  "holders": [
+    { "name": "Alex Chen (CEO)", "class": "Common", "shares": 5600000, "vesting": "4yr/1yr cliff, started 2024-03-01" },
+    { "name": "Priya Nair (CTO)", "class": "Common", "shares": 3600000, "vesting": "4yr/1yr cliff, started 2024-03-01" },
+    { "name": "Miguel Ortega (COO)", "class": "Common", "shares": 1000000, "vesting": "4yr/1yr cliff, started 2024-06-01" },
+    { "name": "Advisor Pool (granted)", "class": "Advisory Common", "shares": 200000, "vesting": "2yr monthly" }
+  ],
+  "options": {
+    "granted": 300000,
+    "ungranted": 1200000,
+    "plan_name": "2024 Equity Incentive Plan",
+    "notes": "No SAFEs or notes outstanding as of 2026-03-31."
+  },
+  "notes": "All shares are on a 1x basis; no preferred shares issued to date. Founders have filed 83(b) elections."
+}

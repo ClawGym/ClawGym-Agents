@@ -1,0 +1,5 @@
+patient_id,name,dob,sex,uninsured_status
+P001,Ana Lopez,1982-05-14,F,true
+P002,Marcus Hill,1975-09-02,M,true
+P003,Sarah Kim,1990-12-22,F,false
+P004,James O'Neil,1968-03-10,M,true

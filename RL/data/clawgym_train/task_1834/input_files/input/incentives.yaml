@@ -1,0 +1,14 @@
+federal_itc:
+  rate: 0.30
+  valid_through: 2032
+  reference: "Inflation Reduction Act - 30% ITC"
+state:
+  name: "Arizona Residential Solar Tax Credit"
+  rate: 0.25
+  cap_dollars: 1000
+  form: "AZ Form 310"
+  notes: "25% of system cost up to $1,000 maximum credit"
+local:
+  utility_rebates_total: 0
+  notes: "No APS cash rebates for standard residential PV without storage"
+state_rebates_total: 1000

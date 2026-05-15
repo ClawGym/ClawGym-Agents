@@ -1,0 +1,38 @@
+[
+  {
+    "user_input": "Add a Todo note: Draft the Atlas App project brief (tags: project, brief) due 2026-05-01",
+    "action": "add",
+    "expected_operations": ["init_repo_if_missing", "generate_id", "slugify_title", "write_markdown_with_frontmatter", "save_to_Todo"],
+    "columns_affected": ["Todo"],
+    "confirm_required": true,
+    "example_output": "Plan: create Todo/Draft-the-Atlas-App-project-brief--a1b2c3d4.md with frontmatter and content; On confirm, file created.",
+    "notes": "Default column Todo; include tags [project, brief] and due_date 2026-05-01."
+  },
+  {
+    "user_input": "Move card a1b2c3d4 to Doing",
+    "action": "move",
+    "expected_operations": ["locate_by_id", "update_frontmatter_status", "move_file_to_Doing"],
+    "columns_affected": ["Todo", "Doing"],
+    "confirm_required": true,
+    "example_output": "Plan: move file from Todo to Doing and set status=Doing; On confirm, file moved and status updated.",
+    "notes": "Preserve filename slug and id."
+  },
+  {
+    "user_input": "Show my Kanban board",
+    "action": "list",
+    "expected_operations": ["scan_repo", "count_by_column", "list_recent_by_column"],
+    "columns_affected": ["Todo", "Doing", "Done"],
+    "confirm_required": false,
+    "example_output": "Summary: Todo=3, Doing=1, Done=5; Recent per column listed with ids and titles.",
+    "notes": "No write operations; safe to run without confirmation."
+  },
+  {
+    "user_input": "Search notes tagged \"research\"",
+    "action": "search",
+    "expected_operations": ["scan_repo", "filter_by_tag", "print_matches"],
+    "columns_affected": ["Todo", "Doing", "Done"],
+    "confirm_required": false,
+    "example_output": "Found 2 notes tagged research: [Doing/compare-models--f9e8d7c6.md, Done/lit-review--1122aabb.md]",
+    "notes": "Match tag case-insensitively."
+  }
+]

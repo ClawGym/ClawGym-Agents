@@ -1,0 +1,10 @@
+person_name: "Matt Vela"
+min_rows: 3
+allowed_tlds:
+  - ".edu"
+  - ".gov"
+allowed_domain_keywords:
+  - "school"
+  - "district"
+  - "college"
+  - "university"

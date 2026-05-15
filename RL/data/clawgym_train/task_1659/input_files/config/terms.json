@@ -1,0 +1,5 @@
+{
+  "violent_terms": ["abuse", "assault", "hit", "threat", "kill"],
+  "exceptions": [],
+  "threshold": 1
+}

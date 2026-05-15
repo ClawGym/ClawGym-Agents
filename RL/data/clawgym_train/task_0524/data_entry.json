@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0524",
+  "user_query": "Create an internal \"Roi Field Manual\" for our DevTools guild. Read input/requirements.yaml and input/style_guide.md for scope, tone, and structure. Use the roi reference topics: intro, quickstart, patterns, debugging, performance, security, migration, and cheatsheet. Deliverables:\n\n1) Write output/roi_field_manual.md with:\n- A YAML front matter at the top including a title and date.\n- Sections in this exact order with H1 headings: Intro, Quickstart, Patterns, Debugging, Performance, Security, Migration, Cheatsheet.\n- At least two verbatim, blockquoted lines per section that are directly quoted from the corresponding roi reference output for that topic.\n- For Quickstart and Migration, include a \"Checklist\" subsection that reproduces the enumerated steps from the roi reference verbatim (Quickstart: key installation/first steps; Migration: key migration steps/pre-migration items).\n- Follow the style rules in input/style_guide.md.\n\n2) Write output/roi_cheatsheet.txt with:\n- The \"Essential Commands\" table from the roi quick reference converted to bullets in the form \"- <name>: <description>\" (include: help, version, intro, troubleshooting).\n- The three \"Common Workflows\" listed exactly as in the reference.\n\n3) Write output/appendix/sources.json mapping each section to an object {\"command\": \"<roi topic>\", \"quotes\": <number of blockquotes used>}. Ensure each section shows a minimum of 2 quotes.\n\nOnly use text pulled from the roi reference outputs for quoted material; do not invent commands not present in the reference. All paths must be under output/.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

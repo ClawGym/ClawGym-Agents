@@ -1,0 +1,10 @@
+[
+  {"name": "Alice Walker", "email": "alice@example.com", "utc_offset_hours": -5},
+  {"name": "Bob Walker", "email": "bob@example.com", "utc_offset_hours": -8},
+  {"name": "Carol Smith", "email": "carol@example.co.uk", "utc_offset_hours": 0},
+  {"name": "Dan Müller", "email": "dan@example.de", "utc_offset_hours": 1},
+  {"name": "Emma Rao", "email": "emma@example.in", "utc_offset_hours": 5.5},
+  {"name": "Felix Tan", "email": "felix@example.au", "utc_offset_hours": 10},
+  {"name": "Grace Lee", "email": "grace@example.com", "utc_offset_hours": -6},
+  {"name": "Henry Novak", "email": "henry@example.eu", "utc_offset_hours": 2}
+]

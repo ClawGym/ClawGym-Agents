@@ -1,0 +1,7 @@
+item_id,item_name,supplier_id,distance_miles,claimed_labels
+I1,Kale,S1,42,"LOCAL;USDA_ORGANIC"
+I2,Tomatoes,S2,128,"LOCAL"
+I3,Eggs,S3,12,"LOCAL;USDA_ORGANIC"
+I4,Apple Cider,S4,104,"LOCAL;USDA_ORGANIC"
+I5,Potatoes,S2,90,""
+I6,Spinach,S1,160,"USDA_ORGANIC"

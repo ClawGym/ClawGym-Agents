@@ -1,0 +1,7 @@
+feature_id,title,feature_type,impact_score,confidence,effort_estimate,notes
+F-101,"Streamlined signup form",UI,8,0.8,5,"Reduce friction by removing non-essential fields and improving error states."
+F-102,"API response caching",Backend,7,0.6,8,"Cache most-used endpoints to cut load times on slow networks."
+F-103,"In-app tutorial tooltips",UI,6,0.7,3,"Contextual help to increase first-week activation."
+F-104,"Error logging improvements",Backend,5,0.9,2,"Better grouping and alerts to reduce triage time."
+F-105,"Unified settings page",Cross-functional,9,0.5,13,"Consolidate scattered preferences into one location."
+F-106,"Passwordless login",Cross-functional,8,0.65,8,"Magic links to increase returning user conversions."

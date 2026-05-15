@@ -1,0 +1,8 @@
+- Healing isn’t linear; some days are whispers, some are thunder, and both are progress.
+- You are not the story someone else wrote; you’re the pen and the page.
+- A broken heart still keeps time; let it teach you a new rhythm.
+- Grief is love with nowhere to go—so we carry it gently.
+- Moving on isn’t forgetting; it’s remembering without losing yourself.
+- Even the quietest dawn proves the night didn’t win.
+- Boundaries are bridges to yourself, not walls against others.
+- Let the small joys be loud; they are the chorus that gets you through.

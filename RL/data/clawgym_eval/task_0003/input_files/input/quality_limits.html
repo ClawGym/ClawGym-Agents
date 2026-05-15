@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Refinery XYZ Fuel Quality Limits</title>
+  </head>
+  <body>
+    <h1>Fuel Quality Limits for Refinery XYZ</h1>
+    <table id="limits" border="1">
+      <thead>
+        <tr>
+          <th>Property</th>
+          <th>Limit Type</th>
+          <th>Limit</th>
+          <th>Units</th>
+          <th>Applies To</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sulfur_ppm</td>
+          <td>max</td>
+          <td>10</td>
+          <td>ppm</td>
+          <td>Gasoline</td>
+        </tr>
+        <tr>
+          <td>Benzene_volpercent</td>
+          <td>max</td>
+          <td>0.60</td>
+          <td>vol%</td>
+          <td>Gasoline</td>
+        </tr>
+        <tr>
+          <td>Aromatics_volpercent</td>
+          <td>max</td>
+          <td>35</td>
+          <td>vol%</td>
+          <td>Gasoline</td>
+        </tr>
+        <tr>
+          <td>Sulfur_ppm</td>
+          <td>max</td>
+          <td>15</td>
+          <td>ppm</td>
+          <td>Diesel</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="note">Notes: Limits apply to finished products only. Property names and units must match the test records. "Applies To" should be matched by substring against the product stream name, case-insensitive.</p>
+  </body>
+</html>

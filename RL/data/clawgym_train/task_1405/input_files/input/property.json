@@ -1,0 +1,16 @@
+{
+  "address": "123 Maple St",
+  "city": "Riverton",
+  "state": "CA",
+  "zip": "94555",
+  "neighborhood": "Maple Ridge",
+  "property_type": "Single Family",
+  "living_area_sqft": 2100,
+  "bedrooms": 3,
+  "full_bathrooms": 2,
+  "half_bathrooms": 1,
+  "year_built": 1998,
+  "condition": "Good",
+  "lot_size_sqft": 7500,
+  "pool": false
+}

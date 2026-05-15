@@ -1,0 +1,7 @@
+{"ts":"2026-04-10T09:05:00Z","agent":"alpha","role":"user","tokens":300,"message_id":"m-0001"}
+{"ts":"2026-04-10T09:06:00Z","agent":"alpha","role":"assistant","tokens":450,"message_id":"m-0002"}
+{"ts":"2026-04-10T09:08:00Z","agent":"beta","role":"assistant","tokens":600,"message_id":"m-0003"}
+{"ts":"2026-04-11T08:40:00Z","agent":"beta","role":"user","tokens":800,"message_id":"m-0004"}
+{"ts":"2026-04-11T08:42:00Z","agent":"beta","role":"assistant","tokens":1200,"message_id":"m-0005"}
+{"ts":"2026-04-12T14:00:00Z","agent":"alpha","role":"assistant","tokens":500,"message_id":"m-0006"}
+{"ts":"2026-04-15T09:00:00Z","agent":"beta","role":"assistant","tokens":600,"message_id":"m-0007"}

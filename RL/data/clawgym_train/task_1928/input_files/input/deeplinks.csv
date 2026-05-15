@@ -1,0 +1,7 @@
+route,scheme_pattern,web_fallback,params,description
+work_order_detail,orion://work-order/{id},https://fieldops.example.com/work-orders/{id},"id=UUID","Open a specific Work Order by ID"
+work_order_action,orion://work-order/{id}?action={action},https://fieldops.example.com/work-orders/{id}?action={action},"id=UUID, action=start|resume|review","Open Work Order and perform contextual action"
+asset_detail,orion://asset/{assetId},https://fieldops.example.com/assets/{assetId},"assetId=string","Open Asset by assetId"
+report_day,orion://report/{date},https://fieldops.example.com/reports/{date},"date=YYYY-MM-DD","Open daily report"
+approvals_tab,orion://approvals/{tab},https://fieldops.example.com/approvals/{tab},"tab=timesheets|work-orders","Open approvals to a specific tab"
+notifications_inbox,orion://notifications,https://fieldops.example.com/notifications,,"Open notifications inbox as fallback"

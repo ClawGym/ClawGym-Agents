@@ -1,0 +1,20 @@
+{
+  "report": "lcov-summary",
+  "overall": 75,
+  "lines": 75.1,
+  "statements": 74.6,
+  "branches": 68.2,
+  "functions": 79.8,
+  "components": {
+    "api": 78.4,
+    "web": 71.9
+  },
+  "critical_paths": {
+    "auth": 58,
+    "payments": 63,
+    "orders": 54,
+    "average": 58.3
+  },
+  "generated_at": "2026-04-15T12:28:40Z",
+  "notes": "Coverage collected from unit + integration + smoke tests on the web+API project."
+}

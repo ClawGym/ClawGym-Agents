@@ -1,0 +1,31 @@
+brand: "Santander International"
+allowed_host_substring: "santanderinternational"
+
+pillars:
+  - id: trust_security
+    name: "Trust & Security"
+    keywords: ["security", "fraud", "scam", "protection", "safeguard", "secure"]
+    min_ideas: 3
+  - id: clear_pricing
+    name: "Clear Pricing & Fees"
+    keywords: ["fees", "charges", "rates", "interest", "pricing", "cost"]
+    min_ideas: 3
+  - id: account_access
+    name: "Account Access & Support"
+    keywords: ["online banking", "login", "support", "contact", "access", "customer service", "help"]
+    min_ideas: 3
+
+constraints:
+  min_pages_per_pillar: 2
+
+extraction:
+  pages_required_fields: ["url", "page_title", "meta_description", "h1", "h2s", "detected_pillar", "matched_keywords", "retrieved_at"]
+
+calendar_required_fields: ["pillar_id", "idea_title", "target_query", "primary_source_url", "supporting_source_urls", "rationale", "cta_copy"]
+
+output_paths:
+  pages_json_path: "output/sources/pages.json"
+  raw_html_dir: "output/sources/raw"
+  calendar_csv_path: "output/calendar/calendar.csv"
+  verification_report_path: "output/reports/verification.md"
+  search_queries_log_path: "output/sources/search_queries.txt"

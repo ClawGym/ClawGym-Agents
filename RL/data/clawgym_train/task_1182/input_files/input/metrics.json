@@ -1,0 +1,214 @@
+[
+  {
+    "timestamp": "2026-04-15T07:45:00Z",
+    "name": "startup",
+    "type": "event",
+    "message": "Agent started",
+    "tags": {"version":"1.0.0"}
+  },
+  {
+    "timestamp": "2026-04-15T08:10:00Z",
+    "name": "queue_depth",
+    "type": "gauge",
+    "value": 3
+  },
+  {
+    "timestamp": "2026-04-15T08:12:30Z",
+    "name": "posts_published",
+    "type": "counter",
+    "value": 1
+  },
+  {
+    "timestamp": "2026-04-15T08:20:00Z",
+    "name": "api_response_time",
+    "type": "timer",
+    "value": 1.25,
+    "tags": {"endpoint":"/status"}
+  },
+  {
+    "timestamp": "2026-04-15T09:05:00Z",
+    "name": "api_timeout",
+    "type": "error",
+    "message": "GET /tasks timed out after 10s"
+  },
+  {
+    "timestamp": "2026-04-16T10:00:00Z",
+    "name": "heartbeat",
+    "type": "event",
+    "message": "system ok"
+  },
+  {
+    "timestamp": "2026-04-16T10:05:00Z",
+    "name": "queue_depth",
+    "type": "gauge",
+    "value": 5
+  },
+  {
+    "timestamp": "2026-04-16T10:06:00Z",
+    "name": "budget_remaining",
+    "type": "gauge",
+    "value": 120.5
+  },
+  {
+    "timestamp": "2026-04-16T11:00:00Z",
+    "name": "task_duration",
+    "type": "timer",
+    "value": 14.5,
+    "tags": {"task":"metrics_scan"}
+  },
+  {
+    "timestamp": "2026-04-16T11:10:00Z",
+    "name": "skills_scanned",
+    "type": "counter",
+    "value": 3
+  },
+  {
+    "timestamp": "2026-04-16T11:15:00Z",
+    "name": "db_lock_error",
+    "type": "error",
+    "message": "SQLite lock observed during index update"
+  },
+  {
+    "timestamp": "2026-04-16T12:20:00Z",
+    "name": "deployment",
+    "type": "event",
+    "message": "Updated metrics script"
+  },
+  {
+    "timestamp": "2026-04-17T08:00:00Z",
+    "name": "heartbeat",
+    "type": "event",
+    "message": "system ok"
+  },
+  {
+    "timestamp": "2026-04-17T08:05:00Z",
+    "name": "queue_depth",
+    "type": "gauge",
+    "value": 4
+  },
+  {
+    "timestamp": "2026-04-17T08:07:00Z",
+    "name": "posts_published",
+    "type": "counter",
+    "value": 1
+  },
+  {
+    "timestamp": "2026-04-17T08:15:00Z",
+    "name": "api_response_time",
+    "type": "timer",
+    "value": 1.1,
+    "tags": {"endpoint":"/status"}
+  },
+  {
+    "timestamp": "2026-04-17T09:00:00Z",
+    "name": "skills_scanned",
+    "type": "counter",
+    "value": 5
+  },
+  {
+    "timestamp": "2026-04-17T09:10:00Z",
+    "name": "task_duration",
+    "type": "timer",
+    "value": 12.5,
+    "tags": {"task":"scan_skill"}
+  },
+  {
+    "timestamp": "2026-04-17T09:12:00Z",
+    "name": "api_timeout",
+    "type": "error",
+    "message": "POST /metrics timed out after 8s"
+  },
+  {
+    "timestamp": "2026-04-17T10:00:00Z",
+    "name": "queue_depth",
+    "type": "gauge",
+    "value": 2
+  },
+  {
+    "timestamp": "2026-04-17T10:05:00Z",
+    "name": "dashboard_view",
+    "type": "event",
+    "message": "Rendered dashboard"
+  },
+  {
+    "timestamp": "2026-04-17T10:06:00Z",
+    "name": "api_response_time",
+    "type": "timer",
+    "value": 0.95,
+    "tags": {"endpoint":"/metrics"}
+  },
+  {
+    "timestamp": "2026-04-17T10:30:00Z",
+    "name": "budget_remaining",
+    "type": "gauge",
+    "value": 118.0
+  },
+  {
+    "timestamp": "2026-04-17T11:00:00Z",
+    "name": "posts_published",
+    "type": "counter",
+    "value": 2
+  },
+  {
+    "timestamp": "2026-04-17T11:20:00Z",
+    "name": "heartbeat",
+    "type": "event",
+    "message": "system ok"
+  },
+  {
+    "timestamp": "2026-04-17T11:45:00Z",
+    "name": "moltbook_verify_fail",
+    "type": "error",
+    "message": "Challenge solver returned wrong answer"
+  },
+  {
+    "timestamp": "2026-04-17T12:00:00Z",
+    "name": "task_duration",
+    "type": "timer",
+    "value": 18.0,
+    "tags": {"task":"export_metrics"}
+  },
+  {
+    "timestamp": "2026-04-17T12:30:00Z",
+    "name": "queue_depth",
+    "type": "gauge",
+    "value": 6
+  },
+  {
+    "timestamp": "2026-04-17T13:00:00Z",
+    "name": "deployment",
+    "type": "event",
+    "message": "Rolled out UI tweak"
+  },
+  {
+    "timestamp": "2026-04-17T14:15:00Z",
+    "name": "api_response_time",
+    "type": "timer",
+    "value": 1.8,
+    "tags": {"endpoint":"/export"}
+  },
+  {
+    "timestamp": "2026-04-17T15:00:00Z",
+    "name": "skills_scanned",
+    "type": "counter",
+    "value": 2
+  },
+  {
+    "timestamp": "2026-04-17T16:45:00Z",
+    "name": "db_lock_error",
+    "type": "error",
+    "message": "Envelope Index locked more than 3s"
+  },
+  {
+    "timestamp": "2026-04-17T17:30:00Z",
+    "name": "budget_remaining",
+    "type": "gauge",
+    "value": 115.75
+  },
+  {
+    "timestamp": "2026-04-17T18:00:00Z",
+    "name": "heartbeat",
+    "type": "event",
+    "message": "system ok"
+  }
+]

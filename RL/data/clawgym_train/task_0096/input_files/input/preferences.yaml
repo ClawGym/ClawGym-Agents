@@ -1,0 +1,7 @@
+monthly_budget: 60
+corporate_subsidy: 15
+preferences:
+  pool_required: false
+  prefers_24_7: true
+  target_visits_per_week: 3
+notes: "Prefer access in Boston, San Francisco, and Seattle during a 6-week co-location period."

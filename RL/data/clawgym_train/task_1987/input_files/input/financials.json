@@ -1,0 +1,74 @@
+{
+  "Gusto": {
+    "stage": "Late-stage VC (Private)",
+    "est_rev_range_usd": "$200M-$400M (company-level, not payroll-only)",
+    "growth_signal": "Medium-High",
+    "profitability": "Unknown; aiming for operating leverage",
+    "headcount_range": "1,500-2,500",
+    "investment_capacity": "High",
+    "notes": "Strong brand in SMB payroll; expanding accountant and partner ecosystems."
+  },
+  "Intuit QuickBooks Payroll": {
+    "stage": "Business unit of public company (Intuit)",
+    "est_rev_range_usd": "$1B+ (Intuit SMB platform; payroll-specific not disclosed)",
+    "growth_signal": "Medium",
+    "profitability": "Strong at company level",
+    "headcount_range": "10,000+ (Intuit company-wide)",
+    "investment_capacity": "High",
+    "notes": "Ecosystem attach rates drive predictable growth; leverages QuickBooks distribution."
+  },
+  "ADP RUN": {
+    "stage": "Business unit of public company (ADP)",
+    "est_rev_range_usd": "$1B+ (company-level; RUN-specific not disclosed)",
+    "growth_signal": "Medium",
+    "profitability": "Strong at company level",
+    "headcount_range": "60,000+ (ADP company-wide)",
+    "investment_capacity": "High",
+    "notes": "Scale and compliance reputation; extensive channel programs."
+  },
+  "Paychex Flex": {
+    "stage": "Public company (Paychex)",
+    "est_rev_range_usd": "$1B+ (company-level)",
+    "growth_signal": "Medium",
+    "profitability": "Positive",
+    "headcount_range": "15,000+",
+    "investment_capacity": "High",
+    "notes": "Deep broker/accountant ties; strong presence in micro and small segments."
+  },
+  "Square Payroll": {
+    "stage": "Business unit of public company (Block, Inc.)",
+    "est_rev_range_usd": "$1B+ (Block company-level; payroll-specific small subset)",
+    "growth_signal": "Medium",
+    "profitability": "Strong at company level; payroll likely subsidized for ecosystem growth",
+    "headcount_range": "8,000+ (Block company-wide)",
+    "investment_capacity": "Medium-High",
+    "notes": "Optimized for Square ecosystem; strong in micro-merchants and restaurants."
+  },
+  "Rippling": {
+    "stage": "Late-stage VC (Private)",
+    "est_rev_range_usd": "$400M-$800M (company-level range; not payroll-only)",
+    "growth_signal": "High",
+    "profitability": "Unknown; growth-oriented",
+    "headcount_range": "2,500-4,000",
+    "investment_capacity": "High",
+    "notes": "Suite strategy (IT + HR + Finance); modular pricing can raise TCO."
+  },
+  "Justworks": {
+    "stage": "Late-stage private",
+    "est_rev_range_usd": "$300M-$600M (company-level range; PEO heavy)",
+    "growth_signal": "Medium",
+    "profitability": "Mixed; depends on plan mix and benefits costs",
+    "headcount_range": "1,000-2,000",
+    "investment_capacity": "Medium",
+    "notes": "Benefits-led PEO differentiation; ASO/standalone payroll improving."
+  },
+  "Deel": {
+    "stage": "Late-stage VC (Private)",
+    "est_rev_range_usd": "$400M-$700M (company-level; global/EOR heavy)",
+    "growth_signal": "High",
+    "profitability": "Unknown; rapid expansion mode",
+    "headcount_range": "2,000-4,000",
+    "investment_capacity": "High",
+    "notes": "Expanding from global/EOR into US SMB payroll; early feature maturity in US."
+  }
+}

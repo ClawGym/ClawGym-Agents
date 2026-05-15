@@ -1,0 +1,24 @@
+require_search_engine: true
+sources_per_item_min: 2
+source_domains_allowed:
+  - nationalww2museum.org
+  - iwm.org.uk
+  - encyclopedia.ushmm.org
+  - ushmm.org
+  - britannica.com
+  - bbc.co.uk
+  - history.state.gov
+  - archives.gov
+max_question_words: 26
+grade_level_hint: "8th–9th grade"
+email_recipient: "history_teacher@example.edu"
+email_word_limit: 180
+fact_check_output_path: "out/validation/quiz_fact_check.json"
+queries_log_path: "out/validation/queries.txt"
+rewrite_output_md_path: "out/quiz_rewritten.md"
+rewrite_output_csv_path: "out/quiz_rewritten.csv"
+email_output_path: "out/email/email_to_teacher.txt"
+source_fields_required:
+  - domain
+  - page_title
+  - query_used

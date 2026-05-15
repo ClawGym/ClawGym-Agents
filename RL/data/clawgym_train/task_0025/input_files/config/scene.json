@@ -1,0 +1,19 @@
+{
+  "title": "Placeholder",
+  "canvas": {
+    "width": 640,
+    "height": 640,
+    "background": "#ffffff"
+  },
+  "style": {
+    "planet_color": "#1f77b4",
+    "comet_color": "#ff7f0e",
+    "planet_radius": 14,
+    "comet_radius": 8,
+    "stroke_color": "#222222"
+  },
+  "output": {
+    "frames_dir": "outputs/frames",
+    "manifest_path": "outputs/manifest.json"
+  }
+}

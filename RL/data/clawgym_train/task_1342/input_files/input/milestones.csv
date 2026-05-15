@@ -1,0 +1,4 @@
+milestone_name,target_date,description
+Design Sign-off,2026-05-24,Approved warehouse schema and data modeling completed.
+Prototype Complete,2026-06-10,First ETL pipeline end-to-end run with sample data.
+Go-Live,2026-07-05,Production deployment completed and handover signed.

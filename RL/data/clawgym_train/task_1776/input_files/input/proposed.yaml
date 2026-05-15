@@ -1,0 +1,117 @@
+openapi: 3.0.3
+info:
+  title: Acme Payments API
+  version: 1.3.0
+  description: Proposed specification for Acme Payments API v1.3.0 with security and schema updates.
+servers:
+  - url: https://api.acme-payments.test
+security:
+  - apiKeyAuth: []
+paths:
+  /v1/transactions:
+    post:
+      summary: Create a transaction
+      operationId: createTransaction
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - amount
+                - currency
+              properties:
+                amount:
+                  type: string
+                  description: Monetary amount as a string to preserve precision (e.g., "12.34")
+                currency:
+                  type: string
+                  enum: [USD, GBP]
+      responses:
+        '201':
+          description: Transaction created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Transaction'
+        '400':
+          description: Invalid request
+  /v1/accounts/{id}:
+    get:
+      summary: Get account by ID
+      operationId: getAccount
+      parameters:
+        - name: id
+          in: path
+          required: true
+          description: Account identifier
+          schema:
+            type: string
+        - name: includeBalances
+          in: query
+          required: true
+          description: Include balances in the response; must be explicitly set
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: Account details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Account'
+        '404':
+          description: Account not found
+components:
+  securitySchemes:
+    apiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+  schemas:
+    Transaction:
+      type: object
+      required:
+        - id
+        - amount
+        - currency
+        - status
+      properties:
+        id:
+          type: string
+          description: Unique transaction ID
+        amount:
+          type: string
+          description: Monetary amount as a string to avoid floating point rounding errors
+        currency:
+          type: string
+          description: Three-letter ISO currency code
+          enum:
+            - USD
+            - GBP
+        status:
+          type: string
+          enum:
+            - pending
+            - settled
+            - failed
+    Account:
+      type: object
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        balances:
+          type: object
+          properties:
+            available:
+              type: number
+              format: decimal
+            ledger:
+              type: number
+              format: decimal

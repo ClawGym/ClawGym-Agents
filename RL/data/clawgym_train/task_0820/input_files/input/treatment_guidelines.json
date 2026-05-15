@@ -1,0 +1,10 @@
+{
+  "treatments": [
+    {"code": "SFC", "name": "Surface Cleaning", "expected_hours": 0.5, "description": "Dry surface cleaning to remove dust and loose particulates."},
+    {"code": "PRT", "name": "Page Repair (Tear)", "expected_hours": 1.5, "description": "Mend page tears with Japanese tissue and wheat starch paste."},
+    {"code": "CST", "name": "Cover/Spine Strengthening", "expected_hours": 2.0, "description": "Reinforce weakened hinges or spine linings."},
+    {"code": "RBD", "name": "Re-binding", "expected_hours": 4.0, "description": "Disbind and re-sew or re-case a damaged volume."},
+    {"code": "DAC", "name": "Deacidification", "expected_hours": 3.0, "description": "Neutralize acidity using approved deacidification process."},
+    {"code": "MMD", "name": "Mold Mitigation", "expected_hours": 2.5, "description": "Isolate, clean, and stabilize mold-affected items."}
+  ]
+}

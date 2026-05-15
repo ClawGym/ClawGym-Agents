@@ -1,0 +1,4 @@
+channels:
+  - handle: "@crashcourse"
+    max_items: 5
+    purpose: "History study videos (latest N only)"

@@ -1,0 +1,60 @@
+/*
+ Desk Vent Controller v0.3 (simplified)
+
+ Notes:
+ - HC-05 wired to pins 0 (RX) and 1 (TX)
+ - BME280 on I2C (A4/A5)
+ - Servo on D9
+ - Fan (motor) via 2N2222 on D3
+ - Button on D7 (wired to +5V, no pulldown)
+*/
+
+//#include <Adafruit_BME280.h> // commented out in this simplified snippet
+#include <Servo.h>
+
+const int ledPin = 13;
+const int servoPin = 9;
+const int motorPin = 3;
+const int buttonPin = 7;
+
+Servo flap;
+
+unsigned long lastPrint = 0;
+
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  pinMode(motorPin, OUTPUT);
+  pinMode(buttonPin, INPUT); // floating when open (wired to +5V without pulldown)
+  flap.attach(servoPin);
+
+  // Baud mismatch risk: Serial Monitor usually at 115200, but code sets 9600
+  Serial.begin(9600);
+  Serial.println("Booting Desk Vent Controller"); // not using F() macro
+}
+
+void loop() {
+  // Toggle LED to show liveness
+  digitalWrite(ledPin, HIGH);
+  delay(500); // blocking delay (problematic)
+  digitalWrite(ledPin, LOW);
+  delay(500); // blocking delay (problematic)
+
+  // Read button
+  int pressed = digitalRead(buttonPin);
+  if (pressed == HIGH) {
+    // Move servo and spin fan briefly
+    flap.write(90);
+    digitalWrite(motorPin, HIGH);
+    Serial.println("Button pressed, moving flap and spinning fan");
+    delay(1000); // blocking delay (problematic)
+    flap.write(0);
+    digitalWrite(motorPin, LOW);
+  }
+
+  // Simulated sensor read (commented out in simplified version)
+  // if (millis() - lastPrint > 2000) {
+  //   lastPrint = millis();
+  //   Serial.print("T=");
+  //   Serial.println(23.5);
+  // }
+}

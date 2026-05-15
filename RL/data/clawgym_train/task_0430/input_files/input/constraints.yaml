@@ -1,0 +1,12 @@
+allowed_days:
+  - Friday
+  - Saturday
+  - Sunday
+allowed_time_ranges:
+  - "18:00-20:00"
+  - "19:00-21:00"
+max_session_length_minutes: 120
+sessions_required: 6
+location_capacity: 18
+session_language: "Arabic (Egyptian colloquial)"
+room_preference: "Community Hall A"

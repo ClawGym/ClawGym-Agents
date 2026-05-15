@@ -1,0 +1,11 @@
+run_id,job_id,run_ts,status,duration_sec,retries,queued_latency_sec
+ingest-20260412-1,ingest_customers,2026-04-12T01:00:00Z,success,130,0,20
+ingest-20260413-1,ingest_customers,2026-04-13T01:00:00Z,success,118,2,40
+ingest-20260414-1,ingest_customers,2026-04-14T01:00:00Z,success,125,1,25
+transform-20260412-1,transform_orders,2026-04-12T02:00:00Z,success,290,0,35
+transform-20260413-1,transform_orders,2026-04-13T02:00:00Z,failed,120,2,50
+transform-20260414-1,transform_orders,2026-04-14T02:00:00Z,success,305,1,30
+train-20260412-1,train_churn_model,2026-04-12T03:00:00Z,success,920,0,45
+train-20260413-1,train_churn_model,2026-04-13T03:00:00Z,success,1300,1,60
+train-20260414-1,train_churn_model,2026-04-14T03:00:00Z,success,890,0,55
+cleanup-20260414-1,ad_hoc_cleanup,2026-04-14T04:30:00Z,success,60,0,10

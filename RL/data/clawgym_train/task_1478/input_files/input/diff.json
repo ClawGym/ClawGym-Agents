@@ -1,0 +1,10 @@
+{
+  "base": "upstream/main",
+  "head": "fix/gateway-telegram-webhook-oauth2",
+  "changedFiles": [
+    "src/gateway/webhooks/telegram/validator.ts",
+    "src/gateway/auth/oauth2.ts",
+    "src/gateway/webhooks/telegram/validator.test.ts",
+    "docs/gateway/telegram-webhooks.md"
+  ]
+}

@@ -1,0 +1,13 @@
+id,university,country,program_name,degree_level,language,tuition_usd,lab_hours_per_week,research_project,scholarship_available,deadline,gpa_min,ielts_min,remarks
+1,Baltic Institute of Science,Latvia,BSc Biochemistry,BSc,English,5800,10,yes,yes,2025-05-15,3.2,5.5,NA
+2,Danube Technical University,Austria,BSc Biochemistry,BSc,English,11000,12,yes,no,2025-04-10,3.5,6.0,Above budget
+3,Andalus European College,Spain,BSc Biochemistry,BSc,English,9000,8,yes,no,2025-02-20,3.4,6.0,Deadline too soon
+4,Rhine Valley University,Germany,BSc Molecular Biology,BSc,English,3000,14,yes,yes,2025-06-01,3.7,6.5,Program not labeled Biochemistry
+5,Sahara Global University,Morocco,BSc Biochemistry,BSc,English,7000,9,yes,yes,2025-03-15,3.0,5.0,NA
+6,Nordic Applied Sciences College,Finland,BSc Biochemistry,BSc,English,10000,11,yes,no,2025-05-01,3.6,6.5,NA
+7,Aegean International University,Greece,BSc Biochemistry,BSc,English,9500,7,no,yes,2025-04-20,3.3,6.0,No research project
+8,Carpathia Metropolitan University,Romania,BSc Biochemistry,BSc,English,8500,13,yes,yes,2025-03-01,3.5,6.0,NA
+9,Black Sea Technical Institute,Turkey,BSc Biochemistry,BSc,English,7800,12,yes,no,2025-03-10,3.2,5.5,NA
+10,Cairo International College,Egypt,BSc Biochemistry,BSc,English,5000,10,yes,yes,2025-08-01,2.8,5.0,In Egypt
+11,Highlands University,United Kingdom,BSc Biochemistry,BSc,English,14000,15,yes,yes,2025-05-30,3.2,6.0,Above budget
+12,Casablanca Polytechnic,Morocco,BSc Biochemistry,BSc,French,4000,9,yes,yes,2025-04-05,3.0,5.0,Not taught in English

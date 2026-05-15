@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sprint Contract",
+    "slug": "sprint-contract",
+    "version": "1.0.0",
+    "description": "Multi-agent development workflow with Sprint Contracts and independent QA evaluator.",
+    "category": "workflow",
+    "homepage": "https://skillhub.ai/mrpixelraf/sprint-contract",
+    "download_url": "https://skillhub.ai/api/v1/download?slug=sprint-contract",
+    "tags": ["evaluation", "multi-agent", "qa", "quality", "workflow"]
+  },
+  {
+    "name": "Session Observer",
+    "slug": "session-observer",
+    "version": "1.0.0",
+    "description": "Observe session usage, token consumption, context pressure, and runtime state.",
+    "category": "ai-intelligence",
+    "homepage": "https://skillhub.ai/qsczseasd/session-observer",
+    "download_url": "https://skillhub.ai/api/v1/download?slug=session-observer",
+    "tags": ["monitoring", "session", "tokens", "context"]
+  },
+  {
+    "name": "Skillhub Preference",
+    "slug": "skillhub-preference",
+    "version": "1.0.0",
+    "description": "Policy skill to prefer skillhub for discovery/install/update, fallback to clawhub on no match.",
+    "category": "policy",
+    "homepage": "https://skillhub.ai/pcicq/skillhub-preference",
+    "download_url": "https://skillhub.ai/api/v1/download?slug=skillhub-preference",
+    "tags": ["policy", "registry", "install"]
+  }
+]

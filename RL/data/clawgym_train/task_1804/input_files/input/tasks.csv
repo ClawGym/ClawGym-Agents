@@ -1,0 +1,23 @@
+id,title,effort_points,requires_external_contact,delete_data
+TASK-101,Define sprint goal and success metrics,3,no,no
+TASK-102,Gather and prioritize requirements from stakeholders,5,yes,no
+TASK-103,Risk and constraint analysis,3,no,no
+TASK-104,Draft technical design for Usage Analytics Export feature,5,no,no
+TASK-105,Set up feature flag and backend scaffolding,8,no,no
+TASK-106,Implement API endpoint /exports (backend),8,no,no
+TASK-107,Implement export scheduling worker,5,no,no
+TASK-108,Build UI: Export configuration form,8,no,no
+TASK-109,Build UI: Export history view,5,no,no
+TASK-110,Integrate with S3 and encryption for export files,8,no,no
+TASK-111,QA test plan and test cases,5,no,no
+TASK-112,End-to-end test execution,5,no,no
+TASK-113,Prepare rollout communication draft to beta users,3,yes,no
+TASK-114,Release to staging and internal demo,5,no,no
+TASK-115,Production release checklist and go-live,5,no,no
+TASK-116,Cleanup: remove legacy export cron and temp scripts,3,no,yes
+TASK-117,Cleanup: purge obsolete export artifacts (>90 days),4,no,yes
+TASK-118,Document results and metrics baseline,3,no,no
+TASK-119,Sprint retrospective (team reflection),2,no,no
+TASK-120,Vendor support ticket: confirm S3 lifecycle rules,2,yes,no
+TASK-121,Anonymize and delete sample datasets used during testing,3,no,yes
+TASK-122,Update data retention policy with Legal,3,yes,no

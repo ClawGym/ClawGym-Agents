@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1320",
+  "user_query": "I run a movie blog and need you to turn my rough notes into polished reviews plus a social/publishing package. Read these files: input/notes.csv, input/keywords.txt, input/schedule.yaml, and input/guidelines.md. For each film in input/notes.csv, do the following:\n- Draft a spoiler-safe review of 180–250 words that follows input/guidelines.md (lead with a brief “Spoiler-safe:” line, then hook, then the review body).\n- Create an SEO-friendly headline (6–12 words), a 5-point outline (5 bullet points), a 1–2 sentence opening hook, a single-sentence CTA, and 8–12 hashtags. Distribute the keywords from input/keywords.txt naturally across the set of reviews and headlines.\n- Build a publishing schedule using input/schedule.yaml: assign each film (in CSV order) to the next available matching days-of-week after the start_date at the specified time and timezone.\nDeliver all outputs in these exact files:\n1) output/reviews.json — an array with one object per film using fields: title, year, review_text, headline, outline (array of 5 strings), hook, cta, hashtags (array), scheduled_datetime (ISO 8601 with timezone).\n2) output/schedule.csv — header \"title,scheduled_datetime\" and one row per film that matches the schedule in output/reviews.json.\n3) output/summary.md — a concise overview (English) including: a \"Keyword Coverage\" section mapping which keywords were used for which films, per-review word counts, and any trade-offs you made.\n4) output/hashtags.txt — a de-duplicated list of all hashtags used across the reviews, one per line.\nKeep everything in English and avoid major spoilers; do not copy the raw notes verbatim.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

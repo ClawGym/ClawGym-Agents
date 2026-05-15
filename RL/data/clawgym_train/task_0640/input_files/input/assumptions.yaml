@@ -1,0 +1,9 @@
+property_tax_annual: 7200
+homeowners_insurance_annual: 1500
+hoa_monthly: 95
+analysis_horizon_months: 60
+analysis_horizon_years: 5
+notes: |
+  Use a 5-year horizon for interest comparison.
+  Escrow includes property taxes, homeowners insurance, and HOA dues.
+  Do not model ARM resets; treat the listed interest rate as constant over the first 5 years.

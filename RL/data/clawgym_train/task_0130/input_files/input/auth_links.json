@@ -1,0 +1,5 @@
+{
+  "OpenAI": "https://auth.opencode.dev/openai/start?token=abc123",
+  "Anthropic": "https://auth.opencode.dev/anthropic/start?token=def456",
+  "Google": "https://auth.opencode.dev/google/start?token=ghi789"
+}

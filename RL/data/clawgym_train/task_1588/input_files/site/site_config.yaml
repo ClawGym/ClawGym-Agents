@@ -1,0 +1,6 @@
+site_name: "Shelf Notes"
+nav:
+  - Home: index.md
+  - Fantasy:
+      - Overview: docs/fantasy.md
+# TODO: When dark fantasy reviews are ready, add a "Dark Fantasy" nav group.

@@ -1,0 +1,22 @@
+{
+  "databaseId": 1003,
+  "runAttempt": 1,
+  "workflowName": "deploy-preview",
+  "event": "pull_request",
+  "headBranch": "feature/prefetch-data",
+  "headSha": "abc123def4560003",
+  "conclusion": "failure",
+  "createdAt": "2026-06-03T09:00:00Z",
+  "runStartedAt": "2026-06-03T09:00:10Z",
+  "updatedAt": "2026-06-03T09:10:00Z",
+  "url": "https://github.com/acme/relocation-app/actions/runs/1003/attempts/1",
+  "repository": {
+    "nameWithOwner": "acme/relocation-app"
+  },
+  "actor": {
+    "login": "ci-bot"
+  },
+  "triggeringActor": {
+    "login": "bob"
+  }
+}

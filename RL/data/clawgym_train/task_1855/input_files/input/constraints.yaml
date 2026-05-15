@@ -1,0 +1,64 @@
+policy:
+  change_management:
+    types:
+      - Standard
+      - Normal
+      - Emergency
+    requirements:
+      - "Each production change must have: risk assessment, test evidence, backout plan, approvals"
+      - "Separation of duties: requester ≠ approver ≠ deployer (any two must be distinct; ideal: all three distinct)"
+      - "Change windows defined for Tier 0/1 services; freeze during major events"
+      - "All emergency changes must have post-change review within 2 business days"
+      - "All change records link to commits/builds and include affected services"
+  incident_response:
+    requirements:
+      - "Assign Incident Manager and Comms Lead within 10 minutes of SEV-1 declaration"
+      - "Status page updates every 30 minutes for SEV-1 until resolved"
+      - "Postmortems completed within 5 business days with action items and owners"
+      - "Runbooks required for Tier 0/1; reviewed at least quarterly"
+ethics:
+  principles:
+    - "Minimize harm: prioritize safety and continuity for users and staff"
+    - "Respect privacy: process only necessary personal data; apply data minimization in logs and diagnostics"
+    - "Fairness in on-call: equitable rotations, enforce max shift length and recovery time"
+    - "Transparency: clear customer communication during incidents without blame or deflection"
+    - "No dark launches that collect personal data without explicit review"
+  review:
+    - "Ethics & privacy review required for changes that introduce new logging, telemetry, or data sharing"
+security:
+  controls:
+    - "RBAC for prod systems; least privilege enforced; no shared accounts"
+    - "MFA required for all prod and CI/CD access"
+    - "Approved secrets management only; no secrets in repos or tickets"
+    - "Code signing/verifiable artifacts for deploys to Tier 0/1"
+    - "Alert on certificate expiry; auto-renew where supported"
+    - "Immutable audit trail for change approvals and deployments"
+  approvals:
+    - "Security approval mandatory for high-risk changes and all Emergency changes"
+regulatory:
+  soc2:
+    - "Maintain evidence of change approvals and backout plans for all production changes"
+    - "Demonstrate incident response SLAs and postmortem timeliness"
+  iso27001:
+    - "Documented change control procedure with SoD"
+    - "Access reviews (PagerDuty, CI/CD, prod) quarterly and recorded"
+  gdpr:
+    - "DPIA or privacy review if change affects personal data processing"
+    - "Data minimization in incident diagnostics and exports"
+audit_requirements:
+  - "Retain change and incident records for at least 18 months"
+  - "Time-synced logs (NTP) for accurate timelines"
+  - "Tamper-evident approvals (cryptographic or append-only log)"
+service_tiers:
+  - name: "Tier 0"
+    definition: "Global outage impact; payments/auth/core platform"
+    constraints:
+      - "Canary + automated rollback required"
+      - "Change freeze during peak; CAB quorum required"
+  - name: "Tier 1"
+    definition: "High-impact customer features"
+    constraints:
+      - "Canary strongly recommended; rollback plan mandatory"
+operational_safety:
+  - "Enforce maintenance windows; support rollback rehearsals"
+  - "Live-fire drills at least monthly for Tier 0/1 services"

@@ -1,0 +1,10 @@
+id,topic,category,assigned_to,priority,due_date,status,tags
+AI-001,Update Xanthoria parietina key descriptions,Lichen taxonomy,Anna Pohl,High,2024-11-20,Open,key-revision;poelt
+AI-002,Catalog backlog drawers 3-5,Herbarium curation,Hans Schmid,Medium,2024-12-05,Open,curation;drawers
+AI-003,Draft morphology vs ITS comparison note,Lichen taxonomy,Anna Pohl,Low,2024-11-25,Open,methods;notes
+AI-004,Book transport for January field trip,Field logistics,Logistics Team,High,2025-01-05,Open,field;transport
+AI-005,Rehouse type specimens from Poelt collection,Herbarium curation,Hans Schmid,High,2024-11-28,Blocked,types;storage
+AI-006,Submit herbarium grant report,Grant writing,Coordinator,High,2024-11-30,Open,grant;reporting
+AI-007,Verify Caloplaca s.l. vouchers,Lichen taxonomy,Anna Pohl,Medium,2024-12-15,Open,vouchers;verification
+AI-008,Digitize accession cards,Herbarium curation,Intern Team,Low,2024-12-10,Open,digitization
+AI-009,Standardize exsiccate labels,Herbarium curation,Hans Schmid,High,2024-12-02,Open,labels;standards

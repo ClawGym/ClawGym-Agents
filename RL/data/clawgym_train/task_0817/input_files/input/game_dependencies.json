@@ -1,0 +1,15 @@
+{
+  "project": "StudentGamePrototype",
+  "dependencies": [
+    {"name": "Aether Physics", "version": "1.2.0", "license": "MIT", "source": "Unity Asset Store"},
+    {"name": "Pathfinding Project Pro", "version": "4.3.90", "license": "GPL-3.0-only", "source": "Third-party"},
+    {"name": "FastNoiseLite", "version": "1.1.1", "license": "MIT", "source": "GitHub"},
+    {"name": "XInput.NET", "version": "2.0", "license": "Apache-2.0", "source": "NuGet"},
+    {"name": "JSON.NET", "version": "13.0.1", "license": "MIT", "source": "NuGet"},
+    {"name": "COLine Renderer", "version": "0.9.3", "license": "BSD-2-Clause", "source": "GitHub"},
+    {"name": "Embedded Lua Runtime", "version": "5.3", "license": "LGPL-2.1-or-later", "source": "Third-party"},
+    {"name": "Proprietary Shader Pack", "version": "2024.1", "license": "Proprietary", "source": "Vendor"},
+    {"name": "Vintage Soundfont", "version": "1.0", "license": "CC0-1.0", "source": "Public Domain"},
+    {"name": "Mystery Tool", "version": "0.5", "license": "UNKNOWN", "source": "Unknown"}
+  ]
+}

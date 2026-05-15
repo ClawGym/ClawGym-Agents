@@ -1,0 +1,61 @@
+{
+  "watch_dir": "input/new_reports",
+  "summary_dir": "output/metrics",
+  "emails_dir": "output/emails",
+  "filename_pattern": "bookings_YYYY-MM.csv",
+  "processed_reports": [],
+  "last_processed_month": null,
+  "suppliers": {
+    "SkyHigh Airlines": {
+      "category": "Airline",
+      "contact_email": "deals@skyhigh.example",
+      "current_discount": 6,
+      "volume_thresholds": {
+        "8": 5000,
+        "10": 10000,
+        "12": 15000
+      }
+    },
+    "Metro Air": {
+      "category": "Airline",
+      "contact_email": "partnerships@metroair.example",
+      "current_discount": 8,
+      "volume_thresholds": {
+        "8": 5000,
+        "10": 10000,
+        "12": 15000
+      }
+    },
+    "Coastal Hotels": {
+      "category": "Hotel",
+      "contact_email": "sales@coastalhotels.example",
+      "current_discount": 5,
+      "volume_thresholds": {
+        "7": 4000,
+        "9": 8000,
+        "11": 12000
+      }
+    },
+    "Urban Stays": {
+      "category": "Hotel",
+      "contact_email": "accounts@urbanstays.example",
+      "current_discount": 7,
+      "volume_thresholds": {
+        "7": 4000,
+        "9": 8000,
+        "11": 12000
+      }
+    }
+  },
+  "email_template": {
+    "subject": "Volume summary for {month} and discount proposal",
+    "body": "Hello {supplier},\nOver {month}, our clients booked {bookings} {category_lower} transactions totaling ${revenue} in revenue (avg margin {avg_margin_pct}%). Based on your tier rules, we propose a {proposed_discount}% discount for the upcoming period. Please let us know if we can confirm.\nThanks,\nTravel Partnerships Team"
+  },
+  "trigger": {
+    "min_bookings": 3,
+    "rounding": {
+      "money": 2,
+      "percent": 2
+    }
+  }
+}

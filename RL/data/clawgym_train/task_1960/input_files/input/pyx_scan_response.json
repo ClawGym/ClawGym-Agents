@@ -1,0 +1,32 @@
+{
+  "owner": "fysoul17",
+  "name": "pyx-scan",
+  "recommendation": "safe",
+  "is_outdated": false,
+  "trust_score": 8.7,
+  "risk_score": 2.0,
+  "confidence": 95,
+  "intent": "developer-tools",
+  "status": "active",
+  "summary": "PYX Scan checks AI agent skills against the PYX Scanner service and formats a concise, human-readable safety report. It consistently calls the API at runtime, handles common HTTP and network errors gracefully, and never softens a FAILED verdict. The tool requires network access but does not escalate privileges or modify system state beyond fetching scan results.",
+  "about": {
+    "purpose": "Verify whether an AI agent skill is safe before installation or use by querying the PYX Scanner API.",
+    "capabilities": [
+      "Query PYX Scanner API with owner/name",
+      "Parse JSON response to determine verdict",
+      "Format a markdown report with trust and risk scores",
+      "Handle 404, 429, 5xx, and network failures gracefully"
+    ],
+    "permissions_required": [
+      "Network access to https://scanner.pyxmate.com",
+      "Ability to render markdown output"
+    ],
+    "security_notes": "Does not execute external code or install untrusted skills; outputs are purely informational."
+  },
+  "detail_url": "https://scanner.pyxmate.com/report/fysoul17/pyx-scan",
+  "badge_url": "https://scanner.pyxmate.com/badge/fysoul17/pyx-scan.svg",
+  "scanned_commit": "abc123def456",
+  "latest_commit": "abc123def456",
+  "last_safe_commit": "abc123def456",
+  "timestamp": "2026-04-15T10:32:00Z"
+}

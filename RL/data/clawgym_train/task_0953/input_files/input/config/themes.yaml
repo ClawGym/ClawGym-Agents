@@ -1,0 +1,7 @@
+themes:
+  healthcare_capacity:
+    keywords: ["hospital", "ICU", "ventilator", "bed", "PPE", "nurse", "capacity"]
+  governance_measures:
+    keywords: ["executive order", "emergency", "governor", "mandate", "budget", "oversight", "relief", "order", "legislature"]
+  media_framing:
+    keywords: ["narrative", "coverage", "anchor", "rating", "segment", "spin", "headline", "media", "cable", "talk show"]

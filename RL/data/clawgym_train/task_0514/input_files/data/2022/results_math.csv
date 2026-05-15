@@ -1,0 +1,5 @@
+school_id,school_name,method,year,students_tested,avg_score,median_score
+S101,School Alpha,Project-Based Learning,2022,60,72,73
+S102,School Beta,Traditional,2022,45,69,69
+S103,School Gamma,Flipped Classroom,2022,32,75,74
+S104,School Delta,Traditional,2022,28,64,63

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /products/
+Disallow: /private/
+Disallow: /admin/
+Sitemap: https://shop1.test/sitemap.xml

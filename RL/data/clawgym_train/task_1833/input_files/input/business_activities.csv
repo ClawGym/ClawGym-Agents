@@ -1,0 +1,11 @@
+Activity,CurrentApproach,CurrentPartner(s),PartnerType,Importance,InternalCapability,AnnualSpendUSD,Alternatives
+"Industrial Design & UX","In-house","","Internal team","High","Strong",1200000,"IDEO; Fjord; Lunar"
+"Cloud Backend & Device Telemetry","Partnership","NimbusCloud","Cloud provider","High","Medium",900000,"Azure IoT Hub; AWS IoT Core; StratusIoT"
+"Mobile App Development (iOS/Android)","In-house","","Internal team","High","Medium",1000000,"WillowTree; Thoughtworks; Globant"
+"Machine Learning for Demand Response","Partnership","GridSense Analytics","Energy analytics partner","High","Weak",750000,"AutoGrid; Uplight; In-house R&D"
+"Thermostat Hardware Manufacturing (PCBA)","Outsource","Taiyo Electronics; FlexiBuild","Contract manufacturer","High","Weak",8500000,"Jabil; Foxlink"
+"Temperature/Humidity Sensor Module","Transactional","ThermoSense Co.","Component supplier","Medium","Weak",1100000,"Sensirion; Honeywell; TE Connectivity"
+"Firmware Development (Embedded)","In-house","","Internal team","High","Medium",2200000,"Witekio; Toradex Services"
+"Customer Support & RMA Logistics","Outsource","HelpHub BPO","BPO provider","Medium","Medium",2000000,"Teleperformance; TaskUs; In-house team"
+"Retail Distribution & Channel Sales","Partnership","HomePro Retail; ElectroMart","Retail channel partner","Medium","Weak",3500000,"Amazon; Best Buy; Direct-to-Consumer"
+"Utility Rebates & Energy Program Integration","Partnership","Midwest Energy Alliance","Utility program aggregator","High","Weak",400000,"CLEAResult; Sealed; Direct utility partnerships"

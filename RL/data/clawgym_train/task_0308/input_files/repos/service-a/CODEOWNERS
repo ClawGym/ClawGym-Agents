@@ -1,0 +1,6 @@
+# CODEOWNERS for service-a
+/docs/ @corp-tools
+/src/payments/ @payments-foundation
+/src/mobile/ @mobile-eng
+/src/core/ @core-platform
+/ @core-platform

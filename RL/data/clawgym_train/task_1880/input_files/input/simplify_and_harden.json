@@ -1,0 +1,68 @@
+{
+  "window_days": 30,
+  "candidates": [
+    {
+      "pattern_key": "config.package_manager.pnpm",
+      "title": "Use pnpm in this repo",
+      "occurrence": {
+        "date": "2026-03-30",
+        "task": "ci-setup",
+        "notes": "CI failed due to 'npm install' on a pnpm workspace.",
+        "related_correlation_ids": ["pkgmgr-20260330-01"]
+      },
+      "suggested_rule": "Package manager: pnpm — use 'pnpm install' and 'pnpm run ...'; never use 'npm install' in this repo."
+    },
+    {
+      "pattern_key": "config.package_manager.pnpm",
+      "title": "Use pnpm in this repo",
+      "occurrence": {
+        "date": "2026-04-02",
+        "task": "monorepo-onboarding",
+        "notes": "New contributor used npm; lockfile mismatch occurred.",
+        "related_correlation_ids": ["pkgmgr-20260402-02"]
+      },
+      "suggested_rule": "Package manager: pnpm — use 'pnpm install' and 'pnpm run ...'; never use 'npm install' in this repo."
+    },
+    {
+      "pattern_key": "config.package_manager.pnpm",
+      "title": "Use pnpm in this repo",
+      "occurrence": {
+        "date": "2026-04-15",
+        "task": "dependency-upgrade",
+        "notes": "package-lock.json added accidentally; pnpm-lock.yaml is authoritative.",
+        "related_correlation_ids": ["pkgmgr-20260415-01"]
+      },
+      "suggested_rule": "Package manager: pnpm — use 'pnpm install' and 'pnpm run ...'; never use 'npm install' in this repo."
+    },
+    {
+      "pattern_key": "harden.network.timeouts",
+      "title": "Set timeouts and retries on external HTTP calls",
+      "occurrence": {
+        "date": "2026-04-10",
+        "task": "payments-api-integration",
+        "notes": "Intermittent API stalls without client timeouts."
+      },
+      "suggested_rule": "Default HTTP client timeout to 5–10s and exponential backoff retries (x3) for idempotent operations."
+    },
+    {
+      "pattern_key": "harden.network.timeouts",
+      "title": "Set timeouts and retries on external HTTP calls",
+      "occurrence": {
+        "date": "2026-04-14",
+        "task": "billing-webhook",
+        "notes": "Webhook worker hung due to no read timeout."
+      },
+      "suggested_rule": "Default HTTP client timeout to 5–10s and exponential backoff retries (x3) for idempotent operations."
+    },
+    {
+      "pattern_key": "config.python.poetry",
+      "title": "Use Poetry for Python services with Python 3.11",
+      "occurrence": {
+        "date": "2026-04-01",
+        "task": "reporting-service-setup",
+        "notes": "Engineer attempted pip; project is standardized on Poetry and Python 3.11."
+      },
+      "suggested_rule": "For Python services run 'poetry install' and use the local .venv; Python 3.11 is required."
+    }
+  ]
+}

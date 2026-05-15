@@ -1,0 +1,8 @@
+vendor_id,vendor_name,categories_supported,hourly_rate,rating,active
+V001,CoolAir LLC,HVAC;Electrical,150,4.5,Y
+V002,Spark Masters,Electrical,120,4.8,Y
+V003,PipePros,Plumbing,110,4.2,Y
+V004,GreenScape,Landscaping,90,4.6,Y
+V005,Elite Maintenance,HVAC;Plumbing;Electrical,180,4.9,N
+V006,Desert Hands,Landscaping;Plumbing,95,4.0,Y
+V007,CityFix,HVAC;Electrical;Plumbing,140,4.3,Y

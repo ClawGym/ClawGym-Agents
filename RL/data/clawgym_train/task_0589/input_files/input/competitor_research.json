@@ -1,0 +1,103 @@
+{
+  "name": "Pipedrive",
+  "website": "https://www.pipedrive.com/",
+  "positioning": "Sales-focused CRM with visual pipelines and activity-based selling",
+  "target_audience": "SMB and mid-market sales teams, SDR-heavy orgs, deal-driven workflows",
+  "pricing_model": "per-seat, monthly or annual",
+  "free_tier": {
+    "available": false,
+    "trial": "14-day free trial"
+  },
+  "starter_price": 14.90,
+  "business_price": 49.90,
+  "enterprise": "custom",
+  "pricing_notes": "Public pricing typically lists multiple tiers (e.g., Essential, Advanced, Professional, Power, Enterprise). Add-ons such as LeadBooster (web forms, chatbots, prospector) are priced separately. Verify current pricing on the official site.",
+  "features": {
+    "pipeline_management": {
+      "rating": 5,
+      "notes": "Best-in-class visual pipelines with drag-and-drop and activity-based methodology"
+    },
+    "activity_tracking": {
+      "rating": 5,
+      "notes": "Strong task, call, and meeting tracking with reminders and goals"
+    },
+    "automation": {
+      "rating": 4,
+      "notes": "Workflow automation available; deeper automation in higher tiers"
+    },
+    "reporting_analytics": {
+      "rating": 4,
+      "notes": "Customizable dashboards and reports; advanced insights unlocked at higher tiers"
+    },
+    "email_sync_templates": {
+      "rating": 4,
+      "notes": "Two-way email sync, templates, and tracking; some limits depend on tier"
+    },
+    "forecasting": {
+      "rating": 4,
+      "notes": "Weighted forecasts and revenue projections; stronger in professional+ tiers"
+    },
+    "integrations_marketplace": {
+      "rating": 5,
+      "notes": "Large marketplace with many third-party integrations"
+    },
+    "mobile_app": {
+      "rating": 4,
+      "notes": "Mature iOS/Android apps with offline capabilities for core objects"
+    },
+    "permissions_security": {
+      "rating": 4,
+      "notes": "Role-based permissions and team visibility, with more controls at higher tiers"
+    },
+    "support": {
+      "rating": 4,
+      "notes": "Knowledge base, chat support; SLAs and priority support vary by tier"
+    }
+  },
+  "strengths": [
+    "Excellent visual pipeline and deal management",
+    "Activity-based selling keeps reps focused on next best action",
+    "Robust integrations marketplace and ecosystem",
+    "Mature mobile experience for on-the-go sales",
+    "Predictable per-seat packaging across multiple tiers"
+  ],
+  "weaknesses": [
+    "Add-ons (e.g., lead capture/chatbots) increase total cost",
+    "Some advanced automation/reporting features require higher tiers",
+    "Can feel complex/busy for very small teams who want only essentials",
+    "Marketing automation comparatively limited vs marketing-first suites"
+  ],
+  "best_for": [
+    "Sales-led SMBs and mid-market teams with SDR/AE motions",
+    "Organizations that want deep pipeline customization and forecasts",
+    "Teams investing in a broad integration ecosystem"
+  ],
+  "not_ideal_for": [
+    "Very small teams wanting a minimal, low-admin CRM",
+    "Non-sales users who prefer simplified, pre-configured workflows",
+    "Teams seeking built-in, advanced marketing automation in a single tool"
+  ],
+  "common_complaints": [
+    "“Costs climb with seats and required add-ons for lead capture”",
+    "“Advanced features gated to higher tiers increase TCO”",
+    "“Interface feels busy as data and automations grow”",
+    "“Limited native marketing automation; need extra tools”"
+  ],
+  "migration_from": {
+    "difficulty": "medium",
+    "what_transfers": [
+      "Contacts",
+      "Organizations",
+      "Deals",
+      "Activities (calls/meetings/tasks)",
+      "Notes (via CSV/API)"
+    ],
+    "what_doesnt": [
+      "Automations/workflows (must be rebuilt)",
+      "Email templates/signatures",
+      "Custom reports and dashboards"
+    ],
+    "time_estimate": "1–3 days for small teams (5–20 users) depending on customizations"
+  },
+  "research_notes": "Information compiled from public product pages, documentation, and user review themes. Always verify current pricing/features."
+}

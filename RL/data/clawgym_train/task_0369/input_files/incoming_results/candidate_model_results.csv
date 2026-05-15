@@ -1,0 +1,13 @@
+study_id,task,domain,dataset_name,model_name,metric_name,fold,seed,value
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,Accuracy,1,1,0.882
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,F1,1,1,0.861
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,AUROC,1,1,0.934
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,Accuracy,2,1,0.889
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,F1,2,1,0.868
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,AUROC,2,1,0.941
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,Accuracy,1,2,0.874
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,F1,1,2,0.852
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,AUROC,1,2,0.928
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,Accuracy,2,2,0.881
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,F1,2,2,0.860
+PDX-2026-04,binary_classification,medical imaging - histopathology,CancerDx-v2,PostdocNet,AUROC,2,2,0.936

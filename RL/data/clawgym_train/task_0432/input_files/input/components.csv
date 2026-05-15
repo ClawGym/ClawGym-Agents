@@ -1,0 +1,13 @@
+component,search_terms,category
+Button,button,controls
+Modal Dialog,dialog modal,feedback
+Tooltip,tooltip,help
+Tabs,tabs tablist navigation,navigation
+Dropdown Menu,menu dropdown,navigation
+Text Input,text input form,forms
+Checkbox,checkbox form control,forms
+Radio Group,radio group form control,forms
+Date Picker,date picker combobox calendar,forms
+Progress Bar,progress bar status,feedback
+Toast Notification,alert toast live region,feedback
+Breadcrumbs,breadcrumb navigation,navigation

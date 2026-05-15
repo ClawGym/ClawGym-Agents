@@ -1,0 +1,14 @@
+Subject: Weekly rehearsal check-in — {{rehearsal_date}}
+
+Hi love,
+
+I put together this week's rehearsal snapshot:
+- When: {{rehearsal_date}} {{start_time}}–{{end_time}}
+- Where: {{location}}
+- Songs ({{total_songs}} total, {{new_songs_count}} new): {{song_list}}
+
+Heads-up on my schedule: {{conflicts_summary}}
+
+No pressure from me—just proud of your dedication and how you lead the team. If you'd like me to prep lyric sheets or cue card mockups, say the word.
+
+— {{sender_name}}

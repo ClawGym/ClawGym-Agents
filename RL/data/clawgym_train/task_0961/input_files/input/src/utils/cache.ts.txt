@@ -1,0 +1,44 @@
+/**
+ * Non-critical utility: in-memory/local cache helpers
+ * Contains intentional error-handling anti-patterns for audit and auto-fix:
+ * - EMPTY_CATCH (critical): swallow JSON.parse errors
+ * - NO_LOGGING_IN_CATCH (high): catch block with no logging
+ */
+
+const logger = {
+  error: (...args: any[]) => console.error(...args),
+  warn: (...args: any[]) => console.warn(...args),
+  info: (...args: any[]) => console.log(...args)
+};
+
+// Simulated storage for server-side environment
+const store = new Map<string, string>();
+
+export function getFromCache<T = any>(key: string): T | null {
+  try {
+    const raw = store.get(key);
+    return raw ? (JSON.parse(raw) as T) : null;
+  } catch (error) {
+    // Anti-pattern: EMPTY_CATCH — parse failures are invisible
+  }
+  return null;
+}
+
+export function setCache<T = any>(key: string, value: T): void {
+  try {
+    const str = JSON.stringify(value);
+    store.set(key, str);
+  } catch (error) {
+    // Anti-pattern: NO_LOGGING_IN_CATCH — quota/serialization issues not logged
+    // leaving as-is for auto-fix to add logger.error(...)
+  }
+}
+
+export function warmCache(keys: string[]): void {
+  // benign function to illustrate context
+  keys.forEach((k) => {
+    if (!store.has(k)) {
+      store.set(k, JSON.stringify({ hydrated: true }));
+    }
+  });
+}

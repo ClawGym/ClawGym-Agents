@@ -1,0 +1,9 @@
+payment_id,order_id,paid_at,currency,amount,status
+P-1,O-1001,2024-01-01,USD,120.00,captured
+P-2,O-1002,2024-01-01,EUR,85.00,captured
+P-3,O-1003,2024-01-02,USD,30.00,captured
+P-4,O-1003,2024-01-02,USD,30.00,captured
+P-5,O-1004,2024-01-03,EUR,100.00,captured
+P-6,O-1004,2024-01-03,EUR,100.00,failed
+P-7,O-1005,2024-01-04,USD,49.99,captured
+P-8,O-1005,2024-01-03,USD,49.99,pending

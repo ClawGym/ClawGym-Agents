@@ -1,0 +1,17 @@
+Scope,Subcategory,tCO2e
+Scope 1,Stationary Combustion,1450
+Scope 1,Mobile Combustion,720
+Scope 1,Refrigerants (Fugitive Emissions),180
+Scope 2,Location-based,8100
+Scope 2,Market-based,3400
+Scope 3,Category 1 - Purchased goods and services,72000
+Scope 3,Category 2 - Capital goods,5800
+Scope 3,Category 3 - Fuel- and energy-related activities,1900
+Scope 3,Category 4 - Upstream transportation and distribution,5600
+Scope 3,Category 5 - Waste generated in operations,850
+Scope 3,Category 6 - Business travel,620
+Scope 3,Category 7 - Employee commuting,460
+Scope 3,Category 9 - Downstream transportation and distribution,2700
+Scope 3,Category 11 - Use of sold products,51000
+Scope 3,Category 12 - End-of-life treatment of sold products,4200
+Scope 3,Category 15 - Investments,0

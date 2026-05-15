@@ -1,0 +1,36 @@
+DocuFlux Status Summary — FluxExtract
+Reporting window: 2025-04-01 to 2026-03-31
+
+SLA target: 99.5% monthly uptime
+
+- Last 90 days uptime: 99.83%
+- Last 12 months uptime: 99.72%
+- Planned maintenance windows: First Saturday monthly, 02:00–04:00 UTC (typical downtime < 10 minutes; notification ≥ 72 hours)
+
+Notable Incidents:
+1) 2026-03-12 — EU region outage — 44 minutes
+   Cause: AWS eu-west-1 networking issue. Mitigation: Introduced cross-region failover for inference layer (active-passive).
+   Impact: 18% of EU tenant requests failed. Postmortem published 2026-03-15.
+
+2) 2025-11-21 — Partial service degradation — ~2 hours
+   Cause: Misconfigured deployment of feature flag in ingestion service.
+   Impact: Elevated latency and 12% request errors in US region. Rollback in 27 minutes; full recovery in 2 hours.
+   Action: Added pre-deploy smoke tests; tightened change management approvals.
+
+3) 2025-07-05 — Ingestion delays — 18 minutes
+   Cause: Kafka consumer lag due to burst traffic above autoscaling threshold.
+   Impact: Processing delays up to 12 minutes; no data loss reported.
+   Action: Increased autoscaling headroom; added rate limiting on bursty endpoints.
+
+Resilience & DR:
+- RTO: 4 hours; RPO: 1 hour
+- Backups: Encrypted S3, daily snapshots; tested quarterly restores
+- Multi-region: Active in primary region with warm standby in paired region; failover exercises semi-annually (next due 2026-06)
+
+Support & Escalation:
+- Support hours: 24x7 for P1; 9x5 regional for P2/P3
+- Initial response targets: P1 = 1 hour, P2 = 4 hours, P3 = 1 business day
+
+Known limitations:
+- SLA credits are sole and exclusive remedy; see contract terms for details.
+- Third-party cloud provider outages are excluded from SLA calculations.

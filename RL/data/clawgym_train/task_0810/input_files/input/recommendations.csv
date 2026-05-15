@@ -1,0 +1,5 @@
+client_name,client_email,dog_name,dog_weight_lb,product_name,brand,brand_domain,category,dosage_note
+Maria Lopez,maria.lopez@example.com,Biscuit,22,Allergy Immune Bites,Zesty Paws,zestypaws.com,supplement,Give 1 chew per 25 lb daily.
+James Wu,james.wu@example.com,Riley,65,Sensitive Skin & Stomach Salmon & Rice,Purina Pro Plan,purina.com,food,Start at 75% current food for 3 days, then increase per bag chart.
+Priya N.,priya.n@example.com,Kona,48,Gently Cooked Beef Recipe,Open Farm,openfarmpet.com,food,Transition over 7 days; split daily portion into two meals.
+Alex Grant,alex.grant@example.com,Moose,90,Dasuquin Advanced Chewable Tablets,Nutramax,nutramaxlabs.com,supplement,1 tablet per 50 lb twice daily for 4–6 weeks, then maintenance.

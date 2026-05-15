@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0689",
+  "user_query": "I’ve recorded an IMU calibration session covering a wide range of orientations. Please calibrate the magnetometer from the session and document your work.\n\nInputs:\n- Read input/imu_session.csv (columns: ts, ax, ay, az, gx, gy, gz, mx, my, mz). Use the data as-is.\n\nDeliverables (write all files under output/):\n1) output/calibration.json — JSON with numeric fields:\n   { \"Sm\": [[...],[...],[...]], \"h\": [h1,h2,h3] }\n   where Sm is a 3x3 soft-iron matrix and h is a 3-element hard-iron offset vector.\n2) output/calibrated_mags.csv — the first 200 calibrated magnetometer samples using your Sm and h, with header \"mx,my,mz\" (no extra columns). Calibrate via: m_cal = Sm @ (m_raw - h).\n3) output/metrics.json — before/after metrics computed over the entire session, with these fields:\n   - raw_norm_mean, raw_norm_std\n   - cal_norm_mean, cal_norm_std\n   - frac_within_0p9_1p1_before, frac_within_0p9_1p1_after\n   Norms are Euclidean norms of (mx,my,mz) before and after calibration.\n4) output/report.md — a concise technical report explaining your calibration approach, assumptions, and sanity checks. Include a short code snippet showing how to apply Sm and h to new magnetometer measurements.\n5) output/README.md — quick instructions on how to reproduce your metrics from the inputs and your calibration parameters.\n\nRequirements:\n- Do not hardcode constants; compute from the data.\n- Ensure all arrays/matrices are numeric (no NaNs/strings) and shapes are correct.\n- Validate your calibration by showing the post-calibration magnetometer norms are closer to a unit sphere than the raw data (lower std and a higher fraction within [0.9, 1.1]).\n- Use sensible tolerances and clearly state any assumptions in the report.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

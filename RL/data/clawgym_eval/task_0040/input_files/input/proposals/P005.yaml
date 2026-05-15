@@ -1,0 +1,13 @@
+id: P005
+title: "AR Training for New Hires"
+department: HR/Training
+capex_usd: 150000
+estimated_annual_benefit_usd: 100000
+readiness_score: 5
+risk_score: 6
+owner: "Ethan Lee"
+pilot_site: "Training Center"
+timeline_quarters: 3
+dependencies:
+  - "AR content development"
+  - "Headset procurement"

@@ -1,0 +1,7 @@
+Use concise commit messages in imperative mood
+Default to UTC for all timestamps and logs
+Prefer Markdown tables for structured summaries
+Keep bullet lists under 7 items unless necessary
+When uncertain, ask one clarifying question
+Always include action items at the end of reports
+Avoid absolute paths; use workspace-relative paths

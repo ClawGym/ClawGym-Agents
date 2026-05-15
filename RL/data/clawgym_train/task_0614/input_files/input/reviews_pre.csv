@@ -1,0 +1,25 @@
+review_id,platform,date,version,rating,title,body,language
+PREA001,Android,2026-03-01,v5.2.0,2,"Battery drain overnight","Battery drains 20% overnight even when I force stop. Phone gets warm.",en
+PREA002,Android,2026-03-02,v5.2.0,1,"Phone getting hot","After last update, overheating and battery drain in background.",en
+PREA003,Android,2026-03-03,v5.2.0,3,"Login is slow","Sign in takes 20 seconds and two-factor code sometimes times out.",en
+PREA004,Android,2026-03-04,v5.2.0,5,"Great widgets","Love the new home screen widgets. Smooth overall.",en
+PREA005,Android,2026-03-05,v5.2.0,3,"Playback stutters","Audio stutters every few minutes on Bluetooth speaker.",en
+PREA006,Android,2026-03-06,v5.2.0,5,"Smooth performance","App runs smooth on my Pixel 6. No crashes.",en
+PREA007,Android,2026-03-07,v5.2.0,2,"Downloads slow","Offline downloads crawl at 200KB/s on Wi‑Fi.",en
+PREA008,Android,2026-03-08,v5.2.0,3,"Still battery drain","Battery better than before but still draining faster than other apps.",en
+PREA009,Android,2026-03-10,v5.2.0,4,"UI improvements","Navigation makes more sense now.",en
+PREA010,Android,2026-03-12,v5.2.0,2,"2FA loop","Two-factor loop asks for code twice, then fails login.",en
+PREA011,Android,2026-03-11,v5.2.0,2,"Battery drain after update","Background drain since v5.2.0. Please fix.",en
+PREI001,iOS,2026-03-01,v5.2.0,3,"Playback lag","Video buffers a lot on cellular.",en
+PREI002,iOS,2026-03-02,v5.2.0,4,"Works fine","Does what I need.",en
+PREI003,iOS,2026-03-04,v5.2.0,2,"Audio out of sync","Lip sync is off on AirPods.",en
+PREI004,iOS,2026-03-05,v5.2.0,3,"Apple Pay slow","Payment screen takes forever to load.",en
+PREI005,iOS,2026-03-06,v5.2.0,5,"Love it","Great app, sleek UI.",en
+PREI006,iOS,2026-03-07,v5.2.0,3,"Downloads could be faster","Offline downloads slower than expected.",en
+PREI007,iOS,2026-03-08,v5.2.0,4,"Solid performance","No major issues.",en
+PREI008,iOS,2026-03-09,v5.2.0,2,"Login sometimes fails","Two-factor code not accepted on first try.",en
+PREI009,iOS,2026-03-10,v5.2.0,4,"Widgets helpful","New widgets are handy.",en
+PREI010,iOS,2026-03-12,v5.2.0,3,"Battery ok","Battery usage is average.",en
+PREI011,iOS,2026-03-13,v5.2.0,4,"No crashes","Stable for me.",en
+PREI012,iOS,2026-03-14,v5.2.0,3,"Notification delay","Push alerts arrive a bit late.",en
+PREI013,iOS,2026-03-03,v5.2.0,3,"Restore works","Subscription restore worked after retry.",en

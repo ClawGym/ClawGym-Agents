@@ -1,0 +1,8 @@
+{
+  "input_csv": "input/data/vetsera_events.csv",
+  "output_path": "output/timeline.json",
+  "date_format": "%Y-%m-%d",
+  "date_field": "date",
+  "title_field": "title",
+  "notes_field": "notes"
+}

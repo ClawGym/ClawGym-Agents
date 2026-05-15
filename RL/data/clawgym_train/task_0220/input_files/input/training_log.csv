@@ -1,0 +1,15 @@
+date,activity,type,duration_min,grade,notes,completed
+2026-03-01,Bouldering,gym,90,V2-V3,"Felt good on slab.",true
+2026-03-02,Hangboard,hangboard,10,-,"Short set; elbows ok.",true
+2026-03-03,Rest,rest,0,-,"Recovery.",true
+2026-03-04,Bouldering,gym,75,V3,"Worked on overhangs.",true
+2026-03-05,Technique drills,drills,60,-,"Footwork ladders.",true
+2026-03-06,Outdoor Bouldering,outdoor,120,V4,"First V4 sent!",true
+2026-03-07,Rest,rest,0,-,"Walk + mobility.",true
+2026-03-08,Bouldering,gym,80,V3,"Consistency.",true
+2026-03-09,Hangboard,hangboard,8,-,"Tired.",true
+2026-03-10,Rest,rest,0,-,"Recovery.",true
+2026-03-11,Bouldering,gym,70,V3-V4,"Nearly topped V4.",true
+2026-03-12,Technique drills,drills,50,-,"Flagging practice.",true
+2026-03-13,Outdoor Bouldering,outdoor,110,V4,"Repeat send.",true
+2026-03-14,Rest,rest,0,-,"Stretching.",true

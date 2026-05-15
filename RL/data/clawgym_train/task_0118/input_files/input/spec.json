@@ -1,0 +1,27 @@
+{
+  "vault": "Product Notes",
+  "notes": [
+    {
+      "name": "Project Atlas",
+      "initial_content": "# Project Atlas\n\nSummary: Launch a new cross-platform notes system.\n\n## Goals\n- Clear folder structure\n- Consistent properties",
+      "move_to_path": "Projects/Project Atlas.md",
+      "properties": [
+        { "name": "type", "value": "project" },
+        { "name": "status", "value": "active" }
+      ],
+      "appends": [
+        "## Tasks\n- [ ] Kickoff meeting scheduled",
+        "## Links\n[[Atlas Overview]]"
+      ]
+    },
+    {
+      "name": "Atlas Overview",
+      "initial_content": "# Atlas Overview\n\nThis page summarizes the Atlas project.\n\nSee also: [[Project Atlas]]",
+      "move_to_path": "Projects/Atlas/Overview.md",
+      "properties": [
+        { "name": "type", "value": "doc" }
+      ],
+      "appends": []
+    }
+  ]
+}

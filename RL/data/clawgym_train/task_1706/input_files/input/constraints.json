@@ -1,0 +1,25 @@
+{
+  "headline_min": 5,
+  "outline_min": 4,
+  "hashtags_min": 8,
+  "hashtags_must_include": ["#serverless"],
+  "meta_description_max_chars": 160,
+  "hooks_require_digit": true,
+  "tone_options": ["approachable", "authoritative"],
+  "translation_required": ["es", "de"],
+  "extra_languages_allowed": ["fr", "ja"],
+  "schedule_unique": true,
+  "schedule_timezone": "UTC",
+  "cta_keywords": ["guide", "checklist", "report"],
+  "seo": {
+    "recommended_density_range": { "min": 0.8, "max": 1.5 }
+  },
+  "compliance": {
+    "avoid_terms": [],
+    "prefer_terms": ["serverless", "functions", "event-driven"]
+  },
+  "brand": {
+    "name": "NimbusStack",
+    "tagline": "Operate serverless at scale"
+  }
+}

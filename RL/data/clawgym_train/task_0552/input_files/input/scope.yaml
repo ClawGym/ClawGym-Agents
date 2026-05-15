@@ -1,0 +1,54 @@
+version: 1
+assessment:
+  name: Q2 Internal Recon – Subdomain Enumeration
+  id: AUTH-ACME-2026-0417-EN
+  window:
+    start: 2026-04-17T09:00:00Z
+    end: 2026-04-18T09:00:00Z
+owner:
+  organization: Acme Example, Inc.
+  contact:
+    name: Dana Ruiz
+    role: CISO
+    email: security@acme-example.com
+    phone: "+1-415-555-0114"
+scope:
+  root_domain: acme-example.com
+  in_scope:
+    - acme-example.com
+    - "*.acme-example.com"
+  out_of_scope:
+    - acme-example.net
+    - "*.acme-example.net"
+    - acme-example.org
+    - "*.acme-example.org"
+    - "*.zendesk.com"       # third-party support platform
+    - "*.statuspage.io"     # third-party status pages
+    - mailchimp.com         # third-party marketing platform
+  rules_of_engagement:
+    allowed_techniques:
+      - passive_dns
+      - certificate_transparency
+      - dns_bruteforce_wordlist
+      - http_title_probe           # HEAD/GET only, no auth, no forms
+    disallowed_techniques:
+      - port_scanning
+      - vulnerability_scanning
+      - auth_bypass_or_account_takeover
+      - stress_testing_or_dos
+      - invasive_crawling_or_bruteforce
+    network_safety:
+      dns_rate_limit_rps: 2
+      http_rate_limit_rps: 1
+      max_parallel_requests: 5
+    data_handling:
+      - Do not collect or store PII beyond hostnames and IP addresses
+      - Do not capture page bodies beyond HTTP titles for identification
+    reporting_requirements:
+      - Save full raw enumeration once to output/raw/subdomains.json
+      - Derive active.csv from raw only; no manual additions
+      - Include QA checks and human-readable report per task instructions
+notes:
+  - Only enumerate subdomains of the in-scope root domain.
+  - Respect legal and ethical constraints detailed in authorization.txt.
+  - If ambiguity arises, treat target as out of scope and escalate to contact above.

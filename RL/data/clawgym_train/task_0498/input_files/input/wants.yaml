@@ -1,0 +1,33 @@
+queries:
+  - tag: "PPM_mono_1st"
+    query: "Beatles Please Please Me UK mono first press PMC 1202 -1N -1N"
+  - tag: "WhiteAlbum_mono_toploader"
+    query: "Beatles White Album UK mono top loader -1 -1 PMC 7067"
+  - tag: "Revolver_mono_1st"
+    query: "Beatles Revolver UK mono first press PMC 7009 -1 -1"
+  - tag: "Export_CPCS101"
+    query: "Beatles Export CPCS 101 UK stereo first press"
+  - tag: "SgtPepper_mono_1st"
+    query: "Beatles Sgt. Pepper UK mono first press PMC 7027"
+domain_priority:
+  discogs.com: 3
+  popsike.com: 2
+  ebay.com: 1
+keyword_weights:
+  UK: 2
+  mono: 3
+  "first press": 5
+  "first pressing": 5
+  "top loader": 3
+  "-1": 2
+  "-1N": 2
+  PMC: 2
+  "PMC 1202": 4
+  "PMC 7009": 4
+  "PMC 7027": 4
+  "CPCS 101": 4
+max_results_per_query: 20
+price_penalty_per_currency_unit:
+  GBP: 0.01
+  USD: 0.012
+  EUR: 0.011

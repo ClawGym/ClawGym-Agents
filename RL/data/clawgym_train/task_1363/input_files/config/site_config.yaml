@@ -1,0 +1,18 @@
+site_name: "On The Beat"
+author:
+  display_name: "Uncle Ray"
+drafts_dir: "output/drafts"
+research_dir: "output/research"
+default_tags:
+  - "jazz"
+  - "family"
+  - "mentorship"
+nephew_name: "Sam"
+first_instrument: "alto saxophone"
+first_introduced_song: "Take Five"
+front_matter:
+  category: "Reflections"
+preferred_citation: "domain-title"
+min_sources: 2
+tone_guide: |
+  Warm, conversational, encouraging. Avoid jargon unless briefly explained. Write like a musician speaking to a young family member.

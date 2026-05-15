@@ -1,0 +1,6 @@
+daily_time: "06:00"
+top_n: 5
+output_dir: "output/run"
+source_tip_glob: "input/tips/*.csv"
+source_html_dir: "input/discipline_snapshots"
+state_file: "state/processed_tip_ids.json"

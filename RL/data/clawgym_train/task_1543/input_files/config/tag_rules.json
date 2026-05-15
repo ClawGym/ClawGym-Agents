@@ -1,0 +1,9 @@
+{
+  "category": ["beliefs", "motivation", "mindset", "values"],
+  "tag_synonyms": {
+    "growth mindset": "growth-mindset",
+    "fixed mindset": "fixed-mindset",
+    "self-judgment": "self-criticism",
+    "belief": "beliefs"
+  }
+}

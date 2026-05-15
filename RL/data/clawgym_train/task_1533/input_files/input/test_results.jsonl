@@ -1,0 +1,15 @@
+{"project_id":"P-101","run_id":"r1","true_positives":120,"false_positives":15,"false_negatives":30,"avg_latency_ms":210}
+{"project_id":"P-101","run_id":"r2","true_positives":140,"false_positives":20,"false_negatives":25,"avg_latency_ms":195}
+{"project_id":"P-101","run_id":"r3","true_positives":130,"false_positives":18,"false_negatives":28,"avg_latency_ms":205}
+{"project_id":"P-202","run_id":"r1","true_positives":200,"false_positives":50,"false_negatives":60,"avg_latency_ms":320}
+{"project_id":"P-202","run_id":"r2","true_positives":180,"false_positives":45,"false_negatives":70,"avg_latency_ms":310}
+{"project_id":"P-202","run_id":"r3","true_positives":210,"false_positives":55,"false_negatives":50,"avg_latency_ms":330}
+{"project_id":"P-303","run_id":"r1","true_positives":300,"false_positives":25,"false_negatives":40,"avg_latency_ms":250}
+{"project_id":"P-303","run_id":"r2","true_positives":310,"false_positives":30,"false_negatives":35,"avg_latency_ms":245}
+{"project_id":"P-303","run_id":"r3","true_positives":305,"false_positives":28,"false_negatives":38,"avg_latency_ms":248}
+{"project_id":"P-404","run_id":"r1","true_positives":150,"false_positives":60,"false_negatives":80,"avg_latency_ms":400}
+{"project_id":"P-404","run_id":"r2","true_positives":160,"false_positives":70,"false_negatives":75,"avg_latency_ms":390}
+{"project_id":"P-404","run_id":"r3","true_positives":155,"false_positives":65,"false_negatives":85,"avg_latency_ms":395}
+{"project_id":"P-505","run_id":"r1","true_positives":220,"false_positives":30,"false_negatives":55,"avg_latency_ms":180}
+{"project_id":"P-505","run_id":"r2","true_positives":230,"false_positives":28,"false_negatives":50,"avg_latency_ms":175}
+{"project_id":"P-505","run_id":"r3","true_positives":225,"false_positives":27,"false_negatives":52,"avg_latency_ms":178}

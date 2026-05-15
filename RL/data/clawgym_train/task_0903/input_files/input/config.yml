@@ -1,0 +1,5 @@
+schedule: ""
+output_dir: "reports"
+filter_communities:
+  - Oak Grove
+  - River Bend

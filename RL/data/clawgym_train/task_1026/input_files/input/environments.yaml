@@ -1,0 +1,25 @@
+environments:
+  - name: production
+    notify:
+      channels: ["oncall", "phone", "chat", "email"]
+      routing:
+        P1: ["oncall", "phone", "chat"]
+        P2: ["oncall", "chat"]
+        P3: ["chat"]
+        P4: ["email"]
+  - name: staging
+    notify:
+      channels: ["chat", "email"]
+      routing:
+        P1: ["chat"]
+        P2: ["chat"]
+        P3: ["email"]
+        P4: ["email"]
+  - name: development
+    notify:
+      channels: ["email"]
+      routing:
+        P1: ["email"]
+        P2: ["email"]
+        P3: ["email"]
+        P4: ["email"]

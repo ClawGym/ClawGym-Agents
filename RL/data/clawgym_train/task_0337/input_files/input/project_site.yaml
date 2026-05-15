@@ -1,0 +1,19 @@
+project_name: Rainier Mixed-Use
+location_region: Seattle metro, WA, USA
+parcel_area_m2: 5000
+impervious_area_m2: 3200
+roof_area_m2: 1800
+soil_group: NRCS Hydrologic Soil Group C
+infiltration_rate_in_per_hr: 0.15
+groundwater_seasonal_high_m: 1.2
+slope_percent: 3
+available_bmp_area_m2: 350
+maintenance_constraints: "Prefer quarterly inspections; limited heavy equipment access"
+priorities:
+  - reduce runoff peak
+  - provide water quality treatment
+  - visible amenity
+exclusions:
+  - no underground tanks
+  - avoid tree removal
+design_standards_target: "Meet or exceed typical US municipal water quality treatment (e.g., ~80% TSS removal) and manage the 85th percentile storm event"

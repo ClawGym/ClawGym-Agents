@@ -1,0 +1,11 @@
+default_queue: cpu
+queues:
+  - name: cpu
+    concurrency: 4
+  - name: io
+    concurrency: 2
+routing_rules:
+  - match_any_tag: ["io", "net"]
+    send_to: io
+  - match_any_tag: ["cpu", "heavy"]
+    send_to: cpu

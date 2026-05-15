@@ -1,0 +1,9 @@
+Subject: URGENT - Your claims have problems that are holding up payment
+
+Hi {PROVIDER_NAME} team,
+
+We went through your recent submissions and found multiple issues across several claims. Some items are missing (attachments, clinical notes, or codes), in other places the amounts don't reconcile, and a couple claims are in a denied or pending status because of these gaps. Until you get these things squared away, we cannot push the claims forward and payment will not happen. The aggregate outstanding amount related to these claims is {TOTAL_DUE}. Please look at the list below and get us what we need no later than {RESPONSE_DEADLINE}. We're looking for you to clean this up promptly.
+
+{CLAIM_TABLE}
+
+If we do not receive the required documentation or corrections in time, claims may remain denied, face further delays, or be written off entirely. We'd prefer not to keep pinging you about the same items again and again—just take care of it now. Thanks.

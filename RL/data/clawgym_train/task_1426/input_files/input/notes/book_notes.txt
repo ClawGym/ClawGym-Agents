@@ -1,0 +1,25 @@
+# Extra Reading Notes
+Each fact is defined by labeled lines. Empty fields can be left blank.
+
+Topic: Sumerian Cuneiform
+Year: -3200
+Location: Mesopotamia
+Person:
+Tag: writing
+Note: Early writing system using wedge-shaped marks on clay tablets.
+
+---
+Topic: Mansa Musa's pilgrimage
+Year: 1324
+Location: Cairo
+Person: Mansa Musa
+Tag: event
+Note: Hajj that showcased the wealth of the Mali Empire.
+
+---
+Topic: Meiji Restoration
+Year: 1868
+Location: Japan
+Person: Emperor Meiji
+Tag: event
+Note: Restored imperial rule and accelerated modernization.

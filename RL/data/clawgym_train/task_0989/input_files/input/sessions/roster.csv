@@ -1,0 +1,6 @@
+session_id,date,participant_id,assistive_tech,locale
+S001,2026-04-01,P101,NVDA,en-US
+S001,2026-04-01,P102,JAWS,en-US
+S002,2026-04-03,P103,VoiceOver,en-GB
+S003,2026-04-05,P104,NVDA,es-ES
+S004,2026-04-07,P105,JAWS,en-US

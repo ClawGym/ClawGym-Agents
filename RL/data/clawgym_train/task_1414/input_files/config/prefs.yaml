@@ -1,0 +1,5 @@
+student_name: "TBD"
+include_genres: []
+exclude_genres: []
+max_pages: 0
+dedup_policy: "TBD"

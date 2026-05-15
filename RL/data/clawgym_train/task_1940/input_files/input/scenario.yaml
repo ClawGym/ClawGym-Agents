@@ -1,0 +1,103 @@
+# Relocation scenario for mid-2026 move to Buenos Aires
+
+profile:
+  role: "Senior Software Engineer"
+  employment: "Remote-first (US-based company), occasional client visits in Microcentro/Puerto Madero"
+  moving_with_partner: true
+
+timeline:
+  move_date: "2026-07"
+  expected_stay: "12+ months"
+
+household:
+  adults: 2
+  children: 0
+  pets: 0
+
+budget:
+  comfort_level: "comfortable"
+  monthly_target_usd: 2000-2400
+  rent_target_usd_1br: 600-700
+  rent_stretch_usd_1br: 800
+
+housing:
+  bedrooms: 1
+  type_preference: "Modern or recently renovated apartment with reliable building systems"
+  target_neighborhoods_priority:
+    - "Palermo"
+    - "Belgrano"
+    - "Puerto Madero"
+  secondary_options:
+    - "Recoleta"
+    - "Villa Crespo"
+  must_haves:
+    - "Fiber internet ≥ 300 Mbps"
+    - "Good heating and AC (split units)"
+    - "Quiet street or rear-facing unit with soundproof windows"
+    - "Elevator access"
+    - "Secure building entry (porter/24-7 security or controlled access)"
+    - "Within 10 minutes’ walk to a park/green space"
+  nice_to_have:
+    - "In-building gym or nearby gym within 10 minutes"
+    - "Balcony with morning light (east-facing)"
+    - "Laundry in-building or reliable lavandería within 2 blocks"
+  avoid:
+    - "Ground-floor units on busy avenues"
+    - "Units directly above bars or late-night venues"
+
+vibe:
+  description: "Safe, leafy, walkable, strong cafe culture, near coworking; easy access to restaurants but not on loud bar streets."
+  nightlife: "Occasional; prefer quick taxi/ride-hailing access without living on party blocks."
+  safety_priority: "High"
+
+commute:
+  primary_mode: "Public transit + occasional ride-hailing"
+  subte_lines_preferred:
+    - "D"   # Palermo/Belgrano to Centro
+    - "B"   # Villa Crespo/Chacarita to Centro
+  bus_lines_ok:
+    - "39"
+    - "60"
+    - "67"
+  coworking_frequency_per_week: 2
+  downtown_visit_frequency_per_month: 1
+  max_commute_time_minutes: 30
+
+lifestyle:
+  dining_out_per_week: 3
+  cooking_at_home_per_week: 4
+  coworking: "Yes, mid-range"
+  gym: "Yes"
+  parks_priority:
+    - "Bosques de Palermo"
+    - "Plaza Armenia / Plaza Serrano area"
+    - "Barrancas de Belgrano"
+    - "Costanera Sur (if Puerto Madero)"
+  language_level: "Spanish A2 (basic conversational)"
+
+payments_and_currency:
+  prefer_usd_rent: true
+  comfortable_with_meprates: true
+  notes: "Will bring USD and may use MEP for larger transactions; comfortable budgeting at blue rate."
+
+constraints:
+  avoid_areas:
+    - "La Boca (outside Caminito tourist zone)"
+    - "Once at night"
+    - "Constitucion at night"
+  noise_sensitivity: "Medium"
+  building_infrastructure: "Requires strong water pressure and stable electricity/backup for summer heat waves"
+
+tech_requirements:
+  work_from_home_days_per_week: 3-4
+  desk_setup_space: true
+  internet_min_mbps_down: 300
+  latency_sensitivity: "Moderate (video calls daily)"
+
+transport_cards:
+  will_obtain_sube_on_arrival: true
+
+notes:
+  - "Open to Puerto Madero if amenities (gym, pool) justify higher rent."
+  - "Prefer proximity (≤ 10 minutes) to Line D stations (Palermo, Plaza Italia, Carranza, Olleros) or Line B (Dorrego, Malabia)."
+  - "Sunlight in the morning preferred; avoid west-facing units that overheat in summer."

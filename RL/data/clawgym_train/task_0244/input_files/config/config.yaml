@@ -1,0 +1,5 @@
+input_dir: "games"
+notes_file: "notes/chronicles.md"
+retry_limit: 1
+log_retention: 1
+output_dir: "out/records"

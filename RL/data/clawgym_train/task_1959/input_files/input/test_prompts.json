@@ -1,0 +1,25 @@
+{
+  "drafts": [
+    {
+      "id": 1,
+      "prompt": "Requesting a design review for Checkout 2.0. The spec covers splitting the monolithic checkout flow into independent payment, tax, and fraud components with an event-driven backbone (Kafka). Goals: reduce p95 latency from ~750ms to <350ms and isolate fraud spikes. Includes sequence diagrams (user->api-gateway->payment-svc->tax-svc), new topic naming conventions, and idempotency keys. PII handled in payment-svc only. Please run our Technical Spec Review process and produce the standard report with risks, NFR checklist, and action items."
+    },
+    {
+      "id": 2,
+      "prompt": "We have an RFC to migrate analytics ingestion from Kinesis to Kafka for cost and operational simplicity. The doc outlines partitioning strategy by tenant_id, at-least-once semantics via consumer offsets, and a 3-phase rollout plan. Privacy considerations mention hashing user identifiers, but data retention is not finalized. Can you do the full spec review (template required) and call out any blockers before we begin?"
+    },
+    {
+      "id": 3,
+      "prompt": "Architecture review request: auth-service is moving from opaque session tokens to short-lived JWTs with refresh tokens. The proposal includes key rotation via AWS KMS, audience scoping, and zero-downtime migration using a dual-verify phase. We need explicit risk assessment, security/privacy checklist coverage, and concrete acceptance tests, following our standard Technical Spec Review Report."
+    },
+    {
+      "id": 4,
+      "prompt": "Please review a cross-region data replication change for the user-profile store. Objective: improve RTO/RPO for disaster recovery. The spec suggests async replication with conflict resolution rules and adds PII fields to the replica. I’m worried about privacy and observability gaps. Use the team’s review template and include action items with owners/dates."
+    },
+    {
+      "id": 5,
+      "prompt": "Design doc review needed for Search Ranking vNext. We plan to add a learning-to-rank model behind a feature flag, with guardrails on latency and a staged rollout (1%, 10%, 50%, 100%). Please apply our standard spec review: ensure requirements traceability, performance targets, and decision log are present."
+    }
+  ],
+  "notes": "These prompts represent typical review requests. They should lead to reports using the standardized template with counts/fields as specified in requirements.md."
+}

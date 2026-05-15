@@ -1,0 +1,69 @@
+project:
+  name: "Seaport Medical Office Renovation"
+  number: "SMOR-26-017"
+  type: renovation
+  delivery: design-bid-build
+  location:
+    city: "Boston"
+    state: "MA"
+    zip: "02210"
+    location_factor: 1.22
+  owner: "Harbor Health Partners"
+  architect: "North Pier Architects"
+
+scope:
+  gross_sf: 25000
+  stories: 2
+  site_acres: 0.5
+  description: >
+    Interior renovation of two-story medical office space in Boston’s Seaport
+    district. Work includes selective demolition, new metal stud partitions and
+    acoustic ceilings, doors and glazing, casework and medical finishes, MEP
+    upgrades (new VAV boxes and ductwork, VRF/DOAS option acceptable,
+    reheat coils, terminal units, hydronic and condensate piping), plumbing
+    modifications for new exam rooms and staff areas, fire protection rework,
+    electrical power/lighting and panel upgrades, limited structural supports
+    for new openings/equipment, patch/repair of slab trenching for new
+    underground plumbing, and minor site tie-ins for utilities as required.
+    Imaging and medical equipment by Owner (OFI).
+
+schedule:
+  bid_date: "2026-05-01"
+  construction_start: "2026-06-15"
+  substantial_completion: "2027-02-15"
+  duration_months: 8
+
+estimate:
+  type: definitive
+  base_date: "2026-03-01"
+  escalation_rate: 0.04
+
+assumptions:
+  - Union labor; prevailing wage not required (private project).
+  - Work in occupied building; after-hours MEP tie-ins and shutdowns as required.
+  - Infection control measures (ICRA) in accordance with facility policy.
+  - Building sprinklered; fire alarm modifications by electrical with coordination.
+  - Controls integration with existing BAS by HVAC contractor unless noted otherwise.
+  - Owner-furnished medical equipment, low-voltage/data systems, furniture, and signage.
+  - Permit and inspection fees per City of Boston; building permit by GC.
+  - RSMeans-style location factor applied to national average unit costs.
+  - Escalation calculated to the construction midpoint.
+
+exclusions:
+  - Major structural framing changes beyond localized openings/bracing.
+  - Hazardous materials abatement (if found; allowance includes survey only).
+  - Low-voltage cabling, AV systems, nurse call, and security hardware (OFI/By Others).
+  - Specialty medical equipment procurement, rigging, and vendor coordination beyond normal.
+  - Exterior envelope replacement; roofing work limited to penetrations and flashing.
+  - Sitework beyond minor utility tie-ins and patching.
+  - Overtime not explicitly required by schedule or facility rules.
+
+allowances:
+  - item: "Hazardous materials survey (asbestos/lead) prior to demo"
+    amount: 6500
+  - item: "Discovery allowance for hidden conditions in renovation (GC controlled)"
+    amount: 250000
+
+notes:
+  - Addenda: None issued as of 2026-04-20.
+  - Life safety systems to remain active during construction; phasing plan required.

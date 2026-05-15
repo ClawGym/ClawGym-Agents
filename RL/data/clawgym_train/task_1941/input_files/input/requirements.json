@@ -1,0 +1,69 @@
+{
+  "organization": {
+    "name": "Aurora Data APIs",
+    "jurisdiction": "EU",
+    "industry": "Developer APIs (time-series + AI inference endpoints)",
+    "clients": [
+      "human developers",
+      "autonomous AI agents (MCP-compatible)"
+    ]
+  },
+  "priorities": {
+    "privacy": "strict_identity_isolation",
+    "compliance_control": "eu_mica_self-managed",
+    "availability_slo": "99.9%",
+    "latency_slo_seconds": 5,
+    "fraud_risk_tolerance": "low"
+  },
+  "hard_constraints": {
+    "kyc": "no_kyc_required_for_vendor_or_facilitator",
+    "avoid_facilitators": [
+      "Stripe",
+      "Coinbase"
+    ],
+    "no_centralized_verifier": true,
+    "self_hosting": true,
+    "data_residency": "eu_preferred",
+    "http_native_interface": "desired_but_not_mandatory",
+    "settlement_finality": "confirmation_based_only_no_optimistic_execution"
+  },
+  "capabilities_needed": {
+    "tokens": [
+      "USDT",
+      "USDC",
+      "BTC"
+    ],
+    "chains": [
+      "Tron",
+      "Base",
+      "Bitcoin"
+    ],
+    "micropayments": true,
+    "min_price_per_call_usd": 0.01,
+    "max_batch_size": 1,
+    "agent_tooling": [
+      "MCP integration",
+      "API/webhook compatibility"
+    ]
+  },
+  "traffic_profile": {
+    "daily_requests": 220000,
+    "peak_rps": 20,
+    "request_mix": {
+      "anonymous_agents": 0.6,
+      "verified_devs": 0.4
+    }
+  },
+  "security_privacy": {
+    "http_metadata_exposure_risk": "must_minimize",
+    "linkability_between_ip_and_wallet": "must_avoid",
+    "per_payment_addressing": "required_unique_deposit_address_per_payment"
+  },
+  "business_notes": {
+    "eu_mica_uncertainty": true,
+    "desire_http_standardization": true,
+    "willing_to_operate_gateway": true,
+    "ops_capacity_fte": 0.5,
+    "reason_to_support_btc": "some enterprise customers prefer BTC for larger invoices; OK with slower settlement for BTC only"
+  }
+}

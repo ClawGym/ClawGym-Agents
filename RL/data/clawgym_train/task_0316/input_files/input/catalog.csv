@@ -1,0 +1,3 @@
+id,file_path,expected_size
+doc1,input/files/doc1.txt,43
+doc2,input/files/doc2.txt,35

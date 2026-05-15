@@ -1,0 +1,45 @@
+{
+  "company_name": "NimbleCart, Inc.",
+  "legal_entities": [
+    { "name": "NimbleCart, Inc.", "jurisdiction": "US-CA" },
+    { "name": "NimbleCart Ireland Ltd.", "jurisdiction": "IE" },
+    { "name": "NimbleCart UK Ltd.", "jurisdiction": "UK" },
+    { "name": "NimbleCart Brasil Tecnologia Ltda.", "jurisdiction": "BR" }
+  ],
+  "industry": "SaaS e-commerce platform (merchant storefront, checkout, and analytics)",
+  "website": "https://www.nimblecart.com",
+  "headquarters": "San Francisco, California, USA",
+  "employee_count": 142,
+  "operating_jurisdictions": ["US-CA", "US-NY", "EU", "UK", "BR", "CA-ON"],
+  "data_subjects": [
+    "merchants",
+    "merchants_end_customers",
+    "prospects",
+    "website_visitors",
+    "employees",
+    "job_applicants"
+  ],
+  "estimated_records": {
+    "merchants": 4200,
+    "merchants_end_customers": 820000,
+    "employees": 142,
+    "prospects": 35000
+  },
+  "current_state": {
+    "has_dpo": false,
+    "has_ropa": false,
+    "has_privacy_policy": true,
+    "has_dpa_template": true,
+    "has_breach_plan": true,
+    "prior_incidents": 0,
+    "pending_dsars": 4,
+    "dsar_volume_monthly_avg": 6,
+    "uses_ai_profiling": true,
+    "sells_or_shares_data": false
+  },
+  "annual_revenue_usd": 23000000,
+  "processors_count": 18,
+  "cross_border_transfers": true,
+  "priority": "risk reduction and compliance deadline (EU customers, California consumers, Brazil residents)",
+  "notes": "We rely on an external DPO-as-a-service model; this engagement acts as outsourced DPO. We host in AWS (US and EU regions) with several US-based processors. Merchant base is global with material EU and UK presence; some Brazil merchants and end-customers."
+}

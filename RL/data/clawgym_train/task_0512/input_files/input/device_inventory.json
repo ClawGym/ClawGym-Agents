@@ -1,0 +1,5 @@
+[
+  {"id": "OVN-01", "manufacturer": "Vulcan", "model": "VC4GD", "type": "convection_oven", "location": "Main Kitchen"},
+  {"id": "OVN-02", "manufacturer": "Blodgett", "model": "DFG-100", "type": "convection_oven", "location": "Prep Kitchen"},
+  {"id": "RNG-01", "manufacturer": "Wolf", "model": "R486G", "type": "range_oven", "location": "Line"}
+]

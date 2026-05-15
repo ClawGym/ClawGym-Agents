@@ -1,0 +1,17 @@
+eras:
+  - id: E1
+    label: "Roots & Radio"
+    start_year: 1920
+    end_year: 1954
+  - id: E2
+    label: "Nashville Sound Rise"
+    start_year: 1955
+    end_year: 1969
+  - id: E3
+    label: "Outlaw & Progressive"
+    start_year: 1970
+    end_year: 1979
+  - id: E4
+    label: "1980s Revival"
+    start_year: 1980
+    end_year: 1989

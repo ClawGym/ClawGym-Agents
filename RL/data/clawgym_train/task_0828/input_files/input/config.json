@@ -1,0 +1,10 @@
+{
+  "highlight_level": "medium",
+  "opacity": "light",
+  "include_optional": true,
+  "disabled_optional": [],
+  "max_per_page": 6,
+  "max_total": 22,
+  "min_score": 1.5,
+  "noteMode": "default"
+}

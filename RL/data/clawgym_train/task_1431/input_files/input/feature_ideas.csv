@@ -1,0 +1,7 @@
+name,brief,notes
+"Stuck Account Alerts & Playbooks","Proactive alerts when accounts stall in onboarding with recommended next actions and templates for CS/PLG.","Alerts via email/Slack; rules based on no key events within X days; push tasks to Salesforce/HubSpot; medium eng effort; high demand in interviews."
+"Onboarding Funnel & Time-to-Value Dashboard","Configurable funnel from signup to activation with TTV distributions and drop-off analysis.","First-class TTV dashboard; compare cohorts by plan/segment; low-medium effort; broad appeal; complements north star."
+"No-Code Event Mapping Assistant","Guided mapping of common events (signup, invite, first key action) using auto-detected patterns and templates.","Reduces setup friction; LLM-assisted mapping; supports Segment/RudderStack and SDK; higher eng effort; major activation unlock."
+"Activation Template Library & Benchmarks","Pre-built activation definitions and funnels by vertical with industry benchmarks.","Fast start; reduces blank state; low effort; supports positioning; pairs with funnel."
+"CRM (Salesforce/HubSpot) Integration","Sync health scores and stuck signals to CRM; create tasks/opps and surface in account pages.","Critical for CS workflows; partner data model; medium eng effort; high GTM value."
+"Collaboration: Onboarding Checklist & Assignments","Assign owners, due dates, and track onboarding tasks within OnboardIQ; comments and @mentions.","Nice-to-have for internal coordination; medium effort; narrower reach initially."

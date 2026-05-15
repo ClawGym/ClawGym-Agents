@@ -1,0 +1,84 @@
+{
+  "company_name": "Harbor Home Appliances LLC",
+  "current_market": "US",
+  "product_category": "Small kitchen electronics",
+  "monthly_revenue_usd": 120000,
+  "monthly_units": {
+    "HH-EK100": 2600,
+    "HH-MF200": 1800
+  },
+  "sku_base_prices_usd": {
+    "HH-EK100": 34.99,
+    "HH-MF200": 39.99
+  },
+  "cost_of_goods_usd": {
+    "HH-EK100": 12.50,
+    "HH-MF200": 14.75
+  },
+  "manufacturing": {
+    "factory_location": "Shenzhen, China",
+    "lead_time_days": 35,
+    "quality_docs": [
+      "IEC 60335-2-15 kettle safety test report",
+      "IEC 60335-2-14 small appliance test report",
+      "RoHS compliance certificate",
+      "Food contact declaration for SS304 inner surfaces"
+    ],
+    "variants_available": {
+      "EU_UK_voltage": "220-240V/50Hz with Schuko (Type F) and UK (Type G) plug options",
+      "JP_voltage": "100V/50-60Hz plug Type A/B",
+      "US_voltage": "120V/60Hz plug Type B"
+    }
+  },
+  "logistics": {
+    "fulfillment": "Amazon FBA (US)",
+    "us_3pl": "Portside Logistics, Los Angeles, CA",
+    "intl_forwarder": "Apex Logistics (D2C/FBA experience)",
+    "carton_details": {
+      "HH-EK100": {
+        "units_per_carton": 8,
+        "carton_weight_lb": 24.0,
+        "carton_dims_in": "24 x 18 x 16"
+      },
+      "HH-MF200": {
+        "units_per_carton": 12,
+        "carton_weight_lb": 22.0,
+        "carton_dims_in": "20 x 16 x 14"
+      }
+    },
+    "import_readiness": {
+      "uk_eori_status": "in-progress (ETA 2 weeks)",
+      "eu_eori_status": "not yet filed",
+      "jp_importer_of_record": "seeking local IOR partner",
+      "canada_gst_hst": "threshold not yet met; ready to register on launch",
+      "documentation_ready": [
+        "Commercial invoice template",
+        "Packing list template",
+        "HS codes classified: HH-EK100 8516.79; HH-MF200 8509.80"
+      ]
+    }
+  },
+  "compliance_preparedness": {
+    "ukca": "product files prepared; test lab booked for label review",
+    "ce": "based on IEC reports, CE self-declaration feasible; WEEE and EPR to be registered",
+    "wEEE": "will register in DE and FR via producer compliance schemes",
+    "epr_packaging": "ready to register in DE (LUCID) and FR (Citeo)",
+    "jp_pse": "pre-assessment done; need local representative and PSE labeling for the electric kettle and frother",
+    "food_contact_labeling": "materials and contact surfaces documented"
+  },
+  "pricing_objectives": {
+    "target_contribution_margin": 0.25,
+    "currency_strategy": "price to local charm points, include VAT where required; review FX weekly; use Amazon Currency Converter, hedge with Wise for supplier payments"
+  },
+  "expansion_goals_90_days": [
+    "Launch Canada and UK first (phase 1: days 1-45)",
+    "Launch Germany and France next using EFN from UK/DE (phase 2: days 30-70)",
+    "Launch Japan with local distributor/IOR and PSE completion (phase 3: days 45-90)"
+  ],
+  "risk_notes": [
+    "JP PSE certification timeline could slip (2-6 weeks)",
+    "EU WEEE/EPR registration lead times vary by country",
+    "FX swings may impact EUR/GBP pricing; monitor exchange and adjust quarterly",
+    "Customer service language coverage limited (see team_capacity.md)"
+  ]
+}

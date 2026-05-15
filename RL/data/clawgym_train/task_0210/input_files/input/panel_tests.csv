@@ -1,0 +1,9 @@
+test_id,design,irradiance_W_m2,temperature_C,power_W,area_m2
+b1,baseline,1000,25,320.0,1.60
+b2,baseline,800,15,265.728,1.60
+b3,baseline,600,45,177.408,1.60
+b4,baseline,1000,35,307.84,1.60
+p1,prototype,1000,25,360.0,1.60
+p2,prototype,800,15,295.2,1.60
+p3,prototype,600,45,205.2,1.60
+p4,prototype,1000,35,351.0,1.60

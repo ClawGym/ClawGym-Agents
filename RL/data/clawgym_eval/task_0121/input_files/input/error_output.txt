@@ -1,0 +1,5 @@
+$ python3 scripts/parse_logs.py --input input/training_log.csv --out out/tmp.csv
+Traceback (most recent call last):
+  File "scripts/parse_logs.py", line 3, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

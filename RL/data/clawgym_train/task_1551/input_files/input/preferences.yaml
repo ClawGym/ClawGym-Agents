@@ -1,0 +1,17 @@
+date: "2026-04-15"
+working_hours:
+  start: "08:00"
+  end: "18:00"
+lunch: "12:30-13:30"
+energy_windows:
+  peak:
+    - "09:00-12:00"
+  secondary_peak:
+    - "14:00-16:00"
+  administrative:
+    - "16:00-18:00"
+morning_prime: "08:00-09:00"
+breaks:
+  - "11:00-11:15"
+  - "15:00-15:15"
+mode: "standard"

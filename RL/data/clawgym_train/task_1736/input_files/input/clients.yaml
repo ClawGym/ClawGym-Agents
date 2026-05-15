@@ -1,0 +1,64 @@
+clients:
+  - id: "CLI-001"
+    name: "Acme Corp"
+    contact: "Jane Smith"
+    email: "jane@acme.com"
+    address:
+      line1: "123 Business Ave"
+      line2: "Suite 400"
+      city: "New York"
+      state: "NY"
+      zip: "10001"
+      country: "US"
+    tax_id: "US-EIN-12-3456789"
+    payment_terms: "net-30"
+    preferred_currency: "USD"
+    default_tax_rate: 0
+    notes: "PO required for invoices > $5,000"
+    created: "2026-01-15"
+    lifetime_revenue: 12500.00
+    invoices_sent: 3
+    invoices_paid: 2
+    avg_days_to_pay: 22
+  - id: "CLI-002"
+    name: "Globex Labs"
+    contact: "Maria Hernandez"
+    email: "accounts@globexlabs.io"
+    address:
+      line1: "200 King Street West"
+      line2: "Floor 17"
+      city: "Toronto"
+      state: "ON"
+      zip: "M5H 3T4"
+      country: "CA"
+    tax_id: "CA-BN-123456789"
+    payment_terms: "net-30"
+    preferred_currency: "USD"
+    default_tax_rate: 0
+    notes: "Cross-border B2B — 0% tax; prefers ACH"
+    created: "2025-11-03"
+    lifetime_revenue: 8000.00
+    invoices_sent: 1
+    invoices_paid: 0
+    avg_days_to_pay: 0
+  - id: "CLI-003"
+    name: "BrightSide Media"
+    contact: "Oliver Chen"
+    email: "ap@brightside.media"
+    address:
+      line1: "742 Evergreen Terrace"
+      line2: ""
+      city: "Los Angeles"
+      state: "CA"
+      zip: "90017"
+      country: "US"
+    tax_id: "US-EIN-98-7654321"
+    payment_terms: "net-30"
+    preferred_currency: "USD"
+    default_tax_rate: 0
+    notes: "Standard terms"
+    created: "2025-12-12"
+    lifetime_revenue: 2500.00
+    invoices_sent: 1
+    invoices_paid: 1
+    avg_days_to_pay: 18

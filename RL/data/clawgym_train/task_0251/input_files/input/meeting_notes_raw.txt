@@ -1,0 +1,37 @@
+Legislative Briefing — April 15, 2026
+Attendees: CEO (A. Patel), CFO (J. Gomez), COO (L. Chen), GC (R. Alvarez), HR (T. Brooks)
+
+Topic: Proposed state bill SB-842 “Safe Staffing Standards Act”
+Key provisions discussed:
+- Med-surg nurse-to-patient ratio: 1:4
+- ICU ratio: 1:2
+- Step-down ratio: 1:3
+
+Timing:
+- Effective date tentatively Jan 1, 2026 with phased operational readiness in Q1 2026.
+- GC noted 60 days from signature to effective date in the current draft.
+
+Finance notes (CFO):
+- Baseline annual nursing hours: 1,200,000 hours.
+- Recommend modeling +8% additional RN hours to meet ratios.
+- Use average loaded RN cost of $52.75/hour for FY2025 assumption set.
+- One-time training and upskilling program estimated at ~$1.5M in Q4 2025.
+- Expect Medicaid base rate adjustment of approximately -50 bps during FY2025.
+
+Operations (COO):
+- Recruitment risk; traveler usage may spike. Target to manage vacancy risk to ≤15%.
+- HR to prepare contingency plan for traveler cap and preceptor scheduling.
+
+Legal (GC):
+- Bill likely to pass committee next week; no confirmed amendments on ratios yet.
+- Some external references have mistakenly listed “HB-700”; correct bill is SB-842.
+
+Decisions:
+- Prepare a Board briefing package with preliminary financial impact by Friday EOD.
+- CFO to refine the model using +8% additional hours and the current cost assumptions.
+- CEO to send a summary email to the Board once materials are ready.
+
+Follow-ups:
+- Finance: refine model and confirm sensitivity ranges (owner: J. Gomez).
+- HR/COO: draft recruitment/training plan outline (owners: T. Brooks, L. Chen).
+- Legal: monitor amendment calendar and effective-date language (owner: R. Alvarez).

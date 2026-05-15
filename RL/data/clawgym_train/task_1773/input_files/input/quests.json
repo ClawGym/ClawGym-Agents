@@ -1,0 +1,53 @@
+{
+  "date": "2026-04-17",
+  "daily": [
+    {
+      "name": "DSA problem",
+      "icon": "💻",
+      "stat": "INT",
+      "stat_amount": 25,
+      "xp": 25,
+      "verification": "detail"
+    },
+    {
+      "name": "Coding session (2 hrs)",
+      "icon": "⌨️",
+      "stat": "INT",
+      "stat_amount": 20,
+      "secondary_stat": "AGI",
+      "secondary_amount": 10,
+      "xp": 30,
+      "verification": "detail"
+    },
+    {
+      "name": "Read 30 minutes (tech/non-fiction)",
+      "icon": "📖",
+      "stat": "INT",
+      "stat_amount": 15,
+      "secondary_stat": "PER",
+      "secondary_amount": 5,
+      "xp": 20,
+      "verification": "detail"
+    },
+    {
+      "name": "Exercise (any form)",
+      "icon": "🏃",
+      "stat": "STR",
+      "stat_amount": 20,
+      "secondary_stat": "VIT",
+      "secondary_amount": 10,
+      "xp": 25,
+      "verification": "photo_or_detail"
+    },
+    {
+      "name": "Sleep on time",
+      "icon": "😴",
+      "stat": "VIT",
+      "stat_amount": 30,
+      "secondary_stat": "AGI",
+      "secondary_amount": 10,
+      "xp": 30,
+      "verification": "time_check"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0934",
+  "user_query": "Please read input/profile.json, input/voice_samples.txt, and input/platform_requirements.json. Using that material, write five platform-specific bios in my voice: LinkedIn, speaker introduction, website about page, press kit, and conference program. Integrate my credentials into a narrative (do not list them as bullets). Also generate at least five different opening sentence options with an explanation of what each opening does and which reader/context it suits best. Deliverables:\n\n- Write output/bios.json with this structure:\n  {\n    \"person\": { \"full_name\": string },\n    \"versions\": {\n      \"linkedin\": { \"text\": string, \"word_count\": number, \"char_count\": number },\n      \"speaker_introduction\": { \"text\": string, \"word_count\": number, \"char_count\": number },\n      \"website_about\": { \"text\": string, \"word_count\": number, \"char_count\": number },\n      \"press_kit\": { \"text\": string, \"word_count\": number, \"char_count\": number },\n      \"conference_program\": { \"text\": string, \"word_count\": number, \"char_count\": number }\n    },\n    \"openings\": [\n      { \"sentence\": string, \"what_it_does\": string, \"best_for_reader\": string },\n      ... (at least 5 total)\n    ]\n  }\n\nFor each version, compute word_count as the number of whitespace-separated tokens in text, and char_count as the exact character length of text.\n\n- Write output/README.md listing my full name and the five platform versions included.\n\nHonor every constraint in input/platform_requirements.json, including maximum characters, recommended word ranges, the minimum number of opening options, avoiding name-first openings when specified, and including the required exact phrases in the specified versions.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

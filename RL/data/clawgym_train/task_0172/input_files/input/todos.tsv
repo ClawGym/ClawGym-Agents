@@ -1,0 +1,5 @@
+id	task	assignee	due_date	priority	status
+T1	Set up CI pipeline	Alex	2026-05-01	High	Todo
+T2	Implement MFA flow	Jordan	2026-05-05	medium	todo
+T3	Document API endpoints	Riley	2026-05-12	low	Done
+T2	Implement MFA flow	Jordan	2026-05-08	High	In_Progress

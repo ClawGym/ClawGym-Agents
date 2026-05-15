@@ -1,0 +1,11 @@
+{
+  "horizon": 60,
+  "minDataPoints": 10,
+  "scaleUpThreshold": 0.8,
+  "scaleDownThreshold": 0.3,
+  "confidenceThreshold": 0.65,
+  "smoothingFactor": 0.3,
+  "windowSize": 10,
+  "current_instances": 1,
+  "target_utilization": 0.7
+}

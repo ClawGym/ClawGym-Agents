@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0525",
+  "user_query": "I’m coordinating a competitive review and need you to use our local competitive intelligence tracker CLI (the one that logs timestamped entries and supports commands like run, check, analyze, compare, and stats).\n\nPlease do the following:\n1) Read input/competitor_events.csv. For each row, execute the indicated command, and include the row’s id at the start of the message (e.g., \"RW-101: …\"). The commands in the CSV map 1:1 to the tool’s commands (run, check, analyze, compare). Do not skip any row.\n\n2) After logging all rows, capture the recent entries for each used command by running the command with no arguments and saving the outputs to these exact files:\n- output/log_run.txt\n- output/log_check.txt\n- output/log_analyze.txt\n- output/log_compare.txt\n\n3) Run the tool’s stats command and save the result to output/stats.txt.\n\n4) Read input/competitor_notes.md and write a concise competitive brief to output/report.md that:\n- Covers both AlphaCRM and BetaSuite\n- Includes a separate SWOT for each (Strengths, Weaknesses, Opportunities, Threats)\n- Synthesizes the logged events (from the CSV you just logged) with the notes\n- Is 300–600 words total\n- Actionable and neutral in tone\n\nImportant:\n- Do not delete or reset any existing tracker data; just append new entries.\n- Make sure the IDs from the CSV appear in the logged messages so they show up in the \"recent\" outputs.\n- Use only input/ and output/ paths in this workspace for reading/writing files.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,4 @@
+month,region,revenue,orders,aov,returns_value,marketing_spend,discounts,new_customers,repeat_orders,stockouts
+2025-10,West,600000,11500,52.17,36000,120000,42000,3200,3900,15
+2025-11,West,700000,13000,53.85,42000,130000,49000,3600,4400,13
+2025-12,West,860000,15200,56.58,60200,150000,60200,4200,5100,11

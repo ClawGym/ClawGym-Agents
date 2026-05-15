@@ -1,0 +1,11 @@
+{
+  "filter_topic_contains": "Civil War",
+  "weights": {
+    "avg_score_weight": 0.7,
+    "accept_rate_weight": 0.3,
+    "accept_rate_scale": 5.0
+  },
+  "schedule": {
+    "cron": "30 7 * * MON"
+  }
+}

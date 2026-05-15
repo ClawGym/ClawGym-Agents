@@ -1,0 +1,125 @@
+{
+  "meta_pixel": {
+    "installed": true,
+    "pixel_id": "123456789012345",
+    "advanced_matching": {
+      "email": true,
+      "phone": true,
+      "external_id": true
+    }
+  },
+  "conversions_api": {
+    "active": true,
+    "last_heartbeat": "2025-06-28T18:22:14Z",
+    "deduplication": {
+      "enabled": true,
+      "method": "event_id"
+    },
+    "server_share_pct_last_7d": 56
+  },
+  "primary_optimization_event": "Purchase",
+  "events": [
+    {
+      "name": "PageView",
+      "30d_count": 845000,
+      "7d_avg_per_day": 28100,
+      "match_quality_score": 7.8,
+      "last_7d_server_share_pct": 40,
+      "parameters_present": [
+        "content_ids",
+        "content_type",
+        "user_data"
+      ],
+      "issues": []
+    },
+    {
+      "name": "ViewContent",
+      "30d_count": 318000,
+      "7d_avg_per_day": 10600,
+      "match_quality_score": 7.5,
+      "last_7d_server_share_pct": 49,
+      "parameters_present": [
+        "content_ids",
+        "content_type",
+        "value",
+        "currency"
+      ],
+      "issues": [
+        "Occasional missing value on UK locale PDP (~2% of events)"
+      ]
+    },
+    {
+      "name": "AddToCart",
+      "30d_count": 90500,
+      "7d_avg_per_day": 3020,
+      "match_quality_score": 7.2,
+      "last_7d_server_share_pct": 44,
+      "parameters_present": [
+        "content_ids",
+        "content_type",
+        "value",
+        "currency"
+      ],
+      "issues": [
+        "Lower server-side ATC in UK due to CMP; investigate consent mode integration"
+      ]
+    },
+    {
+      "name": "InitiateCheckout",
+      "30d_count": 35200,
+      "7d_avg_per_day": 1175,
+      "match_quality_score": 7.6,
+      "last_7d_server_share_pct": 58,
+      "parameters_present": [
+        "content_ids",
+        "value",
+        "currency"
+      ],
+      "issues": []
+    },
+    {
+      "name": "Purchase",
+      "30d_count": 1700,
+      "7d_avg_per_day": 57,
+      "match_quality_score": 8.3,
+      "last_7d_server_share_pct": 63,
+      "parameters_present": [
+        "value",
+        "currency",
+        "order_id",
+        "content_ids"
+      ],
+      "issues": [
+        "1–2% duplicate Purchase events detected and deduped via event_id"
+      ]
+    },
+    {
+      "name": "Subscribe",
+      "30d_count": 310,
+      "7d_avg_per_day": 10,
+      "match_quality_score": 7.9,
+      "last_7d_server_share_pct": 61,
+      "parameters_present": [
+        "value",
+        "currency",
+        "subscription_id"
+      ],
+      "issues": []
+    }
+  ],
+  "event_value_mapping": {
+    "currency": "USD",
+    "value_source": "Order total including tax, excluding shipping discounts",
+    "content_ids_format": "SKU",
+    "purchase_fallback_value": 0
+  },
+  "attribution_settings": {
+    "default_click_window_days": 7,
+    "default_view_window_days": 1
+  },
+  "gaps_and_recommendations": [
+    "Fix UK PDP missing value parameter (~2% of ViewContent) to improve ROAS accuracy",
+    "Increase server-side share for AddToCart by integrating CMP consent signals with CAPI",
+    "Validate Purchase order_id uniqueness to keep dedupe below 1%"
+  ]
+}

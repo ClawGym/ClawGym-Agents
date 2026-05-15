@@ -1,0 +1,6 @@
+{
+  "domain": "guide.example.com",
+  "upstream_port": 4000,
+  "service_name": "guide-app.service",
+  "notes": "Guide app listens on 4000 by default; Nginx should proxy to 127.0.0.1:4000."
+}

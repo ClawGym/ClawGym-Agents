@@ -1,0 +1,39 @@
+# Weighted criteria for priority scoring
+# Treat Cost and Risk as negative contributors in the final score.
+criteria:
+  Impact:
+    weight: 0.4
+    notes: "Customer value and business impact (higher is better)"
+  Urgency:
+    weight: 0.3
+    notes: "Time sensitivity due to deadlines, audits, or launches (higher is better)"
+  Cost:
+    weight: 0.2
+    notes: "Engineering effort/cost (higher cost should reduce score)"
+  Risk:
+    weight: 0.1
+    notes: "Delivery and operational risk (higher risk should reduce score)"
+
+scoring_guidance:
+  scale: 1-5
+  interpretation:
+    Impact:
+      "5": "Transformational or mandatory for compliance/GA"
+      "3": "Meaningful improvement or unlocks dependent work"
+      "1": "Nice-to-have or minor optimization"
+    Urgency:
+      "5": "Hard deadline within current quarter (audit/launch)"
+      "3": "Deadline next quarter or strong stakeholder pressure"
+      "1": "Flexible timing"
+    Cost:
+      "5": "Very high effort (>= 13 points)"
+      "3": "Moderate effort (5-8 points)"
+      "1": "Low effort (<= 3 points)"
+    Risk:
+      "5": "High complexity, many unknowns, or operational blast radius"
+      "3": "Moderate risk with known mitigations"
+      "1": "Low risk, well understood"
+
+notes:
+  - "Cost and Risk are subtracted when computing the final weighted score."
+  - "Teams may calibrate the 1-5 values per feature using effort points, dependencies, and constraints."

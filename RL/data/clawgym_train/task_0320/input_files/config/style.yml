@@ -1,0 +1,20 @@
+languages:
+  en:
+    accepted_terms:
+      - Pomodoro Technique
+      - mood board
+      - grid system
+      - keyboard shortcuts
+      - Do Not Disturb mode
+      - timeboxing
+      - deep work
+      - standing desk
+      - ergonomic chair
+    brand_names:
+      - Figma
+      - Photoshop
+      - Illustrator
+    keep_untranslated:
+      - Figma
+      - Photoshop
+      - Illustrator

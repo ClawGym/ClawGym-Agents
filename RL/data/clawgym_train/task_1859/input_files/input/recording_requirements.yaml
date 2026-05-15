@@ -1,0 +1,12 @@
+project: "All-State Conservatory Audition"
+requirements:
+  min_free_disk_gb: 5
+  min_total_ram_gb: 8
+  max_background_cpu_percent: 30
+  target_sample_rate_hz: 48000
+  preferred_os:
+    - macOS
+    - Windows
+optional:
+  check_battery_if_portable: true
+notes: "Close browsers and non-essential apps during recording."

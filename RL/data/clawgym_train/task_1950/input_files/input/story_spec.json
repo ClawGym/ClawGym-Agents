@@ -1,0 +1,23 @@
+{
+  "theme": "Rooftop Roots: A community rebuilds hope atop a city rooftop garden",
+  "style": "Warm, grounded, contemporary slice-of-life with gentle optimism and subtle humor",
+  "target_episodes": 5,
+  "setting": {
+    "city": "Harbor City",
+    "neighborhood": "Old Wharf District",
+    "primary_locations": [
+      "Rooftop of the Marigold building",
+      "Ground-floor cafe 'Quiet Tide'",
+      "Community center on Pier 3"
+    ],
+    "timeframe": "Late spring through midsummer"
+  },
+  "tone": "Uplifting, reflective, community-focused",
+  "audience": "General",
+  "narrative_expectations": {
+    "continuity": true,
+    "dual_quality_gate": true,
+    "graph_management": true
+  },
+  "hook_types": ["Mystery", "Foreshadowing", "Conflict", "Secret", "Enigma", "Crisis"]
+}

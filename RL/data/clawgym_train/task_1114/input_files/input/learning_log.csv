@@ -1,0 +1,17 @@
+date,topic,completed,errors,time_spent_min,rating
+2026-04-01,Axios Basics: GET and POST,1,1,20,4
+2026-04-02,Axios Basics: GET and POST,1,0,18,5
+2026-04-05,Axios Basics: GET and POST,1,0,22,5
+2026-04-03,Axios Error Handling Patterns,1,2,26,4
+2026-04-06,Axios Error Handling Patterns,0,3,28,3
+2026-04-04,Using Axios Interceptors,1,1,30,4
+2026-04-08,Using Axios Interceptors,1,2,32,4
+2026-04-01,Redux Fundamentals: Store and Actions,1,0,34,5
+2026-04-03,Redux Fundamentals: Store and Actions,1,1,36,4
+2026-04-06,Redux Fundamentals: Store and Actions,1,0,33,5
+2026-04-07,Redux Toolkit Intro,1,1,29,4
+2026-04-09,Redux Toolkit Intro,1,0,27,5
+2026-04-05,Async Flows with Redux Thunk,0,2,31,3
+2026-04-10,Async Flows with Redux Thunk,1,1,30,4
+2026-04-11,Redux Middleware Deep Dive,0,3,40,3
+2026-04-12,Advanced Axios Config,0,2,22,3

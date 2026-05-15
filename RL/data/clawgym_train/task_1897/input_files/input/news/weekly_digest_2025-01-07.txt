@@ -1,0 +1,29 @@
+Date: 2025-01-05
+Title: Acme Robotics closes Series A to scale autonomous fulfillment
+Tags: funding
+Body: Acme Robotics announced a $28M Series A round led by Pioneer Ventures to expand autonomous warehouse systems.
+
+Date: 2025-01-06
+Title: ZenFin Capital announces partnership with Orion Bank
+Tags: partnership
+Body: ZenFin Capital and Orion Bank entered a strategic partnership to co-develop embedded finance products for SMEs.
+
+Date: 2025-01-06
+Title: GreenShelf raises seed funding for sustainable retail analytics
+Tags: funding
+Body: GreenShelf, a retail analytics startup, closed a seed funding round to accelerate product-market fit efforts.
+
+Date: 2025-01-04
+Title: Nimbus Analytics is hiring a VP of Sales to lead go-to-market
+Tags: hiring
+Body: Nimbus Analytics opened a search for a VP of Sales with deep SMB experience.
+
+Date: 2025-01-03
+Title: Acme Robotics publishes research on robotic grasping
+Tags: research
+Body: Acme Robotics released a technical paper on grasping in cluttered environments.
+
+Date: 2025-01-02
+Title: Alpine Data ships incremental product improvements
+Tags: product
+Body: Alpine Data rolled out minor UI updates across its dashboard.

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1286",
+  "user_query": "I need a consolidated bug list grouped by status for a specific project from my local bug tracker. Do this:\n\n1) Read input/config.json to get an optional project_id filter.\n2) Fetch bugs with a GET request to http://localhost:3456/api/bugs. If project_id is present in config, append ?project_id=<value>.\n3) If the server request fails or is unreachable, fall back to reading input/fixture_bugs.json and use its \"data\" array as the bug list (still apply the same project_id filter when present).\n4) Save the filtered bug list (just the array of bug objects, no wrapper) to output/raw/bugs.json. Create the output/raw/ directory if it doesn’t exist.\n5) Write a markdown report to output/bugs_report.md grouped by status with three sections in this exact order: \"## open\", \"## fixed\", \"## closed\". Under each section, include a markdown table with columns exactly: id | title | priority | created_at. Within each section, sort rows by priority (high > medium > low), then by created_at ascending.\n6) Write a CSV summary to output/bugs_summary.csv with header \"status,count\" and rows for \"open\", \"fixed\", and \"closed\" in that order, plus a final row \"total,<sum>\".\n7) Write output/metadata.json capturing: { \"source_endpoint\": \"http://localhost:3456/api/bugs\" (with ?project_id=... when used), \"project_filter\": <string or null>, and \"generated_at\": an ISO-8601 UTC timestamp (e.g., 2026-04-14T12:34:56Z) }.\n\nMake sure the report strictly uses the exact section headings and table columns specified above.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

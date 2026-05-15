@@ -1,0 +1,13 @@
+year,partner_country,flow,product_sector,value_usd
+2022,Neighborland,export,palm_oil,12000000
+2022,Neighborland,export,machinery,3000000
+2022,Neighborland,import,machinery,5000000
+2022,Neighborland,import,rice,2000000
+2022,Malaysia,export,machinery,7000000
+2022,Malaysia,import,palm_oil,1000000
+2023,Neighborland,export,palm_oil,14000000
+2023,Neighborland,export,machinery,4000000
+2023,Neighborland,import,machinery,6000000
+2023,Neighborland,import,rice,3000000
+2023,Malaysia,export,machinery,8000000
+2023,Malaysia,import,palm_oil,1500000

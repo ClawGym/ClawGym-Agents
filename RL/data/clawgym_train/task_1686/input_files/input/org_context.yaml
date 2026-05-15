@@ -1,0 +1,27 @@
+risk_context:
+  organization: "FinStack Labs, Inc."
+  industry: "B2B SaaS — Fintech (payments reconciliation and treasury tooling)"
+  size: "Revenue ~$42M; ~180 employees; Series C (pre-IPO readiness)"
+  geography: "United States, Canada, United Kingdom, European Union"
+  regulatory_environment:
+    - "GDPR (EU)"
+    - "CCPA (California)"
+    - "SOC 2 Type II (in place; annual audit)"
+    - "PCI-DSS SAQ A-EP (card data via hosted fields/tokenization)"
+    - "SOX (pre-IPO controls readiness program)"
+  strategic_objectives:
+    - "Expand into EU mid-market with 200 new logos by Q4"
+    - "Launch AI risk analytics module by Q3 2026"
+    - "Achieve 30% YoY revenue growth while improving gross margin by +3 pts"
+    - "Reduce gross churn to <6% annually and improve NPS to 55+"
+    - "Strengthen vendor resilience and multi-cloud failover"
+  risk_appetite_statement: "We accept moderate financial and operational risk to pursue growth but have very low tolerance for compliance and cyber incidents involving customer data. Reputational harm from customer-impacting events is to be minimized."
+  existing_controls: "Defined and partially managed; SOC 2 control set mapped; ISO 27001 not certified; improving third-party risk program."
+  recent_incidents: |
+    - 2025-06: 3.5-hour production outage due to Kubernetes node group misconfiguration; no data loss, ~$120K estimated business interruption.
+    - 2025-09: Settlement delays after a vendor SLA breach caused 18 late payouts; fee waivers issued.
+    - 2025-11: Audit identified an S3 bucket with overly broad IAM policy; remediated within 24 hours; no evidence of access.
+    - 2026-01: Phishing simulation yielded 12% click-through; training uplift initiated.
+    - 2026-03: SOC 2 change management evidence gaps flagged (moderate finding); corrective actions underway.
+    - 2026-02: Senior Staff Engineer resigned; coverage risk on revenue reconciliation service.
+current_period: "2026-04"

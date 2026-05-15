@@ -1,0 +1,21 @@
+{
+  "period": "2026-04",
+  "children": {
+    "Maya": {
+      "goal_minutes_by_subject": {
+        "Math": 300,
+        "Science": 240,
+        "Coding": 180
+      },
+      "target_topics": ["Fractions", "Photosynthesis", "Loops in Python"]
+    },
+    "Leo": {
+      "goal_minutes_by_subject": {
+        "Math": 240,
+        "Science": 180,
+        "Robotics": 120
+      },
+      "target_topics": ["Multiplication", "Magnets", "LEGO EV3 line following"]
+    }
+  }
+}

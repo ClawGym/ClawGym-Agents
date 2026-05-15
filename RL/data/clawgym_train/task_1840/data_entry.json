@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1840",
+  "user_query": "Run an ontology sync against the Obsidian notes I provided. Read all .md files under input/obsidian_vault/ using the configuration in input/obsidian_config.yaml. Extract entities (Person, Organization, Project) and relationships (works_at, assigned_to) from the notes. Normalize entity IDs as <type>_<normalized_name> (lowercase; non-alphanumeric characters replaced with underscores). Write the ontology JSONL to output/ontology/graph.jsonl with one JSON object per line, using \"op\": \"upsert\" for entities and \"op\": \"relate\" for relationships. Also write a feedback report to output/feedback/sync-feedback.md that lists people missing email addresses as checkbox items. Do not use any external sources; rely only on the provided notes.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

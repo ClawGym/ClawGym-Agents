@@ -1,0 +1,7 @@
+{
+  "base_url": "http://127.0.0.1:4099",
+  "projects_base_dir": "./projects",
+  "default_provider": "opencode",
+  "default_model": "gpt-5.1-codex",
+  "notes": "This configuration is used by orchestrator and helper scripts. Ensure the OpenCode server runs on 127.0.0.1:4099."
+}

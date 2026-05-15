@@ -1,0 +1,26 @@
+{
+  "category": "Skincare",
+  "your_product": {
+    "name": "LunaGlow Barrier Repair Serum",
+    "brand": "LunaGlow",
+    "price": 59.0,
+    "rating": 4.7,
+    "review_count": 348
+  },
+  "competitors": [
+    {
+      "name": "Aurelia Calm Restore Serum",
+      "brand": "Aurelia Labs",
+      "price": 45.0,
+      "rating": 4.2,
+      "review_count": 810
+    },
+    {
+      "name": "Verdant Hydrating Essence",
+      "brand": "Verdant Apothecary",
+      "price": 45.97,
+      "rating": 4.3,
+      "review_count": 512
+    }
+  ]
+}

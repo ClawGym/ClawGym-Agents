@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Mara Ellison",
+    "age": 34,
+    "role": "Archivist (between jobs), returning to Greyhaven to settle her grandmother's estate",
+    "core_traits": ["observant", "guarded", "gentle persistence", "ethically stubborn"],
+    "backstory": "Grew up visiting Greyhaven in summers. Left for university and work cataloging collections. Lost her job after the archives closed. Grandmother recently passed, leaving her keys, boxes, and a quiet injunction to 'remember rightly.'",
+    "desires": ["to do right by her grandmother", "to keep a tidy boundary around grief", "to find honest work again"],
+    "fears": ["becoming stuck in the past", "misreading evidence", "belonging to a place that can also lose her"],
+    "relationships": {
+      "Eloise Hart": "Respected town voice; Mara grew up listening to Eloise's show. Mara brings Eloise a letter addressed to her.",
+      "Jonah Pike": "Quiet lighthouse caretaker; initial friction softens into trust as they investigate together."
+    },
+    "secrets": [
+      "She almost deleted a digital collection during a server migration and never confessed; the guilt makes her cautious with memory.",
+      "She once mailed herself a letter to test a dead-letter office theory she found in a book; it never arrived."
+    ],
+    "arc_beats": [
+      "Begins in withdrawal, treating the town as an archive to be cataloged.",
+      "Allows herself to participate, not just record—first at the radio studio, later at the lighthouse.",
+      "Becomes a witness for truth rather than its judge, recognizing repair as work done in the open."
+    ]
+  },
+  {
+    "name": "Jonah Pike",
+    "age": 36,
+    "role": "Fisherman and volunteer caretaker of Bellwether Light",
+    "core_traits": ["capable", "reticent", "tender with broken mechanisms", "wry"],
+    "backstory": "Arrived in Greyhaven in his late teens, took odd jobs, learned the coastline. Lives above a boat shed across from the decommissioned lighthouse. Keeps tools in order, repairs what others overlook.",
+    "desires": ["to keep the town safe in quiet ways", "to avoid dredging up old tragedies", "to stay near the sea without naming why"],
+    "fears": ["being recognized for what he was, not who he is", "hurting the town again by telling the full story"],
+    "relationships": {
+      "Mara Ellison": "Sees her listening more than speaking; slowly trusts her with practical history.",
+      "Eloise Hart": "Respects her discipline; they share certain late-night silences."
+    },
+    "secrets": [
+      "He is living under a borrowed name; his real name is Rowan Hart.",
+      "On the night the light went dark, he made a choice that prevented a larger catastrophe but left him unable to keep his old life."
+    ],
+    "arc_beats": [
+      "Holds his name like a sealed letter.",
+      "Reveals himself not under pressure, but because someone deserves the truth.",
+      "Remains in Greyhaven under his chosen name, seen and accepted."
+    ]
+  },
+  {
+    "name": "Eloise Hart",
+    "age": 62,
+    "role": "Late-night radio host of 'Night Tides' on WGHN; Rowan Hart's older sister",
+    "core_traits": ["composed", "sharp-tongued with affection", "keeper of living memory", "cautious"],
+    "backstory": "Born and raised in Greyhaven. On air since her twenties. The night the light went dark, she took a call she later cut from the broadcast log. She has kept a key to the lighthouse lens room for years.",
+    "desires": ["to hold the town's story without breaking it", "to keep her brother safe", "to know when silence serves and when it destroys"],
+    "fears": ["that her discretion harmed people she meant to help", "that the town will turn story into cudgel"],
+    "relationships": {
+      "Mara Ellison": "Sees her as a careful listener who might carry a truth without sensationalizing.",
+      "Jonah Pike": "Knows his cadence too well; she suspected long ago who he was."
+    },
+    "secrets": [
+      "She recognized Jonah as Rowan but chose not to expose him, believing repair would take time and quiet work.",
+      "She keeps the off-air tape from September 17, 1994."
+    ],
+    "arc_beats": [
+      "Guards the past behind a practiced voice.",
+      "Chooses disclosure at the right moment, with the right witness present.",
+      "Returns to air with humility about the limits of keeping and telling."
+    ]
+  }
+]

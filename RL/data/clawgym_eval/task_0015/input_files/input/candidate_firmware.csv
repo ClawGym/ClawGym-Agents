@@ -1,0 +1,7 @@
+test_case,latency_ms,throughput_ops,power_mw
+boot,8.8,1050,470
+io,9.1,1100,465
+compute,8.9,1080,480
+network,9.9,1075,475
+gpu,9.2,1110,472
+storage,8.7,1060,468

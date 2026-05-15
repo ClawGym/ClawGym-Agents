@@ -1,0 +1,92 @@
+[
+  {
+    "id": "P1",
+    "channel": "Instagram",
+    "theme": "family discussion question",
+    "format": "Carousel",
+    "engagement_score": 78,
+    "book_id": "B3",
+    "caption": "If your family worked 12-hour shifts at a mill in 1840, what would change first?"
+  },
+  {
+    "id": "P2",
+    "channel": "TikTok",
+    "theme": "plot twist tease",
+    "format": "Short",
+    "engagement_score": 65,
+    "book_id": "B4",
+    "caption": "A Renaissance lab, a missing vial, and one painter with a secret…"
+  },
+  {
+    "id": "P3",
+    "channel": "Instagram",
+    "theme": "timeline explainer",
+    "format": "Reel",
+    "engagement_score": 82,
+    "book_id": "B6",
+    "caption": "One-minute timeline: the road to the Emancipation Proclamation"
+  },
+  {
+    "id": "P4",
+    "channel": "Instagram",
+    "theme": "aesthetic quote",
+    "format": "Image",
+    "engagement_score": 41,
+    "book_id": "B5",
+    "caption": "\"We carried tomorrow in our pockets.\""
+  },
+  {
+    "id": "P5",
+    "channel": "TikTok",
+    "theme": "family discussion question",
+    "format": "Short",
+    "engagement_score": 91,
+    "book_id": "B2",
+    "caption": "Would your family choose profit or principle on a 19th-c tea route?"
+  },
+  {
+    "id": "P6",
+    "channel": "Instagram",
+    "theme": "author backstory",
+    "format": "Carousel",
+    "engagement_score": 55,
+    "book_id": "B1",
+    "caption": "Why Julia Arnett set her story in a Roman legion camp"
+  },
+  {
+    "id": "P7",
+    "channel": "TikTok",
+    "theme": "timeline explainer",
+    "format": "Short",
+    "engagement_score": 76,
+    "book_id": "B3",
+    "caption": "How looms rewired city life in 5 steps"
+  },
+  {
+    "id": "P8",
+    "channel": "Instagram",
+    "theme": "plot twist tease",
+    "format": "Reel",
+    "engagement_score": 58,
+    "book_id": "B6",
+    "caption": "A coded letter changes everything at camp"
+  },
+  {
+    "id": "P9",
+    "channel": "TikTok",
+    "theme": "family discussion question",
+    "format": "Short",
+    "engagement_score": 88,
+    "book_id": "B4",
+    "caption": "Art or science—what would your family fund in 1500?"
+  },
+  {
+    "id": "P10",
+    "channel": "Instagram",
+    "theme": "aesthetic quote",
+    "format": "Image",
+    "engagement_score": 39,
+    "book_id": "B2",
+    "caption": "\"Steam fogged the windows; choices fogged our hearts.\""
+  }
+]

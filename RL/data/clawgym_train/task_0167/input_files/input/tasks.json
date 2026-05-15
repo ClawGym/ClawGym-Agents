@@ -1,0 +1,52 @@
+{
+  "tasks": [
+    {
+      "id": "T1",
+      "type": "strategy",
+      "interactive": true,
+      "batch": false,
+      "volume": 3,
+      "description": "Draft an executive decision memo summarizing tradeoffs for a data warehouse choice."
+    },
+    {
+      "id": "T2",
+      "type": "production",
+      "interactive": false,
+      "batch": true,
+      "volume": 200,
+      "description": "Generate 200 product descriptions from a standard template."
+    },
+    {
+      "id": "T3",
+      "type": "coding_and_scoring",
+      "interactive": false,
+      "batch": false,
+      "volume": 120,
+      "description": "Score and validate JSON outputs against a rubric and produce structured results."
+    },
+    {
+      "id": "T4",
+      "type": "classification",
+      "interactive": false,
+      "batch": false,
+      "volume": 1500,
+      "description": "Classify 1,500 support tickets into categories and extract priorities."
+    },
+    {
+      "id": "T5",
+      "type": "production",
+      "interactive": false,
+      "batch": false,
+      "volume": 50,
+      "description": "Write a set of internal emails announcing a feature rollout."
+    },
+    {
+      "id": "T6",
+      "type": "strategy",
+      "interactive": false,
+      "batch": true,
+      "volume": 1,
+      "description": "Review and synthesize feedback from three stakeholder groups to select a roadmap theme."
+    }
+  ]
+}

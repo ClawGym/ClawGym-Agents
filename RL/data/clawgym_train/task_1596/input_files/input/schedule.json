@@ -1,0 +1,15 @@
+{
+  "classes": [
+    {
+      "name": "Weeknight Indian 101",
+      "students": 10,
+      "menu": ["Chana Masala", "Jeera Rice"]
+    },
+    {
+      "name": "Paneer Lovers Workshop",
+      "students": 8,
+      "menu": ["Paneer Tikka", "Jeera Rice"]
+    }
+  ],
+  "servings_per_student_per_recipe": 1
+}

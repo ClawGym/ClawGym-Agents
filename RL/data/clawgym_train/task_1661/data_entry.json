@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1661",
+  "user_query": "I’m launching a friendly SaaS and need short social posts in Serbian that actually sound native, not stiff. Please read input/brand_brief.md, input/audience.json, and input/content_topics.csv. Then write 5 posts in Serbian (Latin script), each 180–220 characters, casual register (use ti, not Vi), with Balkan warmth and natural particles (ma, pa, baš, valjda, ono, znači, kao), and a sprinkle of native online vibe (e.g., haha/lol where it fits). Don’t use emojis or hashtags, don’t use Cyrillic, and avoid English unless it’s necessary brand terminology. Save the posts to output/post_drafts/sr_lat/posts.json as an array of objects with fields: id (string), text (string), tone_notes (string explaining choices). Also write a short style rationale in Serbian (Latin script) explaining how you adapted the brief and audience, saved to output/post_drafts/sr_lat/style_rationale.md. Ensure at least three different particles from {Ma, Pa, Baš, Valjda, Ono, Znači, Kao} appear across the set, include at least one \"haha\" or \"lol\" across the set, and do not use the formal \"Vi\" anywhere. Make sure the five posts differ in angle and wording.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

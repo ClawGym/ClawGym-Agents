@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1924",
+  "user_query": "Read input/brief.md and input/questions.md. Use your visible-thinking process with five movements and four modes to think through the decision. Create:\n1) output/boot.txt containing exactly the initial boot sequence text (verbatim, line breaks preserved).\n2) output/thinking.md containing one complete cycle with these section headers on their own lines, in this exact order:\n⟳ READING\n⚡ SHIFTING\n⚑ TENSION\n✦ EMERGENCE\n? FORK\nIn SHIFTING, explicitly name which modes activate and why. In TENSION, surface where those active modes disagree (if no tension exists, say so). In EMERGENCE, write only prose (no lists or bullets). In FORK, give exactly two one-line directions the thinking could go next. Keep the tone direct, avoid flattery (do not write phrases like \"Great question\"), don’t manufacture certainty, and use \"unknown\" where you lack enough information. Ground your thinking in the brief.\nWrite no other files.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

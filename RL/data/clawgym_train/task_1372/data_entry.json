@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1372",
+  "user_query": "Please read input/MEMORY.md and all files under input/memory/*.md, then build a \"Q2 Commitments & Deadlines Brief\" for Apr 1–Jun 30, 2026.\n\nDeliverables:\n1) Extract every commitment, action item, event, or deadline scheduled in this date range. Normalize dates to YYYY-MM-DD. For each item capture: date, a concise item summary, owner (if explicitly named; leave blank if missing or listed as 'TBD'), and the source file and line range where you found it. Save this as output/commitments.csv with the exact header: date,item,owner,source_path,line_range.\n\n2) Write output/report.md that includes:\n- A section titled \"Top 5 Priorities\" with exactly five concise bullet points, each ending with an inline citation in the form [source: input/<path> Lx-Ly].\n- A section titled \"Risks & Gaps\" with at least two bullets.\n- A section titled \"Missing Owners\" that lists the item summaries from the CSV whose owner is blank or 'TBD'.\n- A brief 7-week rollout plan (bulleted, week by week) covering how to sequence these commitments.\n\nIf you search the memory files and find nothing in Q2, explicitly say so in the report. Use only the memory files as the source of truth, be precise about dates, and cite every bullet in \"Top 5 Priorities\" with the required inline [source: ...] citation format.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

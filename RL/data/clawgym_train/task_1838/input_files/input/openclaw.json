@@ -1,0 +1,25 @@
+{
+  "gateway": {
+    "bind": "0.0.0.0",
+    "auth": {
+      "mode": "token",
+      "token": "tok_demo_ABCDEF1234567890" 
+    }
+  },
+  "channels": {
+    "slack": {
+      "dmPolicy": "open",
+      "allowFrom": [],
+      "groupPolicy": "open"
+    },
+    "discord": {
+      "dmPolicy": "pairing",
+      "allowFrom": ["847362915"],
+      "groupPolicy": "allowlist"
+    }
+  },
+  "integrations": {
+    "webhookSecret": "whsec_test_123",
+    "smtpPassword": "example-pass"
+  }
+}

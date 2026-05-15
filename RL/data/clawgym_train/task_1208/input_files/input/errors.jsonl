@@ -1,0 +1,10 @@
+{"id":"req-001","errorName":"none"}
+{"id":"req-002","errorName":"APIConnectionError"}
+{"id":"req-003","errorName":"none"}
+{"id":"req-004","errorName":"BadRequestError"}
+{"id":"req-005","errorName":"none"}
+{"id":"req-006","errorName":"none"}
+{"id":"req-007","errorName":"RateLimitError"}
+{"id":"req-008","errorName":"none"}
+{"id":"req-009","errorName":"InternalServerError"}
+{"id":"req-010","errorName":"AuthenticationError"}

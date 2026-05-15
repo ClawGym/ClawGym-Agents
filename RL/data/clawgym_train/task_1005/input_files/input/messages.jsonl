@@ -1,0 +1,38 @@
+{"id":"m1","thread_id":"!abc123:beeper.local","sender":{"display_name":"Alice Johnson","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T09:15:00Z","text":"Morning team"}
+{"id":"m2","thread_id":"!abc123:beeper.local","sender":{"display_name":"Finance Sync","is_bridge":true},"is_system":false,"timestamp":"2024-08-10T09:17:00Z","text":"Synced 3 messages"}
+{"id":"m3","thread_id":"!abc123:beeper.local","sender":{"display_name":"Bob Lee","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T09:20:00Z","text":"Did we receive the invoice from Northwind?"}
+{"id":"m4","thread_id":"!abc123:beeper.local","sender":{"display_name":"Carla Reyes","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T09:23:00Z","text":"Yes, invoice INV-0031 arrived. Payment terms are net 30."}
+{"id":"m5","thread_id":"!abc123:beeper.local","sender":{"display_name":"Bob Lee","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T09:25:00Z","text":"Okay, I'll process the payment today."}
+{"id":"m6","thread_id":"!abc123:beeper.local","sender":{"display_name":"Alice Johnson","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T10:05:00Z","text":"Wire sent to their account ending 4821."}
+{"id":"m7","thread_id":"!abc123:beeper.local","sender":{"display_name":"System","is_bridge":false},"is_system":true,"timestamp":"2024-08-10T10:10:00Z","text":"Bob changed the room photo"}
+{"id":"m8","thread_id":"!abc123:beeper.local","sender":{"display_name":"Carla Reyes","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T10:12:00Z","text":"Confirmed: supplier marked it as paid."}
+{"id":"m9","thread_id":"!abc123:beeper.local","sender":{"display_name":"Alice Johnson","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T11:00:00Z","text":"Unrelated: lunch at 12?"}
+{"id":"m10","thread_id":"!abc123:beeper.local","sender":{"display_name":"Finance Sync","is_bridge":true},"is_system":false,"timestamp":"2024-08-11T08:00:00Z","text":"Channel synced"}
+{"id":"m11","thread_id":"!abc123:beeper.local","sender":{"display_name":"Bob Lee","is_bridge":false},"is_system":false,"timestamp":"2024-08-12T09:00:00Z","text":"We still need the purchase order for the next batch."}
+{"id":"m12","thread_id":"!abc123:beeper.local","sender":{"display_name":"Carla Reyes","is_bridge":false},"is_system":false,"timestamp":"2024-08-12T09:05:00Z","text":"I'll request a PO by EOD."}
+{"id":"m13","thread_id":"!abc123:beeper.local","sender":{"display_name":"Alice Johnson","is_bridge":false},"is_system":false,"timestamp":"2024-08-12T09:06:00Z","text":"Thanks!"}
+{"id":"m14","thread_id":"!abc123:beeper.local","sender":{"display_name":"Alice Johnson","is_bridge":false},"is_system":false,"timestamp":"2024-08-12T09:30:00Z","text":"PO received: PO-7782, due net 30."}
+{"id":"m15","thread_id":"!abc123:beeper.local","sender":{"display_name":"Finance Sync","is_bridge":true},"is_system":false,"timestamp":"2024-08-12T10:00:00Z","text":"Payment posted to ledger."}
+{"id":"n1","thread_id":"!xyz789:beeper.local","sender":{"display_name":"Dana Gomez","is_bridge":false},"is_system":false,"timestamp":"2024-08-09T18:00:00Z","text":"Dinner tonight?"}
+{"id":"n2","thread_id":"!xyz789:beeper.local","sender":{"display_name":"Evan Brooks","is_bridge":false},"is_system":false,"timestamp":"2024-08-09T18:05:00Z","text":"Sure, also I paid the electric bill."}
+{"id":"n3","thread_id":"!xyz789:beeper.local","sender":{"display_name":"WhatsApp Bridge","is_bridge":true},"is_system":false,"timestamp":"2024-08-09T18:06:00Z","text":"Message forwarded"}
+{"id":"n4","thread_id":"!xyz789:beeper.local","sender":{"display_name":"Dana Gomez","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T08:30:00Z","text":"Can you set up a wire for the rent?"}
+{"id":"n5","thread_id":"!xyz789:beeper.local","sender":{"display_name":"Evan Brooks","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T08:45:00Z","text":"Payment sent."}
+{"id":"n6","thread_id":"!xyz789:beeper.local","sender":{"display_name":"Dana Gomez","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T08:50:00Z","text":"Got it, thanks!"}
+{"id":"n7","thread_id":"!xyz789:beeper.local","sender":{"display_name":"Evan Brooks","is_bridge":false},"is_system":false,"timestamp":"2024-08-11T07:00:00Z","text":"Invoice from the plumber came in."}
+{"id":"n8","thread_id":"!xyz789:beeper.local","sender":{"display_name":"Dana Gomez","is_bridge":false},"is_system":false,"timestamp":"2024-08-11T07:05:00Z","text":"I'll reimburse you."}
+{"id":"n9","thread_id":"!xyz789:beeper.local","sender":{"display_name":"System","is_bridge":false},"is_system":true,"timestamp":"2024-08-11T07:07:00Z","text":"Evan pinned invoice message"}
+{"id":"p1","thread_id":"!sup456:beeper.local","sender":{"display_name":"Frank Miles","is_bridge":false},"is_system":false,"timestamp":"2024-08-08T10:00:00Z","text":"Kickoff for vendor onboarding."}
+{"id":"p2","thread_id":"!sup456:beeper.local","sender":{"display_name":"Purchasing Bridge","is_bridge":true},"is_system":false,"timestamp":"2024-08-08T10:05:00Z","text":"Synced vendor card"}
+{"id":"p3","thread_id":"!sup456:beeper.local","sender":{"display_name":"Grace Park","is_bridge":false},"is_system":false,"timestamp":"2024-08-09T09:00:00Z","text":"Draft purchase order is ready for review."}
+{"id":"p4","thread_id":"!sup456:beeper.local","sender":{"display_name":"Frank Miles","is_bridge":false},"is_system":false,"timestamp":"2024-08-09T09:10:00Z","text":"Approve with net 30 terms."}
+{"id":"p5","thread_id":"!sup456:beeper.local","sender":{"display_name":"Grace Park","is_bridge":false},"is_system":false,"timestamp":"2024-08-09T09:15:00Z","text":"I'll submit the PO after lunch."}
+{"id":"p6","thread_id":"!sup456:beeper.local","sender":{"display_name":"Frank Miles","is_bridge":false},"is_system":false,"timestamp":"2024-08-09T09:20:00Z","text":"Once approved, vendor will be paid next week."}
+{"id":"p7","thread_id":"!sup456:beeper.local","sender":{"display_name":"System","is_bridge":false},"is_system":true,"timestamp":"2024-08-09T09:25:00Z","text":"Frank changed the group name"}
+{"id":"p8","thread_id":"!sup456:beeper.local","sender":{"display_name":"Grace Park","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T12:00:00Z","text":"Wire confirmation received."}
+{"id":"p9","thread_id":"!sup456:beeper.local","sender":{"display_name":"Frank Miles","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T12:05:00Z","text":"Invoice NW-1004 saved to drive."}
+{"id":"p10","thread_id":"!sup456:beeper.local","sender":{"display_name":"Grace Park","is_bridge":false},"is_system":false,"timestamp":"2024-08-10T12:06:00Z","text":"Thanks"}
+{"id":"p11","thread_id":"!sup456:beeper.local","sender":{"display_name":"Purchasing Bridge","is_bridge":true},"is_system":false,"timestamp":"2024-08-10T12:07:00Z","text":"PO auto-archived."}
+{"id":"f1","thread_id":"!nohit:beeper.local","sender":{"display_name":"Henry Chen","is_bridge":false},"is_system":false,"timestamp":"2024-08-07T12:00:00Z","text":"See you at 6"}
+{"id":"f2","thread_id":"!nohit:beeper.local","sender":{"display_name":"Isla Nolan","is_bridge":false},"is_system":false,"timestamp":"2024-08-07T12:05:00Z","text":"Bring snacks"}
+{"id":"f3","thread_id":"!nohit:beeper.local","sender":{"display_name":"SMS Bridge","is_bridge":true},"is_system":false,"timestamp":"2024-08-07T12:07:00Z","text":"Synced SMS"}

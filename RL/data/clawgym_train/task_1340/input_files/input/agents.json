@@ -1,0 +1,8 @@
+{
+  "agents": [
+    { "name": "Astra", "level": 3, "starting_credits": 25 },
+    { "name": "Bram", "level": 5, "starting_credits": 10 },
+    { "name": "Cyra", "level": 2, "starting_credits": 18 },
+    { "name": "Drake", "level": 4, "starting_credits": 5 }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "success": true,
+  "code": "0000",
+  "message": "OK",
+  "data": {
+    "tokenId": "1169841",
+    "chainId": 2003,
+    "contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+    "tokenDecimal": 6,
+    "isNativeToken": 0,
+    "type": "erc20",
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "tokenIcon": "https://static.bitmart.com/icons/usdc.png",
+    "isWithdraw": 1,
+    "isDeposit": 1,
+    "status": "active",
+    "gasLimit": "210000",
+    "contractOwner": "",
+    "source": "verified",
+    "createdAt": "2018-09-26T00:00:00Z",
+    "createTime": 1537920000000
+  }
+}

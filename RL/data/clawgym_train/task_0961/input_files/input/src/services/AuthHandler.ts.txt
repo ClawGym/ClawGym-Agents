@@ -1,0 +1,63 @@
+/**
+ * Critical-path: Authentication flow
+ * Contains intentional error-handling anti-patterns for audit:
+ * - NO_LOGGING_IN_CATCH (critical): catch without logging and silent continuation
+ * - GENERIC_CATCH (medium): no type narrowing
+ */
+
+type AuthResult = { userId: string | null; role: string; scopes?: string[] };
+
+const logger = {
+  error: (...args: any[]) => console.error(...args),
+  warn: (...args: any[]) => console.warn(...args),
+  info: (...args: any[]) => console.log(...args)
+};
+
+function parseJwt(token: string): Record<string, any> | null {
+  // naive parser for demo
+  try {
+    const [, payload] = token.split(".");
+    const decoded = Buffer.from(payload || "", "base64").toString("utf8");
+    return decoded ? JSON.parse(decoded) : null;
+  } catch {
+    // swallow parsing issues for demo (non-critical context)
+    return null;
+  }
+}
+
+export class AuthHandler {
+  // Critical path: determines auth state for every request
+  async authenticate(token: string | undefined): Promise<AuthResult> {
+    try {
+      if (!token) {
+        throw new Error("Missing token");
+      }
+      const payload = parseJwt(token);
+      if (!payload || !payload.sub) {
+        throw new Error("Invalid token payload");
+      }
+      // Simulate downstream auth checks
+      await this.checkRevocation(payload.sub);
+      return { userId: payload.sub, role: payload.role || "user", scopes: payload.scopes || [] };
+    } catch (error) {
+      // Anti-pattern: no logging, silent continuation on a critical path
+      // Returns a guest user and continues without surfacing the error
+      return { userId: null, role: "guest" };
+    }
+  }
+
+  private async checkRevocation(userId: string): Promise<void> {
+    // Simulate an external call that may fail
+    try {
+      if (userId.startsWith("revoked")) {
+        throw new Error("Revoked user");
+      }
+    } catch (e) {
+      // Anti-pattern: generic catch with no type discrimination and no logging
+      // Continuing silently here is dangerous on a critical path
+      // Note: left as-is for review proposals
+    }
+  }
+}
+
+export default new AuthHandler();

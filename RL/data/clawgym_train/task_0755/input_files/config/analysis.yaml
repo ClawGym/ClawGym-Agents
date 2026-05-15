@@ -1,0 +1,4 @@
+challenge_weight: 0.4
+photoshoot_weight: 0.4
+vote_weight: 0.2
+episodes_include: [1, 2, 3, 4, 5]

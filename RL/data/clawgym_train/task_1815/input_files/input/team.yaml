@@ -1,0 +1,54 @@
+as_of: 2026-06-30
+headcount_total: 78
+by_function:
+  engineering: 38
+  product: 8
+  sales: 12
+  marketing: 7
+  customer_success: 9
+  g_and_a: 4
+key_changes:
+  - date: 2026-05-15
+    type: hire
+    role: VP Sales
+    name: Dana Ruiz
+    note: Joined from ApexCloud; mandate is to scale mid-market motion and improve win rates.
+  - date: 2026-04-08
+    type: departure
+    role: Engineering Manager
+    name: Jordan Patel
+    note: Left for a startup CTO role; internal transition plan enacted with two senior ICs acting-up.
+  - date: 2026-06-01
+    type: promotion
+    role: Head of Customer Success
+    name: Priya Nair
+    note: Elevated from Senior CSM; focus on expansion and proactive health scoring.
+  - date: 2026-04-01
+    type: engagement
+    role: Fractional CFO
+    name: Morgan Lee (part-time)
+    note: Implemented rolling cash forecast and KPI instrumentation.
+hiring_pipeline:
+  - role: Senior Backend Engineer
+    stage: onsite
+    target_quarter: Q3 2026
+    priority: high
+  - role: Enterprise AE (2 openings)
+    stage: screening
+    target_quarter: Q3 2026
+    priority: high
+  - role: Product Designer
+    stage: offer
+    target_quarter: Q3 2026
+    priority: medium
+  - role: RevOps Manager
+    stage: sourcing
+    target_quarter: Q3 2026
+    priority: medium
+  - role: Security Engineer
+    stage: screening
+    target_quarter: Q4 2026
+    priority: medium
+assumptions:
+  - No further leadership departures expected in Q3 2026.
+  - VP Sales ramp time estimated at 60-90 days.

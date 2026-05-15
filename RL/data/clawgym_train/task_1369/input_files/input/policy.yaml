@@ -1,0 +1,24 @@
+checks:
+  timezone:
+    required: true
+    expected_timezone: "Europe/London"
+  chinese_locale:
+    required: true
+    any_of:
+      - "zh_CN"
+      - "zh_CN.utf8"
+      - "zh_CN.UTF-8"
+      - "zh_TW"
+      - "zh_TW.utf8"
+      - "zh_TW.UTF-8"
+  chinese_font:
+    required: true
+    font_match_hints:
+      - "Noto Sans CJK"
+      - "WenQuanYi"
+      - "Source Han Sans"
+      - "PingFang"
+      - "SimSun"
+metadata:
+  customer_segment: "Mandarin-speaking tour groups"
+  operator: "UK office"

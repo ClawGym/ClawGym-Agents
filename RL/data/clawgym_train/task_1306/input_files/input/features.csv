@@ -1,0 +1,11 @@
+feature,description,effort_points,owner,dependencies,target_quarter,tags
+"Multi-Channel Delivery","Support email, SMS, and push with provider abstraction",13,"A. Patel","",Q3,"core,delivery"
+"Delivery Telemetry & Analytics","Event pipeline for send, delivery, open, and latency metrics",8,"M. Chen","Multi-Channel Delivery",Q3,"observability,metrics"
+"Retry and Backoff Engine","Automatic retries with exponential backoff and jitter",5,"L. Rivera","Multi-Channel Delivery",Q3,"reliability,delivery"
+"SLA Latency Alerts","Real-time alerts when p95 latency or error rate exceeds SLO",5,"J. Kim","Delivery Telemetry & Analytics",Q3,"monitoring,alerts"
+"Webhook Delivery Receipts","HTTP callbacks to customer systems for delivery status updates",5,"P. Zhao","Multi-Channel Delivery,Delivery Telemetry & Analytics",Q3,"api,webhooks,integrations"
+"EU Data Residency Support","Route and store European customer data within EU-only infrastructure",13,"R. Novak","",Q3,"compliance,region,security"
+"Admin Notification Dashboard","Unified view of campaigns, alerts, and delivery health",8,"S. Gupta","Delivery Telemetry & Analytics",Q4,"ui,admin"
+"Regional Failover","Active-active failover between US and EU with health checks and quorum",13,"T. O'Neill","EU Data Residency Support,Delivery Telemetry & Analytics",Q4,"reliability,region"
+"Staged Rollout Controls","Feature flags and per-segment percentage rollout with kill switch",3,"C. Lee","",Q4,"rollout,release,devops"
+"Year-End Blackout Compliance Mode","Enforce scheduled deploy blackouts and guardrails during holidays",3,"D. Silva","Staged Rollout Controls",Q4,"compliance,release,ops"

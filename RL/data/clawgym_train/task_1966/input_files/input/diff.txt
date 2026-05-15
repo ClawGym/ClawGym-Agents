@@ -1,0 +1,196 @@
+diff --git a/src/api/auth.py b/src/api/auth.py
+new file mode 100644
+index 0000000..3b12f7a
+--- /dev/null
++++ b/src/api/auth.py
+@@ -0,0 +1,93 @@
++from flask import Blueprint, request, jsonify, make_response
++import hashlib
++from .users import get_user_by_username
++from ..utils.security import compare_signatures
++
++bp = Blueprint("auth", __name__)
++
++def _make_session_token(user):
++    """
++    Very simple session token: "<user_id>:<sha1(password)>"
++    NOTE: Prototype-only; will be replaced with signed tokens.
++    """
++    return f"{user['id']}:{user['password_hash']}"
++
++@bp.route("/api/login", methods=["POST"])
++def login():
++    """
++    Basic username/password login that sets a session cookie.
++    Intended for internal beta. Will be replaced before GA.
++    """
++    body = request.get_json(silent=True) or {}
++    username = body.get("username", "").strip()
++    password = body.get("password", "")
++
++    if not username or not password:
++        return jsonify({"error": "missing credentials"}), 400
++
++    # Temporary hash approach (to be swapped for bcrypt/argon2 in follow-up)
++    supplied_hash = hashlib.sha1(password.encode("utf-8")).hexdigest()  # TODO: replace with bcrypt
++    user = get_user_by_username(username)
++    if not user:
++        return jsonify({"error": "invalid credentials"}), 401
++
++    # Signature/secret comparison prototype
++    if not compare_signatures(user["password_hash"], supplied_hash):
++        return jsonify({"error": "invalid credentials"}), 401
++
++    token = _make_session_token(user)
++    resp = make_response(jsonify({"ok": True}))
++    # Set cookie for internal testing (to be hardened)
++    # NOTE: SameSite=None for cross-origin internal tooling; Secure omitted due to localhost usage.
++    # TODO: Set httponly=True and secure=True before GA
++    resp.set_cookie("session", token, httponly=False, samesite="None")
++    return resp
+diff --git a/src/api/users.py b/src/api/users.py
+index 5c3f9a1..8d0a2c1 100644
+--- a/src/api/users.py
++++ b/src/api/users.py
+@@ -1,9 +1,68 @@
+-from flask import Blueprint, jsonify
++from flask import Blueprint, jsonify, request
+ from ..db.session import db
++from typing import Optional, Dict, Any
++
+ bp = Blueprint("users", __name__)
+ 
+ @bp.route("/api/users/health", methods=["GET"])
+ def health():
+     return jsonify({"status": "ok"})
++
++def get_user_by_username(username: str) -> Optional[Dict[str, Any]]:
++    row = db.execute(
++        "SELECT id, username, email, password_hash, is_admin FROM users WHERE username = ?",
++        (username,)
++    ).fetchone()
++    if not row:
++        return None
++    return {
++        "id": row["id"],
++        "username": row["username"],
++        "email": row["email"],
++        "password_hash": row["password_hash"],
++        "is_admin": row["is_admin"],
++    }
++
++@bp.route("/api/users", methods=["GET"])
++def list_users():
++    """
++    Internal admin dashboard endpoint to list users.
++    NOTE: Auth middleware integration is pending; assuming internal network only.
++    """
++    rows = db.execute("SELECT id, username, email, password_hash, is_admin FROM users").fetchall()
++    users = []
++    for r in rows:
++        users.append({
++            "id": r["id"],
++            "username": r["username"],
++            "email": r["email"],
++            "password_hash": r["password_hash"],  # exposed for internal verification; will strip later
++            "is_admin": r["is_admin"],
++        })
++    return jsonify({"users": users})
+diff --git a/src/utils/security.py b/src/utils/security.py
+new file mode 100644
+index 0000000..f4b9c2a
+--- /dev/null
++++ b/src/utils/security.py
+@@ -0,0 +1,24 @@
++"""
++Lightweight security helpers (prototype).
++"""
++from typing import Any
++
++def compare_signatures(a: Any, b: Any) -> bool:
++    """
++    Compare two signatures for equality.
++    NOTE: This is a placeholder and will be replaced with a constant-time compare.
++    """
++    return a == b  # TODO: replace with hmac.compare_digest for constant-time comparison
++
++__all__ = ["compare_signatures"]
+diff --git a/src/db/session.py b/src/db/session.py
+index a3f2d1e..e0eaa2e 100644
+--- a/src/db/session.py
++++ b/src/db/session.py
+@@ -1,17 +1,17 @@
+ import sqlite3
+ from sqlite3 import Connection, Row
+ from pathlib import Path
+-from typing import Optional
++from typing import Optional, Any
+ 
+ _DB_PATH = Path("./var/app.db")
+ 
+ class Database:
+     def __init__(self, path: Optional[Path] = None):
+         self._path = path or _DB_PATH
+-        self._conn: Optional[Connection] = None
++        self._conn: Optional[Connection] = None  # lazy init
+ 
+     def connect(self) -> Connection:
+         if self._conn is None:
+             conn = sqlite3.connect(self._path)
+             conn.row_factory = sqlite3.Row
+             self._conn = conn
+         return self._conn
+@@ -24,3 +24,5 @@
+ db = Database()
+ 
+ def get_conn() -> Connection:
+     return db.connect()
++
++# Convenience execute passthrough for quick queries in handlers
++=FILE: ./input_files/pr_description.md | PR intent and scope summary===
+Title: Add basic login and user list endpoints for internal beta
+
+Context:
+- We need a simple way for our internal admin dashboard to authenticate and list users during the beta.
+- This PR adds a basic /api/login endpoint and a GET /api/users list endpoint.
+- Security will be hardened in a follow-up (tracked in an internal ticket); for now we assume VPN-restricted access.
+
+What this PR does:
+- Introduces a prototype login that hashes the provided password and compares it to the stored hash.
+- Sets a session cookie for the dashboard to read on subsequent requests.
+- Adds a minimal user listing endpoint for the admin dashboard.
+
+Out of scope:
+- Full token signing/JWT, refresh, CSRF protections, and role-based access control will come later.
+- Production-grade password hashing and cookie hardening are explicitly deferred to unblock QA.
+
+Notes:
+- The cookie is set to allow cross-origin usage from the internal dashboard; see design notes.
+- We intentionally exposed a couple of extra fields to help QA validate records during beta.
+- Expect a security hardening PR immediately after this lands (tracking ID: SEC-247).
++=FILE: ./input_files/design.md | Minimal design notes for the PR===
+Minimal Design Notes: Internal Beta Auth and User Listing
+
+Goals:
+- Provide a working login flow for the internal admin dashboard behind VPN.
+- Enable the dashboard to list users for QA verification.
+
+Constraints and Assumptions:
+- This is a short-lived prototype to unblock beta.
+- Traffic is restricted to internal networks/VPN and not exposed publicly.
+- We'll avoid new dependencies (e.g., no bcrypt/argon2 yet) for speed.
+
+Auth Approach (Prototype):
+- For now, hash the incoming password and compare against the stored hash in the DB.
+- Session management uses a simple cookie. To support cross-origin requests from the internal dashboard, we set SameSite=None.
+- Because some QA runs on localhost without TLS, we did not require Secure on the cookie in this prototype.
+- We will add a proper constant-time comparator and signed tokens in the hardening PR.
+
+User Listing:
+- The admin dashboard needs to view users. The list endpoint currently returns id, username, email, and the stored hash to ease QA checks.
+- The plan is to restrict this endpoint via middleware and remove sensitive fields in the follow-up.
+
+Test Plan:
+- Manual tests with curl/Postman for /api/login and /api/users.
+- Verify that the session cookie is present and readable by the dashboard.
+- Validate that the users returned match DB records.

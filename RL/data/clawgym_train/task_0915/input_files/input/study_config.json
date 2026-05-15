@@ -1,0 +1,71 @@
+{
+  "title": "Efficacy of Compound X in the db/db Mouse Model of Type 2 Diabetes",
+  "study_type": "efficacy",
+  "species": "Mus musculus",
+  "strain": "BKS.Cg-Leprdb/db (db/db)",
+  "sex": "Male",
+  "age_weeks": 9,
+  "weight_range_g": "35-45",
+  "source": "Accredited vendor, SPF facility",
+  "housing": {
+    "conditions": "SPF, 22±2°C, 50±10% humidity, 12:12 light:dark",
+    "cage_density": "4-5 per cage",
+    "diet": "Standard chow, water ad libitum"
+  },
+  "groups": [
+    { "name": "Wild-type control", "n": 12, "treatment": "Vehicle (0.5% CMC-Na)" },
+    { "name": "Disease control (db/db)", "n": 12, "treatment": "Vehicle (0.5% CMC-Na)" },
+    { "name": "Positive control (Metformin)", "n": 12, "treatment": "Metformin 200 mg/kg" },
+    { "name": "Compound X low dose", "n": 12, "treatment": "Compound X 10 mg/kg" },
+    { "name": "Compound X high dose", "n": 12, "treatment": "Compound X 50 mg/kg" }
+  ],
+  "randomization": "Computer-generated block randomization (block size 6) stratified by baseline body weight",
+  "blinding": "Operators and outcome assessors blinded; pharmacy prepares coded dosing solutions",
+  "duration_days": 28,
+  "primary_endpoint": "Fasting blood glucose reduction at Day 28 versus baseline",
+  "secondary_endpoints": [
+    "HbA1c at Day 28",
+    "OGTT AUC at Day 21",
+    "Serum insulin and HOMA-IR",
+    "Body weight trajectory",
+    "Serum lipids (TC, TG, LDL-C, HDL-C)"
+  ],
+  "inclusion_criteria": [
+    "db/db males 8–10 weeks",
+    "Body weight 35–45 g",
+    "No overt illness on intake exam"
+  ],
+  "exclusion_criteria": [
+    "Unexpected morbidity prior to dosing",
+    "Failed sample collection despite two attempts",
+    "Protocol deviations affecting primary endpoint"
+  ],
+  "procedures": {
+    "dosing_route": "Oral gavage",
+    "frequency": "Once daily (QD)",
+    "sampling_timepoints": ["Baseline", "Week 2", "Week 3 (OGTT)", "Week 4 (terminal)"],
+    "euthanasia": "CO2 asphyxiation followed by secondary method"
+  },
+  "statistical_methods": "Normality (Shapiro–Wilk), homogeneity (Levene). One-way ANOVA with Tukey’s HSD for parametric data; Kruskal–Wallis with Dunn’s for non-parametric. Two-sided alpha=0.05.",
+  "multiple_comparisons": "Tukey HSD; Bonferroni as sensitivity",
+  "power_assumptions": {
+    "effect_size_cohens_d": 0.8,
+    "alpha": 0.05,
+    "power": 0.80,
+    "expected_dropout": 0.10
+  },
+  "ethics": {
+    "committee": "Institutional Animal Care and Use Committee (IACUC)",
+    "protocol_id": "IACUC-2026-042",
+    "humane_endpoints": [
+      "Body weight loss >20%",
+      "Severe distress or inability to ambulate",
+      "Uncontrolled pain despite analgesia"
+    ]
+  },
+  "reporting": {
+    "data_sharing": "Raw data and analysis code available upon reasonable request",
+    "conflict_of_interest": "None declared",
+    "funding": "Internal R&D budget"
+  }
+}

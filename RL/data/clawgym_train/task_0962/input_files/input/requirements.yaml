@@ -1,0 +1,9 @@
+# Minimum tool versions for the engraving blog workflow
+# Keys are command names discoverable on PATH; values are the minimum acceptable versions.
+# The audit will compare detected versions against these minima when present.
+tools:
+  convert: "7.0.0"      # ImageMagick convert
+  gs: "9.20"            # Ghostscript
+  exiftool: "12.00"     # ExifTool
+  python3: "3.8"        # Python for auxiliary scripts
+  pandoc: "2.9"         # For text conversions in long-form essays

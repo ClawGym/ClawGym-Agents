@@ -1,0 +1,4 @@
+{"id":"1","text":"Notes for security review: Do not store the OpenAI key sk-proj-abc123def456ghi789 in memory. Also, remove any database credentials like postgres://admin:s3cret@db.host:5432/mydb. Temporary JWT for testing: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvZSIsImlhdCI6MTUxNjIzOTAyMn0.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"}
+{"id":"2","text":"Auth header observed in logs: Bearer abcdEFGH12345; also saw an AWS access key AKIA1234567890ABCD12 during deployment. Both must be revoked and redacted."}
+{"id":"3","text":"Meeting notes: discuss Q2 roadmap and prioritize developer experience. No credentials included."}
+{"id":"4","text":"While debugging, found a DSN mysql://user:pass@localhost:3306/app and an accidental GitHub token github_pat_ABCDEF1234567890 in a shared snippet. Ensure both are removed before commit."}

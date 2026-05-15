@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2026-03-07",
+    "customer": "LumenThreads (Shopify Plus)",
+    "role": "Operations Lead",
+    "text": "Watchtower helped us spot Shopify webhook delays impacting order confirmations. Our previous tool was too noisy, but Pulse’s baselines cut alert fatigue dramatically.",
+    "themes": ["Shopify", "webhooks", "noise reduction", "alert fatigue", "MTTR improvement"]
+  },
+  {
+    "date": "2026-01-25",
+    "customer": "HarborSupply Market",
+    "role": "Head of Marketplace Ops",
+    "text": "TinyETL-based connection got us up and running quickly. We had noise issues before; now incidents are prioritized better and our seller onboarding metrics are finally reliable.",
+    "themes": ["TinyETL", "onboarding", "noise", "prioritization"]
+  },
+  {
+    "date": "2025-11-18",
+    "customer": "BrightHearth",
+    "role": "E-commerce Engineering Manager",
+    "text": "Alert fatigue was a real problem. We needed more granular control and seasonal awareness. Recent Pulse updates improved signal-to-noise and reduced false alarms.",
+    "themes": ["alert fatigue", "granular controls", "seasonality", "noise"]
+  }
+]

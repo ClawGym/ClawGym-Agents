@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0874",
+  "user_query": "I need a focused 10-day DevOps onboarding plan for my team. Please read our constraints and preferences from input/preferences.json and the background from input/context.md, then produce two deliverables:\n\n1) output/plan.md — A 10-day schedule titled \"10-Day DevOps Onboarding for <team_name>\" with sections for Day 1 through Day 10. For each day include: theme/topic, 2–4 learning objectives, one hands-on lab (practical, command-driven), and a simple evaluation criterion. Add a \"Time per day: <time_per_day> minutes\" line near the top. Tailor the sequencing and examples to our context. Include a \"Tooling reference\" section that embeds the command-line help, info, and status outputs of the DevOps curriculum CLI you use, verbatim (include the full help command list, version info with the GitHub source link, and its ready status). Finish with a \"Quality Notes\" subsection explaining your rationale and how this aligns to a 90-day DevOps learning map.\n\n2) output/checklist.csv — A machine-checkable checklist with header columns: day,topic,objective,hands_on,time_minutes,evaluation. Include exactly 10 data rows (days 1–10). Set time_minutes equal to the time_per_day from preferences for every row. Set hands_on to \"yes\" or \"no\" (use \"yes\" if hands_on is true in preferences). Ensure each preferred topic appears at least once across the CSV and the plan.\n\nRules:\n- Use the 90-day DevOps learning framework as your base, but compress it thoughtfully into 10 days for our needs.\n- Incorporate every topic listed in preferences.topics at least once; do not mention anything in preferences.exclude_tools anywhere in outputs.\n- Reflect team_name and constraints from the inputs.\n- Write only to the specified output/ paths.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

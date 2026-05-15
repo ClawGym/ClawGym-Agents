@@ -1,0 +1,3 @@
+tempo_unit: beatsPerMin
+default_key: C
+set_duration_target_min: 45

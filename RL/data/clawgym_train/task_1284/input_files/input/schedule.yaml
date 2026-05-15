@@ -1,0 +1,3 @@
+iterations: 5
+interval_seconds: 1
+command_template: "python input/sim_job.py --run-id {i}"

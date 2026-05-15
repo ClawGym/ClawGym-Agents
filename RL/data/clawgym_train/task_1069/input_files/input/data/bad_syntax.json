@@ -1,0 +1,6 @@
+{
+  "id": "bad-001",
+  "name": "Broken Document",
+  "values": [1, 2, 3,],
+  "active": true
+}

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_1283",
+  "user_query": "Please perform a static security scan of the skill located at input/skill_to_review/. Read both input/skill_to_review/SKILL.md and input/skill_to_review/scripts/suspicious.py. Identify security issues using common static patterns (e.g., prompt injection in SKILL.md, suspicious or non-HTTPS URLs, credential harvesting via env vars, data exfiltration via POSTs, risky shell execution, serialized code loading). Then write a machine-checkable report to output/security_report.json with this exact structure: { \"skill\": \"skill_to_review\", \"total_findings\": <int>, \"findings\": [ { \"file\": <string>, \"line\": <int>, \"severity\": <\"CRITICAL\"|\"HIGH\"|\"MEDIUM\"|\"LOW\">, \"description\": <string>, \"match\": <string> }, ... ], \"by_severity\": { \"CRITICAL\": <int>, \"HIGH\": <int>, \"MEDIUM\": <int>, \"LOW\": <int> }, \"verdict\": <\"CRITICAL\"|\"HIGH\"|\"MEDIUM\"|\"CLEAN\"> }. Severity rules for verdict: if any CRITICAL findings then \"CRITICAL\"; else if any HIGH then \"HIGH\"; else if any findings then \"MEDIUM\"; else \"CLEAN\". Also write a brief human-readable summary of the results to output/summary.txt. Do not use absolute paths; use the relative input/ and output/ paths as provided.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

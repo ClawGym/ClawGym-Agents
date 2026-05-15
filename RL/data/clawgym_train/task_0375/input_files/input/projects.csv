@@ -1,0 +1,13 @@
+project_id,country,initiative,start_year,status,baseline_emissions_mtco2e,current_emissions_mtco2e,funding_musd
+P001,Kenya,Grid-scale Solar Expansion,2019,active,5.0,2.0,120
+P002,India,Agricultural Methane Reduction,2018,active,9.5,7.0,80
+P003,Brazil,Rainforest Protection,2017,active,12.0,6.0,300
+P004,Germany,Industrial Efficiency,2020,active,7.0,4.0,150
+P005,Fiji,Coastal Resilience,2021,planned,2.0,2.0,50
+P006,Morocco,Wind Farm Upgrade,2016,active,6.5,2.5,140
+P007,Indonesia,Peatland Restoration,2018,paused,10.0,9.0,90
+P008,Norway,Carbon Capture Pilot,2020,active,4.0,3.2,200
+P009,Peru,Clean Cookstoves,2019,active,3.0,1.1,30
+P010,Vietnam,Public Transit Electrification,2021,active,5.5,3.1,220
+P011,India,Rooftop Solar for Schools,2022,active,1.8,0.9,25
+P012,Brazil,Cattle Ranch Methane Management,2015,active,8.0,6.9,60

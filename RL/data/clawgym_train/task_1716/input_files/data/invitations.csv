@@ -1,0 +1,14 @@
+email;restaurant_id;status;timestamp
+elise@leciel.fr;r1;Yes;2026-04-10T09:12:00Z
+marco@sole.it;r2;YES ;2026-04-09T11:22:00Z
+aiko@sakura.jp;r3;Maybe;2026-04-08T08:00:00Z
+sofia@andes.cl;r4;No;2026-04-07T13:30:00Z
+anil@spiceroute.in;r5;Pending;2026-04-11T10:00:00Z
+liam@harbor.ie;r6;yes;2026-04-09T09:00:00Z
+diego@pampas.ar;r7;Declined;2026-04-08T12:00:00Z
+eva@nordic.se;r8; ;2026-04-09T15:45:00Z
+mia@pacrim.au;r9;Yes;2026-04-12T07:30:00Z
+joao@casasabor.pt;r10;No Response;2026-04-12T09:00:00Z
+liam@harbor.ie;r6;No;2026-04-12T10:00:00Z
+aiko@sakura.jp;r3;Yes;2026-04-12T11:00:00Z
+elise@leciel.fr;r1;Yes;2026-04-12T12:00:00Z

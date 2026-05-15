@@ -1,0 +1,10 @@
+[
+  {"name": "Alex Kim", "position": "G", "status": "active", "allergies": ["nuts"], "roles": ["captain"]},
+  {"name": "Jordan Lee", "position": "F", "status": "active", "allergies": [], "roles": ["equipment_mgr"]},
+  {"name": "Sam Patel", "position": "C", "status": "active", "allergies": ["dairy"], "roles": ["nutrition_rep"]},
+  {"name": "Chris Rivera", "position": "G", "status": "active", "allergies": [], "roles": ["player"]},
+  {"name": "Taylor Chen", "position": "F", "status": "active", "allergies": [], "roles": ["player"]},
+  {"name": "Morgan Davis", "position": "G", "status": "active", "allergies": [], "roles": ["player"]},
+  {"name": "Riley Thompson", "position": "C", "status": "injured", "allergies": [], "roles": ["player"]},
+  {"name": "Parker Nguyen", "position": "F", "status": "injured", "allergies": ["gluten"], "roles": ["player"]}
+]

@@ -1,0 +1,11 @@
+topic,weight
+politics,0.85
+economy,0.75
+weather,0.95
+sports,0.60
+tech,0.50
+health,0.70
+local,1.00
+education,0.65
+entertainment,0.55
+environment,0.70

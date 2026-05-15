@@ -1,0 +1,60 @@
+{
+  "sessionId": "sess_sw_9mo_iiot",
+  "userId": 102,
+  "timestamp": "2026-04-19T10:05:00Z",
+  "assessmentData": {
+    "sessionId": "sess_sw_9mo_iiot",
+    "timestamp": "2026-04-19T10:05:00Z",
+    "experience": {
+      "yearsInTech": 6,
+      "previousRoles": [
+        "QA engineer",
+        "Test automation engineer"
+      ],
+      "industryExposure": [
+        "manufacturing",
+        "industrial automation",
+        "SCADA"
+      ]
+    },
+    "skills": {
+      "hardSkills": [
+        "Python",
+        "Bash",
+        "Linux",
+        "Docker",
+        "Jenkins",
+        "networking fundamentals",
+        "REST APIs",
+        "SQL basics"
+      ],
+      "softSkills": [
+        "attention to detail",
+        "documentation",
+        "stakeholder communication",
+        "systems thinking"
+      ],
+      "proficiencyLevels": {
+        "embedded": "beginner",
+        "networking": "intermediate",
+        "cloud": "beginner",
+        "protocols": "beginner",
+        "dataEngineering": "beginner",
+        "security": "beginner",
+        "automation": "advanced"
+      }
+    },
+    "goals": {
+      "targetRole": "IoT Engineer (Industrial/IIoT)",
+      "timeframe": "9 months",
+      "specialization": "Edge gateways, Industrial protocols (Modbus, OPC UA), condition monitoring",
+      "priorities": [
+        "certifications",
+        "cloud platforms (AWS/Azure)",
+        "security-by-design",
+        "project integrating legacy PLCs",
+        "time-efficient learning"
+      ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+influencer_id,discount_code,fixed_fee,commission_percent_override
+fit_guru,FITGURU,300,
+beauty_ally,BEAUTY15,500,0.15
+tech_review,TECH20,200,
+lifestyle_lena,LENA10,300,
+micro_mike,MIKE5,150,0.10
+budget_ben,BENDEAL,0,
+spam_kol,SPAM999,0,0.08

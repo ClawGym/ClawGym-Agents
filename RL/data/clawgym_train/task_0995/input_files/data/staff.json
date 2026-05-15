@@ -1,0 +1,8 @@
+{
+  "staff": [
+    {"name": "Cara", "role": "baker", "availability": {"start": "06:00", "end": "10:00"}},
+    {"name": "Ben", "role": "line_cook", "availability": {"start": "09:00", "end": "15:00"}},
+    {"name": "Ana", "role": "prep_cook", "availability": {"start": "08:00", "end": "12:00"}},
+    {"name": "Dan", "role": "pastry", "availability": {"start": "10:30", "end": "15:00"}}
+  ]
+}

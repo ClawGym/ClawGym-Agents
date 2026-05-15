@@ -1,0 +1,37 @@
+Quarter: Q2 2026 (Apr–Jun)
+
+Company/Product:
+- We operate a checkout and payments platform used by ~1,200 active merchants.
+- Architecture: microservices with mobile SDKs (iOS/Android) and a React web checkout.
+
+Top Objectives (must-hit):
+1) Launch EU Market (including VAT compliance) by mid-June with zero critical compliance gaps.
+2) Reliability: Maintain 99.95% payment success SLO and <1hr/month unplanned checkout downtime.
+3) Performance: Reduce checkout p95 latency by 150ms (web and mobile) by end of quarter.
+4) Security/Compliance: SOC 2 Type II audit in late June—expect evidence requests and remediation follow-ups.
+
+Key Product Commitments (already promised to customers/GTMS):
+- EU VAT 2.0 (merchant-configurable VAT rules, invoice display): Target Sprint 4 code complete for Sprint 5 merchant pilot.
+- Mobile Checkout Revamp (A/B test): Target Sprint 5 experiment start; focus on faster startup and fewer crashes.
+- Minor feature: “Saved Payment Methods UX polish” is opportunistic and should not slip EU VAT 2.0.
+
+Constraints and Risks:
+- Marketing campaign for EU launch starts Week 10 of the quarter.
+- Feature freeze during the final week of the quarter (no risky deployments).
+- Support volume has spiked recently due to intermittent auth/login failures and duplicate charge complaints on retries.
+- Third-party Tax API has had two 30–60 minute brownouts in the last quarter.
+- On-call load averages ~3 hours/week of incident/triage.
+
+Success Measures:
+- EU merchants onboard with VAT-compliant invoices by end of June.
+- Payment success rate ≥ 99.95% and a measurable decrease in “duplicate charge” tickets.
+- Checkout p95 improved by ≥150ms vs. Q1 baseline.
+- Clean SOC 2 evidence for change management, incident response, and access controls.
+
+Coordination:
+- Product insists feature delivery cannot stall; any tech debt plan must interleave with EU VAT 2.0 and Mobile Revamp.
+- Legal/compliance wants proof of change control and rollback capability for schema and auth-related changes.
+
+Assumptions:
+- Two new mid-level engineers start early May; ramp-up required.
+- We can invest a meaningful but sustainable percentage of capacity into tech debt paydown if it directly reduces risk to EU launch, reliability, and latency goals.

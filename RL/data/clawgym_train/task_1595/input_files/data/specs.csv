@@ -1,0 +1,10 @@
+room,system,item_id,item_type,fixture_finish,faceplate_color,requires_gfci,gfci,mounting
+Kitchen,plumbing,P1,faucet,brushed brass,,,
+Kitchen,electrical,E1,outlet,,matte black,true,false,concealed
+Kitchen,electrical,E2,track_light,,matte black,false,,exposed
+Master Bath,plumbing,P2,shower_head,polished chrome,,,
+Master Bath,electrical,E3,outlet,,white,true,true,concealed
+Living Room,electrical,E4,outlet,,matte black,false,,concealed
+Living Room,plumbing,P3,radiator_valve,brushed brass,,,
+Living Room,electrical,E5,sconce,,matte black,false,,exposed
+Master Bath,electrical,E6,dimmer,,gray,false,,concealed

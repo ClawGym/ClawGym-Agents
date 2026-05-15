@@ -1,0 +1,11 @@
+project_id,profit,cost,hours,category
+P1,30,20,8,AI
+P2,24,18,7,Web
+P3,36,28,12,AI
+P4,21,15,6,Mobile
+P5,19,13,5,Web
+P6,40,30,14,Systems
+P7,27,19,7,AI
+P8,33,25,10,Data
+P9,16,10,4,Mobile
+P10,26,17,6,Data

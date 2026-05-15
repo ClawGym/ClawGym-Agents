@@ -1,0 +1,18 @@
+$ python3 tools/stitch_recap.py --clips input/clips/*.mp4 --logo assets/kirkuk_badge.png --out output/recap_2024-11-12.mp4
+[INFO] Loaded 8 clips
+[WARN] fps not specified; defaulting to 30
+Traceback (most recent call last):
+  File "/home/user/project/tools/stitch_recap.py", line 142, in <module>
+    logo = Image.open(args.logo).convert("RGBA")
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 2968, in open
+    fp = builtins.open(filename, "rb")
+FileNotFoundError: [Errno 2] No such file or directory: 'assets/kirkuk_badge.png'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/user/project/tools/stitch_recap.py", line 158, in <module>
+    sys.exit("Failed to load logo overlay")
+SystemExit: Failed to load logo overlay
+
+Command exited with non-zero status 1

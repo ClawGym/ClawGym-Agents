@@ -1,0 +1,4 @@
+study_id,title,population,key_outcomes,key_estimates,citation_code,source_file
+S1,"Intersecting Penalties: Black Women in the Tech Sector","Black women in U.S. tech employment","wage gaps; occupational segregation","bw_vs_ww=-0.12; bw_vs_wm=-0.22; controls=edu,exp,region","CIT-001","input/articles/study_A.md"
+S2,"Unions and the Motherhood Penalty for Latina Workers","Latina women in union and non-union jobs","motherhood penalty; union wage premium","motherhood_penalty=-0.06; union_premium=0.15; scope=hourly wages","CIT-002","input/articles/study_B.md"
+S3,"Segmented Advantages: Asian American Men and Immigration Status","Asian American men across occupations","gender gap within occupation; immigrant penalty","within_occ_gender_gap=-0.18; immigrant_penalty=-0.08; cohort=post-2000","CIT-003","input/articles/study_C.md"

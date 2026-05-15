@@ -1,0 +1,5 @@
+hex_value,note
+0x1301,Modern AEAD baseline for TLS 1.3
+0x1303,Stronger AEAD; show contrast with 0x1301
+0x00FF,Demonstrate SCSV concept
+0x009C,Legacy RSA GCM example

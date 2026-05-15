@@ -1,0 +1,23 @@
+{
+  "tradition": {
+    "aliases": {
+      "Theotokos": "Theotokos",
+      "Mother of God": "Theotokos",
+      "Homoousios": "Homoousios",
+      "Icon veneration": "Icon veneration",
+      "Iconodulia": "Icon veneration",
+      "Eucharistic sacrifice": "Eucharistic sacrifice",
+      "Apostolic Tradition": "Apostolic Tradition"
+    },
+    "earliest_years": {
+      "Homoousios": 325,
+      "Theotokos": 431,
+      "Icon veneration": 787,
+      "Eucharistic sacrifice": 50,
+      "Apostolic Tradition": 100
+    }
+  },
+  "weights": {
+    "anachronism": "0.75"
+  }
+}

@@ -1,0 +1,21 @@
+date,region,topic,stance,channel,zip,age_group
+2024-01-05,Middle East,Foreign Policy,oppose_change,email,10001,55-64
+2024-01-06,Middle East,Foreign Policy,support_change,phone,10002,35-44
+2024-01-10,Middle East,Foreign Policy,oppose_change,email,10001,45-54
+2024-01-15,Middle East,Foreign Policy,oppose_change,townhall,10003,65+
+2024-01-20,Middle East,Foreign Policy,oppose_change,phone,10002,45-54
+2024-02-02,Middle East,Foreign Policy,support_change,email,10004,25-34
+2024-02-07,Middle East,Foreign Policy,oppose_change,phone,10004,35-44
+2024-02-14,Middle East,Foreign Policy,oppose_change,email,10002,55-64
+2024-02-21,Middle East,Foreign Policy,oppose_change,phone,10002,35-44
+2024-02-25,Middle East,Foreign Policy,oppose_change,townhall,10003,65+
+2024-03-03,Middle East,Foreign Policy,support_change,email,10001,18-24
+2024-03-05,Middle East,Foreign Policy,oppose_change,phone,10001,35-44
+2024-03-12,Middle East,Foreign Policy,oppose_change,email,10002,55-64
+2024-03-20,Middle East,Foreign Policy,oppose_change,email,10003,65+
+2024-03-22,Middle East,Foreign Policy,oppose_change,phone,10004,45-54
+2024-03-28,Middle East,Foreign Policy,oppose_change,email,10004,35-44
+2024-01-03,Domestic,Economy,support_change,email,10005,25-34
+2024-02-09,Europe,Foreign Policy,support_change,phone,10006,35-44
+2024-03-01,Domestic,Healthcare,oppose_change,email,10007,55-64
+2024-03-15,Europe,Foreign Policy,oppose_change,email,10001,45-54

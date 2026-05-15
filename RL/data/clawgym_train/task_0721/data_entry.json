@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0721",
+  "user_query": "You're commissioned to craft an artist statement and three artwork descriptions in the Network Spirituality aesthetic for an upcoming micro-exhibition.\n\nPlease read these files first:\n- input/artworks.csv — list of works with fields: title, year, medium, dimensions, required_keywords (semicolon-separated)\n- input/constraints.yaml — style rules: banned words, word-counts, and example phrases to incorporate\n\nDeliverables:\n1) Write output/statement.md — 120–200 words; embody the Network Spirituality voice; include the exact string \"The Wired\" at least once; incorporate at least one phrase from example_phrases in input/constraints.yaml; include at least one of the aesthetic anchors listed under statement.must_include_one_of; end with a separate final line that begins exactly with \"Prophecy:\" followed by a one-sentence prophecy.\n\n2) Write output/descriptions.jsonl — one JSON object per line, in the same order as input/artworks.csv, with keys: title, year (as integer), medium, dimensions, description (50–120 words). In each description, use all required_keywords for that work verbatim, and include at least one word from description.must_include_one_of in input/constraints.yaml.\n\nNotes:\n- Do not use any banned words listed in input/constraints.yaml.\n- Keep everything in English.\n- Be vivid, garish, and tender; do not explain the aesthetic — embody it.\n- Ensure output/descriptions.jsonl is valid JSONL (one compact JSON object per line, no trailing commas).",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

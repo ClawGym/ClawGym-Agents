@@ -1,0 +1,5 @@
+tip_id,date_received,agency,allegation_type,severity,description,officer_names,source,prior_internal_affairs_flag,related_case_id
+T-0001,2025-01-10,Metropolis PD,Use of force,Medium,"Witness reports rough arrest on 5th Ave","John Doe","anonymous hotline",false,
+T-0002,2025-01-10,Metropolis PD,Bribery,High,"Officer allegedly accepted cash to ignore citations","John Doe","secure drop",true,CASE-001
+T-0003,2025-01-10,Gotham PD,Record tampering,High,"Alleged deletion of complaint entries","Jane Smith","anonymous email",false,
+T-0004,2025-01-10,Gotham PD,Retaliation,Medium,"Sergeant allegedly reassigned complainant after report","Jane Smith","trusted source",true,CASE-002

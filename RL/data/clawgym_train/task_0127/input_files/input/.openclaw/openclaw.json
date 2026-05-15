@@ -1,0 +1,28 @@
+{
+  "auth": {
+    "profiles": {
+      "openai:default": {
+        "provider": "openai",
+        "mode": "api_key",
+        "apiKey": "mock-key-do-not-use"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "workspace": "/Users/simuser/OpenClaw/workspaces/alpha/clawd",
+      "model": "claude-3.7-sonnet",
+      "memory_enabled": true
+    }
+  },
+  "skills": {
+    "installed": [
+      "openclaw-migrator",
+      "prompt-engineering-expert"
+    ]
+  },
+  "telemetry": {
+    "version": "1.0.0",
+    "last_started": "2026-03-10T12:34:56Z"
+  }
+}

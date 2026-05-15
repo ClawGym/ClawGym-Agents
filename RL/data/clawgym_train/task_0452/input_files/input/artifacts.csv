@@ -1,0 +1,13 @@
+id,name,culture,era_label,age_index,provenance_score,condition_score,verified_authentic,authenticity_claim,controversy_mentions,appraised_value_usd,notes
+1,Bronze Age Axe Head,Aegean,c. 1500 BCE,10,85,70,true,believed authentic original,1,250000,restored edge; minor pitting
+2,Roman Coin (Denarius of Caesar),Roman,44 BCE,9,90,65,true,authenticated by prior dealer,0,180000,toned; small scratch
+3,Medieval Reliquary,Frankish,12th c.,7,72,60,false,authenticity uncertain,3,90000,provenance gap 1800-1900 [MISSING DOCUMENTS]
+4,Egyptian Scarab,Egyptian,New Kingdom,9,60,55,true,possible replica,2,40000,common motif; restored glaze
+5,Qing Dynasty Vase,Chinese,18th c.,6,78,80,true,authentic original,0,320000,kiln mark consistent
+6,Neolithic Arrowhead,Near Eastern,c. 5000 BCE,10,50,50,false,likely modern forgery,4,5000,surface fresh; sharp edges
+7,Mayan Jade Pendant,Mayan,Classic period,8,82,68,true,authentic original,1,210000,minor chips; excavated legally
+8,Viking Silver Arm Ring,Norse,10th c.,8,65,62,true,authenticity uncertain,2,120000,hoard context disputed
+9,Greek Red-Figure Krater,Greek,5th c. BCE,9,88,75,true,authenticated by museum,0,600000,repaired handle; old collection
+10,Etruscan Bronze Mirror,Etruscan,4th c. BCE,9,70,58,true,copy after classical model,1,50000,incised decoration; replica debated
+11,Indus Valley Seal,Harappan,c. 2000 BCE,10,55,45,false,forgery suspected,5,20000,tool marks modern
+12,Renaissance Portrait Miniature,Italian,16th c.,6,77,72,true,authentic original,0,250000,backing replaced 19th c.

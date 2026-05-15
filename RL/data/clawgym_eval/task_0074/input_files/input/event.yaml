@@ -1,0 +1,8 @@
+event: "MRF Formula 2000 - Pre-Season Test"
+track: "MMRT Chennai"
+date: "2026-04-16"
+sessions:
+  - file: "input/sessions/session1.csv"
+    label: "Morning Run"
+  - file: "input/sessions/session2.csv"
+    label: "Afternoon Run"

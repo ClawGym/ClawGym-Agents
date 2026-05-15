@@ -1,0 +1,15 @@
+service:
+  port: 80
+logging:
+  level: warn
+features:
+  - metrics
+  - auth
+limits:
+  cpu: "1"
+  memory: 512Mi
+database:
+  url: postgres://user:prod@db.prod:5432/proddb
+  pool:
+    min: 5
+    max: 50

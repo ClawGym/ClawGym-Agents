@@ -1,0 +1,133 @@
+version: "1.0"
+
+# Map display names in priorities to internal keys
+tool_key_map:
+  JMeter: jmeter
+  LoadRunner: loadrunner
+
+# Phase definitions with exact titles, topics, success criteria, and base/min weeks
+phase_definitions:
+  jmeter:
+    fundamentals:
+      title: "JMeter Fundamentals"
+      topics:
+        - "JMeter architecture and components"
+        - "Test plan structure and configuration"
+        - "Thread groups and samplers"
+        - "Basic assertions and listeners"
+      successCriteria: "Create functional load test for web application"
+      baseWeeks: 8
+      minWeeks: 4
+    advanced:
+      title: "Advanced JMeter Concepts"
+      topics:
+        - "Correlation and parameterization"
+        - "JSR223 scripting and Groovy"
+        - "Distributed (remote) testing"
+        - "CI/CD pipeline integration"
+      successCriteria: "Design scalable JMeter test with reusable components and CI execution"
+      baseWeeks: 10
+      minWeeks: 6
+  loadrunner:
+    fundamentals:
+      title: "LoadRunner Fundamentals"
+      topics:
+        - "VuGen scripting basics"
+        - "Protocol selection and recording"
+        - "Parameterization and correlation"
+        - "Using checkpoints and transactions"
+      successCriteria: "Record and replay a stable VuGen script with parameterization"
+      baseWeeks: 8
+      minWeeks: 4
+    advanced:
+      title: "Advanced LoadRunner Concepts"
+      topics:
+        - "Controller scenario design"
+        - "Runtime settings and pacing"
+        - "Analysis and bottleneck identification"
+        - "SLA definitions and reporting"
+      successCriteria: "Conduct end-to-end load test with performance tuning recommendations"
+      baseWeeks: 10
+      minWeeks: 6
+  analysis:
+    title: "Performance Analysis & Optimization"
+    topics:
+      - "Performance metrics interpretation"
+      - "Database and server tuning"
+      - "Report generation and stakeholder communication"
+      - "Monitoring and APM tooling"
+    successCriteria: "Create professional performance test report with optimization strategies"
+    baseWeeks: 6
+    minWeeks: 4
+
+# Phase ordering rule (exactly 3 phases)
+phase_ordering_rule:
+  description: "Construct exactly three phases using tool priorities."
+  phases:
+    - kind: "tool"
+      priorityIndex: 0
+      level: "fundamentals"
+    - kind: "tool"
+      priorityIndex: 1
+      level: "advanced"
+    - kind: "analysis"
+      level: "core"
+
+# Duration computation and hours
+duration_rules:
+  yearsInTesting_adjustments:
+    # Apply the first matching rule to each phase
+    - minYears: 5
+      delta: -2
+    - minYears: 2
+      delta: -1
+    - minYears: 0
+      delta: 0
+  previousPerformanceExperience_adjustments:
+    tool_phases_delta: -2
+    analysis_phase_delta: -1
+  enforce_min_weeks: true
+  estimated_hours_formula: "estimatedHours = durationWeeks * 5"
+
+# Certifications rules based on tool priorities and phase placement
+certification_rules:
+  include_for_tools_in_priorities: true
+  order_by_phase: true
+  map:
+    jmeter:
+      name: "JMeter Certification"
+      vendor: "Apache"
+      difficulty: "intermediate"
+    loadrunner:
+      name: "LoadRunner Professional"
+      vendor: "Micro Focus"
+      difficulty: "advanced"
+  recommendedTiming_by_phase:
+    "1": "After Phase 1"
+    "2": "After Phase 2"
+
+# Resources constants and total hours computation
+resources_constants:
+  courses: 8
+  tools: 3
+  practiceProjects: 5
+  estimatedTotalHours: "sum(phase.estimatedHours for all three phases)"
+
+# Next steps mapping based on Phase 1 tool
+next_steps_by_phase1_tool:
+  jmeter:
+    - "Enroll in JMeter fundamentals course"
+    - "Set up local JMeter environment"
+    - "Complete sample HTTP request test"
+  loadrunner:
+    - "Enroll in LoadRunner fundamentals course"
+    - "Install LoadRunner Community Edition"
+    - "Record and replay a simple web script"
+
+# Output field requirements
+output_field_requirements:
+  roadmapId_format: "roadmap_{sessionId}"
+  include_fields:
+    - "sessionId"
+    - "userId (only if provided in input assessment)"
+    - "generatedAt (ISO-8601 timestamp)"

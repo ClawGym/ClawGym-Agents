@@ -1,0 +1,6 @@
+Name,Status,Count
+production,active,1542
+staging,paused,38
+beta-east,up,403
+db-01,maintenance,7
+cache-a,up,12045

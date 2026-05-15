@@ -1,0 +1,132 @@
+runtime:
+  language: go
+  version: "1.22"
+
+libraries:
+  http_router:
+    name: github.com/go-chi/chi/v5
+    version: ">=5.0.0"
+  logging:
+    name: github.com/rs/zerolog
+    version: ">=1.33.0"
+  metrics:
+    name: github.com/prometheus/client_golang
+    version: ">=1.18.0"
+  rate_limit:
+    name: github.com/go-chi/httprate
+    version: ">=0.7.0"
+  jwt:
+    name: github.com/golang-jwt/jwt/v5
+    version: ">=5.2.0"
+
+endpoints:
+  - path: "/healthz"
+    method: "GET"
+    public: true
+    rate_limit_per_ip_rpm: 60
+    latency_p95_ms: 50
+    response:
+      content_type: "application/json"
+      cache_control: "no-store"
+      body_fields:
+        - status
+        - version
+        - commit
+        - uptimeSeconds
+    checks:
+      - process_uptime_only
+      - no_external_calls
+    metrics:
+      counters:
+        - name: healthz_requests_total
+          help: "Total number of healthz requests"
+      histograms:
+        - name: healthz_latency_ms
+          buckets: [5, 10, 25, 50, 100, 250]
+
+  - path: "/metrics"
+    method: "GET"
+    public: false
+    auth: rbac
+    rbac:
+      required_role: "monitoring"
+      audience: "metrics"
+    response:
+      content_type: "text/plain; version=0.0.4"
+      gzip_supported: true
+    scrape_safe: true
+    constraints:
+      - no_pii_in_labels
+      - avoid_high_cardinality
+      - constant_time_role_check_preferred
+
+security:
+  jwt:
+    issuer: env:ISSUER_URL
+    jwks_url: env:JWKS_URL
+    audience_optional: true
+  logging:
+    redact_secrets: true
+    disallow_token_logging: true
+  headers:
+    healthz_cache_control: "no-store"
+  rate_limiting:
+    healthz_rpm_env: RATE_LIMIT_RPM_HEALTHZ
+    default_healthz_rpm: 60
+
+testing:
+  coverage_threshold: 0.80
+  run_race_detector: true
+  types:
+    - unit
+    - integration
+  requirements:
+    - tests_for_429_rate_limited_healthz
+    - tests_for_unauthorized_metrics
+    - tests_for_forbidden_metrics_missing_role
+    - tests_for_metrics_success_with_role
+    - tests_for_metrics_content_type_and_gzip
+    - tests_for_healthz_payload_fields_and_latency
+
+process:
+  code_style:
+    - gofmt
+    - go vet
+  lint:
+    - golangci-lint (if configured)
+  docs:
+    openapi_spec_path: "api/openapi.yaml"
+    update_healthz: true
+    metrics_documented_as_internal: true
+
+observability:
+  metrics_registry: default
+  new_metrics:
+    - healthz_requests_total
+    - healthz_latency_ms
+    - rate_limit_dropped_total
+
+rollout:
+  staged:
+    - name: canary_5_percent
+      gates:
+        - "5xx_error_rate < 1%"
+        - "scrape_success_rate >= 99%"
+    - name: twenty_five_percent
+      gates:
+        - "latency_p95_ms_healthz <= 50"
+    - name: full_100_percent
+      gates:
+        - "no_slo_regressions"
+
+config:
+  env:
+    - PORT
+    - LOG_LEVEL
+    - ISSUER_URL
+    - JWKS_URL
+    - AUDIENCE
+    - METRICS_RBAC_ROLE
+    - RATE_LIMIT_RPM_HEALTHZ
+    - ENABLE_METRICS_ENDPOINT
+    - ENABLE_HEALTHZ_ENDPOINT

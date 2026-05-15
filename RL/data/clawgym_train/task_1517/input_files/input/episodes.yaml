@@ -1,0 +1,67 @@
+episodes:
+  - name: "Deploy v2.0 Rollout"
+    tags: ["deploy", "platform", "api-gateway", "postgres", "feature-flags"]
+    timeframe: "2026-04-01 to 2026-04-04"
+    include_categories: ["decision", "task", "event", "fact", "insight"]
+    include_keywords:
+      - "API gateway v2.0"
+      - "Postgres migration"
+      - "canary 20%"
+      - "feature flag"
+      - "latency improvement"
+      - "cutover window"
+    selection_notes: |
+      Group the canary deploy, feature flag decision, staging dry-run and integrity verification,
+      performance results, and the scheduled cutover task. Target at least 3 memories.
+
+  - name: "Security Triage Week 22"
+    tags: ["security", "xss", "auth", "csp", "mitigation"]
+    timeframe: "2026-03-31 to 2026-04-04"
+    include_categories: ["finding", "task", "decision", "event"]
+    include_keywords:
+      - "XSS"
+      - "login"
+      - "redirect parameter"
+      - "CSP"
+      - "patch deployed"
+      - "report-only"
+    selection_notes: |
+      Include the initial XSS finding, the patch deployment, and the CSP decision and staging report-only plan.
+      Link the finding to the patch and policy decision. Target at least 3 memories.
+
+  - name: "Avery Onboarding & Preferences"
+    tags: ["customer", "preference", "profile", "language", "timezone"]
+    timeframe: "2026-04-01 to 2026-04-04"
+    include_categories: ["preference", "fact", "decision", "task"]
+    include_keywords:
+      - "preferred_language"
+      - "spoken_languages"
+      - "dark mode"
+      - "notification channel"
+      - "timezone"
+    selection_notes: |
+      Capture Avery's preferred language, spoken languages, dark mode preference, email notification preference, and timezone.
+      Use multi-valued 'spoken_languages' with corroboration. Target at least 3 memories.
+
+mapping_hints:
+  - "Use memory IDs as produced in output/memories.json to populate episodes.json."
+  - "If more than 3 relevant memories exist per episode, include the most central ones that best link the group."
+  - "Cross-link episodes where appropriate (e.g., security policy decisions that also affect platform deployment notes) but keep each episode internally coherent."
+
+configuration_intent:
+  decay:
+    decayHalfLifeDays: 30
+    archiveThreshold: 0.15
+    deleteThreshold: 0.05
+  embeddings: "noop (keyword-only) initially; semantic providers may be added later"
+  predicateSchemas:
+    required:
+      - "preferred_language (single, supersede, lowercase_trim)"
+      - "spoken_languages (multi, corroborate)"
+      - "salary (single, require_review, currency)"
+    optional:
+      - "timezone (single, supersede, uppercase_trim)"
+      - "server_port (single, require_review, number)"
+      - "rollout_percent (single, supersede, number)"
+      - "notification_channel (single, supersede, lowercase_trim)"
+      - "ui_theme (single, supersede, lowercase_trim)"

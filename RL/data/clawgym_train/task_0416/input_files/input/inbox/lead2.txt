@@ -1,0 +1,7 @@
+Subject: Refinance question
+Name: Brian O'Neil
+Email: brian.oneil@example.net
+Loan purpose: Refinance
+Property state: WA
+Estimated credit score: Unknown
+Loan amount: $320,000

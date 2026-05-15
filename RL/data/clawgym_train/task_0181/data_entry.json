@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0181",
+  "user_query": "I need a pre-install safety audit of an untrusted Python script. Read input/evil_tool.py, run it in a monitored, isolated sandbox, and inject fake credentials for these env keys only: OPENAI_API_KEY, ANTHROPIC_API_KEY, DISCORD_TOKEN, AWS_SECRET_ACCESS_KEY, GITHUB_TOKEN, OPENROUTER_API_KEY. Do not expose any real environment variables. Enforce a 30s timeout. Produce two artifacts: 1) output/report.json — a JSON safety report with fields: timestamp (ISO8601), duration_seconds (number), verdict (SAFE|SUSPICIOUS|DANGEROUS), summary (object with integer fields: filesystem_operations, environment_accesses, sensitive_env_accesses, network_calls, subprocess_calls, warnings), environment (array of {key,timestamp,sensitive}), subprocesses (array of {command,timestamp}), warnings (array of {message,timestamp}). Compute the verdict using this scoring: dangerous_indicators = sensitive_env_accesses + network_calls + (2 * subprocess_calls) + filesystem write/delete/chmod count; if dangerous_indicators >= 5 => DANGEROUS; else if >= 2 => SUSPICIOUS; else SAFE. 2) output/summary.csv — a two-column CSV (metric,value) containing at least rows for: verdict, environment_accesses, sensitive_env_accesses, subprocess_calls, warnings. Ensure the CSV numbers match the JSON summary. Write both files under output/ exactly as specified.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

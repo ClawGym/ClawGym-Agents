@@ -1,0 +1,19 @@
+invoice_id,customer,invoice_date,due_date,amount,amount_due,status
+INV-1001,Acme Diagnostics,2026-03-15,2026-04-20,2400.00,2400.00,open
+INV-0944,Acme Diagnostics,2025-12-01,2026-01-05,2100.00,2100.00,open
+INV-0901,Acme Diagnostics,2026-01-15,2026-03-01,800.00,0.00,paid
+INV-2003,Northbridge Medical,2025-10-15,2025-12-01,3200.00,3200.00,open
+INV-2010,Northbridge Medical,2026-02-20,2026-03-25,1150.00,1150.00,open
+INV-2015,Northbridge Medical,2026-03-31,2026-04-30,900.00,900.00,open
+INV-3101,Pacific BioLabs,2025-12-30,2026-02-10,2800.00,2800.00,open
+INV-3110,Pacific BioLabs,2026-01-25,2026-03-05,1900.00,1900.00,open
+INV-3120,Pacific BioLabs,2025-11-30,2026-01-12,1100.00,1100.00,open
+INV-4007,Vertex Pharma,2025-10-15,2025-11-20,3900.00,3900.00,open
+INV-4012,Vertex Pharma,2025-12-10,2026-02-08,2700.00,2700.00,open
+INV-4018,Vertex Pharma,2026-02-25,2026-03-28,1900.00,1900.00,open
+INV-5002,Evergreen Health,2026-03-05,2026-04-10,650.00,650.00,open
+INV-5009,Evergreen Health,2026-03-15,2026-04-22,2300.00,2300.00,open
+INV-5015,Evergreen Health,2026-02-01,2026-03-10,950.00,950.00,open
+INV-5001,Evergreen Health,2025-12-15,2026-02-01,1200.00,0.00,paid
+INV-6001,Delta Clinic,2026-03-16,2026-04-15,420.00,420.00,open
+INV-6006,Delta Clinic,2026-01-20,2026-02-28,780.00,780.00,open

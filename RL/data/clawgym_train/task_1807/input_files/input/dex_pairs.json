@@ -1,0 +1,182 @@
+[
+  {
+    "chainId": "base",
+    "dexId": "uniswap-v3",
+    "pairAddress": "0x2222bbbbaaaaccccddddeeee2222bbbbaaaacccc",
+    "pairCreatedAt": 1769992800000,
+    "baseToken": {
+      "address": "0xbbb222222222222222222222222222222222bbbb",
+      "name": "Mecha Units",
+      "symbol": "MECHA"
+    },
+    "priceChange": {
+      "h1": 22,
+      "h24": 70
+    },
+    "volume": {
+      "h1": 800000,
+      "h6": 1800000,
+      "h24": 6200000
+    },
+    "liquidity": {
+      "usd": 200000
+    },
+    "txns": {
+      "h1": {
+        "buys": 300,
+        "sells": 200
+      }
+    },
+    "marketCap": 4500000
+  },
+  {
+    "chainId": "base",
+    "dexId": "sushiswap",
+    "pairAddress": "0x1111aaaabbbbccccddddeeee1111aaaabbbbcccc",
+    "pairCreatedAt": 1769998200000,
+    "baseToken": {
+      "address": "0xaaa111111111111111111111111111111111aaaa",
+      "name": "Rover AI",
+      "symbol": "ROVER"
+    },
+    "priceChange": {
+      "h1": 25,
+      "h24": 60
+    },
+    "volume": {
+      "h1": 150000,
+      "h6": 300000,
+      "h24": 1200000
+    },
+    "liquidity": {
+      "usd": 120000
+    },
+    "txns": {
+      "h1": {
+        "buys": 220,
+        "sells": 150
+      }
+    },
+    "marketCap": 3000000
+  },
+  {
+    "chainId": "base",
+    "dexId": "uniswap-v2",
+    "pairAddress": "0x4444ddddaaaabbbbcccc11114444ddddaaaabbbb",
+    "pairCreatedAt": 1769996400000,
+    "baseToken": {
+      "address": "0xddd444444444444444444444444444444444dddd",
+      "name": "Peeper Bird",
+      "symbol": "PEEPER"
+    },
+    "priceChange": {
+      "h1": 18,
+      "h24": 120
+    },
+    "volume": {
+      "h1": 300000,
+      "h6": 650000,
+      "h24": 2200000
+    },
+    "liquidity": {
+      "usd": 90000
+    },
+    "txns": {
+      "h1": {
+        "buys": 180,
+        "sells": 100
+      }
+    },
+    "marketCap": 2000000
+  },
+  {
+    "chainId": "base",
+    "dexId": "baseswap",
+    "pairAddress": "0x6666ffffeeeeaaaabbbb33336666ffffeeeeaaaa",
+    "pairCreatedAt": 1769964000000,
+    "baseToken": {
+      "address": "0xfff666666666666666666666666666666666ffff",
+      "name": "Koi Network",
+      "symbol": "KOI"
+    },
+    "priceChange": {
+      "h1": 7,
+      "h24": 55
+    },
+    "volume": {
+      "h1": 50000,
+      "h6": 180000,
+      "h24": 900000
+    },
+    "liquidity": {
+      "usd": 50000
+    },
+    "txns": {
+      "h1": {
+        "buys": 60,
+        "sells": 40
+      }
+    },
+    "marketCap": 3500000
+  },
+  {
+    "chainId": "base",
+    "dexId": "velodrome",
+    "pairAddress": "0x5555eeeeffffaaaabbbb22225555eeeeffffaaaa",
+    "pairCreatedAt": 1769982000000,
+    "baseToken": {
+      "address": "0xeee555555555555555555555555555555555eeee",
+      "name": "Anvil Forge",
+      "symbol": "ANVIL"
+    },
+    "priceChange": {
+      "h1": 2,
+      "h24": 30
+    },
+    "volume": {
+      "h1": 600000,
+      "h6": 1100000,
+      "h24": 5000000
+    },
+    "liquidity": {
+      "usd": 300000
+    },
+    "txns": {
+      "h1": {
+        "buys": 250,
+        "sells": 250
+      }
+    },
+    "marketCap": 10000000
+  },
+  {
+    "chainId": "base",
+    "dexId": "sushiswap",
+    "pairAddress": "0x3333ccccbbbbaaaaddddeeee3333ccccbbbbaaaa",
+    "pairCreatedAt": 1769998920000,
+    "baseToken": {
+      "address": "0xccc333333333333333333333333333333333cccc",
+      "name": "Sluggo",
+      "symbol": "SLUG"
+    },
+    "priceChange": {
+      "h1": 3,
+      "h24": 15
+    },
+    "volume": {
+      "h1": 10000,
+      "h6": 18000,
+      "h24": 60000
+    },
+    "liquidity": {
+      "usd": 20000
+    },
+    "txns": {
+      "h1": {
+        "buys": 20,
+        "sells": 25
+      }
+    },
+    "marketCap": 1000000
+  }
+]

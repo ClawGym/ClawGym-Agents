@@ -1,0 +1,11 @@
+OpenClaw Status — captured snapshot
+Gateway: unreachable (connect failed: connect ECONNREFUSED 127.0.0.1:18789)
+Agents: 2 (main=stopped; alerts=stopped)
+Channels:
+  telegram: error (Bot API probe failed: 401 Unauthorized)
+  discord: OK (connected as LabBot#1337)
+Memory:
+  vector: available
+  fts: unavailable: no such module: fts5
+Security: CRITICAL: 2, WARN: 1
+Sessions: active: 0

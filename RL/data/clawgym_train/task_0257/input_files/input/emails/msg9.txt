@@ -1,0 +1,18 @@
+From: River Pediatrics <pediatrics@riverclinic.org>
+To: Intake <intake@childtherapy.local>
+Subject: Evaluation request - ADHD
+Date: Sun, 14 Apr 2024 11:15:00 -0400
+Message-ID: <msg9@workspace.local>
+
+Hello Intake,
+Requesting an evaluation for a patient.
+
+---- Intake Details ----
+Child Name: Lily J.
+Age: 8
+Preferred Times: mornings Fri
+Completed Intake: Yes
+------------------------
+
+Sincerely,
+River Pediatrics

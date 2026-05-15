@@ -1,0 +1,15 @@
+%YAML 1.1
+--- !u!129 &1
+PlayerSettings:
+  productName: "ArtPortfolioBuild"
+  companyName: "GameDesignLab"
+  runInBackground: 1
+  internetAccess: Auto
+  allowUnsafeCode: 0
+  enableCrashReportAPI: 1
+  forceHTTPS: 0
+  logging:
+    enableDebugLogs: 1
+    enableStackTrace: 1
+  scriptingBackend: IL2CPP
+  apiCompatibilityLevel: .NET_Standard_2_0

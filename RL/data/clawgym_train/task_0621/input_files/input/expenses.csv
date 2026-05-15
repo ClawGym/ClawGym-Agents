@@ -1,0 +1,29 @@
+Date,Description,Amount,Currency,Department
+2026-01-03,Azure OpenAI Service - token usage,1200.00,EUR,Engineering
+2026-01-07,Azure OpenAI - reserved capacity,900.00,GBP,Data Science
+2026-01-05,AWS Bedrock usage - generative inference,1500.00,USD,Platform Engineering
+2026-01-20,AWS Bedrock - model eval batch,200000.00,JPY,Engineering
+2026-01-10,Anthropic API - usage invoice,650.00,USD,Research
+2026-01-25,Anthropic API sandbox keys,400.00,EUR,Data Science
+2026-01-12,Pinecone - vector DB standard,450.00,USD,Engineering
+2026-01-18,Pinecone usage overage,300.00,GBP,Data Platform
+2026-01-08,ChatGPT Plus Subscription - Marketing,20.00,USD,Marketing
+2026-01-15,ChatGPT Team - Sales,50.00,GBP,Sales
+2026-01-22,ChatGPT Plus - Design,20.00,EUR,Design
+2026-01-09,Claude Pro - Product team,20.00,USD,Product
+2026-01-16,Claude Team - Research,45.00,GBP,Research
+2026-01-14,Midjourney - Standard Plan,30.00,USD,Design
+2026-01-27,Midjourney - Extra GPU hours,400.00,SAR,Marketing
+2026-01-28,ChatGPT Plus - IT,20.00,USD,IT
+2026-01-21,Azure OpenAI - fine-tuning instance,3000.00,SAR,AI Lab
+2026-01-26,AWS Bedrock - provision throughput,1100.00,EUR,Cloud Ops
+2026-01-29,Pinecone - dedicated pod upgrade,800.00,USD,AI Lab
+2026-01-30,Anthropic API - enterprise support,500.00,GBP,Platform Engineering
+2026-01-04,Slack Subscription - Enterprise Grid,2500.00,USD,IT
+2026-01-06,Office Supplies - Staples,320.00,USD,Operations
+2026-01-11,Zoom Pro Licenses,600.00,USD,Sales
+2026-01-13,Notion Team Plan,400.00,USD,Product
+2026-01-17,Jira Cloud Subscription,850.00,USD,Engineering
+2026-01-19,GitHub Enterprise,1800.00,USD,Engineering
+2026-01-23,AWS EC2 compute,2200.00,USD,Cloud Ops
+2026-01-24,Google Workspace,900.00,USD,All Company

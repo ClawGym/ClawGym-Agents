@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="2560" viewBox="0 0 200 2560" xmlns="http://www.w3.org/2000/svg">
+  <!-- Spine mock. Title uses Playfair Display, author uses Crimson Text. -->
+  <rect x="0" y="0" width="200" height="2560" fill="#231b2e" />
+  <text x="100" y="1280" text-anchor="middle" font-family="Playfair Display" font-size="60" fill="#f0d9a5" transform="rotate(-90 100,1280)">Madam Tulip</text>
+  <text x="100" y="2100" text-anchor="middle" font-family="Crimson Text" font-size="40" fill="#f0d9a5" transform="rotate(-90 100,2100)">Ahern</text>
+</svg>

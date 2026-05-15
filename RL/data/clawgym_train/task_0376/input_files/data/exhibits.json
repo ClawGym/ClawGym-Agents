@@ -1,0 +1,22 @@
+[
+  {
+    "id": "EXH-001",
+    "title": "Barataria Shrimping Fleet, 1952",
+    "date": "1952-06-15",
+    "url": "https://example.org/exhibits/shrimping-fleet",
+    "tags": ["maritime", "community"]
+  },
+  {
+    "id": "EXH-002",
+    "title": "Canal Dredging Ledger, 1933",
+    "date": "1933/03/01",
+    "url": "https://example.org/exhibits/canal-ledger",
+    "tags": ["wetlands"]
+  },
+  {
+    "id": "EXH-003",
+    "title": "Hurricane Juan Oral History, 1985",
+    "date": "1985-10-29",
+    "tags": ["hurricane", "community"]
+  }
+]

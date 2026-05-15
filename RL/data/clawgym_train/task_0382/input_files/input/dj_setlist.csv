@@ -1,0 +1,5 @@
+track_id,track_title,producer,bpm,key,energy_level,duration_sec,genre,scratch_count,drop_timecode
+T1,Night Drive,DJ Flux,92,Am,6,210,Hip-Hop,3,00:45
+T2,Cipher Heat,DJ Flux,98,Em,8,240,Hip-Hop,5,01:10
+T3,Lo-Fi Flex,Beat Sage,72,Gm,4,180,Lo-Fi,1,00:30
+T4,Bass Sketch,Beat Sage,105,Bm,7,200,Hip-Hop,2,00:50

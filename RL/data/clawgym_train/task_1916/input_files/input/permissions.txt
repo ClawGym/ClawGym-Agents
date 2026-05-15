@@ -1,0 +1,17 @@
+drwxrwxrwx 5 openclaw openclaw 4096 Apr 14 08:12 /home/openclaw/.openclaw
+Permissions of /home/openclaw/.openclaw: 0777
+drwxrwxrwx 5 openclaw openclaw 4096 Apr 14 08:12 ~/.openclaw
+Permissions of ~/.openclaw: 0777
+
+ls -l /home/openclaw/.openclaw:
+total 12
+drwxrwxrwx 2 openclaw openclaw 4096 Apr 14 08:12 skills
+-rw-r--r-- 1 openclaw openclaw  512 Apr 14 08:12 config.json
+-rw-r--r-- 1 openclaw openclaw 1024 Apr 14 08:12 tokens.json
+
+SUID/SGID binaries (top 5):
+/usr/bin/sudo (root root) mode: 4755
+/usr/bin/passwd (root root) mode: 4755
+/usr/bin/newgrp (root root) mode: 4755
+/usr/bin/chfn (root root) mode: 4755
+/usr/bin/chsh (root root) mode: 4755

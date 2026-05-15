@@ -1,0 +1,5 @@
+slot_id,date,start_time,end_time,timezone,room_id
+S1,2026-05-05,09:00,10:00,America/Chicago,R1
+S2,2026-05-05,11:00,12:00,America/Chicago,R1
+S3,2026-05-06,09:00,10:00,America/Chicago,R2
+S4,2026-05-06,11:00,12:00,America/Chicago,R2

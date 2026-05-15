@@ -1,0 +1,65 @@
+import React, { useEffect, useState } from 'react';
+import { View, Text, Button, TouchableOpacity } from 'react-native';
+
+// Child component without memoization; will re-render unnecessarily
+function Child({ text, onPress, style }) {
+  console.log('Child render'); // for demonstration
+  return (
+    <TouchableOpacity onPress={onPress}>
+      <Text style={style}>{text}</Text>
+    </TouchableOpacity>
+  );
+}
+
+function getMeeting() {
+  return new Promise(resolve =>
+    setTimeout(() => resolve({ id: 'm1', title: 'Weekly Sync' }), 150)
+  );
+}
+
+function getUserList() {
+  return new Promise(resolve =>
+    setTimeout(() => resolve([{ id: 'u1' }, { id: 'u2' }, { id: 'u3' }]), 180)
+  );
+}
+
+export default function App() {
+  const [count, setCount] = useState(0);
+  const [state, setState] = useState({ loading: false, meeting: null, users: [] });
+
+  useEffect(() => {
+    // Multiple setState calls not merged; triggers multiple renders
+    setState({ ...state, loading: true });
+
+    getMeeting().then(meeting => {
+      setState(prev => ({ ...prev, meeting }));
+    });
+
+    getUserList().then(users => {
+      setState(prev => ({ ...prev, users, loading: false }));
+    });
+  }, []);
+
+  // Calls setState even when the value doesn't change (when count is already 5)
+  const increment = () => {
+    const next = count < 5 ? count + 1 : count;
+    setCount(next); // No guard against unchanged value → extra render
+  };
+
+  return (
+    <View style={{ padding: 16 }}>
+      <Text>Count: {count}</Text>
+      {/* Inline callback and inline style cause re-renders */}
+      <Child
+        text="Tap me"
+        onPress={() => console.log('child tapped')}
+        style={{ marginTop: 12, color: 'blue' }}
+      />
+      {/* Inline callback here too */}
+      <Button title="Increase" onPress={() => increment()} />
+      <Text>
+        {state.loading ? 'Loading...' : `Meeting: ${state.meeting?.title || '-'} / Users: ${state.users.length}`}
+      </Text>
+    </View>
+  );
+}

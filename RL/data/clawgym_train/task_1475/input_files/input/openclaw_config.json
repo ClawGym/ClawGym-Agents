@@ -1,0 +1,64 @@
+{
+  "gateway": {
+    "bind": "0.0.0.0",
+    "auth": {
+      "token": "abc123"
+    },
+    "controlUi": {
+      "enabled": true,
+      "allowInsecureAuth": true
+    },
+    "tailscale": {
+      "mode": "funnel"
+    },
+    "trustedProxies": ["*", "127.0.0.1"],
+    "remote": {
+      "url": "ws://remote.acmebots.example/ws",
+      "token": "blabla"
+    }
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "allowFrom": ["*"],
+      "dmPolicy": "open",
+      "botToken": "123456789:ABCdefGhIjkLmNoPqrSTUvwxYZ1234567890"
+    },
+    "slack": {
+      "enabled": true,
+      "allowFrom": [],
+      "dmPolicy": ""
+    }
+  },
+  "skills": {
+    "entries": {
+      "backlink-analyzer": {
+        "env": {
+          "OPENAI_API_KEY": "sk-TESTSECRETKEYEXAMPLE123456"
+        }
+      }
+    }
+  },
+  "agents": {
+    "defaults": {},
+    "list": [
+      {
+        "id": "main",
+        "tools": { "profile": "full" },
+        "subagents": { "allowAgents": ["*", "outreach"] }
+      },
+      {
+        "id": "outreach",
+        "tools": { "profile": "full" },
+        "subagents": { "allowAgents": ["outreach"] }
+      },
+      {
+        "id": "helper",
+        "subagents": { "allowAgents": ["main"] }
+      }
+    ]
+  },
+  "env": {
+    "XAI_API_KEY": "xai-abcdEFGHijklMNOPqrstUVWX123456"
+  }
+}

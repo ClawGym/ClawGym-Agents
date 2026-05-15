@@ -1,0 +1,8 @@
+from_name: "Ramesh Sharma"
+from_email: "ramesh.sharma@example.com"
+to:
+  - name: "Political Discussion Group"
+    email: "pol-group@example.com"
+cc:
+  - name: "Self"
+    email: "ramesh.sharma@example.com"

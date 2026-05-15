@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0598",
+  "user_query": "Run an offline before/after regression evaluation on the provided suite and produce both a text report and a JSON result.\n\nRequirements\n- Read input/regression_suite.json\n- Validate evidence quality (matching IDs, presence of critical cases) and note any limitations\n- For each case, score correctness, relevance, actionability, and tool reliability; determine pass/soft_fail/fail and note degradations from before to after\n- Aggregate metrics (overall_pass_rate, critical_pass_rate, soft_fail_rate, tool_reliability_rate, averages) and compute deltas vs. before\n- Apply medium-risk release gates; return exactly one verdict (go, conditional_go, no_go, or rollback). If any critical case fails or shows tool failure or missing fallback, treat it as a critical regression and prefer \"rollback\"\n- Cluster failures using standard names when applicable (instruction_following_drift, factuality_drop, retrieval_miss, tool_call_failure, format_noncompliance, missing_fallback, hallucinated_capability) and propose recommended fixes\n- Output two files:\n  1) output/report.txt — follow the textual template sections (Executive Summary, Suite Summary, Scorecard, Deltas, Top Regressions, Failure Clusters, Verdict, Recommended Fixes, Confidence, Limitations)\n  2) output/result.json — follow the structured schema with suite_summary, scorecard, deltas, verdict, top_regressions, failure_clusters, recommended_fixes, confidence, and limitations\n- Preserve the input risk_level in outputs and ensure suite_summary totals match the input cases\n- Do not make any network calls\n",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,17 @@
+{
+  "renderer": {
+    "pipeline": "PBR",
+    "colorSpace": "Linear",
+    "outputTonemapper": "ACES",
+    "normalMapTangentSpace": "OpenGL",
+    "gammaCorrection": false,
+    "envIrradiance": "assets/env/hdr_warehouse_01.hdr",
+    "optimizeTextures": {
+      "compressor": "basisu",
+      "ktx2": true,
+      "uastc": false,
+      "normalizeNormalMaps": false,
+      "yFlip": true
+    }
+  }
+}

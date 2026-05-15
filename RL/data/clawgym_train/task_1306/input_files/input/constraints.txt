@@ -1,0 +1,28 @@
+Acme Notifier — Delivery Constraints and Policies
+
+1) Deployment freezes and blackout windows
+   - Q3 Feature Freeze: No production deploys Sep 23–Sep 30 (critical patches only).
+   - Black Friday Stability Window: No schema changes or risky deploys Nov 22–Nov 30.
+   - Year-End Code Freeze: Dec 15–Jan 2 (no production deploys).
+
+2) Staging and soak requirements
+   - Minimum staging soak: 10 business days before any production release.
+   - EU-related changes must roll out to EU staging at least 14 days before EU production.
+   - Security review required 7 days before staging for any compliance/security-tagged feature.
+
+3) Observability and guardrails
+   - No alerting features may go live until telemetry has been running in staging for at least 7 days.
+   - All new delivery channels must include retry/backoff and idempotency safeguards.
+   - A rollback plan (<= 24 hours) is required for features with production blast radius.
+
+4) Launch risk policy
+   - Beta Launch Week (Aug 12–Aug 16): Permit low-risk changes only; defer high-risk operations.
+   - Marketing Launch Week (Nov 4–Nov 8): Limit changes to UI/content and bug fixes; avoid infra migrations.
+
+5) Regional and data-residency requirements
+   - EU data residency: All European customer data must remain within EU infrastructure.
+   - Regional failover must be disabled by default and enabled only after observability and playbooks are in place.
+
+6) Testing and promotion
+   - Require staging test evidence and sign-off from Feature Owner and QA before promotion.
+   - For dependency chains, upstream components must be GA before enabling downstream features in production.

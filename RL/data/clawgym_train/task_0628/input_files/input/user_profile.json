@@ -1,0 +1,52 @@
+{
+  "name": "Alexander Kim",
+  "preferred_name": "Alex",
+  "role": "Head of Platform Engineering, Cascade Labs",
+  "email": "alex.kim@cascadelabs.example",
+  "timezone": "America/Los_Angeles",
+  "working_hours": {
+    "days": "Mon-Fri",
+    "hours_local": "09:00-17:00",
+    "notes": "Avoid meetings before 09:30 and after 16:30 unless urgent."
+  },
+  "communication_preferences": {
+    "style": [
+      "Direct and technical",
+      "Prefer bullet lists over paragraphs",
+      "Show code diffs and concrete examples",
+      "No emojis in work output"
+    ],
+    "formatting": [
+      "Use 24-hour time",
+      "Use ISO dates (YYYY-MM-DD)",
+      "Provide short executive summary first, details below"
+    ],
+    "channels": {
+      "primary": "Slack #platform",
+      "email": "For approvals and formal reviews only",
+      "docs": "Notion space: Platform"
+    }
+  },
+  "current_goals_q2_2026": [
+    "Ship Nimbus API v2 by 2026-05-31",
+    "Migrate OAuth2 flows to PKCE for all first-party clients",
+    "Retire Jenkins and standardize on GitHub Actions"
+  },
+  "never_assume": [
+    "Never push to main without an approved pull request",
+    "Never share internal docs or MEMORY.md outside the workspace",
+    "Do not spend money or enable paid services without explicit approval",
+    "Do not send external emails or messages on my behalf without preview and approval",
+    "Do not run destructive operations (e.g., rm, schema drop) without a rollback plan and approval"
+  ],
+  "environment_notes": {
+    "repos": [
+      "github.com/cascadelabs/nimbus-api",
+      "github.com/cascadelabs/platform-infra"
+    ],
+    "default_branch": "main",
+    "issue_tracker": "GitHub Issues",
+    "docs": "Notion space: Platform",
+    "calendar": "Google Calendar (Cascade Labs)"
+  }
+}

@@ -1,0 +1,6 @@
+sprint_length_days: 10
+teams:
+  - name: Alpha
+    capacity_story_points: 13
+  - name: Beta
+    capacity_story_points: 12

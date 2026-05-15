@@ -1,0 +1,9 @@
+name	base_monthly_usd	per_employee_usd	tiers	price_position
+Gusto	40	6	Core,Plus,Premium	Parity
+Intuit QuickBooks Payroll	45	6	Core,Premium,Elite	Parity
+ADP RUN	custom	custom	Essential,Enhanced,Complete	Premium
+Paychex Flex	39	5	Essentials,Select,Pro	Parity
+Square Payroll	35	6	Contractors Only,Full-Service	Value
+Rippling	35	8	Modular	Premium
+Justworks	0	59	PEO Basic,PEO Plus	Premium
+Deel	49	8	US Payroll Beta	Premium

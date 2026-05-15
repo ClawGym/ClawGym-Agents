@@ -1,0 +1,20 @@
+date,time,department,location,event,classification,description,body_part,days_away,restricted,equipment
+2025-04-22,09:15,Warehouse/Logistics,Receiving Dock,Near miss,Near Miss,Forklift reversed close to a pedestrian at dock plate; no contact.,N/A,0,No,Forklift #W3
+2025-05-03,14:05,Production,Packaging Line 2,Laceration,First Aid,Operator nicked finger on film cutter; cleaned and bandaged.,Finger,0,No,Film cutter
+2025-05-18,22:40,Sanitation,Processing Room,Slip and fall,Recordable,Employee slipped on wet floor during rinse; sprained wrist.,Wrist,0,Yes,Floor squeegee
+2025-06-07,10:22,Maintenance,Hot Fill Line,Pinch/Crush,Near Miss,Guard removed for troubleshooting and left unattended; no injury.,N/A,0,No,Conveyor
+2025-06-19,07:55,Warehouse/Logistics,Shipping Dock,Struck-by,First Aid,Pallet shifted during loading and grazed shin; ice applied.,Shin,0,No,Pallet jack
+2025-07-01,11:10,Production,Slicing Room,Laceration,Recordable,Cut to palm while clearing jam near slicer blade; 6 stitches.,Hand,0,Yes,Slicer #SL-4
+2025-07-15,08:20,Warehouse/Logistics,Cold Storage,Collision,Near Miss,Forklift contacted racking upright protector; no structural damage.,N/A,0,No,Forklift #W1
+2025-08-04,15:30,Sanitation,Chemical Storage,Chemical splash,First Aid,Splash of alkaline cleaner during dilution; eyewash used, eye flushed.,Eye,0,No,Caustic cleaner
+2025-08-27,13:45,Production,Hot Fill Line,Burn,First Aid,Minor steam burn on forearm while checking hose.,Forearm,0,No,Steam hose
+2025-09-09,06:50,Warehouse/Logistics,Receiving Dock,Near miss,Near Miss,Trailer creep observed; dock lock not engaged; stopped before loading.,N/A,0,No,Dock lock
+2025-10-02,16:05,Production,Packaging Line 1,Ergonomic strain,First Aid,Back strain lifting 50-lb ingredient bag without team lift.,Back,0,No,N/A
+2025-10-21,12:35,Maintenance,Utility Room,Electrical exposure,Near Miss,Employee began work on panel before verifying LOTO; stopped by lead.,N/A,0,No,Electrical panel
+2025-11-14,09:25,Warehouse/Logistics,Shipping Dock,Tip load instability,Near Miss,High stacked pallet wobbled during lift; stabilized by spotter.,N/A,0,No,Forklift #W2
+2025-12-03,05:40,Sanitation,Processing Room,Slip and fall,Lost Time,Slip on residual foam; bruised hip; 2 days away.,Hip,2,No,Floor drain
+2026-01-12,07:05,Production,Labeling Area,Ergonomic strain,First Aid,Repetitive wrist motion led to soreness; ice and stretch.,Wrist,0,No,N/A
+2026-02-06,14:55,Warehouse/Logistics,Receiving Dock,Struck-by,Recordable,Pallet fell from top tier; bruised shoulder; medical evaluation.,Shoulder,0,Yes,Racking
+2026-02-28,09:40,Maintenance,Boiler Room,Burn,First Aid,Hot water splash during valve replacement; first aid cream applied.,Forearm,0,No,Hot water line
+2026-03-18,10:20,Warehouse/Logistics,Shipping Dock,Near miss,Near Miss,Forklift traveled through mixed-traffic aisle; pedestrian stepped back in time.,N/A,0,No,Forklift #W4
+2026-03-29,17:30,Production,Packaging Line 3,Machine guarding,Near Miss,Interlock defeated to clear jam; supervisor intervened.,N/A,0,No,Cartoner

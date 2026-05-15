@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0196",
+  "user_query": "Please read input/brand_brief.json, input/voice_messaging.md, input/competitive_landscape.json, and input/touchpoints.csv. Using these materials, audit and analyze our existing brand \"AuroraCharge\" and produce two deliverables:\n\n1) A comprehensive brand analysis report that includes: Executive Summary; Brand Identity Analysis; Visual Identity Analysis; Voice and Messaging Analysis; Target Audience Analysis; Competitive Positioning; a digital Brand Touchpoint Audit table populated from input/touchpoints.csv (with rows for Website, Social Media, and Email); Strengths and Opportunities; Recommended Guidelines; a three-phase Implementation Roadmap; and Success Metrics with target percentages.\n\n2) Formal Brand Guidelines that document the Brand Story, Visual Identity (include the exact hex color codes and typography from the inputs), Voice and Messaging (tone traits and key messages), Brand Applications, Usage Examples, a Brand Consistency Checklist, and accessibility notes that explicitly mention WCAG.\n\nIdentify primary and secondary brand archetypes and reflect them in both documents. Use the following file naming and save them to:\n- output/brand-analysis-AuroraCharge-YYYY-MM-DD.md\n- output/brand-guidelines-AuroraCharge-YYYY-MM-DD.md\n(Replace YYYY-MM-DD with today’s date.)\n\nRequirements:\n- The analysis report must include the exact mission text from input/brand_brief.json and a touchpoint audit table with the header line \"Touchpoint | Consistency | Quality | Notes\" and rows for Website, Social Media, and Email.\n- The guidelines must include the color hex codes and font family names from the inputs, mention WCAG in the accessibility notes, and include at least one tagline from input/voice_messaging.md.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

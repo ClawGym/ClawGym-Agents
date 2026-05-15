@@ -1,0 +1,13 @@
+match_id,date,game,opponent,map,kills,deaths,assists,result
+M1,2026-02-28,Valorant,Northside HS,Ascent,62,48,35,W
+M2,2026-03-03,Valorant,Eastview HS,Bind,55,60,28,L
+M3,2026-03-05,Overwatch 2,Westdale HS,King's Row,85,79,120,W
+M4,2026-03-10,Valorant,South Ridge HS,Haven,58,52,31,W
+M5,2026-03-12,Overwatch 2,Northside HS,Ilios,77,83,95,L
+M6,2026-03-15,Valorant,Northside HS,Bind,61,54,29,W
+M7,2026-03-18,Overwatch 2,Eastview HS,King's Row,92,88,130,W
+M8,2026-03-22,Valorant,Westdale HS,Ascent,49,63,26,L
+M9,2026-03-25,Overwatch 2,South Ridge HS,Ilios,80,76,110,W
+M10,2026-03-28,Valorant,Eastview HS,Ascent,64,57,33,W
+M11,2026-03-30,Overwatch 2,Northside HS,King's Row,88,90,118,L
+M12,2026-04-02,Valorant,Westdale HS,Haven,53,50,27,W

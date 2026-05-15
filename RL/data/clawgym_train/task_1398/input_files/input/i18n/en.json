@@ -1,0 +1,9 @@
+{
+  "welcome_title": "Welcome to {app_name}",
+  "signup_cta": "Create account",
+  "email_placeholder": "Email address",
+  "password_placeholder": "Password",
+  "terms_ack": "I agree to the Terms of Service",
+  "push_optin_body": "Enable push notifications to get updates",
+  "promo_message": "Invite {count} friends to earn {reward}"
+}

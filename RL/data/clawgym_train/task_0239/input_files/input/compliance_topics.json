@@ -1,0 +1,6 @@
+[
+  {"topic": "PCI DSS", "notes": "Card-not-present e-commerce; tokens; last4 storage"},
+  {"topic": "PSD2 Strong Customer Authentication (SCA)", "notes": "EU customers using cards and online banking"},
+  {"topic": "NACHA WEB Debits", "notes": "US ACH debits authorized online"},
+  {"topic": "GLBA Safeguards Rule", "notes": "US customer data security for financial information"}
+]

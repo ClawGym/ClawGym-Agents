@@ -1,0 +1,9 @@
+{"turn_id":"t1","text":"Hey there — quick sync before we start.","intent":"casual","new_session":true,"pre_execution":false}
+{"turn_id":"t2","text":"What does HTTP 404 mean?","intent":"generic_qa","pre_execution":false}
+{"turn_id":"t3","text":"What's our status on OpenClaw deployment?","intent":"entity_reference","entities":["OpenClaw"],"pre_execution":false}
+{"turn_id":"t4","text":"Let's resume the previous work on the logging pipeline.","intent":"continuation","entities":["Agent-OS"],"pre_execution":false}
+{"turn_id":"t5","text":"Design a small plugin architecture for telemetry ingestion.","intent":"design_request","pre_execution":true}
+{"turn_id":"t6","text":"Modify ClawHub config to enable webhooks.","intent":"execution_request","entities":["ClawHub"],"pre_execution":false}
+{"turn_id":"t7","text":"Thanks!","intent":"casual","pre_execution":false}
+{"turn_id":"t8","text":"Can you implement the retry logic we discussed?","intent":"execution_request","pre_execution":true}
+{"turn_id":"t9","text":"From last time, pick up the remaining action items.","intent":"continuation","pre_execution":false}

@@ -1,0 +1,124 @@
+VoltEdge Technologies — Internal Memo
+Subject: Q2 2025 Reorganization, Security Policy v3.1, and Customer Commitments
+Date: 2025-04-29
+From: Maya Chen (CEO)
+To: All VoltEdge employees
+
+Overview
+- We are reorganizing around the Nexus Platform to accelerate regulated-bank workloads.
+- Security Policy v3.1 goes into effect on 2025-05-01 (CISO: Priya Nair owner).
+- Helios Bank: 2-year extension signed, with cloud migration and PSD3 module delivery commitments.
+- Incident recap: a minor staging data exposure on 2025-04-17 was contained swiftly; no customer PII exfiltration confirmed.
+- Cost savings: ~$1.2M annual run-rate from consolidating pipelines and teams.
+- Target reliability: 99.95% SLA on the Nexus Platform by end of Q2.
+
+Leadership and Team Structure (effective 2025-05-06)
+- CEO: Maya Chen
+- CTO: Luis Ortega
+- CISO: Priya Nair
+- VP Product: Samir Patel
+- Head of Platform: Julia Park
+- Head of Risk Intelligence: Omar Haddad
+- Head of Customer Solutions: Elena Rossi
+- Incident Response Lead: Ben Hollis
+
+New Operating Groups
+1) Platform Engineering (parent: Nexus Platform)
+   - Projects: Nexus Platform (core), Harbor Data Lake, Riverton Pipelines, Beacon Monitoring
+   - Headcount: +8 FTE (reallocated)
+   - Lead: Julia Park
+
+2) Risk Intelligence
+   - Projects: Atlas Risk Engine, Scoring SDK, Model Registry
+   - Headcount: +5 FTE
+   - Lead: Omar Haddad
+
+3) Customer Solutions
+   - Focus: bank integrations, migration playbooks, EU data residency
+   - Lead: Elena Rossi
+
+4) Security & Compliance
+   - Projects: Sentinel IAM, Key Management (EKM), audit automation
+   - Headcount: +3 FTE
+   - Lead: Priya Nair (with Incident Response Lead: Ben Hollis)
+
+Projects and Systems
+- Nexus Platform (platform): Consolidated execution fabric for real-time risk and data APIs.
+- Atlas Risk Engine (service): Model orchestration and explainability layer; EU AI Act guardrails to be enabled by default for high-risk use cases.
+- Harbor Data Lake (data): Tiered storage with GDPR-compliant retention.
+- Riverton Pipelines (ETL): Successor to legacy Quill ETL; deprecate Quill ETL by 2025-06-15.
+- Beacon Monitoring (tooling): SLO dashboards, incident timelines.
+- Sentinel IAM (security): Passwordless auth rollout with FIDO2/WebAuthn for workforce and admin consoles.
+
+Customer Commitments — Helios Bank
+- Organization: Helios Bank (EU mid-tier bank; HQ: Frankfurt)
+- Contacts: CIO — Anika Vogel; Program Manager — Tomasz Lewandowski
+- Contract: 2-year extension signed 2025-05-15; TCV ~$4.5M; KPI: 99.95% platform SLA
+- Migration: Move Helios Bank’s credit risk analytics from on-prem to Nexus Platform
+  - Cutover window: 2025-06-29 to 2025-06-30
+  - Cloud: Orion Cloud, eu-central-2 (Frankfurt) region
+  - Data residency: GDPR and EBA guidelines aligned
+- Regulatory scope: PSD3 (EU Payment Services Directive 3), EBA outsourcing guidelines; Atlas Risk Engine flagged as “high-risk AI” under EU AI Act — apply transparency, logging, and bias audits.
+- Decision: Build “PSD3-Comply” module (policy pack) integrated with Atlas and Sentinel IAM (SCA support)
+- Deliverables:
+  - PSD3-Comply v1.0 GA by 2025-06-10
+  - Atlas explainability reports enabled by default
+  - Sentinel IAM: FIDO2 admin access enforced by 2025-06-01 for Helios Bank tenants
+
+Security Policy v3.1 (effective 2025-05-01) — Owner: Priya Nair (CISO)
+- Access: Enforce FIDO2/WebAuthn for all workforce SSO; disable legacy TOTP for admin roles by 2025-06-01
+- Key Management: Rotate API keys every 90 days; migrate secrets into EKM-backed vault; audit trail retained 365 days
+- Data Retention: Reduce default retention from 365 to 180 days on Harbor Data Lake staging; production remains policy-driven per tenant
+- Encryption: Customer-managed keys supported (EKM) for Orion Cloud eu-central-2; AES-256-GCM at rest, TLS 1.3 in transit
+- AppSec Baseline: OWASP ASVS L2 for all external services; threat modeling required at feature kickoff; SAST/DAST gates on CI
+- Incident SLAs: P1 triage ≤ 15 minutes; customer comms ≤ 2 hours; public disclosure (if required) ≤ 72 hours
+
+Incidents (Q2 2025)
+1) 2025-04-17 — Harbor Data Lake staging exposure
+   - System: harbor-lake-staging (test S3-equivalent bucket)
+   - Duration: 42 minutes (09:13–09:55 CET)
+   - Discovery: Beacon Monitoring anomaly → IR team paged (12 min to triage)
+   - Impact: No customer PII; synthetic QA datasets only; forensics complete
+   - Remediation: Block public ACLs org-wide; EKM policy to deny non-regional keys; Terraform guardrails added
+   - Owner: Ben Hollis
+   - Status: Closed 2025-04-19
+
+2) 2025-03-05 — Phishing attempt on build engineers
+   - Vector: Lookalike domain targeting CI credentials
+   - Outcome: Blocked by Duo + user training; no compromise
+   - Action: Tightened SPF/DKIM/DMARC; Sentinel IAM just-in-time elevation
+
+Decisions
+- Deprecate Quill ETL in favor of Riverton Pipelines; migration toolkit available 2025-05-10
+- Prioritize Helios Bank cutover by 2025-06-30; freeze non-critical feature launches 2025-06-20–2025-07-02
+- Adopt Orion Cloud eu-central-2 for EU banking tenants (data residency)
+- Implement Atlas “fairness report” for high-risk models (EU AI Act alignment)
+- Establish “Banking Reliability Board” chaired by CTO Luis Ortega; weekly SLA review
+
+Key Quantitative Targets
+- SLA: 99.95% monthly
+- Annual savings: ~$1.2M via consolidation
+- Retention: staging 180 days (was 365)
+- Helios Bank TCV: ~$4.5M; extension term: 24 months
+- PSD3-Comply v1.0 delivery: 2025-06-10
+- FIDO2 enforcement (admins): 2025-06-01
+
+Stakeholders and Contacts
+- Maya Chen (CEO)
+- Luis Ortega (CTO)
+- Priya Nair (CISO)
+- Samir Patel (VP Product)
+- Julia Park (Head of Platform)
+- Omar Haddad (Head of Risk Intelligence)
+- Elena Rossi (Head of Customer Solutions)
+- Ben Hollis (Incident Response Lead)
+- External: Helios Bank — Anika Vogel (CIO), Tomasz Lewandowski (Program Manager)
+- External regulators/policies referenced: EBA, PSD3, EU AI Act, GDPR
+
+Appendix — Glossary
+- Nexus Platform: VoltEdge’s execution and API platform
+- Atlas Risk Engine: Model orchestration and explainability service
+- Harbor Data Lake: Tiered data storage layer
+- Riverton Pipelines: Managed ETL and scheduling
+- Beacon Monitoring: Observability & incident timeline tool
+- Sentinel IAM: Identity and access management service

@@ -1,0 +1,4 @@
+SKU,avg_30d_daily,avg_60d_daily,avg_90d_daily,on_hand,in_transit,supplier_processing_days,shipping_transit_days,unit_cost,order_cost_per_PO,monthly_storage_fee_per_unit,daily_demand_stddev,case_pack,seasonal_multiplier
+B-RED-LG,11.0,10.4,10.0,220,78,20,12,7.00,120,0.64,3.0,24,1.05
+C-BLU-MD,11.0,10.0,9.5,450,150,15,10,6.00,120,0.53,2.0,12,1.00
+D-GRN-SM,3.4,3.2,3.0,700,200,18,27,4.00,180,0.46,1.2,48,1.00

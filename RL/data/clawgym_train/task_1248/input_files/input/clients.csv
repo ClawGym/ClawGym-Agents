@@ -1,0 +1,9 @@
+client_id,first_name,last_name,email,status,age,tags,preferred_days,preferred_hour_local,timezone
+C001,Emily,Chen,emily.chen@example.com,renter,27,first-time-buyer|credit|condo,Tue|Thu,18:30,America/Chicago
+C002,Robert,Davis,robert.davis@example.com,homeowner,66,retirement|downsizing|suburb,Tue|Sat,10:00,America/New_York
+C003,Priya,Patel,priya.patel@example.com,renter,34,budget|mortgage|family,Wed,19:00,America/Los_Angeles
+C004,Michael,Johnson,michael.johnson@example.com,homeowner,44,investment|market-update,Fri,08:30,America/New_York
+C005,Linda,Nguyen,linda.nguyen@example.com,homeowner,61,condo|simplify,Mon|Wed,09:00,America/Chicago
+C006,Carlos,Rivera,carlos.rivera@example.com,renter,29,open-house|first-time-buyer,Sat,11:00,America/Denver
+C007,Sophia,Martinez,sophia.martinez@example.com,homeowner,58,downsizing|retirement|city,Thu,14:00,America/Los_Angeles
+C008,Jason,Brooks,jason.brooks@example.com,renter,41,credit|mortgage,Tue,18:00,America/New_York

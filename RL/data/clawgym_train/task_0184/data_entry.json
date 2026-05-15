@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0184",
+  "user_query": "Please set up a local registry of PostgreSQL tools and resources that stores its data under output/registry, then populate and report on it as follows:\n\n1) Initialize the registry and confirm it uses output/registry for its data.\n2) Read input/resources.csv (columns: name, category, url, description). Add each row as a single entry to the registry with the exact text payload formatted as: \"<name> | <category> | <url> | <description>\".\n3) After all entries are added, list the registry and save the full listing to output/list.txt.\n4) Read input/queries.txt (one search term per line). For each term (trimmed, case-insensitive search):\n   - Run a search against the registry.\n   - Save the exact search output to a separate file at output/search/<term_normalized>.txt where <term_normalized> is the term lowercased with spaces replaced by underscores.\n5) Export the full registry to output/export/all.txt.\n6) Build a JSON report at output/search_summary.json with this structure:\n   {\n     \"total_entries\": <number>,\n     \"queries\": [\n       {\"term\": \"<original term>\", \"matches\": <count of matching lines>}, ...\n     ]\n   }\n   Notes:\n   - total_entries must equal the number of rows in input/resources.csv that you added.\n   - matches for each term must equal the number of lines in the corresponding output/search/<term_normalized>.txt that are real hits (do not count any line that says \"Not found\").\n7) Write a status file to output/status.json with:\n   {\n     \"data_dir\": \"output/registry\",\n     \"ready\": true\n   }\n   Use the tool's status to determine readiness.\n\nMake sure all files are written exactly to the specified output/ paths and that each non-\"Not found\" search result line corresponds to an entry present in the exported registry.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

@@ -1,0 +1,9 @@
+{
+  "task_id": "task_0664",
+  "user_query": "Help me stand up a simple local job application tracker for the three applications in input/applications.jsonl. Read that file and add each application using the provided fields (map JSON keys like applied_on -> --applied-on, next_follow_up -> --next-follow-up, contact_name -> --contact-name, etc.). After adding, update the application for company \"Contoso\" and role \"ML Engineer\" to status \"interview\", add the note \"Recruiter screen passed; schedule technical\", and set the next follow-up to 2026-04-06.\n\nThen:\n- List all applications with status \"interview\" and save the exact JSON output to output/list_interview.json.\n- Show follow-ups due starting 2026-04-01 over a 10-day window and save that exact JSON to output/due_apr1_10days.json.\n- Generate a pipeline summary and save the exact JSON to output/summary.json.\n\nFor reproducibility, also save:\n- The raw JSON outputs from each add operation (one JSON object per line) to output/add_responses.jsonl.\n- The raw JSON output from the update operation to output/update_response.json.\n\nFinally, write a short human-readable pipeline summary to output/pipeline.md that includes:\n- Bullet points with \"By status\" counts matching the JSON summary\n- A \"Next actions\" section referencing at least one date within 2026-04-01 to 2026-04-11\n- A line that mentions \"Contoso — ML Engineer: interview\"\n\nUse only relative paths (input/, output/). Do not invent missing data; if a required field is absent for any record, call it out and skip that record instead of adding bad data.",
+  "metadata": {
+    "category": "",
+    "grading_type": "automated"
+  },
+  "input_mount_dir": "/root/.openclaw/workspace"
+}

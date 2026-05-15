@@ -1,0 +1,17 @@
+name,email,tz,date,start_local,end_local
+Alex Rivera,alex.rivera@example.com,America/Los_Angeles,2026-04-21,09:00,12:00
+Brooke Chen,brooke.chen@example.com,America/New_York,2026-04-21,11:00,16:00
+Casey Patel,casey.patel@example.com,Europe/London,2026-04-21,15:00,18:30
+Devon Krause,devon.krause@example.com,Europe/Berlin,2026-04-21,16:00,19:30
+Emery Singh,emery.singh@example.com,Asia/Kolkata,2026-04-21,19:30,23:00
+Alex Rivera,alex.rivera@example.com,America/Los_Angeles,2026-04-23,13:00,17:00
+Brooke Chen,brooke.chen@example.com,America/New_York,2026-04-23,10:00,12:00
+Brooke Chen,brooke.chen@example.com,America/New_York,2026-04-23,14:00,17:00
+Casey Patel,casey.patel@example.com,Europe/London,2026-04-23,14:00,17:00
+Devon Krause,devon.krause@example.com,Europe/Berlin,2026-04-23,15:00,18:00
+Emery Singh,emery.singh@example.com,Asia/Kolkata,2026-04-23,18:30,21:30
+Alex Rivera,alex.rivera@example.com,America/Los_Angeles,2026-04-24,09:00,11:00
+Brooke Chen,brooke.chen@example.com,America/New_York,2026-04-24,09:00,11:30
+Casey Patel,casey.patel@example.com,Europe/London,2026-04-24,13:00,16:00
+Devon Krause,devon.krause@example.com,Europe/Berlin,2026-04-24,14:00,17:00
+Emery Singh,emery.singh@example.com,Asia/Kolkata,2026-04-24,18:00,21:00
