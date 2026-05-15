@@ -12,10 +12,9 @@ We provide ClawGym-Data and ClawGym-Agents as follows:
 | --- | --- |
 | ClawGym-4B | [🤗 HuggingFace](https://huggingface.co/RUC-AIBOX/ClawGym-4B ) |
 | ClawGym-8B | [🤗 HuggingFace](https://huggingface.co/RUC-AIBOX/ClawGym-8B ) |
-| ClawGym-30A3 | [🤗 HuggingFace](https://huggingface.co/RUC-AIBOX/ClawGym-30A
-3 ) |
+| ClawGym-30A3 | [🤗 HuggingFace](https://huggingface.co/RUC-AIBOX/ClawGym-30A3 ) |
 |  |  |
 
 
 ## Training Code
-Please refer to [SFT]() and [RL]().
+Please refer to [SFT](https://github.com/ClawGym/ClawGym-Agents/tree/main/SFT) and [RL](https://github.com/ClawGym/ClawGym-Agents/tree/main/RL).
