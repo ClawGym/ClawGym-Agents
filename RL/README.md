@@ -25,7 +25,7 @@ Run inside the [slimerl/slime:latest](https://thudm.github.io/slime/get_started/
 install the trainer in editable mode:
 
 ```bash
-cd ClawGym-RL
+cd ClawGym-Agents/RL
 pip install -e ./slime --no-deps
 ```
 
