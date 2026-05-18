@@ -78,7 +78,7 @@ class SFTDataset(Dataset):
             self.prompt_ids_lens = processed_dataset["prompt_ids_len"]
             self.response_ranges = processed_dataset["response_ranges"] if self.multiturn else None
             
-        else: #这是multiturn的，直接训太慢了，需要提前处理好
+        else:
             processed_dataset = dataset
             processed_dataset = processed_dataset.filter(lambda x: x["prompt"] is not None)
             self.prompts = processed_dataset["prompt"]
@@ -89,11 +89,9 @@ class SFTDataset(Dataset):
 
 
     def process_data(self, data):
-        # kill
-        # 假设 data 是 dict 或 batch
         if not hasattr(self, "_process_count"):
             self._process_count = 0
-            self._total = len(data["some_key"]) if "some_key" in data else 0  # 或传入总数
+            self._total = len(data["some_key"]) if "some_key" in data else 0 
         self._process_count += 1
         if self._process_count % 100 == 0:
             print(f"Processed {self._process_count} samples"*10)
@@ -108,88 +106,6 @@ class SFTDataset(Dataset):
             ), "You should put the whole trajactory into data[input_key] and do not set output_key"
             input_key = self.input_key
             apply_chat_template = self.apply_chat_template
-            # print(self.apply_chat_template)
-            # kill
-            # response_ranges = []
-            # response_prompts = []
-            # response_texts = []
-            # assistant_indices = []
-            # for idx, message in enumerate(data[input_key]):
-            #     if message["role"] == "assistant":
-            #         prompt = apply_chat_template(
-            #             data[input_key][:idx],
-            #             tokenize=False,
-            #             add_generation_prompt=True,
-            #         )
-            #         response = apply_chat_template(
-            #             data[input_key][:idx + 1],
-            #             tokenize=False
-            #         )[len(prompt):]
-
-            #         response_prompts.append(prompt)
-            #         response_texts.append(response)
-            #         assistant_indices.append(idx)
-            # prompt_tokens = self.tokenizer(
-            #                 response_prompts,
-            #                 max_length=self.max_length,
-            #                 padding=False,
-            #                 truncation=True,
-            #                 return_tensors=None, 
-            #                 add_special_tokens=False,
-            #             )
-            # response_tokens = self.tokenizer(
-            #                 response_texts,
-            #                 max_length=self.max_length,
-            #                 padding=False,
-            #                 truncation=True,
-            #                 return_tensors=None, 
-            #                 add_special_tokens=False,
-            #             )
-
-            # prompt_lens = [sum(x) for x in prompt_tokens["attention_mask"]]
-            # response_lens = [sum(x) for x in response_tokens["attention_mask"]]
-
-            # response_ranges = []
-            # for p_len, r_len in zip(prompt_lens, response_lens):
-            #     start_idx = p_len
-            #     end_idx = p_len + r_len - 1
-            #     response_ranges.append((start_idx, end_idx))
-
-            # for idx, message in enumerate(data[input_key]):
-            #     if message["role"] == "assistant":
-            #         prompt = apply_chat_template(data[input_key][:idx], tokenize=False, add_generation_prompt=True)
-            #         response = apply_chat_template(data[input_key][: idx + 1], tokenize=False)[len(prompt) :]
-
-            #         start_idx = (
-            #             self.tokenizer(
-            #                 prompt,
-            #                 max_length=self.max_length,
-            #                 padding=False,
-            #                 truncation=True,
-            #                 return_tensors="pt",
-            #                 add_special_tokens=False,
-            #             )["attention_mask"]
-            #             .int()
-            #             .sum()
-            #             .item()
-            #         )
-
-            #         end_idx = (
-            #             start_idx
-            #             + self.tokenizer(
-            #                 response,
-            #                 max_length=self.max_length,
-            #                 padding=False,
-            #                 truncation=True,
-            #                 return_tensors="pt",
-            #                 add_special_tokens=False,
-            #             )["attention_mask"]
-            #             .int()
-            #             .sum()
-            #             .item()
-            #             - 1
-            #         )
-            #         response_ranges.append((start_idx, end_idx))  # left close right close
         
         prompt, response = preprocess_data(
             data,
@@ -199,8 +115,6 @@ class SFTDataset(Dataset):
             apply_chat_template=None if self.pretrain_mode else self.apply_chat_template,
             multiturn=self.multiturn,
         )
-        # print(prompt)
-        # kill
 
         if not self.pretrain_mode:
             prompt_token = self.tokenizer(
@@ -213,8 +127,6 @@ class SFTDataset(Dataset):
             )
             prompt_ids_len = prompt_token["attention_mask"].int().sum().item()
             # filter the sample whose length is greater than max_length (2 for answer length)
-            # print((prompt_ids_len))
-            # print(self.max_length)
             if not prompt or not response or prompt_ids_len >= self.max_length - 2:
                 prompt = None
         else:
@@ -321,16 +233,16 @@ if __name__ == "__main__":
             kill
 
         return dataset
-    print("====开始测试！！====")
+    print("====Eval Start====")
     from transformers import AutoTokenizer
     from datasets import Dataset
-    data_file = "/code/sunshuang/R2E-Gym-fork/results/11_25_merged_all_glm_minimax_filter_80K_w_bueget_aware_submit_success.jsonl"
+    data_file = "path_to_/results/data_submit_success.jsonl"
     train_data = blending_datasets(data_file)
     
     hf_dataset = Dataset.from_list(data)
     print(len(hf_dataset))
     # exit()
-    tokenizer = AutoTokenizer.from_pretrained("/models/songhuatong/Qwen3-Coder-30B-A3B-Instruct")
+    tokenizer = AutoTokenizer.from_pretrained("path_to_Qwen3-Coder-30B-A3B-Instruct")
     class Args:
         input_key = "input"
         output_key = None
@@ -343,24 +255,22 @@ if __name__ == "__main__":
         tokenizer=tokenizer,
         max_length=128000,
         strategy=Strategy(),
-        multiturn=True,  # 测试多轮功能
+        multiturn=True,
         pretrain_mode=False,
     )
     print(len(dataset))
     exit()
     input_ids, attention_mask, loss_mask = dataset[0]
-    mask = loss_mask[0]  # 取第一维
+    mask = loss_mask[0]
     ranges = []
     start_idx = 0
     current_val = mask[0].item()
     for i in range(1, len(mask)):
         if mask[i].item() != current_val:
-            # 记录一个区间： [start_idx, i)
             ranges.append([start_idx, i])
             start_idx = i
             current_val = mask[i].item()
 
-    # 记录最后一个区间
     ranges.append([ start_idx, len(mask)])
     inputs_id = input_ids[0]
     print(len(inputs_id))
@@ -371,9 +281,6 @@ if __name__ == "__main__":
     
         print("=="*50)
 
-    
-    # print("input_ids:", )
-    # print("decoded input:", tokenizer.decode(input_ids[0]))
     print("input_ids:", input_ids)
     print("attention_mask:", attention_mask)
     print("loss_mask:", loss_mask)
