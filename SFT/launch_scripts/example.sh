@@ -1,14 +1,6 @@
 #!/usr/bin/env bash
 set -xeuo pipefail
 
-# export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
-
-# 按需指定通信网卡；如果你们机器默认路由就是 172.16.*，通常可不写
-# export NCCL_SOCKET_IFNAME=eth0
-# export NCCL_DEBUG=INFO
-
-
-
 deepspeed \
    --module openrlhf.cli.train_sft \
    --max_len 65536 \
@@ -35,5 +27,4 @@ deepspeed \
    --apply_chat_template \
    --multiturn \
    --use_tensorboard /volume/posttrain/users/lyang/openclaw-sft/tensorboard/4b-w-desp-reward05-all-based-04_181920-data \
-   --ring_attn_size 4 \
-   # --ring_head_stride 2 \
+   --ring_attn_size 4
