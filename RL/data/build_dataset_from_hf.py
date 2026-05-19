@@ -3,7 +3,7 @@
 layout consumed by the ClawGym-RL trainer (see ``data/DATASET_README.md``).
 
 The Hugging Face dataset ``RUC-AIBOX/ClawGym-Task`` ships a single file
-``syn_task.jsonl`` containing ~15K executable tasks. Each line is a JSON
+``syn_task.jsonl`` containing ~13.5K executable tasks. Each line is a JSON
 object of the form::
 
     {
