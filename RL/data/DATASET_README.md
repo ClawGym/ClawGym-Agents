@@ -9,7 +9,7 @@ Two ready-to-use splits in this repository:
 
 ## Rebuild from Hugging Face
 
-The full ~15.6K-task corpus is hosted at
+The full ~13.5K-task is hosted at
 [RUC-AIBOX/ClawGym-Task](https://huggingface.co/datasets/RUC-AIBOX/ClawGym-Task).
 [data/build_dataset_from_hf.py](build_dataset_from_hf.py) downloads it and
 writes the per-task directory layout in one step:
