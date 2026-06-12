@@ -1,0 +1,10 @@
+2026-04-17T09:00:01+08:00 level=INFO event=schedule post_id=20260417-0900 attempt=1 result=timeout ms=5000
+2026-04-17T09:00:07+08:00 level=WARN event=retry post_id=20260417-0900 attempt=2 reason=timeout
+2026-04-17T09:00:08+08:00 level=INFO event=publish post_id=20260417-0900 attempt=2 status=201 possible_duplicate=true
+2026-04-17T09:05:00+08:00 level=INFO event=schedule post_id=20260417-0905 attempt=1 result=timeout ms=5000
+2026-04-17T09:05:06+08:00 level=WARN event=retry post_id=20260417-0905 attempt=2 reason=timeout
+2026-04-17T09:05:12+08:00 level=WARN event=retry post_id=20260417-0905 attempt=3 reason=timeout
+2026-04-17T09:05:18+08:00 level=WARN event=retry post_id=20260417-0905 attempt=4 reason=timeout
+2026-04-17T09:05:25+08:00 level=ERROR event=timeout post_id=20260417-0905 attempt=5
+2026-04-17T09:05:31+08:00 level=INFO event=publish post_id=20260417-0905 attempt=6 status=201 possible_duplicate=false
+2026-04-17T09:12:00+08:00 level=INFO event=schedule post_id=20260417-0912 attempt=1 result=ok status=201
