@@ -21,8 +21,7 @@ task is virtualized into an independent sandbox. Advantages:
 
 ## Setup
 
-Run inside the [slimerl/slime:latest](https://thudm.github.io/slime/get_started/quick_start.html#pull-and-start-docker-containere) docker image, then
-install the trainer in editable mode:
+Run inside the [slimerl/slime:v0.2.4](https://hub.docker.com/layers/slimerl/slime/v0.2.4/images/sha256-ffdd54cdcd122412fec46aca6659a577da9d4f950bcf36ffc1d5b734231c8dea) docker image, then install the trainer in editable mode:
 
 ```bash
 cd ClawGym-Agents/RL
